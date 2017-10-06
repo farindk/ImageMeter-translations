@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-10-05 12:44+0200\n"
-"PO-Revision-Date: 2017-10-04 17:59+0200\n"
+"POT-Creation-Date: 2017-10-06 11:34+0200\n"
+"PO-Revision-Date: 2017-10-05 20:43+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=((n == 1) ? 0 : 1)\n"
@@ -24,7 +24,7 @@ msgstr "με αναβάθμιση σε pro"
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
-msgstr "Αποδέσμευση"
+msgstr "Κλείσιμο"
 
 msgctxt "generic_dialog_title_error"
 msgid "Error"
@@ -138,7 +138,7 @@ msgstr "Εισαγωγή εικόνων από τη δωρεάν εφαρμογ�
 
 msgctxt "imageselect_menu_tipofday"
 msgid "Show tip of the day"
-msgstr "Να εμφανίζονται οι καθημερινές συμβουλές"
+msgstr "Να εμφανίζονται οι συμβουλές"
 
 msgctxt "imageselect_menu_about_app"
 msgid "About app..."
@@ -717,9 +717,7 @@ msgstr "Μέγιστο μέγεθος εικόνας"
 
 msgctxt "pref_editor_max_image_size_dialog"
 msgid "Max. image width in editor (limits memory usage)"
-msgstr ""
-"Μέγιστο πλάτος εικόνας στο περιβάλλον εργασίας (περιορίζει τη χρήση "
-"μνήμης)"
+msgstr "Μέγιστο πλάτος εικόνας στην οθόνη"
 
 msgctxt "pref_editor_max_image_size_choices:0"
 msgid "640 pixels"
@@ -1137,8 +1135,8 @@ msgstr "Ομαλοποίηση γραμμών"
 msgctxt "pref_export_hardware_msaa_summaryon"
 msgid "Enabled (some buggy GPUs may draw black images only)"
 msgstr ""
-"Ενεργή (μερικές προβληματικές κάρτες γραφικών μπορεί να βγάζουν μόνο "
-"μαύρες εικόνες)"
+"Ενεργή (μερικές προβληματικές κάρτες γραφικών μπορεί να βγάζουν μαύρες "
+"εικόνες)"
 
 msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
@@ -1194,7 +1192,7 @@ msgstr "Εικόνα ImageMeter"
 
 msgctxt "pref_export_render_image_title"
 msgid "Show image title"
-msgstr "Να εμφανίζεται ο τίτλος της εικόνας"
+msgstr "Να φαίνεται το όνομα εικόνας"
 
 msgctxt "pref_category_export_zip"
 msgid "ZIP archive settings"
@@ -1202,11 +1200,11 @@ msgstr "Ρυθμίσεις αρχείου ZIP"
 
 msgctxt "pref_export_zip_include_annotated_image"
 msgid "Include annotated images"
-msgstr "Να περιλαμβάνει τις εικόνες με σημειώσεις"
+msgstr "Εικόνες με διαστάσεις"
 
 msgctxt "pref_export_zip_include_original_image"
 msgid "Include original images"
-msgstr "Να περιλαμβάνει τις πρωτότυπες εικόνες"
+msgstr "Πρωτότυπες εικόνες"
 
 msgctxt "pref_export_zip_include_csv"
 msgid "Include CSV file"
@@ -1286,7 +1284,7 @@ msgstr "Δεν θα περιστραφούν"
 
 msgctxt "pref_export_pdf_separate_landscape_portrait"
 msgid "Separate landscape/portrait in PDF"
-msgstr "Χωριστή διάταξη σελίδων οριζόντια/κάθετα στο PDF"
+msgstr "Χωριστή διάταξη οριζόντια/κάθετα"
 
 msgctxt "pref_export_pdf_separate_landscape_portrait_dialog"
 msgid "When to separate landscape/portrait in PDF"
@@ -1431,13 +1429,11 @@ msgstr "Suaoki/Mileseey"
 
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
 msgid "LTI TruPulse distance mode"
-msgstr "LTI TruPulse distance mode"
+msgstr "LTI TruPulse επιλογή απόστασης"
 
 msgctxt "pref_bluetooth_trupulse_distance_mode_dialog_title"
 msgid "Choose which distance to transmit to app (LTI TruPulse only)"
-msgstr ""
-"Επιλέξτε σε ποια απόσταση θα στέλνει στην εφαρμογή (μόνο για το LTI "
-"TruPulse)"
+msgstr "Ποια απόσταση στέλνει στην εφαρμογή (μόνο LTI TruPulse)"
 
 msgctxt "pref_bluetooth_trupulse_distance_mode_choices:0"
 msgid "Slope distance (SD)"
@@ -1465,7 +1461,7 @@ msgstr "Να μην επανασυνδέεται αυτόματα το Bluetooth
 
 msgctxt "pref_bluetooth_use_device_format"
 msgid "Use device value format"
-msgstr "Χρησιμοποιήστε τις ρυθμίσεις αποτελεσμάτων της συσκευής"
+msgstr "Χρήση ρυθμίσεων συσκευής"
 
 msgctxt "pref_bluetooth_use_device_format_summaryon"
 msgid "Same value format (not available for all devices)"
@@ -1481,11 +1477,11 @@ msgstr "Περιβάλλον χρήστη"
 
 msgctxt "pref_ui_tip_of_day_enabled"
 msgid "Enable tip of the day"
-msgstr "Να εμφανίζονται οι καθημερινές συμβουλές"
+msgstr "Να εμφανίζονται οι συμβουλές"
 
 msgctxt "pref_ui_tip_of_day_enabled_summaryon"
 msgid "Tip of the day will be shown at app start"
-msgstr "Να εμφανίζονται οι καθημερινές συμβουλές στην έναρξη της εφαρμογής"
+msgstr "Να εμφανίζονται οι συμβουλές στην έναρξη"
 
 msgctxt "pref_ui_tip_of_day_enabled_summaryoff"
 msgid "Tip of the day will not be shown"
@@ -1493,19 +1489,19 @@ msgstr "Να μην εμφανίζονται"
 
 msgctxt "pref_ui_faq_button_enabled"
 msgid "Enable FAQ button"
-msgstr "Ενεργοποίηση κουμπιού συχνών ερωτήσεων"
+msgstr "Κουμπί συχνών ερωτήσεων"
 
 msgctxt "pref_ui_rename_image_after_capture_enabled"
 msgid "Rename image after capture"
-msgstr "Μετονομασία εικόνας μετά την σύλληψη"
+msgstr "Μετονομασία μετά την σύλληψη"
 
 msgctxt "pref_ui_edit_image_after_capture_enabled"
 msgid "Edit image after capture"
-msgstr "Επεξεργασία εικόνας μετά την σύλληψη"
+msgstr "Επεξεργασία μετά την σύλληψη"
 
 msgctxt "pref_ui_show_directory_after_export_enabled"
 msgid "Tell directory after export"
-msgstr "Πληροφόρηση για τον κατάλογο μετά την εξαγωγή"
+msgstr "Πληροφόρηση καταλόγου"
 
 msgctxt "pref_ui_helpbar_mode"
 msgid "Help messages"
@@ -1529,19 +1525,19 @@ msgstr "Ενεργοποίηση μεγεθυντή"
 
 msgctxt "pref_ui_magnifier_mode_active"
 msgid "Magnifier mode for active element"
-msgstr "Στιλ μεγεθυντή για ενεργό στοιχείο"
+msgstr "Στιλ μεγεθυντή - ενεργό στοιχείο"
 
 msgctxt "pref_ui_magnifier_mode_active_dialog"
 msgid "Choose how to draw active element in magnifier"
-msgstr "Επιλέξτε πως σχεδιάζεται το ενεργό στοιχείο με τον μεγεθυντή"
+msgstr "Επιλογές εμφάνισης ενεργού στοιχείου"
 
 msgctxt "pref_ui_magnifier_mode_nonactive"
 msgid "Magnifier mode for non-active elements"
-msgstr "Στιλ μεγεθυντή για ανενεργά στοιχεία"
+msgstr "Στιλ μεγεθυντή - ανενεργό στοιχείο"
 
 msgctxt "pref_ui_magnifier_mode_nonactive_dialog"
 msgid "Choose how to draw non-active elements in magnifier"
-msgstr "Επιλέξτε πως σχεδιάζοναι τα ανενεργά στοιχεία με τον μεγεθυντή"
+msgstr "Επιλογές εμφάνισης ανενεργού στοιχείου"
 
 msgctxt "pref_ui_magnifier_mode_choices:0"
 msgid "Do not show"
@@ -1605,7 +1601,7 @@ msgstr "Ημερομηνία σύλληψης (πρώτα οι νεότερες)
 
 msgctxt "pref_ui_editor_fullscreen_mode_title"
 msgid "Editor fullscreen mode"
-msgstr "Περιβάλλον εργασίας σε ολόκληρη οθόνη"
+msgstr "Εργασία σε ολόκληρη οθόνη"
 
 msgctxt "pref_ui_editor_fullscreen_mode_dialog"
 msgid "Editor fullscreen mode"
@@ -1896,8 +1892,8 @@ msgid ""
 "Please position the text area by pointing at the target location and then"
 " dragging the textbox to the end of the arrow."
 msgstr ""
-"Τοποθετήστε τη σημείωση αγγίζοντας πρώτα το σημείο που θέλετε δείχνει το "
-"βέλος και μετά σύροντας το κουτί κειμένου σε όποιο σημείο θέλετε."
+"Αγγίξτε πρώτα το σημείο που θέλετε να δείχνει το βέλος και μετά σύρτε το "
+"κουτί κειμένου όπου θέλετε."
 
 msgctxt "editor_hint_howto_draw_circle"
 msgid "Please point to the circle center and drag to specify the circle size."
@@ -1907,7 +1903,9 @@ msgstr ""
 
 msgctxt "editor_hint_howto_draw_freehand"
 msgid "You are now drawing in freehand mode until you press the close button."
-msgstr "Τώρα σχεδιάζετε με ελεύθερο τρόπο μέχρι να πατήσετε το κουμπί κλεισίματος."
+msgstr ""
+"Τώρα σχεδιάζετε με ελεύθερο τρόπο μέχρι να πατήσετε το κουμπί "
+"κλεισίματος, πάνω δεξιά."
 
 msgctxt "editor_hint_howto_attach_to_reference"
 msgid "Click on the measure you want to compute based on the selected reference."
@@ -1928,8 +1926,8 @@ msgid ""
 "There is no reference in the image! You need to draw a reference in order"
 " to do automatic computations."
 msgstr ""
-"Δεν υπάρχει αναφορά στην εικόνα! Πρέπει να σχεδιάσετε μία, ώστε να "
-"μπορείτε να κάνετε αυτόματους υπολογισμούς."
+"Δεν υπάρχει αναφορά! Σχεδιάστε μία, ώστε να μπορείτε να κάνετε αυτόματους"
+" υπολογισμούς."
 
 msgctxt "editor_error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -1981,7 +1979,7 @@ msgstr "Πάχος γραμμής"
 
 msgctxt "editor_dialog_style_freehand_outline_width"
 msgid "Outline width"
-msgstr "Πάχος περιγράμματος"
+msgstr "Περίγραμμα"
 
 msgctxt "editor_dialog_style_freehand_line_pattern"
 msgid "Line pattern"
@@ -2013,7 +2011,7 @@ msgstr "Πάχος γραμμής"
 
 msgctxt "editor_dialog_style_measure_linecap_magnification"
 msgid "Line cap size"
-msgstr "Μέγεθος του γραφικού, στο τέλος της γραμμής"
+msgstr "Μέγεθος σημαδιού"
 
 msgctxt "editor_dialog_style_measure_text_position"
 msgid "Text position"
@@ -2021,13 +2019,12 @@ msgstr "Θέση κειμένου"
 
 msgctxt "editor_dialog_style_measure_text_position_choices:0"
 msgid "Above line"
-msgstr "Πάνω από τη γραμμή"
+msgstr "Πάνω απ' τη γραμμή"
 
 msgctxt "editor_dialog_style_measure_text_position_choices:1"
 msgid "Within line"
 msgstr "Πάνω στη γραμμή"
 
-#, fuzzy
 msgctxt "editor_dialog_style_measure_inverted_drawing"
 msgid "Inverted drawing"
 msgstr "Αντίστροφη σχεδίαση"
@@ -2038,7 +2035,7 @@ msgstr "Ποτέ"
 
 msgctxt "editor_dialog_style_measure_inverted_drawing_choices:1"
 msgid "When too narrow"
-msgstr "Όταν είναι πολύ στενά"
+msgstr "Ανάλογα"
 
 msgctxt "editor_dialog_style_measure_inverted_drawing_choices:2"
 msgid "Always"
@@ -2100,7 +2097,6 @@ msgctxt "editor_dialog_style_rect_info_set_default_reference_size_title"
 msgid "Default Reference Size"
 msgstr "Προκαθορισμένο μέγεθος αναφοράς"
 
-#, fuzzy
 msgctxt "editor_dialog_style_rect_info_set_default_reference_size_text"
 msgid ""
 "This button stores the currently entered reference dimensions as the "
@@ -2419,7 +2415,7 @@ msgstr "βρετανικό (1' 10 1/32\")"
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:2"
 msgid "fractional inches (1 1/32\")"
-msgstr "κλασματικές διαιρέσεις της ίντσας (1 1/32\")"
+msgstr "κλάσματα της ίντσας (1 1/32\")"
 
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:3"
@@ -2441,7 +2437,7 @@ msgstr "βρετανικό (1' 10 1/32\")"
 
 msgctxt "dimension_format_length_readonly_choices:2"
 msgid "fractional inches (1 1/32\")"
-msgstr "κλασματικές διαιρέσεις της ίντσας (1 1/32\")"
+msgstr "κλάσματα της ίντσας (1 1/32\")"
 
 msgctxt "dimension_format_length_readonly_choices:3"
 msgid "imperial (1.00 ft)"
@@ -2527,10 +2523,9 @@ msgctxt "textbox_text_hint"
 msgid "No text"
 msgstr "Χωρίς κείμενο"
 
-#, fuzzy
 msgctxt "textbox_keep_custom_text"
 msgid "(keep custom text)"
-msgstr "(κρατήστε το τυχαίο κείμενο)"
+msgstr "(τυχαίο κείμενο)"
 
 msgctxt "textbox_hint_undefined_text"
 msgid "click to enter text"
@@ -2592,7 +2587,7 @@ msgstr ""
 "Παρακαλώ συνδυάστε τη συσκευή σας Bluetooth με την συσκευή Android. Μετά,"
 " ανοίξτε τις ρυθμίσεις της εφαρμογής και επιλέξτε την συσκευή Bluetooth "
 "για χρήση. Οι συσκευές Bluetooth Smart δεν χρειάζονται συνδυασμό με τη "
-"συσκευή Android, αλλά όμως πρέει να είναι ανοικτές για να φανούν στις "
+"συσκευή Android, αλλά όμως πρέπει να είναι ανοικτές για να φανούν στις "
 "επιλογές συσκευής."
 
 #. 151209
@@ -2703,7 +2698,6 @@ msgctxt "inapp_dialog_upgrade_benefits_title"
 msgid "Upgrade to pro version"
 msgstr "Αναβαθμιστείτε στην έκδοση pro"
 
-#, fuzzy
 msgctxt "inapp_dialog_upgrade_benefits_text"
 msgid ""
 "Upgrading will give you these benefits:\n"
@@ -2723,7 +2717,7 @@ msgstr ""
 "- απεριόριστες σημειώσεις,\n"
 "- εργαλείο μέτρησης κύκλου,\n"
 "- εξαγόμενες εικόνες χωρίς λογότυπο,\n"
-"- μετρήσεις bluetooth με απεριόριστη απόσταση.\n"
+"- μετρήσεις Bluetooth με απεριόριστη απόσταση.\n"
 "\n"
 "Αυτή η αναβάθμιση σας δίνει όλα τα χαρακτηριστικά της έκδοσης pro.\n"
 "\n"
@@ -2768,7 +2762,6 @@ msgctxt "inapp_dialog_upgrade_active_title"
 msgid "Upgrade active"
 msgstr "Η αναβάθμιση είναι ενεργή"
 
-#, fuzzy
 msgctxt "inapp_dialog_upgrade_active_text"
 msgid ""
 "The pro upgrade is now active.\n"
@@ -2856,7 +2849,6 @@ msgstr ""
 "Μπορείτε να εξάγετε PDF με όλες τις εικόνες που περιέχονται στο φάκελο: "
 "μακρύ κλικ πάνω στο φάκελο και μετά επιλέξτε εξαγωγή."
 
-#, fuzzy
 msgctxt "tip_disable_tips"
 msgid "You can disable the tip of the day dialog in the settings."
 msgstr "Μπορείτε να απενεργοποιήσετε τις καθημερινές συμβουλές στις ρυθμίσεις."
@@ -3027,7 +3019,7 @@ msgstr ""
 #. todo: add an example picture
 msgctxt "faq_auto_measure_ref_objects_q"
 msgid "What kind of objects can I use as references?"
-msgstr "Τι είδος αντικειμένων μπορώ να χρησιμοποιήσω σαν αναφορά;"
+msgstr "Τι είδος αντικειμένου μπορώ να χρησιμοποιήσω σαν αναφορά;"
 
 msgctxt "faq_auto_measure_ref_objects_a"
 msgid ""
@@ -3168,10 +3160,9 @@ msgstr ""
 "Σημειώστε ότι &lt;b>δεν πρέπει να&lt;/b> χρησιμοποιήσετε το διάλογο για "
 "να στείλετε την τιμή."
 
-#, fuzzy
 msgctxt "faq_other_section"
 msgid "Other"
-msgstr "Άλλη"
+msgstr "Άλλα"
 
 msgctxt "faq_other_free_vs_pro_q"
 msgid "What is the difference between free and pro version?"
