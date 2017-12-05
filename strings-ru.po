@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-12-03 02:16+0100\n"
-"PO-Revision-Date: 2017-10-04 18:26+0200\n"
+"POT-Creation-Date: 2017-12-05 01:06+0100\n"
+"PO-Revision-Date: 2017-12-05 01:06+0100\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Plural-Forms: nplurals=4; plural=(((((n % 10) >= 2 && (n % 10) <= 4)) && "
@@ -73,7 +73,7 @@ msgstr "Удалить папку"
 
 msgctxt "folderselect_menu_print_folder"
 msgid "Print folder"
-msgstr ""
+msgstr "Печать папки"
 
 msgctxt "imageselect_menu_tutorial"
 msgid "Tutorial"
@@ -121,11 +121,11 @@ msgstr "Bluetooth-соединение"
 
 msgctxt "imageselect_menu_print"
 msgid "Print image"
-msgstr ""
+msgstr "Печать картинки"
 
 msgctxt "imageselect_menu_image_info"
 msgid "Image info…"
-msgstr ""
+msgstr "Подробности…"
 
 msgctxt "imageselect_menu_upgrade"
 msgid "Upgrade..."
@@ -1303,27 +1303,27 @@ msgstr "Всегда"
 
 msgctxt "pref_export_pdf_print_image_notes"
 msgid "Print image notes"
-msgstr ""
+msgstr "Печать аннотаций картинок"
 
 msgctxt "pref_export_pdf_print_folder_notes"
 msgid "Print folder notes"
-msgstr ""
+msgstr "Печать аннотаций папок"
 
 msgctxt "pref_export_pdf_print_folder_notes_summaryoff"
 msgid "No folder notes will be printed"
-msgstr ""
+msgstr "Не печатать аннотации"
 
 msgctxt "pref_export_pdf_print_folder_notes_summaryon"
 msgid "Page with folder notes and TOC will be printed"
-msgstr ""
+msgstr "Печать содержимого и аннотаций папок"
 
 msgctxt "pref_export_pdf_image_notes_space"
 msgid "Space reserved for image notes"
-msgstr ""
+msgstr "Лимит размера аннотаций"
 
 msgctxt "pref_export_pdf_image_notes_space_dialog"
 msgid "Space reserved for image notes"
-msgstr ""
+msgstr "Лимит размера аннотаций"
 
 #, c-format
 msgctxt "pref_export_pdf_image_notes_space_choices:0"
@@ -1804,15 +1804,15 @@ msgstr "Перемещение изображений..."
 #. editor
 msgctxt "editor_menu_section_calibration_tools"
 msgid "Calibration tools"
-msgstr ""
+msgstr "Инструменты калибровки"
 
 msgctxt "editor_menu_section_measuring_tools"
 msgid "Measuring tools"
-msgstr ""
+msgstr "Инструменты измерения"
 
 msgctxt "editor_menu_section_drawing_tools"
 msgid "Drawing tools"
-msgstr ""
+msgstr "Инструменты рисования"
 
 msgctxt "editor_menu_add_reference"
 msgid "Perspective reference"
@@ -1848,19 +1848,19 @@ msgstr "Круг"
 
 msgctxt "editor_menu_add_rectangle"
 msgid "Rectangle"
-msgstr ""
+msgstr "Прямоугольник"
 
 msgctxt "editor_menu_add_point"
 msgid "Point"
-msgstr ""
+msgstr "Точка"
 
 msgctxt "editor_menu_add_line"
 msgid "Line"
-msgstr ""
+msgstr "Линия"
 
 msgctxt "editor_menu_add_ellipse"
 msgid "Ellipse"
-msgstr ""
+msgstr "Эллипс"
 
 msgctxt "editor_menu_edit_delete"
 msgid "Delete element"
@@ -1938,19 +1938,19 @@ msgstr "Вы будете находиться в режиме рисовани�
 
 msgctxt "editor_hint_howto_draw_point"
 msgid "Place the point with a simple click."
-msgstr ""
+msgstr "Укажите точку размещения"
 
 msgctxt "editor_hint_howto_draw_line"
 msgid "Please point-and-drag the new line."
-msgstr ""
+msgstr "Укажите начало и сдвиньте"
 
 msgctxt "editor_hint_howto_draw_ellipse"
 msgid "Please point to the ellipse center and drag to specify the radius."
-msgstr ""
+msgstr "Сдвиг центральных точек задает радиус"
 
 msgctxt "editor_hint_howto_draw_rectangle"
 msgid "Please draw the rectangle diagonal."
-msgstr ""
+msgstr "Задайте диагональ прямоугольника"
 
 msgctxt "editor_hint_howto_attach_to_reference"
 msgid "Click on the measure you want to compute based on the selected reference."
@@ -2028,11 +2028,11 @@ msgstr "Тип линий"
 
 msgctxt "editor_dialog_style_ellipse_title"
 msgid "Ellipse style"
-msgstr ""
+msgstr "Стиль эллипса"
 
 msgctxt "editor_dialog_style_line_title"
 msgid "Line style"
-msgstr ""
+msgstr "Стиль линии"
 
 msgctxt "editor_dialog_style_measure_title"
 msgid "Dimension style"
@@ -2314,23 +2314,21 @@ msgctxt "editor_dialog_style_area_title"
 msgid "Area style"
 msgstr "Стиль области"
 
-#, fuzzy
 msgctxt "editor_dialog_style_area_show_text"
 msgid "Show area"
 msgstr "Видимость текста"
 
-#, fuzzy
 msgctxt "editor_dialog_style_area_font_magnification"
 msgid "Area font size"
 msgstr "Размер шрифта"
 
 msgctxt "editor_dialog_style_area_show_edge_labels"
 msgid "Show edge lengths"
-msgstr ""
+msgstr "Размер сторон"
 
 msgctxt "editor_dialog_style_area_edge_font_magnification"
 msgid "Edges font size"
-msgstr ""
+msgstr "Шрифт сторон"
 
 msgctxt "editor_dialog_style_area_shade_area"
 msgid "Shaded area"
@@ -2378,113 +2376,111 @@ msgstr "Ширина линий"
 
 msgctxt "editor_dialog_style_rectangle_title"
 msgid "Rectangle style"
-msgstr ""
+msgstr "Стиль прямоугольника"
 
 msgctxt "editor_dialog_style_rectangle_show_area"
 msgid "Show area"
-msgstr ""
+msgstr "Площадь"
 
 msgctxt "editor_dialog_style_rectangle_show_circumference"
 msgid "Show circumference"
-msgstr ""
+msgstr "Периметр"
 
 msgctxt "editor_dialog_style_rectangle_shade_area"
 msgid "Shaded area"
-msgstr ""
+msgstr "Заливка площади"
 
 msgctxt "editor_dialog_style_rectangle_font_magnification"
 msgid "Font size"
-msgstr ""
+msgstr "Размер шрифта"
 
 msgctxt "editor_dialog_style_rectangle_line_width_magnification"
 msgid "Line width"
-msgstr ""
+msgstr "Ширина линий"
 
 msgctxt "editor_dialog_style_measurementpoint_title"
 msgid "Point style"
-msgstr ""
+msgstr "Стиль точки"
 
 msgctxt "editor_dialog_style_measurementpoint_line_width_magnification"
 msgid "Line width"
-msgstr ""
+msgstr "Ширина линий"
 
 msgctxt "editor_dialog_style_measurementpoint_font_magnification"
 msgid "Font size"
-msgstr ""
+msgstr "Размер шрифта"
 
 msgctxt "editor_dialog_style_measurementpoint_shape_magnification"
 msgid "Marker size"
-msgstr ""
+msgstr "Размер"
 
 msgctxt "editor_dialog_style_measurementpoint_shape"
 msgid "Marker"
-msgstr ""
+msgstr "Маркер"
 
 msgctxt "editor_dialog_style_measurementpoint_label_position"
 msgid "Label position"
-msgstr ""
+msgstr "Позиция метки"
 
 msgctxt "editor_dialog_style_measurementpoint_show_text"
 msgid "Show text"
-msgstr ""
+msgstr "Видимость текста"
 
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:0"
 msgid "Encircled cross"
-msgstr ""
+msgstr "Прицел"
 
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:1"
 msgid "Upright cross"
-msgstr ""
+msgstr "Крест"
 
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:2"
 msgid "Diagonal cross"
-msgstr ""
+msgstr "Косой крест"
 
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:3"
 msgid "Dot"
-msgstr ""
+msgstr "Точка"
 
-#, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:4"
 msgid "Elevation top"
-msgstr ""
+msgstr "Указатели сверху"
 
-#, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:5"
 msgid "Elevation bottom"
-msgstr ""
+msgstr "Указатели снизу"
 
 msgctxt "eight_directions_choices:0"
 msgid "Top left"
-msgstr ""
+msgstr "Вверху слева"
 
 msgctxt "eight_directions_choices:1"
 msgid "Top"
-msgstr ""
+msgstr "Вверху"
 
 msgctxt "eight_directions_choices:2"
 msgid "Top right"
-msgstr ""
+msgstr "Вверху справа"
 
 msgctxt "eight_directions_choices:3"
 msgid "Right"
-msgstr ""
+msgstr "Справа"
 
 msgctxt "eight_directions_choices:4"
 msgid "Bottom right"
-msgstr ""
+msgstr "Внизу справа"
 
 msgctxt "eight_directions_choices:5"
 msgid "Bottom"
-msgstr ""
+msgstr "Внизу"
 
 msgctxt "eight_directions_choices:6"
 msgid "Bottom left"
-msgstr ""
+msgstr "Внизу слева"
 
 msgctxt "eight_directions_choices:7"
 msgid "Left"
-msgstr ""
+msgstr "Слева"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
 msgid ""
@@ -2726,6 +2722,15 @@ msgstr "l:"
 msgctxt "circle_arc_length_prefix"
 msgid "s:"
 msgstr "L:"
+
+#. GRectangle
+msgctxt "rectangle_area_prefix"
+msgid "A:"
+msgstr "S:"
+
+msgctxt "rectangle_perimeter_prefix"
+msgid "P:"
+msgstr "l:"
 
 #. bluetooth
 msgctxt "bluetooth_message_device_connected"
@@ -3239,7 +3244,7 @@ msgstr "да"
 
 msgctxt "faq_bluetooth_compatibility_a_entry_works_no"
 msgid "no"
-msgstr ""
+msgstr "нет"
 
 msgctxt "faq_bluetooth_compatibility_a_entry_works_untested"
 msgid "untested"
@@ -3380,21 +3385,25 @@ msgstr ""
 #. TODO: Remove or change this placeholder text
 msgctxt "image_info_image_name"
 msgid "Image Name"
-msgstr ""
+msgstr "Название"
 
 msgctxt "image_info_capture_date"
 msgid "Capture Date"
-msgstr ""
+msgstr "Дата создания"
 
 msgctxt "image_info_original_resolution"
 msgid "Original Image Resolution"
-msgstr ""
+msgstr "Разрешение ориганала"
 
 msgctxt "image_info_export_resolution"
 msgid "Exported Image Resolution"
-msgstr ""
+msgstr "Разрешение экспорта"
 
 msgctxt "image_info_gps_coordinates"
 msgid "GPS Coordinates"
-msgstr ""
+msgstr "GPS координаты"
+
+msgctxt "image_info_show_on_map"
+msgid "Show on map"
+msgstr "Показать на карте"
 
