@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-12-05 01:22+0100\n"
-"PO-Revision-Date: 2017-10-04 18:38+0200\n"
+"POT-Creation-Date: 2017-12-14 15:29+0100\n"
+"PO-Revision-Date: 2017-12-14 15:23+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=((n == 1) ? 0 : 1)\n"
@@ -1126,9 +1126,10 @@ msgctxt "pref_max_export_size_choices:7"
 msgid "3840 pixels"
 msgstr "3840 píxeles"
 
+#, fuzzy
 msgctxt "pref_max_export_size_choices:8"
 msgid "Unlimited"
-msgstr ""
+msgstr "unlimited"
 
 #. <string name="pref_export_enable_reduced_resolution_overlay">Warning
 #. overlays on images</string>
@@ -1333,27 +1334,27 @@ msgstr ""
 #, c-format
 msgctxt "pref_export_pdf_image_notes_space_choices:0"
 msgid "50%"
-msgstr ""
+msgstr "50%"
 
 #, c-format
 msgctxt "pref_export_pdf_image_notes_space_choices:1"
 msgid "40%"
-msgstr ""
+msgstr "40%"
 
 #, c-format
 msgctxt "pref_export_pdf_image_notes_space_choices:2"
 msgid "30%"
-msgstr ""
+msgstr "30%"
 
 #, c-format
 msgctxt "pref_export_pdf_image_notes_space_choices:3"
 msgid "20%"
-msgstr ""
+msgstr "20%"
 
 #, c-format
 msgctxt "pref_export_pdf_image_notes_space_choices:4"
 msgid "10%"
-msgstr ""
+msgstr "10%"
 
 msgctxt "pref_category_bluetooth"
 msgid "Bluetooth"
@@ -1430,6 +1431,10 @@ msgstr "Stanley TLM99s"
 msgctxt "pref_bluetooth_device_protocol_choices:10"
 msgid "Suaoki/Mileseey"
 msgstr "Suaoki/Mileseey"
+
+msgctxt "pref_bluetooth_device_protocol_choices:11"
+msgid "Precaster CX100"
+msgstr "Precaster CX100"
 
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
 msgid "LTI TruPulse distance mode"
@@ -1566,22 +1571,22 @@ msgstr ""
 #, c-format
 msgctxt "pref_ui_editor_dragging_speed_choices:0"
 msgid "100%"
-msgstr ""
+msgstr "100%"
 
 #, c-format
 msgctxt "pref_ui_editor_dragging_speed_choices:1"
 msgid "75%"
-msgstr ""
+msgstr "75%"
 
 #, c-format
 msgctxt "pref_ui_editor_dragging_speed_choices:2"
 msgid "50%"
-msgstr ""
+msgstr "50%"
 
 #, c-format
 msgctxt "pref_ui_editor_dragging_speed_choices:3"
 msgid "25%"
-msgstr ""
+msgstr "25%"
 
 msgctxt "pref_ui_image_order_criterium"
 msgid "Image sorting order"
@@ -2226,45 +2231,46 @@ msgctxt "editor_dialog_style_flatref_subdivisions"
 msgid "Subdivisions"
 msgstr ""
 
+#, fuzzy
 msgctxt "editor_dialog_style_flatref_subdivisions_choices:0"
 msgid "none"
-msgstr ""
+msgstr "none"
 
 msgctxt "editor_dialog_style_flatref_subdivisions_choices:1"
 msgid "2"
-msgstr ""
+msgstr "2"
 
 msgctxt "editor_dialog_style_flatref_subdivisions_choices:2"
 msgid "3"
-msgstr ""
+msgstr "3"
 
 msgctxt "editor_dialog_style_flatref_subdivisions_choices:3"
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgctxt "editor_dialog_style_flatref_subdivisions_choices:4"
 msgid "5"
-msgstr ""
+msgstr "5"
 
 msgctxt "editor_dialog_style_flatref_subdivisions_choices:5"
 msgid "6"
-msgstr ""
+msgstr "6"
 
 msgctxt "editor_dialog_style_flatref_subdivisions_choices:6"
 msgid "7"
-msgstr ""
+msgstr "7"
 
 msgctxt "editor_dialog_style_flatref_subdivisions_choices:7"
 msgid "8"
-msgstr ""
+msgstr "8"
 
 msgctxt "editor_dialog_style_flatref_subdivisions_choices:8"
 msgid "9"
-msgstr ""
+msgstr "9"
 
 msgctxt "editor_dialog_style_flatref_subdivisions_choices:9"
 msgid "10"
-msgstr ""
+msgstr "10"
 
 msgctxt "editor_dialog_style_flatref_label_mode"
 msgid "Display labels"
@@ -2440,12 +2446,10 @@ msgctxt "editor_dialog_style_measurementpoint_shape_choices:3"
 msgid "Dot"
 msgstr ""
 
-#, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:4"
 msgid "Elevation top"
 msgstr ""
 
-#, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:5"
 msgid "Elevation bottom"
 msgstr ""
@@ -2859,6 +2863,38 @@ msgstr "E157: demasiada luz de fondo"
 msgctxt "bluetooth_error_ci_E160"
 msgid "E160: too much shaking"
 msgstr "E160: demasiado movimiento"
+
+#, fuzzy
+msgctxt "bluetooth_error_out_of_measuring_range"
+msgid "Out of measuring range"
+msgstr "Fuera de rango"
+
+#, fuzzy
+msgctxt "bluetooth_error_signal_too_weak"
+msgid "Signal too weak"
+msgstr "Señal demasiado baja"
+
+msgctxt "bluetooth_error_display_out_of_range"
+msgid "Display out of range"
+msgstr ""
+
+msgctxt "bluetooth_error_pythagorean_calculation_error"
+msgid "Pythagorean calculation error"
+msgstr ""
+
+#, fuzzy
+msgctxt "bluetooth_error_low_battery"
+msgid "Low battery"
+msgstr "Tensión de la batería demasiado baja"
+
+msgctxt "bluetooth_error_out_of_working_temperatur"
+msgid "Out of working temperature"
+msgstr ""
+
+#, fuzzy
+msgctxt "bluetooth_error_ambient_light_too_strong"
+msgid "Ambient light too strong"
+msgstr "Demasiada luz de fondo"
 
 #. in-app payment
 msgctxt "inapp_dialog_upgrade_benefits_title"
