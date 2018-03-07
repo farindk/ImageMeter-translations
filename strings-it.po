@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-02-26 01:13+0100\n"
+"POT-Creation-Date: 2018-03-07 16:10+0100\n"
 "PO-Revision-Date: 2018-02-09 13:28+0100\n"
 "Last-Translator: \n"
 "Language-Team: it <LL@li.org>\n"
@@ -131,10 +131,6 @@ msgstr ""
 msgctxt "imageselect_menu_upgrade"
 msgid "Upgrade..."
 msgstr "Aggiorna..."
-
-msgctxt "imageselect_menu_restore_upgrade"
-msgid "Restore upgrade"
-msgstr "Ripristinare aggiornamento"
 
 msgctxt "imageselect_menu_import_images_from_free_app"
 msgid "Import images from free app"
@@ -1963,8 +1959,9 @@ msgctxt "editor_menu_add_flatreference"
 msgid "Reference scale"
 msgstr "Scala"
 
+#, fuzzy
 msgctxt "editor_menu_add_perspective_line"
-msgid "Perspective line"
+msgid "Perspective length"
 msgstr ""
 
 msgctxt "editor_menu_add_measure"
@@ -3162,36 +3159,6 @@ msgid "Later"
 msgstr "Dopo"
 
 #, fuzzy
-msgctxt "inapp_dialog_restore_upgrade_title"
-msgid "Restore pro upgrade"
-msgstr "Ripristinare l'aggiornamento pro"
-
-#, fuzzy
-msgctxt "inapp_dialog_restore_upgrade_text"
-msgid ""
-"If you have already bought the pro upgrade but reinstalled the app, you "
-"can restore the upgrade for free. Make sure that you use the same Google "
-"account as previously, as the purchase information is stored in your "
-"account.\n"
-"\n"
-"Usually, you should not have to start this restore process manually, as "
-"it is checked automatically on app start."
-msgstr ""
-"Se hai già acquistato l'aggiornamento pro, ma hai reinstallato "
-"l'applicazione, puoi ripristinare gratuitamente l'aggiornamento. "
-"Assicurati di utilizzare lo stesso account Google in precedenza, poiché "
-"le informazioni sull'acquisto sono memorizzate nel tuo account.\n"
-"\n"
-"Per tutti, non dovresti necessariamente avviare questo processo di "
-"ripristino manualmente, in quanto verifica automaticamente all'avvio "
-"dell'app."
-
-#, fuzzy
-msgctxt "inapp_dialog_restore_upgrade_ok"
-msgid "Restore upgrade now"
-msgstr "Ripristina ora l'aggiornamento"
-
-#, fuzzy
 msgctxt "inapp_dialog_upgrade_active_title"
 msgid "Upgrade active"
 msgstr "Aggiornamento attivo"
@@ -3199,11 +3166,9 @@ msgstr "Aggiornamento attivo"
 #, fuzzy
 msgctxt "inapp_dialog_upgrade_active_text"
 msgid ""
-"The pro upgrade is now active.\n"
+"The pro upgrade has been activated.\n"
 "\n"
-"You should now see the text 'with pro-upgrade' in the title bar. Note "
-"that the app's name does not change to 'ImageMeter Pro' for technical "
-"reasons."
+"Thank you for using ImageMeter!"
 msgstr ""
 "L'aggiornamento pro è attivo.\n"
 "\n"
@@ -3221,7 +3186,7 @@ msgctxt "inapp_dialog_upgrade_failed_text"
 msgid ""
 "The pro upgrade could not be activated.\n"
 "\n"
-"Feedback from Play-Store: '%1$s'."
+"Reason: '%1$s'."
 msgstr ""
 "L'aggiornamento pro non potrebbe essere attivato.\n"
 "\n"
@@ -3232,17 +3197,54 @@ msgctxt "inapp_message_upgrade_has_not_been_bought"
 msgid "Upgrade not registered as bought"
 msgstr "Aggiornamento non registrato come acquistato"
 
+#. OBSOLET
 msgctxt "inapp_error_setup"
 msgid "Error setting up in-app billing:"
 msgstr "Error setting up in-app billing:"
 
+#. OBSOLET
 msgctxt "inapp_error_query"
 msgid "Cannot query state of purchase:"
 msgstr "Non si può interrogare lo stato di aggiornamento:"
 
+#. OBSOLET
 msgctxt "inapp_error_purchase"
 msgid "Could not process purchase:"
 msgstr "Impossibile processare l'acquisto:"
+
+msgctxt "inapp_error_billing_unavailable"
+msgid "Billing unavailable"
+msgstr ""
+
+msgctxt "inapp_error_feature_not_supported"
+msgid "Feature not supported"
+msgstr ""
+
+msgctxt "inapp_error_item_already_owned"
+msgid "Item already owned"
+msgstr ""
+
+msgctxt "inapp_error_item_unavailable"
+msgid "Item unavailable"
+msgstr ""
+
+#, fuzzy
+msgctxt "inapp_error_service_disconnected"
+msgid "PlayStore temporarily disconnected, try again later"
+msgstr ""
+
+msgctxt "inapp_error_service_unavailable"
+msgid "Network down, cannot reach PlayStore"
+msgstr ""
+
+msgctxt "inapp_error_user_canceled"
+msgid "Purchase canceled by user"
+msgstr ""
+
+#, c-format
+msgctxt "inapp_error_unknown"
+msgid "Unknown error, result code: '%1$d'"
+msgstr ""
 
 #. tips of the day
 msgctxt "tip_of_day_dialog_next"

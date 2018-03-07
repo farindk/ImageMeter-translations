@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-02-26 01:13+0100\n"
+"POT-Creation-Date: 2018-03-07 16:10+0100\n"
 "PO-Revision-Date: 2018-02-09 13:30+0100\n"
 "Last-Translator: \n"
 "Language-Team: fr <LL@li.org>\n"
@@ -133,10 +133,6 @@ msgstr ""
 msgctxt "imageselect_menu_upgrade"
 msgid "Upgrade..."
 msgstr "Mise à jour..."
-
-msgctxt "imageselect_menu_restore_upgrade"
-msgid "Restore upgrade"
-msgstr ""
 
 msgctxt "imageselect_menu_import_images_from_free_app"
 msgid "Import images from free app"
@@ -1773,8 +1769,9 @@ msgctxt "editor_menu_add_flatreference"
 msgid "Reference scale"
 msgstr ""
 
+#, fuzzy
 msgctxt "editor_menu_add_perspective_line"
-msgid "Perspective line"
+msgid "Perspective length"
 msgstr ""
 
 msgctxt "editor_menu_add_measure"
@@ -2875,65 +2872,82 @@ msgctxt "inapp_dialog_upgrade_benefits_later"
 msgid "Later"
 msgstr "Plus tard"
 
-msgctxt "inapp_dialog_restore_upgrade_title"
-msgid "Restore pro upgrade"
-msgstr ""
-
-msgctxt "inapp_dialog_restore_upgrade_text"
-msgid ""
-"If you have already bought the pro upgrade but reinstalled the app, you "
-"can restore the upgrade for free. Make sure that you use the same Google "
-"account as previously, as the purchase information is stored in your "
-"account.\n"
-"\n"
-"Usually, you should not have to start this restore process manually, as "
-"it is checked automatically on app start."
-msgstr ""
-
-msgctxt "inapp_dialog_restore_upgrade_ok"
-msgid "Restore upgrade now"
-msgstr ""
-
 msgctxt "inapp_dialog_upgrade_active_title"
 msgid "Upgrade active"
 msgstr ""
 
+#, fuzzy
 msgctxt "inapp_dialog_upgrade_active_text"
 msgid ""
-"The pro upgrade is now active.\n"
+"The pro upgrade has been activated.\n"
 "\n"
-"You should now see the text 'with pro-upgrade' in the title bar. Note "
-"that the app's name does not change to 'ImageMeter Pro' for technical "
-"reasons."
+"Thank you for using ImageMeter!"
 msgstr ""
 
 msgctxt "inapp_dialog_upgrade_failed_title"
 msgid "Upgrade failed"
 msgstr ""
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "inapp_dialog_upgrade_failed_text"
 msgid ""
 "The pro upgrade could not be activated.\n"
 "\n"
-"Feedback from Play-Store: '%1$s'."
+"Reason: '%1$s'."
 msgstr ""
 
 msgctxt "inapp_message_upgrade_has_not_been_bought"
 msgid "Upgrade not registered as bought"
 msgstr ""
 
+#. OBSOLET
 msgctxt "inapp_error_setup"
 msgid "Error setting up in-app billing:"
 msgstr "Error paramètres de facturation in-app:"
 
+#. OBSOLET
 msgctxt "inapp_error_query"
 msgid "Cannot query state of purchase:"
 msgstr "Vous ne pouvez pas interroger l'état de mise à jour:"
 
+#. OBSOLET
 msgctxt "inapp_error_purchase"
 msgid "Could not process purchase:"
 msgstr "Impossible de traiter l'achat:"
+
+msgctxt "inapp_error_billing_unavailable"
+msgid "Billing unavailable"
+msgstr ""
+
+msgctxt "inapp_error_feature_not_supported"
+msgid "Feature not supported"
+msgstr ""
+
+msgctxt "inapp_error_item_already_owned"
+msgid "Item already owned"
+msgstr ""
+
+msgctxt "inapp_error_item_unavailable"
+msgid "Item unavailable"
+msgstr ""
+
+#, fuzzy
+msgctxt "inapp_error_service_disconnected"
+msgid "PlayStore temporarily disconnected, try again later"
+msgstr ""
+
+msgctxt "inapp_error_service_unavailable"
+msgid "Network down, cannot reach PlayStore"
+msgstr ""
+
+msgctxt "inapp_error_user_canceled"
+msgid "Purchase canceled by user"
+msgstr ""
+
+#, c-format
+msgctxt "inapp_error_unknown"
+msgid "Unknown error, result code: '%1$d'"
+msgstr ""
 
 #. tips of the day
 msgctxt "tip_of_day_dialog_next"
