@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-03-07 23:14+0100\n"
-"PO-Revision-Date: 2018-02-09 13:29+0100\n"
+"POT-Creation-Date: 2018-03-08 00:14+0100\n"
+"PO-Revision-Date: 2018-03-08 00:13+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=((n == 1) ? 0 : 1)\n"
@@ -881,6 +881,50 @@ msgstr "Polegadas com frações (1 1/8 )"
 msgctxt "pref_measures_default_template_choices:4"
 msgid "Text"
 msgstr "Texto"
+
+msgctxt "pref_measure_metric_area_unit_choices:0"
+msgid "mm²"
+msgstr ""
+
+msgctxt "pref_measure_metric_area_unit_choices:1"
+msgid "cm²"
+msgstr ""
+
+msgctxt "pref_measure_metric_area_unit_choices:2"
+msgid "m²"
+msgstr ""
+
+msgctxt "pref_measure_metric_area_unit_choices:3"
+msgid "km²"
+msgstr ""
+
+msgctxt "pref_measure_metric_area_unit_choices:4"
+msgid "are"
+msgstr ""
+
+msgctxt "pref_measure_metric_area_unit_choices:5"
+msgid "hectare"
+msgstr ""
+
+msgctxt "pref_measure_imperial_area_unit_choices:0"
+msgid "sq in"
+msgstr ""
+
+msgctxt "pref_measure_imperial_area_unit_choices:1"
+msgid "sq ft"
+msgstr ""
+
+msgctxt "pref_measure_imperial_area_unit_choices:2"
+msgid "sq yd"
+msgstr ""
+
+msgctxt "pref_measure_imperial_area_unit_choices:3"
+msgid "sq mi"
+msgstr ""
+
+msgctxt "pref_measure_imperial_area_unit_choices:4"
+msgid "acre"
+msgstr ""
 
 msgctxt "pref_measure_min_imperial_fraction"
 msgid "Smallest fraction of an inch"
@@ -1841,7 +1885,6 @@ msgctxt "editor_menu_add_flatreference"
 msgid "Reference scale"
 msgstr "Escala de referência"
 
-#, fuzzy
 msgctxt "editor_menu_add_perspective_line"
 msgid "Perspective length"
 msgstr ""
@@ -2706,6 +2749,10 @@ msgctxt "dimension_format_imperial_length_unit_choices:2"
 msgid "yard"
 msgstr "quintal"
 
+msgctxt "dimension_format_imperial_length_unit_choices:3"
+msgid "mile"
+msgstr ""
+
 msgctxt "dimension_format_angle_unit_choices:0"
 msgid "degrees"
 msgstr "graus"
@@ -2720,14 +2767,22 @@ msgid "radians"
 msgstr "radianos"
 
 msgctxt "dimension_format_area_imperial_choices:0"
-msgid "sq ft"
-msgstr "pés quadrados"
-
-msgctxt "dimension_format_area_imperial_choices:1"
 msgid "sq in"
 msgstr "polegadas quadradas"
 
+msgctxt "dimension_format_area_imperial_choices:1"
+msgid "sq ft"
+msgstr "pés quadrados"
+
 msgctxt "dimension_format_area_imperial_choices:2"
+msgid "sq yd"
+msgstr ""
+
+msgctxt "dimension_format_area_imperial_choices:3"
+msgid "sq mi"
+msgstr ""
+
+msgctxt "dimension_format_area_imperial_choices:4"
 msgid "acre"
 msgstr ""
 
@@ -3100,7 +3155,6 @@ msgctxt "inapp_error_item_unavailable"
 msgid "Item unavailable"
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_service_disconnected"
 msgid "PlayStore temporarily disconnected, try again later"
 msgstr ""
@@ -3197,7 +3251,6 @@ msgctxt "welcome_message_title"
 msgid "Welcome to ImageMeter"
 msgstr "Bem-vindo ao ImageMeter"
 
-#, fuzzy
 msgctxt "welcome_message_text"
 msgid ""
 "For an introduction to ImageMeter, see this <a "
