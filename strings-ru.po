@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-03-08 00:14+0100\n"
-"PO-Revision-Date: 2018-03-08 00:09+0100\n"
+"POT-Creation-Date: 2018-05-07 17:01+0200\n"
+"PO-Revision-Date: 2018-05-07 16:54+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Plural-Forms: nplurals=4; plural=(((((n % 10) >= 2 && (n % 10) <= 4)) && "
@@ -867,10 +867,6 @@ msgctxt "pref_measures_default_template_choices:3"
 msgid "Inches with fractions (1 1/8\")"
 msgstr "Дюймы с дробями (1 1/8\\\")"
 
-msgctxt "pref_measures_default_template_choices:4"
-msgid "Text"
-msgstr "Текст"
-
 msgctxt "pref_measure_metric_area_unit_choices:0"
 msgid "mm²"
 msgstr "mm²"
@@ -959,6 +955,14 @@ msgctxt "pref_measure_reducefraction_summaryoff"
 msgid "Fractions will not be reduced (4/8 stays 4/8)"
 msgstr "Дроби не будут сокращены (4/8 останется 4/8)"
 
+msgctxt "value_entry_dimension_format_reduce_fraction_choices:0"
+msgid "Reduce (4/8 becomes 1/2)"
+msgstr ""
+
+msgctxt "value_entry_dimension_format_reduce_fraction_choices:1"
+msgid "Keep (4/8 stays 4/8)"
+msgstr ""
+
 msgctxt "pref_measure_imperial_unit_display"
 msgid "Textual imperial units"
 msgstr "Написание англ. единиц"
@@ -970,6 +974,14 @@ msgstr "Англ. единицы измерения будут выглядет�
 msgctxt "pref_measure_imperial_unit_display_summaryoff"
 msgid "Imperial units will be shown as '/\""
 msgstr "Англ. единицы измерения будут выглядеть как '/\""
+
+msgctxt "dimension_format_imperial_unit_display_choices:0"
+msgid "Show as '/\""
+msgstr ""
+
+msgctxt "dimension_format_imperial_unit_display_choices:1"
+msgid "Show as ft/in"
+msgstr ""
 
 msgctxt "pref_measure_metric_length_unit"
 msgid "Metric length unit"
@@ -1066,6 +1078,14 @@ msgstr "Отображать значения и единицы"
 msgctxt "pref_measure_label_shows_unit_summaryoff"
 msgid "Show only the value, omit the unit"
 msgstr "Только значения, опустив единицы"
+
+msgctxt "dimension_format_show_unit_choices:0"
+msgid "Show value and unit"
+msgstr ""
+
+msgctxt "dimension_format_show_unit_choices:1"
+msgid "Do not show the unit"
+msgstr ""
 
 msgctxt "pref_category_export"
 msgid "Image export"
@@ -1471,10 +1491,14 @@ msgid "Stanley TLM99s"
 msgstr "Stanley TLM99s"
 
 msgctxt "pref_bluetooth_device_protocol_choices:10"
+msgid "Stanley TLM99si"
+msgstr "Stanley TLM99si"
+
+msgctxt "pref_bluetooth_device_protocol_choices:11"
 msgid "Suaoki/Mileseey"
 msgstr "Suaoki/Mileseey"
 
-msgctxt "pref_bluetooth_device_protocol_choices:11"
+msgctxt "pref_bluetooth_device_protocol_choices:12"
 msgid "Precaster CX100"
 msgstr "Precaster CX100"
 
@@ -2715,18 +2739,22 @@ msgid "text"
 msgstr "текст"
 
 msgctxt "dimension_format_imperial_length_unit_choices:0"
+msgid "mil"
+msgstr "mil"
+
+msgctxt "dimension_format_imperial_length_unit_choices:1"
 msgid "inch"
 msgstr "inch"
 
-msgctxt "dimension_format_imperial_length_unit_choices:1"
+msgctxt "dimension_format_imperial_length_unit_choices:2"
 msgid "foot"
 msgstr "foot"
 
-msgctxt "dimension_format_imperial_length_unit_choices:2"
+msgctxt "dimension_format_imperial_length_unit_choices:3"
 msgid "yard"
 msgstr "yard"
 
-msgctxt "dimension_format_imperial_length_unit_choices:3"
+msgctxt "dimension_format_imperial_length_unit_choices:4"
 msgid "mile"
 msgstr "mile"
 
@@ -2763,6 +2791,14 @@ msgctxt "dimension_format_area_imperial_choices:4"
 msgid "acre"
 msgstr "Акр"
 
+msgctxt "dimension_format_area_imperial_choices:5"
+msgid "square mil"
+msgstr ""
+
+msgctxt "dimension_format_area_imperial_choices:6"
+msgid "circular mil"
+msgstr ""
+
 msgctxt "dimension_format_area_metric_prefix_choices:0"
 msgid "mm²"
 msgstr "mm²"
@@ -2786,6 +2822,38 @@ msgstr "Ар"
 msgctxt "dimension_format_area_metric_prefix_choices:5"
 msgid "hectare"
 msgstr "Гектар"
+
+msgctxt "value_entry_tab_title_value"
+msgid "Value"
+msgstr ""
+
+msgctxt "value_entry_tab_title_metadata"
+msgid "Extra"
+msgstr ""
+
+msgctxt "value_entry_tab_title_unit"
+msgid "Unit"
+msgstr ""
+
+msgctxt "value_entry_text_mode"
+msgid "Text mode"
+msgstr ""
+
+msgctxt "value_entry_value_mode"
+msgid "Value mode"
+msgstr ""
+
+msgctxt "value_entry_key_inch"
+msgid "Inch"
+msgstr ""
+
+msgctxt "value_entry_key_foot"
+msgid "Foot"
+msgstr ""
+
+msgctxt "value_entry_key_yard"
+msgid "Yard"
+msgstr ""
 
 #. text entry
 msgctxt "textbox_dialog_label"
@@ -3637,4 +3705,8 @@ msgstr "GPS координаты"
 msgctxt "image_info_show_on_map"
 msgid "Show on map"
 msgstr "Показать на карте"
+
+msgctxt "value_entry_unit_unit"
+msgid "Unit"
+msgstr ""
 

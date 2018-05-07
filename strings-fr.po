@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-23 15:55+0200\n"
-"PO-Revision-Date: 2018-04-23 15:55+0200\n"
+"POT-Creation-Date: 2018-05-07 17:01+0200\n"
+"PO-Revision-Date: 2018-05-07 16:58+0200\n"
 "Last-Translator: \n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=((((n >= 0 && n <= 2)) && (n != 2)) ? 0 "
@@ -878,10 +878,6 @@ msgctxt "pref_measures_default_template_choices:3"
 msgid "Inches with fractions (1 1/8\")"
 msgstr "Pouces avec fractions (1 1/8\")"
 
-msgctxt "pref_measures_default_template_choices:4"
-msgid "Text"
-msgstr "Texte"
-
 msgctxt "pref_measure_metric_area_unit_choices:0"
 msgid "mm²"
 msgstr "mm²"
@@ -1505,10 +1501,14 @@ msgid "Stanley TLM99s"
 msgstr "Stanley TLM99s"
 
 msgctxt "pref_bluetooth_device_protocol_choices:10"
+msgid "Stanley TLM99si"
+msgstr "Stanley TLM99si"
+
+msgctxt "pref_bluetooth_device_protocol_choices:11"
 msgid "Suaoki/Mileseey"
 msgstr "Suaoki/Mileseey"
 
-msgctxt "pref_bluetooth_device_protocol_choices:11"
+msgctxt "pref_bluetooth_device_protocol_choices:12"
 msgid "Precaster CX100"
 msgstr "Precaster CX100"
 
@@ -2768,18 +2768,26 @@ msgid "text"
 msgstr "Texte"
 
 msgctxt "dimension_format_imperial_length_unit_choices:0"
+msgid "mil"
+msgstr ""
+
+#, fuzzy
+msgctxt "dimension_format_imperial_length_unit_choices:1"
 msgid "inch"
 msgstr "Pouce"
 
-msgctxt "dimension_format_imperial_length_unit_choices:1"
+#, fuzzy
+msgctxt "dimension_format_imperial_length_unit_choices:2"
 msgid "foot"
 msgstr "Pied"
 
-msgctxt "dimension_format_imperial_length_unit_choices:2"
+#, fuzzy
+msgctxt "dimension_format_imperial_length_unit_choices:3"
 msgid "yard"
 msgstr "Yard"
 
-msgctxt "dimension_format_imperial_length_unit_choices:3"
+#, fuzzy
+msgctxt "dimension_format_imperial_length_unit_choices:4"
 msgid "mile"
 msgstr "mile"
 
@@ -2816,6 +2824,14 @@ msgctxt "dimension_format_area_imperial_choices:4"
 msgid "acre"
 msgstr "acre"
 
+msgctxt "dimension_format_area_imperial_choices:5"
+msgid "square mil"
+msgstr ""
+
+msgctxt "dimension_format_area_imperial_choices:6"
+msgid "circular mil"
+msgstr ""
+
 msgctxt "dimension_format_area_metric_prefix_choices:0"
 msgid "mm²"
 msgstr "mm²"
@@ -2840,6 +2856,38 @@ msgstr "aire"
 msgctxt "dimension_format_area_metric_prefix_choices:5"
 msgid "hectare"
 msgstr "hectare"
+
+msgctxt "value_entry_tab_title_value"
+msgid "Value"
+msgstr ""
+
+msgctxt "value_entry_tab_title_metadata"
+msgid "Extra"
+msgstr ""
+
+msgctxt "value_entry_tab_title_unit"
+msgid "Unit"
+msgstr ""
+
+msgctxt "value_entry_text_mode"
+msgid "Text mode"
+msgstr ""
+
+msgctxt "value_entry_value_mode"
+msgid "Value mode"
+msgstr ""
+
+msgctxt "value_entry_key_inch"
+msgid "Inch"
+msgstr ""
+
+msgctxt "value_entry_key_foot"
+msgid "Foot"
+msgstr ""
+
+msgctxt "value_entry_key_yard"
+msgid "Yard"
+msgstr ""
 
 #. text entry
 msgctxt "textbox_dialog_label"

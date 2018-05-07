@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-03-16 17:38+0100\n"
-"PO-Revision-Date: 2018-03-08 00:12+0100\n"
+"POT-Creation-Date: 2018-05-07 17:01+0200\n"
+"PO-Revision-Date: 2018-05-07 17:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=((n == 1) ? 0 : 1)\n"
@@ -934,10 +934,6 @@ msgctxt "pref_measures_default_template_choices:3"
 msgid "Inches with fractions (1 1/8\")"
 msgstr "Pulgadas con fracciones (1 1/8\")"
 
-msgctxt "pref_measures_default_template_choices:4"
-msgid "Text"
-msgstr "Texto"
-
 msgctxt "pref_measure_metric_area_unit_choices:0"
 msgid "mm²"
 msgstr "mm²"
@@ -1032,6 +1028,14 @@ msgctxt "pref_measure_reducefraction_summaryoff"
 msgid "Fractions will not be reduced (4/8 stays 4/8)"
 msgstr "Las fracciones no se reducirán (4/8 se queda en 4/8)"
 
+msgctxt "value_entry_dimension_format_reduce_fraction_choices:0"
+msgid "Reduce (4/8 becomes 1/2)"
+msgstr ""
+
+msgctxt "value_entry_dimension_format_reduce_fraction_choices:1"
+msgid "Keep (4/8 stays 4/8)"
+msgstr ""
+
 msgctxt "pref_measure_imperial_unit_display"
 msgid "Textual imperial units"
 msgstr "Unidades imperiales textuales"
@@ -1043,6 +1047,14 @@ msgstr "Unidades imperiales serán mostradas como ft/in"
 msgctxt "pref_measure_imperial_unit_display_summaryoff"
 msgid "Imperial units will be shown as '/\""
 msgstr "Unidades imperiales serán mostradas como '/\""
+
+msgctxt "dimension_format_imperial_unit_display_choices:0"
+msgid "Show as '/\""
+msgstr ""
+
+msgctxt "dimension_format_imperial_unit_display_choices:1"
+msgid "Show as ft/in"
+msgstr ""
 
 msgctxt "pref_measure_metric_length_unit"
 msgid "Metric length unit"
@@ -1142,6 +1154,14 @@ msgstr "Sí, muestra el valor y la unidad"
 msgctxt "pref_measure_label_shows_unit_summaryoff"
 msgid "Show only the value, omit the unit"
 msgstr "Mostrar solo el valor, omitir la unidad"
+
+msgctxt "dimension_format_show_unit_choices:0"
+msgid "Show value and unit"
+msgstr ""
+
+msgctxt "dimension_format_show_unit_choices:1"
+msgid "Do not show the unit"
+msgstr ""
 
 msgctxt "pref_category_export"
 msgid "Image export"
@@ -1396,12 +1416,10 @@ msgctxt "pref_export_pdf_paper_size_choices:1"
 msgid "A3"
 msgstr "A3"
 
-#, fuzzy
 msgctxt "pref_export_pdf_paper_size_choices:2"
 msgid "Letter"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_export_pdf_paper_size_choices:3"
 msgid "Legal"
 msgstr ""
@@ -1582,10 +1600,14 @@ msgid "Stanley TLM99s"
 msgstr "Stanley TLM99s"
 
 msgctxt "pref_bluetooth_device_protocol_choices:10"
+msgid "Stanley TLM99si"
+msgstr "Stanley TLM99si"
+
+msgctxt "pref_bluetooth_device_protocol_choices:11"
 msgid "Suaoki/Mileseey"
 msgstr "Suaoki/Mileseey"
 
-msgctxt "pref_bluetooth_device_protocol_choices:11"
+msgctxt "pref_bluetooth_device_protocol_choices:12"
 msgid "Precaster CX100"
 msgstr "Precaster CX100"
 
@@ -2622,7 +2644,6 @@ msgctxt "editor_dialog_style_area_show_edge_labels"
 msgid "Show edge lengths"
 msgstr "Mostrar longitudes de borde"
 
-#, fuzzy
 msgctxt "editor_dialog_style_area_edge_font_magnification"
 msgid "Edges font size"
 msgstr ""
@@ -2781,17 +2802,14 @@ msgctxt "editor_dialog_style_measurementpoint_shape_choices:5"
 msgid "Elevation bottom"
 msgstr "Fondo de elevación"
 
-#, fuzzy
 msgctxt "eight_directions_choices:0"
 msgid "Top left"
 msgstr ""
 
-#, fuzzy
 msgctxt "eight_directions_choices:1"
 msgid "Top"
 msgstr ""
 
-#, fuzzy
 msgctxt "eight_directions_choices:2"
 msgid "Top right"
 msgstr ""
@@ -2816,7 +2834,6 @@ msgctxt "eight_directions_choices:6"
 msgid "Bottom left"
 msgstr "Abajo a la izquierda"
 
-#, fuzzy
 msgctxt "eight_directions_choices:7"
 msgid "Left"
 msgstr ""
@@ -2985,19 +3002,26 @@ msgid "text"
 msgstr "texto"
 
 msgctxt "dimension_format_imperial_length_unit_choices:0"
+msgid "mil"
+msgstr ""
+
+#, fuzzy
+msgctxt "dimension_format_imperial_length_unit_choices:1"
 msgid "inch"
 msgstr "inch"
 
-msgctxt "dimension_format_imperial_length_unit_choices:1"
+#, fuzzy
+msgctxt "dimension_format_imperial_length_unit_choices:2"
 msgid "foot"
 msgstr "foot"
 
-msgctxt "dimension_format_imperial_length_unit_choices:2"
+#, fuzzy
+msgctxt "dimension_format_imperial_length_unit_choices:3"
 msgid "yard"
 msgstr "yard"
 
 #, fuzzy
-msgctxt "dimension_format_imperial_length_unit_choices:3"
+msgctxt "dimension_format_imperial_length_unit_choices:4"
 msgid "mile"
 msgstr "millas"
 
@@ -3037,6 +3061,14 @@ msgctxt "dimension_format_area_imperial_choices:4"
 msgid "acre"
 msgstr "acre"
 
+msgctxt "dimension_format_area_imperial_choices:5"
+msgid "square mil"
+msgstr ""
+
+msgctxt "dimension_format_area_imperial_choices:6"
+msgid "circular mil"
+msgstr ""
+
 #, fuzzy
 msgctxt "dimension_format_area_metric_prefix_choices:0"
 msgid "mm²"
@@ -3057,7 +3089,6 @@ msgctxt "dimension_format_area_metric_prefix_choices:3"
 msgid "km²"
 msgstr "km²"
 
-#, fuzzy
 msgctxt "dimension_format_area_metric_prefix_choices:4"
 msgid "are"
 msgstr ""
@@ -3066,6 +3097,38 @@ msgstr ""
 msgctxt "dimension_format_area_metric_prefix_choices:5"
 msgid "hectare"
 msgstr "hectárea"
+
+msgctxt "value_entry_tab_title_value"
+msgid "Value"
+msgstr ""
+
+msgctxt "value_entry_tab_title_metadata"
+msgid "Extra"
+msgstr ""
+
+msgctxt "value_entry_tab_title_unit"
+msgid "Unit"
+msgstr ""
+
+msgctxt "value_entry_text_mode"
+msgid "Text mode"
+msgstr ""
+
+msgctxt "value_entry_value_mode"
+msgid "Value mode"
+msgstr ""
+
+msgctxt "value_entry_key_inch"
+msgid "Inch"
+msgstr ""
+
+msgctxt "value_entry_key_foot"
+msgid "Foot"
+msgstr ""
+
+msgctxt "value_entry_key_yard"
+msgid "Yard"
+msgstr ""
 
 #. text entry
 msgctxt "textbox_dialog_label"
@@ -3109,33 +3172,27 @@ msgstr ""
 "derecha a izquierda. La visualización del texto puede estar rota."
 
 #. GCircle
-#, fuzzy
 msgctxt "circle_radius_prefix"
 msgid "r:"
 msgstr ""
 
-#, fuzzy
 msgctxt "circle_area_prefix"
 msgid "A:"
 msgstr ""
 
-#, fuzzy
 msgctxt "circle_circumference_prefix"
 msgid "C:"
 msgstr ""
 
-#, fuzzy
 msgctxt "circle_arc_length_prefix"
 msgid "s:"
 msgstr ""
 
 #. GRectangle
-#, fuzzy
 msgctxt "rectangle_area_prefix"
 msgid "A:"
 msgstr ""
 
-#, fuzzy
 msgctxt "rectangle_perimeter_prefix"
 msgid "P:"
 msgstr ""
@@ -3995,4 +4052,8 @@ msgstr "Coordenadas GPS"
 msgctxt "image_info_show_on_map"
 msgid "Show on map"
 msgstr "Mostrar en el mapa"
+
+msgctxt "value_entry_unit_unit"
+msgid "Unit"
+msgstr ""
 

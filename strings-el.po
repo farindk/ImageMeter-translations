@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-03-08 00:14+0100\n"
-"PO-Revision-Date: 2018-03-08 00:11+0100\n"
+"POT-Creation-Date: 2018-05-07 17:01+0200\n"
+"PO-Revision-Date: 2018-05-07 17:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=((n == 1) ? 0 : 1)\n"
@@ -872,10 +872,6 @@ msgctxt "pref_measures_default_template_choices:3"
 msgid "Inches with fractions (1 1/8\")"
 msgstr "Ίντσες με κλάσματα (1 1/8\")"
 
-msgctxt "pref_measures_default_template_choices:4"
-msgid "Text"
-msgstr "Κείμενο"
-
 msgctxt "pref_measure_metric_area_unit_choices:0"
 msgid "mm²"
 msgstr ""
@@ -964,6 +960,14 @@ msgctxt "pref_measure_reducefraction_summaryoff"
 msgid "Fractions will not be reduced (4/8 stays 4/8)"
 msgstr "Τα κλάσματα δεν θα απλοποιηθούν (το 4/8 μένει 4/8)"
 
+msgctxt "value_entry_dimension_format_reduce_fraction_choices:0"
+msgid "Reduce (4/8 becomes 1/2)"
+msgstr ""
+
+msgctxt "value_entry_dimension_format_reduce_fraction_choices:1"
+msgid "Keep (4/8 stays 4/8)"
+msgstr ""
+
 msgctxt "pref_measure_imperial_unit_display"
 msgid "Textual imperial units"
 msgstr "Εμφάνιση βρετανικών μονάδων"
@@ -975,6 +979,14 @@ msgstr "Θα εμφανίζονται ως ft/in"
 msgctxt "pref_measure_imperial_unit_display_summaryoff"
 msgid "Imperial units will be shown as '/\""
 msgstr "Θα εμφανίζονται ως '/\""
+
+msgctxt "dimension_format_imperial_unit_display_choices:0"
+msgid "Show as '/\""
+msgstr ""
+
+msgctxt "dimension_format_imperial_unit_display_choices:1"
+msgid "Show as ft/in"
+msgstr ""
 
 msgctxt "pref_measure_metric_length_unit"
 msgid "Metric length unit"
@@ -1071,6 +1083,14 @@ msgstr "Να εμφανίζονται τα αποτελέσματα και οι 
 msgctxt "pref_measure_label_shows_unit_summaryoff"
 msgid "Show only the value, omit the unit"
 msgstr "Να εμφανίζονται μόνο τα αποτελέσματα"
+
+msgctxt "dimension_format_show_unit_choices:0"
+msgid "Show value and unit"
+msgstr ""
+
+msgctxt "dimension_format_show_unit_choices:1"
+msgid "Do not show the unit"
+msgstr ""
 
 msgctxt "pref_category_export"
 msgid "Image export"
@@ -1476,10 +1496,14 @@ msgid "Stanley TLM99s"
 msgstr "Stanley TLM99s"
 
 msgctxt "pref_bluetooth_device_protocol_choices:10"
+msgid "Stanley TLM99si"
+msgstr "Stanley TLM99si"
+
+msgctxt "pref_bluetooth_device_protocol_choices:11"
 msgid "Suaoki/Mileseey"
 msgstr "Suaoki/Mileseey"
 
-msgctxt "pref_bluetooth_device_protocol_choices:11"
+msgctxt "pref_bluetooth_device_protocol_choices:12"
 msgid "Precaster CX100"
 msgstr "Precaster CX100"
 
@@ -2724,18 +2748,22 @@ msgid "text"
 msgstr "κείμενο"
 
 msgctxt "dimension_format_imperial_length_unit_choices:0"
+msgid "mil"
+msgstr ""
+
+msgctxt "dimension_format_imperial_length_unit_choices:1"
 msgid "inch"
 msgstr "ίντσα"
 
-msgctxt "dimension_format_imperial_length_unit_choices:1"
+msgctxt "dimension_format_imperial_length_unit_choices:2"
 msgid "foot"
 msgstr "πόδι"
 
-msgctxt "dimension_format_imperial_length_unit_choices:2"
+msgctxt "dimension_format_imperial_length_unit_choices:3"
 msgid "yard"
 msgstr "γιάρδα"
 
-msgctxt "dimension_format_imperial_length_unit_choices:3"
+msgctxt "dimension_format_imperial_length_unit_choices:4"
 msgid "mile"
 msgstr ""
 
@@ -2772,6 +2800,14 @@ msgctxt "dimension_format_area_imperial_choices:4"
 msgid "acre"
 msgstr ""
 
+msgctxt "dimension_format_area_imperial_choices:5"
+msgid "square mil"
+msgstr ""
+
+msgctxt "dimension_format_area_imperial_choices:6"
+msgid "circular mil"
+msgstr ""
+
 msgctxt "dimension_format_area_metric_prefix_choices:0"
 msgid "mm²"
 msgstr ""
@@ -2794,6 +2830,38 @@ msgstr ""
 
 msgctxt "dimension_format_area_metric_prefix_choices:5"
 msgid "hectare"
+msgstr ""
+
+msgctxt "value_entry_tab_title_value"
+msgid "Value"
+msgstr ""
+
+msgctxt "value_entry_tab_title_metadata"
+msgid "Extra"
+msgstr ""
+
+msgctxt "value_entry_tab_title_unit"
+msgid "Unit"
+msgstr ""
+
+msgctxt "value_entry_text_mode"
+msgid "Text mode"
+msgstr ""
+
+msgctxt "value_entry_value_mode"
+msgid "Value mode"
+msgstr ""
+
+msgctxt "value_entry_key_inch"
+msgid "Inch"
+msgstr ""
+
+msgctxt "value_entry_key_foot"
+msgid "Foot"
+msgstr ""
+
+msgctxt "value_entry_key_yard"
+msgid "Yard"
 msgstr ""
 
 #. text entry
@@ -3648,5 +3716,9 @@ msgstr ""
 
 msgctxt "image_info_show_on_map"
 msgid "Show on map"
+msgstr ""
+
+msgctxt "value_entry_unit_unit"
+msgid "Unit"
 msgstr ""
 
