@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-05-07 17:01+0200\n"
-"PO-Revision-Date: 2018-05-07 16:53+0200\n"
+"POT-Creation-Date: 2018-05-08 00:25+0200\n"
+"PO-Revision-Date: 2018-05-08 00:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=((n == 1) ? 0 : 1)\n"
@@ -852,15 +852,15 @@ msgstr "Standard für Bemaßungsformat"
 
 msgctxt "pref_measures_default_template_choices:0"
 msgid "Metric (1.00 m)"
-msgstr "metrisch (1.00 m)"
+msgstr "Metrisch (1.00 m)"
 
 msgctxt "pref_measures_default_template_choices:1"
 msgid "Imperial (1' 10 1/32\")"
-msgstr "britisch (1' 10 1/32\")"
+msgstr "Britisch (1' 10 1/32\")"
 
 msgctxt "pref_measures_default_template_choices:2"
 msgid "Imperial (1.00 ft)"
-msgstr "britisch (1.00 ft)"
+msgstr "Britisch (1.00 ft)"
 
 msgctxt "pref_measures_default_template_choices:3"
 msgid "Inches with fractions (1 1/8\")"
@@ -956,11 +956,11 @@ msgstr "Brüche werden nicht gekürzt (4/8 bleibt 4/8)"
 
 msgctxt "value_entry_dimension_format_reduce_fraction_choices:0"
 msgid "Reduce (4/8 becomes 1/2)"
-msgstr ""
+msgstr "Kürzen (4/8 wird zu 1/2)"
 
 msgctxt "value_entry_dimension_format_reduce_fraction_choices:1"
 msgid "Keep (4/8 stays 4/8)"
-msgstr ""
+msgstr "Nicht kürzen (4/8 bleibt)"
 
 msgctxt "pref_measure_imperial_unit_display"
 msgid "Textual imperial units"
@@ -976,11 +976,11 @@ msgstr "Britische Maße als '/\" abkürzen"
 
 msgctxt "dimension_format_imperial_unit_display_choices:0"
 msgid "Show as '/\""
-msgstr ""
+msgstr "Als '/\" anzeigen"
 
 msgctxt "dimension_format_imperial_unit_display_choices:1"
 msgid "Show as ft/in"
-msgstr ""
+msgstr "Als ft/in anzeichen"
 
 msgctxt "pref_measure_metric_length_unit"
 msgid "Metric length unit"
@@ -2676,12 +2676,12 @@ msgstr "ImageMeter Export: %1$s"
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:0"
 msgid "metric (1.00 m)"
-msgstr "metrisch (1.00 m)"
+msgstr "Metrisch (1.00 m)"
 
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:1"
 msgid "imperial (1' 10 1/32\")"
-msgstr "britisch (1' 10 1/32\")"
+msgstr "Britisch (1' 10 1/32\")"
 
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:2"
@@ -2691,7 +2691,7 @@ msgstr "Zoll mit Brüchen (23 1/16\")"
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:3"
 msgid "imperial decimal (1.00 ft)"
-msgstr "britisch (1.00 ft)"
+msgstr "Britisch (1.00 ft)"
 
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:4"
@@ -2700,11 +2700,11 @@ msgstr "Text"
 
 msgctxt "dimension_format_length_readonly_choices:0"
 msgid "metric (1.00 m)"
-msgstr "metrisch (1.00 m)"
+msgstr "Metrisch (1.00 m)"
 
 msgctxt "dimension_format_length_readonly_choices:1"
 msgid "imperial (1' 10 1/32\")"
-msgstr "britisch (1' 10 1/32\")"
+msgstr "Britisch (1' 10 1/32\")"
 
 msgctxt "dimension_format_length_readonly_choices:2"
 msgid "fractional inches (1 1/32\")"
@@ -2712,15 +2712,15 @@ msgstr "Zoll mit Brüchen (23 1/16\")"
 
 msgctxt "dimension_format_length_readonly_choices:3"
 msgid "imperial (1.00 ft)"
-msgstr "britisch (1.00 ft)"
+msgstr "Britisch (1.00 ft)"
 
 msgctxt "dimension_format_area_choices:0"
 msgid "metric"
-msgstr "metrisch"
+msgstr "Metrisch"
 
 msgctxt "dimension_format_area_choices:1"
 msgid "imperial"
-msgstr "britisch"
+msgstr "Britisch"
 
 msgctxt "dimension_format_area_choices:2"
 msgid "text"
@@ -2728,11 +2728,11 @@ msgstr "Text"
 
 msgctxt "dimension_format_area_readonly_choices:0"
 msgid "metric"
-msgstr "metrisch"
+msgstr "Metrisch"
 
 msgctxt "dimension_format_area_readonly_choices:1"
 msgid "imperial"
-msgstr "britisch"
+msgstr "Britisch"
 
 msgctxt "dimension_format_angle_choices:0"
 msgid "angle"
@@ -2858,6 +2858,10 @@ msgstr "Fuß"
 msgctxt "value_entry_key_yard"
 msgid "Yard"
 msgstr "Yard"
+
+msgctxt "value_entry_unit_section_automatic_measurement_options"
+msgid "Automatic measurement options"
+msgstr "Optionen für die automatische Berechnung"
 
 #. text entry
 msgctxt "textbox_dialog_label"
