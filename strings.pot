@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-09-20 11:55+0200\n"
+"POT-Creation-Date: 2018-12-12 18:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.3\n"
+"Generated-By: Babel 2.6.0\n"
 
 #. generic strings
 msgctxt "upgraded_sub_title"
@@ -709,18 +709,22 @@ msgctxt "pref_editor_line_width_dialog"
 msgid "Choose line width"
 msgstr ""
 
+#. unused
 msgctxt "pref_editor_text_label_background"
 msgid "Text label background"
 msgstr ""
 
+#. unused
 msgctxt "pref_editor_text_label_background_dialog"
 msgid "Text label background"
 msgstr ""
 
+#. unused
 msgctxt "pref_editor_text_label_background_choices:0"
 msgid "No background"
 msgstr ""
 
+#. unused
 msgctxt "pref_editor_text_label_background_choices:1"
 msgid "Solid rectangle"
 msgstr ""
@@ -891,6 +895,14 @@ msgstr ""
 
 msgctxt "pref_measure_min_imperial_fraction_choices:5"
 msgid "Fractions down to 1/32"
+msgstr ""
+
+msgctxt "pref_measure_min_imperial_fraction_choices:6"
+msgid "Fractions down to 1/64"
+msgstr ""
+
+msgctxt "pref_measure_min_imperial_fraction_choices:7"
+msgid "Fractions down to 1/128"
 msgstr ""
 
 msgctxt "pref_measure_reducefraction"
@@ -1411,50 +1423,54 @@ msgid "Bosch GLM100c"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_choices:3"
-msgid "CEM iLDM-150"
+msgid "Bosch GLM120c"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_choices:4"
-msgid "eTape16"
+msgid "CEM iLDM-150"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_choices:5"
-msgid "Hilti PD-38"
+msgid "eTape16"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_choices:6"
-msgid "Leica Disto classic"
+msgid "Hilti PD-38"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_choices:7"
-msgid "Leica Disto Bluetooth-4"
+msgid "Leica Disto classic"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_choices:8"
-msgid "LTI TruPulse"
+msgid "Leica Disto Bluetooth-4"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_choices:9"
-msgid "Stanley TLM99s"
+msgid "LTI TruPulse"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_choices:10"
-msgid "Stanley TLM99si"
+msgid "Stanley TLM99s"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_choices:11"
-msgid "Suaoki/Mileseey"
+msgid "Stanley TLM99si"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_choices:12"
-msgid "Precaster CX100"
+msgid "Suaoki/Mileseey"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_choices:13"
-msgid "Ada Cosmo 120"
+msgid "Precaster CX100"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_choices:14"
+msgid "Ada Cosmo 120"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_choices:15"
 msgid "Laserliner Compact Pro"
 msgstr ""
 
@@ -1918,6 +1934,14 @@ msgctxt "editor_menu_edit_rotate"
 msgid "Rotate image"
 msgstr ""
 
+msgctxt "editor_menu_edit_transfer_style"
+msgid "Transfer style"
+msgstr ""
+
+msgctxt "editor_menu_edit_copy_element"
+msgid "Copy element"
+msgstr ""
+
 msgctxt "editor_menu_edit_settings"
 msgid "Settings…"
 msgstr ""
@@ -2022,6 +2046,14 @@ msgctxt "editor_dialog_style_set_as_default"
 msgid "Set as default"
 msgstr ""
 
+msgctxt "editor_dialog_style_apply_to"
+msgid "Apply to …"
+msgstr ""
+
+msgctxt "editor_dialog_style_spinner_various_values"
+msgid "various"
+msgstr ""
+
 msgctxt "editor_dialog_style_textbox_title"
 msgid "Text box style"
 msgstr ""
@@ -2048,6 +2080,14 @@ msgstr ""
 
 msgctxt "editor_dialog_style_textbox_line_width_magnification"
 msgid "Line width"
+msgstr ""
+
+msgctxt "editor_dialog_style_textbox_background_color"
+msgid "Background color"
+msgstr ""
+
+msgctxt "editor_dialog_style_textbox_text_color"
+msgid "Text color"
 msgstr ""
 
 msgctxt "editor_dialog_style_freehand_title"
@@ -2079,7 +2119,7 @@ msgid "Dimension style"
 msgstr ""
 
 msgctxt "editor_dialog_style_measure_show_text"
-msgid "Show text"
+msgid "Show length"
 msgstr ""
 
 msgctxt "editor_dialog_style_measure_font_magnification"
@@ -2112,6 +2152,10 @@ msgstr ""
 
 msgctxt "editor_dialog_style_measure_text_position_choices:1"
 msgid "Within line"
+msgstr ""
+
+msgctxt "editor_dialog_style_measure_text_color"
+msgid "Text color"
 msgstr ""
 
 msgctxt "editor_dialog_style_measure_inverted_drawing"
@@ -2151,7 +2195,7 @@ msgid "Reference style"
 msgstr ""
 
 msgctxt "editor_dialog_style_rect_show_text"
-msgid "Show text"
+msgid "Show side lengths"
 msgstr ""
 
 msgctxt "editor_dialog_style_rect_show_area"
@@ -2530,6 +2574,58 @@ msgctxt "editor_dialog_style_perspective_line_title"
 msgid "Perspective line style"
 msgstr ""
 
+msgctxt "editor_label_style_text_color"
+msgid "Text color"
+msgstr ""
+
+msgctxt "editor_label_style_font_size"
+msgid "Font size"
+msgstr ""
+
+msgctxt "editor_label_style_bkg_color"
+msgid "Background color"
+msgstr ""
+
+msgctxt "editor_label_style_apply_to"
+msgid "Apply to …"
+msgstr ""
+
+msgctxt "editor_label_style_apply_to_both_sides"
+msgid "Both sides"
+msgstr ""
+
+msgctxt "editor_label_style_apply_to_all_edges"
+msgid "All edges"
+msgstr ""
+
+msgctxt "editor_label_style_apply_to_all_lengths"
+msgid "All lengths"
+msgstr ""
+
+msgctxt "editor_label_style_apply_to_whole_element"
+msgid "Whole element"
+msgstr ""
+
+msgctxt "editor_label_style_apply_to_whole_image"
+msgid "Whole image"
+msgstr ""
+
+msgctxt "editor_label_style_save_as_default_for"
+msgid "Use style as default for …"
+msgstr ""
+
+msgctxt "editor_label_style_save_as_default_only_this_label"
+msgid "Only this label"
+msgstr ""
+
+msgctxt "editor_label_style_save_as_default_this_element"
+msgid "This drawing tool"
+msgstr ""
+
+msgctxt "editor_label_style_save_as_default_all_elements"
+msgid "All drawing tools"
+msgstr ""
+
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
 msgid ""
 "The image data could not be read successfully. ImageMeter has tried to "
@@ -2571,6 +2667,18 @@ msgstr ""
 
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
+msgstr ""
+
+msgctxt "color_dialog_special_transparent"
+msgid "Transparent"
+msgstr ""
+
+msgctxt "color_dialog_special_automatic"
+msgid "Automatic"
+msgstr ""
+
+msgctxt "color_dialog_special_use_main_color"
+msgid "Use main color"
 msgstr ""
 
 #. editor errors
@@ -2772,6 +2880,10 @@ msgctxt "value_entry_tab_title_unit"
 msgid "Unit"
 msgstr ""
 
+msgctxt "value_entry_tab_title_style"
+msgid "Style"
+msgstr ""
+
 msgctxt "value_entry_text_mode"
 msgid "Text mode"
 msgstr ""
@@ -2918,6 +3030,10 @@ msgstr ""
 
 msgctxt "bluetooth_error_cannot_set_value_wrong_dimension_unit"
 msgid "wrong measurement unit"
+msgstr ""
+
+msgctxt "bluetooth_error_cannot_set_value_element_is_locked"
+msgid "element is locked"
 msgstr ""
 
 msgctxt "bluetooth_pref_button_start_bluetooth_scan"

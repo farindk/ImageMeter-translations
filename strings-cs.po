@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-09-20 11:55+0200\n"
-"PO-Revision-Date: 2018-05-07 17:01+0200\n"
+"POT-Creation-Date: 2018-12-12 18:24+0100\n"
+"PO-Revision-Date: 2018-12-12 18:12+0100\n"
 "Last-Translator: \n"
+"Language: cs\n"
 "Language-Team: cs <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(((n >= 2 && n <= 4)) ? 1 : (n == 1) ? 0"
-" : 2)\n"
+"Plural-Forms: nplurals=4; plural=((((n >= 2 && n <= 4)) && ((0 == 0))) ? "
+"1 : (!((0 == 0))) ? 2 : (((n == 1)) && ((0 == 0))) ? 0 : 3)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.3\n"
+"Generated-By: Babel 2.6.0\n"
 
 #. generic strings
 msgctxt "upgraded_sub_title"
@@ -763,18 +764,22 @@ msgctxt "pref_editor_line_width_dialog"
 msgid "Choose line width"
 msgstr "Zvolte šířku čáry"
 
+#. unused
 msgctxt "pref_editor_text_label_background"
 msgid "Text label background"
 msgstr "Pozadí textového štítku"
 
+#. unused
 msgctxt "pref_editor_text_label_background_dialog"
 msgid "Text label background"
 msgstr "Pozadí textového štítku"
 
+#. unused
 msgctxt "pref_editor_text_label_background_choices:0"
 msgid "No background"
 msgstr "Žádné pozadí"
 
+#. unused
 msgctxt "pref_editor_text_label_background_choices:1"
 msgid "Solid rectangle"
 msgstr "Plný obdélník"
@@ -946,6 +951,14 @@ msgstr "Zlomky do 1/16"
 msgctxt "pref_measure_min_imperial_fraction_choices:5"
 msgid "Fractions down to 1/32"
 msgstr "Zlomky do 1/32"
+
+msgctxt "pref_measure_min_imperial_fraction_choices:6"
+msgid "Fractions down to 1/64"
+msgstr "Zlomky do 1/64"
+
+msgctxt "pref_measure_min_imperial_fraction_choices:7"
+msgid "Fractions down to 1/128"
+msgstr "Zlomky do 1/128"
 
 msgctxt "pref_measure_reducefraction"
 msgid "Reduce fractions"
@@ -1465,52 +1478,56 @@ msgid "Bosch GLM100c"
 msgstr "Bosch GLM100c"
 
 msgctxt "pref_bluetooth_device_protocol_choices:3"
+msgid "Bosch GLM120c"
+msgstr "Bosch GLM120c"
+
+msgctxt "pref_bluetooth_device_protocol_choices:4"
 msgid "CEM iLDM-150"
 msgstr "CEM iLDM-150"
 
-msgctxt "pref_bluetooth_device_protocol_choices:4"
+msgctxt "pref_bluetooth_device_protocol_choices:5"
 msgid "eTape16"
 msgstr "eTape16"
 
-msgctxt "pref_bluetooth_device_protocol_choices:5"
+msgctxt "pref_bluetooth_device_protocol_choices:6"
 msgid "Hilti PD-38"
 msgstr "Hilti PD-38"
 
-msgctxt "pref_bluetooth_device_protocol_choices:6"
+msgctxt "pref_bluetooth_device_protocol_choices:7"
 msgid "Leica Disto classic"
 msgstr "Leica Disto classic"
 
-msgctxt "pref_bluetooth_device_protocol_choices:7"
+msgctxt "pref_bluetooth_device_protocol_choices:8"
 msgid "Leica Disto Bluetooth-4"
 msgstr "Leica Disto Bluetooth-4"
 
-msgctxt "pref_bluetooth_device_protocol_choices:8"
+msgctxt "pref_bluetooth_device_protocol_choices:9"
 msgid "LTI TruPulse"
 msgstr "LTI TruPulse"
 
-msgctxt "pref_bluetooth_device_protocol_choices:9"
+msgctxt "pref_bluetooth_device_protocol_choices:10"
 msgid "Stanley TLM99s"
 msgstr "Stanley TLM99s"
 
-msgctxt "pref_bluetooth_device_protocol_choices:10"
+msgctxt "pref_bluetooth_device_protocol_choices:11"
 msgid "Stanley TLM99si"
 msgstr "Stanley TLM99si"
 
-msgctxt "pref_bluetooth_device_protocol_choices:11"
+msgctxt "pref_bluetooth_device_protocol_choices:12"
 msgid "Suaoki/Mileseey"
 msgstr "Suaoki/Mileseey"
 
-msgctxt "pref_bluetooth_device_protocol_choices:12"
+msgctxt "pref_bluetooth_device_protocol_choices:13"
 msgid "Precaster CX100"
 msgstr "Precaster CX100"
 
-msgctxt "pref_bluetooth_device_protocol_choices:13"
-msgid "Ada Cosmo 120"
-msgstr ""
-
 msgctxt "pref_bluetooth_device_protocol_choices:14"
+msgid "Ada Cosmo 120"
+msgstr "Ada Cosmo 120"
+
+msgctxt "pref_bluetooth_device_protocol_choices:15"
 msgid "Laserliner Compact Pro"
-msgstr ""
+msgstr "Laserliner Compact Pro"
 
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
 msgid "LTI TruPulse distance mode"
@@ -1980,6 +1997,14 @@ msgctxt "editor_menu_edit_rotate"
 msgid "Rotate image"
 msgstr "Otočit obraz"
 
+msgctxt "editor_menu_edit_transfer_style"
+msgid "Transfer style"
+msgstr ""
+
+msgctxt "editor_menu_edit_copy_element"
+msgid "Copy element"
+msgstr ""
+
 msgctxt "editor_menu_edit_settings"
 msgid "Settings…"
 msgstr "Nastavení…"
@@ -2088,6 +2113,14 @@ msgctxt "editor_dialog_style_set_as_default"
 msgid "Set as default"
 msgstr "Nastavit jako výchozí"
 
+msgctxt "editor_dialog_style_apply_to"
+msgid "Apply to …"
+msgstr ""
+
+msgctxt "editor_dialog_style_spinner_various_values"
+msgid "various"
+msgstr ""
+
 msgctxt "editor_dialog_style_textbox_title"
 msgid "Text box style"
 msgstr "Styl textového pole"
@@ -2115,6 +2148,14 @@ msgstr "Velikost písma"
 msgctxt "editor_dialog_style_textbox_line_width_magnification"
 msgid "Line width"
 msgstr "Šířka čáry"
+
+msgctxt "editor_dialog_style_textbox_background_color"
+msgid "Background color"
+msgstr ""
+
+msgctxt "editor_dialog_style_textbox_text_color"
+msgid "Text color"
+msgstr ""
 
 msgctxt "editor_dialog_style_freehand_title"
 msgid "Freehand style"
@@ -2144,8 +2185,9 @@ msgctxt "editor_dialog_style_measure_title"
 msgid "Dimension style"
 msgstr "Styl rozměru"
 
+#, fuzzy
 msgctxt "editor_dialog_style_measure_show_text"
-msgid "Show text"
+msgid "Show length"
 msgstr "Zobrazit text"
 
 msgctxt "editor_dialog_style_measure_font_magnification"
@@ -2179,6 +2221,10 @@ msgstr "Nad čarou"
 msgctxt "editor_dialog_style_measure_text_position_choices:1"
 msgid "Within line"
 msgstr "Pod čarou"
+
+msgctxt "editor_dialog_style_measure_text_color"
+msgid "Text color"
+msgstr ""
 
 msgctxt "editor_dialog_style_measure_inverted_drawing"
 msgid "Inverted drawing"
@@ -2216,8 +2262,9 @@ msgctxt "editor_dialog_style_rect_title"
 msgid "Reference style"
 msgstr "Referenční styl"
 
+#, fuzzy
 msgctxt "editor_dialog_style_rect_show_text"
-msgid "Show text"
+msgid "Show side lengths"
 msgstr "Zobrazit text"
 
 msgctxt "editor_dialog_style_rect_show_area"
@@ -2602,6 +2649,58 @@ msgctxt "editor_dialog_style_perspective_line_title"
 msgid "Perspective line style"
 msgstr ""
 
+msgctxt "editor_label_style_text_color"
+msgid "Text color"
+msgstr ""
+
+msgctxt "editor_label_style_font_size"
+msgid "Font size"
+msgstr ""
+
+msgctxt "editor_label_style_bkg_color"
+msgid "Background color"
+msgstr ""
+
+msgctxt "editor_label_style_apply_to"
+msgid "Apply to …"
+msgstr ""
+
+msgctxt "editor_label_style_apply_to_both_sides"
+msgid "Both sides"
+msgstr ""
+
+msgctxt "editor_label_style_apply_to_all_edges"
+msgid "All edges"
+msgstr ""
+
+msgctxt "editor_label_style_apply_to_all_lengths"
+msgid "All lengths"
+msgstr ""
+
+msgctxt "editor_label_style_apply_to_whole_element"
+msgid "Whole element"
+msgstr ""
+
+msgctxt "editor_label_style_apply_to_whole_image"
+msgid "Whole image"
+msgstr ""
+
+msgctxt "editor_label_style_save_as_default_for"
+msgid "Use style as default for …"
+msgstr ""
+
+msgctxt "editor_label_style_save_as_default_only_this_label"
+msgid "Only this label"
+msgstr ""
+
+msgctxt "editor_label_style_save_as_default_this_element"
+msgid "This drawing tool"
+msgstr ""
+
+msgctxt "editor_label_style_save_as_default_all_elements"
+msgid "All drawing tools"
+msgstr ""
+
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
 msgid ""
 "The image data could not be read successfully. ImageMeter has tried to "
@@ -2654,6 +2753,18 @@ msgstr "Ukázat výhody upgradu"
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
 msgstr "Později"
+
+msgctxt "color_dialog_special_transparent"
+msgid "Transparent"
+msgstr ""
+
+msgctxt "color_dialog_special_automatic"
+msgid "Automatic"
+msgstr ""
+
+msgctxt "color_dialog_special_use_main_color"
+msgid "Use main color"
+msgstr ""
 
 #. editor errors
 msgctxt "editor_error_image_out_of_memory"
@@ -2862,6 +2973,10 @@ msgctxt "value_entry_tab_title_unit"
 msgid "Unit"
 msgstr ""
 
+msgctxt "value_entry_tab_title_style"
+msgid "Style"
+msgstr ""
+
 msgctxt "value_entry_text_mode"
 msgid "Text mode"
 msgstr ""
@@ -3019,6 +3134,10 @@ msgstr "hodnota prvku je pouze ke čtení"
 msgctxt "bluetooth_error_cannot_set_value_wrong_dimension_unit"
 msgid "wrong measurement unit"
 msgstr "nesprávná jednotka rozměrů"
+
+msgctxt "bluetooth_error_cannot_set_value_element_is_locked"
+msgid "element is locked"
+msgstr ""
 
 msgctxt "bluetooth_pref_button_start_bluetooth_scan"
 msgid "Start Bluetooth device scan"
