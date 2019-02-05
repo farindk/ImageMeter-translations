@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-12-26 21:16+0100\n"
-"PO-Revision-Date: 2018-12-26 21:09+0100\n"
+"POT-Creation-Date: 2019-02-05 22:00+0100\n"
+"PO-Revision-Date: 2019-02-05 22:00+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -149,6 +149,18 @@ msgctxt "imageselect_menu_about_app"
 msgid "About app..."
 msgstr "Über die App..."
 
+msgctxt "imageselect_menu_sync_current_folder"
+msgid "Sync current folder"
+msgstr "Synchronisiere aktuelles Verzeichnis"
+
+msgctxt "imageselect_menu_sync_inbox_folder"
+msgid "Sync inbox with cloud (beta)"
+msgstr "Synchronisiere Inbox mit Cloud (Beta)"
+
+msgctxt "imageselect_menu_sync_all_folders"
+msgid "Sync all folders"
+msgstr "Synchronisiere alle Verzeichnisse"
+
 #. dialog: rename folder
 msgctxt "foldername_dialog_folder_name"
 msgid "Folder name"
@@ -218,38 +230,46 @@ msgstr "Wählen Sie den Zielordner für das Bild"
 
 #. dialog: about app
 msgctxt "imageselect_dialog_about_version"
-msgid "version:"
+msgid "Version:"
 msgstr "Version:"
 
 msgctxt "imageselect_dialog_about_license"
-msgid "license:"
+msgid "License:"
 msgstr "Lizenz:"
 
 msgctxt "imageselect_dialog_about_license_evaluation"
-msgid "free evaluation"
+msgid "Free Evaluation"
 msgstr "kostenlose Testversion"
 
 msgctxt "imageselect_dialog_about_license_pro"
-msgid "pro"
+msgid "Pro"
 msgstr "Pro"
 
 msgctxt "imageselect_dialog_about_tutorial_link"
-msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">tutorial video</a>"
+msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
 msgstr ""
 "<a "
 "href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Einführungsvideo</a>"
 
 msgctxt "imageselect_dialog_about_documentation_link"
-msgid "<a href=\"https://www.imagemeter.com/manual\">documentation</a>"
+msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
 msgstr "<a href=\"https://www.imagemeter.com/de/manual\">Anleitung</a>"
 
 msgctxt "imageselect_dialog_about_contact_link"
-msgid "<a href=\"mailto:imagemeter@gmail.com\">contact email</a>"
+msgid "<a href=\"mailto:imagemeter@gmail.com\">Contact email</a>"
 msgstr "<a href=\"mailto:imagemeter@gmail.com\">EMail-Kontakt</a>"
 
 msgctxt "imageselect_dialog_about_translator"
 msgid "Translator:"
 msgstr ""
+
+msgctxt "imageselect_dialog_about_privacy_policy_link"
+msgid ""
+"<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
+"policy</a>"
+msgstr ""
+"<a href=\"https://www.iubenda.com/privacy-"
+"policy/43586350\">Datenschutzerklärung</a>"
 
 #. tutorial
 msgctxt "tutorial_images_1"
@@ -466,6 +486,23 @@ msgctxt "dialog_duplicate_folder_import_skip"
 msgid "Skip"
 msgstr "Nicht importieren"
 
+#. Dialog: cloud login required
+msgctxt "dialog_cloud_login_required_title"
+msgid "Cloud login required"
+msgstr "Cloud-Login benötigt"
+
+msgctxt "dialog_cloud_login_required_text"
+msgid ""
+"You are currently not logged into any cloud service. Please connect to "
+"your account in the preferences."
+msgstr ""
+"Sie sind momentan in keinen Cloudservice eingeloggt. Bitte verknüpfen Sie"
+" Ihren Account in den Einstellungen."
+
+msgctxt "dialog_cloud_login_open_prefs_button"
+msgid "Open cloud preferences"
+msgstr "Cloudeinstellungen öffnen"
+
 #. errors
 msgctxt "imageselect_error_imported_file_is_not_an_image"
 msgid "Imported file is not an image"
@@ -640,9 +677,45 @@ msgstr ""
 "zu machen. Sie können alternativ Bilder aus der Gallerie importieren oder"
 " eine andere Kamera-App installieren."
 
+#, c-format
+msgctxt "error_cannot_save_annotated_image"
+msgid "Cannot save annotated image because: '%1$s'."
+msgstr "Kann das bearbeitete Bild nicht speichern, da: '%1$s'."
+
+#, c-format
+msgctxt "error_cannot_save_thumbnail_image"
+msgid "Cannot save thumbnail image because: '%1$s'."
+msgstr "Kann das Vorschaubild nicht speichern, da: '%1$s'."
+
+#, c-format
+msgctxt "error_cannot_access_files_in_folder"
+msgid "Cannot access files in folder '%1$s'."
+msgstr "Auf die Dateien im Verzeichnis '%1$s' kann nicht zugegriffen werden."
+
+#, c-format
+msgctxt "error_cannot_rename_file"
+msgid "Cannot rename file '%1$s' to '%2$s'."
+msgstr "Die Datei '%1$s' kann nicht nach '%2$s' umbenannt werden."
+
+#, c-format
+msgctxt "error_cannot_delete_file"
+msgid "Cannot delete file '%1$s'."
+msgstr "Kann die Datei '%1$s' nicht löschen."
+
+#, c-format
+msgctxt "error_target_folder_contains_bundle_with_same_id"
+msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
+msgstr ""
+"Verzeichnis '%1$s' enthält das Bild '%2$s', welches die gleiche ID wie "
+"das Bild '%3$s' hat."
+
 msgctxt "imageselect_dummyname_image_with_corrupted_imm_file"
 msgid "Corrupt .imm file"
 msgstr "Beschädigte .imm Datei"
+
+msgctxt "error_cause_section_title"
+msgid "Cause:"
+msgstr "Grund:"
 
 #. storage errors
 msgctxt "storage_error_external_storage_unavailable"
@@ -696,10 +769,382 @@ msgstr ""
 "Kann das Bild nicht importieren, da die Leseberechtigung dazu nicht "
 "erteilt wurde."
 
+#, c-format
+msgctxt "storage_error_cannot_read_ifd_file"
+msgid "Cannot read IFD file in folder '%1$s'."
+msgstr "Die IFD-Datei im Verzeichnis '%1$s' kann nicht gelesen werden."
+
+#, c-format
+msgctxt "error_cannot_open_file_does_not_exist"
+msgid "Cannot open file '%1$s' because it does not exist."
+msgstr "Die Datei '%1$s' kann nicht geöffnet werden, da sie nicht existiert."
+
+#, c-format
+msgctxt "error_cannot_open_file_is_folder"
+msgid "Cannot open file '%1$s' because it is a folder."
+msgstr "Die Datei '%1$s' kann nicht gelesen werden, da es ein Verzeichnis ist."
+
+msgctxt "storage_error_cannot_load_image_file_from_remote"
+msgid "Cannot load the image file from cloud storage."
+msgstr "Die Bilddatei kann nicht vom Cloudspeicher gelesen werden."
+
+msgctxt "storage_note_pulling_image_file_from_remote"
+msgid "Downloading image file from cloud storage."
+msgstr "Bilddatei wird vom Cloudspeicher runtergeladen."
+
 #. other errors
 msgctxt "error_pro_version_required_title"
 msgid "Pro version required"
 msgstr "Pro-Version benötigt"
+
+#. cloud storage
+msgctxt "pref_cloud_storage_server_none"
+msgid "None"
+msgstr "Keiner"
+
+msgctxt "pref_cloud_storage_server_drive"
+msgid "Google Drive"
+msgstr "Google Drive"
+
+msgctxt "pref_cloud_storage_server_dropbox"
+msgid "Dropbox"
+msgstr "Dropbox"
+
+msgctxt "pref_cloud_storage_server_nextcloud"
+msgid "Nextcloud/Owncloud"
+msgstr "Nextcloud/Owncloud"
+
+msgctxt "pref_cloud_storage_server_onedrive"
+msgid "OneDrive"
+msgstr "OneDrive"
+
+msgctxt "pref_cloud_storage_server_handwerkcloud"
+msgid "Handwerkcloud"
+msgstr "Handwerkcloud"
+
+msgctxt "cloud_storage_provider_googledrive"
+msgid "Google Drive"
+msgstr "Google Drive"
+
+msgctxt "cloud_storage_provider_dropbox"
+msgid "Dropbox"
+msgstr "Dropbox"
+
+msgctxt "cloud_storage_provider_nextcloud"
+msgid "Nextcloud / Owncloud / WebDAV"
+msgstr "Nextcloud / Owncloud / WebDAV"
+
+msgctxt "cloud_storage_base_directory"
+msgid "Data directory:"
+msgstr "Datenverzeichnis:"
+
+msgctxt "cloud_storage_server_url"
+msgid "Server URL:"
+msgstr "Server URL:"
+
+msgctxt "cloud_storage_user_name"
+msgid "User name:"
+msgstr "Benutzername:"
+
+msgctxt "cloud_storage_password"
+msgid "Password:"
+msgstr "Passwort:"
+
+msgctxt "cloud_storage_sign_in"
+msgid "Sign in"
+msgstr "Einloggen"
+
+msgctxt "cloud_storage_sign_out"
+msgid "Sign out"
+msgstr "Ausloggen"
+
+msgctxt "cloud_storage_revoke_access"
+msgid "Revoke access"
+msgstr "Zugriffrechte entfernen"
+
+msgctxt "cloud_storage_cloud_server"
+msgid "Cloud server:"
+msgstr "Cloudserver:"
+
+msgctxt "cloud_storage_cautiousness"
+msgid "Cautiousness:"
+msgstr "Vorsichtigkeit:"
+
+msgctxt "cloud_storage_notice_text"
+msgid ""
+"Note: cloud storage is still in beta testing. You can currently only sync"
+" the 'inbox' folder.\n"
+"\n"
+"See the cloud storage <a "
+"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>."
+msgstr ""
+"Anmerkung: Cloudspeicherung ist immer noch im Betatest. Sie können im "
+"Moment nur das 'Inbox' Verzeichnis synchronisieren.\n"
+"\n"
+"Weitere Informationen finden Sie in der <a "
+"href=\"https://www.imagemeter.com/manual/storage/cloud\">Dokumentation</a>."
+
+msgctxt "cloud_storage_account"
+msgid "Account owner:"
+msgstr "Accountbesitzer:"
+
+msgctxt "cloud_storage_nextcloud_check_sign_in"
+msgid "Check sign in"
+msgstr "Login prüfen"
+
+msgctxt "cloud_storage_nextcloud_sign_in_successful"
+msgid "Signed in successfully."
+msgstr "Erfolgreich eingeloggt."
+
+msgctxt "cloud_storage_dialog_sync_action_title"
+msgid "Synchronizing directory"
+msgstr "Synchronisiere Verzeichnis"
+
+msgctxt "cloud_storage_sync_action_download"
+msgid "Download"
+msgstr "Download"
+
+msgctxt "cloud_storage_sync_action_download_changes"
+msgid "Download changes"
+msgstr "Änderungen downloaden"
+
+msgctxt "cloud_storage_sync_action_upload"
+msgid "Upload"
+msgstr "Upload"
+
+msgctxt "cloud_storage_sync_action_upload_changes"
+msgid "Upload changes"
+msgstr "Änderungen uploaden"
+
+msgctxt "cloud_storage_sync_action_delete_on_device"
+msgid "Delete on device"
+msgstr "Auf Gerät löschen"
+
+msgctxt "cloud_storage_sync_action_delete_on_server"
+msgid "Delete on server"
+msgstr "Auf Server löschen"
+
+msgctxt "cloud_storage_sync_action_skip"
+msgid "Skip"
+msgstr "Ignorieren"
+
+msgctxt "cloud_storage_sync_progress_start_sync"
+msgid "Scanning server content…"
+msgstr "Untersuche Serverinhalt..."
+
+#, c-format
+msgctxt "cloud_storage_sync_progress_scan_root_folder"
+msgid ""
+"Scanning remote root folder (%2$d of %3$d)…\n"
+"%1$s"
+msgstr ""
+"Lese das Server-Hauptverzeichnis (%2$d von %3$d)...\n"
+"%1$s"
+
+#, c-format
+msgctxt "cloud_storage_sync_progress_scan_folder"
+msgid ""
+"Scanning remote folder '%1$s' (%3$d of %4$d)…\n"
+"%2$s"
+msgstr ""
+"Lese das Server-Verzeichnis '%1$s' (%3$d von %4$d)…\n"
+"%2$s"
+
+#, c-format
+msgctxt "cloud_storage_sync_progress_download_image"
+msgid ""
+"Downloading image (%2$d of %3$d)…\n"
+"%1$s"
+msgstr ""
+"Download des Bildes (%2$d von %3$d)…\n"
+"%1$s"
+
+#, c-format
+msgctxt "cloud_storage_sync_progress_upload_image"
+msgid ""
+"Uploading image (%2$d of %3$d)…\n"
+"%1$s"
+msgstr ""
+"Upload des Bildes (%2$d von %3$d)…\n"
+"%1$s"
+
+#, c-format
+msgctxt "cloud_storage_sync_progress_delete_image"
+msgid ""
+"Deleting image (%2$d of %3$d)…\n"
+"%1$s"
+msgstr ""
+"Löschen des Bildes (%2$d von %3$d)…\n"
+"%1$s"
+
+#, c-format
+msgctxt "cloud_storage_sync_progress_download_folder"
+msgid ""
+"Downloading folder (%2$d of %3$d)…\n"
+"%1$s"
+msgstr ""
+"Download des Verzeichnisses (%2$d von %3$d)…\n"
+"%1$s"
+
+#, c-format
+msgctxt "cloud_storage_sync_progress_upload_folder"
+msgid ""
+"Uploading folder (%2$d of %3$d)…\n"
+"%1$s"
+msgstr ""
+"Upload des Verzeichnisses (%2$d von %3$d)…\n"
+"%1$s"
+
+#, c-format
+msgctxt "cloud_storage_sync_progress_delete_folder"
+msgid ""
+"Deleting folder (%2$d of %3$d)…\n"
+"%1$s"
+msgstr ""
+"Löschen des Verzeichnisses (%2$d von %3$d)…\n"
+"%1$s"
+
+#, c-format
+msgctxt "error_cloud_require_interactive_login"
+msgid "Interactive login to your %1$s account is required."
+msgstr "Manueller Login in ihren %1$s Account wird benötigt."
+
+msgctxt "error_cloud_login_cancelled_by_user"
+msgid "User has cancelled the login."
+msgstr "Benutzer hat den Loginprozess abgebrochen."
+
+msgctxt "error_cloud_login_unauthorized"
+msgid "Wrong user name or password."
+msgstr "Falscher Benutzername oder falsches Passwort."
+
+#, c-format
+msgctxt "error_cloud_network_error"
+msgid "Network error when connecting to your %1$s account."
+msgstr "Netzwerkfehler beim Verbinden mit Ihrem %1$s Account."
+
+#, c-format
+msgctxt "error_cloud_server_timeout"
+msgid "%1$s server timeout."
+msgstr "%1$s Server Zeitüberschreitung."
+
+#, c-format
+msgctxt "error_cloud_general_cannot_login"
+msgid "Cannot sign in to your %1$s account."
+msgstr "Login in den '%1$s' Account nicht erfolgreich."
+
+#, c-format
+msgctxt "error_cloud_base_folder_not_found"
+msgid "Data folder '%2$s' not found in your %1$s account."
+msgstr "Datenverzeichnis '%2$s' wurde nicht in Ihrem '%1$s' Account gefunden."
+
+#, c-format
+msgctxt "error_cloud_cannot_create_remote_file_already_exists"
+msgid "Cannot create file '%1$s' because it already exists."
+msgstr "Datei '%1$s' kann nicht erzeugt werden, da sie schon existiert."
+
+#, c-format
+msgctxt "error_cloud_cannot_create_remote_file_folder_exists"
+msgid "Cannot create file '%1$s' because there is a folder with this name."
+msgstr ""
+"Datei '%1$s' kann nicht erzeugt werden, da es ein Verzeichnis mit "
+"gleichem Namen gibt."
+
+#, c-format
+msgctxt "error_cloud_cannot_create_remote_file_server_error"
+msgid "Cannot create file '%1$s' because of a server error."
+msgstr "Datei '%1$s' kann wegen einem Serverfehler nicht erzeugt werden."
+
+#, c-format
+msgctxt "error_cloud_cannot_create_remote_folder"
+msgid "Cannot create folder '%1$s'."
+msgstr "Verzeichnis '%1$s' kann nicht erstellt werden."
+
+#, c-format
+msgctxt "error_cloud_cannot_create_remote_folder_already_exists"
+msgid "Cannot create folder '%1$s' because it already exists."
+msgstr "Verzeichnis '%1$s' kann nicht erstellt werden, da es schon existiert."
+
+#, c-format
+msgctxt "error_cloud_cannot_create_remote_folder_file_exists"
+msgid "Cannot create folder '%1$s' because there is a file with this name."
+msgstr ""
+"Verzeichnis '%1$s' kann nicht erstellt werden, da es eine Datei mit "
+"diesem Namen gibt."
+
+#, c-format
+msgctxt "error_cloud_cannot_download_file_download_error"
+msgid "Cannot download file '%1$s' from server."
+msgstr "Datei '%1$s' kann nicht vom Server geladen werden."
+
+#, c-format
+msgctxt "error_cloud_cannot_download_file_local_write_error"
+msgid "Cannot write downloaded file '%1$s' to device."
+msgstr "Runtergeladene Datei '%1$s' kann nicht auf dem Gerät gespeichert werden."
+
+#, c-format
+msgctxt "error_cloud_cannot_get_remote_metadata"
+msgid "Cannot get metadata of file '%1$s' from server."
+msgstr "Metadaten der Datei '%1$s' können nicht vom Server geladen werden."
+
+#, c-format
+msgctxt "error_cloud_cannot_open_remote_file_does_not_exist"
+msgid "Cannot open file '%1$s' on server because it does not exist."
+msgstr ""
+"Datei '%1$s' auf dem Server kann nicht geöffnet werden, da sie nicht "
+"existiert."
+
+#, c-format
+msgctxt "error_cloud_cannot_open_remote_file_is_folder"
+msgid "Cannot open file '%1$s' on server because it is a folder."
+msgstr ""
+"Datei '%1$s' auf dem Server kann nicht gelesen werden, da es ein "
+"Verzeichnis ist."
+
+#, c-format
+msgctxt "error_cloud_cannot_open_remote_folder_does_not_exist"
+msgid "Cannot open folder '%1$s' on server because it does not exist."
+msgstr ""
+"Verzeichnis '%1$s' auf dem Server kann nicht geöffnet werden, da es nicht"
+" existiert."
+
+#, c-format
+msgctxt "error_cloud_cannot_open_remote_folder_is_no_folder"
+msgid "Cannot open folder '%1$s' on server because it is not a folder."
+msgstr ""
+"Verzeichnis '%1$s' auf dem Server kann nicht geöffnet werden, da es kein "
+"Verzeichnis ist."
+
+#, c-format
+msgctxt "error_cloud_cannot_rename_remote_file"
+msgid "Cannot rename remote file '%1$s' to new name '%2$s'."
+msgstr "Datei '%1$s' auf dem Server kann nicht nach '%2$s' umbenannt werden."
+
+#, c-format
+msgctxt "error_cloud_cannot_rename_remote_folder"
+msgid "Cannot rename remote folder '%1$s' to new name '%2$s'."
+msgstr "Verzeichnis '%1$s' auf dem Server kann nicht nach '%2$s' umbenannt werden."
+
+#, c-format
+msgctxt "error_cloud_remote_databundle_incomplete"
+msgid "Cannot load image '%1$s' because remote file '%2$s' is missing."
+msgstr ""
+"Bild '%1$s' kann nicht geladen werden, da die Datei '%2$s' auf dem Server"
+" fehlt."
+
+#, c-format
+msgctxt "error_cloud_cannot_sync_databundle"
+msgid "Cannot sync image '%1$s'."
+msgstr "Kann das Bild '%1$s' nicht synchronisieren."
+
+#, c-format
+msgctxt "error_cloud_cannot_sync_folder"
+msgid "Cannot sync folder '%1$s'."
+msgstr "Kann das Verzeichnis '%1$s' nicht synchronisieren."
+
+#, c-format
+msgctxt "error_cloud_cannot_delete_remote_file"
+msgid "Cannot delete remote file '%1$s'."
+msgstr "Kann die Datei '%1$s' auf dem Server nicht löschen."
 
 #. preferences screen
 msgctxt "pref_category_editor"
@@ -1787,6 +2232,10 @@ msgctxt "pref_storage_data_directory"
 msgid "Data directory"
 msgstr "Datenverzeichnis"
 
+msgctxt "pref_storage_cloud_storage"
+msgid "Cloud storage"
+msgstr "Cloudspeicherung"
+
 msgctxt "pref_storage_show_images_in_gallery"
 msgid "Show images in gallery"
 msgstr "Bilder in Galerie anzeigen"
@@ -1911,6 +2360,34 @@ msgstr "Verschiebe Bilder ..."
 msgctxt "dialog_storage_directory_move_images_progress_text"
 msgid "Moving images ..."
 msgstr "Verschiebe Bilder ..."
+
+msgctxt "pref_cloud_storage_sync_mode:0"
+msgid "Download on demand"
+msgstr ""
+
+msgctxt "pref_cloud_storage_sync_mode:1"
+msgid "Full download"
+msgstr ""
+
+msgctxt "pref_cloud_storage_sync_cautiousness:0"
+msgid "Never ask"
+msgstr "Niemals nachfragen"
+
+msgctxt "pref_cloud_storage_sync_cautiousness:1"
+msgid "Confirm deletions"
+msgstr "Löschen bestätigen"
+
+msgctxt "pref_cloud_storage_sync_cautiousness:2"
+msgid "Confirm conflicts and deletions"
+msgstr "Löschen und Konflikte bestätigen"
+
+msgctxt "pref_cloud_storage_sync_cautiousness:3"
+msgid "Confirm everything"
+msgstr "Immer nachfragen"
+
+msgctxt "cloud_storage_default_base_path"
+msgid "ImageMeter"
+msgstr "ImageMeter"
 
 #. editor
 msgctxt "editor_menu_section_calibration_tools"
@@ -3950,4 +4427,9 @@ msgstr "Karte zeigen"
 msgctxt "value_entry_unit_unit"
 msgid "Unit"
 msgstr "Einheit"
+
+#. TODO: Remove or change this placeholder text
+msgctxt "hello_blank_fragment"
+msgid "Hello blank fragment"
+msgstr ""
 
