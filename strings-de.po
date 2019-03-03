@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-06 12:23+0100\n"
-"PO-Revision-Date: 2019-02-06 12:16+0100\n"
+"POT-Creation-Date: 2019-03-03 21:11+0100\n"
+"PO-Revision-Date: 2019-03-03 21:11+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -50,6 +50,18 @@ msgstr "unbekannt"
 msgctxt "notification_error_title"
 msgid "ImageMeter error"
 msgstr "ImageMeter Fehler"
+
+msgctxt "notification_bkg_rendering_title"
+msgid "Image rendering in progress…"
+msgstr "Bilder werden gezeichnet..."
+
+msgctxt "notification_bkg_rendering_channel_title"
+msgid "Image rendering"
+msgstr "Bildgenerierung"
+
+msgctxt "notification_syncer_channel_title"
+msgid "Cloud synchronization"
+msgstr "Synchronisierung mit Cloudspeicher"
 
 #. ========== folder/image-selection ==========
 #. menu
@@ -896,6 +908,14 @@ msgctxt "cloud_storage_nextcloud_sign_in_successful"
 msgid "Signed in successfully."
 msgstr "Erfolgreich eingeloggt."
 
+msgctxt "cloud_storage_handwerkcloud_manual_login_checkbox"
+msgid "Manual login"
+msgstr "Manueller Login"
+
+msgctxt "cloud_storage_handwerkcloud_login_button"
+msgid "Log in"
+msgstr "Einloggen"
+
 msgctxt "cloud_storage_dialog_sync_action_title"
 msgid "Synchronizing directory"
 msgstr "Synchronisiere Verzeichnis"
@@ -1003,6 +1023,10 @@ msgid ""
 msgstr ""
 "Löschen des Verzeichnisses (%2$d von %3$d)…\n"
 "%1$s"
+
+msgctxt "cloud_sync_notification_title"
+msgid "Cloud synchronization in progress…"
+msgstr "Synchronisierung mit Cloudspeicher in Arbeit..."
 
 #, c-format
 msgctxt "error_cloud_require_interactive_login"
@@ -1145,6 +1169,11 @@ msgstr "Kann das Verzeichnis '%1$s' nicht synchronisieren."
 msgctxt "error_cloud_cannot_delete_remote_file"
 msgid "Cannot delete remote file '%1$s'."
 msgstr "Kann die Datei '%1$s' auf dem Server nicht löschen."
+
+#, c-format
+msgctxt "error_cloud_cannot_delete_remote_folder"
+msgid "Cannot delete remote folder '%1$s'."
+msgstr "Kann das Verzeichnis '%1$s' auf dem Server nicht löschen."
 
 #. preferences screen
 msgctxt "pref_category_editor"
@@ -1951,6 +1980,10 @@ msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_bt4"
 msgid "Leica Disto Bluetooth-4"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x"
+msgid "Leica Disto X3/X4"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_lti_trupulse"
@@ -3268,6 +3301,18 @@ msgstr "Pro-Version Features zeigen"
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
 msgstr "Später"
+
+msgctxt "editor_rectref_standard_size_letter"
+msgid "Letter"
+msgstr "US Letter"
+
+msgctxt "editor_rectref_standard_size_legal"
+msgid "Legal"
+msgstr "US Legal"
+
+msgctxt "editor_rectref_standard_size_credit_card"
+msgid "Credit card"
+msgstr "Kreditkarte"
 
 msgctxt "color_dialog_special_transparent"
 msgid "Transparent"
