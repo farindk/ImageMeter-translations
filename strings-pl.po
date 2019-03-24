@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-03-03 21:11+0100\n"
-"PO-Revision-Date: 2019-03-20 09:37+0100\n"
+"PO-Revision-Date: 2019-03-24 23:43+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1202,7 +1202,7 @@ msgstr "Z dala"
 
 msgctxt "pref_editor_snapping_hv_orientation_choices:1"
 msgid "Only when attached to reference"
-msgstr "Tylko w przypadku dołączenia do punktu odniesienia"
+msgstr "Tylko w przypadku dołączenia do siatki odniesienia"
 
 msgctxt "pref_editor_snapping_hv_orientation_choices:2"
 msgid "On"
@@ -2338,11 +2338,11 @@ msgstr "Narzędzia do rysowania"
 
 msgctxt "editor_menu_add_reference"
 msgid "Perspective reference"
-msgstr "Odniesienie do perspektywy"
+msgstr "Siatka odniesienia"
 
 msgctxt "editor_menu_add_flatreference"
 msgid "Reference scale"
-msgstr "Skala odniesienia"
+msgstr "Skala"
 
 msgctxt "editor_menu_add_perspective_line"
 msgid "Perspective length"
@@ -2366,7 +2366,7 @@ msgstr "Tekst"
 
 msgctxt "editor_menu_add_freehand"
 msgid "Freehand"
-msgstr "Odręcznie"
+msgstr "Pismo odręczne"
 
 msgctxt "editor_menu_add_circle"
 msgid "Circle"
@@ -2450,11 +2450,11 @@ msgstr "Styl"
 
 msgctxt "editor_hint_howto_draw_reference"
 msgid "Please point-and-drag one side of the reference."
-msgstr "Wskaż i przeciągnij jedną stronę punktu odniesienia."
+msgstr "Wskaż i przeciągnij jedną stronę siatki odniesienia."
 
 msgctxt "editor_hint_howto_draw_flatref"
 msgid "Please point-and-drag the length of the reference distance."
-msgstr "Wskaż i przeciągnij długość punktu odniesienia."
+msgstr "Wskaż i przeciągnij długość skala."
 
 msgctxt "editor_hint_howto_draw_measure"
 msgid "Please point-and-drag the new measure."
@@ -2502,7 +2502,7 @@ msgstr "Narzędzie do pomiaru nieznanej odległości wzdłuż zniekształconej l
 
 msgctxt "editor_hint_howto_attach_to_reference"
 msgid "Click on the measure you want to compute based on the selected reference."
-msgstr "Kliknij miarę, którą chcesz obliczyć na podstawie wybranego punktu odniesienia."
+msgstr "Kliknij miarę, którą chcesz obliczyć na podstawie wybranego siatki odniesienia."
 
 msgctxt "editor_hint_howto_attach_measure"
 msgid "Click on the reference based on which you want to calculate the selected measure."
@@ -2510,7 +2510,7 @@ msgstr "Kliknij punkt odniesienia, na podstawie którego chcesz obliczyć wybran
 
 msgctxt "editor_error_no_reference_to_attach_to"
 msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
-msgstr "W obrazie nie ma punktu odniesienia! Musisz narysować odniesienie, aby wykonać automatyczne obliczenia."
+msgstr "W obrazie nie ma siatki odniesienia! Musisz narysować odniesienie, aby wykonać automatyczne obliczenia."
 
 msgctxt "editor_error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -2722,14 +2722,14 @@ msgstr "Zapisz rozmiar punkt odniesienia jako domyślny"
 
 msgctxt "editor_dialog_style_rect_info_set_default_reference_size_title"
 msgid "Default Reference Size"
-msgstr "Domyślny rozmiar punktu odniesienia"
+msgstr "Domyślny rozmiar siatki odniesienia"
 
 msgctxt "editor_dialog_style_rect_info_set_default_reference_size_text"
 msgid ""
 "This button stores the currently entered reference dimensions as the default size. When creating a new reference, these dimensions are "
 "automatically set. You can set this to any reference that is suitable for your application, e.g. the size of a sheet of paper."
 msgstr ""
-"Ten przycisk zapisuje aktualnie wprowadzone wymiary punktu odniesienia jako rozmiar domyślny. Podczas tworzenia nowego punktu odniesienia, "
+"Ten przycisk zapisuje aktualnie wprowadzone wymiary siatki odniesienia jako rozmiar domyślny. Podczas tworzenia nowego siatki odniesienia, "
 "wymiary te są ustawiane automatycznie. Można ustawić to na dowolne miejsce odpowiednie dla danej aplikacji, np. Rozmiar arkusza papieru."
 
 msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:0"
@@ -3416,11 +3416,11 @@ msgstr "Automatyczne opcje pomiaru"
 
 msgctxt "value_entry_metadata_prefix"
 msgid "Prefix"
-msgstr "Prefix"
+msgstr "Przed"
 
 msgctxt "value_entry_metadata_suffix"
 msgid "Suffix"
-msgstr "Suffix"
+msgstr "Za"
 
 #. text entry
 msgctxt "textbox_dialog_label"
@@ -3814,7 +3814,7 @@ msgid ""
 "When you draw a new measure in an image that already contains a reference, the measure is automatically computed based on this reference. "
 "If you want to enter its value manually, click on the crossed-out calculator icon or choose 'enter value manually' from the menu."
 msgstr ""
-"Kiedy rysujesz nową miarę na obrazie, który już zawiera punkt odniesienia, miara jest automatycznie obliczana na podstawie tego punktu "
+"Kiedy rysujesz nową miarę na obrazie, który już zawiera punkt odniesienia, miara jest automatycznie obliczana na podstawie tego siatki "
 "odniesienia. Jeśli chcesz wprowadzić jego wartość ręcznie, kliknij przekreśloną ikonę kalkulatora lub wybierz \"wprowadź wartość ręcznie\" "
 "z menu."
 
