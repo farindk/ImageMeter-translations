@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-03-03 21:11+0100\n"
-"PO-Revision-Date: 2019-03-18 15:33+0100\n"
+"PO-Revision-Date: 2019-04-16 22:08+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -260,15 +260,15 @@ msgstr "Chuyên nghiệp"
 
 msgctxt "imageselect_dialog_about_tutorial_link"
 msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
-msgstr "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\"> video hướng dẫn </a>"
+msgstr "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video hướng dẫn</a>"
 
 msgctxt "imageselect_dialog_about_documentation_link"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
-msgstr "<a href=\"https://www.imagemeter.com/manual\"> Tài liệu </a>"
+msgstr "<a href=\"https://www.imagemeter.com/manual\">Tài liệu</a>"
 
 msgctxt "imageselect_dialog_about_contact_link"
 msgid "<a href=\"mailto:imagemeter@gmail.com\">Contact email</a>"
-msgstr "<a href=\"mailto:imagemeter@gmail.com\"> Email liên hệ </a>"
+msgstr "<a href=\"mailto:imagemeter@gmail.com\">Email liên hệ</a>"
 
 msgctxt "imageselect_dialog_about_translator"
 msgid "Translator:"
@@ -276,7 +276,7 @@ msgstr "Phiên dịch:"
 
 msgctxt "imageselect_dialog_about_privacy_policy_link"
 msgid "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy policy</a>"
-msgstr "<a href=\"https://www.iubenda.com/privacy-policy/43586350\"> Chính sách bảo mật </a>"
+msgstr "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Chính sách bảo mật</a>"
 
 #. tutorial
 msgctxt "tutorial_images_1"
@@ -322,14 +322,20 @@ msgid ""
 "Images from free app are now imported.\n"
 "\n"
 "It may be good to delete images from the free app now (please check that there was no import error) to save memory and to avoid overwriting your changes by an accidental reimport."
-msgstr "Hình ảnh từ ứng dụng miễn phí hiện đã được nhập. \\ N \\ n Có thể tốt để xóa hình ảnh khỏi ứng dụng miễn phí ngay bây giờ (vui lòng kiểm tra xem không có lỗi nhập) để lưu bộ nhớ và để tránh ghi đè thay đổi của bạn bằng cách nhập lại ngẫu nhiên."
+msgstr ""
+"Hình ảnh từ ứng dụng miễn phí hiện đã được nhập.\n"
+"\n"
+"Có thể tốt để xóa hình ảnh khỏi ứng dụng miễn phí ngay bây giờ (vui lòng kiểm tra xem không có lỗi nhập) để lưu bộ nhớ và để tránh ghi đè thay đổi của bạn bằng cách nhập lại ngẫu nhiên."
 
 msgctxt "imageselect_error_howto_import_free_app"
 msgid ""
 "Could not yet import images.\n"
 "\n"
 "In order to import the images of the free app, both apps must be at least at version v1.48. In both apps, the images have to be converted to filesystem storage (you find this action in the same menu you found the import item)."
-msgstr "Chưa thể nhập hình ảnh. \\ N \\ n Để nhập hình ảnh của ứng dụng miễn phí, cả hai ứng dụng phải có ít nhất ở phiên bản v1.48. Trong cả hai ứng dụng, hình ảnh phải được chuyển đổi thành bộ lưu trữ hệ thống tập tin (bạn tìm thấy hành động này trong cùng một menu bạn đã tìm thấy mục nhập)."
+msgstr ""
+"Chưa thể nhập hình ảnh.\n"
+"\n"
+"Để nhập hình ảnh của ứng dụng miễn phí, cả hai ứng dụng phải có ít nhất ở phiên bản v1.48. Trong cả hai ứng dụng, hình ảnh phải được chuyển đổi thành bộ lưu trữ hệ thống tập tin (bạn tìm thấy hành động này trong cùng một menu bạn đã tìm thấy mục nhập)."
 
 msgctxt "imageselect_error_import_free_app_failed"
 msgid "Image import from free app has failed or is incomplete. Maybe your memory is full?"
@@ -359,7 +365,10 @@ msgid ""
 "Images have been saved to folder '%1$s'.\n"
 "\n"
 "Maybe you can also find them more easily under /sdcard/Pictures."
-msgstr "Hình ảnh đã được lưu vào thư mục ' %1$s '. \\ N \\ n Có thể bạn cũng có thể tìm thấy chúng dễ dàng hơn trong / sdcard / Ảnh."
+msgstr ""
+"Hình ảnh đã được lưu vào thư mục ' %1$s '.\n"
+"\n"
+"Có thể bạn cũng có thể tìm thấy chúng dễ dàng hơn trong /sdcard/Ảnh."
 
 msgctxt "export_dialog_overwrite_extpics_images_message"
 msgid "Images with the same name exist in the target directory."
@@ -419,7 +428,7 @@ msgstr "Nhập ảnh"
 #, c-format
 msgctxt "dialog_duplicate_image_import_message"
 msgid "Imported image '%1$s' already exists."
-msgstr "Hình ảnh đã nhập ' %1$s ' đã tồn tại."
+msgstr "Hình ảnh đã nhập '%1$s' đã tồn tại."
 
 msgctxt "dialog_duplicate_image_import_overwrite"
 msgid "Overwrite"
@@ -440,12 +449,12 @@ msgstr "Nhập thư mục"
 #, c-format
 msgctxt "dialog_duplicate_folder_import_message"
 msgid "Imported folder '%1$s' already exists. %3$d images should be imported, out of which %2$d already exist locally."
-msgstr "Thư mục đã nhập ' %1$s ' đã tồn tại. Nên nhập hình ảnh %3$d , trong đó %2$d đã tồn tại cục bộ."
+msgstr "Thư mục đã nhập '%1$s' đã tồn tại. Nên nhập hình ảnh %3$d , trong đó %2$d đã tồn tại cục bộ."
 
 #, c-format
 msgctxt "dialog_duplicate_folder_no_duplicate_images_import_message"
 msgid "Imported folder '%1$s' already exists, but there are no duplicate images."
-msgstr "Thư mục đã nhập ' %1$s ' đã tồn tại, nhưng không có hình ảnh trùng lặp."
+msgstr "Thư mục đã nhập '%1$s' đã tồn tại, nhưng không có hình ảnh trùng lặp."
 
 msgctxt "dialog_duplicate_folder_import_merge"
 msgid "Merge"
@@ -499,7 +508,10 @@ msgid ""
 "The image file is missing. Unfortunately, you cannot edit the image without.\n"
 "\n"
 "Expected image filename: %1$s."
-msgstr "Các tập tin hình ảnh bị thiếu. Thật không may, bạn không thể chỉnh sửa hình ảnh mà không có. \\ N \\ n Tên tệp hình ảnh được mở rộng: %1$s ."
+msgstr ""
+"Các tập tin hình ảnh bị thiếu. Thật không may, bạn không thể chỉnh sửa hình ảnh mà không có.\n"
+"\n"
+"Tên tệp hình ảnh được mở rộng: %1$s ."
 
 #, c-format
 msgctxt "imageselect_error_image_version_more_recent_open_editor_anyways"
@@ -507,7 +519,10 @@ msgid ""
 "The file version of this image (%1$d) is more recent than the maximum version supported by the ImageMeter version installed (%2$d). Opening the file may result in lost data or wrong annotations. You should use a recent version of ImageMeter to open this file.\n"
 "\n"
 "Do you still want to open it?"
-msgstr "Phiên bản tệp của hình ảnh này ( %1$d ) gần đây hơn phiên bản tối đa được hỗ trợ bởi phiên bản ImageMeter được cài đặt ( %2$d ). Mở tệp có thể dẫn đến mất dữ liệu hoặc chú thích sai. Bạn nên sử dụng phiên bản ImageMeter gần đây để mở tệp này. \\ N \\ nBạn có muốn mở nó không?"
+msgstr ""
+"Phiên bản tệp của hình ảnh này (%1$d) gần đây hơn phiên bản tối đa được hỗ trợ bởi phiên bản ImageMeter được cài đặt (%2$d). Mở tệp có thể dẫn đến mất dữ liệu hoặc chú thích sai. Bạn nên sử dụng phiên bản ImageMeter gần đây để mở tệp này.\n"
+"\n"
+"Bạn có muốn mở nó không?"
 
 msgctxt "imageselect_error_metadata_format_unknown"
 msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
@@ -523,67 +538,67 @@ msgstr "Không thể di chuyển hình ảnh sang thư mục mới (có thể m�
 
 msgctxt "imageselect_error_external_memory_unavailable"
 msgid "External memory (where your app-data is stored) is not available. Most probably, your device stores this data on an external SD card which is currently not available. If this is not the problem in your case, you may contact imagemeter@gmail.com."
-msgstr "Bộ nhớ ngoài (nơi lưu trữ dữ liệu ứng dụng của bạn) không khả dụng. Rất có thể, thiết bị của bạn lưu trữ dữ liệu này trên thẻ SD bên ngoài hiện không khả dụng. Nếu đây không phải là vấn đề trong trường hợp của bạn, bạn có thể liên hệ với fantemeter @ gmail."
+msgstr "Bộ nhớ ngoài (nơi lưu trữ dữ liệu ứng dụng của bạn) không khả dụng. Rất có thể, thiết bị của bạn lưu trữ dữ liệu này trên thẻ SD bên ngoài hiện không khả dụng. Nếu đây không phải là vấn đề trong trường hợp của bạn, bạn có thể liên hệ với imagemeter@gmail."
 
 #, c-format
 msgctxt "imageselect_error_folder_cannot_create"
 msgid "Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure the media (e.g. SD-card) is mounted, this directory exists and is writable."
-msgstr "Không thể tạo thư mục ' %1$s ' trong thư mục này: ' %2$s '. Đảm bảo phương tiện (ví dụ thẻ SD) được gắn, thư mục này tồn tại và có thể ghi."
+msgstr "Không thể tạo thư mục '%1$s' trong thư mục này:  '%2$s'. Đảm bảo phương tiện (ví dụ thẻ SD) được gắn, thư mục này tồn tại và có thể ghi."
 
 #, c-format
 msgctxt "imageselect_error_cannot_create_databundle_on_filesystem"
 msgid "Cannot create filesystem folder '%1$s' for the image data. Make sure the media (e.g. SD-card) is mounted, this directory exists and is writable."
-msgstr "Không thể tạo thư mục hệ thống tập tin ' %1$s ' cho dữ liệu hình ảnh. Đảm bảo phương tiện (ví dụ thẻ SD) được gắn, thư mục này tồn tại và có thể ghi."
+msgstr "Không thể tạo thư mục hệ thống tập tin '%1$s' cho dữ liệu hình ảnh. Đảm bảo phương tiện (ví dụ thẻ SD) được gắn, thư mục này tồn tại và có thể ghi."
 
 #, c-format
 msgctxt "imageselect_error_cannot_access_external_data"
 msgid "Cannot access external data at location '%1$s'."
-msgstr "Không thể truy cập dữ liệu ngoài tại vị trí ' %1$s '."
+msgstr "Không thể truy cập dữ liệu ngoài tại vị trí '%1$s'."
 
 #, c-format
 msgctxt "imageselect_error_cannot_create_existing_folder"
 msgid "Cannot create folder '%1$s' because it already exists."
-msgstr "Không thể tạo thư mục ' %1$s ' vì nó đã tồn tại."
+msgstr "Không thể tạo thư mục '%1$s' vì nó đã tồn tại."
 
 #, c-format
 msgctxt "imageselect_error_folder_rename_target_exists"
 msgid "Cannot rename folder to '%1$s' because that already exists."
-msgstr "Không thể đổi tên thư mục thành ' %1$s ' vì điều đó đã tồn tại."
+msgstr "Không thể đổi tên thư mục thành '%1$s' vì điều đó đã tồn tại."
 
 #, c-format
 msgctxt "imageselect_error_folder_does_not_exist"
 msgid "Folder '%1$s' does not exist anymore."
-msgstr "Thư mục ' %1$s ' không còn tồn tại nữa."
+msgstr "Thư mục '%1$s' không còn tồn tại nữa."
 
 #, c-format
 msgctxt "imageselect_error_folder_does_not_exist_detailed"
 msgid "Folder '%1$s' does not exist anymore (expected location '%2$s')."
-msgstr "Thư mục ' %1$s ' không còn tồn tại nữa (vị trí dự kiến ' %2$s ')."
+msgstr "Thư mục '%1$s' không còn tồn tại nữa (vị trí dự kiến '%2$s')."
 
 #, c-format
 msgctxt "imageselect_error_folder_cannot_delete"
 msgid "Cannot delete folder '%1$s'."
-msgstr "Không thể xóa thư mục ' %1$s '."
+msgstr "Không thể xóa thư mục '%1$s'."
 
 #, c-format
 msgctxt "imageselect_error_cannot_write_data_bundle"
 msgid "Cannot write data for image '%1$s'."
-msgstr "Không thể ghi dữ liệu cho hình ảnh ' %1$s '."
+msgstr "Không thể ghi dữ liệu cho hình ảnh '%1$s'."
 
 #, c-format
 msgctxt "imageselect_error_cannot_write_data_bundle_detailed"
 msgid "Cannot write data for image '%1$s' (at location '%2$s')."
-msgstr "Không thể ghi dữ liệu cho hình ảnh ' %1$s ' (tại vị trí ' %2$s ')."
+msgstr "Không thể ghi dữ liệu cho hình ảnh '%1$s' (tại vị trí '%2$s')."
 
 #, c-format
 msgctxt "imageselect_error_cannot_rename_folder"
 msgid "Cannot rename folder '%1$s' to '%2$s'."
-msgstr "Không thể đổi tên thư mục ' %1$s ' thành ' %2$s '."
+msgstr "Không thể đổi tên thư mục '%1$s' thành '%2$s'."
 
 #, c-format
 msgctxt "imageselect_error_cannot_delete_data_bundle"
 msgid "Cannot delete image '%1$s'."
-msgstr "Không thể xóa hình ảnh ' %1$s '."
+msgstr "Không thể xóa hình ảnh '%1$s'."
 
 msgctxt "imageselect_error_internal_toast"
 msgid "An internal error happened. Please take a screenshot of the notification above and send this to me. Thank you!"
@@ -600,32 +615,32 @@ msgstr "Không thể khởi động ứng dụng bên ngoài để chụp ảnh 
 #, c-format
 msgctxt "error_cannot_save_annotated_image"
 msgid "Cannot save annotated image because: '%1$s'."
-msgstr "Không thể lưu hình ảnh chú thích vì: ' %1$s '."
+msgstr "Không thể lưu hình ảnh chú thích vì: '%1$s'."
 
 #, c-format
 msgctxt "error_cannot_save_thumbnail_image"
 msgid "Cannot save thumbnail image because: '%1$s'."
-msgstr "Không thể lưu hình ảnh thu nhỏ vì: ' %1$s '."
+msgstr "Không thể lưu hình ảnh thu nhỏ vì: '%1$s'."
 
 #, c-format
 msgctxt "error_cannot_access_files_in_folder"
 msgid "Cannot access files in folder '%1$s'."
-msgstr "Không thể truy cập các tệp trong thư mục ' %1$s '."
+msgstr "Không thể truy cập các tệp trong thư mục '%1$s'."
 
 #, c-format
 msgctxt "error_cannot_rename_file"
 msgid "Cannot rename file '%1$s' to '%2$s'."
-msgstr "Không thể đổi tên tệp ' %1$s ' thành ' %2$s '."
+msgstr "Không thể đổi tên tệp '%1$s' thành '%2$s'."
 
 #, c-format
 msgctxt "error_cannot_delete_file"
 msgid "Cannot delete file '%1$s'."
-msgstr "Không thể xóa tệp ' %1$s '."
+msgstr "Không thể xóa tệp '%1$s'."
 
 #, c-format
 msgctxt "error_target_folder_contains_bundle_with_same_id"
 msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
-msgstr "Thư mục ' %1$s ' chứa hình ảnh ' %2$s ' có cùng ID với hình ảnh ' %3$s '."
+msgstr "Thư mục '%1$s' chứa hình ảnh '%2$s' có cùng ID với hình ảnh '%3$s'."
 
 msgctxt "imageselect_dummyname_image_with_corrupted_imm_file"
 msgid "Corrupt .imm file"
@@ -655,7 +670,7 @@ msgstr "Không thể có được quyền ghi vào bộ nhớ ngoài. Không có
 #, c-format
 msgctxt "storage_error_cannot_create_directory_on_external_storage"
 msgid "Could not create directory '%1$s' on external storage."
-msgstr "Không thể tạo thư mục ' %1$s ' trên bộ nhớ ngoài."
+msgstr "Không thể tạo thư mục '%1$s' trên bộ nhớ ngoài."
 
 msgctxt "storage_error_external_storage_destination_is_no_directory"
 msgid "External storage destination is not a directory."
@@ -664,12 +679,12 @@ msgstr "Đích lưu trữ ngoài không phải là một thư mục."
 #, c-format
 msgctxt "storage_error_data_bundle_corrupted"
 msgid "Data in image directory '%1$s' is corrupted."
-msgstr "Dữ liệu trong thư mục hình ảnh ' %1$s ' bị hỏng."
+msgstr "Dữ liệu trong thư mục hình ảnh '%1$s' bị hỏng."
 
 #, c-format
 msgctxt "storage_error_metadata_unknown_format"
 msgid "Metadata file (.imm) for image '%1$s' cannot be read, because it's format is unknown."
-msgstr "Không thể đọc tệp siêu dữ liệu (.imm) cho hình ảnh ' %1$s ', vì định dạng của nó không xác định."
+msgstr "Không thể đọc tệp siêu dữ liệu (.imm) cho hình ảnh '%1$s', vì định dạng của nó không xác định."
 
 msgctxt "storage_error_no_permission_to_read_image_to_be_imported"
 msgid "Cannot import image because the permission to read external storage has not been granted."
@@ -678,17 +693,17 @@ msgstr "Không thể nhập hình ảnh vì quyền đọc bộ nhớ ngoài ch�
 #, c-format
 msgctxt "storage_error_cannot_read_ifd_file"
 msgid "Cannot read IFD file in folder '%1$s'."
-msgstr "Không thể đọc tệp IFD trong thư mục ' %1$s '."
+msgstr "Không thể đọc tệp IFD trong thư mục '%1$s'."
 
 #, c-format
 msgctxt "error_cannot_open_file_does_not_exist"
 msgid "Cannot open file '%1$s' because it does not exist."
-msgstr "Không thể mở tệp ' %1$s ' vì nó không tồn tại."
+msgstr "Không thể mở tệp '%1$s' vì nó không tồn tại."
 
 #, c-format
 msgctxt "error_cannot_open_file_is_folder"
 msgid "Cannot open file '%1$s' because it is a folder."
-msgstr "Không thể mở tệp ' %1$s ' vì đây là thư mục."
+msgstr "Không thể mở tệp '%1$s' vì đây là thư mục."
 
 msgctxt "storage_error_cannot_load_image_file_from_remote"
 msgid "Cannot load the image file from cloud storage."
@@ -718,11 +733,11 @@ msgstr "Dropbox"
 
 msgctxt "pref_cloud_storage_server_nextcloud"
 msgid "Nextcloud/Owncloud"
-msgstr "Nextcloud / owncloud"
+msgstr "Nextcloud / Owncloud"
 
 msgctxt "pref_cloud_storage_server_onedrive"
 msgid "OneDrive"
-msgstr "Một ổ đĩa"
+msgstr "OneDrive"
 
 msgctxt "pref_cloud_storage_server_handwerkcloud"
 msgid "Handwerkcloud"
@@ -738,7 +753,7 @@ msgstr "Dropbox"
 
 msgctxt "cloud_storage_provider_nextcloud"
 msgid "Nextcloud / Owncloud / WebDAV"
-msgstr "Nextcloud / owncloud / WebDAV"
+msgstr "Nextcloud / Owncloud / WebDAV"
 
 msgctxt "cloud_storage_base_directory"
 msgid "Data directory:"
@@ -781,7 +796,10 @@ msgid ""
 "Note: cloud storage is still in beta testing. You can currently only sync the 'inbox' folder.\n"
 "\n"
 "See the cloud storage <a href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>."
-msgstr "Lưu ý: lưu trữ đám mây vẫn đang trong giai đoạn thử nghiệm. Hiện tại, bạn chỉ có thể đồng bộ hóa thư mục 'hộp thư đến'. \\ N \\ nXem bộ nhớ đám mây <a href=\"https://www.imagemeter.com/manual/st Storage/cloud\"> tài liệu </a>."
+msgstr ""
+"Lưu ý: lưu trữ đám mây vẫn đang trong giai đoạn thử nghiệm. Hiện tại, bạn chỉ có thể đồng bộ hóa thư mục 'inbox'.\n"
+"\n"
+"Xem bộ nhớ đám mây <a href=\"https://www.imagemeter.com/manual/st Storage/cloud\">tài liệu</a>."
 
 msgctxt "cloud_storage_account"
 msgid "Account owner:"
@@ -844,65 +862,81 @@ msgctxt "cloud_storage_sync_progress_scan_root_folder"
 msgid ""
 "Scanning remote root folder (%2$d of %3$d)…\n"
 "%1$s"
-msgstr "Quét thư mục gốc từ xa ( %2$d trong số %3$d ) '\\ \\ %1$s"
+msgstr ""
+"Quét thư mục gốc từ xa (%2$d trong số %3$d)...\n"
+"%1$s"
 
 #, c-format
 msgctxt "cloud_storage_sync_progress_scan_folder"
 msgid ""
 "Scanning remote folder '%1$s' (%3$d of %4$d)…\n"
 "%2$s"
-msgstr "Quét thư mục từ xa ' %1$s ' ( %3$d trong số %4$d ) '\\ \\ %2$s"
+msgstr ""
+"Quét thư mục từ xa '%1$s' (%3$d trong số %4$d)...\n"
+"%2$s"
 
 #, c-format
 msgctxt "cloud_storage_sync_progress_download_image"
 msgid ""
 "Downloading image (%2$d of %3$d)…\n"
 "%1$s"
-msgstr "Đang tải xuống hình ảnh ( %2$d trong số %3$d )) \\ \\ %1$s"
+msgstr ""
+"Đang tải xuống hình ảnh (%2$d trong số %3$d)...\n"
+"%1$s"
 
 #, c-format
 msgctxt "cloud_storage_sync_progress_upload_image"
 msgid ""
 "Uploading image (%2$d of %3$d)…\n"
 "%1$s"
-msgstr "Tải lên hình ảnh ( %2$d trong số %3$d )) \\ n %1$s"
+msgstr ""
+"Tải lên hình ảnh (%2$d trong số %3$d)...\n"
+"%1$s"
 
 #, c-format
 msgctxt "cloud_storage_sync_progress_delete_image"
 msgid ""
 "Deleting image (%2$d of %3$d)…\n"
 "%1$s"
-msgstr "Xóa hình ảnh ( %2$d trong số %3$d )) \\ n %1$s"
+msgstr ""
+"Xóa hình ảnh (%2$d trong số %3$d)...\n"
+"%1$s"
 
 #, c-format
 msgctxt "cloud_storage_sync_progress_download_folder"
 msgid ""
 "Downloading folder (%2$d of %3$d)…\n"
 "%1$s"
-msgstr "Tải xuống thư mục ( %2$d trong số %3$d )) \\ \\ %1$s"
+msgstr ""
+"Tải xuống thư mục (%2$d trong số %3$d)...\n"
+"%1$s"
 
 #, c-format
 msgctxt "cloud_storage_sync_progress_upload_folder"
 msgid ""
 "Uploading folder (%2$d of %3$d)…\n"
 "%1$s"
-msgstr "Thư mục tải lên ( %2$d trong %3$d ) '' %1$s"
+msgstr ""
+"Thư mục tải lên (%2$d trong %3$d)...\n"
+"%1$s"
 
 #, c-format
 msgctxt "cloud_storage_sync_progress_delete_folder"
 msgid ""
 "Deleting folder (%2$d of %3$d)…\n"
 "%1$s"
-msgstr "Xóa thư mục ( %2$d trong %3$d ) '' %1$s"
+msgstr ""
+"Xóa thư mục (%2$d trong %3$d)...\n"
+"%1$s"
 
 msgctxt "cloud_sync_notification_title"
 msgid "Cloud synchronization in progress…"
-msgstr "Đồng bộ hóa trên đám mây đang tiến hành"
+msgstr "Đồng bộ hóa trên đám mây đang tiến hành..."
 
 #, c-format
 msgctxt "error_cloud_require_interactive_login"
 msgid "Interactive login to your %1$s account is required."
-msgstr "Yêu cầu đăng nhập tương tác vào tài khoản %1$s ."
+msgstr "Yêu cầu đăng nhập tương tác vào tài khoản %1$s."
 
 msgctxt "error_cloud_login_cancelled_by_user"
 msgid "User has cancelled the login."
@@ -915,122 +949,122 @@ msgstr "Tên người dùng hoặc mật khẩu sai."
 #, c-format
 msgctxt "error_cloud_network_error"
 msgid "Network error when connecting to your %1$s account."
-msgstr "Lỗi mạng khi kết nối với tài khoản %1$s ."
+msgstr "Lỗi mạng khi kết nối với tài khoản %1$s."
 
 #, c-format
 msgctxt "error_cloud_server_timeout"
 msgid "%1$s server timeout."
-msgstr "Hết thời gian chờ máy chủ %1$s ."
+msgstr "Hết thời gian chờ máy chủ %1$s."
 
 #, c-format
 msgctxt "error_cloud_general_cannot_login"
 msgid "Cannot sign in to your %1$s account."
-msgstr "Không thể đăng nhập vào tài khoản %1$s ."
+msgstr "Không thể đăng nhập vào tài khoản %1$s."
 
 #, c-format
 msgctxt "error_cloud_base_folder_not_found"
 msgid "Data folder '%2$s' not found in your %1$s account."
-msgstr "Không tìm thấy thư mục dữ liệu ' %2$s ' trong tài khoản %1$s ."
+msgstr "Không tìm thấy thư mục dữ liệu '%2$s' trong tài khoản %1$s."
 
 #, c-format
 msgctxt "error_cloud_cannot_create_remote_file_already_exists"
 msgid "Cannot create file '%1$s' because it already exists."
-msgstr "Không thể tạo tệp ' %1$s ' vì nó đã tồn tại."
+msgstr "Không thể tạo tệp '%1$s' vì nó đã tồn tại."
 
 #, c-format
 msgctxt "error_cloud_cannot_create_remote_file_folder_exists"
 msgid "Cannot create file '%1$s' because there is a folder with this name."
-msgstr "Không thể tạo tệp ' %1$s ' vì có một thư mục có tên này."
+msgstr "Không thể tạo tệp '%1$s' vì có một thư mục có tên này."
 
 #, c-format
 msgctxt "error_cloud_cannot_create_remote_file_server_error"
 msgid "Cannot create file '%1$s' because of a server error."
-msgstr "Không thể tạo tệp ' %1$s ' do lỗi máy chủ."
+msgstr "Không thể tạo tệp '%1$s' do lỗi máy chủ."
 
 #, c-format
 msgctxt "error_cloud_cannot_create_remote_folder"
 msgid "Cannot create folder '%1$s'."
-msgstr "Không thể tạo thư mục ' %1$s '."
+msgstr "Không thể tạo thư mục '%1$s'."
 
 #, c-format
 msgctxt "error_cloud_cannot_create_remote_folder_already_exists"
 msgid "Cannot create folder '%1$s' because it already exists."
-msgstr "Không thể tạo thư mục ' %1$s ' vì nó đã tồn tại."
+msgstr "Không thể tạo thư mục '%1$s' vì nó đã tồn tại."
 
 #, c-format
 msgctxt "error_cloud_cannot_create_remote_folder_file_exists"
 msgid "Cannot create folder '%1$s' because there is a file with this name."
-msgstr "Không thể tạo thư mục ' %1$s ' vì có một tệp có tên này."
+msgstr "Không thể tạo thư mục '%1$s' vì có một tệp có tên này."
 
 #, c-format
 msgctxt "error_cloud_cannot_download_file_download_error"
 msgid "Cannot download file '%1$s' from server."
-msgstr "Không thể tải xuống tệp ' %1$s ' từ máy chủ."
+msgstr "Không thể tải xuống tệp '%1$s' từ máy chủ."
 
 #, c-format
 msgctxt "error_cloud_cannot_download_file_local_write_error"
 msgid "Cannot write downloaded file '%1$s' to device."
-msgstr "Không thể ghi tệp đã tải xuống ' %1$s ' vào thiết bị."
+msgstr "Không thể ghi tệp đã tải xuống '%1$s' vào thiết bị."
 
 #, c-format
 msgctxt "error_cloud_cannot_get_remote_metadata"
 msgid "Cannot get metadata of file '%1$s' from server."
-msgstr "Không thể lấy siêu dữ liệu của tệp ' %1$s ' từ máy chủ."
+msgstr "Không thể lấy siêu dữ liệu của tệp '%1$s' từ máy chủ."
 
 #, c-format
 msgctxt "error_cloud_cannot_open_remote_file_does_not_exist"
 msgid "Cannot open file '%1$s' on server because it does not exist."
-msgstr "Không thể mở tệp ' %1$s ' trên máy chủ vì nó không tồn tại."
+msgstr "Không thể mở tệp '%1$s' trên máy chủ vì nó không tồn tại."
 
 #, c-format
 msgctxt "error_cloud_cannot_open_remote_file_is_folder"
 msgid "Cannot open file '%1$s' on server because it is a folder."
-msgstr "Không thể mở tệp ' %1$s ' trên máy chủ vì đây là thư mục."
+msgstr "Không thể mở tệp '%1$s' trên máy chủ vì đây là thư mục."
 
 #, c-format
 msgctxt "error_cloud_cannot_open_remote_folder_does_not_exist"
 msgid "Cannot open folder '%1$s' on server because it does not exist."
-msgstr "Không thể mở thư mục ' %1$s ' trên máy chủ vì nó không tồn tại."
+msgstr "Không thể mở thư mục '%1$s' trên máy chủ vì nó không tồn tại."
 
 #, c-format
 msgctxt "error_cloud_cannot_open_remote_folder_is_no_folder"
 msgid "Cannot open folder '%1$s' on server because it is not a folder."
-msgstr "Không thể mở thư mục ' %1$s ' trên máy chủ vì đây không phải là thư mục."
+msgstr "Không thể mở thư mục '%1$s' trên máy chủ vì đây không phải là thư mục."
 
 #, c-format
 msgctxt "error_cloud_cannot_rename_remote_file"
 msgid "Cannot rename remote file '%1$s' to new name '%2$s'."
-msgstr "Không thể đổi tên tệp từ xa ' %1$s ' thành tên mới ' %2$s '."
+msgstr "Không thể đổi tên tệp từ xa '%1$s' thành tên mới '%2$s'."
 
 #, c-format
 msgctxt "error_cloud_cannot_rename_remote_folder"
 msgid "Cannot rename remote folder '%1$s' to new name '%2$s'."
-msgstr "Không thể đổi tên thư mục từ xa ' %1$s ' thành tên mới ' %2$s '."
+msgstr "Không thể đổi tên thư mục từ xa '%1$s' thành tên mới '%2$s'."
 
 #, c-format
 msgctxt "error_cloud_remote_databundle_incomplete"
 msgid "Cannot load image '%1$s' because remote file '%2$s' is missing."
-msgstr "Không thể tải hình ảnh ' %1$s ' vì tệp từ xa ' %2$s ' bị thiếu."
+msgstr "Không thể tải hình ảnh '%1$s' vì tệp từ xa '%2$s' bị thiếu."
 
 #, c-format
 msgctxt "error_cloud_cannot_sync_databundle"
 msgid "Cannot sync image '%1$s'."
-msgstr "Không thể đồng bộ hóa hình ảnh ' %1$s '."
+msgstr "Không thể đồng bộ hóa hình ảnh '%1$s'."
 
 #, c-format
 msgctxt "error_cloud_cannot_sync_folder"
 msgid "Cannot sync folder '%1$s'."
-msgstr "Không thể đồng bộ thư mục ' %1$s '."
+msgstr "Không thể đồng bộ thư mục '%1$s'."
 
 #, c-format
 msgctxt "error_cloud_cannot_delete_remote_file"
 msgid "Cannot delete remote file '%1$s'."
-msgstr "Không thể xóa tệp từ xa ' %1$s '."
+msgstr "Không thể xóa tệp từ xa '%1$s'."
 
 #, c-format
 msgctxt "error_cloud_cannot_delete_remote_folder"
 msgid "Cannot delete remote folder '%1$s'."
-msgstr "Không thể xóa thư mục từ xa ' %1$s '."
+msgstr "Không thể xóa thư mục từ xa '%1$s'."
 
 #. preferences screen
 msgctxt "pref_category_editor"
@@ -1088,7 +1122,7 @@ msgstr "Cỡ chữ"
 #, c-format
 msgctxt "pref_editor_font_size_summary"
 msgid "%s"
-msgstr "%S"
+msgstr "%s"
 
 msgctxt "pref_editor_font_size_dialog"
 msgid "Font size for all annotations"
@@ -1196,7 +1230,7 @@ msgstr "Số liệu (1,00 m)"
 
 msgctxt "pref_measures_default_template_choices:1"
 msgid "Imperial (1' 10 1/32\")"
-msgstr "Hoàng thành (1 '10 1/32 \\ \")"
+msgstr "Hoàng thành (1 '10 1/32\")"
 
 msgctxt "pref_measures_default_template_choices:2"
 msgid "Imperial (1.00 ft)"
@@ -1204,7 +1238,7 @@ msgstr "Hoàng gia (1,00 ft)"
 
 msgctxt "pref_measures_default_template_choices:3"
 msgid "Inches with fractions (1 1/8\")"
-msgstr "Inch với phân số (1 1/8 \\ \")"
+msgstr "Inch với phân số (1 1/8\")"
 
 msgctxt "pref_measure_metric_area_unit_choices:0"
 msgid "mm²"
@@ -1232,7 +1266,7 @@ msgstr "ha"
 
 msgctxt "pref_measure_metric_area_unit_choices:6"
 msgid "µm²"
-msgstr "Gianm²"
+msgstr "µm²"
 
 msgctxt "pref_measure_metric_area_unit_choices:7"
 msgid "nm²"
@@ -1240,7 +1274,7 @@ msgstr "nm²"
 
 msgctxt "pref_measure_imperial_area_unit_choices:0"
 msgid "sq in"
-msgstr "trong"
+msgstr "in vuông"
 
 msgctxt "pref_measure_imperial_area_unit_choices:1"
 msgid "sq ft"
@@ -1272,7 +1306,7 @@ msgstr "Không có phân số"
 
 msgctxt "pref_measure_min_imperial_fraction_choices:1"
 msgid "Fractions down to 1/2"
-msgstr "Phân số xuống còn 1/2"
+msgstr "Phân số xuống 1/2"
 
 msgctxt "pref_measure_min_imperial_fraction_choices:2"
 msgid "Fractions down to 1/4"
@@ -1280,7 +1314,7 @@ msgstr "Phân số xuống 1/4"
 
 msgctxt "pref_measure_min_imperial_fraction_choices:3"
 msgid "Fractions down to 1/8"
-msgstr "Phân số xuống còn 1/8"
+msgstr "Phân số xuống 1/8"
 
 msgctxt "pref_measure_min_imperial_fraction_choices:4"
 msgid "Fractions down to 1/16"
@@ -1324,19 +1358,19 @@ msgstr "Đơn vị đế quốc văn bản"
 
 msgctxt "pref_measure_imperial_unit_display_summaryon"
 msgid "Imperial units will be shown as ft/in"
-msgstr "Các đơn vị hoàng gia sẽ được hiển thị dưới dạng ft / in"
+msgstr "Các đơn vị hoàng gia sẽ được hiển thị dưới dạng ft/in"
 
 msgctxt "pref_measure_imperial_unit_display_summaryoff"
 msgid "Imperial units will be shown as '/\""
-msgstr "Các đơn vị hoàng gia sẽ được hiển thị là '/ \\ \""
+msgstr "Các đơn vị hoàng gia sẽ được hiển thị là '/ \""
 
 msgctxt "dimension_format_imperial_unit_display_choices:0"
 msgid "Show as '/\""
-msgstr "Hiển thị dưới dạng '/ \\ \""
+msgstr "Hiển thị dưới dạng '/\""
 
 msgctxt "dimension_format_imperial_unit_display_choices:1"
 msgid "Show as ft/in"
-msgstr "Hiển thị dưới dạng ft / in"
+msgstr "Hiển thị dưới dạng ft/in"
 
 msgctxt "pref_measure_metric_length_unit"
 msgid "Metric length unit"
@@ -1461,7 +1495,7 @@ msgstr "Kích thước hình ảnh tối đa"
 #, c-format
 msgctxt "pref_max_export_size_summary"
 msgid "%s"
-msgstr "%S"
+msgstr "%s"
 
 msgctxt "pref_max_export_size_dialog"
 msgid "Max. width of exported image"
@@ -1474,7 +1508,7 @@ msgstr "Kích thước hình ảnh tối thiểu"
 #, c-format
 msgctxt "pref_min_export_size_summary"
 msgid "%s"
-msgstr "%S"
+msgstr "%s"
 
 msgctxt "pref_min_export_size_dialog"
 msgid "Min. width of exported image"
@@ -1676,11 +1710,11 @@ msgstr "A3"
 
 msgctxt "pref_export_pdf_paper_size_choices:2"
 msgid "Letter"
-msgstr "Lá thư"
+msgstr "Letter"
 
 msgctxt "pref_export_pdf_paper_size_choices:3"
 msgid "Legal"
-msgstr "Hợp pháp"
+msgstr "Legal"
 
 msgctxt "pref_export_pdf_paper_size"
 msgid "PDF page size"
@@ -1704,11 +1738,11 @@ msgstr "Hình ảnh sẽ không bao giờ được quay"
 
 msgctxt "pref_export_pdf_separate_landscape_portrait"
 msgid "Separate landscape/portrait in PDF"
-msgstr "Cảnh quan / chân dung riêng biệt trong PDF"
+msgstr "Cảnh quan/chân dung riêng biệt trong PDF"
 
 msgctxt "pref_export_pdf_separate_landscape_portrait_dialog"
 msgid "When to separate landscape/portrait in PDF"
-msgstr "Khi nào nên tách phong cảnh / chân dung trong PDF"
+msgstr "Khi nào nên tách phong cảnh/chân dung trong PDF"
 
 msgctxt "pref_export_pdf_separate_landscape_portrait_choices:0"
 msgid "Never"
@@ -1736,7 +1770,7 @@ msgstr "Không có ghi chú thư mục sẽ được in"
 
 msgctxt "pref_export_pdf_print_folder_notes_summaryon"
 msgid "Page with folder notes and TOC will be printed"
-msgstr "Trang có ghi chú thư mục và TOC sẽ được in"
+msgstr "Trang có ghi chú thư mục và nội dung sẽ được in"
 
 msgctxt "pref_export_pdf_image_notes_space"
 msgid "Space reserved for image notes"
@@ -1813,11 +1847,11 @@ msgstr "Bosch PLR"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm100c"
 msgid "Bosch GLM100c"
-msgstr "Máy xay sinh tố GLM100c"
+msgstr "Bosch GLM100c"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm120c"
 msgid "Bosch GLM120c"
-msgstr "Máy xay sinh tố GLM120c"
+msgstr "Bosch GLM120c"
 
 msgctxt "pref_bluetooth_device_protocol_cem_ildm150"
 msgid "CEM iLDM-150"
@@ -1833,15 +1867,15 @@ msgstr "Hilti PD-38"
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
 msgid "Leica Disto classic"
-msgstr "Leica Disto cổ điển"
+msgstr "Leica Disto cổ điể"
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_bt4"
 msgid "Leica Disto Bluetooth-4"
-msgstr "Leica Disto Bluetooth-4"
+msgstr "Leica Disto Bluetooth-LE"
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_x"
 msgid "Leica Disto X3/X4"
-msgstr "Leica Disto X3 / X4"
+msgstr "Leica Disto X3/X4"
 
 msgctxt "pref_bluetooth_device_protocol_lti_trupulse"
 msgid "LTI TruPulse"
@@ -1857,11 +1891,11 @@ msgstr "Stanley TLM99si"
 
 msgctxt "pref_bluetooth_device_protocol_suaoki"
 msgid "Suaoki/Mileseey"
-msgstr "Suaoki / Mileseey"
+msgstr "Suaoki/Mileseey"
 
 msgctxt "pref_bluetooth_device_protocol_precaster_cx100"
 msgid "Precaster CX100"
-msgstr "CX100 đúc sẵn"
+msgstr "Precaster CX100"
 
 msgctxt "pref_bluetooth_device_protocol_ada_cosmo120"
 msgid "Ada Cosmo 120"
@@ -1869,11 +1903,11 @@ msgstr "Ada Cosmo 120"
 
 msgctxt "pref_bluetooth_device_protocol_laserliner_compactpro"
 msgid "Laserliner Compact Pro"
-msgstr "Máy quét laser nhỏ gọn Pro"
+msgstr "Laserliner Compact Pro"
 
 msgctxt "pref_bluetooth_device_protocol_toolsmart_anglefinder"
 msgid "ToolSmart-AngleFinder"
-msgstr "ToolSmart-Angle Downloader"
+msgstr "ToolSmart-AngleFinder"
 
 #. item Calculated Industries /item
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
@@ -2230,7 +2264,12 @@ msgid ""
 "The active storage directory has not been changed.\n"
 "\n"
 "Please note that the target directory now contains an incomplete copy of the source data!"
-msgstr "Không thể sao chép tất cả hình ảnh vào thư mục đích. Có thể tên thư mục của bạn không có tên tệp hợp lệ trên hệ thống tệp đích. Vui lòng thay đổi chúng và sau đó thử sao chép dữ liệu còn lại. \\ N \\ n Thư mục lưu trữ hoạt động chưa bị thay đổi. \\ N \\ n Xin lưu ý rằng thư mục đích hiện chứa bản sao dữ liệu nguồn chưa hoàn chỉnh!"
+msgstr ""
+"Không thể sao chép tất cả hình ảnh vào thư mục đích. Có thể tên thư mục của bạn không có tên tệp hợp lệ trên hệ thống tệp đích. Vui lòng thay đổi chúng và sau đó thử sao chép dữ liệu còn lại.\n"
+"\n"
+"Thư mục lưu trữ hoạt động chưa bị thay đổi.\n"
+"\n"
+"Xin lưu ý rằng thư mục đích hiện chứa bản sao dữ liệu nguồn chưa hoàn chỉnh!"
 
 msgctxt "dialog_storage_move_annotated_images_progress_text"
 msgid "Moving images ..."
@@ -2707,7 +2746,7 @@ msgstr "7"
 
 msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:8"
 msgid "8"
-msgstr "số 8"
+msgstr "8"
 
 msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:9"
 msgid "9"
@@ -2775,7 +2814,7 @@ msgstr "7"
 
 msgctxt "editor_dialog_style_flatref_subdivisions_choices:7"
 msgid "8"
-msgstr "số 8"
+msgstr "8"
 
 msgctxt "editor_dialog_style_flatref_subdivisions_choices:8"
 msgid "9"
@@ -3098,11 +3137,11 @@ msgstr "Một lát sau"
 
 msgctxt "editor_rectref_standard_size_letter"
 msgid "Letter"
-msgstr "Lá thư"
+msgstr "Letter"
 
 msgctxt "editor_rectref_standard_size_legal"
 msgid "Legal"
-msgstr "Hợp pháp"
+msgstr "Legal"
 
 msgctxt "editor_rectref_standard_size_credit_card"
 msgid "Credit card"
@@ -3129,7 +3168,7 @@ msgstr "Hết trí nhớ rồi! Không thể tải hình ảnh. Hãy thử giả
 #, c-format
 msgctxt "export_warning_low_memory_export_resolution_reduced"
 msgid "Your device has been low on main memory. The output image resolution (%1$d x %2$d) had to be reduced. You might want to reduce the maximum output resolution in the app settings."
-msgstr "Thiết bị của bạn đã bị thiếu bộ nhớ chính. Độ phân giải hình ảnh đầu ra ( %1$d x %2$d ) đã bị giảm. Bạn có thể muốn giảm độ phân giải đầu ra tối đa trong cài đặt ứng dụng."
+msgstr "Thiết bị của bạn đã bị thiếu bộ nhớ chính. Độ phân giải hình ảnh đầu ra (%1$d x %2$d) đã bị giảm. Bạn có thể muốn giảm độ phân giải đầu ra tối đa trong cài đặt ứng dụng."
 
 msgctxt "export_eval_version"
 msgid "evaluation copy"
@@ -3148,12 +3187,12 @@ msgstr "số liệu (1,00 m)"
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:1"
 msgid "imperial (1' 10 1/32\")"
-msgstr "đế quốc (1 '10 1/32 \\ \")"
+msgstr "đế quốc (1' 10 1/32\")"
 
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:2"
 msgid "fractional inches (1 1/32\")"
-msgstr "inch phân đoạn (1 1/32 \\ \")"
+msgstr "inch phân đoạn (1 1/32\")"
 
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:3"
@@ -3171,11 +3210,11 @@ msgstr "số liệu (1,00 m)"
 
 msgctxt "dimension_format_length_readonly_choices:1"
 msgid "imperial (1' 10 1/32\")"
-msgstr "đế quốc (1 '10 1/32 \\ \")"
+msgstr "đế quốc (1' 10 1/32\")"
 
 msgctxt "dimension_format_length_readonly_choices:2"
 msgid "fractional inches (1 1/32\")"
-msgstr "inch phân đoạn (1 1/32 \\ \")"
+msgstr "inch phân đoạn (1 1/32\")"
 
 msgctxt "dimension_format_length_readonly_choices:3"
 msgid "imperial (1.00 ft)"
@@ -3236,7 +3275,7 @@ msgstr "độ"
 #, c-format
 msgctxt "dimension_format_angle_unit_choices:1"
 msgid "slope %"
-msgstr "độ dốc%"
+msgstr "độ dốc %"
 
 msgctxt "dimension_format_angle_unit_choices:2"
 msgid "radians"
@@ -3296,7 +3335,7 @@ msgstr "ha"
 
 msgctxt "dimension_format_area_metric_prefix_choices:6"
 msgid "µm²"
-msgstr "Gianm²"
+msgstr "µm²"
 
 msgctxt "dimension_format_area_metric_prefix_choices:7"
 msgid "nm²"
@@ -3427,7 +3466,10 @@ msgid ""
 "You have not yet configured any Bluetooth laser distance meter.\n"
 "\n"
 "Please pair your Bluetooth device with your Android device. Afterwards, open the app settings and select the Bluetooth device to use. Bluetooth Smart devices do not have to be paired, but they have to be turned on to appear in the device selection."
-msgstr "Bạn chưa định cấu hình bất kỳ máy đo khoảng cách laser Bluetooth nào. \\ N \\ n Vui lòng ghép nối thiết bị Bluetooth của bạn với thiết bị Android. Sau đó, mở cài đặt ứng dụng và chọn thiết bị Bluetooth để sử dụng. Các thiết bị Bluetooth Smart không cần phải được ghép nối, nhưng chúng phải được bật để xuất hiện trong lựa chọn thiết bị."
+msgstr ""
+"Bạn chưa định cấu hình bất kỳ máy đo khoảng cách laser Bluetooth nào.\n"
+"\n"
+"Vui lòng ghép nối thiết bị Bluetooth của bạn với thiết bị Android. Sau đó, mở cài đặt ứng dụng và chọn thiết bị Bluetooth để sử dụng. Các thiết bị Bluetooth Smart không cần phải được ghép nối, nhưng chúng phải được bật để xuất hiện trong lựa chọn thiết bị."
 
 #. 151209
 msgctxt "bluetooth_error_no_bluetooth_le"
@@ -3441,7 +3483,7 @@ msgstr "Thiết bị Bluetooth đã chọn hiện không được ghép nối. V
 #, c-format
 msgctxt "bluetooth_error_cannot_set_value"
 msgid "Cannot set received Bluetooth value: %1$s."
-msgstr "Không thể đặt giá trị Bluetooth nhận được: %1$s ."
+msgstr "Không thể đặt giá trị Bluetooth nhận được: %1$s."
 
 msgctxt "bluetooth_error_cannot_set_value_no_active_element"
 msgid "no active element"
@@ -3490,7 +3532,12 @@ msgid ""
 "Please turn on location services.\n"
 "\n"
 "After the Bluetooth LE scan, you can turn this off again."
-msgstr "Android yêu cầu dịch vụ định vị được kích hoạt để chạy Bluetooth LE Scan. \\ N \\ n Vui lòng bật dịch vụ định vị. \\ N \\ nSau khi quét Bluetooth LE, bạn có thể tắt lại dịch vụ này."
+msgstr ""
+"Android yêu cầu dịch vụ định vị được kích hoạt để chạy Bluetooth LE Scan.\n"
+"\n"
+"Vui lòng bật dịch vụ định vị.\n"
+"\n"
+"Sau khi quét Bluetooth LE, bạn có thể tắt lại dịch vụ này."
 
 msgctxt "bluetooth_error_unknown"
 msgid "Unknown error"
@@ -3506,11 +3553,11 @@ msgstr "E104: Lỗi tính toán"
 
 msgctxt "bluetooth_error_ci_E152"
 msgid "E152: Temperature is too high: &gt; 40°C"
-msgstr "E152: Nhiệt độ quá cao: & gt; 40 ° C"
+msgstr "E152: Nhiệt độ quá cao: &gt; 40° C"
 
 msgctxt "bluetooth_error_ci_E153"
 msgid "E153: Temperature is too low: &lt; 0°C"
-msgstr "E153: Nhiệt độ quá thấp: & lt; 0 ° C"
+msgstr "E153: Nhiệt độ quá thấp: &lt; 0° C"
 
 msgctxt "bluetooth_error_ci_E154"
 msgid "E154: Outside the measuring range"
@@ -3578,7 +3625,18 @@ msgid ""
 "This upgrade gives you all the features of the pro version.\n"
 "\n"
 "The upgrade is active when you see the text 'with pro-upgrade' in the title bar."
-msgstr "Nâng cấp sẽ mang lại cho bạn những lợi ích sau: \\ n \\ n- chú thích không giới hạn, \\ n- vòng tròn, hình chữ nhật và công cụ đo điểm khoảng cách. \\ n \\ n Bản nâng cấp này cung cấp cho bạn tất cả các tính năng của phiên bản pro. \\ n \\ n Nâng cấp được kích hoạt khi bạn thấy văn bản 'với bản nâng cấp' trong thanh tiêu đề."
+msgstr ""
+"Nâng cấp sẽ mang lại cho bạn những lợi ích sau:\n"
+"\n"
+"- chú thích không giới hạn,\n"
+"- vòng tròn, hình chữ nhật và công cụ đo điểm khoảng cách,\n"
+"- công cụ đo chiều dài phối cảnh,\n"
+"- không có logo hiển thị trong hình ảnh xuất khẩu,\n"
+"- đo bluetooth với khoảng cách không giới hạn.\n"
+"\n"
+"Bản nâng cấp này cung cấp cho bạn tất cả các tính năng của phiên bản pro.\n"
+"\n"
+"Nâng cấp được kích hoạt khi bạn thấy văn bản 'với bản nâng cấp' trong thanh tiêu đề."
 
 msgctxt "inapp_dialog_upgrade_benefits_ok"
 msgid "Upgrade now"
@@ -3597,7 +3655,10 @@ msgid ""
 "The pro upgrade has been activated.\n"
 "\n"
 "Thank you for using ImageMeter!"
-msgstr "Bản nâng cấp chuyên nghiệp đã được kích hoạt. \\ N \\ nCảm ơn bạn đã sử dụng ImageMeter!"
+msgstr ""
+"Bản nâng cấp chuyên nghiệp đã được kích hoạt.\n"
+"\n"
+"Cảm ơn bạn đã sử dụng ImageMeter!"
 
 msgctxt "inapp_dialog_upgrade_failed_title"
 msgid "Upgrade failed"
@@ -3609,7 +3670,10 @@ msgid ""
 "The pro upgrade could not be activated.\n"
 "\n"
 "Reason: '%1$s'."
-msgstr "Nâng cấp pro không thể được kích hoạt. \\ N \\ n Lý do: ' %1$s '."
+msgstr ""
+"Nâng cấp pro không thể được kích hoạt.\n"
+"\n"
+"Lý do: '%1$s'."
 
 msgctxt "inapp_message_upgrade_has_not_been_bought"
 msgid "Upgrade not registered as bought"
@@ -3661,7 +3725,7 @@ msgstr "Hủy mua bởi người dùng"
 #, c-format
 msgctxt "inapp_error_unknown"
 msgid "Unknown error, result code: '%1$d'"
-msgstr "Lỗi không xác định, mã kết quả: ' %1$d '"
+msgstr "Lỗi không xác định, mã kết quả: '%1$d'"
 
 #. tips of the day
 msgctxt "tip_of_day_dialog_next"
@@ -3681,7 +3745,10 @@ msgid ""
 "Welcome to ImageMeter\n"
 "\n"
 "If you have any questions, do not hesitate to write to imagemeter@gmail.com. All emails will be answered as fast as possible."
-msgstr "Chào mừng bạn đến với ImageMeter \\ n \\ nNếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại viết thư cho fantemeter @ gmail. Tất cả các email sẽ được trả lời nhanh nhất có thể."
+msgstr ""
+"Chào mừng bạn đến với ImageMeter\n"
+"\n"
+"Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại viết thư cho imagemeter@gmail. Tất cả các email sẽ được trả lời nhanh nhất có thể."
 
 msgctxt "tip_export_images"
 msgid "You can export images by long-clicking on them in the list and then selecting the share icon in the toolbar."
@@ -3705,7 +3772,7 @@ msgstr "Khi bạn vẽ một số đo mới trong một hình ảnh đã có m�
 
 msgctxt "tip_support"
 msgid "If you have any questions, do not hesitate to write to imagemeter@gmail.com. All emails will be answered as fast as possible."
-msgstr "Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại viết thư cho fantemeter @ gmail. Tất cả các email sẽ được trả lời nhanh nhất có thể."
+msgstr "Nếu bạn có bất kỳ câu hỏi nào, đừng ngần ngại viết thư cho imagemeter@gmail.com. Tất cả các email sẽ được trả lời nhanh nhất có thể."
 
 msgctxt "welcome_message_title"
 msgid "Welcome to ImageMeter"
@@ -3716,7 +3783,10 @@ msgid ""
 "For an introduction to ImageMeter, see this <a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video</a>.\n"
 "\n"
 "If you have any further questions, do not hesitate to write to <a href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a>."
-msgstr "Để biết giới thiệu về ImageMeter, hãy xem <a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\"> video này </a>. \\ N \\ nNếu bạn có thêm bất kỳ câu hỏi nào, đừng ngần ngại viết thư cho <a href=\"mailto:imagemeter@gmail.com\"> fantemeter @ gmail </a>."
+msgstr ""
+"Để biết giới thiệu về ImageMeter, hãy xem <a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video này</a>.\n"
+"\n"
+"Nếu bạn có thêm bất kỳ câu hỏi nào, đừng ngần ngại viết thư cho <a href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a>."
 
 msgctxt "welcome_message_show_at_startup"
 msgid "Show welcome message at startup"
@@ -3739,7 +3809,9 @@ msgctxt "faq_image_menu_how_to_export_a"
 msgid ""
 "You can export single images, several images at once, or complete folders. Long-press on an image or folder to select it and then choose one of the export icons. If you are exporting several images at once, they will be exported as a PDF or in a zip archive. The format can be chosen in the settings.\n"
 "You can either export to another app, or save the images into the file-system. When saving to the file system, the images will usually be stored in the 'Pictures' folder. The exact location will be displayed after export."
-msgstr "Bạn có thể xuất hình ảnh đơn lẻ, một số hình ảnh cùng một lúc hoặc hoàn thành các thư mục. Nhấn và giữ vào một hình ảnh hoặc thư mục để chọn nó và sau đó chọn một trong các biểu tượng xuất khẩu. Nếu bạn đang xuất một số hình ảnh cùng một lúc, chúng sẽ được xuất dưới dạng PDF hoặc trong kho lưu trữ zip. Định dạng có thể được chọn trong cài đặt. \\ NBạn có thể xuất sang ứng dụng khác hoặc lưu hình ảnh vào hệ thống tệp. Khi lưu vào hệ thống tệp, hình ảnh thường sẽ được lưu trong thư mục 'Ảnh'. Vị trí chính xác sẽ được hiển thị sau khi xuất."
+msgstr ""
+"Bạn có thể xuất hình ảnh đơn lẻ, một số hình ảnh cùng một lúc hoặc hoàn thành các thư mục. Nhấn và giữ vào một hình ảnh hoặc thư mục để chọn nó và sau đó chọn một trong các biểu tượng xuất khẩu. Nếu bạn đang xuất một số hình ảnh cùng một lúc, chúng sẽ được xuất dưới dạng PDF hoặc trong kho lưu trữ zip. Định dạng có thể được chọn trong cài đặt.\n"
+"Bạn có thể xuất sang ứng dụng khác hoặc lưu hình ảnh vào hệ thống tệp. Khi lưu vào hệ thống tệp, hình ảnh thường sẽ được lưu trong thư mục 'Ảnh'. Vị trí chính xác sẽ được hiển thị sau khi xuất."
 
 #. TODO: image of context tool-bar with explanations
 msgctxt "faq_image_menu_how_to_delete_q"
@@ -3758,7 +3830,9 @@ msgctxt "faq_image_menu_transfer_images_a"
 msgid ""
 "If your devices have an SD-card slot, you can move the storage directory to SD card: in the settings, enter section 'Storage' and then 'Data directory'. There, you should be able to select the SD card directory and move all data into this directory. Now place the SD card into the new device and also change the data directory to SD card.\n"
 " In case you do not have an SD-card slot, enter the 'Export' settings and set the export format to 'ImageMeter image' (.IMI) or 'ImageMeter folder' (.IMF). Then export the data you want to transfer in these formats. The files can be opened again on other devices and the editable images will be imported."
-msgstr "Nếu thiết bị của bạn có khe cắm thẻ SD, bạn có thể di chuyển thư mục lưu trữ sang thẻ SD: trong cài đặt, nhập phần 'Lưu trữ' và sau đó 'Thư mục dữ liệu'. Ở đó, bạn sẽ có thể chọn thư mục thẻ SD và di chuyển tất cả dữ liệu vào thư mục này. Bây giờ đặt thẻ SD vào thiết bị mới và cũng thay đổi thư mục dữ liệu thành thẻ SD. \\ N Trong trường hợp bạn không có khe cắm thẻ SD, hãy nhập cài đặt 'Xuất' và đặt định dạng xuất thành 'ImageMeter image' ( .IMI) hoặc 'Thư mục ImageMeter' (.IMF). Sau đó xuất dữ liệu bạn muốn chuyển theo các định dạng này. Các tập tin có thể được mở lại trên các thiết bị khác và hình ảnh có thể chỉnh sửa sẽ được nhập."
+msgstr ""
+"Nếu thiết bị của bạn có khe cắm thẻ SD, bạn có thể di chuyển thư mục lưu trữ sang thẻ SD: trong cài đặt, nhập phần 'Lưu trữ' và sau đó 'Thư mục dữ liệu'. Ở đó, bạn sẽ có thể chọn thư mục thẻ SD và di chuyển tất cả dữ liệu vào thư mục này. Bây giờ đặt thẻ SD vào thiết bị mới và cũng thay đổi thư mục dữ liệu thành thẻ SD.\n"
+"Trong trường hợp bạn không có khe cắm thẻ SD, hãy nhập cài đặt 'Xuất' và đặt định dạng xuất thành 'ImageMeter image' ( .IMI) hoặc 'Thư mục ImageMeter' (.IMF). Sau đó xuất dữ liệu bạn muốn chuyển theo các định dạng này. Các tập tin có thể được mở lại trên các thiết bị khác và hình ảnh có thể chỉnh sửa sẽ được nhập."
 
 msgctxt "faq_image_menu_free_to_pro_q"
 msgid "How can I transfer images from the free version to the pro version?"
@@ -3774,7 +3848,7 @@ msgstr "Làm thế nào tôi có thể sao lưu tất cả dữ liệu?"
 
 msgctxt "faq_image_menu_backup_data_a"
 msgid "Enter the settings, section 'Storage' and then 'Data directory' to see in which directory ImageMeter stores its data. Usually, this is '/sdcard/&lt;wbr/&gt;Android/&lt;wbr/&gt;data/&lt;wbr/&gt;de.dirkfarin.imagemeterpro/&lt;wbr/&gt;files/&lt;wbr/&gt;projects'. In this directory, you will find all ImageMeter folders and within these one folder for each image. You can simply copy these folders to other devices for backup."
-msgstr "Nhập cài đặt, phần 'Lưu trữ' và sau đó 'Thư mục dữ liệu' để xem thư mục ImageMeter lưu trữ dữ liệu của nó trong thư mục nào. Thông thường, đây là '/sdcard/&lt;wbr/&gt;Android/&lt;wbr/&gt;data/&lt; dự án '. Trong thư mục này, bạn sẽ tìm thấy tất cả các thư mục ImageMeter và trong một thư mục này cho mỗi hình ảnh. Bạn chỉ có thể sao chép các thư mục này vào các thiết bị khác để sao lưu."
+msgstr "Nhập cài đặt, phần 'Lưu trữ' và sau đó 'Thư mục dữ liệu' để xem thư mục ImageMeter lưu trữ dữ liệu của nó trong thư mục nào. Thông thường, đây là '/sdcard/&lt;wbr/&gt;Android/&lt;wbr/&gt;data/&lt;wbr/&gt;de.dirkfarin.imagemeterpro/&lt;wbr/&gt;files/&lt;wbr/&gt;projects'. Trong thư mục này, bạn sẽ tìm thấy tất cả các thư mục ImageMeter và trong một thư mục này cho mỗi hình ảnh. Bạn chỉ có thể sao chép các thư mục này vào các thiết bị khác để sao lưu."
 
 msgctxt "faq_auto_measure_section"
 msgid "Automatic measurement"
@@ -3797,7 +3871,9 @@ msgctxt "faq_auto_measure_expectation_a"
 msgid ""
 "This is impossible. From a single image, one cannot derive its scale. An image could show a real house or just a small toy. There is no way to know its true size from the image alone.\n"
 "You can give ImageMeter the missing information by adding a reference rectangle to the image. Based on this, ImageMeter can accurately compute all measures that lie in the same plane as this rectangle, including perspective foreshortening."
-msgstr "Điều này là không thể. Từ một hình ảnh duy nhất, người ta không thể rút ra quy mô của nó. Một hình ảnh có thể cho thấy một ngôi nhà thực sự hoặc chỉ là một món đồ chơi nhỏ. Không có cách nào để biết kích thước thật của nó chỉ từ hình ảnh. \\ NBạn có thể cung cấp cho ImageMeter thông tin còn thiếu bằng cách thêm hình chữ nhật tham chiếu vào hình ảnh. Dựa trên điều này, ImageMeter có thể tính toán chính xác tất cả các biện pháp nằm trong cùng mặt phẳng với hình chữ nhật này, bao gồm cả việc rút gọn phối cảnh."
+msgstr ""
+"Điều này là không thể. Từ một hình ảnh duy nhất, người ta không thể rút ra quy mô của nó. Một hình ảnh có thể cho thấy một ngôi nhà thực sự hoặc chỉ là một món đồ chơi nhỏ. Không có cách nào để biết kích thước thật của nó chỉ từ hình ảnh.\n"
+"Bạn có thể cung cấp cho ImageMeter thông tin còn thiếu bằng cách thêm hình chữ nhật tham chiếu vào hình ảnh. Dựa trên điều này, ImageMeter có thể tính toán chính xác tất cả các biện pháp nằm trong cùng mặt phẳng với hình chữ nhật này, bao gồm cả việc rút gọn phối cảnh."
 
 #. todo: add an example picture
 msgctxt "faq_auto_measure_ref_objects_q"
@@ -3827,7 +3903,11 @@ msgid ""
 " In this case, the 'Perspective line' tool can be used. It requires that you mark three points on a line: the zero point and two known points with their distance to the zero point. These three points are indicated with a small triangle.\n"
 " Now, you can additionally move a fourth point on the line whose distance to the zero point will be computed automatically. ImageMeter will also draw a couple of thin orthogonal lines that indicate the perspective foreshortening along the line. The last of these lines represents the horizont. Clearly, moving the measurement point across the horizont will not give you a valid measurement.\n"
 " Note that you do not need an additional reference when using this tool, since it combines its own reference and measurement in a single tool."
-msgstr "Thông thường, bạn có thể muốn đo chiều cao của một vật thể cao hoặc một khoảng cách khác dọc theo một đường có thể được báo trước theo quan điểm. \\ N Trong trường hợp này, có thể sử dụng công cụ 'Đường phối cảnh'. Nó yêu cầu bạn đánh dấu ba điểm trên một dòng: điểm 0 và hai điểm đã biết với khoảng cách đến điểm 0. Ba điểm này được biểu thị bằng một hình tam giác nhỏ. \\ N Bây giờ, bạn có thể di chuyển thêm một điểm thứ tư trên đường có khoảng cách đến điểm 0 sẽ được tính toán tự động. ImageMeter cũng sẽ vẽ một vài đường thẳng trực giao mỏng biểu thị phối cảnh rút gọn dọc theo đường thẳng. Cuối cùng của những dòng này đại diện cho chiều ngang. Rõ ràng, việc di chuyển điểm đo theo chiều ngang sẽ không cung cấp cho bạn số đo hợp lệ. \\ N Lưu ý rằng bạn không cần tham chiếu thêm khi sử dụng công cụ này, vì nó kết hợp tham chiếu và đo lường của chính nó trong một công cụ."
+msgstr ""
+"Thông thường, bạn có thể muốn đo chiều cao của một vật thể cao hoặc một khoảng cách khác dọc theo một đường có thể được báo trước theo quan điểm.\n"
+"Trong trường hợp này, có thể sử dụng công cụ 'Đường phối cảnh'. Nó yêu cầu bạn đánh dấu ba điểm trên một dòng: điểm 0 và hai điểm đã biết với khoảng cách đến điểm 0. Ba điểm này được biểu thị bằng một hình tam giác nhỏ.\n"
+"Bây giờ, bạn có thể di chuyển thêm một điểm thứ tư trên đường có khoảng cách đến điểm 0 sẽ được tính toán tự động. ImageMeter cũng sẽ vẽ một vài đường thẳng trực giao mỏng biểu thị phối cảnh rút gọn dọc theo đường thẳng. Cuối cùng của những dòng này đại diện cho chiều ngang. Rõ ràng, việc di chuyển điểm đo theo chiều ngang sẽ không cung cấp cho bạn số đo hợp lệ.\n"
+"Lưu ý rằng bạn không cần tham chiếu thêm khi sử dụng công cụ này, vì nó kết hợp tham chiếu và đo lường của chính nó trong một công cụ."
 
 msgctxt "faq_bluetooth_section"
 msgid "Bluetooth"
@@ -3863,7 +3943,7 @@ msgstr "chưa được kiểm tra"
 
 msgctxt "faq_bluetooth_compatibility_a_entry_protocol_LE"
 msgid "LE"
-msgstr "LÊ"
+msgstr "LE"
 
 msgctxt "faq_bluetooth_compatibility_a_entry_protocol_classic"
 msgid "classic"
@@ -3880,7 +3960,10 @@ msgid ""
 " To conntect to the device, press the Bluetooth button at the image menu screen. It will blink until the connection is established. Eventually, it should turn blue to denote that the connection is active. Sometimes, the OS will ask you to enter the device pin again. On some devices, a small Bluetooth icon appears at the title bar and you have to swipe down to enter the pin.\n"
 " Also make sure that other apps connected to the laser distance meter are closed, as some block the connection while they are running in the background. The Leica D810 should be in app mode with encryption turned off."
 msgstr ""
-"Thông thường, bạn chỉ cần chọn thiết bị Bluetooth của mình trong cài đặt ImageMeter. Nếu thiết bị chưa được ghép nối, thiết bị sẽ hoạt động khi bạn kết nối với thiết bị lần đầu tiên. Nếu điều này không thành công hoặc nếu chỉ có địa chỉ thiết bị được hiển thị thay vì tên của nó, trước tiên có thể giúp ghép nối thiết bị trong cài đặt Android. Nếu bạn có thiết bị có Bluetooth LE, bạn không cần ghép nối thiết bị đó, nhưng nó phải được bật để xuất hiện trong danh sách thiết bị. \\ N Thông thường, giao thức truyền được phát hiện tự động, nhưng trong một số trường hợp hiếm hoi, tên thiết bị hiếm không rõ ràng và bạn phải đặt giao thức theo cách thủ công trong cài đặt. \\ n Để kết nối với thiết bị, nhấn nút Bluetooth ở màn hình menu hình ảnh. Nó sẽ nhấp nháy cho đến khi kết nối được thiết lập. Cuối cùng, nó sẽ chuyển sang màu xanh để biểu thị rằng kết nối đang hoạt động. Đôi khi, HĐH sẽ yêu cầu bạn nhập lại mã pin thiết bị. Trên một số thiết bị, một biểu tượng Bluetooth nhỏ xuất hiện trên thanh tiêu đề và bạn phải vuốt xuống để nhập mã pin. \\ N Cũng đảm bảo rằng các ứng dụng khác được kết nối với đồng hồ đo khoảng cách bằng laser được đóng lại, vì một số chặn kết nối trong khi chúng đang chạy trong nền. Leica D810 phải ở chế độ ứng dụng đã tắt mã hóa."
+"Thông thường, bạn chỉ cần chọn thiết bị Bluetooth của mình trong cài đặt ImageMeter. Nếu thiết bị chưa được ghép nối, thiết bị sẽ hoạt động khi bạn kết nối với thiết bị lần đầu tiên. Nếu điều này không thành công hoặc nếu chỉ có địa chỉ thiết bị được hiển thị thay vì tên của nó, trước tiên có thể giúp ghép nối thiết bị trong cài đặt Android. Nếu bạn có thiết bị có Bluetooth LE, bạn không cần ghép nối thiết bị đó, nhưng nó phải được bật để xuất hiện trong danh sách thiết bị.\n"
+"Thông thường, giao thức truyền được phát hiện tự động, nhưng trong một số trường hợp hiếm hoi, tên thiết bị hiếm không rõ ràng và bạn phải đặt giao thức theo cách thủ công trong cài đặt.\n"
+"Để kết nối với thiết bị, nhấn nút Bluetooth ở màn hình menu hình ảnh. Nó sẽ nhấp nháy cho đến khi kết nối được thiết lập. Cuối cùng, nó sẽ chuyển sang màu xanh để biểu thị rằng kết nối đang hoạt động. Đôi khi, HĐH sẽ yêu cầu bạn nhập lại mã pin thiết bị. Trên một số thiết bị, một biểu tượng Bluetooth nhỏ xuất hiện trên thanh tiêu đề và bạn phải vuốt xuống để nhập mã pin.\n"
+"Cũng đảm bảo rằng các ứng dụng khác được kết nối với đồng hồ đo khoảng cách bằng laser được đóng lại, vì một số chặn kết nối trong khi chúng đang chạy trong nền. Leica D810 phải ở chế độ ứng dụng đã tắt mã hóa."
 
 msgctxt "faq_bluetooth_usage_q"
 msgid "How do I transmit values via Bluetooth?"
@@ -3890,7 +3973,9 @@ msgctxt "faq_bluetooth_usage_a"
 msgid ""
 "In the image editor, draw a measure or select one. Now press the 'transmit' button on your laser distance meter. On some devices, there is no 'transmit' button and the measurement will be transmitted as soon as it is taken.\n"
 " Note that you should &lt;b&gt;not&lt;/b&gt; enter the value-entry dialog to transmit the value."
-msgstr "Trong trình chỉnh sửa hình ảnh, vẽ một số đo hoặc chọn một. Bây giờ hãy nhấn nút 'truyền' trên máy đo khoảng cách laser của bạn. Trên một số thiết bị, không có nút 'truyền' và phép đo sẽ được truyền ngay khi được thực hiện. \\ N Lưu ý rằng bạn nên & lt; b & gt; không & lt; / b & gt; nhập hộp thoại nhập giá trị để truyền giá trị."
+msgstr ""
+"Trong trình chỉnh sửa hình ảnh, vẽ một số đo hoặc chọn một. Bây giờ hãy nhấn nút 'truyền' trên máy đo khoảng cách laser của bạn. Trên một số thiết bị, không có nút 'truyền' và phép đo sẽ được truyền ngay khi được thực hiện.\n"
+"Lưu ý rằng bạn nên &lt;b&gt;không&lt;/b&gt; nhập hộp thoại nhập giá trị để truyền giá trị."
 
 msgctxt "faq_other_section"
 msgid "Other"
@@ -3902,7 +3987,7 @@ msgstr "Sự khác biệt giữa phiên bản miễn phí và pro là gì?"
 
 msgctxt "faq_other_free_vs_pro_a"
 msgid "The free version has the following limitations:&lt;ul&gt; &lt;li&gt;adds watermarks into the exported images,&lt;/li&gt; &lt;li&gt;maximum of 5 dimensions per image,&lt;/li&gt; &lt;li&gt;transfer distances of up to 3 meters via Bluetooth.&lt;/li&gt; &lt;/ul&gt; If ImageMeter is useful to you, please upgrade to the pro version to support further development."
-msgstr "Phiên bản miễn phí có các giới hạn sau: & lt; ul & gt; & lt; li & gt; thêm hình mờ vào hình ảnh được xuất, & lt; / li & gt; & lt; li & gt; tối đa 5 kích thước cho mỗi hình ảnh, & lt; / li & gt; & lt; li & gt; khoảng cách truyền lên tới 3 mét qua Bluetooth. & lt; / li & gt; & lt; / ul & gt; Nếu ImageMeter hữu ích với bạn, vui lòng nâng cấp lên phiên bản pro để hỗ trợ phát triển hơn nữa."
+msgstr "Phiên bản miễn phí có các giới hạn sau: &lt;ul&gt;&lt;li&gt;thêm hình mờ vào hình ảnh được xuất,&lt;/li&gt;&lt;li&gt;tối đa 5 kích thước cho mỗi hình ảnh,&lt;/li&gt;&lt;li&gt;khoảng cách truyền lên tới 3 mét qua Bluetooth.&lt;/li&gt;&lt;/ul&gt; Nếu ImageMeter hữu ích với bạn, vui lòng nâng cấp lên phiên bản pro để hỗ trợ phát triển hơn nữa."
 
 msgctxt "faq_other_upgrading_vs_native_pro_q"
 msgid "What is the difference between upgrading the free version and installing the pro version?"
@@ -3926,7 +4011,7 @@ msgstr "Tôi vẫn còn một câu hỏi, tôi có thể hỏi ai?"
 
 msgctxt "faq_other_contact_a"
 msgid "Please write to &lt;a href=\"mailto:imagemeter@gmail.com\"&gt;imagemeter@gmail.com&lt;/a&gt;."
-msgstr "Vui lòng viết thư cho & lt; a href = \\ \"mailto: fantemeter @ gmail \" & gt; fantemeter @ gmail & lt; / a & gt;."
+msgstr "Vui lòng viết thư cho &lt;a href=\"mailto:imagemeter@gmail.com\"&gt;imagemeter@gmail.com&lt;/a&gt;."
 
 #. TODO: Remove or change this placeholder text
 msgctxt "image_info_image_name"
