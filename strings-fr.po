@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-04-16 19:04+0200\n"
+"POT-Creation-Date: 2020-02-18 10:28+0100\n"
 "PO-Revision-Date: 2019-02-06 12:20+0100\n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -35,6 +35,10 @@ msgctxt "generic_dialog_title_warning"
 msgid "Warning"
 msgstr "Avertissement"
 
+msgctxt "generic_dialog_title_note"
+msgid "Note"
+msgstr ""
+
 msgctxt "generic_lowercase_yes"
 msgid "yes"
 msgstr "oui"
@@ -47,9 +51,21 @@ msgctxt "generic_lowercase_unknown"
 msgid "unknown"
 msgstr "inconnu"
 
-msgctxt "notification_error_title"
-msgid "ImageMeter error"
-msgstr "Erreur ImageMeter"
+msgctxt "generic_confirm_delete"
+msgid "Really delete"
+msgstr ""
+
+msgctxt "generic_cancel"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "generic_undo"
+msgid "Undo"
+msgstr ""
+
+msgctxt "notification_generic_error_title"
+msgid "Error"
+msgstr ""
 
 msgctxt "notification_bkg_rendering_title"
 msgid "Image rendering in progress…"
@@ -61,6 +77,60 @@ msgstr ""
 
 msgctxt "notification_syncer_channel_title"
 msgid "Cloud synchronization"
+msgstr ""
+
+msgctxt "notification_import_title"
+msgid "Image import"
+msgstr ""
+
+#, c-format
+msgctxt "notification_import_content"
+msgid "%1d image left …"
+msgid_plural "%1d images left …"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "notification_channel_background_processing_title"
+msgid "Background processing"
+msgstr ""
+
+msgctxt "notification_channel_error_messages_title"
+msgid "Error messages"
+msgstr ""
+
+msgctxt "notification_error_importing_IMI_title"
+msgid "Error importing IMI file"
+msgstr ""
+
+msgctxt "notification_error_importing_IMF_title"
+msgid "Error importing IMF file"
+msgstr ""
+
+msgctxt "notification_error_importing_image_title"
+msgid "Error importing image"
+msgstr ""
+
+msgctxt "notification_error_importing_file_title"
+msgid "Error importing file"
+msgstr ""
+
+msgctxt "notification_save_to_gallery_title"
+msgid "Saving to gallery"
+msgstr ""
+
+msgctxt "notification_error_saving_to_gallery"
+msgid "Error while saving to gallery"
+msgstr ""
+
+#, c-format
+msgctxt "notification_save_to_gallery_content"
+msgid "%1d image left …"
+msgid_plural "%1d images left …"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "notification_error_no_permission_to_save_to_gallery"
+msgid "Cannot save to gallery because ImageMeter has no storage write permission."
 msgstr ""
 
 #. ========== folder/image-selection ==========
@@ -101,9 +171,14 @@ msgctxt "imageselect_menu_preferences"
 msgid "Settings"
 msgstr "Paramètres"
 
+#, fuzzy
 msgctxt "imageselect_menu_rename"
-msgid "Rename image"
+msgid "Rename"
 msgstr "Renommez l'image"
+
+msgctxt "imageselect_menu_duplicate"
+msgid "Duplicate"
+msgstr ""
 
 msgctxt "imageselect_menu_move_to_folder"
 msgid "Move to folder"
@@ -113,16 +188,31 @@ msgctxt "imageselect_menu_import_image"
 msgid "Import image"
 msgstr "Importer une image"
 
+msgctxt "imageselect_menu_new_canvas"
+msgid "New canvas"
+msgstr ""
+
+#, fuzzy
 msgctxt "imageselect_menu_capture"
-msgid "Capture image"
+msgid "Camera capture"
 msgstr "Capture d'image"
 
+#, fuzzy
 msgctxt "imageselect_menu_delete_image"
-msgid "Delete image"
+msgid "Delete"
 msgstr "Supprimer l'image"
 
+msgctxt "imageselect_menu_undelete_image"
+msgid "Undelete"
+msgstr ""
+
+msgctxt "imageselect_menu_purge_image"
+msgid "Purge"
+msgstr ""
+
+#, fuzzy
 msgctxt "imageselect_menu_share_image"
-msgid "Share image"
+msgid "Share"
 msgstr "Partager l'image"
 
 msgctxt "imageselect_menu_save_to_external_memory"
@@ -133,8 +223,9 @@ msgctxt "imageselect_menu_bluetooth"
 msgid "Bluetooth connect"
 msgstr "Connecter Bluetooth"
 
+#, fuzzy
 msgctxt "imageselect_menu_print"
-msgid "Print image"
+msgid "Print"
 msgstr "Imprimer l'image"
 
 msgctxt "imageselect_menu_image_info"
@@ -173,13 +264,84 @@ msgctxt "imageselect_menu_sync_all_folders"
 msgid "Sync all folders"
 msgstr ""
 
+#. image-library
+msgctxt "imagelibrary_image_deleted"
+msgid "Image deleted"
+msgstr ""
+
+msgctxt "imagelibrary_folder_deleted"
+msgid "Folder deleted"
+msgstr ""
+
+msgctxt "imagelibrary_breadcrumb_root_folder"
+msgid "Root"
+msgstr ""
+
+msgctxt "imagelibrary_search_hint"
+msgid "Search images"
+msgstr ""
+
+msgctxt "sortingorder_alpha_ascending"
+msgid "Alphabetical"
+msgstr ""
+
+msgctxt "sortingorder_alpha_descending"
+msgid "Alphabetical, reverse"
+msgstr ""
+
+msgctxt "sortingorder_time_ascending"
+msgid "Time, earlierst on top"
+msgstr ""
+
+msgctxt "sortingorder_time_descending"
+msgid "Time, latest on top"
+msgstr ""
+
+msgctxt "sortingorder_number_ascending"
+msgid "Number, ascending"
+msgstr ""
+
+msgctxt "sortingorder_number_descending"
+msgid "Number, descending"
+msgstr ""
+
+#. dialog: numbering
+msgctxt "imagelibrary_dialog_numbering_title"
+msgid "Image numbers"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_numbering_enable_auto_numbering"
+msgid "Enable auto-numbering"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_numbering_start"
+msgid "Start"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_numbering_increment"
+msgid "Increment"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_numbering_renumber_title"
+msgid "Renumber existing images"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_numbering_renumber_old_number_order"
+msgid "Keep order of old numbers"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_numbering_renumber_all"
+msgid "Renumber"
+msgstr ""
+
 #. dialog: rename folder
 msgctxt "foldername_dialog_folder_name"
 msgid "Folder name"
 msgstr "Nom du dossier"
 
+#, fuzzy
 msgctxt "foldername_dialog_folder_name_hint"
-msgid "folder name"
+msgid "Enter folder name"
 msgstr "nom de dossier"
 
 msgctxt "foldername_dialog_notes"
@@ -321,8 +483,9 @@ msgctxt "default_image_name_prefix_captured"
 msgid "captured on (OBSOLET)"
 msgstr "Capturé sur"
 
+#, fuzzy
 msgctxt "default_image_name_prefix_with_date"
-msgid "image from [dd MMM yyyy]"
+msgid "image from {M} {d}, {yyyy}"
 msgstr "image de [dd MMM yyyy]"
 
 #. image import from free app
@@ -428,18 +591,61 @@ msgctxt "export_dialog_overwrite_extpics_folder_cancel"
 msgid "Cancel"
 msgstr "Annuler"
 
+msgctxt "dialog_image_export_options_show_dialog"
+msgid "Show export options next time"
+msgstr ""
+
+msgctxt "dialog_image_export_image_format"
+msgid "Image format"
+msgstr ""
+
+msgctxt "dialog_image_export_file_format"
+msgid "File format"
+msgstr ""
+
+msgctxt "dialog_image_export_overlays"
+msgid "Overlays"
+msgstr ""
+
+msgctxt "dialog_image_export_overlay_show_image_title"
+msgid "Show image title"
+msgstr ""
+
+msgctxt "dialog_image_export_size_original_image_size"
+msgid "Original image size"
+msgstr ""
+
+msgctxt "dialog_image_export_size_custom_size"
+msgid "Custom size"
+msgstr ""
+
+msgctxt "dialog_image_export_image_quality"
+msgid "Image quality"
+msgstr ""
+
+msgctxt "dialog_image_export_image_size"
+msgid "Image size"
+msgstr ""
+
 #. dialogs
+#, fuzzy
 msgctxt "imageselect_dialog_image_name_image_title"
-msgid "Image title"
+msgid "Image name"
 msgstr "Titre de l'image"
 
-msgctxt "imageselect_dialog_image_name_capture_date"
-msgid "Capture date:"
-msgstr "Date de capture:"
+msgctxt "imageselect_dialog_image_name_title_hint"
+msgid "Enter image name"
+msgstr ""
 
+#. string name="imageselect_dialog_image_name_capture_date">Capture
+#. date:</string
 msgctxt "imageselect_dialog_image_name_notes"
 msgid "Notes"
 msgstr "Notes"
+
+msgctxt "imageselect_dialog_image_name_number"
+msgid "Number"
+msgstr ""
 
 #. Dialog: image import
 msgctxt "dialog_data_import_progress_message"
@@ -519,7 +725,8 @@ msgctxt "dialog_cloud_login_open_prefs_button"
 msgid "Open cloud preferences"
 msgstr ""
 
-#. errors
+#. Errors. TODO: check all errors in this section whether they are still
+#. required.
 msgctxt "imageselect_error_imported_file_is_not_an_image"
 msgid "Imported file is not an image"
 msgstr "Le fichier importé n'est pas une image !"
@@ -640,19 +847,9 @@ msgid "Cannot rename folder to '%1$s' because that already exists."
 msgstr "Impossible de renommer le dossier en '%1$s' car il existe déjà."
 
 #, c-format
-msgctxt "imageselect_error_folder_does_not_exist"
-msgid "Folder '%1$s' does not exist anymore."
-msgstr "Le dossier '%1$s' n'existe plus."
-
-#, c-format
 msgctxt "imageselect_error_folder_does_not_exist_detailed"
 msgid "Folder '%1$s' does not exist anymore (expected location '%2$s')."
 msgstr "Le dossier '%1$s' n'existe plus (emplacement attendu '%2$s')."
-
-#, c-format
-msgctxt "imageselect_error_folder_cannot_delete"
-msgid "Cannot delete folder '%1$s'."
-msgstr "Impossible de supprimer le dossier '%1$s'."
 
 #, c-format
 msgctxt "imageselect_error_cannot_write_data_bundle"
@@ -665,11 +862,6 @@ msgid "Cannot write data for image '%1$s' (at location '%2$s')."
 msgstr ""
 "Impossible d'écrire des données pour l'image '%1$s' (à l'emplacement "
 "'%2$s')."
-
-#, c-format
-msgctxt "imageselect_error_cannot_rename_folder"
-msgid "Cannot rename folder '%1$s' to '%2$s'."
-msgstr "Impossible de renommer le dossier '%1$s' en '%2$s'."
 
 #, c-format
 msgctxt "imageselect_error_cannot_delete_data_bundle"
@@ -702,6 +894,10 @@ msgstr ""
 " vous pouvez essayer d'installer une application d'appareil photo "
 "alternative."
 
+msgctxt "imageselect_error_no_image_import_activity"
+msgid "There is no app on the device from which we can import images."
+msgstr ""
+
 #, c-format
 msgctxt "error_cannot_save_annotated_image"
 msgid "Cannot save annotated image because: '%1$s'."
@@ -715,16 +911,6 @@ msgstr ""
 #, c-format
 msgctxt "error_cannot_access_files_in_folder"
 msgid "Cannot access files in folder '%1$s'."
-msgstr ""
-
-#, c-format
-msgctxt "error_cannot_rename_file"
-msgid "Cannot rename file '%1$s' to '%2$s'."
-msgstr ""
-
-#, c-format
-msgctxt "error_cannot_delete_file"
-msgid "Cannot delete file '%1$s'."
 msgstr ""
 
 #, c-format
@@ -807,6 +993,11 @@ msgctxt "error_cannot_open_file_is_folder"
 msgid "Cannot open file '%1$s' because it is a folder."
 msgstr ""
 
+#, c-format
+msgctxt "error_cannot_write_file"
+msgid "Cannot write to file '%1$s'."
+msgstr ""
+
 msgctxt "storage_error_cannot_load_image_file_from_remote"
 msgid "Cannot load the image file from cloud storage."
 msgstr ""
@@ -815,10 +1006,309 @@ msgctxt "storage_note_pulling_image_file_from_remote"
 msgid "Downloading image file from cloud storage."
 msgstr ""
 
+#. filesystem errors
+#, fuzzy
+msgctxt "error_cannot_delete_file"
+msgid "Cannot delete file '{}'."
+msgstr ""
+
+msgctxt "imerror_files_cannot_read_file"
+msgid "Cannot read file '{}'."
+msgstr ""
+
+msgctxt "imerror_files_cannot_write_file"
+msgid "Cannot write file '{}'."
+msgstr ""
+
+#, fuzzy
+msgctxt "error_cannot_rename_file"
+msgid "Cannot rename file '{0}' to '{1}'."
+msgstr ""
+
+msgctxt "imerror_files_file_does_not_exist"
+msgid "File does not exist: \"{}\"."
+msgstr ""
+
+msgctxt "imerror_files_file_cannot_be_opened"
+msgid "Cannot open file \"{}\"."
+msgstr ""
+
+msgctxt "imerror_files_cannot_create_directory"
+msgid "Cannot create directory \"{}\"."
+msgstr ""
+
+#, c-format
+msgctxt "imerror_files_directory_does_not_exist"
+msgid "Directory '%1$s' does not exist."
+msgstr ""
+
+#, fuzzy
+msgctxt "imageselect_error_cannot_rename_folder"
+msgid "Cannot rename folder '{0}' to '{1}'."
+msgstr "Impossible de renommer le dossier '%1$s' en '%2$s'."
+
+#, fuzzy
+msgctxt "imageselect_error_folder_cannot_delete"
+msgid "Cannot delete folder '{}'."
+msgstr "Impossible de supprimer le dossier '%1$s'."
+
+msgctxt "imerror_files_cannot_read_directory"
+msgid "Cannot read directory '{}'."
+msgstr ""
+
+msgctxt "imerror_files_cannot_copy_directory"
+msgid "Cannot copy directory '{}'."
+msgstr ""
+
+msgctxt "imerror_files_errno"
+msgid "OS error: '{}'."
+msgstr ""
+
+msgctxt "imerror_files_cannot_generate_unique_filename"
+msgid "Cannot generate unique filename: '{}'."
+msgstr ""
+
+msgctxt "error_files_locked"
+msgid "Files are currently in use."
+msgstr ""
+
+#. used in PrefsStorageDirectory
+msgctxt "imerror_cannot_lock_file_read"
+msgid "Cannot read file '{}' because it is currently being modified."
+msgstr ""
+
+msgctxt "imerror_cannot_lock_file_write"
+msgid "Cannot modify file '{}' because it is currently in use."
+msgstr ""
+
+#. image library errors
+msgctxt "imerror_library_no_library_directory_defined"
+msgid "No image library directory defined."
+msgstr ""
+
+msgctxt "imerror_library_cannot_purge"
+msgid "Cannot purge deleted images."
+msgstr ""
+
+#. entity level errors
+msgctxt "imerror_projectfolder_cannot_create"
+msgid "Cannot create folder '{}'."
+msgstr ""
+
+msgctxt "imerror_projectfolder_cannot_write_ifd"
+msgid "Cannot write IFD file for folder '{}'."
+msgstr ""
+
+msgctxt "imerror_projectfolder_cannot_load_folder"
+msgid "Cannot load folder '{}'."
+msgstr ""
+
+msgctxt "imerror_projectfolder_multiple_ifd_files"
+msgid "More than one IFD file found."
+msgstr ""
+
+msgctxt "imerror_projectfolder_ifd_parse_error"
+msgid "IFD file parse error."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_load_data_bundle"
+msgid "Cannot load image '{}'."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_create"
+msgid "Cannot create new image '{}'."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_write_imm"
+msgid "Cannot write IMM file for image '{}'."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_delete"
+msgid "Cannot delete image '{}'."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_rename_folder"
+msgid "Cannot rename directory of image '{}'."
+msgstr ""
+
+msgctxt "imerror_databundle_multiple_imm_files"
+msgid "More than one IMM file found."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_open"
+msgid "Cannot open image \"{}\"."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_read_imm_file"
+msgid "Cannot read IMM file."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_get_content_area"
+msgid "Unknown content area."
+msgstr ""
+
+msgctxt "imerror_databundle_imm_parse_error"
+msgid "IMM file parse error ({})."
+msgstr ""
+
+msgctxt "imerror_entity_cannot_move"
+msgid "Cannot move '{}' to new directory."
+msgstr ""
+
+msgctxt "imerror_entity_numbering_invalid_number"
+msgid "Invalid number: '{}'."
+msgstr ""
+
+#. logic level errors
+msgctxt "imerror_delete_logic_cannot_delete"
+msgid "Cannot delete folder '{}'."
+msgstr ""
+
+msgctxt "imerror_delete_logic_cannot_mark_as_deleted"
+msgid "Cannot mark folder '{}' as deleted."
+msgstr ""
+
+#. import/export errors
+msgctxt "imerror_unknown_file_format"
+msgid "File '{}' has unknown format."
+msgstr ""
+
+msgctxt "imerror_cannot_create_imi_file"
+msgid "Cannot create IMI file '{}'."
+msgstr ""
+
+msgctxt "imerror_cannot_export_image"
+msgid "Cannot export image '{}'."
+msgstr ""
+
+msgctxt "imerror_imf_corrupted_file"
+msgid "Corrupted IMF file."
+msgstr ""
+
+msgctxt "imerror_ifd_parse_error"
+msgid "IFD file parse error."
+msgstr ""
+
+msgctxt "imerror_imi_cannot_open"
+msgid "Cannot open IMI file '{}'."
+msgstr ""
+
+msgctxt "imerror_imf_cannot_read_zip"
+msgid "Corrupted ZIP file \"{}\"."
+msgstr ""
+
+msgctxt "imerror_zip_error"
+msgid "ZIP error: {}"
+msgstr ""
+
+msgctxt "imerror_zip_read_error"
+msgid "Error reading ZIP file."
+msgstr ""
+
+msgctxt "imerror_cannot_generate_pdf"
+msgid "Cannot generate PDF"
+msgstr ""
+
+msgctxt "imerror_libharu"
+msgid "LibHARU error: \"{}\""
+msgstr ""
+
+#. image reader/writer errors
+msgctxt "imerror_imagereader_cannot_read_image"
+msgid "Cannot read image file."
+msgstr ""
+
+msgctxt "imerror_imagereader_reader_error"
+msgid "Image reader error."
+msgstr ""
+
+msgctxt "imerror_imagereader_corrupted_image"
+msgid "Corrupted image file."
+msgstr ""
+
+msgctxt "imerror_imagereader_unsupported_format"
+msgid "Unsupported image format."
+msgstr ""
+
+msgctxt "imerror_libjpeg_error"
+msgid "LibJPEG error: \"{}\"."
+msgstr ""
+
+msgctxt "imerror_cannot_read_texture"
+msgid "Cannot read texture '{}'."
+msgstr ""
+
+#. rendering errors
+msgctxt "imerror_cannot_render_image"
+msgid "Cannot render image \"{}\"."
+msgstr ""
+
+msgctxt "imerror_opengl"
+msgid "OpenGL error: \"{}\"."
+msgstr ""
+
 #. other errors
 msgctxt "error_pro_version_required_title"
 msgid "Pro version required"
 msgstr "Version Pro requise"
+
+msgctxt "imerror_out_of_memory"
+msgid "Out of memory."
+msgstr ""
+
+msgctxt "imerror_out_of_memory_with_size"
+msgid "Out of memory (cannot allocate {} bytes)."
+msgstr ""
+
+#. string name="imerror_databundle_cannot_find_imm_file">Cannot find the .imm
+#. file.</string
+msgctxt "imerror_editcore_cannot_load_auxiliary_data"
+msgid "Cannot load auxiliary data."
+msgstr ""
+
+msgctxt "imerror_editcore_cannot_purge_unused_auxiliary_data"
+msgid "Cannot delete unused auxiliary data files."
+msgstr ""
+
+msgctxt "imerror_gtext_cannot_add_detail_image"
+msgid "Cannot add the detail image \"{}\"."
+msgstr ""
+
+msgctxt "imerror_gtext_cannot_add_audio_recording"
+msgid "Cannot add audio recording \"{}\"."
+msgstr ""
+
+msgctxt "imerror_editcore_cannot_read_background_image"
+msgid "Cannot read photo."
+msgstr ""
+
+msgctxt "imerror_imagesetting_cannot_load"
+msgid "Cannot load image settings."
+msgstr ""
+
+msgctxt "imerror_imagesetting_cannot_save"
+msgid "Cannot save image settings."
+msgstr ""
+
+msgctxt "imerror_app_preferences_cannot_set_data_root_directory"
+msgid "Cannot set the data root directory."
+msgstr ""
+
+msgctxt "imerror_app_preferences_cannot_create_data_root_directory"
+msgid "Cannot create the data root directory."
+msgstr ""
+
+msgctxt "imerror_app_preferences_no_root_defined"
+msgid "No data root directory defined."
+msgstr ""
+
+msgctxt "imerror_string_template_unknown_field"
+msgid "Unknown field '{}' in string template."
+msgstr ""
+
+msgctxt "imerror_string_template_syntax_error"
+msgid "Syntax error in string template '{}'."
+msgstr ""
 
 #. cloud storage
 msgctxt "pref_cloud_storage_server_none"
@@ -1151,14 +1641,40 @@ msgctxt "error_cloud_cannot_delete_remote_folder"
 msgid "Cannot delete remote folder '%1$s'."
 msgstr ""
 
+#, c-format
+msgctxt "error_cloud_cannot_download_sync_server_cache_file"
+msgid "Cannot download server cache file '%1$s'."
+msgstr ""
+
+#, c-format
+msgctxt "error_cloud_cannot_upload_sync_server_cache_file"
+msgid "Cannot upload server cache file '%1$s'."
+msgstr ""
+
+msgctxt "error_cloud_cannot_scan_server_content"
+msgid "Cannot scan server content."
+msgstr ""
+
 #. preferences screen
 msgctxt "pref_category_editor"
 msgid "Editor"
 msgstr "Editeur"
 
+msgctxt "pref_category_editor_general"
+msgid "General"
+msgstr ""
+
 msgctxt "pref_category_ui_general"
 msgid "General"
 msgstr "Général"
+
+msgctxt "pref_category_ui_workflow"
+msgid "Workflow"
+msgstr ""
+
+msgctxt "pref_category_ui_numbering"
+msgid "Image numbering"
+msgstr ""
 
 msgctxt "pref_category_editor_styling"
 msgid "Styling"
@@ -1167,38 +1683,6 @@ msgstr "Style"
 msgctxt "pref_category_editor_preset_texts"
 msgid "Preset texts"
 msgstr "Texte prédéfini"
-
-msgctxt "pref_editor_max_image_size"
-msgid "Maximum image size"
-msgstr "Taille maximale de l'image"
-
-msgctxt "pref_editor_max_image_size_dialog"
-msgid "Max. image width in editor (limits memory usage)"
-msgstr "Largeur maximale de l'image dans l'éditeur (limite laconsommation mémoire)"
-
-msgctxt "pref_editor_max_image_size_choices:0"
-msgid "640 pixels"
-msgstr "640 pixels"
-
-msgctxt "pref_editor_max_image_size_choices:1"
-msgid "1024 pixels"
-msgstr "1024 pixels"
-
-msgctxt "pref_editor_max_image_size_choices:2"
-msgid "1600 pixels"
-msgstr "1600 pixels"
-
-msgctxt "pref_editor_max_image_size_choices:3"
-msgid "2400 pixels"
-msgstr "2400 pixels"
-
-msgctxt "pref_editor_max_image_size_choices:4"
-msgid "3000 pixels"
-msgstr "3000 pixels"
-
-msgctxt "pref_editor_max_image_size_choices:5"
-msgid "Original size"
-msgstr "Taille original"
 
 msgctxt "pref_editor_font_size"
 msgid "Font size"
@@ -1297,6 +1781,34 @@ msgctxt "pref_editor_snapping_strength_choices:2"
 msgid "High"
 msgstr "Haut"
 
+msgctxt "pref_category_editor_tools"
+msgid "Drawing tools"
+msgstr ""
+
+msgctxt "pref_editor_tools_freehand_end_delay"
+msgid "End freehand drawing delay"
+msgstr ""
+
+msgctxt "pref_editor_tools_freehand_end_delay_choices:0"
+msgid "Off"
+msgstr ""
+
+msgctxt "pref_editor_tools_freehand_end_delay_choices:1"
+msgid "Short"
+msgstr ""
+
+msgctxt "pref_editor_tools_freehand_end_delay_choices:2"
+msgid "Normal"
+msgstr ""
+
+msgctxt "pref_editor_tools_freehand_end_delay_choices:3"
+msgid "Long"
+msgstr ""
+
+msgctxt "pref_category_editor_drawing_tools"
+msgid "Drawing Tools"
+msgstr ""
+
 msgctxt "pref_category_measures"
 msgid "Measures"
 msgstr "Mesures"
@@ -1325,35 +1837,75 @@ msgctxt "pref_measures_default_template_choices:3"
 msgid "Inches with fractions (1 1/8\")"
 msgstr "Pouces avec fractions (1 1/8\")"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:0"
 msgid "mm²"
 msgstr "mm²"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:1"
 msgid "cm²"
 msgstr "cm²"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:2"
 msgid "m²"
 msgstr "m²"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:3"
 msgid "km²"
 msgstr "km²"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 #, fuzzy
 msgctxt "pref_measure_metric_area_unit_choices:4"
 msgid "are"
 msgstr "Aire"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:5"
 msgid "hectare"
 msgstr "hectare"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:6"
 msgid "µm²"
 msgstr ""
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:7"
 msgid "nm²"
 msgstr ""
@@ -1566,6 +2118,38 @@ msgctxt "pref_category_export"
 msgid "Image export"
 msgstr "Exporter image"
 
+msgctxt "pref_export_image_show_options"
+msgid "Set options at export"
+msgstr ""
+
+msgctxt "pref_export_image_show_options_summary_on"
+msgid "Image options can be set at export"
+msgstr ""
+
+msgctxt "pref_export_image_show_options_summary_off"
+msgid "Options dialog will be skipped"
+msgstr ""
+
+msgctxt "pref_export_show_format_selection"
+msgid "Choose format when exporting"
+msgstr ""
+
+msgctxt "pref_export_show_format_selection_summary_on"
+msgid "Format selection will be shown each time"
+msgstr ""
+
+msgctxt "pref_export_show_format_selection_summary_off"
+msgid "Selected format will be used always"
+msgstr ""
+
+msgctxt "pref_category_export_format_and_rendering"
+msgid "Format and rendering"
+msgstr ""
+
+msgctxt "pref_category_export_image"
+msgid "Image settings"
+msgstr ""
+
 msgctxt "pref_export_format"
 msgid "Image format"
 msgstr "Format d'image"
@@ -1599,74 +2183,6 @@ msgstr "%s"
 msgctxt "pref_min_export_size_dialog"
 msgid "Min. width of exported image"
 msgstr "Min. largeur de l'image exportée"
-
-msgctxt "pref_min_export_size_choices:0"
-msgid "640 pixels"
-msgstr "640 pixels"
-
-msgctxt "pref_min_export_size_choices:1"
-msgid "800 pixels"
-msgstr "800 pixels"
-
-msgctxt "pref_min_export_size_choices:2"
-msgid "1024 pixels"
-msgstr "1024 pixels"
-
-msgctxt "pref_min_export_size_choices:3"
-msgid "1280 pixels"
-msgstr "1280 pixels"
-
-msgctxt "pref_min_export_size_choices:4"
-msgid "1600 pixels"
-msgstr "1600 pixels"
-
-msgctxt "pref_min_export_size_choices:5"
-msgid "1920 pixels"
-msgstr "1920 pixels"
-
-msgctxt "pref_min_export_size_choices:6"
-msgid "2560 pixels"
-msgstr "2560 pixels"
-
-msgctxt "pref_min_export_size_choices:7"
-msgid "3840 pixels"
-msgstr "3840 pixels"
-
-msgctxt "pref_max_export_size_choices:0"
-msgid "640 pixels"
-msgstr "640 pixels"
-
-msgctxt "pref_max_export_size_choices:1"
-msgid "800 pixels"
-msgstr "800 pixels"
-
-msgctxt "pref_max_export_size_choices:2"
-msgid "1024 pixels"
-msgstr "1024 pixels"
-
-msgctxt "pref_max_export_size_choices:3"
-msgid "1280 pixels"
-msgstr "1280 pixels"
-
-msgctxt "pref_max_export_size_choices:4"
-msgid "1600 pixels"
-msgstr "1600 pixels"
-
-msgctxt "pref_max_export_size_choices:5"
-msgid "1920 pixels"
-msgstr "1920 pixels"
-
-msgctxt "pref_max_export_size_choices:6"
-msgid "2560 pixels"
-msgstr "2560 pixels"
-
-msgctxt "pref_max_export_size_choices:7"
-msgid "3840 pixels"
-msgstr "3840 pixels"
-
-msgctxt "pref_max_export_size_choices:8"
-msgid "Unlimited"
-msgstr "Illimité"
 
 #. <string name="pref_export_enable_reduced_resolution_overlay">Warning
 #. overlays on images</string>
@@ -1702,8 +2218,9 @@ msgctxt "pref_export_multi_images_format_choices:2"
 msgid "Zip archive of images"
 msgstr "Zipper une archive d'images"
 
+#, fuzzy
 msgctxt "pref_export_multi_images_format_choices:3"
-msgid "ImageMeter folder"
+msgid "ImageMeter folder (IMF)"
 msgstr "Dossier ImageMeter"
 
 msgctxt "pref_export_single_image_format"
@@ -1714,21 +2231,36 @@ msgctxt "pref_export_single_image_format_dialog"
 msgid "Export images as"
 msgstr "Exporter les images sous"
 
+#. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:0"
 msgid "Image"
 msgstr "Image"
 
+#. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:1"
 msgid "PDF"
 msgstr "PDF"
 
+#. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:2"
 msgid "Zip archive of images"
 msgstr "Zipper une archive d'images"
 
+#. TODO: FIX other languages
+#, fuzzy
 msgctxt "pref_export_single_image_format_choices:3"
-msgid "ImageMeter image"
+msgid "ImageMeter image (IMI)"
 msgstr "ImageMeter image"
+
+#. TODO: FIX other languages
+msgctxt "pref_export_single_image_format_choices:4"
+msgid "ImageMeter folder (IMF)"
+msgstr ""
+
+#. TODO: FIX other languages
+msgctxt "pref_export_single_image_format_choices:5"
+msgid "Save to gallery"
+msgstr ""
 
 msgctxt "pref_export_render_image_title"
 msgid "Show image title"
@@ -1757,6 +2289,18 @@ msgstr "Inclure le fichier PDF"
 msgctxt "pref_category_export_pdf"
 msgid "PDF settings"
 msgstr "Paramètres PDF"
+
+msgctxt "pref_export_pdf_show_options"
+msgid "Set options at export"
+msgstr ""
+
+msgctxt "pref_export_pdf_show_options_summary_on"
+msgid "PDF options can be set at export"
+msgstr ""
+
+msgctxt "pref_export_pdf_show_options_summary_off"
+msgid "Options dialog will be skipped"
+msgstr ""
 
 msgctxt "pref_export_pdf_images_per_page"
 msgid "Images per PDF page"
@@ -1891,6 +2435,35 @@ msgctxt "pref_export_pdf_image_notes_space_choices:4"
 msgid "10%"
 msgstr "10%"
 
+msgctxt "dialog_pdf_options_image_notes_space_choices:0"
+msgid "Do not print notes"
+msgstr ""
+
+#, c-format
+msgctxt "dialog_pdf_options_image_notes_space_choices:1"
+msgid "10%"
+msgstr ""
+
+#, c-format
+msgctxt "dialog_pdf_options_image_notes_space_choices:2"
+msgid "20%"
+msgstr ""
+
+#, c-format
+msgctxt "dialog_pdf_options_image_notes_space_choices:3"
+msgid "30%"
+msgstr ""
+
+#, c-format
+msgctxt "dialog_pdf_options_image_notes_space_choices:4"
+msgid "40%"
+msgstr ""
+
+#, c-format
+msgctxt "dialog_pdf_options_image_notes_space_choices:5"
+msgid "50%"
+msgstr ""
+
 msgctxt "pref_category_bluetooth"
 msgid "Bluetooth"
 msgstr "Bluetooth"
@@ -1959,6 +2532,10 @@ msgctxt "pref_bluetooth_device_protocol_stabila"
 msgid "Stabila"
 msgstr ""
 
+msgctxt "pref_bluetooth_device_protocol_wuerth"
+msgid "Würth WDM 3–19"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
 msgid "Leica Disto classic"
 msgstr ""
@@ -1984,8 +2561,13 @@ msgctxt "pref_bluetooth_device_protocol_stanley_tlm99si"
 msgid "Stanley TLM99si"
 msgstr ""
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_suaoki"
-msgid "Suaoki/Mileseey"
+msgid "Suaoki"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_mileseey_p7"
+msgid "Mileseey P7"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
@@ -2006,6 +2588,10 @@ msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_toolsmart_anglefinder"
 msgid "ToolSmart-AngleFinder"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_condtrol_xp3"
+msgid "Condtrol XP3/XP4 Pro"
 msgstr ""
 
 #. item Calculated Industries /item
@@ -2083,10 +2669,6 @@ msgctxt "pref_ui_edit_image_after_capture_enabled"
 msgid "Edit image after capture"
 msgstr "Modifier l'image après la capture"
 
-msgctxt "pref_ui_show_directory_after_export_enabled"
-msgid "Tell directory after export"
-msgstr "Indiquer à l'annuaire après l'exportation"
-
 msgctxt "pref_ui_helpbar_mode"
 msgid "Help messages"
 msgstr "Messages d'aide"
@@ -2102,6 +2684,10 @@ msgstr "Afficher pour tous les messages"
 msgctxt "pref_ui_helpbar_mode_choices:1"
 msgid "Only show important messages"
 msgstr "Afficher uniquement les messages importants"
+
+msgctxt "pref_category_editor_magnifier"
+msgid "Magnifier"
+msgstr ""
 
 msgctxt "pref_ui_use_magnifier"
 msgid "Enable magnifier"
@@ -2171,17 +2757,48 @@ msgctxt "pref_ui_image_order_criterium_dialog"
 msgid "Image sorting order"
 msgstr "Ordre de tri des images"
 
+#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:0"
-msgid "Image name"
+msgid "Image name (ascending)"
 msgstr "Nom de l'image"
 
+#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:1"
-msgid "Capture date (oldest first)"
+msgid "Image name (descending)"
 msgstr "Date de capture (la plus ancienne en premier)"
 
+#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:2"
-msgid "Capture date (latest first)"
+msgid "Capture date (oldest first)"
 msgstr "Date de capture (dernière en premier)"
+
+msgctxt "pref_ui_image_order_criterium_choices:3"
+msgid "Capture date (latest first)"
+msgstr ""
+
+msgctxt "pref_ui_image_order_criterium_choices:4"
+msgid "Number (ascending)"
+msgstr ""
+
+msgctxt "pref_ui_image_order_criterium_choices:5"
+msgid "Number (descending)"
+msgstr ""
+
+msgctxt "pref_ui_image_auto_numbering_active"
+msgid "Enable auto-numbering"
+msgstr ""
+
+msgctxt "pref_ui_image_auto_numbering_start"
+msgid "Start number"
+msgstr ""
+
+msgctxt "pref_ui_image_auto_numbering_increment"
+msgid "Increment"
+msgstr ""
+
+msgctxt "pref_ui_image_auto_numbering_invalid_number"
+msgid "Invalid"
+msgstr ""
 
 msgctxt "pref_ui_editor_fullscreen_mode_title"
 msgid "Editor fullscreen mode"
@@ -2203,14 +2820,14 @@ msgctxt "pref_ui_editor_fullscreen_mode_choices:2"
 msgid "Always"
 msgstr "Toujours"
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "pref_preset_text"
-msgid "Preset text %1$s"
+msgid "Preset text %1$d"
 msgstr "Texte prédéfini %1$s"
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "pref_preset_text_dialog"
-msgid "Enter preset text %1$s"
+msgid "Enter preset text %1$d"
 msgstr "Entrez le texte prédéfini %1$s"
 
 msgctxt "preset_text_1"
@@ -2257,6 +2874,42 @@ msgctxt "pref_category_storage"
 msgid "Storage"
 msgstr "Rangement"
 
+msgctxt "pref_category_storage_deleted_files"
+msgid "Deleted files"
+msgstr ""
+
+msgctxt "pref_storage_deleted_files_purge_now"
+msgid "Purge all deleted images now!"
+msgstr ""
+
+msgctxt "pref_storage_deleted_files_purge_delay"
+msgid "Purge interval"
+msgstr ""
+
+msgctxt "pref_storage_deleted_files_purge_delay_dialog"
+msgid "Purge interval"
+msgstr ""
+
+msgctxt "pref_storage_deleted_files_purge_delay_choices:0"
+msgid "1 day"
+msgstr ""
+
+msgctxt "pref_storage_deleted_files_purge_delay_choices:1"
+msgid "1 week"
+msgstr ""
+
+msgctxt "pref_storage_deleted_files_purge_delay_choices:2"
+msgid "1 month"
+msgstr ""
+
+msgctxt "dialog_purge_images_title"
+msgid "Purging deleted images"
+msgstr ""
+
+msgctxt "dialog_purge_images_finished"
+msgid "All deleted images have been purged from memory."
+msgstr ""
+
 #. string name="pref_category_storage_sdcard">SD Card</string
 msgctxt "pref_storage_data_directory"
 msgid "Data directory"
@@ -2270,12 +2923,14 @@ msgctxt "pref_storage_show_images_in_gallery"
 msgid "Show images in gallery"
 msgstr "Afficher les images dans la galerie"
 
+#, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_on"
-msgid "All images will show up in gallery"
+msgid "Edited images will show up in gallery"
 msgstr "Toutes les images apparaîtront dans la galerie"
 
+#, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_off"
-msgid "Images will not show in the gallery"
+msgid "Images will not show in the gallery automatically"
 msgstr "Les images ne seront pas affichées dans la galerie"
 
 msgctxt "pref_storage_directory_current_directory"
@@ -2385,6 +3040,10 @@ msgstr ""
 "Veuillez noter que le répertoire cible contient maintenant une copie "
 "incomplète des données source!"
 
+msgctxt "pref_storage_directory_cannot_move_files"
+msgid "Cannot move files"
+msgstr ""
+
 msgctxt "dialog_storage_move_annotated_images_progress_text"
 msgid "Moving images ..."
 msgstr "Déplacement des images ..."
@@ -2458,8 +3117,9 @@ msgctxt "editor_menu_add_area"
 msgid "Area"
 msgstr "Surface"
 
+#, fuzzy
 msgctxt "editor_menu_add_text"
-msgid "Text"
+msgid "Note"
 msgstr "Texte"
 
 msgctxt "editor_menu_add_freehand"
@@ -2485,6 +3145,14 @@ msgstr "Ligne"
 msgctxt "editor_menu_add_ellipse"
 msgid "Ellipse"
 msgstr "Ellipse "
+
+msgctxt "editor_menu_add_dimstring"
+msgid "Dimension string"
+msgstr ""
+
+msgctxt "editor_menu_add_cumulative_dimstring"
+msgid "Cumulative string"
+msgstr ""
 
 msgctxt "editor_menu_edit_delete"
 msgid "Delete element"
@@ -2514,9 +3182,14 @@ msgctxt "editor_menu_edit_redo"
 msgid "Redo"
 msgstr "Refaire"
 
+#, fuzzy
 msgctxt "editor_menu_edit_rotate"
-msgid "Rotate image"
+msgid "Rotate image (CW)"
 msgstr "Pivoter l'image"
+
+msgctxt "editor_menu_edit_rotate_ccw"
+msgid "Rotate image (CCW)"
+msgstr ""
 
 msgctxt "editor_menu_edit_transfer_style"
 msgid "Transfer style"
@@ -2536,6 +3209,10 @@ msgstr ""
 
 msgctxt "editor_menu_edit_unlock_element"
 msgid "Unlock element"
+msgstr ""
+
+msgctxt "editor_menu_edit_imagesettings"
+msgid "Image settings"
 msgstr ""
 
 msgctxt "editor_menu_color"
@@ -2614,6 +3291,14 @@ msgstr ""
 "Outil pour mesurer une distance inconnue le long d'une ligne déformée en "
 "perspective. Voir la FAQ pour une introduction."
 
+msgctxt "editor_hint_howto_draw_dimstring"
+msgid "Please draw the first dimension string. Use the top toolbar to modify it."
+msgstr ""
+
+msgctxt "editor_hint_howto_draw_dimstring_cumulative"
+msgid "Please draw the first dimension string. Use the top toolbar to modify it."
+msgstr ""
+
 msgctxt "editor_hint_howto_attach_to_reference"
 msgid "Click on the measure you want to compute based on the selected reference."
 msgstr ""
@@ -2654,6 +3339,10 @@ msgstr ""
 
 msgctxt "editor_dialog_style_spinner_various_values"
 msgid "various"
+msgstr ""
+
+msgctxt "editor_dialog_style_generic_line_width_magnification"
+msgid "Line width"
 msgstr ""
 
 msgctxt "editor_dialog_style_textbox_title"
@@ -3111,6 +3800,14 @@ msgctxt "editor_dialog_style_rectangle_line_width_magnification"
 msgid "Line width"
 msgstr "Largeur de ligne"
 
+msgctxt "editor_dialog_style_dimstring_title"
+msgid "Dimension string style"
+msgstr ""
+
+msgctxt "editor_dialog_style_dimstring_show_marks"
+msgid "Show intersection marks"
+msgstr ""
+
 msgctxt "editor_dialog_style_measurementpoint_title"
 msgid "Point style"
 msgstr "Style de point"
@@ -3317,6 +4014,42 @@ msgctxt "editor_rectref_standard_size_credit_card"
 msgid "Credit card"
 msgstr ""
 
+msgctxt "editor_dimstring_mode_add_markers"
+msgid "Add measures"
+msgstr ""
+
+msgctxt "editor_dimstring_mode_move_markers"
+msgid "Move measures"
+msgstr ""
+
+msgctxt "editor_dimstring_mode_toggle_segments"
+msgid "Toggle segments"
+msgstr ""
+
+msgctxt "editor_dimstring_mode_move_strings"
+msgid "Move strings"
+msgstr ""
+
+msgctxt "editor_dimstring_mode_set_values"
+msgid "Set values"
+msgstr ""
+
+msgctxt "editor_dimstring_func_edit_mode"
+msgid "Select edit mode"
+msgstr ""
+
+msgctxt "editor_dimstring_func_add_string"
+msgid "Add string"
+msgstr ""
+
+msgctxt "editor_dimstring_func_add_cumulative_string"
+msgid "Add cumulative string"
+msgstr ""
+
+msgctxt "editor_dimstring_func_swap_orientation"
+msgid "Swap orientation"
+msgstr ""
+
 msgctxt "color_dialog_special_transparent"
 msgid "Transparent"
 msgstr ""
@@ -3381,8 +4114,9 @@ msgstr ""
 "peut-être réduire la résolution de sortie maximale dans les paramètres de"
 " l'application."
 
+#, fuzzy
 msgctxt "export_eval_version"
-msgid "evaluation copy"
+msgid "Evaluation copy"
 msgstr "Version d'évaluation"
 
 #, c-format
@@ -3606,31 +4340,38 @@ msgid "Suffix"
 msgstr ""
 
 #. text entry
+#, fuzzy
 msgctxt "textbox_dialog_label"
-msgid "Enter text:"
+msgid "Text note"
 msgstr "Entrez le texte:"
 
-msgctxt "textbox_dialog_presets"
-msgid "or select a preset text:"
-msgstr "ou sélectionner un texte prédéfini:"
-
-msgctxt "textbox_dialog_presets_help"
-msgid "You can change the preset texts in the application settings."
-msgstr ""
-"Astuce: vous pouvez changer les textes prédéfinis dans les paramètres de "
-"l'application."
-
+#. string name="textbox_dialog_presets">or select a preset text:</string
+#. string name="textbox_dialog_presets_help">You can change the preset texts
+#. in the application settings.</string
 msgctxt "textbox_text_hint"
 msgid "No text"
 msgstr "Pas de texte"
 
-msgctxt "textbox_keep_custom_text"
-msgid "(keep custom text)"
-msgstr "(Garder texte personnalisé)"
+msgctxt "textbox_text_preset_button"
+msgid "Preset…"
+msgstr ""
 
+msgctxt "textbox_text_preset_open_prefs"
+msgid "(Define presets …)"
+msgstr ""
+
+#. string name="textbox_keep_custom_text">(keep custom text)</string
 msgctxt "textbox_hint_undefined_text"
 msgid "click to enter text"
 msgstr "cliquez pour entrer le texte"
+
+msgctxt "textbox_audio_notes_title"
+msgid "Audio note"
+msgstr ""
+
+msgctxt "textbox_detail_picture_title"
+msgid "Detail picture"
+msgstr ""
 
 msgctxt "textbox_rtl_language_warning_title"
 msgid "Please note"
@@ -3670,6 +4411,77 @@ msgctxt "rectangle_perimeter_prefix"
 msgid "P:"
 msgstr ""
 
+#. ImageSettings
+msgctxt "imagesettings_duallabel_mode_choices:0"
+msgid "Off"
+msgstr ""
+
+#. ImageSettings
+msgctxt "imagesettings_duallabel_mode_choices:1"
+msgid "Model scale"
+msgstr ""
+
+#. ImageSettings
+msgctxt "imagesettings_duallabel_mode_choices:2"
+msgid "Alternative unit"
+msgstr ""
+
+msgctxt "imagesettings_dialog_duallabel_title"
+msgid "Secondary label"
+msgstr ""
+
+msgctxt "imagesettings_dialog_duallabel_mode"
+msgid "Mode"
+msgstr ""
+
+msgctxt "imagesettings_dialog_duallabel_scale"
+msgid "Scale"
+msgstr ""
+
+msgctxt "imagesettings_dialog_duallabel_unit"
+msgid "Unit"
+msgstr ""
+
+msgctxt "imagesettings_dialog_canvas_colorscheme"
+msgid "Color scheme"
+msgstr ""
+
+msgctxt "imagesettings_dialog_canvas_colorscheme_presets:0"
+msgid "White"
+msgstr ""
+
+msgctxt "imagesettings_dialog_canvas_colorscheme_presets:1"
+msgid "Black"
+msgstr ""
+
+msgctxt "imagesettings_dialog_canvas_colorscheme_presets:2"
+msgid "Dark blue"
+msgstr ""
+
+msgctxt "imagesettings_dialog_canvas_colorscheme_presets:3"
+msgid "Custom"
+msgstr ""
+
+msgctxt "imagesettings_dialog_bkgimage_title"
+msgid "Image"
+msgstr ""
+
+msgctxt "imagesettings_dialog_bkgimage_brightness"
+msgid "Brightness"
+msgstr ""
+
+msgctxt "imagesettings_dialog_bkgimage_saturation"
+msgid "Saturation"
+msgstr ""
+
+msgctxt "imagesettings_dialog_bkgimage_contrast"
+msgid "Contrast"
+msgstr ""
+
+msgctxt "imagesettings_dialog_bkgimage_reset"
+msgid "Reset"
+msgstr ""
+
 #. bluetooth
 msgctxt "bluetooth_message_device_connected"
 msgid "Connection to Bluetooth device established."
@@ -3683,14 +4495,20 @@ msgctxt "bluetooth_message_device_connect_failed"
 msgid "Bluetooth connection failed."
 msgstr "Connexion Bluetooth a échoué."
 
+#, fuzzy
 msgctxt "bluetooth_error_bluetooth_not_configured"
 msgid ""
 "You have not yet configured any Bluetooth laser distance meter.\n"
 "\n"
-"Please pair your Bluetooth device with your Android device. Afterwards, "
-"open the app settings and select the Bluetooth device to use. Bluetooth "
-"Smart devices do not have to be paired, but they have to be turned on to "
-"appear in the device selection."
+"First make sure that your device is listed in the system settings. If "
+"required, pair the device.\n"
+" <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n"
+"\n"
+"Afterwards, select your device in the ImageMeter settings:\n"
+" <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n"
+"\n"
+"For more help and a list of supported devices, see <a "
+"href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
 msgstr ""
 "Vous n'avez pas encore configuré un Télémètre laser Bluetooth.\n"
 "\n"
@@ -4496,13 +5314,13 @@ msgctxt "image_info_capture_date"
 msgid "Capture Date"
 msgstr "Date de capture"
 
+msgctxt "image_info_creation_date"
+msgid "Creation Date"
+msgstr ""
+
 msgctxt "image_info_original_resolution"
 msgid "Original Image Resolution"
 msgstr "Résolution d'image originale"
-
-msgctxt "image_info_export_resolution"
-msgid "Exported Image Resolution"
-msgstr "Résolution d'image exportée"
 
 msgctxt "image_info_gps_coordinates"
 msgid "GPS Coordinates"
@@ -4516,8 +5334,104 @@ msgctxt "value_entry_unit_unit"
 msgid "Unit"
 msgstr ""
 
-#. TODO: Remove or change this placeholder text
-msgctxt "hello_blank_fragment"
-msgid "Hello blank fragment"
+#. date strings
+msgctxt "month_names_short_1"
+msgid "Jan"
+msgstr ""
+
+msgctxt "month_names_short_2"
+msgid "Feb"
+msgstr ""
+
+msgctxt "month_names_short_3"
+msgid "Mar"
+msgstr ""
+
+msgctxt "month_names_short_4"
+msgid "Apr"
+msgstr ""
+
+msgctxt "month_names_short_5"
+msgid "May"
+msgstr ""
+
+msgctxt "month_names_short_6"
+msgid "Jun"
+msgstr ""
+
+msgctxt "month_names_short_7"
+msgid "Jul"
+msgstr ""
+
+msgctxt "month_names_short_8"
+msgid "Aug"
+msgstr ""
+
+msgctxt "month_names_short_9"
+msgid "Sep"
+msgstr ""
+
+msgctxt "month_names_short_10"
+msgid "Oct"
+msgstr ""
+
+msgctxt "month_names_short_11"
+msgid "Nov"
+msgstr ""
+
+msgctxt "month_names_short_12"
+msgid "Dec"
+msgstr ""
+
+msgctxt "month_names_long_1"
+msgid "January"
+msgstr ""
+
+msgctxt "month_names_long_2"
+msgid "February"
+msgstr ""
+
+msgctxt "month_names_long_3"
+msgid "March"
+msgstr ""
+
+msgctxt "month_names_long_4"
+msgid "April"
+msgstr ""
+
+msgctxt "month_names_long_5"
+msgid "May"
+msgstr ""
+
+msgctxt "month_names_long_6"
+msgid "June"
+msgstr ""
+
+msgctxt "month_names_long_7"
+msgid "July"
+msgstr ""
+
+msgctxt "month_names_long_8"
+msgid "August"
+msgstr ""
+
+msgctxt "month_names_long_9"
+msgid "September"
+msgstr ""
+
+msgctxt "month_names_long_10"
+msgid "October"
+msgstr ""
+
+msgctxt "month_names_long_11"
+msgid "November"
+msgstr ""
+
+msgctxt "month_names_long_12"
+msgid "December"
+msgstr ""
+
+msgctxt "dialog_pdf_options_show_dialog"
+msgid "Show PDF options next time"
 msgstr ""
 

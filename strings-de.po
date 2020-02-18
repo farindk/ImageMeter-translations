@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-04-17 11:26+0200\n"
-"PO-Revision-Date: 2019-04-17 11:25+0200\n"
+"POT-Creation-Date: 2020-02-18 10:28+0100\n"
+"PO-Revision-Date: 2020-02-18 10:33+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : 1)\n"
+"Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #. generic strings
 msgctxt "upgraded_sub_title"
@@ -35,6 +36,10 @@ msgctxt "generic_dialog_title_warning"
 msgid "Warning"
 msgstr "Warnung"
 
+msgctxt "generic_dialog_title_note"
+msgid "Note"
+msgstr ""
+
 msgctxt "generic_lowercase_yes"
 msgid "yes"
 msgstr "ja"
@@ -47,9 +52,21 @@ msgctxt "generic_lowercase_unknown"
 msgid "unknown"
 msgstr "unbekannt"
 
-msgctxt "notification_error_title"
-msgid "ImageMeter error"
-msgstr "ImageMeter Fehler"
+msgctxt "generic_confirm_delete"
+msgid "Really delete"
+msgstr ""
+
+msgctxt "generic_cancel"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "generic_undo"
+msgid "Undo"
+msgstr ""
+
+msgctxt "notification_generic_error_title"
+msgid "Error"
+msgstr ""
 
 msgctxt "notification_bkg_rendering_title"
 msgid "Image rendering in progress…"
@@ -62,6 +79,60 @@ msgstr "Bildgenerierung"
 msgctxt "notification_syncer_channel_title"
 msgid "Cloud synchronization"
 msgstr "Synchronisierung mit Cloudspeicher"
+
+msgctxt "notification_import_title"
+msgid "Image import"
+msgstr ""
+
+#, c-format
+msgctxt "notification_import_content"
+msgid "%1d image left …"
+msgid_plural "%1d images left …"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "notification_channel_background_processing_title"
+msgid "Background processing"
+msgstr ""
+
+msgctxt "notification_channel_error_messages_title"
+msgid "Error messages"
+msgstr ""
+
+msgctxt "notification_error_importing_IMI_title"
+msgid "Error importing IMI file"
+msgstr ""
+
+msgctxt "notification_error_importing_IMF_title"
+msgid "Error importing IMF file"
+msgstr ""
+
+msgctxt "notification_error_importing_image_title"
+msgid "Error importing image"
+msgstr ""
+
+msgctxt "notification_error_importing_file_title"
+msgid "Error importing file"
+msgstr ""
+
+msgctxt "notification_save_to_gallery_title"
+msgid "Saving to gallery"
+msgstr ""
+
+msgctxt "notification_error_saving_to_gallery"
+msgid "Error while saving to gallery"
+msgstr ""
+
+#, c-format
+msgctxt "notification_save_to_gallery_content"
+msgid "%1d image left …"
+msgid_plural "%1d images left …"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "notification_error_no_permission_to_save_to_gallery"
+msgid "Cannot save to gallery because ImageMeter has no storage write permission."
+msgstr ""
 
 #. ========== folder/image-selection ==========
 #. menu
@@ -101,9 +172,14 @@ msgctxt "imageselect_menu_preferences"
 msgid "Settings"
 msgstr "Einstellungen"
 
+#, fuzzy
 msgctxt "imageselect_menu_rename"
-msgid "Rename image"
+msgid "Rename"
 msgstr "Bild umbenennen"
+
+msgctxt "imageselect_menu_duplicate"
+msgid "Duplicate"
+msgstr ""
 
 msgctxt "imageselect_menu_move_to_folder"
 msgid "Move to folder"
@@ -113,16 +189,31 @@ msgctxt "imageselect_menu_import_image"
 msgid "Import image"
 msgstr "Bild importieren"
 
+msgctxt "imageselect_menu_new_canvas"
+msgid "New canvas"
+msgstr ""
+
+#, fuzzy
 msgctxt "imageselect_menu_capture"
-msgid "Capture image"
+msgid "Camera capture"
 msgstr "Bild fotografieren"
 
+#, fuzzy
 msgctxt "imageselect_menu_delete_image"
-msgid "Delete image"
+msgid "Delete"
 msgstr "Bild löschen"
 
+msgctxt "imageselect_menu_undelete_image"
+msgid "Undelete"
+msgstr ""
+
+msgctxt "imageselect_menu_purge_image"
+msgid "Purge"
+msgstr ""
+
+#, fuzzy
 msgctxt "imageselect_menu_share_image"
-msgid "Share image"
+msgid "Share"
 msgstr "Bild versenden"
 
 msgctxt "imageselect_menu_save_to_external_memory"
@@ -133,8 +224,9 @@ msgctxt "imageselect_menu_bluetooth"
 msgid "Bluetooth connect"
 msgstr "Bluetooth verbinden"
 
+#, fuzzy
 msgctxt "imageselect_menu_print"
-msgid "Print image"
+msgid "Print"
 msgstr "Bild drucken"
 
 msgctxt "imageselect_menu_image_info"
@@ -173,13 +265,84 @@ msgctxt "imageselect_menu_sync_all_folders"
 msgid "Sync all folders"
 msgstr "Synchronisiere alle Verzeichnisse"
 
+#. image-library
+msgctxt "imagelibrary_image_deleted"
+msgid "Image deleted"
+msgstr ""
+
+msgctxt "imagelibrary_folder_deleted"
+msgid "Folder deleted"
+msgstr ""
+
+msgctxt "imagelibrary_breadcrumb_root_folder"
+msgid "Root"
+msgstr ""
+
+msgctxt "imagelibrary_search_hint"
+msgid "Search images"
+msgstr ""
+
+msgctxt "sortingorder_alpha_ascending"
+msgid "Alphabetical"
+msgstr ""
+
+msgctxt "sortingorder_alpha_descending"
+msgid "Alphabetical, reverse"
+msgstr ""
+
+msgctxt "sortingorder_time_ascending"
+msgid "Time, earlierst on top"
+msgstr ""
+
+msgctxt "sortingorder_time_descending"
+msgid "Time, latest on top"
+msgstr ""
+
+msgctxt "sortingorder_number_ascending"
+msgid "Number, ascending"
+msgstr ""
+
+msgctxt "sortingorder_number_descending"
+msgid "Number, descending"
+msgstr ""
+
+#. dialog: numbering
+msgctxt "imagelibrary_dialog_numbering_title"
+msgid "Image numbers"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_numbering_enable_auto_numbering"
+msgid "Enable auto-numbering"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_numbering_start"
+msgid "Start"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_numbering_increment"
+msgid "Increment"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_numbering_renumber_title"
+msgid "Renumber existing images"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_numbering_renumber_old_number_order"
+msgid "Keep order of old numbers"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_numbering_renumber_all"
+msgid "Renumber"
+msgstr ""
+
 #. dialog: rename folder
 msgctxt "foldername_dialog_folder_name"
 msgid "Folder name"
 msgstr "Ordnername"
 
+#, fuzzy
 msgctxt "foldername_dialog_folder_name_hint"
-msgid "folder name"
+msgid "Enter folder name"
 msgstr "Ordnername"
 
 msgctxt "foldername_dialog_notes"
@@ -260,8 +423,7 @@ msgstr "Pro"
 msgctxt "imageselect_dialog_about_tutorial_link"
 msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
 msgstr ""
-"<a "
-"href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Einführungsvideo</a>"
+"<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Einführungsvideo</a>"
 
 msgctxt "imageselect_dialog_about_documentation_link"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
@@ -277,8 +439,7 @@ msgstr ""
 
 msgctxt "imageselect_dialog_about_privacy_policy_link"
 msgid ""
-"<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
-"policy</a>"
+"<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy policy</a>"
 msgstr ""
 "<a href=\"https://www.iubenda.com/privacy-"
 "policy/43586350\">Datenschutzerklärung</a>"
@@ -319,8 +480,9 @@ msgctxt "default_image_name_prefix_captured"
 msgid "captured on (OBSOLET)"
 msgstr "aufgenommen am"
 
+#, fuzzy
 msgctxt "default_image_name_prefix_with_date"
-msgid "image from [dd MMM yyyy]"
+msgid "image from {M} {d}, {yyyy}"
 msgstr "Bild vom [dd. MMM yyyy]"
 
 #. image import from free app
@@ -328,40 +490,39 @@ msgctxt "imageselect_result_import_free_app_finished"
 msgid ""
 "Images from free app are now imported.\n"
 "\n"
-"It may be good to delete images from the free app now (please check that "
-"there was no import error) to save memory and to avoid overwriting your "
-"changes by an accidental reimport."
+"It may be good to delete images from the free app now (please check that there "
+"was no import error) to save memory and to avoid overwriting your changes by an "
+"accidental reimport."
 msgstr ""
 "Bilder aus der freien App sind jetzt importiert.\n"
 "\n"
-"Es mag sinnvoll sein, die Bilder nun in der freien App zu löschen (bitte "
-"vorher sicherstellen, dass es keine Fehler beim Import gab). Dies spart "
-"Speicherplatz und verhindert, dass Ihre Änderungen durch einen "
-"versehentlichen Neuimport überschrieben werden."
+"Es mag sinnvoll sein, die Bilder nun in der freien App zu löschen (bitte vorher "
+"sicherstellen, dass es keine Fehler beim Import gab). Dies spart Speicherplatz "
+"und verhindert, dass Ihre Änderungen durch einen versehentlichen Neuimport "
+"überschrieben werden."
 
 msgctxt "imageselect_error_howto_import_free_app"
 msgid ""
 "Could not yet import images.\n"
 "\n"
-"In order to import the images of the free app, both apps must be at least"
-" at version v1.48. In both apps, the images have to be converted to "
-"filesystem storage (you find this action in the same menu you found the "
-"import item)."
+"In order to import the images of the free app, both apps must be at least at "
+"version v1.48. In both apps, the images have to be converted to filesystem "
+"storage (you find this action in the same menu you found the import item)."
 msgstr ""
 "Konnte die Bilder noch nicht importieren.\n"
 "\n"
-"Um die Bilder der freien App importieren zu können, müssen beide Apps "
-"mindestens in Version 1.48 vorliegen. In beiden Apps müssen außerdem die "
-"Bilder zur Speicherung im Dateisystem konvertiert worde sein (Sie finden "
-"dies im gleichen Menü wo sich auch dieser Punkt zum Import befindet)."
+"Um die Bilder der freien App importieren zu können, müssen beide Apps mindestens "
+"in Version 1.48 vorliegen. In beiden Apps müssen außerdem die Bilder zur "
+"Speicherung im Dateisystem konvertiert worde sein (Sie finden dies im gleichen "
+"Menü wo sich auch dieser Punkt zum Import befindet)."
 
 msgctxt "imageselect_error_import_free_app_failed"
 msgid ""
-"Image import from free app has failed or is incomplete. Maybe your memory"
-" is full?"
+"Image import from free app has failed or is incomplete. Maybe your memory is "
+"full?"
 msgstr ""
-"Import der Bilder aus der freien App ist fehlgeschlagen oder "
-"unvollständig (Speicher voll?)."
+"Import der Bilder aus der freien App ist fehlgeschlagen oder unvollständig "
+"(Speicher voll?)."
 
 #. image export
 msgctxt "export_dialog_saving_images_to_external_storage"
@@ -424,18 +585,61 @@ msgctxt "export_dialog_overwrite_extpics_folder_cancel"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#. dialogs
-msgctxt "imageselect_dialog_image_name_image_title"
-msgid "Image title"
+msgctxt "dialog_image_export_options_show_dialog"
+msgid "Show export options next time"
+msgstr "Exportoptionen nächstes Mal wieder anzeigen"
+
+msgctxt "dialog_image_export_image_format"
+msgid "Image format"
+msgstr "Bildformat"
+
+msgctxt "dialog_image_export_file_format"
+msgid "File format"
+msgstr "Dateiformat"
+
+msgctxt "dialog_image_export_overlays"
+msgid "Overlays"
+msgstr "Zusatzinformationen"
+
+msgctxt "dialog_image_export_overlay_show_image_title"
+msgid "Show image title"
 msgstr "Bildname"
 
-msgctxt "imageselect_dialog_image_name_capture_date"
-msgid "Capture date:"
-msgstr "Aufnahmedatum:"
+msgctxt "dialog_image_export_size_original_image_size"
+msgid "Original image size"
+msgstr "Größe wie das Originalbild"
 
+msgctxt "dialog_image_export_size_custom_size"
+msgid "Custom size"
+msgstr "Eigene Größe"
+
+msgctxt "dialog_image_export_image_quality"
+msgid "Image quality"
+msgstr "Bildqualität"
+
+msgctxt "dialog_image_export_image_size"
+msgid "Image size"
+msgstr "Bildgröße"
+
+#. dialogs
+#, fuzzy
+msgctxt "imageselect_dialog_image_name_image_title"
+msgid "Image name"
+msgstr "Bildname"
+
+msgctxt "imageselect_dialog_image_name_title_hint"
+msgid "Enter image name"
+msgstr ""
+
+#. string name="imageselect_dialog_image_name_capture_date">Capture
+#. date:</string
 msgctxt "imageselect_dialog_image_name_notes"
 msgid "Notes"
 msgstr "Notizen"
+
+msgctxt "imageselect_dialog_image_name_number"
+msgid "Number"
+msgstr ""
 
 #. Dialog: image import
 msgctxt "dialog_data_import_progress_message"
@@ -471,11 +675,11 @@ msgstr "Import eines Ordners"
 #, c-format
 msgctxt "dialog_duplicate_folder_import_message"
 msgid ""
-"Imported folder '%1$s' already exists. %3$d images should be imported, "
-"out of which %2$d already exist locally."
+"Imported folder '%1$s' already exists. %3$d images should be imported, out of "
+"which %2$d already exist locally."
 msgstr ""
-"Der Ordner '%1$s' existiert bereits. %3$d Bilder sollen importiert "
-"werden. Davon existieren %2$d schon lokal."
+"Der Ordner '%1$s' existiert bereits. %3$d Bilder sollen importiert werden. Davon "
+"existieren %2$d schon lokal."
 
 #, c-format
 msgctxt "dialog_duplicate_folder_no_duplicate_images_import_message"
@@ -505,17 +709,18 @@ msgstr "Cloud-Login benötigt"
 
 msgctxt "dialog_cloud_login_required_text"
 msgid ""
-"You are currently not logged into any cloud service. Please connect to "
-"your account in the preferences."
+"You are currently not logged into any cloud service. Please connect to your "
+"account in the preferences."
 msgstr ""
-"Sie sind momentan in keinen Cloudservice eingeloggt. Bitte verknüpfen Sie"
-" Ihren Account in den Einstellungen."
+"Sie sind momentan in keinen Cloudservice eingeloggt. Bitte verknüpfen Sie Ihren "
+"Account in den Einstellungen."
 
 msgctxt "dialog_cloud_login_open_prefs_button"
 msgid "Open cloud preferences"
 msgstr "Cloudeinstellungen öffnen"
 
-#. errors
+#. Errors. TODO: check all errors in this section whether they are still
+#. required.
 msgctxt "imageselect_error_imported_file_is_not_an_image"
 msgid "Imported file is not an image"
 msgstr "Die importierte Datei ist kein Bild!"
@@ -535,8 +740,7 @@ msgstr "Die Bilder mit den beschädigten Daten werden nicht exportiert."
 #, c-format
 msgctxt "imageselect_error_cannot_edit_missing_image"
 msgid ""
-"The image file is missing. Unfortunately, you cannot edit the image "
-"without.\n"
+"The image file is missing. Unfortunately, you cannot edit the image without.\n"
 "\n"
 "Expected image filename: %1$s."
 msgstr ""
@@ -547,73 +751,72 @@ msgstr ""
 #, c-format
 msgctxt "imageselect_error_image_version_more_recent_open_editor_anyways"
 msgid ""
-"The file version of this image (%1$d) is more recent than the maximum "
-"version supported by the ImageMeter version installed (%2$d). Opening the"
-" file may result in lost data or wrong annotations. You should use a "
-"recent version of ImageMeter to open this file.\n"
+"The file version of this image (%1$d) is more recent than the maximum version "
+"supported by the ImageMeter version installed (%2$d). Opening the file may "
+"result in lost data or wrong annotations. You should use a recent version of "
+"ImageMeter to open this file.\n"
 "\n"
 "Do you still want to open it?"
 msgstr ""
-"Die Dateiversion dieses Bildes (%1$d) ist neuer als die maximale Version,"
-" die von der installierten Version von ImageMeter unterstützt wird "
-"(%2$d). Wird diese Datei geöffnet, können dadurch Daten verloren gehen "
-"oder fehlerhaft angezeigt werden. Sie sollten eine aktuellere Version von"
-" ImageMeter verwenden, um dieses Bild zu öffnen.\n"
+"Die Dateiversion dieses Bildes (%1$d) ist neuer als die maximale Version, die "
+"von der installierten Version von ImageMeter unterstützt wird (%2$d). Wird diese "
+"Datei geöffnet, können dadurch Daten verloren gehen oder fehlerhaft angezeigt "
+"werden. Sie sollten eine aktuellere Version von ImageMeter verwenden, um dieses "
+"Bild zu öffnen.\n"
 "\n"
 "Wollen Sie das Bild trotzdem öffnen?"
 
 msgctxt "imageselect_error_metadata_format_unknown"
 msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
 msgstr ""
-"Bildannotation (.imm-Datei) kann nicht gelesen werden, da das Format "
-"unbekannt ist."
+"Bildannotation (.imm-Datei) kann nicht gelesen werden, da das Format unbekannt "
+"ist."
 
 msgctxt "imageselect_error_cannot_modify_readonly_folder"
 msgid "This is an essential system folder, you cannot remove or rename it."
 msgstr ""
-"Dies ist ein wichtiger Systemordner, der nicht gelöscht oder umbenannt "
-"werden kann."
+"Dies ist ein wichtiger Systemordner, der nicht gelöscht oder umbenannt werden "
+"kann."
 
 msgctxt "imageselect_error_cannot_move_bundle_to_folder"
 msgid ""
-"Cannot move image to new folder (maybe an image with the same name "
-"already exists)."
+"Cannot move image to new folder (maybe an image with the same name already "
+"exists)."
 msgstr ""
-"Kann das Bild nicht in den Ordner verschieben (evtl. existiert dort schon"
-" ein Bild mit gleichem Namen)."
+"Kann das Bild nicht in den Ordner verschieben (evtl. existiert dort schon ein "
+"Bild mit gleichem Namen)."
 
 msgctxt "imageselect_error_external_memory_unavailable"
 msgid ""
-"External memory (where your app-data is stored) is not available. Most "
-"probably, your device stores this data on an external SD card which is "
-"currently not available. If this is not the problem in your case, you may"
-" contact imagemeter@gmail.com."
+"External memory (where your app-data is stored) is not available. Most probably, "
+"your device stores this data on an external SD card which is currently not "
+"available. If this is not the problem in your case, you may contact "
+"imagemeter@gmail.com."
 msgstr ""
-"Externer Speicher (in dem die App-Daten abgelegt werden) ist nicht "
-"verfügbar. Wahrscheinlich speichert Ihr Gerät diese Daten auf einer "
-"externen SD-Karte, welche im Moment aber nicht eingelegt ist. Sollte das "
-"nicht das Problem sein, können Sie sich an imagemeter@gmail.com wenden."
+"Externer Speicher (in dem die App-Daten abgelegt werden) ist nicht verfügbar. "
+"Wahrscheinlich speichert Ihr Gerät diese Daten auf einer externen SD-Karte, "
+"welche im Moment aber nicht eingelegt ist. Sollte das nicht das Problem sein, "
+"können Sie sich an imagemeter@gmail.com wenden."
 
 #, c-format
 msgctxt "imageselect_error_folder_cannot_create"
 msgid ""
-"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
-"the media (e.g. SD-card) is mounted, this directory exists and is "
-"writable."
+"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure the "
+"media (e.g. SD-card) is mounted, this directory exists and is writable."
 msgstr ""
-"Kann das Verzeichnis '%1$s' nicht in dem Verzeichnis '%2$s' erstellen. "
-"Stellen Sie sicher, dass evtl. die Speicherkarte eingelegt ist, dieses "
-"Verzeichnis existiert und beschreibbar ist."
+"Kann das Verzeichnis '%1$s' nicht in dem Verzeichnis '%2$s' erstellen. Stellen "
+"Sie sicher, dass evtl. die Speicherkarte eingelegt ist, dieses Verzeichnis "
+"existiert und beschreibbar ist."
 
 #, c-format
 msgctxt "imageselect_error_cannot_create_databundle_on_filesystem"
 msgid ""
-"Cannot create filesystem folder '%1$s' for the image data. Make sure the "
-"media (e.g. SD-card) is mounted, this directory exists and is writable."
+"Cannot create filesystem folder '%1$s' for the image data. Make sure the media "
+"(e.g. SD-card) is mounted, this directory exists and is writable."
 msgstr ""
-"Kann das Verzeichnis '%1$s' für die Bilddaten nicht erstellen. Stellen "
-"Sie sicher, dass das Medium (z.B. SD-Karte) eingelegt ist, dieses "
-"Verzeichnis existiert und beschreibbar ist."
+"Kann das Verzeichnis '%1$s' für die Bilddaten nicht erstellen. Stellen Sie "
+"sicher, dass das Medium (z.B. SD-Karte) eingelegt ist, dieses Verzeichnis "
+"existiert und beschreibbar ist."
 
 #, c-format
 msgctxt "imageselect_error_cannot_access_external_data"
@@ -631,19 +834,9 @@ msgid "Cannot rename folder to '%1$s' because that already exists."
 msgstr "Kann Verzeichnis nicht nach '%1$s' umbenennen, da es schon existiert."
 
 #, c-format
-msgctxt "imageselect_error_folder_does_not_exist"
-msgid "Folder '%1$s' does not exist anymore."
-msgstr "Verzeichnis '%1$s' existiert nicht mehr."
-
-#, c-format
 msgctxt "imageselect_error_folder_does_not_exist_detailed"
 msgid "Folder '%1$s' does not exist anymore (expected location '%2$s')."
 msgstr "Verzeichnis '%1$s' existiert nicht (erwarteter Ort: '%2$s')."
-
-#, c-format
-msgctxt "imageselect_error_folder_cannot_delete"
-msgid "Cannot delete folder '%1$s'."
-msgstr "Kann Verzeichnis '%1$s' nicht löschen."
 
 #, c-format
 msgctxt "imageselect_error_cannot_write_data_bundle"
@@ -656,22 +849,17 @@ msgid "Cannot write data for image '%1$s' (at location '%2$s')."
 msgstr "Kann die Daten für Bild '%1$s' nicht schreiben (Ort: '%2$s')."
 
 #, c-format
-msgctxt "imageselect_error_cannot_rename_folder"
-msgid "Cannot rename folder '%1$s' to '%2$s'."
-msgstr "Kann Verzeichnis '%1$s' nicht in '%2$s' umbenennen."
-
-#, c-format
 msgctxt "imageselect_error_cannot_delete_data_bundle"
 msgid "Cannot delete image '%1$s'."
 msgstr "Kann Bild '%1$s' nicht löschen."
 
 msgctxt "imageselect_error_internal_toast"
 msgid ""
-"An internal error happened. Please take a screenshot of the notification "
-"above and send this to me. Thank you!"
+"An internal error happened. Please take a screenshot of the notification above "
+"and send this to me. Thank you!"
 msgstr ""
-"Ein interner Fehler ist aufgetreten. Bitte machen Sie einen Screenshot "
-"von der obigen Benachrichtigung und schicken ihn an mich. Danke!"
+"Ein interner Fehler ist aufgetreten. Bitte machen Sie einen Screenshot von der "
+"obigen Benachrichtigung und schicken ihn an mich. Danke!"
 
 msgctxt "imageselect_error_url_of_imported_file_not_found"
 msgid "Image to be imported cannot be found."
@@ -679,15 +867,19 @@ msgstr "Das zu importierende Bild kann nicht gefunden werden."
 
 msgctxt "imageselect_error_cannot_capture_with_camera"
 msgid ""
-"Cannot start external app to capture camera image. Either the device does"
-" not have a camera or your camera app does not respond to a capture "
-"request. You can still import images from the gallery or you can try to "
-"install an alternative camera app."
+"Cannot start external app to capture camera image. Either the device does not "
+"have a camera or your camera app does not respond to a capture request. You can "
+"still import images from the gallery or you can try to install an alternative "
+"camera app."
 msgstr ""
-"Kann die externe Kamera-App nicht starten. Entweder hat das Gerät keine "
-"Kamera, oder die Kamera-App reagiert nicht auf die Aufforderung ein Foto "
-"zu machen. Sie können alternativ Bilder aus der Gallerie importieren oder"
-" eine andere Kamera-App installieren."
+"Kann die externe Kamera-App nicht starten. Entweder hat das Gerät keine Kamera, "
+"oder die Kamera-App reagiert nicht auf die Aufforderung ein Foto zu machen. Sie "
+"können alternativ Bilder aus der Gallerie importieren oder eine andere Kamera-"
+"App installieren."
+
+msgctxt "imageselect_error_no_image_import_activity"
+msgid "There is no app on the device from which we can import images."
+msgstr ""
 
 #, c-format
 msgctxt "error_cannot_save_annotated_image"
@@ -705,21 +897,11 @@ msgid "Cannot access files in folder '%1$s'."
 msgstr "Auf die Dateien im Verzeichnis '%1$s' kann nicht zugegriffen werden."
 
 #, c-format
-msgctxt "error_cannot_rename_file"
-msgid "Cannot rename file '%1$s' to '%2$s'."
-msgstr "Die Datei '%1$s' kann nicht nach '%2$s' umbenannt werden."
-
-#, c-format
-msgctxt "error_cannot_delete_file"
-msgid "Cannot delete file '%1$s'."
-msgstr "Kann die Datei '%1$s' nicht löschen."
-
-#, c-format
 msgctxt "error_target_folder_contains_bundle_with_same_id"
 msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
 msgstr ""
-"Verzeichnis '%1$s' enthält das Bild '%2$s', welches die gleiche ID wie "
-"das Bild '%3$s' hat."
+"Verzeichnis '%1$s' enthält das Bild '%2$s', welches die gleiche ID wie das Bild "
+"'%3$s' hat."
 
 msgctxt "imageselect_dummyname_image_with_corrupted_imm_file"
 msgid "Corrupt .imm file"
@@ -744,11 +926,11 @@ msgstr "Konnte die Datei nicht in externen Speicher abspeichern."
 
 msgctxt "storage_error_external_storage_could_not_get_permission_to_write_images"
 msgid ""
-"Could not get permission to write to external storage. No files have been"
-" written."
+"Could not get permission to write to external storage. No files have been "
+"written."
 msgstr ""
-"Konnte die Berechtigung auf den externen Speicher zu schreiben nicht "
-"erhalten. Bilder wurden nicht gespeichert."
+"Konnte die Berechtigung auf den externen Speicher zu schreiben nicht erhalten. "
+"Bilder wurden nicht gespeichert."
 
 #, c-format
 msgctxt "storage_error_cannot_create_directory_on_external_storage"
@@ -767,19 +949,19 @@ msgstr "Daten im Bildverzeichnis '%1$s' sind beschädigt."
 #, c-format
 msgctxt "storage_error_metadata_unknown_format"
 msgid ""
-"Metadata file (.imm) for image '%1$s' cannot be read, because it's format"
-" is unknown."
+"Metadata file (.imm) for image '%1$s' cannot be read, because it's format is "
+"unknown."
 msgstr ""
-"Bildannotation (.imm-Datei) von Bild '%1$s' kann nicht gelesen werden, da"
-" das Format unbekannt ist."
+"Bildannotation (.imm-Datei) von Bild '%1$s' kann nicht gelesen werden, da das "
+"Format unbekannt ist."
 
 msgctxt "storage_error_no_permission_to_read_image_to_be_imported"
 msgid ""
-"Cannot import image because the permission to read external storage has "
-"not been granted."
+"Cannot import image because the permission to read external storage has not been "
+"granted."
 msgstr ""
-"Kann das Bild nicht importieren, da die Leseberechtigung dazu nicht "
-"erteilt wurde."
+"Kann das Bild nicht importieren, da die Leseberechtigung dazu nicht erteilt "
+"wurde."
 
 #, c-format
 msgctxt "storage_error_cannot_read_ifd_file"
@@ -796,6 +978,11 @@ msgctxt "error_cannot_open_file_is_folder"
 msgid "Cannot open file '%1$s' because it is a folder."
 msgstr "Die Datei '%1$s' kann nicht gelesen werden, da es ein Verzeichnis ist."
 
+#, c-format
+msgctxt "error_cannot_write_file"
+msgid "Cannot write to file '%1$s'."
+msgstr ""
+
 msgctxt "storage_error_cannot_load_image_file_from_remote"
 msgid "Cannot load the image file from cloud storage."
 msgstr "Die Bilddatei kann nicht vom Cloudspeicher gelesen werden."
@@ -804,10 +991,309 @@ msgctxt "storage_note_pulling_image_file_from_remote"
 msgid "Downloading image file from cloud storage."
 msgstr "Bilddatei wird vom Cloudspeicher runtergeladen."
 
+#. filesystem errors
+#, fuzzy
+msgctxt "error_cannot_delete_file"
+msgid "Cannot delete file '{}'."
+msgstr "Kann die Datei '%1$s' nicht löschen."
+
+msgctxt "imerror_files_cannot_read_file"
+msgid "Cannot read file '{}'."
+msgstr ""
+
+msgctxt "imerror_files_cannot_write_file"
+msgid "Cannot write file '{}'."
+msgstr ""
+
+#, fuzzy
+msgctxt "error_cannot_rename_file"
+msgid "Cannot rename file '{0}' to '{1}'."
+msgstr "Die Datei '%1$s' kann nicht nach '%2$s' umbenannt werden."
+
+msgctxt "imerror_files_file_does_not_exist"
+msgid "File does not exist: \"{}\"."
+msgstr ""
+
+msgctxt "imerror_files_file_cannot_be_opened"
+msgid "Cannot open file \"{}\"."
+msgstr ""
+
+msgctxt "imerror_files_cannot_create_directory"
+msgid "Cannot create directory \"{}\"."
+msgstr ""
+
+#, c-format
+msgctxt "imerror_files_directory_does_not_exist"
+msgid "Directory '%1$s' does not exist."
+msgstr ""
+
+#, fuzzy
+msgctxt "imageselect_error_cannot_rename_folder"
+msgid "Cannot rename folder '{0}' to '{1}'."
+msgstr "Kann Verzeichnis '%1$s' nicht in '%2$s' umbenennen."
+
+#, fuzzy
+msgctxt "imageselect_error_folder_cannot_delete"
+msgid "Cannot delete folder '{}'."
+msgstr "Kann Verzeichnis '%1$s' nicht löschen."
+
+msgctxt "imerror_files_cannot_read_directory"
+msgid "Cannot read directory '{}'."
+msgstr ""
+
+msgctxt "imerror_files_cannot_copy_directory"
+msgid "Cannot copy directory '{}'."
+msgstr ""
+
+msgctxt "imerror_files_errno"
+msgid "OS error: '{}'."
+msgstr ""
+
+msgctxt "imerror_files_cannot_generate_unique_filename"
+msgid "Cannot generate unique filename: '{}'."
+msgstr ""
+
+msgctxt "error_files_locked"
+msgid "Files are currently in use."
+msgstr ""
+
+#. used in PrefsStorageDirectory
+msgctxt "imerror_cannot_lock_file_read"
+msgid "Cannot read file '{}' because it is currently being modified."
+msgstr ""
+
+msgctxt "imerror_cannot_lock_file_write"
+msgid "Cannot modify file '{}' because it is currently in use."
+msgstr ""
+
+#. image library errors
+msgctxt "imerror_library_no_library_directory_defined"
+msgid "No image library directory defined."
+msgstr ""
+
+msgctxt "imerror_library_cannot_purge"
+msgid "Cannot purge deleted images."
+msgstr ""
+
+#. entity level errors
+msgctxt "imerror_projectfolder_cannot_create"
+msgid "Cannot create folder '{}'."
+msgstr ""
+
+msgctxt "imerror_projectfolder_cannot_write_ifd"
+msgid "Cannot write IFD file for folder '{}'."
+msgstr ""
+
+msgctxt "imerror_projectfolder_cannot_load_folder"
+msgid "Cannot load folder '{}'."
+msgstr ""
+
+msgctxt "imerror_projectfolder_multiple_ifd_files"
+msgid "More than one IFD file found."
+msgstr ""
+
+msgctxt "imerror_projectfolder_ifd_parse_error"
+msgid "IFD file parse error."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_load_data_bundle"
+msgid "Cannot load image '{}'."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_create"
+msgid "Cannot create new image '{}'."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_write_imm"
+msgid "Cannot write IMM file for image '{}'."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_delete"
+msgid "Cannot delete image '{}'."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_rename_folder"
+msgid "Cannot rename directory of image '{}'."
+msgstr ""
+
+msgctxt "imerror_databundle_multiple_imm_files"
+msgid "More than one IMM file found."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_open"
+msgid "Cannot open image \"{}\"."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_read_imm_file"
+msgid "Cannot read IMM file."
+msgstr ""
+
+msgctxt "imerror_databundle_cannot_get_content_area"
+msgid "Unknown content area."
+msgstr ""
+
+msgctxt "imerror_databundle_imm_parse_error"
+msgid "IMM file parse error ({})."
+msgstr ""
+
+msgctxt "imerror_entity_cannot_move"
+msgid "Cannot move '{}' to new directory."
+msgstr ""
+
+msgctxt "imerror_entity_numbering_invalid_number"
+msgid "Invalid number: '{}'."
+msgstr ""
+
+#. logic level errors
+msgctxt "imerror_delete_logic_cannot_delete"
+msgid "Cannot delete folder '{}'."
+msgstr ""
+
+msgctxt "imerror_delete_logic_cannot_mark_as_deleted"
+msgid "Cannot mark folder '{}' as deleted."
+msgstr ""
+
+#. import/export errors
+msgctxt "imerror_unknown_file_format"
+msgid "File '{}' has unknown format."
+msgstr ""
+
+msgctxt "imerror_cannot_create_imi_file"
+msgid "Cannot create IMI file '{}'."
+msgstr ""
+
+msgctxt "imerror_cannot_export_image"
+msgid "Cannot export image '{}'."
+msgstr ""
+
+msgctxt "imerror_imf_corrupted_file"
+msgid "Corrupted IMF file."
+msgstr ""
+
+msgctxt "imerror_ifd_parse_error"
+msgid "IFD file parse error."
+msgstr ""
+
+msgctxt "imerror_imi_cannot_open"
+msgid "Cannot open IMI file '{}'."
+msgstr ""
+
+msgctxt "imerror_imf_cannot_read_zip"
+msgid "Corrupted ZIP file \"{}\"."
+msgstr ""
+
+msgctxt "imerror_zip_error"
+msgid "ZIP error: {}"
+msgstr ""
+
+msgctxt "imerror_zip_read_error"
+msgid "Error reading ZIP file."
+msgstr ""
+
+msgctxt "imerror_cannot_generate_pdf"
+msgid "Cannot generate PDF"
+msgstr ""
+
+msgctxt "imerror_libharu"
+msgid "LibHARU error: \"{}\""
+msgstr ""
+
+#. image reader/writer errors
+msgctxt "imerror_imagereader_cannot_read_image"
+msgid "Cannot read image file."
+msgstr ""
+
+msgctxt "imerror_imagereader_reader_error"
+msgid "Image reader error."
+msgstr ""
+
+msgctxt "imerror_imagereader_corrupted_image"
+msgid "Corrupted image file."
+msgstr ""
+
+msgctxt "imerror_imagereader_unsupported_format"
+msgid "Unsupported image format."
+msgstr ""
+
+msgctxt "imerror_libjpeg_error"
+msgid "LibJPEG error: \"{}\"."
+msgstr ""
+
+msgctxt "imerror_cannot_read_texture"
+msgid "Cannot read texture '{}'."
+msgstr ""
+
+#. rendering errors
+msgctxt "imerror_cannot_render_image"
+msgid "Cannot render image \"{}\"."
+msgstr ""
+
+msgctxt "imerror_opengl"
+msgid "OpenGL error: \"{}\"."
+msgstr ""
+
 #. other errors
 msgctxt "error_pro_version_required_title"
 msgid "Pro version required"
 msgstr "Pro-Version benötigt"
+
+msgctxt "imerror_out_of_memory"
+msgid "Out of memory."
+msgstr ""
+
+msgctxt "imerror_out_of_memory_with_size"
+msgid "Out of memory (cannot allocate {} bytes)."
+msgstr ""
+
+#. string name="imerror_databundle_cannot_find_imm_file">Cannot find the .imm
+#. file.</string
+msgctxt "imerror_editcore_cannot_load_auxiliary_data"
+msgid "Cannot load auxiliary data."
+msgstr ""
+
+msgctxt "imerror_editcore_cannot_purge_unused_auxiliary_data"
+msgid "Cannot delete unused auxiliary data files."
+msgstr ""
+
+msgctxt "imerror_gtext_cannot_add_detail_image"
+msgid "Cannot add the detail image \"{}\"."
+msgstr ""
+
+msgctxt "imerror_gtext_cannot_add_audio_recording"
+msgid "Cannot add audio recording \"{}\"."
+msgstr ""
+
+msgctxt "imerror_editcore_cannot_read_background_image"
+msgid "Cannot read photo."
+msgstr ""
+
+msgctxt "imerror_imagesetting_cannot_load"
+msgid "Cannot load image settings."
+msgstr ""
+
+msgctxt "imerror_imagesetting_cannot_save"
+msgid "Cannot save image settings."
+msgstr ""
+
+msgctxt "imerror_app_preferences_cannot_set_data_root_directory"
+msgid "Cannot set the data root directory."
+msgstr ""
+
+msgctxt "imerror_app_preferences_cannot_create_data_root_directory"
+msgid "Cannot create the data root directory."
+msgstr ""
+
+msgctxt "imerror_app_preferences_no_root_defined"
+msgid "No data root directory defined."
+msgstr ""
+
+msgctxt "imerror_string_template_unknown_field"
+msgid "Unknown field '{}' in string template."
+msgstr ""
+
+msgctxt "imerror_string_template_syntax_error"
+msgid "Syntax error in string template '{}'."
+msgstr ""
 
 #. cloud storage
 msgctxt "pref_cloud_storage_server_none"
@@ -884,17 +1370,17 @@ msgstr "Vorsichtigkeit:"
 
 msgctxt "cloud_storage_notice_text"
 msgid ""
-"Note: cloud storage is still in beta testing. You can currently only sync"
-" the 'inbox' folder.\n"
+"Note: cloud storage is still in beta testing. You can currently only sync the "
+"'inbox' folder.\n"
 "\n"
-"See the cloud storage <a "
-"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>."
+"See the cloud storage <a href=\"https://www.imagemeter.com/manual/storage/cloud"
+"\">documentation</a>."
 msgstr ""
-"Anmerkung: Cloudspeicherung ist immer noch im Betatest. Sie können im "
-"Moment nur das 'Inbox' Verzeichnis synchronisieren.\n"
+"Anmerkung: Cloudspeicherung ist immer noch im Betatest. Sie können im Moment nur "
+"das 'Inbox' Verzeichnis synchronisieren.\n"
 "\n"
-"Weitere Informationen finden Sie in der <a "
-"href=\"https://www.imagemeter.com/manual/storage/cloud\">Dokumentation</a>."
+"Weitere Informationen finden Sie in der <a href=\"https://www.imagemeter.com/"
+"manual/storage/cloud\">Dokumentation</a>."
 
 msgctxt "cloud_storage_account"
 msgid "Account owner:"
@@ -1070,8 +1556,8 @@ msgstr "Datei '%1$s' kann nicht erzeugt werden, da sie schon existiert."
 msgctxt "error_cloud_cannot_create_remote_file_folder_exists"
 msgid "Cannot create file '%1$s' because there is a folder with this name."
 msgstr ""
-"Datei '%1$s' kann nicht erzeugt werden, da es ein Verzeichnis mit "
-"gleichem Namen gibt."
+"Datei '%1$s' kann nicht erzeugt werden, da es ein Verzeichnis mit gleichem Namen "
+"gibt."
 
 #, c-format
 msgctxt "error_cloud_cannot_create_remote_file_server_error"
@@ -1092,8 +1578,8 @@ msgstr "Verzeichnis '%1$s' kann nicht erstellt werden, da es schon existiert."
 msgctxt "error_cloud_cannot_create_remote_folder_file_exists"
 msgid "Cannot create folder '%1$s' because there is a file with this name."
 msgstr ""
-"Verzeichnis '%1$s' kann nicht erstellt werden, da es eine Datei mit "
-"diesem Namen gibt."
+"Verzeichnis '%1$s' kann nicht erstellt werden, da es eine Datei mit diesem Namen "
+"gibt."
 
 #, c-format
 msgctxt "error_cloud_cannot_download_file_download_error"
@@ -1114,22 +1600,20 @@ msgstr "Metadaten der Datei '%1$s' können nicht vom Server geladen werden."
 msgctxt "error_cloud_cannot_open_remote_file_does_not_exist"
 msgid "Cannot open file '%1$s' on server because it does not exist."
 msgstr ""
-"Datei '%1$s' auf dem Server kann nicht geöffnet werden, da sie nicht "
-"existiert."
+"Datei '%1$s' auf dem Server kann nicht geöffnet werden, da sie nicht existiert."
 
 #, c-format
 msgctxt "error_cloud_cannot_open_remote_file_is_folder"
 msgid "Cannot open file '%1$s' on server because it is a folder."
 msgstr ""
-"Datei '%1$s' auf dem Server kann nicht gelesen werden, da es ein "
-"Verzeichnis ist."
+"Datei '%1$s' auf dem Server kann nicht gelesen werden, da es ein Verzeichnis ist."
 
 #, c-format
 msgctxt "error_cloud_cannot_open_remote_folder_does_not_exist"
 msgid "Cannot open folder '%1$s' on server because it does not exist."
 msgstr ""
-"Verzeichnis '%1$s' auf dem Server kann nicht geöffnet werden, da es nicht"
-" existiert."
+"Verzeichnis '%1$s' auf dem Server kann nicht geöffnet werden, da es nicht "
+"existiert."
 
 #, c-format
 msgctxt "error_cloud_cannot_open_remote_folder_is_no_folder"
@@ -1152,8 +1636,7 @@ msgstr "Verzeichnis '%1$s' auf dem Server kann nicht nach '%2$s' umbenannt werde
 msgctxt "error_cloud_remote_databundle_incomplete"
 msgid "Cannot load image '%1$s' because remote file '%2$s' is missing."
 msgstr ""
-"Bild '%1$s' kann nicht geladen werden, da die Datei '%2$s' auf dem Server"
-" fehlt."
+"Bild '%1$s' kann nicht geladen werden, da die Datei '%2$s' auf dem Server fehlt."
 
 #, c-format
 msgctxt "error_cloud_cannot_sync_databundle"
@@ -1175,14 +1658,40 @@ msgctxt "error_cloud_cannot_delete_remote_folder"
 msgid "Cannot delete remote folder '%1$s'."
 msgstr "Kann das Verzeichnis '%1$s' auf dem Server nicht löschen."
 
+#, c-format
+msgctxt "error_cloud_cannot_download_sync_server_cache_file"
+msgid "Cannot download server cache file '%1$s'."
+msgstr ""
+
+#, c-format
+msgctxt "error_cloud_cannot_upload_sync_server_cache_file"
+msgid "Cannot upload server cache file '%1$s'."
+msgstr ""
+
+msgctxt "error_cloud_cannot_scan_server_content"
+msgid "Cannot scan server content."
+msgstr ""
+
 #. preferences screen
 msgctxt "pref_category_editor"
 msgid "Editor"
 msgstr "Editor"
 
+msgctxt "pref_category_editor_general"
+msgid "General"
+msgstr ""
+
 msgctxt "pref_category_ui_general"
 msgid "General"
 msgstr "Allgemein"
+
+msgctxt "pref_category_ui_workflow"
+msgid "Workflow"
+msgstr ""
+
+msgctxt "pref_category_ui_numbering"
+msgid "Image numbering"
+msgstr ""
 
 msgctxt "pref_category_editor_styling"
 msgid "Styling"
@@ -1191,38 +1700,6 @@ msgstr "Stil"
 msgctxt "pref_category_editor_preset_texts"
 msgid "Preset texts"
 msgstr "Vordefinierte Texte"
-
-msgctxt "pref_editor_max_image_size"
-msgid "Maximum image size"
-msgstr "Maximale Bildgröße"
-
-msgctxt "pref_editor_max_image_size_dialog"
-msgid "Max. image width in editor (limits memory usage)"
-msgstr "Max. Bildbreite im Editor (reduziert Speicherbedarf)"
-
-msgctxt "pref_editor_max_image_size_choices:0"
-msgid "640 pixels"
-msgstr "640 Pixel"
-
-msgctxt "pref_editor_max_image_size_choices:1"
-msgid "1024 pixels"
-msgstr "1024 Pixel"
-
-msgctxt "pref_editor_max_image_size_choices:2"
-msgid "1600 pixels"
-msgstr "1600 Pixel"
-
-msgctxt "pref_editor_max_image_size_choices:3"
-msgid "2400 pixels"
-msgstr "2400 Pixel"
-
-msgctxt "pref_editor_max_image_size_choices:4"
-msgid "3000 pixels"
-msgstr "3000 Pixel"
-
-msgctxt "pref_editor_max_image_size_choices:5"
-msgid "Original size"
-msgstr "Originalgröße"
 
 msgctxt "pref_editor_font_size"
 msgid "Font size"
@@ -1321,6 +1798,34 @@ msgctxt "pref_editor_snapping_strength_choices:2"
 msgid "High"
 msgstr "Hoch"
 
+msgctxt "pref_category_editor_tools"
+msgid "Drawing tools"
+msgstr ""
+
+msgctxt "pref_editor_tools_freehand_end_delay"
+msgid "End freehand drawing delay"
+msgstr ""
+
+msgctxt "pref_editor_tools_freehand_end_delay_choices:0"
+msgid "Off"
+msgstr ""
+
+msgctxt "pref_editor_tools_freehand_end_delay_choices:1"
+msgid "Short"
+msgstr ""
+
+msgctxt "pref_editor_tools_freehand_end_delay_choices:2"
+msgid "Normal"
+msgstr ""
+
+msgctxt "pref_editor_tools_freehand_end_delay_choices:3"
+msgid "Long"
+msgstr ""
+
+msgctxt "pref_category_editor_drawing_tools"
+msgid "Drawing Tools"
+msgstr ""
+
 msgctxt "pref_category_measures"
 msgid "Measures"
 msgstr "Bemaßungen"
@@ -1349,34 +1854,74 @@ msgctxt "pref_measures_default_template_choices:3"
 msgid "Inches with fractions (1 1/8\")"
 msgstr "Zoll mit Brüchen (1 1/8\")"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:0"
 msgid "mm²"
 msgstr "mm²"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:1"
 msgid "cm²"
 msgstr "cm²"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:2"
 msgid "m²"
 msgstr "m²"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:3"
 msgid "km²"
 msgstr "km²"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:4"
 msgid "are"
 msgstr "Ar"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:5"
 msgid "hectare"
 msgstr "Hektar"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:6"
 msgid "µm²"
 msgstr "µm²"
 
+#. <string name="dim_template_metric">Metric (1.00 m)</string>     <string
+#. name="dim_template_imperial_interleaved">Imperial (1\' 10 1/32\")</string>
+#. <string name="dim_template_imperial_decimal">Imperial (1.00 ft)</string>
+#. <string name="dim_template_imperial_fractional_inches">Inches with fractions
+#. (1 1/8\")</string>
 msgctxt "pref_measure_metric_area_unit_choices:7"
 msgid "nm²"
 msgstr "nm²"
@@ -1589,6 +2134,38 @@ msgctxt "pref_category_export"
 msgid "Image export"
 msgstr "Bildexport"
 
+msgctxt "pref_export_image_show_options"
+msgid "Set options at export"
+msgstr ""
+
+msgctxt "pref_export_image_show_options_summary_on"
+msgid "Image options can be set at export"
+msgstr ""
+
+msgctxt "pref_export_image_show_options_summary_off"
+msgid "Options dialog will be skipped"
+msgstr ""
+
+msgctxt "pref_export_show_format_selection"
+msgid "Choose format when exporting"
+msgstr ""
+
+msgctxt "pref_export_show_format_selection_summary_on"
+msgid "Format selection will be shown each time"
+msgstr ""
+
+msgctxt "pref_export_show_format_selection_summary_off"
+msgid "Selected format will be used always"
+msgstr ""
+
+msgctxt "pref_category_export_format_and_rendering"
+msgid "Format and rendering"
+msgstr ""
+
+msgctxt "pref_category_export_image"
+msgid "Image settings"
+msgstr ""
+
 msgctxt "pref_export_format"
 msgid "Image format"
 msgstr "Bildformat"
@@ -1622,74 +2199,6 @@ msgstr "%s"
 msgctxt "pref_min_export_size_dialog"
 msgid "Min. width of exported image"
 msgstr "Minimale Bildgröße beim Export"
-
-msgctxt "pref_min_export_size_choices:0"
-msgid "640 pixels"
-msgstr "640 Pixel"
-
-msgctxt "pref_min_export_size_choices:1"
-msgid "800 pixels"
-msgstr "800 Pixel"
-
-msgctxt "pref_min_export_size_choices:2"
-msgid "1024 pixels"
-msgstr "1024 Pixel"
-
-msgctxt "pref_min_export_size_choices:3"
-msgid "1280 pixels"
-msgstr "1280 Pixel"
-
-msgctxt "pref_min_export_size_choices:4"
-msgid "1600 pixels"
-msgstr "1600 Pixel"
-
-msgctxt "pref_min_export_size_choices:5"
-msgid "1920 pixels"
-msgstr "1920 Pixel"
-
-msgctxt "pref_min_export_size_choices:6"
-msgid "2560 pixels"
-msgstr "2560 Pixel"
-
-msgctxt "pref_min_export_size_choices:7"
-msgid "3840 pixels"
-msgstr "3840 Pixel"
-
-msgctxt "pref_max_export_size_choices:0"
-msgid "640 pixels"
-msgstr "640 Pixel"
-
-msgctxt "pref_max_export_size_choices:1"
-msgid "800 pixels"
-msgstr "800 Pixel"
-
-msgctxt "pref_max_export_size_choices:2"
-msgid "1024 pixels"
-msgstr "1024 Pixel"
-
-msgctxt "pref_max_export_size_choices:3"
-msgid "1280 pixels"
-msgstr "1280 Pixel"
-
-msgctxt "pref_max_export_size_choices:4"
-msgid "1600 pixels"
-msgstr "1600 Pixel"
-
-msgctxt "pref_max_export_size_choices:5"
-msgid "1920 pixels"
-msgstr "1920 Pixel"
-
-msgctxt "pref_max_export_size_choices:6"
-msgid "2560 pixels"
-msgstr "2560 Pixel"
-
-msgctxt "pref_max_export_size_choices:7"
-msgid "3840 pixels"
-msgstr "3840 Pixel"
-
-msgctxt "pref_max_export_size_choices:8"
-msgid "Unlimited"
-msgstr "Unbeschränkt"
 
 #. <string name="pref_export_enable_reduced_resolution_overlay">Warning
 #. overlays on images</string>
@@ -1725,8 +2234,9 @@ msgctxt "pref_export_multi_images_format_choices:2"
 msgid "Zip archive of images"
 msgstr "ZIP-Archive mit Bildern"
 
+#, fuzzy
 msgctxt "pref_export_multi_images_format_choices:3"
-msgid "ImageMeter folder"
+msgid "ImageMeter folder (IMF)"
 msgstr "ImageMeter Verzeichnisarchiv (.imf)"
 
 msgctxt "pref_export_single_image_format"
@@ -1737,21 +2247,36 @@ msgctxt "pref_export_single_image_format_dialog"
 msgid "Export images as"
 msgstr "Bilder exportieren als"
 
+#. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:0"
 msgid "Image"
 msgstr "Bild"
 
+#. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:1"
 msgid "PDF"
 msgstr "PDF\t"
 
+#. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:2"
 msgid "Zip archive of images"
 msgstr "ZIP-Archive mit Bildern"
 
+#. TODO: FIX other languages
+#, fuzzy
 msgctxt "pref_export_single_image_format_choices:3"
-msgid "ImageMeter image"
+msgid "ImageMeter image (IMI)"
 msgstr "ImageMeter-Bild (.imi)"
+
+#. TODO: FIX other languages
+msgctxt "pref_export_single_image_format_choices:4"
+msgid "ImageMeter folder (IMF)"
+msgstr ""
+
+#. TODO: FIX other languages
+msgctxt "pref_export_single_image_format_choices:5"
+msgid "Save to gallery"
+msgstr ""
 
 msgctxt "pref_export_render_image_title"
 msgid "Show image title"
@@ -1780,6 +2305,18 @@ msgstr "PDF hinzufügen"
 msgctxt "pref_category_export_pdf"
 msgid "PDF settings"
 msgstr "PDF Einstellungen"
+
+msgctxt "pref_export_pdf_show_options"
+msgid "Set options at export"
+msgstr ""
+
+msgctxt "pref_export_pdf_show_options_summary_on"
+msgid "PDF options can be set at export"
+msgstr ""
+
+msgctxt "pref_export_pdf_show_options_summary_off"
+msgid "Options dialog will be skipped"
+msgstr ""
 
 msgctxt "pref_export_pdf_images_per_page"
 msgid "Images per PDF page"
@@ -1914,6 +2451,35 @@ msgctxt "pref_export_pdf_image_notes_space_choices:4"
 msgid "10%"
 msgstr "10%"
 
+msgctxt "dialog_pdf_options_image_notes_space_choices:0"
+msgid "Do not print notes"
+msgstr ""
+
+#, c-format
+msgctxt "dialog_pdf_options_image_notes_space_choices:1"
+msgid "10%"
+msgstr ""
+
+#, c-format
+msgctxt "dialog_pdf_options_image_notes_space_choices:2"
+msgid "20%"
+msgstr ""
+
+#, c-format
+msgctxt "dialog_pdf_options_image_notes_space_choices:3"
+msgid "30%"
+msgstr ""
+
+#, c-format
+msgctxt "dialog_pdf_options_image_notes_space_choices:4"
+msgid "40%"
+msgstr ""
+
+#, c-format
+msgctxt "dialog_pdf_options_image_notes_space_choices:5"
+msgid "50%"
+msgstr ""
+
 msgctxt "pref_category_bluetooth"
 msgid "Bluetooth"
 msgstr "Bluetooth"
@@ -1982,11 +2548,14 @@ msgctxt "pref_bluetooth_device_protocol_stabila"
 msgid "Stabila"
 msgstr ""
 
+msgctxt "pref_bluetooth_device_protocol_wuerth"
+msgid "Würth WDM 3–19"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
 msgid "Leica Disto classic"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_leica_disto_bt4"
 msgid "Leica Disto Bluetooth LE"
 msgstr ""
@@ -2008,7 +2577,11 @@ msgid "Stanley TLM99si"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_suaoki"
-msgid "Suaoki/Mileseey"
+msgid "Suaoki"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_mileseey_p7"
+msgid "Mileseey P7"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
@@ -2029,6 +2602,10 @@ msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_toolsmart_anglefinder"
 msgid "ToolSmart-AngleFinder"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_condtrol_xp3"
+msgid "Condtrol XP3/XP4 Pro"
 msgstr ""
 
 #. item Calculated Industries /item
@@ -2104,10 +2681,6 @@ msgctxt "pref_ui_edit_image_after_capture_enabled"
 msgid "Edit image after capture"
 msgstr "Bild nach Aufnahme editieren"
 
-msgctxt "pref_ui_show_directory_after_export_enabled"
-msgid "Tell directory after export"
-msgstr "Verzeichnis nach Export nennen"
-
 msgctxt "pref_ui_helpbar_mode"
 msgid "Help messages"
 msgstr "Hilfemeldungen"
@@ -2123,6 +2696,10 @@ msgstr "Alle Hilfemeldungen zeigen"
 msgctxt "pref_ui_helpbar_mode_choices:1"
 msgid "Only show important messages"
 msgstr "Nur wichtige Hilfemeldungen zeigen"
+
+msgctxt "pref_category_editor_magnifier"
+msgid "Magnifier"
+msgstr ""
 
 msgctxt "pref_ui_use_magnifier"
 msgid "Enable magnifier"
@@ -2192,17 +2769,48 @@ msgctxt "pref_ui_image_order_criterium_dialog"
 msgid "Image sorting order"
 msgstr "Sortierkriterium für Bilder"
 
+#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:0"
-msgid "Image name"
+msgid "Image name (ascending)"
 msgstr "Bildname"
 
+#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:1"
-msgid "Capture date (oldest first)"
+msgid "Image name (descending)"
 msgstr "Datum (älteste zuerst)"
 
+#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:2"
-msgid "Capture date (latest first)"
+msgid "Capture date (oldest first)"
 msgstr "Datum (neuste zuerst)"
+
+msgctxt "pref_ui_image_order_criterium_choices:3"
+msgid "Capture date (latest first)"
+msgstr ""
+
+msgctxt "pref_ui_image_order_criterium_choices:4"
+msgid "Number (ascending)"
+msgstr ""
+
+msgctxt "pref_ui_image_order_criterium_choices:5"
+msgid "Number (descending)"
+msgstr ""
+
+msgctxt "pref_ui_image_auto_numbering_active"
+msgid "Enable auto-numbering"
+msgstr ""
+
+msgctxt "pref_ui_image_auto_numbering_start"
+msgid "Start number"
+msgstr ""
+
+msgctxt "pref_ui_image_auto_numbering_increment"
+msgid "Increment"
+msgstr ""
+
+msgctxt "pref_ui_image_auto_numbering_invalid_number"
+msgid "Invalid"
+msgstr ""
 
 msgctxt "pref_ui_editor_fullscreen_mode_title"
 msgid "Editor fullscreen mode"
@@ -2224,14 +2832,14 @@ msgctxt "pref_ui_editor_fullscreen_mode_choices:2"
 msgid "Always"
 msgstr "Immer"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "pref_preset_text"
-msgid "Preset text %1$s"
+msgid "Preset text %1$d"
 msgstr "Vordefinierter Text %1$s"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "pref_preset_text_dialog"
-msgid "Enter preset text %1$s"
+msgid "Enter preset text %1$d"
 msgstr "Vordefinierten Text %1$s eingeben"
 
 msgctxt "preset_text_1"
@@ -2278,6 +2886,42 @@ msgctxt "pref_category_storage"
 msgid "Storage"
 msgstr "Speicherverwaltung"
 
+msgctxt "pref_category_storage_deleted_files"
+msgid "Deleted files"
+msgstr ""
+
+msgctxt "pref_storage_deleted_files_purge_now"
+msgid "Purge all deleted images now!"
+msgstr ""
+
+msgctxt "pref_storage_deleted_files_purge_delay"
+msgid "Purge interval"
+msgstr ""
+
+msgctxt "pref_storage_deleted_files_purge_delay_dialog"
+msgid "Purge interval"
+msgstr ""
+
+msgctxt "pref_storage_deleted_files_purge_delay_choices:0"
+msgid "1 day"
+msgstr ""
+
+msgctxt "pref_storage_deleted_files_purge_delay_choices:1"
+msgid "1 week"
+msgstr ""
+
+msgctxt "pref_storage_deleted_files_purge_delay_choices:2"
+msgid "1 month"
+msgstr ""
+
+msgctxt "dialog_purge_images_title"
+msgid "Purging deleted images"
+msgstr ""
+
+msgctxt "dialog_purge_images_finished"
+msgid "All deleted images have been purged from memory."
+msgstr ""
+
 #. string name="pref_category_storage_sdcard">SD Card</string
 msgctxt "pref_storage_data_directory"
 msgid "Data directory"
@@ -2291,12 +2935,14 @@ msgctxt "pref_storage_show_images_in_gallery"
 msgid "Show images in gallery"
 msgstr "Bilder in Galerie anzeigen"
 
+#, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_on"
-msgid "All images will show up in gallery"
+msgid "Edited images will show up in gallery"
 msgstr "Alle Bilder werden in Galerie gezeigt"
 
+#, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_off"
-msgid "Images will not show in the gallery"
+msgid "Images will not show in the gallery automatically"
 msgstr "Bilder werden nicht in der Galerie gezeigt"
 
 msgctxt "pref_storage_directory_current_directory"
@@ -2366,8 +3012,7 @@ msgstr "Daten bleiben auch bei einer Deinstallation der App auf dem Gerät."
 msgctxt "pref_storage_directory_deletion_behavior_unknown"
 msgid "Unknown whether data will be deleted during uninstall."
 msgstr ""
-"Unbekannt, ob die Daten bei einer Deinstallation der App auf dem Gerät "
-"bleiben."
+"Unbekannt, ob die Daten bei einer Deinstallation der App auf dem Gerät bleiben."
 
 msgctxt "pref_storage_directory_not_enough_free_space_title"
 msgid "Insufficient space"
@@ -2376,8 +3021,8 @@ msgstr "Ungenügend Speicherplatz"
 msgctxt "pref_storage_directory_not_enough_free_space_message"
 msgid "There is not enough free memory on the target volume to move all images."
 msgstr ""
-"Es gibt auf dem Zieldatenträge nicht genug Speicherplatz, um alle Bilder "
-"zu verschieben."
+"Es gibt auf dem Zieldatenträge nicht genug Speicherplatz, um alle Bilder zu "
+"verschieben."
 
 msgctxt "pref_storage_directory_error_nonpro"
 msgid "Changing the storage directory is only available in the Pro version."
@@ -2385,24 +3030,28 @@ msgstr "Das Datenverzeichnis kann nur in der Pro-Version geändert werden."
 
 msgctxt "pref_storage_directory_error_could_not_copy_all_images"
 msgid ""
-"Could not copy all images to target directory. Maybe your folder names "
-"are no valid filenames on the target filesystem. Please change them and "
-"then try to copy the remaining data.\n"
+"Could not copy all images to target directory. Maybe your folder names are no "
+"valid filenames on the target filesystem. Please change them and then try to "
+"copy the remaining data.\n"
 "\n"
 "The active storage directory has not been changed.\n"
 "\n"
-"Please note that the target directory now contains an incomplete copy of "
-"the source data!"
+"Please note that the target directory now contains an incomplete copy of the "
+"source data!"
 msgstr ""
 "Konnte nicht alle Bilder in das Zielverzeichnis kopieren. Möglicherweise "
 "enthalten die Ordnernamen Zeichen, die nicht vom Dateisystem des "
-"Zielverzeichnisses unterstützt werden. Bitte ändern Sie die Ordnernamen "
-"und versuchen erneut, die übrigen Bilder zu kopieren.\n"
+"Zielverzeichnisses unterstützt werden. Bitte ändern Sie die Ordnernamen und "
+"versuchen erneut, die übrigen Bilder zu kopieren.\n"
 "\n"
 "Das aktive Datenverzeichnis wurde nicht geändert.\n"
 "\n"
-"Bitte beachten Sie, dass das Zielverzeichnis nun nur eine unvollständige "
-"Kopie der Eingangsdaten enthält."
+"Bitte beachten Sie, dass das Zielverzeichnis nun nur eine unvollständige Kopie "
+"der Eingangsdaten enthält."
+
+msgctxt "pref_storage_directory_cannot_move_files"
+msgid "Cannot move files"
+msgstr ""
 
 msgctxt "dialog_storage_move_annotated_images_progress_text"
 msgid "Moving images ..."
@@ -2477,8 +3126,9 @@ msgctxt "editor_menu_add_area"
 msgid "Area"
 msgstr "Fläche"
 
+#, fuzzy
 msgctxt "editor_menu_add_text"
-msgid "Text"
+msgid "Note"
 msgstr "Text"
 
 msgctxt "editor_menu_add_freehand"
@@ -2504,6 +3154,14 @@ msgstr "Linie"
 msgctxt "editor_menu_add_ellipse"
 msgid "Ellipse"
 msgstr "Ellipse"
+
+msgctxt "editor_menu_add_dimstring"
+msgid "Dimension string"
+msgstr ""
+
+msgctxt "editor_menu_add_cumulative_dimstring"
+msgid "Cumulative string"
+msgstr ""
 
 msgctxt "editor_menu_edit_delete"
 msgid "Delete element"
@@ -2533,9 +3191,14 @@ msgctxt "editor_menu_edit_redo"
 msgid "Redo"
 msgstr "Redo"
 
+#, fuzzy
 msgctxt "editor_menu_edit_rotate"
-msgid "Rotate image"
+msgid "Rotate image (CW)"
 msgstr "Bild drehen"
+
+msgctxt "editor_menu_edit_rotate_ccw"
+msgid "Rotate image (CCW)"
+msgstr ""
 
 msgctxt "editor_menu_edit_transfer_style"
 msgid "Transfer style"
@@ -2556,6 +3219,10 @@ msgstr "Maß sperren"
 msgctxt "editor_menu_edit_unlock_element"
 msgid "Unlock element"
 msgstr "Maß entsperren"
+
+msgctxt "editor_menu_edit_imagesettings"
+msgid "Image settings"
+msgstr ""
 
 msgctxt "editor_menu_color"
 msgid "Color"
@@ -2587,11 +3254,11 @@ msgstr "Zeichnen Sie den Umriß der Fläche in einer Bewegung."
 
 msgctxt "editor_hint_howto_draw_text"
 msgid ""
-"Please position the text area by pointing at the target location and then"
-" dragging the textbox to the end of the arrow."
+"Please position the text area by pointing at the target location and then "
+"dragging the textbox to the end of the arrow."
 msgstr ""
-"Zeichnen Sie den Textbereich ausgehend vom Ziel und ziehen Sie dann die "
-"Textbox zur Seite."
+"Zeichnen Sie den Textbereich ausgehend vom Ziel und ziehen Sie dann die Textbox "
+"zur Seite."
 
 msgctxt "editor_hint_howto_draw_circle"
 msgid "Please point to the circle center and drag to specify the circle size."
@@ -2600,8 +3267,7 @@ msgstr "Ziehen Sie die Strecke vom Kreismittelpunkt bis zum gewünschten Radius.
 msgctxt "editor_hint_howto_draw_freehand"
 msgid "You are now drawing in freehand mode until you press the close button."
 msgstr ""
-"Freihand-Zeichenmodus ist aktiv. Zum Beenden drücken Sie den Knopf oben "
-"rechts."
+"Freihand-Zeichenmodus ist aktiv. Zum Beenden drücken Sie den Knopf oben rechts."
 
 msgctxt "editor_hint_howto_draw_point"
 msgid "Place the point with a simple click."
@@ -2621,33 +3287,38 @@ msgstr "Zeichnen Sie die Diagonale des Rechtecks."
 
 msgctxt "editor_hint_howto_draw_perspective_line"
 msgid ""
-"Tool for measuring an unknown distance along a perspectively distorted "
-"line. See the FAQ for an introduction."
+"Tool for measuring an unknown distance along a perspectively distorted line. See "
+"the FAQ for an introduction."
 msgstr ""
-"Messen einer unbekanntenten Distanz entlang einer perspektivisch "
-"verzerrten Gerade. Erklärungen dazu in den FAQs."
+"Messen einer unbekanntenten Distanz entlang einer perspektivisch verzerrten "
+"Gerade. Erklärungen dazu in den FAQs."
+
+msgctxt "editor_hint_howto_draw_dimstring"
+msgid "Please draw the first dimension string. Use the top toolbar to modify it."
+msgstr ""
+
+msgctxt "editor_hint_howto_draw_dimstring_cumulative"
+msgid "Please draw the first dimension string. Use the top toolbar to modify it."
+msgstr ""
 
 msgctxt "editor_hint_howto_attach_to_reference"
 msgid "Click on the measure you want to compute based on the selected reference."
 msgstr ""
-"Wählen Sie die Bemaßung, die Sie anhand der gewählten Referenz berechnen "
-"möchten."
+"Wählen Sie die Bemaßung, die Sie anhand der gewählten Referenz berechnen möchten."
 
 msgctxt "editor_hint_howto_attach_measure"
 msgid ""
-"Click on the reference based on which you want to calculate the selected "
-"measure."
+"Click on the reference based on which you want to calculate the selected measure."
 msgstr ""
-"Wählen Sie die Referenz, anhand derer Sie die gewählte Bemaßung berechnen"
-" möchten."
+"Wählen Sie die Referenz, anhand derer Sie die gewählte Bemaßung berechnen "
+"möchten."
 
 msgctxt "editor_error_no_reference_to_attach_to"
 msgid ""
-"There is no reference in the image! You need to draw a reference in order"
-" to do automatic computations."
+"There is no reference in the image! You need to draw a reference in order to do "
+"automatic computations."
 msgstr ""
-"Es gibt keine Referenz im Bild! Sie müssen zunächst eine Referenz "
-"einzeichnen."
+"Es gibt keine Referenz im Bild! Sie müssen zunächst eine Referenz einzeichnen."
 
 msgctxt "editor_error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -2668,6 +3339,10 @@ msgstr "Anwenden auf ..."
 msgctxt "editor_dialog_style_spinner_various_values"
 msgid "various"
 msgstr "verschieden"
+
+msgctxt "editor_dialog_style_generic_line_width_magnification"
+msgid "Line width"
+msgstr ""
 
 msgctxt "editor_dialog_style_textbox_title"
 msgid "Text box style"
@@ -2863,15 +3538,15 @@ msgstr "Standard-Referenzgröße"
 
 msgctxt "editor_dialog_style_rect_info_set_default_reference_size_text"
 msgid ""
-"This button stores the currently entered reference dimensions as the "
-"default size. When creating a new reference, these dimensions are "
-"automatically set. You can set this to any reference that is suitable for"
-" your application, e.g. the size of a sheet of paper."
+"This button stores the currently entered reference dimensions as the default "
+"size. When creating a new reference, these dimensions are automatically set. You "
+"can set this to any reference that is suitable for your application, e.g. the "
+"size of a sheet of paper."
 msgstr ""
-"Diese Funktion speichert die eingegebene Referenzgröße als Standard ab. "
-"Wird eine neue Referenz erstellt, so wird diese Größe automatisch "
-"gesetzt. Sie können dies benutzen um ihr üblicherweise verwendetes "
-"Referenzobjekt, z.B. ein Blatt Papier, zu konfigurieren."
+"Diese Funktion speichert die eingegebene Referenzgröße als Standard ab. Wird "
+"eine neue Referenz erstellt, so wird diese Größe automatisch gesetzt. Sie können "
+"dies benutzen um ihr üblicherweise verwendetes Referenzobjekt, z.B. ein Blatt "
+"Papier, zu konfigurieren."
 
 msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:0"
 msgid "none"
@@ -3121,6 +3796,14 @@ msgctxt "editor_dialog_style_rectangle_line_width_magnification"
 msgid "Line width"
 msgstr "Linienbreite"
 
+msgctxt "editor_dialog_style_dimstring_title"
+msgid "Dimension string style"
+msgstr ""
+
+msgctxt "editor_dialog_style_dimstring_show_marks"
+msgid "Show intersection marks"
+msgstr ""
+
 msgctxt "editor_dialog_style_measurementpoint_title"
 msgid "Point style"
 msgstr "Messpunktstil"
@@ -3263,21 +3946,21 @@ msgstr "Alle Zeichenwerkzeuge"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
 msgid ""
-"The image data could not be read successfully. ImageMeter has tried to "
-"load as much of the data as possible, but the image annotations may be "
-"incomplete or may have errors.\n"
+"The image data could not be read successfully. ImageMeter has tried to load as "
+"much of the data as possible, but the image annotations may be incomplete or may "
+"have errors.\n"
 "\n"
-"Do you want to keep the old data (new modifications will not be saved), "
-"or do you want to overwrite the data (you will lose the elements that "
-"could not be read successfully)?"
+"Do you want to keep the old data (new modifications will not be saved), or do "
+"you want to overwrite the data (you will lose the elements that could not be "
+"read successfully)?"
 msgstr ""
-"Die Bilddaten konnten nicht erfolgreich geladen werden. ImageMeter hat "
-"versucht, so viel der Daten zu lesen, wie möglich, aber sie können "
-"unvollständig oder fehlerhaft sein.\n"
+"Die Bilddaten konnten nicht erfolgreich geladen werden. ImageMeter hat versucht, "
+"so viel der Daten zu lesen, wie möglich, aber sie können unvollständig oder "
+"fehlerhaft sein.\n"
 "\n"
-"Wollen Sie die alten Daten behalten (Änderungen werden nicht "
-"gespeichert), oder wollen Sie die Daten überschreiben (die nicht "
-"erfolgreich geladenen Teile gehen verloren)?"
+"Wollen Sie die alten Daten behalten (Änderungen werden nicht gespeichert), oder "
+"wollen Sie die Daten überschreiben (die nicht erfolgreich geladenen Teile gehen "
+"verloren)?"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_overwrite_button"
 msgid "Overwrite"
@@ -3292,16 +3975,15 @@ msgid ""
 "Please upgrade to the pro version of ImageMeter to use more than five "
 "annotations."
 msgstr ""
-"Mehr als fünf Bemaßungen pro Bild sind nur mit der Pro-Version von "
-"ImageMeter möglich."
+"Mehr als fünf Bemaßungen pro Bild sind nur mit der Pro-Version von ImageMeter "
+"möglich."
 
 msgctxt "editor_error_nonpro_bluetooth_limit_message"
 msgid ""
-"For Bluetooth measurements with more than 3 meters, please upgrade to the"
-" pro version."
+"For Bluetooth measurements with more than 3 meters, please upgrade to the pro "
+"version."
 msgstr ""
-"Für Bluetoothmessungen über 3 Meter wird die Pro-Version von ImageMeter "
-"benötigt."
+"Für Bluetoothmessungen über 3 Meter wird die Pro-Version von ImageMeter benötigt."
 
 msgctxt "editor_error_nonpro_pro_tool_message"
 msgid "This tool is only available in the pro version."
@@ -3326,6 +4008,42 @@ msgstr "US Legal"
 msgctxt "editor_rectref_standard_size_credit_card"
 msgid "Credit card"
 msgstr "Kreditkarte"
+
+msgctxt "editor_dimstring_mode_add_markers"
+msgid "Add measures"
+msgstr ""
+
+msgctxt "editor_dimstring_mode_move_markers"
+msgid "Move measures"
+msgstr ""
+
+msgctxt "editor_dimstring_mode_toggle_segments"
+msgid "Toggle segments"
+msgstr ""
+
+msgctxt "editor_dimstring_mode_move_strings"
+msgid "Move strings"
+msgstr ""
+
+msgctxt "editor_dimstring_mode_set_values"
+msgid "Set values"
+msgstr ""
+
+msgctxt "editor_dimstring_func_edit_mode"
+msgid "Select edit mode"
+msgstr ""
+
+msgctxt "editor_dimstring_func_add_string"
+msgid "Add string"
+msgstr ""
+
+msgctxt "editor_dimstring_func_add_cumulative_string"
+msgid "Add cumulative string"
+msgstr ""
+
+msgctxt "editor_dimstring_func_swap_orientation"
+msgid "Swap orientation"
+msgstr ""
 
 msgctxt "color_dialog_special_transparent"
 msgid "Transparent"
@@ -3371,27 +4089,28 @@ msgstr "Objekte bearbeiten…"
 #. editor errors
 msgctxt "editor_error_image_out_of_memory"
 msgid ""
-"Out of memory! Cannot load image. Try reducing the maximum image "
-"resolution in the editor. This can be done in the app settings."
+"Out of memory! Cannot load image. Try reducing the maximum image resolution in "
+"the editor. This can be done in the app settings."
 msgstr ""
 "Kein Speicherplatz mehr um das Bild zu laden. Versuchen Sie die maximale "
-"Bildgröße im Editor zu reduzieren. Dies kann in den App-Einstellungen "
-"geändert werdern."
+"Bildgröße im Editor zu reduzieren. Dies kann in den App-Einstellungen geändert "
+"werdern."
 
 #. export
 #, c-format
 msgctxt "export_warning_low_memory_export_resolution_reduced"
 msgid ""
-"Your device has been low on main memory. The output image resolution "
-"(%1$d x %2$d) had to be reduced. You might want to reduce the maximum "
-"output resolution in the app settings."
+"Your device has been low on main memory. The output image resolution (%1$d x "
+"%2$d) had to be reduced. You might want to reduce the maximum output resolution "
+"in the app settings."
 msgstr ""
-"Ihr Gerät hatte nicht genügend Arbeitsspeicher. Die Ausgabeauflösung "
-"(%1$d x %2$d) war zu hoch und musste reduziert werden. Evtl. sollten Sie "
-"die maximale Ausgabeauflösung in den App-Einstellungen reduzieren."
+"Ihr Gerät hatte nicht genügend Arbeitsspeicher. Die Ausgabeauflösung (%1$d x "
+"%2$d) war zu hoch und musste reduziert werden. Evtl. sollten Sie die maximale "
+"Ausgabeauflösung in den App-Einstellungen reduzieren."
 
+#, fuzzy
 msgctxt "export_eval_version"
-msgid "evaluation copy"
+msgid "Evaluation copy"
 msgstr "Testversion"
 
 #, c-format
@@ -3610,29 +4329,38 @@ msgid "Suffix"
 msgstr "Suffix"
 
 #. text entry
+#, fuzzy
 msgctxt "textbox_dialog_label"
-msgid "Enter text:"
+msgid "Text note"
 msgstr "Beschriftung:"
 
-msgctxt "textbox_dialog_presets"
-msgid "or select a preset text:"
-msgstr "oder einen vordefinierten Text auswählen:"
-
-msgctxt "textbox_dialog_presets_help"
-msgid "You can change the preset texts in the application settings."
-msgstr "Die vordefinierten Texte können in den Einstellungen geändert werden."
-
+#. string name="textbox_dialog_presets">or select a preset text:</string
+#. string name="textbox_dialog_presets_help">You can change the preset texts
+#. in the application settings.</string
 msgctxt "textbox_text_hint"
 msgid "No text"
 msgstr "Kein Text"
 
-msgctxt "textbox_keep_custom_text"
-msgid "(keep custom text)"
-msgstr "(eigenen Text verwenden)"
+msgctxt "textbox_text_preset_button"
+msgid "Preset…"
+msgstr ""
 
+msgctxt "textbox_text_preset_open_prefs"
+msgid "(Define presets …)"
+msgstr ""
+
+#. string name="textbox_keep_custom_text">(keep custom text)</string
 msgctxt "textbox_hint_undefined_text"
 msgid "click to enter text"
 msgstr "Anklicken um Text zu ändern"
+
+msgctxt "textbox_audio_notes_title"
+msgid "Audio note"
+msgstr ""
+
+msgctxt "textbox_detail_picture_title"
+msgid "Detail picture"
+msgstr ""
 
 msgctxt "textbox_rtl_language_warning_title"
 msgid "Please note"
@@ -3640,8 +4368,8 @@ msgstr ""
 
 msgctxt "textbox_rtl_language_warning_text"
 msgid ""
-"ImageMeter currently does not support entering text in right-to-left "
-"languages. Text display may be broken."
+"ImageMeter currently does not support entering text in right-to-left languages. "
+"Text display may be broken."
 msgstr ""
 
 #. GCircle
@@ -3670,6 +4398,77 @@ msgctxt "rectangle_perimeter_prefix"
 msgid "P:"
 msgstr "U:"
 
+#. ImageSettings
+msgctxt "imagesettings_duallabel_mode_choices:0"
+msgid "Off"
+msgstr ""
+
+#. ImageSettings
+msgctxt "imagesettings_duallabel_mode_choices:1"
+msgid "Model scale"
+msgstr ""
+
+#. ImageSettings
+msgctxt "imagesettings_duallabel_mode_choices:2"
+msgid "Alternative unit"
+msgstr ""
+
+msgctxt "imagesettings_dialog_duallabel_title"
+msgid "Secondary label"
+msgstr ""
+
+msgctxt "imagesettings_dialog_duallabel_mode"
+msgid "Mode"
+msgstr ""
+
+msgctxt "imagesettings_dialog_duallabel_scale"
+msgid "Scale"
+msgstr ""
+
+msgctxt "imagesettings_dialog_duallabel_unit"
+msgid "Unit"
+msgstr ""
+
+msgctxt "imagesettings_dialog_canvas_colorscheme"
+msgid "Color scheme"
+msgstr ""
+
+msgctxt "imagesettings_dialog_canvas_colorscheme_presets:0"
+msgid "White"
+msgstr ""
+
+msgctxt "imagesettings_dialog_canvas_colorscheme_presets:1"
+msgid "Black"
+msgstr ""
+
+msgctxt "imagesettings_dialog_canvas_colorscheme_presets:2"
+msgid "Dark blue"
+msgstr ""
+
+msgctxt "imagesettings_dialog_canvas_colorscheme_presets:3"
+msgid "Custom"
+msgstr ""
+
+msgctxt "imagesettings_dialog_bkgimage_title"
+msgid "Image"
+msgstr ""
+
+msgctxt "imagesettings_dialog_bkgimage_brightness"
+msgid "Brightness"
+msgstr ""
+
+msgctxt "imagesettings_dialog_bkgimage_saturation"
+msgid "Saturation"
+msgstr ""
+
+msgctxt "imagesettings_dialog_bkgimage_contrast"
+msgid "Contrast"
+msgstr ""
+
+msgctxt "imagesettings_dialog_bkgimage_reset"
+msgid "Reset"
+msgstr ""
+
 #. bluetooth
 msgctxt "bluetooth_message_device_connected"
 msgid "Connection to Bluetooth device established."
@@ -3683,21 +4482,27 @@ msgctxt "bluetooth_message_device_connect_failed"
 msgid "Bluetooth connection failed."
 msgstr "Bluetoothverbindung fehlgeschlagen."
 
+#, fuzzy
 msgctxt "bluetooth_error_bluetooth_not_configured"
 msgid ""
 "You have not yet configured any Bluetooth laser distance meter.\n"
 "\n"
-"Please pair your Bluetooth device with your Android device. Afterwards, "
-"open the app settings and select the Bluetooth device to use. Bluetooth "
-"Smart devices do not have to be paired, but they have to be turned on to "
-"appear in the device selection."
+"First make sure that your device is listed in the system settings. If required, "
+"pair the device.\n"
+" <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n"
+"\n"
+"Afterwards, select your device in the ImageMeter settings:\n"
+" <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n"
+"\n"
+"For more help and a list of supported devices, see <a href=\"https://imagemeter."
+"com/manual/bluetooth/connect/\">here</a>"
 msgstr ""
 "Sie haben noch keinen Bluetooth Laserentfernungsmesser konfiguriert.\n"
 "\n"
-"Bitte koppeln Sie ihr Bluetoothgerät mit dem Androidgerät. Danach öffnen "
-"Sie die App-Einstellungen und wählen das Bluetoothgerät, welches benutzt "
-"werden soll. Bluetooth Smart Geräte müssen nicht gekoppelt werden, müssen"
-" aber angeschaltet sein, damit Sie in der Geräteauswahl erscheinen."
+"Bitte koppeln Sie ihr Bluetoothgerät mit dem Androidgerät. Danach öffnen Sie die "
+"App-Einstellungen und wählen das Bluetoothgerät, welches benutzt werden soll. "
+"Bluetooth Smart Geräte müssen nicht gekoppelt werden, müssen aber angeschaltet "
+"sein, damit Sie in der Geräteauswahl erscheinen."
 
 #. 151209
 msgctxt "bluetooth_error_no_bluetooth_le"
@@ -3706,11 +4511,11 @@ msgstr "Gerät unterstützt kein Bluetooth LE (mindestens Android 4.3 benötigt)
 
 msgctxt "bluetooth_error_no_bonded_bluetooth_device"
 msgid ""
-"The selected Bluetooth device is currently not paired. Please pair it in "
-"the Android settings."
+"The selected Bluetooth device is currently not paired. Please pair it in the "
+"Android settings."
 msgstr ""
-"Das ausgewählte Bluetoothgerät ist gegenwärtig nicht verbunden. Bitte "
-"koppeln Sie das Gerät in den Einstellungen des Betriebssystems."
+"Das ausgewählte Bluetoothgerät ist gegenwärtig nicht verbunden. Bitte koppeln "
+"Sie das Gerät in den Einstellungen des Betriebssystems."
 
 #, c-format
 msgctxt "bluetooth_error_cannot_set_value"
@@ -3751,12 +4556,12 @@ msgstr "Bluetooth Gerätescan"
 
 msgctxt "bluetooth_dialog_scan_needs_location_permission_text"
 msgid ""
-"Since Android 6, the coarse location permission is required to scan for "
-"nearby Bluetooth devices. Please grant this permission when requested."
+"Since Android 6, the coarse location permission is required to scan for nearby "
+"Bluetooth devices. Please grant this permission when requested."
 msgstr ""
-"Seit Android 6 wird die Berechtigung für den groben Standort benötigt, um"
-" nach nahen Bluetoothgeräten zu scannen. Bitte gewähren Sie diese "
-"Berechtigung auf Anfrage."
+"Seit Android 6 wird die Berechtigung für den groben Standort benötigt, um nach "
+"nahen Bluetoothgeräten zu scannen. Bitte gewähren Sie diese Berechtigung auf "
+"Anfrage."
 
 msgctxt "bluetooth_le_scan_needs_location_title"
 msgid "Bluetooth LE Scan Error"
@@ -3764,15 +4569,15 @@ msgstr "Blueooth LE Scanningfehler"
 
 msgctxt "bluetooth_le_scan_needs_location_message"
 msgid ""
-"Android requires that the location service is enabled to run a Bluetooth "
-"LE Scan.\n"
+"Android requires that the location service is enabled to run a Bluetooth LE "
+"Scan.\n"
 "\n"
 "Please turn on location services.\n"
 "\n"
 "After the Bluetooth LE scan, you can turn this off again."
 msgstr ""
-"Android verlangt, dass für einen Bluetooth LE Scan die Standorterkennung "
-"(GPS) eingeschaltet ist.\n"
+"Android verlangt, dass für einen Bluetooth LE Scan die Standorterkennung (GPS) "
+"eingeschaltet ist.\n"
 "\n"
 "Bitte aktivieren Sie die Standorterkennung in den Einstellungen.\n"
 "\n"
@@ -3863,8 +4668,7 @@ msgid ""
 "\n"
 "This upgrade gives you all the features of the pro version.\n"
 "\n"
-"The upgrade is active when you see the text 'with pro-upgrade' in the "
-"title bar."
+"The upgrade is active when you see the text 'with pro-upgrade' in the title bar."
 msgstr ""
 "Die Pro-Version bietet diese Vorteile:\n"
 "\n"
@@ -3876,8 +4680,8 @@ msgstr ""
 "\n"
 "Dieses Upgrade hat den gleichen Umfang wie die Pro-Version der App.\n"
 "\n"
-"Sie erkennen das Upgrade daran, dass in der Titelzeile 'mit Pro "
-"Erweiterung' steht."
+"Sie erkennen das Upgrade daran, dass in der Titelzeile 'mit Pro Erweiterung' "
+"steht."
 
 msgctxt "inapp_dialog_upgrade_benefits_ok"
 msgid "Upgrade now"
@@ -3954,8 +4758,7 @@ msgstr "Gegenstand nicht verfügbar"
 msgctxt "inapp_error_service_disconnected"
 msgid "PlayStore temporarily disconnected, try again later"
 msgstr ""
-"Der PlayStore ist momentan nicht verfügbar. Bitte etwas später nochmals "
-"versuchen"
+"Der PlayStore ist momentan nicht verfügbar. Bitte etwas später nochmals versuchen"
 
 msgctxt "inapp_error_service_unavailable"
 msgid "Network down, cannot reach PlayStore"
@@ -3987,30 +4790,30 @@ msgctxt "tip_welcome"
 msgid ""
 "Welcome to ImageMeter\n"
 "\n"
-"If you have any questions, do not hesitate to write to "
-"imagemeter@gmail.com. All emails will be answered as fast as possible."
+"If you have any questions, do not hesitate to write to imagemeter@gmail.com. All "
+"emails will be answered as fast as possible."
 msgstr ""
 "Willkommen bei ImageMeter\n"
 "\n"
 "Falls Sie Fragen oder Anregungen haben, zögern Sie bitte nicht, diese an "
-"imagemeter@gmail.com zu schreiben. Alle Emails werden so schnell wie "
-"möglich beantwortet."
+"imagemeter@gmail.com zu schreiben. Alle Emails werden so schnell wie möglich "
+"beantwortet."
 
 msgctxt "tip_export_images"
 msgid ""
-"You can export images by long-clicking on them in the list and then "
-"selecting the share icon in the toolbar."
+"You can export images by long-clicking on them in the list and then selecting "
+"the share icon in the toolbar."
 msgstr ""
-"Zum Exportieren von Bildern diese lange anklicken und in der "
-"Werkzeugleiste das Versenden-Icon wählen."
+"Zum Exportieren von Bildern diese lange anklicken und in der Werkzeugleiste das "
+"Versenden-Icon wählen."
 
 msgctxt "tip_folder_export"
 msgid ""
-"You can export PDFs with all images in a folder by long-clicking on the "
-"folder and selecting export."
+"You can export PDFs with all images in a folder by long-clicking on the folder "
+"and selecting export."
 msgstr ""
-"Zum Exportieren aller Bilder eines Ordners als PDF-Datei den Ordner lange"
-" anklicken und das Versenden-Icon wählen."
+"Zum Exportieren aller Bilder eines Ordners als PDF-Datei den Ordner lange "
+"anklicken und das Versenden-Icon wählen."
 
 msgctxt "tip_disable_tips"
 msgid "You can disable the tip of the day dialog in the settings."
@@ -4018,35 +4821,34 @@ msgstr "Die \"Tipps des Tages\" können in den Einstellungen deaktiviert werden.
 
 msgctxt "tip_accuracy"
 msgid ""
-"Accuracy depends on the quality of the camera and its lens distortions. "
-"You can increase accuracy by choosing a reference rectangle that is as "
-"large as possible."
+"Accuracy depends on the quality of the camera and its lens distortions. You can "
+"increase accuracy by choosing a reference rectangle that is as large as possible."
 msgstr ""
-"Die Messgenauigkeit hängt von der Qualität der Kamera und der "
-"Verzerrungen der Optik ab. Sie können die Genauigkeit erhöhen, indem Sie "
-"ein Referenzrechteck wählen, das so groß wie möglich ist."
+"Die Messgenauigkeit hängt von der Qualität der Kamera und der Verzerrungen der "
+"Optik ab. Sie können die Genauigkeit erhöhen, indem Sie ein Referenzrechteck "
+"wählen, das so groß wie möglich ist."
 
 msgctxt "tip_measure_attach"
 msgid ""
-"When you draw a new measure in an image that already contains a "
-"reference, the measure is automatically computed based on this reference."
-" If you want to enter its value manually, click on the crossed-out "
-"calculator icon or choose 'enter value manually' from the menu."
+"When you draw a new measure in an image that already contains a reference, the "
+"measure is automatically computed based on this reference. If you want to enter "
+"its value manually, click on the crossed-out calculator icon or choose 'enter "
+"value manually' from the menu."
 msgstr ""
 "Falls Sie eine neue Bemaßung in ein Bild zeichnen, welches eine Referenz "
-"enthält, wird die Bemaßung aufgrund der vorhandenen Referenz berechnet. "
-"Falls Sie die Bemaßung von Hand eingeben wollen, klicken Sie auf das Icon"
-" mit dem durchgestrichenen Taschenrechner oder wählen Sie 'Wert von Hand "
-"eingeben' im Menü."
+"enthält, wird die Bemaßung aufgrund der vorhandenen Referenz berechnet. Falls "
+"Sie die Bemaßung von Hand eingeben wollen, klicken Sie auf das Icon mit dem "
+"durchgestrichenen Taschenrechner oder wählen Sie 'Wert von Hand eingeben' im "
+"Menü."
 
 msgctxt "tip_support"
 msgid ""
-"If you have any questions, do not hesitate to write to "
-"imagemeter@gmail.com. All emails will be answered as fast as possible."
+"If you have any questions, do not hesitate to write to imagemeter@gmail.com. All "
+"emails will be answered as fast as possible."
 msgstr ""
 "Falls Sie Fragen oder Anregungen haben, zögern Sie bitte nicht, diese an "
-"imagemeter@gmail.com zu schreiben. Alle Emails werden so schnell wie "
-"möglich beantwortet."
+"imagemeter@gmail.com zu schreiben. Alle Emails werden so schnell wie möglich "
+"beantwortet."
 
 msgctxt "welcome_message_title"
 msgid "Welcome to ImageMeter"
@@ -4054,19 +4856,17 @@ msgstr "Willkommen bei ImageMeter"
 
 msgctxt "welcome_message_text"
 msgid ""
-"For an introduction to ImageMeter, see this <a "
-"href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video</a>.\n"
+"For an introduction to ImageMeter, see this <a href=\"https://www.youtube.com/"
+"watch?v=shnUMTBbMSE\">video</a>.\n"
 "\n"
-"If you have any further questions, do not hesitate to write to <a "
-"href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a>."
+"If you have any further questions, do not hesitate to write to <a href=\"mailto:"
+"imagemeter@gmail.com\">imagemeter@gmail.com</a>."
 msgstr ""
-"Für eine Einführung in ImageMeter können Sie sich <a "
-"href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">dieses Video</a> "
-"ansehen.\n"
+"Für eine Einführung in ImageMeter können Sie sich <a href=\"https://www.youtube."
+"com/watch?v=shnUMTBbMSE\">dieses Video</a> ansehen.\n"
 "\n"
-"Falls Sie weitere Fragen oder Anregungen haben, zögern Sie bitte nicht, "
-"an <a href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a> zu "
-"schreiben."
+"Falls Sie weitere Fragen oder Anregungen haben, zögern Sie bitte nicht, an <a "
+"href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a> zu schreiben."
 
 msgctxt "welcome_message_show_at_startup"
 msgid "Show welcome message at startup"
@@ -4087,25 +4887,22 @@ msgstr "Wie exportiere ich Bilder?"
 
 msgctxt "faq_image_menu_how_to_export_a"
 msgid ""
-"You can export single images, several images at once, or complete "
-"folders. Long-press on an image or folder to select it and then choose "
-"one of the export icons. If you are exporting several images at once, "
-"they will be exported as a PDF or in a zip archive. The format can be "
-"chosen in the settings.\n"
-"You can either export to another app, or save the images into the file-"
-"system. When saving to the file system, the images will usually be stored"
-" in the 'Pictures' folder. The exact location will be displayed after "
-"export."
+"You can export single images, several images at once, or complete folders. Long-"
+"press on an image or folder to select it and then choose one of the export "
+"icons. If you are exporting several images at once, they will be exported as a "
+"PDF or in a zip archive. The format can be chosen in the settings.\n"
+"You can either export to another app, or save the images into the file-system. "
+"When saving to the file system, the images will usually be stored in the "
+"'Pictures' folder. The exact location will be displayed after export."
 msgstr ""
-"Sie können einzelne Bilder, mehrere Bilder zusammen oder komplette "
-"Verzeichnisse exportieren. Drücken Sie lange auf ein Bild oder "
-"Verzeichnis, um es auszuwählen und wählen dann eins der Export-Icons. "
-"Wenn Sie mehrere Bilder auf einmal exportieren, werden sie in einem zip "
-"Archiv zusammengepackt.\n"
+"Sie können einzelne Bilder, mehrere Bilder zusammen oder komplette Verzeichnisse "
+"exportieren. Drücken Sie lange auf ein Bild oder Verzeichnis, um es auszuwählen "
+"und wählen dann eins der Export-Icons. Wenn Sie mehrere Bilder auf einmal "
+"exportieren, werden sie in einem zip Archiv zusammengepackt.\n"
 "Sie können entweder in eine andere App exportieren, oder die Bilder im "
-"Dateisystem speichern. Wenn Sie ins Dateisystem speichern, werden die "
-"Bilder für gewöhnlich in das 'Pictures' Verzeichnis abgelegt. Der genaue "
-"Speicherort wird nach dem Export angezeigt."
+"Dateisystem speichern. Wenn Sie ins Dateisystem speichern, werden die Bilder für "
+"gewöhnlich in das 'Pictures' Verzeichnis abgelegt. Der genaue Speicherort wird "
+"nach dem Export angezeigt."
 
 #. TODO: image of context tool-bar with explanations
 msgctxt "faq_image_menu_how_to_delete_q"
@@ -4114,14 +4911,13 @@ msgstr "Wie lösche ich Bilder?"
 
 msgctxt "faq_image_menu_how_to_delete_a"
 msgid ""
-"Long-press on the image until the icons in the toolbar change. Then "
-"select the trashcan icon. You can also delete several images at once by "
-"selecting them before pressing the trashcan icon."
+"Long-press on the image until the icons in the toolbar change. Then select the "
+"trashcan icon. You can also delete several images at once by selecting them "
+"before pressing the trashcan icon."
 msgstr ""
-"Drücken Sie lange auf das Bild, bis die Icons in der Aktionsleiste "
-"wechseln. Dann wählen Sie das Mülleimer-Symbol. Sie können auch mehrere "
-"Bilder auf einmal löschen, indem Sie sie anwählen bevor Sie das M"
-"ülleimer-Symbol drücken."
+"Drücken Sie lange auf das Bild, bis die Icons in der Aktionsleiste wechseln. "
+"Dann wählen Sie das Mülleimer-Symbol. Sie können auch mehrere Bilder auf einmal "
+"löschen, indem Sie sie anwählen bevor Sie das Mülleimer-Symbol drücken."
 
 msgctxt "faq_image_menu_transfer_images_q"
 msgid "How can I transfer editable data between devices?"
@@ -4129,43 +4925,39 @@ msgstr "Wie kann ich Bilder im editierbaren Format zwischen Geräten kopieren?"
 
 msgctxt "faq_image_menu_transfer_images_a"
 msgid ""
-"If your devices have an SD-card slot, you can move the storage directory "
-"to SD card: in the settings, enter section 'Storage' and then 'Data "
-"directory'. There, you should be able to select the SD card directory and"
-" move all data into this directory. Now place the SD card into the new "
-"device and also change the data directory to SD card.\n"
-" In case you do not have an SD-card slot, enter the 'Export' settings and"
-" set the export format to 'ImageMeter image' (.IMI) or 'ImageMeter "
-"folder' (.IMF). Then export the data you want to transfer in these "
-"formats. The files can be opened again on other devices and the editable "
-"images will be imported."
+"If your devices have an SD-card slot, you can move the storage directory to SD "
+"card: in the settings, enter section 'Storage' and then 'Data directory'. There, "
+"you should be able to select the SD card directory and move all data into this "
+"directory. Now place the SD card into the new device and also change the data "
+"directory to SD card.\n"
+" In case you do not have an SD-card slot, enter the 'Export' settings and set "
+"the export format to 'ImageMeter image' (.IMI) or 'ImageMeter folder' (.IMF). "
+"Then export the data you want to transfer in these formats. The files can be "
+"opened again on other devices and the editable images will be imported."
 msgstr ""
-"Falls Ihr Gerät einen SD-Kartenslot hat, können Sie das Datenverzeichnis "
-"auf SD-Karte verschieben: in den Einstellungen den Abschnitt "
-"'Speicherverwaltung' und dann 'Datenverzeichnis' öffnen. Dort sollten Sie"
-" das Verzeichnis Ihrer SD-Karte auswählen können und alle Daten dorthin "
-"verschieben. Nun stecken Sie die SD-Karte in das neue Gerät und ändern "
-"auch das Datenverzeichnis auf die SD-Karten.\n"
+"Falls Ihr Gerät einen SD-Kartenslot hat, können Sie das Datenverzeichnis auf SD-"
+"Karte verschieben: in den Einstellungen den Abschnitt 'Speicherverwaltung' und "
+"dann 'Datenverzeichnis' öffnen. Dort sollten Sie das Verzeichnis Ihrer SD-Karte "
+"auswählen können und alle Daten dorthin verschieben. Nun stecken Sie die SD-"
+"Karte in das neue Gerät und ändern auch das Datenverzeichnis auf die SD-Karten.\n"
 "Falls Sie keinen SD-Kartenslot haben, öffnen Sie in den Einstellungen "
-"\"Bildexport\" und setzen das Exportformat für auf 'ImageMeter-Bild' "
-"(.IMI) bzw. 'ImageMeter Verzeichnisarchiv' (.IMF). Dann exportieren Sie "
-"die Daten in diesem Format. Die Dateien können dann wieder auf einem "
-"anderen Gerät geöffnet werden, wo sie wie vorher weiter bearbeitet werden"
-" können."
+"\"Bildexport\" und setzen das Exportformat für auf 'ImageMeter-Bild' (.IMI) bzw. "
+"'ImageMeter Verzeichnisarchiv' (.IMF). Dann exportieren Sie die Daten in diesem "
+"Format. Die Dateien können dann wieder auf einem anderen Gerät geöffnet werden, "
+"wo sie wie vorher weiter bearbeitet werden können."
 
 msgctxt "faq_image_menu_free_to_pro_q"
 msgid "How can I transfer images from the free version to the pro version?"
 msgstr ""
-"Wie kann ich meine Bilder von der freien Version in die Pro-Version "
-"importieren?"
+"Wie kann ich meine Bilder von der freien Version in die Pro-Version importieren?"
 
 msgctxt "faq_image_menu_free_to_pro_a"
 msgid ""
-"In the main screen of the pro version, there is a menu item to import the"
-" images from the free app."
+"In the main screen of the pro version, there is a menu item to import the images "
+"from the free app."
 msgstr ""
-"Im Startbildschirm der Pro-Version gibt es einen Menüeintrag alle Bilder "
-"aus der freien App zu importieren."
+"Im Startbildschirm der Pro-Version gibt es einen Menüeintrag alle Bilder aus der "
+"freien App zu importieren."
 
 msgctxt "faq_image_menu_backup_data_q"
 msgid "How can I make a backup of all data?"
@@ -4173,20 +4965,20 @@ msgstr "Wie kann ich ein Backup aller Daten machen?"
 
 msgctxt "faq_image_menu_backup_data_a"
 msgid ""
-"Enter the settings, section 'Storage' and then 'Data directory' to see in"
-" which directory ImageMeter stores its data. Usually, this is "
-"'/sdcard/&lt;wbr/&gt;Android/&lt;wbr/&gt;data/&lt;wbr/&gt;de.dirkfarin.imagemeterpro/&lt;wbr/&gt;files/&lt;wbr/&gt;projects'."
-" In this directory, you will find all ImageMeter folders and within these"
-" one folder for each image. You can simply copy these folders to other "
-"devices for backup."
+"Enter the settings, section 'Storage' and then 'Data directory' to see in which "
+"directory ImageMeter stores its data. Usually, this is '/sdcard/&lt;wbr/&gt;"
+"Android/&lt;wbr/&gt;data/&lt;wbr/&gt;de.dirkfarin.imagemeterpro/&lt;wbr/&gt;"
+"files/&lt;wbr/&gt;projects'. In this directory, you will find all ImageMeter "
+"folders and within these one folder for each image. You can simply copy these "
+"folders to other devices for backup."
 msgstr ""
 "Öffnen Sie die Einstellungen, Abschnitt 'Speicherverwaltung' und dann "
-"'Datenverzeichnis', um zu sehen in welchem Verzeichnis ImageMeter seine "
-"Daten abspeichert. Im Normalfall ist dies "
-"'/sdcard/&lt;wbr/&gt;Android/&lt;wbr/&gt;data/&lt;wbr/&gt;de.dirkfarin.imagemeterpro/&lt;wbr/&gt;files/&lt;wbr/&gt;projects'."
-" In diesem Verzeichnis finden Sie alle ImageMeter Ordner und innerhalb "
-"dieser je ein Verzeichnis für jedes Bild. Sie können diese Verzeichnisse "
-"einfach als Backup auf ein anderes Gerät kopieren."
+"'Datenverzeichnis', um zu sehen in welchem Verzeichnis ImageMeter seine Daten "
+"abspeichert. Im Normalfall ist dies '/sdcard/&lt;wbr/&gt;Android/&lt;wbr/&gt;"
+"data/&lt;wbr/&gt;de.dirkfarin.imagemeterpro/&lt;wbr/&gt;files/&lt;wbr/&gt;"
+"projects'. In diesem Verzeichnis finden Sie alle ImageMeter Ordner und innerhalb "
+"dieser je ein Verzeichnis für jedes Bild. Sie können diese Verzeichnisse einfach "
+"als Backup auf ein anderes Gerät kopieren."
 
 msgctxt "faq_auto_measure_section"
 msgid "Automatic measurement"
@@ -4198,22 +4990,20 @@ msgstr "Wie benutze ich die automatische Vermessung?"
 
 msgctxt "faq_auto_measure_howto_a"
 msgid ""
-"In order to perform automatic measurements, you have to provide a "
-"reference measurement. This is a rectangle with known side lengths. After"
-" you have drawn the reference, select the dimension you want to have "
-"computed and press the 'calculator' icon or the 'compute value' menu "
-"item. If there is only one reference in the image or if a reference is "
-"active while you add a new measure, this reference will automatically be "
-"used for computing the measure value."
+"In order to perform automatic measurements, you have to provide a reference "
+"measurement. This is a rectangle with known side lengths. After you have drawn "
+"the reference, select the dimension you want to have computed and press the "
+"'calculator' icon or the 'compute value' menu item. If there is only one "
+"reference in the image or if a reference is active while you add a new measure, "
+"this reference will automatically be used for computing the measure value."
 msgstr ""
-"Um die automatische Vermessung nutzen zu können, müssen Sie eine "
-"Referenzmessung angeben. Dies ist ein Rechteck mit bekannten "
-"Seitenlängen. Nachdem Sie die Referenz gezeichnet haben, wählen Sie die "
-"Bemaßung, welche Sie berechnet haben wollen und drücken auf das "
-"Taschenrechner-Symbol bzw. den Menüeintrag 'Wert berechnen'. Gibt es im "
-"Bild nur eine Referenz, oder ist eine Referenz aktiviert während Sie ein "
-"neues Maß eintragen, wird diese Referenz automatisch zur Berechnung "
-"genutzt."
+"Um die automatische Vermessung nutzen zu können, müssen Sie eine Referenzmessung "
+"angeben. Dies ist ein Rechteck mit bekannten Seitenlängen. Nachdem Sie die "
+"Referenz gezeichnet haben, wählen Sie die Bemaßung, welche Sie berechnet haben "
+"wollen und drücken auf das Taschenrechner-Symbol bzw. den Menüeintrag 'Wert "
+"berechnen'. Gibt es im Bild nur eine Referenz, oder ist eine Referenz aktiviert "
+"während Sie ein neues Maß eintragen, wird diese Referenz automatisch zur "
+"Berechnung genutzt."
 
 #. todo: example picture
 msgctxt "faq_auto_measure_expectation_q"
@@ -4224,21 +5014,20 @@ msgstr "Ich dachte, ImageMeter würde die Maße ohne Referenz bestimmen können.
 
 msgctxt "faq_auto_measure_expectation_a"
 msgid ""
-"This is impossible. From a single image, one cannot derive its scale. An "
-"image could show a real house or just a small toy. There is no way to "
-"know its true size from the image alone.\n"
-"You can give ImageMeter the missing information by adding a reference "
-"rectangle to the image. Based on this, ImageMeter can accurately compute "
-"all measures that lie in the same plane as this rectangle, including "
-"perspective foreshortening."
+"This is impossible. From a single image, one cannot derive its scale. An image "
+"could show a real house or just a small toy. There is no way to know its true "
+"size from the image alone.\n"
+"You can give ImageMeter the missing information by adding a reference rectangle "
+"to the image. Based on this, ImageMeter can accurately compute all measures that "
+"lie in the same plane as this rectangle, including perspective foreshortening."
 msgstr ""
-"Dies ist unmöglich. Von einem einzelnen Bild kann der Maßstab nicht "
-"ermittelt werden. Ein Bild könnte ein echtes Haus zeigen oder auch nur "
-"ein Spielzeug. Es ist unmöglich, die reale Größe daraus zu erkennen.\n"
-"Sie geben ImageMeter die fehlende Information, indem Sie das Referenz-"
-"Rechteck in das Bild einzeichnen. Mit diesem kann ImageMeter alle Maße "
-"genau berechnen, die in der gleichen Ebene liegen wie die Referenz, "
-"inklusive aller perspektivischen Verzerrungen."
+"Dies ist unmöglich. Von einem einzelnen Bild kann der Maßstab nicht ermittelt "
+"werden. Ein Bild könnte ein echtes Haus zeigen oder auch nur ein Spielzeug. Es "
+"ist unmöglich, die reale Größe daraus zu erkennen.\n"
+"Sie geben ImageMeter die fehlende Information, indem Sie das Referenz-Rechteck "
+"in das Bild einzeichnen. Mit diesem kann ImageMeter alle Maße genau berechnen, "
+"die in der gleichen Ebene liegen wie die Referenz, inklusive aller "
+"perspektivischen Verzerrungen."
 
 #. todo: add an example picture
 msgctxt "faq_auto_measure_ref_objects_q"
@@ -4247,18 +5036,18 @@ msgstr "Welche Objekte kann ich als Referenz benutzen?"
 
 msgctxt "faq_auto_measure_ref_objects_a"
 msgid ""
-"Whatever you like as long as it is rectangular. For measuring houses, "
-"windows are a good option. You can also pin a sheet of paper on the wall "
-"and use this. The reference even does not have to exist physically. Just "
-"four points that form an imagined rectangle will work. Try to choose the "
-"reference as large as possible to increase accuracy."
+"Whatever you like as long as it is rectangular. For measuring houses, windows "
+"are a good option. You can also pin a sheet of paper on the wall and use this. "
+"The reference even does not have to exist physically. Just four points that form "
+"an imagined rectangle will work. Try to choose the reference as large as "
+"possible to increase accuracy."
 msgstr ""
-"Was immer Sie wollen, solange es rechteckig ist. Um Häuser zu vermessen, "
-"sind z.B. Fenster eine gute Möglichkeit. Sie können auch ein Blatt Papier"
-" an die Wand kleben und dies benutzen. Die Referenz muss nicht einmal "
-"real existieren. Irgendwelche vier Punkte, die ein gedachtes Rechteck "
-"bilden, funktionieren ebenso. Versuchen Sie die Referenz zu groß wie "
-"möglich zu wählen, um die Genauigkeit zu erhöhen."
+"Was immer Sie wollen, solange es rechteckig ist. Um Häuser zu vermessen, sind z."
+"B. Fenster eine gute Möglichkeit. Sie können auch ein Blatt Papier an die Wand "
+"kleben und dies benutzen. Die Referenz muss nicht einmal real existieren. "
+"Irgendwelche vier Punkte, die ein gedachtes Rechteck bilden, funktionieren "
+"ebenso. Versuchen Sie die Referenz zu groß wie möglich zu wählen, um die "
+"Genauigkeit zu erhöhen."
 
 msgctxt "faq_auto_measure_accuracy_q"
 msgid "What is the accuracy of computed measurements?"
@@ -4268,16 +5057,14 @@ msgstr "Was ist die Genauigkeit der automatischen Vermessung?"
 msgctxt "faq_auto_measure_accuracy_a"
 msgid ""
 "In theory, the computed measurements are 100% accurate. In practice, the "
-"accuracy depends on how accurately you place the reference rectangle "
-"corners and on the lens distortions of the camera. In order to get the "
-"highest accuracy possible, you should choose a reference as large as "
-"possible."
+"accuracy depends on how accurately you place the reference rectangle corners and "
+"on the lens distortions of the camera. In order to get the highest accuracy "
+"possible, you should choose a reference as large as possible."
 msgstr ""
-"Theoretisch sind die berechneten Maße 100% genau. In der Praxis hängt die"
-" Genauigkeit davon ab, wie exakt Sie die Ecken der Referenz platzieren, "
-"und von der Objektivverzerrung der Kamera. Um eine möglichst hohe "
-"Genauigkeit zu erreichen, sollten Sie die Referenz so groß wie möglich "
-"wählen."
+"Theoretisch sind die berechneten Maße 100% genau. In der Praxis hängt die "
+"Genauigkeit davon ab, wie exakt Sie die Ecken der Referenz platzieren, und von "
+"der Objektivverzerrung der Kamera. Um eine möglichst hohe Genauigkeit zu "
+"erreichen, sollten Sie die Referenz so groß wie möglich wählen."
 
 msgctxt "faq_auto_measure_perspective_line_q"
 msgid "How do I use the 'Perspective line' tool?"
@@ -4285,37 +5072,35 @@ msgstr "Wie benutze ich das Werkzeug zur 'Perspektivischen Längenmessung'?"
 
 msgctxt "faq_auto_measure_perspective_line_a"
 msgid ""
-"Often, you may want to measure the height of a high object, or another "
-"distance along a line that is subject to perspective foreshortening.\n"
-" In this case, the 'Perspective line' tool can be used. It requires that "
-"you mark three points on a line: the zero point and two known points with"
-" their distance to the zero point. These three points are indicated with "
-"a small triangle.\n"
-" Now, you can additionally move a fourth point on the line whose distance"
-" to the zero point will be computed automatically. ImageMeter will also "
-"draw a couple of thin orthogonal lines that indicate the perspective "
-"foreshortening along the line. The last of these lines represents the "
-"horizont. Clearly, moving the measurement point across the horizont will "
-"not give you a valid measurement.\n"
-" Note that you do not need an additional reference when using this tool, "
-"since it combines its own reference and measurement in a single tool."
+"Often, you may want to measure the height of a high object, or another distance "
+"along a line that is subject to perspective foreshortening.\n"
+" In this case, the 'Perspective line' tool can be used. It requires that you "
+"mark three points on a line: the zero point and two known points with their "
+"distance to the zero point. These three points are indicated with a small "
+"triangle.\n"
+" Now, you can additionally move a fourth point on the line whose distance to the "
+"zero point will be computed automatically. ImageMeter will also draw a couple of "
+"thin orthogonal lines that indicate the perspective foreshortening along the "
+"line. The last of these lines represents the horizont. Clearly, moving the "
+"measurement point across the horizont will not give you a valid measurement.\n"
+" Note that you do not need an additional reference when using this tool, since "
+"it combines its own reference and measurement in a single tool."
 msgstr ""
-"Häufig stellt sich die Aufgabe, die Höhe eines sehr hohen Objekts oder "
-"eine andere Strecke zu messen, die perspektivisch verzerrt ist.\n"
-"Für diesen Fall kann die 'Perspektivische Längenmessung' benutzt werden. "
-"Diese setzt voraus, dass Sie drei Punkte auf der Gerade markieren: den "
-"Nullpunkt, und zwei bekannte Punkte mit ihrer Entfernung zum Nullpunkt. "
-"Diese drei Punkte sind mit einem kleinen Dreieck markiert.\n"
+"Häufig stellt sich die Aufgabe, die Höhe eines sehr hohen Objekts oder eine "
+"andere Strecke zu messen, die perspektivisch verzerrt ist.\n"
+"Für diesen Fall kann die 'Perspektivische Längenmessung' benutzt werden. Diese "
+"setzt voraus, dass Sie drei Punkte auf der Gerade markieren: den Nullpunkt, und "
+"zwei bekannte Punkte mit ihrer Entfernung zum Nullpunkt. Diese drei Punkte sind "
+"mit einem kleinen Dreieck markiert.\n"
 "Danach können Sie einen vierten Punkt auf dieser Linie bewegen, um seine "
-"Entfernung zum Nullpunkt automatisch zu berechnen. ImageMeter wird auch "
-"eine Schar orthogonaler Linien zeichnen, welche die perspektivische "
-"Verzerrung entlang der Linie visualisiert. Die letzte dieser Linien "
-"repräsentiert den Horizont. Falls Sie den Meßpunkt über den Horizont "
-"hinwegschieben, kann natürlich keine valide Messung durchgeführt werden."
-"\n"
+"Entfernung zum Nullpunkt automatisch zu berechnen. ImageMeter wird auch eine "
+"Schar orthogonaler Linien zeichnen, welche die perspektivische Verzerrung "
+"entlang der Linie visualisiert. Die letzte dieser Linien repräsentiert den "
+"Horizont. Falls Sie den Meßpunkt über den Horizont hinwegschieben, kann "
+"natürlich keine valide Messung durchgeführt werden.\n"
 "Beachten Sie, dass die 'Perspektivische Längenmessung' keine zusätzliche "
-"Referenz benötigt, da sie sowohl die Referenz als auch die Messung selbst"
-" in einem einzigen Werkzeug kombiniert."
+"Referenz benötigt, da sie sowohl die Referenz als auch die Messung selbst in "
+"einem einzigen Werkzeug kombiniert."
 
 msgctxt "faq_bluetooth_section"
 msgid "Bluetooth"
@@ -4363,49 +5148,44 @@ msgstr "Wie verbinde ich ein Bluetooth-Gerät?"
 
 msgctxt "faq_bluetooth_connect_a"
 msgid ""
-"Usually, you can simply select your Bluetooth device in the ImageMeter "
-"settings. If the device is not paired yet, it will do so when you connect"
-" to it the first time. If this fails or if only the device address is "
-"shown instead of its name, it may help to first pair the device in the "
-"Android settings. If you have a device with Bluetooth LE, you do not need"
-" to pair it, but it has to be turned on to appear in the device list.\n"
-" Usually, the transmission protocol is detected automatically, but in "
-"rare cases, the device name is ambiguous and you have to set the protocol"
-" manually in the settings.\n"
-" To conntect to the device, press the Bluetooth button at the image menu "
-"screen. It will blink until the connection is established. Eventually, it"
-" should turn blue to denote that the connection is active. Sometimes, the"
-" OS will ask you to enter the device pin again. On some devices, a small "
-"Bluetooth icon appears at the title bar and you have to swipe down to "
-"enter the pin.\n"
-" Also make sure that other apps connected to the laser distance meter are"
-" closed, as some block the connection while they are running in the "
-"background. The Leica D810 should be in app mode with encryption turned "
-"off."
+"Usually, you can simply select your Bluetooth device in the ImageMeter settings. "
+"If the device is not paired yet, it will do so when you connect to it the first "
+"time. If this fails or if only the device address is shown instead of its name, "
+"it may help to first pair the device in the Android settings. If you have a "
+"device with Bluetooth LE, you do not need to pair it, but it has to be turned on "
+"to appear in the device list.\n"
+" Usually, the transmission protocol is detected automatically, but in rare "
+"cases, the device name is ambiguous and you have to set the protocol manually in "
+"the settings.\n"
+" To conntect to the device, press the Bluetooth button at the image menu screen. "
+"It will blink until the connection is established. Eventually, it should turn "
+"blue to denote that the connection is active. Sometimes, the OS will ask you to "
+"enter the device pin again. On some devices, a small Bluetooth icon appears at "
+"the title bar and you have to swipe down to enter the pin.\n"
+" Also make sure that other apps connected to the laser distance meter are "
+"closed, as some block the connection while they are running in the background. "
+"The Leica D810 should be in app mode with encryption turned off."
 msgstr ""
 "Normalerweise reicht es, das Bluetoothgerät einfach in den ImageMeter-"
-"Einstellungen auszuwählen. Falls das Gerät noch nicht gekoppelt ist, wird"
-" es bei der ersten Verbindung automatisch gekoppelt. Sollte dies nicht "
-"funktionieren oder sollte anstelle des Gerätenamen nur die Adresse "
-"angezeigt werden, so kann es helfen, das Gerät zuerst in den Android-"
-"Einstellungen zu koppeln. Ein Gerät mit Bluetooth LE muss nicht gekoppelt"
-" werden, aber es muss eingeschaltet sein, um in der Geräteliste "
-"aufzutauchen.\n"
-"Normalerweise wird das Übertragungsprotokoll automatisch erkannt, aber in"
-" seltenen Fällen ist der Gerätename mehrdeutig und Sie müssen das "
-"Protokoll manuell in den Einstellungen setzen.\n"
-"Um die Verbindung zu dem Gerät aufzubauen, drücken Sie das Bluetooth-"
-"Symbol. Das Symbol blinkt bis die Verbindung aufgebaut wird. Schließlich "
-"färbt es sich blau, um zu zeigen, dass die Verbindung aufgebaut ist. "
-"Manchmal wird das Betriebssystem Sie auffordern, die Geräte-PIN nochmals "
-"einzugeben. Auf manchen Geräten erscheint dazu ein kleines Bluetooth-"
-"Symbol in der Titelzeile und Sie müssen nach unten wischen, um die PIN "
-"eingeben zu können.\n"
+"Einstellungen auszuwählen. Falls das Gerät noch nicht gekoppelt ist, wird es bei "
+"der ersten Verbindung automatisch gekoppelt. Sollte dies nicht funktionieren "
+"oder sollte anstelle des Gerätenamen nur die Adresse angezeigt werden, so kann "
+"es helfen, das Gerät zuerst in den Android-Einstellungen zu koppeln. Ein Gerät "
+"mit Bluetooth LE muss nicht gekoppelt werden, aber es muss eingeschaltet sein, "
+"um in der Geräteliste aufzutauchen.\n"
+"Normalerweise wird das Übertragungsprotokoll automatisch erkannt, aber in "
+"seltenen Fällen ist der Gerätename mehrdeutig und Sie müssen das Protokoll "
+"manuell in den Einstellungen setzen.\n"
+"Um die Verbindung zu dem Gerät aufzubauen, drücken Sie das Bluetooth-Symbol. Das "
+"Symbol blinkt bis die Verbindung aufgebaut wird. Schließlich färbt es sich blau, "
+"um zu zeigen, dass die Verbindung aufgebaut ist. Manchmal wird das "
+"Betriebssystem Sie auffordern, die Geräte-PIN nochmals einzugeben. Auf manchen "
+"Geräten erscheint dazu ein kleines Bluetooth-Symbol in der Titelzeile und Sie "
+"müssen nach unten wischen, um die PIN eingeben zu können.\n"
 "Stellen Sie auch sicher, dass andere Apps, die sich mit dem Laser-"
 "Entfernungsmesser verbunden haben, beendet sind, da einige die Bluetooth-"
-"Verbindung blockieren wenn sie im Hintergrund laufen. Das Leica D810 "
-"sollte im App-Modus sein und die Verschlüsselung sollte abgeschaltet "
-"sein."
+"Verbindung blockieren wenn sie im Hintergrund laufen. Das Leica D810 sollte im "
+"App-Modus sein und die Verschlüsselung sollte abgeschaltet sein."
 
 msgctxt "faq_bluetooth_usage_q"
 msgid "How do I transmit values via Bluetooth?"
@@ -4413,19 +5193,17 @@ msgstr "Wie übertrage ich Werte über Bluetooth?"
 
 msgctxt "faq_bluetooth_usage_a"
 msgid ""
-"In the image editor, draw a measure or select one. Now press the "
-"'transmit' button on your laser distance meter. On some devices, there is"
-" no 'transmit' button and the measurement will be transmitted as soon as "
-"it is taken.\n"
-" Note that you should &lt;b&gt;not&lt;/b&gt; enter the value-entry dialog"
-" to transmit the value."
+"In the image editor, draw a measure or select one. Now press the 'transmit' "
+"button on your laser distance meter. On some devices, there is no 'transmit' "
+"button and the measurement will be transmitted as soon as it is taken.\n"
+" Note that you should &lt;b&gt;not&lt;/b&gt; enter the value-entry dialog to "
+"transmit the value."
 msgstr ""
-"Zeichnen Sie eine Bemaßung im Bildeditor und wählen diese aus. Drücken "
-"Sie nun die 'Senden' Taste auf dem Entfernungsmesser. Bei manchen Geräten"
-" gibt es keine 'Senden' Taste. Dort wird der Wert direkt bei der Messung "
-"übertragen.\n"
-"Beachten Sie, dass die Dialog zur manuellen Werteingabe "
-"&lt;b>nicht&lt;/b> geöffnet sein sollte, wenn sie den Wert übertragen."
+"Zeichnen Sie eine Bemaßung im Bildeditor und wählen diese aus. Drücken Sie nun "
+"die 'Senden' Taste auf dem Entfernungsmesser. Bei manchen Geräten gibt es keine "
+"'Senden' Taste. Dort wird der Wert direkt bei der Messung übertragen.\n"
+"Beachten Sie, dass die Dialog zur manuellen Werteingabe &lt;b>nicht&lt;/b> "
+"geöffnet sein sollte, wenn sie den Wert übertragen."
 
 msgctxt "faq_other_section"
 msgid "Other"
@@ -4439,31 +5217,29 @@ msgctxt "faq_other_free_vs_pro_a"
 msgid ""
 "The free version has the following limitations:&lt;ul&gt; &lt;li&gt;adds "
 "watermarks into the exported images,&lt;/li&gt; &lt;li&gt;maximum of 5 "
-"dimensions per image,&lt;/li&gt; &lt;li&gt;transfer distances of up to 3 "
-"meters via Bluetooth.&lt;/li&gt; &lt;/ul&gt; If ImageMeter is useful to "
-"you, please upgrade to the pro version to support further development."
+"dimensions per image,&lt;/li&gt; &lt;li&gt;transfer distances of up to 3 meters "
+"via Bluetooth.&lt;/li&gt; &lt;/ul&gt; If ImageMeter is useful to you, please "
+"upgrade to the pro version to support further development."
 msgstr ""
 "Die freie Version hat die folgenden Einschränkungen:&lt;ul>\n"
 "&lt;li>exportiere Bilder enthalten Wasserzeichen,&lt;/lt>\n"
 "&lt;li>maximal 5 Bemaßungen pro Bild,&lt;/li>\n"
-"&lt;li>Entfernungen bis zu 3 Meter können mit Bluetooth übertragen "
-"werden.&lt;/li>\n"
+"&lt;li>Entfernungen bis zu 3 Meter können mit Bluetooth übertragen werden.&lt;/"
+"li>\n"
 "&lt;/ul>\n"
-"Falls ImageMeter nützlich für Sie ist, bitte nutzen Sie die Pro-Version, "
-"um die weitere Entwicklung zu unterstützen."
+"Falls ImageMeter nützlich für Sie ist, bitte nutzen Sie die Pro-Version, um die "
+"weitere Entwicklung zu unterstützen."
 
 msgctxt "faq_other_upgrading_vs_native_pro_q"
 msgid ""
-"What is the difference between upgrading the free version and installing "
-"the pro version?"
+"What is the difference between upgrading the free version and installing the pro "
+"version?"
 msgstr ""
-"Was ist der Unterschied zwischen einem Upgrade der freien App und der "
-"Pro-App?"
+"Was ist der Unterschied zwischen einem Upgrade der freien App und der Pro-App?"
 
 msgctxt "faq_other_upgrading_vs_native_pro_a"
 msgid ""
-"There is no difference. Both options will give you exactly the same "
-"features."
+"There is no difference. Both options will give you exactly the same features."
 msgstr "Es gibt keinen Unterschied. Beides gibt Ihnen exakt die gleichen Features."
 
 msgctxt "faq_other_disable_FAQ_button_q"
@@ -4472,8 +5248,8 @@ msgstr "Wie kann ich den Hilfe-Button abschalten?"
 
 msgctxt "faq_other_disable_FAQ_button_a"
 msgid ""
-"There is a setting for this in the preferences (in section 'User "
-"Interface'). When turned off, you can access the FAQ from the menu."
+"There is a setting for this in the preferences (in section 'User Interface'). "
+"When turned off, you can access the FAQ from the menu."
 msgstr ""
 "Es gibt dazu eine Option in den App-Einstellungen (im Abschnitt "
 "'Benutzerinterface'). Nach dem Abschalten kann diese Seite über das Menü "
@@ -4485,11 +5261,11 @@ msgstr "Ich habe eine andere Frage, wen kann ich fragen?"
 
 msgctxt "faq_other_contact_a"
 msgid ""
-"Please write to &lt;a "
-"href=\"mailto:imagemeter@gmail.com\"&gt;imagemeter@gmail.com&lt;/a&gt;."
+"Please write to &lt;a href=\"mailto:imagemeter@gmail.com\"&gt;imagemeter@gmail."
+"com&lt;/a&gt;."
 msgstr ""
-"Bitte schreiben Sie an &lt;a "
-"href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com&lt;/a>."
+"Bitte schreiben Sie an &lt;a href=\"mailto:imagemeter@gmail.com"
+"\">imagemeter@gmail.com&lt;/a>."
 
 #. TODO: Remove or change this placeholder text
 msgctxt "image_info_image_name"
@@ -4500,13 +5276,13 @@ msgctxt "image_info_capture_date"
 msgid "Capture Date"
 msgstr "Aufnahmedatum"
 
+msgctxt "image_info_creation_date"
+msgid "Creation Date"
+msgstr ""
+
 msgctxt "image_info_original_resolution"
 msgid "Original Image Resolution"
 msgstr "Bildauflösung des Originals"
-
-msgctxt "image_info_export_resolution"
-msgid "Exported Image Resolution"
-msgstr "Bildauflösung des exportierten Bildes"
 
 msgctxt "image_info_gps_coordinates"
 msgid "GPS Coordinates"
@@ -4520,8 +5296,103 @@ msgctxt "value_entry_unit_unit"
 msgid "Unit"
 msgstr "Einheit"
 
-#. TODO: Remove or change this placeholder text
-msgctxt "hello_blank_fragment"
-msgid "Hello blank fragment"
+#. date strings
+msgctxt "month_names_short_1"
+msgid "Jan"
 msgstr ""
 
+msgctxt "month_names_short_2"
+msgid "Feb"
+msgstr ""
+
+msgctxt "month_names_short_3"
+msgid "Mar"
+msgstr ""
+
+msgctxt "month_names_short_4"
+msgid "Apr"
+msgstr ""
+
+msgctxt "month_names_short_5"
+msgid "May"
+msgstr ""
+
+msgctxt "month_names_short_6"
+msgid "Jun"
+msgstr ""
+
+msgctxt "month_names_short_7"
+msgid "Jul"
+msgstr ""
+
+msgctxt "month_names_short_8"
+msgid "Aug"
+msgstr ""
+
+msgctxt "month_names_short_9"
+msgid "Sep"
+msgstr ""
+
+msgctxt "month_names_short_10"
+msgid "Oct"
+msgstr ""
+
+msgctxt "month_names_short_11"
+msgid "Nov"
+msgstr ""
+
+msgctxt "month_names_short_12"
+msgid "Dec"
+msgstr ""
+
+msgctxt "month_names_long_1"
+msgid "January"
+msgstr ""
+
+msgctxt "month_names_long_2"
+msgid "February"
+msgstr ""
+
+msgctxt "month_names_long_3"
+msgid "March"
+msgstr ""
+
+msgctxt "month_names_long_4"
+msgid "April"
+msgstr ""
+
+msgctxt "month_names_long_5"
+msgid "May"
+msgstr ""
+
+msgctxt "month_names_long_6"
+msgid "June"
+msgstr ""
+
+msgctxt "month_names_long_7"
+msgid "July"
+msgstr ""
+
+msgctxt "month_names_long_8"
+msgid "August"
+msgstr ""
+
+msgctxt "month_names_long_9"
+msgid "September"
+msgstr ""
+
+msgctxt "month_names_long_10"
+msgid "October"
+msgstr ""
+
+msgctxt "month_names_long_11"
+msgid "November"
+msgstr ""
+
+msgctxt "month_names_long_12"
+msgid "December"
+msgstr ""
+
+msgctxt "dialog_pdf_options_show_dialog"
+msgid "Show PDF options next time"
+msgstr ""
