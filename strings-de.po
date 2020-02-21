@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-18 10:28+0100\n"
-"PO-Revision-Date: 2020-02-18 10:33+0100\n"
+"POT-Creation-Date: 2020-02-18 12:06+0100\n"
+"PO-Revision-Date: 2020-02-18 12:32+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -38,7 +38,7 @@ msgstr "Warnung"
 
 msgctxt "generic_dialog_title_note"
 msgid "Note"
-msgstr ""
+msgstr "Hinweis"
 
 msgctxt "generic_lowercase_yes"
 msgid "yes"
@@ -54,19 +54,19 @@ msgstr "unbekannt"
 
 msgctxt "generic_confirm_delete"
 msgid "Really delete"
-msgstr ""
+msgstr "Wirklich löschen"
 
 msgctxt "generic_cancel"
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 msgctxt "generic_undo"
 msgid "Undo"
-msgstr ""
+msgstr "Rückgängig"
 
 msgctxt "notification_generic_error_title"
 msgid "Error"
-msgstr ""
+msgstr "Fehler"
 
 msgctxt "notification_bkg_rendering_title"
 msgid "Image rendering in progress…"
@@ -480,10 +480,9 @@ msgctxt "default_image_name_prefix_captured"
 msgid "captured on (OBSOLET)"
 msgstr "aufgenommen am"
 
-#, fuzzy
 msgctxt "default_image_name_prefix_with_date"
 msgid "image from {M} {d}, {yyyy}"
-msgstr "Bild vom [dd. MMM yyyy]"
+msgstr "Bild vom {d}. {M} {yyyy}"
 
 #. image import from free app
 msgctxt "imageselect_result_import_free_app_finished"
@@ -621,15 +620,39 @@ msgctxt "dialog_image_export_image_size"
 msgid "Image size"
 msgstr "Bildgröße"
 
+#. PDF export
+msgctxt "dialog_pdf_export_layout"
+msgid "Layout"
+msgstr "Layout"
+
+msgctxt "dialog_pdf_export_metadata"
+msgid "Metadata"
+msgstr "Zusatzinformationen"
+
+msgctxt "dialog_pdf_export_space_for_notes"
+msgid "Space for image notes"
+msgstr "Platz für Bildnotizen"
+
+msgctxt "dialog_pdf_export_print_table_of_content"
+msgid "Print table of content"
+msgstr "Inhaltsverzeichnis drucken"
+
+msgctxt "dialog_pdf_export_print_folder_notes"
+msgid "Print folder notes"
+msgstr "Verzeichnisnotizen drucken"
+
+msgctxt "dialog_pdf_export_paper"
+msgid "Paper"
+msgstr "Papierformat"
+
 #. dialogs
-#, fuzzy
 msgctxt "imageselect_dialog_image_name_image_title"
 msgid "Image name"
 msgstr "Bildname"
 
 msgctxt "imageselect_dialog_image_name_title_hint"
 msgid "Enter image name"
-msgstr ""
+msgstr "Bildname eingeben"
 
 #. string name="imageselect_dialog_image_name_capture_date">Capture
 #. date:</string
@@ -639,7 +662,7 @@ msgstr "Notizen"
 
 msgctxt "imageselect_dialog_image_name_number"
 msgid "Number"
-msgstr ""
+msgstr "Bildnummer"
 
 #. Dialog: image import
 msgctxt "dialog_data_import_progress_message"
@@ -1679,7 +1702,7 @@ msgstr "Editor"
 
 msgctxt "pref_category_editor_general"
 msgid "General"
-msgstr ""
+msgstr "Allgemein"
 
 msgctxt "pref_category_ui_general"
 msgid "General"
@@ -1687,11 +1710,11 @@ msgstr "Allgemein"
 
 msgctxt "pref_category_ui_workflow"
 msgid "Workflow"
-msgstr ""
+msgstr "Arbeitsablauf"
 
 msgctxt "pref_category_ui_numbering"
 msgid "Image numbering"
-msgstr ""
+msgstr "Bildnummern"
 
 msgctxt "pref_category_editor_styling"
 msgid "Styling"
@@ -1800,31 +1823,31 @@ msgstr "Hoch"
 
 msgctxt "pref_category_editor_tools"
 msgid "Drawing tools"
-msgstr ""
+msgstr "Zeichenwerkzeuge"
 
 msgctxt "pref_editor_tools_freehand_end_delay"
 msgid "End freehand drawing delay"
-msgstr ""
+msgstr "Beenden der Freihandzeichnung"
 
 msgctxt "pref_editor_tools_freehand_end_delay_choices:0"
 msgid "Off"
-msgstr ""
+msgstr "Nicht automatisch beenden"
 
 msgctxt "pref_editor_tools_freehand_end_delay_choices:1"
 msgid "Short"
-msgstr ""
+msgstr "Nach kurzer Verzögerung"
 
 msgctxt "pref_editor_tools_freehand_end_delay_choices:2"
 msgid "Normal"
-msgstr ""
+msgstr "Nach normaler Verzögerung"
 
 msgctxt "pref_editor_tools_freehand_end_delay_choices:3"
 msgid "Long"
-msgstr ""
+msgstr "Nach langer Verzögerung"
 
 msgctxt "pref_category_editor_drawing_tools"
 msgid "Drawing Tools"
-msgstr ""
+msgstr "Zeichenwerkzeuge"
 
 msgctxt "pref_category_measures"
 msgid "Measures"
@@ -2136,35 +2159,35 @@ msgstr "Bildexport"
 
 msgctxt "pref_export_image_show_options"
 msgid "Set options at export"
-msgstr ""
+msgstr "Bildoptionen"
 
 msgctxt "pref_export_image_show_options_summary_on"
 msgid "Image options can be set at export"
-msgstr ""
+msgstr "Bildoptionen beim Export anzeigen"
 
 msgctxt "pref_export_image_show_options_summary_off"
 msgid "Options dialog will be skipped"
-msgstr ""
+msgstr "Bildexport mit gespeicherten Optionen"
 
 msgctxt "pref_export_show_format_selection"
 msgid "Choose format when exporting"
-msgstr ""
+msgstr "Exportformat"
 
 msgctxt "pref_export_show_format_selection_summary_on"
 msgid "Format selection will be shown each time"
-msgstr ""
+msgstr "Exportformat beim Export wählen"
 
 msgctxt "pref_export_show_format_selection_summary_off"
 msgid "Selected format will be used always"
-msgstr ""
+msgstr "Export mit gespeichertem Format"
 
 msgctxt "pref_category_export_format_and_rendering"
 msgid "Format and rendering"
-msgstr ""
+msgstr "Format und Rendering"
 
 msgctxt "pref_category_export_image"
 msgid "Image settings"
-msgstr ""
+msgstr "Bildeinstellungen"
 
 msgctxt "pref_export_format"
 msgid "Image format"
@@ -2234,10 +2257,9 @@ msgctxt "pref_export_multi_images_format_choices:2"
 msgid "Zip archive of images"
 msgstr "ZIP-Archive mit Bildern"
 
-#, fuzzy
 msgctxt "pref_export_multi_images_format_choices:3"
 msgid "ImageMeter folder (IMF)"
-msgstr "ImageMeter Verzeichnisarchiv (.imf)"
+msgstr "ImageMeter Ordner (.imf)"
 
 msgctxt "pref_export_single_image_format"
 msgid "Export images as"
@@ -2263,7 +2285,6 @@ msgid "Zip archive of images"
 msgstr "ZIP-Archive mit Bildern"
 
 #. TODO: FIX other languages
-#, fuzzy
 msgctxt "pref_export_single_image_format_choices:3"
 msgid "ImageMeter image (IMI)"
 msgstr "ImageMeter-Bild (.imi)"
@@ -2271,12 +2292,12 @@ msgstr "ImageMeter-Bild (.imi)"
 #. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:4"
 msgid "ImageMeter folder (IMF)"
-msgstr ""
+msgstr "ImageMeter Ordner (.imf)"
 
 #. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:5"
 msgid "Save to gallery"
-msgstr ""
+msgstr "In Fotogallery abspeichern"
 
 msgctxt "pref_export_render_image_title"
 msgid "Show image title"
@@ -2308,15 +2329,15 @@ msgstr "PDF Einstellungen"
 
 msgctxt "pref_export_pdf_show_options"
 msgid "Set options at export"
-msgstr ""
+msgstr "PDF-Optionen"
 
 msgctxt "pref_export_pdf_show_options_summary_on"
 msgid "PDF options can be set at export"
-msgstr ""
+msgstr "PDF-Optionen beim Export anzeigen"
 
 msgctxt "pref_export_pdf_show_options_summary_off"
 msgid "Options dialog will be skipped"
-msgstr ""
+msgstr "Export mit gespeicherten PDF-Optionen"
 
 msgctxt "pref_export_pdf_images_per_page"
 msgid "Images per PDF page"
@@ -2453,7 +2474,7 @@ msgstr "10%"
 
 msgctxt "dialog_pdf_options_image_notes_space_choices:0"
 msgid "Do not print notes"
-msgstr ""
+msgstr "Bildnotizen nicht drucken"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
@@ -2699,7 +2720,7 @@ msgstr "Nur wichtige Hilfemeldungen zeigen"
 
 msgctxt "pref_category_editor_magnifier"
 msgid "Magnifier"
-msgstr ""
+msgstr "Lupe"
 
 msgctxt "pref_ui_use_magnifier"
 msgid "Enable magnifier"
@@ -2769,48 +2790,45 @@ msgctxt "pref_ui_image_order_criterium_dialog"
 msgid "Image sorting order"
 msgstr "Sortierkriterium für Bilder"
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:0"
 msgid "Image name (ascending)"
-msgstr "Bildname"
+msgstr "Bildname (aufsteigend)"
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:1"
 msgid "Image name (descending)"
-msgstr "Datum (älteste zuerst)"
+msgstr "Bildname (absteigend)"
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:2"
 msgid "Capture date (oldest first)"
-msgstr "Datum (neuste zuerst)"
+msgstr "Datum (älteste zuerst)"
 
 msgctxt "pref_ui_image_order_criterium_choices:3"
 msgid "Capture date (latest first)"
-msgstr ""
+msgstr "Datum (neuste zuerst)"
 
 msgctxt "pref_ui_image_order_criterium_choices:4"
 msgid "Number (ascending)"
-msgstr ""
+msgstr "Bildnummer (aufsteigend)"
 
 msgctxt "pref_ui_image_order_criterium_choices:5"
 msgid "Number (descending)"
-msgstr ""
+msgstr "Bildnummer (absteigend)"
 
 msgctxt "pref_ui_image_auto_numbering_active"
 msgid "Enable auto-numbering"
-msgstr ""
+msgstr "Automatische Nummerierung"
 
 msgctxt "pref_ui_image_auto_numbering_start"
 msgid "Start number"
-msgstr ""
+msgstr "Startnummer"
 
 msgctxt "pref_ui_image_auto_numbering_increment"
 msgid "Increment"
-msgstr ""
+msgstr "Schrittweite"
 
 msgctxt "pref_ui_image_auto_numbering_invalid_number"
 msgid "Invalid"
-msgstr ""
+msgstr "Ungültige Nummer"
 
 msgctxt "pref_ui_editor_fullscreen_mode_title"
 msgid "Editor fullscreen mode"
@@ -2888,39 +2906,39 @@ msgstr "Speicherverwaltung"
 
 msgctxt "pref_category_storage_deleted_files"
 msgid "Deleted files"
-msgstr ""
+msgstr "Bilder löschen"
 
 msgctxt "pref_storage_deleted_files_purge_now"
 msgid "Purge all deleted images now!"
-msgstr ""
+msgstr "Alle Bilder im Papierkorb endgültig entfernen"
 
 msgctxt "pref_storage_deleted_files_purge_delay"
 msgid "Purge interval"
-msgstr ""
+msgstr "Bilder im Papier endgültig löschen nach"
 
 msgctxt "pref_storage_deleted_files_purge_delay_dialog"
 msgid "Purge interval"
-msgstr ""
+msgstr "Bilder im Papier endgültig löschen nach"
 
 msgctxt "pref_storage_deleted_files_purge_delay_choices:0"
 msgid "1 day"
-msgstr ""
+msgstr "1 Tag"
 
 msgctxt "pref_storage_deleted_files_purge_delay_choices:1"
 msgid "1 week"
-msgstr ""
+msgstr "1 Woche"
 
 msgctxt "pref_storage_deleted_files_purge_delay_choices:2"
 msgid "1 month"
-msgstr ""
+msgstr "1 Monat"
 
 msgctxt "dialog_purge_images_title"
 msgid "Purging deleted images"
-msgstr ""
+msgstr "Bilder im Papierkorb werden gelöscht"
 
 msgctxt "dialog_purge_images_finished"
 msgid "All deleted images have been purged from memory."
-msgstr ""
+msgstr "Alle Bilder im Papierkorb wurden endgültig gelöscht."
 
 #. string name="pref_category_storage_sdcard">SD Card</string
 msgctxt "pref_storage_data_directory"
@@ -3126,10 +3144,9 @@ msgctxt "editor_menu_add_area"
 msgid "Area"
 msgstr "Fläche"
 
-#, fuzzy
 msgctxt "editor_menu_add_text"
 msgid "Note"
-msgstr "Text"
+msgstr "Notiz"
 
 msgctxt "editor_menu_add_freehand"
 msgid "Freehand"
@@ -3157,11 +3174,11 @@ msgstr "Ellipse"
 
 msgctxt "editor_menu_add_dimstring"
 msgid "Dimension string"
-msgstr ""
+msgstr "Maßkette"
 
 msgctxt "editor_menu_add_cumulative_dimstring"
 msgid "Cumulative string"
-msgstr ""
+msgstr "Summen-Maßkette"
 
 msgctxt "editor_menu_edit_delete"
 msgid "Delete element"
@@ -3191,14 +3208,13 @@ msgctxt "editor_menu_edit_redo"
 msgid "Redo"
 msgstr "Redo"
 
-#, fuzzy
 msgctxt "editor_menu_edit_rotate"
 msgid "Rotate image (CW)"
-msgstr "Bild drehen"
+msgstr "Bild drehen (rechts)"
 
 msgctxt "editor_menu_edit_rotate_ccw"
 msgid "Rotate image (CCW)"
-msgstr ""
+msgstr "Bild drehen (links)"
 
 msgctxt "editor_menu_edit_transfer_style"
 msgid "Transfer style"
@@ -3222,7 +3238,7 @@ msgstr "Maß entsperren"
 
 msgctxt "editor_menu_edit_imagesettings"
 msgid "Image settings"
-msgstr ""
+msgstr "Bildeinstellungen"
 
 msgctxt "editor_menu_color"
 msgid "Color"
@@ -3296,10 +3312,14 @@ msgstr ""
 msgctxt "editor_hint_howto_draw_dimstring"
 msgid "Please draw the first dimension string. Use the top toolbar to modify it."
 msgstr ""
+"Zeichnen Sie die erste Maßkette. Über die obere Werkzeugleiste können Sie "
+"weitere hinzufügen."
 
 msgctxt "editor_hint_howto_draw_dimstring_cumulative"
 msgid "Please draw the first dimension string. Use the top toolbar to modify it."
 msgstr ""
+"Zeichnen Sie die erste Maßkette. Über die obere Werkzeugleiste können Sie "
+"weitere hinzufügen."
 
 msgctxt "editor_hint_howto_attach_to_reference"
 msgid "Click on the measure you want to compute based on the selected reference."
@@ -3798,11 +3818,11 @@ msgstr "Linienbreite"
 
 msgctxt "editor_dialog_style_dimstring_title"
 msgid "Dimension string style"
-msgstr ""
+msgstr "Maßketten-Stil"
 
 msgctxt "editor_dialog_style_dimstring_show_marks"
 msgid "Show intersection marks"
-msgstr ""
+msgstr "Marker an Maßenden"
 
 msgctxt "editor_dialog_style_measurementpoint_title"
 msgid "Point style"
@@ -4011,39 +4031,39 @@ msgstr "Kreditkarte"
 
 msgctxt "editor_dimstring_mode_add_markers"
 msgid "Add measures"
-msgstr ""
+msgstr "Maße hinzufügen"
 
 msgctxt "editor_dimstring_mode_move_markers"
 msgid "Move measures"
-msgstr ""
+msgstr "Maße verschieben"
 
 msgctxt "editor_dimstring_mode_toggle_segments"
 msgid "Toggle segments"
-msgstr ""
+msgstr "Maßsegmente ein-/ausschalten"
 
 msgctxt "editor_dimstring_mode_move_strings"
 msgid "Move strings"
-msgstr ""
+msgstr "Maßketten verschieben"
 
 msgctxt "editor_dimstring_mode_set_values"
 msgid "Set values"
-msgstr ""
+msgstr "Nur Bemaßung eingeben"
 
 msgctxt "editor_dimstring_func_edit_mode"
 msgid "Select edit mode"
-msgstr ""
+msgstr "Editiermodus"
 
 msgctxt "editor_dimstring_func_add_string"
 msgid "Add string"
-msgstr ""
+msgstr "Maßkette hinzufügen"
 
 msgctxt "editor_dimstring_func_add_cumulative_string"
 msgid "Add cumulative string"
-msgstr ""
+msgstr "Summen-Maßkette hinzufügen"
 
 msgctxt "editor_dimstring_func_swap_orientation"
 msgid "Swap orientation"
-msgstr ""
+msgstr "Orientierung umdrehen"
 
 msgctxt "color_dialog_special_transparent"
 msgid "Transparent"
@@ -4401,73 +4421,73 @@ msgstr "U:"
 #. ImageSettings
 msgctxt "imagesettings_duallabel_mode_choices:0"
 msgid "Off"
-msgstr ""
+msgstr "Keins"
 
 #. ImageSettings
 msgctxt "imagesettings_duallabel_mode_choices:1"
 msgid "Model scale"
-msgstr ""
+msgstr "Modellmaßstab"
 
 #. ImageSettings
 msgctxt "imagesettings_duallabel_mode_choices:2"
 msgid "Alternative unit"
-msgstr ""
+msgstr "Alternative Maßeinheit"
 
 msgctxt "imagesettings_dialog_duallabel_title"
 msgid "Secondary label"
-msgstr ""
+msgstr "Zweites Maß"
 
 msgctxt "imagesettings_dialog_duallabel_mode"
 msgid "Mode"
-msgstr ""
+msgstr "Modus"
 
 msgctxt "imagesettings_dialog_duallabel_scale"
 msgid "Scale"
-msgstr ""
+msgstr "Maßstab"
 
 msgctxt "imagesettings_dialog_duallabel_unit"
 msgid "Unit"
-msgstr ""
+msgstr "Einheit"
 
 msgctxt "imagesettings_dialog_canvas_colorscheme"
 msgid "Color scheme"
-msgstr ""
+msgstr "Farbschema"
 
 msgctxt "imagesettings_dialog_canvas_colorscheme_presets:0"
 msgid "White"
-msgstr ""
+msgstr "Weiß"
 
 msgctxt "imagesettings_dialog_canvas_colorscheme_presets:1"
 msgid "Black"
-msgstr ""
+msgstr "Schwarz"
 
 msgctxt "imagesettings_dialog_canvas_colorscheme_presets:2"
 msgid "Dark blue"
-msgstr ""
+msgstr "Dunkelblau"
 
 msgctxt "imagesettings_dialog_canvas_colorscheme_presets:3"
 msgid "Custom"
-msgstr ""
+msgstr "Eigenes"
 
 msgctxt "imagesettings_dialog_bkgimage_title"
 msgid "Image"
-msgstr ""
+msgstr "Bildeinstellungen"
 
 msgctxt "imagesettings_dialog_bkgimage_brightness"
 msgid "Brightness"
-msgstr ""
+msgstr "Helligkeit"
 
 msgctxt "imagesettings_dialog_bkgimage_saturation"
 msgid "Saturation"
-msgstr ""
+msgstr "Sättigung"
 
 msgctxt "imagesettings_dialog_bkgimage_contrast"
 msgid "Contrast"
-msgstr ""
+msgstr "Kontrast"
 
 msgctxt "imagesettings_dialog_bkgimage_reset"
 msgid "Reset"
-msgstr ""
+msgstr "Reset"
 
 #. bluetooth
 msgctxt "bluetooth_message_device_connected"
@@ -5278,7 +5298,7 @@ msgstr "Aufnahmedatum"
 
 msgctxt "image_info_creation_date"
 msgid "Creation Date"
-msgstr ""
+msgstr "Erstellungsdatum"
 
 msgctxt "image_info_original_resolution"
 msgid "Original Image Resolution"
@@ -5299,100 +5319,100 @@ msgstr "Einheit"
 #. date strings
 msgctxt "month_names_short_1"
 msgid "Jan"
-msgstr ""
+msgstr "Jan"
 
 msgctxt "month_names_short_2"
 msgid "Feb"
-msgstr ""
+msgstr "Feb"
 
 msgctxt "month_names_short_3"
 msgid "Mar"
-msgstr ""
+msgstr "Mär"
 
 msgctxt "month_names_short_4"
 msgid "Apr"
-msgstr ""
+msgstr "Apr"
 
 msgctxt "month_names_short_5"
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 msgctxt "month_names_short_6"
 msgid "Jun"
-msgstr ""
+msgstr "Jun"
 
 msgctxt "month_names_short_7"
 msgid "Jul"
-msgstr ""
+msgstr "Jul"
 
 msgctxt "month_names_short_8"
 msgid "Aug"
-msgstr ""
+msgstr "Aug"
 
 msgctxt "month_names_short_9"
 msgid "Sep"
-msgstr ""
+msgstr "Sep"
 
 msgctxt "month_names_short_10"
 msgid "Oct"
-msgstr ""
+msgstr "Okt"
 
 msgctxt "month_names_short_11"
 msgid "Nov"
-msgstr ""
+msgstr "Nov"
 
 msgctxt "month_names_short_12"
 msgid "Dec"
-msgstr ""
+msgstr "Dez"
 
 msgctxt "month_names_long_1"
 msgid "January"
-msgstr ""
+msgstr "Januar"
 
 msgctxt "month_names_long_2"
 msgid "February"
-msgstr ""
+msgstr "Februar"
 
 msgctxt "month_names_long_3"
 msgid "March"
-msgstr ""
+msgstr "März"
 
 msgctxt "month_names_long_4"
 msgid "April"
-msgstr ""
+msgstr "April"
 
 msgctxt "month_names_long_5"
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 msgctxt "month_names_long_6"
 msgid "June"
-msgstr ""
+msgstr "Juni"
 
 msgctxt "month_names_long_7"
 msgid "July"
-msgstr ""
+msgstr "Juli"
 
 msgctxt "month_names_long_8"
 msgid "August"
-msgstr ""
+msgstr "August"
 
 msgctxt "month_names_long_9"
 msgid "September"
-msgstr ""
+msgstr "September"
 
 msgctxt "month_names_long_10"
 msgid "October"
-msgstr ""
+msgstr "Oktober"
 
 msgctxt "month_names_long_11"
 msgid "November"
-msgstr ""
+msgstr "November"
 
 msgctxt "month_names_long_12"
 msgid "December"
-msgstr ""
+msgstr "Dezember"
 
 msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
-msgstr ""
+msgstr "PDF-Optionen nächstes Mal wieder anzeigen"
