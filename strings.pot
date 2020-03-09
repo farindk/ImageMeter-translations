@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-18 12:06+0100\n"
+"POT-Creation-Date: 2020-03-09 16:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.4.0\n"
 
 #. generic strings
 msgctxt "upgraded_sub_title"
@@ -227,7 +227,7 @@ msgid "Image info…"
 msgstr ""
 
 msgctxt "imageselect_menu_upgrade"
-msgid "Upgrade..."
+msgid "Upgrade"
 msgstr ""
 
 msgctxt "imageselect_menu_import_images_from_free_app"
@@ -243,19 +243,20 @@ msgid "Show welcome message"
 msgstr ""
 
 msgctxt "imageselect_menu_about_app"
-msgid "About app..."
+msgid "About app"
 msgstr ""
 
-msgctxt "imageselect_menu_sync_current_folder"
-msgid "Sync current folder"
+#. string name="imageselect_menu_sync_current_folder">Sync current
+#. folder</string
+#. string name="imageselect_menu_sync_inbox_folder">Sync inbox with cloud
+#. (beta)</string
+#. string name="imageselect_menu_sync_all_folders">Sync all folders</string
+msgctxt "imageselect_menu_contact"
+msgid "Contact us"
 msgstr ""
 
-msgctxt "imageselect_menu_sync_inbox_folder"
-msgid "Sync inbox with cloud (beta)"
-msgstr ""
-
-msgctxt "imageselect_menu_sync_all_folders"
-msgid "Sync all folders"
+msgctxt "imageselect_menu_documentation"
+msgid "Documentation"
 msgstr ""
 
 #. image-library
@@ -299,6 +300,35 @@ msgctxt "sortingorder_number_descending"
 msgid "Number, descending"
 msgstr ""
 
+msgctxt "imagelibrary_display_show_deleted_images"
+msgid "Show deleted images"
+msgstr ""
+
+msgctxt "imagelibrary_display_show_image_numbers"
+msgid "Show image numbers"
+msgstr ""
+
+msgctxt "imagelibrary_open_image_numbering_options"
+msgid "Image numbering..."
+msgstr ""
+
+#. errors
+#, c-format
+msgctxt "imagelibrary_cannot_delete_image_in_use"
+msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
+msgstr ""
+
+msgctxt "tpool_locked_by_syncer"
+msgid "cloud synchronization"
+msgstr ""
+
+msgctxt "imagelibrary_cannot_load_current_folder"
+msgid ""
+"Cannot load current folder.\n"
+"\n"
+"Please open the settings and set a different storage directory."
+msgstr ""
+
 #. dialog: numbering
 msgctxt "imagelibrary_dialog_numbering_title"
 msgid "Image numbers"
@@ -339,6 +369,10 @@ msgstr ""
 
 msgctxt "foldername_dialog_notes"
 msgid "Notes"
+msgstr ""
+
+msgctxt "foldername_dialog_icon_color"
+msgid "Folder color"
 msgstr ""
 
 #. dialog: really save to gallery (since this feature should now be obsolet)
@@ -412,6 +446,10 @@ msgctxt "imageselect_dialog_about_license_pro"
 msgid "Pro"
 msgstr ""
 
+msgctxt "imageselect_dialog_about_license_business"
+msgid "Business"
+msgstr ""
+
 msgctxt "imageselect_dialog_about_tutorial_link"
 msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
 msgstr ""
@@ -432,6 +470,24 @@ msgctxt "imageselect_dialog_about_privacy_policy_link"
 msgid ""
 "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
 "policy</a>"
+msgstr ""
+
+msgctxt "license_source_in_app"
+msgid "In-app"
+msgstr ""
+
+msgctxt "license_source_native"
+msgid "Native"
+msgstr ""
+
+#, c-format
+msgctxt "navigation_drawer_version"
+msgid "Version: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "navigation_drawer_license"
+msgid "License: %1$s"
 msgstr ""
 
 #. tutorial
@@ -973,9 +1029,8 @@ msgctxt "imerror_files_cannot_create_directory"
 msgid "Cannot create directory \"{}\"."
 msgstr ""
 
-#, c-format
 msgctxt "imerror_files_directory_does_not_exist"
-msgid "Directory '%1$s' does not exist."
+msgid "Directory '{}' does not exist."
 msgstr ""
 
 msgctxt "imageselect_error_cannot_rename_folder"
@@ -1281,6 +1336,8 @@ msgctxt "cloud_storage_provider_nextcloud"
 msgid "Nextcloud / Owncloud / WebDAV"
 msgstr ""
 
+#. string name="pref_cloud_storage_server_and_user_name">%1$s, account:
+#. %2$s</string
 msgctxt "cloud_storage_base_directory"
 msgid "Data directory:"
 msgstr ""
@@ -1319,10 +1376,13 @@ msgstr ""
 
 msgctxt "cloud_storage_notice_text"
 msgid ""
-"Note: cloud storage is still in beta testing. You can currently only sync"
-" the 'inbox' folder.\n"
-"\n"
-"See the cloud storage <a "
+"Cloud storage can be used in two ways.\n"
+"In <b>share</b> mode, images on your device are mirrored to the server "
+"and back. This is useful when you want to have the same images on several"
+" devices.\n"
+"In <b>backup</b> mode, your images are copied to the server, but they are"
+" not deleted there if you delete them on the device.\n"
+"See the full cloud storage <a "
 "href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>."
 msgstr ""
 
@@ -1442,37 +1502,199 @@ msgctxt "cloud_sync_notification_title"
 msgid "Cloud synchronization in progress…"
 msgstr ""
 
-#, c-format
-msgctxt "error_cloud_require_interactive_login"
-msgid "Interactive login to your %1$s account is required."
-msgstr ""
-
-msgctxt "error_cloud_login_cancelled_by_user"
-msgid "User has cancelled the login."
-msgstr ""
-
-msgctxt "error_cloud_login_unauthorized"
-msgid "Wrong user name or password."
+msgctxt "cloud_scan_notification_title"
+msgid "Scanning cloud server content"
 msgstr ""
 
 #, c-format
-msgctxt "error_cloud_network_error"
-msgid "Network error when connecting to your %1$s account."
+msgctxt "cloud_scan_notification_content_no_error"
+msgid "%1$d images, %2$d folders found. %3$d items left."
 msgstr ""
 
 #, c-format
-msgctxt "error_cloud_server_timeout"
-msgid "%1$s server timeout."
+msgctxt "cloud_scan_notification_content_with_error"
+msgid "%1$d images, %2$d folders found. %3$d items left, %4$d errors."
 msgstr ""
 
 #, c-format
-msgctxt "error_cloud_general_cannot_login"
-msgid "Cannot sign in to your %1$s account."
+msgctxt "cloud_sync_notification_content_no_error"
+msgid "%1$d items synced, %2$d items left."
+msgstr ""
+
+#, c-format
+msgctxt "cloud_sync_notification_content_with_error"
+msgid "%1$d items synced, %2$d items left. %3$d errors."
+msgstr ""
+
+msgctxt "cloud_progress_check_server"
+msgid "Checking server content."
+msgstr ""
+
+msgctxt "cloud_progress_cleanup_server"
+msgid "Cleaning up server."
+msgstr ""
+
+msgctxt "cloud_progress_will_cancel"
+msgid "Syncing will be cancelled..."
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_title"
+msgid "Cloud storage maintenance"
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_description"
+msgid ""
+"<b>Remove server lock</b> - In order to prevent simultaneous access to "
+"the data on the cloud server, it is locked during the sync process. In "
+"case of some errors, e.g. network failures, it may be that the server "
+"remains locked. The locks time-out automatically after a few minutes, but"
+" you can also manually remove them immediately if you know for sure that "
+"it is an error."
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_button"
+msgid "Remove server lock"
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_reset_server_cache_description"
+msgid ""
+"<b>Reset server cache</b> - The cloud server maintains a cache of images "
+"stored on them. If you delete or add files manually on the server, this "
+"is not seen by the cache. You may reset the server cache to run a full "
+"scan during the next sync. However, note that a full scan may take a long"
+" time if you have many images."
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_reset_server_cache_button"
+msgid "Reset server cache"
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_reset_sync_state_description"
+msgid ""
+"<b>Reset sync state</b> - The next sync will start with no preknowledge "
+"about the data on each side. This means, e.g., that locally deleted "
+"images will be downloaded again from the server instead of being deleted "
+"on the server. There are few cases where resetting the stored sync state "
+"is needed."
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_reset_sync_state_button"
+msgid "Reset sync state"
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_notifcation_progress_title"
+msgid "Cloud server maintenance"
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_notifcation_progress_text"
+msgid "Removing cloud server lock…"
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_notifcation_result_title"
+msgid "Removing cloud server lock"
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_ok"
+msgid "Successfully removed server lock."
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_error_no_lock"
+msgid "There was no server lock."
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_error"
+msgid "Could not remove server lock file '{}'."
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_reset_server_cache_notification_progress_text"
+msgid "Resetting cloud server cache…"
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_reset_server_cache_notification_result_title"
+msgid "Resetting cloud server cache"
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_reset_server_cache_ok"
+msgid "Successfully resetted server cache."
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_reset_server_cache_error"
+msgid "Could not remove server cache file '{}'."
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_reset_sync_state_notification_progress_text"
+msgid "Resetting sync state…"
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_reset_sync_state_notification_result_title"
+msgid "Resetting sync state"
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_reset_sync_state_ok"
+msgid "Successfully resetted sync state."
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_reset_sync_state_error"
+msgid "Could not reset sync state."
+msgstr ""
+
+msgctxt "cloud_storage_not_configured_title"
+msgid "Cloud storage"
+msgstr ""
+
+msgctxt "cloud_storage_not_configured"
+msgid ""
+"You have not yet configured cloud storage. \n"
+"Cloud storage can be used to sync your images automatically between "
+"multiple devices or for backup. More detailed documentation on this can "
+"be found in the <a "
+"href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \n"
+"The settings for cloud storage can be found in the 'Storage' section of "
+"the app settings (<a href=\"cloud-settings\">open settings</a>)."
+msgstr ""
+
+msgctxt "cloud_storage_not_configured_business_upgrade"
+msgid ""
+"Cloud storage is only available in the <b>business</b> version of "
+"ImageMeter. See <a href=\"https://imagemeter.com\">here</a> for all "
+"benefits of the business version."
 msgstr ""
 
 #, c-format
 msgctxt "error_cloud_base_folder_not_found"
 msgid "Data folder '%2$s' not found in your %1$s account."
+msgstr ""
+
+msgctxt "error_cloud_cannot_login_unknown"
+msgid "Cannot sign in to your cloud server account."
+msgstr ""
+
+msgctxt "error_cloud_cannot_login_unauthorized"
+msgid "Not authorized to sign in to your cloud server account."
+msgstr ""
+
+msgctxt "error_cloud_cannot_login_incorrect_password"
+msgid "Wrong user name or password."
+msgstr ""
+
+msgctxt "error_cloud_cannot_login_interactive_required"
+msgid "Interactive sign in to your cloud server account is required."
+msgstr ""
+
+msgctxt "error_cloud_cannot_login_cancelled"
+msgid "Sign in to your cloud server account has been cancelled."
+msgstr ""
+
+msgctxt "error_cloud_cannot_login_network_error"
+msgid "Network error while connecting to your cloud server account."
+msgstr ""
+
+msgctxt "error_cloud_cannot_login_server_timeout"
+msgid "Cloud server timeout."
+msgstr ""
+
+msgctxt "error_cloud_cannot_login_basefolder_access"
+msgid "Cannot access data directory on cloud server."
 msgstr ""
 
 #, c-format
@@ -1587,6 +1809,130 @@ msgstr ""
 
 msgctxt "error_cloud_cannot_scan_server_content"
 msgid "Cannot scan server content."
+msgstr ""
+
+msgctxt "error_cloud_cannot_sync_server_content"
+msgid "Cannot sync with server."
+msgstr ""
+
+#, c-format
+msgctxt "error_cloud_cannot_parse_sync_state_file"
+msgid "Cannot parse sync state file '%1$s'."
+msgstr ""
+
+#, c-format
+msgctxt "error_cloud_cannot_write_sync_state_file"
+msgid "Cannot write sync state file '%1$s'."
+msgstr ""
+
+#, c-format
+msgctxt "error_cloud_cannot_load_sync_state_file"
+msgid "Cannot load sync state file '%1$s'."
+msgstr ""
+
+msgctxt "error_cloud_cannot_lock_server"
+msgid "Cannot generate server lock file."
+msgstr ""
+
+msgctxt "error_cloud_server_error"
+msgid "Server error: {}"
+msgstr ""
+
+msgctxt "error_cloud_server_blocked"
+msgid "Server blocked by another client"
+msgstr ""
+
+msgctxt "error_cloud_remote_file_does_not_exist"
+msgid "File '{}' does not exist on server"
+msgstr ""
+
+msgctxt "error_cloud_remote_folder_does_not_exist"
+msgid "Folder '{}' does not exist on server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_create_folder"
+msgid "Cannot create folder '{}' on server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_create_folder_short"
+msgid "Cannot create folder on server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_upload_file"
+msgid "Cannot upload file '{}' to server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_upload_file_short"
+msgid "Cannot upload file to server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_download_file"
+msgid "Cannot download file '{}' from server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_download_file_short"
+msgid "Cannot download file from server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_rename_file"
+msgid "Cannot rename file '{}' on server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_rename_file_short"
+msgid "Cannot rename file on server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_rename_folder"
+msgid "Cannot rename folder '{}' on server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_rename_folder_short"
+msgid "Cannot rename folder on server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_delete_file"
+msgid "Cannot delete file '{}' from server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_delete_file_short"
+msgid "Cannot delete file from server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_delete_folder"
+msgid "Cannot delete folder '{}' from server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_delete_folder_short"
+msgid "Cannot delete folder from server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_list_folder_content"
+msgid "Cannot list content of server folder '{}'"
+msgstr ""
+
+msgctxt "error_cloud_cannot_list_folder_content_short"
+msgid "Cannot list content of server folder"
+msgstr ""
+
+msgctxt "error_cloud_is_not_a_folder"
+msgid "File '{}' is not a folder."
+msgstr ""
+
+msgctxt "notification_cloud_sync_errors_title"
+msgid "Cloud synchronization errors"
+msgstr ""
+
+msgctxt "notification_cloud_sync_errors_detailed_action"
+msgid "Show detailed errors"
+msgstr ""
+
+#, c-format
+msgctxt "notification_cloud_sync_errors_short_text"
+msgid "%1$d synchronization errors"
+msgstr ""
+
+msgctxt "notification_cloud_sync_progress_cancel_action"
+msgid "Cancel sync"
 msgstr ""
 
 #. preferences screen
@@ -2839,10 +3185,6 @@ msgctxt "pref_storage_data_directory"
 msgid "Data directory"
 msgstr ""
 
-msgctxt "pref_storage_cloud_storage"
-msgid "Cloud storage"
-msgstr ""
-
 msgctxt "pref_storage_show_images_in_gallery"
 msgid "Show images in gallery"
 msgstr ""
@@ -2893,6 +3235,10 @@ msgstr ""
 
 msgctxt "pref_storage_directory_removable"
 msgid "Removable:"
+msgstr ""
+
+msgctxt "pref_storage_directory_error_nonexistent_directory"
+msgid "This directory is not present. Please choose a different directory."
 msgstr ""
 
 #. Actually, we should use Unicode \u00A0 for non-breaking spaces, but a2po
@@ -2959,12 +3305,24 @@ msgctxt "dialog_storage_directory_move_images_progress_text"
 msgid "Moving images ..."
 msgstr ""
 
-msgctxt "pref_cloud_storage_sync_mode:0"
-msgid "Download on demand"
+msgctxt "pref_category_storage_cloud"
+msgid "Cloud storage"
 msgstr ""
 
-msgctxt "pref_cloud_storage_sync_mode:1"
-msgid "Full download"
+msgctxt "pref_storage_cloud_set_account"
+msgid "Set server and account"
+msgstr ""
+
+msgctxt "pref_storage_cloud_sync_mode"
+msgid "Synchronization mode"
+msgstr ""
+
+msgctxt "pref_storage_cloud_sync_mode_choices:0"
+msgid "Share data"
+msgstr ""
+
+msgctxt "pref_storage_cloud_sync_mode_choices:1"
+msgid "Backup"
 msgstr ""
 
 msgctxt "pref_cloud_storage_sync_cautiousness:0"
@@ -2981,6 +3339,66 @@ msgstr ""
 
 msgctxt "pref_cloud_storage_sync_cautiousness:3"
 msgid "Confirm everything"
+msgstr ""
+
+msgctxt "pref_cloud_storage_sync_mode:0"
+msgid "SYNC MODE"
+msgstr ""
+
+msgctxt "pref_storage_cloud_sync_interval_choices:0"
+msgid "No auto-sync"
+msgstr ""
+
+msgctxt "pref_storage_cloud_sync_interval_choices:1"
+msgid "15 minutes"
+msgstr ""
+
+msgctxt "pref_storage_cloud_sync_interval_choices:2"
+msgid "1 hour"
+msgstr ""
+
+msgctxt "pref_storage_cloud_sync_interval_choices:3"
+msgid "2 hours"
+msgstr ""
+
+msgctxt "pref_storage_cloud_sync_interval_choices:4"
+msgid "6 hours"
+msgstr ""
+
+msgctxt "pref_storage_cloud_sync_interval_choices:5"
+msgid "1 day"
+msgstr ""
+
+msgctxt "pref_storage_cloud_sync_interval"
+msgid "Auto-sync interval"
+msgstr ""
+
+msgctxt "pref_storage_cloud_advanced_maintenance"
+msgid "Advanced maintenance"
+msgstr ""
+
+msgctxt "pref_storage_cloud_reset_state"
+msgid "Reset sync state"
+msgstr ""
+
+msgctxt "pref_storage_cloud_reset_server_cache"
+msgid "Reset server cache"
+msgstr ""
+
+msgctxt "pref_storage_cloud_remove_server_lock"
+msgid "Remove server lock"
+msgstr ""
+
+msgctxt "pref_storage_cloud_wifi_only"
+msgid "Auto-sync only on Wifi"
+msgstr ""
+
+msgctxt "pref_storage_cloud_wifi_only_on"
+msgid "Sync only when on free Wifi networks"
+msgstr ""
+
+msgctxt "pref_storage_cloud_wifi_only_off"
+msgid "Sync on any network"
 msgstr ""
 
 msgctxt "cloud_storage_default_base_path"
@@ -4500,6 +4918,10 @@ msgid "Ambient light too strong"
 msgstr ""
 
 #. in-app payment
+msgctxt "inapp_upgrade_to_business_button"
+msgid "Upgrade to business version"
+msgstr ""
+
 msgctxt "inapp_dialog_upgrade_benefits_title"
 msgid "Upgrade to pro version"
 msgstr ""
@@ -5103,5 +5525,41 @@ msgstr ""
 
 msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
+msgstr ""
+
+msgctxt "sync_errors_activity_title"
+msgid "Cloud Synchronization Errors"
+msgstr ""
+
+msgctxt "sync_errors_close_notificatoin"
+msgid "Close notification"
+msgstr ""
+
+msgctxt "sync_action_nop"
+msgid "No action"
+msgstr ""
+
+msgctxt "sync_action_pull_new"
+msgid "Download new"
+msgstr ""
+
+msgctxt "sync_action_pull_update"
+msgid "Download update"
+msgstr ""
+
+msgctxt "sync_action_push_new"
+msgid "Upload new"
+msgstr ""
+
+msgctxt "sync_action_push_update"
+msgid "Upload update"
+msgstr ""
+
+msgctxt "sync_action_delete_local"
+msgid "Delete locally"
+msgstr ""
+
+msgctxt "sync_action_delete_remote"
+msgid "Delete on server"
 msgstr ""
 

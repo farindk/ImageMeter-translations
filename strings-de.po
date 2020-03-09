@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-18 12:06+0100\n"
-"PO-Revision-Date: 2020-02-24 17:58+0100\n"
+"POT-Creation-Date: 2020-03-09 16:54+0100\n"
+"PO-Revision-Date: 2020-03-09 18:21+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.4.0\n"
 "X-Generator: Poedit 2.0.6\n"
 
 #. generic strings
@@ -82,57 +82,58 @@ msgstr "Synchronisierung mit Cloudspeicher"
 
 msgctxt "notification_import_title"
 msgid "Image import"
-msgstr ""
+msgstr "Bildimport"
 
 #, c-format
 msgctxt "notification_import_content"
 msgid "%1d image left …"
 msgid_plural "%1d images left …"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Noch %1d Bild ..."
+msgstr[1] "Noch %1d Bilder..."
 
 msgctxt "notification_channel_background_processing_title"
 msgid "Background processing"
-msgstr ""
+msgstr "Verarbeitung im Hintergrund"
 
 msgctxt "notification_channel_error_messages_title"
 msgid "Error messages"
-msgstr ""
+msgstr "Fehlermeldungen"
 
 msgctxt "notification_error_importing_IMI_title"
 msgid "Error importing IMI file"
-msgstr ""
+msgstr "Fehler beim Importieren der IMI Datei"
 
 msgctxt "notification_error_importing_IMF_title"
 msgid "Error importing IMF file"
-msgstr ""
+msgstr "Fehler beim Importieren der IMF Datei"
 
 msgctxt "notification_error_importing_image_title"
 msgid "Error importing image"
-msgstr ""
+msgstr "Fehler beim Importieren des Bildes"
 
 msgctxt "notification_error_importing_file_title"
 msgid "Error importing file"
-msgstr ""
+msgstr "Fehler beim Importieren der Datei"
 
 msgctxt "notification_save_to_gallery_title"
 msgid "Saving to gallery"
-msgstr ""
+msgstr "In die Galerie speichern"
 
 msgctxt "notification_error_saving_to_gallery"
 msgid "Error while saving to gallery"
-msgstr ""
+msgstr "Fehler beim Speichern in die Galerie"
 
 #, c-format
 msgctxt "notification_save_to_gallery_content"
 msgid "%1d image left …"
 msgid_plural "%1d images left …"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Noch %1d Bild..."
+msgstr[1] "Noch %1d Bilder..."
 
 msgctxt "notification_error_no_permission_to_save_to_gallery"
 msgid "Cannot save to gallery because ImageMeter has no storage write permission."
 msgstr ""
+"Kann nicht in die Galerie schreiben, da ImageMeter keine Schreibberechtigung hat."
 
 #. ========== folder/image-selection ==========
 #. menu
@@ -172,14 +173,13 @@ msgctxt "imageselect_menu_preferences"
 msgid "Settings"
 msgstr "Einstellungen"
 
-#, fuzzy
 msgctxt "imageselect_menu_rename"
 msgid "Rename"
-msgstr "Bild umbenennen"
+msgstr "Umbenennen"
 
 msgctxt "imageselect_menu_duplicate"
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplizieren"
 
 msgctxt "imageselect_menu_move_to_folder"
 msgid "Move to folder"
@@ -191,30 +191,27 @@ msgstr "Bild importieren"
 
 msgctxt "imageselect_menu_new_canvas"
 msgid "New canvas"
-msgstr ""
+msgstr "Neue Zeichenfläche"
 
-#, fuzzy
 msgctxt "imageselect_menu_capture"
 msgid "Camera capture"
 msgstr "Bild fotografieren"
 
-#, fuzzy
 msgctxt "imageselect_menu_delete_image"
 msgid "Delete"
-msgstr "Bild löschen"
+msgstr "Löschen"
 
 msgctxt "imageselect_menu_undelete_image"
 msgid "Undelete"
-msgstr ""
+msgstr "Löschen rückgängig machen"
 
 msgctxt "imageselect_menu_purge_image"
 msgid "Purge"
-msgstr ""
+msgstr "Endgültig löschen"
 
-#, fuzzy
 msgctxt "imageselect_menu_share_image"
 msgid "Share"
-msgstr "Bild versenden"
+msgstr "Versenden"
 
 msgctxt "imageselect_menu_save_to_external_memory"
 msgid "Save to gallery"
@@ -224,18 +221,17 @@ msgctxt "imageselect_menu_bluetooth"
 msgid "Bluetooth connect"
 msgstr "Bluetooth verbinden"
 
-#, fuzzy
 msgctxt "imageselect_menu_print"
 msgid "Print"
-msgstr "Bild drucken"
+msgstr "Drucken"
 
 msgctxt "imageselect_menu_image_info"
 msgid "Image info…"
 msgstr "Bildinformationen..."
 
 msgctxt "imageselect_menu_upgrade"
-msgid "Upgrade..."
-msgstr "Pro Upgrade..."
+msgid "Upgrade"
+msgstr "Upgrade"
 
 msgctxt "imageselect_menu_import_images_from_free_app"
 msgid "Import images from free app"
@@ -250,104 +246,140 @@ msgid "Show welcome message"
 msgstr "Begrüßungsmeldung zeigen"
 
 msgctxt "imageselect_menu_about_app"
-msgid "About app..."
-msgstr "Über die App..."
+msgid "About app"
+msgstr "Über die App"
 
-msgctxt "imageselect_menu_sync_current_folder"
-msgid "Sync current folder"
-msgstr "Synchronisiere aktuelles Verzeichnis"
+#. string name="imageselect_menu_sync_current_folder">Sync current
+#. folder</string
+#. string name="imageselect_menu_sync_inbox_folder">Sync inbox with cloud
+#. (beta)</string
+#. string name="imageselect_menu_sync_all_folders">Sync all folders</string
+msgctxt "imageselect_menu_contact"
+msgid "Contact us"
+msgstr "Kontakt"
 
-msgctxt "imageselect_menu_sync_inbox_folder"
-msgid "Sync inbox with cloud (beta)"
-msgstr "Synchronisiere Inbox mit Cloud (Beta)"
-
-msgctxt "imageselect_menu_sync_all_folders"
-msgid "Sync all folders"
-msgstr "Synchronisiere alle Verzeichnisse"
+msgctxt "imageselect_menu_documentation"
+msgid "Documentation"
+msgstr "Anleitung"
 
 #. image-library
 msgctxt "imagelibrary_image_deleted"
 msgid "Image deleted"
-msgstr ""
+msgstr "Bild gelöscht"
 
 msgctxt "imagelibrary_folder_deleted"
 msgid "Folder deleted"
-msgstr ""
+msgstr "Ordner gelöscht"
 
 msgctxt "imagelibrary_breadcrumb_root_folder"
 msgid "Root"
-msgstr ""
+msgstr "Heim"
 
 msgctxt "imagelibrary_search_hint"
 msgid "Search images"
-msgstr ""
+msgstr "Bilder suchen"
 
 msgctxt "sortingorder_alpha_ascending"
 msgid "Alphabetical"
-msgstr ""
+msgstr "Alphabetisch"
 
 msgctxt "sortingorder_alpha_descending"
 msgid "Alphabetical, reverse"
-msgstr ""
+msgstr "Alphabetisch, rückwärts"
 
 msgctxt "sortingorder_time_ascending"
 msgid "Time, earlierst on top"
-msgstr ""
+msgstr "Datum, frühstes oben"
 
 msgctxt "sortingorder_time_descending"
 msgid "Time, latest on top"
-msgstr ""
+msgstr "Datum, letztes oben"
 
 msgctxt "sortingorder_number_ascending"
 msgid "Number, ascending"
-msgstr ""
+msgstr "Nummer, aufsteigend"
 
 msgctxt "sortingorder_number_descending"
 msgid "Number, descending"
+msgstr "Nummer, absteigend"
+
+msgctxt "imagelibrary_display_show_deleted_images"
+msgid "Show deleted images"
+msgstr "Gelöschte Bilder zeigen"
+
+msgctxt "imagelibrary_display_show_image_numbers"
+msgid "Show image numbers"
+msgstr "Bildnummer zeigen"
+
+msgctxt "imagelibrary_open_image_numbering_options"
+msgid "Image numbering..."
+msgstr "Bildnummerierung"
+
+#. errors
+#, c-format
+msgctxt "imagelibrary_cannot_delete_image_in_use"
+msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
+msgstr "Kann das Bild '%1$s' nicht löschen, da es von '%2$s' benutzt wird."
+
+msgctxt "tpool_locked_by_syncer"
+msgid "cloud synchronization"
+msgstr "Synchronisierung mit Cloud"
+
+msgctxt "imagelibrary_cannot_load_current_folder"
+msgid ""
+"Cannot load current folder.\n"
+"\n"
+"Please open the settings and set a different storage directory."
 msgstr ""
+"Kann den aktuellen Ordner nicht anzeigen.\n"
+"\n"
+"Bitte wählen Sie in den Einstellungen ein anderes Speicherverzeichnis."
 
 #. dialog: numbering
 msgctxt "imagelibrary_dialog_numbering_title"
 msgid "Image numbers"
-msgstr ""
+msgstr "Bildnummern"
 
 msgctxt "imagelibrary_dialog_numbering_enable_auto_numbering"
 msgid "Enable auto-numbering"
-msgstr ""
+msgstr "Automatische Nummerierung"
 
 msgctxt "imagelibrary_dialog_numbering_start"
 msgid "Start"
-msgstr ""
+msgstr "Startwert"
 
 msgctxt "imagelibrary_dialog_numbering_increment"
 msgid "Increment"
-msgstr ""
+msgstr "Schrittweite"
 
 msgctxt "imagelibrary_dialog_numbering_renumber_title"
 msgid "Renumber existing images"
-msgstr ""
+msgstr "Existierende Bilder nummerieren"
 
 msgctxt "imagelibrary_dialog_numbering_renumber_old_number_order"
 msgid "Keep order of old numbers"
-msgstr ""
+msgstr "Reihenfolge der alten Nummern beibehalten"
 
 msgctxt "imagelibrary_dialog_numbering_renumber_all"
 msgid "Renumber"
-msgstr ""
+msgstr "Nummerieren"
 
 #. dialog: rename folder
 msgctxt "foldername_dialog_folder_name"
 msgid "Folder name"
 msgstr "Ordnername"
 
-#, fuzzy
 msgctxt "foldername_dialog_folder_name_hint"
 msgid "Enter folder name"
-msgstr "Ordnername"
+msgstr "Ordnername eingeben"
 
 msgctxt "foldername_dialog_notes"
 msgid "Notes"
 msgstr "Notizen"
+
+msgctxt "foldername_dialog_icon_color"
+msgid "Folder color"
+msgstr "Ordnerfarbe"
 
 #. dialog: really save to gallery (since this feature should now be obsolet)
 #. string name="imageselect_save_to_gallery_obsolet_message">ImageMeter
@@ -420,6 +452,10 @@ msgctxt "imageselect_dialog_about_license_pro"
 msgid "Pro"
 msgstr "Pro"
 
+msgctxt "imageselect_dialog_about_license_business"
+msgid "Business"
+msgstr "Business"
+
 msgctxt "imageselect_dialog_about_tutorial_link"
 msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
 msgstr ""
@@ -443,6 +479,24 @@ msgid ""
 msgstr ""
 "<a href=\"https://www.iubenda.com/privacy-"
 "policy/43586350\">Datenschutzerklärung</a>"
+
+msgctxt "license_source_in_app"
+msgid "In-app"
+msgstr "In-App"
+
+msgctxt "license_source_native"
+msgid "Native"
+msgstr "Native"
+
+#, c-format
+msgctxt "navigation_drawer_version"
+msgid "Version: %1$s"
+msgstr "Version: %1$s"
+
+#, c-format
+msgctxt "navigation_drawer_license"
+msgid "License: %1$s"
+msgstr "Lizenz: %1$s"
 
 #. tutorial
 msgctxt "tutorial_images_1"
@@ -902,7 +956,7 @@ msgstr ""
 
 msgctxt "imageselect_error_no_image_import_activity"
 msgid "There is no app on the device from which we can import images."
-msgstr ""
+msgstr "Es gibt keine App auf dem Gerät, von der Bilder importiert werden können."
 
 #, c-format
 msgctxt "error_cannot_save_annotated_image"
@@ -1004,7 +1058,7 @@ msgstr "Die Datei '%1$s' kann nicht gelesen werden, da es ein Verzeichnis ist."
 #, c-format
 msgctxt "error_cannot_write_file"
 msgid "Cannot write to file '%1$s'."
-msgstr ""
+msgstr "Kann die Datei '%1$s' nicht schreiben."
 
 msgctxt "storage_error_cannot_load_image_file_from_remote"
 msgid "Cannot load the image file from cloud storage."
@@ -1015,245 +1069,240 @@ msgid "Downloading image file from cloud storage."
 msgstr "Bilddatei wird vom Cloudspeicher runtergeladen."
 
 #. filesystem errors
-#, fuzzy
 msgctxt "error_cannot_delete_file"
 msgid "Cannot delete file '{}'."
-msgstr "Kann die Datei '%1$s' nicht löschen."
+msgstr "Kann die Datei '{}' nicht löschen."
 
 msgctxt "imerror_files_cannot_read_file"
 msgid "Cannot read file '{}'."
-msgstr ""
+msgstr "Kann die Datei '{}' nicht lesen."
 
 msgctxt "imerror_files_cannot_write_file"
 msgid "Cannot write file '{}'."
-msgstr ""
+msgstr "Kann die Datei '{}' nicht schreiben."
 
-#, fuzzy
 msgctxt "error_cannot_rename_file"
 msgid "Cannot rename file '{0}' to '{1}'."
-msgstr "Die Datei '%1$s' kann nicht nach '%2$s' umbenannt werden."
+msgstr "Die Datei '{0}' kann nicht nach '{1}' umbenannt werden."
 
 msgctxt "imerror_files_file_does_not_exist"
 msgid "File does not exist: \"{}\"."
-msgstr ""
+msgstr "Datei '{}' existiert nicht."
 
 msgctxt "imerror_files_file_cannot_be_opened"
 msgid "Cannot open file \"{}\"."
-msgstr ""
+msgstr "Kann Datei '{}' nicht öffnen."
 
 msgctxt "imerror_files_cannot_create_directory"
 msgid "Cannot create directory \"{}\"."
-msgstr ""
+msgstr "Kann Verzeichnis '{}' nicht erstellen."
 
-#, c-format
 msgctxt "imerror_files_directory_does_not_exist"
-msgid "Directory '%1$s' does not exist."
-msgstr ""
+msgid "Directory '{}' does not exist."
+msgstr "Verzeichnis '{}' existiert nicht."
 
-#, fuzzy
 msgctxt "imageselect_error_cannot_rename_folder"
 msgid "Cannot rename folder '{0}' to '{1}'."
-msgstr "Kann Verzeichnis '%1$s' nicht in '%2$s' umbenennen."
+msgstr "Kann Verzeichnis '{0}' nicht in '{1}' umbenennen."
 
-#, fuzzy
 msgctxt "imageselect_error_folder_cannot_delete"
 msgid "Cannot delete folder '{}'."
-msgstr "Kann Verzeichnis '%1$s' nicht löschen."
+msgstr "Kann Verzeichnis '{}' nicht löschen."
 
 msgctxt "imerror_files_cannot_read_directory"
 msgid "Cannot read directory '{}'."
-msgstr ""
+msgstr "Kann Verzeichnis '{}' nicht lesen."
 
 msgctxt "imerror_files_cannot_copy_directory"
 msgid "Cannot copy directory '{}'."
-msgstr ""
+msgstr "Kann Verzeichnis '{}' nicht kopieren."
 
 msgctxt "imerror_files_errno"
 msgid "OS error: '{}'."
-msgstr ""
+msgstr "Betriebssystemfehler: '{}'"
 
 msgctxt "imerror_files_cannot_generate_unique_filename"
 msgid "Cannot generate unique filename: '{}'."
-msgstr ""
+msgstr "Kann keinen eindeutigen Filenamen für '{}' finden."
 
 msgctxt "error_files_locked"
 msgid "Files are currently in use."
-msgstr ""
+msgstr "Dateien werden momentan benutzt."
 
 #. used in PrefsStorageDirectory
 msgctxt "imerror_cannot_lock_file_read"
 msgid "Cannot read file '{}' because it is currently being modified."
-msgstr ""
+msgstr "Kann Datei '{}' nicht lesen, da sie momentan geändert wird."
 
 msgctxt "imerror_cannot_lock_file_write"
 msgid "Cannot modify file '{}' because it is currently in use."
-msgstr ""
+msgstr "Kann Datei '{}' nicht ändern, da sie momentan benutzt wird."
 
 #. image library errors
 msgctxt "imerror_library_no_library_directory_defined"
 msgid "No image library directory defined."
-msgstr ""
+msgstr "Kein Verzeichnis für die Bildbibliothek definiert."
 
 msgctxt "imerror_library_cannot_purge"
 msgid "Cannot purge deleted images."
-msgstr ""
+msgstr "Kann die gelöschten Bilder nicht endgültig entfernen."
 
 #. entity level errors
 msgctxt "imerror_projectfolder_cannot_create"
 msgid "Cannot create folder '{}'."
-msgstr ""
+msgstr "Kann Ordner '{}' nicht erstellen."
 
 msgctxt "imerror_projectfolder_cannot_write_ifd"
 msgid "Cannot write IFD file for folder '{}'."
-msgstr ""
+msgstr "Kann die IFD-Datei für den Ordner '{}' nicht schreiben."
 
 msgctxt "imerror_projectfolder_cannot_load_folder"
 msgid "Cannot load folder '{}'."
-msgstr ""
+msgstr "Kann den Ordner '{}' nicht laden."
 
 msgctxt "imerror_projectfolder_multiple_ifd_files"
 msgid "More than one IFD file found."
-msgstr ""
+msgstr "Mehr als eine IFD-Datei gefunden."
 
 msgctxt "imerror_projectfolder_ifd_parse_error"
 msgid "IFD file parse error."
-msgstr ""
+msgstr "Kann IFD-Datei nicht einlesen."
 
 msgctxt "imerror_databundle_cannot_load_data_bundle"
 msgid "Cannot load image '{}'."
-msgstr ""
+msgstr "Kann Bild '{}' nicht laden."
 
 msgctxt "imerror_databundle_cannot_create"
 msgid "Cannot create new image '{}'."
-msgstr ""
+msgstr "Kann das neue Bild '{}' nicht erzeugen."
 
 msgctxt "imerror_databundle_cannot_write_imm"
 msgid "Cannot write IMM file for image '{}'."
-msgstr ""
+msgstr "Kann für das Bild '{}' keine IMM-Datei schreiben."
 
 msgctxt "imerror_databundle_cannot_delete"
 msgid "Cannot delete image '{}'."
-msgstr ""
+msgstr "Kann das Bild '{}' nicht löschen."
 
 msgctxt "imerror_databundle_cannot_rename_folder"
 msgid "Cannot rename directory of image '{}'."
-msgstr ""
+msgstr "Kann das Verzeichnis von Bild '{}' nicht umbenennen."
 
 msgctxt "imerror_databundle_multiple_imm_files"
 msgid "More than one IMM file found."
-msgstr ""
+msgstr "Mehr als eine IMM Datei gefunden."
 
 msgctxt "imerror_databundle_cannot_open"
 msgid "Cannot open image \"{}\"."
-msgstr ""
+msgstr "Kann Bild '{}' nicht öffnen."
 
 msgctxt "imerror_databundle_cannot_read_imm_file"
 msgid "Cannot read IMM file."
-msgstr ""
+msgstr "Kann die IMM-Datei nicht lesen."
 
 msgctxt "imerror_databundle_cannot_get_content_area"
 msgid "Unknown content area."
-msgstr ""
+msgstr "Unbekannte Abmessung der Zeichenfläche."
 
 msgctxt "imerror_databundle_imm_parse_error"
 msgid "IMM file parse error ({})."
-msgstr ""
+msgstr "IMM-Datei Lesefehler ({})."
 
 msgctxt "imerror_entity_cannot_move"
 msgid "Cannot move '{}' to new directory."
-msgstr ""
+msgstr "Kann '{}' nicht in neues Verzeichnis verschieben."
 
 msgctxt "imerror_entity_numbering_invalid_number"
 msgid "Invalid number: '{}'."
-msgstr ""
+msgstr "Ungültige Nummer: '{}'."
 
 #. logic level errors
 msgctxt "imerror_delete_logic_cannot_delete"
 msgid "Cannot delete folder '{}'."
-msgstr ""
+msgstr "Kann Ordner '{}' nicht löschen."
 
 msgctxt "imerror_delete_logic_cannot_mark_as_deleted"
 msgid "Cannot mark folder '{}' as deleted."
-msgstr ""
+msgstr "Kann Ordner '{}' nicht als gelöscht markieren."
 
 #. import/export errors
 msgctxt "imerror_unknown_file_format"
 msgid "File '{}' has unknown format."
-msgstr ""
+msgstr "Datei '{}' hat ein unbekanntes Format."
 
 msgctxt "imerror_cannot_create_imi_file"
 msgid "Cannot create IMI file '{}'."
-msgstr ""
+msgstr "Kann die IMI-Datei '{}' nicht erzeugen."
 
 msgctxt "imerror_cannot_export_image"
 msgid "Cannot export image '{}'."
-msgstr ""
+msgstr "Kann das Bild '{}' nicht exportieren."
 
 msgctxt "imerror_imf_corrupted_file"
 msgid "Corrupted IMF file."
-msgstr ""
+msgstr "Fehlerhafte IMF-Datei."
 
 msgctxt "imerror_ifd_parse_error"
 msgid "IFD file parse error."
-msgstr ""
+msgstr "Fehler in IFD-Datei."
 
 msgctxt "imerror_imi_cannot_open"
 msgid "Cannot open IMI file '{}'."
-msgstr ""
+msgstr "Kann die IMI-Datei '{}' nicht öffnen."
 
 msgctxt "imerror_imf_cannot_read_zip"
 msgid "Corrupted ZIP file \"{}\"."
-msgstr ""
+msgstr "Fehlerhafte ZIP-Datei '{}'."
 
 msgctxt "imerror_zip_error"
 msgid "ZIP error: {}"
-msgstr ""
+msgstr "ZIP-Fehler: {}"
 
 msgctxt "imerror_zip_read_error"
 msgid "Error reading ZIP file."
-msgstr ""
+msgstr "Fehler beim Lesen der ZIP-Datei."
 
 msgctxt "imerror_cannot_generate_pdf"
 msgid "Cannot generate PDF"
-msgstr ""
+msgstr "Kann das PDF nicht erzeugen"
 
 msgctxt "imerror_libharu"
 msgid "LibHARU error: \"{}\""
-msgstr ""
+msgstr "LibHaru Fehler: {}"
 
 #. image reader/writer errors
 msgctxt "imerror_imagereader_cannot_read_image"
 msgid "Cannot read image file."
-msgstr ""
+msgstr "Kann die Bilddatei nicht lesen."
 
 msgctxt "imerror_imagereader_reader_error"
 msgid "Image reader error."
-msgstr ""
+msgstr "Fehler beim Laden des Bildes."
 
 msgctxt "imerror_imagereader_corrupted_image"
 msgid "Corrupted image file."
-msgstr ""
+msgstr "Fehlerhafte Bilddatei."
 
 msgctxt "imerror_imagereader_unsupported_format"
 msgid "Unsupported image format."
-msgstr ""
+msgstr "Nicht unterstütztes Bildformat."
 
 msgctxt "imerror_libjpeg_error"
 msgid "LibJPEG error: \"{}\"."
-msgstr ""
+msgstr "LibJPEG Fehler: {}"
 
 msgctxt "imerror_cannot_read_texture"
 msgid "Cannot read texture '{}'."
-msgstr ""
+msgstr "Kann Texture '{}' nicht lesen."
 
 #. rendering errors
 msgctxt "imerror_cannot_render_image"
 msgid "Cannot render image \"{}\"."
-msgstr ""
+msgstr "Kann Texture '{}' nicht anzeigen."
 
 msgctxt "imerror_opengl"
 msgid "OpenGL error: \"{}\"."
-msgstr ""
+msgstr "OpenGL Fehler: {}"
 
 #. other errors
 msgctxt "error_pro_version_required_title"
@@ -1262,61 +1311,61 @@ msgstr "Pro-Version benötigt"
 
 msgctxt "imerror_out_of_memory"
 msgid "Out of memory."
-msgstr ""
+msgstr "Kein Speicher mehr."
 
 msgctxt "imerror_out_of_memory_with_size"
 msgid "Out of memory (cannot allocate {} bytes)."
-msgstr ""
+msgstr "Kein Speicher mehr (kann keine {} Bytes reservieren)."
 
 #. string name="imerror_databundle_cannot_find_imm_file">Cannot find the .imm
 #. file.</string
 msgctxt "imerror_editcore_cannot_load_auxiliary_data"
 msgid "Cannot load auxiliary data."
-msgstr ""
+msgstr "Kann Zusatzdaten nicht laden."
 
 msgctxt "imerror_editcore_cannot_purge_unused_auxiliary_data"
 msgid "Cannot delete unused auxiliary data files."
-msgstr ""
+msgstr "Kann die unbenutzten Zusatzdaten nicht löschen."
 
 msgctxt "imerror_gtext_cannot_add_detail_image"
 msgid "Cannot add the detail image \"{}\"."
-msgstr ""
+msgstr "Kann das Detailbild '{}' nicht hinzufügen."
 
 msgctxt "imerror_gtext_cannot_add_audio_recording"
 msgid "Cannot add audio recording \"{}\"."
-msgstr ""
+msgstr "Kann die Audioaufnahme '{}' nicht hinzufügen."
 
 msgctxt "imerror_editcore_cannot_read_background_image"
 msgid "Cannot read photo."
-msgstr ""
+msgstr "Kann das Foto nicht laden."
 
 msgctxt "imerror_imagesetting_cannot_load"
 msgid "Cannot load image settings."
-msgstr ""
+msgstr "Kann die Bildeinstellungen nicht laden."
 
 msgctxt "imerror_imagesetting_cannot_save"
 msgid "Cannot save image settings."
-msgstr ""
+msgstr "Kann die Bildeinstellungen nicht speichern."
 
 msgctxt "imerror_app_preferences_cannot_set_data_root_directory"
 msgid "Cannot set the data root directory."
-msgstr ""
+msgstr "Kann das Datenverzeichnis nicht setzen."
 
 msgctxt "imerror_app_preferences_cannot_create_data_root_directory"
 msgid "Cannot create the data root directory."
-msgstr ""
+msgstr "Kann das Datenverzeichnis nicht erstellen."
 
 msgctxt "imerror_app_preferences_no_root_defined"
 msgid "No data root directory defined."
-msgstr ""
+msgstr "Kein Datenverzeichnis definiert."
 
 msgctxt "imerror_string_template_unknown_field"
 msgid "Unknown field '{}' in string template."
-msgstr ""
+msgstr "Unbekanntes Feld '{}' in Namensschema."
 
 msgctxt "imerror_string_template_syntax_error"
 msgid "Syntax error in string template '{}'."
-msgstr ""
+msgstr "Syntaxfehler im Namensschema '{}'."
 
 #. cloud storage
 msgctxt "pref_cloud_storage_server_none"
@@ -1355,6 +1404,8 @@ msgctxt "cloud_storage_provider_nextcloud"
 msgid "Nextcloud / Owncloud / WebDAV"
 msgstr "Nextcloud / Owncloud / WebDAV"
 
+#. string name="pref_cloud_storage_server_and_user_name">%1$s, account:
+#. %2$s</string
 msgctxt "cloud_storage_base_directory"
 msgid "Data directory:"
 msgstr "Datenverzeichnis:"
@@ -1391,13 +1442,16 @@ msgctxt "cloud_storage_cautiousness"
 msgid "Cautiousness:"
 msgstr "Vorsichtigkeit:"
 
+#, fuzzy
 msgctxt "cloud_storage_notice_text"
 msgid ""
-"Note: cloud storage is still in beta testing. You can currently only sync the "
-"'inbox' folder.\n"
-"\n"
-"See the cloud storage <a href=\"https://www.imagemeter.com/manual/storage/cloud"
-"\">documentation</a>."
+"Cloud storage can be used in two ways.\n"
+"In <b>share</b> mode, images on your device are mirrored to the server and back. "
+"This is useful when you want to have the same images on several devices.\n"
+"In <b>backup</b> mode, your images are copied to the server, but they are not "
+"deleted there if you delete them on the device.\n"
+"See the full cloud storage <a href=\"https://www.imagemeter.com/manual/storage/"
+"cloud\">documentation</a>."
 msgstr ""
 "Anmerkung: Cloudspeicherung ist immer noch im Betatest. Sie können im Moment nur "
 "das 'Inbox' Verzeichnis synchronisieren.\n"
@@ -1537,38 +1591,226 @@ msgctxt "cloud_sync_notification_title"
 msgid "Cloud synchronization in progress…"
 msgstr "Synchronisierung mit Cloudspeicher in Arbeit..."
 
-#, c-format
-msgctxt "error_cloud_require_interactive_login"
-msgid "Interactive login to your %1$s account is required."
-msgstr "Manueller Login in ihren %1$s Account wird benötigt."
-
-msgctxt "error_cloud_login_cancelled_by_user"
-msgid "User has cancelled the login."
-msgstr "Benutzer hat den Loginprozess abgebrochen."
-
-msgctxt "error_cloud_login_unauthorized"
-msgid "Wrong user name or password."
-msgstr "Falscher Benutzername oder falsches Passwort."
+msgctxt "cloud_scan_notification_title"
+msgid "Scanning cloud server content"
+msgstr "Inhalt des Cloudservers wird untersucht"
 
 #, c-format
-msgctxt "error_cloud_network_error"
-msgid "Network error when connecting to your %1$s account."
-msgstr "Netzwerkfehler beim Verbinden mit Ihrem %1$s Account."
+msgctxt "cloud_scan_notification_content_no_error"
+msgid "%1$d images, %2$d folders found. %3$d items left."
+msgstr "%1$d Bilder und %2$d Ordner gefunden. %3$d Stück übrig."
 
 #, c-format
-msgctxt "error_cloud_server_timeout"
-msgid "%1$s server timeout."
-msgstr "%1$s Server Zeitüberschreitung."
+msgctxt "cloud_scan_notification_content_with_error"
+msgid "%1$d images, %2$d folders found. %3$d items left, %4$d errors."
+msgstr "%1$d Bilder und %2$d Ordner gefunden. %3$d Stück übrig, %4$d Fehler."
 
 #, c-format
-msgctxt "error_cloud_general_cannot_login"
-msgid "Cannot sign in to your %1$s account."
-msgstr "Login in den '%1$s' Account nicht erfolgreich."
+msgctxt "cloud_sync_notification_content_no_error"
+msgid "%1$d items synced, %2$d items left."
+msgstr "%1$d Stück synchronisiert, %2$d Stück übrig."
+
+#, c-format
+msgctxt "cloud_sync_notification_content_with_error"
+msgid "%1$d items synced, %2$d items left. %3$d errors."
+msgstr "%1$d Stück synchronisiert, %2$d Stück übrig. %3$d Fehler."
+
+msgctxt "cloud_progress_check_server"
+msgid "Checking server content."
+msgstr "Serverinhalt wird überprüft."
+
+msgctxt "cloud_progress_cleanup_server"
+msgid "Cleaning up server."
+msgstr "Server wird aufgeräumt."
+
+msgctxt "cloud_progress_will_cancel"
+msgid "Syncing will be cancelled..."
+msgstr "Synchronisierung wird angehalten..."
+
+msgctxt "cloud_storage_maintenance_title"
+msgid "Cloud storage maintenance"
+msgstr "Wartung des Cloudspeichers"
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_description"
+msgid ""
+"<b>Remove server lock</b> - In order to prevent simultaneous access to the data "
+"on the cloud server, it is locked during the sync process. In case of some "
+"errors, e.g. network failures, it may be that the server remains locked. The "
+"locks time-out automatically after a few minutes, but you can also manually "
+"remove them immediately if you know for sure that it is an error."
+msgstr ""
+"<b>Serversperre entfernen</b> - Um gleichzeitige Änderungen an den Daten auf dem "
+"Server zu verhindern, wird der Server während dem Zugriff gesperrt. In manchen "
+"Fällen, z.B. bei Netzwerkfehlern, kann es sein, dass der Server gesperrt bleibt. "
+"Die Sperren werden automatisch nach wenigen Minuten entfernt, aber Sie können "
+"sie auch manuell entfernen, wenn Sie sich sicher sind, dass sie nur "
+"fälschlicherweise noch aktiv ist."
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_button"
+msgid "Remove server lock"
+msgstr "Serversperre entfernen"
+
+msgctxt "cloud_storage_maintenance_reset_server_cache_description"
+msgid ""
+"<b>Reset server cache</b> - The cloud server maintains a cache of images stored "
+"on them. If you delete or add files manually on the server, this is not seen by "
+"the cache. You may reset the server cache to run a full scan during the next "
+"sync. However, note that a full scan may take a long time if you have many "
+"images."
+msgstr ""
+"<b>Servercache zurücksetzen</b> - Der Cloudserver besitzt einen Cache, in dem "
+"alle Bilder vermerkt sind, welche auf dem Server vorhanden sind. Wenn Sie Bilder "
+"manuell auf dem Server hinzufügen oder löschen, ist diese Änderung nicht im "
+"Cache sichtbar. Wenn Sie den Servercache zurücksetzen, wird beim nächsten "
+"Zugriff auf den Server dieser komplett durchsucht. Beachten Sie, dass die lange "
+"dauern kann, wenn Sie viele Bilder haben."
+
+msgctxt "cloud_storage_maintenance_reset_server_cache_button"
+msgid "Reset server cache"
+msgstr "Servercache zurücksetzen"
+
+msgctxt "cloud_storage_maintenance_reset_sync_state_description"
+msgid ""
+"<b>Reset sync state</b> - The next sync will start with no preknowledge about "
+"the data on each side. This means, e.g., that locally deleted images will be "
+"downloaded again from the server instead of being deleted on the server. There "
+"are few cases where resetting the stored sync state is needed."
+msgstr ""
+"<b>Sync-Status zurücksetzen</b> - Wenn aktiviert, dann wird der nächste Sync-"
+"Vorgang ohne Vorwissen über die Daten auf beiden Seiten starten. Das heißt z.B., "
+"dass lokal gelöschte Bilder wieder vom Server heruntergeladen werden, anstatt "
+"ebenfalls auf dem Server gelöscht. Es gibt nur wenige Gründe warum man den Sync-"
+"Status zurücksetzen würde."
+
+msgctxt "cloud_storage_maintenance_reset_sync_state_button"
+msgid "Reset sync state"
+msgstr "Sync-Status zurücksetzen"
+
+msgctxt "cloud_storage_maintenance_notifcation_progress_title"
+msgid "Cloud server maintenance"
+msgstr "Wartung des Cloudspeichers"
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_notifcation_progress_text"
+msgid "Removing cloud server lock…"
+msgstr "Serversperre wird entfernt..."
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_notifcation_result_title"
+msgid "Removing cloud server lock"
+msgstr "Serversperre wird entfernt"
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_ok"
+msgid "Successfully removed server lock."
+msgstr "Serversperre wurde erfolgreich entfernt."
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_error_no_lock"
+msgid "There was no server lock."
+msgstr "Es gab keine Serversperre."
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_error"
+msgid "Could not remove server lock file '{}'."
+msgstr "Kann die Serversperre '{}' nicht entfernen."
+
+msgctxt "cloud_storage_maintenance_reset_server_cache_notification_progress_text"
+msgid "Resetting cloud server cache…"
+msgstr "Servercache wird zurückgesetzt..."
+
+msgctxt "cloud_storage_maintenance_reset_server_cache_notification_result_title"
+msgid "Resetting cloud server cache"
+msgstr "Servercache wird zurückgesetzt"
+
+msgctxt "cloud_storage_maintenance_reset_server_cache_ok"
+msgid "Successfully resetted server cache."
+msgstr "Servercache wurde erfolgreich zurückgesetzt"
+
+msgctxt "cloud_storage_maintenance_reset_server_cache_error"
+msgid "Could not remove server cache file '{}'."
+msgstr "Konnte die Datei mit den Servercache nicht entfernen ({})."
+
+msgctxt "cloud_storage_maintenance_reset_sync_state_notification_progress_text"
+msgid "Resetting sync state…"
+msgstr "Sync-State zurücksetzen..."
+
+msgctxt "cloud_storage_maintenance_reset_sync_state_notification_result_title"
+msgid "Resetting sync state"
+msgstr "Sync-State zurücksetzen"
+
+msgctxt "cloud_storage_maintenance_reset_sync_state_ok"
+msgid "Successfully resetted sync state."
+msgstr "Sync-State wurde erfolgreich zurückgesetzt."
+
+msgctxt "cloud_storage_maintenance_reset_sync_state_error"
+msgid "Could not reset sync state."
+msgstr "Konnte den Sync-State nicht zurücksetzen."
+
+msgctxt "cloud_storage_not_configured_title"
+msgid "Cloud storage"
+msgstr "Cloud-Speicher"
+
+msgctxt "cloud_storage_not_configured"
+msgid ""
+"You have not yet configured cloud storage. \n"
+"Cloud storage can be used to sync your images automatically between multiple "
+"devices or for backup. More detailed documentation on this can be found in the "
+"<a href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \n"
+"The settings for cloud storage can be found in the 'Storage' section of the app "
+"settings (<a href=\"cloud-settings\">open settings</a>)."
+msgstr ""
+"Sie haben den Cloud-Speicher noch nicht konfiguriert.\n"
+"Cloud-Speicher kann dazu benutzt werden, die Bilder auf mehreren Geräten "
+"synchron zu halten, oder als Backup der Daten. Eine ausführlichere Dokumentation "
+"finden Sie in der <a href=\"https://imagemeter.com/de/manual/storage/cloud/"
+"\">Anleitung.</a>\n"
+"Die Einstellungen für den Cloud-Speicher finden Sie im Abschnitt "
+"'Speicherverwaltung' in den Einstellungen  (<a href=\"cloud-settings"
+"\">Einstellungen öffnen</a>)."
+
+msgctxt "cloud_storage_not_configured_business_upgrade"
+msgid ""
+"Cloud storage is only available in the <b>business</b> version of ImageMeter. "
+"See <a href=\"https://imagemeter.com\">here</a> for all benefits of the business "
+"version."
+msgstr ""
+"Cloud-Speicher ist nur in der <b>Business</b>-Version von ImageMeter verfügbar.  "
+"Alle Vorteile der Business-Version finden Sie <a href=\"https://imagemeter.com"
+"\">hier</a>."
 
 #, c-format
 msgctxt "error_cloud_base_folder_not_found"
 msgid "Data folder '%2$s' not found in your %1$s account."
 msgstr "Datenverzeichnis '%2$s' wurde nicht in Ihrem '%1$s' Account gefunden."
+
+msgctxt "error_cloud_cannot_login_unknown"
+msgid "Cannot sign in to your cloud server account."
+msgstr "Kann nicht in das Benutzerkonto auf dem Cloud-Server einloggen."
+
+msgctxt "error_cloud_cannot_login_unauthorized"
+msgid "Not authorized to sign in to your cloud server account."
+msgstr "Zugriff auf des Benutzerkonto des Cloudservers nicht erlaubt."
+
+msgctxt "error_cloud_cannot_login_incorrect_password"
+msgid "Wrong user name or password."
+msgstr "Falscher Benutzername oder falsches Passwort."
+
+msgctxt "error_cloud_cannot_login_interactive_required"
+msgid "Interactive sign in to your cloud server account is required."
+msgstr "In das Benutzerkonto auf dem Cloudserver muß manuell eingeloggt werden."
+
+msgctxt "error_cloud_cannot_login_cancelled"
+msgid "Sign in to your cloud server account has been cancelled."
+msgstr "Anmeldung ins Benutzerkonto auf dem Cloud-Server wurde abgebrochen."
+
+msgctxt "error_cloud_cannot_login_network_error"
+msgid "Network error while connecting to your cloud server account."
+msgstr ""
+"Netzwerkfehler während der Verbindung zum Benutzerkonto auf dem Cloud-Server."
+
+msgctxt "error_cloud_cannot_login_server_timeout"
+msgid "Cloud server timeout."
+msgstr "Cloudserver Zeitüberschreitung."
+
+msgctxt "error_cloud_cannot_login_basefolder_access"
+msgid "Cannot access data directory on cloud server."
+msgstr "Fehler beim Zugriff auf das Datenverzeichnis des Cloudserver."
 
 #, c-format
 msgctxt "error_cloud_cannot_create_remote_file_already_exists"
@@ -1684,16 +1926,140 @@ msgstr "Kann das Verzeichnis '%1$s' auf dem Server nicht löschen."
 #, c-format
 msgctxt "error_cloud_cannot_download_sync_server_cache_file"
 msgid "Cannot download server cache file '%1$s'."
-msgstr ""
+msgstr "Kann die Servercache-Datei '%1$s' nicht herunterladen."
 
 #, c-format
 msgctxt "error_cloud_cannot_upload_sync_server_cache_file"
 msgid "Cannot upload server cache file '%1$s'."
-msgstr ""
+msgstr "Kann die Servercache-Datei '%1$s' nicht hochladen."
 
 msgctxt "error_cloud_cannot_scan_server_content"
 msgid "Cannot scan server content."
-msgstr ""
+msgstr "Kann den Serverinhalt nicht durchsuchen."
+
+msgctxt "error_cloud_cannot_sync_server_content"
+msgid "Cannot sync with server."
+msgstr "Kann nicht mit dem Server synchronisieren."
+
+#, c-format
+msgctxt "error_cloud_cannot_parse_sync_state_file"
+msgid "Cannot parse sync state file '%1$s'."
+msgstr "Kann die Syncstatus-Datei '%1$s' nicht lesen."
+
+#, c-format
+msgctxt "error_cloud_cannot_write_sync_state_file"
+msgid "Cannot write sync state file '%1$s'."
+msgstr "Kann die Syncstatus-Datei '%1$s' nicht schreiben."
+
+#, c-format
+msgctxt "error_cloud_cannot_load_sync_state_file"
+msgid "Cannot load sync state file '%1$s'."
+msgstr "Kann die Syncstatus-Datei '%1$s' nicht laden."
+
+msgctxt "error_cloud_cannot_lock_server"
+msgid "Cannot generate server lock file."
+msgstr "Kann die Serversperre nicht aktivieren."
+
+msgctxt "error_cloud_server_error"
+msgid "Server error: {}"
+msgstr "Serverfehler: {}"
+
+msgctxt "error_cloud_server_blocked"
+msgid "Server blocked by another client"
+msgstr "Server wurde von anderem Client gesperrt."
+
+msgctxt "error_cloud_remote_file_does_not_exist"
+msgid "File '{}' does not exist on server"
+msgstr "Datei '{}' existiert nicht auf dem Server"
+
+msgctxt "error_cloud_remote_folder_does_not_exist"
+msgid "Folder '{}' does not exist on server"
+msgstr "Verzeichnis '{}' existiert nicht auf dem Server"
+
+msgctxt "error_cloud_cannot_create_folder"
+msgid "Cannot create folder '{}' on server"
+msgstr "Kann Verzeichnis '{}' nicht auf dem Server erstellen"
+
+msgctxt "error_cloud_cannot_create_folder_short"
+msgid "Cannot create folder on server"
+msgstr "Kann das Verzeichnis nicht auf dem Server erstellen"
+
+msgctxt "error_cloud_cannot_upload_file"
+msgid "Cannot upload file '{}' to server"
+msgstr "Kann die Datei '{}' nicht zum Server hochladen"
+
+msgctxt "error_cloud_cannot_upload_file_short"
+msgid "Cannot upload file to server"
+msgstr "Kann die Datei nicht zum Server hochladen"
+
+msgctxt "error_cloud_cannot_download_file"
+msgid "Cannot download file '{}' from server"
+msgstr "Kann die Datei '{}' nicht vom Server herunterladen"
+
+msgctxt "error_cloud_cannot_download_file_short"
+msgid "Cannot download file from server"
+msgstr "Kann die Datei nicht herunterladen"
+
+msgctxt "error_cloud_cannot_rename_file"
+msgid "Cannot rename file '{}' on server"
+msgstr "Kann die Datei '{}' auf dem Server nicht umbenennen"
+
+msgctxt "error_cloud_cannot_rename_file_short"
+msgid "Cannot rename file on server"
+msgstr "Cann die Datei auf dem Server nicht umbenennen"
+
+msgctxt "error_cloud_cannot_rename_folder"
+msgid "Cannot rename folder '{}' on server"
+msgstr "Kann den Ordner '{}' auf dem Server nicht umbenennen"
+
+msgctxt "error_cloud_cannot_rename_folder_short"
+msgid "Cannot rename folder on server"
+msgstr "Kann den Ordner auf dem Server nicht umbenennen"
+
+msgctxt "error_cloud_cannot_delete_file"
+msgid "Cannot delete file '{}' from server"
+msgstr "Kann die Datei '{}' nicht auf dem Server löschen"
+
+msgctxt "error_cloud_cannot_delete_file_short"
+msgid "Cannot delete file from server"
+msgstr "Kann die Datei nicht auf dem Server löschen"
+
+msgctxt "error_cloud_cannot_delete_folder"
+msgid "Cannot delete folder '{}' from server"
+msgstr "Kann das Verzeichnis '{}' nicht auf dem Server löschen"
+
+msgctxt "error_cloud_cannot_delete_folder_short"
+msgid "Cannot delete folder from server"
+msgstr "Kann das Verzeichnis nicht auf dem Server löschen"
+
+msgctxt "error_cloud_cannot_list_folder_content"
+msgid "Cannot list content of server folder '{}'"
+msgstr "Kann den Inhalt des Serververzeichnisses '{}' nicht auflisten"
+
+msgctxt "error_cloud_cannot_list_folder_content_short"
+msgid "Cannot list content of server folder"
+msgstr "Kann den Inhalt des Serververzeichnisses nicht auflisten"
+
+msgctxt "error_cloud_is_not_a_folder"
+msgid "File '{}' is not a folder."
+msgstr "Datei '{}' ist kein Verzeichnis"
+
+msgctxt "notification_cloud_sync_errors_title"
+msgid "Cloud synchronization errors"
+msgstr "Fehler bei der Cloud-Synchronisierung"
+
+msgctxt "notification_cloud_sync_errors_detailed_action"
+msgid "Show detailed errors"
+msgstr "Detaillierte Fehler zeigen"
+
+#, c-format
+msgctxt "notification_cloud_sync_errors_short_text"
+msgid "%1$d synchronization errors"
+msgstr "%1$d Synchronisierungsfehler"
+
+msgctxt "notification_cloud_sync_progress_cancel_action"
+msgid "Cancel sync"
+msgstr "Synchronisierung abbrechen"
 
 #. preferences screen
 msgctxt "pref_category_editor"
@@ -2479,27 +2845,27 @@ msgstr "Bildnotizen nicht drucken"
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
 msgid "10%"
-msgstr ""
+msgstr "10%"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:2"
 msgid "20%"
-msgstr ""
+msgstr "20%"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:3"
 msgid "30%"
-msgstr ""
+msgstr "30%"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:4"
 msgid "40%"
-msgstr ""
+msgstr "40%"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
-msgstr ""
+msgstr "50%"
 
 msgctxt "pref_category_bluetooth"
 msgid "Bluetooth"
@@ -2850,15 +3216,15 @@ msgctxt "pref_ui_editor_fullscreen_mode_choices:2"
 msgid "Always"
 msgstr "Immer"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "pref_preset_text"
 msgid "Preset text %1$d"
-msgstr "Vordefinierter Text %1$s"
+msgstr "Vordefinierter Text %1$d"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "pref_preset_text_dialog"
 msgid "Enter preset text %1$d"
-msgstr "Vordefinierten Text %1$s eingeben"
+msgstr "Vordefinierten Text %1$d eingeben"
 
 msgctxt "preset_text_1"
 msgid "front door"
@@ -2945,23 +3311,17 @@ msgctxt "pref_storage_data_directory"
 msgid "Data directory"
 msgstr "Datenverzeichnis"
 
-msgctxt "pref_storage_cloud_storage"
-msgid "Cloud storage"
-msgstr "Cloudspeicherung"
-
 msgctxt "pref_storage_show_images_in_gallery"
 msgid "Show images in gallery"
 msgstr "Bilder in Galerie anzeigen"
 
-#, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_on"
 msgid "Edited images will show up in gallery"
-msgstr "Alle Bilder werden in Galerie gezeigt"
+msgstr "Bilder werden auch in der Galerie angezeigt"
 
-#, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_off"
 msgid "Images will not show in the gallery automatically"
-msgstr "Bilder werden nicht in der Galerie gezeigt"
+msgstr "Bilder werden nicht automatisch in der Galerie gezeigt"
 
 msgctxt "pref_storage_directory_current_directory"
 msgid "Current storage directory:"
@@ -3002,6 +3362,11 @@ msgstr "Öffentliches Dokumentenverzeichnis"
 msgctxt "pref_storage_directory_removable"
 msgid "Removable:"
 msgstr "Entfernbar:"
+
+msgctxt "pref_storage_directory_error_nonexistent_directory"
+msgid "This directory is not present. Please choose a different directory."
+msgstr ""
+"Das Verzeichnis ist nicht vorhanden. Bitte wählen Sie ein anderes Verzeichnis."
 
 #. Actually, we should use Unicode \u00A0 for non-breaking spaces, but a2po
 #. crashes on them
@@ -3069,7 +3434,7 @@ msgstr ""
 
 msgctxt "pref_storage_directory_cannot_move_files"
 msgid "Cannot move files"
-msgstr ""
+msgstr "Kann die Dateien nicht verschieben"
 
 msgctxt "dialog_storage_move_annotated_images_progress_text"
 msgid "Moving images ..."
@@ -3079,13 +3444,25 @@ msgctxt "dialog_storage_directory_move_images_progress_text"
 msgid "Moving images ..."
 msgstr "Verschiebe Bilder ..."
 
-msgctxt "pref_cloud_storage_sync_mode:0"
-msgid "Download on demand"
-msgstr ""
+msgctxt "pref_category_storage_cloud"
+msgid "Cloud storage"
+msgstr "Cloudspeicher"
 
-msgctxt "pref_cloud_storage_sync_mode:1"
-msgid "Full download"
-msgstr ""
+msgctxt "pref_storage_cloud_set_account"
+msgid "Set server and account"
+msgstr "Server und Benutzerkonto setzen"
+
+msgctxt "pref_storage_cloud_sync_mode"
+msgid "Synchronization mode"
+msgstr "Synchronisierungsmodus"
+
+msgctxt "pref_storage_cloud_sync_mode_choices:0"
+msgid "Share data"
+msgstr "Daten teilen"
+
+msgctxt "pref_storage_cloud_sync_mode_choices:1"
+msgid "Backup"
+msgstr "Backup"
 
 msgctxt "pref_cloud_storage_sync_cautiousness:0"
 msgid "Never ask"
@@ -3102,6 +3479,66 @@ msgstr "Löschen und Konflikte bestätigen"
 msgctxt "pref_cloud_storage_sync_cautiousness:3"
 msgid "Confirm everything"
 msgstr "Immer nachfragen"
+
+msgctxt "pref_cloud_storage_sync_mode:0"
+msgid "SYNC MODE"
+msgstr ""
+
+msgctxt "pref_storage_cloud_sync_interval_choices:0"
+msgid "No auto-sync"
+msgstr "Keine automatische Synchronisierung"
+
+msgctxt "pref_storage_cloud_sync_interval_choices:1"
+msgid "15 minutes"
+msgstr "15 Minuten"
+
+msgctxt "pref_storage_cloud_sync_interval_choices:2"
+msgid "1 hour"
+msgstr "1 Stunde"
+
+msgctxt "pref_storage_cloud_sync_interval_choices:3"
+msgid "2 hours"
+msgstr "2 Stunden"
+
+msgctxt "pref_storage_cloud_sync_interval_choices:4"
+msgid "6 hours"
+msgstr "6 Stunden"
+
+msgctxt "pref_storage_cloud_sync_interval_choices:5"
+msgid "1 day"
+msgstr "1 Tag"
+
+msgctxt "pref_storage_cloud_sync_interval"
+msgid "Auto-sync interval"
+msgstr "Zeitintervall für Synchronisierung"
+
+msgctxt "pref_storage_cloud_advanced_maintenance"
+msgid "Advanced maintenance"
+msgstr "Fortgeschrittene Serverwartung"
+
+msgctxt "pref_storage_cloud_reset_state"
+msgid "Reset sync state"
+msgstr "Sync-Status zurücksetzen"
+
+msgctxt "pref_storage_cloud_reset_server_cache"
+msgid "Reset server cache"
+msgstr "Servercache zurücksetzen"
+
+msgctxt "pref_storage_cloud_remove_server_lock"
+msgid "Remove server lock"
+msgstr "Serversperre entfernen"
+
+msgctxt "pref_storage_cloud_wifi_only"
+msgid "Auto-sync only on Wifi"
+msgstr "Auto-Sync nur mit WiFi"
+
+msgctxt "pref_storage_cloud_wifi_only_on"
+msgid "Sync only when on free Wifi networks"
+msgstr "Sync nur in WiFi-Netzwerken"
+
+msgctxt "pref_storage_cloud_wifi_only_off"
+msgid "Sync on any network"
+msgstr "Sync in allen Netzwerken"
 
 msgctxt "cloud_storage_default_base_path"
 msgid "ImageMeter"
@@ -3362,7 +3799,7 @@ msgstr "verschieden"
 
 msgctxt "editor_dialog_style_generic_line_width_magnification"
 msgid "Line width"
-msgstr ""
+msgstr "Linienbreite"
 
 msgctxt "editor_dialog_style_textbox_title"
 msgid "Text box style"
@@ -4128,7 +4565,6 @@ msgstr ""
 "%2$d) war zu hoch und musste reduziert werden. Evtl. sollten Sie die maximale "
 "Ausgabeauflösung in den App-Einstellungen reduzieren."
 
-#, fuzzy
 msgctxt "export_eval_version"
 msgid "Evaluation copy"
 msgstr "Testversion"
@@ -4349,10 +4785,9 @@ msgid "Suffix"
 msgstr "Suffix"
 
 #. text entry
-#, fuzzy
 msgctxt "textbox_dialog_label"
 msgid "Text note"
-msgstr "Beschriftung:"
+msgstr "Textnotiz:"
 
 #. string name="textbox_dialog_presets">or select a preset text:</string
 #. string name="textbox_dialog_presets_help">You can change the preset texts
@@ -4363,11 +4798,11 @@ msgstr "Kein Text"
 
 msgctxt "textbox_text_preset_button"
 msgid "Preset…"
-msgstr ""
+msgstr "Standardtexte..."
 
 msgctxt "textbox_text_preset_open_prefs"
 msgid "(Define presets …)"
-msgstr ""
+msgstr "(Texte festlegen ...)"
 
 #. string name="textbox_keep_custom_text">(keep custom text)</string
 msgctxt "textbox_hint_undefined_text"
@@ -4376,11 +4811,11 @@ msgstr "Anklicken um Text zu ändern"
 
 msgctxt "textbox_audio_notes_title"
 msgid "Audio note"
-msgstr ""
+msgstr "Sprachnotiz"
 
 msgctxt "textbox_detail_picture_title"
 msgid "Detail picture"
-msgstr ""
+msgstr "Detailbild"
 
 msgctxt "textbox_rtl_language_warning_title"
 msgid "Please note"
@@ -4502,7 +4937,6 @@ msgctxt "bluetooth_message_device_connect_failed"
 msgid "Bluetooth connection failed."
 msgstr "Bluetoothverbindung fehlgeschlagen."
 
-#, fuzzy
 msgctxt "bluetooth_error_bluetooth_not_configured"
 msgid ""
 "You have not yet configured any Bluetooth laser distance meter.\n"
@@ -4519,10 +4953,15 @@ msgid ""
 msgstr ""
 "Sie haben noch keinen Bluetooth Laserentfernungsmesser konfiguriert.\n"
 "\n"
-"Bitte koppeln Sie ihr Bluetoothgerät mit dem Androidgerät. Danach öffnen Sie die "
-"App-Einstellungen und wählen das Bluetoothgerät, welches benutzt werden soll. "
-"Bluetooth Smart Geräte müssen nicht gekoppelt werden, müssen aber angeschaltet "
-"sein, damit Sie in der Geräteauswahl erscheinen."
+"Vergewissern Sie sich, dass Ihr Gerät in den Systemeinstellungen aufgelistet "
+"ist. Falls nötig, koppeln Sie das Gerät.\n"
+" <a href=\"android-bluetooth\">Android Bluetootheinstellungen öffnen</a>\n"
+"\n"
+"Danach wählen Sie ihr Gerät in den Einstellungen von ImageMeter:\n"
+" <a href=\"bluetooth-device\">Bluetooth Geräteeinstellung öffnen</a>\n"
+"\n"
+"Weiter Informationen und eine Liste der unterstützten Geräte finden Sie <a href="
+"\"https://imagemeter.com/manual/bluetooth/connect/\">hier</a>"
 
 #. 151209
 msgctxt "bluetooth_error_no_bluetooth_le"
@@ -4672,6 +5111,10 @@ msgid "Ambient light too strong"
 msgstr "Zu viel Hintergrundlicht"
 
 #. in-app payment
+msgctxt "inapp_upgrade_to_business_button"
+msgid "Upgrade to business version"
+msgstr "Upgrade auf die Business-Version"
+
 msgctxt "inapp_dialog_upgrade_benefits_title"
 msgid "Upgrade to pro version"
 msgstr "Auf Pro-Version upgraden"
@@ -5416,3 +5859,39 @@ msgstr "Dezember"
 msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
 msgstr "PDF-Optionen nächstes Mal wieder anzeigen"
+
+msgctxt "sync_errors_activity_title"
+msgid "Cloud Synchronization Errors"
+msgstr "Fehler bei der Cloudsynchronisierung"
+
+msgctxt "sync_errors_close_notificatoin"
+msgid "Close notification"
+msgstr "Mitteilung schließen"
+
+msgctxt "sync_action_nop"
+msgid "No action"
+msgstr "Keine Aktion"
+
+msgctxt "sync_action_pull_new"
+msgid "Download new"
+msgstr "Neu herunterladen"
+
+msgctxt "sync_action_pull_update"
+msgid "Download update"
+msgstr "Änderungen herunterladen"
+
+msgctxt "sync_action_push_new"
+msgid "Upload new"
+msgstr "Neu hochladen"
+
+msgctxt "sync_action_push_update"
+msgid "Upload update"
+msgstr "Änderungen hochladen"
+
+msgctxt "sync_action_delete_local"
+msgid "Delete locally"
+msgstr "Lokal löschen"
+
+msgctxt "sync_action_delete_remote"
+msgid "Delete on server"
+msgstr "Auf dem Server löschen"
