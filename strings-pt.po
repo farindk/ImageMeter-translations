@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-09 16:54+0100\n"
+"POT-Creation-Date: 2020-03-18 18:11+0100\n"
 "PO-Revision-Date: 2019-02-06 12:21+0100\n"
 "Last-Translator: \n"
 "Language: pt\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=((((n >= 0 && n <= 2)) && (!((n == 2))))"
-" ? 0 : 1)\n"
+"Plural-Forms: nplurals=2; plural=(((n >= 0 && n <= 1)) ? 0 : 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.6.0\n"
 
 #. generic strings
 msgctxt "upgraded_sub_title"
@@ -489,6 +488,7 @@ msgid ""
 "policy</a>"
 msgstr ""
 
+#. upgrade
 msgctxt "license_source_in_app"
 msgid "In-app"
 msgstr ""
@@ -505,6 +505,271 @@ msgstr ""
 #, c-format
 msgctxt "navigation_drawer_license"
 msgid "License: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "upgrade_dialog_pay_once"
+msgid "%1$s once"
+msgstr ""
+
+#, c-format
+msgctxt "upgrade_dialog_pay_monthly"
+msgid "%1$s/month"
+msgstr ""
+
+msgctxt "upgrade_dialog_first_month_free"
+msgid "First month free"
+msgstr ""
+
+msgctxt "upgrade_dialog_pro_name"
+msgid "Pro"
+msgstr ""
+
+msgctxt "upgrade_dialog_business_name"
+msgid "Business"
+msgstr ""
+
+msgctxt "upgrade_dialog_pro_benefits:0"
+msgid "No watermarks"
+msgstr ""
+
+msgctxt "upgrade_dialog_pro_benefits:1"
+msgid "Unlimited measures"
+msgstr ""
+
+msgctxt "upgrade_dialog_pro_benefits:2"
+msgid "Unlimited Bluetooth"
+msgstr ""
+
+msgctxt "upgrade_dialog_pro_benefits:3"
+msgid "Draw and measure circles, rectangles, points"
+msgstr ""
+
+msgctxt "upgrade_dialog_pro_benefits:4"
+msgid "Perspective length measurement tool"
+msgstr ""
+
+msgctxt "upgrade_dialog_business_benefits:0"
+msgid "Sync images between devices"
+msgstr ""
+
+msgctxt "upgrade_dialog_business_benefits:1"
+msgid "Backup on your cloud storage"
+msgstr ""
+
+msgctxt "upgrade_dialog_business_benefits:2"
+msgid "Subfolders"
+msgstr ""
+
+msgctxt "upgrade_dialog_business_benefits:3"
+msgid "Audio notes"
+msgstr ""
+
+msgctxt "upgrade_dialog_business_benefits:4"
+msgid "Detail pictures"
+msgstr ""
+
+msgctxt "upgrade_dialog_business_benefits:5"
+msgid "Measurement strings"
+msgstr ""
+
+msgctxt "upgrade_dialog_more_information_link"
+msgid ""
+"For more information about these features, &lt;a "
+"href=\"https://www.imagemeter.com\"&gt;visit the website&lt;/a&gt;."
+msgstr ""
+
+msgctxt "upgrade_dialog_button_pro_upgrade"
+msgid "Upgrade to Pro"
+msgstr ""
+
+msgctxt "upgrade_dialog_button_business_upgrade"
+msgid "Upgrade to Business"
+msgstr ""
+
+msgctxt "upgrade_dialog_button_back"
+msgid "Back"
+msgstr ""
+
+msgctxt "editor_error_nonpro_gelement_limit_message"
+msgid ""
+"Please upgrade to the pro version of ImageMeter to use more than five "
+"annotations."
+msgstr ""
+"Favor atualizar para a versão Pro do ImageMeter para usar mais de cinco "
+"anotações."
+
+msgctxt "editor_error_nonpro_bluetooth_limit_message"
+msgid ""
+"For Bluetooth measurements with more than 3 meters, please upgrade to the"
+" pro version."
+msgstr ""
+"Para medições de Bluetooth superiores a 3 metros, favor atualizar para a "
+"versão Pro."
+
+msgctxt "editor_error_nonpro_pro_tool_message"
+msgid "This tool is only available in the pro version."
+msgstr "Esta ferramenta está disponível somente na versão Pro."
+
+msgctxt "editor_dialog_upgrade_button_upgrade"
+msgid "Show upgrade benefits"
+msgstr "Mostrar os benefícios da atualização"
+
+msgctxt "editor_dialog_upgrade_button_cancel"
+msgid "Later"
+msgstr "Mais tarde"
+
+#. in-app payment
+msgctxt "inapp_upgrade_to_business_button"
+msgid "Upgrade to business version"
+msgstr ""
+
+msgctxt "inapp_dialog_upgrade_benefits_title"
+msgid "Upgrade to pro version"
+msgstr "Atualizar para a versão Pro"
+
+msgctxt "inapp_dialog_upgrade_benefits_text"
+msgid ""
+"Upgrading will give you these benefits:\n"
+"\n"
+"- unlimited annotations,\n"
+"- circle, rectangle, and point measurement tools\n"
+"- perspective length measurement tool\n"
+"- no visible logo in exported images,\n"
+"- bluetooth measurements with unlimited distance.\n"
+"\n"
+"This upgrade gives you all the features of the pro version.\n"
+"\n"
+"The upgrade is active when you see the text 'with pro-upgrade' in the "
+"title bar."
+msgstr ""
+"A atualização lhe dará esses benefícios:\n"
+"\n"
+"- anotações ilimitadas\n"
+"- ferramentas de medição de círculos, retângulos e pontos\n"
+"- ferramenta de medição de comprimento em perspectiva\n"
+"- sem logótipo visível nas imagens exportadas,\n"
+"- Medições Bluetooth com distância ilimitada.\n"
+"\n"
+"Esta atualização oferece todos os recursos da versão Pro.\n"
+"\n"
+"A atualização está ativa quando aparece o texto \"com pro-upgrade\" na "
+"barra de título."
+
+msgctxt "inapp_dialog_upgrade_benefits_ok"
+msgid "Upgrade now"
+msgstr "Atualizar agora"
+
+msgctxt "inapp_dialog_upgrade_benefits_later"
+msgid "Later"
+msgstr "Mais tarde"
+
+msgctxt "inapp_dialog_upgrade_active_title"
+msgid "Upgrade active"
+msgstr "Atualização ativa"
+
+msgctxt "inapp_dialog_upgrade_active_text"
+msgid ""
+"The pro upgrade has been activated.\n"
+"\n"
+"Thank you for using ImageMeter!"
+msgstr ""
+"A atualização Pro foi ativada.\n"
+"\n"
+"Obrigado por utilizar ImageMeter Pro!"
+
+msgctxt "inapp_dialog_upgrade_failed_title"
+msgid "Upgrade failed"
+msgstr "A atualização falhou"
+
+#, c-format
+msgctxt "inapp_dialog_upgrade_failed_text"
+msgid ""
+"The pro upgrade could not be activated.\n"
+"\n"
+"Reason: '%1$s'."
+msgstr ""
+"A atualização Pro não pôde ser ativada.\n"
+"\n"
+"Motivo: ' %1$s '."
+
+msgctxt "inapp_message_upgrade_has_not_been_bought"
+msgid "Upgrade not registered as bought"
+msgstr "Atualização não registrada como comprada"
+
+#. OBSOLET
+msgctxt "inapp_error_setup"
+msgid "Error setting up in-app billing:"
+msgstr "Erro ao configurar o faturamento no aplicativo:"
+
+#. OBSOLET
+msgctxt "inapp_error_query"
+msgid "Cannot query state of purchase:"
+msgstr "Não foi possível consultar o estado da compra:"
+
+#. OBSOLET
+msgctxt "inapp_error_purchase"
+msgid "Could not process purchase:"
+msgstr "Não foi possível processar a compra:"
+
+#, fuzzy
+msgctxt "inapp_error_billing_unavailable"
+msgid "Billing is not available."
+msgstr "Fatura indisponível"
+
+#, fuzzy
+msgctxt "inapp_error_feature_not_supported"
+msgid "Feature is not supported."
+msgstr "Recurso não suportado"
+
+#, fuzzy
+msgctxt "inapp_error_item_already_owned"
+msgid "Item is already owned."
+msgstr "Item já possuído"
+
+#, fuzzy
+msgctxt "inapp_error_item_unavailable"
+msgid "Item is unavailable."
+msgstr "Item não disponível"
+
+#, fuzzy
+msgctxt "inapp_error_service_disconnected"
+msgid "PlayStore temporarily disconnected, try again later."
+msgstr "PlayStore temporariamente desconectado, tente novamente mais tarde"
+
+#, fuzzy
+msgctxt "inapp_error_service_unavailable"
+msgid "Network down, cannot reach PlayStore."
+msgstr "Rede desativada, não é possível conectar PlayStore"
+
+#, fuzzy
+msgctxt "inapp_error_user_canceled"
+msgid "Purchase canceled by user."
+msgstr "Compra cancelada pelo usuário"
+
+msgctxt "inapp_error_signature_check_failed"
+msgid "Signature check failed."
+msgstr ""
+
+#, c-format, fuzzy
+msgctxt "inapp_error_unknown"
+msgid "Unknown error, result code: '%1$d', response '%1$s'."
+msgstr "Erro desconhecido, resultado do código: '%1$d'"
+
+msgctxt "inapp_error_developer_error"
+msgid "Developer error."
+msgstr ""
+
+msgctxt "inapp_error_generic_error"
+msgid "Generic error."
+msgstr ""
+
+msgctxt "inapp_error_item_not_owned"
+msgid "Item is not owned."
+msgstr ""
+
+msgctxt "inapp_error_service_timeout"
+msgid "Service timeout."
 msgstr ""
 
 #. tutorial
@@ -1416,8 +1681,9 @@ msgctxt "cloud_storage_provider_dropbox"
 msgid "Dropbox"
 msgstr ""
 
+#, fuzzy
 msgctxt "cloud_storage_provider_nextcloud"
-msgid "Nextcloud / Owncloud / WebDAV"
+msgid "Nextcloud / Owncloud"
 msgstr ""
 
 #. string name="pref_cloud_storage_server_and_user_name">%1$s, account:
@@ -1738,11 +2004,24 @@ msgid ""
 "the app settings (<a href=\"cloud-settings\">open settings</a>)."
 msgstr ""
 
+msgctxt "cloud_storage_not_configured_syncing_inbox_in_bkg"
+msgid "Your <i>inbox</i> folder is being synced."
+msgstr ""
+
+#, fuzzy
 msgctxt "cloud_storage_not_configured_business_upgrade"
 msgid ""
-"Cloud storage is only available in the <b>business</b> version of "
+"Cloud storage is only available in the <b>Business</b> version of "
 "ImageMeter. See <a href=\"https://imagemeter.com\">here</a> for all "
 "benefits of the business version."
+msgstr ""
+
+msgctxt "cloud_storage_not_configured_inbox_only"
+msgid ""
+"Full cloud storage is only available in the <b>Business</b> version of "
+"ImageMeter. Without Business upgrade, cloud storage is limited to the "
+"<i>inbox</i> folder. See <a href=\"https://imagemeter.com\">here</a> for "
+"all benefits of the Business version."
 msgstr ""
 
 #, c-format
@@ -1959,6 +2238,14 @@ msgctxt "error_cloud_cannot_download_file_short"
 msgid "Cannot download file from server"
 msgstr ""
 
+msgctxt "error_cloud_cannot_download_folder"
+msgid "Cannot download folder '{}' from server"
+msgstr ""
+
+msgctxt "error_cloud_cannot_download_folder_short"
+msgid "Cannot download folder from server"
+msgstr ""
+
 msgctxt "error_cloud_cannot_rename_file"
 msgid "Cannot rename file '{}' on server"
 msgstr ""
@@ -2003,6 +2290,10 @@ msgctxt "error_cloud_is_not_a_folder"
 msgid "File '{}' is not a folder."
 msgstr ""
 
+msgctxt "error_cloud_handwerkcloud_cannot_delete_folder_non_imagemeter_files_present"
+msgid "Cannot delete folder because the file '{}' is not managed by ImageMeter."
+msgstr ""
+
 msgctxt "notification_cloud_sync_errors_title"
 msgid "Cloud synchronization errors"
 msgstr ""
@@ -2018,6 +2309,10 @@ msgstr ""
 
 msgctxt "notification_cloud_sync_progress_cancel_action"
 msgid "Cancel sync"
+msgstr ""
+
+msgctxt "notification_cloud_cannot_remove_incomplete_upload_title"
+msgid "Cannot remove incomplete upload"
 msgstr ""
 
 #. preferences screen
@@ -4402,34 +4697,6 @@ msgctxt "editor_dialog_save_corrupted_imm_file_keep_old_button"
 msgid "Keep old data"
 msgstr "Manter dados antigos"
 
-msgctxt "editor_error_nonpro_gelement_limit_message"
-msgid ""
-"Please upgrade to the pro version of ImageMeter to use more than five "
-"annotations."
-msgstr ""
-"Favor atualizar para a versão Pro do ImageMeter para usar mais de cinco "
-"anotações."
-
-msgctxt "editor_error_nonpro_bluetooth_limit_message"
-msgid ""
-"For Bluetooth measurements with more than 3 meters, please upgrade to the"
-" pro version."
-msgstr ""
-"Para medições de Bluetooth superiores a 3 metros, favor atualizar para a "
-"versão Pro."
-
-msgctxt "editor_error_nonpro_pro_tool_message"
-msgid "This tool is only available in the pro version."
-msgstr "Esta ferramenta está disponível somente na versão Pro."
-
-msgctxt "editor_dialog_upgrade_button_upgrade"
-msgid "Show upgrade benefits"
-msgstr "Mostrar os benefícios da atualização"
-
-msgctxt "editor_dialog_upgrade_button_cancel"
-msgid "Later"
-msgstr "Mais tarde"
-
 msgctxt "editor_rectref_standard_size_letter"
 msgid "Letter"
 msgstr ""
@@ -5095,132 +5362,6 @@ msgstr "Fora da temperatura de trabalho"
 msgctxt "bluetooth_error_ambient_light_too_strong"
 msgid "Ambient light too strong"
 msgstr "Luz do ambiente muito forte"
-
-#. in-app payment
-msgctxt "inapp_upgrade_to_business_button"
-msgid "Upgrade to business version"
-msgstr ""
-
-msgctxt "inapp_dialog_upgrade_benefits_title"
-msgid "Upgrade to pro version"
-msgstr "Atualizar para a versão Pro"
-
-msgctxt "inapp_dialog_upgrade_benefits_text"
-msgid ""
-"Upgrading will give you these benefits:\n"
-"\n"
-"- unlimited annotations,\n"
-"- circle, rectangle, and point measurement tools\n"
-"- perspective length measurement tool\n"
-"- no visible logo in exported images,\n"
-"- bluetooth measurements with unlimited distance.\n"
-"\n"
-"This upgrade gives you all the features of the pro version.\n"
-"\n"
-"The upgrade is active when you see the text 'with pro-upgrade' in the "
-"title bar."
-msgstr ""
-"A atualização lhe dará esses benefícios:\n"
-"\n"
-"- anotações ilimitadas\n"
-"- ferramentas de medição de círculos, retângulos e pontos\n"
-"- ferramenta de medição de comprimento em perspectiva\n"
-"- sem logótipo visível nas imagens exportadas,\n"
-"- Medições Bluetooth com distância ilimitada.\n"
-"\n"
-"Esta atualização oferece todos os recursos da versão Pro.\n"
-"\n"
-"A atualização está ativa quando aparece o texto \"com pro-upgrade\" na "
-"barra de título."
-
-msgctxt "inapp_dialog_upgrade_benefits_ok"
-msgid "Upgrade now"
-msgstr "Atualizar agora"
-
-msgctxt "inapp_dialog_upgrade_benefits_later"
-msgid "Later"
-msgstr "Mais tarde"
-
-msgctxt "inapp_dialog_upgrade_active_title"
-msgid "Upgrade active"
-msgstr "Atualização ativa"
-
-msgctxt "inapp_dialog_upgrade_active_text"
-msgid ""
-"The pro upgrade has been activated.\n"
-"\n"
-"Thank you for using ImageMeter!"
-msgstr ""
-"A atualização Pro foi ativada.\n"
-"\n"
-"Obrigado por utilizar ImageMeter Pro!"
-
-msgctxt "inapp_dialog_upgrade_failed_title"
-msgid "Upgrade failed"
-msgstr "A atualização falhou"
-
-#, c-format
-msgctxt "inapp_dialog_upgrade_failed_text"
-msgid ""
-"The pro upgrade could not be activated.\n"
-"\n"
-"Reason: '%1$s'."
-msgstr ""
-"A atualização Pro não pôde ser ativada.\n"
-"\n"
-"Motivo: ' %1$s '."
-
-msgctxt "inapp_message_upgrade_has_not_been_bought"
-msgid "Upgrade not registered as bought"
-msgstr "Atualização não registrada como comprada"
-
-#. OBSOLET
-msgctxt "inapp_error_setup"
-msgid "Error setting up in-app billing:"
-msgstr "Erro ao configurar o faturamento no aplicativo:"
-
-#. OBSOLET
-msgctxt "inapp_error_query"
-msgid "Cannot query state of purchase:"
-msgstr "Não foi possível consultar o estado da compra:"
-
-#. OBSOLET
-msgctxt "inapp_error_purchase"
-msgid "Could not process purchase:"
-msgstr "Não foi possível processar a compra:"
-
-msgctxt "inapp_error_billing_unavailable"
-msgid "Billing unavailable"
-msgstr "Fatura indisponível"
-
-msgctxt "inapp_error_feature_not_supported"
-msgid "Feature not supported"
-msgstr "Recurso não suportado"
-
-msgctxt "inapp_error_item_already_owned"
-msgid "Item already owned"
-msgstr "Item já possuído"
-
-msgctxt "inapp_error_item_unavailable"
-msgid "Item unavailable"
-msgstr "Item não disponível"
-
-msgctxt "inapp_error_service_disconnected"
-msgid "PlayStore temporarily disconnected, try again later"
-msgstr "PlayStore temporariamente desconectado, tente novamente mais tarde"
-
-msgctxt "inapp_error_service_unavailable"
-msgid "Network down, cannot reach PlayStore"
-msgstr "Rede desativada, não é possível conectar PlayStore"
-
-msgctxt "inapp_error_user_canceled"
-msgid "Purchase canceled by user"
-msgstr "Compra cancelada pelo usuário"
-
-#, c-format
-msgctxt "inapp_error_unknown"
-msgid "Unknown error, result code: '%1$d'"
-msgstr "Erro desconhecido, resultado do código: '%1$d'"
 
 #. tips of the day
 msgctxt "tip_of_day_dialog_next"
