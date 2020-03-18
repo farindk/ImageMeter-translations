@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-18 18:11+0100\n"
+"POT-Creation-Date: 2020-03-19 00:20+0100\n"
 "PO-Revision-Date: 2019-02-06 12:17+0100\n"
 "Last-Translator: \n"
 "Language: cs\n"
@@ -595,29 +595,32 @@ msgctxt "upgrade_dialog_button_back"
 msgid "Back"
 msgstr ""
 
+#, fuzzy
 msgctxt "editor_error_nonpro_gelement_limit_message"
 msgid ""
-"Please upgrade to the pro version of ImageMeter to use more than five "
+"Please upgrade to the Pro version of ImageMeter to use more than five "
 "annotations."
 msgstr ""
 "Prosím, upgradgujte na pro verzi ImageMeter pro použití více než pěti "
 "poznámek."
 
+#, fuzzy
 msgctxt "editor_error_nonpro_bluetooth_limit_message"
 msgid ""
 "For Bluetooth measurements with more than 3 meters, please upgrade to the"
-" pro version."
+" Pro version."
 msgstr ""
 "Pro Bluetooth měření s více než 3 metry, prosím, proveďte upgrade na pro "
 "verzi."
 
+#, fuzzy
 msgctxt "editor_error_nonpro_pro_tool_message"
-msgid "This tool is only available in the pro version."
+msgid "This tool is only available in the Pro version."
 msgstr "Tento nástroj je dostupný pouze ve verzi pro."
 
-msgctxt "editor_dialog_upgrade_button_upgrade"
-msgid "Show upgrade benefits"
-msgstr "Ukázat výhody upgradu"
+msgctxt "editor_error_business_tool_message"
+msgid "This tool is only available in the Business version."
+msgstr ""
 
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
@@ -628,40 +631,9 @@ msgctxt "inapp_upgrade_to_business_button"
 msgid "Upgrade to business version"
 msgstr ""
 
-msgctxt "inapp_dialog_upgrade_benefits_title"
-msgid "Upgrade to pro version"
-msgstr "Upgrade na pro verzi"
-
-#, fuzzy
-msgctxt "inapp_dialog_upgrade_benefits_text"
-msgid ""
-"Upgrading will give you these benefits:\n"
-"\n"
-"- unlimited annotations,\n"
-"- circle, rectangle, and point measurement tools\n"
-"- perspective length measurement tool\n"
-"- no visible logo in exported images,\n"
-"- bluetooth measurements with unlimited distance.\n"
-"\n"
-"This upgrade gives you all the features of the pro version.\n"
-"\n"
-"The upgrade is active when you see the text 'with pro-upgrade' in the "
-"title bar."
+msgctxt "inapp_upgrade_to_pro_button"
+msgid "Upgrade"
 msgstr ""
-"Upgrade vám dá tyto výhody:\n"
-"\n"
-"- neomezené poznámky,\n"
-"- kruhový měřící nástroj\n"
-"- žádné viditelné logo na exportovaných obrázcích,\n"
-"- měření Bluetooth s neomezenou vzdáleností.\n"
-"\n"
-"Tento upgrade vám dá všechny funkce pro verze.\n"
-"\n"
-"Upgrade je aktivní, když vidíte text 's pro upgradem' v záhlaví."
-
-msgctxt "inapp_dialog_upgrade_benefits_ok"
-msgid "Upgrade now"
-msgstr "Upgradovat nyní"
 
 msgctxt "inapp_dialog_upgrade_benefits_later"
 msgid "Later"
@@ -682,40 +654,6 @@ msgstr ""
 "\n"
 "Nyní byste měli v záhlaví vidět text 's pro upgradem'. Jméno aplikace se "
 "z technických důvodů nezmění na 'ImageMeter Pro'."
-
-msgctxt "inapp_dialog_upgrade_failed_title"
-msgid "Upgrade failed"
-msgstr "Upgrade selhalo"
-
-#, c-format, fuzzy
-msgctxt "inapp_dialog_upgrade_failed_text"
-msgid ""
-"The pro upgrade could not be activated.\n"
-"\n"
-"Reason: '%1$s'."
-msgstr ""
-"Pro upgrade nemohl být aktivovaný.\n"
-"\n"
-"Zpětná vazba z Play-Store: '%1$s'."
-
-msgctxt "inapp_message_upgrade_has_not_been_bought"
-msgid "Upgrade not registered as bought"
-msgstr "Upgrade není registrovaný jako zakoupený"
-
-#. OBSOLET
-msgctxt "inapp_error_setup"
-msgid "Error setting up in-app billing:"
-msgstr "Chyba při nastavení in-app nákupů:"
-
-#. OBSOLET
-msgctxt "inapp_error_query"
-msgid "Cannot query state of purchase:"
-msgstr "Nelze zjistit stav dotazu upgradu:"
-
-#. OBSOLET
-msgctxt "inapp_error_purchase"
-msgid "Could not process purchase:"
-msgstr "Nešlo zpracovat nákup:"
 
 #, fuzzy
 msgctxt "inapp_error_billing_unavailable"
@@ -777,7 +715,35 @@ msgctxt "inapp_error_service_timeout"
 msgid "Service timeout."
 msgstr ""
 
+msgctxt "dialog_need_upgrade_pro_title"
+msgid "Pro feature"
+msgstr ""
+
+msgctxt "dialog_need_upgrade_business_title"
+msgid "Business feature"
+msgstr ""
+
+msgctxt "dialog_need_upgrade_create_subfolders"
+msgid "Creating subfolders is included in the Business version."
+msgstr ""
+
+msgctxt "dialog_need_upgrade_move_folders"
+msgid "Moving folders into other folders is included in the Business version."
+msgstr ""
+
+msgctxt "dialog_need_upgrade_audio_notes"
+msgid "Recording audio notes is included in the Business version."
+msgstr ""
+
+msgctxt "dialog_need_upgrade_detail_image"
+msgid "Adding detail images is included in the Business version."
+msgstr ""
+
 #. tutorial
+msgctxt "example_folder_name"
+msgid "Examples"
+msgstr ""
+
 msgctxt "tutorial_images_1"
 msgid "Example 1: Measure on a 2D floor plan"
 msgstr "Příklad 1: Měření na 2D půdorysu"

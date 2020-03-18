@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-18 18:11+0100\n"
+"POT-Creation-Date: 2020-03-19 00:20+0100\n"
 "PO-Revision-Date: 2019-02-06 12:21+0100\n"
 "Last-Translator: \n"
 "Language: pt\n"
@@ -591,29 +591,32 @@ msgctxt "upgrade_dialog_button_back"
 msgid "Back"
 msgstr ""
 
+#, fuzzy
 msgctxt "editor_error_nonpro_gelement_limit_message"
 msgid ""
-"Please upgrade to the pro version of ImageMeter to use more than five "
+"Please upgrade to the Pro version of ImageMeter to use more than five "
 "annotations."
 msgstr ""
 "Favor atualizar para a versão Pro do ImageMeter para usar mais de cinco "
 "anotações."
 
+#, fuzzy
 msgctxt "editor_error_nonpro_bluetooth_limit_message"
 msgid ""
 "For Bluetooth measurements with more than 3 meters, please upgrade to the"
-" pro version."
+" Pro version."
 msgstr ""
 "Para medições de Bluetooth superiores a 3 metros, favor atualizar para a "
 "versão Pro."
 
+#, fuzzy
 msgctxt "editor_error_nonpro_pro_tool_message"
-msgid "This tool is only available in the pro version."
+msgid "This tool is only available in the Pro version."
 msgstr "Esta ferramenta está disponível somente na versão Pro."
 
-msgctxt "editor_dialog_upgrade_button_upgrade"
-msgid "Show upgrade benefits"
-msgstr "Mostrar os benefícios da atualização"
+msgctxt "editor_error_business_tool_message"
+msgid "This tool is only available in the Business version."
+msgstr ""
 
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
@@ -624,41 +627,9 @@ msgctxt "inapp_upgrade_to_business_button"
 msgid "Upgrade to business version"
 msgstr ""
 
-msgctxt "inapp_dialog_upgrade_benefits_title"
-msgid "Upgrade to pro version"
-msgstr "Atualizar para a versão Pro"
-
-msgctxt "inapp_dialog_upgrade_benefits_text"
-msgid ""
-"Upgrading will give you these benefits:\n"
-"\n"
-"- unlimited annotations,\n"
-"- circle, rectangle, and point measurement tools\n"
-"- perspective length measurement tool\n"
-"- no visible logo in exported images,\n"
-"- bluetooth measurements with unlimited distance.\n"
-"\n"
-"This upgrade gives you all the features of the pro version.\n"
-"\n"
-"The upgrade is active when you see the text 'with pro-upgrade' in the "
-"title bar."
+msgctxt "inapp_upgrade_to_pro_button"
+msgid "Upgrade"
 msgstr ""
-"A atualização lhe dará esses benefícios:\n"
-"\n"
-"- anotações ilimitadas\n"
-"- ferramentas de medição de círculos, retângulos e pontos\n"
-"- ferramenta de medição de comprimento em perspectiva\n"
-"- sem logótipo visível nas imagens exportadas,\n"
-"- Medições Bluetooth com distância ilimitada.\n"
-"\n"
-"Esta atualização oferece todos os recursos da versão Pro.\n"
-"\n"
-"A atualização está ativa quando aparece o texto \"com pro-upgrade\" na "
-"barra de título."
-
-msgctxt "inapp_dialog_upgrade_benefits_ok"
-msgid "Upgrade now"
-msgstr "Atualizar agora"
 
 msgctxt "inapp_dialog_upgrade_benefits_later"
 msgid "Later"
@@ -677,40 +648,6 @@ msgstr ""
 "A atualização Pro foi ativada.\n"
 "\n"
 "Obrigado por utilizar ImageMeter Pro!"
-
-msgctxt "inapp_dialog_upgrade_failed_title"
-msgid "Upgrade failed"
-msgstr "A atualização falhou"
-
-#, c-format
-msgctxt "inapp_dialog_upgrade_failed_text"
-msgid ""
-"The pro upgrade could not be activated.\n"
-"\n"
-"Reason: '%1$s'."
-msgstr ""
-"A atualização Pro não pôde ser ativada.\n"
-"\n"
-"Motivo: ' %1$s '."
-
-msgctxt "inapp_message_upgrade_has_not_been_bought"
-msgid "Upgrade not registered as bought"
-msgstr "Atualização não registrada como comprada"
-
-#. OBSOLET
-msgctxt "inapp_error_setup"
-msgid "Error setting up in-app billing:"
-msgstr "Erro ao configurar o faturamento no aplicativo:"
-
-#. OBSOLET
-msgctxt "inapp_error_query"
-msgid "Cannot query state of purchase:"
-msgstr "Não foi possível consultar o estado da compra:"
-
-#. OBSOLET
-msgctxt "inapp_error_purchase"
-msgid "Could not process purchase:"
-msgstr "Não foi possível processar a compra:"
 
 #, fuzzy
 msgctxt "inapp_error_billing_unavailable"
@@ -772,7 +709,35 @@ msgctxt "inapp_error_service_timeout"
 msgid "Service timeout."
 msgstr ""
 
+msgctxt "dialog_need_upgrade_pro_title"
+msgid "Pro feature"
+msgstr ""
+
+msgctxt "dialog_need_upgrade_business_title"
+msgid "Business feature"
+msgstr ""
+
+msgctxt "dialog_need_upgrade_create_subfolders"
+msgid "Creating subfolders is included in the Business version."
+msgstr ""
+
+msgctxt "dialog_need_upgrade_move_folders"
+msgid "Moving folders into other folders is included in the Business version."
+msgstr ""
+
+msgctxt "dialog_need_upgrade_audio_notes"
+msgid "Recording audio notes is included in the Business version."
+msgstr ""
+
+msgctxt "dialog_need_upgrade_detail_image"
+msgid "Adding detail images is included in the Business version."
+msgstr ""
+
 #. tutorial
+msgctxt "example_folder_name"
+msgid "Examples"
+msgstr ""
+
 msgctxt "tutorial_images_1"
 msgid "Example 1: Measure on a 2D floor plan"
 msgstr "Exemplo 1: Medição em planta 2D"
