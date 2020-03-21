@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-19 00:20+0100\n"
-"PO-Revision-Date: 2019-02-06 12:17+0100\n"
+"POT-Creation-Date: 2020-03-21 15:05+0100\n"
+"PO-Revision-Date: 2020-03-21 14:31+0100\n"
 "Last-Translator: \n"
 "Language: cs\n"
 "Language-Team: cs <LL@li.org>\n"
@@ -176,10 +176,9 @@ msgctxt "imageselect_menu_preferences"
 msgid "Settings"
 msgstr "Nastavení"
 
-#, fuzzy
 msgctxt "imageselect_menu_rename"
 msgid "Rename"
-msgstr "Přejmenovat obrázek"
+msgstr ""
 
 msgctxt "imageselect_menu_duplicate"
 msgid "Duplicate"
@@ -202,10 +201,9 @@ msgctxt "imageselect_menu_capture"
 msgid "Camera capture"
 msgstr "Vyfotit obrázek"
 
-#, fuzzy
 msgctxt "imageselect_menu_delete_image"
 msgid "Delete"
-msgstr "Smazat obrázek"
+msgstr ""
 
 msgctxt "imageselect_menu_undelete_image"
 msgid "Undelete"
@@ -215,10 +213,9 @@ msgctxt "imageselect_menu_purge_image"
 msgid "Purge"
 msgstr ""
 
-#, fuzzy
 msgctxt "imageselect_menu_share_image"
 msgid "Share"
-msgstr "Sdílet obrázek"
+msgstr ""
 
 msgctxt "imageselect_menu_save_to_external_memory"
 msgid "Save to gallery"
@@ -237,10 +234,9 @@ msgctxt "imageselect_menu_image_info"
 msgid "Image info…"
 msgstr ""
 
-#, fuzzy
 msgctxt "imageselect_menu_upgrade"
 msgid "Upgrade"
-msgstr "Upgrade ..."
+msgstr "Upgrade"
 
 msgctxt "imageselect_menu_import_images_from_free_app"
 msgid "Import images from free app"
@@ -254,10 +250,9 @@ msgctxt "imageselect_menu_welcome_message"
 msgid "Show welcome message"
 msgstr ""
 
-#, fuzzy
 msgctxt "imageselect_menu_about_app"
 msgid "About app"
-msgstr "O aplikaci..."
+msgstr "O aplikaci"
 
 #. string name="imageselect_menu_sync_current_folder">Sync current
 #. folder</string
@@ -376,10 +371,9 @@ msgctxt "foldername_dialog_folder_name"
 msgid "Folder name"
 msgstr "Název složky"
 
-#, fuzzy
 msgctxt "foldername_dialog_folder_name_hint"
 msgid "Enter folder name"
-msgstr "název složky"
+msgstr "Název složky"
 
 msgctxt "foldername_dialog_notes"
 msgid "Notes"
@@ -444,25 +438,25 @@ msgid "Choose target folder for the image"
 msgstr "Zvolte cílovou složku pro obrázek"
 
 #. dialog: about app
-#, fuzzy
 msgctxt "imageselect_dialog_about_version"
 msgid "Version:"
-msgstr "verze:"
+msgstr "Verze:"
 
-#, fuzzy
 msgctxt "imageselect_dialog_about_license"
 msgid "License:"
-msgstr "licence:"
+msgstr "Licence:"
 
-#, fuzzy
+msgctxt "imageselect_dialog_about_source"
+msgid "Source:"
+msgstr ""
+
 msgctxt "imageselect_dialog_about_license_evaluation"
 msgid "Free Evaluation"
-msgstr "verze zdarma"
+msgstr "Verze zdarma"
 
-#, fuzzy
 msgctxt "imageselect_dialog_about_license_pro"
 msgid "Pro"
-msgstr "pro"
+msgstr "Pro"
 
 msgctxt "imageselect_dialog_about_license_business"
 msgid "Business"
@@ -475,6 +469,10 @@ msgstr "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video tutoriál<
 
 msgctxt "imageselect_dialog_about_documentation_link"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
+msgstr ""
+
+msgctxt "imageselect_dialog_about_release_notes"
+msgid "<a href=\"release-notes\">Release notes</a>"
 msgstr ""
 
 #, fuzzy
@@ -501,14 +499,18 @@ msgctxt "license_source_native"
 msgid "Native"
 msgstr ""
 
-#, c-format
-msgctxt "navigation_drawer_version"
-msgid "Version: %1$s"
+msgctxt "license_source_pro_key_app"
+msgid "Pro-key app"
 msgstr ""
 
 #, c-format
 msgctxt "navigation_drawer_license"
 msgid "License: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "navigation_drawer_version"
+msgid "Version: %1$s"
 msgstr ""
 
 #, c-format
@@ -580,7 +582,8 @@ msgstr ""
 msgctxt "upgrade_dialog_more_information_link"
 msgid ""
 "For more information about these features, &lt;a "
-"href=\"https://www.imagemeter.com\"&gt;visit the website&lt;/a&gt;."
+"href=\"https://www.imagemeter.com/manual/license/android-"
+"licenses\"&gt;visit the website&lt;/a&gt;."
 msgstr ""
 
 msgctxt "upgrade_dialog_button_pro_upgrade"
@@ -643,7 +646,6 @@ msgctxt "inapp_dialog_upgrade_active_title"
 msgid "Upgrade active"
 msgstr "Upgrade aktivní"
 
-#, fuzzy
 msgctxt "inapp_dialog_upgrade_active_text"
 msgid ""
 "The pro upgrade has been activated.\n"
@@ -653,39 +655,32 @@ msgstr ""
 "Pro upgrade je nyní aktivní.\n"
 "\n"
 "Nyní byste měli v záhlaví vidět text 's pro upgradem'. Jméno aplikace se "
-"z technických důvodů nezmění na 'ImageMeter Pro'."
+"z technických důvodů nezmění na 'ImageMeter Pro'!"
 
-#, fuzzy
 msgctxt "inapp_error_billing_unavailable"
 msgid "Billing is not available."
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_feature_not_supported"
 msgid "Feature is not supported."
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_item_already_owned"
 msgid "Item is already owned."
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_item_unavailable"
 msgid "Item is unavailable."
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_service_disconnected"
 msgid "PlayStore temporarily disconnected, try again later."
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_service_unavailable"
 msgid "Network down, cannot reach PlayStore."
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_user_canceled"
 msgid "Purchase canceled by user."
 msgstr ""
@@ -696,7 +691,7 @@ msgstr ""
 
 #, c-format, fuzzy
 msgctxt "inapp_error_unknown"
-msgid "Unknown error, result code: '%1$d', response '%1$s'."
+msgid "Unknown error, result code: '%1$d', response '%2$s'."
 msgstr ""
 
 msgctxt "inapp_error_developer_error"
@@ -739,6 +734,18 @@ msgctxt "dialog_need_upgrade_detail_image"
 msgid "Adding detail images is included in the Business version."
 msgstr ""
 
+#, c-format
+msgctxt "dialog_need_upgrade_example_images_text"
+msgid "You can try this function with the example images (in folder '%1$s')."
+msgstr ""
+
+#, c-format
+msgctxt "dialog_need_upgrade_create_example_images_text"
+msgid ""
+"You can try this function with the example images (<a "
+"href=\"create\">create folder '%1$s'</a>)."
+msgstr ""
+
 #. tutorial
 msgctxt "example_folder_name"
 msgid "Examples"
@@ -777,49 +784,69 @@ msgctxt "default_image_name_prefix_captured"
 msgid "captured on (OBSOLET)"
 msgstr "vyfoceno (OBSOLET)"
 
-#, fuzzy
 msgctxt "default_image_name_prefix_with_date"
 msgid "image from {M} {d}, {yyyy}"
-msgstr "obrázek z [dd MMM yyyy]"
+msgstr "obrázek z {d} {M}, {yyyy}"
 
 #. image import from free app
-msgctxt "imageselect_result_import_free_app_finished"
-msgid ""
-"Images from free app are now imported.\n"
-"\n"
-"It may be good to delete images from the free app now (please check that "
-"there was no import error) to save memory and to avoid overwriting your "
-"changes by an accidental reimport."
+msgctxt "snackbar_pro_to_free_migration"
+msgid "Pro-version app migration"
 msgstr ""
-"Obrázky z bezplatné aplikace jsou nyní importovány.\n"
-"\n"
-"Nyní může být dobré smazat obrázky z bezplatné aplikace (prosím, "
-"zkontrolujte, zda nedošlo k žádné chybě importu), abyste ušetřili paměť a"
-" abyste předešli přepsáním změn náhodným opětovným importem."
 
-msgctxt "imageselect_error_howto_import_free_app"
-msgid ""
-"Could not yet import images.\n"
-"\n"
-"In order to import the images of the free app, both apps must be at least"
-" at version v1.48. In both apps, the images have to be converted to "
-"filesystem storage (you find this action in the same menu you found the "
-"import item)."
+msgctxt "snackbar_pro_to_free_migration_info"
+msgid "Info"
 msgstr ""
-"Nemohu ještě importovat snímky.\n"
-"\n"
-" Aby bylo možné importovat obrázky z bezplatné aplikace, obě aplikace "
-"musí být alespoň ve verzi v1.48, obrázky musí být převedeny do "
-"souborového systému (můžete najít tuto akci ve stejné nabídce, jako kde "
-"jste našli import)."
 
-msgctxt "imageselect_error_import_free_app_failed"
-msgid ""
-"Image import from free app has failed or is incomplete. Maybe your memory"
-" is full?"
+msgctxt "snackbar_pro_to_free_migration_url"
+msgid "https://www.imagemeter.com/manual/license/pro-version-migration"
 msgstr ""
-"Import obrázku z bezplatné aplikace selhal nebo je neúplný. Možná je vaše"
-" paměť plná?"
+
+msgctxt "import_pro_app_data"
+msgid "Import images from Pro app"
+msgstr ""
+
+msgctxt "import_pro_app_data_started_text"
+msgid ""
+"Importing has started to run in the background. When it is finished, "
+"please check that the images were copied correctly and delete them in the"
+" Pro app to save memory space."
+msgstr ""
+
+msgctxt "import_pro_app_data_local_not_empty"
+msgid ""
+"Warning: there are images in this app. Importing the images from the Pro "
+"app may overwrite images with the same name."
+msgstr ""
+
+msgctxt "import_pro_app_data_local_not_empty_anyway"
+msgid "Import anyway"
+msgstr ""
+
+msgctxt "import_pro_app_data_title"
+msgid "Importing images from Pro app"
+msgstr ""
+
+msgctxt "import_pro_app_data_scan_progress_text"
+msgid "Please wait, searching for images to copy."
+msgstr ""
+
+#, c-format
+msgctxt "import_pro_app_data_progress_text"
+msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
+msgstr ""
+
+msgctxt "import_pro_app_data_finished"
+msgid ""
+"Images from the Pro app are now imported. After checking that the images "
+"were imported correctly, you may want to delete the images in the Pro app"
+" to save memory space."
+msgstr ""
+
+msgctxt "import_pro_app_data_failed"
+msgid ""
+"Image import from Pro app has failed or is incomplete. Maybe your memory "
+"is full?"
+msgstr ""
 
 #. image export
 msgctxt "export_dialog_saving_images_to_external_storage"
@@ -944,7 +971,6 @@ msgid "Paper"
 msgstr ""
 
 #. dialogs
-#, fuzzy
 msgctxt "imageselect_dialog_image_name_image_title"
 msgid "Image name"
 msgstr "Název obrázku"
@@ -1310,7 +1336,6 @@ msgid "Downloading image file from cloud storage."
 msgstr ""
 
 #. filesystem errors
-#, fuzzy
 msgctxt "error_cannot_delete_file"
 msgid "Cannot delete file '{}'."
 msgstr ""
@@ -1323,7 +1348,6 @@ msgctxt "imerror_files_cannot_write_file"
 msgid "Cannot write file '{}'."
 msgstr ""
 
-#, fuzzy
 msgctxt "error_cannot_rename_file"
 msgid "Cannot rename file '{0}' to '{1}'."
 msgstr ""
@@ -1340,20 +1364,17 @@ msgctxt "imerror_files_cannot_create_directory"
 msgid "Cannot create directory \"{}\"."
 msgstr ""
 
-#, fuzzy
 msgctxt "imerror_files_directory_does_not_exist"
 msgid "Directory '{}' does not exist."
 msgstr ""
 
-#, fuzzy
 msgctxt "imageselect_error_cannot_rename_folder"
 msgid "Cannot rename folder '{0}' to '{1}'."
-msgstr "Nelze přejmenovat složku '%1$s' na %2$s'."
+msgstr "Nelze přejmenovat složku '{0}' na '{1}'."
 
-#, fuzzy
 msgctxt "imageselect_error_folder_cannot_delete"
 msgid "Cannot delete folder '{}'."
-msgstr "Nelze odstranit složku '%1$s'."
+msgstr "Nelze odstranit složku '{}'."
 
 msgctxt "imerror_files_cannot_read_directory"
 msgid "Cannot read directory '{}'."
@@ -1646,7 +1667,6 @@ msgctxt "cloud_storage_provider_dropbox"
 msgid "Dropbox"
 msgstr ""
 
-#, fuzzy
 msgctxt "cloud_storage_provider_nextcloud"
 msgid "Nextcloud / Owncloud"
 msgstr ""
@@ -1689,17 +1709,48 @@ msgctxt "cloud_storage_cautiousness"
 msgid "Cautiousness:"
 msgstr ""
 
-#, fuzzy
 msgctxt "cloud_storage_notice_text"
 msgid ""
-"Cloud storage can be used in two ways.\n"
-"In <b>share</b> mode, images on your device are mirrored to the server "
-"and back. This is useful when you want to have the same images on several"
-" devices.\n"
-"In <b>backup</b> mode, your images are copied to the server, but they are"
-" not deleted there if you delete them on the device.\n"
-"See the full cloud storage <a "
-"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>."
+"Before setting up cloud storage, you should read the <a "
+"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>"
+" to avoid pitfalls."
+msgstr ""
+
+#. string name="cloud_storage_notice_text">Cloud storage can be used in two
+#. ways.\nIn <b>share</b> mode, images on your device are mirrored to the
+#. server and back. This is useful when you want to have the same images on
+#. several devices.\nIn <b>backup</b> mode, your images are copied to the
+#. server, but they are not deleted there if you delete them on the
+#. device.\nSee the full cloud storage <a
+#. href="https://www.imagemeter.com/manual/storage/cloud">documentation</a>.</string
+msgctxt "cloud_storage_server_note_drive"
+msgid ""
+"<b>Note:</b> the Google Drive backend does not allow access to shared "
+"folders yet. Hence, you can share images between devices when they use "
+"the same Google account, but not between devices using different "
+"accounts."
+msgstr ""
+
+msgctxt "cloud_storage_server_note_dropbox"
+msgid ""
+"The Dropbox backend also supports sharing your images with other Dropbox "
+"users. See the documentation at the link above how to set this up."
+msgstr ""
+
+msgctxt "cloud_storage_server_note_nextcloud"
+msgid ""
+"This backend allows you to use your own, private cloud server to host the"
+" images. You can set-up your own users and shared folders. Information "
+"how to set-up a server can be found at the documentation link above."
+msgstr ""
+
+msgctxt "cloud_storage_server_note_handwerkcloud"
+msgid ""
+"The Handwerkcloud service offers not only storage space for your images "
+"and documents, but also an online office suite and other applications. A "
+"Handwerkcloud subscription includes an ImageMeter Business license. For "
+"more information see the <a "
+"href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
 msgstr ""
 
 msgctxt "cloud_storage_account"
@@ -1973,20 +2024,20 @@ msgctxt "cloud_storage_not_configured_syncing_inbox_in_bkg"
 msgid "Your <i>inbox</i> folder is being synced."
 msgstr ""
 
-#, fuzzy
 msgctxt "cloud_storage_not_configured_business_upgrade"
 msgid ""
 "Cloud storage is only available in the <b>Business</b> version of "
-"ImageMeter. See <a href=\"https://imagemeter.com\">here</a> for all "
-"benefits of the business version."
+"ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-"
+"business-features\">here</a> for all benefits of the business version."
 msgstr ""
 
 msgctxt "cloud_storage_not_configured_inbox_only"
 msgid ""
 "Full cloud storage is only available in the <b>Business</b> version of "
 "ImageMeter. Without Business upgrade, cloud storage is limited to the "
-"<i>inbox</i> folder. See <a href=\"https://imagemeter.com\">here</a> for "
-"all benefits of the Business version."
+"<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license"
+"/android-business-features\">here</a> for all benefits of the Business "
+"version."
 msgstr ""
 
 #, c-format
@@ -2842,10 +2893,9 @@ msgctxt "pref_export_multi_images_format_choices:2"
 msgid "Zip archive of images"
 msgstr "Zip archiv obrázků"
 
-#, fuzzy
 msgctxt "pref_export_multi_images_format_choices:3"
 msgid "ImageMeter folder (IMF)"
-msgstr "Složka ImageMeter"
+msgstr "Složka ImageMeter (IMF)"
 
 msgctxt "pref_export_single_image_format"
 msgid "Export images as"
@@ -2871,15 +2921,14 @@ msgid "Zip archive of images"
 msgstr "Zip archiv obrázků"
 
 #. TODO: FIX other languages
-#, fuzzy
 msgctxt "pref_export_single_image_format_choices:3"
 msgid "ImageMeter image (IMI)"
-msgstr "Obrázek ImageMeter"
+msgstr "Obrázek ImageMeter (IMI)"
 
 #. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:4"
 msgid "ImageMeter folder (IMF)"
-msgstr ""
+msgstr "Složka ImageMeter (IMF)"
 
 #. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:5"
@@ -3066,27 +3115,27 @@ msgstr ""
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
 msgid "10%"
-msgstr ""
+msgstr "10%"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:2"
 msgid "20%"
-msgstr ""
+msgstr "20%"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:3"
 msgid "30%"
-msgstr ""
+msgstr "30%"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:4"
 msgid "40%"
-msgstr ""
+msgstr "40%"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
-msgstr ""
+msgstr "50%"
 
 msgctxt "pref_category_bluetooth"
 msgid "Bluetooth"
@@ -3126,97 +3175,95 @@ msgstr "Automaticky"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_plr"
 msgid "Bosch PLR"
-msgstr ""
+msgstr "Bosch PLR"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm100c"
 msgid "Bosch GLM100c"
-msgstr ""
+msgstr "Bosch GLM100c"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm120c"
 msgid "Bosch GLM120c"
-msgstr ""
+msgstr "Bosch GLM120c"
 
 msgctxt "pref_bluetooth_device_protocol_cem_ildm150"
 msgid "CEM iLDM-150"
-msgstr ""
+msgstr "CEM iLDM-150"
 
 msgctxt "pref_bluetooth_device_protocol_etape16"
 msgid "eTape16"
-msgstr ""
+msgstr "eTape16"
 
 msgctxt "pref_bluetooth_device_protocol_hilti_pd38"
 msgid "Hilti PD-38"
-msgstr ""
+msgstr "Hilti PD-38"
 
 msgctxt "pref_bluetooth_device_protocol_hilti_pd"
 msgid "Hilti PD Bluetooth LE"
-msgstr ""
+msgstr "Hilti PD Bluetooth LE"
 
 msgctxt "pref_bluetooth_device_protocol_stabila"
 msgid "Stabila"
-msgstr ""
+msgstr "Stabila"
 
 msgctxt "pref_bluetooth_device_protocol_wuerth"
 msgid "Würth WDM 3–19"
-msgstr ""
+msgstr "Würth WDM 3–19"
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
 msgid "Leica Disto classic"
-msgstr ""
+msgstr "Leica Disto classic"
 
-#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_leica_disto_bt4"
 msgid "Leica Disto Bluetooth LE"
-msgstr ""
+msgstr "Leica Disto Bluetooth LE"
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_x"
 msgid "Leica Disto X3/X4"
-msgstr ""
+msgstr "Leica Disto X3/X4"
 
 msgctxt "pref_bluetooth_device_protocol_lti_trupulse"
 msgid "LTI TruPulse"
-msgstr ""
+msgstr "LTI TruPulse"
 
 msgctxt "pref_bluetooth_device_protocol_stanley_tlm99s"
 msgid "Stanley TLM99s"
-msgstr ""
+msgstr "Stanley TLM99s"
 
 msgctxt "pref_bluetooth_device_protocol_stanley_tlm99si"
 msgid "Stanley TLM99si"
-msgstr ""
+msgstr "Stanley TLM99si"
 
-#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_suaoki"
 msgid "Suaoki"
-msgstr ""
+msgstr "Suaoki"
 
 msgctxt "pref_bluetooth_device_protocol_mileseey_p7"
 msgid "Mileseey P7"
-msgstr ""
+msgstr "Mileseey P7"
 
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
 msgid "Sndway SW-S100"
-msgstr ""
+msgstr "Sndway SW-S100"
 
 msgctxt "pref_bluetooth_device_protocol_precaster_cx100"
 msgid "Precaster CX100"
-msgstr ""
+msgstr "Precaster CX100"
 
 msgctxt "pref_bluetooth_device_protocol_ada_cosmo120"
 msgid "Ada Cosmo 120"
-msgstr ""
+msgstr "Ada Cosmo 120"
 
 msgctxt "pref_bluetooth_device_protocol_laserliner_compactpro"
 msgid "Laserliner Compact Pro"
-msgstr ""
+msgstr "Laserliner Compact Pro"
 
 msgctxt "pref_bluetooth_device_protocol_toolsmart_anglefinder"
 msgid "ToolSmart-AngleFinder"
-msgstr ""
+msgstr "ToolSmart-AngleFinder"
 
 msgctxt "pref_bluetooth_device_protocol_condtrol_xp3"
 msgid "Condtrol XP3/XP4 Pro"
-msgstr ""
+msgstr "Condtrol XP3/XP4 Pro"
 
 #. item Calculated Industries /item
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
@@ -3379,24 +3426,21 @@ msgctxt "pref_ui_image_order_criterium_dialog"
 msgid "Image sorting order"
 msgstr "Způsob třídění obrázků"
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:0"
 msgid "Image name (ascending)"
-msgstr "Název obrázku"
+msgstr "Název obrázku (vzestupně)"
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:1"
 msgid "Image name (descending)"
-msgstr "Datum vyfocení (nejstarší první)"
+msgstr "Název obrázku (klesající)"
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:2"
 msgid "Capture date (oldest first)"
-msgstr "Datum vyfocení (nejnovější první)"
+msgstr "Datum vyfocení (nejstarší první)"
 
 msgctxt "pref_ui_image_order_criterium_choices:3"
 msgid "Capture date (latest first)"
-msgstr ""
+msgstr "Datum vyfocení (nejnovější první)"
 
 msgctxt "pref_ui_image_order_criterium_choices:4"
 msgid "Number (ascending)"
@@ -3442,15 +3486,15 @@ msgctxt "pref_ui_editor_fullscreen_mode_choices:2"
 msgid "Always"
 msgstr "Vždy"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "pref_preset_text"
 msgid "Preset text %1$d"
-msgstr "Přednastavený text %1$s"
+msgstr "Přednastavený text %1$d"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "pref_preset_text_dialog"
 msgid "Enter preset text %1$d"
-msgstr "Zadejte přednastavený text %1$s"
+msgstr "Zadejte přednastavený text %1$d"
 
 msgctxt "preset_text_1"
 msgid "front door"
@@ -3541,15 +3585,13 @@ msgctxt "pref_storage_show_images_in_gallery"
 msgid "Show images in gallery"
 msgstr "Zobrazit obrázky v galerii"
 
-#, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_on"
 msgid "Edited images will show up in gallery"
-msgstr "Všechny obrázky se zobrazí v galerii"
+msgstr ""
 
-#, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_off"
 msgid "Images will not show in the gallery automatically"
-msgstr "Obrázky se nezobrazí v galerii"
+msgstr ""
 
 msgctxt "pref_storage_directory_current_directory"
 msgid "Current storage directory:"
@@ -3703,7 +3745,6 @@ msgctxt "pref_cloud_storage_sync_cautiousness:3"
 msgid "Confirm everything"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_cloud_storage_sync_mode:0"
 msgid "SYNC MODE"
 msgstr ""
@@ -3805,10 +3846,9 @@ msgctxt "editor_menu_add_area"
 msgid "Area"
 msgstr "Plocha"
 
-#, fuzzy
 msgctxt "editor_menu_add_text"
 msgid "Note"
-msgstr "Text"
+msgstr ""
 
 msgctxt "editor_menu_add_freehand"
 msgid "Freehand"
@@ -3870,10 +3910,9 @@ msgctxt "editor_menu_edit_redo"
 msgid "Redo"
 msgstr "Znovu"
 
-#, fuzzy
 msgctxt "editor_menu_edit_rotate"
 msgid "Rotate image (CW)"
-msgstr "Otočit obraz"
+msgstr ""
 
 msgctxt "editor_menu_edit_rotate_ccw"
 msgid "Rotate image (CCW)"
@@ -4099,10 +4138,9 @@ msgctxt "editor_dialog_style_measure_title"
 msgid "Dimension style"
 msgstr "Styl rozměru"
 
-#, fuzzy
 msgctxt "editor_dialog_style_measure_show_text"
 msgid "Show length"
-msgstr "Zobrazit text"
+msgstr ""
 
 msgctxt "editor_dialog_style_measure_font_magnification"
 msgid "Font size"
@@ -4176,10 +4214,9 @@ msgctxt "editor_dialog_style_rect_title"
 msgid "Reference style"
 msgstr "Referenční styl"
 
-#, fuzzy
 msgctxt "editor_dialog_style_rect_show_text"
 msgid "Show side lengths"
-msgstr "Zobrazit text"
+msgstr ""
 
 msgctxt "editor_dialog_style_rect_show_area"
 msgid "Show area"
@@ -4381,19 +4418,17 @@ msgctxt "editor_dialog_style_area_title"
 msgid "Area style"
 msgstr "Styl oblasti"
 
-#, fuzzy
 msgctxt "editor_dialog_style_area_show_text"
 msgid "Show area"
-msgstr "Zobrazit text"
+msgstr ""
 
 msgctxt "editor_dialog_style_area_show_perimeter"
 msgid "Show perimeter"
 msgstr ""
 
-#, fuzzy
 msgctxt "editor_dialog_style_area_font_magnification"
 msgid "Area font size"
-msgstr "Velikost písma"
+msgstr ""
 
 msgctxt "editor_dialog_style_area_show_edge_labels"
 msgid "Show edge lengths"
@@ -4758,10 +4793,9 @@ msgstr ""
 "obrázku (%1$d x %2$d) muselo být sníženo. Možná byste měli snížit "
 "maximální výstupní rozlišení v nastavení aplikace."
 
-#, fuzzy
 msgctxt "export_eval_version"
 msgid "Evaluation copy"
-msgstr "zkušební kopie"
+msgstr "Zkušební kopie"
 
 #, c-format
 msgctxt "export_intent_subject"
@@ -4841,17 +4875,14 @@ msgctxt "dimension_format_imperial_length_unit_choices:0"
 msgid "mil"
 msgstr ""
 
-#, fuzzy
 msgctxt "dimension_format_imperial_length_unit_choices:1"
 msgid "inch"
 msgstr "palec"
 
-#, fuzzy
 msgctxt "dimension_format_imperial_length_unit_choices:2"
 msgid "foot"
 msgstr "stopa"
 
-#, fuzzy
 msgctxt "dimension_format_imperial_length_unit_choices:3"
 msgid "yard"
 msgstr "yard"
@@ -4982,10 +5013,9 @@ msgid "Suffix"
 msgstr ""
 
 #. text entry
-#, fuzzy
 msgctxt "textbox_dialog_label"
 msgid "Text note"
-msgstr "Zadejte text:"
+msgstr "Zadejte text"
 
 #. string name="textbox_dialog_presets">or select a preset text:</string
 #. string name="textbox_dialog_presets_help">You can change the preset texts
@@ -5137,7 +5167,6 @@ msgctxt "bluetooth_message_device_connect_failed"
 msgid "Bluetooth connection failed."
 msgstr "Bluetooth spojení selhalo."
 
-#, fuzzy
 msgctxt "bluetooth_error_bluetooth_not_configured"
 msgid ""
 "You have not yet configured any Bluetooth laser distance meter.\n"
@@ -5154,10 +5183,17 @@ msgid ""
 msgstr ""
 "Nemáte dosud nakonfigurovaný žádný Bluetooth laserový měřič vzdálenosti.\n"
 "\n"
-"Prosím spárujte Bluetooth zařízení s vaším Android zařízením. Poté, "
-"otevřete nastavení aplikace a zvolte zařízení Buetooth, které chcete "
-"použít. Zařízení Bluetooth Smart se nemusí spárovat, ale musejí být "
-"zapnuty, aby se zobrazila ve výběru zařízení."
+"Nejprve se ujistěte, že je zařízení uvedeno v systémových nastaveních. V "
+"případě potřeby zařízení spárujte.\n"
+" <a href=\"android-bluetooth\">Otevřete nastavení Bluetooth pro "
+"Android</a>\n"
+"\n"
+"Poté vyberte zařízení v nastavení ImageMeter:\n"
+" <a href=\"bluetooth-device\">Otevřete nastavení zařízení Bluetooth</a>\n"
+"\n"
+"Další nápovědu a seznam podporovaných zařízení <a "
+"href=\"https://imagemeter.com/manual/bluetooth/connect/\">najdete "
+"zde</a>."
 
 #. 151209
 msgctxt "bluetooth_error_no_bluetooth_le"
@@ -5242,15 +5278,13 @@ msgctxt "bluetooth_error_unknown"
 msgid "Unknown error"
 msgstr "Neznámá chyba"
 
-#, fuzzy
 msgctxt "bluetooth_error_ci_E101"
 msgid "E101: Replace the batteries"
-msgstr "E101: napětí baterie příliš nízké"
+msgstr "E101: Napětí baterie příliš nízké"
 
-#, fuzzy
 msgctxt "bluetooth_error_ci_E104"
 msgid "E104: Calculation error"
-msgstr "E104: neplatné měření"
+msgstr "E104: Neplatné měření"
 
 msgctxt "bluetooth_error_ci_E152"
 msgid "E152: Temperature is too high: &gt; 40°C"
@@ -5260,36 +5294,30 @@ msgctxt "bluetooth_error_ci_E153"
 msgid "E153: Temperature is too low: &lt; 0°C"
 msgstr ""
 
-#, fuzzy
 msgctxt "bluetooth_error_ci_E154"
 msgid "E154: Outside the measuring range"
-msgstr "E154: mimo rozsah"
+msgstr "E154: Mimo rozsah"
 
-#, fuzzy
 msgctxt "bluetooth_error_ci_E155"
 msgid "E155: Received signal too weak"
-msgstr "E155: signál příliš slabý"
+msgstr "E155: Signál příliš slabý"
 
 msgctxt "bluetooth_error_ci_E156"
 msgid "E156: Received signal too strong"
 msgstr ""
 
-#, fuzzy
 msgctxt "bluetooth_error_ci_E157"
 msgid "E157: Incorrect measurement or background is too bright"
-msgstr "E157: příliš mnoho světla v pozadí"
+msgstr "E157: Příliš mnoho světla v pozadí"
 
-#, fuzzy
 msgctxt "bluetooth_error_ci_E160"
 msgid "E160: The device is moving too much to measure"
-msgstr "E160: příliš mnoho třepání"
+msgstr "E160: Příliš mnoho třepání"
 
-#, fuzzy
 msgctxt "bluetooth_error_out_of_measuring_range"
 msgid "Out of measuring range"
 msgstr "Mimo rozsah"
 
-#, fuzzy
 msgctxt "bluetooth_error_signal_too_weak"
 msgid "Signal too weak"
 msgstr "Signál příliš slabý"
@@ -5302,7 +5330,6 @@ msgctxt "bluetooth_error_pythagorean_calculation_error"
 msgid "Pythagorean calculation error"
 msgstr ""
 
-#, fuzzy
 msgctxt "bluetooth_error_low_battery"
 msgid "Low battery"
 msgstr "Napětí baterie příliš nízké"
@@ -5311,7 +5338,6 @@ msgctxt "bluetooth_error_out_of_working_temperatur"
 msgid "Out of working temperature"
 msgstr ""
 
-#, fuzzy
 msgctxt "bluetooth_error_ambient_light_too_strong"
 msgid "Ambient light too strong"
 msgstr "Příliš mnoho světla v pozadí"
@@ -5396,11 +5422,15 @@ msgid ""
 "href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video</a>.\n"
 "\n"
 "If you have any further questions, do not hesitate to write to <a "
-"href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a>."
+"href=\"mailto:imagemeter@gmail.com\">info@imagemeter.com</a>."
 msgstr ""
 
 msgctxt "welcome_message_show_at_startup"
 msgid "Show welcome message at startup"
+msgstr ""
+
+msgctxt "release_notes_filename"
+msgid "en.html"
 msgstr ""
 
 #. FAQ
@@ -5457,7 +5487,6 @@ msgctxt "faq_image_menu_transfer_images_q"
 msgid "How can I transfer editable data between devices?"
 msgstr "Jak můžu přenést upravitelné data mezi zařízeními?"
 
-#, fuzzy
 msgctxt "faq_image_menu_transfer_images_a"
 msgid ""
 "If your devices have an SD-card slot, you can move the storage directory "
@@ -5471,11 +5500,6 @@ msgid ""
 "formats. The files can be opened again on other devices and the editable "
 "images will be imported."
 msgstr ""
-"Data jsou uložena v "
-"'/sdcard/&lt;wbr/>Android/&lt;wbr/>data/&lt;wbr/>de.dirkfarin.imagemeterpro/&lt;wbr/>files/&lt;wbr/>projects'."
-" V tomto adresáři najdete všechny složky aplikace ImageMeter a v rámci "
-"něho je jedna složka pro každý obrázek. Můžete jednoduše zkopírovat tyto "
-"složky do jiných zařízení."
 
 msgctxt "faq_image_menu_free_to_pro_q"
 msgid "How can I transfer images from the free version to the pro version?"

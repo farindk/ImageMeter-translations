@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-19 00:20+0100\n"
-"PO-Revision-Date: 2019-02-06 12:20+0100\n"
+"POT-Creation-Date: 2020-03-21 15:05+0100\n"
+"PO-Revision-Date: 2020-03-21 15:04+0100\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -171,10 +171,9 @@ msgctxt "imageselect_menu_preferences"
 msgid "Settings"
 msgstr "Paramètres"
 
-#, fuzzy
 msgctxt "imageselect_menu_rename"
 msgid "Rename"
-msgstr "Renommez l'image"
+msgstr "Renommez"
 
 msgctxt "imageselect_menu_duplicate"
 msgid "Duplicate"
@@ -192,15 +191,13 @@ msgctxt "imageselect_menu_new_canvas"
 msgid "New canvas"
 msgstr ""
 
-#, fuzzy
 msgctxt "imageselect_menu_capture"
 msgid "Camera capture"
 msgstr "Capture d'image"
 
-#, fuzzy
 msgctxt "imageselect_menu_delete_image"
 msgid "Delete"
-msgstr "Supprimer l'image"
+msgstr "Supprimer"
 
 msgctxt "imageselect_menu_undelete_image"
 msgid "Undelete"
@@ -210,10 +207,9 @@ msgctxt "imageselect_menu_purge_image"
 msgid "Purge"
 msgstr ""
 
-#, fuzzy
 msgctxt "imageselect_menu_share_image"
 msgid "Share"
-msgstr "Partager l'image"
+msgstr "Partager"
 
 msgctxt "imageselect_menu_save_to_external_memory"
 msgid "Save to gallery"
@@ -223,19 +219,17 @@ msgctxt "imageselect_menu_bluetooth"
 msgid "Bluetooth connect"
 msgstr "Connecter Bluetooth"
 
-#, fuzzy
 msgctxt "imageselect_menu_print"
 msgid "Print"
-msgstr "Imprimer l'image"
+msgstr "Imprimer"
 
 msgctxt "imageselect_menu_image_info"
 msgid "Image info…"
 msgstr "Infos image..."
 
-#, fuzzy
 msgctxt "imageselect_menu_upgrade"
 msgid "Upgrade"
-msgstr "Mise à jour..."
+msgstr "Mise à jour"
 
 msgctxt "imageselect_menu_import_images_from_free_app"
 msgid "Import images from free app"
@@ -249,10 +243,9 @@ msgctxt "imageselect_menu_welcome_message"
 msgid "Show welcome message"
 msgstr "Afficher le message de bienvenue"
 
-#, fuzzy
 msgctxt "imageselect_menu_about_app"
 msgid "About app"
-msgstr "À propos de l'application ..."
+msgstr "À propos de l'application"
 
 #. string name="imageselect_menu_sync_current_folder">Sync current
 #. folder</string
@@ -371,10 +364,9 @@ msgctxt "foldername_dialog_folder_name"
 msgid "Folder name"
 msgstr "Nom du dossier"
 
-#, fuzzy
 msgctxt "foldername_dialog_folder_name_hint"
 msgid "Enter folder name"
-msgstr "nom de dossier"
+msgstr ""
 
 msgctxt "foldername_dialog_notes"
 msgid "Notes"
@@ -439,45 +431,47 @@ msgid "Choose target folder for the image"
 msgstr "Choisir le dossier cible pour l'image"
 
 #. dialog: about app
-#, fuzzy
 msgctxt "imageselect_dialog_about_version"
 msgid "Version:"
-msgstr "version:"
+msgstr "Version:"
 
-#, fuzzy
 msgctxt "imageselect_dialog_about_license"
 msgid "License:"
-msgstr "Licence :"
+msgstr "Licence:"
 
-#, fuzzy
+msgctxt "imageselect_dialog_about_source"
+msgid "Source:"
+msgstr ""
+
 msgctxt "imageselect_dialog_about_license_evaluation"
 msgid "Free Evaluation"
-msgstr "évaluation gratuite"
+msgstr "Évaluation gratuite"
 
-#, fuzzy
 msgctxt "imageselect_dialog_about_license_pro"
 msgid "Pro"
-msgstr "pro"
+msgstr "Pro"
 
 msgctxt "imageselect_dialog_about_license_business"
 msgid "Business"
 msgstr ""
 
-#, fuzzy
 msgctxt "imageselect_dialog_about_tutorial_link"
 msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
 msgstr ""
-"<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\"> didacticiel "
-"vidéo </a>"
+"<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Didacticiel "
+"vidéo</a>"
 
 msgctxt "imageselect_dialog_about_documentation_link"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
 msgstr ""
 
-#, fuzzy
+msgctxt "imageselect_dialog_about_release_notes"
+msgid "<a href=\"release-notes\">Release notes</a>"
+msgstr ""
+
 msgctxt "imageselect_dialog_about_contact_link"
 msgid "<a href=\"mailto:imagemeter@gmail.com\">Contact email</a>"
-msgstr "<a href=\"mailto:imagemeter@gmail.com\"> e-mail de contact </a>"
+msgstr "<a href=\"mailto:imagemeter@gmail.com\">E-mail de contact </a>"
 
 msgctxt "imageselect_dialog_about_translator"
 msgid "Translator:"
@@ -498,14 +492,18 @@ msgctxt "license_source_native"
 msgid "Native"
 msgstr ""
 
-#, c-format
-msgctxt "navigation_drawer_version"
-msgid "Version: %1$s"
+msgctxt "license_source_pro_key_app"
+msgid "Pro-key app"
 msgstr ""
 
 #, c-format
 msgctxt "navigation_drawer_license"
 msgid "License: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "navigation_drawer_version"
+msgid "Version: %1$s"
 msgstr ""
 
 #, c-format
@@ -577,7 +575,8 @@ msgstr ""
 msgctxt "upgrade_dialog_more_information_link"
 msgid ""
 "For more information about these features, &lt;a "
-"href=\"https://www.imagemeter.com\"&gt;visit the website&lt;/a&gt;."
+"href=\"https://www.imagemeter.com/manual/license/android-"
+"licenses\"&gt;visit the website&lt;/a&gt;."
 msgstr ""
 
 msgctxt "upgrade_dialog_button_pro_upgrade"
@@ -691,8 +690,8 @@ msgstr ""
 
 #, c-format, fuzzy
 msgctxt "inapp_error_unknown"
-msgid "Unknown error, result code: '%1$d', response '%1$s'."
-msgstr "Erreur inconnue, code de résultat: ' %1$d '"
+msgid "Unknown error, result code: '%1$d', response '%2$s'."
+msgstr "Erreur inconnue, code de résultat: ' %1$d ' (%2$s)"
 
 msgctxt "inapp_error_developer_error"
 msgid "Developer error."
@@ -734,6 +733,18 @@ msgctxt "dialog_need_upgrade_detail_image"
 msgid "Adding detail images is included in the Business version."
 msgstr ""
 
+#, c-format
+msgctxt "dialog_need_upgrade_example_images_text"
+msgid "You can try this function with the example images (in folder '%1$s')."
+msgstr ""
+
+#, c-format
+msgctxt "dialog_need_upgrade_create_example_images_text"
+msgid ""
+"You can try this function with the example images (<a "
+"href=\"create\">create folder '%1$s'</a>)."
+msgstr ""
+
 #. tutorial
 msgctxt "example_folder_name"
 msgid "Examples"
@@ -772,51 +783,69 @@ msgctxt "default_image_name_prefix_captured"
 msgid "captured on (OBSOLET)"
 msgstr "Capturé sur"
 
-#, fuzzy
 msgctxt "default_image_name_prefix_with_date"
 msgid "image from {M} {d}, {yyyy}"
-msgstr "image de [dd MMM yyyy]"
+msgstr "image de {d} {M} {yyyy}"
 
 #. image import from free app
-msgctxt "imageselect_result_import_free_app_finished"
-msgid ""
-"Images from free app are now imported.\n"
-"\n"
-"It may be good to delete images from the free app now (please check that "
-"there was no import error) to save memory and to avoid overwriting your "
-"changes by an accidental reimport."
+msgctxt "snackbar_pro_to_free_migration"
+msgid "Pro-version app migration"
 msgstr ""
-"Les images de l'application gratuite sont maintenant importées.\n"
-"\n"
-"Il peut être utile de supprimer les images de l'application gratuite "
-"maintenant (veuillez vérifier qu'il n'y avait pas d'erreur d'importation)"
-" pour économiser la mémoire et éviter d'écraser vos modifications par une"
-" réimportation accidentelle."
 
-msgctxt "imageselect_error_howto_import_free_app"
-msgid ""
-"Could not yet import images.\n"
-"\n"
-"In order to import the images of the free app, both apps must be at least"
-" at version v1.48. In both apps, the images have to be converted to "
-"filesystem storage (you find this action in the same menu you found the "
-"import item)."
+msgctxt "snackbar_pro_to_free_migration_info"
+msgid "Info"
 msgstr ""
-"Impossible d'importer des images.\n"
-"\n"
-"En vue d'importer les images de l'application gratuite, les deux "
-"applications doivent être au moins à la version v1.48. Dans les deux "
-"applications, les images doivent être converties en système de fichiers "
-"(vous trouverez cette action dans le même menu que vous avez trouvé "
-"l'élément d'importation)."
 
-msgctxt "imageselect_error_import_free_app_failed"
-msgid ""
-"Image import from free app has failed or is incomplete. Maybe your memory"
-" is full?"
+msgctxt "snackbar_pro_to_free_migration_url"
+msgid "https://www.imagemeter.com/manual/license/pro-version-migration"
 msgstr ""
-"L'importation d'image depuis l'application gratuite a échoué ou est "
-"incomplète. Votre mémoire est peut-être pleine?"
+
+msgctxt "import_pro_app_data"
+msgid "Import images from Pro app"
+msgstr ""
+
+msgctxt "import_pro_app_data_started_text"
+msgid ""
+"Importing has started to run in the background. When it is finished, "
+"please check that the images were copied correctly and delete them in the"
+" Pro app to save memory space."
+msgstr ""
+
+msgctxt "import_pro_app_data_local_not_empty"
+msgid ""
+"Warning: there are images in this app. Importing the images from the Pro "
+"app may overwrite images with the same name."
+msgstr ""
+
+msgctxt "import_pro_app_data_local_not_empty_anyway"
+msgid "Import anyway"
+msgstr ""
+
+msgctxt "import_pro_app_data_title"
+msgid "Importing images from Pro app"
+msgstr ""
+
+msgctxt "import_pro_app_data_scan_progress_text"
+msgid "Please wait, searching for images to copy."
+msgstr ""
+
+#, c-format
+msgctxt "import_pro_app_data_progress_text"
+msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
+msgstr ""
+
+msgctxt "import_pro_app_data_finished"
+msgid ""
+"Images from the Pro app are now imported. After checking that the images "
+"were imported correctly, you may want to delete the images in the Pro app"
+" to save memory space."
+msgstr ""
+
+msgctxt "import_pro_app_data_failed"
+msgid ""
+"Image import from Pro app has failed or is incomplete. Maybe your memory "
+"is full?"
+msgstr ""
 
 #. image export
 msgctxt "export_dialog_saving_images_to_external_storage"
@@ -1321,7 +1350,6 @@ msgid "Downloading image file from cloud storage."
 msgstr ""
 
 #. filesystem errors
-#, fuzzy
 msgctxt "error_cannot_delete_file"
 msgid "Cannot delete file '{}'."
 msgstr ""
@@ -1334,7 +1362,6 @@ msgctxt "imerror_files_cannot_write_file"
 msgid "Cannot write file '{}'."
 msgstr ""
 
-#, fuzzy
 msgctxt "error_cannot_rename_file"
 msgid "Cannot rename file '{0}' to '{1}'."
 msgstr ""
@@ -1351,20 +1378,17 @@ msgctxt "imerror_files_cannot_create_directory"
 msgid "Cannot create directory \"{}\"."
 msgstr ""
 
-#, fuzzy
 msgctxt "imerror_files_directory_does_not_exist"
 msgid "Directory '{}' does not exist."
 msgstr ""
 
-#, fuzzy
 msgctxt "imageselect_error_cannot_rename_folder"
 msgid "Cannot rename folder '{0}' to '{1}'."
-msgstr "Impossible de renommer le dossier '%1$s' en '%2$s'."
+msgstr "Impossible de renommer le dossier '{0}' en '{1}'."
 
-#, fuzzy
 msgctxt "imageselect_error_folder_cannot_delete"
 msgid "Cannot delete folder '{}'."
-msgstr "Impossible de supprimer le dossier '%1$s'."
+msgstr "Impossible de supprimer le dossier '{}'."
 
 msgctxt "imerror_files_cannot_read_directory"
 msgid "Cannot read directory '{}'."
@@ -1657,7 +1681,6 @@ msgctxt "cloud_storage_provider_dropbox"
 msgid "Dropbox"
 msgstr ""
 
-#, fuzzy
 msgctxt "cloud_storage_provider_nextcloud"
 msgid "Nextcloud / Owncloud"
 msgstr ""
@@ -1700,17 +1723,48 @@ msgctxt "cloud_storage_cautiousness"
 msgid "Cautiousness:"
 msgstr ""
 
-#, fuzzy
 msgctxt "cloud_storage_notice_text"
 msgid ""
-"Cloud storage can be used in two ways.\n"
-"In <b>share</b> mode, images on your device are mirrored to the server "
-"and back. This is useful when you want to have the same images on several"
-" devices.\n"
-"In <b>backup</b> mode, your images are copied to the server, but they are"
-" not deleted there if you delete them on the device.\n"
-"See the full cloud storage <a "
-"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>."
+"Before setting up cloud storage, you should read the <a "
+"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>"
+" to avoid pitfalls."
+msgstr ""
+
+#. string name="cloud_storage_notice_text">Cloud storage can be used in two
+#. ways.\nIn <b>share</b> mode, images on your device are mirrored to the
+#. server and back. This is useful when you want to have the same images on
+#. several devices.\nIn <b>backup</b> mode, your images are copied to the
+#. server, but they are not deleted there if you delete them on the
+#. device.\nSee the full cloud storage <a
+#. href="https://www.imagemeter.com/manual/storage/cloud">documentation</a>.</string
+msgctxt "cloud_storage_server_note_drive"
+msgid ""
+"<b>Note:</b> the Google Drive backend does not allow access to shared "
+"folders yet. Hence, you can share images between devices when they use "
+"the same Google account, but not between devices using different "
+"accounts."
+msgstr ""
+
+msgctxt "cloud_storage_server_note_dropbox"
+msgid ""
+"The Dropbox backend also supports sharing your images with other Dropbox "
+"users. See the documentation at the link above how to set this up."
+msgstr ""
+
+msgctxt "cloud_storage_server_note_nextcloud"
+msgid ""
+"This backend allows you to use your own, private cloud server to host the"
+" images. You can set-up your own users and shared folders. Information "
+"how to set-up a server can be found at the documentation link above."
+msgstr ""
+
+msgctxt "cloud_storage_server_note_handwerkcloud"
+msgid ""
+"The Handwerkcloud service offers not only storage space for your images "
+"and documents, but also an online office suite and other applications. A "
+"Handwerkcloud subscription includes an ImageMeter Business license. For "
+"more information see the <a "
+"href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
 msgstr ""
 
 msgctxt "cloud_storage_account"
@@ -1984,20 +2038,20 @@ msgctxt "cloud_storage_not_configured_syncing_inbox_in_bkg"
 msgid "Your <i>inbox</i> folder is being synced."
 msgstr ""
 
-#, fuzzy
 msgctxt "cloud_storage_not_configured_business_upgrade"
 msgid ""
 "Cloud storage is only available in the <b>Business</b> version of "
-"ImageMeter. See <a href=\"https://imagemeter.com\">here</a> for all "
-"benefits of the business version."
+"ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-"
+"business-features\">here</a> for all benefits of the business version."
 msgstr ""
 
 msgctxt "cloud_storage_not_configured_inbox_only"
 msgid ""
 "Full cloud storage is only available in the <b>Business</b> version of "
 "ImageMeter. Without Business upgrade, cloud storage is limited to the "
-"<i>inbox</i> folder. See <a href=\"https://imagemeter.com\">here</a> for "
-"all benefits of the Business version."
+"<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license"
+"/android-business-features\">here</a> for all benefits of the Business "
+"version."
 msgstr ""
 
 #, c-format
@@ -2854,10 +2908,9 @@ msgctxt "pref_export_multi_images_format_choices:2"
 msgid "Zip archive of images"
 msgstr "Zipper une archive d'images"
 
-#, fuzzy
 msgctxt "pref_export_multi_images_format_choices:3"
 msgid "ImageMeter folder (IMF)"
-msgstr "Dossier ImageMeter"
+msgstr "Dossier ImageMeter (IMF)"
 
 msgctxt "pref_export_single_image_format"
 msgid "Export images as"
@@ -2883,15 +2936,14 @@ msgid "Zip archive of images"
 msgstr "Zipper une archive d'images"
 
 #. TODO: FIX other languages
-#, fuzzy
 msgctxt "pref_export_single_image_format_choices:3"
 msgid "ImageMeter image (IMI)"
-msgstr "ImageMeter image"
+msgstr "ImageMeter image (IMI)"
 
 #. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:4"
 msgid "ImageMeter folder (IMF)"
-msgstr ""
+msgstr "Dossier ImageMeter (IMF)"
 
 #. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:5"
@@ -3078,27 +3130,27 @@ msgstr ""
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
 msgid "10%"
-msgstr ""
+msgstr "10%"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:2"
 msgid "20%"
-msgstr ""
+msgstr "20%"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:3"
 msgid "30%"
-msgstr ""
+msgstr "30%"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:4"
 msgid "40%"
-msgstr ""
+msgstr "40%"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
-msgstr ""
+msgstr "50%"
 
 msgctxt "pref_category_bluetooth"
 msgid "Bluetooth"
@@ -3176,7 +3228,6 @@ msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
 msgid "Leica Disto classic"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_leica_disto_bt4"
 msgid "Leica Disto Bluetooth LE"
 msgstr ""
@@ -3197,7 +3248,6 @@ msgctxt "pref_bluetooth_device_protocol_stanley_tlm99si"
 msgid "Stanley TLM99si"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_suaoki"
 msgid "Suaoki"
 msgstr ""
@@ -3393,24 +3443,21 @@ msgctxt "pref_ui_image_order_criterium_dialog"
 msgid "Image sorting order"
 msgstr "Ordre de tri des images"
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:0"
 msgid "Image name (ascending)"
-msgstr "Nom de l'image"
+msgstr ""
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:1"
 msgid "Image name (descending)"
-msgstr "Date de capture (la plus ancienne en premier)"
+msgstr ""
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:2"
 msgid "Capture date (oldest first)"
-msgstr "Date de capture (dernière en premier)"
+msgstr "Date de capture (la plus ancienne en premier)"
 
 msgctxt "pref_ui_image_order_criterium_choices:3"
 msgid "Capture date (latest first)"
-msgstr ""
+msgstr "Date de capture (dernière en premier)"
 
 msgctxt "pref_ui_image_order_criterium_choices:4"
 msgid "Number (ascending)"
@@ -3456,15 +3503,15 @@ msgctxt "pref_ui_editor_fullscreen_mode_choices:2"
 msgid "Always"
 msgstr "Toujours"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "pref_preset_text"
 msgid "Preset text %1$d"
-msgstr "Texte prédéfini %1$s"
+msgstr "Texte prédéfini %1$d"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "pref_preset_text_dialog"
 msgid "Enter preset text %1$d"
-msgstr "Entrez le texte prédéfini %1$s"
+msgstr "Entrez le texte prédéfini %1$d"
 
 msgctxt "preset_text_1"
 msgid "front door"
@@ -3724,7 +3771,6 @@ msgctxt "pref_cloud_storage_sync_cautiousness:3"
 msgid "Confirm everything"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_cloud_storage_sync_mode:0"
 msgid "SYNC MODE"
 msgstr ""
@@ -3826,10 +3872,9 @@ msgctxt "editor_menu_add_area"
 msgid "Area"
 msgstr "Surface"
 
-#, fuzzy
 msgctxt "editor_menu_add_text"
 msgid "Note"
-msgstr "Texte"
+msgstr ""
 
 msgctxt "editor_menu_add_freehand"
 msgid "Freehand"
@@ -3891,10 +3936,9 @@ msgctxt "editor_menu_edit_redo"
 msgid "Redo"
 msgstr "Refaire"
 
-#, fuzzy
 msgctxt "editor_menu_edit_rotate"
 msgid "Rotate image (CW)"
-msgstr "Pivoter l'image"
+msgstr ""
 
 msgctxt "editor_menu_edit_rotate_ccw"
 msgid "Rotate image (CCW)"
@@ -4134,10 +4178,9 @@ msgctxt "editor_dialog_style_measure_title"
 msgid "Dimension style"
 msgstr "Style de mesure"
 
-#, fuzzy
 msgctxt "editor_dialog_style_measure_show_text"
 msgid "Show length"
-msgstr "Afficher le texte"
+msgstr ""
 
 msgctxt "editor_dialog_style_measure_font_magnification"
 msgid "Font size"
@@ -4211,10 +4254,9 @@ msgctxt "editor_dialog_style_rect_title"
 msgid "Reference style"
 msgstr "Style de référence"
 
-#, fuzzy
 msgctxt "editor_dialog_style_rect_show_text"
 msgid "Show side lengths"
-msgstr "Afficher le texte"
+msgstr ""
 
 msgctxt "editor_dialog_style_rect_show_area"
 msgid "Show area"
@@ -4795,7 +4837,6 @@ msgstr ""
 "peut-être réduire la résolution de sortie maximale dans les paramètres de"
 " l'application."
 
-#, fuzzy
 msgctxt "export_eval_version"
 msgid "Evaluation copy"
 msgstr "Version d'évaluation"
@@ -4878,22 +4919,18 @@ msgctxt "dimension_format_imperial_length_unit_choices:0"
 msgid "mil"
 msgstr ""
 
-#, fuzzy
 msgctxt "dimension_format_imperial_length_unit_choices:1"
 msgid "inch"
-msgstr "Pouce"
+msgstr "pouce"
 
-#, fuzzy
 msgctxt "dimension_format_imperial_length_unit_choices:2"
 msgid "foot"
-msgstr "Pied"
+msgstr "pied"
 
-#, fuzzy
 msgctxt "dimension_format_imperial_length_unit_choices:3"
 msgid "yard"
-msgstr "Yard"
+msgstr "yard"
 
-#, fuzzy
 msgctxt "dimension_format_imperial_length_unit_choices:4"
 msgid "mile"
 msgstr "mile"
@@ -4955,7 +4992,6 @@ msgctxt "dimension_format_area_metric_prefix_choices:3"
 msgid "km²"
 msgstr "km²"
 
-#, fuzzy
 msgctxt "dimension_format_area_metric_prefix_choices:4"
 msgid "are"
 msgstr "aire"
@@ -5021,10 +5057,9 @@ msgid "Suffix"
 msgstr ""
 
 #. text entry
-#, fuzzy
 msgctxt "textbox_dialog_label"
 msgid "Text note"
-msgstr "Entrez le texte:"
+msgstr "Entrez le texte"
 
 #. string name="textbox_dialog_presets">or select a preset text:</string
 #. string name="textbox_dialog_presets_help">You can change the preset texts
@@ -5434,7 +5469,7 @@ msgid ""
 "href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video</a>.\n"
 "\n"
 "If you have any further questions, do not hesitate to write to <a "
-"href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a>."
+"href=\"mailto:imagemeter@gmail.com\">info@imagemeter.com</a>."
 msgstr ""
 "Pour une présentation d'ImageMeter, veuillez consulter cette <a "
 "href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">vidéo</a>.\n"
@@ -5445,6 +5480,10 @@ msgstr ""
 msgctxt "welcome_message_show_at_startup"
 msgid "Show welcome message at startup"
 msgstr "Afficher le message de bienvenue au démarrage"
+
+msgctxt "release_notes_filename"
+msgid "en.html"
+msgstr ""
 
 #. FAQ
 msgctxt "manual_website_link"

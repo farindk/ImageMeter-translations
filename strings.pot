@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-19 00:20+0100\n"
+"POT-Creation-Date: 2020-03-21 15:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -438,6 +438,10 @@ msgctxt "imageselect_dialog_about_license"
 msgid "License:"
 msgstr ""
 
+msgctxt "imageselect_dialog_about_source"
+msgid "Source:"
+msgstr ""
+
 msgctxt "imageselect_dialog_about_license_evaluation"
 msgid "Free Evaluation"
 msgstr ""
@@ -456,6 +460,10 @@ msgstr ""
 
 msgctxt "imageselect_dialog_about_documentation_link"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
+msgstr ""
+
+msgctxt "imageselect_dialog_about_release_notes"
+msgid "<a href=\"release-notes\">Release notes</a>"
 msgstr ""
 
 msgctxt "imageselect_dialog_about_contact_link"
@@ -481,14 +489,18 @@ msgctxt "license_source_native"
 msgid "Native"
 msgstr ""
 
-#, c-format
-msgctxt "navigation_drawer_version"
-msgid "Version: %1$s"
+msgctxt "license_source_pro_key_app"
+msgid "Pro-key app"
 msgstr ""
 
 #, c-format
 msgctxt "navigation_drawer_license"
 msgid "License: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "navigation_drawer_version"
+msgid "Version: %1$s"
 msgstr ""
 
 #, c-format
@@ -560,7 +572,8 @@ msgstr ""
 msgctxt "upgrade_dialog_more_information_link"
 msgid ""
 "For more information about these features, &lt;a "
-"href=\"https://www.imagemeter.com\"&gt;visit the website&lt;/a&gt;."
+"href=\"https://www.imagemeter.com/manual/license/android-"
+"licenses\"&gt;visit the website&lt;/a&gt;."
 msgstr ""
 
 msgctxt "upgrade_dialog_button_pro_upgrade"
@@ -657,7 +670,7 @@ msgstr ""
 
 #, c-format
 msgctxt "inapp_error_unknown"
-msgid "Unknown error, result code: '%1$d', response '%1$s'."
+msgid "Unknown error, result code: '%1$d', response '%2$s'."
 msgstr ""
 
 msgctxt "inapp_error_developer_error"
@@ -698,6 +711,18 @@ msgstr ""
 
 msgctxt "dialog_need_upgrade_detail_image"
 msgid "Adding detail images is included in the Business version."
+msgstr ""
+
+#, c-format
+msgctxt "dialog_need_upgrade_example_images_text"
+msgid "You can try this function with the example images (in folder '%1$s')."
+msgstr ""
+
+#, c-format
+msgctxt "dialog_need_upgrade_create_example_images_text"
+msgid ""
+"You can try this function with the example images (<a "
+"href=\"create\">create folder '%1$s'</a>)."
 msgstr ""
 
 #. tutorial
@@ -743,29 +768,63 @@ msgid "image from {M} {d}, {yyyy}"
 msgstr ""
 
 #. image import from free app
-msgctxt "imageselect_result_import_free_app_finished"
-msgid ""
-"Images from free app are now imported.\n"
-"\n"
-"It may be good to delete images from the free app now (please check that "
-"there was no import error) to save memory and to avoid overwriting your "
-"changes by an accidental reimport."
+msgctxt "snackbar_pro_to_free_migration"
+msgid "Pro-version app migration"
 msgstr ""
 
-msgctxt "imageselect_error_howto_import_free_app"
-msgid ""
-"Could not yet import images.\n"
-"\n"
-"In order to import the images of the free app, both apps must be at least"
-" at version v1.48. In both apps, the images have to be converted to "
-"filesystem storage (you find this action in the same menu you found the "
-"import item)."
+msgctxt "snackbar_pro_to_free_migration_info"
+msgid "Info"
 msgstr ""
 
-msgctxt "imageselect_error_import_free_app_failed"
+msgctxt "snackbar_pro_to_free_migration_url"
+msgid "https://www.imagemeter.com/manual/license/pro-version-migration"
+msgstr ""
+
+msgctxt "import_pro_app_data"
+msgid "Import images from Pro app"
+msgstr ""
+
+msgctxt "import_pro_app_data_started_text"
 msgid ""
-"Image import from free app has failed or is incomplete. Maybe your memory"
-" is full?"
+"Importing has started to run in the background. When it is finished, "
+"please check that the images were copied correctly and delete them in the"
+" Pro app to save memory space."
+msgstr ""
+
+msgctxt "import_pro_app_data_local_not_empty"
+msgid ""
+"Warning: there are images in this app. Importing the images from the Pro "
+"app may overwrite images with the same name."
+msgstr ""
+
+msgctxt "import_pro_app_data_local_not_empty_anyway"
+msgid "Import anyway"
+msgstr ""
+
+msgctxt "import_pro_app_data_title"
+msgid "Importing images from Pro app"
+msgstr ""
+
+msgctxt "import_pro_app_data_scan_progress_text"
+msgid "Please wait, searching for images to copy."
+msgstr ""
+
+#, c-format
+msgctxt "import_pro_app_data_progress_text"
+msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
+msgstr ""
+
+msgctxt "import_pro_app_data_finished"
+msgid ""
+"Images from the Pro app are now imported. After checking that the images "
+"were imported correctly, you may want to delete the images in the Pro app"
+" to save memory space."
+msgstr ""
+
+msgctxt "import_pro_app_data_failed"
+msgid ""
+"Image import from Pro app has failed or is incomplete. Maybe your memory "
+"is full?"
 msgstr ""
 
 #. image export
@@ -1590,14 +1649,46 @@ msgstr ""
 
 msgctxt "cloud_storage_notice_text"
 msgid ""
-"Cloud storage can be used in two ways.\n"
-"In <b>share</b> mode, images on your device are mirrored to the server "
-"and back. This is useful when you want to have the same images on several"
-" devices.\n"
-"In <b>backup</b> mode, your images are copied to the server, but they are"
-" not deleted there if you delete them on the device.\n"
-"See the full cloud storage <a "
-"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>."
+"Before setting up cloud storage, you should read the <a "
+"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>"
+" to avoid pitfalls."
+msgstr ""
+
+#. string name="cloud_storage_notice_text">Cloud storage can be used in two
+#. ways.\nIn <b>share</b> mode, images on your device are mirrored to the
+#. server and back. This is useful when you want to have the same images on
+#. several devices.\nIn <b>backup</b> mode, your images are copied to the
+#. server, but they are not deleted there if you delete them on the
+#. device.\nSee the full cloud storage <a
+#. href="https://www.imagemeter.com/manual/storage/cloud">documentation</a>.</string
+msgctxt "cloud_storage_server_note_drive"
+msgid ""
+"<b>Note:</b> the Google Drive backend does not allow access to shared "
+"folders yet. Hence, you can share images between devices when they use "
+"the same Google account, but not between devices using different "
+"accounts."
+msgstr ""
+
+msgctxt "cloud_storage_server_note_dropbox"
+msgid ""
+"The Dropbox backend also supports sharing your images with other Dropbox "
+"users. See the documentation at the link above how to set this up."
+msgstr ""
+
+msgctxt "cloud_storage_server_note_nextcloud"
+msgid ""
+"This backend allows you to use your own, private cloud server to host the"
+" images. You can set-up your own users and shared folders. Information "
+"how to set-up a server can be found at the documentation link above."
+msgstr ""
+
+msgctxt "cloud_storage_server_note_handwerkcloud"
+msgid ""
+"The Handwerkcloud service offers not only storage space for your images "
+"and documents, but also an online office suite and other applications. A "
+"Handwerkcloud subscription includes an ImageMeter Business license. For "
+"more information see the <a "
+"href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
 msgstr ""
 
 msgctxt "cloud_storage_account"
@@ -1874,16 +1965,17 @@ msgstr ""
 msgctxt "cloud_storage_not_configured_business_upgrade"
 msgid ""
 "Cloud storage is only available in the <b>Business</b> version of "
-"ImageMeter. See <a href=\"https://imagemeter.com\">here</a> for all "
-"benefits of the business version."
+"ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-"
+"business-features\">here</a> for all benefits of the business version."
 msgstr ""
 
 msgctxt "cloud_storage_not_configured_inbox_only"
 msgid ""
 "Full cloud storage is only available in the <b>Business</b> version of "
 "ImageMeter. Without Business upgrade, cloud storage is limited to the "
-"<i>inbox</i> folder. See <a href=\"https://imagemeter.com\">here</a> for "
-"all benefits of the Business version."
+"<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license"
+"/android-business-features\">here</a> for all benefits of the Business "
+"version."
 msgstr ""
 
 #, c-format
@@ -5203,11 +5295,15 @@ msgid ""
 "href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video</a>.\n"
 "\n"
 "If you have any further questions, do not hesitate to write to <a "
-"href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a>."
+"href=\"mailto:imagemeter@gmail.com\">info@imagemeter.com</a>."
 msgstr ""
 
 msgctxt "welcome_message_show_at_startup"
 msgid "Show welcome message at startup"
+msgstr ""
+
+msgctxt "release_notes_filename"
+msgid "en.html"
 msgstr ""
 
 #. FAQ

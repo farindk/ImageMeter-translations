@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-19 00:20+0100\n"
-"PO-Revision-Date: 2018-12-12 18:04+0100\n"
+"POT-Creation-Date: 2020-03-21 15:05+0100\n"
+"PO-Revision-Date: 2020-03-21 14:58+0100\n"
 "Last-Translator: \n"
 "Language: fa\n"
 "Language-Team: \n"
@@ -225,7 +225,6 @@ msgctxt "imageselect_menu_bluetooth"
 msgid "Bluetooth connect"
 msgstr "اتصال بلوتوث"
 
-#, fuzzy
 msgctxt "imageselect_menu_print"
 msgid "Print"
 msgstr ""
@@ -451,6 +450,10 @@ msgctxt "imageselect_dialog_about_license"
 msgid "License:"
 msgstr "لایسنس:"
 
+msgctxt "imageselect_dialog_about_source"
+msgid "Source:"
+msgstr ""
+
 #, fuzzy
 msgctxt "imageselect_dialog_about_license_evaluation"
 msgid "Free Evaluation"
@@ -470,9 +473,12 @@ msgctxt "imageselect_dialog_about_tutorial_link"
 msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
 msgstr "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">ویدیوی آموزشی</a>"
 
-#, fuzzy
 msgctxt "imageselect_dialog_about_documentation_link"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
+msgstr ""
+
+msgctxt "imageselect_dialog_about_release_notes"
+msgid "<a href=\"release-notes\">Release notes</a>"
 msgstr ""
 
 #, fuzzy
@@ -499,14 +505,18 @@ msgctxt "license_source_native"
 msgid "Native"
 msgstr ""
 
-#, c-format
-msgctxt "navigation_drawer_version"
-msgid "Version: %1$s"
+msgctxt "license_source_pro_key_app"
+msgid "Pro-key app"
 msgstr ""
 
 #, c-format
 msgctxt "navigation_drawer_license"
 msgid "License: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "navigation_drawer_version"
+msgid "Version: %1$s"
 msgstr ""
 
 #, c-format
@@ -578,7 +588,8 @@ msgstr ""
 msgctxt "upgrade_dialog_more_information_link"
 msgid ""
 "For more information about these features, &lt;a "
-"href=\"https://www.imagemeter.com\"&gt;visit the website&lt;/a&gt;."
+"href=\"https://www.imagemeter.com/manual/license/android-"
+"licenses\"&gt;visit the website&lt;/a&gt;."
 msgstr ""
 
 msgctxt "upgrade_dialog_button_pro_upgrade"
@@ -653,37 +664,30 @@ msgstr ""
 "شما اکنون باید متن 'با ارتقای حرفه ای' را در نوار عنوان ببینید. توجه کنید"
 " که به دلایل فنی نام برنامه به 'ImageMeter Pro' تغییر پیدا نمی کند."
 
-#, fuzzy
 msgctxt "inapp_error_billing_unavailable"
 msgid "Billing is not available."
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_feature_not_supported"
 msgid "Feature is not supported."
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_item_already_owned"
 msgid "Item is already owned."
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_item_unavailable"
 msgid "Item is unavailable."
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_service_disconnected"
 msgid "PlayStore temporarily disconnected, try again later."
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_service_unavailable"
 msgid "Network down, cannot reach PlayStore."
 msgstr ""
 
-#, fuzzy
 msgctxt "inapp_error_user_canceled"
 msgid "Purchase canceled by user."
 msgstr ""
@@ -694,7 +698,7 @@ msgstr ""
 
 #, c-format, fuzzy
 msgctxt "inapp_error_unknown"
-msgid "Unknown error, result code: '%1$d', response '%1$s'."
+msgid "Unknown error, result code: '%1$d', response '%2$s'."
 msgstr ""
 
 msgctxt "inapp_error_developer_error"
@@ -737,6 +741,18 @@ msgctxt "dialog_need_upgrade_detail_image"
 msgid "Adding detail images is included in the Business version."
 msgstr ""
 
+#, c-format
+msgctxt "dialog_need_upgrade_example_images_text"
+msgid "You can try this function with the example images (in folder '%1$s')."
+msgstr ""
+
+#, c-format
+msgctxt "dialog_need_upgrade_create_example_images_text"
+msgid ""
+"You can try this function with the example images (<a "
+"href=\"create\">create folder '%1$s'</a>)."
+msgstr ""
+
 #. tutorial
 msgctxt "example_folder_name"
 msgid "Examples"
@@ -777,49 +793,69 @@ msgctxt "default_image_name_prefix_captured"
 msgid "captured on (OBSOLET)"
 msgstr "گرفتن در"
 
-#, fuzzy
 msgctxt "default_image_name_prefix_with_date"
 msgid "image from {M} {d}, {yyyy}"
 msgstr ""
 
 #. image import from free app
-msgctxt "imageselect_result_import_free_app_finished"
-msgid ""
-"Images from free app are now imported.\n"
-"\n"
-"It may be good to delete images from the free app now (please check that "
-"there was no import error) to save memory and to avoid overwriting your "
-"changes by an accidental reimport."
+msgctxt "snackbar_pro_to_free_migration"
+msgid "Pro-version app migration"
 msgstr ""
-"عکس ها از برنامۀ رایگان اکنون وارد می شوند.\n"
-"\n"
-"خوب است که عکس ها از برنامۀ رایگان اکنون پاک شوند (لطفا بررسی کنید که هیچ"
-" حطای وارداتی نباشد) تا در حافظه صرفه جویی شده و از بازنویسی تغییرات شما "
-"با واردات تصادفی مجدد جلوگیری شود."
 
-msgctxt "imageselect_error_howto_import_free_app"
-msgid ""
-"Could not yet import images.\n"
-"\n"
-"In order to import the images of the free app, both apps must be at least"
-" at version v1.48. In both apps, the images have to be converted to "
-"filesystem storage (you find this action in the same menu you found the "
-"import item)."
+msgctxt "snackbar_pro_to_free_migration_info"
+msgid "Info"
 msgstr ""
-"هنوز نمی تواند عکس ها را وارد کند.\n"
-"\n"
-"برای واردات عکس ها از برنامۀ رایگان، هر دو برنامه باید حداقل در نسخۀ 1.48"
-" باشند. در هر دو برنامه، عکس ها باید به حافظۀ ذخیره سازی سیستمی تبدیل شده"
-" باشند (شما می توانید این عمل را در همان منویی که گزینۀ واردات هست "
-"بیابید)."
 
-msgctxt "imageselect_error_import_free_app_failed"
-msgid ""
-"Image import from free app has failed or is incomplete. Maybe your memory"
-" is full?"
+msgctxt "snackbar_pro_to_free_migration_url"
+msgid "https://www.imagemeter.com/manual/license/pro-version-migration"
 msgstr ""
-"واردات عکس از برنامۀ رایگان ناموفق یا ناقص بود. ممکن است حافظۀ شما پر "
-"باشد؟"
+
+msgctxt "import_pro_app_data"
+msgid "Import images from Pro app"
+msgstr ""
+
+msgctxt "import_pro_app_data_started_text"
+msgid ""
+"Importing has started to run in the background. When it is finished, "
+"please check that the images were copied correctly and delete them in the"
+" Pro app to save memory space."
+msgstr ""
+
+msgctxt "import_pro_app_data_local_not_empty"
+msgid ""
+"Warning: there are images in this app. Importing the images from the Pro "
+"app may overwrite images with the same name."
+msgstr ""
+
+msgctxt "import_pro_app_data_local_not_empty_anyway"
+msgid "Import anyway"
+msgstr ""
+
+msgctxt "import_pro_app_data_title"
+msgid "Importing images from Pro app"
+msgstr ""
+
+msgctxt "import_pro_app_data_scan_progress_text"
+msgid "Please wait, searching for images to copy."
+msgstr ""
+
+#, c-format
+msgctxt "import_pro_app_data_progress_text"
+msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
+msgstr ""
+
+msgctxt "import_pro_app_data_finished"
+msgid ""
+"Images from the Pro app are now imported. After checking that the images "
+"were imported correctly, you may want to delete the images in the Pro app"
+" to save memory space."
+msgstr ""
+
+msgctxt "import_pro_app_data_failed"
+msgid ""
+"Image import from Pro app has failed or is incomplete. Maybe your memory "
+"is full?"
+msgstr ""
 
 #. image export
 msgctxt "export_dialog_saving_images_to_external_storage"
@@ -944,7 +980,6 @@ msgid "Paper"
 msgstr ""
 
 #. dialogs
-#, fuzzy
 msgctxt "imageselect_dialog_image_name_image_title"
 msgid "Image name"
 msgstr ""
@@ -1302,7 +1337,6 @@ msgid "Downloading image file from cloud storage."
 msgstr ""
 
 #. filesystem errors
-#, fuzzy
 msgctxt "error_cannot_delete_file"
 msgid "Cannot delete file '{}'."
 msgstr ""
@@ -1315,7 +1349,6 @@ msgctxt "imerror_files_cannot_write_file"
 msgid "Cannot write file '{}'."
 msgstr ""
 
-#, fuzzy
 msgctxt "error_cannot_rename_file"
 msgid "Cannot rename file '{0}' to '{1}'."
 msgstr ""
@@ -1332,20 +1365,17 @@ msgctxt "imerror_files_cannot_create_directory"
 msgid "Cannot create directory \"{}\"."
 msgstr ""
 
-#, fuzzy
 msgctxt "imerror_files_directory_does_not_exist"
 msgid "Directory '{}' does not exist."
 msgstr ""
 
-#, fuzzy
 msgctxt "imageselect_error_cannot_rename_folder"
 msgid "Cannot rename folder '{0}' to '{1}'."
-msgstr "نمی توان پوشۀ '%1$s' را به '%2$s' تغییرنام داد."
+msgstr "نمی توان پوشۀ '{0}' را به '{1}' تغییرنام داد."
 
-#, fuzzy
 msgctxt "imageselect_error_folder_cannot_delete"
 msgid "Cannot delete folder '{}'."
-msgstr "نمی توان پوشۀ '%1$s' را پاک کرد."
+msgstr "نمی توان پوشۀ '{}' را پاک کرد."
 
 msgctxt "imerror_files_cannot_read_directory"
 msgid "Cannot read directory '{}'."
@@ -1638,7 +1668,6 @@ msgctxt "cloud_storage_provider_dropbox"
 msgid "Dropbox"
 msgstr ""
 
-#, fuzzy
 msgctxt "cloud_storage_provider_nextcloud"
 msgid "Nextcloud / Owncloud"
 msgstr ""
@@ -1681,17 +1710,48 @@ msgctxt "cloud_storage_cautiousness"
 msgid "Cautiousness:"
 msgstr ""
 
-#, fuzzy
 msgctxt "cloud_storage_notice_text"
 msgid ""
-"Cloud storage can be used in two ways.\n"
-"In <b>share</b> mode, images on your device are mirrored to the server "
-"and back. This is useful when you want to have the same images on several"
-" devices.\n"
-"In <b>backup</b> mode, your images are copied to the server, but they are"
-" not deleted there if you delete them on the device.\n"
-"See the full cloud storage <a "
-"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>."
+"Before setting up cloud storage, you should read the <a "
+"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>"
+" to avoid pitfalls."
+msgstr ""
+
+#. string name="cloud_storage_notice_text">Cloud storage can be used in two
+#. ways.\nIn <b>share</b> mode, images on your device are mirrored to the
+#. server and back. This is useful when you want to have the same images on
+#. several devices.\nIn <b>backup</b> mode, your images are copied to the
+#. server, but they are not deleted there if you delete them on the
+#. device.\nSee the full cloud storage <a
+#. href="https://www.imagemeter.com/manual/storage/cloud">documentation</a>.</string
+msgctxt "cloud_storage_server_note_drive"
+msgid ""
+"<b>Note:</b> the Google Drive backend does not allow access to shared "
+"folders yet. Hence, you can share images between devices when they use "
+"the same Google account, but not between devices using different "
+"accounts."
+msgstr ""
+
+msgctxt "cloud_storage_server_note_dropbox"
+msgid ""
+"The Dropbox backend also supports sharing your images with other Dropbox "
+"users. See the documentation at the link above how to set this up."
+msgstr ""
+
+msgctxt "cloud_storage_server_note_nextcloud"
+msgid ""
+"This backend allows you to use your own, private cloud server to host the"
+" images. You can set-up your own users and shared folders. Information "
+"how to set-up a server can be found at the documentation link above."
+msgstr ""
+
+msgctxt "cloud_storage_server_note_handwerkcloud"
+msgid ""
+"The Handwerkcloud service offers not only storage space for your images "
+"and documents, but also an online office suite and other applications. A "
+"Handwerkcloud subscription includes an ImageMeter Business license. For "
+"more information see the <a "
+"href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
 msgstr ""
 
 msgctxt "cloud_storage_account"
@@ -1965,20 +2025,20 @@ msgctxt "cloud_storage_not_configured_syncing_inbox_in_bkg"
 msgid "Your <i>inbox</i> folder is being synced."
 msgstr ""
 
-#, fuzzy
 msgctxt "cloud_storage_not_configured_business_upgrade"
 msgid ""
 "Cloud storage is only available in the <b>Business</b> version of "
-"ImageMeter. See <a href=\"https://imagemeter.com\">here</a> for all "
-"benefits of the business version."
+"ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-"
+"business-features\">here</a> for all benefits of the business version."
 msgstr ""
 
 msgctxt "cloud_storage_not_configured_inbox_only"
 msgid ""
 "Full cloud storage is only available in the <b>Business</b> version of "
 "ImageMeter. Without Business upgrade, cloud storage is limited to the "
-"<i>inbox</i> folder. See <a href=\"https://imagemeter.com\">here</a> for "
-"all benefits of the Business version."
+"<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license"
+"/android-business-features\">here</a> for all benefits of the Business "
+"version."
 msgstr ""
 
 #, c-format
@@ -2836,7 +2896,6 @@ msgctxt "pref_export_multi_images_format_choices:2"
 msgid "Zip archive of images"
 msgstr "آرشیو فشرده از عکس ها"
 
-#, fuzzy
 msgctxt "pref_export_multi_images_format_choices:3"
 msgid "ImageMeter folder (IMF)"
 msgstr ""
@@ -2867,7 +2926,6 @@ msgid "Zip archive of images"
 msgstr "آرشیو فشرده از عکس ها"
 
 #. TODO: FIX other languages
-#, fuzzy
 msgctxt "pref_export_single_image_format_choices:3"
 msgid "ImageMeter image (IMI)"
 msgstr ""
@@ -3160,7 +3218,6 @@ msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
 msgid "Leica Disto classic"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_leica_disto_bt4"
 msgid "Leica Disto Bluetooth LE"
 msgstr ""
@@ -3181,7 +3238,6 @@ msgctxt "pref_bluetooth_device_protocol_stanley_tlm99si"
 msgid "Stanley TLM99si"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_suaoki"
 msgid "Suaoki"
 msgstr ""
@@ -3375,17 +3431,14 @@ msgctxt "pref_ui_image_order_criterium_dialog"
 msgid "Image sorting order"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:0"
 msgid "Image name (ascending)"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:1"
 msgid "Image name (descending)"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:2"
 msgid "Capture date (oldest first)"
 msgstr ""
@@ -3438,15 +3491,15 @@ msgctxt "pref_ui_editor_fullscreen_mode_choices:2"
 msgid "Always"
 msgstr ""
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "pref_preset_text"
 msgid "Preset text %1$d"
 msgstr "متن از پیش قرار داده شده %1$s"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "pref_preset_text_dialog"
 msgid "Enter preset text %1$d"
-msgstr "وارد کردن متن از پیش قرار داده شده %1$s"
+msgstr "وارد کردن متن از پیش قرار داده شده %1$d"
 
 msgctxt "preset_text_1"
 msgid "front door"
@@ -3537,12 +3590,10 @@ msgctxt "pref_storage_show_images_in_gallery"
 msgid "Show images in gallery"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_on"
 msgid "Edited images will show up in gallery"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_off"
 msgid "Images will not show in the gallery automatically"
 msgstr ""
@@ -3691,7 +3742,6 @@ msgctxt "pref_cloud_storage_sync_cautiousness:3"
 msgid "Confirm everything"
 msgstr ""
 
-#, fuzzy
 msgctxt "pref_cloud_storage_sync_mode:0"
 msgid "SYNC MODE"
 msgstr ""
@@ -3859,10 +3909,9 @@ msgctxt "editor_menu_edit_redo"
 msgid "Redo"
 msgstr "انجام دوباره"
 
-#, fuzzy
 msgctxt "editor_menu_edit_rotate"
 msgid "Rotate image (CW)"
-msgstr "چرخاندن عکس"
+msgstr ""
 
 msgctxt "editor_menu_edit_rotate_ccw"
 msgid "Rotate image (CCW)"
@@ -5380,11 +5429,15 @@ msgid ""
 "href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video</a>.\n"
 "\n"
 "If you have any further questions, do not hesitate to write to <a "
-"href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a>."
+"href=\"mailto:imagemeter@gmail.com\">info@imagemeter.com</a>."
 msgstr ""
 
 msgctxt "welcome_message_show_at_startup"
 msgid "Show welcome message at startup"
+msgstr ""
+
+msgctxt "release_notes_filename"
+msgid "en.html"
 msgstr ""
 
 #. FAQ
