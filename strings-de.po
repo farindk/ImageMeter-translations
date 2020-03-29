@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-21 15:05+0100\n"
-"PO-Revision-Date: 2020-03-28 14:18+0100\n"
+"POT-Creation-Date: 2020-03-29 13:21+0200\n"
+"PO-Revision-Date: 2020-03-29 13:24+0200\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -303,6 +303,10 @@ msgctxt "sortingorder_number_descending"
 msgid "Number, descending"
 msgstr "Nummer, absteigend"
 
+msgctxt "imagelibrary_display_options"
+msgid "Display options…"
+msgstr "Anzeigeoptionen…"
+
 msgctxt "imagelibrary_display_show_deleted_images"
 msgid "Show deleted images"
 msgstr "Gelöschte Bilder zeigen"
@@ -312,8 +316,8 @@ msgid "Show image numbers"
 msgstr "Bildnummer zeigen"
 
 msgctxt "imagelibrary_open_image_numbering_options"
-msgid "Image numbering..."
-msgstr "Bildnummerierung"
+msgid "Image numbering…"
+msgstr "Bildnummerierung…"
 
 #. errors
 #, c-format
@@ -363,6 +367,47 @@ msgstr "Reihenfolge der alten Nummern beibehalten"
 msgctxt "imagelibrary_dialog_numbering_renumber_all"
 msgid "Renumber"
 msgstr "Nummerieren"
+
+#. dialog: display options
+msgctxt "imagelibrary_dialog_display_options_title"
+msgid "Display options"
+msgstr "Anzeigeoptionen"
+
+msgctxt "imagelibrary_dialog_display_options_show_deleted_images"
+msgid "Show deleted images"
+msgstr "Gelöschte Bilder zeigen"
+
+msgctxt "imagelibrary_dialog_display_options_show_image_numbers"
+msgid "Show image numbers"
+msgstr "Bildnummern zeigen"
+
+msgctxt "imagelibrary_dialog_display_options_image_style_title"
+msgid "Show images as"
+msgstr "Bilder auflisten als"
+
+msgctxt "imagelibrary_dialog_display_options_image_style_list_large"
+msgid "Large list"
+msgstr "Große Liste"
+
+msgctxt "imagelibrary_dialog_display_options_image_style_list_medium"
+msgid "Medium list"
+msgstr "Mittlere Liste"
+
+msgctxt "imagelibrary_dialog_display_options_image_style_list_small"
+msgid "Small list"
+msgstr "Kleine Liste"
+
+msgctxt "imagelibrary_dialog_display_options_image_style_grid_large"
+msgid "Large grid"
+msgstr "Große Kacheln"
+
+msgctxt "imagelibrary_dialog_display_options_image_style_grid_medium"
+msgid "Medium grid"
+msgstr "Mittlere Kacheln"
+
+msgctxt "imagelibrary_dialog_display_options_image_style_grid_small"
+msgid "Small grid"
+msgstr "Kleine Kacheln"
 
 #. dialog: rename folder
 msgctxt "foldername_dialog_folder_name"
@@ -1636,6 +1681,15 @@ msgstr "Unbekanntes Feld '{}' in Namensschema."
 msgctxt "imerror_string_template_syntax_error"
 msgid "Syntax error in string template '{}'."
 msgstr "Syntaxfehler im Namensschema '{}'."
+
+#. android specific errors
+msgctxt "imerror_android_external_directory_not_mounted"
+msgid "External directory is not mounted."
+msgstr ""
+
+msgctxt "imerror_android_needs_storage_permission"
+msgid "Access to directory '{}' needs the Storage permission."
+msgstr ""
 
 #. cloud storage
 msgctxt "pref_cloud_storage_server_none"
@@ -3064,6 +3118,10 @@ msgstr "PDF Seitenausrichtung"
 msgctxt "pref_export_pdf_paper_orientation_dialog"
 msgid "PDF page orientation"
 msgstr "PDF Seitenausrichtung"
+
+msgctxt "pref_export_pdf_print_density"
+msgid "Resolution"
+msgstr "Bildauflösung"
 
 msgctxt "pref_export_pdf_paper_orientation_choices:0"
 msgid "Portrait"

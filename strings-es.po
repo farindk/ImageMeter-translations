@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-03-21 15:05+0100\n"
+"POT-Creation-Date: 2020-03-29 13:21+0200\n"
 "PO-Revision-Date: 2020-03-21 14:54+0100\n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -302,6 +302,10 @@ msgctxt "sortingorder_number_descending"
 msgid "Number, descending"
 msgstr ""
 
+msgctxt "imagelibrary_display_options"
+msgid "Display options…"
+msgstr ""
+
 msgctxt "imagelibrary_display_show_deleted_images"
 msgid "Show deleted images"
 msgstr ""
@@ -310,8 +314,9 @@ msgctxt "imagelibrary_display_show_image_numbers"
 msgid "Show image numbers"
 msgstr ""
 
+#, fuzzy
 msgctxt "imagelibrary_open_image_numbering_options"
-msgid "Image numbering..."
+msgid "Image numbering…"
 msgstr ""
 
 #. errors
@@ -358,6 +363,47 @@ msgstr ""
 
 msgctxt "imagelibrary_dialog_numbering_renumber_all"
 msgid "Renumber"
+msgstr ""
+
+#. dialog: display options
+msgctxt "imagelibrary_dialog_display_options_title"
+msgid "Display options"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_display_options_show_deleted_images"
+msgid "Show deleted images"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_display_options_show_image_numbers"
+msgid "Show image numbers"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_display_options_image_style_title"
+msgid "Show images as"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_display_options_image_style_list_large"
+msgid "Large list"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_display_options_image_style_list_medium"
+msgid "Medium list"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_display_options_image_style_list_small"
+msgid "Small list"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_display_options_image_style_grid_large"
+msgid "Large grid"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_display_options_image_style_grid_medium"
+msgid "Medium grid"
+msgstr ""
+
+msgctxt "imagelibrary_dialog_display_options_image_style_grid_small"
+msgid "Small grid"
 msgstr ""
 
 #. dialog: rename folder
@@ -1675,6 +1721,15 @@ msgstr ""
 
 msgctxt "imerror_string_template_syntax_error"
 msgid "Syntax error in string template '{}'."
+msgstr ""
+
+#. android specific errors
+msgctxt "imerror_android_external_directory_not_mounted"
+msgid "External directory is not mounted."
+msgstr ""
+
+msgctxt "imerror_android_needs_storage_permission"
+msgid "Access to directory '{}' needs the Storage permission."
 msgstr ""
 
 #. cloud storage
@@ -3069,6 +3124,10 @@ msgstr "Orientación de la página PDF"
 msgctxt "pref_export_pdf_paper_orientation_dialog"
 msgid "PDF page orientation"
 msgstr "Orientación de la página PDF"
+
+msgctxt "pref_export_pdf_print_density"
+msgid "Resolution"
+msgstr ""
 
 msgctxt "pref_export_pdf_paper_orientation_choices:0"
 msgid "Portrait"
