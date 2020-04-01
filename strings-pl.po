@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-01 12:59+0200\n"
+"POT-Creation-Date: 2020-04-01 17:21+0200\n"
 "PO-Revision-Date: 2020-03-21 15:18+0100\n"
 "Last-Translator: \n"
 "Language: pl\n"
@@ -1033,6 +1033,15 @@ msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
 msgstr ""
 
+msgctxt "pdf_export_notification_generating_pdf"
+msgid "Generating PDF file"
+msgstr ""
+
+#, c-format
+msgctxt "pdf_export_notification_progress"
+msgid "Rendering image %1$d of %2$d."
+msgstr ""
+
 #. - ZIP export
 msgctxt "dialog_zip_export_title"
 msgid "ZIP export"
@@ -1040,6 +1049,24 @@ msgstr ""
 
 msgctxt "dialog_zip_options_show_dialog"
 msgid "Show ZIP options next time"
+msgstr ""
+
+msgctxt "zip_export_notification_generating_title"
+msgid "Generating ZIP file"
+msgstr ""
+
+#, c-format
+msgctxt "zip_export_notification_progress"
+msgid "Rendering image %1$d of %2$d."
+msgstr ""
+
+#, c-format
+msgctxt "zip_export_notification_progress_pdf_step"
+msgid "PDF image %1$d of %2$d."
+msgstr ""
+
+msgctxt "zip_export_notification_progress_compressing_step"
+msgid "Compressing ZIP file..."
 msgstr ""
 
 #. dialogs
