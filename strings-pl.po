@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-04-05 01:02+0200\n"
-"PO-Revision-Date: 2020-04-05 02:36+0200\n"
+"PO-Revision-Date: 2020-04-05 13:34+0200\n"
 "Last-Translator: \n"
 "Language: pl\n"
 "Language-Team: \n"
@@ -323,10 +323,10 @@ msgid "Image numbering…"
 msgstr "Numeracja zdjęć…"
 
 #. errors, fuzzy
-#, c-format
+#, fuzzy, c-format
 msgctxt "imagelibrary_cannot_delete_image_in_use"
 msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
-msgstr "Nie można usunąć obrazu „%1%s”, ponieważ jest on używany przez %2$s."
+msgstr "Nie można usunąć obrazu „%1$s”, ponieważ jest on używany przez %2$s."
 
 #, fuzzy
 msgctxt "tpool_locked_by_syncer"
@@ -335,8 +335,14 @@ msgstr "synchronizacja w chmurze"
 
 #, fuzzy
 msgctxt "imagelibrary_cannot_load_current_folder"
-msgid "Cannot load current folder.\n\nPlease open the settings and set a different storage directory."
-msgstr "Nie można załadować bieżącego folderu.\n\nOtwórz ustawienia i ustaw inny katalog pamięci."
+msgid ""
+"Cannot load current folder.\n"
+"\n"
+"Please open the settings and set a different storage directory."
+msgstr ""
+"Nie można załadować bieżącego folderu.\n"
+"\n"
+"Otwórz ustawienia i ustaw inny katalog pamięci."
 
 #. dialog: numbering, fuzzy
 msgctxt "imagelibrary_dialog_numbering_title"
@@ -562,25 +568,25 @@ msgctxt "license_source_pro_key_app"
 msgid "Pro-key app"
 msgstr "Aplikacja Pro-key"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "navigation_drawer_license"
 msgid "License: %1$s"
-msgstr ""
+msgstr "Licencja: %1$s"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "navigation_drawer_version"
 msgid "Version: %1$s"
-msgstr ""
+msgstr "Wersja: %1$s"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "upgrade_dialog_pay_once"
 msgid "%1$s once"
-msgstr ""
+msgstr "%1$s raz"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "upgrade_dialog_pay_monthly"
 msgid "%1$s/month"
-msgstr ""
+msgstr "%1$s/miesiąc"
 
 #, fuzzy
 msgctxt "upgrade_dialog_first_month_free"
@@ -804,15 +810,15 @@ msgctxt "dialog_need_upgrade_detail_image"
 msgid "Adding detail images is included in the Business version."
 msgstr "Dodawanie szczegółowych obrazów znajduje się w wersji Business."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "dialog_need_upgrade_example_images_text"
 msgid "You can try this function with the example images (in folder '%1$s')."
-msgstr ""
+msgstr "Możesz wypróbować tę funkcję z przykładowymi obrazami (w folderze „%1$s”)."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "dialog_need_upgrade_create_example_images_text"
 msgid "You can try this function with the example images (<a href=\"create\">create folder '%1$s'</a>)."
-msgstr ""
+msgstr "Możesz wypróbować tę funkcję z przykładowymi obrazami (<a href=\"create\"> utwórz folder „%1$s”</a>)."
 
 #. tutorial, fuzzy
 msgctxt "example_folder_name"
@@ -889,10 +895,10 @@ msgctxt "import_pro_app_data_scan_progress_text"
 msgid "Please wait, searching for images to copy."
 msgstr "Proszę czekać, szukając obrazów do skopiowania."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "import_pro_app_data_progress_text"
 msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
-msgstr ""
+msgstr "Proszę czekać, wykonano %1$d zdjęć %2$d (błędy %3$d)."
 
 #, fuzzy
 msgctxt "import_pro_app_data_finished"
@@ -924,8 +930,14 @@ msgstr "Eksport zakończony"
 
 #, c-format
 msgctxt "export_dialog_saving_images_success_text"
-msgid "Images have been saved to folder '%1$s'.\n\nMaybe you can also find them more easily under /sdcard/Pictures."
-msgstr "Obrazy zostały zapisane w folderze '%1$s'.\n\nMożesz je również znaleźć w /sdcard/Pictures."
+msgid ""
+"Images have been saved to folder '%1$s'.\n"
+"\n"
+"Maybe you can also find them more easily under /sdcard/Pictures."
+msgstr ""
+"Obrazy zostały zapisane w folderze '%1$s'.\n"
+"\n"
+"Możesz je również znaleźć w /sdcard/Pictures."
 
 msgctxt "export_dialog_overwrite_extpics_images_message"
 msgid "Images with the same name exist in the target directory."
@@ -1039,10 +1051,10 @@ msgctxt "pdf_export_notification_generating_pdf"
 msgid "Generating PDF file"
 msgstr "Generowanie pliku PDF"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "pdf_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
-msgstr ""
+msgstr "Renderowanie obrazu %1$d z %2$d."
 
 #. - ZIP export, fuzzy
 msgctxt "dialog_zip_export_title"
@@ -1062,12 +1074,12 @@ msgstr "Generowanie pliku ZIP"
 #, c-format
 msgctxt "zip_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
-msgstr ""
+msgstr "Renderowanie obrazu %1$d z %2$d."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "zip_export_notification_progress_pdf_step"
 msgid "PDF image %1$d of %2$d."
-msgstr ""
+msgstr "Obraz PDF %1$d z %2$d."
 
 #, fuzzy
 msgctxt "zip_export_notification_progress_compressing_step"
@@ -1186,8 +1198,14 @@ msgstr "Obrazy z uszkodzonymi plikami .imm nie będą eksportowane."
 
 #, c-format
 msgctxt "imageselect_error_image_version_more_recent_open_editor_anyways"
-msgid "The file version of this image (%1$d) is more recent than the maximum version supported by the ImageMeter version installed (%2$d). Opening the file may result in lost data or wrong annotations. You should use a recent version of ImageMeter to open this file.\n\nDo you still want to open it?"
-msgstr "Wersja pliku tego obrazu (%1$d) jest nowsza niż maksymalnawersja obsługiwana przez zainstalowaną wersję ImageMeter (%2$d). Otwieraniepliku może spowodować utratę danych lub nieprawidłowe adnotacje. Powinieneś użyćnajnowszej wersji ImageMeter, aby otworzyć ten plik.\n\nCzy nadal chcesz go otworzyć?"
+msgid ""
+"The file version of this image (%1$d) is more recent than the maximum version supported by the ImageMeter version installed (%2$d). Opening the file may result in lost data or wrong annotations. You should use a recent version of ImageMeter to open this file.\n"
+"\n"
+"Do you still want to open it?"
+msgstr ""
+"Wersja pliku tego obrazu (%1$d) jest nowsza niż maksymalnawersja obsługiwana przez zainstalowaną wersję ImageMeter (%2$d). Otwieraniepliku może spowodować utratę danych lub nieprawidłowe adnotacje. Powinieneś użyćnajnowszej wersji ImageMeter, aby otworzyć ten plik.\n"
+"\n"
+"Czy nadal chcesz go otworzyć?"
 
 msgctxt "imageselect_error_metadata_format_unknown"
 msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
@@ -1337,10 +1355,10 @@ msgctxt "error_cannot_open_file_is_folder"
 msgid "Cannot open file '%1$s' because it is a folder."
 msgstr "Nie można otworzyć pliku '%1$s', ponieważ jest to folder."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cannot_write_file"
 msgid "Cannot write to file '%1$s'."
-msgstr ""
+msgstr "Nie można zapisać do pliku „%1$s”."
 
 msgctxt "storage_error_cannot_load_image_file_from_remote"
 msgid "Cannot load the image file from cloud storage."
@@ -1358,7 +1376,7 @@ msgstr "Nie można usunąć pliku '{}'."
 #, fuzzy
 msgctxt "imerror_files_cannot_read_file"
 msgid "Cannot read file '{}'."
-msgstr ""
+msgstr "Nie można odczytać pliku „{}”."
 
 #, fuzzy
 msgctxt "imerror_files_cannot_write_file"
@@ -1822,7 +1840,7 @@ msgstr "Ten backend pozwala na użycie własnego, prywatnego serwera w chmurze d
 #, fuzzy
 msgctxt "cloud_storage_server_note_handwerkcloud"
 msgid "The Handwerkcloud service offers not only storage space for your images and documents, but also an online office suite and other applications. A Handwerkcloud subscription includes an ImageMeter Business license. For more information see the <a href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
-msgstr "Usługa Handwerkcloud oferuje nie tylko miejsce na zdjęcia i dokumenty, ale także pakiet biurowy online i inne aplikacje. Subskrypcja Handwerkcloud obejmuje licencję ImageMeter Business. Aby uzyskać więcej informacji, zobacz \u003ca href=\"https://handwerkcloud.de\"\u003e witrynę Handwerkcloud \u003c/a\u003e."
+msgstr "Usługa Handwerkcloud oferuje nie tylko miejsce na zdjęcia i dokumenty, ale także pakiet biurowy online i inne aplikacje. Subskrypcja Handwerkcloud obejmuje licencję ImageMeter Business. Aby uzyskać więcej informacji, zobacz \\u003ca href=\"https://handwerkcloud.de\"\\u003e witrynę Handwerkcloud \\u003c/a\\u003e."
 
 msgctxt "cloud_storage_account"
 msgid "Account owner:"
@@ -1885,25 +1903,25 @@ msgctxt "cloud_scan_notification_title"
 msgid "Scanning cloud server content"
 msgstr "Skanowanie zawartości serwera w chmurze"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "cloud_scan_notification_content_no_error"
 msgid "%1$d images, %2$d folders found. %3$d items left."
-msgstr ""
+msgstr "Obrazy %1$d, znaleziono foldery %2$d. Pozostało %3$d elementów."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "cloud_scan_notification_content_with_error"
 msgid "%1$d images, %2$d folders found. %3$d items left, %4$d errors."
-msgstr ""
+msgstr "Obrazy %1$d, znaleziono foldery %2$d. Pozostało %3$d, błędy %4$d."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "cloud_sync_notification_content_no_error"
 msgid "%1$d items synced, %2$d items left."
-msgstr ""
+msgstr "Zsynchronizowano %1$d elementów, pozostało %2$d elementów."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "cloud_sync_notification_content_with_error"
 msgid "%1$d items synced, %2$d items left. %3$d errors."
-msgstr ""
+msgstr "Zsynchronizowano %1$d elementów, pozostało %2$d elementów. Błędy %3$d."
 
 #, fuzzy
 msgctxt "cloud_progress_check_server"
@@ -2032,8 +2050,14 @@ msgstr "Magazyn w chmurze"
 
 #, fuzzy
 msgctxt "cloud_storage_not_configured"
-msgid "You have not yet configured cloud storage. \nCloud storage can be used to sync your images automatically between multiple devices or for backup. More detailed documentation on this can be found in the <a href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \nThe settings for cloud storage can be found in the 'Storage' section of the app settings (<a href=\"cloud-settings\">open settings</a>)."
-msgstr "Nie skonfigurowałeś jeszcze magazynu w chmurze.\nMagazyn w chmurze może służyć do automatycznej synchronizacji obrazów między wieloma urządzeniami lub do tworzenia kopii zapasowych. Bardziej szczegółową dokumentację na ten temat można znaleźć w <a href=\"https://imagemeter.com/manual/storage/cloud/\"> podręczniku. </a>\nUstawienia przechowywania w chmurze można znaleźć w sekcji „Pamięć” ustawień aplikacji (<a href=\"cloud-settings\"> otwórz ustawienia </a>)."
+msgid ""
+"You have not yet configured cloud storage. \n"
+"Cloud storage can be used to sync your images automatically between multiple devices or for backup. More detailed documentation on this can be found in the <a href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \n"
+"The settings for cloud storage can be found in the 'Storage' section of the app settings (<a href=\"cloud-settings\">open settings</a>)."
+msgstr ""
+"Nie skonfigurowałeś jeszcze magazynu w chmurze.\n"
+"Magazyn w chmurze może służyć do automatycznej synchronizacji obrazów między wieloma urządzeniami lub do tworzenia kopii zapasowych. Bardziej szczegółową dokumentację na ten temat można znaleźć w <a href=\"https://imagemeter.com/manual/storage/cloud/\"> podręczniku. </a>\n"
+"Ustawienia przechowywania w chmurze można znaleźć w sekcji „Pamięć” ustawień aplikacji (<a href=\"cloud-settings\"> otwórz ustawienia </a>)."
 
 #, fuzzy
 msgctxt "cloud_storage_not_configured_syncing_inbox_in_bkg"
@@ -2190,15 +2214,15 @@ msgctxt "error_cloud_cannot_delete_remote_folder"
 msgid "Cannot delete remote folder '%1$s'."
 msgstr "Nie można usunąć folderu zdalnego '%1$s'."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_download_sync_server_cache_file"
 msgid "Cannot download server cache file '%1$s'."
-msgstr ""
+msgstr "Nie można pobrać pliku pamięci podręcznej serwera „%1$s”."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_upload_sync_server_cache_file"
 msgid "Cannot upload server cache file '%1$s'."
-msgstr ""
+msgstr "Nie można przesłać pliku pamięci podręcznej serwera „%1$s”."
 
 #, fuzzy
 msgctxt "error_cloud_cannot_scan_server_content"
@@ -2210,20 +2234,20 @@ msgctxt "error_cloud_cannot_sync_server_content"
 msgid "Cannot sync with server."
 msgstr "Nie można zsynchronizować z serwerem."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_parse_sync_state_file"
 msgid "Cannot parse sync state file '%1$s'."
-msgstr ""
+msgstr "Nie można przeanalizować pliku stanu synchronizacji „%1$s”."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_write_sync_state_file"
 msgid "Cannot write sync state file '%1$s'."
-msgstr ""
+msgstr "Nie można zapisać pliku stanu synchronizacji „%1$s”."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_load_sync_state_file"
 msgid "Cannot load sync state file '%1$s'."
-msgstr ""
+msgstr "Nie można załadować pliku stanu synchronizacji „%1$s”."
 
 #, fuzzy
 msgctxt "error_cloud_cannot_lock_server"
@@ -2360,10 +2384,10 @@ msgctxt "notification_cloud_sync_errors_detailed_action"
 msgid "Show detailed errors"
 msgstr "Pokaż szczegółowe błędy"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "notification_cloud_sync_errors_short_text"
 msgid "%1$d synchronization errors"
-msgstr ""
+msgstr "Błędy synchronizacji %1$d"
 
 #, fuzzy
 msgctxt "notification_cloud_sync_progress_cancel_action"
@@ -3694,8 +3718,16 @@ msgid "There is not enough free memory on the target volume to move all images."
 msgstr "Brak wolnej pamięci na woluminie docelowym, aby przenieść wszystkie obrazy."
 
 msgctxt "pref_storage_directory_error_could_not_copy_all_images"
-msgid "Could not copy all images to target directory. Maybe your folder names are no valid filenames on the target filesystem. Please change them and then try to copy the remaining data.\n\nThe active storage directory has not been changed.\n\nPlease note that the target directory now contains an incomplete copy of the source data!"
-msgstr "Nie można skopiować wszystkich obrazów do katalogu docelowego. Może nazwy twoich folderównie są poprawnymi nazwami plików w docelowym systemie plików. Proszę je Zmienić, a następniespróbuj skopiować pozostałe dane.\nAktywny katalog pamięci nie został zmieniony.\nPamiętaj, że katalog docelowy zawiera teraz niekompletną kopię danych źródłowych!"
+msgid ""
+"Could not copy all images to target directory. Maybe your folder names are no valid filenames on the target filesystem. Please change them and then try to copy the remaining data.\n"
+"\n"
+"The active storage directory has not been changed.\n"
+"\n"
+"Please note that the target directory now contains an incomplete copy of the source data!"
+msgstr ""
+"Nie można skopiować wszystkich obrazów do katalogu docelowego. Może nazwy twoich folderównie są poprawnymi nazwami plików w docelowym systemie plików. Proszę je Zmienić, a następniespróbuj skopiować pozostałe dane.\n"
+"Aktywny katalog pamięci nie został zmieniony.\n"
+"Pamiętaj, że katalog docelowy zawiera teraz niekompletną kopię danych źródłowych!"
 
 #, fuzzy
 msgctxt "pref_storage_directory_cannot_move_files"
@@ -4640,8 +4672,14 @@ msgid "All drawing tools"
 msgstr "Wszystkie narzędzia do rysowania"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
-msgid "The image data could not be read successfully. ImageMeter has tried to load as much of the data as possible, but the image annotations may be incomplete or may have errors.\n\nDo you want to keep the old data (new modifications will not be saved), or do you want to overwrite the data (you will lose the elements that could not be read successfully)?"
-msgstr "Dane obrazu nie mogły zostać odczytane z powodzeniem. ImageMeter próbował załadować jak najwięcej danych, ale adnotacje obrazu mogą być niekompletne lub mogą zawierać błędy.\n\nCzy chcesz zachować stare dane (nowe zmiany nie zostaną zapisane), czy chcesz zastąpić dane (utracisz elementy, których nie można było odczytać pomyślnie)?"
+msgid ""
+"The image data could not be read successfully. ImageMeter has tried to load as much of the data as possible, but the image annotations may be incomplete or may have errors.\n"
+"\n"
+"Do you want to keep the old data (new modifications will not be saved), or do you want to overwrite the data (you will lose the elements that could not be read successfully)?"
+msgstr ""
+"Dane obrazu nie mogły zostać odczytane z powodzeniem. ImageMeter próbował załadować jak najwięcej danych, ale adnotacje obrazu mogą być niekompletne lub mogą zawierać błędy.\n"
+"\n"
+"Czy chcesz zachować stare dane (nowe zmiany nie zostaną zapisane), czy chcesz zastąpić dane (utracisz elementy, których nie można było odczytać pomyślnie)?"
 
 #, fuzzy
 msgctxt "editor_dialog_save_corrupted_imm_file_overwrite_button"
@@ -5139,8 +5177,26 @@ msgstr "Połączenie Bluetooth nie powiodło się."
 
 #, fuzzy
 msgctxt "bluetooth_error_bluetooth_not_configured"
-msgid "You have not yet configured any Bluetooth laser distance meter.\n\nFirst make sure that your device is listed in the system settings. If required, pair the device.\n <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n\nAfterwards, select your device in the ImageMeter settings:\n <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n\nFor more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
-msgstr "Nie skonfigurowałeś jeszcze żadnego dalmierza laserowego Bluetooth.\n\nFirst make sure that your device is listed in the system settings. If required, pair the device.\n <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n\nAfterwards, select your device in the ImageMeter settings:\n <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n\nFor more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
+msgid ""
+"You have not yet configured any Bluetooth laser distance meter.\n"
+"\n"
+"First make sure that your device is listed in the system settings. If required, pair the device.\n"
+" <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n"
+"\n"
+"Afterwards, select your device in the ImageMeter settings:\n"
+" <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n"
+"\n"
+"For more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
+msgstr ""
+"Nie skonfigurowałeś jeszcze żadnego dalmierza laserowego Bluetooth.\n"
+"\n"
+"First make sure that your device is listed in the system settings. If required, pair the device.\n"
+" <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n"
+"\n"
+"Afterwards, select your device in the ImageMeter settings:\n"
+" <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n"
+"\n"
+"For more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
 
 #. 151209
 msgctxt "bluetooth_error_no_bluetooth_le"
@@ -5193,8 +5249,18 @@ msgid "Bluetooth LE Scan Error"
 msgstr "Błąd skanowania LE Bluetooth"
 
 msgctxt "bluetooth_le_scan_needs_location_message"
-msgid "Android requires that the location service is enabled to run a Bluetooth LE Scan.\n\nPlease turn on location services.\n\nAfter the Bluetooth LE scan, you can turn this off again."
-msgstr "Android wymaga, aby usługa lokalizacji była włączona, aby uruchomić skanowanie LE Bluetooth.\n\nWłącz usługi lokalizacji.\n\nPo skanowaniu Bluetooth LE możesz go ponownie wyłączyć."
+msgid ""
+"Android requires that the location service is enabled to run a Bluetooth LE Scan.\n"
+"\n"
+"Please turn on location services.\n"
+"\n"
+"After the Bluetooth LE scan, you can turn this off again."
+msgstr ""
+"Android wymaga, aby usługa lokalizacji była włączona, aby uruchomić skanowanie LE Bluetooth.\n"
+"\n"
+"Włącz usługi lokalizacji.\n"
+"\n"
+"Po skanowaniu Bluetooth LE możesz go ponownie wyłączyć."
 
 msgctxt "bluetooth_error_unknown"
 msgid "Unknown error"
@@ -5278,8 +5344,14 @@ msgid "Show tips at startup"
 msgstr "Pokaż wskazówki podczas uruchamiania"
 
 msgctxt "tip_welcome"
-msgid "Welcome to ImageMeter\n\nIf you have any questions, do not hesitate to write to imagemeter@gmail.com. All emails will be answered as fast as possible."
-msgstr "Witamy w ImageMeter\n\nJeśli masz jakieś pytania, nie wahaj się pisać na imagemeter@gmail.com. Na wszystkie e-maile będę odpowiadał tak szybko, jak to możliwe."
+msgid ""
+"Welcome to ImageMeter\n"
+"\n"
+"If you have any questions, do not hesitate to write to imagemeter@gmail.com. All emails will be answered as fast as possible."
+msgstr ""
+"Witamy w ImageMeter\n"
+"\n"
+"Jeśli masz jakieś pytania, nie wahaj się pisać na imagemeter@gmail.com. Na wszystkie e-maile będę odpowiadał tak szybko, jak to możliwe."
 
 msgctxt "tip_export_images"
 msgid "You can export images by long-clicking on them in the list and then selecting the share icon in the toolbar."
@@ -5311,8 +5383,14 @@ msgstr "Witamy w ImageMeter"
 
 #, fuzzy
 msgctxt "welcome_message_text"
-msgid "For an introduction to ImageMeter, see this <a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video</a>.\n\nIf you have any further questions, do not hesitate to write to <a href=\"mailto:imagemeter@gmail.com\">info@imagemeter.com</a>."
-msgstr "Wprowadzenie do ImageMeter można znaleźć w <a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">wideo</a>.\n\nJeśli masz dalsze pytania, nie wahaj się pisać do <a href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a>."
+msgid ""
+"For an introduction to ImageMeter, see this <a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video</a>.\n"
+"\n"
+"If you have any further questions, do not hesitate to write to <a href=\"mailto:imagemeter@gmail.com\">info@imagemeter.com</a>."
+msgstr ""
+"Wprowadzenie do ImageMeter można znaleźć w <a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">wideo</a>.\n"
+"\n"
+"Jeśli masz dalsze pytania, nie wahaj się pisać do <a href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a>."
 
 msgctxt "welcome_message_show_at_startup"
 msgid "Show welcome message at startup"
@@ -5512,4 +5590,3 @@ msgstr "Pobierz aktualizację"
 msgctxt "sync_action_push_new"
 msgid "Upload new"
 msgstr "Prześlij nowy"
-
