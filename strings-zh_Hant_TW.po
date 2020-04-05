@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-01 17:21+0200\n"
+"POT-Creation-Date: 2020-04-05 01:02+0200\n"
 "PO-Revision-Date: 2020-03-21 15:48+0100\n"
 "Last-Translator: \n"
 "Language: ak_GH\n"
@@ -17,11 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-
-#. generic strings
-msgctxt "upgraded_sub_title"
-msgid "with pro upgrade"
-msgstr "專業升級版"
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
@@ -157,14 +152,6 @@ msgctxt "folderselect_menu_print_folder"
 msgid "Print folder"
 msgstr "打印文件夾內所有文件"
 
-msgctxt "imageselect_menu_tutorial"
-msgid "Tutorial"
-msgstr "教材"
-
-msgctxt "imageselect_menu_faq"
-msgid "FAQ"
-msgstr "常見問題"
-
 msgctxt "imageselect_menu_preferences"
 msgid "Settings"
 msgstr "設置"
@@ -210,14 +197,6 @@ msgctxt "imageselect_menu_share_image"
 msgid "Share"
 msgstr ""
 
-msgctxt "imageselect_menu_save_to_external_memory"
-msgid "Save to gallery"
-msgstr "存至圖像庫"
-
-msgctxt "imageselect_menu_bluetooth"
-msgid "Bluetooth connect"
-msgstr "藍牙連接"
-
 msgctxt "imageselect_menu_print"
 msgid "Print"
 msgstr ""
@@ -234,10 +213,6 @@ msgstr "升級..."
 msgctxt "imageselect_menu_import_images_from_free_app"
 msgid "Import images from free app"
 msgstr "從免費的應用導入圖像"
-
-msgctxt "imageselect_menu_tipofday"
-msgid "Show tip of the day"
-msgstr "顯示每日提示"
 
 msgctxt "imageselect_menu_welcome_message"
 msgid "Show welcome message"
@@ -304,14 +279,6 @@ msgstr ""
 
 msgctxt "imagelibrary_display_options"
 msgid "Display options…"
-msgstr ""
-
-msgctxt "imagelibrary_display_show_deleted_images"
-msgid "Show deleted images"
-msgstr ""
-
-msgctxt "imagelibrary_display_show_image_numbers"
-msgid "Show image numbers"
 msgstr ""
 
 #, fuzzy
@@ -526,10 +493,6 @@ msgctxt "imageselect_dialog_about_contact_link"
 msgid "<a href=\"mailto:imagemeter@gmail.com\">Contact email</a>"
 msgstr "<a href=\"mailto:imagemeter@gmail.com\">聯繫電郵</a>"
 
-msgctxt "imageselect_dialog_about_translator"
-msgid "Translator:"
-msgstr "中文翻譯：趙寧"
-
 msgctxt "imageselect_dialog_about_privacy_policy_link"
 msgid ""
 "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
@@ -684,25 +647,6 @@ msgctxt "inapp_upgrade_to_pro_button"
 msgid "Upgrade"
 msgstr ""
 
-msgctxt "inapp_dialog_upgrade_benefits_later"
-msgid "Later"
-msgstr "再說"
-
-msgctxt "inapp_dialog_upgrade_active_title"
-msgid "Upgrade active"
-msgstr "升級版已激活"
-
-#, fuzzy
-msgctxt "inapp_dialog_upgrade_active_text"
-msgid ""
-"The pro upgrade has been activated.\n"
-"\n"
-"Thank you for using ImageMeter!"
-msgstr ""
-"專業版已激活.\n"
-"\n"
-"您現在應該可以在標題欄看到  ”專業升級過“.出於技術原因， 這個應用的名字不會變作 ”圖像測量專業版“."
-
 msgctxt "inapp_error_billing_unavailable"
 msgid "Billing is not available."
 msgstr ""
@@ -817,18 +761,6 @@ msgstr ""
 msgctxt "default_image_name"
 msgid "unnamed image"
 msgstr "未命名圖像"
-
-msgctxt "default_image_name_preinstalled"
-msgid "example image"
-msgstr "樣本圖像"
-
-msgctxt "default_image_name_prefix_imported"
-msgid "imported on (OBSOLET)"
-msgstr "導入於 （已废弃）"
-
-msgctxt "default_image_name_prefix_captured"
-msgid "captured on (OBSOLET)"
-msgstr "拍攝於 （已废弃）"
 
 #, fuzzy
 msgctxt "default_image_name_prefix_with_date"
@@ -1166,18 +1098,6 @@ msgid "The images with the corrupted .imm files will not be exported."
 msgstr "這些圖像的  .imm 文件已損壞，圖像不能被導出. "
 
 #, c-format
-msgctxt "imageselect_error_cannot_edit_missing_image"
-msgid ""
-"The image file is missing. Unfortunately, you cannot edit the image "
-"without.\n"
-"\n"
-"Expected image filename: %1$s."
-msgstr ""
-"圖像文件缺失. 您不能編輯它.\n"
-"\n"
-"預期文件名：%1$s. "
-
-#, c-format
 msgctxt "imageselect_error_image_version_more_recent_open_editor_anyways"
 msgid ""
 "The file version of this image (%1$d) is more recent than the maximum "
@@ -1223,13 +1143,6 @@ msgid ""
 "the media (e.g. SD-card) is mounted, this directory exists and is "
 "writable."
 msgstr "不能在這個文件夾  '%2$s' 內部創造文件夾 '%1$s' .請確認這個儲存介質已經加載， 並且這個文件夾存在並可寫. "
-
-#, c-format
-msgctxt "imageselect_error_cannot_create_databundle_on_filesystem"
-msgid ""
-"Cannot create filesystem folder '%1$s' for the image data. Make sure the "
-"media (e.g. SD-card) is mounted, this directory exists and is writable."
-msgstr "不能為這個圖像建立文件夾 '%1$s' .請確認儲存介質已經加載， 並且這個路徑存在並可寫. "
 
 #, c-format
 msgctxt "imageselect_error_cannot_access_external_data"
@@ -1308,10 +1221,6 @@ msgctxt "error_target_folder_contains_bundle_with_same_id"
 msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
 msgstr ""
 
-msgctxt "imageselect_dummyname_image_with_corrupted_imm_file"
-msgid "Corrupt .imm file"
-msgstr ".imm 文件損壞."
-
 msgctxt "error_cause_section_title"
 msgid "Cause:"
 msgstr ""
@@ -1348,13 +1257,6 @@ msgstr "存儲目的地不是一個目錄."
 msgctxt "storage_error_data_bundle_corrupted"
 msgid "Data in image directory '%1$s' is corrupted."
 msgstr "文件夾 '%1$s' 中的圖像文件數據已損壞. "
-
-#, c-format
-msgctxt "storage_error_metadata_unknown_format"
-msgid ""
-"Metadata file (.imm) for image '%1$s' cannot be read, because it's format"
-" is unknown."
-msgstr "無法讀取這個圖像 '%1$s'  的元信息文件 (.imm)， 因其格式未知.  "
 
 msgctxt "storage_error_no_permission_to_read_image_to_be_imported"
 msgid ""
@@ -1627,10 +1529,6 @@ msgid "OpenGL error: \"{}\"."
 msgstr ""
 
 #. other errors
-msgctxt "error_pro_version_required_title"
-msgid "Pro version required"
-msgstr "該功能需要專業版"
-
 msgctxt "imerror_out_of_memory"
 msgid "Out of memory."
 msgstr ""
@@ -1696,6 +1594,10 @@ msgstr ""
 
 msgctxt "imerror_android_needs_storage_permission"
 msgid "Access to directory '{}' needs the Storage permission."
+msgstr ""
+
+msgctxt "imerror_android_import_security_exception"
+msgid "Security exception when accessing URI '{}'."
 msgstr ""
 
 #. cloud storage
@@ -1867,66 +1769,6 @@ msgstr ""
 
 msgctxt "cloud_storage_sync_action_skip"
 msgid "Skip"
-msgstr ""
-
-msgctxt "cloud_storage_sync_progress_start_sync"
-msgid "Scanning server content…"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_scan_root_folder"
-msgid ""
-"Scanning remote root folder (%2$d of %3$d)…\n"
-"%1$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_scan_folder"
-msgid ""
-"Scanning remote folder '%1$s' (%3$d of %4$d)…\n"
-"%2$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_download_image"
-msgid ""
-"Downloading image (%2$d of %3$d)…\n"
-"%1$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_upload_image"
-msgid ""
-"Uploading image (%2$d of %3$d)…\n"
-"%1$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_delete_image"
-msgid ""
-"Deleting image (%2$d of %3$d)…\n"
-"%1$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_download_folder"
-msgid ""
-"Downloading folder (%2$d of %3$d)…\n"
-"%1$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_upload_folder"
-msgid ""
-"Uploading folder (%2$d of %3$d)…\n"
-"%1$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_delete_folder"
-msgid ""
-"Deleting folder (%2$d of %3$d)…\n"
-"%1$s"
 msgstr ""
 
 msgctxt "cloud_sync_notification_title"
@@ -2102,11 +1944,6 @@ msgid ""
 "<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license"
 "/android-business-features\">here</a> for all benefits of the Business "
 "version."
-msgstr ""
-
-#, c-format
-msgctxt "error_cloud_base_folder_not_found"
-msgid "Data folder '%2$s' not found in your %1$s account."
 msgstr ""
 
 msgctxt "error_cloud_cannot_login_unknown"
@@ -2445,26 +2282,6 @@ msgctxt "pref_editor_line_width_dialog"
 msgid "Choose line width"
 msgstr "選擇線條寬度"
 
-msgctxt "pref_editor_text_label_background"
-msgid "Text label background"
-msgstr "文字標籤背景"
-
-msgctxt "pref_editor_text_label_background_dialog"
-msgid "Text label background"
-msgstr "文字標籤背景"
-
-msgctxt "pref_editor_text_label_background_choices:0"
-msgid "No background"
-msgstr "無背景"
-
-msgctxt "pref_editor_text_label_background_choices:1"
-msgid "Solid rectangle"
-msgstr "實心長方形"
-
-msgctxt "pref_editor_text_label_background_choices:2"
-msgid "Various (set in editor)"
-msgstr ""
-
 msgctxt "pref_category_editor_snapping"
 msgid "Snapping"
 msgstr "吸附"
@@ -2521,8 +2338,8 @@ msgctxt "pref_editor_snapping_strength_choices:2"
 msgid "High"
 msgstr "強"
 
-msgctxt "pref_category_editor_tools"
-msgid "Drawing tools"
+msgctxt "pref_category_editor_drawing_tools"
+msgid "Drawing Tools"
 msgstr ""
 
 msgctxt "pref_editor_tools_freehand_end_delay"
@@ -2543,10 +2360,6 @@ msgstr ""
 
 msgctxt "pref_editor_tools_freehand_end_delay_choices:3"
 msgid "Long"
-msgstr ""
-
-msgctxt "pref_category_editor_drawing_tools"
-msgid "Drawing Tools"
 msgstr ""
 
 msgctxt "pref_category_measures"
@@ -2909,32 +2722,6 @@ msgctxt "pref_export_format_dialog"
 msgid "Image format"
 msgstr "圖像格式"
 
-msgctxt "pref_max_export_size"
-msgid "Maximum image size"
-msgstr "最大圖像尺寸"
-
-#, c-format
-msgctxt "pref_max_export_size_summary"
-msgid "%s"
-msgstr "%s"
-
-msgctxt "pref_max_export_size_dialog"
-msgid "Max. width of exported image"
-msgstr "輸出圖像的最大寬度"
-
-msgctxt "pref_min_export_size"
-msgid "Minimum image size"
-msgstr "最小圖像尺寸"
-
-#, c-format
-msgctxt "pref_min_export_size_summary"
-msgid "%s"
-msgstr "%s"
-
-msgctxt "pref_min_export_size_dialog"
-msgid "Min. width of exported image"
-msgstr "輸出圖像的最小寬度"
-
 #. <string name="pref_export_enable_reduced_resolution_overlay">Warning
 #. overlays on images</string>
 msgctxt "pref_export_hardware_msaa"
@@ -2948,30 +2735,6 @@ msgstr "啟用（某些錯誤較多的圖像處理器可能僅顯示黑色圖像
 msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
 msgstr "關閉（標註外觀品質會降低）"
-
-msgctxt "pref_export_multi_images_format"
-msgid "Export folders as"
-msgstr "將該文件夾導出為"
-
-msgctxt "pref_export_multi_images_format_dialog"
-msgid "Export folders as"
-msgstr "將該文件夾導出為"
-
-msgctxt "pref_export_multi_images_format_choices:0"
-msgid "Separate images"
-msgstr "單獨圖像"
-
-msgctxt "pref_export_multi_images_format_choices:1"
-msgid "PDF"
-msgstr "PDF"
-
-msgctxt "pref_export_multi_images_format_choices:2"
-msgid "Zip archive of images"
-msgstr "圖像 Zip 包"
-
-msgctxt "pref_export_multi_images_format_choices:3"
-msgid "ImageMeter folder (IMF)"
-msgstr "ImageMeter 文件夾 (IMF)"
 
 msgctxt "pref_export_single_image_format"
 msgid "Export images as"
@@ -3009,7 +2772,7 @@ msgstr "ImageMeter 文件夾 (IMF)"
 #. TODO: FIX other languages
 msgctxt "pref_export_single_image_format_choices:5"
 msgid "Save to gallery"
-msgstr ""
+msgstr "存至圖像庫"
 
 msgctxt "pref_export_render_image_title"
 msgid "Show image title"
@@ -3394,18 +3157,6 @@ msgctxt "pref_category_user_interface"
 msgid "User interface"
 msgstr "用戶界面"
 
-msgctxt "pref_ui_tip_of_day_enabled"
-msgid "Enable tip of the day"
-msgstr "開啟每日提示"
-
-msgctxt "pref_ui_tip_of_day_enabled_summaryon"
-msgid "Tip of the day will be shown at app start"
-msgstr "程序啟動時顯示每日提示"
-
-msgctxt "pref_ui_tip_of_day_enabled_summaryoff"
-msgid "Tip of the day will not be shown"
-msgstr "程序啟動時不顯示每日提示"
-
 msgctxt "pref_ui_faq_button_enabled"
 msgid "Enable FAQ button"
 msgstr "啟用常見問題按鈕"
@@ -3756,10 +3507,6 @@ msgctxt "pref_storage_directory_not_enough_free_space_message"
 msgid "There is not enough free memory on the target volume to move all images."
 msgstr "目標儲存介質上空間不足，無法搬運所有的圖像."
 
-msgctxt "pref_storage_directory_error_nonpro"
-msgid "Changing the storage directory is only available in the Pro version."
-msgstr "轉換儲存路徑僅在專業版上可用."
-
 msgctxt "pref_storage_directory_error_could_not_copy_all_images"
 msgid ""
 "Could not copy all images to target directory. Maybe your folder names "
@@ -3859,18 +3606,6 @@ msgstr ""
 
 msgctxt "pref_storage_cloud_advanced_maintenance"
 msgid "Advanced maintenance"
-msgstr ""
-
-msgctxt "pref_storage_cloud_reset_state"
-msgid "Reset sync state"
-msgstr ""
-
-msgctxt "pref_storage_cloud_reset_server_cache"
-msgid "Reset server cache"
-msgstr ""
-
-msgctxt "pref_storage_cloud_remove_server_lock"
-msgid "Remove server lock"
 msgstr ""
 
 msgctxt "pref_storage_cloud_wifi_only"
@@ -4007,10 +3742,6 @@ msgctxt "editor_menu_edit_copy_element"
 msgid "Copy element"
 msgstr ""
 
-msgctxt "editor_menu_edit_settings"
-msgid "Settings…"
-msgstr "設置…"
-
 msgctxt "editor_menu_edit_lock_element"
 msgid "Lock element"
 msgstr ""
@@ -4022,10 +3753,6 @@ msgstr ""
 msgctxt "editor_menu_edit_imagesettings"
 msgid "Image settings"
 msgstr ""
-
-msgctxt "editor_menu_color"
-msgid "Color"
-msgstr "色彩"
 
 msgctxt "editor_menu_style"
 msgid "Style"
@@ -4146,10 +3873,6 @@ msgstr "顯示箭頭"
 msgctxt "editor_dialog_style_textbox_show_border"
 msgid "Show border"
 msgstr "顯示邊框"
-
-msgctxt "editor_dialog_style_textbox_fill_background"
-msgid "Filled background"
-msgstr "填充背景"
 
 msgctxt "editor_dialog_style_textbox_text_outline"
 msgid "Text outline"
@@ -4402,10 +4125,6 @@ msgstr "參照尺寸外觀"
 msgctxt "editor_dialog_style_flatref_font_magnification"
 msgid "Font size"
 msgstr "字體尺寸"
-
-msgctxt "editor_dialog_style_flatref_grid_always_on"
-msgid "Always show grid"
-msgstr "總是顯示網格"
 
 msgctxt "editor_dialog_style_flatref_subdivisions"
 msgid "Subdivisions"
@@ -4852,31 +4571,11 @@ msgctxt "settings_rectref_sizes_menu_open"
 msgid "Edit objects…"
 msgstr ""
 
-#. editor errors
-msgctxt "editor_error_image_out_of_memory"
-msgid ""
-"Out of memory! Cannot load image. Try reducing the maximum image "
-"resolution in the editor. This can be done in the app settings."
-msgstr "內存用盡！不能加載圖像.您可以試試降低圖像分辨率. 應用設置中有此選項. "
-
 #. export
-#, c-format
-msgctxt "export_warning_low_memory_export_resolution_reduced"
-msgid ""
-"Your device has been low on main memory. The output image resolution "
-"(%1$d x %2$d) had to be reduced. You might want to reduce the maximum "
-"output resolution in the app settings."
-msgstr "內存即將用盡！輸出圖像的分辨率 (%1$d x %2$d) 必須降低.您可以試試降低圖像分辨率. 應用設置中有此選項. "
-
 #, fuzzy
 msgctxt "export_eval_version"
 msgid "Evaluation copy"
 msgstr "試用版"
-
-#, c-format
-msgctxt "export_intent_subject"
-msgid "ImageMeter export: %1$s"
-msgstr "圖像測量導出：%1$s"
 
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:0"
@@ -5121,16 +4820,6 @@ msgctxt "textbox_detail_picture_title"
 msgid "Detail picture"
 msgstr ""
 
-msgctxt "textbox_rtl_language_warning_title"
-msgid "Please note"
-msgstr "請注意"
-
-msgctxt "textbox_rtl_language_warning_text"
-msgid ""
-"ImageMeter currently does not support entering text in right-to-left "
-"languages. Text display may be broken."
-msgstr "本軟件尚不支持自右向左的語言.文字顯示可能會有點奇怪."
-
 #. GCircle
 msgctxt "circle_radius_prefix"
 msgid "r:"
@@ -5271,12 +4960,6 @@ msgstr ""
 msgctxt "bluetooth_error_no_bluetooth_le"
 msgid "Device does not support Bluetooth LE (at least Android 4.3 required)."
 msgstr "設備不支持藍牙 LE （需安卓 4.3 以上）."
-
-msgctxt "bluetooth_error_no_bonded_bluetooth_device"
-msgid ""
-"The selected Bluetooth device is currently not paired. Please pair it in "
-"the Android settings."
-msgstr "該藍牙設備尚未配對.請在安卓設置中為其配對. "
 
 #, c-format
 msgctxt "bluetooth_error_cannot_set_value"
@@ -5504,328 +5187,6 @@ msgstr ""
 msgctxt "manual_website_link"
 msgid "http://www.imagemeter.com/manual"
 msgstr ""
-
-msgctxt "faq_image_menu_section"
-msgid "Image menu"
-msgstr "圖像操作選單"
-
-msgctxt "faq_image_menu_how_to_export_q"
-msgid "How can I export images?"
-msgstr "如何導出圖像？"
-
-msgctxt "faq_image_menu_how_to_export_a"
-msgid ""
-"You can export single images, several images at once, or complete "
-"folders. Long-press on an image or folder to select it and then choose "
-"one of the export icons. If you are exporting several images at once, "
-"they will be exported as a PDF or in a zip archive. The format can be "
-"chosen in the settings.\n"
-"You can either export to another app, or save the images into the file-"
-"system. When saving to the file system, the images will usually be stored"
-" in the 'Pictures' folder. The exact location will be displayed after "
-"export."
-msgstr ""
-"您可以一次導出單張、多張圖像或完整文件夾. 長按圖像或文件夾將其選中，然後選擇其中一個導出圖標. 如果您一次導出多個圖像，系統會將其導出為 PDF"
-" 或 zip 文件包. 格式可以在設置中選擇.\n"
-"您可以導出至另一個應用程序，或將圖像保存到文件系統. 保存到文件系統時，圖像通常會存儲在“圖片”文件夾中. 確切路徑將在導出後顯示."
-
-#. TODO: image of context tool-bar with explanations
-msgctxt "faq_image_menu_how_to_delete_q"
-msgid "How do I delete images?"
-msgstr "如何刪除圖像？"
-
-msgctxt "faq_image_menu_how_to_delete_a"
-msgid ""
-"Long-press on the image until the icons in the toolbar change. Then "
-"select the trashcan icon. You can also delete several images at once by "
-"selecting them before pressing the trashcan icon."
-msgstr "長按圖像，直到工具欄中的圖標發生變化. 然後選擇垃圾桶圖標. 選中多個圖像之後，也可以將它們批量刪除."
-
-msgctxt "faq_image_menu_transfer_images_q"
-msgid "How can I transfer editable data between devices?"
-msgstr "如何在不同的設備之間傳輸可編輯的數據文件？"
-
-#, fuzzy
-msgctxt "faq_image_menu_transfer_images_a"
-msgid ""
-"If your devices have an SD-card slot, you can move the storage directory "
-"to SD card: in the settings, enter section 'Storage' and then 'Data "
-"directory'. There, you should be able to select the SD card directory and"
-" move all data into this directory. Now place the SD card into the new "
-"device and also change the data directory to SD card.\n"
-" In case you do not have an SD-card slot, enter the 'Export' settings and"
-" set the export format to 'ImageMeter image' (.IMI) or 'ImageMeter "
-"folder' (.IMF). Then export the data you want to transfer in these "
-"formats. The files can be opened again on other devices and the editable "
-"images will be imported."
-msgstr ""
-"數據文件存放在  "
-"'/sdcard/&lt;wbr/&gt;Android/&lt;wbr/&gt;data/&lt;wbr/&gt;de.dirkfarin.imagemeterpro/&lt;wbr/&gt;files/&lt;wbr/&gt;projects'."
-" "
-
-msgctxt "faq_image_menu_free_to_pro_q"
-msgid "How can I transfer images from the free version to the pro version?"
-msgstr "如何將免費版中的圖像傳輸至專業版？"
-
-msgctxt "faq_image_menu_free_to_pro_a"
-msgid ""
-"In the main screen of the pro version, there is a menu item to import the"
-" images from the free app."
-msgstr "專業版中的主畫面中，有一個操作選項叫做“自免費版導入圖像”."
-
-msgctxt "faq_image_menu_backup_data_q"
-msgid "How can I make a backup of all data?"
-msgstr ""
-
-msgctxt "faq_image_menu_backup_data_a"
-msgid ""
-"Enter the settings, section 'Storage' and then 'Data directory' to see in"
-" which directory ImageMeter stores its data. Usually, this is "
-"'/sdcard/&lt;wbr/&gt;Android/&lt;wbr/&gt;data/&lt;wbr/&gt;de.dirkfarin.imagemeterpro/&lt;wbr/&gt;files/&lt;wbr/&gt;projects'."
-" In this directory, you will find all ImageMeter folders and within these"
-" one folder for each image. You can simply copy these folders to other "
-"devices for backup."
-msgstr ""
-
-msgctxt "faq_auto_measure_section"
-msgid "Automatic measurement"
-msgstr "自動測量"
-
-msgctxt "faq_auto_measure_howto_q"
-msgid "How do I carry out automatic measurements?"
-msgstr "如何進行自動測量"
-
-msgctxt "faq_auto_measure_howto_a"
-msgid ""
-"In order to perform automatic measurements, you have to provide a "
-"reference measurement. This is a rectangle with known side lengths. After"
-" you have drawn the reference, select the dimension you want to have "
-"computed and press the 'calculator' icon or the 'compute value' menu "
-"item. If there is only one reference in the image or if a reference is "
-"active while you add a new measure, this reference will automatically be "
-"used for computing the measure value."
-msgstr ""
-"您必須提供參照物的尺寸. 參照物是一個具有已知邊長的矩形. 標註參照物後，選擇要計算的尺寸，然後按“計算器”圖標或“計算”操作項. "
-"如果圖像中只有一個參照物，或者在添加新尺寸時激活了參照物，則將使用該參照物自動計算測量值."
-
-#. todo: example picture
-msgctxt "faq_auto_measure_expectation_q"
-msgid ""
-"I expected ImageMeter to measure dimensions all by itself without any "
-"reference..."
-msgstr "我以為 ImageMeter 不必參照物也懂得自動測量……."
-
-msgctxt "faq_auto_measure_expectation_a"
-msgid ""
-"This is impossible. From a single image, one cannot derive its scale. An "
-"image could show a real house or just a small toy. There is no way to "
-"know its true size from the image alone.\n"
-"You can give ImageMeter the missing information by adding a reference "
-"rectangle to the image. Based on this, ImageMeter can accurately compute "
-"all measures that lie in the same plane as this rectangle, including "
-"perspective foreshortening."
-msgstr ""
-"這是不可能的. 一個物體若無參照物，不可能得出其體量. 一幅圖像可以顯示一個真正的房子或只是一個小玩具. 單從圖像無法知道它的真實大小.\n"
-"您可以通過標註一個參考矩形的尺寸令 ImageMeter 得知缺少的信息. "
-"基於此，ImageMeter可以精確計算與此矩形位於同一平面的所有度量，包括透視縮短值."
-
-#. todo: add an example picture
-msgctxt "faq_auto_measure_ref_objects_q"
-msgid "What kind of objects can I use as references?"
-msgstr "怎樣的物體可以作為參照物？"
-
-msgctxt "faq_auto_measure_ref_objects_a"
-msgid ""
-"Whatever you like as long as it is rectangular. For measuring houses, "
-"windows are a good option. You can also pin a sheet of paper on the wall "
-"and use this. The reference even does not have to exist physically. Just "
-"four points that form an imagined rectangle will work. Try to choose the "
-"reference as large as possible to increase accuracy."
-msgstr ""
-"長方形的東西就可以. 為了測量房屋，窗戶是一個不錯的選擇. 您也可以將一張紙釘在牆上，然後使用它. 參照物甚至不必真實存在. "
-"只要找出能圍成一個矩形的四點就可以了. 參照物應該盡可能大，以提高準確性."
-
-msgctxt "faq_auto_measure_accuracy_q"
-msgid "What is the accuracy of computed measurements?"
-msgstr "自動測量的準確度如何？"
-
-#, c-format
-msgctxt "faq_auto_measure_accuracy_a"
-msgid ""
-"In theory, the computed measurements are 100% accurate. In practice, the "
-"accuracy depends on how accurately you place the reference rectangle "
-"corners and on the lens distortions of the camera. In order to get the "
-"highest accuracy possible, you should choose a reference as large as "
-"possible."
-msgstr ""
-"理論上，計算的測量值是 100% 準確的. 實踐中，準確度取決於您如何準確地在圖像上指定參考矩形的四個角以及相機的鏡頭畸變度. "
-"為了獲得最高的準確度，您應該選擇一個盡可能大的參照物."
-
-msgctxt "faq_auto_measure_perspective_line_q"
-msgid "How do I use the 'Perspective line' tool?"
-msgstr ""
-
-msgctxt "faq_auto_measure_perspective_line_a"
-msgid ""
-"Often, you may want to measure the height of a high object, or another "
-"distance along a line that is subject to perspective foreshortening.\n"
-" In this case, the 'Perspective line' tool can be used. It requires that "
-"you mark three points on a line: the zero point and two known points with"
-" their distance to the zero point. These three points are indicated with "
-"a small triangle.\n"
-" Now, you can additionally move a fourth point on the line whose distance"
-" to the zero point will be computed automatically. ImageMeter will also "
-"draw a couple of thin orthogonal lines that indicate the perspective "
-"foreshortening along the line. The last of these lines represents the "
-"horizont. Clearly, moving the measurement point across the horizont will "
-"not give you a valid measurement.\n"
-" Note that you do not need an additional reference when using this tool, "
-"since it combines its own reference and measurement in a single tool."
-msgstr ""
-
-msgctxt "faq_bluetooth_section"
-msgid "Bluetooth"
-msgstr "藍牙"
-
-msgctxt "faq_bluetooth_compatibility_q"
-msgid "Which laser distance meters are supported?"
-msgstr "本軟件支持哪些激光測距儀？"
-
-msgctxt "faq_bluetooth_compatibility_a_column_model"
-msgid "Model"
-msgstr "型號"
-
-msgctxt "faq_bluetooth_compatibility_a_column_protocol"
-msgid "Protocol"
-msgstr "協議"
-
-msgctxt "faq_bluetooth_compatibility_a_column_works"
-msgid "Works"
-msgstr "可用"
-
-msgctxt "faq_bluetooth_compatibility_a_entry_works_yes"
-msgid "yes"
-msgstr "可用"
-
-msgctxt "faq_bluetooth_compatibility_a_entry_works_no"
-msgid "no"
-msgstr "不可用"
-
-msgctxt "faq_bluetooth_compatibility_a_entry_works_untested"
-msgid "untested"
-msgstr "未測試"
-
-msgctxt "faq_bluetooth_compatibility_a_entry_protocol_LE"
-msgid "LE"
-msgstr "低耗能"
-
-msgctxt "faq_bluetooth_compatibility_a_entry_protocol_classic"
-msgid "classic"
-msgstr "普通"
-
-msgctxt "faq_bluetooth_connect_q"
-msgid "How do I connect to a Bluetooth device?"
-msgstr "如何連接藍牙設備？"
-
-msgctxt "faq_bluetooth_connect_a"
-msgid ""
-"Usually, you can simply select your Bluetooth device in the ImageMeter "
-"settings. If the device is not paired yet, it will do so when you connect"
-" to it the first time. If this fails or if only the device address is "
-"shown instead of its name, it may help to first pair the device in the "
-"Android settings. If you have a device with Bluetooth LE, you do not need"
-" to pair it, but it has to be turned on to appear in the device list.\n"
-" Usually, the transmission protocol is detected automatically, but in "
-"rare cases, the device name is ambiguous and you have to set the protocol"
-" manually in the settings.\n"
-" To conntect to the device, press the Bluetooth button at the image menu "
-"screen. It will blink until the connection is established. Eventually, it"
-" should turn blue to denote that the connection is active. Sometimes, the"
-" OS will ask you to enter the device pin again. On some devices, a small "
-"Bluetooth icon appears at the title bar and you have to swipe down to "
-"enter the pin.\n"
-" Also make sure that other apps connected to the laser distance meter are"
-" closed, as some block the connection while they are running in the "
-"background. The Leica D810 should be in app mode with encryption turned "
-"off."
-msgstr ""
-"通常，您只需在 ImageMeter "
-"設置中選擇您的藍牙設備即可.如果設備尚未配對，則在第一次連接時會配對.如果失敗或只顯示設備地址而不顯示設備名稱，事先在安卓系統設置中配對設備可能會有幫助.如果您的設備是低耗能藍牙，則無需配對，但必須打開該設備才能顯示在設備列表中."
-"\n"
-"通常，傳輸協議是自動檢測的，但在極少數情況下，設備名稱不明確，您必須在設置中手動設置協議.\n"
-"要連接設備，請按圖像操作選項上的藍牙按鈕.它會閃爍，直到連接建立.最終，它應該變成藍色，表示連接處於可用狀態.有時，操作系統會要求您再次輸入設備密碼.在某些設備上，標題欄上會出現一個小藍牙圖標，您必須向下滑動才能輸入密碼."
-"\n"
-"還要確保連接到激光測距儀的其他應用程序是關閉的，因為有些程序在後台運行時會阻止連接.不加密時，徠卡 D810 應該處於應用模式."
-
-msgctxt "faq_bluetooth_usage_q"
-msgid "How do I transmit values via Bluetooth?"
-msgstr "如何傳輸藍牙設備測得的數據？"
-
-msgctxt "faq_bluetooth_usage_a"
-msgid ""
-"In the image editor, draw a measure or select one. Now press the "
-"'transmit' button on your laser distance meter. On some devices, there is"
-" no 'transmit' button and the measurement will be transmitted as soon as "
-"it is taken.\n"
-" Note that you should &lt;b&gt;not&lt;/b&gt; enter the value-entry dialog"
-" to transmit the value."
-msgstr ""
-"在圖像編輯器中，標註一個度量或者選擇一個. 然後按激光測距儀上的“發射”按鈕. 在某些設備上，沒有“發送”按鈕，測量一經採取就會被發送.\n"
-"請注意，您&lt;b&gt;不&lt;/b&gt;應該進入數值輸入對話框以傳輸測量值."
-
-msgctxt "faq_other_section"
-msgid "Other"
-msgstr "另外"
-
-msgctxt "faq_other_free_vs_pro_q"
-msgid "What is the difference between free and pro version?"
-msgstr "免費版和專業版的區別？"
-
-msgctxt "faq_other_free_vs_pro_a"
-msgid ""
-"The free version has the following limitations:&lt;ul&gt; &lt;li&gt;adds "
-"watermarks into the exported images,&lt;/li&gt; &lt;li&gt;maximum of 5 "
-"dimensions per image,&lt;/li&gt; &lt;li&gt;transfer distances of up to 3 "
-"meters via Bluetooth.&lt;/li&gt; &lt;/ul&gt; If ImageMeter is useful to "
-"you, please upgrade to the pro version to support further development."
-msgstr ""
-"免費版有以下限制：&lt;ul&gt; &lt;li&gt;導出的圖像上有水印,&lt;/li&gt; "
-"&lt;li&gt;每張圖最多只能有五個度量,&lt;/li&gt; &lt;li&gt;藍牙設備只能傳輸最長為 3 "
-"米的距離.&lt;/li&gt; &lt;/ul&gt;如果您覺得 ImageMeter 有用，請升級至專業版以支持本軟件的發展."
-
-msgctxt "faq_other_upgrading_vs_native_pro_q"
-msgid ""
-"What is the difference between upgrading the free version and installing "
-"the pro version?"
-msgstr "從免費版升級和直接購買專業版的區別在哪裡？"
-
-msgctxt "faq_other_upgrading_vs_native_pro_a"
-msgid ""
-"There is no difference. Both options will give you exactly the same "
-"features."
-msgstr "沒有區別.完全一樣."
-
-msgctxt "faq_other_disable_FAQ_button_q"
-msgid "How can I disable the FAQ button?"
-msgstr "如何關閉“常見問題”按鈕？"
-
-msgctxt "faq_other_disable_FAQ_button_a"
-msgid ""
-"There is a setting for this in the preferences (in section 'User "
-"Interface'). When turned off, you can access the FAQ from the menu."
-msgstr "在使用喜好中有一個設置（在“用戶界面”部分）. 關閉時，您可以在操作選項單中看到常見問題解答."
-
-msgctxt "faq_other_contact_q"
-msgid "I still have a question, who can I ask?"
-msgstr "還有問題該問誰？"
-
-msgctxt "faq_other_contact_a"
-msgid ""
-"Please write to &lt;a "
-"href=\"mailto:imagemeter@gmail.com\"&gt;imagemeter@gmail.com&lt;/a&gt;."
-msgstr ""
-"請致信 &lt;a "
-"href=\"mailto:imagemeter@gmail.com\"&gt;imagemeter@gmail.com&lt;/a&gt;."
 
 #. TODO: Remove or change this placeholder text
 msgctxt "image_info_image_name"

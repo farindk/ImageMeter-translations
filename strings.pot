@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-01 17:21+0200\n"
+"POT-Creation-Date: 2020-04-05 01:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,11 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-
-#. generic strings
-msgctxt "upgraded_sub_title"
-msgid "with pro upgrade"
-msgstr ""
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
@@ -158,14 +153,6 @@ msgctxt "folderselect_menu_print_folder"
 msgid "Print folder"
 msgstr ""
 
-msgctxt "imageselect_menu_tutorial"
-msgid "Tutorial"
-msgstr ""
-
-msgctxt "imageselect_menu_faq"
-msgid "FAQ"
-msgstr ""
-
 msgctxt "imageselect_menu_preferences"
 msgid "Settings"
 msgstr ""
@@ -210,14 +197,6 @@ msgctxt "imageselect_menu_share_image"
 msgid "Share"
 msgstr ""
 
-msgctxt "imageselect_menu_save_to_external_memory"
-msgid "Save to gallery"
-msgstr ""
-
-msgctxt "imageselect_menu_bluetooth"
-msgid "Bluetooth connect"
-msgstr ""
-
 msgctxt "imageselect_menu_print"
 msgid "Print"
 msgstr ""
@@ -232,10 +211,6 @@ msgstr ""
 
 msgctxt "imageselect_menu_import_images_from_free_app"
 msgid "Import images from free app"
-msgstr ""
-
-msgctxt "imageselect_menu_tipofday"
-msgid "Show tip of the day"
 msgstr ""
 
 msgctxt "imageselect_menu_welcome_message"
@@ -302,14 +277,6 @@ msgstr ""
 
 msgctxt "imagelibrary_display_options"
 msgid "Display options…"
-msgstr ""
-
-msgctxt "imagelibrary_display_show_deleted_images"
-msgid "Show deleted images"
-msgstr ""
-
-msgctxt "imagelibrary_display_show_image_numbers"
-msgid "Show image numbers"
 msgstr ""
 
 msgctxt "imagelibrary_open_image_numbering_options"
@@ -519,10 +486,6 @@ msgctxt "imageselect_dialog_about_contact_link"
 msgid "<a href=\"mailto:imagemeter@gmail.com\">Contact email</a>"
 msgstr ""
 
-msgctxt "imageselect_dialog_about_translator"
-msgid "Translator:"
-msgstr ""
-
 msgctxt "imageselect_dialog_about_privacy_policy_link"
 msgid ""
 "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
@@ -674,21 +637,6 @@ msgctxt "inapp_upgrade_to_pro_button"
 msgid "Upgrade"
 msgstr ""
 
-msgctxt "inapp_dialog_upgrade_benefits_later"
-msgid "Later"
-msgstr ""
-
-msgctxt "inapp_dialog_upgrade_active_title"
-msgid "Upgrade active"
-msgstr ""
-
-msgctxt "inapp_dialog_upgrade_active_text"
-msgid ""
-"The pro upgrade has been activated.\n"
-"\n"
-"Thank you for using ImageMeter!"
-msgstr ""
-
 msgctxt "inapp_error_billing_unavailable"
 msgid "Billing is not available."
 msgstr ""
@@ -802,18 +750,6 @@ msgstr ""
 #. image import
 msgctxt "default_image_name"
 msgid "unnamed image"
-msgstr ""
-
-msgctxt "default_image_name_preinstalled"
-msgid "example image"
-msgstr ""
-
-msgctxt "default_image_name_prefix_imported"
-msgid "imported on (OBSOLET)"
-msgstr ""
-
-msgctxt "default_image_name_prefix_captured"
-msgid "captured on (OBSOLET)"
 msgstr ""
 
 msgctxt "default_image_name_prefix_with_date"
@@ -1147,15 +1083,6 @@ msgid "The images with the corrupted .imm files will not be exported."
 msgstr ""
 
 #, c-format
-msgctxt "imageselect_error_cannot_edit_missing_image"
-msgid ""
-"The image file is missing. Unfortunately, you cannot edit the image "
-"without.\n"
-"\n"
-"Expected image filename: %1$s."
-msgstr ""
-
-#, c-format
 msgctxt "imageselect_error_image_version_more_recent_open_editor_anyways"
 msgid ""
 "The file version of this image (%1$d) is more recent than the maximum "
@@ -1194,13 +1121,6 @@ msgid ""
 "Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
 "the media (e.g. SD-card) is mounted, this directory exists and is "
 "writable."
-msgstr ""
-
-#, c-format
-msgctxt "imageselect_error_cannot_create_databundle_on_filesystem"
-msgid ""
-"Cannot create filesystem folder '%1$s' for the image data. Make sure the "
-"media (e.g. SD-card) is mounted, this directory exists and is writable."
 msgstr ""
 
 #, c-format
@@ -1280,10 +1200,6 @@ msgctxt "error_target_folder_contains_bundle_with_same_id"
 msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
 msgstr ""
 
-msgctxt "imageselect_dummyname_image_with_corrupted_imm_file"
-msgid "Corrupt .imm file"
-msgstr ""
-
 msgctxt "error_cause_section_title"
 msgid "Cause:"
 msgstr ""
@@ -1319,13 +1235,6 @@ msgstr ""
 #, c-format
 msgctxt "storage_error_data_bundle_corrupted"
 msgid "Data in image directory '%1$s' is corrupted."
-msgstr ""
-
-#, c-format
-msgctxt "storage_error_metadata_unknown_format"
-msgid ""
-"Metadata file (.imm) for image '%1$s' cannot be read, because it's format"
-" is unknown."
 msgstr ""
 
 msgctxt "storage_error_no_permission_to_read_image_to_be_imported"
@@ -1599,10 +1508,6 @@ msgid "OpenGL error: \"{}\"."
 msgstr ""
 
 #. other errors
-msgctxt "error_pro_version_required_title"
-msgid "Pro version required"
-msgstr ""
-
 msgctxt "imerror_out_of_memory"
 msgid "Out of memory."
 msgstr ""
@@ -1668,6 +1573,10 @@ msgstr ""
 
 msgctxt "imerror_android_needs_storage_permission"
 msgid "Access to directory '{}' needs the Storage permission."
+msgstr ""
+
+msgctxt "imerror_android_import_security_exception"
+msgid "Security exception when accessing URI '{}'."
 msgstr ""
 
 #. cloud storage
@@ -1839,66 +1748,6 @@ msgstr ""
 
 msgctxt "cloud_storage_sync_action_skip"
 msgid "Skip"
-msgstr ""
-
-msgctxt "cloud_storage_sync_progress_start_sync"
-msgid "Scanning server content…"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_scan_root_folder"
-msgid ""
-"Scanning remote root folder (%2$d of %3$d)…\n"
-"%1$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_scan_folder"
-msgid ""
-"Scanning remote folder '%1$s' (%3$d of %4$d)…\n"
-"%2$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_download_image"
-msgid ""
-"Downloading image (%2$d of %3$d)…\n"
-"%1$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_upload_image"
-msgid ""
-"Uploading image (%2$d of %3$d)…\n"
-"%1$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_delete_image"
-msgid ""
-"Deleting image (%2$d of %3$d)…\n"
-"%1$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_download_folder"
-msgid ""
-"Downloading folder (%2$d of %3$d)…\n"
-"%1$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_upload_folder"
-msgid ""
-"Uploading folder (%2$d of %3$d)…\n"
-"%1$s"
-msgstr ""
-
-#, c-format
-msgctxt "cloud_storage_sync_progress_delete_folder"
-msgid ""
-"Deleting folder (%2$d of %3$d)…\n"
-"%1$s"
 msgstr ""
 
 msgctxt "cloud_sync_notification_title"
@@ -2074,11 +1923,6 @@ msgid ""
 "<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license"
 "/android-business-features\">here</a> for all benefits of the Business "
 "version."
-msgstr ""
-
-#, c-format
-msgctxt "error_cloud_base_folder_not_found"
-msgid "Data folder '%2$s' not found in your %1$s account."
 msgstr ""
 
 msgctxt "error_cloud_cannot_login_unknown"
@@ -2417,26 +2261,6 @@ msgctxt "pref_editor_line_width_dialog"
 msgid "Choose line width"
 msgstr ""
 
-msgctxt "pref_editor_text_label_background"
-msgid "Text label background"
-msgstr ""
-
-msgctxt "pref_editor_text_label_background_dialog"
-msgid "Text label background"
-msgstr ""
-
-msgctxt "pref_editor_text_label_background_choices:0"
-msgid "No background"
-msgstr ""
-
-msgctxt "pref_editor_text_label_background_choices:1"
-msgid "Solid rectangle"
-msgstr ""
-
-msgctxt "pref_editor_text_label_background_choices:2"
-msgid "Various (set in editor)"
-msgstr ""
-
 msgctxt "pref_category_editor_snapping"
 msgid "Snapping"
 msgstr ""
@@ -2493,8 +2317,8 @@ msgctxt "pref_editor_snapping_strength_choices:2"
 msgid "High"
 msgstr ""
 
-msgctxt "pref_category_editor_tools"
-msgid "Drawing tools"
+msgctxt "pref_category_editor_drawing_tools"
+msgid "Drawing Tools"
 msgstr ""
 
 msgctxt "pref_editor_tools_freehand_end_delay"
@@ -2515,10 +2339,6 @@ msgstr ""
 
 msgctxt "pref_editor_tools_freehand_end_delay_choices:3"
 msgid "Long"
-msgstr ""
-
-msgctxt "pref_category_editor_drawing_tools"
-msgid "Drawing Tools"
 msgstr ""
 
 msgctxt "pref_category_measures"
@@ -2881,32 +2701,6 @@ msgctxt "pref_export_format_dialog"
 msgid "Image format"
 msgstr ""
 
-msgctxt "pref_max_export_size"
-msgid "Maximum image size"
-msgstr ""
-
-#, c-format
-msgctxt "pref_max_export_size_summary"
-msgid "%s"
-msgstr ""
-
-msgctxt "pref_max_export_size_dialog"
-msgid "Max. width of exported image"
-msgstr ""
-
-msgctxt "pref_min_export_size"
-msgid "Minimum image size"
-msgstr ""
-
-#, c-format
-msgctxt "pref_min_export_size_summary"
-msgid "%s"
-msgstr ""
-
-msgctxt "pref_min_export_size_dialog"
-msgid "Min. width of exported image"
-msgstr ""
-
 #. <string name="pref_export_enable_reduced_resolution_overlay">Warning
 #. overlays on images</string>
 msgctxt "pref_export_hardware_msaa"
@@ -2919,30 +2713,6 @@ msgstr ""
 
 msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
-msgstr ""
-
-msgctxt "pref_export_multi_images_format"
-msgid "Export folders as"
-msgstr ""
-
-msgctxt "pref_export_multi_images_format_dialog"
-msgid "Export folders as"
-msgstr ""
-
-msgctxt "pref_export_multi_images_format_choices:0"
-msgid "Separate images"
-msgstr ""
-
-msgctxt "pref_export_multi_images_format_choices:1"
-msgid "PDF"
-msgstr ""
-
-msgctxt "pref_export_multi_images_format_choices:2"
-msgid "Zip archive of images"
-msgstr ""
-
-msgctxt "pref_export_multi_images_format_choices:3"
-msgid "ImageMeter folder (IMF)"
 msgstr ""
 
 msgctxt "pref_export_single_image_format"
@@ -3366,18 +3136,6 @@ msgctxt "pref_category_user_interface"
 msgid "User interface"
 msgstr ""
 
-msgctxt "pref_ui_tip_of_day_enabled"
-msgid "Enable tip of the day"
-msgstr ""
-
-msgctxt "pref_ui_tip_of_day_enabled_summaryon"
-msgid "Tip of the day will be shown at app start"
-msgstr ""
-
-msgctxt "pref_ui_tip_of_day_enabled_summaryoff"
-msgid "Tip of the day will not be shown"
-msgstr ""
-
 msgctxt "pref_ui_faq_button_enabled"
 msgid "Enable FAQ button"
 msgstr ""
@@ -3725,10 +3483,6 @@ msgctxt "pref_storage_directory_not_enough_free_space_message"
 msgid "There is not enough free memory on the target volume to move all images."
 msgstr ""
 
-msgctxt "pref_storage_directory_error_nonpro"
-msgid "Changing the storage directory is only available in the Pro version."
-msgstr ""
-
 msgctxt "pref_storage_directory_error_could_not_copy_all_images"
 msgid ""
 "Could not copy all images to target directory. Maybe your folder names "
@@ -3823,18 +3577,6 @@ msgstr ""
 
 msgctxt "pref_storage_cloud_advanced_maintenance"
 msgid "Advanced maintenance"
-msgstr ""
-
-msgctxt "pref_storage_cloud_reset_state"
-msgid "Reset sync state"
-msgstr ""
-
-msgctxt "pref_storage_cloud_reset_server_cache"
-msgid "Reset server cache"
-msgstr ""
-
-msgctxt "pref_storage_cloud_remove_server_lock"
-msgid "Remove server lock"
 msgstr ""
 
 msgctxt "pref_storage_cloud_wifi_only"
@@ -3970,10 +3712,6 @@ msgctxt "editor_menu_edit_copy_element"
 msgid "Copy element"
 msgstr ""
 
-msgctxt "editor_menu_edit_settings"
-msgid "Settings…"
-msgstr ""
-
 msgctxt "editor_menu_edit_lock_element"
 msgid "Lock element"
 msgstr ""
@@ -3984,10 +3722,6 @@ msgstr ""
 
 msgctxt "editor_menu_edit_imagesettings"
 msgid "Image settings"
-msgstr ""
-
-msgctxt "editor_menu_color"
-msgid "Color"
 msgstr ""
 
 msgctxt "editor_menu_style"
@@ -4108,10 +3842,6 @@ msgstr ""
 
 msgctxt "editor_dialog_style_textbox_show_border"
 msgid "Show border"
-msgstr ""
-
-msgctxt "editor_dialog_style_textbox_fill_background"
-msgid "Filled background"
 msgstr ""
 
 msgctxt "editor_dialog_style_textbox_text_outline"
@@ -4360,10 +4090,6 @@ msgstr ""
 
 msgctxt "editor_dialog_style_flatref_font_magnification"
 msgid "Font size"
-msgstr ""
-
-msgctxt "editor_dialog_style_flatref_grid_always_on"
-msgid "Always show grid"
 msgstr ""
 
 msgctxt "editor_dialog_style_flatref_subdivisions"
@@ -4806,29 +4532,9 @@ msgctxt "settings_rectref_sizes_menu_open"
 msgid "Edit objects…"
 msgstr ""
 
-#. editor errors
-msgctxt "editor_error_image_out_of_memory"
-msgid ""
-"Out of memory! Cannot load image. Try reducing the maximum image "
-"resolution in the editor. This can be done in the app settings."
-msgstr ""
-
 #. export
-#, c-format
-msgctxt "export_warning_low_memory_export_resolution_reduced"
-msgid ""
-"Your device has been low on main memory. The output image resolution "
-"(%1$d x %2$d) had to be reduced. You might want to reduce the maximum "
-"output resolution in the app settings."
-msgstr ""
-
 msgctxt "export_eval_version"
 msgid "Evaluation copy"
-msgstr ""
-
-#, c-format
-msgctxt "export_intent_subject"
-msgid "ImageMeter export: %1$s"
 msgstr ""
 
 #. dimension entry dialog
@@ -5074,16 +4780,6 @@ msgctxt "textbox_detail_picture_title"
 msgid "Detail picture"
 msgstr ""
 
-msgctxt "textbox_rtl_language_warning_title"
-msgid "Please note"
-msgstr ""
-
-msgctxt "textbox_rtl_language_warning_text"
-msgid ""
-"ImageMeter currently does not support entering text in right-to-left "
-"languages. Text display may be broken."
-msgstr ""
-
 #. GCircle
 msgctxt "circle_radius_prefix"
 msgid "r:"
@@ -5212,12 +4908,6 @@ msgstr ""
 #. 151209
 msgctxt "bluetooth_error_no_bluetooth_le"
 msgid "Device does not support Bluetooth LE (at least Android 4.3 required)."
-msgstr ""
-
-msgctxt "bluetooth_error_no_bonded_bluetooth_device"
-msgid ""
-"The selected Bluetooth device is currently not paired. Please pair it in "
-"the Android settings."
 msgstr ""
 
 #, c-format
@@ -5427,298 +5117,6 @@ msgstr ""
 #. FAQ
 msgctxt "manual_website_link"
 msgid "http://www.imagemeter.com/manual"
-msgstr ""
-
-msgctxt "faq_image_menu_section"
-msgid "Image menu"
-msgstr ""
-
-msgctxt "faq_image_menu_how_to_export_q"
-msgid "How can I export images?"
-msgstr ""
-
-msgctxt "faq_image_menu_how_to_export_a"
-msgid ""
-"You can export single images, several images at once, or complete "
-"folders. Long-press on an image or folder to select it and then choose "
-"one of the export icons. If you are exporting several images at once, "
-"they will be exported as a PDF or in a zip archive. The format can be "
-"chosen in the settings.\n"
-"You can either export to another app, or save the images into the file-"
-"system. When saving to the file system, the images will usually be stored"
-" in the 'Pictures' folder. The exact location will be displayed after "
-"export."
-msgstr ""
-
-#. TODO: image of context tool-bar with explanations
-msgctxt "faq_image_menu_how_to_delete_q"
-msgid "How do I delete images?"
-msgstr ""
-
-msgctxt "faq_image_menu_how_to_delete_a"
-msgid ""
-"Long-press on the image until the icons in the toolbar change. Then "
-"select the trashcan icon. You can also delete several images at once by "
-"selecting them before pressing the trashcan icon."
-msgstr ""
-
-msgctxt "faq_image_menu_transfer_images_q"
-msgid "How can I transfer editable data between devices?"
-msgstr ""
-
-msgctxt "faq_image_menu_transfer_images_a"
-msgid ""
-"If your devices have an SD-card slot, you can move the storage directory "
-"to SD card: in the settings, enter section 'Storage' and then 'Data "
-"directory'. There, you should be able to select the SD card directory and"
-" move all data into this directory. Now place the SD card into the new "
-"device and also change the data directory to SD card.\n"
-" In case you do not have an SD-card slot, enter the 'Export' settings and"
-" set the export format to 'ImageMeter image' (.IMI) or 'ImageMeter "
-"folder' (.IMF). Then export the data you want to transfer in these "
-"formats. The files can be opened again on other devices and the editable "
-"images will be imported."
-msgstr ""
-
-msgctxt "faq_image_menu_free_to_pro_q"
-msgid "How can I transfer images from the free version to the pro version?"
-msgstr ""
-
-msgctxt "faq_image_menu_free_to_pro_a"
-msgid ""
-"In the main screen of the pro version, there is a menu item to import the"
-" images from the free app."
-msgstr ""
-
-msgctxt "faq_image_menu_backup_data_q"
-msgid "How can I make a backup of all data?"
-msgstr ""
-
-msgctxt "faq_image_menu_backup_data_a"
-msgid ""
-"Enter the settings, section 'Storage' and then 'Data directory' to see in"
-" which directory ImageMeter stores its data. Usually, this is "
-"'/sdcard/&lt;wbr/&gt;Android/&lt;wbr/&gt;data/&lt;wbr/&gt;de.dirkfarin.imagemeterpro/&lt;wbr/&gt;files/&lt;wbr/&gt;projects'."
-" In this directory, you will find all ImageMeter folders and within these"
-" one folder for each image. You can simply copy these folders to other "
-"devices for backup."
-msgstr ""
-
-msgctxt "faq_auto_measure_section"
-msgid "Automatic measurement"
-msgstr ""
-
-msgctxt "faq_auto_measure_howto_q"
-msgid "How do I carry out automatic measurements?"
-msgstr ""
-
-msgctxt "faq_auto_measure_howto_a"
-msgid ""
-"In order to perform automatic measurements, you have to provide a "
-"reference measurement. This is a rectangle with known side lengths. After"
-" you have drawn the reference, select the dimension you want to have "
-"computed and press the 'calculator' icon or the 'compute value' menu "
-"item. If there is only one reference in the image or if a reference is "
-"active while you add a new measure, this reference will automatically be "
-"used for computing the measure value."
-msgstr ""
-
-#. todo: example picture
-msgctxt "faq_auto_measure_expectation_q"
-msgid ""
-"I expected ImageMeter to measure dimensions all by itself without any "
-"reference..."
-msgstr ""
-
-msgctxt "faq_auto_measure_expectation_a"
-msgid ""
-"This is impossible. From a single image, one cannot derive its scale. An "
-"image could show a real house or just a small toy. There is no way to "
-"know its true size from the image alone.\n"
-"You can give ImageMeter the missing information by adding a reference "
-"rectangle to the image. Based on this, ImageMeter can accurately compute "
-"all measures that lie in the same plane as this rectangle, including "
-"perspective foreshortening."
-msgstr ""
-
-#. todo: add an example picture
-msgctxt "faq_auto_measure_ref_objects_q"
-msgid "What kind of objects can I use as references?"
-msgstr ""
-
-msgctxt "faq_auto_measure_ref_objects_a"
-msgid ""
-"Whatever you like as long as it is rectangular. For measuring houses, "
-"windows are a good option. You can also pin a sheet of paper on the wall "
-"and use this. The reference even does not have to exist physically. Just "
-"four points that form an imagined rectangle will work. Try to choose the "
-"reference as large as possible to increase accuracy."
-msgstr ""
-
-msgctxt "faq_auto_measure_accuracy_q"
-msgid "What is the accuracy of computed measurements?"
-msgstr ""
-
-#, c-format
-msgctxt "faq_auto_measure_accuracy_a"
-msgid ""
-"In theory, the computed measurements are 100% accurate. In practice, the "
-"accuracy depends on how accurately you place the reference rectangle "
-"corners and on the lens distortions of the camera. In order to get the "
-"highest accuracy possible, you should choose a reference as large as "
-"possible."
-msgstr ""
-
-msgctxt "faq_auto_measure_perspective_line_q"
-msgid "How do I use the 'Perspective line' tool?"
-msgstr ""
-
-msgctxt "faq_auto_measure_perspective_line_a"
-msgid ""
-"Often, you may want to measure the height of a high object, or another "
-"distance along a line that is subject to perspective foreshortening.\n"
-" In this case, the 'Perspective line' tool can be used. It requires that "
-"you mark three points on a line: the zero point and two known points with"
-" their distance to the zero point. These three points are indicated with "
-"a small triangle.\n"
-" Now, you can additionally move a fourth point on the line whose distance"
-" to the zero point will be computed automatically. ImageMeter will also "
-"draw a couple of thin orthogonal lines that indicate the perspective "
-"foreshortening along the line. The last of these lines represents the "
-"horizont. Clearly, moving the measurement point across the horizont will "
-"not give you a valid measurement.\n"
-" Note that you do not need an additional reference when using this tool, "
-"since it combines its own reference and measurement in a single tool."
-msgstr ""
-
-msgctxt "faq_bluetooth_section"
-msgid "Bluetooth"
-msgstr ""
-
-msgctxt "faq_bluetooth_compatibility_q"
-msgid "Which laser distance meters are supported?"
-msgstr ""
-
-msgctxt "faq_bluetooth_compatibility_a_column_model"
-msgid "Model"
-msgstr ""
-
-msgctxt "faq_bluetooth_compatibility_a_column_protocol"
-msgid "Protocol"
-msgstr ""
-
-msgctxt "faq_bluetooth_compatibility_a_column_works"
-msgid "Works"
-msgstr ""
-
-msgctxt "faq_bluetooth_compatibility_a_entry_works_yes"
-msgid "yes"
-msgstr ""
-
-msgctxt "faq_bluetooth_compatibility_a_entry_works_no"
-msgid "no"
-msgstr ""
-
-msgctxt "faq_bluetooth_compatibility_a_entry_works_untested"
-msgid "untested"
-msgstr ""
-
-msgctxt "faq_bluetooth_compatibility_a_entry_protocol_LE"
-msgid "LE"
-msgstr ""
-
-msgctxt "faq_bluetooth_compatibility_a_entry_protocol_classic"
-msgid "classic"
-msgstr ""
-
-msgctxt "faq_bluetooth_connect_q"
-msgid "How do I connect to a Bluetooth device?"
-msgstr ""
-
-msgctxt "faq_bluetooth_connect_a"
-msgid ""
-"Usually, you can simply select your Bluetooth device in the ImageMeter "
-"settings. If the device is not paired yet, it will do so when you connect"
-" to it the first time. If this fails or if only the device address is "
-"shown instead of its name, it may help to first pair the device in the "
-"Android settings. If you have a device with Bluetooth LE, you do not need"
-" to pair it, but it has to be turned on to appear in the device list.\n"
-" Usually, the transmission protocol is detected automatically, but in "
-"rare cases, the device name is ambiguous and you have to set the protocol"
-" manually in the settings.\n"
-" To conntect to the device, press the Bluetooth button at the image menu "
-"screen. It will blink until the connection is established. Eventually, it"
-" should turn blue to denote that the connection is active. Sometimes, the"
-" OS will ask you to enter the device pin again. On some devices, a small "
-"Bluetooth icon appears at the title bar and you have to swipe down to "
-"enter the pin.\n"
-" Also make sure that other apps connected to the laser distance meter are"
-" closed, as some block the connection while they are running in the "
-"background. The Leica D810 should be in app mode with encryption turned "
-"off."
-msgstr ""
-
-msgctxt "faq_bluetooth_usage_q"
-msgid "How do I transmit values via Bluetooth?"
-msgstr ""
-
-msgctxt "faq_bluetooth_usage_a"
-msgid ""
-"In the image editor, draw a measure or select one. Now press the "
-"'transmit' button on your laser distance meter. On some devices, there is"
-" no 'transmit' button and the measurement will be transmitted as soon as "
-"it is taken.\n"
-" Note that you should &lt;b&gt;not&lt;/b&gt; enter the value-entry dialog"
-" to transmit the value."
-msgstr ""
-
-msgctxt "faq_other_section"
-msgid "Other"
-msgstr ""
-
-msgctxt "faq_other_free_vs_pro_q"
-msgid "What is the difference between free and pro version?"
-msgstr ""
-
-msgctxt "faq_other_free_vs_pro_a"
-msgid ""
-"The free version has the following limitations:&lt;ul&gt; &lt;li&gt;adds "
-"watermarks into the exported images,&lt;/li&gt; &lt;li&gt;maximum of 5 "
-"dimensions per image,&lt;/li&gt; &lt;li&gt;transfer distances of up to 3 "
-"meters via Bluetooth.&lt;/li&gt; &lt;/ul&gt; If ImageMeter is useful to "
-"you, please upgrade to the pro version to support further development."
-msgstr ""
-
-msgctxt "faq_other_upgrading_vs_native_pro_q"
-msgid ""
-"What is the difference between upgrading the free version and installing "
-"the pro version?"
-msgstr ""
-
-msgctxt "faq_other_upgrading_vs_native_pro_a"
-msgid ""
-"There is no difference. Both options will give you exactly the same "
-"features."
-msgstr ""
-
-msgctxt "faq_other_disable_FAQ_button_q"
-msgid "How can I disable the FAQ button?"
-msgstr ""
-
-msgctxt "faq_other_disable_FAQ_button_a"
-msgid ""
-"There is a setting for this in the preferences (in section 'User "
-"Interface'). When turned off, you can access the FAQ from the menu."
-msgstr ""
-
-msgctxt "faq_other_contact_q"
-msgid "I still have a question, who can I ask?"
-msgstr ""
-
-msgctxt "faq_other_contact_a"
-msgid ""
-"Please write to &lt;a "
-"href=\"mailto:imagemeter@gmail.com\"&gt;imagemeter@gmail.com&lt;/a&gt;."
 msgstr ""
 
 #. TODO: Remove or change this placeholder text
