@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-05 23:19+0200\n"
+"POT-Creation-Date: 2020-04-06 13:20+0200\n"
 "PO-Revision-Date: 2020-03-21 15:27+0100\n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -833,6 +833,31 @@ msgctxt "import_pro_app_data_failed"
 msgid ""
 "Image import from Pro app has failed or is incomplete. Maybe your memory "
 "is full?"
+msgstr ""
+
+#. dialog: export format
+msgctxt "dialog_export_format_image"
+msgid "Image (JPEG/PNG)"
+msgstr ""
+
+msgctxt "dialog_export_format_pdf"
+msgid "PDF document"
+msgstr ""
+
+msgctxt "dialog_export_format_zip"
+msgid "ZIP archive"
+msgstr ""
+
+msgctxt "dialog_export_format_imi"
+msgid "Editable ImageMeter Image (IMI)"
+msgstr ""
+
+msgctxt "dialog_export_format_imf"
+msgid "ImageMeter folder (IMF)"
+msgstr ""
+
+msgctxt "dialog_export_format_gallery"
+msgid "Save to gallery"
 msgstr ""
 
 #. image export
@@ -2785,32 +2810,38 @@ msgctxt "pref_export_single_image_format_dialog"
 msgid "Export images as"
 msgstr "Одиночный экспорт"
 
-#. TODO: FIX other languages
+#. TODO: instead of this string-array use the values from
+#. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:0"
 msgid "Image"
 msgstr "Картинка"
 
-#. TODO: FIX other languages
+#. TODO: instead of this string-array use the values from
+#. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:1"
 msgid "PDF"
 msgstr "PDF"
 
-#. TODO: FIX other languages
+#. TODO: instead of this string-array use the values from
+#. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:2"
 msgid "Zip archive of images"
 msgstr "Zip-архив с фото"
 
-#. TODO: FIX other languages
+#. TODO: instead of this string-array use the values from
+#. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:3"
 msgid "ImageMeter image (IMI)"
 msgstr "Изображение ImageMeter (IMI)"
 
-#. TODO: FIX other languages
+#. TODO: instead of this string-array use the values from
+#. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:4"
 msgid "ImageMeter folder (IMF)"
 msgstr "Папка ImageMeter (IMF)"
 
-#. TODO: FIX other languages
+#. TODO: instead of this string-array use the values from
+#. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:5"
 msgid "Save to gallery"
 msgstr "Сохранить в галерею"
