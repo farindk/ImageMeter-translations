@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-06 13:43+0200\n"
-"PO-Revision-Date: 2020-04-06 13:46+0200\n"
+"POT-Creation-Date: 2020-04-10 13:28+0200\n"
+"PO-Revision-Date: 2020-04-10 13:31+0200\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -1262,6 +1262,7 @@ msgstr "Es gibt keine App auf dem Gerät, von der Bilder importiert werden könn
 msgctxt "imagelibrary_error_cannot_import_current_directory_is_not_valid"
 msgid "Cannot import image because the current directory is not valid."
 msgstr ""
+"Kann das Bild nicht importieren, da das aktuelle Verzeichnis nicht zugreifbar ist."
 
 #, c-format
 msgctxt "error_cannot_save_annotated_image"
@@ -1664,7 +1665,7 @@ msgstr "Zugriff auf Verzeichnis '{}' braucht die Speicher-Berechtigung."
 
 msgctxt "imerror_android_import_security_exception"
 msgid "Security exception when accessing URI '{}'."
-msgstr ""
+msgstr "Sicherheitsausnahme beim Zugriff auf URI '{}'."
 
 #. cloud storage
 msgctxt "pref_cloud_storage_server_none"
@@ -4990,16 +4991,18 @@ msgid "P:"
 msgstr "U:"
 
 #. ImageSettings
+msgctxt "imagesettings_dialog_base_sizes"
+msgid "Base sizes"
+msgstr "Basisgrößen"
+
 msgctxt "imagesettings_duallabel_mode_choices:0"
 msgid "Off"
 msgstr "Keins"
 
-#. ImageSettings
 msgctxt "imagesettings_duallabel_mode_choices:1"
 msgid "Model scale"
 msgstr "Modellmaßstab"
 
-#. ImageSettings
 msgctxt "imagesettings_duallabel_mode_choices:2"
 msgid "Alternative unit"
 msgstr "Alternative Maßeinheit"
@@ -5019,6 +5022,10 @@ msgstr "Maßstab"
 msgctxt "imagesettings_dialog_duallabel_unit"
 msgid "Unit"
 msgstr "Einheit"
+
+msgctxt "imagesettings_dialog_canvas_title"
+msgid "Canvas"
+msgstr "Zeichenfläche"
 
 msgctxt "imagesettings_dialog_canvas_colorscheme"
 msgid "Color scheme"
