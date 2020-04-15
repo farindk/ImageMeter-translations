@@ -11,7 +11,7 @@ msgstr ""
 "PO-Revision-Date: 2020-04-14 15:17+0200\n"
 "Last-Translator: \n"
 "Language: ak_GH\n"
-"Language-Team: zh_Hant_TW <LL@li.org>\n"
+"Language-Team: zh_Hant_TW <nnworkspace@gmail.com>\n"
 "Plural-Forms: nplurals=1; plural=(0);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -29,7 +29,7 @@ msgstr "錯誤"
 
 msgctxt "generic_dialog_title_warning"
 msgid "Warning"
-msgstr "警告"
+msgstr "注意"
 
 #, fuzzy
 msgctxt "generic_dialog_title_note"
@@ -51,7 +51,7 @@ msgstr "未知"
 #, fuzzy
 msgctxt "generic_confirm_delete"
 msgid "Really delete"
-msgstr "真的刪除"
+msgstr "确定刪除"
 
 #, fuzzy
 msgctxt "generic_cancel"
@@ -92,12 +92,12 @@ msgstr "圖片導入"
 msgctxt "notification_import_content"
 msgid "%1d image left …"
 msgid_plural "%1d images left …"
-msgstr[0] ""
+msgstr[0] "%1d 图像待处理 ……"
 
 #, fuzzy
 msgctxt "notification_channel_background_processing_title"
 msgid "Background processing"
-msgstr "後台處理"
+msgstr "後台處理中"
 
 #, fuzzy
 msgctxt "notification_channel_error_messages_title"
@@ -138,12 +138,12 @@ msgstr "保存到圖庫時出錯"
 msgctxt "notification_save_to_gallery_content"
 msgid "%1d image left …"
 msgid_plural "%1d images left …"
-msgstr[0] ""
+msgstr[0] "%1d 图片待处理"
 
 #, fuzzy
 msgctxt "notification_error_no_permission_to_save_to_gallery"
 msgid "Cannot save to gallery because ImageMeter has no storage write permission."
-msgstr "由於ImageMeter沒有存儲寫權限，因此無法保存到圖庫。"
+msgstr "ImageMeter 未被授权儲存，無法将图片保存到圖庫。"
 
 #. ========== folder/image-selection ==========
 #. menu
@@ -183,7 +183,7 @@ msgstr "改名"
 #, fuzzy
 msgctxt "imageselect_menu_duplicate"
 msgid "Duplicate"
-msgstr "重複"
+msgstr "复制"
 
 msgctxt "imageselect_menu_move_to_folder"
 msgid "Move to folder"
@@ -196,7 +196,7 @@ msgstr "導入圖像"
 #, fuzzy
 msgctxt "imageselect_menu_new_canvas"
 msgid "New canvas"
-msgstr "新帆布"
+msgstr "新画布"
 
 #, fuzzy
 msgctxt "imageselect_menu_capture"
@@ -231,16 +231,16 @@ msgstr "打印"
 #, fuzzy
 msgctxt "imageselect_menu_image_info"
 msgid "Image info…"
-msgstr "圖片信息…"
+msgstr "圖片信息……"
 
 #, fuzzy
 msgctxt "imageselect_menu_upgrade"
 msgid "Upgrade"
-msgstr "升級..."
+msgstr "升級"
 
 msgctxt "imageselect_menu_import_images_from_free_app"
 msgid "Import images from free app"
-msgstr "從免費的應用導入圖像"
+msgstr "從免費版本導入圖像"
 
 #, fuzzy
 msgctxt "imageselect_menu_welcome_message"
@@ -250,7 +250,7 @@ msgstr "顯示歡迎訊息"
 #, fuzzy
 msgctxt "imageselect_menu_about_app"
 msgid "About app"
-msgstr "關於本應用"
+msgstr "關於本软件"
 
 #. string name="imageselect_menu_sync_current_folder">Sync current, fuzzy
 #. folder</string
@@ -264,7 +264,7 @@ msgstr "聯繫我們"
 #, fuzzy
 msgctxt "imageselect_menu_documentation"
 msgid "Documentation"
-msgstr "文獻資料"
+msgstr "帮助文件"
 
 #. image-library, fuzzy
 msgctxt "imagelibrary_image_deleted"
@@ -294,37 +294,37 @@ msgstr "按字母順序"
 #, fuzzy
 msgctxt "sortingorder_alpha_descending"
 msgid "Alphabetical, reverse"
-msgstr "字母順序，反向"
+msgstr "按字母逆序"
 
 #, fuzzy
 msgctxt "sortingorder_time_ascending"
 msgid "Time, earliest on top"
-msgstr "時間，最早"
+msgstr "按時間顺序"
 
 #, fuzzy
 msgctxt "sortingorder_time_descending"
 msgid "Time, latest on top"
-msgstr "時間，最重要的"
+msgstr "按時間逆序"
 
 #, fuzzy
 msgctxt "sortingorder_number_ascending"
 msgid "Number, ascending"
-msgstr "數字，升序"
+msgstr "按數字升序"
 
 #, fuzzy
 msgctxt "sortingorder_number_descending"
 msgid "Number, descending"
-msgstr "數字，降序"
+msgstr "按數字降序"
 
 #, fuzzy
 msgctxt "imagelibrary_display_options"
 msgid "Display options…"
-msgstr "顯示選項…"
+msgstr "顯示選項……"
 
 #, fuzzy
 msgctxt "imagelibrary_open_image_numbering_options"
 msgid "Image numbering…"
-msgstr "圖片編號…"
+msgstr "圖片編號……"
 
 #. errors, fuzzy
 #, c-format
@@ -340,7 +340,7 @@ msgstr "云同步"
 #, fuzzy
 msgctxt "imagelibrary_cannot_load_current_folder"
 msgid "Cannot load current folder.\n\nPlease open the settings and set a different storage directory."
-msgstr "無法加載當前文件夾。\n\n請打開設置並設置其他存儲目錄。"
+msgstr "無法加載當前文件夾。\n\n請打開設置，选择其他存儲目錄。"
 
 #. dialog: numbering, fuzzy
 msgctxt "imagelibrary_dialog_numbering_title"
@@ -370,7 +370,7 @@ msgstr "重新編號現有圖像"
 #, fuzzy
 msgctxt "imagelibrary_dialog_numbering_renumber_old_number_order"
 msgid "Keep order of old numbers"
-msgstr "保持舊數字的順序"
+msgstr "保持现有编号順序"
 
 #, fuzzy
 msgctxt "imagelibrary_dialog_numbering_renumber_all"
@@ -405,32 +405,32 @@ msgstr "顯示圖像為"
 #, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_list_large"
 msgid "Large list"
-msgstr "大清單"
+msgstr "大号列表"
 
 #, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_list_medium"
 msgid "Medium list"
-msgstr "中型清單"
+msgstr "中号列表"
 
 #, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_list_small"
 msgid "Small list"
-msgstr "小清單"
+msgstr "小号列表"
 
 #, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_grid_large"
 msgid "Large grid"
-msgstr "大格"
+msgstr "大号网格"
 
 #, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_grid_medium"
 msgid "Medium grid"
-msgstr "中格"
+msgstr "中号网格"
 
 #, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_grid_small"
 msgid "Small grid"
-msgstr "小格子"
+msgstr "小号网格"
 
 #. dialog: rename folder
 msgctxt "foldername_dialog_folder_name"
@@ -440,7 +440,7 @@ msgstr "文件夾名"
 #, fuzzy
 msgctxt "foldername_dialog_folder_name_hint"
 msgid "Enter folder name"
-msgstr "文件夾名"
+msgstr "输入文件夾名"
 
 msgctxt "foldername_dialog_notes"
 msgid "Notes"
@@ -449,7 +449,7 @@ msgstr "註記"
 #, fuzzy
 msgctxt "foldername_dialog_icon_color"
 msgid "Folder color"
-msgstr "資料夾顏色"
+msgstr "文件夾顏色"
 
 #. dialog: really save to gallery (since this feature should now be obsolet)
 #. string name="imageselect_save_to_gallery_obsolet_message">ImageMeter
@@ -517,21 +517,21 @@ msgstr "許可證:"
 #, fuzzy
 msgctxt "imageselect_dialog_about_source"
 msgid "Source:"
-msgstr "資源："
+msgstr "源文件："
 
 #, fuzzy
 msgctxt "imageselect_dialog_about_license_evaluation"
 msgid "Free Evaluation"
-msgstr "免費試用"
+msgstr "免費試用版"
 
 msgctxt "imageselect_dialog_about_license_pro"
 msgid "Pro"
-msgstr "Pro"
+msgstr "专业版"
 
 #, fuzzy
 msgctxt "imageselect_dialog_about_license_business"
 msgid "Business"
-msgstr "商業"
+msgstr "企業版"
 
 #, fuzzy
 msgctxt "imageselect_dialog_about_tutorial_link"
@@ -541,7 +541,7 @@ msgstr "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">教學影片</a>
 #, fuzzy
 msgctxt "imageselect_dialog_about_documentation_link"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
-msgstr "<a href=\"https://www.imagemeter.com/manual\">文檔</a>"
+msgstr "<a href=\"https://www.imagemeter.com/manual\">帮助文檔</a>"
 
 #, fuzzy
 msgctxt "imageselect_dialog_about_release_notes"
@@ -561,7 +561,7 @@ msgstr "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">隱私政策
 #. upgrade, fuzzy
 msgctxt "license_source_in_app"
 msgid "In-app"
-msgstr "應用內"
+msgstr "应用內购买"
 
 #, fuzzy
 msgctxt "license_source_native"
@@ -571,12 +571,12 @@ msgstr "本機"
 #, fuzzy
 msgctxt "license_source_pro_key_app"
 msgid "Pro-key app"
-msgstr "親鍵應用"
+msgstr "专业版密匙软件"
 
 #, fuzzy, c-format
 msgctxt "navigation_drawer_license"
 msgid "License: %1$s"
-msgstr "許可：%1$s"
+msgstr "許可证：%1$s"
 
 #, fuzzy, c-format
 msgctxt "navigation_drawer_version"
@@ -586,7 +586,7 @@ msgstr "版本：%1$s"
 #, fuzzy, c-format
 msgctxt "upgrade_dialog_pay_once"
 msgid "%1$s once"
-msgstr "%1$s 次"
+msgstr "%1$s 一次"
 
 #, fuzzy, c-format
 msgctxt "upgrade_dialog_pay_monthly"
@@ -606,17 +606,17 @@ msgstr "專業版"
 #, fuzzy
 msgctxt "upgrade_dialog_business_name"
 msgid "Business"
-msgstr "商業"
+msgstr "企業版"
 
 #, fuzzy
 msgctxt "upgrade_dialog_pro_benefits:0"
 msgid "No watermarks"
-msgstr "沒有水印"
+msgstr "无水印"
 
 #, fuzzy
 msgctxt "upgrade_dialog_pro_benefits:1"
 msgid "Unlimited measures"
-msgstr "無限措施"
+msgstr "無限度量"
 
 #, fuzzy
 msgctxt "upgrade_dialog_pro_benefits:2"
@@ -626,7 +626,7 @@ msgstr "無限藍牙"
 #, fuzzy
 msgctxt "upgrade_dialog_pro_benefits:3"
 msgid "Draw and measure circles, rectangles, points"
-msgstr "繪製和測量圓，矩形，點"
+msgstr "繪製和測量圓、矩形、點"
 
 #, fuzzy
 msgctxt "upgrade_dialog_pro_benefits:4"
@@ -661,7 +661,7 @@ msgstr "詳細圖片"
 #, fuzzy
 msgctxt "upgrade_dialog_business_benefits:5"
 msgid "Measurement strings"
-msgstr "測量字符串"
+msgstr "便捷输入度量簇"
 
 #, fuzzy
 msgctxt "upgrade_dialog_more_information_link"
@@ -671,17 +671,17 @@ msgstr "有關這些功能的更多信息，請＆lt; a href =“ https://www.im
 #, fuzzy
 msgctxt "upgrade_dialog_button_pro_upgrade"
 msgid "Upgrade to Pro"
-msgstr "升級到專業版"
+msgstr "升級至專業版"
 
 #, fuzzy
 msgctxt "upgrade_dialog_button_business_upgrade"
 msgid "Upgrade to Business"
-msgstr "升級至企業"
+msgstr "升級至企業版"
 
 #, fuzzy
 msgctxt "upgrade_dialog_button_back"
 msgid "Back"
-msgstr "背部"
+msgstr "返回"
 
 #, fuzzy
 msgctxt "editor_error_nonpro_gelement_limit_message"
@@ -696,12 +696,12 @@ msgstr "若您想從激光測距儀中導入的長度長於 3 米， 請升級�
 #, fuzzy
 msgctxt "editor_error_nonpro_pro_tool_message"
 msgid "This tool is only available in the Pro version."
-msgstr "該工具僅在專業版上可用."
+msgstr "該工具僅限專業版。"
 
 #, fuzzy
 msgctxt "editor_error_business_tool_message"
 msgid "This tool is only available in the Business version."
-msgstr "此工具僅在企業版中可用。"
+msgstr "该工具僅限企業版。"
 
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
@@ -710,7 +710,7 @@ msgstr "再說"
 #, fuzzy
 msgctxt "tpool_locked_by_android_editor"
 msgid "editor"
-msgstr "編輯"
+msgstr "文档編輯器"
 
 #. in-app payment, fuzzy
 msgctxt "inapp_upgrade_to_business_button"
@@ -725,7 +725,7 @@ msgstr "升級"
 #, fuzzy
 msgctxt "inapp_error_billing_unavailable"
 msgid "Billing is not available."
-msgstr "無法使用帳單。"
+msgstr "开票不可用。"
 
 #, fuzzy
 msgctxt "inapp_error_feature_not_supported"
@@ -735,7 +735,7 @@ msgstr "不支持該功能。"
 #, fuzzy
 msgctxt "inapp_error_item_already_owned"
 msgid "Item is already owned."
-msgstr "物品已經擁有。"
+msgstr "您已经购买了。"
 
 #, fuzzy
 msgctxt "inapp_error_item_unavailable"
@@ -745,12 +745,12 @@ msgstr "該項目不可用。"
 #, fuzzy
 msgctxt "inapp_error_service_disconnected"
 msgid "PlayStore temporarily disconnected, try again later."
-msgstr "PlayStore暫時斷開了連接，請稍後再試。"
+msgstr "软件商店暫時斷開了連接，請稍後再試。"
 
 #, fuzzy
 msgctxt "inapp_error_service_unavailable"
 msgid "Network down, cannot reach PlayStore."
-msgstr "網絡中斷，無法訪問PlayStore。"
+msgstr "網絡中斷，無法訪問软件商店。"
 
 #, fuzzy
 msgctxt "inapp_error_user_canceled"
@@ -760,27 +760,27 @@ msgstr "用戶取消了購買。"
 #, fuzzy
 msgctxt "inapp_error_signature_check_failed"
 msgid "Signature check failed."
-msgstr "簽名檢查失敗。"
+msgstr "无法检测数字簽名。"
 
 #, fuzzy, c-format
 msgctxt "inapp_error_unknown"
 msgid "Unknown error, result code: '%1$d', response '%2$s'."
-msgstr "未知錯誤，結果代碼：'%1$d'，響應為'%2%s'。"
+msgstr "未知錯誤，結果代碼：'%1$d'，服务器应答為'%2%s'。"
 
 #, fuzzy
 msgctxt "inapp_error_developer_error"
 msgid "Developer error."
-msgstr "開發人員錯誤。"
+msgstr "程序师錯誤。"
 
 #, fuzzy
 msgctxt "inapp_error_generic_error"
 msgid "Generic error."
-msgstr "通用錯誤。"
+msgstr "一般錯誤。"
 
 #, fuzzy
 msgctxt "inapp_error_item_not_owned"
 msgid "Item is not owned."
-msgstr "該項目不歸所有人所有。"
+msgstr "尚未购买。"
 
 #, fuzzy
 msgctxt "inapp_error_service_timeout"
@@ -790,47 +790,47 @@ msgstr "服務超時。"
 #, fuzzy
 msgctxt "dialog_need_upgrade_pro_title"
 msgid "Pro feature"
-msgstr "專業功能"
+msgstr "專業版功能"
 
 #, fuzzy
 msgctxt "dialog_need_upgrade_business_title"
 msgid "Business feature"
-msgstr "業務功能"
+msgstr "企业版功能"
 
 #, fuzzy
 msgctxt "dialog_need_upgrade_create_subfolders"
 msgid "Creating subfolders is included in the Business version."
-msgstr "商業版本中包含創建子文件夾。"
+msgstr "企业版提供創建子文件夾功能。"
 
 #, fuzzy
 msgctxt "dialog_need_upgrade_move_folders"
 msgid "Moving folders into other folders is included in the Business version."
-msgstr "商業版本中包括將文件夾移動到其他文件夾中。"
+msgstr "企業版提供文件夾移動功能。"
 
 #, fuzzy
 msgctxt "dialog_need_upgrade_audio_notes"
 msgid "Recording audio notes is included in the Business version."
-msgstr "錄製音頻筆記包含在企業版中。"
+msgstr "企业版提供錄製音頻筆記功能。"
 
 #, fuzzy
 msgctxt "dialog_need_upgrade_detail_image"
 msgid "Adding detail images is included in the Business version."
-msgstr "添加詳細圖像包含在企業版中。"
+msgstr "企业版提供添加詳細圖像功能。"
 
 #, fuzzy, c-format
 msgctxt "dialog_need_upgrade_example_images_text"
 msgid "You can try this function with the example images (in folder '%1$s')."
-msgstr "您可以嘗試使用示例圖像（在文件夾'%1$s'中）使用此功能。"
+msgstr "您可以用示例圖像（在文件夾'%1$s'中）尝试此功能。"
 
 #, fuzzy, c-format
 msgctxt "dialog_need_upgrade_create_example_images_text"
 msgid "You can try this function with the example images (<a href=\"create\">create folder '%1$s'</a>)."
-msgstr "您可以在示例圖像（<a href=\"create\">創建文件夾'%1$s'</a>）中嘗試使用此功能。"
+msgstr "您可以用示例圖像尝试此功能（<a href=\"create\">創建文件夾'%1$s'</a>）。"
 
 #. tutorial, fuzzy
 msgctxt "example_folder_name"
 msgid "Examples"
-msgstr "例子"
+msgstr "示例"
 
 msgctxt "tutorial_images_1"
 msgid "Example 1: Measure on a 2D floor plan"
@@ -862,7 +862,7 @@ msgstr "圖像獲得日期 {yyyy}年 {M} {d}日]"
 #. image import from free app, fuzzy
 msgctxt "snackbar_pro_to_free_migration"
 msgid "Pro-version app migration"
-msgstr "專業版應用遷移"
+msgstr "專業版数据遷移"
 
 #, fuzzy
 msgctxt "snackbar_pro_to_free_migration_info"
@@ -877,47 +877,47 @@ msgstr "https://www.imagemeter.com/manual/license/pro-version-migration"
 #, fuzzy
 msgctxt "import_pro_app_data"
 msgid "Import images from Pro app"
-msgstr "從Pro應用程序導入圖像"
+msgstr "從专业版導入圖像"
 
 #, fuzzy
 msgctxt "import_pro_app_data_started_text"
 msgid "Importing has started to run in the background. When it is finished, please check that the images were copied correctly and delete them in the Pro app to save memory space."
-msgstr "導入已開始在後台運行。完成後，請檢查圖像是否正確複製，然後在Pro應用程序中將其刪除以節省存儲空間。"
+msgstr "正在後台导入。完成後，請檢查圖像是否完好，然後可以将源文件从专业版中刪除以節省存儲空間。"
 
 #, fuzzy
 msgctxt "import_pro_app_data_local_not_empty"
 msgid "Warning: there are images in this app. Importing the images from the Pro app may overwrite images with the same name."
-msgstr "警告：此應用中有圖像。從Pro應用程序導入圖像可能會覆蓋具有相同名稱的圖像。"
+msgstr "警告：此软件中已经存有圖像。從专业版導入圖像可能會覆蓋这里的同名圖像。请检查是否有重名图像。"
 
 #, fuzzy
 msgctxt "import_pro_app_data_local_not_empty_anyway"
 msgid "Import anyway"
-msgstr "仍要導入"
+msgstr "尽管導入"
 
 #, fuzzy
 msgctxt "import_pro_app_data_title"
 msgid "Importing images from Pro app"
-msgstr "從Pro應用程序導入圖像"
+msgstr "從专业版導入圖像"
 
 #, fuzzy
 msgctxt "import_pro_app_data_scan_progress_text"
 msgid "Please wait, searching for images to copy."
-msgstr "請稍候，正在搜索要復制的圖像。"
+msgstr "正在搜索待復制圖像，請稍候。"
 
 #, fuzzy, c-format
 msgctxt "import_pro_app_data_progress_text"
 msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
-msgstr "請稍候，已完成%2$d的%1$d張圖像（%3$d個錯誤）。"
+msgstr "已完成%2$d张图像中的%1$d張（%3$d個錯誤），請稍候。"
 
 #, fuzzy
 msgctxt "import_pro_app_data_finished"
 msgid "Images from the Pro app are now imported. After checking that the images were imported correctly, you may want to delete the images in the Pro app to save memory space."
-msgstr "現在可以導入Pro應用程序中的圖像。檢查圖像是否正確導入後，您可能需要在Pro應用程序中刪除圖像以節省存儲空間。"
+msgstr "专业版中的圖像已导入。确认导入的圖像完好之后，您可以从专业版中刪除原圖像以節省存儲空間。"
 
 #, fuzzy
 msgctxt "import_pro_app_data_failed"
 msgid "Image import from Pro app has failed or is incomplete. Maybe your memory is full?"
-msgstr "從Pro應用程序導入的圖像失敗或不完整。也許你的記憶已滿？"
+msgstr "從专业版導入圖像失敗或不完整。内存已滿？"
 
 #. dialog: export format, fuzzy
 msgctxt "dialog_export_format_image"
@@ -932,17 +932,17 @@ msgstr "PDF文件"
 #, fuzzy
 msgctxt "dialog_export_format_zip"
 msgid "ZIP archive"
-msgstr "ZIP檔案"
+msgstr "ZIP 檔案"
 
 #, fuzzy
 msgctxt "dialog_export_format_imi"
 msgid "Editable ImageMeter Image (IMI)"
-msgstr "可編輯ImageMeter圖像（IMI）"
+msgstr "可編輯的 ImageMeter 圖像（IMI）"
 
 #, fuzzy
 msgctxt "dialog_export_format_imf"
 msgid "ImageMeter folder (IMF)"
-msgstr "ImageMeter文件夾（IMF）"
+msgstr "ImageMeter 文件夾（IMF）"
 
 #, fuzzy
 msgctxt "dialog_export_format_gallery"
@@ -952,7 +952,7 @@ msgstr "保存到圖庫"
 #, fuzzy
 msgctxt "dialog_export_format_show_next_time"
 msgid "Show format selection next time"
-msgstr "下次顯示格式選擇"
+msgstr "下次再顯示格式選擇"
 
 #. image export
 msgctxt "export_dialog_saving_images_to_external_storage"
@@ -1012,7 +1012,7 @@ msgstr "取消"
 #, fuzzy
 msgctxt "dialog_image_export_options_show_dialog"
 msgid "Show export options next time"
-msgstr "下次顯示導出選項"
+msgstr "下次再顯示導出選項"
 
 #, fuzzy
 msgctxt "dialog_image_export_image_format"
@@ -1898,7 +1898,7 @@ msgstr "通過此後端，您可以使用自己的私有云服務器來託管映
 #, fuzzy
 msgctxt "cloud_storage_server_note_handwerkcloud"
 msgid "The Handwerkcloud service offers not only storage space for your images and documents, but also an online office suite and other applications. A Handwerkcloud subscription includes an ImageMeter Business license. For more information see the <a href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
-msgstr "Handwerkcloud服務不僅為您的圖像和文檔提供存儲空間，而且還提供在線辦公套件和其他應用程序。 Handwerkcloud訂閱包括ImageMeter商業許可證。有關更多信息，請參見<a href=\"https://handwerkcloud.de\"> Handwerkcloud網站</a>。"
+msgstr "Handwerkcloud服務不僅為您的圖像和文檔提供存儲空間，而且還提供在線辦公套件和其他應用程序。 Handwerkcloud訂閱包括ImageMeter企業許可證。有關更多信息，請參見<a href=\"https://handwerkcloud.de\"> Handwerkcloud網站</a>。"
 
 #, fuzzy
 msgctxt "cloud_storage_account"
