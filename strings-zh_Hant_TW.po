@@ -2073,17 +2073,17 @@ msgstr "服務器未被鎖定。"
 #, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_error"
 msgid "Could not remove server lock file '{}'."
-msgstr "無法刪除服務器鎖定文件“ {}”。"
+msgstr "無法刪除服務器鎖定文件 '{}'。"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_notification_progress_text"
 msgid "Resetting cloud server cache…"
-msgstr "重置雲服務器緩存..."
+msgstr "正在重置雲服務器緩存……"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_notification_result_title"
 msgid "Resetting cloud server cache"
-msgstr "重置雲服務器緩存"
+msgstr "正在重置雲服務器緩存"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_ok"
@@ -2093,17 +2093,17 @@ msgstr "成功重置服務器緩存。"
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_error"
 msgid "Could not remove server cache file '{}'."
-msgstr "無法刪除服務器緩存文件“ {}”。"
+msgstr "無法刪除服務器緩存文件 '{}'。"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_notification_progress_text"
 msgid "Resetting sync state…"
-msgstr "重置同步狀態…"
+msgstr "正在重置同步狀態……"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_notification_result_title"
 msgid "Resetting sync state"
-msgstr "重置同步狀態"
+msgstr "正在重置同步狀態"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_ok"
@@ -2123,7 +2123,7 @@ msgstr "雲儲存"
 #, fuzzy
 msgctxt "cloud_storage_not_configured"
 msgid "You have not yet configured cloud storage. \nCloud storage can be used to sync your images automatically between multiple devices or for backup. More detailed documentation on this can be found in the <a href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \nThe settings for cloud storage can be found in the 'Storage' section of the app settings (<a href=\"cloud-settings\">open settings</a>)."
-msgstr "您尚未配置雲存儲。\n雲存儲可用於在多個設備之間自動同步圖像或進行備份。可以在<a href=\"https://imagemeter.com/manual/storage/cloud/\">手冊。</a>中找到有關此問題的更多詳細文檔。\n可以在應用程序設置的“存儲”部分中找到雲存儲的設置（<a href=\"cloud-settings\">打開設置</a>）。"
+msgstr "您尚未配置雲存儲。\n雲存儲可用於在多個設備之間自動同步圖像或進行備份。可以在<a href=\"https://imagemeter.com/manual/storage/cloud/\">《用户手冊》</a>中找到有關此問題的更多詳細文檔。\n可以在應用程序設置的“存儲”部分中找到雲存儲的設置（<a href=\"cloud-settings\">打開設置</a>）。"
 
 #, fuzzy
 msgctxt "cloud_storage_not_configured_syncing_inbox_in_bkg"
@@ -2133,12 +2133,12 @@ msgstr "您的<i>收件箱</i>文件夾正在同步。"
 #, fuzzy
 msgctxt "cloud_storage_not_configured_business_upgrade"
 msgid "Cloud storage is only available in the <b>Business</b> version of ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-business-features\">here</a> for all benefits of the business version."
-msgstr "雲存儲僅在ImageMeter的<b> Business </b>版本中可用。有關企業版的所有優勢，請參見<a href=\"https://imagemeter.com/manual/license/android-business-features\">此處</a>。"
+msgstr "雲存儲僅在 ImageMeter 的<b>企业版</b>中可用。有關企業版的所有優勢，請參見<a href=\"https://imagemeter.com/manual/license/android-business-features\">此處</a>。"
 
 #, fuzzy
 msgctxt "cloud_storage_not_configured_inbox_only"
 msgid "Full cloud storage is only available in the <b>Business</b> version of ImageMeter. Without Business upgrade, cloud storage is limited to the <i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license/android-business-features\">here</a> for all benefits of the Business version."
-msgstr "完全雲存儲僅在ImageMeter的<b> Business </b>版本中可用。如果不進行業務升級，則云存儲僅限於<i>收件箱</i>文件夾。有關企業版的所有優勢，請參見<a href=\"https://imagemeter.com/manual/license/android-business-features\">此處</a>。"
+msgstr "完整雲存儲僅在 ImageMeter 的<b>企业版</b>中可用。如果不進行版本升級，則云存儲僅限於<i>收件箱</i>文件夾。有關企業版的所有優勢，請參見<a href=\"https://imagemeter.com/manual/license/android-business-features\">此處</a>。"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_login_unknown"
@@ -2188,107 +2188,107 @@ msgstr "無法創建文件'%1$s'，因為它已經存在。"
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_create_remote_file_folder_exists"
 msgid "Cannot create file '%1$s' because there is a folder with this name."
-msgstr "無法創建文件'%1$s'，因為存在具有該名稱的文件夾。"
+msgstr "無法創建文件 '%1$s'，因有同名文件夾。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_create_remote_file_server_error"
 msgid "Cannot create file '%1$s' because of a server error."
-msgstr "由於服務器錯誤，無法創建文件'%1$s'。"
+msgstr "服務器錯誤，無法創建文件'%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_create_remote_folder"
 msgid "Cannot create folder '%1$s'."
-msgstr "無法創建文件夾'%1$s'。"
+msgstr "無法創建文件夾 '%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_create_remote_folder_already_exists"
 msgid "Cannot create folder '%1$s' because it already exists."
-msgstr "無法創建文件夾'%1$s'，因為它已經存在。"
+msgstr "無法創建文件夾 '%1$s'，因為它已存在。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_create_remote_folder_file_exists"
 msgid "Cannot create folder '%1$s' because there is a file with this name."
-msgstr "無法創建文件夾'%1$s'，因為存在具有該名稱的文件。"
+msgstr "無法創建文件夾 '%1$s'，因存在同名文件。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_download_file_download_error"
 msgid "Cannot download file '%1$s' from server."
-msgstr "無法從服務器下載文件'%1$s'。"
+msgstr "無法從服務器下載文件 '%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_download_file_local_write_error"
 msgid "Cannot write downloaded file '%1$s' to device."
-msgstr "無法將下載的文件'%1$s'寫入設備。"
+msgstr "無法將下載的文件 '%1$s' 寫入本地設備。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_get_remote_metadata"
 msgid "Cannot get metadata of file '%1$s' from server."
-msgstr "無法從服務器獲取文件'%1$s'的元數據。"
+msgstr "無法從服務器獲取文件 '%1$s' 的元數據。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_open_remote_file_does_not_exist"
 msgid "Cannot open file '%1$s' on server because it does not exist."
-msgstr "無法在服務器上打開文件'%1$s'，因為它不存在。"
+msgstr "無法在服務器上打開文件 '%1$s'，因其不存在。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_open_remote_file_is_folder"
 msgid "Cannot open file '%1$s' on server because it is a folder."
-msgstr "因為它是文件夾，所以無法在服務器上打開文件'%1$s'。"
+msgstr "因是文件夾，無法在服務器上打開文件 '%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_open_remote_folder_does_not_exist"
 msgid "Cannot open folder '%1$s' on server because it does not exist."
-msgstr "無法打開服務器上的文件夾'%1$s'，因為它不存在。"
+msgstr "無法打開服務器上的文件夾 '%1$s'，因其不存在。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_open_remote_folder_is_no_folder"
 msgid "Cannot open folder '%1$s' on server because it is not a folder."
-msgstr "無法打開服務器上的文件夾'%1$s'，因為它不是文件夾。"
+msgstr "無法打開服務器上的文件夾 '%1$s'，因其非文件。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_rename_remote_file"
 msgid "Cannot rename remote file '%1$s' to new name '%2$s'."
-msgstr "無法將遠程文件'%1$s'重命名為新名稱'%2$s'。"
+msgstr "無法將遠程文件 '%1$s' 重命名為 '%2$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_rename_remote_folder"
 msgid "Cannot rename remote folder '%1$s' to new name '%2$s'."
-msgstr "無法將遠程文件夾'%1$s'重命名為新名稱'%2$s'。"
+msgstr "無法將遠程文件夾 '%1$s' 重命名為 '%2$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_remote_databundle_incomplete"
 msgid "Cannot load image '%1$s' because remote file '%2$s' is missing."
-msgstr "因為缺少遠程文件'%2$s'，所以無法加載圖像'%1$s'。"
+msgstr "因為缺少遠程文件 '%2$s'，所以無法加載圖像 '%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_sync_databundle"
 msgid "Cannot sync image '%1$s'."
-msgstr "無法同步圖像'%1$s'。"
+msgstr "無法同步圖像 '%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_sync_folder"
 msgid "Cannot sync folder '%1$s'."
-msgstr "無法同步文件夾'%1$s'。"
+msgstr "無法同步文件夾 '%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_delete_remote_file"
 msgid "Cannot delete remote file '%1$s'."
-msgstr "無法刪除遠程文件'%1$s'。"
+msgstr "無法刪除遠程文件 '%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_delete_remote_folder"
 msgid "Cannot delete remote folder '%1$s'."
-msgstr "無法刪除遠程文件夾'%1$s'。"
+msgstr "無法刪除遠程文件夾 '%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_download_sync_server_cache_file"
 msgid "Cannot download server cache file '%1$s'."
-msgstr "無法下載服務器緩存文件'%1$s'。"
+msgstr "無法下載服務器緩存文件 '%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_upload_sync_server_cache_file"
 msgid "Cannot upload server cache file '%1$s'."
-msgstr "無法上載服務器緩存文件'%1$s'。"
+msgstr "無法上載服務器緩存文件 '%1$s'。"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_scan_server_content"
@@ -2303,17 +2303,17 @@ msgstr "無法與服務器同步。"
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_parse_sync_state_file"
 msgid "Cannot parse sync state file '%1$s'."
-msgstr "無法解析同步狀態文件'%1$s'。"
+msgstr "無法解析同步狀態文件 '%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_write_sync_state_file"
 msgid "Cannot write sync state file '%1$s'."
-msgstr "無法寫入同步狀態文件'%1$s'。"
+msgstr "無法寫入同步狀態文件 '%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cloud_cannot_load_sync_state_file"
 msgid "Cannot load sync state file '%1$s'."
-msgstr "無法加載同步狀態文件'%1$s'。"
+msgstr "無法加載同步狀態文件 '%1$s'。"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_lock_server"
@@ -2323,27 +2323,27 @@ msgstr "無法生成服務器鎖定文件。"
 #, fuzzy
 msgctxt "error_cloud_server_error"
 msgid "Server error: {}"
-msgstr "服務器錯誤： {}"
+msgstr "服務器錯誤：{}"
 
 #, fuzzy
 msgctxt "error_cloud_server_blocked"
 msgid "Server blocked by another client"
-msgstr "服務器被另一個客戶端阻止"
+msgstr "服務器被另一個客戶端占用"
 
 #, fuzzy
 msgctxt "error_cloud_remote_file_does_not_exist"
 msgid "File '{}' does not exist on server"
-msgstr "服務器上不存在文件“ {}”"
+msgstr "服務器上不存在文件 '{}'"
 
 #, fuzzy
 msgctxt "error_cloud_remote_folder_does_not_exist"
 msgid "Folder '{}' does not exist on server"
-msgstr "服務器上不存在文件夾“ {}”"
+msgstr "服務器上不存在文件夾 '{}'"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_create_folder"
 msgid "Cannot create folder '{}' on server"
-msgstr "無法在服務器上創建文件夾“ {}”"
+msgstr "無法在服務器上創建文件夾 '{}'"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_create_folder_short"
@@ -2353,7 +2353,7 @@ msgstr "無法在服務器上創建文件夾"
 #, fuzzy
 msgctxt "error_cloud_cannot_upload_file"
 msgid "Cannot upload file '{}' to server"
-msgstr "無法將文件“ {}”上傳到服務器"
+msgstr "無法將文件 '{}' 上傳到服務器"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_upload_file_short"
@@ -2363,7 +2363,7 @@ msgstr "無法將文件上傳到服務器"
 #, fuzzy
 msgctxt "error_cloud_cannot_download_file"
 msgid "Cannot download file '{}' from server"
-msgstr "無法從服務器下載文件“ {}”"
+msgstr "無法從服務器下載文件 '{}'"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_download_file_short"
@@ -2373,7 +2373,7 @@ msgstr "無法從服務器下載文件"
 #, fuzzy
 msgctxt "error_cloud_cannot_download_folder"
 msgid "Cannot download folder '{}' from server"
-msgstr "無法從服務器下載文件夾“ {}”"
+msgstr "無法從服務器下載文件夾 '{}'"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_download_folder_short"
@@ -2383,7 +2383,7 @@ msgstr "無法從服務器下載文件夾"
 #, fuzzy
 msgctxt "error_cloud_cannot_rename_file"
 msgid "Cannot rename file '{}' on server"
-msgstr "無法在服務器上重命名文件“ {}”"
+msgstr "無法在服務器上重命名文件 '{}'"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_rename_file_short"
@@ -2393,7 +2393,7 @@ msgstr "無法重命名服務器上的文件"
 #, fuzzy
 msgctxt "error_cloud_cannot_rename_folder"
 msgid "Cannot rename folder '{}' on server"
-msgstr "無法在服務器上重命名文件夾“ {}”"
+msgstr "無法在服務器上重命名文件夾 '{}'"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_rename_folder_short"
@@ -2403,7 +2403,7 @@ msgstr "無法重命名服務器上的文件夾"
 #, fuzzy
 msgctxt "error_cloud_cannot_delete_file"
 msgid "Cannot delete file '{}' from server"
-msgstr "無法從服務器刪除文件“ {}”"
+msgstr "無法從服務器刪除文件 '{}'"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_delete_file_short"
@@ -2413,7 +2413,7 @@ msgstr "無法從服務器刪除文件"
 #, fuzzy
 msgctxt "error_cloud_cannot_delete_folder"
 msgid "Cannot delete folder '{}' from server"
-msgstr "無法從服務器刪除文件夾“ {}”"
+msgstr "無法從服務器刪除文件夾 '{}'"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_delete_folder_short"
@@ -2423,7 +2423,7 @@ msgstr "無法從服務器刪除文件夾"
 #, fuzzy
 msgctxt "error_cloud_cannot_list_folder_content"
 msgid "Cannot list content of server folder '{}'"
-msgstr "無法列出服務器文件夾“ {}”的內容"
+msgstr "無法列出服務器文件夾 '{}' 的內容"
 
 #, fuzzy
 msgctxt "error_cloud_cannot_list_folder_content_short"
@@ -2433,12 +2433,12 @@ msgstr "無法列出服務器文件夾的內容"
 #, fuzzy
 msgctxt "error_cloud_is_not_a_folder"
 msgid "File '{}' is not a folder."
-msgstr "文件“ {}”不是文件夾。"
+msgstr "文件 '{}' 不是文件夾。"
 
 #, fuzzy
 msgctxt "error_cloud_handwerkcloud_cannot_delete_folder_non_imagemeter_files_present"
 msgid "Cannot delete folder because the file '{}' is not managed by ImageMeter."
-msgstr "無法刪除文件夾，因為文件“ {}”不受ImageMeter管理。"
+msgstr "無法刪除文件夾，因為文件 '{}' 不受 ImageMeter 管理。"
 
 #, fuzzy
 msgctxt "notification_cloud_sync_errors_title"
@@ -2453,7 +2453,7 @@ msgstr "顯示詳細錯誤"
 #, fuzzy, c-format
 msgctxt "notification_cloud_sync_errors_short_text"
 msgid "%1$d synchronization errors"
-msgstr "%1$d同步錯誤"
+msgstr "%1$d 同步錯誤"
 
 #, fuzzy
 msgctxt "notification_cloud_sync_progress_cancel_action"
@@ -2473,7 +2473,7 @@ msgstr "編輯器"
 #, fuzzy
 msgctxt "pref_category_editor_general"
 msgid "General"
-msgstr "一般"
+msgstr "常规"
 
 msgctxt "pref_category_ui_general"
 msgid "General"
@@ -2536,11 +2536,11 @@ msgstr "垂直於物體外緣"
 
 msgctxt "pref_editor_snapping_hv_orientation"
 msgid "Horizontal / vertical orientation"
-msgstr "水平/垂直方向"
+msgstr "水平 / 垂直方向"
 
 msgctxt "pref_editor_snapping_hv_orientation_dialog"
 msgid "Snap to horizontal / vertical orientation"
-msgstr "吸附到水平/垂直方向"
+msgstr "吸附到水平 / 垂直方向"
 
 msgctxt "pref_editor_snapping_hv_orientation_choices:0"
 msgid "Off"
@@ -2782,12 +2782,12 @@ msgstr "不約去分子分母的最大公因數 (4/8 顯示為 4/8)"
 #, fuzzy
 msgctxt "value_entry_dimension_format_reduce_fraction_choices:0"
 msgid "Reduce (4/8 becomes 1/2)"
-msgstr "減少（4/8變為1/2）"
+msgstr "约分（4/8變為1/2）"
 
 #, fuzzy
 msgctxt "value_entry_dimension_format_reduce_fraction_choices:1"
 msgid "Keep (4/8 stays 4/8)"
-msgstr "保持（4/8停留4/8）"
+msgstr "不约分（4/8 还是 4/8）"
 
 msgctxt "pref_measure_imperial_unit_display"
 msgid "Textual imperial units"
@@ -2938,12 +2938,12 @@ msgstr "選項對話框將被跳過"
 #, fuzzy
 msgctxt "pref_export_zip_show_options"
 msgid "Set ZIP options at export"
-msgstr "在導出時設置ZIP選項"
+msgstr "在導出時設置 ZIP 選項"
 
 #, fuzzy
 msgctxt "pref_export_zip_show_options_summary_on"
 msgid "ZIP options can be set at export"
-msgstr "可以在導出時設置ZIP選項"
+msgstr "可以在導出時設置 ZIP 選項"
 
 #, fuzzy
 msgctxt "pref_export_zip_show_options_summary_off"
@@ -2973,7 +2973,7 @@ msgstr "格式和渲染"
 #, fuzzy
 msgctxt "pref_category_export_image"
 msgid "Image settings"
-msgstr "影像設定"
+msgstr "图像設定"
 
 msgctxt "pref_export_format"
 msgid "Image format"
@@ -2991,7 +2991,7 @@ msgstr "硬件平滑邊緣"
 
 msgctxt "pref_export_hardware_msaa_summaryon"
 msgid "Enabled (some buggy GPUs may draw black images only)"
-msgstr "啟用（某些錯誤較多的圖像處理器可能僅顯示黑色圖像）"
+msgstr "啟用（某些有缺陷的圖像處理器可能僅顯示黑色圖像）"
 
 msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
@@ -3077,7 +3077,7 @@ msgstr "在導出時設置選項"
 #, fuzzy
 msgctxt "pref_export_pdf_show_options_summary_on"
 msgid "PDF options can be set at export"
-msgstr "可以在導出時設置PDF選項"
+msgstr "可以在導出時設置 PDF 選項"
 
 #, fuzzy
 msgctxt "pref_export_pdf_show_options_summary_off"
@@ -3155,7 +3155,7 @@ msgstr "圖像將不會旋轉"
 
 msgctxt "pref_export_pdf_separate_landscape_portrait"
 msgid "Separate landscape/portrait in PDF"
-msgstr "將橫/豎方向的圖像在 PDF 文件中分組"
+msgstr "將橫 / 豎方向的圖像在 PDF 文件中分組"
 
 msgctxt "pref_export_pdf_separate_landscape_portrait_dialog"
 msgid "When to separate landscape/portrait in PDF"
@@ -3225,7 +3225,7 @@ msgstr "10%"
 #, fuzzy
 msgctxt "dialog_pdf_options_image_notes_space_choices:0"
 msgid "Do not print notes"
-msgstr "不打印筆記"
+msgstr "不打印注記"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
@@ -3274,7 +3274,7 @@ msgstr "無"
 
 msgctxt "pref_bluetooth_device_name_unknown"
 msgid "Unnamed"
-msgstr "無名"
+msgstr "不知名"
 
 msgctxt "pref_bluetooth_device_protocol"
 msgid "Bluetooth protocol"
@@ -3472,7 +3472,7 @@ msgstr "當前元素的放大模式"
 
 msgctxt "pref_ui_magnifier_mode_active_dialog"
 msgid "Choose how to draw active element in magnifier"
-msgstr "選擇在放大鏡中如何繪製當前元素"
+msgstr "選擇在放大鏡下如何繪製當前元素"
 
 msgctxt "pref_ui_magnifier_mode_nonactive"
 msgid "Magnifier mode for non-active elements"
@@ -3480,7 +3480,7 @@ msgstr "非當前元素的放大模式"
 
 msgctxt "pref_ui_magnifier_mode_nonactive_dialog"
 msgid "Choose how to draw non-active elements in magnifier"
-msgstr "選擇在放大鏡中如何繪製非當前元素"
+msgstr "選擇在放大鏡下如何繪製非當前元素"
 
 msgctxt "pref_ui_magnifier_mode_choices:0"
 msgid "Do not show"
@@ -3601,12 +3601,12 @@ msgstr "總是"
 #, c-format
 msgctxt "pref_preset_text"
 msgid "Preset text %1$d"
-msgstr "設定文字 %1$d"
+msgstr "预设文字 %1$d"
 
 #, c-format
 msgctxt "pref_preset_text_dialog"
 msgid "Enter preset text %1$d"
-msgstr "輸入設定文字 %1$d"
+msgstr "輸入预设文字 %1$d"
 
 msgctxt "preset_text_1"
 msgid "front door"
@@ -3665,7 +3665,7 @@ msgstr "立即清除所有已刪除的圖像！"
 #, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay"
 msgid "Purge interval"
-msgstr "吹掃間隔"
+msgstr "清理的时间间隔間隔"
 
 #, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_dialog"
