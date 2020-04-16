@@ -3665,27 +3665,27 @@ msgstr "立即清除所有已刪除的圖像！"
 #, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay"
 msgid "Purge interval"
-msgstr "清理的时间间隔間隔"
+msgstr "清除频度"
 
 #, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_dialog"
 msgid "Purge interval"
-msgstr "吹掃間隔"
+msgstr "清除频度"
 
 #, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_choices:0"
 msgid "1 day"
-msgstr "1天"
+msgstr "1 天"
 
 #, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_choices:1"
 msgid "1 week"
-msgstr "1週"
+msgstr "1 週"
 
 #, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_choices:2"
 msgid "1 month"
-msgstr "1個月"
+msgstr "1 個月"
 
 #, fuzzy
 msgctxt "dialog_purge_images_title"
@@ -3709,12 +3709,12 @@ msgstr "在圖像庫中顯示圖像"
 #, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_on"
 msgid "Edited images will show up in gallery"
-msgstr "所有的圖像會在圖像庫中顯示"
+msgstr "编辑过的圖像會在圖像庫中顯示"
 
 #, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_off"
 msgid "Images will not show in the gallery automatically"
-msgstr "圖像不會在圖像庫中顯示"
+msgstr "圖像不會在圖像庫中自动顯示"
 
 msgctxt "pref_storage_directory_current_directory"
 msgid "Current storage directory:"
@@ -3759,7 +3759,7 @@ msgstr "機動："
 #, fuzzy
 msgctxt "pref_storage_directory_error_nonexistent_directory"
 msgid "This directory is not present. Please choose a different directory."
-msgstr "該目錄不存在。請選擇其他目錄。"
+msgstr "該目錄不存在，請選擇其他目錄。"
 
 #. Actually, we should use Unicode \u00A0 for non-breaking spaces, but a2po
 #. crashes on them
@@ -3799,7 +3799,7 @@ msgstr "目標儲存介質上空間不足，無法搬運所有的圖像."
 
 msgctxt "pref_storage_directory_error_could_not_copy_all_images"
 msgid "Could not copy all images to target directory. Maybe your folder names are no valid filenames on the target filesystem. Please change them and then try to copy the remaining data.\n\nThe active storage directory has not been changed.\n\nPlease note that the target directory now contains an incomplete copy of the source data!"
-msgstr "無法複製所有的圖像.或許複製目的地無法識別你的文件夾/文件名字.請將原文件改名並重試.\n\n當前儲存路徑並未改變.\n\n請注意，複製並不完整，請核對！"
+msgstr "無法複製所有圖像，或許複製目的地無法識別你的文件夾/文件名字。請將原文件改名並重試。\n\n當前儲存路徑並未改變。\n\n請注意，複製並不完整，請核對！"
 
 #, fuzzy
 msgctxt "pref_storage_directory_cannot_move_files"
@@ -3808,11 +3808,11 @@ msgstr "無法移動文件"
 
 msgctxt "dialog_storage_move_annotated_images_progress_text"
 msgid "Moving images ..."
-msgstr "圖像搬運中..."
+msgstr "圖像搬運中……"
 
 msgctxt "dialog_storage_directory_move_images_progress_text"
 msgid "Moving images ..."
-msgstr "圖像搬運中..."
+msgstr "圖像搬運中……"
 
 #, fuzzy
 msgctxt "pref_category_storage_cloud"
@@ -3837,7 +3837,7 @@ msgstr "分享資料"
 #, fuzzy
 msgctxt "pref_storage_cloud_sync_mode_choices:1"
 msgid "Backup"
-msgstr "後備"
+msgstr "備份"
 
 #, fuzzy
 msgctxt "pref_cloud_storage_sync_cautiousness:0"
@@ -3867,32 +3867,32 @@ msgstr "同步模式"
 #, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:0"
 msgid "No auto-sync"
-msgstr "沒有自動同步"
+msgstr "不自動同步"
 
 #, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:1"
 msgid "15 minutes"
-msgstr "15分鐘"
+msgstr "15 分鐘"
 
 #, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:2"
 msgid "1 hour"
-msgstr "1小時"
+msgstr "1 小時"
 
 #, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:3"
 msgid "2 hours"
-msgstr "2小時"
+msgstr "2 小時"
 
 #, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:4"
 msgid "6 hours"
-msgstr "6小時"
+msgstr "6 小時"
 
 #, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:5"
 msgid "1 day"
-msgstr "1天"
+msgstr "1 天"
 
 #, fuzzy
 msgctxt "pref_storage_cloud_sync_interval"
@@ -3902,17 +3902,17 @@ msgstr "自動同步間隔"
 #, fuzzy
 msgctxt "pref_storage_cloud_advanced_maintenance"
 msgid "Advanced maintenance"
-msgstr "進階維護"
+msgstr "高级維護"
 
 #, fuzzy
 msgctxt "pref_storage_cloud_wifi_only"
 msgid "Auto-sync only on Wifi"
-msgstr "僅在Wifi上自動同步"
+msgstr "僅在 Wifi 上自動同步"
 
 #, fuzzy
 msgctxt "pref_storage_cloud_wifi_only_on"
 msgid "Sync only when on free Wifi networks"
-msgstr "僅在免費的Wifi網絡上同步"
+msgstr "僅在免費的 Wifi 網絡上同步"
 
 #, fuzzy
 msgctxt "pref_storage_cloud_wifi_only_off"
@@ -4004,7 +4004,7 @@ msgstr "尺寸字串"
 #, fuzzy
 msgctxt "editor_menu_add_cumulative_dimstring"
 msgid "Cumulative string"
-msgstr "累計字符串"
+msgstr "累加字符串"
 
 msgctxt "editor_menu_edit_delete"
 msgid "Delete element"
@@ -4012,21 +4012,21 @@ msgstr "移除"
 
 msgctxt "editor_menu_edit_attach"
 msgid "Compute value"
-msgstr "關聯"
+msgstr "自动计算数值"
 
 #, fuzzy
 msgctxt "editor_menu_edit_element_to_front"
 msgid "Element to front"
-msgstr "前元素"
+msgstr "元素上浮"
 
 #, fuzzy
 msgctxt "editor_menu_edit_element_to_back"
 msgid "Element to back"
-msgstr "元素後退"
+msgstr "元素下称"
 
 msgctxt "editor_menu_edit_detach"
 msgid "Enter value manually"
-msgstr "分離"
+msgstr "手动输入数值"
 
 msgctxt "editor_menu_edit_undo"
 msgid "Undo"
@@ -4059,7 +4059,7 @@ msgstr "複製元素"
 #, fuzzy
 msgctxt "editor_menu_edit_lock_element"
 msgid "Lock element"
-msgstr "鎖件"
+msgstr "鎖定元素"
 
 #, fuzzy
 msgctxt "editor_menu_edit_unlock_element"
@@ -4069,7 +4069,7 @@ msgstr "解鎖元素"
 #, fuzzy
 msgctxt "editor_menu_edit_imagesettings"
 msgid "Image settings"
-msgstr "影像設定"
+msgstr "图像設定"
 
 msgctxt "editor_menu_style"
 msgid "Style"
@@ -4105,7 +4105,7 @@ msgstr "請指向圓心並拖拽，如此指定圓環尺寸. "
 
 msgctxt "editor_hint_howto_draw_freehand"
 msgid "You are now drawing in freehand mode until you press the close button."
-msgstr "您處於自由手繪模式.如欲離開這個模式請按關閉按鈕."
+msgstr "您處於自由手繪模式，如欲離開這個模式請按關閉按鈕."
 
 #, fuzzy
 msgctxt "editor_hint_howto_draw_point"
@@ -4115,7 +4115,7 @@ msgstr "單擊即可放置點。"
 #, fuzzy
 msgctxt "editor_hint_howto_draw_line"
 msgid "Please point-and-drag the new line."
-msgstr "請指向並拖動新行。"
+msgstr "請指向並拖動新线条。"
 
 #, fuzzy
 msgctxt "editor_hint_howto_draw_ellipse"
@@ -4130,7 +4130,7 @@ msgstr "請繪製矩形對角線。"
 #, fuzzy
 msgctxt "editor_hint_howto_draw_perspective_line"
 msgid "Tool for measuring an unknown distance along a perspectively distorted line. See the FAQ for an introduction."
-msgstr "用於測量沿透視扭曲線的未知距離的工具。有關說明，請參見FAQ。"
+msgstr "此工具用於測量沿着透視扭曲线条的未知距離。有關說明，請參見 FAQ。"
 
 #, fuzzy
 msgctxt "editor_hint_howto_draw_dimstring"
@@ -4152,7 +4152,7 @@ msgstr "點擊您要與之建立關聯的參照物."
 
 msgctxt "editor_error_no_reference_to_attach_to"
 msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
-msgstr "這個圖像中尚缺參照尺寸！您必須繪出參照無並指定尺寸以啟用自動長度計算. "
+msgstr "這個圖像中尚缺參照尺寸！您必須繪出參照物並指定尺寸以啟用自動長度計算. "
 
 msgctxt "editor_error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -4169,12 +4169,12 @@ msgstr "設置為常規"
 #, fuzzy
 msgctxt "editor_dialog_style_apply_to"
 msgid "Apply to …"
-msgstr "適用於 …"
+msgstr "適用於……"
 
 #, fuzzy
 msgctxt "editor_dialog_style_spinner_various_values"
 msgid "various"
-msgstr "各種"
+msgstr "多種对象"
 
 #, fuzzy
 msgctxt "editor_dialog_style_generic_line_width_magnification"
@@ -4223,7 +4223,7 @@ msgstr "文字對齊"
 #, fuzzy
 msgctxt "editor_dialog_style_textbox_text_alignment_choices:0"
 msgid "Left"
-msgstr "剩下"
+msgstr "左"
 
 #, fuzzy
 msgctxt "editor_dialog_style_textbox_text_alignment_choices:1"
@@ -4233,11 +4233,11 @@ msgstr "中央"
 #, fuzzy
 msgctxt "editor_dialog_style_textbox_text_alignment_choices:2"
 msgid "Right"
-msgstr "對"
+msgstr "右"
 
 msgctxt "editor_dialog_style_freehand_title"
 msgid "Freehand style"
-msgstr "自由手繪外觀"
+msgstr "自由手繪风格"
 
 msgctxt "editor_dialog_style_freehand_line_width"
 msgid "Line width"
@@ -4249,7 +4249,7 @@ msgstr "選擇線條寬度"
 
 msgctxt "editor_dialog_style_freehand_line_pattern"
 msgid "Line pattern"
-msgstr "線條圖案"
+msgstr "線條模式"
 
 #, fuzzy
 msgctxt "editor_dialog_style_ellipse_title"
@@ -4268,7 +4268,7 @@ msgstr "尺寸外觀"
 #, fuzzy
 msgctxt "editor_dialog_style_measure_show_text"
 msgid "Show length"
-msgstr "顯示文字"
+msgstr "顯示长度"
 
 msgctxt "editor_dialog_style_measure_font_magnification"
 msgid "Font size"
@@ -4382,7 +4382,7 @@ msgstr "常規參照物尺寸"
 
 msgctxt "editor_dialog_style_rect_info_set_default_reference_size_text"
 msgid "This button stores the currently entered reference dimensions as the default size. When creating a new reference, these dimensions are automatically set. You can set this to any reference that is suitable for your application, e.g. the size of a sheet of paper."
-msgstr "按此按鈕可以將當前的參照物尺寸儲存為常規值.以後當你圈定一個參照物時，其尺寸會自動設為此常規值.你可以將此法運用至一些常見參照物，例如一張 A4 白紙."
+msgstr "按此按鈕可以將當前參照物尺寸儲存為常規值。以後當你圈定一個參照物時，其尺寸會自動設為此常規值。你可以將此法運用至一些常見參照物，例如一張 A4 白紙."
 
 msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:0"
 msgid "none"
@@ -4526,11 +4526,11 @@ msgstr "下方"
 
 msgctxt "editor_dialog_style_flatref_label_position_choices:2"
 msgid "Alternating, last one above"
-msgstr "上下轉換，最後一個標值在上方"
+msgstr "上下交替，最後一個標值在上方"
 
 msgctxt "editor_dialog_style_flatref_label_position_choices:3"
 msgid "Alternating, last one below"
-msgstr "上下轉換，最後一個標值在下方"
+msgstr "上下交替，最後一個標值在下方"
 
 msgctxt "editor_dialog_style_area_title"
 msgid "Area style"
@@ -4608,7 +4608,7 @@ msgstr "線條寬度"
 #, fuzzy
 msgctxt "editor_dialog_style_rectangle_title"
 msgid "Rectangle style"
-msgstr "矩形樣式"
+msgstr "矩形外观"
 
 #, fuzzy
 msgctxt "editor_dialog_style_rectangle_show_edge_lengths"
@@ -4618,7 +4618,7 @@ msgstr "顯示邊長"
 #, fuzzy
 msgctxt "editor_dialog_style_rectangle_show_area"
 msgid "Show area"
-msgstr "展示區"
+msgstr "显示面积"
 
 #, fuzzy
 msgctxt "editor_dialog_style_rectangle_show_perimeter"
@@ -4628,7 +4628,7 @@ msgstr "顯示周長"
 #, fuzzy
 msgctxt "editor_dialog_style_rectangle_shade_area"
 msgid "Shaded area"
-msgstr "塗黑部分"
+msgstr "阴影部分"
 
 #, fuzzy
 msgctxt "editor_dialog_style_rectangle_font_magnification"
@@ -4638,27 +4638,27 @@ msgstr "字體大小"
 #, fuzzy
 msgctxt "editor_dialog_style_rectangle_line_width_magnification"
 msgid "Line width"
-msgstr "行寬"
+msgstr "线条宽度"
 
 #, fuzzy
 msgctxt "editor_dialog_style_dimstring_title"
 msgid "Dimension string style"
-msgstr "尺寸字符串樣式"
+msgstr "度量字符外观"
 
 #, fuzzy
 msgctxt "editor_dialog_style_dimstring_show_marks"
 msgid "Show intersection marks"
-msgstr "顯示相交標記"
+msgstr "顯示相交处的標記"
 
 #, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_title"
 msgid "Point style"
-msgstr "點樣式"
+msgstr "點外观"
 
 #, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_line_width_magnification"
 msgid "Line width"
-msgstr "行寬"
+msgstr "线条宽度"
 
 #, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_font_magnification"
@@ -4688,17 +4688,17 @@ msgstr "顯示文字"
 #, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:0"
 msgid "Encircled cross"
-msgstr "包圍的十字架"
+msgstr "带圈的十字叉丝"
 
 #, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:1"
 msgid "Upright cross"
-msgstr "立式十字架"
+msgstr "十字叉丝"
 
 #, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:2"
 msgid "Diagonal cross"
-msgstr "對角十字"
+msgstr "X字叉丝"
 
 #, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:3"
@@ -4708,12 +4708,12 @@ msgstr "點"
 #, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:4"
 msgid "Elevation top"
-msgstr "海拔最高"
+msgstr "至顶记号"
 
 #, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:5"
 msgid "Elevation bottom"
-msgstr "高程底部"
+msgstr "至底记号"
 
 #, fuzzy
 msgctxt "eight_directions_choices:0"
@@ -4723,7 +4723,7 @@ msgstr "左上方"
 #, fuzzy
 msgctxt "eight_directions_choices:1"
 msgid "Top"
-msgstr "最佳"
+msgstr "顶部"
 
 #, fuzzy
 msgctxt "eight_directions_choices:2"
@@ -4733,7 +4733,7 @@ msgstr "右上"
 #, fuzzy
 msgctxt "eight_directions_choices:3"
 msgid "Right"
-msgstr "對"
+msgstr "右"
 
 #, fuzzy
 msgctxt "eight_directions_choices:4"
@@ -4753,12 +4753,12 @@ msgstr "左下方"
 #, fuzzy
 msgctxt "eight_directions_choices:7"
 msgid "Left"
-msgstr "剩下"
+msgstr "左"
 
 #, fuzzy
 msgctxt "editor_dialog_style_perspective_line_title"
 msgid "Perspective line style"
-msgstr "透視線樣式"
+msgstr "透視線外观"
 
 #, fuzzy
 msgctxt "editor_label_style_text_color"
@@ -4778,12 +4778,12 @@ msgstr "背景顏色"
 #, fuzzy
 msgctxt "editor_label_style_apply_to"
 msgid "Apply to …"
-msgstr "適用於 …"
+msgstr "適用於……"
 
 #, fuzzy
 msgctxt "editor_label_style_apply_to_both_sides"
 msgid "Both sides"
-msgstr "雙方"
+msgstr "两边"
 
 #, fuzzy
 msgctxt "editor_label_style_apply_to_all_edges"
@@ -4798,22 +4798,22 @@ msgstr "所有長度"
 #, fuzzy
 msgctxt "editor_label_style_apply_to_whole_element"
 msgid "Whole element"
-msgstr "整體元素"
+msgstr "整个元素"
 
 #, fuzzy
 msgctxt "editor_label_style_apply_to_whole_image"
 msgid "Whole image"
-msgstr "整體形象"
+msgstr "整个图像"
 
 #, fuzzy
 msgctxt "editor_label_style_save_as_default_for"
 msgid "Use style as default for …"
-msgstr "使用樣式作為默認值…"
+msgstr "使用此外观作為……的默認值"
 
 #, fuzzy
 msgctxt "editor_label_style_save_as_default_only_this_label"
 msgid "Only this label"
-msgstr "只有這個標籤"
+msgstr "仅此標籤"
 
 #, fuzzy
 msgctxt "editor_label_style_save_as_default_this_element"
@@ -4827,7 +4827,7 @@ msgstr "所有繪圖工具"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
 msgid "The image data could not be read successfully. ImageMeter has tried to load as much of the data as possible, but the image annotations may be incomplete or may have errors.\n\nDo you want to keep the old data (new modifications will not be saved), or do you want to overwrite the data (you will lose the elements that could not be read successfully)?"
-msgstr "這個圖像文件讀取不成功.本應用已經盡力讀取圖像中的所有數據，但是圖像的批註信息有可能不完整或者有錯誤.\n\n您想保留舊的文件（新的更改將不會被保存），還是想重寫這個文件（未能成功讀取的元素將會永久缺失）？"
+msgstr "這個圖像文件无法成功讀取。本程序已盡力讀取圖像中的所有數據，但是圖像的批註信息有可能不完整或者有錯誤。\n\n您想保留舊的文件（更改將不會被保存），還是想重寫這個文件（未能成功讀取的元素將會永久缺失）？"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_overwrite_button"
 msgid "Overwrite"
@@ -4840,12 +4840,12 @@ msgstr "保留舊文件"
 #, fuzzy
 msgctxt "editor_rectref_standard_size_letter"
 msgid "Letter"
-msgstr "信"
+msgstr "US Letter"
 
 #, fuzzy
 msgctxt "editor_rectref_standard_size_legal"
 msgid "Legal"
-msgstr "法律"
+msgstr "US Legal"
 
 #, fuzzy
 msgctxt "editor_rectref_standard_size_credit_card"
@@ -4860,17 +4860,17 @@ msgstr "添加度量"
 #, fuzzy
 msgctxt "editor_dimstring_mode_move_markers"
 msgid "Move measures"
-msgstr "移動措施"
+msgstr "迁移度量"
 
 #, fuzzy
 msgctxt "editor_dimstring_mode_toggle_segments"
 msgid "Toggle segments"
-msgstr "切換細分"
+msgstr "切換段"
 
 #, fuzzy
 msgctxt "editor_dimstring_mode_move_strings"
 msgid "Move strings"
-msgstr "移動琴弦"
+msgstr "迁移字符"
 
 #, fuzzy
 msgctxt "editor_dimstring_mode_set_values"
@@ -4880,7 +4880,7 @@ msgstr "設定值"
 #, fuzzy
 msgctxt "editor_dimstring_mode_adjust_guide_lines_lengths"
 msgid "Guide lines lengths"
-msgstr "指導線長度"
+msgstr "引導線長度"
 
 #, fuzzy
 msgctxt "editor_dimstring_func_edit_mode"
@@ -4900,7 +4900,7 @@ msgstr "添加累積字符串"
 #, fuzzy
 msgctxt "editor_dimstring_func_swap_orientation"
 msgid "Swap orientation"
-msgstr "交換方向"
+msgstr "转向"
 
 #, fuzzy
 msgctxt "color_dialog_special_transparent"
@@ -4920,7 +4920,7 @@ msgstr "使用主色"
 #. settings: standard rectangle reference object sizes, fuzzy
 msgctxt "settings_rectref_sizes_title"
 msgid "Reference object sizes"
-msgstr "參考對象尺寸"
+msgstr "参照物尺寸"
 
 #, fuzzy
 msgctxt "settings_rectref_sizes_name"
@@ -4940,7 +4940,7 @@ msgstr "高度："
 #, fuzzy
 msgctxt "settings_rectref_sizes_add_object_size"
 msgid "+ add object size"
-msgstr "+添加對像大小"
+msgstr "+ 加入對象尺寸"
 
 #, fuzzy
 msgctxt "settings_rectref_sizes_new_object_name"
@@ -4950,7 +4950,7 @@ msgstr "自定義對象"
 #, fuzzy
 msgctxt "settings_rectref_sizes_menu_open"
 msgid "Edit objects…"
-msgstr "編輯物件..."
+msgstr "編輯物件……"
 
 #. export
 #, fuzzy
@@ -4971,7 +4971,7 @@ msgstr "英制單位 (1' 10 1/32\")"
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:2"
 msgid "fractional inches (1 1/32\")"
-msgstr "帶分數的英制"
+msgstr "帶分數的英制 (1 1/32\")"
 
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:3"
@@ -4993,7 +4993,7 @@ msgstr "英制單位 (1' 10 1/32\")"
 
 msgctxt "dimension_format_length_readonly_choices:2"
 msgid "fractional inches (1 1/32\")"
-msgstr "帶分數的英制"
+msgstr "帶分數的英制 (1 1/32\")"
 
 msgctxt "dimension_format_length_readonly_choices:3"
 msgid "imperial (1.00 ft)"
@@ -5055,7 +5055,7 @@ msgstr "度"
 #, c-format
 msgctxt "dimension_format_angle_unit_choices:1"
 msgid "slope %"
-msgstr "斜率"
+msgstr "斜率 %"
 
 msgctxt "dimension_format_angle_unit_choices:2"
 msgid "radians"
@@ -5113,12 +5113,12 @@ msgstr "km²"
 #, fuzzy
 msgctxt "dimension_format_area_metric_prefix_choices:4"
 msgid "are"
-msgstr "是"
+msgstr "are"
 
 #, fuzzy
 msgctxt "dimension_format_area_metric_prefix_choices:5"
 msgid "hectare"
-msgstr "公頃"
+msgstr "hectare"
 
 msgctxt "dimension_format_area_metric_prefix_choices:6"
 msgid "µm²"
@@ -5131,7 +5131,7 @@ msgstr "nm²"
 #, fuzzy
 msgctxt "value_entry_tab_title_value"
 msgid "Value"
-msgstr "值"
+msgstr "数值"
 
 #, fuzzy
 msgctxt "value_entry_tab_title_metadata"
@@ -5146,7 +5146,7 @@ msgstr "單元"
 #, fuzzy
 msgctxt "value_entry_tab_title_style"
 msgid "Style"
-msgstr "樣式"
+msgstr "外观"
 
 #, fuzzy
 msgctxt "value_entry_text_mode"
@@ -5156,7 +5156,7 @@ msgstr "文字模式"
 #, fuzzy
 msgctxt "value_entry_value_mode"
 msgid "Value mode"
-msgstr "價值模式"
+msgstr "数值模式"
 
 #, fuzzy
 msgctxt "value_entry_key_inch"
@@ -5166,12 +5166,12 @@ msgstr "英寸"
 #, fuzzy
 msgctxt "value_entry_key_foot"
 msgid "Foot"
-msgstr "腳丫子"
+msgstr "英尺"
 
 #, fuzzy
 msgctxt "value_entry_key_yard"
 msgid "Yard"
-msgstr "碼"
+msgstr "英碼"
 
 #, fuzzy
 msgctxt "value_entry_unit_section_automatic_measurement_options"
@@ -5181,7 +5181,7 @@ msgstr "自動測量選項"
 #, fuzzy
 msgctxt "value_entry_metadata_prefix"
 msgid "Prefix"
-msgstr "字首"
+msgstr "前缀"
 
 #, fuzzy
 msgctxt "value_entry_metadata_suffix"
@@ -5191,7 +5191,7 @@ msgstr "後綴"
 #. text entry
 msgctxt "textbox_dialog_label"
 msgid "Text note"
-msgstr "輸入文字"
+msgstr "文字批注"
 
 #. string name="textbox_dialog_presets">or select a preset text:</string
 #. string name="textbox_dialog_presets_help">You can change the preset texts
@@ -5203,12 +5203,12 @@ msgstr "無文字"
 #, fuzzy
 msgctxt "textbox_text_preset_button"
 msgid "Preset…"
-msgstr "預設…"
+msgstr "預設……"
 
 #, fuzzy
 msgctxt "textbox_text_preset_open_prefs"
 msgid "(Define presets …)"
-msgstr "（定義預設…）"
+msgstr "（定義預設……）"
 
 #. string name="textbox_keep_custom_text">(keep custom text)</string
 msgctxt "textbox_hint_undefined_text"
@@ -5218,7 +5218,7 @@ msgstr "點擊輸入文字"
 #, fuzzy
 msgctxt "textbox_audio_notes_title"
 msgid "Audio note"
-msgstr "語音筆記"
+msgstr "語音注記"
 
 #, fuzzy
 msgctxt "textbox_detail_picture_title"
@@ -5228,19 +5228,19 @@ msgstr "詳細圖片"
 #. GCircle
 msgctxt "circle_radius_prefix"
 msgid "r:"
-msgstr "半徑:"
+msgstr "r:"
 
 msgctxt "circle_area_prefix"
 msgid "A:"
-msgstr "面積:"
+msgstr "A:"
 
 msgctxt "circle_circumference_prefix"
 msgid "C:"
-msgstr "周長:"
+msgstr "C:"
 
 msgctxt "circle_arc_length_prefix"
 msgid "s:"
-msgstr "弧長:"
+msgstr "s:"
 
 #. GRectangle, fuzzy
 msgctxt "rectangle_area_prefix"
@@ -5255,7 +5255,7 @@ msgstr "P："
 #. ImageSettings, fuzzy
 msgctxt "imagesettings_dialog_base_sizes"
 msgid "Base sizes"
-msgstr "基本尺寸"
+msgstr "基础尺寸"
 
 #, fuzzy
 msgctxt "imagesettings_duallabel_mode_choices:0"
@@ -5270,7 +5270,7 @@ msgstr "模型規模"
 #, fuzzy
 msgctxt "imagesettings_duallabel_mode_choices:2"
 msgid "Alternative unit"
-msgstr "替代單位"
+msgstr "可选單位"
 
 #, fuzzy
 msgctxt "imagesettings_dialog_duallabel_title"
@@ -5295,7 +5295,7 @@ msgstr "單元"
 #, fuzzy
 msgctxt "imagesettings_dialog_canvas_title"
 msgid "Canvas"
-msgstr "帆布"
+msgstr "画布"
 
 #, fuzzy
 msgctxt "imagesettings_dialog_canvas_colorscheme"
@@ -5320,7 +5320,7 @@ msgstr "深藍"
 #, fuzzy
 msgctxt "imagesettings_dialog_canvas_colorscheme_presets:3"
 msgid "Custom"
-msgstr "自訂"
+msgstr "自选"
 
 #, fuzzy
 msgctxt "imagesettings_dialog_bkgimage_title"
@@ -5345,46 +5345,46 @@ msgstr "對比"
 #, fuzzy
 msgctxt "imagesettings_dialog_bkgimage_reset"
 msgid "Reset"
-msgstr "重啟"
+msgstr "重置"
 
 #. bluetooth
 msgctxt "bluetooth_message_device_connected"
 msgid "Connection to Bluetooth device established."
-msgstr "藍牙設備已連接."
+msgstr "藍牙設備已連接。"
 
 msgctxt "bluetooth_message_device_disconnected"
 msgid "Lost connection to Bluetooth device."
-msgstr "藍牙設備失去連接."
+msgstr "藍牙設備断连。"
 
 msgctxt "bluetooth_message_device_connect_failed"
 msgid "Bluetooth connection failed."
-msgstr "藍牙連接失敗"
+msgstr "藍牙連接失敗。"
 
 msgctxt "bluetooth_error_bluetooth_not_configured"
 msgid "You have not yet configured any Bluetooth laser distance meter.\n\nFirst make sure that your device is listed in the system settings. If required, pair the device.\n <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n\nAfterwards, select your device in the ImageMeter settings:\n <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n\nFor more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
-msgstr "您尚未配置藍牙激光測距儀.\n\nFirst make sure that your device is listed in the system settings. If required, pair the device.\n <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n\nAfterwards, select your device in the ImageMeter settings:\n <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n\nFor more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
+msgstr "您尚未配置藍牙激光測距儀。\n\n首先，请确定系统设置中有显示您的设备。如果需要，请配对。\n <a href=\"android-bluetooth\">开启安卓蓝牙设置</a>\n\n然后，在 ImageMeter 设置中选择您的设备:\n <a href=\"bluetooth-device\">开启蓝牙设备设定</a>\n\n更多帮助信息，以及支持设备列表，请见 <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">这里</a>"
 
 #. 151209
 msgctxt "bluetooth_error_no_bluetooth_le"
 msgid "Device does not support Bluetooth LE (at least Android 4.3 required)."
-msgstr "設備不支持藍牙 LE （需安卓 4.3 以上）."
+msgstr "設備不支持藍牙 LE （需安卓 4.3 以上）。"
 
 #, c-format
 msgctxt "bluetooth_error_cannot_set_value"
 msgid "Cannot set received Bluetooth value: %1$s."
-msgstr "無法設定接收到的藍牙數值：%1$s."
+msgstr "無法設定接收到的藍牙數值：%1$s。"
 
 msgctxt "bluetooth_error_cannot_set_value_no_active_element"
 msgid "no active element"
-msgstr "沒有選中的待測物體"
+msgstr "沒有選中的待測元素"
 
 msgctxt "bluetooth_error_cannot_set_value_element_has_no_dimension"
 msgid "element does not support measurements"
-msgstr "該物體不支持測量"
+msgstr "該元素不支持測量"
 
 msgctxt "bluetooth_error_cannot_set_value_dimension_is_read_only"
 msgid "element value is read-only"
-msgstr "物體數值是只讀"
+msgstr "元素數值只讀"
 
 msgctxt "bluetooth_error_cannot_set_value_wrong_dimension_unit"
 msgid "wrong measurement unit"
@@ -5397,11 +5397,11 @@ msgstr "元素被鎖定"
 
 msgctxt "bluetooth_pref_button_start_bluetooth_scan"
 msgid "Start Bluetooth device scan"
-msgstr "現在偵測藍牙設備"
+msgstr "开始偵測藍牙設備"
 
 msgctxt "bluetooth_pref_scanning_in_progress"
 msgid "Scanning ..."
-msgstr "偵測中"
+msgstr "偵測中……"
 
 msgctxt "bluetooth_dialog_scan_needs_location_permission_title"
 msgid "Bluetooth scan"
@@ -5409,7 +5409,7 @@ msgstr "藍牙偵測"
 
 msgctxt "bluetooth_dialog_scan_needs_location_permission_text"
 msgid "Since Android 6, the coarse location permission is required to scan for nearby Bluetooth devices. Please grant this permission when requested."
-msgstr "從安卓 6 起，系統需要大致位置偵測權限以偵測附近的藍牙設備.有需要時請授權."
+msgstr "從安卓 6 起，系統需要大致位置偵測權限以偵測附近的藍牙設備。必要时時請授權。"
 
 msgctxt "bluetooth_le_scan_needs_location_title"
 msgid "Bluetooth LE Scan Error"
@@ -5417,7 +5417,7 @@ msgstr "低耗能藍牙偵測錯誤"
 
 msgctxt "bluetooth_le_scan_needs_location_message"
 msgid "Android requires that the location service is enabled to run a Bluetooth LE Scan.\n\nPlease turn on location services.\n\nAfter the Bluetooth LE scan, you can turn this off again."
-msgstr "安卓系統需要定位服務以偵測低耗能藍牙.\n\n請開啟定位服務.\n\n低耗能藍牙偵測結束後，你可以關閉定位服務."
+msgstr "安卓系統需要定位服務以偵測低耗能藍牙。\n\n請開啟定位服務.\n\n低耗能藍牙偵測結束後，您可以關閉定位服務。"
 
 msgctxt "bluetooth_error_unknown"
 msgid "Unknown error"
@@ -5446,7 +5446,7 @@ msgstr "E153：溫度太低：＜。 0°攝氏度"
 #, fuzzy
 msgctxt "bluetooth_error_ci_E154"
 msgid "E154: Outside the measuring range"
-msgstr "E154: 超出範圍"
+msgstr "E154: 超出测量範圍"
 
 #, fuzzy
 msgctxt "bluetooth_error_ci_E155"
@@ -5466,12 +5466,12 @@ msgstr "E157: 背景太亮"
 #, fuzzy
 msgctxt "bluetooth_error_ci_E160"
 msgid "E160: The device is moving too much to measure"
-msgstr "E160: 震盪過重"
+msgstr "E160: 设备抖动严重"
 
 #, fuzzy
 msgctxt "bluetooth_error_out_of_measuring_range"
 msgid "Out of measuring range"
-msgstr "超出範圍"
+msgstr "超出测量範圍"
 
 #, fuzzy
 msgctxt "bluetooth_error_signal_too_weak"
@@ -5518,41 +5518,41 @@ msgstr "本軟件開啟時顯示使用小竅門"
 
 msgctxt "tip_welcome"
 msgid "Welcome to ImageMeter\n\nIf you have any questions, do not hesitate to write to imagemeter@gmail.com. All emails will be answered as fast as possible."
-msgstr "歡迎使用圖像測量\n\n若您有任何問題，歡迎發至 imagemeter@gmail.com. 我們會盡快回覆."
+msgstr "歡迎使用圖像測量 ImageMeter\n\n若您有任何問題，歡迎發至 imagemeter@gmail.com. 我們會盡快回覆。"
 
 msgctxt "tip_export_images"
 msgid "You can export images by long-clicking on them in the list and then selecting the share icon in the toolbar."
-msgstr "若要導出圖像，請長時間點按選中的圖像，然後在上下文菜單中選擇分享."
+msgstr "若要導出圖像，請長時間點按選中的圖像，然後在上下文菜單中選擇分享。"
 
 msgctxt "tip_folder_export"
 msgid "You can export PDFs with all images in a folder by long-clicking on the folder and selecting export."
-msgstr "您可以將一個文件夾中的所有圖像以 zip 格式導出. 只須長時間點按選中的文件夾，然後選擇導出."
+msgstr "您可以將一個文件夾中的所有圖像以 zip 格式導出。只須長時間點按選中的文件夾，然後選擇導出."
 
 msgctxt "tip_disable_tips"
 msgid "You can disable the tip of the day dialog in the settings."
-msgstr "您可以在設定中關閉每日提示."
+msgstr "您可以在設定中關閉每日提示。"
 
 msgctxt "tip_accuracy"
 msgid "Accuracy depends on the quality of the camera and its lens distortions. You can increase accuracy by choosing a reference rectangle that is as large as possible."
-msgstr "測量精確度很大程度上取決於相機及其鏡頭的成像畸變度. 選取一個盡可能大的參照四邊形有助於增加測量的精確度."
+msgstr "測量精確度很大程度上取決於相機及其鏡頭的成像畸變度。 選取一個盡可能大的四邊形作为参照物有助於增加測量的精確度。"
 
 msgctxt "tip_measure_attach"
 msgid "When you draw a new measure in an image that already contains a reference, the measure is automatically computed based on this reference. If you want to enter its value manually, click on the crossed-out calculator icon or choose 'enter value manually' from the menu."
-msgstr "選定參照物後直接畫待測物，它們之間就會自動建立關聯. 如果您想分離它們之間自動建立的關聯，或者手動建立關聯，只需點擊 '編輯' 選項."
+msgstr "選定參照物後直接畫待測物，它們之間就會自動建立關聯。如果您想分離它們之間自動建立的關聯，或者手動建立關聯，只需點擊 '編輯' 選項."
 
 msgctxt "tip_support"
 msgid "If you have any questions, do not hesitate to write to imagemeter@gmail.com. All emails will be answered as fast as possible."
-msgstr "任何問題或建議，歡迎發至 imagemeter@gmail.com. 我們將會盡快回覆您."
+msgstr "任何問題或建議，歡迎發至 imagemeter@gmail.com. 我們將會盡快回覆您。"
 
 #, fuzzy
 msgctxt "welcome_message_title"
 msgid "Welcome to ImageMeter"
-msgstr "歡迎來到ImageMeter"
+msgstr "歡迎使用 ImageMeter"
 
 #, fuzzy
 msgctxt "welcome_message_text"
 msgid "For an introduction to ImageMeter, see this <a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video</a>.\n\nIf you have any further questions, do not hesitate to write to <a href=\"mailto:imagemeter@gmail.com\">info@imagemeter.com</a>."
-msgstr "有關ImageMeter的介紹，請參見此<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">視頻</a>。\n\n如果您還有其他疑問，請隨時寫信給<a href=\"mailto:imagemeter@gmail.com\"> info@imagemeter.com </a>。"
+msgstr "有關 ImageMeter 的介紹，請參見<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">此視頻</a>。\n\n如果您還有其他疑問，請隨時寫信給<a href=\"mailto:imagemeter@gmail.com\"> info@imagemeter.com </a>。"
 
 #, fuzzy
 msgctxt "welcome_message_show_at_startup"
@@ -5592,7 +5592,7 @@ msgstr "原始圖像分辨率"
 #, fuzzy
 msgctxt "image_info_gps_coordinates"
 msgid "GPS Coordinates"
-msgstr "GPS坐標"
+msgstr "GPS 坐標"
 
 #, fuzzy
 msgctxt "image_info_show_on_map"
@@ -5627,12 +5627,12 @@ msgstr "四月"
 #, fuzzy
 msgctxt "month_names_short_5"
 msgid "May"
-msgstr "可以"
+msgstr "五月"
 
 #, fuzzy
 msgctxt "month_names_short_6"
 msgid "Jun"
-msgstr "君"
+msgstr "六月"
 
 #, fuzzy
 msgctxt "month_names_short_7"
@@ -5677,7 +5677,7 @@ msgstr "二月"
 #, fuzzy
 msgctxt "month_names_long_3"
 msgid "March"
-msgstr "遊行"
+msgstr "三月"
 
 #, fuzzy
 msgctxt "month_names_long_4"
@@ -5687,7 +5687,7 @@ msgstr "四月"
 #, fuzzy
 msgctxt "month_names_long_5"
 msgid "May"
-msgstr "可以"
+msgstr "五月"
 
 #, fuzzy
 msgctxt "month_names_long_6"
@@ -5727,7 +5727,7 @@ msgstr "十二月"
 #, fuzzy
 msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
-msgstr "下次顯示PDF選項"
+msgstr "下次顯示 PDF 選項"
 
 #, fuzzy
 msgctxt "sync_errors_activity_title"
@@ -5742,10 +5742,10 @@ msgstr "關閉通知"
 #, fuzzy
 msgctxt "sync_action_nop"
 msgid "No action"
-msgstr "沒有行動"
+msgstr "不做任何事"
 
 #, fuzzy
 msgctxt "sync_action_pull_new"
 msgid "Download new"
-msgstr "下載新的"
+msgstr "下載新数据"
 
