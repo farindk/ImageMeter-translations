@@ -1037,12 +1037,12 @@ msgstr "顯示圖片標題"
 #, fuzzy
 msgctxt "dialog_image_export_size_original_image_size"
 msgid "Original image size"
-msgstr "原始影像尺寸"
+msgstr "原始图像尺寸"
 
 #, fuzzy
 msgctxt "dialog_image_export_size_custom_size"
 msgid "Custom size"
-msgstr "自定義大小"
+msgstr "自选尺寸"
 
 #, fuzzy
 msgctxt "dialog_image_export_image_quality"
@@ -1057,7 +1057,7 @@ msgstr "圖片尺寸"
 #. PDF export, fuzzy
 msgctxt "dialog_pdf_export_paper"
 msgid "Paper"
-msgstr "紙"
+msgstr "紙张尺幅"
 
 #, fuzzy
 msgctxt "dialog_pdf_export_layout"
@@ -1087,42 +1087,42 @@ msgstr "打印文件夾筆記"
 #, fuzzy
 msgctxt "pdf_export_notification_generating_pdf"
 msgid "Generating PDF file"
-msgstr "生成PDF文件"
+msgstr "生成 PDF 文件"
 
 #, fuzzy, c-format
 msgctxt "pdf_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
-msgstr "正在渲染%2$d的圖像%1$d。"
+msgstr "正在渲染 %2$d 张圖像中的第 %1$d 张。"
 
 #. - ZIP export, fuzzy
 msgctxt "dialog_zip_export_title"
 msgid "ZIP export"
-msgstr "ZIP導出"
+msgstr "ZIP 導出"
 
 #, fuzzy
 msgctxt "dialog_zip_options_show_dialog"
 msgid "Show ZIP options next time"
-msgstr "下次顯示ZIP選項"
+msgstr "下次再顯示 ZIP 選項"
 
 #, fuzzy
 msgctxt "zip_export_notification_generating_title"
 msgid "Generating ZIP file"
-msgstr "生成ZIP文件"
+msgstr "ZIP 文件生成中"
 
 #, fuzzy, c-format
 msgctxt "zip_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
-msgstr "正在渲染%2$d的圖像%1$d。"
+msgstr "正在渲染 %2$d 张圖像中的第 %1$d 张。"
 
 #, fuzzy, c-format
 msgctxt "zip_export_notification_progress_pdf_step"
 msgid "PDF image %1$d of %2$d."
-msgstr "PDF圖片%1$d，共%2$d。"
+msgstr "PDF 圖片 %1$d，共 %2$d 张。"
 
 #, fuzzy
 msgctxt "zip_export_notification_progress_compressing_step"
 msgid "Compressing ZIP file..."
-msgstr "壓縮ZIP文件..."
+msgstr "ZIP 文件压缩中..."
 
 #. dialogs
 #, fuzzy
@@ -1144,7 +1144,7 @@ msgstr "註記"
 #, fuzzy
 msgctxt "imageselect_dialog_image_name_number"
 msgid "Number"
-msgstr "數"
+msgstr "图像编号"
 
 #. Dialog: image import
 msgctxt "dialog_data_import_progress_message"
@@ -1159,7 +1159,7 @@ msgstr "導入圖像"
 #, c-format
 msgctxt "dialog_duplicate_image_import_message"
 msgid "Imported image '%1$s' already exists."
-msgstr "導入的圖像'%1$s'已存在"
+msgstr "導入的圖像 '%1$s' 已存在"
 
 msgctxt "dialog_duplicate_image_import_overwrite"
 msgid "Overwrite"
@@ -1167,7 +1167,7 @@ msgstr "覆蓋"
 
 msgctxt "dialog_duplicate_image_import_keep_both"
 msgid "Keep both"
-msgstr "兩者都要"
+msgstr "共存"
 
 msgctxt "dialog_duplicate_image_import_skip"
 msgid "Skip"
@@ -1180,12 +1180,12 @@ msgstr "導入文件夾"
 #, c-format
 msgctxt "dialog_duplicate_folder_import_message"
 msgid "Imported folder '%1$s' already exists. %3$d images should be imported, out of which %2$d already exist locally."
-msgstr "導入的文件夾'%1$s'已存在.應導入 %3$d 張圖像，其中 %2$d 張已存在."
+msgstr "導入的文件夾 '%1$s' 已存在。應導入 %3$d 張圖像，其中 %2$d 張已存在."
 
 #, c-format
 msgctxt "dialog_duplicate_folder_no_duplicate_images_import_message"
 msgid "Imported folder '%1$s' already exists, but there are no duplicate images."
-msgstr "導入的文件夾'%1$s'已存在，之中沒有重複的圖像."
+msgstr "導入的文件夾 '%1$s' 已存在，之中沒有重複的圖像."
 
 msgctxt "dialog_duplicate_folder_import_merge"
 msgid "Merge"
@@ -1197,7 +1197,7 @@ msgstr "覆蓋"
 
 msgctxt "dialog_duplicate_folder_import_keep_both"
 msgid "Keep both"
-msgstr "兩者都要"
+msgstr "共存"
 
 msgctxt "dialog_duplicate_folder_import_skip"
 msgid "Skip"
@@ -1211,12 +1211,12 @@ msgstr "需要雲登錄"
 #, fuzzy
 msgctxt "dialog_cloud_login_required_text"
 msgid "You are currently not logged into any cloud service. Please connect to your account in the preferences."
-msgstr "您當前未登錄任何云服務。請在首選項中連接到您的帳戶。"
+msgstr "您當前未登錄任何云服務。請设定您的云账户，并連接。"
 
 #, fuzzy
 msgctxt "dialog_cloud_login_open_prefs_button"
 msgid "Open cloud preferences"
-msgstr "開放雲偏好設置"
+msgstr "打开雲設置"
 
 #. Errors. TODO: check all errors in this section whether they are still
 #. required.
@@ -1226,88 +1226,88 @@ msgstr "導入的文件並非圖像!"
 
 msgctxt "imageselect_error_cannot_edit_corrupted_image"
 msgid "The .imm file for this image is corrupted. You cannot edit the image."
-msgstr "這個圖像的  .imm 文件已損壞. 你不能編輯這個圖像. "
+msgstr "這個圖像的 .imm 文件已損壞，无法被編輯。"
 
 msgctxt "imageselect_error_cannot_rename_corrupted_image"
 msgid "The .imm file for this image is corrupted. You cannot rename the image."
-msgstr "這個圖像的  .imm 文件已損壞. 你不能重命名這個圖像. "
+msgstr "這個圖像的 .imm 文件已損壞，无法重命名。 "
 
 msgctxt "imageselect_error_cannot_export_corrupted_image"
 msgid "The images with the corrupted .imm files will not be exported."
-msgstr "這些圖像的  .imm 文件已損壞，圖像不能被導出. "
+msgstr "這些圖像的 .imm 文件已損壞，无法被導出. "
 
 #, c-format
 msgctxt "imageselect_error_image_version_more_recent_open_editor_anyways"
 msgid "The file version of this image (%1$d) is more recent than the maximum version supported by the ImageMeter version installed (%2$d). Opening the file may result in lost data or wrong annotations. You should use a recent version of ImageMeter to open this file.\n\nDo you still want to open it?"
-msgstr "這張圖像被更高版本的應用編輯過 (%1$d).您正使用的圖像測量是  (%2$d).用這個版本打開該圖像可能導致圖像上的數據錯失. 建議您使用更高版本的應用來打開該文件.\n\n您確定要打開這個圖像？"
+msgstr "這張圖像 (%1$d) 被本软件的更高版本編輯過。您正使用的 ImageMeter 版本号是 (%2$d)。用本版打開該圖像可能導致圖像上的數據錯失。建議您使用本软件的更高版本來打開該文件。\n\n您確定要打開這個圖像？"
 
 msgctxt "imageselect_error_metadata_format_unknown"
 msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
-msgstr "未知文件格式， 無法讀取該圖像的元數據文件 (.imm). "
+msgstr "未知文件格式，無法讀取該圖像的元數據文件 (.imm). "
 
 msgctxt "imageselect_error_cannot_modify_readonly_folder"
 msgid "This is an essential system folder, you cannot remove or rename it."
-msgstr "這是系統文件夾，您不能將之刪除或者重命名"
+msgstr "這是系統文件夾，不能刪除或者重命名。"
 
 msgctxt "imageselect_error_cannot_move_bundle_to_folder"
 msgid "Cannot move image to new folder (maybe an image with the same name already exists)."
-msgstr "無法將圖像轉移到目標文件夾（那裡可能存在同名圖像）."
+msgstr "無法將圖像轉移到目標文件夾（那裡可能存在同名圖像）。"
 
 msgctxt "imageselect_error_external_memory_unavailable"
 msgid "External memory (where your app-data is stored) is not available. Most probably, your device stores this data on an external SD card which is currently not available. If this is not the problem in your case, you may contact imagemeter@gmail.com."
-msgstr "外部儲存介質 （即應用數據儲存之處）不可用. 很可能您的設備用來讀寫數據的外部閃存卡現在正不可用.如果不是這個問題，您可以聯繫 imagemeter@gmail.com. "
+msgstr "外部儲存介質 （即本软件數據儲存之處）不可用。很可能您的数据储存在外部闪卡中，但该閃存卡現在未加载，或者不可用。如果不是這個問題，您可以聯繫 imagemeter@gmail.com. "
 
 #, c-format
 msgctxt "imageselect_error_folder_cannot_create"
 msgid "Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure the media (e.g. SD-card) is mounted, this directory exists and is writable."
-msgstr "不能在這個文件夾  '%2$s' 內部創造文件夾 '%1$s' .請確認這個儲存介質已經加載， 並且這個文件夾存在並可寫. "
+msgstr "无法在這個文件夾 '%2$s' 內新建文件夾 '%1$s'。請確認這個儲存介質已經加載，並且该文件夾存在並可寫。"
 
 #, c-format
 msgctxt "imageselect_error_cannot_access_external_data"
 msgid "Cannot access external data at location '%1$s'."
-msgstr "無法讀寫在  '%1$s' 上的數據. "
+msgstr "無法讀寫在 '%1$s' 上的數據. "
 
 #, c-format
 msgctxt "imageselect_error_cannot_create_existing_folder"
 msgid "Cannot create folder '%1$s' because it already exists."
-msgstr "不能建立 '%1$s'， 因其已經存在. "
+msgstr "无法新建 '%1$s'，因其已存在。"
 
 #, c-format
 msgctxt "imageselect_error_folder_rename_target_exists"
 msgid "Cannot rename folder to '%1$s' because that already exists."
-msgstr "不能重命名為 '%1$s' ，因其已經存在."
+msgstr "无法更名為 '%1$s' ，因其已存在。"
 
 #, c-format
 msgctxt "imageselect_error_folder_does_not_exist_detailed"
 msgid "Folder '%1$s' does not exist anymore (expected location '%2$s')."
-msgstr "文件夾  '%1$s' 已不存在 （預計路徑為 '%2$s'）."
+msgstr "文件夾 '%1$s' 已消失（預計路徑為 '%2$s'）。"
 
 #, c-format
 msgctxt "imageselect_error_cannot_write_data_bundle"
 msgid "Cannot write data for image '%1$s'."
-msgstr "不能為圖像 '%1$s' 寫數據."
+msgstr "无法写入圖像 '%1$s' 之數據。"
 
 #, c-format
 msgctxt "imageselect_error_cannot_write_data_bundle_detailed"
 msgid "Cannot write data for image '%1$s' (at location '%2$s')."
-msgstr "不能為圖像寫數據 '%1$s' （現在路徑 '%2$s'）."
+msgstr "无法写入圖像數據 '%1$s' （目标路徑 '%2$s'）。"
 
 #, c-format
 msgctxt "imageselect_error_cannot_delete_data_bundle"
 msgid "Cannot delete image '%1$s'."
-msgstr "不能刪除文件 '%1$s'."
+msgstr "无法刪除文件 '%1$s'。"
 
 msgctxt "imageselect_error_internal_toast"
 msgid "An internal error happened. Please take a screenshot of the notification above and send this to me. Thank you!"
-msgstr "應用內部錯誤.請截屏並用電郵通知應用作者.十分感謝！"
+msgstr "软件出错。請截屏並用電郵通知软件作者。十分感謝！"
 
 msgctxt "imageselect_error_url_of_imported_file_not_found"
 msgid "Image to be imported cannot be found."
-msgstr "無法找到待導入的圖像. "
+msgstr "無法找到待導入的圖像。"
 
 msgctxt "imageselect_error_cannot_capture_with_camera"
 msgid "Cannot start external app to capture camera image. Either the device does not have a camera or your camera app does not respond to a capture request. You can still import images from the gallery or you can try to install an alternative camera app."
-msgstr "無法激活照相程序.可能您的設備不帶照相機或者您的照相程序無法應答. 您仍然可以試著從您的圖片庫導入照片， 或者安裝另一個照相程序. "
+msgstr "無法启动照相程序。可能您的設備不帶照相機或者您的照相程序無法應答。您仍然可以試著從您的圖片庫導入照片，或者安裝另一個照相程序。"
 
 #, fuzzy
 msgctxt "imageselect_error_no_image_import_activity"
@@ -1317,12 +1317,12 @@ msgstr "設備上沒有可以導入圖像的應用程序。"
 #, fuzzy
 msgctxt "imagelibrary_error_cannot_import_current_directory_is_not_valid"
 msgid "Cannot import image because the current directory is not valid."
-msgstr "由於當前目錄無效，因此無法導入圖像。"
+msgstr "當前路径無效，無法導入圖像。"
 
 #, fuzzy, c-format
 msgctxt "error_cannot_save_annotated_image"
 msgid "Cannot save annotated image because: '%1$s'."
-msgstr "無法保存帶註釋的圖像，因為：'%1$s'。"
+msgstr "無法保存帶註釋的圖像，原因：'%1$s'。"
 
 #, fuzzy, c-format
 msgctxt "error_cannot_save_thumbnail_image"
@@ -1332,12 +1332,12 @@ msgstr "由於以下原因而無法保存縮略圖：'%1$s'。"
 #, fuzzy, c-format
 msgctxt "error_cannot_access_files_in_folder"
 msgid "Cannot access files in folder '%1$s'."
-msgstr "無法訪問文件夾'%1$s'中的文件。"
+msgstr "無法訪問文件夾 '%1$s' 中的文件。"
 
 #, fuzzy, c-format
 msgctxt "error_target_folder_contains_bundle_with_same_id"
 msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
-msgstr "文件夾'%1$s'包含與圖像'%3$s'具有相同ID的圖像'%2$s'。"
+msgstr "文件夾 '%1$s' 包含與圖像 '%3$s' 具有相同ID的圖像 '%2$s'。"
 
 #, fuzzy
 msgctxt "error_cause_section_title"
@@ -1347,57 +1347,57 @@ msgstr "原因："
 #. storage errors
 msgctxt "storage_error_external_storage_unavailable"
 msgid "External storage (SD card?) not present."
-msgstr "找不到外部存儲介質."
+msgstr "外部存儲介質未加载或不存在。"
 
 msgctxt "storage_error_external_storage_read_only"
 msgid "External storage is read-only."
-msgstr "外部存儲介質只可讀."
+msgstr "外部存儲介質仅可讀。"
 
 msgctxt "storage_error_external_storage_could_not_write_file"
 msgid "Could not write file to external memory."
-msgstr "外部存儲介質寫操作失敗."
+msgstr "无法写入外部存儲介質。"
 
 msgctxt "storage_error_external_storage_could_not_get_permission_to_write_images"
 msgid "Could not get permission to write to external storage. No files have been written."
-msgstr "在外部存儲介質上無寫權限.文件尚未保存. "
+msgstr "在外部存儲介質上無寫入權限，文件尚未保存。"
 
 #, c-format
 msgctxt "storage_error_cannot_create_directory_on_external_storage"
 msgid "Could not create directory '%1$s' on external storage."
-msgstr "無法在外部存儲介質  '%1$s' 上創建目錄."
+msgstr "無法在外部存儲介質 '%1$s' 上創建目錄。"
 
 msgctxt "storage_error_external_storage_destination_is_no_directory"
 msgid "External storage destination is not a directory."
-msgstr "存儲目的地不是一個目錄."
+msgstr "存儲目的地不是一個目錄。"
 
 #, c-format
 msgctxt "storage_error_data_bundle_corrupted"
 msgid "Data in image directory '%1$s' is corrupted."
-msgstr "文件夾 '%1$s' 中的圖像文件數據已損壞. "
+msgstr "图像文件夾 '%1$s' 中的數據已損壞。"
 
 msgctxt "storage_error_no_permission_to_read_image_to_be_imported"
 msgid "Cannot import image because the permission to read external storage has not been granted."
-msgstr "無法導入圖像.因為該外部儲存介質尚未授予您讀取權限."
+msgstr "在外存中无读取权限，無法導入圖像。"
 
 #, fuzzy, c-format
 msgctxt "storage_error_cannot_read_ifd_file"
 msgid "Cannot read IFD file in folder '%1$s'."
-msgstr "無法讀取文件夾'%1$s'中的IFD文件。"
+msgstr "無法讀取文件夾 '%1$s' 中的IFD文件。"
 
 #, fuzzy, c-format
 msgctxt "error_cannot_open_file_does_not_exist"
 msgid "Cannot open file '%1$s' because it does not exist."
-msgstr "無法打開文件'%1$s'，因為它不存在。"
+msgstr "無法打開文件 '%1$s'，因它不存在。"
 
 #, fuzzy, c-format
 msgctxt "error_cannot_open_file_is_folder"
 msgid "Cannot open file '%1$s' because it is a folder."
-msgstr "無法打開文件'%1$s'，因為它是文件夾。"
+msgstr "無法打開文件 '%1$s'，因它是文件夾。"
 
 #, fuzzy, c-format
 msgctxt "error_cannot_write_file"
 msgid "Cannot write to file '%1$s'."
-msgstr "無法寫入文件'%1$s'。"
+msgstr "無法寫入文件 '%1$s'。"
 
 #, fuzzy
 msgctxt "storage_error_cannot_load_image_file_from_remote"
@@ -1407,75 +1407,75 @@ msgstr "無法從雲存儲加載圖像文件。"
 #, fuzzy
 msgctxt "storage_note_pulling_image_file_from_remote"
 msgid "Downloading image file from cloud storage."
-msgstr "從雲存儲下載圖像文件。"
+msgstr "正在從雲存儲下載圖像文件。"
 
 #. filesystem errors, fuzzy
 msgctxt "error_cannot_delete_file"
 msgid "Cannot delete file '{}'."
-msgstr "無法刪除文件“ {}”。"
+msgstr "無法刪除文件 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_files_cannot_read_file"
 msgid "Cannot read file '{}'."
-msgstr "無法讀取文件“ {}”。"
+msgstr "無法讀取文件 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_files_cannot_write_file"
 msgid "Cannot write file '{}'."
-msgstr "無法寫入文件“ {}”。"
+msgstr "無法寫入文件 '{}'。"
 
 #, fuzzy
 msgctxt "error_cannot_rename_file"
 msgid "Cannot rename file '{0}' to '{1}'."
-msgstr "無法將文件“ {0}”重命名為“ {1}”。"
+msgstr "無法將文件 '{0}' 更名為 '{1}'。"
 
 #, fuzzy
 msgctxt "imerror_files_file_does_not_exist"
 msgid "File does not exist: \"{}\"."
-msgstr "文件不存在： ”{}”。"
+msgstr "文件不存在：\"{}\"。"
 
 #, fuzzy
 msgctxt "imerror_files_file_cannot_be_opened"
 msgid "Cannot open file \"{}\"."
-msgstr "不能打開文件 ”{}”。"
+msgstr "无法打開文件 \"{}\"。"
 
 #, fuzzy
 msgctxt "imerror_files_cannot_create_directory"
 msgid "Cannot create directory \"{}\"."
-msgstr "無法創建目錄“ {}”。"
+msgstr "無法創建目錄 \"{}\"。"
 
 #, fuzzy
 msgctxt "imerror_files_directory_does_not_exist"
 msgid "Directory '{}' does not exist."
-msgstr "目錄“ {}”不存在。"
+msgstr "目錄 '{}' 不存在。"
 
 msgctxt "imageselect_error_cannot_rename_folder"
 msgid "Cannot rename folder '{0}' to '{1}'."
-msgstr "不能將 '{0}' 重命名為 '{1}'."
+msgstr "无法將 '{0}' 更名為 '{1}'。"
 
 msgctxt "imageselect_error_folder_cannot_delete"
 msgid "Cannot delete folder '{}'."
-msgstr "不能刪除文件夾 '{}'."
+msgstr "无法刪除文件夾 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_files_cannot_read_directory"
 msgid "Cannot read directory '{}'."
-msgstr "無法讀取目錄“ {}”。"
+msgstr "無法讀取目錄 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_files_cannot_copy_directory"
 msgid "Cannot copy directory '{}'."
-msgstr "無法複製目錄“ {}”。"
+msgstr "無法複製目錄 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_files_errno"
 msgid "OS error: '{}'."
-msgstr "操作系統錯誤：“ {}”。"
+msgstr "操作系統錯誤：'{}'。"
 
 #, fuzzy
 msgctxt "imerror_files_cannot_generate_unique_filename"
 msgid "Cannot generate unique filename: '{}'."
-msgstr "無法生成唯一的文件名：“ {}”。"
+msgstr "無法生成唯一的文件名：'{}'。"
 
 #, fuzzy
 msgctxt "error_files_locked"
@@ -1485,12 +1485,12 @@ msgstr "文件正在使用中。"
 #. used in PrefsStorageDirectory, fuzzy
 msgctxt "imerror_cannot_lock_file_read"
 msgid "Cannot read file '{}' because it is currently being modified."
-msgstr "無法讀取文件“ {}”，因為當前正在對其進行修改。"
+msgstr "無法讀取文件 '{}'，因為正在對其進行修改。"
 
 #, fuzzy
 msgctxt "imerror_cannot_lock_file_write"
 msgid "Cannot modify file '{}' because it is currently in use."
-msgstr "由於文件'{}'當前正在使用中，因此無法對其進行修改。"
+msgstr "文件 '{}' 正在使用中，無法修改。"
 
 #. image library errors, fuzzy
 msgctxt "imerror_library_no_library_directory_defined"
@@ -1505,152 +1505,152 @@ msgstr "無法清除已刪除的圖像。"
 #. entity level errors, fuzzy
 msgctxt "imerror_projectfolder_cannot_create"
 msgid "Cannot create folder '{}'."
-msgstr "無法創建文件夾“ {}”。"
+msgstr "無法創建文件夾 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_projectfolder_cannot_write_ifd"
 msgid "Cannot write IFD file for folder '{}'."
-msgstr "無法為文件夾“ {}”寫入IFD文件。"
+msgstr "無法為文件夾 '{}' 寫 IFD 文件。"
 
 #, fuzzy
 msgctxt "imerror_projectfolder_cannot_load_folder"
 msgid "Cannot load folder '{}'."
-msgstr "無法加載文件夾“ {}”。"
+msgstr "無法加載文件夾 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_projectfolder_multiple_ifd_files"
 msgid "More than one IFD file found."
-msgstr "找到多個IFD文件。"
+msgstr "找到多個 IFD 文件。"
 
 #, fuzzy
 msgctxt "imerror_projectfolder_ifd_parse_error"
 msgid "IFD file parse error."
-msgstr "IFD文件解析錯誤。"
+msgstr "IFD 文件解析錯誤。"
 
 #, fuzzy
 msgctxt "imerror_databundle_cannot_load_data_bundle"
 msgid "Cannot load image '{}'."
-msgstr "無法加載圖片“ {}”。"
+msgstr "無法加載圖片 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_databundle_cannot_create"
 msgid "Cannot create new image '{}'."
-msgstr "無法創建新圖像“ {}”。"
+msgstr "無法創建新圖像 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_databundle_cannot_write_imm"
 msgid "Cannot write IMM file for image '{}'."
-msgstr "無法為圖像“ {}”寫入IMM文件。"
+msgstr "無法為圖像 '{}' 寫 IMM 文件。"
 
 #, fuzzy
 msgctxt "imerror_databundle_cannot_delete"
 msgid "Cannot delete image '{}'."
-msgstr "無法刪除圖像“ {}”。"
+msgstr "無法刪除圖像 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_databundle_cannot_rename_folder"
 msgid "Cannot rename directory of image '{}'."
-msgstr "無法重命名圖像“ {}”的目錄。"
+msgstr "無法为圖像 '{}' 的目录更名。"
 
 #, fuzzy
 msgctxt "imerror_databundle_multiple_imm_files"
 msgid "More than one IMM file found."
-msgstr "找到多個IMM文件。"
+msgstr "找到多個 IMM 文件。"
 
 #, fuzzy
 msgctxt "imerror_databundle_cannot_open"
 msgid "Cannot open image \"{}\"."
-msgstr "無法打開圖像“ {}”。"
+msgstr "無法打開圖像 \"{}\"。"
 
 #, fuzzy
 msgctxt "imerror_databundle_cannot_read_imm_file"
 msgid "Cannot read IMM file."
-msgstr "無法讀取IMM文件。"
+msgstr "無法讀取 IMM 文件。"
 
 #, fuzzy
 msgctxt "imerror_databundle_cannot_get_content_area"
 msgid "Unknown content area."
-msgstr "未知內容區域。"
+msgstr "所示区域面积未知。"
 
 #, fuzzy
 msgctxt "imerror_databundle_imm_parse_error"
 msgid "IMM file parse error ({})."
-msgstr "IMM文件解析錯誤（{}）。"
+msgstr "IMM 文件解析錯誤（{}）。"
 
 #, fuzzy
 msgctxt "imerror_entity_cannot_move"
 msgid "Cannot move '{}' to new directory."
-msgstr "無法將“ {}”移動到新目錄。"
+msgstr "無法將 '{}' 移入新目錄。"
 
 #, fuzzy
 msgctxt "imerror_entity_numbering_invalid_number"
 msgid "Invalid number: '{}'."
-msgstr "無效號碼： '{}'。"
+msgstr "無效號碼：'{}'。"
 
 #. logic level errors, fuzzy
 msgctxt "imerror_delete_logic_cannot_delete"
 msgid "Cannot delete folder '{}'."
-msgstr "無法刪除文件夾“ {}”。"
+msgstr "無法刪除文件夾 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_delete_logic_cannot_mark_as_deleted"
 msgid "Cannot mark folder '{}' as deleted."
-msgstr "無法將文件夾“ {}”標記為已刪除。"
+msgstr "無法將文件夾 '{}' 標記為已刪除。"
 
 #. import/export errors, fuzzy
 msgctxt "imerror_unknown_file_format"
 msgid "File '{}' has unknown format."
-msgstr "文件'{}'的格式未知。"
+msgstr "文件 '{}' 的格式未知。"
 
 #, fuzzy
 msgctxt "imerror_cannot_create_imi_file"
 msgid "Cannot create IMI file '{}'."
-msgstr "無法創建IMI文件“ {}”。"
+msgstr "無法創建 IMI 文件 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_cannot_export_image"
 msgid "Cannot export image '{}'."
-msgstr "無法導出圖像“ {}”。"
+msgstr "無法導出圖像 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_imf_corrupted_file"
 msgid "Corrupted IMF file."
-msgstr "IMF文件損壞。"
+msgstr "IMF 文件損壞。"
 
 #, fuzzy
 msgctxt "imerror_ifd_parse_error"
 msgid "IFD file parse error."
-msgstr "IFD文件解析錯誤。"
+msgstr "IFD 文件解析錯誤。"
 
 #, fuzzy
 msgctxt "imerror_imi_cannot_open"
 msgid "Cannot open IMI file '{}'."
-msgstr "無法打開IMI文件“ {}”。"
+msgstr "無法打開 IMI 文件 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_imf_cannot_read_zip"
 msgid "Corrupted ZIP file \"{}\"."
-msgstr "ZIP文件“ {}”已損壞。"
+msgstr "ZIP 文件 '{}' 已損壞。"
 
 #, fuzzy
 msgctxt "imerror_zip_error"
 msgid "ZIP error: {}"
-msgstr "ZIP錯誤：{}"
+msgstr "ZIP 錯誤：{}"
 
 #, fuzzy
 msgctxt "imerror_zip_read_error"
 msgid "Error reading ZIP file."
-msgstr "讀取ZIP文件時出錯。"
+msgstr "讀取 ZIP 文件時出錯。"
 
 #, fuzzy
 msgctxt "imerror_cannot_generate_pdf"
 msgid "Cannot generate PDF"
-msgstr "無法生成PDF"
+msgstr "無法生成 PDF"
 
 #, fuzzy
 msgctxt "imerror_libharu"
 msgid "LibHARU error: \"{}\""
-msgstr "LibHARU錯誤：“ {}”"
+msgstr "LibHARU 錯誤：\"{}\""
 
 #. image reader/writer errors, fuzzy
 msgctxt "imerror_imagereader_cannot_read_image"
@@ -1660,7 +1660,7 @@ msgstr "無法讀取圖像文件。"
 #, fuzzy
 msgctxt "imerror_imagereader_reader_error"
 msgid "Image reader error."
-msgstr "圖像讀取器錯誤。"
+msgstr "圖像载入錯誤。"
 
 #, fuzzy
 msgctxt "imerror_imagereader_corrupted_image"
@@ -1675,32 +1675,32 @@ msgstr "不支持的圖像格式。"
 #, fuzzy
 msgctxt "imerror_libjpeg_error"
 msgid "LibJPEG error: \"{}\"."
-msgstr "LibJPEG錯誤：“ {}”。"
+msgstr "LibJPEG錯誤：\"{}\"。"
 
 #, fuzzy
 msgctxt "imerror_cannot_read_texture"
 msgid "Cannot read texture '{}'."
-msgstr "無法讀取紋理“ {}”。"
+msgstr "無法讀取紋理 '{}'。"
 
 #. rendering errors, fuzzy
 msgctxt "imerror_cannot_render_image"
 msgid "Cannot render image \"{}\"."
-msgstr "無法呈現圖像“ {}”。"
+msgstr "無法呈現纹理 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_opengl"
 msgid "OpenGL error: \"{}\"."
-msgstr "OpenGL錯誤：“ {}”。"
+msgstr "OpenGL 錯誤：\"{}\"。"
 
 #. other errors, fuzzy
 msgctxt "imerror_out_of_memory"
 msgid "Out of memory."
-msgstr "記不清。"
+msgstr "内存不足。"
 
 #, fuzzy
 msgctxt "imerror_out_of_memory_with_size"
 msgid "Out of memory (cannot allocate {} bytes)."
-msgstr "內存不足（無法分配{}個字節）。"
+msgstr "內存不足（無法储存 {} 個字節）。"
 
 #. string name="imerror_databundle_cannot_find_imm_file">Cannot find the .imm, fuzzy
 #. file.</string
@@ -1716,12 +1716,12 @@ msgstr "無法刪除未使用的輔助數據文件。"
 #, fuzzy
 msgctxt "imerror_gtext_cannot_add_detail_image"
 msgid "Cannot add the detail image \"{}\"."
-msgstr "無法添加細節圖像“ {}”。"
+msgstr "無法添加細節圖像 \"{}\"。"
 
 #, fuzzy
 msgctxt "imerror_gtext_cannot_add_audio_recording"
 msgid "Cannot add audio recording \"{}\"."
-msgstr "無法添加錄音“ {}”。"
+msgstr "無法添加錄音 \"{}\"。"
 
 #, fuzzy
 msgctxt "imerror_editcore_cannot_read_background_image"
@@ -1756,42 +1756,42 @@ msgstr "未定義數據根目錄。"
 #, fuzzy
 msgctxt "imerror_string_template_unknown_field"
 msgid "Unknown field '{}' in string template."
-msgstr "字符串模板中的未知字段“ {}”。"
+msgstr "字符模板中有未知字段 '{}'。"
 
 #, fuzzy
 msgctxt "imerror_string_template_syntax_error"
 msgid "Syntax error in string template '{}'."
-msgstr "字符串模板“ {}”中的語法錯誤。"
+msgstr "字符模板 '{}' 中有語法錯誤。"
 
 #. android specific errors, fuzzy
 msgctxt "imerror_android_external_directory_not_mounted"
 msgid "External directory is not mounted."
-msgstr "未安裝外部目錄。"
+msgstr "未加载外部目錄。"
 
 #, fuzzy
 msgctxt "imerror_android_needs_storage_permission"
 msgid "Access to directory '{}' needs the Storage permission."
-msgstr "訪問目錄“ {}”需要存儲權限。"
+msgstr "目錄 '{}' 需要访问權限。"
 
 #, fuzzy
 msgctxt "imerror_android_import_security_exception"
 msgid "Security exception when accessing URI '{}'."
-msgstr "訪問URI'{}'時的安全異常。"
+msgstr "訪問地址 '{}' 時发生安全異常。"
 
 #. cloud storage, fuzzy
 msgctxt "pref_cloud_storage_server_none"
 msgid "None"
-msgstr "沒有"
+msgstr "无"
 
 #, fuzzy
 msgctxt "pref_cloud_storage_server_drive"
 msgid "Google Drive"
-msgstr "Google雲端硬碟"
+msgstr "Google Drive"
 
 #, fuzzy
 msgctxt "pref_cloud_storage_server_dropbox"
 msgid "Dropbox"
-msgstr "投寄箱"
+msgstr "Dropbox"
 
 #, fuzzy
 msgctxt "pref_cloud_storage_server_nextcloud"
@@ -1801,7 +1801,7 @@ msgstr "Nextcloud / Owncloud"
 #, fuzzy
 msgctxt "pref_cloud_storage_server_onedrive"
 msgid "OneDrive"
-msgstr "一個驅動器"
+msgstr "OneDrive"
 
 #, fuzzy
 msgctxt "pref_cloud_storage_server_handwerkcloud"
@@ -1811,12 +1811,12 @@ msgstr "Handwerkcloud"
 #, fuzzy
 msgctxt "cloud_storage_provider_googledrive"
 msgid "Google Drive"
-msgstr "Google雲端硬碟"
+msgstr "Google Drive"
 
 #, fuzzy
 msgctxt "cloud_storage_provider_dropbox"
 msgid "Dropbox"
-msgstr "投寄箱"
+msgstr "Dropbox"
 
 #, fuzzy
 msgctxt "cloud_storage_provider_nextcloud"
@@ -1872,7 +1872,7 @@ msgstr "注意事項："
 #, fuzzy
 msgctxt "cloud_storage_notice_text"
 msgid "Before setting up cloud storage, you should read the <a href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a> to avoid pitfalls."
-msgstr "在設置雲存儲之前，您應該閱讀<a href=\"https://www.imagemeter.com/manual/storage/cloud\">文檔</a>，以避免出現陷阱。"
+msgstr "在設置雲存儲之前，请您閱讀<a href=\"https://www.imagemeter.com/manual/storage/cloud\">说明文檔</a>，以避免问题。"
 
 #. string name="cloud_storage_notice_text">Cloud storage can be used in two, fuzzy
 #. ways.\nIn <b>share</b> mode, images on your device are mirrored to the
@@ -1883,22 +1883,22 @@ msgstr "在設置雲存儲之前，您應該閱讀<a href=\"https://www.imagemet
 #. href="https://www.imagemeter.com/manual/storage/cloud">documentation</a>.</string
 msgctxt "cloud_storage_server_note_drive"
 msgid "<b>Note:</b> the Google Drive backend does not allow access to shared folders yet. Hence, you can share images between devices when they use the same Google account, but not between devices using different accounts."
-msgstr "<b>注意：</b> Google雲端硬盤後端尚不允許訪問共享文件夾。因此，當設備使用相同的Google帳戶時，您可以在設備之間共享圖像，但不能在使用不同帳戶的設備之間共享圖像。"
+msgstr "<b>注意：</b> Google Drive 的後端尚不允許訪問共享文件夾。因此，當設備使用相同的 Google 帳戶時，您可以在設備之間共享圖像，但不能在使用不同帳戶的設備之間共享圖像。"
 
 #, fuzzy
 msgctxt "cloud_storage_server_note_dropbox"
 msgid "The Dropbox backend also supports sharing your images with other Dropbox users. See the documentation at the link above how to set this up."
-msgstr "Dropbox後端還支持與其他Dropbox用戶共享圖像。請參閱上方鏈接上的文檔以進行設置。"
+msgstr "Dropbox 後端還支持與其他 Dropbox 用戶共享圖像。請參閱上方鏈接上的文檔以進行設置。"
 
 #, fuzzy
 msgctxt "cloud_storage_server_note_nextcloud"
 msgid "This backend allows you to use your own, private cloud server to host the images. You can set-up your own users and shared folders. Information how to set-up a server can be found at the documentation link above."
-msgstr "通過此後端，您可以使用自己的私有云服務器來託管映像。您可以設置自己的用戶和共享文件夾。可以在上面的文檔鏈接中找到有關如何設置服務器的信息。"
+msgstr "通過此後端，您可以使用自己的私有云服務器來託管图片。您可以設置自己的用戶和共享文件夾。可以在上面的文檔鏈接中找到有關如何設置服務器的信息。"
 
 #, fuzzy
 msgctxt "cloud_storage_server_note_handwerkcloud"
 msgid "The Handwerkcloud service offers not only storage space for your images and documents, but also an online office suite and other applications. A Handwerkcloud subscription includes an ImageMeter Business license. For more information see the <a href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
-msgstr "Handwerkcloud服務不僅為您的圖像和文檔提供存儲空間，而且還提供在線辦公套件和其他應用程序。 Handwerkcloud訂閱包括ImageMeter企業許可證。有關更多信息，請參見<a href=\"https://handwerkcloud.de\"> Handwerkcloud網站</a>。"
+msgstr "Handwerkcloud 服務不僅為您的圖像和文檔提供存儲空間，而且還提供在線辦公套件和其他應用程序。Handwerkcloud 訂閱包括 ImageMeter 企業版許可證。有關更多信息，請參見<a href=\"https://handwerkcloud.de\"> Handwerkcloud 網站</a>。"
 
 #, fuzzy
 msgctxt "cloud_storage_account"
@@ -1938,7 +1938,7 @@ msgstr "下載"
 #, fuzzy
 msgctxt "cloud_storage_sync_action_download_changes"
 msgid "Download changes"
-msgstr "下載更改"
+msgstr "下載变更"
 
 #, fuzzy
 msgctxt "cloud_storage_sync_action_upload"
@@ -1953,7 +1953,7 @@ msgstr "上載變更"
 #, fuzzy
 msgctxt "cloud_storage_sync_action_delete_on_device"
 msgid "Delete on device"
-msgstr "在設備上刪除"
+msgstr "从設備刪除"
 
 #, fuzzy
 msgctxt "cloud_storage_sync_action_delete_on_server"
@@ -1963,47 +1963,47 @@ msgstr "在服務器上刪除"
 #, fuzzy
 msgctxt "cloud_storage_sync_action_skip"
 msgid "Skip"
-msgstr "跳躍"
+msgstr "跳过"
 
 #, fuzzy
 msgctxt "cloud_sync_notification_title"
 msgid "Cloud synchronization in progress…"
-msgstr "正在進行云同步…"
+msgstr "正在進行云同步……"
 
 #, fuzzy
 msgctxt "cloud_scan_notification_title"
 msgid "Scanning cloud server content"
-msgstr "掃描雲服務器內容"
+msgstr "检索雲服務器上的內容"
 
 #, fuzzy, c-format
 msgctxt "cloud_scan_notification_content_no_error"
 msgid "%1$d images, %2$d folders found. %3$d items left."
-msgstr "找到%1$d張圖片，找到%2$d個文件夾。還剩%3$d個項目。"
+msgstr "找到 %1$d 張圖片，%2$d 個文件夾。還剩 %3$d 個項目。"
 
 #, fuzzy, c-format
 msgctxt "cloud_scan_notification_content_with_error"
 msgid "%1$d images, %2$d folders found. %3$d items left, %4$d errors."
-msgstr "找到%1$d張圖片，找到%2$d個文件夾。還剩%3$d個項目，%4$d個錯誤。"
+msgstr "找到 %1$d 張圖片，找到 %2$d 個文件夾。還剩 %3$d 個項目，%4$d 個錯誤。"
 
 #, fuzzy, c-format
 msgctxt "cloud_sync_notification_content_no_error"
 msgid "%1$d items synced, %2$d items left."
-msgstr "已同步%1$d個項目，還剩%2$d個項目。"
+msgstr "已同步 %1$d 笔数据，還剩 %2$d 笔数据。"
 
 #, fuzzy, c-format
 msgctxt "cloud_sync_notification_content_with_error"
 msgid "%1$d items synced, %2$d items left. %3$d errors."
-msgstr "已同步%1$d個項目，還剩%2$d個項目。 %3$d個錯誤。"
+msgstr "已同步 %1$d 笔数据，還剩 %2$d 笔数据。 %3$d 個錯誤。"
 
 #, fuzzy
 msgctxt "cloud_progress_check_server"
 msgid "Checking server content."
-msgstr "檢查服務器內容。"
+msgstr "正在檢查服務器內容。"
 
 #, fuzzy
 msgctxt "cloud_progress_cleanup_server"
 msgid "Cleaning up server."
-msgstr "清理服務器。"
+msgstr "正在清理服務器中内容。"
 
 #, fuzzy
 msgctxt "cloud_progress_will_cancel"
@@ -2018,7 +2018,7 @@ msgstr "雲存儲維護"
 #, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_description"
 msgid "<b>Remove server lock</b> - In order to prevent simultaneous access to the data on the cloud server, it is locked during the sync process. In case of some errors, e.g. network failures, it may be that the server remains locked. The locks time-out automatically after a few minutes, but you can also manually remove them immediately if you know for sure that it is an error."
-msgstr "<b>刪除服務器鎖定</b>-為了防止同時訪問云服務器上的數據，在同步過程中將其鎖定。如果出現某些錯誤，例如網絡故障，可能是服務器保持鎖定狀態。鎖定會在幾分鐘後自動超時，但是如果您確定是錯誤的話，也可以立即手動將其刪除。"
+msgstr "<b>刪除服務器鎖定</b>——為了防止同時訪問云服務器上的數據，在同步過程中將其鎖定。如果出現某些錯誤，例如網絡故障，可能是服務器正鎖定中。鎖定會在幾分鐘後自動超時，如果您確定发生錯誤，也可以立即手動將其刪除。"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_button"
@@ -2028,7 +2028,7 @@ msgstr "解除服務器鎖定"
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_description"
 msgid "<b>Reset server cache</b> - The cloud server maintains a cache of images stored on them. If you delete or add files manually on the server, this is not seen by the cache. You may reset the server cache to run a full scan during the next sync. However, note that a full scan may take a long time if you have many images."
-msgstr "<b>重置服務器緩存</b>-雲服務器維護存儲在其上的圖像的緩存。如果您在服務器上手動刪除或添加文件，則緩存不會看到。您可以重置服務器緩存以在下一次同步期間運行完整掃描。但是，請注意，如果您有很多圖像，則完整掃描可能會花費很長時間。"
+msgstr "<b>重置服務器緩存</b>——雲服務器上的圖像有緩存。在服務器上手動刪除或添加的文件，不會被缓存捕捉。您可以重置服務器緩存以在下一次同步时運行完整掃描。請注意，如果您有很多圖像，則完整掃描可能持续很久。"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_button"
@@ -2038,7 +2038,7 @@ msgstr "重置服務器緩存"
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_description"
 msgid "<b>Reset sync state</b> - The next sync will start with no preknowledge about the data on each side. This means, e.g., that locally deleted images will be downloaded again from the server instead of being deleted on the server. There are few cases where resetting the stored sync state is needed."
-msgstr "<b>重置同步狀態</b>-下次同步將開始，並且不了解每一側的數據。例如，這意味著本地刪除的圖像將再次從服務器下載，而不是在服務器上刪除。在少數情況下，需要重置存儲的同步狀態。"
+msgstr "<b>重置同步狀態</b>——下次同步时，双方完全陌生如初见。這意味著本地刪除的圖像將再次從服務器下載，而不是在服務器上刪除。在少數情況下，需要重置存儲的同步狀態。"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_button"
@@ -2053,22 +2053,22 @@ msgstr "雲服務器維護"
 #, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_notifcation_progress_text"
 msgid "Removing cloud server lock…"
-msgstr "解除雲端伺服器鎖定…"
+msgstr "正在解除雲端伺服器鎖定……"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_notifcation_result_title"
 msgid "Removing cloud server lock"
-msgstr "刪除雲服務器鎖"
+msgstr "解除雲服務器鎖定"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_ok"
 msgid "Successfully removed server lock."
-msgstr "成功刪除服務器鎖。"
+msgstr "成功解除服務器鎖定。"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_error_no_lock"
 msgid "There was no server lock."
-msgstr "沒有服務器鎖定。"
+msgstr "服務器未被鎖定。"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_error"
