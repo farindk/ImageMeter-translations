@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-10 13:28+0200\n"
+"POT-Creation-Date: 2020-04-19 16:41+0200\n"
 "PO-Revision-Date: 2020-03-21 14:58+0100\n"
 "Last-Translator: \n"
 "Language: fa\n"
@@ -89,6 +89,10 @@ msgctxt "notification_channel_background_processing_title"
 msgid "Background processing"
 msgstr ""
 
+msgctxt "notification_channel_offscreen_rendering_title"
+msgid "Image rendering"
+msgstr ""
+
 msgctxt "notification_channel_error_messages_title"
 msgid "Error messages"
 msgstr ""
@@ -107,6 +111,10 @@ msgstr ""
 
 msgctxt "notification_error_importing_file_title"
 msgid "Error importing file"
+msgstr ""
+
+msgctxt "notification_rendering_precomputed_image_title"
+msgid "Rendering image"
 msgstr ""
 
 msgctxt "notification_save_to_gallery_title"
@@ -522,6 +530,10 @@ msgctxt "license_source_pro_key_app"
 msgid "Pro-key app"
 msgstr ""
 
+msgctxt "license_source_volume_key"
+msgid "Volume key"
+msgstr ""
+
 #, c-format
 msgctxt "navigation_drawer_license"
 msgid "License: %1$s"
@@ -530,6 +542,16 @@ msgstr ""
 #, c-format
 msgctxt "navigation_drawer_version"
 msgid "Version: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "navigation_drawer_owner"
+msgid "Owner: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "navigation_drawer_user"
+msgid "User: %1$s"
 msgstr ""
 
 #, c-format
@@ -617,6 +639,10 @@ msgctxt "upgrade_dialog_button_back"
 msgid "Back"
 msgstr ""
 
+msgctxt "upgrade_dialog_button_volume_license"
+msgid "Enter volume license code"
+msgstr ""
+
 #, fuzzy
 msgctxt "editor_error_nonpro_gelement_limit_message"
 msgid ""
@@ -650,6 +676,31 @@ msgstr "بعدا"
 
 msgctxt "tpool_locked_by_android_editor"
 msgid "editor"
+msgstr ""
+
+#. licensing: volume key dialog
+msgctxt "licensing_volume_key_title"
+msgid "Volume key"
+msgstr ""
+
+msgctxt "licensing_volume_key_description"
+msgid "Please enter your key:"
+msgstr ""
+
+msgctxt "licensing_volume_key_send_button"
+msgid "Send"
+msgstr ""
+
+msgctxt "licensing_volume_key_error_parse_server_response"
+msgid "Error parsing server response."
+msgstr ""
+
+msgctxt "licensing_volume_key_error_invalid_license_code"
+msgid "Invalid license code."
+msgstr ""
+
+msgctxt "licensing_volume_key_success"
+msgid "License activated"
 msgstr ""
 
 #. in-app payment
@@ -934,6 +985,10 @@ msgctxt "dialog_image_export_options_show_dialog"
 msgid "Show export options next time"
 msgstr ""
 
+msgctxt "dialog_image_export_use_default_options"
+msgid "Use default export options"
+msgstr ""
+
 msgctxt "dialog_image_export_image_format"
 msgid "Image format"
 msgstr ""
@@ -964,6 +1019,10 @@ msgstr ""
 
 msgctxt "dialog_image_export_image_size"
 msgid "Image size"
+msgstr ""
+
+msgctxt "image_export_default_settings"
+msgid "Default image export settings"
 msgstr ""
 
 #. PDF export
@@ -1686,6 +1745,10 @@ msgctxt "pref_cloud_storage_server_handwerkcloud"
 msgid "Handwerkcloud"
 msgstr ""
 
+msgctxt "pref_cloud_storage_server_imagemeter_predefined"
+msgid "ImageMeter"
+msgstr ""
+
 msgctxt "cloud_storage_provider_googledrive"
 msgid "Google Drive"
 msgstr ""
@@ -1702,6 +1765,43 @@ msgstr ""
 #. %2$s</string
 msgctxt "cloud_storage_base_directory"
 msgid "Data directory:"
+msgstr ""
+
+msgctxt "cloud_storage_anno_base_directory"
+msgid "Image directory:"
+msgstr ""
+
+msgctxt "cloud_storage_do_two_way_sync"
+msgid "Do two-way sync"
+msgstr ""
+
+msgctxt "cloud_storage_do_image_upload_sync"
+msgid "Do image upload"
+msgstr ""
+
+msgctxt "cloud_storage_two_way_info_title"
+msgid "Two-way sync"
+msgstr ""
+
+msgctxt "cloud_storage_two_way_info_text"
+msgid ""
+"The two-way sync is for exchanging data between multiple devices. The "
+"data it stores on the cloud storage is for internal use only. Do not "
+"modify the data stored on the cloud server manually!"
+msgstr ""
+
+msgctxt "cloud_storage_image_upload_info_title"
+msgid "Image upload"
+msgstr ""
+
+msgctxt "cloud_storage_image_upload_info_text"
+msgid ""
+"The image upload option stores the measured images on the cloud server. "
+"This is the right option if you want to access your images from your "
+"office PC.\n"
+"This option cannot be used to exchange data between mobile devices. In "
+"fact, you should not sync to the same cloud image directory from several "
+"devices."
 msgstr ""
 
 msgctxt "cloud_storage_server_url"
@@ -2767,6 +2867,17 @@ msgctxt "pref_export_show_format_selection_summary_off"
 msgid "Selected format will be used always"
 msgstr ""
 
+msgctxt "pref_export_default_image_export_options"
+msgid "Default image export options…"
+msgstr ""
+
+#. <string
+#. name="pref_export_precompute_image_with_default_options">Precompute image
+#. with default export options</string>     <string
+#. name="pref_export_precompute_image_with_default_options_summary_on">Yes,
+#. faster export</string>     <string
+#. name="pref_export_precompute_image_with_default_options_summary_off">Yes,
+#. faster export</string>
 msgctxt "pref_category_export_format_and_rendering"
 msgid "Format and rendering"
 msgstr ""
@@ -2901,6 +3012,10 @@ msgstr "جهت صفحۀ پی دی اف"
 
 msgctxt "pref_export_pdf_print_density"
 msgid "Resolution"
+msgstr ""
+
+msgctxt "pref_export_pdf_output_resolution_default"
+msgid "Default"
 msgstr ""
 
 msgctxt "pref_export_pdf_paper_orientation_choices:0"
@@ -3683,6 +3798,10 @@ msgstr ""
 
 msgctxt "cloud_storage_default_base_path"
 msgid "ImageMeter"
+msgstr ""
+
+msgctxt "cloud_storage_default_anno_base_path"
+msgid "ImageMeter-Measures"
 msgstr ""
 
 #. editor

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-10 13:28+0200\n"
+"POT-Creation-Date: 2020-04-19 16:41+0200\n"
 "PO-Revision-Date: 2020-04-06 13:44+0200\n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -89,6 +89,10 @@ msgctxt "notification_channel_background_processing_title"
 msgid "Background processing"
 msgstr "Traitement en arrière-plan"
 
+msgctxt "notification_channel_offscreen_rendering_title"
+msgid "Image rendering"
+msgstr ""
+
 msgctxt "notification_channel_error_messages_title"
 msgid "Error messages"
 msgstr "Messages d'erreur"
@@ -108,6 +112,10 @@ msgstr "Erreur lors de l'importation de l'image"
 msgctxt "notification_error_importing_file_title"
 msgid "Error importing file"
 msgstr "Erreur lors de l'importation du fichier"
+
+msgctxt "notification_rendering_precomputed_image_title"
+msgid "Rendering image"
+msgstr ""
 
 msgctxt "notification_save_to_gallery_title"
 msgid "Saving to gallery"
@@ -517,6 +525,10 @@ msgctxt "license_source_pro_key_app"
 msgid "Pro-key app"
 msgstr "Application Pro-key"
 
+msgctxt "license_source_volume_key"
+msgid "Volume key"
+msgstr ""
+
 #, c-format
 msgctxt "navigation_drawer_license"
 msgid "License: %1$s"
@@ -526,6 +538,16 @@ msgstr "Licence: %1$s"
 msgctxt "navigation_drawer_version"
 msgid "Version: %1$s"
 msgstr "Version: %1$s"
+
+#, c-format
+msgctxt "navigation_drawer_owner"
+msgid "Owner: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "navigation_drawer_user"
+msgid "User: %1$s"
+msgstr ""
 
 #, c-format
 msgctxt "upgrade_dialog_pay_once"
@@ -615,6 +637,10 @@ msgctxt "upgrade_dialog_button_back"
 msgid "Back"
 msgstr "Retour"
 
+msgctxt "upgrade_dialog_button_volume_license"
+msgid "Enter volume license code"
+msgstr ""
+
 msgctxt "editor_error_nonpro_gelement_limit_message"
 msgid ""
 "Please upgrade to the Pro version of ImageMeter to use more than five "
@@ -646,6 +672,31 @@ msgstr "Plus tard"
 msgctxt "tpool_locked_by_android_editor"
 msgid "editor"
 msgstr "éditeur"
+
+#. licensing: volume key dialog
+msgctxt "licensing_volume_key_title"
+msgid "Volume key"
+msgstr ""
+
+msgctxt "licensing_volume_key_description"
+msgid "Please enter your key:"
+msgstr ""
+
+msgctxt "licensing_volume_key_send_button"
+msgid "Send"
+msgstr ""
+
+msgctxt "licensing_volume_key_error_parse_server_response"
+msgid "Error parsing server response."
+msgstr ""
+
+msgctxt "licensing_volume_key_error_invalid_license_code"
+msgid "Invalid license code."
+msgstr ""
+
+msgctxt "licensing_volume_key_success"
+msgid "License activated"
+msgstr ""
 
 #. in-app payment
 msgctxt "inapp_upgrade_to_business_button"
@@ -948,6 +999,10 @@ msgctxt "dialog_image_export_options_show_dialog"
 msgid "Show export options next time"
 msgstr "Afficher les options d'exportation la prochaine fois"
 
+msgctxt "dialog_image_export_use_default_options"
+msgid "Use default export options"
+msgstr ""
+
 msgctxt "dialog_image_export_image_format"
 msgid "Image format"
 msgstr "Format d'image"
@@ -979,6 +1034,10 @@ msgstr "Qualité d'image"
 msgctxt "dialog_image_export_image_size"
 msgid "Image size"
 msgstr "Taille de l'image"
+
+msgctxt "image_export_default_settings"
+msgid "Default image export settings"
+msgstr ""
 
 #. PDF export
 msgctxt "dialog_pdf_export_paper"
@@ -1726,6 +1785,10 @@ msgctxt "pref_cloud_storage_server_handwerkcloud"
 msgid "Handwerkcloud"
 msgstr "Handwerkcloud"
 
+msgctxt "pref_cloud_storage_server_imagemeter_predefined"
+msgid "ImageMeter"
+msgstr ""
+
 msgctxt "cloud_storage_provider_googledrive"
 msgid "Google Drive"
 msgstr "Google Drive"
@@ -1743,6 +1806,43 @@ msgstr "Nextcloud / Owncloud"
 msgctxt "cloud_storage_base_directory"
 msgid "Data directory:"
 msgstr "Répertoire de données:"
+
+msgctxt "cloud_storage_anno_base_directory"
+msgid "Image directory:"
+msgstr ""
+
+msgctxt "cloud_storage_do_two_way_sync"
+msgid "Do two-way sync"
+msgstr ""
+
+msgctxt "cloud_storage_do_image_upload_sync"
+msgid "Do image upload"
+msgstr ""
+
+msgctxt "cloud_storage_two_way_info_title"
+msgid "Two-way sync"
+msgstr ""
+
+msgctxt "cloud_storage_two_way_info_text"
+msgid ""
+"The two-way sync is for exchanging data between multiple devices. The "
+"data it stores on the cloud storage is for internal use only. Do not "
+"modify the data stored on the cloud server manually!"
+msgstr ""
+
+msgctxt "cloud_storage_image_upload_info_title"
+msgid "Image upload"
+msgstr ""
+
+msgctxt "cloud_storage_image_upload_info_text"
+msgid ""
+"The image upload option stores the measured images on the cloud server. "
+"This is the right option if you want to access your images from your "
+"office PC.\n"
+"This option cannot be used to exchange data between mobile devices. In "
+"fact, you should not sync to the same cloud image directory from several "
+"devices."
+msgstr ""
 
 msgctxt "cloud_storage_server_url"
 msgid "Server URL:"
@@ -2875,6 +2975,17 @@ msgctxt "pref_export_show_format_selection_summary_off"
 msgid "Selected format will be used always"
 msgstr "Le format sélectionné sera toujours utilisé"
 
+msgctxt "pref_export_default_image_export_options"
+msgid "Default image export options…"
+msgstr ""
+
+#. <string
+#. name="pref_export_precompute_image_with_default_options">Precompute image
+#. with default export options</string>     <string
+#. name="pref_export_precompute_image_with_default_options_summary_on">Yes,
+#. faster export</string>     <string
+#. name="pref_export_precompute_image_with_default_options_summary_off">Yes,
+#. faster export</string>
 msgctxt "pref_category_export_format_and_rendering"
 msgid "Format and rendering"
 msgstr "Format et rendu"
@@ -3008,6 +3119,10 @@ msgstr "Orientation de la page PDF"
 msgctxt "pref_export_pdf_print_density"
 msgid "Resolution"
 msgstr "Résolution"
+
+msgctxt "pref_export_pdf_output_resolution_default"
+msgid "Default"
+msgstr ""
 
 msgctxt "pref_export_pdf_paper_orientation_choices:0"
 msgid "Portrait"
@@ -3803,6 +3918,10 @@ msgstr "Synchronisez sur n'importe quel réseau"
 msgctxt "cloud_storage_default_base_path"
 msgid "ImageMeter"
 msgstr "ImageMeter"
+
+msgctxt "cloud_storage_default_anno_base_path"
+msgid "ImageMeter-Measures"
+msgstr ""
 
 #. editor
 msgctxt "editor_menu_section_calibration_tools"
