@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-05 22:47+0200\n"
+"POT-Creation-Date: 2020-05-08 23:11+0200\n"
 "PO-Revision-Date: 2020-03-21 14:58+0100\n"
 "Last-Translator: \n"
 "Language: fa\n"
@@ -600,28 +600,61 @@ msgctxt "upgrade_dialog_pro_benefits:4"
 msgid "Perspective length measurement tool"
 msgstr ""
 
-msgctxt "upgrade_dialog_business_benefits:0"
-msgid "Sync images between devices"
+msgctxt "upgrade_dialog_button_activate_addon"
+msgid "Activate Addon"
 msgstr ""
 
-msgctxt "upgrade_dialog_business_benefits:1"
-msgid "Backup on your cloud storage"
+msgctxt "upgrade_item_no_watermarks"
+msgid "No watermarks"
 msgstr ""
 
-msgctxt "upgrade_dialog_business_benefits:2"
+msgctxt "upgrade_item_unlimited_measures"
+msgid "Unlimited measures"
+msgstr ""
+
+msgctxt "upgrade_item_unlimited_bluetooth"
+msgid "Unlimited Bluetooth"
+msgstr ""
+
+msgctxt "upgrade_item_draw_circles_etc"
+msgid "Draw and measure circles, rectangles, points"
+msgstr ""
+
+msgctxt "upgrade_item_perspective_length"
+msgid "Perspective length measurement tool"
+msgstr ""
+
+msgctxt "upgrade_item_subfolders"
 msgid "Subfolders"
 msgstr ""
 
-msgctxt "upgrade_dialog_business_benefits:3"
+msgctxt "upgrade_item_audio_notes"
 msgid "Audio notes"
 msgstr ""
 
-msgctxt "upgrade_dialog_business_benefits:4"
+msgctxt "upgrade_item_detail_pictures"
 msgid "Detail pictures"
 msgstr ""
 
-msgctxt "upgrade_dialog_business_benefits:5"
+msgctxt "upgrade_item_measurement_string"
 msgid "Measurement strings"
+msgstr ""
+
+msgctxt "upgrade_item_cloud_access_from_office_pc"
+msgid "Access images from your office PC"
+msgstr ""
+
+msgctxt "upgrade_item_cloud_device_sync"
+msgid "Sync images between devices"
+msgstr ""
+
+msgctxt "upgrade_item_cloud_backup"
+msgid "Backup on your cloud storage"
+msgstr ""
+
+#, fuzzy
+msgctxt "upgrade_item_all_addon_packs"
+msgid "Includes Pro and all add-on packs"
 msgstr ""
 
 msgctxt "upgrade_dialog_more_information_link"
@@ -647,6 +680,10 @@ msgctxt "upgrade_dialog_button_volume_license"
 msgid "Enter volume license code"
 msgstr ""
 
+msgctxt "upgrade_dialog_button_addon_is_active"
+msgid "Add-on is active"
+msgstr ""
+
 #, fuzzy
 msgctxt "editor_error_nonpro_gelement_limit_message"
 msgid ""
@@ -664,15 +701,6 @@ msgid ""
 msgstr ""
 "برای اندازه گیری های بلوتوثی دارای بیش از 3 اندازه گیری، لطفا به نسخۀ "
 "حرفه ای ارتقا دهید."
-
-#, fuzzy
-msgctxt "editor_error_nonpro_pro_tool_message"
-msgid "This tool is only available in the Pro version."
-msgstr "این ابزار تنها در نسخۀ حرفه ای موجود است."
-
-msgctxt "editor_error_business_tool_message"
-msgid "This tool is only available in the Business version."
-msgstr ""
 
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
@@ -769,28 +797,53 @@ msgctxt "inapp_error_service_timeout"
 msgid "Service timeout."
 msgstr ""
 
-msgctxt "dialog_need_upgrade_pro_title"
-msgid "Pro feature"
+msgctxt "addon_advanced_annotation_purchase_title"
+msgid "Advanced Annotation Add-On"
 msgstr ""
 
-msgctxt "dialog_need_upgrade_business_title"
-msgid "Business feature"
+msgctxt "addon_advanced_annotation_title"
+msgid "Advanced Annotation"
 msgstr ""
 
+msgctxt "addon_pro_purchase_title"
+msgid "Pro"
+msgstr ""
+
+msgctxt "addon_pro_title"
+msgid "Pro"
+msgstr ""
+
+msgctxt "addon_business_purchase_title"
+msgid "Business"
+msgstr ""
+
+msgctxt "addon_business_title"
+msgid "Business"
+msgstr ""
+
+#, c-format
+msgctxt "dialog_need_upgrade_title_template"
+msgid "%1$s Add-On"
+msgstr ""
+
+#, c-format, fuzzy
 msgctxt "dialog_need_upgrade_create_subfolders"
-msgid "Creating subfolders is included in the Business version."
+msgid "Creating subfolders is included in the '%1$s' add-on."
 msgstr ""
 
+#, c-format, fuzzy
 msgctxt "dialog_need_upgrade_move_folders"
-msgid "Moving folders into other folders is included in the Business version."
+msgid "Moving folders into other folders is included in the '%1$s' add-on."
 msgstr ""
 
+#, c-format, fuzzy
 msgctxt "dialog_need_upgrade_audio_notes"
-msgid "Recording audio notes is included in the Business version."
+msgid "Recording audio notes is included in the '%1$s' add-on."
 msgstr ""
 
+#, c-format, fuzzy
 msgctxt "dialog_need_upgrade_detail_image"
-msgid "Adding detail images is included in the Business version."
+msgid "Adding detail images is included in the '%1$s' add-on."
 msgstr ""
 
 #, c-format
@@ -803,6 +856,11 @@ msgctxt "dialog_need_upgrade_create_example_images_text"
 msgid ""
 "You can try this function with the example images (<a "
 "href=\"create\">create folder '%1$s'</a>)."
+msgstr ""
+
+#, c-format
+msgctxt "dialog_need_upgrade_tool_message"
+msgid "This tool is available in the '%1$s' add-on."
 msgstr ""
 
 #. tutorial
@@ -2294,8 +2352,13 @@ msgctxt "error_cloud_server_error"
 msgid "Server error: {}"
 msgstr ""
 
+msgctxt "error_cloud_file_locked_on_server"
+msgid "File is locked on server. Please retry upload at a later time."
+msgstr ""
+
+#, fuzzy
 msgctxt "error_cloud_server_blocked"
-msgid "Server blocked by another client"
+msgid "Server blocked by another client. Please retry at a later time."
 msgstr ""
 
 msgctxt "error_cloud_remote_file_does_not_exist"
@@ -3280,6 +3343,10 @@ msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_mileseey_p7"
 msgid "Mileseey P7"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_mileseey_r2b"
+msgid "Mileseey R2B"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"

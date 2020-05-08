@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-05 22:47+0200\n"
-"PO-Revision-Date: 2020-05-05 22:49+0200\n"
+"POT-Creation-Date: 2020-05-08 23:11+0200\n"
+"PO-Revision-Date: 2020-05-08 23:18+0200\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -590,38 +590,69 @@ msgctxt "upgrade_dialog_pro_benefits:4"
 msgid "Perspective length measurement tool"
 msgstr "Werkzeug zur Messung perspektivischer Längen"
 
-msgctxt "upgrade_dialog_business_benefits:0"
-msgid "Sync images between devices"
-msgstr "Synchronisierung der Bilder zwischen Geräten"
+msgctxt "upgrade_dialog_button_activate_addon"
+msgid "Activate Addon"
+msgstr "Zusatzpaket aktivieren"
 
-msgctxt "upgrade_dialog_business_benefits:1"
-msgid "Backup on your cloud storage"
-msgstr "Backup auf Ihrem Cloudspeicher"
+msgctxt "upgrade_item_no_watermarks"
+msgid "No watermarks"
+msgstr "Keine Wasserzeichen mehr"
 
-msgctxt "upgrade_dialog_business_benefits:2"
+msgctxt "upgrade_item_unlimited_measures"
+msgid "Unlimited measures"
+msgstr "Unbegrenzte Bemaßungen"
+
+msgctxt "upgrade_item_unlimited_bluetooth"
+msgid "Unlimited Bluetooth"
+msgstr "Unbegrenztes Bluetooth"
+
+msgctxt "upgrade_item_draw_circles_etc"
+msgid "Draw and measure circles, rectangles, points"
+msgstr "Zeichnen und Messen von Kreisen, Rechtecken, und Meßpunkten"
+
+msgctxt "upgrade_item_perspective_length"
+msgid "Perspective length measurement tool"
+msgstr "Werkzeug zur Messung perspektivischer Längen"
+
+msgctxt "upgrade_item_subfolders"
 msgid "Subfolders"
 msgstr "Unterverzeichnisse"
 
-msgctxt "upgrade_dialog_business_benefits:3"
+msgctxt "upgrade_item_audio_notes"
 msgid "Audio notes"
 msgstr "Audionotizen"
 
-msgctxt "upgrade_dialog_business_benefits:4"
+msgctxt "upgrade_item_detail_pictures"
 msgid "Detail pictures"
 msgstr "Notizen mit Detailbildern"
 
-msgctxt "upgrade_dialog_business_benefits:5"
+msgctxt "upgrade_item_measurement_string"
 msgid "Measurement strings"
 msgstr "Zeichnen von Maßketten"
+
+msgctxt "upgrade_item_cloud_access_from_office_pc"
+msgid "Access images from your office PC"
+msgstr "Zugriff auf Ihre Bilder vom Büro-PC"
+
+msgctxt "upgrade_item_cloud_device_sync"
+msgid "Sync images between devices"
+msgstr "Synchronisierung der Bilder zwischen Geräten"
+
+msgctxt "upgrade_item_cloud_backup"
+msgid "Backup on your cloud storage"
+msgstr "Backup auf Ihrem Cloudspeicher"
+
+msgctxt "upgrade_item_all_addon_packs"
+msgid "Includes Pro and all add-on packs"
+msgstr "Inklusive Pro und allen Zusatzpakete"
 
 msgctxt "upgrade_dialog_more_information_link"
 msgid ""
 "For more information about these features, &lt;a href=\"https://www.imagemeter.com/"
 "manual/license/android-licenses\"&gt;visit the website&lt;/a&gt;."
 msgstr ""
-"Für weitere Informationen zu diesen Funktionen, &lt;a href=\"https://www."
-"imagemeter.com/de/manual/license/android-licenses\"&gt;besuchen Sie die "
-"Website&lt;/a&gt;."
+"Für weitere Informationen zu diesen Funktionen &lt;a href=\"https://www.imagemeter."
+"com/de/manual/license/android-licenses\"&gt;besuchen Sie die Website&lt;/a&gt;."
 
 msgctxt "upgrade_dialog_button_pro_upgrade"
 msgid "Upgrade to Pro"
@@ -639,6 +670,10 @@ msgctxt "upgrade_dialog_button_volume_license"
 msgid "Enter volume license code"
 msgstr "Volumencode eingeben"
 
+msgctxt "upgrade_dialog_button_addon_is_active"
+msgid "Add-on is active"
+msgstr "Paket ist aktiv"
+
 msgctxt "editor_error_nonpro_gelement_limit_message"
 msgid ""
 "Please upgrade to the Pro version of ImageMeter to use more than five annotations."
@@ -649,14 +684,6 @@ msgid ""
 "For Bluetooth measurements with more than 3 meters, please upgrade to the Pro "
 "version."
 msgstr "Bluetoothmessungen über 3 Meter sind mit der Pro-Version möglich."
-
-msgctxt "editor_error_nonpro_pro_tool_message"
-msgid "This tool is only available in the Pro version."
-msgstr "Diese Funktion gibt es in der Pro-Version."
-
-msgctxt "editor_error_business_tool_message"
-msgid "This tool is only available in the Business version."
-msgstr "Diese Funktion gibt es in der Business-Version."
 
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
@@ -754,29 +781,55 @@ msgctxt "inapp_error_service_timeout"
 msgid "Service timeout."
 msgstr "Zeitüberschreitung des Netzwerkservice."
 
-msgctxt "dialog_need_upgrade_pro_title"
-msgid "Pro feature"
-msgstr "Pro-Feature"
+msgctxt "addon_advanced_annotation_purchase_title"
+msgid "Advanced Annotation Add-On"
+msgstr "Zusatzpaket Annotation"
 
-msgctxt "dialog_need_upgrade_business_title"
-msgid "Business feature"
-msgstr "Business-Feature"
+msgctxt "addon_advanced_annotation_title"
+msgid "Advanced Annotation"
+msgstr "Annotation"
 
+msgctxt "addon_pro_purchase_title"
+msgid "Pro"
+msgstr "Pro"
+
+msgctxt "addon_pro_title"
+msgid "Pro"
+msgstr "Pro"
+
+msgctxt "addon_business_purchase_title"
+msgid "Business"
+msgstr "Business"
+
+msgctxt "addon_business_title"
+msgid "Business"
+msgstr "Business"
+
+#, c-format
+msgctxt "dialog_need_upgrade_title_template"
+msgid "%1$s Add-On"
+msgstr "Zusatzpaket %1$s"
+
+#, c-format
 msgctxt "dialog_need_upgrade_create_subfolders"
-msgid "Creating subfolders is included in the Business version."
-msgstr "Unterordner sind mit der Business-Version möglich."
+msgid "Creating subfolders is included in the '%1$s' add-on."
+msgstr "Unterordner sind mit dem Zusatzpaket '%1$s' möglich."
 
+#, c-format
 msgctxt "dialog_need_upgrade_move_folders"
-msgid "Moving folders into other folders is included in the Business version."
-msgstr "Ordner in andere Ordner zu verschieben ist mit der Business-Version möglich."
+msgid "Moving folders into other folders is included in the '%1$s' add-on."
+msgstr ""
+"Ordner in andere Ordner zu verschieben ist mit dem Zusatzpaket '%1$s' möglich."
 
+#, c-format
 msgctxt "dialog_need_upgrade_audio_notes"
-msgid "Recording audio notes is included in the Business version."
-msgstr "Audioaufzeichnungen sind mit der Business-Version möglich."
+msgid "Recording audio notes is included in the '%1$s' add-on."
+msgstr "Audioaufzeichnungen sind mit dem Zusatzpaket '%1$s' möglich."
 
+#, c-format
 msgctxt "dialog_need_upgrade_detail_image"
-msgid "Adding detail images is included in the Business version."
-msgstr "Detailbilder sind mit der Business-Version möglich."
+msgid "Adding detail images is included in the '%1$s' add-on."
+msgstr "Detailbilder sind mit dem Zusatzpaket '%1$s' möglich."
 
 #, c-format
 msgctxt "dialog_need_upgrade_example_images_text"
@@ -792,6 +845,11 @@ msgid ""
 msgstr ""
 "Diese Funktion können Sie mit den Beispielbildern ausprobieren (<a href=\"create"
 "\">Ordner '%1$s' erstellen</a>)."
+
+#, c-format
+msgctxt "dialog_need_upgrade_tool_message"
+msgid "This tool is available in the '%1$s' add-on."
+msgstr "Diese Funktion ist im Zusatzpaket '%1$s' enthalten."
 
 #. tutorial
 msgctxt "example_folder_name"
@@ -2360,9 +2418,14 @@ msgctxt "error_cloud_server_error"
 msgid "Server error: {}"
 msgstr "Serverfehler: {}"
 
+msgctxt "error_cloud_file_locked_on_server"
+msgid "File is locked on server. Please retry upload at a later time."
+msgstr "Datei ist auf dem Server gesperrt. Bitte versuchen Sie es später nochmals."
+
 msgctxt "error_cloud_server_blocked"
-msgid "Server blocked by another client"
-msgstr "Server wurde von anderem Client gesperrt."
+msgid "Server blocked by another client. Please retry at a later time."
+msgstr ""
+"Server wurde von anderem Client gesperrt. Bitte versuchen Sie es später nochmals."
 
 msgctxt "error_cloud_remote_file_does_not_exist"
 msgid "File '{}' does not exist on server"
@@ -3347,6 +3410,10 @@ msgstr "Suaoki"
 msgctxt "pref_bluetooth_device_protocol_mileseey_p7"
 msgid "Mileseey P7"
 msgstr "Mileseey P7"
+
+msgctxt "pref_bluetooth_device_protocol_mileseey_r2b"
+msgid "Mileseey R2B"
+msgstr "Mileseey R2B"
 
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
 msgid "Sndway SW-S100"
