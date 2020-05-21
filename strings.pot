@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-08 23:19+0200\n"
+"POT-Creation-Date: 2020-05-21 19:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,10 @@ msgstr ""
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
+msgstr ""
+
+msgctxt "generic_button_import"
+msgid "Import"
 msgstr ""
 
 msgctxt "generic_dialog_title_error"
@@ -603,6 +607,10 @@ msgctxt "upgrade_item_measurement_string"
 msgid "Measurement strings"
 msgstr ""
 
+msgctxt "upgrade_item_pdf_import"
+msgid "PDF import"
+msgstr ""
+
 msgctxt "upgrade_item_cloud_access_from_office_pc"
 msgid "Access images from your office PC"
 msgstr ""
@@ -803,6 +811,11 @@ msgid "Adding detail images is included in the '%1$s' add-on."
 msgstr ""
 
 #, c-format
+msgctxt "dialog_need_upgrade_pdf_import"
+msgid "PDF import is included in the '%1$s' add-on."
+msgstr ""
+
+#, c-format
 msgctxt "dialog_need_upgrade_example_images_text"
 msgid "You can try this function with the example images (in folder '%1$s')."
 msgstr ""
@@ -817,6 +830,26 @@ msgstr ""
 #, c-format
 msgctxt "dialog_need_upgrade_tool_message"
 msgid "This tool is available in the '%1$s' add-on."
+msgstr ""
+
+msgctxt "dialog_migrate_for_addon_packs_title"
+msgid "Activate Add-on Pack"
+msgstr ""
+
+msgctxt "dialog_migrate_for_addon_packs_text"
+msgid ""
+"Since this native Pro-version is going to be replaced by the free version"
+" with in-app upgrades, add-on packs are only available in the free "
+"version. Please migrate to the free version. Your Pro upgrade will stay "
+"active."
+msgstr ""
+
+msgctxt "dialog_migrate_for_addon_packs_download_text"
+msgid "Download the free version from here:"
+msgstr ""
+
+msgctxt "dialog_migrate_for_addon_packs_open_instructions"
+msgid "Show migration instructions"
 msgstr ""
 
 #. tutorial
@@ -847,6 +880,14 @@ msgstr ""
 
 msgctxt "default_image_name_prefix_with_date"
 msgid "image from {M} {d}, {yyyy}"
+msgstr ""
+
+msgctxt "default_image_name_from_unnamed_pdf"
+msgid "PDF import, page {page}"
+msgstr ""
+
+msgctxt "default_image_name_from_pdf"
+msgid "{name}, page {page}"
 msgstr ""
 
 #. image import from free app
@@ -907,6 +948,20 @@ msgctxt "import_pro_app_data_failed"
 msgid ""
 "Image import from Pro app has failed or is incomplete. Maybe your memory "
 "is full?"
+msgstr ""
+
+#. PDF import
+msgctxt "pdf_import_page_selection_render_resolution"
+msgid "Resolution (dpi):"
+msgstr ""
+
+msgctxt "pdf_import_page_selection_output_image_resolution"
+msgid "Output resolution:"
+msgstr ""
+
+#, c-format
+msgctxt "pdf_import_page_selection_output_image_resolution_value"
+msgid "%1$.1f MP"
 msgstr ""
 
 #. dialog: export format
@@ -4024,6 +4079,24 @@ msgid ""
 "measure."
 msgstr ""
 
+msgctxt "editor_help_why_no_measured_value"
+msgid ""
+"The value cannot yet be computed because the image is not calibrated. "
+"Please add a 'reference scale' or a 'perspective reference'."
+msgstr ""
+
+msgctxt "editor_help_why_no_measured_value_manual_url"
+msgid "https://imagemeter.com/manual/measuring/basics"
+msgstr ""
+
+msgctxt "editor_help_do_not_show_again"
+msgid "Don't show again"
+msgstr ""
+
+msgctxt "editor_help_show_instructions"
+msgid "Show instructions"
+msgstr ""
+
 msgctxt "editor_error_no_reference_to_attach_to"
 msgid ""
 "There is no reference in the image! You need to draw a reference in order"
@@ -4416,6 +4489,18 @@ msgstr ""
 
 msgctxt "editor_dialog_style_area_show_edge_labels"
 msgid "Show edge lengths"
+msgstr ""
+
+msgctxt "editor_dialog_style_area_show_edge_labels_none"
+msgid "None"
+msgstr ""
+
+msgctxt "editor_dialog_style_area_show_edge_labels_custom"
+msgid "Custom"
+msgstr ""
+
+msgctxt "editor_dialog_style_area_show_edge_labels_all"
+msgid "All"
 msgstr ""
 
 msgctxt "editor_dialog_style_area_edge_font_magnification"
@@ -5085,6 +5170,14 @@ msgctxt "imagesettings_dialog_canvas_colorscheme_presets:3"
 msgid "Custom"
 msgstr ""
 
+msgctxt "imagesettings_dialog_canvas_unit_distance"
+msgid "Unit distance"
+msgstr ""
+
+msgctxt "imagesettings_dialog_canvas_num_subdivisions"
+msgid "Subdivisions"
+msgstr ""
+
 msgctxt "imagesettings_dialog_bkgimage_title"
 msgid "Image"
 msgstr ""
@@ -5103,6 +5196,22 @@ msgstr ""
 
 msgctxt "imagesettings_dialog_bkgimage_reset"
 msgid "Reset"
+msgstr ""
+
+msgctxt "imagesettings_dialog_calibration_title"
+msgid "Calibration"
+msgstr ""
+
+msgctxt "imagesettings_dialog_calibration_enable"
+msgid "Calibrate to image"
+msgstr ""
+
+msgctxt "imagesettings_dialog_calibration_image_resolution"
+msgid "Resolution"
+msgstr ""
+
+msgctxt "imagesettings_dialog_calibration_image_scale"
+msgid "Scale"
 msgstr ""
 
 #. bluetooth

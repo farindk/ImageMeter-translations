@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-08 23:19+0200\n"
-"PO-Revision-Date: 2020-05-08 23:20+0200\n"
+"POT-Creation-Date: 2020-05-21 19:07+0200\n"
+"PO-Revision-Date: 2020-05-21 19:17+0200\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -22,6 +22,10 @@ msgstr ""
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
 msgstr "Schliessen"
+
+msgctxt "generic_button_import"
+msgid "Import"
+msgstr "Importieren"
 
 msgctxt "generic_dialog_title_error"
 msgid "Error"
@@ -610,6 +614,10 @@ msgctxt "upgrade_item_measurement_string"
 msgid "Measurement strings"
 msgstr "Zeichnen von Maßketten"
 
+msgctxt "upgrade_item_pdf_import"
+msgid "PDF import"
+msgstr "PDF Import"
+
 msgctxt "upgrade_item_cloud_access_from_office_pc"
 msgid "Access images from your office PC"
 msgstr "Zugriff auf Ihre Bilder vom Büro-PC"
@@ -812,6 +820,11 @@ msgid "Adding detail images is included in the '%1$s' add-on."
 msgstr "Detailbilder sind mit dem Zusatzpaket '%1$s' möglich."
 
 #, c-format
+msgctxt "dialog_need_upgrade_pdf_import"
+msgid "PDF import is included in the '%1$s' add-on."
+msgstr "PDF Import ist mit dem Zusatzpaket '%1$s' möglich."
+
+#, c-format
 msgctxt "dialog_need_upgrade_example_images_text"
 msgid "You can try this function with the example images (in folder '%1$s')."
 msgstr ""
@@ -830,6 +843,28 @@ msgstr ""
 msgctxt "dialog_need_upgrade_tool_message"
 msgid "This tool is available in the '%1$s' add-on."
 msgstr "Diese Funktion ist im Zusatzpaket '%1$s' enthalten."
+
+msgctxt "dialog_migrate_for_addon_packs_title"
+msgid "Activate Add-on Pack"
+msgstr "Zusatzpaket aktivieren"
+
+msgctxt "dialog_migrate_for_addon_packs_text"
+msgid ""
+"Since this native Pro-version is going to be replaced by the free version with in-"
+"app upgrades, add-on packs are only available in the free version. Please migrate "
+"to the free version. Your Pro upgrade will stay active."
+msgstr ""
+"Da diese native Pro-version durch die kostenlose Version mit In-App Upgrades "
+"abgelöst wird, sind die Zusatzpakete nur in der neuen Appversion erhältlich. Bitte "
+"migrieren Sie zur neuen Appversion. Ihr Pro-Upgrade bleibt dabei erhalten."
+
+msgctxt "dialog_migrate_for_addon_packs_download_text"
+msgid "Download the free version from here:"
+msgstr "Installieren Sie die kostenlose Version von hier:"
+
+msgctxt "dialog_migrate_for_addon_packs_open_instructions"
+msgid "Show migration instructions"
+msgstr "Anleitung zur Migration anzeigen"
 
 #. tutorial
 msgctxt "example_folder_name"
@@ -860,6 +895,14 @@ msgstr "Neues Bild"
 msgctxt "default_image_name_prefix_with_date"
 msgid "image from {M} {d}, {yyyy}"
 msgstr "Bild vom {d}. {M} {yyyy}"
+
+msgctxt "default_image_name_from_unnamed_pdf"
+msgid "PDF import, page {page}"
+msgstr "PDF-Import, Seite {page}"
+
+msgctxt "default_image_name_from_pdf"
+msgid "{name}, page {page}"
+msgstr "{name}, Seite {page}"
 
 #. image import from free app
 msgctxt "snackbar_pro_to_free_migration"
@@ -929,6 +972,20 @@ msgid ""
 msgstr ""
 "Import der Bilder aus der Pro-App ist fehlgeschlagen oder unvollständig. Ist evtl. "
 "der Speicherplatz voll?"
+
+#. PDF import
+msgctxt "pdf_import_page_selection_render_resolution"
+msgid "Resolution (dpi):"
+msgstr "Auflösung (dpi):"
+
+msgctxt "pdf_import_page_selection_output_image_resolution"
+msgid "Output resolution:"
+msgstr "Ausgabeauflösung:"
+
+#, c-format
+msgctxt "pdf_import_page_selection_output_image_resolution_value"
+msgid "%1$.1f MP"
+msgstr "%1$.1f MP"
 
 #. dialog: export format
 msgctxt "dialog_export_format_image"
@@ -4165,6 +4222,26 @@ msgid ""
 msgstr ""
 "Wählen Sie die Referenz, anhand derer Sie die gewählte Bemaßung berechnen möchten."
 
+msgctxt "editor_help_why_no_measured_value"
+msgid ""
+"The value cannot yet be computed because the image is not calibrated. Please add a "
+"'reference scale' or a 'perspective reference'."
+msgstr ""
+"Der Wert kann noch nicht berechnet werden, da das Bild nicht kalibriert ist. Bitte "
+"fügen Sie einen 'Referenzmaßstab' oder eine 'Perspektivische Referenz' hinzu."
+
+msgctxt "editor_help_why_no_measured_value_manual_url"
+msgid "https://imagemeter.com/manual/measuring/basics"
+msgstr "https://imagemeter.com/de/manual/measuring/basics"
+
+msgctxt "editor_help_do_not_show_again"
+msgid "Don't show again"
+msgstr "Nicht mehr zeigen"
+
+msgctxt "editor_help_show_instructions"
+msgid "Show instructions"
+msgstr "Anleitung zeigen"
+
 msgctxt "editor_error_no_reference_to_attach_to"
 msgid ""
 "There is no reference in the image! You need to draw a reference in order to do "
@@ -4563,6 +4640,18 @@ msgstr "Schriftgröße (Fläche)"
 msgctxt "editor_dialog_style_area_show_edge_labels"
 msgid "Show edge lengths"
 msgstr "Kantenlängen zeigen"
+
+msgctxt "editor_dialog_style_area_show_edge_labels_none"
+msgid "None"
+msgstr "Keine"
+
+msgctxt "editor_dialog_style_area_show_edge_labels_custom"
+msgid "Custom"
+msgstr "Manche"
+
+msgctxt "editor_dialog_style_area_show_edge_labels_all"
+msgid "All"
+msgstr "Alle"
 
 msgctxt "editor_dialog_style_area_edge_font_magnification"
 msgid "Edges font size"
@@ -5238,6 +5327,14 @@ msgctxt "imagesettings_dialog_canvas_colorscheme_presets:3"
 msgid "Custom"
 msgstr "Eigenes"
 
+msgctxt "imagesettings_dialog_canvas_unit_distance"
+msgid "Unit distance"
+msgstr "Gittergröße"
+
+msgctxt "imagesettings_dialog_canvas_num_subdivisions"
+msgid "Subdivisions"
+msgstr "Unterteilungen"
+
 msgctxt "imagesettings_dialog_bkgimage_title"
 msgid "Image"
 msgstr "Bildeinstellungen"
@@ -5257,6 +5354,22 @@ msgstr "Kontrast"
 msgctxt "imagesettings_dialog_bkgimage_reset"
 msgid "Reset"
 msgstr "Reset"
+
+msgctxt "imagesettings_dialog_calibration_title"
+msgid "Calibration"
+msgstr "Kalibrierung"
+
+msgctxt "imagesettings_dialog_calibration_enable"
+msgid "Calibrate to image"
+msgstr "Zum Bild kalibrieren"
+
+msgctxt "imagesettings_dialog_calibration_image_resolution"
+msgid "Resolution"
+msgstr "Auflösung"
+
+msgctxt "imagesettings_dialog_calibration_image_scale"
+msgid "Scale"
+msgstr "Maßstab"
 
 #. bluetooth
 msgctxt "bluetooth_message_device_connected"
