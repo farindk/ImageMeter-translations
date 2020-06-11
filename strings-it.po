@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-05-26 12:58+0200\n"
-"PO-Revision-Date: 2020-05-08 23:20+0200\n"
+"POT-Creation-Date: 2020-06-11 20:26+0200\n"
+"PO-Revision-Date: 2020-06-11 20:20+0200\n"
 "Last-Translator: \n"
 "Language: it\n"
 "Language-Team: it <LL@li.org>\n"
@@ -4077,6 +4077,10 @@ msgctxt "editor_menu_edit_imagesettings"
 msgid "Image settings"
 msgstr ""
 
+msgctxt "editor_menu_edit_bluetooth_trigger"
+msgid "Trigger Laser"
+msgstr ""
+
 msgctxt "editor_menu_style"
 msgid "Style"
 msgstr "Stile"
@@ -4330,33 +4334,21 @@ msgctxt "editor_dialog_style_measure_text_position"
 msgid "Text position"
 msgstr "Posizione del testo"
 
-msgctxt "editor_dialog_style_measure_text_position_choices:0"
+msgctxt "editor_dialog_style_measure_text_position_above"
 msgid "Above line"
 msgstr "Sopra la linea"
 
-msgctxt "editor_dialog_style_measure_text_position_choices:1"
+msgctxt "editor_dialog_style_measure_text_position_within"
 msgid "Within line"
 msgstr "Entro la linea"
+
+msgctxt "editor_dialog_style_measure_text_position_horizontal"
+msgid "Horizontal"
+msgstr ""
 
 msgctxt "editor_dialog_style_measure_text_color"
 msgid "Text color"
 msgstr ""
-
-msgctxt "editor_dialog_style_measure_inverted_drawing"
-msgid "Inverted drawing"
-msgstr "Disegno invertito"
-
-msgctxt "editor_dialog_style_measure_inverted_drawing_choices:0"
-msgid "Never"
-msgstr "Mai"
-
-msgctxt "editor_dialog_style_measure_inverted_drawing_choices:1"
-msgid "When too narrow"
-msgstr "Quando troppo stretto"
-
-msgctxt "editor_dialog_style_measure_inverted_drawing_choices:2"
-msgid "Always"
-msgstr "Sempre"
 
 msgctxt "editor_dialog_style_angle_title"
 msgid "Angle style"
@@ -5199,6 +5191,14 @@ msgctxt "textbox_detail_picture_title"
 msgid "Detail picture"
 msgstr ""
 
+msgctxt "textbox_detail_picture_cannot_load"
+msgid "Cannot load detail image"
+msgstr ""
+
+msgctxt "textbox_detail_picture_load_error_zero_size"
+msgid "Image has zero size."
+msgstr ""
+
 #. GCircle
 msgctxt "circle_radius_prefix"
 msgid "r:"
@@ -5363,10 +5363,6 @@ msgstr ""
 "selezione del dispositivo."
 
 #. 151209
-msgctxt "bluetooth_error_no_bluetooth_le"
-msgid "Device does not support Bluetooth LE (at least Android 4.3 required)."
-msgstr "Il dispositivo non supporta Bluetooth LE (almeno Android 4.3 richiesto)."
-
 #, c-format
 msgctxt "bluetooth_error_cannot_set_value"
 msgid "Cannot set received Bluetooth value: %1$s."
