@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-06-29 17:36+0200\n"
+"POT-Creation-Date: 2020-07-09 19:10+0200\n"
 "PO-Revision-Date: 2020-06-29 17:04+0200\n"
 "Last-Translator: \n"
 "Language: pt\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=((((n >= 0 && n <= 2)) && (!((n == 2))))"
-" ? 0 : 1)\n"
+"Plural-Forms: nplurals=2; plural=(((n >= 0 && n <= 1)) ? 0 : 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.6.0\n"
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
@@ -600,6 +599,10 @@ msgstr ""
 "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Política de "
 "privacidade</a>"
 
+msgctxt "imageselect_dialog_about_licenses"
+msgid "<a href=\"licenses\">Licenses</a>"
+msgstr ""
+
 #. upgrade
 msgctxt "license_source_in_app"
 msgid "In-app"
@@ -806,9 +809,15 @@ msgctxt "licensing_volume_key_title"
 msgid "Volume key"
 msgstr "Tecla de volume"
 
+msgctxt "licensing_volume_key_note"
+msgid ""
+"Note: you don't need to enter any key when you purchased through the "
+"Google Play store."
+msgstr ""
+
 #, fuzzy
 msgctxt "licensing_volume_key_description"
-msgid "Please enter your key:"
+msgid "Please enter your volume key:"
 msgstr "Digite sua chave:"
 
 #, fuzzy
@@ -3824,6 +3833,10 @@ msgctxt "pref_bluetooth_device_protocol_bosch_glm120c"
 msgid "Bosch GLM120c"
 msgstr "Bosch GLM120c"
 
+msgctxt "pref_bluetooth_device_protocol_bosch_glm400c"
+msgid "Bosch GLM400c"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_cem_ildm150"
 msgid "CEM iLDM-150"
 msgstr "CEM iLDM-150"
@@ -4456,6 +4469,10 @@ msgstr "Intervalo de sincronização automática"
 msgctxt "pref_storage_cloud_advanced_maintenance"
 msgid "Advanced maintenance"
 msgstr "Manutenção avançada"
+
+msgctxt "pref_storage_cloud_send_error_log"
+msgid "Send error log by email"
+msgstr ""
 
 #, fuzzy
 msgctxt "pref_storage_cloud_wifi_only"
@@ -6289,6 +6306,7 @@ msgctxt "release_notes_filename"
 msgid "en.html"
 msgstr "en.html"
 
+#. info messages
 #, fuzzy
 msgctxt "main_screen_info_message_pro_key_app_not_needed"
 msgid ""
@@ -6302,6 +6320,33 @@ msgstr ""
 "complementos que incluem a atualização do Pro. Certifique-se de ter "
 "copiado todas as imagens do aplicativo Pro para aqui, pois a exclusão do "
 "aplicativo também excluirá todas as imagens armazenadas nele."
+
+msgctxt "main_screen_info_message_please_rate"
+msgid ""
+"If you like this app, would you mind taking a minute to rate it? Thank "
+"you for your support!"
+msgstr ""
+
+msgctxt "main_screen_info_message_please_rate_rate_now"
+msgid "Rate now"
+msgstr ""
+
+msgctxt "main_screen_info_message_please_rate_later"
+msgid "Later"
+msgstr ""
+
+msgctxt "main_screen_info_message_no_backup"
+msgid ""
+"It looks like your images are currently not backed up. If your phone "
+"breaks or gets lost, the images may be lost too.\n"
+"\n"
+"To prevent this, use the cloud-sync function of the Business version or "
+"do a manual backup of your data."
+msgstr ""
+
+msgctxt "main_screen_info_message_no_backup_do_not_warn_again"
+msgid "Don't warn again"
+msgstr ""
 
 #. FAQ
 msgctxt "manual_website_link"
