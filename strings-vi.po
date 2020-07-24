@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-22 12:15+0200\n"
+"POT-Creation-Date: 2020-07-24 16:49+0200\n"
 "PO-Revision-Date: 2020-06-11 20:18+0200\n"
 "Last-Translator: \n"
 "Language: vi_VN\n"
@@ -1182,6 +1182,10 @@ msgctxt "pdf_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
 msgstr ""
 
+msgctxt "pdf_export_table_of_contents"
+msgid "Table of contents"
+msgstr ""
+
 #. - ZIP export
 msgctxt "dialog_zip_export_title"
 msgid "ZIP export"
@@ -2040,10 +2044,11 @@ msgid ""
 "href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
 msgstr ""
 
+#, fuzzy
 msgctxt "cloud_storage_server_note_onedrive"
 msgid ""
-"The OneDrive support is now in beta testing. If you experience any issue "
-"with it, please send a report to info@imagemeter.com."
+"The OneDrive backend might be suitable if you want easy access to your "
+"annotated images from your Windows PC."
 msgstr ""
 
 msgctxt "cloud_storage_account"
@@ -3514,6 +3519,22 @@ msgctxt "pref_bluetooth_use_device_format_summaryoff"
 msgid "Use format set in app preferences"
 msgstr "Sử dụng định dạng được đặt trong tùy chọn ứng dụng"
 
+msgctxt "pref_bluetooth_remote_trigger_twice"
+msgid "Send remote trigger twice"
+msgstr ""
+
+#, fuzzy
+msgctxt "pref_bluetooth_remote_trigger_twice_summaryon"
+msgid ""
+"The trigger command will be sent twice. For some laser devices that only "
+"switch on the laser at the first command and perform the measurement at "
+"the second command."
+msgstr ""
+
+msgctxt "pref_bluetooth_remote_trigger_twice_summaryoff"
+msgid "The trigger command will be sent only once."
+msgstr ""
+
 msgctxt "pref_category_user_interface"
 msgid "User interface"
 msgstr "Giao diện người dùng"
@@ -3998,6 +4019,19 @@ msgstr "ImageMeter"
 
 msgctxt "cloud_storage_default_anno_base_path"
 msgid "ImageMeter-Measures"
+msgstr ""
+
+#. Preferences: Information
+msgctxt "pref_category_information"
+msgid "Information"
+msgstr ""
+
+msgctxt "pref_category_information_debugging"
+msgid "Debugging"
+msgstr ""
+
+msgctxt "pref_information_send_error_log"
+msgid "Send error log by email"
 msgstr ""
 
 #. editor
