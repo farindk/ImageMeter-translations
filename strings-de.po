@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 23:44+0200\n"
-"PO-Revision-Date: 2020-07-27 23:47+0200\n"
+"POT-Creation-Date: 2020-08-23 20:40+0200\n"
+"PO-Revision-Date: 2020-08-23 20:45+0200\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -146,7 +146,7 @@ msgctxt "notification_duplicate_title"
 msgid "Duplicate images"
 msgstr "Bilder werden kopiert"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "notification_duplicate_content"
 msgid "%1$d of %2$d images copied"
 msgstr "%1$d von %2$d Bildern kopiert"
@@ -324,10 +324,6 @@ msgstr "Bildnummerierung…"
 msgctxt "imagelibrary_cannot_delete_image_in_use"
 msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
 msgstr "Kann das Bild '%1$s' nicht löschen, da es von '%2$s' benutzt wird."
-
-msgctxt "tpool_locked_by_syncer"
-msgid "cloud synchronization"
-msgstr "Synchronisierung mit Cloud"
 
 msgctxt "imagelibrary_cannot_load_current_folder"
 msgid ""
@@ -705,6 +701,54 @@ msgstr "Später"
 msgctxt "tpool_locked_by_android_editor"
 msgid "editor"
 msgstr "Editor"
+
+msgctxt "tpool_locked_by_syncer"
+msgid "cloud synchronization"
+msgstr "Synchronisierung mit Cloud"
+
+msgctxt "tpool_locked_by_image_syncer"
+msgid "image cloud upload"
+msgstr "Bildupload in die Cloud\t"
+
+msgctxt "tpool_locked_by_list_folder_content"
+msgid "list folder content"
+msgstr "Verzeichnisinhalt auflisten"
+
+msgctxt "tpool_locked_by_file_browser"
+msgid "file browser"
+msgstr "Bilderliste erstellen"
+
+msgctxt "tpool_locked_by_thumbnail_rendering"
+msgid "thumbnail rendering"
+msgstr "Vorschaubild zeichnen"
+
+msgctxt "tpool_locked_by_rendering"
+msgid "image rendering"
+msgstr "Bild zeichnen"
+
+msgctxt "tpool_locked_by_create_image"
+msgid "creating image"
+msgstr "Bild erstellen"
+
+msgctxt "tpool_locked_by_import_image"
+msgid "importing image"
+msgstr "Bild importieren"
+
+msgctxt "tpool_locked_by_pro_migration"
+msgid "pro migration"
+msgstr "Pro-Migration"
+
+msgctxt "tpool_locked_by_delete_image"
+msgid "deleting image"
+msgstr "Bild löschen"
+
+msgctxt "tpool_locked_by_dialog_image_name"
+msgid "image renaming dialog"
+msgstr "Dialog zum Bild umbenennen"
+
+msgctxt "tpool_locked_by_copy_directory"
+msgid "copying directory"
+msgstr "Verzeichnis kopieren"
 
 #. licensing: volume key dialog
 msgctxt "licensing_volume_key_title"
@@ -1191,6 +1235,10 @@ msgstr "Zeichne Bild %1$d von %2$d."
 msgctxt "pdf_export_table_of_contents"
 msgid "Table of contents"
 msgstr "Inhaltsverzeichnis"
+
+msgctxt "pdf_export_root_folder_title"
+msgid "ImageMeter export"
+msgstr "ImageMeter Export"
 
 #. - ZIP export
 msgctxt "dialog_zip_export_title"
@@ -5840,6 +5888,20 @@ msgstr ""
 msgctxt "main_screen_info_message_no_backup_do_not_warn_again"
 msgid "Don't warn again"
 msgstr "Nicht mehr warnen"
+
+msgctxt "main_screen_info_message_deprecated_directory"
+msgid ""
+"Your images are stored in the public 'Documents' directory. Soon, Android will not "
+"allow apps to access this directory anymore. Please move your data into the app "
+"directory."
+msgstr ""
+"Ihre Bilder werden im öffentlichen \"Dokumente\"-Verzeichnis gespeichert. "
+"Demnächst wird Android den Zugriff darauf aus Sicherheitsgründen verweigern. Bitte "
+"verschieben Sie Ihre Bilder in das App-Verzeichnis."
+
+msgctxt "main_screen_info_message_deprecated_directory_settings"
+msgid "Open settings"
+msgstr "Einstellungen öffnen"
 
 #. FAQ
 msgctxt "manual_website_link"
