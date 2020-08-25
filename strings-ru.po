@@ -1,31 +1,27 @@
-
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 23:44+0200\n"
-"PO-Revision-Date: 2020-06-11 20:19+0200\n"
+"POT-Creation-Date: 2020-08-23 20:40+0200\n"
+"PO-Revision-Date: 2020-08-25 12:44+0200\n"
 "Last-Translator: \n"
 "Language: ru\n"
 "Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=4; plural=(((((0 == 0)) && (((n % 10) >= 2 && (n %"
-" 10) <= 4))) && (!(((n % 100) >= 12 && (n % 100) <= 14)))) ? 1 : (((((0 "
-"== 0)) && (((n % 10) == 0))) || (((0 == 0)) && (((n % 10) >= 5 && (n % "
-"10) <= 9)))) || (((0 == 0)) && (((n % 100) >= 11 && (n % 100) <= 14)))) ?"
-" 2 : ((((0 == 0)) && (((n % 10) == 1))) && (!(((n % 100) == 11)))) ? 0 : "
-"3)\n"
+"Plural-Forms: nplurals=4; plural=(((((0 == 0)) && (((n % 10) >= 2 && (n % 10) <= 4))) && (!(((n % 100) >= 12 && (n % 100) <= 14)))) ? 1 : (((((0 == 0)) && (((n % 10) == 0))) || (((0 == 0)) && (((n % 10) >= 5 && (n % 10) <= 9)))) || (((0 == 0)) && (((n % 100) >= 11 && (n % 100) <= 14)))) ? 2 : ((((0 == 0)) && (((n % 10) == 1))) && (!(((n % 100) == 11)))) ? 0 : 3);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
 msgstr "Отклонить"
 
+#, fuzzy
 msgctxt "generic_button_import"
 msgid "Import"
-msgstr ""
+msgstr "Импортировать"
 
 msgctxt "generic_dialog_title_error"
 msgid "Error"
@@ -35,9 +31,10 @@ msgctxt "generic_dialog_title_warning"
 msgid "Warning"
 msgstr "Внимание"
 
+#, fuzzy
 msgctxt "generic_dialog_title_note"
 msgid "Note"
-msgstr ""
+msgstr "Заметка"
 
 msgctxt "generic_lowercase_yes"
 msgid "yes"
@@ -51,37 +48,45 @@ msgctxt "generic_lowercase_unknown"
 msgid "unknown"
 msgstr "неизвестно"
 
+#, fuzzy
 msgctxt "generic_confirm_delete"
 msgid "Really delete"
-msgstr ""
+msgstr "Действительно удалить"
 
+#, fuzzy
 msgctxt "generic_cancel"
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
+#, fuzzy
 msgctxt "generic_undo"
 msgid "Undo"
-msgstr ""
+msgstr "Отменить"
 
+#, fuzzy
 msgctxt "notification_generic_error_title"
 msgid "Error"
-msgstr ""
+msgstr "ошибка"
 
+#, fuzzy
 msgctxt "notification_bkg_rendering_title"
 msgid "Image rendering in progress…"
-msgstr ""
+msgstr "Выполняется рендеринг изображения…"
 
+#, fuzzy
 msgctxt "notification_bkg_rendering_channel_title"
 msgid "Image rendering"
-msgstr ""
+msgstr "Рендеринг изображения"
 
+#, fuzzy
 msgctxt "notification_syncer_channel_title"
 msgid "Cloud synchronization"
-msgstr ""
+msgstr "Облачная синхронизация"
 
+#, fuzzy
 msgctxt "notification_import_title"
 msgid "Image import"
-msgstr ""
+msgstr "Импорт изображений"
 
 #, c-format
 msgctxt "notification_import_content"
@@ -92,45 +97,55 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
+#, fuzzy
 msgctxt "notification_channel_background_processing_title"
 msgid "Background processing"
-msgstr ""
+msgstr "Фоновая обработка"
 
+#, fuzzy
 msgctxt "notification_channel_offscreen_rendering_title"
 msgid "Image rendering"
-msgstr ""
+msgstr "Рендеринг изображения"
 
+#, fuzzy
 msgctxt "notification_channel_error_messages_title"
 msgid "Error messages"
-msgstr ""
+msgstr "Сообщения об ошибках"
 
+#, fuzzy
 msgctxt "notification_error_importing_IMI_title"
 msgid "Error importing IMI file"
-msgstr ""
+msgstr "Ошибка при импорте файла IMI"
 
+#, fuzzy
 msgctxt "notification_error_importing_IMF_title"
 msgid "Error importing IMF file"
-msgstr ""
+msgstr "Ошибка при импорте файла IMF"
 
+#, fuzzy
 msgctxt "notification_error_importing_image_title"
 msgid "Error importing image"
-msgstr ""
+msgstr "Ошибка при импорте изображения"
 
+#, fuzzy
 msgctxt "notification_error_importing_file_title"
 msgid "Error importing file"
-msgstr ""
+msgstr "Ошибка при импорте файла"
 
+#, fuzzy
 msgctxt "notification_rendering_precomputed_image_title"
 msgid "Rendering image"
-msgstr ""
+msgstr "Визуализация изображения"
 
+#, fuzzy
 msgctxt "notification_save_to_gallery_title"
 msgid "Saving to gallery"
-msgstr ""
+msgstr "Сохранение в галерею"
 
+#, fuzzy
 msgctxt "notification_error_saving_to_gallery"
 msgid "Error while saving to gallery"
-msgstr ""
+msgstr "Ошибка при сохранении в галерею"
 
 #, c-format
 msgctxt "notification_save_to_gallery_content"
@@ -141,26 +156,30 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
+#, fuzzy
 msgctxt "notification_error_no_permission_to_save_to_gallery"
 msgid "Cannot save to gallery because ImageMeter has no storage write permission."
-msgstr ""
+msgstr "Невозможно сохранить в галерею, потому что ImageMeter не имеет разрешения на запись в хранилище."
 
+#, fuzzy
 msgctxt "notification_duplicate_title"
 msgid "Duplicate images"
-msgstr ""
+msgstr "Дубликаты изображений"
 
-#, c-format, fuzzy
+#, fuzzy
 msgctxt "notification_duplicate_content"
 msgid "%1$d of %2$d images copied"
-msgstr ""
+msgstr "%1$d из %2$d изображений скопировано"
 
+#, fuzzy
 msgctxt "notification_error_duplicating_image"
 msgid "Error while duplicating image"
-msgstr ""
+msgstr "Ошибка при копировании изображения"
 
+#, fuzzy
 msgctxt "filename_copy_tag"
 msgid "copy"
-msgstr ""
+msgstr "копировать"
 
 #. ========== folder/image-selection ==========
 #. menu
@@ -196,9 +215,10 @@ msgctxt "imageselect_menu_rename"
 msgid "Rename"
 msgstr "Переименовать"
 
+#, fuzzy
 msgctxt "imageselect_menu_duplicate"
 msgid "Duplicate"
-msgstr ""
+msgstr "Дубликат"
 
 msgctxt "imageselect_menu_move_to_folder"
 msgid "Move to folder"
@@ -208,9 +228,10 @@ msgctxt "imageselect_menu_import_image"
 msgid "Import image"
 msgstr "Импорт изображения"
 
+#, fuzzy
 msgctxt "imageselect_menu_new_canvas"
 msgid "New canvas"
-msgstr ""
+msgstr "Новый холст"
 
 msgctxt "imageselect_menu_capture"
 msgid "Camera capture"
@@ -220,13 +241,15 @@ msgctxt "imageselect_menu_delete_image"
 msgid "Delete"
 msgstr "Удалить"
 
+#, fuzzy
 msgctxt "imageselect_menu_undelete_image"
 msgid "Undelete"
-msgstr ""
+msgstr "Отменить удаление"
 
+#, fuzzy
 msgctxt "imageselect_menu_purge_image"
 msgid "Purge"
-msgstr ""
+msgstr "Очистить"
 
 msgctxt "imageselect_menu_share_image"
 msgid "Share"
@@ -236,9 +259,10 @@ msgctxt "imageselect_menu_print"
 msgid "Print"
 msgstr "Печать картинки"
 
+#, fuzzy
 msgctxt "imageselect_menu_forced_cloud_upload"
 msgid "Force cloud upload"
-msgstr ""
+msgstr "Принудительная загрузка в облако"
 
 msgctxt "imageselect_menu_image_info"
 msgid "Image info…"
@@ -260,158 +284,186 @@ msgctxt "imageselect_menu_about_app"
 msgid "About app"
 msgstr "О программе"
 
-#. string name="imageselect_menu_sync_current_folder">Sync current
+#. string name="imageselect_menu_sync_current_folder">Sync current, fuzzy
 #. folder</string
 #. string name="imageselect_menu_sync_inbox_folder">Sync inbox with cloud
 #. (beta)</string
 #. string name="imageselect_menu_sync_all_folders">Sync all folders</string
 msgctxt "imageselect_menu_contact"
 msgid "Contact us"
-msgstr ""
+msgstr "Связаться с нами"
 
+#, fuzzy
 msgctxt "imageselect_menu_documentation"
 msgid "Documentation"
-msgstr ""
+msgstr "Документация"
 
-#. image-library
+#. image-library, fuzzy
 msgctxt "imagelibrary_image_deleted"
 msgid "Image deleted"
-msgstr ""
+msgstr "Изображение удалено"
 
+#, fuzzy
 msgctxt "imagelibrary_folder_deleted"
 msgid "Folder deleted"
-msgstr ""
+msgstr "Папка удалена"
 
+#, fuzzy
 msgctxt "imagelibrary_breadcrumb_root_folder"
 msgid "Root"
-msgstr ""
+msgstr "Корень"
 
+#, fuzzy
 msgctxt "imagelibrary_search_hint"
 msgid "Search images"
-msgstr ""
+msgstr "Искать изображения"
 
+#, fuzzy
 msgctxt "sortingorder_alpha_ascending"
 msgid "Alphabetical"
-msgstr ""
+msgstr "По алфавиту"
 
+#, fuzzy
 msgctxt "sortingorder_alpha_descending"
 msgid "Alphabetical, reverse"
-msgstr ""
+msgstr "По алфавиту, реверс"
 
+#, fuzzy
 msgctxt "sortingorder_time_ascending"
 msgid "Time, earliest on top"
-msgstr ""
+msgstr "Время, самое раннее сверху"
 
+#, fuzzy
 msgctxt "sortingorder_time_descending"
 msgid "Time, latest on top"
-msgstr ""
+msgstr "Время, последнее сверху"
 
+#, fuzzy
 msgctxt "sortingorder_number_ascending"
 msgid "Number, ascending"
-msgstr ""
+msgstr "Число по возрастанию"
 
+#, fuzzy
 msgctxt "sortingorder_number_descending"
 msgid "Number, descending"
-msgstr ""
+msgstr "Число по убыванию"
 
+#, fuzzy
 msgctxt "imagelibrary_display_options"
 msgid "Display options…"
-msgstr ""
+msgstr "Показать варианты…"
 
+#, fuzzy
 msgctxt "imagelibrary_open_image_numbering_options"
 msgid "Image numbering…"
-msgstr ""
+msgstr "Нумерация изображений…"
 
-#. errors
-#, c-format
+#. errors, fuzzy
+#, fuzzy, c-format
 msgctxt "imagelibrary_cannot_delete_image_in_use"
 msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
-msgstr ""
+msgstr "Невозможно удалить изображение \"%1$s\", поскольку оно используется %2$s."
 
-msgctxt "tpool_locked_by_syncer"
-msgid "cloud synchronization"
-msgstr ""
-
+#, fuzzy
 msgctxt "imagelibrary_cannot_load_current_folder"
 msgid ""
 "Cannot load current folder.\n"
 "\n"
 "Please open the settings and set a different storage directory."
 msgstr ""
+"Невозможно загрузить текущую папку.\n"
+"\n"
+"Откройте настройки и установите другой каталог для хранения."
 
-#. dialog: numbering
+#. dialog: numbering, fuzzy
 msgctxt "imagelibrary_dialog_numbering_title"
 msgid "Image numbers"
-msgstr ""
+msgstr "Номера изображений"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_numbering_enable_auto_numbering"
 msgid "Enable auto-numbering"
-msgstr ""
+msgstr "Включить автоматическую нумерацию"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_numbering_start"
 msgid "Start"
-msgstr ""
+msgstr "Начало"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_numbering_increment"
 msgid "Increment"
-msgstr ""
+msgstr "Приращение"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_numbering_renumber_title"
 msgid "Renumber existing images"
-msgstr ""
+msgstr "Перенумеровать существующие изображения"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_numbering_renumber_old_number_order"
 msgid "Keep order of old numbers"
-msgstr ""
+msgstr "Сохраняйте порядок старых номеров"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_numbering_renumber_all"
 msgid "Renumber"
-msgstr ""
+msgstr "Перенумеровать"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_numbering_remove_all_numbers"
 msgid "Remove numbers"
-msgstr ""
+msgstr "Удалить числа"
 
-#. dialog: display options
+#. dialog: display options, fuzzy
 msgctxt "imagelibrary_dialog_display_options_title"
 msgid "Display options"
-msgstr ""
+msgstr "Показать варианты"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_display_options_show_deleted_images"
 msgid "Show deleted images"
-msgstr ""
+msgstr "Показать удаленные изображения"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_display_options_show_image_numbers"
 msgid "Show image numbers"
-msgstr ""
+msgstr "Показать номера изображений"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_title"
 msgid "Show images as"
-msgstr ""
+msgstr "Показывать изображения как"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_list_large"
 msgid "Large list"
-msgstr ""
+msgstr "Большой список"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_list_medium"
 msgid "Medium list"
-msgstr ""
+msgstr "Средний список"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_list_small"
 msgid "Small list"
-msgstr ""
+msgstr "Небольшой список"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_grid_large"
 msgid "Large grid"
-msgstr ""
+msgstr "Большая сетка"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_grid_medium"
 msgid "Medium grid"
-msgstr ""
+msgstr "Средняя сетка"
 
+#, fuzzy
 msgctxt "imagelibrary_dialog_display_options_image_style_grid_small"
 msgid "Small grid"
-msgstr ""
+msgstr "Малая сетка"
 
 #. dialog: rename folder
 msgctxt "foldername_dialog_folder_name"
@@ -427,9 +479,10 @@ msgctxt "foldername_dialog_notes"
 msgid "Notes"
 msgstr "Примечание"
 
+#, fuzzy
 msgctxt "foldername_dialog_icon_color"
 msgid "Folder color"
-msgstr ""
+msgstr "Цвет папки"
 
 #. dialog: really save to gallery (since this feature should now be obsolet)
 #. string name="imageselect_save_to_gallery_obsolet_message">ImageMeter
@@ -496,9 +549,10 @@ msgctxt "imageselect_dialog_about_license"
 msgid "License:"
 msgstr "лицензия:"
 
+#, fuzzy
 msgctxt "imageselect_dialog_about_source"
 msgid "Source:"
-msgstr ""
+msgstr "Источник:"
 
 #, fuzzy
 msgctxt "imageselect_dialog_about_license_evaluation"
@@ -509,402 +563,503 @@ msgctxt "imageselect_dialog_about_license_pro"
 msgid "Pro"
 msgstr "Pro"
 
+#, fuzzy
 msgctxt "imageselect_dialog_about_license_business"
 msgid "Business"
-msgstr ""
+msgstr "Бизнес"
 
 msgctxt "imageselect_dialog_about_tutorial_link"
 msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
 msgstr "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
 
+#, fuzzy
 msgctxt "imageselect_dialog_about_documentation_link"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
-msgstr ""
+msgstr "<a href=\"https://www.imagemeter.com/manual\">Документация</a>"
 
+#, fuzzy
 msgctxt "imageselect_dialog_about_release_notes"
 msgid "<a href=\"release-notes\">Release notes</a>"
-msgstr ""
+msgstr "<a href=\"release-notes\">Примечания к выпуску</a>"
 
+#, fuzzy
 msgctxt "imageselect_dialog_about_contact_link"
 msgid "<a href=\"mailto:imagemeter@gmail.com\">Contact email</a>"
-msgstr "<a href=\"mailto:imagemeter@gmail.com\">Contact email</a>"
+msgstr "<a href=\"mailto:imagemeter@gmail.com\">Почта для связи Контактный адрес электронной почты </a>"
 
+#, fuzzy
 msgctxt "imageselect_dialog_about_privacy_policy_link"
-msgid ""
-"<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
-"policy</a>"
-msgstr ""
+msgid "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy policy</a>"
+msgstr "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Политика конфиденциальности</a>"
 
+#, fuzzy
 msgctxt "imageselect_dialog_about_licenses"
 msgid "<a href=\"licenses\">Licenses</a>"
-msgstr ""
+msgstr "<a href=\"licenses\">лицензии</a>"
 
-#. upgrade
+#. upgrade, fuzzy
 msgctxt "license_source_in_app"
 msgid "In-app"
-msgstr ""
+msgstr "В приложении"
 
+#, fuzzy
 msgctxt "license_source_native"
 msgid "Native"
-msgstr ""
+msgstr "Родной"
 
+#, fuzzy
 msgctxt "license_source_pro_key_app"
 msgid "Pro-key app"
-msgstr ""
+msgstr "Приложение Pro-key"
 
+#, fuzzy
 msgctxt "license_source_volume_key"
 msgid "Volume key"
-msgstr ""
+msgstr "Клавиша громкости"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "navigation_drawer_license"
 msgid "License: %1$s"
-msgstr ""
+msgstr "Лицензия: %1$s"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "navigation_drawer_version"
 msgid "Version: %1$s"
-msgstr ""
+msgstr "Версия: %1$s"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "navigation_drawer_owner"
 msgid "Owner: %1$s"
-msgstr ""
+msgstr "Владелец: %1$s"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "navigation_drawer_user"
 msgid "User: %1$s"
-msgstr ""
+msgstr "Пользователь: %1$s"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "upgrade_dialog_pay_once"
 msgid "%1$s once"
-msgstr ""
+msgstr "%1$s один раз"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "upgrade_dialog_pay_monthly"
 msgid "%1$s/month"
-msgstr ""
+msgstr "%1$s/месяц"
 
+#, fuzzy
 msgctxt "upgrade_dialog_first_month_free"
 msgid "First month free"
-msgstr ""
+msgstr "Первый месяц бесплатно"
 
+#, fuzzy
 msgctxt "upgrade_dialog_pro_name"
 msgid "Pro"
-msgstr ""
+msgstr "Pro"
 
+#, fuzzy
 msgctxt "upgrade_dialog_business_name"
 msgid "Business"
-msgstr ""
+msgstr "Бизнес"
 
+#, fuzzy
 msgctxt "upgrade_dialog_button_activate_addon"
 msgid "Activate Addon"
-msgstr ""
+msgstr "Активировать аддон"
 
+#, fuzzy
 msgctxt "upgrade_item_no_watermarks"
 msgid "No watermarks"
-msgstr ""
+msgstr "Без водяных знаков"
 
+#, fuzzy
 msgctxt "upgrade_item_unlimited_measures"
 msgid "Unlimited measures"
-msgstr ""
+msgstr "Неограниченные меры"
 
+#, fuzzy
 msgctxt "upgrade_item_unlimited_bluetooth"
 msgid "Unlimited Bluetooth"
-msgstr ""
+msgstr "Безлимитный Bluetooth"
 
+#, fuzzy
 msgctxt "upgrade_item_draw_circles_etc"
 msgid "Draw and measure circles, rectangles, points"
-msgstr ""
+msgstr "Нарисуйте и измерьте круги, прямоугольники, точки"
 
+#, fuzzy
 msgctxt "upgrade_item_perspective_length"
 msgid "Perspective length measurement tool"
-msgstr ""
+msgstr "Инструмент для измерения длины в перспективе"
 
+#, fuzzy
 msgctxt "upgrade_item_subfolders"
 msgid "Subfolders"
-msgstr ""
+msgstr "Подпапки"
 
+#, fuzzy
 msgctxt "upgrade_item_audio_notes"
 msgid "Audio notes"
-msgstr ""
+msgstr "Аудио заметки"
 
+#, fuzzy
 msgctxt "upgrade_item_detail_pictures"
 msgid "Detail pictures"
-msgstr ""
+msgstr "Подробные фотографии"
 
+#, fuzzy
 msgctxt "upgrade_item_measurement_string"
 msgid "Measurement strings"
-msgstr ""
+msgstr "Струны для измерений"
 
+#, fuzzy
 msgctxt "upgrade_item_pdf_import"
 msgid "PDF import"
-msgstr ""
+msgstr "PDF импорт"
 
+#, fuzzy
 msgctxt "upgrade_item_cloud_access_from_office_pc"
 msgid "Access images from your office PC"
-msgstr ""
+msgstr "Доступ к изображениям с офисного ПК"
 
+#, fuzzy
 msgctxt "upgrade_item_cloud_device_sync"
 msgid "Sync images between devices"
-msgstr ""
+msgstr "Синхронизация изображений между устройствами"
 
+#, fuzzy
 msgctxt "upgrade_item_cloud_backup"
 msgid "Backup on your cloud storage"
-msgstr ""
+msgstr "Резервное копирование в облачном хранилище"
 
+#, fuzzy
 msgctxt "upgrade_item_all_addon_packs"
 msgid "Includes Pro and all add-on packs"
-msgstr ""
+msgstr "Включает Pro и все дополнительные пакеты"
 
+#, fuzzy
 msgctxt "upgrade_dialog_more_information_link"
-msgid ""
-"For more information about these features, &lt;a "
-"href=\"https://www.imagemeter.com/manual/license/android-"
-"licenses\"&gt;visit the website&lt;/a&gt;."
-msgstr ""
+msgid "For more information about these features, &lt;a href=\"https://www.imagemeter.com/manual/license/android-licenses\"&gt;visit the website&lt;/a&gt;."
+msgstr "Для получения дополнительных сведений об этих функциях &lt;a href=\"https://www.imagemeter.com/manual/license/android-licenses\"&gt;посетите веб-сайт&lt;/a&gt;."
 
+#, fuzzy
 msgctxt "upgrade_dialog_button_pro_upgrade"
 msgid "Upgrade to Pro"
-msgstr ""
+msgstr "Перейти на Pro"
 
+#, fuzzy
 msgctxt "upgrade_dialog_button_business_upgrade"
 msgid "Upgrade to Business"
-msgstr ""
+msgstr "Перейти на Бизнес"
 
+#, fuzzy
 msgctxt "upgrade_dialog_button_back"
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
+#, fuzzy
 msgctxt "upgrade_dialog_button_volume_license"
 msgid "Enter volume license code"
-msgstr ""
+msgstr "Введите код корпоративной лицензии"
 
+#, fuzzy
 msgctxt "upgrade_dialog_button_addon_is_active"
 msgid "Add-on is active"
-msgstr ""
+msgstr "Дополнение активно"
 
+#, fuzzy
 msgctxt "upgrade_dialog_button_store_unavailable"
 msgid "Store unavailable"
-msgstr ""
+msgstr "Магазин недоступен"
 
 #, fuzzy
 msgctxt "editor_error_nonpro_gelement_limit_message"
-msgid ""
-"Please upgrade to the Pro version of ImageMeter to use more than five "
-"annotations."
-msgstr ""
-"Пожалуйста, обновите ImageMeter до версии PRO и Вы будете иметь "
-"возможность добавлять более 5 элементов."
+msgid "Please upgrade to the Pro version of ImageMeter to use more than five annotations."
+msgstr "Пожалуйста, обновите ImageMeter до версии PRO и Вы будете иметь возможность добавлять более 5 элементов."
 
 #, fuzzy
 msgctxt "editor_error_nonpro_bluetooth_limit_message"
-msgid ""
-"For Bluetooth measurements with more than 3 meters, please upgrade to the"
-" Pro version."
-msgstr ""
-"Для Bluetooth измерений далее 3 метров, пожалуйста обновите приложение до"
-" PRO-версии."
+msgid "For Bluetooth measurements with more than 3 meters, please upgrade to the Pro version."
+msgstr "Для Bluetooth измерений далее 3 метров, пожалуйста обновите приложение до PRO-версии."
 
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
 msgstr "Позже"
 
+#, fuzzy
 msgctxt "tpool_locked_by_android_editor"
 msgid "editor"
-msgstr ""
+msgstr "редактор"
 
-#. licensing: volume key dialog
+#, fuzzy
+msgctxt "tpool_locked_by_syncer"
+msgid "cloud synchronization"
+msgstr "облачная синхронизация"
+
+#, fuzzy
+msgctxt "tpool_locked_by_image_syncer"
+msgid "image cloud upload"
+msgstr "загрузка облака изображений"
+
+#, fuzzy
+msgctxt "tpool_locked_by_list_folder_content"
+msgid "list folder content"
+msgstr "список содержимого папки"
+
+#, fuzzy
+msgctxt "tpool_locked_by_file_browser"
+msgid "file browser"
+msgstr "файловый браузер"
+
+#, fuzzy
+msgctxt "tpool_locked_by_thumbnail_rendering"
+msgid "thumbnail rendering"
+msgstr "рендеринг миниатюр"
+
+#, fuzzy
+msgctxt "tpool_locked_by_rendering"
+msgid "image rendering"
+msgstr "рендеринг изображений"
+
+#, fuzzy
+msgctxt "tpool_locked_by_create_image"
+msgid "creating image"
+msgstr "создание образа"
+
+#, fuzzy
+msgctxt "tpool_locked_by_import_image"
+msgid "importing image"
+msgstr "импорт изображения"
+
+#, fuzzy
+msgctxt "tpool_locked_by_pro_migration"
+msgid "pro migration"
+msgstr "про миграцию"
+
+#, fuzzy
+msgctxt "tpool_locked_by_delete_image"
+msgid "deleting image"
+msgstr "удаление изображения"
+
+#, fuzzy
+msgctxt "tpool_locked_by_dialog_image_name"
+msgid "image renaming dialog"
+msgstr "диалог переименования изображений"
+
+#, fuzzy
+msgctxt "tpool_locked_by_copy_directory"
+msgid "copying directory"
+msgstr "каталог копирования"
+
+#. licensing: volume key dialog, fuzzy
 msgctxt "licensing_volume_key_title"
 msgid "Volume key"
-msgstr ""
+msgstr "Клавиша громкости"
 
+#, fuzzy
 msgctxt "licensing_volume_key_note"
-msgid ""
-"Note: you don't need to enter any key when you purchased through the "
-"Google Play store."
-msgstr ""
+msgid "Note: you don't need to enter any key when you purchased through the Google Play store."
+msgstr "Примечание: вам не нужно вводить какой-либо ключ при покупке в магазине Google Play."
 
 #, fuzzy
 msgctxt "licensing_volume_key_description"
 msgid "Please enter your volume key:"
-msgstr ""
+msgstr "Пожалуйста, введите свою клавишу громкости:"
 
+#, fuzzy
 msgctxt "licensing_volume_key_send_button"
 msgid "Send"
-msgstr ""
+msgstr "послать"
 
+#, fuzzy
 msgctxt "licensing_volume_key_error_parse_server_response"
 msgid "Error parsing server response."
-msgstr ""
+msgstr "Ошибка синтаксического анализа ответа сервера."
 
+#, fuzzy
 msgctxt "licensing_volume_key_error_invalid_license_code"
 msgid "Invalid license code."
-msgstr ""
+msgstr "Неверный лицензионный код."
 
+#, fuzzy
 msgctxt "licensing_volume_key_success"
 msgid "License activated"
-msgstr ""
+msgstr "Лицензия активирована"
 
-#. in-app payment
-#, fuzzy
+#. in-app payment, fuzzy
 msgctxt "inapp_upgrade_to_business_button"
 msgid "Upgrade to Business version"
-msgstr ""
+msgstr "Перейти на версию Business"
 
+#, fuzzy
 msgctxt "inapp_upgrade_to_pro_button"
 msgid "Upgrade"
-msgstr ""
+msgstr "Обновить"
 
+#, fuzzy
 msgctxt "inapp_error_billing_unavailable"
 msgid "Billing is not available."
-msgstr ""
+msgstr "Биллинг недоступен."
 
+#, fuzzy
 msgctxt "inapp_error_feature_not_supported"
 msgid "Feature is not supported."
-msgstr ""
+msgstr "Функция не поддерживается."
 
+#, fuzzy
 msgctxt "inapp_error_item_already_owned"
 msgid "Item is already owned."
-msgstr ""
+msgstr "Товар уже принадлежит."
 
+#, fuzzy
 msgctxt "inapp_error_item_unavailable"
 msgid "Item is unavailable."
-msgstr ""
+msgstr "Товар недоступен."
 
+#, fuzzy
 msgctxt "inapp_error_service_disconnected"
 msgid "PlayStore temporarily disconnected, try again later."
-msgstr ""
+msgstr "PlayStore временно отключен, повторите попытку позже."
 
+#, fuzzy
 msgctxt "inapp_error_service_unavailable"
 msgid "Network down, cannot reach PlayStore."
-msgstr ""
+msgstr "Сеть не работает, нет доступа к PlayStore."
 
+#, fuzzy
 msgctxt "inapp_error_user_canceled"
 msgid "Purchase canceled by user."
-msgstr ""
+msgstr "Покупка отменена пользователем."
 
+#, fuzzy
 msgctxt "inapp_error_signature_check_failed"
 msgid "Signature check failed."
-msgstr ""
+msgstr "Проверка подписи не удалась."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "inapp_error_unknown"
 msgid "Unknown error, result code: '%1$d', response '%2$s'."
-msgstr ""
+msgstr "Неизвестная ошибка, код результата: \"%1$d\", ответ \"%2$s\"."
 
+#, fuzzy
 msgctxt "inapp_error_developer_error"
 msgid "Developer error."
-msgstr ""
+msgstr "Ошибка разработчика."
 
+#, fuzzy
 msgctxt "inapp_error_generic_error"
 msgid "Generic error."
-msgstr ""
+msgstr "Общая ошибка."
 
+#, fuzzy
 msgctxt "inapp_error_item_not_owned"
 msgid "Item is not owned."
-msgstr ""
+msgstr "Товар не принадлежит."
 
+#, fuzzy
 msgctxt "inapp_error_service_timeout"
 msgid "Service timeout."
-msgstr ""
+msgstr "Тайм-аут службы."
 
+#, fuzzy
 msgctxt "addon_advanced_annotation_purchase_title"
 msgid "Advanced Annotation Add-On"
-msgstr ""
+msgstr "Дополнение Advanced Annotation"
 
+#, fuzzy
 msgctxt "addon_advanced_annotation_title"
 msgid "Advanced Annotation"
-msgstr ""
+msgstr "Расширенная аннотация"
 
+#, fuzzy
 msgctxt "addon_pro_purchase_title"
 msgid "Pro"
-msgstr ""
+msgstr "Pro"
 
+#, fuzzy
 msgctxt "addon_pro_title"
 msgid "Pro"
-msgstr ""
+msgstr "Pro"
 
+#, fuzzy
 msgctxt "addon_business_purchase_title"
 msgid "Business"
-msgstr ""
+msgstr "Бизнес"
 
+#, fuzzy
 msgctxt "addon_business_title"
 msgid "Business"
-msgstr ""
+msgstr "Бизнес"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "dialog_need_upgrade_title_template"
 msgid "%1$s Add-On"
-msgstr ""
+msgstr "Дополнение %1$s"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "dialog_need_upgrade_create_subfolders"
 msgid "Creating subfolders is included in the '%1$s' add-on."
-msgstr ""
+msgstr "Создание вложенных папок включено в надстройку \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "dialog_need_upgrade_move_folders"
 msgid "Moving folders into other folders is included in the '%1$s' add-on."
-msgstr ""
+msgstr "Перемещение папок в другие папки включено в надстройку \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "dialog_need_upgrade_audio_notes"
 msgid "Recording audio notes is included in the '%1$s' add-on."
-msgstr ""
+msgstr "Запись звуковых заметок включена в надстройку \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "dialog_need_upgrade_detail_image"
 msgid "Adding detail images is included in the '%1$s' add-on."
-msgstr ""
+msgstr "Добавление изображений деталей включено в надстройку \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "dialog_need_upgrade_pdf_import"
 msgid "PDF import is included in the '%1$s' add-on."
-msgstr ""
+msgstr "Импорт PDF включен в надстройку \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "dialog_need_upgrade_example_images_text"
 msgid "You can try this function with the example images (in folder '%1$s')."
-msgstr ""
+msgstr "Вы можете попробовать эту функцию с примерами изображений (в папке \"%1$s\")."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "dialog_need_upgrade_create_example_images_text"
-msgid ""
-"You can try this function with the example images (<a "
-"href=\"create\">create folder '%1$s'</a>)."
-msgstr ""
+msgid "You can try this function with the example images (<a href=\"create\">create folder '%1$s'</a>)."
+msgstr "Вы можете попробовать эту функцию с примерами изображений (<a href=\"create\">создать папку '%1$s'</a>)."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "dialog_need_upgrade_tool_message"
 msgid "This tool is available in the '%1$s' add-on."
-msgstr ""
+msgstr "Этот инструмент доступен в надстройке \"%1$s\"."
 
+#, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_title"
 msgid "Activate Add-on Pack"
-msgstr ""
+msgstr "Активировать дополнительный пакет"
 
+#, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_text"
-msgid ""
-"Since this native Pro-version is going to be replaced by the free version"
-" with in-app upgrades, add-on packs are only available in the free "
-"version. Please migrate to the free version. Your Pro upgrade will stay "
-"active."
-msgstr ""
+msgid "Since this native Pro-version is going to be replaced by the free version with in-app upgrades, add-on packs are only available in the free version. Please migrate to the free version. Your Pro upgrade will stay active."
+msgstr "Поскольку эта родная Pro-версия будет заменена бесплатной версией с обновлениями в приложении, дополнительные пакеты доступны только в бесплатной версии. Пожалуйста, перейдите на бесплатную версию. Ваше обновление Pro останется активным."
 
+#, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_download_text"
 msgid "Download the free version from here:"
-msgstr ""
+msgstr "Загрузите бесплатную версию отсюда:"
 
+#, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_open_instructions"
 msgid "Show migration instructions"
-msgstr ""
+msgstr "Показать инструкции по миграции"
 
-#. tutorial
+#. tutorial, fuzzy
 msgctxt "example_folder_name"
 msgid "Examples"
-msgstr ""
+msgstr "Примеры"
 
 msgctxt "tutorial_images_1"
 msgid "Example 1: Measure on a 2D floor plan"
@@ -918,9 +1073,10 @@ msgctxt "tutorial_images_3"
 msgid "Example 3: Perspectively distorted wall"
 msgstr "Образец 3: Измерение стены с учетом перспективы"
 
+#, fuzzy
 msgctxt "tutorial_images_4"
 msgid "Example 4: Perspective height measurement"
-msgstr ""
+msgstr "Пример 4: Измерение высоты в перспективе"
 
 #. image import
 msgctxt "default_image_name"
@@ -931,116 +1087,124 @@ msgctxt "default_image_name_prefix_with_date"
 msgid "image from {M} {d}, {yyyy}"
 msgstr "Создано {d} {M} {yyyy}"
 
+#, fuzzy
 msgctxt "default_image_name_from_unnamed_pdf"
 msgid "PDF import, page {page}"
-msgstr ""
+msgstr "Импорт PDF, страница {page}"
 
 msgctxt "default_image_name_from_pdf"
 msgid "{name}, page {page}"
-msgstr ""
+msgstr "{name}, страница {page}"
 
-#. image import from free app
+#. image import from free app, fuzzy
 msgctxt "snackbar_pro_to_free_migration"
 msgid "Pro-version app migration"
-msgstr ""
+msgstr "Миграция приложений на Pro-версию"
 
+#, fuzzy
 msgctxt "snackbar_pro_to_free_migration_info"
 msgid "Info"
-msgstr ""
+msgstr "Информация"
 
+#, fuzzy
 msgctxt "snackbar_pro_to_free_migration_url"
 msgid "https://www.imagemeter.com/manual/license/pro-version-migration"
-msgstr ""
+msgstr "https://www.imagemeter.com/manual/license/pro-version-migration"
 
+#, fuzzy
 msgctxt "import_pro_app_data"
 msgid "Import images from Pro app"
-msgstr ""
+msgstr "Импорт изображений из приложения Pro"
 
+#, fuzzy
 msgctxt "import_pro_app_data_started_text"
-msgid ""
-"Importing has started to run in the background. When it is finished, "
-"please check that the images were copied correctly and delete them in the"
-" Pro app to save memory space."
-msgstr ""
+msgid "Importing has started to run in the background. When it is finished, please check that the images were copied correctly and delete them in the Pro app to save memory space."
+msgstr "Импорт запущен в фоновом режиме. По завершении убедитесь, что изображения были скопированы правильно, и удалите их в приложении Pro, чтобы сэкономить место в памяти."
 
+#, fuzzy
 msgctxt "import_pro_app_data_local_not_empty"
-msgid ""
-"Warning: there are images in this app. Importing the images from the Pro "
-"app may overwrite images with the same name."
-msgstr ""
+msgid "Warning: there are images in this app. Importing the images from the Pro app may overwrite images with the same name."
+msgstr "Предупреждение: в этом приложении есть изображения. Импорт изображений из приложения Pro может перезаписать изображения с тем же именем."
 
+#, fuzzy
 msgctxt "import_pro_app_data_local_not_empty_anyway"
 msgid "Import anyway"
-msgstr ""
+msgstr "Все равно импортировать"
 
+#, fuzzy
 msgctxt "import_pro_app_data_title"
 msgid "Importing images from Pro app"
-msgstr ""
+msgstr "Импорт изображений из приложения Pro"
 
+#, fuzzy
 msgctxt "import_pro_app_data_scan_progress_text"
 msgid "Please wait, searching for images to copy."
-msgstr ""
+msgstr "Подождите, идет поиск изображений для копирования."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "import_pro_app_data_progress_text"
 msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
-msgstr ""
+msgstr "Подождите, %1$d изображение из %2$d выполнено (%3$d ошибок)."
 
+#, fuzzy
 msgctxt "import_pro_app_data_finished"
-msgid ""
-"Images from the Pro app are now imported. After checking that the images "
-"were imported correctly, you may want to delete the images in the Pro app"
-" to save memory space."
-msgstr ""
+msgid "Images from the Pro app are now imported. After checking that the images were imported correctly, you may want to delete the images in the Pro app to save memory space."
+msgstr "Изображения из приложения Pro теперь импортируются. Убедившись, что изображения были импортированы правильно, вы можете удалить изображения в приложении Pro, чтобы сэкономить место в памяти."
 
+#, fuzzy
 msgctxt "import_pro_app_data_failed"
-msgid ""
-"Image import from Pro app has failed or is incomplete. Maybe your memory "
-"is full?"
-msgstr ""
+msgid "Image import from Pro app has failed or is incomplete. Maybe your memory is full?"
+msgstr "Импорт изображения из приложения Pro завершился неудачно или не завершен. Может у тебя память переполнена?"
 
-#. PDF import
+#. PDF import, fuzzy
 msgctxt "pdf_import_page_selection_render_resolution"
 msgid "Resolution (dpi):"
-msgstr ""
+msgstr "Разрешение (dpi):"
 
+#, fuzzy
 msgctxt "pdf_import_page_selection_output_image_resolution"
 msgid "Output resolution:"
-msgstr ""
+msgstr "Выходное разрешение:"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "pdf_import_page_selection_output_image_resolution_value"
 msgid "%1$.1f MP"
-msgstr ""
+msgstr " %1$.1f MP"
 
-#. dialog: export format
+#. dialog: export format, fuzzy
 msgctxt "dialog_export_format_image"
 msgid "Image (JPEG/PNG)"
-msgstr ""
+msgstr "Изображение (JPEG/PNG)"
 
+#, fuzzy
 msgctxt "dialog_export_format_pdf"
 msgid "PDF document"
-msgstr ""
+msgstr "PDF документ"
 
+#, fuzzy
 msgctxt "dialog_export_format_zip"
 msgid "ZIP archive"
-msgstr ""
+msgstr "ZIP архив"
 
+#, fuzzy
 msgctxt "dialog_export_format_imi"
 msgid "Editable ImageMeter Image (IMI)"
-msgstr ""
+msgstr "Редактируемое изображение ImageMeter (IMI)"
 
+#, fuzzy
 msgctxt "dialog_export_format_imf"
 msgid "ImageMeter folder (IMF)"
-msgstr ""
+msgstr "Папка ImageMeter (IMF)"
 
+#, fuzzy
 msgctxt "dialog_export_format_gallery"
 msgid "Save to gallery"
-msgstr ""
+msgstr "Сохранить в галерею"
 
+#, fuzzy
 msgctxt "dialog_export_format_show_next_time"
 msgid "Show format selection next time"
-msgstr ""
+msgstr "Показать выбранный формат в следующий раз"
 
 #. image export
 msgctxt "export_dialog_saving_images_to_external_storage"
@@ -1103,114 +1267,140 @@ msgctxt "export_dialog_overwrite_extpics_folder_cancel"
 msgid "Cancel"
 msgstr "Отмена"
 
+#, fuzzy
 msgctxt "dialog_image_export_options_show_dialog"
 msgid "Show export options next time"
-msgstr ""
+msgstr "Показать параметры экспорта в следующий раз"
 
+#, fuzzy
 msgctxt "dialog_image_export_use_default_options"
 msgid "Use default export options"
-msgstr ""
+msgstr "Использовать параметры экспорта по умолчанию"
 
+#, fuzzy
 msgctxt "dialog_image_export_image_format"
 msgid "Image format"
-msgstr ""
+msgstr "Формат изображения"
 
+#, fuzzy
 msgctxt "dialog_image_export_file_format"
 msgid "File format"
-msgstr ""
+msgstr "Формат файла"
 
+#, fuzzy
 msgctxt "dialog_image_export_overlays"
 msgid "Overlays"
-msgstr ""
+msgstr "Оверлеи"
 
+#, fuzzy
 msgctxt "dialog_image_export_overlay_show_image_title"
 msgid "Show image title"
-msgstr ""
+msgstr "Показать название изображения"
 
+#, fuzzy
 msgctxt "dialog_image_export_size_original_image_size"
 msgid "Original image size"
-msgstr ""
+msgstr "Исходный размер изображения"
 
+#, fuzzy
 msgctxt "dialog_image_export_size_custom_size"
 msgid "Custom size"
-msgstr ""
+msgstr "Обычный размер"
 
+#, fuzzy
 msgctxt "dialog_image_export_image_quality"
 msgid "Image quality"
-msgstr ""
+msgstr "Качество изображения"
 
+#, fuzzy
 msgctxt "dialog_image_export_image_size"
 msgid "Image size"
-msgstr ""
+msgstr "Размер изображения"
 
+#, fuzzy
 msgctxt "image_export_default_settings"
 msgid "Default image export settings"
-msgstr ""
+msgstr "Настройки экспорта изображений по умолчанию"
 
-#. PDF export
+#. PDF export, fuzzy
 msgctxt "dialog_pdf_export_paper"
 msgid "Paper"
-msgstr ""
+msgstr "Бумага"
 
+#, fuzzy
 msgctxt "dialog_pdf_export_layout"
 msgid "Layout"
-msgstr ""
+msgstr "Макет"
 
+#, fuzzy
 msgctxt "dialog_pdf_export_metadata"
 msgid "Metadata"
-msgstr ""
+msgstr "Метаданные"
 
+#, fuzzy
 msgctxt "dialog_pdf_export_space_for_notes"
 msgid "Space for image notes"
-msgstr ""
+msgstr "Место для заметок с изображениями"
 
+#, fuzzy
 msgctxt "dialog_pdf_export_print_table_of_content"
 msgid "Print table of content"
-msgstr ""
+msgstr "Распечатать оглавление"
 
+#, fuzzy
 msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
-msgstr ""
+msgstr "Печать заметок к папке"
 
+#, fuzzy
 msgctxt "pdf_export_notification_generating_pdf"
 msgid "Generating PDF file"
-msgstr ""
+msgstr "Создание файла PDF"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "pdf_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
-msgstr ""
+msgstr "Визуализация изображения %1$d из %2$d."
 
+#, fuzzy
 msgctxt "pdf_export_table_of_contents"
 msgid "Table of contents"
-msgstr ""
+msgstr "Оглавление"
 
-#. - ZIP export
+#, fuzzy
+msgctxt "pdf_export_root_folder_title"
+msgid "ImageMeter export"
+msgstr "ImageMeter экспорт"
+
+#. - ZIP export, fuzzy
 msgctxt "dialog_zip_export_title"
 msgid "ZIP export"
-msgstr ""
+msgstr "ZIP экспорт"
 
+#, fuzzy
 msgctxt "dialog_zip_options_show_dialog"
 msgid "Show ZIP options next time"
-msgstr ""
+msgstr "Показать параметры ZIP в следующий раз"
 
+#, fuzzy
 msgctxt "zip_export_notification_generating_title"
 msgid "Generating ZIP file"
-msgstr ""
+msgstr "Создание файла ZIP"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "zip_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
-msgstr ""
+msgstr "Визуализация изображения %1$d из %2$d."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "zip_export_notification_progress_pdf_step"
 msgid "PDF image %1$d of %2$d."
-msgstr ""
+msgstr "Изображение PDF %1$d из %2$d."
 
+#, fuzzy
 msgctxt "zip_export_notification_progress_compressing_step"
 msgid "Compressing ZIP file..."
-msgstr ""
+msgstr "Сжатие ZIP-файла ..."
 
 #. dialogs
 #, fuzzy
@@ -1218,9 +1408,10 @@ msgctxt "imageselect_dialog_image_name_image_title"
 msgid "Image name"
 msgstr "Имя изображения"
 
+#, fuzzy
 msgctxt "imageselect_dialog_image_name_title_hint"
 msgid "Enter image name"
-msgstr ""
+msgstr "Введите имя изображения"
 
 #. string name="imageselect_dialog_image_name_capture_date">Capture
 #. date:</string
@@ -1228,9 +1419,10 @@ msgctxt "imageselect_dialog_image_name_notes"
 msgid "Notes"
 msgstr "Примечание"
 
+#, fuzzy
 msgctxt "imageselect_dialog_image_name_number"
 msgid "Number"
-msgstr ""
+msgstr "Число"
 
 #. Dialog: image import
 msgctxt "dialog_data_import_progress_message"
@@ -1265,12 +1457,8 @@ msgstr "Папка импорта"
 
 #, c-format
 msgctxt "dialog_duplicate_folder_import_message"
-msgid ""
-"Imported folder '%1$s' already exists. %3$d images should be imported, "
-"out of which %2$d already exist locally."
-msgstr ""
-"Папка импорта '%1$s' уже существует. %3$d изображений готово к импорту, "
-"из которых %2$d уже существуют локально."
+msgid "Imported folder '%1$s' already exists. %3$d images should be imported, out of which %2$d already exist locally."
+msgstr "Папка импорта '%1$s' уже существует. %3$d изображений готово к импорту, из которых %2$d уже существуют локально."
 
 #, c-format
 msgctxt "dialog_duplicate_folder_no_duplicate_images_import_message"
@@ -1293,20 +1481,20 @@ msgctxt "dialog_duplicate_folder_import_skip"
 msgid "Skip"
 msgstr "Поопустить"
 
-#. Dialog: cloud login required
+#. Dialog: cloud login required, fuzzy
 msgctxt "dialog_cloud_login_required_title"
 msgid "Cloud login required"
-msgstr ""
+msgstr "Требуется вход в облако"
 
+#, fuzzy
 msgctxt "dialog_cloud_login_required_text"
-msgid ""
-"You are currently not logged into any cloud service. Please connect to "
-"your account in the preferences."
-msgstr ""
+msgid "You are currently not logged into any cloud service. Please connect to your account in the preferences."
+msgstr "В настоящее время вы не авторизованы ни в одной облачной службе. Пожалуйста, подключитесь к своей учетной записи в настройках."
 
+#, fuzzy
 msgctxt "dialog_cloud_login_open_prefs_button"
 msgid "Open cloud preferences"
-msgstr ""
+msgstr "Настройки открытого облака"
 
 #. Errors. TODO: check all errors in this section whether they are still
 #. required.
@@ -1316,15 +1504,11 @@ msgstr "Импортированный файл не является изобр
 
 msgctxt "imageselect_error_cannot_edit_corrupted_image"
 msgid "The .imm file for this image is corrupted. You cannot edit the image."
-msgstr ""
-"Файл .imm для этого изображения поврежден. Вы не можете редактировать "
-"изображение."
+msgstr "Файл .imm для этого изображения поврежден. Вы не можете редактировать изображение."
 
 msgctxt "imageselect_error_cannot_rename_corrupted_image"
 msgid "The .imm file for this image is corrupted. You cannot rename the image."
-msgstr ""
-"Файл .imm для этого изображения поврежден. Вы не можете переименовать "
-"изображение."
+msgstr "Файл .imm для этого изображения поврежден. Вы не можете переименовать изображение."
 
 msgctxt "imageselect_error_cannot_export_corrupted_image"
 msgid "The images with the corrupted .imm files will not be exported."
@@ -1333,60 +1517,34 @@ msgstr "Изображения с поврежденными файлами .imm
 #, c-format
 msgctxt "imageselect_error_image_version_more_recent_open_editor_anyways"
 msgid ""
-"The file version of this image (%1$d) is more recent than the maximum "
-"version supported by the ImageMeter version installed (%2$d). Opening the"
-" file may result in lost data or wrong annotations. You should use a "
-"recent version of ImageMeter to open this file.\n"
+"The file version of this image (%1$d) is more recent than the maximum version supported by the ImageMeter version installed (%2$d). Opening the file may result in lost data or wrong annotations. You should use a recent version of ImageMeter to open this file.\n"
 "\n"
 "Do you still want to open it?"
 msgstr ""
-"Версия файла этого изображения (%1$d) является более поздней, чем может "
-"открыть установленная версия ImageMeter (%2$d). Открытие файла может "
-"привести к потере данных или неправильной аннотации. Вам необходимо "
-"использовать последние версии ImageMeter, чтобы открыть этот файл.\n"
+"Версия файла этого изображения (%1$d) является более поздней, чем может открыть установленная версия ImageMeter (%2$d). Открытие файла может привести к потере данных или неправильной аннотации. Вам необходимо использовать последние версии ImageMeter, чтобы открыть этот файл.\n"
 "\n"
 "Все еще желаете его открыть?"
 
 msgctxt "imageselect_error_metadata_format_unknown"
 msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
-msgstr ""
-"Метаданные изображения (.imm) нечитабельны, потому, что формат "
-"неизвестный."
+msgstr "Метаданные изображения (.imm) нечитабельны, потому, что формат неизвестный."
 
 msgctxt "imageselect_error_cannot_modify_readonly_folder"
 msgid "This is an essential system folder, you cannot remove or rename it."
 msgstr "Это системная папка, она не может быть удалена или переименована."
 
 msgctxt "imageselect_error_cannot_move_bundle_to_folder"
-msgid ""
-"Cannot move image to new folder (maybe an image with the same name "
-"already exists)."
-msgstr ""
-"Не удается переместить изображение в новую папку (возможно изображение с "
-"таким именем уже существует)"
+msgid "Cannot move image to new folder (maybe an image with the same name already exists)."
+msgstr "Не удается переместить изображение в новую папку (возможно изображение с таким именем уже существует)"
 
 msgctxt "imageselect_error_external_memory_unavailable"
-msgid ""
-"External memory (where your app-data is stored) is not available. Most "
-"probably, your device stores this data on an external SD card which is "
-"currently not available. If this is not the problem in your case, you may"
-" contact imagemeter@gmail.com."
-msgstr ""
-"Внешняя память (где сохранены данные Вашего приложения) недоступна. "
-"Скорее всего, Ваше устройство сохраняет эти данные на внешнюю SD-карту, "
-"которая в настоящее время недоступна. Если это не Ваш случай, будьте "
-"добры, отпишитесь максимально подробно на imagemeter@gmail.com."
+msgid "External memory (where your app-data is stored) is not available. Most probably, your device stores this data on an external SD card which is currently not available. If this is not the problem in your case, you may contact imagemeter@gmail.com."
+msgstr "Внешняя память (где сохранены данные Вашего приложения) недоступна. Скорее всего, Ваше устройство сохраняет эти данные на внешнюю SD-карту, которая в настоящее время недоступна. Если это не Ваш случай, будьте добры, отпишитесь максимально подробно на imagemeter@gmail.com."
 
 #, c-format
 msgctxt "imageselect_error_folder_cannot_create"
-msgid ""
-"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
-"the media (e.g. SD-card) is mounted, this directory exists and is "
-"writable."
-msgstr ""
-"Невозможно создать папку '%1$s' в директории: '%2$s'. Убедитесь, что "
-"накопитель (например SD-карта) смонтирован, а эта директория существует и"
-" доступна для записи."
+msgid "Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure the media (e.g. SD-card) is mounted, this directory exists and is writable."
+msgstr "Невозможно создать папку '%1$s' в директории: '%2$s'. Убедитесь, что накопитель (например SD-карта) смонтирован, а эта директория существует и доступна для записи."
 
 #, c-format
 msgctxt "imageselect_error_cannot_access_external_data"
@@ -1424,64 +1582,56 @@ msgid "Cannot delete image '%1$s'."
 msgstr "Невозможно удалить изображение '%1$s'."
 
 msgctxt "imageselect_error_internal_toast"
-msgid ""
-"An internal error happened. Please take a screenshot of the notification "
-"above and send this to me. Thank you!"
-msgstr ""
-"Произошла внутренняя ошибка. Пожалуйста, сделайте скриншот и вышлите мне."
-" Спасибо!"
+msgid "An internal error happened. Please take a screenshot of the notification above and send this to me. Thank you!"
+msgstr "Произошла внутренняя ошибка. Пожалуйста, сделайте скриншот и вышлите мне. Спасибо!"
 
 msgctxt "imageselect_error_url_of_imported_file_not_found"
 msgid "Image to be imported cannot be found."
 msgstr "Изображение для импорта не найдено."
 
 msgctxt "imageselect_error_cannot_capture_with_camera"
-msgid ""
-"Cannot start external app to capture camera image. Either the device does"
-" not have a camera or your camera app does not respond to a capture "
-"request. You can still import images from the gallery or you can try to "
-"install an alternative camera app."
-msgstr ""
-"Не удается запустить стороннее приложение для захвата изображения с "
-"камеры. Как вариант- устройство не имеет камеры или приложение камеры не "
-"отвечает на попытку захвата. Вы еще можете импортировать изображения из "
-"галереи, или можете попробовать установить другое приложение камеры."
+msgid "Cannot start external app to capture camera image. Either the device does not have a camera or your camera app does not respond to a capture request. You can still import images from the gallery or you can try to install an alternative camera app."
+msgstr "Не удается запустить стороннее приложение для захвата изображения с камеры. Как вариант- устройство не имеет камеры или приложение камеры не отвечает на попытку захвата. Вы еще можете импортировать изображения из галереи, или можете попробовать установить другое приложение камеры."
 
+#, fuzzy
 msgctxt "imageselect_error_no_image_import_activity"
 msgid "There is no app on the device from which we can import images."
-msgstr ""
+msgstr "На устройстве нет приложения, с которого мы могли бы импортировать изображения."
 
+#, fuzzy
 msgctxt "imagelibrary_error_cannot_import_current_directory_is_not_valid"
 msgid "Cannot import image because the current directory is not valid."
-msgstr ""
+msgstr "Невозможно импортировать изображение, потому что текущий каталог недействителен."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cannot_save_annotated_image"
 msgid "Cannot save annotated image because: '%1$s'."
-msgstr ""
+msgstr "Невозможно сохранить изображение с аннотациями, потому что: \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cannot_save_thumbnail_image"
 msgid "Cannot save thumbnail image because: '%1$s'."
-msgstr ""
+msgstr "Невозможно сохранить уменьшенное изображение, потому что: \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cannot_access_files_in_folder"
 msgid "Cannot access files in folder '%1$s'."
-msgstr ""
+msgstr "Нет доступа к файлам в папке \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_target_folder_contains_bundle_with_same_id"
 msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
-msgstr ""
+msgstr "Папка \"%1$s\" содержит изображение \"%2$s\" с тем же идентификатором, что и изображение \"%3$s\"."
 
+#, fuzzy
 msgctxt "error_cannot_open_pdf"
 msgid "Cannot open link to PDF file"
-msgstr ""
+msgstr "Не удается открыть ссылку на файл PDF"
 
+#, fuzzy
 msgctxt "error_cause_section_title"
 msgid "Cause:"
-msgstr ""
+msgstr "Причина:"
 
 #. storage errors
 msgctxt "storage_error_external_storage_unavailable"
@@ -1497,12 +1647,8 @@ msgid "Could not write file to external memory."
 msgstr "Не удалось записать файл на внешнем хранилище."
 
 msgctxt "storage_error_external_storage_could_not_get_permission_to_write_images"
-msgid ""
-"Could not get permission to write to external storage. No files have been"
-" written."
-msgstr ""
-"Невозможно получить разрешение на запись на внешнее хранилище. Запись "
-"файлов не удалась."
+msgid "Could not get permission to write to external storage. No files have been written."
+msgstr "Невозможно получить разрешение на запись на внешнее хранилище. Запись файлов не удалась."
 
 #, c-format
 msgctxt "storage_error_cannot_create_directory_on_external_storage"
@@ -1519,73 +1665,78 @@ msgid "Data in image directory '%1$s' is corrupted."
 msgstr "Данные в директории изображения '%1$s' повреждены."
 
 msgctxt "storage_error_no_permission_to_read_image_to_be_imported"
-msgid ""
-"Cannot import image because the permission to read external storage has "
-"not been granted."
-msgstr ""
-"Невозможно импортировать изображения, ибо разрешения на чтение внешних "
-"накопителей не были предоставлены."
+msgid "Cannot import image because the permission to read external storage has not been granted."
+msgstr "Невозможно импортировать изображения, ибо разрешения на чтение внешних накопителей не были предоставлены."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "storage_error_cannot_read_ifd_file"
 msgid "Cannot read IFD file in folder '%1$s'."
-msgstr ""
+msgstr "Не удается прочитать файл IFD в папке \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cannot_open_file_does_not_exist"
 msgid "Cannot open file '%1$s' because it does not exist."
-msgstr ""
+msgstr "Невозможно открыть файл \"%1$s\", потому что он не существует."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cannot_open_file_is_folder"
 msgid "Cannot open file '%1$s' because it is a folder."
-msgstr ""
+msgstr "Не удается открыть файл \"%1$s\", потому что это папка."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cannot_write_file"
 msgid "Cannot write to file '%1$s'."
-msgstr ""
+msgstr "Невозможно записать в файл \"%1$s\"."
 
+#, fuzzy
 msgctxt "storage_error_cannot_load_image_file_from_remote"
 msgid "Cannot load the image file from cloud storage."
-msgstr ""
+msgstr "Не удается загрузить файл изображения из облачного хранилища."
 
+#, fuzzy
 msgctxt "storage_note_pulling_image_file_from_remote"
 msgid "Downloading image file from cloud storage."
-msgstr ""
+msgstr "Скачивание файла изображения из облачного хранилища."
 
-#. filesystem errors
+#. filesystem errors, fuzzy
 msgctxt "error_cannot_delete_file"
 msgid "Cannot delete file '{}'."
-msgstr ""
+msgstr "Невозможно удалить файл '{}'."
 
+#, fuzzy
 msgctxt "imerror_files_cannot_read_file"
 msgid "Cannot read file '{}'."
-msgstr ""
+msgstr "Не удается прочитать файл '{}'."
 
+#, fuzzy
 msgctxt "imerror_files_cannot_write_file"
 msgid "Cannot write file '{}'."
-msgstr ""
+msgstr "Невозможно записать файл '{}'."
 
+#, fuzzy
 msgctxt "error_cannot_rename_file"
 msgid "Cannot rename file '{0}' to '{1}'."
-msgstr ""
+msgstr "Невозможно переименовать файл '{0}' в '{1}'."
 
+#, fuzzy
 msgctxt "imerror_files_file_does_not_exist"
 msgid "File does not exist: \"{}\"."
-msgstr ""
+msgstr "Файл не существует: \"{}\"."
 
+#, fuzzy
 msgctxt "imerror_files_file_cannot_be_opened"
 msgid "Cannot open file \"{}\"."
-msgstr ""
+msgstr "Не может открыть файл \"{}\"."
 
+#, fuzzy
 msgctxt "imerror_files_cannot_create_directory"
 msgid "Cannot create directory \"{}\"."
-msgstr ""
+msgstr "Невозможно создать каталог \"{}\"."
 
+#, fuzzy
 msgctxt "imerror_files_directory_does_not_exist"
 msgid "Directory '{}' does not exist."
-msgstr ""
+msgstr "Каталог '{}' не существует."
 
 msgctxt "imageselect_error_cannot_rename_folder"
 msgid "Cannot rename folder '{0}' to '{1}'."
@@ -1595,415 +1746,488 @@ msgctxt "imageselect_error_folder_cannot_delete"
 msgid "Cannot delete folder '{}'."
 msgstr "Невозможно удалить папку '{}'."
 
+#, fuzzy
 msgctxt "imerror_files_cannot_read_directory"
 msgid "Cannot read directory '{}'."
-msgstr ""
+msgstr "Не удается прочитать каталог '{}'."
 
+#, fuzzy
 msgctxt "imerror_files_cannot_copy_directory"
 msgid "Cannot copy directory '{}'."
-msgstr ""
+msgstr "Невозможно скопировать каталог '{}'."
 
+#, fuzzy
 msgctxt "imerror_files_errno"
 msgid "OS error: '{}'."
-msgstr ""
+msgstr "Ошибка ОС: '{}'."
 
+#, fuzzy
 msgctxt "imerror_files_cannot_generate_unique_filename"
 msgid "Cannot generate unique filename: '{}'."
-msgstr ""
+msgstr "Невозможно создать уникальное имя файла: '{}'."
 
+#, fuzzy
 msgctxt "error_files_locked"
 msgid "Files are currently in use."
-msgstr ""
+msgstr "Файлы в настоящее время используются."
 
-#. used in PrefsStorageDirectory
+#. used in PrefsStorageDirectory, fuzzy
 msgctxt "imerror_cannot_lock_file_read"
 msgid "Cannot read file '{}' because it is currently being modified."
-msgstr ""
+msgstr "Невозможно прочитать файл '{}', потому что он в настоящее время изменяется."
 
+#, fuzzy
 msgctxt "imerror_cannot_lock_file_write"
 msgid "Cannot modify file '{}' because it is currently in use."
-msgstr ""
+msgstr "Невозможно изменить файл '{}', потому что он в настоящее время используется."
 
-#. image library errors
+#. image library errors, fuzzy
 msgctxt "imerror_library_no_library_directory_defined"
 msgid "No image library directory defined."
-msgstr ""
+msgstr "Каталог библиотеки изображений не определен."
 
+#, fuzzy
 msgctxt "imerror_library_cannot_purge"
 msgid "Cannot purge deleted images."
-msgstr ""
+msgstr "Невозможно очистить удаленные изображения."
 
-#. entity level errors
+#. entity level errors, fuzzy
 msgctxt "imerror_projectfolder_cannot_create"
 msgid "Cannot create folder '{}'."
-msgstr ""
+msgstr "Невозможно создать папку '{}'."
 
+#, fuzzy
 msgctxt "imerror_projectfolder_cannot_write_ifd"
 msgid "Cannot write IFD file for folder '{}'."
-msgstr ""
+msgstr "Невозможно записать файл IFD для папки '{}'."
 
+#, fuzzy
 msgctxt "imerror_projectfolder_cannot_load_folder"
 msgid "Cannot load folder '{}'."
-msgstr ""
+msgstr "Не удается загрузить папку '{}'."
 
+#, fuzzy
 msgctxt "imerror_projectfolder_multiple_ifd_files"
 msgid "More than one IFD file found."
-msgstr ""
+msgstr "Найдено более одного файла IFD."
 
+#, fuzzy
 msgctxt "imerror_projectfolder_ifd_parse_error"
 msgid "IFD file parse error."
-msgstr ""
+msgstr "Ошибка синтаксического анализа файла IFD."
 
+#, fuzzy
 msgctxt "imerror_databundle_cannot_load_data_bundle"
 msgid "Cannot load image '{}'."
-msgstr ""
+msgstr "Невозможно загрузить изображение '{}'."
 
+#, fuzzy
 msgctxt "imerror_databundle_cannot_create"
 msgid "Cannot create new image '{}'."
-msgstr ""
+msgstr "Невозможно создать новое изображение '{}'."
 
+#, fuzzy
 msgctxt "imerror_databundle_cannot_write_imm"
 msgid "Cannot write IMM file for image '{}'."
-msgstr ""
+msgstr "Невозможно записать файл IMM для изображения '{}'."
 
+#, fuzzy
 msgctxt "imerror_databundle_cannot_delete"
 msgid "Cannot delete image '{}'."
-msgstr ""
+msgstr "Невозможно удалить изображение '{}'."
 
+#, fuzzy
 msgctxt "imerror_databundle_cannot_rename_folder"
 msgid "Cannot rename directory of image '{}'."
-msgstr ""
+msgstr "Невозможно переименовать каталог изображения '{}'."
 
+#, fuzzy
 msgctxt "imerror_databundle_multiple_imm_files"
 msgid "More than one IMM file found."
-msgstr ""
+msgstr "Найдено более одного файла IMM."
 
+#, fuzzy
 msgctxt "imerror_databundle_cannot_open"
 msgid "Cannot open image \"{}\"."
-msgstr ""
+msgstr "Невозможно открыть изображение \"{}\"."
 
+#, fuzzy
 msgctxt "imerror_databundle_cannot_read_imm_file"
 msgid "Cannot read IMM file."
-msgstr ""
+msgstr "Не удается прочитать файл IMM."
 
+#, fuzzy
 msgctxt "imerror_databundle_cannot_get_content_area"
 msgid "Unknown content area."
-msgstr ""
+msgstr "Неизвестная область содержимого."
 
+#, fuzzy
 msgctxt "imerror_databundle_imm_parse_error"
 msgid "IMM file parse error ({})."
-msgstr ""
+msgstr "Ошибка синтаксического анализа файла IMM ({})."
 
+#, fuzzy
 msgctxt "imerror_entity_cannot_move"
 msgid "Cannot move '{}' to new directory."
-msgstr ""
+msgstr "Невозможно переместить '{}' в новый каталог."
 
+#, fuzzy
 msgctxt "imerror_entity_numbering_invalid_number"
 msgid "Invalid number: '{}'."
-msgstr ""
+msgstr "Неправильный номер: '{}'."
 
-#. logic level errors
+#. logic level errors, fuzzy
 msgctxt "imerror_delete_logic_cannot_delete"
 msgid "Cannot delete folder '{}'."
-msgstr ""
+msgstr "Невозможно удалить папку '{}'."
 
+#, fuzzy
 msgctxt "imerror_delete_logic_cannot_mark_as_deleted"
 msgid "Cannot mark folder '{}' as deleted."
-msgstr ""
+msgstr "Невозможно пометить папку '{}' как удаленную."
 
-#. import/export errors
+#. import/export errors, fuzzy
 msgctxt "imerror_unknown_file_format"
 msgid "File '{}' has unknown format."
-msgstr ""
+msgstr "Файл '{}' имеет неизвестный формат."
 
+#, fuzzy
 msgctxt "imerror_cannot_create_imi_file"
 msgid "Cannot create IMI file '{}'."
-msgstr ""
+msgstr "Невозможно создать файл IMI '{}'."
 
+#, fuzzy
 msgctxt "imerror_cannot_export_image"
 msgid "Cannot export image '{}'."
-msgstr ""
+msgstr "Невозможно экспортировать изображение '{}'."
 
+#, fuzzy
 msgctxt "imerror_imf_corrupted_file"
 msgid "Corrupted IMF file."
-msgstr ""
+msgstr "Поврежденный файл IMF."
 
+#, fuzzy
 msgctxt "imerror_ifd_parse_error"
 msgid "IFD file parse error."
-msgstr ""
+msgstr "Ошибка синтаксического анализа файла IFD."
 
+#, fuzzy
 msgctxt "imerror_imi_cannot_open"
 msgid "Cannot open IMI file '{}'."
-msgstr ""
+msgstr "Не удается открыть файл IMI '{}'."
 
+#, fuzzy
 msgctxt "imerror_imf_cannot_read_zip"
 msgid "Corrupted ZIP file \"{}\"."
-msgstr ""
+msgstr "Поврежденный ZIP-файл \"{}\"."
 
+#, fuzzy
 msgctxt "imerror_zip_error"
 msgid "ZIP error: {}"
-msgstr ""
+msgstr "Ошибка ZIP: {}"
 
+#, fuzzy
 msgctxt "imerror_zip_read_error"
 msgid "Error reading ZIP file."
-msgstr ""
+msgstr "Ошибка чтения ZIP-файла."
 
+#, fuzzy
 msgctxt "imerror_cannot_generate_pdf"
 msgid "Cannot generate PDF"
-msgstr ""
+msgstr "Невозможно создать PDF"
 
+#, fuzzy
 msgctxt "imerror_libharu"
 msgid "LibHARU error: \"{}\""
-msgstr ""
+msgstr "Ошибка LibHARU: \"{}\""
 
-#. image reader/writer errors
+#. image reader/writer errors, fuzzy
 msgctxt "imerror_imagereader_cannot_read_image"
 msgid "Cannot read image file."
-msgstr ""
+msgstr "Невозможно прочитать файл изображения."
 
+#, fuzzy
 msgctxt "imerror_imagereader_reader_error"
 msgid "Image reader error."
-msgstr ""
+msgstr "Ошибка программы чтения изображений."
 
+#, fuzzy
 msgctxt "imerror_imagereader_corrupted_image"
 msgid "Corrupted image file."
-msgstr ""
+msgstr "Поврежденный файл изображения."
 
+#, fuzzy
 msgctxt "imerror_imagereader_unsupported_format"
 msgid "Unsupported image format."
-msgstr ""
+msgstr "Неподдерживаемый формат изображения."
 
+#, fuzzy
 msgctxt "imerror_libjpeg_error"
 msgid "LibJPEG error: \"{}\"."
-msgstr ""
+msgstr "Ошибка LibJPEG: \"{}\"."
 
+#, fuzzy
 msgctxt "imerror_cannot_read_texture"
 msgid "Cannot read texture '{}'."
-msgstr ""
+msgstr "Невозможно прочитать текстуру '{}'."
 
-#. rendering errors
+#. rendering errors, fuzzy
 msgctxt "imerror_cannot_render_image"
 msgid "Cannot render image \"{}\"."
-msgstr ""
+msgstr "Невозможно отобразить изображение \"{}\"."
 
+#, fuzzy
 msgctxt "imerror_opengl"
 msgid "OpenGL error: \"{}\"."
-msgstr ""
+msgstr "Ошибка OpenGL: \"{}\"."
 
+#, fuzzy
 msgctxt "imerror_opengl_cannot_allocate_rendering_surface"
-msgid ""
-"Not enough memory to render at output resolution {}. Please reduce the "
-"output resolution."
-msgstr ""
+msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
+msgstr "Недостаточно памяти для рендеринга с выходным разрешением {}. Уменьшите разрешение вывода."
 
-#. other errors
+#. other errors, fuzzy
 msgctxt "imerror_out_of_memory"
 msgid "Out of memory."
-msgstr ""
+msgstr "Недостаточно памяти."
 
+#, fuzzy
 msgctxt "imerror_out_of_memory_with_size"
 msgid "Out of memory (cannot allocate {} bytes)."
-msgstr ""
+msgstr "Недостаточно памяти (невозможно выделить {} байт)."
 
+#, fuzzy
 msgctxt "imerror_out_of_memory_with_size_mb"
 msgid "Out of memory (cannot allocate {} MB)."
-msgstr ""
+msgstr "Недостаточно памяти (невозможно выделить {} МБ)."
 
+#, fuzzy
 msgctxt "imerror_internal_error"
 msgid "Internal error: {}."
-msgstr ""
+msgstr "Внутренняя ошибка: {}."
 
-#. string name="imerror_databundle_cannot_find_imm_file">Cannot find the .imm
+#. string name="imerror_databundle_cannot_find_imm_file">Cannot find the .imm, fuzzy
 #. file.</string
 msgctxt "imerror_editcore_cannot_load_auxiliary_data"
 msgid "Cannot load auxiliary data."
-msgstr ""
+msgstr "Не удается загрузить вспомогательные данные."
 
+#, fuzzy
 msgctxt "imerror_editcore_cannot_purge_unused_auxiliary_data"
 msgid "Cannot delete unused auxiliary data files."
-msgstr ""
+msgstr "Невозможно удалить неиспользуемые файлы вспомогательных данных."
 
+#, fuzzy
 msgctxt "imerror_gtext_cannot_add_detail_image"
 msgid "Cannot add the detail image \"{}\"."
-msgstr ""
+msgstr "Невозможно добавить изображение детали \"{}\"."
 
+#, fuzzy
 msgctxt "imerror_gtext_cannot_add_audio_recording"
 msgid "Cannot add audio recording \"{}\"."
-msgstr ""
+msgstr "Невозможно добавить аудиозапись \"{}\"."
 
+#, fuzzy
 msgctxt "imerror_editcore_cannot_read_background_image"
 msgid "Cannot read photo."
-msgstr ""
+msgstr "Не могу прочитать фото."
 
+#, fuzzy
 msgctxt "imerror_imagesetting_cannot_load"
 msgid "Cannot load image settings."
-msgstr ""
+msgstr "Невозможно загрузить настройки изображения."
 
+#, fuzzy
 msgctxt "imerror_imagesetting_cannot_save"
 msgid "Cannot save image settings."
-msgstr ""
+msgstr "Невозможно сохранить настройки изображения."
 
+#, fuzzy
 msgctxt "imerror_app_preferences_cannot_set_data_root_directory"
 msgid "Cannot set the data root directory."
-msgstr ""
+msgstr "Невозможно установить корневой каталог данных."
 
+#, fuzzy
 msgctxt "imerror_app_preferences_cannot_create_data_root_directory"
 msgid "Cannot create the data root directory."
-msgstr ""
+msgstr "Невозможно создать корневой каталог данных."
 
+#, fuzzy
 msgctxt "imerror_app_preferences_no_root_defined"
 msgid "No data root directory defined."
-msgstr ""
+msgstr "Корневой каталог данных не определен."
 
+#, fuzzy
 msgctxt "imerror_string_template_unknown_field"
 msgid "Unknown field '{}' in string template."
-msgstr ""
+msgstr "Неизвестное поле '{}' в шаблоне строки."
 
+#, fuzzy
 msgctxt "imerror_string_template_syntax_error"
 msgid "Syntax error in string template '{}'."
-msgstr ""
+msgstr "Синтаксическая ошибка в строковом шаблоне '{}'."
 
-#. android specific errors
+#. android specific errors, fuzzy
 msgctxt "imerror_android_external_directory_not_mounted"
 msgid "External directory is not mounted."
-msgstr ""
+msgstr "Внешний каталог не смонтирован."
 
+#, fuzzy
 msgctxt "imerror_android_needs_storage_permission"
 msgid "Access to directory '{}' needs the Storage permission."
-msgstr ""
+msgstr "Для доступа к каталогу '{}' требуется разрешение на хранение."
 
+#, fuzzy
 msgctxt "imerror_android_import_security_exception"
 msgid "Security exception when accessing URI '{}'."
-msgstr ""
+msgstr "Исключение безопасности при доступе к URI '{}'."
 
-#. cloud storage
+#. cloud storage, fuzzy
 msgctxt "pref_cloud_storage_server_none"
 msgid "None"
-msgstr ""
+msgstr "Никто"
 
+#, fuzzy
 msgctxt "pref_cloud_storage_server_drive"
 msgid "Google Drive"
-msgstr ""
+msgstr "Google Drive"
 
+#, fuzzy
 msgctxt "pref_cloud_storage_server_dropbox"
 msgid "Dropbox"
-msgstr ""
+msgstr "Dropbox"
 
+#, fuzzy
 msgctxt "pref_cloud_storage_server_nextcloud"
 msgid "Nextcloud/Owncloud"
-msgstr ""
+msgstr "Nextcloud/Owncloud"
 
+#, fuzzy
 msgctxt "pref_cloud_storage_server_onedrive"
 msgid "OneDrive"
-msgstr ""
+msgstr "OneDrive"
 
+#, fuzzy
 msgctxt "pref_cloud_storage_server_handwerkcloud"
 msgid "Handwerkcloud"
-msgstr ""
+msgstr "Handwerkcloud"
 
+#, fuzzy
 msgctxt "pref_cloud_storage_server_imagemeter_predefined"
 msgid "ImageMeter"
-msgstr ""
+msgstr "ImageMeter"
 
+#, fuzzy
 msgctxt "cloud_storage_provider_googledrive"
 msgid "Google Drive"
-msgstr ""
+msgstr "Google Drive"
 
+#, fuzzy
 msgctxt "cloud_storage_provider_dropbox"
 msgid "Dropbox"
-msgstr ""
+msgstr "Dropbox"
 
+#, fuzzy
 msgctxt "cloud_storage_provider_nextcloud"
 msgid "Nextcloud / Owncloud"
-msgstr ""
+msgstr "Nextcloud / Owncloud"
 
+#, fuzzy
 msgctxt "cloud_storage_provider_onedrive"
 msgid "OneDrive"
-msgstr ""
+msgstr "OneDrive"
 
-#. string name="pref_cloud_storage_server_and_user_name">%1$s, account:
+#. string name="pref_cloud_storage_server_and_user_name">%1$s, account:, fuzzy
 #. %2$s</string
 msgctxt "cloud_storage_base_directory"
 msgid "Data directory:"
-msgstr ""
+msgstr "Каталог данных:"
 
+#, fuzzy
 msgctxt "cloud_storage_anno_base_directory"
 msgid "Image directory:"
-msgstr ""
+msgstr "Каталог изображений:"
 
+#, fuzzy
 msgctxt "cloud_storage_do_two_way_sync"
 msgid "Do two-way sync"
-msgstr ""
+msgstr "Сделайте двустороннюю синхронизацию"
 
+#, fuzzy
 msgctxt "cloud_storage_do_image_upload_sync"
 msgid "Do image upload"
-msgstr ""
+msgstr "Загрузить изображение"
 
+#, fuzzy
 msgctxt "cloud_storage_two_way_info_title"
 msgid "Two-way sync"
-msgstr ""
+msgstr "Двусторонняя синхронизация"
 
+#, fuzzy
 msgctxt "cloud_storage_two_way_info_text"
-msgid ""
-"The two-way sync is for exchanging data between multiple devices. The "
-"data it stores on the cloud storage is for internal use only. Do not "
-"modify the data stored on the cloud server manually!"
-msgstr ""
+msgid "The two-way sync is for exchanging data between multiple devices. The data it stores on the cloud storage is for internal use only. Do not modify the data stored on the cloud server manually!"
+msgstr "Двусторонняя синхронизация предназначена для обмена данными между несколькими устройствами. Данные, которые он хранит в облачном хранилище, предназначены только для внутреннего использования. Не изменяйте данные, хранящиеся на облачном сервере, вручную!"
 
+#, fuzzy
 msgctxt "cloud_storage_image_upload_info_title"
 msgid "Image upload"
-msgstr ""
+msgstr "Загрузка изображения"
 
+#, fuzzy
 msgctxt "cloud_storage_image_upload_info_text"
 msgid ""
-"The image upload option stores the measured images on the cloud server. "
-"This is the right option if you want to access your images from your "
-"office PC.\n"
-"This option cannot be used to exchange data between mobile devices. In "
-"fact, you should not sync to the same cloud image directory from several "
-"devices."
+"The image upload option stores the measured images on the cloud server. This is the right option if you want to access your images from your office PC.\n"
+"This option cannot be used to exchange data between mobile devices. In fact, you should not sync to the same cloud image directory from several devices."
 msgstr ""
+"Опция загрузки изображений сохраняет измеренные изображения на облачном сервере. Это правильный вариант, если вы хотите получить доступ к изображениям со своего офисного ПК.\n"
+"Этот параметр нельзя использовать для обмена данными между мобильными устройствами. Фактически, вам не следует выполнять синхронизацию с одним и тем же каталогом облачных образов с нескольких устройств."
 
+#, fuzzy
 msgctxt "cloud_storage_server_url"
 msgid "Server URL:"
-msgstr ""
+msgstr "URL-адрес сервера:"
 
+#, fuzzy
 msgctxt "cloud_storage_user_name"
 msgid "User name:"
-msgstr ""
+msgstr "Имя пользователя:"
 
+#, fuzzy
 msgctxt "cloud_storage_password"
 msgid "Password:"
-msgstr ""
+msgstr "Пароль:"
 
+#, fuzzy
 msgctxt "cloud_storage_sign_in"
 msgid "Sign in"
-msgstr ""
+msgstr "войти в систему"
 
+#, fuzzy
 msgctxt "cloud_storage_sign_out"
 msgid "Sign out"
-msgstr ""
+msgstr "выход"
 
+#, fuzzy
 msgctxt "cloud_storage_revoke_access"
 msgid "Revoke access"
-msgstr ""
+msgstr "Отменить доступ"
 
+#, fuzzy
 msgctxt "cloud_storage_cloud_server"
 msgid "Cloud server:"
-msgstr ""
+msgstr "Облачный сервер:"
 
+#, fuzzy
 msgctxt "cloud_storage_cautiousness"
 msgid "Cautiousness:"
-msgstr ""
+msgstr "Осторожность:"
 
+#, fuzzy
 msgctxt "cloud_storage_notice_text"
-msgid ""
-"Before setting up cloud storage, you should read the <a "
-"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>"
-" to avoid pitfalls."
-msgstr ""
+msgid "Before setting up cloud storage, you should read the <a href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a> to avoid pitfalls."
+msgstr "Перед настройкой облачного хранилища вы должны прочитать <a href=\"https://www.imagemeter.com/manual/storage/cloud\">документацию</a>, чтобы избежать ошибок."
 
-#. string name="cloud_storage_notice_text">Cloud storage can be used in two
+#. string name="cloud_storage_notice_text">Cloud storage can be used in two, fuzzy
 #. ways.\nIn <b>share</b> mode, images on your device are mirrored to the
 #. server and back. This is useful when you want to have the same images on
 #. several devices.\nIn <b>backup</b> mode, your images are copied to the
@@ -2011,580 +2235,628 @@ msgstr ""
 #. device.\nSee the full cloud storage <a
 #. href="https://www.imagemeter.com/manual/storage/cloud">documentation</a>.</string
 msgctxt "cloud_storage_server_note_drive"
-msgid ""
-"<b>Note:</b> the Google Drive backend does not allow access to shared "
-"folders yet. Hence, you can share images between devices when they use "
-"the same Google account, but not between devices using different "
-"accounts."
-msgstr ""
+msgid "<b>Note:</b> the Google Drive backend does not allow access to shared folders yet. Hence, you can share images between devices when they use the same Google account, but not between devices using different accounts."
+msgstr "<b> Примечание. </b> Бэкэнд Google Диска пока не разрешает доступ к общим папкам. Следовательно, вы можете обмениваться изображениями между устройствами, когда они используют одну и ту же учетную запись Google, но не между устройствами, использующими разные учетные записи."
 
+#, fuzzy
 msgctxt "cloud_storage_server_note_dropbox"
-msgid ""
-"The Dropbox backend also supports sharing your images with other Dropbox "
-"users. See the documentation at the link above how to set this up."
-msgstr ""
+msgid "The Dropbox backend also supports sharing your images with other Dropbox users. See the documentation at the link above how to set this up."
+msgstr "Бэкэнд Dropbox также поддерживает обмен вашими изображениями с другими пользователями Dropbox. См. Документацию по ссылке выше, как это настроить."
 
+#, fuzzy
 msgctxt "cloud_storage_server_note_nextcloud"
-msgid ""
-"This backend allows you to use your own, private cloud server to host the"
-" images. You can set-up your own users and shared folders. Information "
-"how to set-up a server can be found at the documentation link above."
-msgstr ""
+msgid "This backend allows you to use your own, private cloud server to host the images. You can set-up your own users and shared folders. Information how to set-up a server can be found at the documentation link above."
+msgstr "Этот бэкэнд позволяет вам использовать собственный частный облачный сервер для размещения изображений. Вы можете настроить своих пользователей и общие папки. Информацию о том, как настроить сервер, можно найти по ссылке на документацию выше."
 
+#, fuzzy
 msgctxt "cloud_storage_server_note_handwerkcloud"
-msgid ""
-"The Handwerkcloud service offers not only storage space for your images "
-"and documents, but also an online office suite and other applications. A "
-"Handwerkcloud subscription includes an ImageMeter Business license. For "
-"more information see the <a "
-"href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
-msgstr ""
+msgid "The Handwerkcloud service offers not only storage space for your images and documents, but also an online office suite and other applications. A Handwerkcloud subscription includes an ImageMeter Business license. For more information see the <a href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
+msgstr "Сервис Handwerkcloud предлагает не только место для хранения ваших изображений и документов, но также офисный онлайн-пакет и другие приложения. Подписка Handwerkcloud включает лицензию ImageMeter Business. Для получения дополнительной информации посетите <a href=\"https://handwerkcloud.de\"> веб-сайт Handwerkcloud </a>."
 
 #, fuzzy
 msgctxt "cloud_storage_server_note_onedrive"
-msgid ""
-"The OneDrive backend might be suitable if you want easy access to your "
-"annotated images from your Windows PC."
-msgstr ""
+msgid "The OneDrive backend might be suitable if you want easy access to your annotated images from your Windows PC."
+msgstr "Серверная часть OneDrive может подойти, если вам нужен легкий доступ к аннотированным изображениям с ПК с Windows."
 
+#, fuzzy
 msgctxt "cloud_storage_account"
 msgid "Account owner:"
-msgstr ""
+msgstr "Владелец счета:"
 
+#, fuzzy
 msgctxt "cloud_storage_nextcloud_check_sign_in"
 msgid "Check sign in"
-msgstr ""
+msgstr "Проверить вход"
 
+#, fuzzy
 msgctxt "cloud_storage_nextcloud_sign_in_successful"
 msgid "Signed in successfully."
-msgstr ""
+msgstr "Выполнен вход успешно."
 
+#, fuzzy
 msgctxt "cloud_storage_handwerkcloud_manual_login_checkbox"
 msgid "Manual login"
-msgstr ""
+msgstr "Ручной вход"
 
+#, fuzzy
 msgctxt "cloud_storage_handwerkcloud_login_button"
 msgid "Log in"
-msgstr ""
+msgstr "Авторизоваться"
 
+#, fuzzy
 msgctxt "cloud_storage_dialog_sync_action_title"
 msgid "Synchronizing directory"
-msgstr ""
+msgstr "Синхронизация каталога"
 
+#, fuzzy
 msgctxt "cloud_storage_sync_action_download"
 msgid "Download"
-msgstr ""
+msgstr "Скачать"
 
+#, fuzzy
 msgctxt "cloud_storage_sync_action_download_changes"
 msgid "Download changes"
-msgstr ""
+msgstr "Скачать изменения"
 
+#, fuzzy
 msgctxt "cloud_storage_sync_action_upload"
 msgid "Upload"
-msgstr ""
+msgstr "Загрузить"
 
+#, fuzzy
 msgctxt "cloud_storage_sync_action_upload_changes"
 msgid "Upload changes"
-msgstr ""
+msgstr "Загрузить изменения"
 
+#, fuzzy
 msgctxt "cloud_storage_sync_action_delete_on_device"
 msgid "Delete on device"
-msgstr ""
+msgstr "Удалить на устройстве"
 
+#, fuzzy
 msgctxt "cloud_storage_sync_action_delete_on_server"
 msgid "Delete on server"
-msgstr ""
+msgstr "Удалить на сервере"
 
+#, fuzzy
 msgctxt "cloud_storage_sync_action_skip"
 msgid "Skip"
-msgstr ""
+msgstr "Пропускать"
 
+#, fuzzy
 msgctxt "cloud_sync_notification_title"
 msgid "Cloud synchronization in progress…"
-msgstr ""
+msgstr "Выполняется синхронизация с облаком…"
 
+#, fuzzy
 msgctxt "cloud_scan_notification_title"
 msgid "Scanning cloud server content"
-msgstr ""
+msgstr "Сканирование содержимого облачного сервера"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "cloud_scan_notification_content_no_error"
 msgid "%1$d images, %2$d folders found. %3$d items left."
-msgstr ""
+msgstr "%1$d изображений, найдено %2$d папок. Осталось %3$d элементов."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "cloud_scan_notification_content_with_error"
 msgid "%1$d images, %2$d folders found. %3$d items left, %4$d errors."
-msgstr ""
+msgstr "%1$d изображений, найдено %2$d папок. Осталось %3$d элемента, %4$d ошибок."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "cloud_sync_notification_content_no_error"
 msgid "%1$d items synced, %2$d items left."
-msgstr ""
+msgstr "Синхронизировано %1$d элементов, осталось %2$d элементов."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "cloud_sync_notification_content_with_error"
 msgid "%1$d items synced, %2$d items left. %3$d errors."
-msgstr ""
+msgstr "Синхронизировано %1$d элементов, осталось %2$d элементов. %3$d ошибок."
 
+#, fuzzy
 msgctxt "cloud_progress_check_server"
 msgid "Checking server content."
-msgstr ""
+msgstr "Проверка содержимого сервера."
 
+#, fuzzy
 msgctxt "cloud_progress_cleanup_server"
 msgid "Cleaning up server."
-msgstr ""
+msgstr "Очистка сервера."
 
+#, fuzzy
 msgctxt "cloud_progress_will_cancel"
 msgid "Syncing will be cancelled..."
-msgstr ""
+msgstr "Синхронизация будет отменена ..."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_title"
 msgid "Cloud storage maintenance"
-msgstr ""
+msgstr "Обслуживание облачного хранилища"
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_description"
-msgid ""
-"<b>Remove server lock</b> - In order to prevent simultaneous access to "
-"the data on the cloud server, it is locked during the sync process. In "
-"case of some errors, e.g. network failures, it may be that the server "
-"remains locked. The locks time-out automatically after a few minutes, but"
-" you can also manually remove them immediately if you know for sure that "
-"it is an error."
-msgstr ""
+msgid "<b>Remove server lock</b> - In order to prevent simultaneous access to the data on the cloud server, it is locked during the sync process. In case of some errors, e.g. network failures, it may be that the server remains locked. The locks time-out automatically after a few minutes, but you can also manually remove them immediately if you know for sure that it is an error."
+msgstr "<b>Снять блокировку сервера</b> - чтобы предотвратить одновременный доступ к данным на облачном сервере, он блокируется во время процесса синхронизации. В случае некоторых ошибок, например сбои сети, возможно, сервер остается заблокированным. Тайм-аут блокировок автоматически истекает через несколько минут, но вы также можете немедленно удалить их вручную, если вы точно знаете, что это ошибка."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_button"
 msgid "Remove server lock"
-msgstr ""
+msgstr "Снять блокировку сервера"
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_description"
-msgid ""
-"<b>Reset server cache</b> - The cloud server maintains a cache of images "
-"stored on them. If you delete or add files manually on the server, this "
-"is not seen by the cache. You may reset the server cache to run a full "
-"scan during the next sync. However, note that a full scan may take a long"
-" time if you have many images."
-msgstr ""
+msgid "<b>Reset server cache</b> - The cloud server maintains a cache of images stored on them. If you delete or add files manually on the server, this is not seen by the cache. You may reset the server cache to run a full scan during the next sync. However, note that a full scan may take a long time if you have many images."
+msgstr "<b>Сброс кеша сервера</b> - облачный сервер поддерживает кеш хранимых на нем изображений. Если вы вручную удаляете или добавляете файлы на сервере, кеш этого не видит. Вы можете сбросить кэш сервера, чтобы запустить полное сканирование во время следующей синхронизации. Однако учтите, что полное сканирование может занять много времени, если у вас много изображений."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_button"
 msgid "Reset server cache"
-msgstr ""
+msgstr "Сбросить кеш сервера"
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_description"
-msgid ""
-"<b>Reset sync state</b> - The next sync will start with no preknowledge "
-"about the data on each side. This means, e.g., that locally deleted "
-"images will be downloaded again from the server instead of being deleted "
-"on the server. There are few cases where resetting the stored sync state "
-"is needed."
-msgstr ""
+msgid "<b>Reset sync state</b> - The next sync will start with no preknowledge about the data on each side. This means, e.g., that locally deleted images will be downloaded again from the server instead of being deleted on the server. There are few cases where resetting the stored sync state is needed."
+msgstr "<b>Сбросить состояние синхронизации</b> - следующая синхронизация начнется без предварительных сведений о данных на каждой стороне. Это означает, например, что локально удаленные изображения будут снова загружены с сервера, а не удалены на сервере. В некоторых случаях требуется сброс сохраненного состояния синхронизации."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_button"
 msgid "Reset sync state"
-msgstr ""
+msgstr "Сбросить состояние синхронизации"
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_notifcation_progress_title"
 msgid "Cloud server maintenance"
-msgstr ""
+msgstr "Обслуживание облачного сервера"
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_notifcation_progress_text"
 msgid "Removing cloud server lock…"
-msgstr ""
+msgstr "Снятие блокировки облачного сервера…"
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_notifcation_result_title"
 msgid "Removing cloud server lock"
-msgstr ""
+msgstr "Снятие блокировки облачного сервера"
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_ok"
 msgid "Successfully removed server lock."
-msgstr ""
+msgstr "Успешно снята блокировка сервера."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_error_no_lock"
 msgid "There was no server lock."
-msgstr ""
+msgstr "Блокировки сервера не было."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_error"
 msgid "Could not remove server lock file '{}'."
-msgstr ""
+msgstr "Не удалось удалить файл блокировки сервера '{}'."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_notification_progress_text"
 msgid "Resetting cloud server cache…"
-msgstr ""
+msgstr "Сброс кеша облачного сервера…"
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_notification_result_title"
 msgid "Resetting cloud server cache"
-msgstr ""
+msgstr "Сброс кеша облачного сервера"
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_ok"
 msgid "Successfully resetted server cache."
-msgstr ""
+msgstr "Кеш сервера успешно сброшен."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_error"
 msgid "Could not remove server cache file '{}'."
-msgstr ""
+msgstr "Не удалось удалить файл кэша сервера '{}'."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_notification_progress_text"
 msgid "Resetting sync state…"
-msgstr ""
+msgstr "Сброс состояния синхронизации…"
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_notification_result_title"
 msgid "Resetting sync state"
-msgstr ""
+msgstr "Сброс состояния синхронизации"
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_ok"
 msgid "Successfully resetted sync state."
-msgstr ""
+msgstr "Состояние синхронизации сброшено."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_error"
 msgid "Could not reset sync state."
-msgstr ""
+msgstr "Не удалось сбросить состояние синхронизации."
 
+#, fuzzy
 msgctxt "cloud_storage_not_configured_title"
 msgid "Cloud storage"
-msgstr ""
+msgstr "Облачное хранилище"
 
+#, fuzzy
 msgctxt "cloud_storage_not_configured"
 msgid ""
 "You have not yet configured cloud storage. \n"
-"Cloud storage can be used to sync your images automatically between "
-"multiple devices or for backup. More detailed documentation on this can "
-"be found in the <a "
-"href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \n"
-"The settings for cloud storage can be found in the 'Storage' section of "
-"the app settings (<a href=\"cloud-settings\">open settings</a>)."
+"Cloud storage can be used to sync your images automatically between multiple devices or for backup. More detailed documentation on this can be found in the <a href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \n"
+"The settings for cloud storage can be found in the 'Storage' section of the app settings (<a href=\"cloud-settings\">open settings</a>)."
 msgstr ""
+"Вы еще не настроили облачное хранилище.\n"
+"Облачное хранилище можно использовать для автоматической синхронизации изображений между несколькими устройствами или для резервного копирования. Более подробную документацию по этому поводу можно найти в <a href=\"https://imagemeter.com/manual/storage/cloud/\"> руководстве. </a>\n"
+"Настройки облачного хранилища можно найти в разделе «Хранилище» настроек приложения (<a href=\"cloud-settings\"> откройте настройки </a>)."
 
+#, fuzzy
 msgctxt "cloud_storage_not_configured_syncing_inbox_in_bkg"
 msgid "Your <i>inbox</i> folder is being synced."
-msgstr ""
+msgstr "Ваша папка <i> входящие </i> синхронизируется."
 
 #, fuzzy
 msgctxt "cloud_storage_not_configured_business_upgrade"
-msgid ""
-"Cloud storage is only available in the <b>Business</b> version of "
-"ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-"
-"business-features\">here</a> for all benefits of the Business version."
-msgstr ""
+msgid "Cloud storage is only available in the <b>Business</b> version of ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-business-features\">here</a> for all benefits of the Business version."
+msgstr "Облачное хранилище доступно только в версии ImageMeter <b>Бизнес</b>. См. <a href=\"https://imagemeter.com/manual/license/android-business-features\">здесь</a>, чтобы узнать обо всех преимуществах версии Бизнес."
 
+#, fuzzy
 msgctxt "cloud_storage_not_configured_inbox_only"
-msgid ""
-"Full cloud storage is only available in the <b>Business</b> version of "
-"ImageMeter. Without Business upgrade, cloud storage is limited to the "
-"<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license"
-"/android-business-features\">here</a> for all benefits of the Business "
-"version."
-msgstr ""
+msgid "Full cloud storage is only available in the <b>Business</b> version of ImageMeter. Without Business upgrade, cloud storage is limited to the <i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license/android-business-features\">here</a> for all benefits of the Business version."
+msgstr "Полное облачное хранилище доступно только в версии ImageMeter <b>Бизнес</b>. Без обновления Бизнес облачное хранилище ограничено папкой <i>inbox</i>. См. <a href=\"https://imagemeter.com/manual/license/android-business-features\"> здесь </a>, чтобы узнать обо всех преимуществах версии Бизнес."
 
+#, fuzzy
 msgctxt "error_cloud_cannot_login_unknown"
 msgid "Cannot sign in to your cloud server account."
-msgstr ""
+msgstr "Не удается войти в учетную запись облачного сервера."
 
+#, fuzzy
 msgctxt "error_cloud_cannot_login_unauthorized"
 msgid "Not authorized to sign in to your cloud server account."
-msgstr ""
+msgstr "Не авторизован для входа в вашу учетную запись облачного сервера."
 
+#, fuzzy
 msgctxt "error_cloud_cannot_login_incorrect_password"
 msgid "Wrong user name or password."
-msgstr ""
+msgstr "Неверное имя пользователя или пароль."
 
+#, fuzzy
 msgctxt "error_cloud_cannot_login_interactive_required"
 msgid "Interactive sign in to your cloud server account is required."
-msgstr ""
+msgstr "Требуется интерактивный вход в учетную запись облачного сервера."
 
+#, fuzzy
 msgctxt "error_cloud_cannot_login_cancelled"
 msgid "Sign in to your cloud server account has been cancelled."
-msgstr ""
+msgstr "Вход в учетную запись облачного сервера отменен."
 
+#, fuzzy
 msgctxt "error_cloud_cannot_login_network_error"
 msgid "Network error while connecting to your cloud server account."
-msgstr ""
+msgstr "Ошибка сети при подключении к учетной записи облачного сервера."
 
+#, fuzzy
 msgctxt "error_cloud_cannot_login_server_timeout"
 msgid "Cloud server timeout."
-msgstr ""
+msgstr "Тайм-аут облачного сервера."
 
+#, fuzzy
 msgctxt "error_cloud_cannot_login_basefolder_access"
 msgid "Cannot access data directory on cloud server."
-msgstr ""
+msgstr "Нет доступа к каталогу данных на облачном сервере."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_create_remote_file_already_exists"
 msgid "Cannot create file '%1$s' because it already exists."
-msgstr ""
+msgstr "Невозможно создать файл \"%1$s\", поскольку он уже существует."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_create_remote_file_folder_exists"
 msgid "Cannot create file '%1$s' because there is a folder with this name."
-msgstr ""
+msgstr "Невозможно создать файл \"%1$s\", потому что существует папка с таким именем."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_create_remote_file_server_error"
 msgid "Cannot create file '%1$s' because of a server error."
-msgstr ""
+msgstr "Невозможно создать файл \"%1$s\" из-за ошибки сервера."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_create_remote_folder"
 msgid "Cannot create folder '%1$s'."
-msgstr ""
+msgstr "Невозможно создать папку \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_create_remote_folder_already_exists"
 msgid "Cannot create folder '%1$s' because it already exists."
-msgstr ""
+msgstr "Невозможно создать папку \"%1$s\", поскольку она уже существует."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_create_remote_folder_file_exists"
 msgid "Cannot create folder '%1$s' because there is a file with this name."
-msgstr ""
+msgstr "Невозможно создать папку \"%1$s\", так как существует файл с таким именем."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_download_file_download_error"
 msgid "Cannot download file '%1$s' from server."
-msgstr ""
+msgstr "Невозможно загрузить файл \"%1$s\" с сервера."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_download_file_local_write_error"
 msgid "Cannot write downloaded file '%1$s' to device."
-msgstr ""
+msgstr "Невозможно записать загруженный файл \"%1$s\" на устройство."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_get_remote_metadata"
 msgid "Cannot get metadata of file '%1$s' from server."
-msgstr ""
+msgstr "Невозможно получить метаданные файла \"%1$s\" с сервера."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_open_remote_file_does_not_exist"
 msgid "Cannot open file '%1$s' on server because it does not exist."
-msgstr ""
+msgstr "Невозможно открыть файл \"%1$s\" на сервере, потому что он не существует."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_open_remote_file_is_folder"
 msgid "Cannot open file '%1$s' on server because it is a folder."
-msgstr ""
+msgstr "Невозможно открыть файл \"%1$s\" на сервере, потому что это папка."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_open_remote_folder_does_not_exist"
 msgid "Cannot open folder '%1$s' on server because it does not exist."
-msgstr ""
+msgstr "Невозможно открыть папку \"%1$s\" на сервере, поскольку она не существует."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_open_remote_folder_is_no_folder"
 msgid "Cannot open folder '%1$s' on server because it is not a folder."
-msgstr ""
+msgstr "Не удается открыть папку \"%1$s\" на сервере, поскольку это не папка."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_rename_remote_file"
 msgid "Cannot rename remote file '%1$s' to new name '%2$s'."
-msgstr ""
+msgstr "Невозможно переименовать удаленный файл \"%1$s\" в новое имя \"%2$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_rename_remote_folder"
 msgid "Cannot rename remote folder '%1$s' to new name '%2$s'."
-msgstr ""
+msgstr "Невозможно переименовать удаленную папку \"%1$s\" в новое имя \"%2$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_remote_databundle_incomplete"
 msgid "Cannot load image '%1$s' because remote file '%2$s' is missing."
-msgstr ""
+msgstr "Невозможно загрузить изображение \"%1$s\", так как удаленный файл \"%2$s\" отсутствует."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_sync_databundle"
 msgid "Cannot sync image '%1$s'."
-msgstr ""
+msgstr "Невозможно синхронизировать изображение \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_sync_folder"
 msgid "Cannot sync folder '%1$s'."
-msgstr ""
+msgstr "Не удается синхронизировать папку \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_delete_remote_file"
 msgid "Cannot delete remote file '%1$s'."
-msgstr ""
+msgstr "Невозможно удалить удаленный файл \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_delete_remote_folder"
 msgid "Cannot delete remote folder '%1$s'."
-msgstr ""
+msgstr "Невозможно удалить удаленную папку \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_download_sync_server_cache_file"
 msgid "Cannot download server cache file '%1$s'."
-msgstr ""
+msgstr "Не удается загрузить файл кэша сервера \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_upload_sync_server_cache_file"
 msgid "Cannot upload server cache file '%1$s'."
-msgstr ""
+msgstr "Невозможно загрузить файл кэша сервера \"%1$s\"."
 
+#, fuzzy
 msgctxt "error_cloud_cannot_scan_server_content"
 msgid "Cannot scan server content."
-msgstr ""
+msgstr "Не удается проверить содержимое сервера."
 
+#, fuzzy
 msgctxt "error_cloud_cannot_sync_server_content"
 msgid "Cannot sync with server."
-msgstr ""
+msgstr "Не удается синхронизироваться с сервером."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_parse_sync_state_file"
 msgid "Cannot parse sync state file '%1$s'."
-msgstr ""
+msgstr "Невозможно проанализировать файл состояния синхронизации \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_write_sync_state_file"
 msgid "Cannot write sync state file '%1$s'."
-msgstr ""
+msgstr "Невозможно записать файл состояния синхронизации \"%1$s\"."
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "error_cloud_cannot_load_sync_state_file"
 msgid "Cannot load sync state file '%1$s'."
-msgstr ""
+msgstr "Невозможно загрузить файл состояния синхронизации \"%1$s\"."
 
+#, fuzzy
 msgctxt "error_cloud_cannot_lock_server"
 msgid "Cannot generate server lock file."
-msgstr ""
+msgstr "Невозможно создать файл блокировки сервера."
 
+#, fuzzy
 msgctxt "error_cloud_server_error"
 msgid "Server error: {}"
-msgstr ""
+msgstr "Ошибка сервера: {}"
 
+#, fuzzy
 msgctxt "error_cloud_file_locked_on_server"
 msgid "File is locked on server. Please retry upload at a later time."
-msgstr ""
+msgstr "Файл заблокирован на сервере. Повторите загрузку позже."
 
+#, fuzzy
 msgctxt "error_cloud_server_blocked"
 msgid "Server blocked by another client. Please retry at a later time."
-msgstr ""
+msgstr "Сервер заблокирован другим клиентом. Повторите попытку позже."
 
+#, fuzzy
 msgctxt "error_cloud_remote_file_does_not_exist"
 msgid "File '{}' does not exist on server"
-msgstr ""
+msgstr "Файл '{}' не существует на сервере"
 
+#, fuzzy
 msgctxt "error_cloud_remote_folder_does_not_exist"
 msgid "Folder '{}' does not exist on server"
-msgstr ""
+msgstr "Папка '{}' не существует на сервере"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_create_folder"
 msgid "Cannot create folder '{}' on server"
-msgstr ""
+msgstr "Невозможно создать папку '{}' на сервере"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_create_folder_short"
 msgid "Cannot create folder on server"
-msgstr ""
+msgstr "Невозможно создать папку на сервере"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_upload_file"
 msgid "Cannot upload file '{}' to server"
-msgstr ""
+msgstr "Не удается загрузить файл '{}' на сервер"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_upload_file_short"
 msgid "Cannot upload file to server"
-msgstr ""
+msgstr "Не удается загрузить файл на сервер"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_download_file"
 msgid "Cannot download file '{}' from server"
-msgstr ""
+msgstr "Не удается загрузить файл '{}' с сервера"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_download_file_short"
 msgid "Cannot download file from server"
-msgstr ""
+msgstr "Невозможно скачать файл с сервера"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_download_folder"
 msgid "Cannot download folder '{}' from server"
-msgstr ""
+msgstr "Не удается загрузить папку \"{}\" с сервера"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_download_folder_short"
 msgid "Cannot download folder from server"
-msgstr ""
+msgstr "Не удается загрузить папку с сервера"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_rename_file"
 msgid "Cannot rename file '{}' on server"
-msgstr ""
+msgstr "Невозможно переименовать файл '{}' на сервере"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_rename_file_short"
 msgid "Cannot rename file on server"
-msgstr ""
+msgstr "Невозможно переименовать файл на сервере"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_rename_folder"
 msgid "Cannot rename folder '{}' on server"
-msgstr ""
+msgstr "Невозможно переименовать папку \"{}\" на сервере"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_rename_folder_short"
 msgid "Cannot rename folder on server"
-msgstr ""
+msgstr "Невозможно переименовать папку на сервере"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_delete_file"
 msgid "Cannot delete file '{}' from server"
-msgstr ""
+msgstr "Невозможно удалить файл '{}' с сервера"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_delete_file_short"
 msgid "Cannot delete file from server"
-msgstr ""
+msgstr "Невозможно удалить файл с сервера"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_delete_folder"
 msgid "Cannot delete folder '{}' from server"
-msgstr ""
+msgstr "Невозможно удалить папку '{}' с сервера"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_delete_folder_short"
 msgid "Cannot delete folder from server"
-msgstr ""
+msgstr "Невозможно удалить папку с сервера"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_list_folder_content"
 msgid "Cannot list content of server folder '{}'"
-msgstr ""
+msgstr "Невозможно отобразить содержимое папки сервера '{}'"
 
+#, fuzzy
 msgctxt "error_cloud_cannot_list_folder_content_short"
 msgid "Cannot list content of server folder"
-msgstr ""
+msgstr "Невозможно отобразить содержимое папки сервера"
 
+#, fuzzy
 msgctxt "error_cloud_is_not_a_folder"
 msgid "File '{}' is not a folder."
-msgstr ""
+msgstr "Файл '{}' не является папкой."
 
+#, fuzzy
 msgctxt "error_cloud_handwerkcloud_cannot_delete_folder_non_imagemeter_files_present"
 msgid "Cannot delete folder because the file '{}' is not managed by ImageMeter."
-msgstr ""
+msgstr "Невозможно удалить папку, поскольку файл '{}' не управляется ImageMeter."
 
+#, fuzzy
 msgctxt "notification_cloud_sync_errors_title"
 msgid "Cloud synchronization errors"
-msgstr ""
+msgstr "Ошибки облачной синхронизации"
 
+#, fuzzy
 msgctxt "notification_cloud_sync_errors_detailed_action"
 msgid "Show detailed errors"
-msgstr ""
+msgstr "Показать подробные ошибки"
 
-#, c-format
+#, fuzzy, c-format
 msgctxt "notification_cloud_sync_errors_short_text"
 msgid "%1$d synchronization errors"
-msgstr ""
+msgstr "%1$d ошибок синхронизации"
 
+#, fuzzy
 msgctxt "notification_cloud_sync_progress_cancel_action"
 msgid "Cancel sync"
-msgstr ""
+msgstr "Отменить синхронизацию"
 
+#, fuzzy
 msgctxt "notification_cloud_cannot_remove_incomplete_upload_title"
 msgid "Cannot remove incomplete upload"
-msgstr ""
+msgstr "Невозможно удалить неполную загрузку"
 
 #. preferences screen
 msgctxt "pref_category_editor"
 msgid "Editor"
 msgstr "Pедактор"
 
+#, fuzzy
 msgctxt "pref_category_editor_general"
 msgid "General"
-msgstr ""
+msgstr "Общее"
 
 msgctxt "pref_category_ui_general"
 msgid "General"
 msgstr "Главные"
 
+#, fuzzy
 msgctxt "pref_category_ui_workflow"
 msgid "Workflow"
-msgstr ""
+msgstr "Рабочий процесс"
 
+#, fuzzy
 msgctxt "pref_category_ui_numbering"
 msgid "Image numbering"
-msgstr ""
+msgstr "Нумерация изображений"
 
 msgctxt "pref_category_editor_styling"
 msgid "Styling"
@@ -2671,29 +2943,35 @@ msgctxt "pref_editor_snapping_strength_choices:2"
 msgid "High"
 msgstr "Высокая"
 
+#, fuzzy
 msgctxt "pref_category_editor_drawing_tools"
 msgid "Drawing Tools"
-msgstr ""
+msgstr "Инструменты для рисования"
 
+#, fuzzy
 msgctxt "pref_editor_tools_freehand_end_delay"
 msgid "End freehand drawing delay"
-msgstr ""
+msgstr "Задержка окончания рисования от руки"
 
+#, fuzzy
 msgctxt "pref_editor_tools_freehand_end_delay_choices:0"
 msgid "Off"
-msgstr ""
+msgstr "Выключено"
 
+#, fuzzy
 msgctxt "pref_editor_tools_freehand_end_delay_choices:1"
 msgid "Short"
-msgstr ""
+msgstr "короткий"
 
+#, fuzzy
 msgctxt "pref_editor_tools_freehand_end_delay_choices:2"
 msgid "Normal"
-msgstr ""
+msgstr "Нормальный"
 
+#, fuzzy
 msgctxt "pref_editor_tools_freehand_end_delay_choices:3"
 msgid "Long"
-msgstr ""
+msgstr "Длинный"
 
 msgctxt "pref_category_measures"
 msgid "Measures"
@@ -2867,13 +3145,15 @@ msgctxt "pref_measure_reducefraction_summaryoff"
 msgid "Fractions will not be reduced (4/8 stays 4/8)"
 msgstr "Дроби не будут сокращены (4/8 останется 4/8)"
 
+#, fuzzy
 msgctxt "value_entry_dimension_format_reduce_fraction_choices:0"
 msgid "Reduce (4/8 becomes 1/2)"
-msgstr ""
+msgstr "Уменьшить (4/8 становится 1/2)"
 
+#, fuzzy
 msgctxt "value_entry_dimension_format_reduce_fraction_choices:1"
 msgid "Keep (4/8 stays 4/8)"
-msgstr ""
+msgstr "сохранять (4/8 остается 4/8)"
 
 msgctxt "pref_measure_imperial_unit_display"
 msgid "Textual imperial units"
@@ -2887,13 +3167,15 @@ msgctxt "pref_measure_imperial_unit_display_summaryoff"
 msgid "Imperial units will be shown as '/\""
 msgstr "Англ. единицы измерения будут выглядеть как '/\""
 
+#, fuzzy
 msgctxt "dimension_format_imperial_unit_display_choices:0"
 msgid "Show as '/\""
-msgstr ""
+msgstr "Показать как '/ \""
 
+#, fuzzy
 msgctxt "dimension_format_imperial_unit_display_choices:1"
 msgid "Show as ft/in"
-msgstr ""
+msgstr "Показать как футы / дюйм"
 
 msgctxt "pref_measure_metric_length_unit"
 msgid "Metric length unit"
@@ -2991,59 +3273,71 @@ msgctxt "pref_measure_label_shows_unit_summaryoff"
 msgid "Show only the value, omit the unit"
 msgstr "Только значения, опустив единицы"
 
+#, fuzzy
 msgctxt "dimension_format_show_unit_choices:0"
 msgid "Show value and unit"
-msgstr ""
+msgstr "Показать значение и единицу"
 
+#, fuzzy
 msgctxt "dimension_format_show_unit_choices:1"
 msgid "Do not show the unit"
-msgstr ""
+msgstr "Не показывать блок"
 
 msgctxt "pref_category_export"
 msgid "Image export"
 msgstr "Экспорт изображений"
 
+#, fuzzy
 msgctxt "pref_export_image_show_options"
 msgid "Set options at export"
-msgstr ""
+msgstr "Установить параметры при экспорте"
 
+#, fuzzy
 msgctxt "pref_export_image_show_options_summary_on"
 msgid "Image options can be set at export"
-msgstr ""
+msgstr "Параметры изображения могут быть установлены при экспорте"
 
+#, fuzzy
 msgctxt "pref_export_image_show_options_summary_off"
 msgid "Options dialog will be skipped"
-msgstr ""
+msgstr "Диалог настроек будет пропущен"
 
+#, fuzzy
 msgctxt "pref_export_zip_show_options"
 msgid "Set ZIP options at export"
-msgstr ""
+msgstr "Установить параметры ZIP при экспорте"
 
+#, fuzzy
 msgctxt "pref_export_zip_show_options_summary_on"
 msgid "ZIP options can be set at export"
-msgstr ""
+msgstr "Параметры ZIP могут быть установлены при экспорте"
 
+#, fuzzy
 msgctxt "pref_export_zip_show_options_summary_off"
 msgid "ZIP options dialog will be skipped"
-msgstr ""
+msgstr "Диалог с параметрами ZIP будет пропущен"
 
+#, fuzzy
 msgctxt "pref_export_show_format_selection"
 msgid "Choose format when exporting"
-msgstr ""
+msgstr "Выберите формат при экспорте"
 
+#, fuzzy
 msgctxt "pref_export_show_format_selection_summary_on"
 msgid "Format selection will be shown each time"
-msgstr ""
+msgstr "Выбор формата будет отображаться каждый раз"
 
+#, fuzzy
 msgctxt "pref_export_show_format_selection_summary_off"
 msgid "Selected format will be used always"
-msgstr ""
+msgstr "Выбранный формат будет использоваться всегда"
 
+#, fuzzy
 msgctxt "pref_export_default_image_export_options"
 msgid "Default image export options…"
-msgstr ""
+msgstr "Параметры экспорта изображений по умолчанию…"
 
-#. <string
+#. <string, fuzzy
 #. name="pref_export_precompute_image_with_default_options">Precompute image
 #. with default export options</string>     <string
 #. name="pref_export_precompute_image_with_default_options_summary_on">Yes,
@@ -3052,11 +3346,12 @@ msgstr ""
 #. faster export</string>
 msgctxt "pref_category_export_format_and_rendering"
 msgid "Format and rendering"
-msgstr ""
+msgstr "Формат и рендеринг"
 
+#, fuzzy
 msgctxt "pref_category_export_image"
 msgid "Image settings"
-msgstr ""
+msgstr "Настройки изображения"
 
 msgctxt "pref_export_format"
 msgid "Image format"
@@ -3074,9 +3369,7 @@ msgstr "Аппаратное сглаживание"
 
 msgctxt "pref_export_hardware_msaa_summaryon"
 msgid "Enabled (some buggy GPUs may draw black images only)"
-msgstr ""
-"Включено (некоторые графические процессоры могут ошибочно отрисовать "
-"только черную картинку)"
+msgstr "Включено (некоторые графические процессоры могут ошибочно отрисовать только черную картинку)"
 
 msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
@@ -3154,17 +3447,20 @@ msgctxt "pref_category_export_pdf"
 msgid "PDF settings"
 msgstr "Настройки PDF"
 
+#, fuzzy
 msgctxt "pref_export_pdf_show_options"
 msgid "Set options at export"
-msgstr ""
+msgstr "Установить параметры при экспорте"
 
+#, fuzzy
 msgctxt "pref_export_pdf_show_options_summary_on"
 msgid "PDF options can be set at export"
-msgstr ""
+msgstr "Параметры PDF могут быть установлены при экспорте"
 
+#, fuzzy
 msgctxt "pref_export_pdf_show_options_summary_off"
 msgid "Options dialog will be skipped"
-msgstr ""
+msgstr "Диалог настроек будет пропущен"
 
 msgctxt "pref_export_pdf_images_per_page"
 msgid "Images per PDF page"
@@ -3182,21 +3478,25 @@ msgctxt "pref_export_pdf_paper_orientation_dialog"
 msgid "PDF page orientation"
 msgstr "Ориентация PDF страницы"
 
+#, fuzzy
 msgctxt "pref_export_pdf_print_density"
 msgid "Resolution"
-msgstr ""
+msgstr "разрешение"
 
+#, fuzzy
 msgctxt "pref_export_pdf_output_resolution_default"
 msgid "Default"
-msgstr ""
+msgstr "По умолчанию"
 
+#, fuzzy
 msgctxt "pref_export_pdf_paper_orientation_choices:0"
 msgid "Portrait"
-msgstr "Портрет"
+msgstr "портретный формат"
 
+#, fuzzy
 msgctxt "pref_export_pdf_paper_orientation_choices:1"
 msgid "Landscape"
-msgstr "Ландшафт"
+msgstr "альбомный формат"
 
 msgctxt "pref_export_pdf_paper_orientation_choices:2"
 msgid "Automatic"
@@ -3307,9 +3607,10 @@ msgctxt "pref_export_pdf_image_notes_space_choices:4"
 msgid "10%"
 msgstr "10%"
 
+#, fuzzy
 msgctxt "dialog_pdf_options_image_notes_space_choices:0"
 msgid "Do not print notes"
-msgstr ""
+msgstr "Не печатать заметки"
 
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
@@ -3374,103 +3675,103 @@ msgstr "Автоматически"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_plr"
 msgid "Bosch PLR"
-msgstr ""
+msgstr "Bosch PLR"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm100c"
 msgid "Bosch GLM100c"
-msgstr ""
+msgstr "Bosch GLM100c"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm120c"
 msgid "Bosch GLM120c"
-msgstr ""
+msgstr "Bosch GLM120c"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm400c"
 msgid "Bosch GLM400c"
-msgstr ""
+msgstr "Bosch GLM400c"
 
 msgctxt "pref_bluetooth_device_protocol_cem_ildm150"
 msgid "CEM iLDM-150"
-msgstr ""
+msgstr "ЦЕМ ИЛДМ-150"
 
 msgctxt "pref_bluetooth_device_protocol_etape16"
 msgid "eTape16"
-msgstr ""
+msgstr "eTape16"
 
 msgctxt "pref_bluetooth_device_protocol_hilti_pd38"
 msgid "Hilti PD-38"
-msgstr ""
+msgstr "Hilti PD-38"
 
 msgctxt "pref_bluetooth_device_protocol_hilti_pd"
 msgid "Hilti PD Bluetooth LE"
-msgstr ""
+msgstr "Hilti PD Bluetooth LE"
 
 msgctxt "pref_bluetooth_device_protocol_stabila"
 msgid "Stabila"
-msgstr ""
+msgstr "Stabila"
 
 msgctxt "pref_bluetooth_device_protocol_wuerth"
 msgid "Würth WDM 3–19"
-msgstr ""
+msgstr "Würth WDM 3–19"
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
 msgid "Leica Disto classic"
-msgstr ""
+msgstr "Leica Disto classic"
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_bt4"
 msgid "Leica Disto Bluetooth LE"
-msgstr ""
+msgstr "Leica Disto Bluetooth LE"
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_x"
 msgid "Leica Disto X3/X4"
-msgstr ""
+msgstr "Leica Disto X3 / X4"
 
 msgctxt "pref_bluetooth_device_protocol_lti_trupulse"
 msgid "LTI TruPulse"
-msgstr ""
+msgstr "LTI TruPulse"
 
 msgctxt "pref_bluetooth_device_protocol_stanley_tlm99s"
 msgid "Stanley TLM99s"
-msgstr ""
+msgstr "Stanley TLM99s"
 
 msgctxt "pref_bluetooth_device_protocol_stanley_tlm99si"
 msgid "Stanley TLM99si"
-msgstr ""
+msgstr "Stanley TLM99si"
 
 msgctxt "pref_bluetooth_device_protocol_suaoki"
 msgid "Suaoki"
-msgstr ""
+msgstr "Suaoki"
 
 msgctxt "pref_bluetooth_device_protocol_mileseey_p7"
 msgid "Mileseey P7"
-msgstr ""
+msgstr "Mileseey P7"
 
 msgctxt "pref_bluetooth_device_protocol_mileseey_r2b"
 msgid "Mileseey R2B"
-msgstr ""
+msgstr "Mileseey R2B"
 
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
 msgid "Sndway SW-S100"
-msgstr ""
+msgstr "Sndway SW-S100"
 
 msgctxt "pref_bluetooth_device_protocol_precaster_cx100"
 msgid "Precaster CX100"
-msgstr ""
+msgstr "Precaster CX100"
 
 msgctxt "pref_bluetooth_device_protocol_ada_cosmo120"
 msgid "Ada Cosmo 120"
-msgstr ""
+msgstr "Ada Cosmo 120"
 
 msgctxt "pref_bluetooth_device_protocol_laserliner_compactpro"
 msgid "Laserliner Compact Pro"
-msgstr ""
+msgstr "Laserliner Compact Pro"
 
 msgctxt "pref_bluetooth_device_protocol_toolsmart_anglefinder"
 msgid "ToolSmart-AngleFinder"
-msgstr ""
+msgstr "ToolSmart-AngleFinder"
 
 msgctxt "pref_bluetooth_device_protocol_condtrol_xp3"
 msgid "Condtrol XP3/XP4 Pro"
-msgstr ""
+msgstr "Condtrol XP3 / XP4 Pro"
 
 #. item Calculated Industries /item
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
@@ -3517,29 +3818,29 @@ msgctxt "pref_bluetooth_use_device_format_summaryoff"
 msgid "Use format set in app preferences"
 msgstr "Формат, установленный в настройках приложения"
 
+#, fuzzy
 msgctxt "pref_bluetooth_remote_trigger_twice"
 msgid "Send remote trigger twice"
-msgstr ""
+msgstr "Отправить удаленный триггер дважды"
 
 #, fuzzy
 msgctxt "pref_bluetooth_remote_trigger_twice_summaryon"
-msgid ""
-"The trigger command will be sent twice. For some laser devices that only "
-"switch on the laser at the first command and perform the measurement at "
-"the second command."
-msgstr ""
+msgid "The trigger command will be sent twice. For some laser devices that only switch on the laser at the first command and perform the measurement at the second command."
+msgstr "Команда триггера будет отправлена дважды. Для некоторых лазерных устройств, которые включают лазер только по первой команде и выполняют измерения по второй команде."
 
+#, fuzzy
 msgctxt "pref_bluetooth_remote_trigger_twice_summaryoff"
 msgid "The trigger command will be sent only once."
-msgstr ""
+msgstr "Команда триггера будет отправлена только один раз."
 
 msgctxt "pref_category_user_interface"
 msgid "User interface"
 msgstr "Пользовательский интерфейс"
 
+#, fuzzy
 msgctxt "pref_ui_ok_cancel_buttons_on_top"
 msgid "Ok/Cancel buttons on top"
-msgstr ""
+msgstr "Кнопки ОК/Отмена вверху"
 
 msgctxt "pref_ui_faq_button_enabled"
 msgid "Enable FAQ button"
@@ -3569,9 +3870,10 @@ msgctxt "pref_ui_helpbar_mode_choices:1"
 msgid "Only show important messages"
 msgstr "Только важные"
 
+#, fuzzy
 msgctxt "pref_category_editor_magnifier"
 msgid "Magnifier"
-msgstr ""
+msgstr "Лупа"
 
 msgctxt "pref_ui_use_magnifier"
 msgid "Enable magnifier"
@@ -3641,13 +3943,15 @@ msgctxt "pref_ui_image_order_criterium_dialog"
 msgid "Image sorting order"
 msgstr "Сортировка изображений"
 
+#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:0"
 msgid "Image name (ascending)"
-msgstr ""
+msgstr "Название изображения (по возрастанию)"
 
+#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:1"
 msgid "Image name (descending)"
-msgstr ""
+msgstr "Название изображения (по убыванию)"
 
 msgctxt "pref_ui_image_order_criterium_choices:2"
 msgid "Capture date (oldest first)"
@@ -3657,29 +3961,35 @@ msgctxt "pref_ui_image_order_criterium_choices:3"
 msgid "Capture date (latest first)"
 msgstr "По дате (сначала новые)"
 
+#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:4"
 msgid "Number (ascending)"
-msgstr ""
+msgstr "Число (по возрастанию)"
 
+#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:5"
 msgid "Number (descending)"
-msgstr ""
+msgstr "Число (по убыванию)"
 
+#, fuzzy
 msgctxt "pref_ui_image_auto_numbering_active"
 msgid "Enable auto-numbering"
-msgstr ""
+msgstr "Включить автоматическую нумерацию"
 
+#, fuzzy
 msgctxt "pref_ui_image_auto_numbering_start"
 msgid "Start number"
-msgstr ""
+msgstr "Стартовый номер"
 
+#, fuzzy
 msgctxt "pref_ui_image_auto_numbering_increment"
 msgid "Increment"
-msgstr ""
+msgstr "Приращение"
 
+#, fuzzy
 msgctxt "pref_ui_image_auto_numbering_invalid_number"
 msgid "Invalid"
-msgstr ""
+msgstr "Недействительным"
 
 msgctxt "pref_ui_editor_fullscreen_mode_title"
 msgid "Editor fullscreen mode"
@@ -3755,41 +4065,50 @@ msgctxt "pref_category_storage"
 msgid "Storage"
 msgstr "Хранилище"
 
+#, fuzzy
 msgctxt "pref_category_storage_deleted_files"
 msgid "Deleted files"
-msgstr ""
+msgstr "Удаленные файлы"
 
+#, fuzzy
 msgctxt "pref_storage_deleted_files_purge_now"
 msgid "Purge all deleted images now!"
-msgstr ""
+msgstr "Очистите все удаленные изображения сейчас!"
 
+#, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay"
 msgid "Purge interval"
-msgstr ""
+msgstr "Интервал продувки"
 
+#, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_dialog"
 msgid "Purge interval"
-msgstr ""
+msgstr "Интервал продувки"
 
+#, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_choices:0"
 msgid "1 day"
-msgstr ""
+msgstr "1 день"
 
+#, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_choices:1"
 msgid "1 week"
-msgstr ""
+msgstr "1 неделя"
 
+#, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_choices:2"
 msgid "1 month"
-msgstr ""
+msgstr "1 месяц"
 
+#, fuzzy
 msgctxt "dialog_purge_images_title"
 msgid "Purging deleted images"
-msgstr ""
+msgstr "Удаление удаленных изображений"
 
+#, fuzzy
 msgctxt "dialog_purge_images_finished"
 msgid "All deleted images have been purged from memory."
-msgstr ""
+msgstr "Все удаленные изображения были удалены из памяти."
 
 #. string name="pref_category_storage_sdcard">SD Card</string
 msgctxt "pref_storage_data_directory"
@@ -3850,9 +4169,10 @@ msgctxt "pref_storage_directory_removable"
 msgid "Removable:"
 msgstr "Съёмный:"
 
+#, fuzzy
 msgctxt "pref_storage_directory_error_nonexistent_directory"
 msgid "This directory is not present. Please choose a different directory."
-msgstr ""
+msgstr "Этого каталога нет. Пожалуйста, выберите другой каталог."
 
 #. Actually, we should use Unicode \u00A0 for non-breaking spaces, but a2po
 #. crashes on them
@@ -3890,33 +4210,26 @@ msgstr "Недостаточно места"
 
 msgctxt "pref_storage_directory_not_enough_free_space_message"
 msgid "There is not enough free memory on the target volume to move all images."
-msgstr ""
-"Недостаточно свободной памяти в выбранной директории, для переноса всех "
-"изображений."
+msgstr "Недостаточно свободной памяти в выбранной директории, для переноса всех изображений."
 
 msgctxt "pref_storage_directory_error_could_not_copy_all_images"
 msgid ""
-"Could not copy all images to target directory. Maybe your folder names "
-"are no valid filenames on the target filesystem. Please change them and "
-"then try to copy the remaining data.\n"
+"Could not copy all images to target directory. Maybe your folder names are no valid filenames on the target filesystem. Please change them and then try to copy the remaining data.\n"
 "\n"
 "The active storage directory has not been changed.\n"
 "\n"
-"Please note that the target directory now contains an incomplete copy of "
-"the source data!"
+"Please note that the target directory now contains an incomplete copy of the source data!"
 msgstr ""
-"Невозможно скопировать все изображения в выбранную директорию. Возможно "
-"названия папок и файлов содержат недопустимые символы. Пожалуйста, "
-"измените их и затем попытайтесь скопировать оставшиеся данные. \n"
+"Невозможно скопировать все изображения в выбранную директорию. Возможно названия папок и файлов содержат недопустимые символы. Пожалуйста, измените их и затем попытайтесь скопировать оставшиеся данные. \n"
 "\n"
 "Исходные файлы активной директории не были изменены.\n"
 "\n"
-"Обратите внимание на то, что целевая папка теперь содержит неполную копию"
-" исходных данных!"
+"Обратите внимание на то, что целевая папка теперь содержит неполную копию исходных данных!"
 
+#, fuzzy
 msgctxt "pref_storage_directory_cannot_move_files"
 msgid "Cannot move files"
-msgstr ""
+msgstr "Невозможно переместить файлы"
 
 msgctxt "dialog_storage_move_annotated_images_progress_text"
 msgid "Moving images ..."
@@ -3926,114 +4239,140 @@ msgctxt "dialog_storage_directory_move_images_progress_text"
 msgid "Moving images ..."
 msgstr "Перемещение изображений..."
 
+#, fuzzy
 msgctxt "pref_category_storage_cloud"
 msgid "Cloud storage"
-msgstr ""
+msgstr "Облачное хранилище"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_set_account"
 msgid "Set server and account"
-msgstr ""
+msgstr "Установить сервер и учетную запись"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_mode"
 msgid "Synchronization mode"
-msgstr ""
+msgstr "Режим синхронизации"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_mode_choices:0"
 msgid "Share data"
-msgstr ""
+msgstr "Поделиться данными"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_mode_choices:1"
 msgid "Backup"
-msgstr ""
+msgstr "Резервное копирование"
 
+#, fuzzy
 msgctxt "pref_cloud_storage_sync_cautiousness:0"
 msgid "Never ask"
-msgstr ""
+msgstr "Никогда не спрашивай"
 
+#, fuzzy
 msgctxt "pref_cloud_storage_sync_cautiousness:1"
 msgid "Confirm deletions"
-msgstr ""
+msgstr "Подтвердить удаление"
 
+#, fuzzy
 msgctxt "pref_cloud_storage_sync_cautiousness:2"
 msgid "Confirm conflicts and deletions"
-msgstr ""
+msgstr "Подтвердить конфликты и удаления"
 
+#, fuzzy
 msgctxt "pref_cloud_storage_sync_cautiousness:3"
 msgid "Confirm everything"
-msgstr ""
+msgstr "Подтвердите все"
 
+#, fuzzy
 msgctxt "pref_cloud_storage_sync_mode:0"
 msgid "SYNC MODE"
-msgstr ""
+msgstr "РЕЖИМ СИНХРОНИЗАЦИИ"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:0"
 msgid "No auto-sync"
-msgstr ""
+msgstr "Нет автосинхронизации"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:1"
 msgid "15 minutes"
-msgstr ""
+msgstr "15 минут"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:2"
 msgid "1 hour"
-msgstr ""
+msgstr "1 час"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:3"
 msgid "2 hours"
-msgstr ""
+msgstr "два часа"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:4"
 msgid "6 hours"
-msgstr ""
+msgstr "6 часов"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:5"
 msgid "1 day"
-msgstr ""
+msgstr "1 день"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval"
 msgid "Auto-sync interval"
-msgstr ""
+msgstr "Интервал автосинхронизации"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_advanced_maintenance"
 msgid "Advanced maintenance"
-msgstr ""
+msgstr "Расширенное обслуживание"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_send_error_log"
 msgid "Send error log by email"
-msgstr ""
+msgstr "Отправить журнал ошибок по электронной почте"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_wifi_only"
 msgid "Auto-sync only on Wifi"
-msgstr ""
+msgstr "Автосинхронизация только по Wi-Fi"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_wifi_only_on"
 msgid "Sync only when on free Wifi networks"
-msgstr ""
+msgstr "Синхронизация только в бесплатных сетях Wi-Fi"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_wifi_only_off"
 msgid "Sync on any network"
-msgstr ""
+msgstr "Синхронизация в любой сети"
 
+#, fuzzy
 msgctxt "cloud_storage_default_base_path"
 msgid "ImageMeter"
-msgstr ""
+msgstr "ImageMeter"
 
+#, fuzzy
 msgctxt "cloud_storage_default_anno_base_path"
 msgid "ImageMeter-Measures"
-msgstr ""
+msgstr "ImageMeter-меры"
 
-#. Preferences: Information
+#. Preferences: Information, fuzzy
 msgctxt "pref_category_information"
 msgid "Information"
-msgstr ""
+msgstr "Информация"
 
+#, fuzzy
 msgctxt "pref_category_information_debugging"
 msgid "Debugging"
-msgstr ""
+msgstr "Отладка"
 
+#, fuzzy
 msgctxt "pref_information_send_error_log"
 msgid "Send error log by email"
-msgstr ""
+msgstr "Отправить журнал ошибок по электронной почте"
 
 #. editor
 msgctxt "editor_menu_section_calibration_tools"
@@ -4072,9 +4411,10 @@ msgctxt "editor_menu_add_area"
 msgid "Area"
 msgstr "Область"
 
+#, fuzzy
 msgctxt "editor_menu_add_text"
 msgid "Note"
-msgstr ""
+msgstr "Заметка"
 
 msgctxt "editor_menu_add_freehand"
 msgid "Freehand"
@@ -4100,13 +4440,15 @@ msgctxt "editor_menu_add_ellipse"
 msgid "Ellipse"
 msgstr "Эллипс"
 
+#, fuzzy
 msgctxt "editor_menu_add_dimstring"
 msgid "Dimension string"
-msgstr ""
+msgstr "Строка размеров"
 
+#, fuzzy
 msgctxt "editor_menu_add_cumulative_dimstring"
 msgid "Cumulative string"
-msgstr ""
+msgstr "Накопительная строка"
 
 msgctxt "editor_menu_edit_delete"
 msgid "Delete element"
@@ -4136,37 +4478,45 @@ msgctxt "editor_menu_edit_redo"
 msgid "Redo"
 msgstr "Шаг вперед"
 
+#, fuzzy
 msgctxt "editor_menu_edit_rotate"
 msgid "Rotate image (CW)"
-msgstr ""
+msgstr "Повернуть изображение (по часовой стрелке)"
 
+#, fuzzy
 msgctxt "editor_menu_edit_rotate_ccw"
 msgid "Rotate image (CCW)"
-msgstr ""
+msgstr "Повернуть изображение (против часовой стрелки)"
 
+#, fuzzy
 msgctxt "editor_menu_edit_transfer_style"
 msgid "Transfer style"
-msgstr ""
+msgstr "Стиль передачи"
 
+#, fuzzy
 msgctxt "editor_menu_edit_copy_element"
 msgid "Copy element"
-msgstr ""
+msgstr "Копировать элемент"
 
+#, fuzzy
 msgctxt "editor_menu_edit_lock_element"
 msgid "Lock element"
-msgstr ""
+msgstr "Элемент блокировки"
 
+#, fuzzy
 msgctxt "editor_menu_edit_unlock_element"
 msgid "Unlock element"
-msgstr ""
+msgstr "Разблокировать элемент"
 
+#, fuzzy
 msgctxt "editor_menu_edit_imagesettings"
 msgid "Image settings"
-msgstr ""
+msgstr "Настройки изображения"
 
+#, fuzzy
 msgctxt "editor_menu_edit_bluetooth_trigger"
 msgid "Trigger Laser"
-msgstr ""
+msgstr "Триггерный лазер"
 
 msgctxt "editor_menu_style"
 msgid "Style"
@@ -4193,18 +4543,12 @@ msgid "Please draw the outline of the area in one stroke."
 msgstr "Пожалуйста, удерживайте и перетащите одну сторону области."
 
 msgctxt "editor_hint_howto_draw_text"
-msgid ""
-"Please position the text area by pointing at the target location and then"
-" dragging the textbox to the end of the arrow."
-msgstr ""
-"Пожалуйста, определите расположение текстовой области, затем задайте "
-"направление стрелкой из текстового поля."
+msgid "Please position the text area by pointing at the target location and then dragging the textbox to the end of the arrow."
+msgstr "Пожалуйста, определите расположение текстовой области, затем задайте направление стрелкой из текстового поля."
 
 msgctxt "editor_hint_howto_draw_circle"
 msgid "Please point to the circle center and drag to specify the circle size."
-msgstr ""
-"Пожалуйста, укажите центр окружности и перетащите, чтобы задать размер "
-"круга."
+msgstr "Пожалуйста, укажите центр окружности и перетащите, чтобы задать размер круга."
 
 msgctxt "editor_hint_howto_draw_freehand"
 msgid "You are now drawing in freehand mode until you press the close button."
@@ -4226,62 +4570,57 @@ msgctxt "editor_hint_howto_draw_rectangle"
 msgid "Please draw the rectangle diagonal."
 msgstr "Задайте диагональ прямоугольника"
 
+#, fuzzy
 msgctxt "editor_hint_howto_draw_perspective_line"
-msgid ""
-"Tool for measuring an unknown distance along a perspectively distorted "
-"line. See the FAQ for an introduction."
-msgstr ""
+msgid "Tool for measuring an unknown distance along a perspectively distorted line. See the FAQ for an introduction."
+msgstr "Инструмент для измерения неизвестного расстояния по искаженной в перспективе линии. См. Введение в FAQ."
 
+#, fuzzy
 msgctxt "editor_hint_howto_draw_dimstring"
 msgid "Please draw the first dimension string. Use the top toolbar to modify it."
-msgstr ""
+msgstr "Нарисуйте первую размерную строку. Используйте верхнюю панель инструментов, чтобы изменить его."
 
+#, fuzzy
 msgctxt "editor_hint_howto_draw_dimstring_cumulative"
 msgid "Please draw the first dimension string. Use the top toolbar to modify it."
-msgstr ""
+msgstr "Нарисуйте первую размерную строку. Используйте верхнюю панель инструментов, чтобы изменить его."
 
 msgctxt "editor_hint_howto_attach_to_reference"
 msgid "Click on the measure you want to compute based on the selected reference."
 msgstr "Нажмите на замер, который Вы хотите добавить к выбранной связи."
 
 msgctxt "editor_hint_howto_attach_measure"
-msgid ""
-"Click on the reference based on which you want to calculate the selected "
-"measure."
+msgid "Click on the reference based on which you want to calculate the selected measure."
 msgstr "Нажмите на связь, которую Вы хотите добавить к выбранному замеру."
 
+#, fuzzy
 msgctxt "editor_help_why_no_measured_value"
-msgid ""
-"The value cannot yet be computed because the image is not calibrated. "
-"Please add a 'reference scale' or a 'perspective reference'."
-msgstr ""
+msgid "The value cannot yet be computed because the image is not calibrated. Please add a 'reference scale' or a 'perspective reference'."
+msgstr "Значение пока не может быть вычислено, потому что изображение не откалибровано. Пожалуйста, добавьте «эталонный масштаб» или «ссылку на перспективу»."
 
+#, fuzzy
 msgctxt "editor_help_why_no_measured_value_manual_url"
 msgid "https://imagemeter.com/manual/measuring/basics"
-msgstr ""
+msgstr "https://imagemeter.com/manual/measuring/basics"
 
+#, fuzzy
 msgctxt "editor_help_why_no_measured_value_because_two_references"
-msgid ""
-"The value is not computed because the image contains two references. "
-"Please select 'Compute value' from the menu and select which reference to"
-" use."
-msgstr ""
+msgid "The value is not computed because the image contains two references. Please select 'Compute value' from the menu and select which reference to use."
+msgstr "Значение не вычисляется, потому что изображение содержит две ссылки. Пожалуйста, выберите «Вычислить значение» в меню и выберите, какую ссылку использовать."
 
+#, fuzzy
 msgctxt "editor_help_do_not_show_again"
 msgid "Don't show again"
-msgstr ""
+msgstr "Больше не показывать"
 
+#, fuzzy
 msgctxt "editor_help_show_instructions"
 msgid "Show instructions"
-msgstr ""
+msgstr "Показать инструкции"
 
 msgctxt "editor_error_no_reference_to_attach_to"
-msgid ""
-"There is no reference in the image! You need to draw a reference in order"
-" to do automatic computations."
-msgstr ""
-"Нет связи на изображении! Вам необходимо задать связь для того, чтобы "
-"сделать автоматическое вычисление."
+msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
+msgstr "Нет связи на изображении! Вам необходимо задать связь для того, чтобы сделать автоматическое вычисление."
 
 msgctxt "editor_error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -4295,17 +4634,20 @@ msgctxt "editor_dialog_style_set_as_default"
 msgid "Set as default"
 msgstr "Установить по умолчанию"
 
+#, fuzzy
 msgctxt "editor_dialog_style_apply_to"
 msgid "Apply to …"
-msgstr ""
+msgstr "Применить к…"
 
+#, fuzzy
 msgctxt "editor_dialog_style_spinner_various_values"
 msgid "various"
-msgstr ""
+msgstr "различный"
 
+#, fuzzy
 msgctxt "editor_dialog_style_generic_line_width_magnification"
 msgid "Line width"
-msgstr ""
+msgstr "Ширина линии"
 
 msgctxt "editor_dialog_style_textbox_title"
 msgid "Text box style"
@@ -4331,29 +4673,35 @@ msgctxt "editor_dialog_style_textbox_line_width_magnification"
 msgid "Line width"
 msgstr "Ширина линий"
 
+#, fuzzy
 msgctxt "editor_dialog_style_textbox_background_color"
 msgid "Background color"
-msgstr ""
+msgstr "Фоновый цвет"
 
+#, fuzzy
 msgctxt "editor_dialog_style_textbox_text_color"
 msgid "Text color"
-msgstr ""
+msgstr "Цвет текста"
 
+#, fuzzy
 msgctxt "editor_dialog_style_textbox_text_alignment"
 msgid "Text alignment"
-msgstr ""
+msgstr "Выравнивание текста"
 
+#, fuzzy
 msgctxt "editor_dialog_style_textbox_text_alignment_choices:0"
 msgid "Left"
-msgstr ""
+msgstr "налево"
 
+#, fuzzy
 msgctxt "editor_dialog_style_textbox_text_alignment_choices:1"
 msgid "Center"
-msgstr ""
+msgstr "Центр"
 
+#, fuzzy
 msgctxt "editor_dialog_style_textbox_text_alignment_choices:2"
 msgid "Right"
-msgstr ""
+msgstr "Правильно"
 
 msgctxt "editor_dialog_style_freehand_title"
 msgid "Freehand style"
@@ -4383,9 +4731,10 @@ msgctxt "editor_dialog_style_measure_title"
 msgid "Dimension style"
 msgstr "Стиль замера"
 
+#, fuzzy
 msgctxt "editor_dialog_style_measure_show_text"
 msgid "Show length"
-msgstr ""
+msgstr "Показать длину"
 
 msgctxt "editor_dialog_style_measure_font_magnification"
 msgid "Font size"
@@ -4419,13 +4768,15 @@ msgctxt "editor_dialog_style_measure_text_position_within"
 msgid "Within line"
 msgstr "Внутри"
 
+#, fuzzy
 msgctxt "editor_dialog_style_measure_text_position_horizontal"
 msgid "Horizontal"
-msgstr ""
+msgstr "По горизонтали"
 
+#, fuzzy
 msgctxt "editor_dialog_style_measure_text_color"
 msgid "Text color"
-msgstr ""
+msgstr "Цвет текста"
 
 msgctxt "editor_dialog_style_angle_title"
 msgid "Angle style"
@@ -4447,9 +4798,10 @@ msgctxt "editor_dialog_style_rect_title"
 msgid "Reference style"
 msgstr "Стиль связи"
 
+#, fuzzy
 msgctxt "editor_dialog_style_rect_show_text"
 msgid "Show side lengths"
-msgstr ""
+msgstr "Показать длину сторон"
 
 msgctxt "editor_dialog_style_rect_show_area"
 msgid "Show area"
@@ -4484,16 +4836,8 @@ msgid "Default Reference Size"
 msgstr "Дефолтный размер связи"
 
 msgctxt "editor_dialog_style_rect_info_set_default_reference_size_text"
-msgid ""
-"This button stores the currently entered reference dimensions as the "
-"default size. When creating a new reference, these dimensions are "
-"automatically set. You can set this to any reference that is suitable for"
-" your application, e.g. the size of a sheet of paper."
-msgstr ""
-"Эта кнопка сохранит установленные сейчас размеры связи, как шаблон по "
-"умолчанию. При создании новой связи, эти размеры устанавятся "
-"автоматически. Вы можете установить любую связь, которая наиболее "
-"подходит, например лист бумаги формата А4."
+msgid "This button stores the currently entered reference dimensions as the default size. When creating a new reference, these dimensions are automatically set. You can set this to any reference that is suitable for your application, e.g. the size of a sheet of paper."
+msgstr "Эта кнопка сохранит установленные сейчас размеры связи, как шаблон по умолчанию. При создании новой связи, эти размеры устанавятся автоматически. Вы можете установить любую связь, которая наиболее подходит, например лист бумаги формата А4."
 
 msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:0"
 msgid "none"
@@ -4664,17 +5008,20 @@ msgctxt "editor_dialog_style_area_show_edge_labels"
 msgid "Show edge lengths"
 msgstr "Размер сторон"
 
+#, fuzzy
 msgctxt "editor_dialog_style_area_show_edge_labels_none"
 msgid "None"
-msgstr ""
+msgstr "Никто"
 
+#, fuzzy
 msgctxt "editor_dialog_style_area_show_edge_labels_custom"
 msgid "Custom"
-msgstr ""
+msgstr "На заказ"
 
+#, fuzzy
 msgctxt "editor_dialog_style_area_show_edge_labels_all"
 msgid "All"
-msgstr ""
+msgstr "Все"
 
 msgctxt "editor_dialog_style_area_edge_font_magnification"
 msgid "Edges font size"
@@ -4752,13 +5099,15 @@ msgctxt "editor_dialog_style_rectangle_line_width_magnification"
 msgid "Line width"
 msgstr "Ширина линий"
 
+#, fuzzy
 msgctxt "editor_dialog_style_dimstring_title"
 msgid "Dimension string style"
-msgstr ""
+msgstr "Стиль размерной строки"
 
+#, fuzzy
 msgctxt "editor_dialog_style_dimstring_show_marks"
 msgid "Show intersection marks"
-msgstr ""
+msgstr "Показать метки пересечения"
 
 msgctxt "editor_dialog_style_measurementpoint_title"
 msgid "Point style"
@@ -4844,79 +5193,85 @@ msgctxt "eight_directions_choices:7"
 msgid "Left"
 msgstr "Слева"
 
+#, fuzzy
 msgctxt "editor_dialog_style_perspective_line_title"
 msgid "Perspective line style"
-msgstr ""
+msgstr "Стиль линии перспективы"
 
+#, fuzzy
 msgctxt "editor_label_style_text_color"
 msgid "Text color"
-msgstr ""
+msgstr "Цвет текста"
 
+#, fuzzy
 msgctxt "editor_label_style_font_size"
 msgid "Font size"
-msgstr ""
+msgstr "Размер шрифта"
 
+#, fuzzy
 msgctxt "editor_label_style_bkg_color"
 msgid "Background color"
-msgstr ""
+msgstr "Фоновый цвет"
 
+#, fuzzy
 msgctxt "editor_label_style_apply_to"
 msgid "Apply to …"
-msgstr ""
+msgstr "Применить к…"
 
+#, fuzzy
 msgctxt "editor_label_style_apply_to_both_sides"
 msgid "Both sides"
-msgstr ""
+msgstr "Обе стороны"
 
+#, fuzzy
 msgctxt "editor_label_style_apply_to_all_edges"
 msgid "All edges"
-msgstr ""
+msgstr "Все края"
 
+#, fuzzy
 msgctxt "editor_label_style_apply_to_all_lengths"
 msgid "All lengths"
-msgstr ""
+msgstr "Все длины"
 
+#, fuzzy
 msgctxt "editor_label_style_apply_to_whole_element"
 msgid "Whole element"
-msgstr ""
+msgstr "Целый элемент"
 
+#, fuzzy
 msgctxt "editor_label_style_apply_to_whole_image"
 msgid "Whole image"
-msgstr ""
+msgstr "Целое изображение"
 
+#, fuzzy
 msgctxt "editor_label_style_save_as_default_for"
 msgid "Use style as default for …"
-msgstr ""
+msgstr "Использовать стиль по умолчанию для…"
 
+#, fuzzy
 msgctxt "editor_label_style_save_as_default_only_this_label"
 msgid "Only this label"
-msgstr ""
+msgstr "Только этот ярлык"
 
+#, fuzzy
 msgctxt "editor_label_style_save_as_default_this_element"
 msgid "This drawing tool"
-msgstr ""
+msgstr "Этот инструмент для рисования"
 
+#, fuzzy
 msgctxt "editor_label_style_save_as_default_all_elements"
 msgid "All drawing tools"
-msgstr ""
+msgstr "Все инструменты для рисования"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
 msgid ""
-"The image data could not be read successfully. ImageMeter has tried to "
-"load as much of the data as possible, but the image annotations may be "
-"incomplete or may have errors.\n"
+"The image data could not be read successfully. ImageMeter has tried to load as much of the data as possible, but the image annotations may be incomplete or may have errors.\n"
 "\n"
-"Do you want to keep the old data (new modifications will not be saved), "
-"or do you want to overwrite the data (you will lose the elements that "
-"could not be read successfully)?"
+"Do you want to keep the old data (new modifications will not be saved), or do you want to overwrite the data (you will lose the elements that could not be read successfully)?"
 msgstr ""
-"Данные изображения не могут быть прочитаны. ImageMeter пытался загрузить "
-"как можно больше данных, но аннотации изображения могут быть неполными "
-"или могут содержать ошибки. \n"
+"Данные изображения не могут быть прочитаны. ImageMeter пытался загрузить как можно больше данных, но аннотации изображения могут быть неполными или могут содержать ошибки. \n"
 "\n"
-"Вы действительно желаете сохранить старые данные (новые изменения не "
-"будут сохранены), или Вы хотите перезаписать данные (при этом Вы "
-"потеряете элементы, которые не удалось прочесть)?"
+"Вы действительно желаете сохранить старые данные (новые изменения не будут сохранены), или Вы хотите перезаписать данные (при этом Вы потеряете элементы, которые не удалось прочесть)?"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_overwrite_button"
 msgid "Overwrite"
@@ -4928,128 +5283,156 @@ msgstr "Сохранить старые данные"
 
 msgctxt "editor_rectref_standard_size_letter"
 msgid "Letter"
-msgstr ""
+msgstr "Письмо (США)"
 
 msgctxt "editor_rectref_standard_size_legal"
 msgid "Legal"
-msgstr ""
+msgstr "Документ (США)"
 
+#, fuzzy
 msgctxt "editor_rectref_standard_size_credit_card"
 msgid "Credit card"
-msgstr ""
+msgstr "Кредитная карта"
 
+#, fuzzy
 msgctxt "editor_dimstring_mode_add_markers"
 msgid "Add measures"
-msgstr ""
+msgstr "Добавить меры"
 
+#, fuzzy
 msgctxt "editor_dimstring_mode_move_markers"
 msgid "Move measures"
-msgstr ""
+msgstr "Меры перемещения"
 
+#, fuzzy
 msgctxt "editor_dimstring_mode_toggle_segments"
 msgid "Toggle segments"
-msgstr ""
+msgstr "Переключить сегменты"
 
+#, fuzzy
 msgctxt "editor_dimstring_mode_move_strings"
 msgid "Move strings"
-msgstr ""
+msgstr "Переместить струны"
 
+#, fuzzy
 msgctxt "editor_dimstring_mode_set_values"
 msgid "Set values"
-msgstr ""
+msgstr "Установить значения"
 
+#, fuzzy
 msgctxt "editor_dimstring_mode_adjust_guide_lines_lengths"
 msgid "Guide lines lengths"
-msgstr ""
+msgstr "Длина направляющих линий"
 
+#, fuzzy
 msgctxt "editor_dimstring_func_edit_mode"
 msgid "Select edit mode"
-msgstr ""
+msgstr "Выберите режим редактирования"
 
+#, fuzzy
 msgctxt "editor_dimstring_func_add_string"
 msgid "Add string"
-msgstr ""
+msgstr "Добавить строку"
 
+#, fuzzy
 msgctxt "editor_dimstring_func_add_cumulative_string"
 msgid "Add cumulative string"
-msgstr ""
+msgstr "Добавить кумулятивную строку"
 
+#, fuzzy
 msgctxt "editor_dimstring_func_swap_orientation"
 msgid "Swap orientation"
-msgstr ""
+msgstr "Поменять ориентацию"
 
+#, fuzzy
 msgctxt "editor_measure_move_label"
 msgid "Move label"
-msgstr ""
+msgstr "Переместить ярлык"
 
+#, fuzzy
 msgctxt "editor_textbox_add_arrow"
 msgid "Add arrow"
-msgstr ""
+msgstr "Добавить стрелку"
 
+#, fuzzy
 msgctxt "editor_textbox_delete_arrow"
 msgid "Delete arrow"
-msgstr ""
+msgstr "Удалить стрелку"
 
+#, fuzzy
 msgctxt "editor_area_may_add_points"
 msgid "May add points"
-msgstr ""
+msgstr "Может добавлять баллы"
 
+#, fuzzy
 msgctxt "editor_area_may_delete_points"
 msgid "May delete points"
-msgstr ""
+msgstr "Может удалять баллы"
 
+#, fuzzy
 msgctxt "editor_rectref_choose_size"
 msgid "Choose size"
-msgstr ""
+msgstr "Выбрать размер"
 
+#, fuzzy
 msgctxt "editor_perspective_live_add_measure"
 msgid "Add measure"
-msgstr ""
+msgstr "Добавить меру"
 
+#, fuzzy
 msgctxt "editor_perspective_live_remove_measure"
 msgid "Remove measure"
-msgstr ""
+msgstr "Удалить меру"
 
+#, fuzzy
 msgctxt "color_dialog_special_transparent"
 msgid "Transparent"
-msgstr ""
+msgstr "Прозрачный"
 
+#, fuzzy
 msgctxt "color_dialog_special_automatic"
 msgid "Automatic"
-msgstr ""
+msgstr "Автоматический"
 
+#, fuzzy
 msgctxt "color_dialog_special_use_main_color"
 msgid "Use main color"
-msgstr ""
+msgstr "Использовать основной цвет"
 
-#. settings: standard rectangle reference object sizes
+#. settings: standard rectangle reference object sizes, fuzzy
 msgctxt "settings_rectref_sizes_title"
 msgid "Reference object sizes"
-msgstr ""
+msgstr "Размеры эталонных объектов"
 
+#, fuzzy
 msgctxt "settings_rectref_sizes_name"
 msgid "Name:"
-msgstr ""
+msgstr "Название:"
 
+#, fuzzy
 msgctxt "settings_rectref_sizes_width"
 msgid "Width:"
-msgstr ""
+msgstr "Ширина:"
 
+#, fuzzy
 msgctxt "settings_rectref_sizes_height"
 msgid "Height:"
-msgstr ""
+msgstr "Рост:"
 
+#, fuzzy
 msgctxt "settings_rectref_sizes_add_object_size"
 msgid "+ add object size"
-msgstr ""
+msgstr "+ добавить размер объекта"
 
+#, fuzzy
 msgctxt "settings_rectref_sizes_new_object_name"
 msgid "custom object"
-msgstr ""
+msgstr "настраиваемый объект"
 
+#, fuzzy
 msgctxt "settings_rectref_sizes_menu_open"
 msgid "Edit objects…"
-msgstr ""
+msgstr "Редактировать объекты…"
 
 #. export
 #, fuzzy
@@ -5070,7 +5453,7 @@ msgstr "английский (1' 10 1/32\")"
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:2"
 msgid "fractional inches (1 1/32\")"
-msgstr "Дюймы с дробями (1 1/8\\\")"
+msgstr "Дюймы с дробями (1 1/32\\\")"
 
 #. dimension entry dialog
 msgctxt "dimension_format_length_choices:3"
@@ -5092,7 +5475,7 @@ msgstr "английский (1' 10 1/32\")"
 
 msgctxt "dimension_format_length_readonly_choices:2"
 msgid "fractional inches (1 1/32\")"
-msgstr "Дюймы с дробями (1 1/8\\\")"
+msgstr "Дюймы с дробями (1 1/32\\\")"
 
 msgctxt "dimension_format_length_readonly_choices:3"
 msgid "imperial (1.00 ft)"
@@ -5179,13 +5562,15 @@ msgctxt "dimension_format_area_imperial_choices:4"
 msgid "acre"
 msgstr "Акр"
 
+#, fuzzy
 msgctxt "dimension_format_area_imperial_choices:5"
 msgid "square mil"
-msgstr ""
+msgstr "square mil"
 
+#, fuzzy
 msgctxt "dimension_format_area_imperial_choices:6"
 msgid "circular mil"
-msgstr ""
+msgstr "circular mil"
 
 msgctxt "dimension_format_area_metric_prefix_choices:0"
 msgid "mm²"
@@ -5213,59 +5598,71 @@ msgstr "Гектар"
 
 msgctxt "dimension_format_area_metric_prefix_choices:6"
 msgid "µm²"
-msgstr ""
+msgstr "µm²"
 
 msgctxt "dimension_format_area_metric_prefix_choices:7"
 msgid "nm²"
-msgstr ""
+msgstr "nm²"
 
+#, fuzzy
 msgctxt "value_entry_tab_title_value"
 msgid "Value"
-msgstr ""
+msgstr "Стоимость"
 
+#, fuzzy
 msgctxt "value_entry_tab_title_metadata"
 msgid "Extra"
-msgstr ""
+msgstr "Extra"
 
+#, fuzzy
 msgctxt "value_entry_tab_title_unit"
 msgid "Unit"
-msgstr ""
+msgstr "Ед. изм"
 
+#, fuzzy
 msgctxt "value_entry_tab_title_style"
 msgid "Style"
-msgstr ""
+msgstr "Стиль"
 
+#, fuzzy
 msgctxt "value_entry_text_mode"
 msgid "Text mode"
-msgstr ""
+msgstr "Текстовый режим"
 
+#, fuzzy
 msgctxt "value_entry_value_mode"
 msgid "Value mode"
-msgstr ""
+msgstr "Режим значения"
 
+#, fuzzy
 msgctxt "value_entry_key_inch"
 msgid "Inch"
-msgstr ""
+msgstr "Дюйм"
 
+#, fuzzy
 msgctxt "value_entry_key_foot"
 msgid "Foot"
-msgstr ""
+msgstr "Нога"
 
+#, fuzzy
 msgctxt "value_entry_key_yard"
 msgid "Yard"
-msgstr ""
+msgstr "Двор"
 
+#, fuzzy
 msgctxt "value_entry_unit_section_automatic_measurement_options"
 msgid "Automatic measurement options"
-msgstr ""
+msgstr "Параметры автоматического измерения"
 
+#, fuzzy
 msgctxt "value_entry_metadata_prefix"
 msgid "Prefix"
-msgstr ""
+msgstr "Префикс"
 
+#, fuzzy
 msgctxt "value_entry_metadata_suffix"
 msgid "Suffix"
-msgstr ""
+msgstr "Суффикс"
 
 #. text entry
 msgctxt "textbox_dialog_label"
@@ -5279,34 +5676,40 @@ msgctxt "textbox_text_hint"
 msgid "No text"
 msgstr "Без текста"
 
+#, fuzzy
 msgctxt "textbox_text_preset_button"
 msgid "Preset…"
-msgstr ""
+msgstr "Предустановка…"
 
+#, fuzzy
 msgctxt "textbox_text_preset_open_prefs"
 msgid "(Define presets …)"
-msgstr ""
+msgstr "(Определить предустановки…)"
 
 #. string name="textbox_keep_custom_text">(keep custom text)</string
 msgctxt "textbox_hint_undefined_text"
 msgid "click to enter text"
 msgstr "введите текст"
 
+#, fuzzy
 msgctxt "textbox_audio_notes_title"
 msgid "Audio note"
-msgstr ""
+msgstr "Аудио заметка"
 
+#, fuzzy
 msgctxt "textbox_detail_picture_title"
 msgid "Detail picture"
-msgstr ""
+msgstr "Детальное изображение"
 
+#, fuzzy
 msgctxt "textbox_detail_picture_cannot_load"
 msgid "Cannot load detail image"
-msgstr ""
+msgstr "Невозможно загрузить подробное изображение"
 
+#, fuzzy
 msgctxt "textbox_detail_picture_load_error_zero_size"
 msgid "Image has zero size."
-msgstr ""
+msgstr "Изображение имеет нулевой размер."
 
 #. GCircle
 msgctxt "circle_radius_prefix"
@@ -5334,118 +5737,144 @@ msgctxt "rectangle_perimeter_prefix"
 msgid "P:"
 msgstr "l:"
 
-#. ImageSettings
+#. ImageSettings, fuzzy
 msgctxt "imagesettings_dialog_base_sizes"
 msgid "Base sizes"
-msgstr ""
+msgstr "Базовые размеры"
 
+#, fuzzy
 msgctxt "imagesettings_duallabel_mode_choices:0"
 msgid "Off"
-msgstr ""
+msgstr "Выключено"
 
+#, fuzzy
 msgctxt "imagesettings_duallabel_mode_choices:1"
 msgid "Model scale"
-msgstr ""
+msgstr "Масштаб модели"
 
+#, fuzzy
 msgctxt "imagesettings_duallabel_mode_choices:2"
 msgid "Alternative unit"
-msgstr ""
+msgstr "Альтернативный блок"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_duallabel_title"
 msgid "Secondary label"
-msgstr ""
+msgstr "Вторичная этикетка"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_duallabel_mode"
 msgid "Mode"
-msgstr ""
+msgstr "Режим"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_duallabel_scale"
 msgid "Scale"
-msgstr ""
+msgstr "Масштаб"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_duallabel_unit"
 msgid "Unit"
-msgstr ""
+msgstr "Ед. изм"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_canvas_title"
 msgid "Canvas"
-msgstr ""
+msgstr "Холст"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_canvas_colorscheme"
 msgid "Color scheme"
-msgstr ""
+msgstr "Цветовая схема"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_canvas_colorscheme_presets:0"
 msgid "White"
-msgstr ""
+msgstr "Белый"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_canvas_colorscheme_presets:1"
 msgid "Black"
-msgstr ""
+msgstr "Черный"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_canvas_colorscheme_presets:2"
 msgid "Dark blue"
-msgstr ""
+msgstr "Темно-синий"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_canvas_colorscheme_presets:3"
 msgid "Custom"
-msgstr ""
+msgstr "На заказ"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_canvas_unit_distance"
 msgid "Unit distance"
-msgstr ""
+msgstr "Единичное расстояние"
 
 msgctxt "imagesettings_dialog_canvas_unit_distance_hint"
 msgid "100 cm"
-msgstr ""
+msgstr "100 cm"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_canvas_num_subdivisions"
 msgid "Subdivisions"
-msgstr ""
+msgstr "Подразделения"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_bkgimage_title"
 msgid "Image"
-msgstr ""
+msgstr "Образ"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_bkgimage_brightness"
 msgid "Brightness"
-msgstr ""
+msgstr "Яркость"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_bkgimage_saturation"
 msgid "Saturation"
-msgstr ""
+msgstr "Насыщенность"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_bkgimage_contrast"
 msgid "Contrast"
-msgstr ""
+msgstr "Контраст"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_bkgimage_reset"
 msgid "Reset"
-msgstr ""
+msgstr "Сброс"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_calibration_title"
 msgid "Calibration"
-msgstr ""
+msgstr "Калибровка"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_calibration_enable"
 msgid "Calibrate to image"
-msgstr ""
+msgstr "Калибровка по изображению"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_calibration_image_resolution"
 msgid "Resolution"
-msgstr ""
+msgstr "разрешение"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_calibration_image_scale"
 msgid "Scale"
-msgstr ""
+msgstr "Масштаб"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_calibration_image_scale_real"
 msgid "real"
-msgstr ""
+msgstr "настоящий"
 
+#, fuzzy
 msgctxt "imagesettings_dialog_calibration_image_scale_image"
 msgid "image"
-msgstr ""
+msgstr "образ"
 
 #. bluetooth
 msgctxt "bluetooth_message_device_connected"
@@ -5460,26 +5889,18 @@ msgctxt "bluetooth_message_device_connect_failed"
 msgid "Bluetooth connection failed."
 msgstr "Ошибка Bluetooth-подключения."
 
-#, fuzzy
 msgctxt "bluetooth_error_bluetooth_not_configured"
 msgid ""
 "You have not yet configured any Bluetooth laser distance meter.\n"
 "\n"
-"First make sure that your device is listed in the system settings. If "
-"required, pair the device.\n"
+"First make sure that your device is listed in the system settings. If required, pair the device.\n"
 " <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n"
 "\n"
 "Afterwards, select your device in the ImageMeter settings:\n"
 " <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n"
 "\n"
-"For more help and a list of supported devices, see <a "
-"href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
+"For more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
 msgstr ""
-"Вы еще не настроили Bluetooth лазерного дальномера.\n"
-"\n"
-"Пожалуйста, подключите Ваше Bluetooth-устройство к Android-устройству. "
-"Затем зайдите в меню настроек и выберите Bluetooth-устройство для "
-"дальнейшего использования."
 
 #. 151209
 #, c-format
@@ -5503,9 +5924,10 @@ msgctxt "bluetooth_error_cannot_set_value_wrong_dimension_unit"
 msgid "wrong measurement unit"
 msgstr "неправильная единица измерения"
 
+#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_element_is_locked"
 msgid "element is locked"
-msgstr ""
+msgstr "элемент заблокирован"
 
 msgctxt "bluetooth_pref_button_start_bluetooth_scan"
 msgid "Start Bluetooth device scan"
@@ -5520,13 +5942,8 @@ msgid "Bluetooth scan"
 msgstr "Сканирование Bluetooth"
 
 msgctxt "bluetooth_dialog_scan_needs_location_permission_text"
-msgid ""
-"Since Android 6, the coarse location permission is required to scan for "
-"nearby Bluetooth devices. Please grant this permission when requested."
-msgstr ""
-"Начиная с Android 6, для сканирования близлежащих Bluetooth устройств "
-"требуется конкретная информация о местоположении. Пожалуйста, "
-"предоставьте это разрешение при запросе."
+msgid "Since Android 6, the coarse location permission is required to scan for nearby Bluetooth devices. Please grant this permission when requested."
+msgstr "Начиная с Android 6, для сканирования близлежащих Bluetooth устройств требуется конкретная информация о местоположении. Пожалуйста, предоставьте это разрешение при запросе."
 
 msgctxt "bluetooth_le_scan_needs_location_title"
 msgid "Bluetooth LE Scan Error"
@@ -5534,15 +5951,13 @@ msgstr "Ошибка сканирования Bluetooth лазерного да�
 
 msgctxt "bluetooth_le_scan_needs_location_message"
 msgid ""
-"Android requires that the location service is enabled to run a Bluetooth "
-"LE Scan.\n"
+"Android requires that the location service is enabled to run a Bluetooth LE Scan.\n"
 "\n"
 "Please turn on location services.\n"
 "\n"
 "After the Bluetooth LE scan, you can turn this off again."
 msgstr ""
-"Android требует разрешения определения местоположения, перед сопряжением "
-"с лазерным дальномером по Bluetooth.\n"
+"Android требует разрешения определения местоположения, перед сопряжением с лазерным дальномером по Bluetooth.\n"
 " \n"
 "Пожалуйста, включите службу геолокации.\n"
 "\n"
@@ -5602,22 +6017,25 @@ msgctxt "bluetooth_error_signal_too_weak"
 msgid "Signal too weak"
 msgstr "слишком слабый сигнал"
 
+#, fuzzy
 msgctxt "bluetooth_error_display_out_of_range"
 msgid "Display out of range"
-msgstr ""
+msgstr "Отображение вне диапазона"
 
+#, fuzzy
 msgctxt "bluetooth_error_pythagorean_calculation_error"
 msgid "Pythagorean calculation error"
-msgstr ""
+msgstr "Ошибка вычисления Пифагора"
 
 #, fuzzy
 msgctxt "bluetooth_error_low_battery"
 msgid "Low battery"
 msgstr "слишком низкий заряд батареи"
 
+#, fuzzy
 msgctxt "bluetooth_error_out_of_working_temperatur"
 msgid "Out of working temperature"
-msgstr ""
+msgstr "Из рабочей температуры"
 
 #, fuzzy
 msgctxt "bluetooth_error_ambient_light_too_strong"
@@ -5641,62 +6059,35 @@ msgctxt "tip_welcome"
 msgid ""
 "Welcome to ImageMeter\n"
 "\n"
-"If you have any questions, do not hesitate to write to "
-"imagemeter@gmail.com. All emails will be answered as fast as possible."
+"If you have any questions, do not hesitate to write to imagemeter@gmail.com. All emails will be answered as fast as possible."
 msgstr ""
 "Добро пожаловать в ImageMeter\n"
 "\n"
-"Если у Вас возникли какие-либо вопросы- не стесняйтесь, пишите на "
-"imagemeter@gmail.com. Постараюсь на них ответить как можно быстрее."
+"Если у Вас возникли какие-либо вопросы- не стесняйтесь, пишите на imagemeter@gmail.com. Постараюсь на них ответить как можно быстрее."
 
 msgctxt "tip_export_images"
-msgid ""
-"You can export images by long-clicking on them in the list and then "
-"selecting the share icon in the toolbar."
-msgstr ""
-"Вы можете экспортировать нужные изображения, долгим нажатием на иконку, и"
-" выбрать вариант экспорта в контекстном меню."
+msgid "You can export images by long-clicking on them in the list and then selecting the share icon in the toolbar."
+msgstr "Вы можете экспортировать нужные изображения, долгим нажатием на иконку, и выбрать вариант экспорта в контекстном меню."
 
 msgctxt "tip_folder_export"
-msgid ""
-"You can export PDFs with all images in a folder by long-clicking on the "
-"folder and selecting export."
-msgstr ""
-"Вы можете экспортировать zip-архив со всеми изображениями папки, долгим "
-"нажатием на папку и выбором пункта 'экспорт'."
+msgid "You can export PDFs with all images in a folder by long-clicking on the folder and selecting export."
+msgstr "Вы можете экспортировать zip-архив со всеми изображениями папки, долгим нажатием на папку и выбором пункта 'экспорт'."
 
 msgctxt "tip_disable_tips"
 msgid "You can disable the tip of the day dialog in the settings."
 msgstr "Вы можете отключить подсказки в настройках."
 
 msgctxt "tip_accuracy"
-msgid ""
-"Accuracy depends on the quality of the camera and its lens distortions. "
-"You can increase accuracy by choosing a reference rectangle that is as "
-"large as possible."
-msgstr ""
-"Точность зависит от качества камеры и искажения объектива. Вы можете "
-"повысить точность, выбрав связь 'четырехугольник'."
+msgid "Accuracy depends on the quality of the camera and its lens distortions. You can increase accuracy by choosing a reference rectangle that is as large as possible."
+msgstr "Точность зависит от качества камеры и искажения объектива. Вы можете повысить точность, выбрав связь 'четырехугольник'."
 
 msgctxt "tip_measure_attach"
-msgid ""
-"When you draw a new measure in an image that already contains a "
-"reference, the measure is automatically computed based on this reference."
-" If you want to enter its value manually, click on the crossed-out "
-"calculator icon or choose 'enter value manually' from the menu."
-msgstr ""
-"Если связь будет выбрана, при создании нового замера, этот замер "
-"автоматически присоединится к связи. Если Вы желаете отключить его "
-"вручную, или прикрепить его к связи, Вы можете это всегда сделать в меню "
-"'редактор'."
+msgid "When you draw a new measure in an image that already contains a reference, the measure is automatically computed based on this reference. If you want to enter its value manually, click on the crossed-out calculator icon or choose 'enter value manually' from the menu."
+msgstr "Если связь будет выбрана, при создании нового замера, этот замер автоматически присоединится к связи. Если Вы желаете отключить его вручную, или прикрепить его к связи, Вы можете это всегда сделать в меню 'редактор'."
 
 msgctxt "tip_support"
-msgid ""
-"If you have any questions, do not hesitate to write to "
-"imagemeter@gmail.com. All emails will be answered as fast as possible."
-msgstr ""
-"Если у Вас возникли какие-либо вопросы- не стесняйтесь, пишите на "
-"imagemeter@gmail.com. Постараюсь на них ответить как можно быстрее."
+msgid "If you have any questions, do not hesitate to write to imagemeter@gmail.com. All emails will be answered as fast as possible."
+msgstr "Если у Вас возникли какие-либо вопросы- не стесняйтесь, пишите на imagemeter@gmail.com. Постараюсь на них ответить как можно быстрее."
 
 msgctxt "welcome_message_title"
 msgid "Welcome to ImageMeter"
@@ -5705,17 +6096,13 @@ msgstr "Добро пожаловать в ImageMeter"
 #, fuzzy
 msgctxt "welcome_message_text"
 msgid ""
-"For an introduction to ImageMeter, see this <a "
-"href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video</a>.\n"
+"For an introduction to ImageMeter, see this <a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video</a>.\n"
 "\n"
-"If you have any further questions, do not hesitate to write to <a "
-"href=\"mailto:imagemeter@gmail.com\">info@imagemeter.com</a>."
+"If you have any further questions, do not hesitate to write to <a href=\"mailto:imagemeter@gmail.com\">info@imagemeter.com</a>."
 msgstr ""
-"Чтобы ознакомиться с функционалом ImageMeter, посмотрите это <a "
-"href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">видео</a>.\n"
+"Чтобы ознакомиться с функционалом ImageMeter, посмотрите это <a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">видео</a>.\n"
 "\n"
-"Имеющиеся вопросы отправляйте на  <a "
-"href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a>."
+"Имеющиеся вопросы отправляйте на  <a href=\"mailto:imagemeter@gmail.com\">imagemeter@gmail.com</a>."
 
 msgctxt "welcome_message_show_at_startup"
 msgid "Show welcome message at startup"
@@ -5723,49 +6110,58 @@ msgstr "Приветствие при запуске"
 
 msgctxt "release_notes_filename"
 msgid "en.html"
-msgstr ""
+msgstr "en.html"
 
-#. info messages
-#, fuzzy
+#. info messages, fuzzy
 msgctxt "main_screen_info_message_pro_key_app_not_needed"
-msgid ""
-"You may deinstall the separate Pro app. It is not needed anymore as a key"
-" to enable the Pro features because you have add-ons that include the Pro"
-" upgrade. Make sure that you have copied all the images from the Pro app "
-"to here as deleting the app will also delete all the images stored in it."
-msgstr ""
+msgid "You may deinstall the separate Pro app. It is not needed anymore as a key to enable the Pro features because you have add-ons that include the Pro upgrade. Make sure that you have copied all the images from the Pro app to here as deleting the app will also delete all the images stored in it."
+msgstr "Вы можете удалить отдельное приложение Pro. Он больше не нужен в качестве ключа для включения функций Pro, потому что у вас есть надстройки, которые включают обновление Pro. Убедитесь, что вы скопировали сюда все изображения из приложения Pro, поскольку при удалении приложения будут удалены все изображения, хранящиеся в нем."
 
+#, fuzzy
 msgctxt "main_screen_info_message_please_rate"
-msgid ""
-"If you like this app, would you mind taking a minute to rate it? Thank "
-"you for your support!"
-msgstr ""
+msgid "If you like this app, would you mind taking a minute to rate it? Thank you for your support!"
+msgstr "Если вам нравится это приложение, не могли бы вы потратить минутку, чтобы оценить его? Спасибо за Вашу поддержку!"
 
+#, fuzzy
 msgctxt "main_screen_info_message_please_rate_rate_now"
 msgid "Rate now"
-msgstr ""
+msgstr "Оценить сейчас"
 
+#, fuzzy
 msgctxt "main_screen_info_message_please_rate_later"
 msgid "Later"
-msgstr ""
+msgstr "Потом"
 
+#, fuzzy
 msgctxt "main_screen_info_message_no_backup"
 msgid ""
-"It looks like your images are currently not backed up. If your phone "
-"breaks or gets lost, the images may be lost too.\n"
+"It looks like your images are currently not backed up. If your phone breaks or gets lost, the images may be lost too.\n"
 "\n"
-"To prevent this, use the cloud-sync function of the Business version or "
-"do a manual backup of your data."
+"To prevent this, use the cloud-sync function of the Business version or do a manual backup of your data."
 msgstr ""
+"Похоже, ваши изображения в настоящее время не копируются. Если ваш телефон сломается или потеряется, изображения тоже могут быть потеряны.\n"
+"\n"
+"Чтобы этого не произошло, используйте функцию облачной синхронизации версии Business или сделайте резервную копию своих данных вручную."
 
+#, fuzzy
 msgctxt "main_screen_info_message_no_backup_do_not_warn_again"
 msgid "Don't warn again"
-msgstr ""
+msgstr "Больше не предупреждать"
 
-#. FAQ
+#, fuzzy
+msgctxt "main_screen_info_message_deprecated_directory"
+msgid "Your images are stored in the public 'Documents' directory. Soon, Android will not allow apps to access this directory anymore. Please move your data into the app directory."
+msgstr "Ваши изображения хранятся в общедоступном каталоге «Документы». Вскоре Android больше не будет разрешать приложениям доступ к этому каталогу. Пожалуйста, переместите свои данные в каталог приложения."
+
+#, fuzzy
+msgctxt "main_screen_info_message_deprecated_directory_settings"
+msgid "Open settings"
+msgstr "Открыть настройки"
+
+#. FAQ, fuzzy
 msgctxt "manual_website_link"
 msgid "http://www.imagemeter.com/manual"
-msgstr ""
+msgstr "http://www.imagemeter.com/manual"
 
 #. TODO: Remove or change this placeholder text
 msgctxt "image_info_image_name"
@@ -5776,9 +6172,10 @@ msgctxt "image_info_capture_date"
 msgid "Capture Date"
 msgstr "Дата создания"
 
+#, fuzzy
 msgctxt "image_info_creation_date"
 msgid "Creation Date"
-msgstr ""
+msgstr "Дата создания"
 
 msgctxt "image_info_original_resolution"
 msgid "Original Image Resolution"
@@ -5792,144 +6189,151 @@ msgctxt "image_info_show_on_map"
 msgid "Show on map"
 msgstr "Показать на карте"
 
+#, fuzzy
 msgctxt "value_entry_unit_unit"
 msgid "Unit"
-msgstr ""
+msgstr "Ед. изм"
 
-#. date strings
+#. date strings, fuzzy
+#, fuzzy
 msgctxt "month_names_short_1"
 msgid "Jan"
-msgstr ""
+msgstr "Янв"
 
+#, fuzzy
 msgctxt "month_names_short_2"
 msgid "Feb"
-msgstr ""
+msgstr "февр"
 
+#, fuzzy
 msgctxt "month_names_short_3"
 msgid "Mar"
-msgstr ""
+msgstr "март"
 
+#, fuzzy
 msgctxt "month_names_short_4"
 msgid "Apr"
-msgstr ""
+msgstr "Апр"
 
+#, fuzzy
 msgctxt "month_names_short_5"
 msgid "May"
-msgstr ""
+msgstr "май"
 
+#, fuzzy
 msgctxt "month_names_short_6"
 msgid "Jun"
-msgstr ""
+msgstr "июнь"
 
+#, fuzzy
 msgctxt "month_names_short_7"
 msgid "Jul"
-msgstr ""
+msgstr "июль"
 
+#, fuzzy
 msgctxt "month_names_short_8"
 msgid "Aug"
-msgstr ""
+msgstr "Авг"
 
+#, fuzzy
 msgctxt "month_names_short_9"
 msgid "Sep"
-msgstr ""
+msgstr "сент"
 
+#, fuzzy
 msgctxt "month_names_short_10"
 msgid "Oct"
-msgstr ""
+msgstr "окт"
 
+#, fuzzy
 msgctxt "month_names_short_11"
 msgid "Nov"
-msgstr ""
+msgstr "ноябрь"
 
+#, fuzzy
 msgctxt "month_names_short_12"
 msgid "Dec"
-msgstr ""
+msgstr "дек"
 
 msgctxt "month_names_long_1"
 msgid "January"
-msgstr ""
+msgstr "Январь"
 
 msgctxt "month_names_long_2"
 msgid "February"
-msgstr ""
+msgstr "Февраль"
 
 msgctxt "month_names_long_3"
 msgid "March"
-msgstr ""
+msgstr "Март "
 
 msgctxt "month_names_long_4"
 msgid "April"
-msgstr ""
+msgstr "Апрель "
 
 msgctxt "month_names_long_5"
 msgid "May"
-msgstr ""
+msgstr "Май "
 
 msgctxt "month_names_long_6"
 msgid "June"
-msgstr ""
+msgstr "Июнь"
 
 msgctxt "month_names_long_7"
 msgid "July"
-msgstr ""
+msgstr "Июль"
 
 msgctxt "month_names_long_8"
 msgid "August"
-msgstr ""
+msgstr "Август"
 
 msgctxt "month_names_long_9"
 msgid "September"
-msgstr ""
+msgstr "сентябрь"
 
 msgctxt "month_names_long_10"
 msgid "October"
-msgstr ""
+msgstr "Октябрь"
 
 msgctxt "month_names_long_11"
 msgid "November"
-msgstr ""
+msgstr "Ноябрь"
 
 msgctxt "month_names_long_12"
 msgid "December"
-msgstr ""
+msgstr "Декабрь"
 
+#, fuzzy
 msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
-msgstr ""
+msgstr "Показать параметры PDF в следующий раз"
 
+#, fuzzy
 msgctxt "sync_errors_activity_title"
 msgid "Cloud Synchronization Errors"
-msgstr ""
+msgstr "Ошибки облачной синхронизации"
 
+#, fuzzy
 msgctxt "sync_errors_close_notificatoin"
 msgid "Close notification"
-msgstr ""
+msgstr "Закрыть уведомление"
 
+#, fuzzy
 msgctxt "sync_action_nop"
 msgid "No action"
-msgstr ""
+msgstr "Бездействие"
 
+#, fuzzy
 msgctxt "sync_action_pull_new"
 msgid "Download new"
-msgstr ""
+msgstr "Скачать новую"
 
+#, fuzzy
 msgctxt "sync_action_pull_update"
 msgid "Download update"
-msgstr ""
+msgstr "Скачать обновление"
 
+#, fuzzy
 msgctxt "sync_action_push_new"
 msgid "Upload new"
-msgstr ""
-
-msgctxt "sync_action_push_update"
-msgid "Upload update"
-msgstr ""
-
-msgctxt "sync_action_delete_local"
-msgid "Delete locally"
-msgstr ""
-
-msgctxt "sync_action_delete_remote"
-msgid "Delete on server"
-msgstr ""
-
+msgstr "Загрузить новый"
