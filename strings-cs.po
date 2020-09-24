@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-14 16:26+0200\n"
+"POT-Creation-Date: 2020-09-24 16:43+0200\n"
 "PO-Revision-Date: 2020-08-31 17:28+0200\n"
 "Last-Translator: \n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.4.0\n"
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
@@ -880,6 +880,30 @@ msgid "undeleting entity"
 msgstr ""
 
 #. templates
+msgctxt "tpool_templ_custom_class_name"
+msgid "Custom template"
+msgstr ""
+
+msgctxt "tpool_templ_custom_columncontent_empty"
+msgid "Empty"
+msgstr ""
+
+msgctxt "tpool_templ_custom_columncontent_imagename"
+msgid "Image name"
+msgstr ""
+
+msgctxt "tpool_templ_custom_new_csvtemplate"
+msgid "new table"
+msgstr ""
+
+msgctxt "tpool_templ_custom_new_tag"
+msgid "new tag"
+msgstr ""
+
+msgctxt "tpool_templ_wallarea_class_name"
+msgid "Area summation"
+msgstr ""
+
 msgctxt "tpool_templ_wallarea_wall"
 msgid "wall"
 msgstr ""
@@ -938,6 +962,222 @@ msgstr ""
 
 msgctxt "tpool_templ_wallarea_csv_sumarea"
 msgid "Sum/"
+msgstr ""
+
+msgctxt "csv_operation_none"
+msgid "None"
+msgstr ""
+
+msgctxt "csv_operation_none_keep"
+msgid "Keep"
+msgstr ""
+
+msgctxt "csv_operation_sum"
+msgid "Sum"
+msgstr ""
+
+msgctxt "csv_operation_avg"
+msgid "Average"
+msgstr ""
+
+msgctxt "csv_operation_min"
+msgid "Min"
+msgstr ""
+
+msgctxt "csv_operation_max"
+msgid "Max"
+msgstr ""
+
+msgctxt "csv_operation_median"
+msgid "Median"
+msgstr ""
+
+msgctxt "csv_operation_count"
+msgid "Count"
+msgstr ""
+
+#. template config
+msgctxt "pref_template_title"
+msgid "Templates"
+msgstr ""
+
+msgctxt "pref_template_description"
+msgid ""
+"Templates let you define standard measurement tasks. You can define tags "
+"and extra data to be assigned to elements for structuring your "
+"measurements. You can also define the layout of tabular output of your "
+"measurements. On this page, you define templates for different "
+"measurement tasks.\n"
+"\n"
+"For more information, see <a href=\"TODO\">TODO</a>.\n"
+"Templates are part of the <a href=\"Business\">Business version</a>."
+msgstr ""
+
+msgctxt "pref_template_list_title"
+msgid "Templates"
+msgstr ""
+
+msgctxt "pref_template_add_template"
+msgid "+ add template"
+msgstr ""
+
+msgctxt "pref_template_template_name"
+msgid "Template name:"
+msgstr ""
+
+msgctxt "pref_dialog_template_add_title"
+msgid "Template type"
+msgstr ""
+
+msgctxt "pref_dialog_template_add_description_custom"
+msgid ""
+"This template is for defining your own custom measurement tables. Each "
+"image will result in one row in the table."
+msgstr ""
+
+msgctxt "pref_dialog_template_add_description_wall_area"
+msgid ""
+"This template is the basis for area computations with additive and "
+"subtractive elements."
+msgstr ""
+
+msgctxt "pref_template_config_custom_edit_tags_description"
+msgid ""
+"<b>Tags</b> are assigned to drawn elements to specify the purpose of the "
+"measure. For example, a tag may tell that the measured rectangle is a "
+"<em>window</em> or a <em>wall</em>. Further on, these tags can be used to"
+" construct data tables from your measured images."
+msgstr ""
+
+msgctxt "pref_template_config_custom_edit_tags"
+msgid "Edit element tags"
+msgstr ""
+
+msgctxt "pref_template_config_custom_edit_tables_description"
+msgid ""
+"<b>Table layouts</b> define the content of tabular output derived from "
+"your images. Here, you define the table columns and their content."
+msgstr ""
+
+msgctxt "pref_template_config_custom_edit_tables"
+msgid "Edit table layouts"
+msgstr ""
+
+msgctxt "pref_template_config_custom_title"
+msgid "Custom Template"
+msgstr ""
+
+msgctxt "pref_template_config_custom_section_tags"
+msgid "Tags"
+msgstr ""
+
+msgctxt "pref_template_config_custom_add_tag"
+msgid "+ add tag"
+msgstr ""
+
+msgctxt "pref_template_config_custom_label_type"
+msgid "Type:"
+msgstr ""
+
+#. deprecated
+msgctxt "pref_template_config_custom_unit"
+msgid "Unit:"
+msgstr ""
+
+msgctxt "pref_template_config_custom_section_table_layouts"
+msgid "Table layouts"
+msgstr ""
+
+msgctxt "pref_template_config_custom_add_table_layout"
+msgid "+ add table layout"
+msgstr ""
+
+msgctxt "pref_template_config_custom_tag_name"
+msgid "Tag name:"
+msgstr ""
+
+msgctxt "pref_template_custom_tag_filter"
+msgid "Filter:"
+msgstr ""
+
+msgctxt "templ_labeltype_length"
+msgid "Length"
+msgstr ""
+
+msgctxt "templ_labeltype_area"
+msgid "Area"
+msgstr ""
+
+msgctxt "templ_labeltype_angle"
+msgid "Angle"
+msgstr ""
+
+msgctxt "templ_labeltype_any"
+msgid "Any"
+msgstr ""
+
+msgctxt "templ_labeltype_edge"
+msgid "Edge"
+msgstr ""
+
+msgctxt "templ_labeltype_perimeter"
+msgid "Perimeter"
+msgstr ""
+
+msgctxt "templ_labeltype_radius"
+msgid "Radius"
+msgstr ""
+
+msgctxt "templ_labeltype_diameter"
+msgid "Diameter"
+msgstr ""
+
+msgctxt "templ_labeltype_width"
+msgid "Width"
+msgstr ""
+
+msgctxt "templ_labeltype_height"
+msgid "Height"
+msgstr ""
+
+msgctxt "templ_labeltype_rectangleside_rectangle"
+msgid "Rectangle"
+msgstr ""
+
+msgctxt "pref_template_custom_table_title"
+msgid "Custom Table Configuration"
+msgstr ""
+
+msgctxt "pref_template_custom_table_name"
+msgid "Table name:"
+msgstr ""
+
+msgctxt "pref_template_custom_table_columns"
+msgid "Table columns"
+msgstr ""
+
+msgctxt "pref_template_custom_table_columns_add"
+msgid "+ add column"
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_title"
+msgid "Column title"
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_content"
+msgid "Content"
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_label_type"
+msgid "Measure"
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_conflict"
+msgid "Multiple values"
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_footer"
+msgid "Footer operation"
 msgstr ""
 
 #. licensing: volume key dialog
