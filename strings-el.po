@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-09-24 16:43+0200\n"
+"POT-Creation-Date: 2020-10-23 10:37+0200\n"
 "PO-Revision-Date: 2020-06-11 20:22+0200\n"
 "Last-Translator: \n"
 "Language: el\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.6.0\n"
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
@@ -329,6 +329,11 @@ msgid ""
 "Cannot load current folder.\n"
 "\n"
 "Please open the settings and set a different storage directory."
+msgstr ""
+
+#, c-format
+msgctxt "imagelibrary_moving_images_to_app_directory"
+msgid "Moving images to app directory (%1$d of %2$d)."
 msgstr ""
 
 #. dialog: numbering
@@ -646,6 +651,10 @@ msgctxt "upgrade_item_cloud_backup"
 msgid "Backup on your cloud storage"
 msgstr ""
 
+msgctxt "upgrade_item_data_tables"
+msgid "Export measurements as data tables"
+msgstr ""
+
 msgctxt "upgrade_item_all_addon_packs"
 msgid "Includes Pro and all add-on packs"
 msgstr ""
@@ -768,8 +777,12 @@ msgid "undeleting entity"
 msgstr ""
 
 #. templates
-msgctxt "tpool_templ_custom_class_name"
+msgctxt "tpool_templ_custom_class_display_name"
 msgid "Custom template"
+msgstr ""
+
+msgctxt "tpool_templ_custom_new_template_name"
+msgid "New custom template"
 msgstr ""
 
 msgctxt "tpool_templ_custom_columncontent_empty"
@@ -780,129 +793,213 @@ msgctxt "tpool_templ_custom_columncontent_imagename"
 msgid "Image name"
 msgstr ""
 
-msgctxt "tpool_templ_custom_new_csvtemplate"
-msgid "new table"
+msgctxt "tpool_templ_custom_columncontent_image_notes"
+msgid "Image notes"
+msgstr ""
+
+msgctxt "tpool_templ_custom_columncontent_image_number"
+msgid "Image number"
+msgstr ""
+
+msgctxt "tpool_templ_custom_columncontent_image_capture_date"
+msgid "Image capture date"
+msgstr ""
+
+msgctxt "tpool_templ_custom_new_tablespec_name"
+msgid "Custom Table"
 msgstr ""
 
 msgctxt "tpool_templ_custom_new_tag"
 msgid "new tag"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_class_name"
-msgid "Area summation"
+msgctxt "tpool_templ_custom_tag_filter_text"
+msgid "Text note"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_wall"
-msgid "wall"
+msgctxt "tpool_templ_custom_tag_property_name"
+msgid "Tag"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_ceiling"
-msgid "ceiling"
+msgctxt "tpool_templ_areasum_class_display_name"
+msgid "Area sum template"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_custom_add"
-msgid "custom (add)"
+msgctxt "tpool_templ_areasum_wallarea_new_template_name"
+msgid "New wall area template"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_window"
-msgid "window"
+msgctxt "tpool_templ_areasum_floorarea_new_template_name"
+msgid "New floor area template"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_door"
-msgid "door"
+msgctxt "tpool_templ_areasum_default_table_name"
+msgid "Area sum table"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_custom_minus"
-msgid "custom (subtract)"
-msgstr ""
-
-msgctxt "tpool_templ_wallarea_template_name"
+msgctxt "tpool_templ_areasum_preset_wallarea"
 msgid "Wall area"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_csv_position"
+msgctxt "tpool_templ_areasum_preset_floorarea"
+msgid "Floor area"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_custom_add"
+msgid "custom (add)"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_custom_minus"
+msgid "custom (subtract)"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_wallarea_wall"
+msgid "wall"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_wallarea_ceiling"
+msgid "ceiling"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_wallarea_window"
+msgid "window"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_wallarea_door"
+msgid "door"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_floorarea_livingroom"
+msgid "living room"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_floorarea_bedroom"
+msgid "bed room"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_floorarea_kitchen"
+msgid "kitchen"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_floorarea_bathroom"
+msgid "bathroom"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_floorarea_genericroom"
+msgid "other room"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_floorarea_balcony"
+msgid "balcony"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_table_column_header_item"
 msgid "Pos."
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_csv_description"
+msgctxt "tpool_templ_areasum_table_column_header_description"
 msgid "Description"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_csv_count"
+msgctxt "tpool_templ_areasum_table_column_header_count"
 msgid "Count"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_csv_width"
-msgid "Width/"
+msgctxt "tpool_templ_areasum_table_column_header_factor"
+msgid "Factor"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_csv_height"
-msgid "Height/"
+msgctxt "tpool_templ_areasum_table_column_header_width"
+msgid "Width"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_csv_area"
-msgid "Area/"
+msgctxt "tpool_templ_areasum_table_column_header_height"
+msgid "Height"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_csv_deduction"
-msgid "Deduction/"
+msgctxt "tpool_templ_areasum_table_column_header_area"
+msgid "Area"
 msgstr ""
 
-msgctxt "tpool_templ_wallarea_csv_sumarea"
-msgid "Sum/"
+msgctxt "tpool_templ_areasum_table_column_header_deduction"
+msgid "Deduction"
 msgstr ""
 
-msgctxt "csv_operation_none"
-msgid "None"
-msgstr ""
-
-msgctxt "csv_operation_none_keep"
-msgid "Keep"
-msgstr ""
-
-msgctxt "csv_operation_sum"
+msgctxt "tpool_templ_areasum_table_column_header_sumarea"
 msgid "Sum"
 msgstr ""
 
-msgctxt "csv_operation_avg"
+msgctxt "templ_uiitem_duplicate_local"
+msgid "(local copy)"
+msgstr ""
+
+msgctxt "templ_uiitem_duplicate_global"
+msgid "(from settings)"
+msgstr ""
+
+msgctxt "table_operation_none"
+msgid "None"
+msgstr ""
+
+msgctxt "table_operation_none_keep"
+msgid "Keep"
+msgstr ""
+
+msgctxt "table_operation_sum"
+msgid "Sum"
+msgstr ""
+
+msgctxt "table_operation_avg"
 msgid "Average"
 msgstr ""
 
-msgctxt "csv_operation_min"
+msgctxt "table_operation_min"
 msgid "Min"
 msgstr ""
 
-msgctxt "csv_operation_max"
+msgctxt "table_operation_max"
 msgid "Max"
 msgstr ""
 
-msgctxt "csv_operation_median"
+msgctxt "table_operation_median"
 msgid "Median"
 msgstr ""
 
-msgctxt "csv_operation_count"
+msgctxt "table_operation_count"
 msgid "Count"
 msgstr ""
 
+msgctxt "templ_selection_none"
+msgid "None"
+msgstr ""
+
 #. template config
+msgctxt "pref_templates_header_title"
+msgid "Templates and data tables"
+msgstr ""
+
 msgctxt "pref_template_title"
 msgid "Templates"
 msgstr ""
 
+#, fuzzy
 msgctxt "pref_template_description"
 msgid ""
-"Templates let you define standard measurement tasks. You can define tags "
-"and extra data to be assigned to elements for structuring your "
-"measurements. You can also define the layout of tabular output of your "
-"measurements. On this page, you define templates for different "
-"measurement tasks.\n"
-"\n"
-"For more information, see <a href=\"TODO\">TODO</a>.\n"
-"Templates are part of the <a href=\"Business\">Business version</a>."
+"Templates let you define standard measurement tasks. You can structure "
+"your data collection by assigning tags to the measurements. You can also "
+"define the layout of tabular output of your measurements. \n"
+"On this page, you find the list of templates for your measurement tasks.\n"
+" \n"
+"For more information, see <a "
+"href=\"https://www.imagemeter.com/manual/\">the manual</a>.\n"
+" \n"
+"Note: templates are part of the <a href=\"upgrade-dialog\">Business "
+"version</a>."
 msgstr ""
 
+#, fuzzy
 msgctxt "pref_template_list_title"
-msgid "Templates"
+msgid "List of templates"
 msgstr ""
 
 msgctxt "pref_template_add_template"
@@ -917,34 +1014,50 @@ msgctxt "pref_dialog_template_add_title"
 msgid "Template type"
 msgstr ""
 
+msgctxt "pref_dialog_template_add_general_description"
+msgid ""
+"Choose the template that best matches your needs. You can further "
+"customize it later."
+msgstr ""
+
+msgctxt "pref_dialog_template_add_description_title"
+msgid "Template description:"
+msgstr ""
+
+#, fuzzy
 msgctxt "pref_dialog_template_add_description_custom"
 msgid ""
-"This template is for defining your own custom measurement tables. Each "
-"image will result in one row in the table."
+"Each image fills one row in the table. You may assign a tag to each "
+"measurement. Each table column contains the measurement for a specific "
+"tag."
 msgstr ""
 
+#, fuzzy
 msgctxt "pref_dialog_template_add_description_wall_area"
 msgid ""
-"This template is the basis for area computations with additive and "
-"subtractive elements."
+"This template is the basis for area computations. The area of some "
+"elements is added to the sum (e.g. walls), while other elements are "
+"subtracted (e.g. windows)."
 msgstr ""
 
+#, fuzzy
 msgctxt "pref_template_config_custom_edit_tags_description"
 msgid ""
-"<b>Tags</b> are assigned to drawn elements to specify the purpose of the "
-"measure. For example, a tag may tell that the measured rectangle is a "
-"<em>window</em> or a <em>wall</em>. Further on, these tags can be used to"
-" construct data tables from your measured images."
+"<b>Tags</b> are assigned to measurements to specify their purpose. For "
+"example, a tag may tell that the measured rectangle is a <em>window</em> "
+"or a <em>wall</em>. Further on, these tags can be used to sort these "
+"measurements into data tables."
 msgstr ""
 
 msgctxt "pref_template_config_custom_edit_tags"
 msgid "Edit element tags"
 msgstr ""
 
+#, fuzzy
 msgctxt "pref_template_config_custom_edit_tables_description"
 msgid ""
-"<b>Table layouts</b> define the content of tabular output derived from "
-"your images. Here, you define the table columns and their content."
+"<b>Table layouts</b> define how to arrange your measurements into a data "
+"table."
 msgstr ""
 
 msgctxt "pref_template_config_custom_edit_tables"
@@ -980,12 +1093,20 @@ msgctxt "pref_template_config_custom_add_table_layout"
 msgid "+ add table layout"
 msgstr ""
 
-msgctxt "pref_template_config_custom_tag_name"
-msgid "Tag name:"
+msgctxt "pref_template_config_custom_table_description"
+msgid ""
+"You may define several different layouts how the measured data is "
+"arranged into data tables."
 msgstr ""
 
+#, fuzzy
+msgctxt "pref_template_config_custom_tag_name"
+msgid "Tag name"
+msgstr ""
+
+#, fuzzy
 msgctxt "pref_template_custom_tag_filter"
-msgid "Filter:"
+msgid "Filter"
 msgstr ""
 
 msgctxt "templ_labeltype_length"
@@ -1004,8 +1125,9 @@ msgctxt "templ_labeltype_any"
 msgid "Any"
 msgstr ""
 
+#, fuzzy
 msgctxt "templ_labeltype_edge"
-msgid "Edge"
+msgid "Edge length"
 msgstr ""
 
 msgctxt "templ_labeltype_perimeter"
@@ -1032,12 +1154,17 @@ msgctxt "templ_labeltype_rectangleside_rectangle"
 msgid "Rectangle"
 msgstr ""
 
+msgctxt "templ_filter_text"
+msgid "Text"
+msgstr ""
+
 msgctxt "pref_template_custom_table_title"
 msgid "Custom Table Configuration"
 msgstr ""
 
+#, fuzzy
 msgctxt "pref_template_custom_table_name"
-msgid "Table name:"
+msgid "Table name"
 msgstr ""
 
 msgctxt "pref_template_custom_table_columns"
@@ -1048,8 +1175,62 @@ msgctxt "pref_template_custom_table_columns_add"
 msgid "+ add column"
 msgstr ""
 
+msgctxt "pref_template_custom_tag_filter_info_title"
+msgid "Element filter"
+msgstr ""
+
+msgctxt "pref_template_custom_tag_filter_info_description"
+msgid ""
+"This tag may only be assigned to elements that have the selected "
+"measurement type."
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_content_info_title"
+msgid "Column content"
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_content_info_description"
+msgid ""
+"Specify the cell content in this column. This can be either a measurement"
+" value that you annotated with a tag, or image metadata (e.g. image name,"
+" capture date)."
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_measure_info_title"
+msgid "Measure selection"
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_measure_info_description"
+msgid ""
+"Here, you define which measurement of the tagged element to put into this"
+" column. E.g. for a circle you can choose between its area, radius, "
+"circumference, ..."
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_multiplevalues_info_title"
+msgid "Multiple values per cell"
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_multiplevalues_info_description"
+msgid ""
+"When several elements are assigned the same tag, several values will be "
+"placed into one cell. Here you can choose to sum these values, take their"
+" average, or other options instead of keeping all in one cell."
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_footer_info_title"
+msgid "Footer row content"
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_footer_info_description"
+msgid ""
+"What to place in the footer row of the table. Options include the sum of "
+"all values in the column, the maximum, the average, and other options."
+msgstr ""
+
+#, fuzzy
 msgctxt "pref_template_custom_table_column_title"
-msgid "Column title"
+msgid "Column header"
 msgstr ""
 
 msgctxt "pref_template_custom_table_column_content"
@@ -1066,6 +1247,117 @@ msgstr ""
 
 msgctxt "pref_template_custom_table_column_footer"
 msgid "Footer operation"
+msgstr ""
+
+msgctxt "pref_template_areasum_template_title"
+msgid "Area Sum Template Configuration"
+msgstr ""
+
+msgctxt "pref_template_areasum_tags_title"
+msgid "Area Sum Template Tags"
+msgstr ""
+
+msgctxt "pref_template_areasum_table_title"
+msgid "Area Sum Table Configuration"
+msgstr ""
+
+msgctxt "pref_template_areasum_tag_subtract"
+msgid "Subtract from sum"
+msgstr ""
+
+msgctxt "pref_template_areasum_tag_factor"
+msgid "Factor"
+msgstr ""
+
+msgctxt "pref_template_areasum_edit_tables"
+msgid "Edit table layout"
+msgstr ""
+
+msgctxt "pref_template_areasum_table_column_item"
+msgid "Item Number"
+msgstr ""
+
+msgctxt "pref_template_areasum_table_column_description"
+msgid "Description"
+msgstr ""
+
+msgctxt "pref_template_areasum_table_column_count"
+msgid "Count"
+msgstr ""
+
+msgctxt "pref_template_areasum_table_column_width_height"
+msgid "Width and height"
+msgstr ""
+
+msgctxt "pref_template_areasum_table_column_measured_area"
+msgid "Measured area"
+msgstr ""
+
+msgctxt "pref_template_areasum_table_column_factor"
+msgid "Factor"
+msgstr ""
+
+msgctxt "pref_template_areasum_table_column_calculated_area"
+msgid "Calculated area"
+msgstr ""
+
+msgctxt "pref_template_areasum_table_column_plus_minus_areas"
+msgid "+/- area columns"
+msgstr ""
+
+msgctxt "pref_template_areasum_table_column_image_area_sum"
+msgid "Image area sum"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_table_column_description_item"
+msgid ""
+"The image number. The number will only be filled into the row with the "
+"image title."
+msgstr ""
+
+msgctxt "tpool_templ_areasum_table_column_description_description"
+msgid ""
+"Descriptive name of the area. This is either the default name of the tag,"
+" or a manually entered name for this area."
+msgstr ""
+
+msgctxt "tpool_templ_areasum_table_column_description_count"
+msgid "The count multiplier for this area."
+msgstr ""
+
+msgctxt "tpool_templ_areasum_table_column_description_width_height"
+msgid ""
+"Width and height are two columns that are filled with the side lengths if"
+" the area is a rectangle. For other shapes, the columns stay empty.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+
+msgctxt "tpool_templ_areasum_table_column_description_measured_area"
+msgid "The raw, measured area without the factor or count applied."
+msgstr ""
+
+msgctxt "tpool_templ_areasum_table_column_description_factor"
+msgid "The area factor applied when calculating the final area sum."
+msgstr ""
+
+msgctxt "tpool_templ_areasum_table_column_description_calculated_area"
+msgid "Calculated area including the factor and count."
+msgstr ""
+
+msgctxt "tpool_templ_areasum_table_column_description_plus_minus_areas"
+msgid ""
+"Generates two columns: a column including all areas that are added to the"
+" sum, and a column including all areas that are subtracted from the total"
+" sum.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+
+msgctxt "tpool_templ_areasum_table_column_description_image_area_sum"
+msgid ""
+"The total area sum. This include only one value for each image and a "
+"total over all images."
 msgstr ""
 
 #. licensing: volume key dialog
@@ -1234,6 +1526,11 @@ msgctxt "dialog_need_upgrade_tool_message"
 msgid "This tool is available in the '%1$s' add-on."
 msgstr ""
 
+msgctxt "dialog_need_upgrade_data_table_export_message"
+msgid "Exporting data tables is available in the Business version."
+msgstr ""
+
+#. TODO: demo video
 msgctxt "dialog_migrate_for_addon_packs_title"
 msgid "Activate Add-on Pack"
 msgstr ""
@@ -1513,6 +1810,10 @@ msgctxt "dialog_pdf_export_metadata"
 msgid "Metadata"
 msgstr ""
 
+msgctxt "dialog_pdf_export_data_table"
+msgid "Data Table"
+msgstr ""
+
 msgctxt "dialog_pdf_export_space_for_notes"
 msgid "Space for image notes"
 msgstr ""
@@ -1523,6 +1824,10 @@ msgstr ""
 
 msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
+msgstr ""
+
+msgctxt "dialog_pdf_export_data_table_layout"
+msgid "Table layout"
 msgstr ""
 
 msgctxt "pdf_export_notification_generating_pdf"
@@ -1569,6 +1874,11 @@ msgctxt "zip_export_notification_progress_compressing_step"
 msgid "Compressing ZIP file..."
 msgstr ""
 
+#. CSV export
+msgctxt "dialog_csv_export_title"
+msgid "Data table export (CSV)"
+msgstr ""
+
 #. dialogs
 #, fuzzy
 msgctxt "imageselect_dialog_image_name_image_title"
@@ -1587,6 +1897,10 @@ msgstr "Σημειώσεις"
 
 msgctxt "imageselect_dialog_image_name_number"
 msgid "Number"
+msgstr ""
+
+msgctxt "imageselect_dialog_image_name_template"
+msgid "Template"
 msgstr ""
 
 #. Dialog: image import
@@ -2935,6 +3249,7 @@ msgid "Cannot remove incomplete upload"
 msgstr ""
 
 #. preferences screen
+#. <string name="pref_category_main_headers">Settings</string>
 msgctxt "pref_category_editor"
 msgid "Editor"
 msgstr "Περιβάλλον εργασίας"
@@ -3499,6 +3814,40 @@ msgctxt "pref_export_render_image_title"
 msgid "Show image title"
 msgstr "Να φαίνεται το όνομα εικόνας"
 
+#. CSV
+msgctxt "pref_category_export_csv"
+msgid "CSV file settings"
+msgstr ""
+
+msgctxt "pref_export_csv_field_separator"
+msgid "Field separator character"
+msgstr ""
+
+msgctxt "pref_export_csv_cell_values_separator"
+msgid "Cell values separator"
+msgstr ""
+
+msgctxt "pref_export_csv_include_header_row"
+msgid "Include header row"
+msgstr ""
+
+msgctxt "pref_export_csv_include_footer_row"
+msgid "Include footer row"
+msgstr ""
+
+msgctxt "pref_export_csv_field_separator_choices:0"
+msgid "Comma"
+msgstr ""
+
+msgctxt "pref_export_csv_field_separator_choices:1"
+msgid "Semicolon"
+msgstr ""
+
+msgctxt "pref_export_csv_field_separator_choices:2"
+msgid "Colon"
+msgstr ""
+
+#. ZIP
 msgctxt "pref_category_export_zip"
 msgid "ZIP archive settings"
 msgstr "Ρυθμίσεις αρχείου ZIP"
@@ -3745,6 +4094,10 @@ msgctxt "pref_bluetooth_device_protocol_bosch_plr"
 msgid "Bosch PLR"
 msgstr ""
 
+msgctxt "pref_bluetooth_device_protocol_bosch_glm50c"
+msgid "Bosch GLM50c"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_bosch_glm100c"
 msgid "Bosch GLM100c"
 msgstr ""
@@ -3793,6 +4146,10 @@ msgctxt "pref_bluetooth_device_protocol_leica_disto_x"
 msgid "Leica Disto X3/X4"
 msgstr ""
 
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d1"
+msgid "Leica Disto D1"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_lti_trupulse"
 msgid "LTI TruPulse"
 msgstr ""
@@ -3817,6 +4174,10 @@ msgctxt "pref_bluetooth_device_protocol_mileseey_r2b"
 msgid "Mileseey R2B"
 msgstr ""
 
+msgctxt "pref_bluetooth_device_protocol_mileseey_m120"
+msgid "Mileseey M120"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
 msgid "Sndway SW-S100"
 msgstr ""
@@ -3839,6 +4200,10 @@ msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_condtrol_xp3"
 msgid "Condtrol XP3/XP4 Pro"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_sola_vector_100"
+msgid "Sola Vector 100 Pro"
 msgstr ""
 
 #. item Calculated Industries /item
@@ -5910,10 +6275,12 @@ msgctxt "bluetooth_dialog_scan_needs_location_permission_title"
 msgid "Bluetooth scan"
 msgstr "Ψάξιμο Bluetooth"
 
+#, fuzzy
 msgctxt "bluetooth_dialog_scan_needs_location_permission_text"
 msgid ""
-"Since Android 6, the coarse location permission is required to scan for "
-"nearby Bluetooth devices. Please grant this permission when requested."
+"Since Android 10, the fine location permission is required (previously "
+"coarse location) to scan for nearby Bluetooth devices. Please grant this "
+"permission when requested."
 msgstr ""
 "Από το Android 6 και μετά, απαιτείται άδεια εκτίμησης της τοποθεσίας σας,"
 " ώστε να μπορούν να ψαχθούν οι συσκευές Bluetooth γύρω από εσάς. Δώστε "
@@ -6326,5 +6693,40 @@ msgstr ""
 
 msgctxt "sync_action_delete_remote"
 msgid "Delete on server"
+msgstr ""
+
+#. Preference Titles
+msgctxt "messages_header"
+msgid "Messages"
+msgstr ""
+
+msgctxt "sync_header"
+msgid "Sync"
+msgstr ""
+
+#. Messages Preferences
+msgctxt "signature_title"
+msgid "Your signature"
+msgstr ""
+
+msgctxt "reply_title"
+msgid "Default reply action"
+msgstr ""
+
+#. Sync Preferences
+msgctxt "sync_title"
+msgid "Sync email periodically"
+msgstr ""
+
+msgctxt "attachment_title"
+msgid "Download incoming attachments"
+msgstr ""
+
+msgctxt "attachment_summary_on"
+msgid "Automatically download attachments for incoming emails"
+msgstr ""
+
+msgctxt "attachment_summary_off"
+msgid "Only download attachments when manually requested"
 msgstr ""
 
