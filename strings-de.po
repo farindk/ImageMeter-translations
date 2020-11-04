@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-10-23 10:37+0200\n"
-"PO-Revision-Date: 2020-10-23 12:24+0200\n"
+"POT-Creation-Date: 2020-11-04 19:27+0100\n"
+"PO-Revision-Date: 2020-11-04 19:40+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -196,6 +196,14 @@ msgstr "Umbenennen"
 msgctxt "imageselect_menu_duplicate"
 msgid "Duplicate"
 msgstr "Duplizieren"
+
+msgctxt "imageselect_menu_copy"
+msgid "Copy to clipboard"
+msgstr "Kopiere in Zwischenspeicher"
+
+msgctxt "imageselect_menu_paste_annotation"
+msgid "Paste annotation"
+msgstr "Messungen einfügen"
 
 msgctxt "imageselect_menu_move_to_folder"
 msgid "Move to folder"
@@ -703,6 +711,12 @@ msgid ""
 "version."
 msgstr "Bluetoothmessungen über 3 Meter sind mit der Pro-Version möglich."
 
+msgctxt "editor_error_nonpro_clipboard_message"
+msgid "For using the clipboard, please upgrade to the Pro version."
+msgstr ""
+"Der Zwischenspeicher zum Kopieren von Messungen kann mit der Pro-Version benutzt "
+"werden."
+
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
 msgstr "Später"
@@ -800,6 +814,26 @@ msgctxt "tpool_templ_custom_columncontent_image_capture_date"
 msgid "Image capture date"
 msgstr "Bilddatum"
 
+msgctxt "tpool_templ_custom_columncontent_image_gps_latitude"
+msgid "Image GPS latitude"
+msgstr "GPS Breitengrad"
+
+msgctxt "tpool_templ_custom_columncontent_image_gps_longitude"
+msgid "Image GPS longitude"
+msgstr "GPS Längengrad"
+
+msgctxt "tpool_templ_custom_columncontent_image_map_link"
+msgid "GPS map link"
+msgstr "GPS Kartenlink"
+
+msgctxt "tpool_templ_custom_columncontent_image_map_link_url_text"
+msgid "link"
+msgstr "Link"
+
+msgctxt "tpool_templ_custom_columncontent_image_map_link_error_no_gps"
+msgid "no GPS"
+msgstr "kein GPS"
+
 msgctxt "tpool_templ_custom_new_tablespec_name"
 msgid "Custom Table"
 msgstr "Eigene Tabelle"
@@ -812,7 +846,15 @@ msgctxt "tpool_templ_custom_tag_filter_text"
 msgid "Text note"
 msgstr "Textnotiz"
 
+msgctxt "tpool_templ_custom_tag_filter_circle"
+msgid "Circle"
+msgstr "Kreis"
+
 msgctxt "tpool_templ_custom_tag_property_name"
+msgid "Tag"
+msgstr "Etikett"
+
+msgctxt "tpool_templ_areasum_property_name_tag"
 msgid "Tag"
 msgstr "Etikett"
 
@@ -984,8 +1026,8 @@ msgid ""
 "of tabular output of your measurements. \n"
 "On this page, you find the list of templates for your measurement tasks.\n"
 " \n"
-"For more information, see <a href=\"https://www.imagemeter.com/manual/\">the "
-"manual</a>.\n"
+"For more information, see the <a href=\"https://www.imagemeter.com/manual/"
+"templates/tutorial\">tutorial and manual</a>.\n"
 " \n"
 "Note: templates are part of the <a href=\"upgrade-dialog\">Business version</a>."
 msgstr ""
@@ -995,7 +1037,7 @@ msgstr ""
 "Auf dieser Seite finden Sie die Liste aller Vorlagen für Ihre Meßaufgaben.\n"
 "\n"
 "Mehr Informationen finden Sie in der <a href=\"https://www.imagemeter.com/de/"
-"manual/\">Anleitung</a>.\n"
+"manual/templates/tutorial\">Anleitung</a>.\n"
 "\n"
 "Hinweis: Vorlagen sind Teil der <a href=\"upgrade-dialog\">Businessversion</a>."
 
@@ -1083,7 +1125,7 @@ msgstr "+ Etikett hinzufügen"
 
 msgctxt "pref_template_config_custom_label_type"
 msgid "Type:"
-msgstr ""
+msgstr "Typ:"
 
 #. deprecated
 msgctxt "pref_template_config_custom_unit"
@@ -1257,8 +1299,12 @@ msgid "Multiple values"
 msgstr "Mehrere Werte"
 
 msgctxt "pref_template_custom_table_column_footer"
-msgid "Footer operation"
+msgid "Footer row"
 msgstr "Fußzeile"
+
+msgctxt "pref_template_custom_table_column_footer_no_operation"
+msgid "Empty"
+msgstr "Leer"
 
 msgctxt "pref_template_areasum_template_title"
 msgid "Area Sum Template Configuration"
@@ -1938,6 +1984,18 @@ msgstr "Bildnummer"
 msgctxt "imageselect_dialog_image_name_template"
 msgid "Template"
 msgstr "Vorlage"
+
+msgctxt "dialog_clipboard_paste_options_title"
+msgid "Clipboard paste options"
+msgstr "Einfügeoptionen"
+
+msgctxt "dialog_clipboard_paste_options_copy_measurements"
+msgid "Copy measurements"
+msgstr "Messwerte kopieren"
+
+msgctxt "dialog_clipboard_paste_options_center_content"
+msgid "Center on image"
+msgstr "Im Bild zentrieren"
 
 #. Dialog: image import
 msgctxt "dialog_data_import_progress_message"
@@ -3720,9 +3778,29 @@ msgctxt "pref_measure_angle_unit_choices:2"
 msgid "Radians"
 msgstr "Radiant"
 
+msgctxt "pref_measure_decimal_digits_category"
+msgid "Decimal digits for computed values"
+msgstr "Dezimalstellen für berechnete Werte"
+
 msgctxt "pref_measure_decimal_digits_metric_length"
-msgid "Decimal digits"
-msgstr "Dezimalstellen"
+msgid "Decimal digits for metric lengths"
+msgstr "Dezimalstellen für metrische Längen"
+
+msgctxt "pref_measure_decimal_digits_metric_areas"
+msgid "Decimal digits for metric areas"
+msgstr "Dezimalstellen für metrische Flächen"
+
+msgctxt "pref_measure_decimal_digits_angles"
+msgid "Decimal digits for angles"
+msgstr "Dezimalstellen für Winkel"
+
+msgctxt "pref_measure_decimal_digits_imperial_lengths"
+msgid "Decimal digits for imperial lengths"
+msgstr "Dezimalstellen für britische Längeneinheiten"
+
+msgctxt "pref_measure_decimal_digits_imperial_areas"
+msgid "Decimal digits for imperial areas"
+msgstr "Dezimalstellen für britische Flächeneinheiten"
 
 msgctxt "pref_measure_decimal_digits_metric_length_dialog"
 msgid "Number of decimal digits in computed values"
@@ -4141,6 +4219,27 @@ msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
 msgstr "50%"
 
+msgctxt "pref_export_general_map_link_provider"
+msgid "Map links use"
+msgstr "Kartenlinks benutzen"
+
+msgctxt "pref_export_general_map_link_provider_dialog"
+msgid "Map provider"
+msgstr "Kartendienstleister"
+
+msgctxt "pref_export_general_map_link_provider_choices:0"
+msgid "Google Maps"
+msgstr "Google Maps"
+
+msgctxt "pref_export_general_map_link_provider_choices:1"
+msgid "Bing Maps"
+msgstr "Bing Maps"
+
+msgctxt "pref_export_general_map_link_provider_choices:2"
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#. Bluetooth
 msgctxt "pref_category_bluetooth"
 msgid "Bluetooth"
 msgstr "Bluetooth"
@@ -4292,6 +4391,10 @@ msgstr "Condtrol XP3/XP4 Pro"
 msgctxt "pref_bluetooth_device_protocol_sola_vector_100"
 msgid "Sola Vector 100 Pro"
 msgstr "Sola Vector 100 Pro"
+
+msgctxt "pref_bluetooth_device_protocol_einhell_te_ld60"
+msgid "Einhell TE-LD60"
+msgstr "Einhell TE-LD60"
 
 #. item Calculated Industries /item
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
@@ -4981,8 +5084,16 @@ msgid "Transfer style"
 msgstr "Stil übernehmen"
 
 msgctxt "editor_menu_edit_copy_element"
-msgid "Copy element"
-msgstr "Element kopieren"
+msgid "Duplicate element"
+msgstr "Element duplizieren"
+
+msgctxt "editor_menu_edit_copy_to_clipboard"
+msgid "Copy to clipboard"
+msgstr "In Zwischenspeicher kopieren"
+
+msgctxt "editor_menu_edit_paste_from_clipboard"
+msgid "Paste from clipboard"
+msgstr "Aus Zwischenspeicher einfügen"
 
 msgctxt "editor_menu_edit_lock_element"
 msgid "Lock element"
@@ -4999,6 +5110,10 @@ msgstr "Bildeinstellungen"
 msgctxt "editor_menu_edit_bluetooth_trigger"
 msgid "Trigger Laser"
 msgstr "Laser auslösen"
+
+msgctxt "editor_menu_edit_tag"
+msgid "Tag and parameters"
+msgstr "Etikett und Parameter"
 
 msgctxt "editor_menu_style"
 msgid "Style"
@@ -5739,6 +5854,10 @@ msgstr "Dieses Zeichenwerkzeug"
 msgctxt "editor_label_style_save_as_default_all_elements"
 msgid "All drawing tools"
 msgstr "Alle Zeichenwerkzeuge"
+
+msgctxt "editor_dialog_tag_properties_title"
+msgid "Tags and properties"
+msgstr "Etikette und Parameter"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
 msgid ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-10-23 10:37+0200\n"
+"POT-Creation-Date: 2020-11-04 19:27+0100\n"
 "PO-Revision-Date: 2020-08-31 17:56+0200\n"
 "Last-Translator: \n"
 "Language: it\n"
@@ -221,6 +221,14 @@ msgstr "Rinomina"
 msgctxt "imageselect_menu_duplicate"
 msgid "Duplicate"
 msgstr "Duplicare"
+
+msgctxt "imageselect_menu_copy"
+msgid "Copy to clipboard"
+msgstr ""
+
+msgctxt "imageselect_menu_paste_annotation"
+msgid "Paste annotation"
+msgstr ""
 
 msgctxt "imageselect_menu_move_to_folder"
 msgid "Move to folder"
@@ -808,6 +816,10 @@ msgstr ""
 "Con misurazioni Bluetooth che sono più 3 metri, si prega di effettuare "
 "l'aggiornamento alla versione Pro."
 
+msgctxt "editor_error_nonpro_clipboard_message"
+msgid "For using the clipboard, please upgrade to the Pro version."
+msgstr ""
+
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
 msgstr "Dopo"
@@ -918,6 +930,26 @@ msgctxt "tpool_templ_custom_columncontent_image_capture_date"
 msgid "Image capture date"
 msgstr ""
 
+msgctxt "tpool_templ_custom_columncontent_image_gps_latitude"
+msgid "Image GPS latitude"
+msgstr ""
+
+msgctxt "tpool_templ_custom_columncontent_image_gps_longitude"
+msgid "Image GPS longitude"
+msgstr ""
+
+msgctxt "tpool_templ_custom_columncontent_image_map_link"
+msgid "GPS map link"
+msgstr ""
+
+msgctxt "tpool_templ_custom_columncontent_image_map_link_url_text"
+msgid "link"
+msgstr ""
+
+msgctxt "tpool_templ_custom_columncontent_image_map_link_error_no_gps"
+msgid "no GPS"
+msgstr ""
+
 msgctxt "tpool_templ_custom_new_tablespec_name"
 msgid "Custom Table"
 msgstr ""
@@ -930,7 +962,15 @@ msgctxt "tpool_templ_custom_tag_filter_text"
 msgid "Text note"
 msgstr ""
 
+msgctxt "tpool_templ_custom_tag_filter_circle"
+msgid "Circle"
+msgstr ""
+
 msgctxt "tpool_templ_custom_tag_property_name"
+msgid "Tag"
+msgstr ""
+
+msgctxt "tpool_templ_areasum_property_name_tag"
 msgid "Tag"
 msgstr ""
 
@@ -1103,8 +1143,9 @@ msgid ""
 "define the layout of tabular output of your measurements. \n"
 "On this page, you find the list of templates for your measurement tasks.\n"
 " \n"
-"For more information, see <a "
-"href=\"https://www.imagemeter.com/manual/\">the manual</a>.\n"
+"For more information, see the <a "
+"href=\"https://www.imagemeter.com/manual/templates/tutorial\">tutorial "
+"and manual</a>.\n"
 " \n"
 "Note: templates are part of the <a href=\"upgrade-dialog\">Business "
 "version</a>."
@@ -1358,8 +1399,13 @@ msgctxt "pref_template_custom_table_column_conflict"
 msgid "Multiple values"
 msgstr ""
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_footer"
-msgid "Footer operation"
+msgid "Footer row"
+msgstr ""
+
+msgctxt "pref_template_custom_table_column_footer_no_operation"
+msgid "Empty"
 msgstr ""
 
 msgctxt "pref_template_areasum_template_title"
@@ -2116,6 +2162,18 @@ msgstr "Numero"
 
 msgctxt "imageselect_dialog_image_name_template"
 msgid "Template"
+msgstr ""
+
+msgctxt "dialog_clipboard_paste_options_title"
+msgid "Clipboard paste options"
+msgstr ""
+
+msgctxt "dialog_clipboard_paste_options_copy_measurements"
+msgid "Copy measurements"
+msgstr ""
+
+msgctxt "dialog_clipboard_paste_options_center_content"
+msgid "Center on image"
 msgstr ""
 
 #. Dialog: image import
@@ -4112,9 +4170,30 @@ msgctxt "pref_measure_angle_unit_choices:2"
 msgid "Radians"
 msgstr "Radianti"
 
+msgctxt "pref_measure_decimal_digits_category"
+msgid "Decimal digits for computed values"
+msgstr ""
+
+#, fuzzy
 msgctxt "pref_measure_decimal_digits_metric_length"
-msgid "Decimal digits"
+msgid "Decimal digits for metric lengths"
 msgstr "Cifre decimali"
+
+msgctxt "pref_measure_decimal_digits_metric_areas"
+msgid "Decimal digits for metric areas"
+msgstr ""
+
+msgctxt "pref_measure_decimal_digits_angles"
+msgid "Decimal digits for angles"
+msgstr ""
+
+msgctxt "pref_measure_decimal_digits_imperial_lengths"
+msgid "Decimal digits for imperial lengths"
+msgstr ""
+
+msgctxt "pref_measure_decimal_digits_imperial_areas"
+msgid "Decimal digits for imperial areas"
+msgstr ""
 
 msgctxt "pref_measure_decimal_digits_metric_length_dialog"
 msgid "Number of decimal digits in computed values"
@@ -4551,6 +4630,27 @@ msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
 msgstr "50%"
 
+msgctxt "pref_export_general_map_link_provider"
+msgid "Map links use"
+msgstr ""
+
+msgctxt "pref_export_general_map_link_provider_dialog"
+msgid "Map provider"
+msgstr ""
+
+msgctxt "pref_export_general_map_link_provider_choices:0"
+msgid "Google Maps"
+msgstr ""
+
+msgctxt "pref_export_general_map_link_provider_choices:1"
+msgid "Bing Maps"
+msgstr ""
+
+msgctxt "pref_export_general_map_link_provider_choices:2"
+msgid "OpenStreetMap"
+msgstr ""
+
+#. Bluetooth
 msgctxt "pref_category_bluetooth"
 msgid "Bluetooth"
 msgstr "Bluetooth"
@@ -4701,6 +4801,10 @@ msgstr "Condtrol XP3 / XP4 Pro"
 
 msgctxt "pref_bluetooth_device_protocol_sola_vector_100"
 msgid "Sola Vector 100 Pro"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_einhell_te_ld60"
+msgid "Einhell TE-LD60"
 msgstr ""
 
 #. item Calculated Industries /item
@@ -5453,8 +5557,16 @@ msgstr "Stile di trasferimento"
 
 #, fuzzy
 msgctxt "editor_menu_edit_copy_element"
-msgid "Copy element"
+msgid "Duplicate element"
 msgstr "Copia elemento"
+
+msgctxt "editor_menu_edit_copy_to_clipboard"
+msgid "Copy to clipboard"
+msgstr ""
+
+msgctxt "editor_menu_edit_paste_from_clipboard"
+msgid "Paste from clipboard"
+msgstr ""
 
 msgctxt "editor_menu_edit_lock_element"
 msgid "Lock element"
@@ -5473,6 +5585,10 @@ msgstr "Impostazioni immagine"
 msgctxt "editor_menu_edit_bluetooth_trigger"
 msgid "Trigger Laser"
 msgstr "Trigger Laser"
+
+msgctxt "editor_menu_edit_tag"
+msgid "Tag and parameters"
+msgstr ""
 
 msgctxt "editor_menu_style"
 msgid "Style"
@@ -6263,6 +6379,10 @@ msgstr "Questo strumento di disegno"
 msgctxt "editor_label_style_save_as_default_all_elements"
 msgid "All drawing tools"
 msgstr "Tutti gli strumenti di disegno"
+
+msgctxt "editor_dialog_tag_properties_title"
+msgid "Tags and properties"
+msgstr ""
 
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
 msgid ""
