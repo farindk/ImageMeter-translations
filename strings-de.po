@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-11 13:59+0100\n"
-"PO-Revision-Date: 2020-11-11 14:00+0100\n"
+"POT-Creation-Date: 2020-11-25 14:47+0100\n"
+"PO-Revision-Date: 2020-11-25 14:58+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -665,8 +665,8 @@ msgid ""
 "&lt;a href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Export "
 "measurements as data tables&lt;/a&gt;."
 msgstr ""
-"&lt;a href=\"https://www.imagemeter.com/de/manual/templates/overview\"&gt;Messungen "
-"als Datentabellen exportieren&lt;/a&gt;."
+"&lt;a href=\"https://www.imagemeter.com/de/manual/templates/overview\"&gt;"
+"Messungen als Datentabellen exportieren&lt;/a&gt;."
 
 msgctxt "upgrade_item_all_addon_packs"
 msgid "Includes Pro and all add-on packs"
@@ -970,6 +970,50 @@ msgctxt "tpool_templ_areasum_table_column_header_sumarea"
 msgid "Sum"
 msgstr "Summe"
 
+msgctxt "tpool_templ_partslist_class_display_name"
+msgid "Parts list template"
+msgstr "Stücklistenvorlage"
+
+msgctxt "tpool_templ_partslist_tablespec_default_table"
+msgid "Default table"
+msgstr "Standardtabelle"
+
+msgctxt "tpool_templ_partslist_tablespec_new_table"
+msgid "New table"
+msgstr "Neue Tabelle"
+
+msgctxt "tpool_templ_partslist_property_comment"
+msgid "Comment"
+msgstr "Kommentar"
+
+msgctxt "tpool_templ_partslist_columnheader_item_image"
+msgid "Image"
+msgstr "Bild"
+
+msgctxt "tpool_templ_partslist_columnheader_item_element"
+msgid "No."
+msgstr "Nr."
+
+msgctxt "tpool_templ_partslist_columnheader_item_image_and_element"
+msgid "No."
+msgstr "Nr."
+
+msgctxt "tpool_templ_partslist_columnheader_tagname"
+msgid "Item"
+msgstr "Artikel"
+
+msgctxt "tpool_templ_partslist_columnheader_comment"
+msgid "Comment"
+msgstr "Kommentar"
+
+msgctxt "tpool_templ_partslist_columnheader_quantity"
+msgid "Qty"
+msgstr "Menge"
+
+msgctxt "tpool_templ_partslist_columnheader_count"
+msgid "Count"
+msgstr "Anzahl"
+
 msgctxt "templ_uiitem_duplicate_local"
 msgid "(local copy)"
 msgstr "(lokale Kopie)"
@@ -1013,6 +1057,10 @@ msgstr "Anzahl"
 msgctxt "templ_selection_none"
 msgid "None"
 msgstr "Keine"
+
+msgctxt "spinner_selection_various"
+msgid "(various)"
+msgstr "(mehrere)"
 
 #. template config
 msgctxt "pref_templates_header_title"
@@ -1089,6 +1137,15 @@ msgstr ""
 "Diese Vorlage ist die Basis für Flächenberechnungen. Je nach zugewiesenem Etikett "
 "können die Flächen hinzugefügt werden (z.B. Wände), oder abgezogen (z.B. Fenster)."
 
+msgctxt "pref_dialog_template_add_description_parts_list"
+msgid ""
+"This template lets you generate bills of material, counting different objects, or "
+"summing the length of products (e.g. electrical cables)."
+msgstr ""
+"Diese Vorlage dient dazu, Materialmengen und Stückzahlen zu sammeln und "
+"aufzusummieren. Z.B. Gesamtlängen von Kabeln oder Rohren, oder Anzahl von "
+"Steckdosen."
+
 msgctxt "pref_template_config_custom_edit_tags_description"
 msgid ""
 "<b>Tags</b> are assigned to measurements to specify their purpose. For example, a "
@@ -1135,7 +1192,7 @@ msgstr "Typ:"
 #. deprecated
 msgctxt "pref_template_config_custom_unit"
 msgid "Unit:"
-msgstr ""
+msgstr "Einheit:"
 
 msgctxt "pref_template_config_custom_section_table_layouts"
 msgid "Table layouts"
@@ -1432,6 +1489,110 @@ msgid ""
 msgstr ""
 "Die gesammte Flächensumme. Dies ist nur ein einziger Wert pro Bild und die "
 "Gesamtfläche über aller Bilder in der Fußzeile."
+
+msgctxt "pref_template_partslist_template_title"
+msgid "Parts List Template Configuration"
+msgstr "Stücklistenvorlage bearbeiten"
+
+msgctxt "pref_template_partslist_tags_title"
+msgid "Parts List Template Tags"
+msgstr "Etiketten der Stücklistenvorlage"
+
+msgctxt "pref_template_partslist_table_title"
+msgid "Parts List Table Configuration"
+msgstr "Tabellenname"
+
+msgctxt "pref_template_partslist_tag_table_column_header"
+msgid "Column header"
+msgstr "Spaltentitel"
+
+msgctxt "pref_template_partslist_table_list_title"
+msgid "Parts List Table Layouts"
+msgstr "Tabellen der Stücklistenvorlage"
+
+msgctxt "pref_template_partslist_table_layout_title"
+msgid "Parts List Table Layout"
+msgstr "Tabellenlayout der Stücklistenvorlage"
+
+msgctxt "pref_template_partslist_table_name"
+msgid "Table name"
+msgstr "Tabellenname"
+
+msgctxt "pref_template_partslist_section_column_config"
+msgid "Columns configuration"
+msgstr "Tabellenspalten"
+
+msgctxt "pref_template_partslist_column_item_number"
+msgid "Item number"
+msgstr "Artikelnummer"
+
+msgctxt "pref_template_partslist_column_item_number_choices_none"
+msgid "None"
+msgstr "Keine"
+
+msgctxt "pref_template_partslist_column_item_number_choices_only_element"
+msgid "Only item numbers"
+msgstr "Nur Artikelnummer"
+
+msgctxt "pref_template_partslist_column_item_number_choices_only_image_in_image_row"
+msgid "Only image numbers, only in image row"
+msgstr "Nur Bildnummer in der Bildzeile"
+
+msgctxt "pref_template_partslist_column_item_number_choices_both_image_in_image_row"
+msgid "Both, but image numbers only in image row"
+msgstr "Beides, aber Bildnummer nur in Bildzeile"
+
+msgctxt "pref_template_partslist_column_item_number_choices_both_all_rows"
+msgid "Image and item numbers in all rows"
+msgstr "Bild- und Artikelnummer in jeder Zeile"
+
+msgctxt "pref_template_partslist_column_item_number_choices_combines"
+msgid "Combine image and item numbers in one column"
+msgstr "Bild- und Artikelnummer in einer Spalte"
+
+msgctxt "pref_template_partslist_column_tag_name"
+msgid "Tag name"
+msgstr "Artikelname"
+
+msgctxt "pref_template_partslist_column_comment"
+msgid "Comment"
+msgstr "Kommentar"
+
+msgctxt "pref_template_partslist_column_quantity"
+msgid "Quantity"
+msgstr "Artikelanzahl"
+
+msgctxt "pref_template_partslist_column_items"
+msgid "Item columns"
+msgstr "Mengenangabe"
+
+msgctxt "pref_template_partslist_column_items_choices_used_tags"
+msgid "Only for used tags"
+msgstr "Nur für benutzte Etikette"
+
+msgctxt "pref_template_partslist_column_items_choices_all_tags"
+msgid "For all tags"
+msgstr "Für alle Etikette"
+
+msgctxt "pref_template_partslist_column_use_custom_titles"
+msgid "Use custom column titles"
+msgstr "Eigene Spaltentitel verwenden"
+
+msgctxt "pref_template_partslist_section_row_config"
+msgid "Rows configuration"
+msgstr "Tabellenzeilen"
+
+msgctxt "pref_template_partslist_row_show_image_name"
+msgid "Show rows with image names"
+msgstr "Zeilen mit Bildnamen anzeigen"
+
+msgctxt "pref_template_partslist_item_numbering_for_each_image"
+msgid "Independent item numbering for each image"
+msgstr "Artikel pro Bild separat nummerieren"
+
+msgctxt "pref_template_partslist_row_show_footer"
+msgid "Show footer row"
+msgstr "Fußzeile anzeigen"
 
 #. licensing: volume key dialog
 msgctxt "licensing_volume_key_title"
@@ -2649,6 +2810,18 @@ msgstr "Zugriff auf Verzeichnis '{}' braucht die Speicher-Berechtigung."
 msgctxt "imerror_android_import_security_exception"
 msgid "Security exception when accessing URI '{}'."
 msgstr "Sicherheitsausnahme beim Zugriff auf URI '{}'."
+
+msgctxt "imerror_android_insert_image_into_gallery"
+msgid "Cannot insert image into gallery ({})."
+msgstr "Kann das Bild nicht in die Galerie einfügen ({})."
+
+msgctxt "imerror_android_copy_image_data_into_gallery"
+msgid "Cannot copy image data into gallery (url='{}')."
+msgstr "Kann die Bilddaten nicht in die Galerie kopieren (url='{}')."
+
+msgctxt "imerror_android_delete_old_image_from_gallery"
+msgid "Cannot delete old image from gallery (url='{}')."
+msgstr "Kann das alte Bild nicht aus der Galerie entfernen (url='{}')."
 
 #. cloud storage
 msgctxt "pref_cloud_storage_server_none"
@@ -3998,6 +4171,10 @@ msgctxt "pref_export_csv_cell_values_separator"
 msgid "Cell values separator"
 msgstr "Separator für Werte innerhalb einer Zelle"
 
+msgctxt "pref_export_csv_decimal_separator"
+msgid "Decimal separator"
+msgstr "Dezimaltrennzeichen"
+
 msgctxt "pref_export_csv_include_header_row"
 msgid "Include header row"
 msgstr "Titelzeile einfügen"
@@ -4017,6 +4194,14 @@ msgstr "Semikolon"
 msgctxt "pref_export_csv_field_separator_choices:2"
 msgid "Colon"
 msgstr "Doppelpunkt"
+
+msgctxt "pref_export_csv_decimal_separator_choices:0"
+msgid "Dot"
+msgstr "Punkt"
+
+msgctxt "pref_export_csv_decimal_separator_choices:1"
+msgid "Comma"
+msgstr "Komma"
 
 #. ZIP
 msgctxt "pref_category_export_zip"
@@ -5103,11 +5288,19 @@ msgstr "Aus Zwischenspeicher einfügen"
 
 msgctxt "editor_menu_edit_lock_element"
 msgid "Lock element"
-msgstr "Maß sperren"
+msgstr "Element sperren"
 
 msgctxt "editor_menu_edit_unlock_element"
 msgid "Unlock element"
-msgstr "Maß entsperren"
+msgstr "ELement entsperren"
+
+msgctxt "editor_menu_edit_lock_all_elements"
+msgid "Lock all elements"
+msgstr "Alle Elemente sperren"
+
+msgctxt "editor_menu_edit_unlock_all_elements"
+msgid "Unlock all elements"
+msgstr "Alle Elemente entsperren"
 
 msgctxt "editor_menu_edit_imagesettings"
 msgid "Image settings"
@@ -5237,6 +5430,11 @@ msgstr "Nicht mehr zeigen"
 msgctxt "editor_help_show_instructions"
 msgid "Show instructions"
 msgstr "Anleitung zeigen"
+
+#, c-format
+msgctxt "error_cannot_open_browser_url"
+msgid "Cannot open web browser to show web page '%1$s'"
+msgstr "Kann den Webbrowser nicht öffnen, um die Webseite '%1$s' anzuzeigen."
 
 msgctxt "editor_error_no_reference_to_attach_to"
 msgid ""

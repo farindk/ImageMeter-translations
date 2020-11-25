@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-11 13:59+0100\n"
+"POT-Creation-Date: 2020-11-25 14:47+0100\n"
 "PO-Revision-Date: 2020-06-11 20:18+0200\n"
 "Last-Translator: \n"
 "Language: vi_VN\n"
@@ -971,6 +971,50 @@ msgctxt "tpool_templ_areasum_table_column_header_sumarea"
 msgid "Sum"
 msgstr ""
 
+msgctxt "tpool_templ_partslist_class_display_name"
+msgid "Parts list template"
+msgstr ""
+
+msgctxt "tpool_templ_partslist_tablespec_default_table"
+msgid "Default table"
+msgstr ""
+
+msgctxt "tpool_templ_partslist_tablespec_new_table"
+msgid "New table"
+msgstr ""
+
+msgctxt "tpool_templ_partslist_property_comment"
+msgid "Comment"
+msgstr ""
+
+msgctxt "tpool_templ_partslist_columnheader_item_image"
+msgid "Image"
+msgstr ""
+
+msgctxt "tpool_templ_partslist_columnheader_item_element"
+msgid "No."
+msgstr ""
+
+msgctxt "tpool_templ_partslist_columnheader_item_image_and_element"
+msgid "No."
+msgstr ""
+
+msgctxt "tpool_templ_partslist_columnheader_tagname"
+msgid "Item"
+msgstr ""
+
+msgctxt "tpool_templ_partslist_columnheader_comment"
+msgid "Comment"
+msgstr ""
+
+msgctxt "tpool_templ_partslist_columnheader_quantity"
+msgid "Qty"
+msgstr ""
+
+msgctxt "tpool_templ_partslist_columnheader_count"
+msgid "Count"
+msgstr ""
+
 msgctxt "templ_uiitem_duplicate_local"
 msgid "(local copy)"
 msgstr ""
@@ -1013,6 +1057,10 @@ msgstr ""
 
 msgctxt "templ_selection_none"
 msgid "None"
+msgstr ""
+
+msgctxt "spinner_selection_various"
+msgid "(various)"
 msgstr ""
 
 #. template config
@@ -1081,6 +1129,12 @@ msgid ""
 "This template is the basis for area computations. The area of some "
 "elements is added to the sum (e.g. walls), while other elements are "
 "subtracted (e.g. windows)."
+msgstr ""
+
+msgctxt "pref_dialog_template_add_description_parts_list"
+msgid ""
+"This template lets you generate bills of material, counting different "
+"objects, or summing the length of products (e.g. electrical cables)."
 msgstr ""
 
 #, fuzzy
@@ -1407,6 +1461,110 @@ msgctxt "tpool_templ_areasum_table_column_description_image_area_sum"
 msgid ""
 "The total area sum. This include only one value for each image and a "
 "total over all images."
+msgstr ""
+
+msgctxt "pref_template_partslist_template_title"
+msgid "Parts List Template Configuration"
+msgstr ""
+
+msgctxt "pref_template_partslist_tags_title"
+msgid "Parts List Template Tags"
+msgstr ""
+
+msgctxt "pref_template_partslist_table_title"
+msgid "Parts List Table Configuration"
+msgstr ""
+
+msgctxt "pref_template_partslist_tag_table_column_header"
+msgid "Column header"
+msgstr ""
+
+msgctxt "pref_template_partslist_table_list_title"
+msgid "Parts List Table Layouts"
+msgstr ""
+
+msgctxt "pref_template_partslist_table_layout_title"
+msgid "Parts List Table Layout"
+msgstr ""
+
+msgctxt "pref_template_partslist_table_name"
+msgid "Table name"
+msgstr ""
+
+msgctxt "pref_template_partslist_section_column_config"
+msgid "Columns configuration"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_item_number"
+msgid "Item number"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_item_number_choices_none"
+msgid "None"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_item_number_choices_only_element"
+msgid "Only item numbers"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_item_number_choices_only_image_in_image_row"
+msgid "Only image numbers, only in image row"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_item_number_choices_both_image_in_image_row"
+msgid "Both, but image numbers only in image row"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_item_number_choices_both_all_rows"
+msgid "Image and item numbers in all rows"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_item_number_choices_combines"
+msgid "Combine image and item numbers in one column"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_tag_name"
+msgid "Tag name"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_comment"
+msgid "Comment"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_quantity"
+msgid "Quantity"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_items"
+msgid "Item columns"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_items_choices_used_tags"
+msgid "Only for used tags"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_items_choices_all_tags"
+msgid "For all tags"
+msgstr ""
+
+msgctxt "pref_template_partslist_column_use_custom_titles"
+msgid "Use custom column titles"
+msgstr ""
+
+msgctxt "pref_template_partslist_section_row_config"
+msgid "Rows configuration"
+msgstr ""
+
+msgctxt "pref_template_partslist_row_show_image_name"
+msgid "Show rows with image names"
+msgstr ""
+
+msgctxt "pref_template_partslist_item_numbering_for_each_image"
+msgid "Independent item numbering for each image"
+msgstr ""
+
+msgctxt "pref_template_partslist_row_show_footer"
+msgid "Show footer row"
 msgstr ""
 
 #. licensing: volume key dialog
@@ -2614,6 +2772,18 @@ msgstr ""
 
 msgctxt "imerror_android_import_security_exception"
 msgid "Security exception when accessing URI '{}'."
+msgstr ""
+
+msgctxt "imerror_android_insert_image_into_gallery"
+msgid "Cannot insert image into gallery ({})."
+msgstr ""
+
+msgctxt "imerror_android_copy_image_data_into_gallery"
+msgid "Cannot copy image data into gallery (url='{}')."
+msgstr ""
+
+msgctxt "imerror_android_delete_old_image_from_gallery"
+msgid "Cannot delete old image from gallery (url='{}')."
 msgstr ""
 
 #. cloud storage
@@ -3909,6 +4079,10 @@ msgctxt "pref_export_csv_cell_values_separator"
 msgid "Cell values separator"
 msgstr ""
 
+msgctxt "pref_export_csv_decimal_separator"
+msgid "Decimal separator"
+msgstr ""
+
 msgctxt "pref_export_csv_include_header_row"
 msgid "Include header row"
 msgstr ""
@@ -3927,6 +4101,14 @@ msgstr ""
 
 msgctxt "pref_export_csv_field_separator_choices:2"
 msgid "Colon"
+msgstr ""
+
+msgctxt "pref_export_csv_decimal_separator_choices:0"
+msgid "Dot"
+msgstr ""
+
+msgctxt "pref_export_csv_decimal_separator_choices:1"
+msgid "Comma"
 msgstr ""
 
 #. ZIP
@@ -5019,6 +5201,14 @@ msgctxt "editor_menu_edit_unlock_element"
 msgid "Unlock element"
 msgstr "Yếu tố mở khóa"
 
+msgctxt "editor_menu_edit_lock_all_elements"
+msgid "Lock all elements"
+msgstr ""
+
+msgctxt "editor_menu_edit_unlock_all_elements"
+msgid "Unlock all elements"
+msgstr ""
+
 msgctxt "editor_menu_edit_imagesettings"
 msgid "Image settings"
 msgstr ""
@@ -5139,6 +5329,11 @@ msgstr ""
 
 msgctxt "editor_help_show_instructions"
 msgid "Show instructions"
+msgstr ""
+
+#, c-format
+msgctxt "error_cannot_open_browser_url"
+msgid "Cannot open web browser to show web page '%1$s'"
 msgstr ""
 
 msgctxt "editor_error_no_reference_to_attach_to"
