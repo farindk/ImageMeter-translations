@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-02 20:57+0100\n"
-"PO-Revision-Date: 2020-08-31 18:01+0200\n"
+"POT-Creation-Date: 2020-12-03 19:55+0100\n"
+"PO-Revision-Date: 2020-12-03 19:30+0100\n"
 "Last-Translator: \n"
 "Language: pl\n"
 "Language-Team: \n"
@@ -232,13 +232,15 @@ msgctxt "imageselect_menu_duplicate"
 msgid "Duplicate"
 msgstr "Duplikować"
 
+#, fuzzy
 msgctxt "imageselect_menu_copy"
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Skopiuj do schowka"
 
+#, fuzzy
 msgctxt "imageselect_menu_paste_annotation"
 msgid "Paste annotation"
-msgstr ""
+msgstr "Wklej adnotację"
 
 msgctxt "imageselect_menu_move_to_folder"
 msgid "Move to folder"
@@ -401,10 +403,10 @@ msgstr ""
 "\n"
 "Otwórz ustawienia i ustaw inny katalog pamięci."
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "imagelibrary_moving_images_to_app_directory"
 msgid "Moving images to app directory (%1$d of %2$d)."
-msgstr ""
+msgstr "Przenoszenie obrazów do katalogu aplikacji (%1$d z %2$d)."
 
 #. dialog: numbering
 msgctxt "imagelibrary_dialog_numbering_title"
@@ -766,6 +768,9 @@ msgid ""
 "href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Export "
 "measurements as data tables&lt;/a&gt;."
 msgstr ""
+"&lt;a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Eksportuj"
+" pomiary jako tabele danych&lt;/a&gt;."
 
 #, fuzzy
 msgctxt "upgrade_item_all_addon_packs"
@@ -831,9 +836,10 @@ msgstr ""
 "W przypadku pomiarów Bluetooth z odległością większą niż 3 metry, "
 "uaktualnij do wersji PRO."
 
+#, fuzzy
 msgctxt "editor_error_nonpro_clipboard_message"
 msgid "For using the clipboard, please upgrade to the Pro version."
-msgstr ""
+msgstr "Aby korzystać ze schowka, uaktualnij do wersji Pro."
 
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
@@ -849,347 +855,430 @@ msgctxt "tpool_locked_by_syncer"
 msgid "cloud synchronization"
 msgstr "synchronizacja w chmurze"
 
+#, fuzzy
 msgctxt "tpool_locked_by_image_syncer"
 msgid "image cloud upload"
-msgstr ""
+msgstr "przesyłanie obrazów do chmury"
 
+#, fuzzy
 msgctxt "tpool_locked_by_list_folder_content"
 msgid "list folder content"
-msgstr ""
+msgstr "lista zawartości folderu"
 
+#, fuzzy
 msgctxt "tpool_locked_by_file_browser"
 msgid "file browser"
-msgstr ""
+msgstr "przeglądarka plików"
 
+#, fuzzy
 msgctxt "tpool_locked_by_thumbnail_rendering"
 msgid "thumbnail rendering"
-msgstr ""
+msgstr "renderowanie miniatur"
 
+#, fuzzy
 msgctxt "tpool_locked_by_rendering"
 msgid "image rendering"
-msgstr ""
+msgstr "renderowanie obrazu"
 
+#, fuzzy
 msgctxt "tpool_locked_by_create_image"
 msgid "creating image"
-msgstr ""
+msgstr "tworzenie obrazu"
 
+#, fuzzy
 msgctxt "tpool_locked_by_import_image"
 msgid "importing image"
-msgstr ""
+msgstr "importowanie obrazu"
 
+#, fuzzy
 msgctxt "tpool_locked_by_pro_migration"
 msgid "pro migration"
-msgstr ""
+msgstr "pro migracja"
 
+#, fuzzy
 msgctxt "tpool_locked_by_delete_image"
 msgid "deleting image"
-msgstr ""
+msgstr "usuwanie obrazu"
 
+#, fuzzy
 msgctxt "tpool_locked_by_delete_entity"
 msgid "deleting entity"
-msgstr ""
+msgstr "element usuwający"
 
+#, fuzzy
 msgctxt "tpool_locked_by_dialog_image_name"
 msgid "image renaming dialog"
-msgstr ""
+msgstr "okno dialogowe zmiany nazwy obrazu"
 
+#, fuzzy
 msgctxt "tpool_locked_by_copy_directory"
 msgid "copying directory"
-msgstr ""
+msgstr "kopiowanie katalogu"
 
+#, fuzzy
 msgctxt "tpool_locked_by_set_library_root"
 msgid "setting image library root"
-msgstr ""
+msgstr "ustawienie katalogu głównego biblioteki obrazów"
 
+#, fuzzy
 msgctxt "tpool_locked_by_undelete_entity"
 msgid "undeleting entity"
-msgstr ""
+msgstr "przywracanie elementu"
 
 #. templates
 msgctxt "tpool_templ_template_name_unnamed"
 msgid "New template"
-msgstr ""
+msgstr "Nowy szablon"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_class_display_name"
 msgid "Custom template"
-msgstr ""
+msgstr "Szablon niestandardowy"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_new_template_name"
 msgid "New custom template"
-msgstr ""
+msgstr "Nowy szablon niestandardowy"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_empty"
 msgid "Empty"
-msgstr ""
+msgstr "Pusty"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_imagename"
 msgid "Image name"
-msgstr ""
+msgstr "Nazwa obrazu"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_notes"
 msgid "Image notes"
-msgstr ""
+msgstr "Notatki obrazu"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_number"
 msgid "Image number"
-msgstr ""
+msgstr "Numer obrazu"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_capture_date"
 msgid "Image capture date"
-msgstr ""
+msgstr "Data wykonania zdjęcia"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_gps_latitude"
 msgid "Image GPS latitude"
-msgstr ""
+msgstr "Szerokość geograficzna obrazu GPS"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_gps_longitude"
 msgid "Image GPS longitude"
-msgstr ""
+msgstr "Długość geograficzna obrazu GPS"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_map_link"
 msgid "GPS map link"
-msgstr ""
+msgstr "Łącze do mapy GPS"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_map_link_url_text"
 msgid "link"
-msgstr ""
+msgstr "link"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_map_link_error_no_gps"
 msgid "no GPS"
-msgstr ""
+msgstr "brak GPS"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_new_tablespec_name"
 msgid "Custom Table"
-msgstr ""
+msgstr "Tabela niestandardowa"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_new_tag"
 msgid "new tag"
-msgstr ""
+msgstr "nowy etykietka"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_tag_filter_text"
 msgid "Text note"
-msgstr ""
+msgstr "Uwaga tekstowa"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_tag_filter_circle"
 msgid "Circle"
-msgstr ""
+msgstr "okrąg"
 
+#, fuzzy
 msgctxt "tpool_templ_custom_tag_property_name"
 msgid "Tag"
-msgstr ""
+msgstr "Etykietka"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_property_name_tag"
 msgid "Tag"
-msgstr ""
+msgstr "Etykietka"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_class_display_name"
 msgid "Area sum template"
-msgstr ""
+msgstr "Szablon sumy powierzchni"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_wallarea_new_template_name"
 msgid "New wall area template"
-msgstr ""
+msgstr "Nowy szablon powierzchni ściany"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_new_template_name"
 msgid "New floor area template"
-msgstr ""
+msgstr "Nowy szablon powierzchni kondygnacji"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_default_table_name"
 msgid "Area sum table"
-msgstr ""
+msgstr "Tabela sum powierzchni"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_preset_wallarea"
 msgid "Wall area"
-msgstr ""
+msgstr "Powierzchnia ściany"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_preset_floorarea"
 msgid "Floor area"
-msgstr ""
+msgstr "Powierzchnia podłogi"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_custom_add"
 msgid "custom (add)"
-msgstr ""
+msgstr "niestandardowe (dodaj)"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_custom_minus"
 msgid "custom (subtract)"
-msgstr ""
+msgstr "niestandardowe (odejmij)"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_wallarea_wall"
 msgid "wall"
-msgstr ""
+msgstr "Ściana"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_wallarea_ceiling"
 msgid "ceiling"
-msgstr ""
+msgstr "sufit"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_wallarea_window"
 msgid "window"
-msgstr ""
+msgstr "okno"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_wallarea_door"
 msgid "door"
-msgstr ""
+msgstr "drzwi"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_livingroom"
 msgid "living room"
-msgstr ""
+msgstr "salon"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_bedroom"
 msgid "bed room"
-msgstr ""
+msgstr "sypialnia"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_kitchen"
 msgid "kitchen"
-msgstr ""
+msgstr "kuchnia"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_bathroom"
 msgid "bathroom"
-msgstr ""
+msgstr "łazienka"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_genericroom"
 msgid "other room"
-msgstr ""
+msgstr "inny pokój"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_balcony"
 msgid "balcony"
-msgstr ""
+msgstr "balkon"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_item"
 msgid "Pos."
-msgstr ""
+msgstr "Poz."
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_description"
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_count"
 msgid "Count"
-msgstr ""
+msgstr "Liczyć"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_factor"
 msgid "Factor"
-msgstr ""
+msgstr "Czynnik"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_width"
 msgid "Width"
-msgstr ""
+msgstr "Szerokość"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_height"
 msgid "Height"
-msgstr ""
+msgstr "Wysokość"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_area"
 msgid "Area"
-msgstr ""
+msgstr "Powierzchnia"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_deduction"
 msgid "Deduction"
-msgstr ""
+msgstr "Odliczenie"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_sumarea"
 msgid "Sum"
-msgstr ""
+msgstr "Suma"
 
+#, fuzzy
 msgctxt "tpool_templ_partslist_class_display_name"
 msgid "Parts list template"
-msgstr ""
+msgstr "Szablon listy części"
 
+#, fuzzy
 msgctxt "tpool_templ_partslist_tablespec_default_table"
 msgid "Default table"
-msgstr ""
+msgstr "Tabela domyślna"
 
+#, fuzzy
 msgctxt "tpool_templ_partslist_tablespec_new_table"
 msgid "New table"
-msgstr ""
+msgstr "Nowa tabela"
 
+#, fuzzy
 msgctxt "tpool_templ_partslist_property_comment"
 msgid "Comment"
-msgstr ""
+msgstr "Komentarz"
 
+#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_item_image"
 msgid "Image"
-msgstr ""
+msgstr "Wizerunek"
 
+#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_item_element"
 msgid "No."
-msgstr ""
+msgstr "No."
 
+#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_item_image_and_element"
 msgid "No."
-msgstr ""
+msgstr "No."
 
+#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_tagname"
 msgid "Item"
-msgstr ""
+msgstr "Pozycja"
 
+#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_comment"
 msgid "Comment"
-msgstr ""
+msgstr "Komentarz"
 
+#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_quantity"
 msgid "Qty"
-msgstr ""
+msgstr "Ilość"
 
+#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_count"
 msgid "Count"
-msgstr ""
+msgstr "Liczyć"
 
+#, fuzzy
 msgctxt "templ_uiitem_duplicate_local"
 msgid "(local copy)"
-msgstr ""
+msgstr "(kopia lokalna)"
 
+#, fuzzy
 msgctxt "templ_uiitem_duplicate_global"
 msgid "(from settings)"
-msgstr ""
+msgstr "(z ustawień)"
 
+#, fuzzy
 msgctxt "table_operation_none"
 msgid "None"
-msgstr ""
+msgstr "Żaden"
 
+#, fuzzy
 msgctxt "table_operation_none_keep"
 msgid "Keep"
-msgstr ""
+msgstr "Trzymać"
 
+#, fuzzy
 msgctxt "table_operation_sum"
 msgid "Sum"
-msgstr ""
+msgstr "Suma"
 
+#, fuzzy
 msgctxt "table_operation_avg"
 msgid "Average"
-msgstr ""
+msgstr "Średni"
 
+#, fuzzy
 msgctxt "table_operation_min"
 msgid "Min"
-msgstr ""
+msgstr "Min"
 
+#, fuzzy
 msgctxt "table_operation_max"
 msgid "Max"
-msgstr ""
+msgstr "Maks"
 
+#, fuzzy
 msgctxt "table_operation_median"
 msgid "Median"
-msgstr ""
+msgstr "Mediana"
 
+#, fuzzy
 msgctxt "table_operation_count"
 msgid "Count"
-msgstr ""
+msgstr "Liczyć"
 
+#, fuzzy
 msgctxt "templ_selection_none"
 msgid "None"
-msgstr ""
+msgstr "Żaden"
 
+#, fuzzy
 msgctxt "spinner_selection_various"
 msgid "(various)"
-msgstr ""
+msgstr "(różny)"
 
 #. template config
 msgctxt "pref_templates_header_title"
 msgid "Templates and data tables"
-msgstr ""
+msgstr "Szablony i tabele danych"
 
+#, fuzzy
 msgctxt "pref_template_title"
 msgid "Templates"
-msgstr ""
+msgstr "Szablony"
 
 #, fuzzy
 msgctxt "pref_template_description"
@@ -1206,33 +1295,51 @@ msgid ""
 "Note: templates are part of the <a href=\"upgrade-dialog\">Business "
 "version</a>."
 msgstr ""
+"Szablony pozwalają zdefiniować standardowe zadania pomiarowe. Możesz "
+"uporządkować zbiór danych, przypisując znaczniki do pomiarów. Możesz "
+"także zdefiniować układ tabelarycznych wyników pomiarów.\n"
+"Na tej stronie znajdziesz listę szablonów do zadań pomiarowych.\n"
+" \n"
+"Więcej informacji można znaleźć w <a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\">"
+"samouczkach i instrukcji</a>.\n"
+" \n"
+"Uwaga: szablony są częścią <a href=\"upgrade-dialog\">wersji biznesowej"
+"</a>."
 
 #, fuzzy
 msgctxt "pref_template_list_title"
 msgid "List of templates"
-msgstr ""
+msgstr "Lista szablonów"
 
+#, fuzzy
 msgctxt "pref_template_add_template"
 msgid "+ add template"
-msgstr ""
+msgstr "+ dodaj szablon"
 
+#, fuzzy
 msgctxt "pref_template_template_name"
 msgid "Template name:"
-msgstr ""
+msgstr "Nazwa szablonu:"
 
+#, fuzzy
 msgctxt "pref_dialog_template_add_title"
 msgid "Template type"
-msgstr ""
+msgstr "Typ szablonu"
 
+#, fuzzy
 msgctxt "pref_dialog_template_add_general_description"
 msgid ""
 "Choose the template that best matches your needs. You can further "
 "customize it later."
 msgstr ""
+"Wybierz szablon, który najlepiej odpowiada Twoim potrzebom. Możesz go "
+"później dostosować."
 
+#, fuzzy
 msgctxt "pref_dialog_template_add_description_title"
 msgid "Template description:"
-msgstr ""
+msgstr "Opis szablonu:"
 
 #, fuzzy
 msgctxt "pref_dialog_template_add_description_custom"
@@ -1241,6 +1348,9 @@ msgid ""
 "measurement. Each table column contains the measurement for a specific "
 "tag."
 msgstr ""
+"Każdy obraz wypełnia jeden wiersz w tabeli. Możesz przypisać tag do "
+"każdego pomiaru. Każda kolumna tabeli zawiera pomiar dla określonego "
+"tagu."
 
 #, fuzzy
 msgctxt "pref_dialog_template_add_description_wall_area"
@@ -1249,12 +1359,19 @@ msgid ""
 "elements is added to the sum (e.g. walls), while other elements are "
 "subtracted (e.g. windows)."
 msgstr ""
+"Ten szablon jest podstawą do obliczeń powierzchni. Powierzchnia "
+"niektórych elementów jest dodawana do sumy (np. Ściany), podczas gdy inne"
+" elementy są odejmowane (np. Okna)."
 
+#, fuzzy
 msgctxt "pref_dialog_template_add_description_parts_list"
 msgid ""
 "This template lets you generate bills of material, counting different "
 "objects, or summing the length of products (e.g. electrical cables)."
 msgstr ""
+"Ten szablon umożliwia generowanie zestawień materiałowych, liczenie "
+"różnych przedmiotów lub sumowanie długości produktów (np. Przewodów "
+"elektrycznych)."
 
 #, fuzzy
 msgctxt "pref_template_config_custom_edit_tags_description"
@@ -1264,10 +1381,15 @@ msgid ""
 "or a <em>wall</em>. Further on, these tags can be used to sort these "
 "measurements into data tables."
 msgstr ""
+"<b>Etykietka</b> są przypisane do pomiarów w celu określenia ich "
+"przeznaczenia. Na przykład znacznik może wskazywać, że mierzony prostokąt"
+" jest <em>oknem</em> lub <em>ścianą</em>. Dalej, znaczniki te mogą "
+"służyć do sortowania tych pomiarów w tabelach danych."
 
+#, fuzzy
 msgctxt "pref_template_config_custom_edit_tags"
 msgid "Edit element tags"
-msgstr ""
+msgstr "Edytuj etykietka elementów"
 
 #, fuzzy
 msgctxt "pref_template_config_custom_edit_tables_description"
@@ -1275,19 +1397,25 @@ msgid ""
 "<b>Table layouts</b> define how to arrange your measurements into a data "
 "table."
 msgstr ""
+"<b>Układy tabeli</b> określają sposób uporządkowania pomiarów w tabeli "
+"danych."
 
+#, fuzzy
 msgctxt "pref_template_config_custom_edit_tables"
 msgid "Edit table layouts"
-msgstr ""
+msgstr "Edytuj układy tabel"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_title"
 msgid "Custom Template"
-msgstr ""
+msgstr "Szablon niestandardowy"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_section_tags"
 msgid "Tags"
-msgstr ""
+msgstr "Etykietka"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_add_tag"
 msgid "+ add tag"
 msgstr ""
@@ -1295,258 +1423,326 @@ msgstr ""
 #. deprecated
 msgctxt "pref_template_config_custom_label_type"
 msgid "Type:"
-msgstr ""
+msgstr "Rodzaj:"
 
 #. deprecated
 msgctxt "pref_template_config_custom_unit"
 msgid "Unit:"
-msgstr ""
+msgstr "Jednostka:"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_section_table_layouts"
 msgid "Table layouts"
-msgstr ""
+msgstr "Układy tabel"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_add_table_layout"
 msgid "+ add table layout"
-msgstr ""
+msgstr "+ dodaj układ tabeli"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_table_description"
 msgid ""
 "You may define several different layouts how the measured data is "
 "arranged into data tables."
 msgstr ""
+"Możesz zdefiniować kilka różnych układów, w jaki sposób zmierzone dane są"
+" rozmieszczone w tabelach danych."
 
 #, fuzzy
 msgctxt "pref_template_config_custom_tag_name"
 msgid "Tag name"
-msgstr ""
+msgstr "Nazwa etykietka"
 
 #, fuzzy
 msgctxt "pref_template_custom_tag_filter"
 msgid "Filter"
-msgstr ""
+msgstr "Filtr"
 
+#, fuzzy
 msgctxt "templ_labeltype_length"
 msgid "Length"
-msgstr ""
+msgstr "Długość"
 
+#, fuzzy
 msgctxt "templ_labeltype_area"
 msgid "Area"
-msgstr ""
+msgstr "Powierzchnia"
 
+#, fuzzy
 msgctxt "templ_labeltype_angle"
 msgid "Angle"
-msgstr ""
+msgstr "Kąt"
 
+#, fuzzy
 msgctxt "templ_labeltype_any"
 msgid "Any"
-msgstr ""
+msgstr "Każdy"
 
 #, fuzzy
 msgctxt "templ_labeltype_edge"
 msgid "Edge length"
-msgstr ""
+msgstr "Długość krawędzi"
 
+#, fuzzy
 msgctxt "templ_labeltype_perimeter"
 msgid "Perimeter"
-msgstr ""
+msgstr "Obwód"
 
+#, fuzzy
 msgctxt "templ_labeltype_radius"
 msgid "Radius"
-msgstr ""
+msgstr "Promień"
 
+#, fuzzy
 msgctxt "templ_labeltype_diameter"
 msgid "Diameter"
-msgstr ""
+msgstr "Średnica"
 
+#, fuzzy
 msgctxt "templ_labeltype_width"
 msgid "Width"
-msgstr ""
+msgstr "Szerokość"
 
+#, fuzzy
 msgctxt "templ_labeltype_height"
 msgid "Height"
-msgstr ""
+msgstr "Wysokość"
 
+#, fuzzy
 msgctxt "templ_labeltype_rectangleside_rectangle"
 msgid "Rectangle"
-msgstr ""
+msgstr "Prostokąt"
 
+#, fuzzy
 msgctxt "templ_filter_text"
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_title"
 msgid "Custom Table Configuration"
-msgstr ""
+msgstr "Niestandardowa konfiguracja tabeli"
 
 #, fuzzy
 msgctxt "pref_template_custom_table_name"
 msgid "Table name"
-msgstr ""
+msgstr "Nazwa tabeli"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_columns"
 msgid "Table columns"
-msgstr ""
+msgstr "Kolumny tabeli"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_columns_add"
 msgid "+ add column"
-msgstr ""
+msgstr "+ dodaj kolumnę"
 
+#, fuzzy
 msgctxt "pref_template_custom_tag_filter_info_title"
 msgid "Element filter"
-msgstr ""
+msgstr "Filtr elementu"
 
+#, fuzzy
 msgctxt "pref_template_custom_tag_filter_info_description"
 msgid ""
 "This tag may only be assigned to elements that have the selected "
 "measurement type."
 msgstr ""
+"Ta etykieta może być przypisana tylko do elementów, które mają wybrany "
+"typ pomiaru."
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_content_info_title"
 msgid "Column content"
-msgstr ""
+msgstr "Zawartość kolumny"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_content_info_description"
 msgid ""
 "Specify the cell content in this column. This can be either a measurement"
 " value that you annotated with a tag, or image metadata (e.g. image name,"
 " capture date)."
 msgstr ""
+"Określ zawartość komórki w tej kolumnie. Może to być wartość pomiaru, do "
+"której dodano adnotację etykietkam, lub metadane obrazu (np. Nazwa "
+"obrazu, data wykonania)."
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_measure_info_title"
 msgid "Measure selection"
-msgstr ""
+msgstr "Wybór środka"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_measure_info_description"
 msgid ""
 "Here, you define which measurement of the tagged element to put into this"
 " column. E.g. for a circle you can choose between its area, radius, "
 "circumference, ..."
 msgstr ""
+"W tym miejscu definiujesz, jaki pomiar oznakowanego elementu umieścić w "
+"tej kolumnie. Na przykład. dla koła możesz wybrać między jego polem, "
+"promieniem, obwodem, ..."
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_multiplevalues_info_title"
 msgid "Multiple values per cell"
-msgstr ""
+msgstr "Wiele wartości na komórkę"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_multiplevalues_info_description"
 msgid ""
 "When several elements are assigned the same tag, several values will be "
 "placed into one cell. Here you can choose to sum these values, take their"
 " average, or other options instead of keeping all in one cell."
 msgstr ""
+"Gdy kilka elementów ma przypisaną tę samą etykietę, kilka wartości "
+"zostanie umieszczonych w jednej komórce. Tutaj możesz zsumować te "
+"wartości, wziąć ich średnią lub inne opcje zamiast trzymać wszystko w "
+"jednej komórce."
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_footer_info_title"
 msgid "Footer row content"
-msgstr ""
+msgstr "Treść wiersza stopki"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_footer_info_description"
 msgid ""
 "What to place in the footer row of the table. Options include the sum of "
 "all values in the column, the maximum, the average, and other options."
 msgstr ""
+"Co umieścić w stopce tabeli. Opcje obejmują sumę wszystkich wartości w "
+"kolumnie, maksimum, średnią i inne opcje."
 
 #, fuzzy
 msgctxt "pref_template_custom_table_column_title"
 msgid "Column header"
-msgstr ""
+msgstr "Nagłówek kolumny"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_content"
 msgid "Content"
-msgstr ""
+msgstr "Zadowolony"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_label_type"
 msgid "Measure"
-msgstr ""
+msgstr "Pomiar"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_conflict"
 msgid "Multiple values"
-msgstr ""
+msgstr "Wiele wartości"
 
 #, fuzzy
 msgctxt "pref_template_custom_table_column_footer"
 msgid "Footer row"
-msgstr ""
+msgstr "Rząd stopki"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_footer_no_operation"
 msgid "Empty"
-msgstr ""
+msgstr "Pusty"
 
+#, fuzzy
 msgctxt "pref_template_areasum_template_title"
 msgid "Area Sum Template Configuration"
-msgstr ""
+msgstr "Konfiguracja szablonu sum powierzchni"
 
+#, fuzzy
 msgctxt "pref_template_areasum_tags_title"
 msgid "Area Sum Template Tags"
-msgstr ""
+msgstr "Etykietka szablonu sum powierzchni"
 
+#, fuzzy
 msgctxt "pref_template_areasum_table_title"
 msgid "Area Sum Table Configuration"
-msgstr ""
+msgstr "Konfiguracja tabeli sum powierzchni"
 
+#, fuzzy
 msgctxt "pref_template_areasum_tag_subtract"
 msgid "Subtract from sum"
-msgstr ""
+msgstr "Odejmij od sumy"
 
+#, fuzzy
 msgctxt "pref_template_areasum_tag_factor"
 msgid "Factor"
-msgstr ""
+msgstr "Czynnik"
 
+#, fuzzy
 msgctxt "pref_template_areasum_edit_tables"
 msgid "Edit table layout"
-msgstr ""
+msgstr "Edytuj układ tabeli"
 
+#, fuzzy
 msgctxt "pref_template_areasum_table_column_item"
 msgid "Item Number"
-msgstr ""
+msgstr "Numer przedmiotu"
 
+#, fuzzy
 msgctxt "pref_template_areasum_table_column_description"
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
+#, fuzzy
 msgctxt "pref_template_areasum_table_column_count"
 msgid "Count"
-msgstr ""
+msgstr "Liczyć"
 
+#, fuzzy
 msgctxt "pref_template_areasum_table_column_width_height"
 msgid "Width and height"
-msgstr ""
+msgstr "Szerokość i wysokość"
 
+#, fuzzy
 msgctxt "pref_template_areasum_table_column_measured_area"
 msgid "Measured area"
-msgstr ""
+msgstr "Mierzony obszar"
 
+#, fuzzy
 msgctxt "pref_template_areasum_table_column_factor"
 msgid "Factor"
-msgstr ""
+msgstr "Czynnik"
 
+#, fuzzy
 msgctxt "pref_template_areasum_table_column_calculated_area"
 msgid "Calculated area"
-msgstr ""
+msgstr "Obliczony obszar"
 
+#, fuzzy
 msgctxt "pref_template_areasum_table_column_plus_minus_areas"
 msgid "+/- area columns"
-msgstr ""
+msgstr "+/- kolumny powierzchni"
 
+#, fuzzy
 msgctxt "pref_template_areasum_table_column_image_area_sum"
 msgid "Image area sum"
-msgstr ""
+msgstr "Suma obszaru obrazu"
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_item"
 msgid ""
 "The image number. The number will only be filled into the row with the "
 "image title."
-msgstr ""
+msgstr "Numer obrazu. Liczba zostanie wypełniona tylko w wierszu z tytułem obrazu."
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_description"
 msgid ""
 "Descriptive name of the area. This is either the default name of the tag,"
 " or a manually entered name for this area."
 msgstr ""
+"Opisowa nazwa obszaru. Jest to domyślna nazwa tagu lub nazwa wprowadzona "
+"ręcznie dla tego obszaru."
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_count"
 msgid "The count multiplier for this area."
-msgstr ""
+msgstr "Mnożnik liczby dla tego obszaru."
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_width_height"
 msgid ""
 "Width and height are two columns that are filled with the side lengths if"
@@ -1554,19 +1750,30 @@ msgid ""
 "\n"
 "Enter the two column headers separated by a semicolon."
 msgstr ""
+"Szerokość i wysokość to dwie kolumny wypełnione długościami boków, jeśli "
+"obszar jest prostokątem. W przypadku innych kształtów kolumny pozostają "
+"puste.\n"
+"\n"
+"Wprowadź dwa nagłówki kolumn oddzielone średnikiem."
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_measured_area"
 msgid "The raw, measured area without the factor or count applied."
-msgstr ""
+msgstr "Surowy, zmierzony obszar bez zastosowanego współczynnika lub liczby."
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_factor"
 msgid "The area factor applied when calculating the final area sum."
 msgstr ""
+"Współczynnik powierzchni stosowany przy obliczaniu końcowej sumy "
+"powierzchni."
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_calculated_area"
 msgid "Calculated area including the factor and count."
-msgstr ""
+msgstr "Obliczony obszar zawierający współczynnik i liczbę."
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_plus_minus_areas"
 msgid ""
 "Generates two columns: a column including all areas that are added to the"
@@ -1575,116 +1782,150 @@ msgid ""
 "\n"
 "Enter the two column headers separated by a semicolon."
 msgstr ""
+"Generuje dwie kolumny: kolumnę zawierającą wszystkie obszary, które są "
+"dodawane do sumy oraz kolumnę zawierającą wszystkie obszary, które są "
+"odejmowane od sumy całkowitej.\n"
+"\n"
+"Wprowadź dwa nagłówki kolumn oddzielone średnikiem."
 
+#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_image_area_sum"
 msgid ""
 "The total area sum. This include only one value for each image and a "
 "total over all images."
 msgstr ""
+"Całkowita suma powierzchni. Obejmuje to tylko jedną wartość dla każdego "
+"obrazu i łącznie dla wszystkich obrazów."
 
+#, fuzzy
 msgctxt "pref_template_partslist_template_title"
 msgid "Parts List Template Configuration"
-msgstr ""
+msgstr "Konfiguracja szablonu listy części"
 
+#, fuzzy
 msgctxt "pref_template_partslist_tags_title"
 msgid "Parts List Template Tags"
-msgstr ""
+msgstr "Etykiety szablonów listy części"
 
+#, fuzzy
 msgctxt "pref_template_partslist_table_title"
 msgid "Parts List Table Configuration"
-msgstr ""
+msgstr "Konfiguracja tabeli listy części"
 
+#, fuzzy
 msgctxt "pref_template_partslist_tag_table_column_header"
 msgid "Column header"
-msgstr ""
+msgstr "Nagłówek kolumny"
 
+#, fuzzy
 msgctxt "pref_template_partslist_table_list_title"
 msgid "Parts List Table Layouts"
-msgstr ""
+msgstr "Układy tabeli listy części"
 
+#, fuzzy
 msgctxt "pref_template_partslist_table_layout_title"
 msgid "Parts List Table Layout"
-msgstr ""
+msgstr "Układ tabeli listy części"
 
+#, fuzzy
 msgctxt "pref_template_partslist_table_name"
 msgid "Table name"
-msgstr ""
+msgstr "Nazwa tabeli"
 
+#, fuzzy
 msgctxt "pref_template_partslist_section_column_config"
 msgid "Columns configuration"
-msgstr ""
+msgstr "Konfiguracja kolumn"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number"
 msgid "Item number"
-msgstr ""
+msgstr "Numer przedmiotu"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_none"
 msgid "None"
-msgstr ""
+msgstr "Żaden"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_only_element"
 msgid "Only item numbers"
-msgstr ""
+msgstr "Tylko numery pozycji"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_only_image_in_image_row"
 msgid "Only image numbers, only in image row"
-msgstr ""
+msgstr "Tylko numery obrazów, tylko w wierszu obrazów"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_both_image_in_image_row"
 msgid "Both, but image numbers only in image row"
-msgstr ""
+msgstr "Oba, ale numery obrazów tylko w wierszu obrazów"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_both_all_rows"
 msgid "Image and item numbers in all rows"
-msgstr ""
+msgstr "Zdjęcia i numery pozycji we wszystkich wierszach"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_combines"
 msgid "Combine image and item numbers in one column"
-msgstr ""
+msgstr "Połącz numery zdjęć i pozycji w jednej kolumnie"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_tag_name"
 msgid "Tag name"
-msgstr ""
+msgstr "Nazwa etykietka"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_comment"
 msgid "Comment"
-msgstr ""
+msgstr "Komentarz"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_quantity"
 msgid "Quantity"
-msgstr ""
+msgstr "Ilość"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_items"
 msgid "Item columns"
-msgstr ""
+msgstr "Kolumny pozycji"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_items_choices_used_tags"
 msgid "Only for used tags"
-msgstr ""
+msgstr "Tylko dla używanych etykietka"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_items_choices_all_tags"
 msgid "For all tags"
-msgstr ""
+msgstr "Dla wszystkich etykietka"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_use_custom_titles"
 msgid "Use custom column titles"
-msgstr ""
+msgstr "Użyj niestandardowych tytułów kolumn"
 
+#, fuzzy
 msgctxt "pref_template_partslist_section_row_config"
 msgid "Rows configuration"
-msgstr ""
+msgstr "Konfiguracja rzędów"
 
+#, fuzzy
 msgctxt "pref_template_partslist_row_show_image_name"
 msgid "Show rows with image names"
-msgstr ""
+msgstr "Pokaż wiersze z nazwami obrazów"
 
+#, fuzzy
 msgctxt "pref_template_partslist_item_numbering_for_each_image"
 msgid "Independent item numbering for each image"
-msgstr ""
+msgstr "Niezależna numeracja pozycji dla każdego obrazu"
 
+#, fuzzy
 msgctxt "pref_template_partslist_row_show_footer"
 msgid "Show footer row"
-msgstr ""
+msgstr "Pokaż wiersz stopki"
 
 #. licensing: volume key dialog
 msgctxt "licensing_volume_key_title"
@@ -1876,9 +2117,10 @@ msgctxt "dialog_need_upgrade_tool_message"
 msgid "This tool is available in the '%1$s' add-on."
 msgstr "To narzędzie jest dostępne w dodatku „%1$s”."
 
+#, fuzzy
 msgctxt "dialog_need_upgrade_data_table_export_message"
 msgid "Exporting data tables is available in the Business version."
-msgstr ""
+msgstr "Eksportowanie tabel danych jest dostępne w wersji Business."
 
 #. TODO: demo video
 #, fuzzy
@@ -2210,9 +2452,10 @@ msgctxt "dialog_pdf_export_metadata"
 msgid "Metadata"
 msgstr "Metadane"
 
+#, fuzzy
 msgctxt "dialog_pdf_export_data_table"
 msgid "Data Table"
-msgstr ""
+msgstr "Tabela danych"
 
 #, fuzzy
 msgctxt "dialog_pdf_export_space_for_notes"
@@ -2229,9 +2472,10 @@ msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
 msgstr "Wydrukuj notatki do folderu"
 
+#, fuzzy
 msgctxt "dialog_pdf_export_data_table_layout"
 msgid "Table layout"
-msgstr ""
+msgstr "Układ tabeli"
 
 #, fuzzy
 msgctxt "pdf_export_notification_generating_pdf"
@@ -2286,7 +2530,7 @@ msgstr "Kompresowanie pliku ZIP ..."
 #. CSV export
 msgctxt "dialog_csv_export_title"
 msgid "Data table export (CSV)"
-msgstr ""
+msgstr "Eksport tabeli danych (CSV)"
 
 #. dialogs
 #, fuzzy
@@ -2310,21 +2554,25 @@ msgctxt "imageselect_dialog_image_name_number"
 msgid "Number"
 msgstr "Numer"
 
+#, fuzzy
 msgctxt "imageselect_dialog_image_name_template"
 msgid "Template"
-msgstr ""
+msgstr "Szablon"
 
+#, fuzzy
 msgctxt "dialog_clipboard_paste_options_title"
 msgid "Clipboard paste options"
-msgstr ""
+msgstr "Opcje wklejania ze schowka"
 
+#, fuzzy
 msgctxt "dialog_clipboard_paste_options_copy_measurements"
 msgid "Copy measurements"
-msgstr ""
+msgstr "Skopiuj pomiary"
 
+#, fuzzy
 msgctxt "dialog_clipboard_paste_options_center_content"
 msgid "Center on image"
-msgstr ""
+msgstr "Wyśrodkuj na obrazie"
 
 #. Dialog: image import
 msgctxt "dialog_data_import_progress_message"
@@ -2874,9 +3122,10 @@ msgctxt "imerror_imi_cannot_open"
 msgid "Cannot open IMI file '{}'."
 msgstr "Nie można otworzyć pliku IMI „{}”."
 
+#, fuzzy
 msgctxt "imerror_nlohmann_json_parse_error"
 msgid "Parse error '{}'"
-msgstr ""
+msgstr "Błąd przetwarzania '{}'"
 
 #, fuzzy
 msgctxt "imerror_imf_cannot_read_zip"
@@ -3050,17 +3299,20 @@ msgstr ""
 "Wyjątek bezpieczeństwa podczas uzyskiwania dostępu do identyfikatora URI "
 "„{}”."
 
+#, fuzzy
 msgctxt "imerror_android_insert_image_into_gallery"
 msgid "Cannot insert image into gallery ({})."
-msgstr ""
+msgstr "Nie można wstawić obrazu do galerii ({})."
 
+#, fuzzy
 msgctxt "imerror_android_copy_image_data_into_gallery"
 msgid "Cannot copy image data into gallery (url='{}')."
-msgstr ""
+msgstr "Nie można skopiować danych obrazu do galerii (url='{}')."
 
+#, fuzzy
 msgctxt "imerror_android_delete_old_image_from_gallery"
 msgid "Cannot delete old image from gallery (url='{}')."
-msgstr ""
+msgstr "Nie można usunąć starego obrazu z galerii (url='{}')."
 
 #. cloud storage
 msgctxt "pref_cloud_storage_server_none"
@@ -3953,9 +4205,10 @@ msgctxt "pref_editor_line_width_dialog"
 msgid "Choose line width"
 msgstr "Wybierz szerokość linii"
 
+#, fuzzy
 msgctxt "pref_editor_zoom_slider"
 msgid "Show zoom slider"
-msgstr ""
+msgstr "Pokaż suwak powiększenia"
 
 msgctxt "pref_category_editor_snapping"
 msgid "Snapping"
@@ -4295,30 +4548,35 @@ msgctxt "pref_measure_angle_unit_choices:2"
 msgid "Radians"
 msgstr "Radian"
 
+#, fuzzy
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
-msgstr ""
+msgstr "Cyfry dziesiętne dla obliczanych wartości"
 
 #, fuzzy
 msgctxt "pref_measure_decimal_digits_metric_length"
 msgid "Decimal digits for metric lengths"
 msgstr "Cyfry dziesiętne"
 
+#, fuzzy
 msgctxt "pref_measure_decimal_digits_metric_areas"
 msgid "Decimal digits for metric areas"
-msgstr ""
+msgstr "Cyfry dziesiętne dla obszarów metrycznych"
 
+#, fuzzy
 msgctxt "pref_measure_decimal_digits_angles"
 msgid "Decimal digits for angles"
-msgstr ""
+msgstr "Cyfry dziesiętne dla kątów"
 
+#, fuzzy
 msgctxt "pref_measure_decimal_digits_imperial_lengths"
 msgid "Decimal digits for imperial lengths"
-msgstr ""
+msgstr "Cyfry dziesiętne dla długości imperialnych"
 
+#, fuzzy
 msgctxt "pref_measure_decimal_digits_imperial_areas"
 msgid "Decimal digits for imperial areas"
-msgstr ""
+msgstr "Cyfry dziesiętne dla obszarów imperialnych"
 
 msgctxt "pref_measure_decimal_digits_metric_length_dialog"
 msgid "Number of decimal digits in computed values"
@@ -4348,17 +4606,20 @@ msgctxt "pref_measure_decimal_digits_metric_length_choices:5"
 msgid "5 digits"
 msgstr "5 cyfr"
 
+#, fuzzy
 msgctxt "pref_unit_subsets_category"
 msgid "Enabled units"
-msgstr ""
+msgstr "Włączone jednostki"
 
+#, fuzzy
 msgctxt "pref_unit_subsets_metric"
 msgid "Enabled metric units"
-msgstr ""
+msgstr "Włączone jednostki metryczne"
 
+#, fuzzy
 msgctxt "pref_unit_subsets_metric_all"
 msgid "All"
-msgstr ""
+msgstr "Wszystko"
 
 msgctxt "pref_measure_label_shows_unit"
 msgid "Show units"
@@ -4524,47 +4785,57 @@ msgstr "Pokaż tytuł obrazu"
 #. CSV
 msgctxt "pref_category_export_csv"
 msgid "CSV file settings"
-msgstr ""
+msgstr "Ustawienia pliku CSV"
 
+#, fuzzy
 msgctxt "pref_export_csv_field_separator"
 msgid "Field separator character"
-msgstr ""
+msgstr "Znak separatora pól"
 
+#, fuzzy
 msgctxt "pref_export_csv_cell_values_separator"
 msgid "Cell values separator"
-msgstr ""
+msgstr "Separator wartości komórek"
 
+#, fuzzy
 msgctxt "pref_export_csv_decimal_separator"
 msgid "Decimal separator"
-msgstr ""
+msgstr "Separator liczb dziesiętnych"
 
+#, fuzzy
 msgctxt "pref_export_csv_include_header_row"
 msgid "Include header row"
-msgstr ""
+msgstr "Uwzględnij wiersz nagłówka"
 
+#, fuzzy
 msgctxt "pref_export_csv_include_footer_row"
 msgid "Include footer row"
-msgstr ""
+msgstr "Uwzględnij wiersz stopki"
 
+#, fuzzy
 msgctxt "pref_export_csv_field_separator_choices:0"
 msgid "Comma"
-msgstr ""
+msgstr "Przecinek"
 
+#, fuzzy
 msgctxt "pref_export_csv_field_separator_choices:1"
 msgid "Semicolon"
-msgstr ""
+msgstr "Średnik"
 
+#, fuzzy
 msgctxt "pref_export_csv_field_separator_choices:2"
 msgid "Colon"
-msgstr ""
+msgstr "Dwukropek"
 
+#, fuzzy
 msgctxt "pref_export_csv_decimal_separator_choices:0"
 msgid "Dot"
-msgstr ""
+msgstr "Kropka"
 
+#, fuzzy
 msgctxt "pref_export_csv_decimal_separator_choices:1"
 msgid "Comma"
-msgstr ""
+msgstr "Przecinek"
 
 #. ZIP
 msgctxt "pref_category_export_zip"
@@ -4779,25 +5050,30 @@ msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
 msgstr "50%"
 
+#, fuzzy
 msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
-msgstr ""
+msgstr "Linki mapy używają"
 
+#, fuzzy
 msgctxt "pref_export_general_map_link_provider_dialog"
 msgid "Map provider"
-msgstr ""
+msgstr "Dostawca mapy"
 
+#, fuzzy
 msgctxt "pref_export_general_map_link_provider_choices:0"
 msgid "Google Maps"
-msgstr ""
+msgstr "mapy Google"
 
+#, fuzzy
 msgctxt "pref_export_general_map_link_provider_choices:1"
 msgid "Bing Maps"
-msgstr ""
+msgstr "Mapy Bing"
 
+#, fuzzy
 msgctxt "pref_export_general_map_link_provider_choices:2"
 msgid "OpenStreetMap"
-msgstr ""
+msgstr "OpenStreetMap"
 
 #. Bluetooth
 msgctxt "pref_category_bluetooth"
@@ -4842,7 +5118,7 @@ msgstr "Bosch PLR"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm50c"
 msgid "Bosch GLM50c"
-msgstr ""
+msgstr "Bosch GLM50c"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm100c"
 msgid "Bosch GLM100c"
@@ -4894,7 +5170,7 @@ msgstr "Leica Disto X3/X4"
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_d1"
 msgid "Leica Disto D1"
-msgstr ""
+msgstr "Leica Disto D1"
 
 msgctxt "pref_bluetooth_device_protocol_lti_trupulse"
 msgid "LTI TruPulse"
@@ -4922,7 +5198,7 @@ msgstr "Mileseey R2B"
 
 msgctxt "pref_bluetooth_device_protocol_mileseey_m120"
 msgid "Mileseey M120"
-msgstr ""
+msgstr "Mileseey M120"
 
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
 msgid "Sndway SW-S100"
@@ -4950,11 +5226,11 @@ msgstr "Condtrol XP3/XP4 Pro"
 
 msgctxt "pref_bluetooth_device_protocol_sola_vector_100"
 msgid "Sola Vector 100 Pro"
-msgstr ""
+msgstr "Sola Vector 100 Pro"
 
 msgctxt "pref_bluetooth_device_protocol_einhell_te_ld60"
 msgid "Einhell TE-LD60"
-msgstr ""
+msgstr "Einhell TE-LD60"
 
 #. item Calculated Industries /item
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
@@ -5553,9 +5829,10 @@ msgctxt "pref_category_information"
 msgid "Information"
 msgstr "Informacja"
 
+#, fuzzy
 msgctxt "pref_category_information_debugging"
 msgid "Debugging"
-msgstr ""
+msgstr "Debugowanie"
 
 #, fuzzy
 msgctxt "pref_information_send_error_log"
@@ -5700,13 +5977,15 @@ msgctxt "editor_menu_edit_copy_element"
 msgid "Duplicate element"
 msgstr "Kopiuj element"
 
+#, fuzzy
 msgctxt "editor_menu_edit_copy_to_clipboard"
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Skopiuj do schowka"
 
+#, fuzzy
 msgctxt "editor_menu_edit_paste_from_clipboard"
 msgid "Paste from clipboard"
-msgstr ""
+msgstr "Wklej ze schowka"
 
 msgctxt "editor_menu_edit_lock_element"
 msgid "Lock element"
@@ -5716,13 +5995,15 @@ msgctxt "editor_menu_edit_unlock_element"
 msgid "Unlock element"
 msgstr "Odblokuj element"
 
+#, fuzzy
 msgctxt "editor_menu_edit_lock_all_elements"
 msgid "Lock all elements"
-msgstr ""
+msgstr "Zablokuj wszystkie elementy"
 
+#, fuzzy
 msgctxt "editor_menu_edit_unlock_all_elements"
 msgid "Unlock all elements"
-msgstr ""
+msgstr "Odblokuj wszystkie elementy"
 
 #, fuzzy
 msgctxt "editor_menu_edit_imagesettings"
@@ -5737,7 +6018,7 @@ msgstr "Laser spustowy"
 #, fuzzy
 msgctxt "editor_menu_edit_tag"
 msgid "Tag and properties"
-msgstr ""
+msgstr "Etykieta i właściwości"
 
 msgctxt "editor_menu_style"
 msgid "Style"
@@ -5867,10 +6148,12 @@ msgctxt "editor_help_show_instructions"
 msgid "Show instructions"
 msgstr "Pokaż instrukcje"
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "error_cannot_open_browser_url"
 msgid "Cannot open web browser to show web page '%1$s'"
 msgstr ""
+"Nie można otworzyć przeglądarki internetowej, aby wyświetlić stronę "
+"internetową '%1$s'"
 
 msgctxt "editor_error_no_reference_to_attach_to"
 msgid ""
@@ -6503,9 +6786,10 @@ msgctxt "editor_label_style_save_as_default_all_elements"
 msgid "All drawing tools"
 msgstr "Wszystkie narzędzia do rysowania"
 
+#, fuzzy
 msgctxt "editor_dialog_tag_properties_title"
 msgid "Tags and properties"
-msgstr ""
+msgstr "Etykietka i właściwości"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
 msgid ""
@@ -7653,50 +7937,18 @@ msgctxt "sync_action_push_new"
 msgid "Upload new"
 msgstr "Prześlij nowy"
 
+#, fuzzy
 msgctxt "sync_action_push_update"
 msgid "Upload update"
-msgstr ""
+msgstr "Prześlij aktualizację"
 
+#, fuzzy
 msgctxt "sync_action_delete_local"
 msgid "Delete locally"
-msgstr ""
+msgstr "Usuń lokalnie"
 
+#, fuzzy
 msgctxt "sync_action_delete_remote"
 msgid "Delete on server"
-msgstr ""
-
-#. Preference Titles
-msgctxt "messages_header"
-msgid "Messages"
-msgstr ""
-
-msgctxt "sync_header"
-msgid "Sync"
-msgstr ""
-
-#. Messages Preferences
-msgctxt "signature_title"
-msgid "Your signature"
-msgstr ""
-
-msgctxt "reply_title"
-msgid "Default reply action"
-msgstr ""
-
-#. Sync Preferences
-msgctxt "sync_title"
-msgid "Sync email periodically"
-msgstr ""
-
-msgctxt "attachment_title"
-msgid "Download incoming attachments"
-msgstr ""
-
-msgctxt "attachment_summary_on"
-msgid "Automatically download attachments for incoming emails"
-msgstr ""
-
-msgctxt "attachment_summary_off"
-msgid "Only download attachments when manually requested"
-msgstr ""
+msgstr "Usuń na serwerze"
 
