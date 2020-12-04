@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-04 14:09+0100\n"
+"POT-Creation-Date: 2020-12-04 17:48+0100\n"
 "PO-Revision-Date: 2020-12-02 12:38+0100\n"
 "Last-Translator: \n"
 "Language: ak_GH\n"
@@ -30,10 +30,6 @@ msgstr ""
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
 msgstr "關閉"
-
-msgctxt "generic_button_import"
-msgid "Import"
-msgstr ""
 
 msgctxt "generic_dialog_title_error"
 msgid "Error"
@@ -66,18 +62,6 @@ msgstr "确定刪除"
 msgctxt "generic_cancel_delete"
 msgid "Cancel"
 msgstr "取消"
-
-msgctxt "generic_action_undo"
-msgid "Undo"
-msgstr "撤消"
-
-msgctxt "generic_action_redo"
-msgid "Redo"
-msgstr "重做"
-
-msgctxt "generic_decimal_digits"
-msgid "Decimal digits"
-msgstr "小數位"
 
 #. image library
 msgctxt "imageLibrary_new_cameraCapture"
@@ -349,119 +333,180 @@ msgid "Small grid"
 msgstr "小号网格"
 
 #. dialog: rename folder
-msgctxt "foldername_dialog_folder_name"
+msgctxt "imageLibrary_folderNameDialog_name"
 msgid "Folder name"
 msgstr "文件夾名"
 
-msgctxt "foldername_dialog_folder_name_hint"
+msgctxt "imageLibrary_folderNameDialog_name_hint"
 msgid "Enter folder name"
 msgstr "输入文件夾名"
 
-msgctxt "foldername_dialog_notes"
-msgid "Notes"
-msgstr "註記"
-
-msgctxt "foldername_dialog_icon_color"
+msgctxt "imageLibrary_folderNameDialog_iconColor"
 msgid "Folder color"
 msgstr "文件夾顏色"
 
+msgctxt "imageLibrary_folderNameDialog_template"
+msgid "Template"
+msgstr ""
+
+msgctxt "imageLibrary_folderNameDialog_notes"
+msgid "Notes"
+msgstr "註記"
+
+#. dialog: rename image
+msgctxt "imageLibrary_imageNameDialog_name"
+msgid "Image name"
+msgstr "圖像標題"
+
+msgctxt "imageLibrary_imageNameDialog_name_hint"
+msgid "Enter image name"
+msgstr "輸入圖片名稱"
+
+msgctxt "imageLibrary_imageNameDialog_template"
+msgid "Template"
+msgstr ""
+
+msgctxt "imageLibrary_imageNameDialog_number"
+msgid "Number"
+msgstr "图像编号"
+
+msgctxt "imageLibrary_imageNameDialog_notes"
+msgid "Notes"
+msgstr "註記"
+
+#. dialog: clipboard paste
+msgctxt "imageLibrary_clipboardPasteDialog_title"
+msgid "Clipboard paste options"
+msgstr ""
+
+msgctxt "imageLibrary_clipboardPasteDialog_alsoCopyMeasurementValues"
+msgid "Copy measurements"
+msgstr ""
+
+msgctxt "imageLibrary_clipboardPasteDialog_centerAnnotationOnImage"
+msgid "Center on image"
+msgstr ""
+
+#. TODO: currently unused, but could be used again in the move-image dialog
 msgctxt "imageselect_dialog_move_image_to_folder_title"
 msgid "Choose target folder for the image"
 msgstr "選擇目標文件夾"
 
 #. dialog: about app
-msgctxt "imageselect_dialog_about_version"
+msgctxt "aboutApp_version"
 msgid "Version:"
 msgstr "版本:"
 
-msgctxt "imageselect_dialog_about_license"
+msgctxt "aboutApp_license"
 msgid "License:"
 msgstr "許可證:"
 
-msgctxt "imageselect_dialog_about_source"
+msgctxt "aboutApp_downloadSource"
 msgid "Source:"
 msgstr "源文件："
 
-msgctxt "imageselect_dialog_about_license_evaluation"
-msgid "Free Evaluation"
-msgstr "免費試用版"
-
-msgctxt "imageselect_dialog_about_license_pro"
-msgid "Pro"
-msgstr "专业版"
-
-msgctxt "imageselect_dialog_about_license_business"
-msgid "Business"
-msgstr "企業版"
-
-msgctxt "imageselect_dialog_about_tutorial_link"
+msgctxt "aboutApp_tutorialLink"
 msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
 msgstr "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">教學影片</a>"
 
-msgctxt "imageselect_dialog_about_documentation_link"
+msgctxt "aboutApp_documentationLink"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
 msgstr "<a href=\"https://www.imagemeter.com/manual\">帮助文檔</a>"
 
-msgctxt "imageselect_dialog_about_release_notes"
+msgctxt "aboutApp_releaseNotes"
 msgid "<a href=\"release-notes\">Release notes</a>"
 msgstr "<a href=\"release-notes\">發行說明</a>"
 
-msgctxt "imageselect_dialog_about_contact_link"
+msgctxt "aboutApp_contactLink"
 msgid "<a href=\"mailto:imagemeter@gmail.com\">Contact email</a>"
 msgstr "<a href=\"mailto:imagemeter@gmail.com\">聯繫電郵</a>"
 
-msgctxt "imageselect_dialog_about_privacy_policy_link"
+msgctxt "aboutApp_privacyPolicyLink"
 msgid ""
 "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
 "policy</a>"
 msgstr "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">隱私政策</a>"
 
-msgctxt "imageselect_dialog_about_licenses"
+msgctxt "aboutApp_licenses"
 msgid "<a href=\"licenses\">Licenses</a>"
 msgstr ""
 
-#. upgrade
-msgctxt "license_source_in_app"
-msgid "In-app"
-msgstr "应用內购买"
-
-msgctxt "license_source_native"
-msgid "Native"
-msgstr "本機"
-
-msgctxt "license_source_pro_key_app"
-msgid "Pro-key app"
-msgstr "专业版密匙软件"
-
-msgctxt "license_source_volume_key"
-msgid "Volume key"
-msgstr ""
-
+#. upgrade dialog
 #, c-format
-msgctxt "upgrade_dialog_pay_once"
+msgctxt "upgradeDialog_addonPrice_once"
 msgid "%1$s once"
 msgstr "%1$s 一次"
 
 #, c-format
-msgctxt "upgrade_dialog_pay_monthly"
+msgctxt "upgradeDialog_addonPrice_monthly"
 msgid "%1$s/month"
 msgstr "%1$s 個月"
 
-msgctxt "upgrade_dialog_first_month_free"
+msgctxt "upgradeDialog_addonPrice_firstMonthFree"
 msgid "First month free"
 msgstr "第一個月免費"
 
-msgctxt "upgrade_dialog_pro_name"
-msgid "Pro"
-msgstr "專業版"
+msgctxt "upgradeDialog_purchaseButton_pro"
+msgid "Upgrade to Pro"
+msgstr "升級至專業版"
 
-msgctxt "upgrade_dialog_business_name"
-msgid "Business"
-msgstr "企業版"
-
-msgctxt "upgrade_dialog_button_activate_addon"
+msgctxt "upgradeDialog_purchaseButton_addon"
 msgid "Activate Addon"
 msgstr ""
+
+msgctxt "upgradeDialog_purchaseButton_business"
+msgid "Upgrade to Business"
+msgstr "升級至企業版"
+
+msgctxt "upgradeDialog_purchaseButton_disabled_addonIsActive"
+msgid "Add-on is active"
+msgstr ""
+
+msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable"
+msgid "Store unavailable"
+msgstr ""
+
+msgctxt "upgradeDialog_volumeLicenseButton"
+msgid "Enter volume license code"
+msgstr ""
+
+msgctxt "upgradeDialog_backButton"
+msgid "Back"
+msgstr "返回"
+
+msgctxt "upgradeDialog_moreInformationLink"
+msgid ""
+"For more information about these features, &lt;a "
+"href=\"https://www.imagemeter.com/manual/license/android-"
+"licenses\"&gt;visit the website&lt;/a&gt;."
+msgstr ""
+"有關這些功能的更多信息，請＆lt; a href =“ https://www.imagemeter.com/manual/license"
+"/android-licenses”＆gt;訪問網站＆lt; / a＆gt;。"
+
+#. specification of the add-ons and their feature items
+msgctxt "upgrade_addon_advancedAnnotation_purchaseBoxTitle"
+msgid "Advanced Annotation Add-On"
+msgstr ""
+
+msgctxt "upgrade_addon_advancedAnnotation_addonName"
+msgid "Advanced Annotation"
+msgstr ""
+
+msgctxt "upgrade_addon_pro_purchaseBoxTitle"
+msgid "Pro"
+msgstr "Pro"
+
+msgctxt "upgrade_addon_pro_addonName"
+msgid "Pro"
+msgstr "Pro"
+
+msgctxt "upgrade_addon_business_purchaseBoxTitle"
+msgid "Business"
+msgstr "Business"
+
+msgctxt "upgrade_addon_business_addonName"
+msgid "Business"
+msgstr "Business"
 
 msgctxt "upgrade_item_no_watermarks"
 msgid "No watermarks"
@@ -526,37 +571,469 @@ msgctxt "upgrade_item_all_addon_packs"
 msgid "Includes Pro and all add-on packs"
 msgstr ""
 
-msgctxt "upgrade_dialog_more_information_link"
+#. dialogs that explain why we need an upgrade
+#, c-format
+msgctxt "needUpgradeDialog_titleTemplate"
+msgid "%1$s Add-On"
+msgstr ""
+
+#, c-format
+msgctxt "needUpgradeDialog_createSubfolders"
+msgid "Creating subfolders is included in the '%1$s' add-on."
+msgstr ""
+
+#, c-format
+msgctxt "needUpgradeDialog_moveFolders"
+msgid "Moving folders into other folders is included in the '%1$s' add-on."
+msgstr ""
+
+#, c-format
+msgctxt "needUpgradeDialog_audioNotes"
+msgid "Recording audio notes is included in the '%1$s' add-on."
+msgstr ""
+
+#, c-format
+msgctxt "needUpgradeDialog_detailImages"
+msgid "Adding detail images is included in the '%1$s' add-on."
+msgstr ""
+
+#, c-format
+msgctxt "needUpgradeDialog_pdfImport"
+msgid "PDF import is included in the '%1$s' add-on."
+msgstr ""
+
+#, c-format
+msgctxt "needUpgradeDialog_text_tryWithExamples"
+msgid "You can try this function with the example images (in folder '%1$s')."
+msgstr "您可以用示例圖像（在文件夾'%1$s'中）尝试此功能。"
+
+#, c-format
+msgctxt "needUpgradeDialog_text_createAndtryWithExamples"
 msgid ""
-"For more information about these features, &lt;a "
-"href=\"https://www.imagemeter.com/manual/license/android-"
-"licenses\"&gt;visit the website&lt;/a&gt;."
-msgstr ""
-"有關這些功能的更多信息，請＆lt; a href =“ https://www.imagemeter.com/manual/license"
-"/android-licenses”＆gt;訪問網站＆lt; / a＆gt;。"
+"You can try this function with the example images (<a "
+"href=\"create\">create folder '%1$s'</a>)."
+msgstr "您可以用示例圖像尝试此功能（<a href=\"create\">創建文件夾'%1$s'</a>）。"
 
-msgctxt "upgrade_dialog_button_pro_upgrade"
-msgid "Upgrade to Pro"
-msgstr "升級至專業版"
-
-msgctxt "upgrade_dialog_button_business_upgrade"
-msgid "Upgrade to Business"
-msgstr "升級至企業版"
-
-msgctxt "upgrade_dialog_button_back"
-msgid "Back"
-msgstr "返回"
-
-msgctxt "upgrade_dialog_button_volume_license"
-msgid "Enter volume license code"
+#, c-format
+msgctxt "needUpgradeDialog_editingTool"
+msgid "This tool is available in the '%1$s' add-on."
 msgstr ""
 
-msgctxt "upgrade_dialog_button_addon_is_active"
-msgid "Add-on is active"
+msgctxt "needUpgradeDialog_exportDataTables"
+msgid "Exporting data tables is available in the Business version."
 msgstr ""
 
-msgctxt "upgrade_dialog_button_store_unavailable"
-msgid "Store unavailable"
+#. TODO: demo video
+#, fuzzy
+msgctxt "needUpgradeDialog_button_getBusinessVersion"
+msgid "Upgrade to Business version"
+msgstr "升級到企業版"
+
+msgctxt "needUpgradeDialog_button_getUpgrade"
+msgid "Upgrade"
+msgstr "升級"
+
+msgctxt "dialog_migrate_for_addon_packs_title"
+msgid "Activate Add-on Pack"
+msgstr ""
+
+msgctxt "dialog_migrate_for_addon_packs_text"
+msgid ""
+"Since this native Pro-version is going to be replaced by the free version"
+" with in-app upgrades, add-on packs are only available in the free "
+"version. Please migrate to the free version. Your Pro upgrade will stay "
+"active."
+msgstr ""
+
+msgctxt "dialog_migrate_for_addon_packs_download_text"
+msgid "Download the free version from here:"
+msgstr ""
+
+msgctxt "dialog_migrate_for_addon_packs_open_instructions"
+msgid "Show migration instructions"
+msgstr ""
+
+#. licensing: volume key dialog
+msgctxt "licensing_volume_key_title"
+msgid "Volume key"
+msgstr ""
+
+msgctxt "licensing_volume_key_note"
+msgid ""
+"Note: you don't need to enter any key when you purchased through the "
+"Google Play store."
+msgstr ""
+
+msgctxt "licensing_volume_key_description"
+msgid "Please enter your volume key:"
+msgstr ""
+
+msgctxt "licensing_volume_key_send_button"
+msgid "Send"
+msgstr ""
+
+msgctxt "licensing_volume_key_error_parse_server_response"
+msgid "Error parsing server response."
+msgstr ""
+
+msgctxt "licensing_volume_key_error_invalid_license_code"
+msgid "Invalid license code."
+msgstr ""
+
+msgctxt "licensing_volume_key_success"
+msgid "License activated"
+msgstr ""
+
+#. in-app payment
+msgctxt "inapp_error_billing_unavailable"
+msgid "Billing is not available."
+msgstr "开票不可用。"
+
+msgctxt "inapp_error_feature_not_supported"
+msgid "Feature is not supported."
+msgstr "不支持該功能。"
+
+msgctxt "inapp_error_item_already_owned"
+msgid "Item is already owned."
+msgstr "您已经购买了。"
+
+msgctxt "inapp_error_item_unavailable"
+msgid "Item is unavailable."
+msgstr "該項目不可用。"
+
+msgctxt "inapp_error_service_disconnected"
+msgid "PlayStore temporarily disconnected, try again later."
+msgstr "软件商店暫時斷開了連接，請稍後再試。"
+
+msgctxt "inapp_error_service_unavailable"
+msgid "Network down, cannot reach PlayStore."
+msgstr "網絡中斷，無法訪問软件商店。"
+
+msgctxt "inapp_error_user_canceled"
+msgid "Purchase canceled by user."
+msgstr "用戶取消了購買。"
+
+msgctxt "inapp_error_signature_check_failed"
+msgid "Signature check failed."
+msgstr "无法检测数字簽名。"
+
+#, c-format
+msgctxt "inapp_error_unknown"
+msgid "Unknown error, result code: '%1$d', response '%2$s'."
+msgstr "未知錯誤，結果代碼：'%1$d'，服务器应答為'%2$s'。"
+
+msgctxt "inapp_error_developer_error"
+msgid "Developer error."
+msgstr "程序师錯誤。"
+
+msgctxt "inapp_error_generic_error"
+msgid "Generic error."
+msgstr "一般錯誤。"
+
+msgctxt "inapp_error_item_not_owned"
+msgid "Item is not owned."
+msgstr "尚未购买。"
+
+msgctxt "inapp_error_service_timeout"
+msgid "Service timeout."
+msgstr "服務超時。"
+
+#. TODO: these names should be a simple summary name for the "About App"
+#. dialog. But this does not work well with the          add-ons. Replace it
+#. with a different system.
+msgctxt "upgrade_licenseName_freeEvaluation"
+msgid "Free Evaluation"
+msgstr "免費試用版"
+
+msgctxt "upgrade_licenseName_pro"
+msgid "Pro"
+msgstr "专业版"
+
+msgctxt "upgrade_licenseName_business"
+msgid "Business"
+msgstr "企業版"
+
+msgctxt "license_source_in_app"
+msgid "In-app"
+msgstr "应用內购买"
+
+msgctxt "license_source_native"
+msgid "Native"
+msgstr "本機"
+
+msgctxt "license_source_pro_key_app"
+msgid "Pro-key app"
+msgstr "专业版密匙软件"
+
+msgctxt "license_source_volume_key"
+msgid "Volume key"
+msgstr ""
+
+#. example images
+msgctxt "example_folder_name"
+msgid "Examples"
+msgstr "示例"
+
+msgctxt "tutorial_images_1"
+msgid "Example 1: Measure on a 2D floor plan"
+msgstr "例一：樓層平面圖的測量"
+
+msgctxt "tutorial_images_2"
+msgid "Example 2: Measure a flat object"
+msgstr "例二：一個扁平物體的測量"
+
+msgctxt "tutorial_images_3"
+msgid "Example 3: Perspectively distorted wall"
+msgstr "例三：透視變形的牆壁"
+
+msgctxt "tutorial_images_4"
+msgid "Example 4: Perspective height measurement"
+msgstr "示例4：透視高度測量"
+
+#. image import (TODO: move to editcore. Also Pdf import name?)
+msgctxt "default_image_name_prefix_with_date"
+msgid "image from {M} {d}, {yyyy}"
+msgstr "圖像獲得日期 {yyyy}年 {M} {d}日]"
+
+msgctxt "default_image_name_from_unnamed_pdf"
+msgid "PDF import, page {page}"
+msgstr ""
+
+msgctxt "default_image_name_from_pdf"
+msgid "{name}, page {page}"
+msgstr ""
+
+#. image import from free app
+msgctxt "snackbar_pro_to_free_migration"
+msgid "Pro-version app migration"
+msgstr "專業版数据遷移"
+
+msgctxt "snackbar_pro_to_free_migration_info"
+msgid "Info"
+msgstr "信息"
+
+msgctxt "snackbar_pro_to_free_migration_url"
+msgid "https://www.imagemeter.com/manual/license/pro-version-migration"
+msgstr "https://www.imagemeter.com/manual/license/pro-version-migration"
+
+msgctxt "import_pro_app_data"
+msgid "Import images from Pro app"
+msgstr "從专业版導入圖像"
+
+msgctxt "import_pro_app_data_started_text"
+msgid ""
+"Importing has started to run in the background. When it is finished, "
+"please check that the images were copied correctly and delete them in the"
+" Pro app to save memory space."
+msgstr "正在後台导入。完成後，請檢查圖像是否完好，然後可以将源文件从专业版中刪除以節省存儲空間。"
+
+msgctxt "import_pro_app_data_local_not_empty"
+msgid ""
+"Warning: there are images in this app. Importing the images from the Pro "
+"app may overwrite images with the same name."
+msgstr "警告：此软件中已经存有圖像。從专业版導入圖像可能會覆蓋这里的同名圖像。请检查是否有重名图像。"
+
+msgctxt "import_pro_app_data_local_not_empty_anyway"
+msgid "Import anyway"
+msgstr "尽管導入"
+
+msgctxt "import_pro_app_data_title"
+msgid "Importing images from Pro app"
+msgstr "從专业版導入圖像"
+
+msgctxt "import_pro_app_data_scan_progress_text"
+msgid "Please wait, searching for images to copy."
+msgstr "正在搜索待復制圖像，請稍候。"
+
+#, c-format
+msgctxt "import_pro_app_data_progress_text"
+msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
+msgstr "已完成%2$d张图像中的%1$d張（%3$d個錯誤），請稍候。"
+
+msgctxt "import_pro_app_data_finished"
+msgid ""
+"Images from the Pro app are now imported. After checking that the images "
+"were imported correctly, you may want to delete the images in the Pro app"
+" to save memory space."
+msgstr "专业版中的圖像已导入。确认导入的圖像完好之后，您可以从专业版中刪除原圖像以節省存儲空間。"
+
+msgctxt "import_pro_app_data_failed"
+msgid ""
+"Image import from Pro app has failed or is incomplete. Maybe your memory "
+"is full?"
+msgstr "從专业版導入圖像失敗或不完整。内存已滿？"
+
+#. PDF import dialog
+msgctxt "pdf_import_page_selection_render_resolution"
+msgid "Resolution (dpi):"
+msgstr ""
+
+msgctxt "pdf_import_page_selection_output_image_resolution"
+msgid "Output resolution:"
+msgstr ""
+
+#, c-format
+msgctxt "pdf_import_page_selection_output_image_resolution_value"
+msgid "%1$.1f MP"
+msgstr ""
+
+msgctxt "pdf_import_page_selection_importButton"
+msgid "Import"
+msgstr ""
+
+#. dialog: export format
+msgctxt "dialog_export_format_image"
+msgid "Image (JPEG/PNG)"
+msgstr "圖片（JPEG / PNG）"
+
+msgctxt "dialog_export_format_pdf"
+msgid "PDF document"
+msgstr "PDF文件"
+
+msgctxt "dialog_export_format_zip"
+msgid "ZIP archive"
+msgstr "ZIP 檔案"
+
+msgctxt "dialog_export_format_imi"
+msgid "Editable ImageMeter Image (IMI)"
+msgstr "可編輯的 ImageMeter 圖像（IMI）"
+
+msgctxt "dialog_export_format_imf"
+msgid "ImageMeter folder (IMF)"
+msgstr "ImageMeter 文件夾（IMF）"
+
+msgctxt "dialog_export_format_gallery"
+msgid "Save to gallery"
+msgstr "保存到圖庫"
+
+msgctxt "dialog_export_format_show_next_time"
+msgid "Show format selection next time"
+msgstr "下次再顯示格式選擇"
+
+#. image export
+msgctxt "dialog_image_export_options_show_dialog"
+msgid "Show export options next time"
+msgstr "下次再顯示導出選項"
+
+msgctxt "dialog_image_export_use_default_options"
+msgid "Use default export options"
+msgstr ""
+
+msgctxt "dialog_image_export_image_format"
+msgid "Image format"
+msgstr "圖像格式"
+
+msgctxt "dialog_image_export_file_format"
+msgid "File format"
+msgstr "文件格式"
+
+msgctxt "dialog_image_export_overlays"
+msgid "Overlays"
+msgstr "疊加層"
+
+msgctxt "dialog_image_export_overlay_show_image_title"
+msgid "Show image title"
+msgstr "顯示圖片標題"
+
+msgctxt "dialog_image_export_size_original_image_size"
+msgid "Original image size"
+msgstr "原始图像尺寸"
+
+msgctxt "dialog_image_export_size_custom_size"
+msgid "Custom size"
+msgstr "自选尺寸"
+
+msgctxt "dialog_image_export_image_quality"
+msgid "Image quality"
+msgstr "畫面質量"
+
+msgctxt "dialog_image_export_image_size"
+msgid "Image size"
+msgstr "圖片尺寸"
+
+#. PDF export
+msgctxt "dialog_pdf_export_paper"
+msgid "Paper"
+msgstr "紙张尺幅"
+
+msgctxt "dialog_pdf_export_layout"
+msgid "Layout"
+msgstr "佈局"
+
+msgctxt "dialog_pdf_export_metadata"
+msgid "Metadata"
+msgstr "元數據"
+
+msgctxt "dialog_pdf_export_data_table"
+msgid "Data Table"
+msgstr ""
+
+msgctxt "dialog_pdf_export_space_for_notes"
+msgid "Space for image notes"
+msgstr "圖像備註的空間"
+
+msgctxt "dialog_pdf_export_print_table_of_content"
+msgid "Print table of content"
+msgstr "打印目錄"
+
+msgctxt "dialog_pdf_export_print_folder_notes"
+msgid "Print folder notes"
+msgstr "打印文件夾筆記"
+
+msgctxt "dialog_pdf_export_data_table_layout"
+msgid "Table layout"
+msgstr ""
+
+#. PDF export progress notification
+msgctxt "pdf_export_notification_generating_pdf"
+msgid "Generating PDF file"
+msgstr "生成 PDF 文件"
+
+#, c-format
+msgctxt "pdf_export_notification_progress"
+msgid "Rendering image %1$d of %2$d."
+msgstr "正在渲染 %2$d 张圖像中的第 %1$d 张。"
+
+msgctxt "pdf_export_table_of_contents"
+msgid "Table of contents"
+msgstr ""
+
+msgctxt "pdf_export_root_folder_title"
+msgid "ImageMeter export"
+msgstr ""
+
+#. - ZIP export
+msgctxt "dialog_zip_export_title"
+msgid "ZIP export"
+msgstr "ZIP 導出"
+
+msgctxt "dialog_zip_options_show_dialog"
+msgid "Show ZIP options next time"
+msgstr "下次再顯示 ZIP 選項"
+
+#. ZIP export progress notification
+msgctxt "zip_export_notification_generating_title"
+msgid "Generating ZIP file"
+msgstr "ZIP 文件生成中"
+
+#, c-format
+msgctxt "zip_export_notification_progress"
+msgid "Rendering image %1$d of %2$d."
+msgstr "正在渲染 %2$d 张圖像中的第 %1$d 张。"
+
+#, c-format
+msgctxt "zip_export_notification_progress_pdf_step"
+msgid "PDF image %1$d of %2$d."
+msgstr "PDF 圖片 %1$d，共 %2$d 张。"
+
+#, fuzzy
+msgctxt "zip_export_notification_progress_compressing_step"
+msgid "Compressing ZIP file…"
+msgstr "ZIP 文件压缩中..."
+
+#. CSV export
+msgctxt "dialog_csv_export_title"
+msgid "Data table export (CSV)"
 msgstr ""
 
 msgctxt "pref_main_title"
@@ -1530,617 +2007,9 @@ msgctxt "pref_template_partslist_row_show_footer"
 msgid "Show footer row"
 msgstr ""
 
-#. licensing: volume key dialog
-msgctxt "licensing_volume_key_title"
-msgid "Volume key"
-msgstr ""
-
-msgctxt "licensing_volume_key_note"
-msgid ""
-"Note: you don't need to enter any key when you purchased through the "
-"Google Play store."
-msgstr ""
-
-msgctxt "licensing_volume_key_description"
-msgid "Please enter your volume key:"
-msgstr ""
-
-msgctxt "licensing_volume_key_send_button"
-msgid "Send"
-msgstr ""
-
-msgctxt "licensing_volume_key_error_parse_server_response"
-msgid "Error parsing server response."
-msgstr ""
-
-msgctxt "licensing_volume_key_error_invalid_license_code"
-msgid "Invalid license code."
-msgstr ""
-
-msgctxt "licensing_volume_key_success"
-msgid "License activated"
-msgstr ""
-
-#. in-app payment
-#, fuzzy
-msgctxt "inapp_upgrade_to_business_button"
-msgid "Upgrade to Business version"
-msgstr "升級到企業版"
-
-msgctxt "inapp_upgrade_to_pro_button"
-msgid "Upgrade"
-msgstr "升級"
-
-msgctxt "inapp_error_billing_unavailable"
-msgid "Billing is not available."
-msgstr "开票不可用。"
-
-msgctxt "inapp_error_feature_not_supported"
-msgid "Feature is not supported."
-msgstr "不支持該功能。"
-
-msgctxt "inapp_error_item_already_owned"
-msgid "Item is already owned."
-msgstr "您已经购买了。"
-
-msgctxt "inapp_error_item_unavailable"
-msgid "Item is unavailable."
-msgstr "該項目不可用。"
-
-msgctxt "inapp_error_service_disconnected"
-msgid "PlayStore temporarily disconnected, try again later."
-msgstr "软件商店暫時斷開了連接，請稍後再試。"
-
-msgctxt "inapp_error_service_unavailable"
-msgid "Network down, cannot reach PlayStore."
-msgstr "網絡中斷，無法訪問软件商店。"
-
-msgctxt "inapp_error_user_canceled"
-msgid "Purchase canceled by user."
-msgstr "用戶取消了購買。"
-
-msgctxt "inapp_error_signature_check_failed"
-msgid "Signature check failed."
-msgstr "无法检测数字簽名。"
-
-#, c-format
-msgctxt "inapp_error_unknown"
-msgid "Unknown error, result code: '%1$d', response '%2$s'."
-msgstr "未知錯誤，結果代碼：'%1$d'，服务器应答為'%2$s'。"
-
-msgctxt "inapp_error_developer_error"
-msgid "Developer error."
-msgstr "程序师錯誤。"
-
-msgctxt "inapp_error_generic_error"
-msgid "Generic error."
-msgstr "一般錯誤。"
-
-msgctxt "inapp_error_item_not_owned"
-msgid "Item is not owned."
-msgstr "尚未购买。"
-
-msgctxt "inapp_error_service_timeout"
-msgid "Service timeout."
-msgstr "服務超時。"
-
-msgctxt "addon_advanced_annotation_purchase_title"
-msgid "Advanced Annotation Add-On"
-msgstr ""
-
-msgctxt "addon_advanced_annotation_title"
-msgid "Advanced Annotation"
-msgstr ""
-
-msgctxt "addon_pro_purchase_title"
-msgid "Pro"
-msgstr "Pro"
-
-msgctxt "addon_pro_title"
-msgid "Pro"
-msgstr "Pro"
-
-msgctxt "addon_business_purchase_title"
-msgid "Business"
-msgstr "Business"
-
-msgctxt "addon_business_title"
-msgid "Business"
-msgstr "Business"
-
-#, c-format
-msgctxt "dialog_need_upgrade_title_template"
-msgid "%1$s Add-On"
-msgstr ""
-
-#, c-format
-msgctxt "dialog_need_upgrade_create_subfolders"
-msgid "Creating subfolders is included in the '%1$s' add-on."
-msgstr ""
-
-#, c-format
-msgctxt "dialog_need_upgrade_move_folders"
-msgid "Moving folders into other folders is included in the '%1$s' add-on."
-msgstr ""
-
-#, c-format
-msgctxt "dialog_need_upgrade_audio_notes"
-msgid "Recording audio notes is included in the '%1$s' add-on."
-msgstr ""
-
-#, c-format
-msgctxt "dialog_need_upgrade_detail_image"
-msgid "Adding detail images is included in the '%1$s' add-on."
-msgstr ""
-
-#, c-format
-msgctxt "dialog_need_upgrade_pdf_import"
-msgid "PDF import is included in the '%1$s' add-on."
-msgstr ""
-
-#, c-format
-msgctxt "dialog_need_upgrade_example_images_text"
-msgid "You can try this function with the example images (in folder '%1$s')."
-msgstr "您可以用示例圖像（在文件夾'%1$s'中）尝试此功能。"
-
-#, c-format
-msgctxt "dialog_need_upgrade_create_example_images_text"
-msgid ""
-"You can try this function with the example images (<a "
-"href=\"create\">create folder '%1$s'</a>)."
-msgstr "您可以用示例圖像尝试此功能（<a href=\"create\">創建文件夾'%1$s'</a>）。"
-
-#, c-format
-msgctxt "dialog_need_upgrade_tool_message"
-msgid "This tool is available in the '%1$s' add-on."
-msgstr ""
-
-msgctxt "dialog_need_upgrade_data_table_export_message"
-msgid "Exporting data tables is available in the Business version."
-msgstr ""
-
-#. TODO: demo video
-msgctxt "dialog_migrate_for_addon_packs_title"
-msgid "Activate Add-on Pack"
-msgstr ""
-
-msgctxt "dialog_migrate_for_addon_packs_text"
-msgid ""
-"Since this native Pro-version is going to be replaced by the free version"
-" with in-app upgrades, add-on packs are only available in the free "
-"version. Please migrate to the free version. Your Pro upgrade will stay "
-"active."
-msgstr ""
-
-msgctxt "dialog_migrate_for_addon_packs_download_text"
-msgid "Download the free version from here:"
-msgstr ""
-
-msgctxt "dialog_migrate_for_addon_packs_open_instructions"
-msgid "Show migration instructions"
-msgstr ""
-
-#. tutorial
-msgctxt "example_folder_name"
-msgid "Examples"
-msgstr "示例"
-
-msgctxt "tutorial_images_1"
-msgid "Example 1: Measure on a 2D floor plan"
-msgstr "例一：樓層平面圖的測量"
-
-msgctxt "tutorial_images_2"
-msgid "Example 2: Measure a flat object"
-msgstr "例二：一個扁平物體的測量"
-
-msgctxt "tutorial_images_3"
-msgid "Example 3: Perspectively distorted wall"
-msgstr "例三：透視變形的牆壁"
-
-msgctxt "tutorial_images_4"
-msgid "Example 4: Perspective height measurement"
-msgstr "示例4：透視高度測量"
-
-#. image import
-msgctxt "default_image_name"
-msgid "unnamed image"
-msgstr "未命名圖像"
-
-msgctxt "default_image_name_prefix_with_date"
-msgid "image from {M} {d}, {yyyy}"
-msgstr "圖像獲得日期 {yyyy}年 {M} {d}日]"
-
-msgctxt "default_image_name_from_unnamed_pdf"
-msgid "PDF import, page {page}"
-msgstr ""
-
-msgctxt "default_image_name_from_pdf"
-msgid "{name}, page {page}"
-msgstr ""
-
-#. image import from free app
-msgctxt "snackbar_pro_to_free_migration"
-msgid "Pro-version app migration"
-msgstr "專業版数据遷移"
-
-msgctxt "snackbar_pro_to_free_migration_info"
-msgid "Info"
-msgstr "信息"
-
-msgctxt "snackbar_pro_to_free_migration_url"
-msgid "https://www.imagemeter.com/manual/license/pro-version-migration"
-msgstr "https://www.imagemeter.com/manual/license/pro-version-migration"
-
-msgctxt "import_pro_app_data"
-msgid "Import images from Pro app"
-msgstr "從专业版導入圖像"
-
-msgctxt "import_pro_app_data_started_text"
-msgid ""
-"Importing has started to run in the background. When it is finished, "
-"please check that the images were copied correctly and delete them in the"
-" Pro app to save memory space."
-msgstr "正在後台导入。完成後，請檢查圖像是否完好，然後可以将源文件从专业版中刪除以節省存儲空間。"
-
-msgctxt "import_pro_app_data_local_not_empty"
-msgid ""
-"Warning: there are images in this app. Importing the images from the Pro "
-"app may overwrite images with the same name."
-msgstr "警告：此软件中已经存有圖像。從专业版導入圖像可能會覆蓋这里的同名圖像。请检查是否有重名图像。"
-
-msgctxt "import_pro_app_data_local_not_empty_anyway"
-msgid "Import anyway"
-msgstr "尽管導入"
-
-msgctxt "import_pro_app_data_title"
-msgid "Importing images from Pro app"
-msgstr "從专业版導入圖像"
-
-msgctxt "import_pro_app_data_scan_progress_text"
-msgid "Please wait, searching for images to copy."
-msgstr "正在搜索待復制圖像，請稍候。"
-
-#, c-format
-msgctxt "import_pro_app_data_progress_text"
-msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
-msgstr "已完成%2$d张图像中的%1$d張（%3$d個錯誤），請稍候。"
-
-msgctxt "import_pro_app_data_finished"
-msgid ""
-"Images from the Pro app are now imported. After checking that the images "
-"were imported correctly, you may want to delete the images in the Pro app"
-" to save memory space."
-msgstr "专业版中的圖像已导入。确认导入的圖像完好之后，您可以从专业版中刪除原圖像以節省存儲空間。"
-
-msgctxt "import_pro_app_data_failed"
-msgid ""
-"Image import from Pro app has failed or is incomplete. Maybe your memory "
-"is full?"
-msgstr "從专业版導入圖像失敗或不完整。内存已滿？"
-
-#. PDF import
-msgctxt "pdf_import_page_selection_render_resolution"
-msgid "Resolution (dpi):"
-msgstr ""
-
-msgctxt "pdf_import_page_selection_output_image_resolution"
-msgid "Output resolution:"
-msgstr ""
-
-#, c-format
-msgctxt "pdf_import_page_selection_output_image_resolution_value"
-msgid "%1$.1f MP"
-msgstr ""
-
-#. dialog: export format
-msgctxt "dialog_export_format_image"
-msgid "Image (JPEG/PNG)"
-msgstr "圖片（JPEG / PNG）"
-
-msgctxt "dialog_export_format_pdf"
-msgid "PDF document"
-msgstr "PDF文件"
-
-msgctxt "dialog_export_format_zip"
-msgid "ZIP archive"
-msgstr "ZIP 檔案"
-
-msgctxt "dialog_export_format_imi"
-msgid "Editable ImageMeter Image (IMI)"
-msgstr "可編輯的 ImageMeter 圖像（IMI）"
-
-msgctxt "dialog_export_format_imf"
-msgid "ImageMeter folder (IMF)"
-msgstr "ImageMeter 文件夾（IMF）"
-
-msgctxt "dialog_export_format_gallery"
-msgid "Save to gallery"
-msgstr "保存到圖庫"
-
-msgctxt "dialog_export_format_show_next_time"
-msgid "Show format selection next time"
-msgstr "下次再顯示格式選擇"
-
-#. image export
-msgctxt "export_dialog_saving_images_to_external_storage"
-msgid "Saving images to external storage..."
-msgstr "正在將圖像存至外部介質..."
-
-msgctxt "export_dialog_image_saved_to_external_storage"
-msgid "Saved image to external storage..."
-msgstr "已將圖像存至外部介質..."
-
-#, c-format
-msgctxt "export_dialog_images_saved_to_external_storage"
-msgid "Saved %1$d images to external storage..."
-msgstr "已存儲 %1$d 张图像到外部储存介质"
-
-msgctxt "export_dialog_saving_images_success_title"
-msgid "Export finished"
-msgstr "導出完成"
-
-#, c-format
-msgctxt "export_dialog_saving_images_success_text"
-msgid ""
-"Images have been saved to folder '%1$s'.\n"
-"\n"
-"Maybe you can also find them more easily under /sdcard/Pictures."
-msgstr ""
-"圖像已經存至 '%1$s'.\n"
-"\n"
-"或許你能在這裡更快找到它們 /sdcard/Pictures. "
-
-msgctxt "export_dialog_overwrite_extpics_images_message"
-msgid "Images with the same name exist in the target directory."
-msgstr "目標文件夾中有同名圖像."
-
-msgctxt "export_dialog_overwrite_extpics_images_overwrite"
-msgid "Overwrite"
-msgstr "覆蓋"
-
-msgctxt "export_dialog_overwrite_extpics_images_keep_both"
-msgid "Rename"
-msgstr "重命名"
-
-msgctxt "export_dialog_overwrite_extpics_images_cancel"
-msgid "Cancel"
-msgstr "取消"
-
-msgctxt "export_dialog_overwrite_extpics_folder_message"
-msgid "A folder with the same name already exists."
-msgstr "同名文件夾已存在"
-
-msgctxt "export_dialog_overwrite_extpics_folder_replace"
-msgid "Replace"
-msgstr "取代"
-
-msgctxt "export_dialog_overwrite_extpics_folder_merge"
-msgid "Merge"
-msgstr "合併"
-
-msgctxt "export_dialog_overwrite_extpics_folder_cancel"
-msgid "Cancel"
-msgstr "取消"
-
-msgctxt "dialog_image_export_options_show_dialog"
-msgid "Show export options next time"
-msgstr "下次再顯示導出選項"
-
-msgctxt "dialog_image_export_use_default_options"
-msgid "Use default export options"
-msgstr ""
-
-msgctxt "dialog_image_export_image_format"
-msgid "Image format"
-msgstr "圖像格式"
-
-msgctxt "dialog_image_export_file_format"
-msgid "File format"
-msgstr "文件格式"
-
-msgctxt "dialog_image_export_overlays"
-msgid "Overlays"
-msgstr "疊加層"
-
-msgctxt "dialog_image_export_overlay_show_image_title"
-msgid "Show image title"
-msgstr "顯示圖片標題"
-
-msgctxt "dialog_image_export_size_original_image_size"
-msgid "Original image size"
-msgstr "原始图像尺寸"
-
-msgctxt "dialog_image_export_size_custom_size"
-msgid "Custom size"
-msgstr "自选尺寸"
-
-msgctxt "dialog_image_export_image_quality"
-msgid "Image quality"
-msgstr "畫面質量"
-
-msgctxt "dialog_image_export_image_size"
-msgid "Image size"
-msgstr "圖片尺寸"
-
-msgctxt "image_export_default_settings"
+msgctxt "pref_image_export_default_settings"
 msgid "Default image export settings"
 msgstr ""
-
-#. PDF export
-msgctxt "dialog_pdf_export_paper"
-msgid "Paper"
-msgstr "紙张尺幅"
-
-msgctxt "dialog_pdf_export_layout"
-msgid "Layout"
-msgstr "佈局"
-
-msgctxt "dialog_pdf_export_metadata"
-msgid "Metadata"
-msgstr "元數據"
-
-msgctxt "dialog_pdf_export_data_table"
-msgid "Data Table"
-msgstr ""
-
-msgctxt "dialog_pdf_export_space_for_notes"
-msgid "Space for image notes"
-msgstr "圖像備註的空間"
-
-msgctxt "dialog_pdf_export_print_table_of_content"
-msgid "Print table of content"
-msgstr "打印目錄"
-
-msgctxt "dialog_pdf_export_print_folder_notes"
-msgid "Print folder notes"
-msgstr "打印文件夾筆記"
-
-msgctxt "dialog_pdf_export_data_table_layout"
-msgid "Table layout"
-msgstr ""
-
-msgctxt "pdf_export_notification_generating_pdf"
-msgid "Generating PDF file"
-msgstr "生成 PDF 文件"
-
-#, c-format
-msgctxt "pdf_export_notification_progress"
-msgid "Rendering image %1$d of %2$d."
-msgstr "正在渲染 %2$d 张圖像中的第 %1$d 张。"
-
-msgctxt "pdf_export_table_of_contents"
-msgid "Table of contents"
-msgstr ""
-
-msgctxt "pdf_export_root_folder_title"
-msgid "ImageMeter export"
-msgstr ""
-
-#. - ZIP export
-msgctxt "dialog_zip_export_title"
-msgid "ZIP export"
-msgstr "ZIP 導出"
-
-msgctxt "dialog_zip_options_show_dialog"
-msgid "Show ZIP options next time"
-msgstr "下次再顯示 ZIP 選項"
-
-msgctxt "zip_export_notification_generating_title"
-msgid "Generating ZIP file"
-msgstr "ZIP 文件生成中"
-
-#, c-format
-msgctxt "zip_export_notification_progress"
-msgid "Rendering image %1$d of %2$d."
-msgstr "正在渲染 %2$d 张圖像中的第 %1$d 张。"
-
-#, c-format
-msgctxt "zip_export_notification_progress_pdf_step"
-msgid "PDF image %1$d of %2$d."
-msgstr "PDF 圖片 %1$d，共 %2$d 张。"
-
-msgctxt "zip_export_notification_progress_compressing_step"
-msgid "Compressing ZIP file..."
-msgstr "ZIP 文件压缩中..."
-
-#. CSV export
-msgctxt "dialog_csv_export_title"
-msgid "Data table export (CSV)"
-msgstr ""
-
-#. dialogs
-msgctxt "imageselect_dialog_image_name_image_title"
-msgid "Image name"
-msgstr "圖像標題"
-
-msgctxt "imageselect_dialog_image_name_title_hint"
-msgid "Enter image name"
-msgstr "輸入圖片名稱"
-
-#. string name="imageselect_dialog_image_name_capture_date">Capture
-#. date:</string
-msgctxt "imageselect_dialog_image_name_notes"
-msgid "Notes"
-msgstr "註記"
-
-msgctxt "imageselect_dialog_image_name_number"
-msgid "Number"
-msgstr "图像编号"
-
-msgctxt "imageselect_dialog_image_name_template"
-msgid "Template"
-msgstr ""
-
-msgctxt "dialog_clipboard_paste_options_title"
-msgid "Clipboard paste options"
-msgstr ""
-
-msgctxt "dialog_clipboard_paste_options_copy_measurements"
-msgid "Copy measurements"
-msgstr ""
-
-msgctxt "dialog_clipboard_paste_options_center_content"
-msgid "Center on image"
-msgstr ""
-
-#. Dialog: image import
-msgctxt "dialog_data_import_progress_message"
-msgid "Importing images ..."
-msgstr "圖像導入中..."
-
-#. Dialog: duplicate image import
-msgctxt "dialog_duplicate_image_import_title"
-msgid "Image Import"
-msgstr "導入圖像"
-
-#, c-format
-msgctxt "dialog_duplicate_image_import_message"
-msgid "Imported image '%1$s' already exists."
-msgstr "導入的圖像 '%1$s' 已存在"
-
-msgctxt "dialog_duplicate_image_import_overwrite"
-msgid "Overwrite"
-msgstr "覆蓋"
-
-msgctxt "dialog_duplicate_image_import_keep_both"
-msgid "Keep both"
-msgstr "共存"
-
-msgctxt "dialog_duplicate_image_import_skip"
-msgid "Skip"
-msgstr "跳過"
-
-msgctxt "dialog_duplicate_folder_import_title"
-msgid "Folder Import"
-msgstr "導入文件夾"
-
-#, c-format
-msgctxt "dialog_duplicate_folder_import_message"
-msgid ""
-"Imported folder '%1$s' already exists. %3$d images should be imported, "
-"out of which %2$d already exist locally."
-msgstr "導入的文件夾 '%1$s' 已存在。應導入 %3$d 張圖像，其中 %2$d 張已存在."
-
-#, c-format
-msgctxt "dialog_duplicate_folder_no_duplicate_images_import_message"
-msgid "Imported folder '%1$s' already exists, but there are no duplicate images."
-msgstr "導入的文件夾 '%1$s' 已存在，之中沒有重複的圖像."
-
-msgctxt "dialog_duplicate_folder_import_merge"
-msgid "Merge"
-msgstr "合併"
-
-msgctxt "dialog_duplicate_folder_import_overwrite"
-msgid "Overwrite"
-msgstr "覆蓋"
-
-msgctxt "dialog_duplicate_folder_import_keep_both"
-msgid "Keep both"
-msgstr "共存"
-
-msgctxt "dialog_duplicate_folder_import_skip"
-msgid "Skip"
-msgstr "跳過"
 
 #. Dialog: cloud login required
 msgctxt "dialog_cloud_login_required_title"
@@ -2157,115 +2026,10 @@ msgctxt "dialog_cloud_login_open_prefs_button"
 msgid "Open cloud preferences"
 msgstr "打开雲設置"
 
-#. Errors. TODO: check all errors in this section whether they are still
-#. required.
+#. Errors
 msgctxt "imageselect_error_imported_file_is_not_an_image"
 msgid "Imported file is not an image"
 msgstr "導入的文件並非圖像!"
-
-msgctxt "imageselect_error_cannot_edit_corrupted_image"
-msgid "The .imm file for this image is corrupted. You cannot edit the image."
-msgstr "這個圖像的 .imm 文件已損壞，无法被編輯。"
-
-msgctxt "imageselect_error_cannot_rename_corrupted_image"
-msgid "The .imm file for this image is corrupted. You cannot rename the image."
-msgstr "這個圖像的 .imm 文件已損壞，无法重命名。 "
-
-msgctxt "imageselect_error_cannot_export_corrupted_image"
-msgid "The images with the corrupted .imm files will not be exported."
-msgstr "這些圖像的 .imm 文件已損壞，无法被導出. "
-
-#, c-format
-msgctxt "imageselect_error_image_version_more_recent_open_editor_anyways"
-msgid ""
-"The file version of this image (%1$d) is more recent than the maximum "
-"version supported by the ImageMeter version installed (%2$d). Opening the"
-" file may result in lost data or wrong annotations. You should use a "
-"recent version of ImageMeter to open this file.\n"
-"\n"
-"Do you still want to open it?"
-msgstr ""
-"這張圖像 (%1$d) 被本软件的更高版本編輯過。您正使用的 ImageMeter 版本号是 "
-"(%2$d)。用本版打開該圖像可能導致圖像上的數據錯失。建議您使用本软件的更高版本來打開該文件。\n"
-"\n"
-"您確定要打開這個圖像？"
-
-msgctxt "imageselect_error_metadata_format_unknown"
-msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
-msgstr "未知文件格式，無法讀取該圖像的元數據文件 (.imm). "
-
-msgctxt "imageselect_error_cannot_modify_readonly_folder"
-msgid "This is an essential system folder, you cannot remove or rename it."
-msgstr "這是系統文件夾，不能刪除或者重命名。"
-
-msgctxt "imageselect_error_cannot_move_bundle_to_folder"
-msgid ""
-"Cannot move image to new folder (maybe an image with the same name "
-"already exists)."
-msgstr "無法將圖像轉移到目標文件夾（那裡可能存在同名圖像）。"
-
-msgctxt "imageselect_error_external_memory_unavailable"
-msgid ""
-"External memory (where your app-data is stored) is not available. Most "
-"probably, your device stores this data on an external SD card which is "
-"currently not available. If this is not the problem in your case, you may"
-" contact imagemeter@gmail.com."
-msgstr ""
-"外部儲存介質 （即本软件數據儲存之處）不可用。很可能您的数据储存在外部闪卡中，但该閃存卡現在未加载，或者不可用。如果不是這個問題，您可以聯繫 "
-"imagemeter@gmail.com. "
-
-#, c-format
-msgctxt "imageselect_error_folder_cannot_create"
-msgid ""
-"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
-"the media (e.g. SD-card) is mounted, this directory exists and is "
-"writable."
-msgstr "无法在這個文件夾 '%2$s' 內新建文件夾 '%1$s'。請確認這個儲存介質已經加載，並且该文件夾存在並可寫。"
-
-#, c-format
-msgctxt "imageselect_error_cannot_access_external_data"
-msgid "Cannot access external data at location '%1$s'."
-msgstr "無法讀寫在 '%1$s' 上的數據. "
-
-#, c-format
-msgctxt "imageselect_error_cannot_create_existing_folder"
-msgid "Cannot create folder '%1$s' because it already exists."
-msgstr "无法新建 '%1$s'，因其已存在。"
-
-#, c-format
-msgctxt "imageselect_error_folder_rename_target_exists"
-msgid "Cannot rename folder to '%1$s' because that already exists."
-msgstr "无法更名為 '%1$s' ，因其已存在。"
-
-#, c-format
-msgctxt "imageselect_error_folder_does_not_exist_detailed"
-msgid "Folder '%1$s' does not exist anymore (expected location '%2$s')."
-msgstr "文件夾 '%1$s' 已消失（預計路徑為 '%2$s'）。"
-
-#, c-format
-msgctxt "imageselect_error_cannot_write_data_bundle"
-msgid "Cannot write data for image '%1$s'."
-msgstr "无法写入圖像 '%1$s' 之數據。"
-
-#, c-format
-msgctxt "imageselect_error_cannot_write_data_bundle_detailed"
-msgid "Cannot write data for image '%1$s' (at location '%2$s')."
-msgstr "无法写入圖像數據 '%1$s' （目标路徑 '%2$s'）。"
-
-#, c-format
-msgctxt "imageselect_error_cannot_delete_data_bundle"
-msgid "Cannot delete image '%1$s'."
-msgstr "无法刪除文件 '%1$s'。"
-
-msgctxt "imageselect_error_internal_toast"
-msgid ""
-"An internal error happened. Please take a screenshot of the notification "
-"above and send this to me. Thank you!"
-msgstr "软件出错。請截屏並用電郵通知软件作者。十分感謝！"
-
-msgctxt "imageselect_error_url_of_imported_file_not_found"
-msgid "Image to be imported cannot be found."
-msgstr "無法找到待導入的圖像。"
 
 msgctxt "imageselect_error_cannot_capture_with_camera"
 msgid ""
@@ -2275,6 +2039,12 @@ msgid ""
 "install an alternative camera app."
 msgstr "無法启动照相程序。可能您的設備不帶照相機或者您的照相程序無法應答。您仍然可以試著從您的圖片庫導入照片，或者安裝另一個照相程序。"
 
+msgctxt "imageselect_error_internal_toast"
+msgid ""
+"An internal error happened. Please take a screenshot of the notification "
+"above and send this to me. Thank you!"
+msgstr "软件出错。請截屏並用電郵通知软件作者。十分感謝！"
+
 msgctxt "imageselect_error_no_image_import_activity"
 msgid "There is no app on the device from which we can import images."
 msgstr "設備上沒有可以導入圖像的應用程序。"
@@ -2282,26 +2052,6 @@ msgstr "設備上沒有可以導入圖像的應用程序。"
 msgctxt "imagelibrary_error_cannot_import_current_directory_is_not_valid"
 msgid "Cannot import image because the current directory is not valid."
 msgstr "當前路径無效，無法導入圖像。"
-
-#, c-format
-msgctxt "error_cannot_save_annotated_image"
-msgid "Cannot save annotated image because: '%1$s'."
-msgstr "無法保存帶註釋的圖像，原因：'%1$s'。"
-
-#, c-format
-msgctxt "error_cannot_save_thumbnail_image"
-msgid "Cannot save thumbnail image because: '%1$s'."
-msgstr "由於以下原因而無法保存縮略圖：'%1$s'。"
-
-#, c-format
-msgctxt "error_cannot_access_files_in_folder"
-msgid "Cannot access files in folder '%1$s'."
-msgstr "無法訪問文件夾 '%1$s' 中的文件。"
-
-#, c-format
-msgctxt "error_target_folder_contains_bundle_with_same_id"
-msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
-msgstr "文件夾 '%1$s' 包含與圖像 '%3$s' 具有相同ID的圖像 '%2$s'。"
 
 msgctxt "error_cannot_open_pdf"
 msgid "Cannot open link to PDF file"
@@ -2311,72 +2061,9 @@ msgctxt "error_cause_section_title"
 msgid "Cause:"
 msgstr "原因："
 
-#. storage errors
 msgctxt "storage_error_external_storage_unavailable"
 msgid "External storage (SD card?) not present."
 msgstr "外部存儲介質未加载或不存在。"
-
-msgctxt "storage_error_external_storage_read_only"
-msgid "External storage is read-only."
-msgstr "外部存儲介質仅可讀。"
-
-msgctxt "storage_error_external_storage_could_not_write_file"
-msgid "Could not write file to external memory."
-msgstr "无法写入外部存儲介質。"
-
-msgctxt "storage_error_external_storage_could_not_get_permission_to_write_images"
-msgid ""
-"Could not get permission to write to external storage. No files have been"
-" written."
-msgstr "在外部存儲介質上無寫入權限，文件尚未保存。"
-
-#, c-format
-msgctxt "storage_error_cannot_create_directory_on_external_storage"
-msgid "Could not create directory '%1$s' on external storage."
-msgstr "無法在外部存儲介質 '%1$s' 上創建目錄。"
-
-msgctxt "storage_error_external_storage_destination_is_no_directory"
-msgid "External storage destination is not a directory."
-msgstr "存儲目的地不是一個目錄。"
-
-#, c-format
-msgctxt "storage_error_data_bundle_corrupted"
-msgid "Data in image directory '%1$s' is corrupted."
-msgstr "图像文件夾 '%1$s' 中的數據已損壞。"
-
-msgctxt "storage_error_no_permission_to_read_image_to_be_imported"
-msgid ""
-"Cannot import image because the permission to read external storage has "
-"not been granted."
-msgstr "在外存中无读取权限，無法導入圖像。"
-
-#, c-format
-msgctxt "storage_error_cannot_read_ifd_file"
-msgid "Cannot read IFD file in folder '%1$s'."
-msgstr "無法讀取文件夾 '%1$s' 中的IFD文件。"
-
-#, c-format
-msgctxt "error_cannot_open_file_does_not_exist"
-msgid "Cannot open file '%1$s' because it does not exist."
-msgstr "無法打開文件 '%1$s'，因它不存在。"
-
-#, c-format
-msgctxt "error_cannot_open_file_is_folder"
-msgid "Cannot open file '%1$s' because it is a folder."
-msgstr "無法打開文件 '%1$s'，因它是文件夾。"
-
-#, c-format
-msgctxt "error_cannot_write_file"
-msgid "Cannot write to file '%1$s'."
-msgstr "無法寫入文件 '%1$s'。"
-
-msgctxt "storage_error_cannot_load_image_file_from_remote"
-msgid "Cannot load the image file from cloud storage."
-msgstr "無法從雲存儲加載圖像文件。"
-
-msgctxt "storage_note_pulling_image_file_from_remote"
-msgid "Downloading image file from cloud storage."
-msgstr "正在從雲存儲下載圖像文件。"
 
 #. filesystem errors
 msgctxt "error_cannot_delete_file"
@@ -6698,10 +6385,6 @@ msgctxt "welcome_message_show_at_startup"
 msgid "Show welcome message at startup"
 msgstr "在啟動時顯示歡迎消息"
 
-msgctxt "release_notes_filename"
-msgid "en.html"
-msgstr "en.html"
-
 #. info messages
 msgctxt "main_screen_info_message_pro_key_app_not_needed"
 msgid ""
@@ -6919,4 +6602,321 @@ msgstr ""
 msgctxt "sync_action_delete_remote"
 msgid "Delete on server"
 msgstr ""
+
+msgctxt "generic_action_undo"
+msgid "Undo"
+msgstr "撤消"
+
+msgctxt "generic_action_redo"
+msgid "Redo"
+msgstr "重做"
+
+msgctxt "generic_decimal_digits"
+msgid "Decimal digits"
+msgstr "小數位"
+
+#. links
+msgctxt "release_notes_filename"
+msgid "en.html"
+msgstr "en.html"
+
+#. ============ unused strings that we keep in case we need the translations
+#. later on ==========
+#. errors
+msgctxt "UNUSED_imageselect_error_cannot_edit_corrupted_image"
+msgid "The .imm file for this image is corrupted. You cannot edit the image."
+msgstr "這個圖像的 .imm 文件已損壞，无法被編輯。"
+
+msgctxt "UNUSED_imageselect_error_cannot_rename_corrupted_image"
+msgid "The .imm file for this image is corrupted. You cannot rename the image."
+msgstr "這個圖像的 .imm 文件已損壞，无法重命名。 "
+
+msgctxt "UNUSED_imageselect_error_cannot_export_corrupted_image"
+msgid "The images with the corrupted .imm files will not be exported."
+msgstr "這些圖像的 .imm 文件已損壞，无法被導出. "
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_image_version_more_recent_open_editor_anyways"
+msgid ""
+"The file version of this image (%1$d) is more recent than the maximum "
+"version supported by the ImageMeter version installed (%2$d). Opening the"
+" file may result in lost data or wrong annotations. You should use a "
+"recent version of ImageMeter to open this file.\n"
+"\n"
+"Do you still want to open it?"
+msgstr ""
+"這張圖像 (%1$d) 被本软件的更高版本編輯過。您正使用的 ImageMeter 版本号是 "
+"(%2$d)。用本版打開該圖像可能導致圖像上的數據錯失。建議您使用本软件的更高版本來打開該文件。\n"
+"\n"
+"您確定要打開這個圖像？"
+
+msgctxt "UNUSED_imageselect_error_metadata_format_unknown"
+msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
+msgstr "未知文件格式，無法讀取該圖像的元數據文件 (.imm). "
+
+msgctxt "UNUSED_imageselect_error_cannot_modify_readonly_folder"
+msgid "This is an essential system folder, you cannot remove or rename it."
+msgstr "這是系統文件夾，不能刪除或者重命名。"
+
+msgctxt "UNUSED_imageselect_error_cannot_move_bundle_to_folder"
+msgid ""
+"Cannot move image to new folder (maybe an image with the same name "
+"already exists)."
+msgstr "無法將圖像轉移到目標文件夾（那裡可能存在同名圖像）。"
+
+msgctxt "UNUSED_imageselect_error_external_memory_unavailable"
+msgid ""
+"External memory (where your app-data is stored) is not available. Most "
+"probably, your device stores this data on an external SD card which is "
+"currently not available. If this is not the problem in your case, you may"
+" contact imagemeter@gmail.com."
+msgstr ""
+"外部儲存介質 （即本软件數據儲存之處）不可用。很可能您的数据储存在外部闪卡中，但该閃存卡現在未加载，或者不可用。如果不是這個問題，您可以聯繫 "
+"imagemeter@gmail.com. "
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_folder_cannot_create"
+msgid ""
+"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
+"the media (e.g. SD-card) is mounted, this directory exists and is "
+"writable."
+msgstr "无法在這個文件夾 '%2$s' 內新建文件夾 '%1$s'。請確認這個儲存介質已經加載，並且该文件夾存在並可寫。"
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_access_external_data"
+msgid "Cannot access external data at location '%1$s'."
+msgstr "無法讀寫在 '%1$s' 上的數據. "
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_create_existing_folder"
+msgid "Cannot create folder '%1$s' because it already exists."
+msgstr "无法新建 '%1$s'，因其已存在。"
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_folder_rename_target_exists"
+msgid "Cannot rename folder to '%1$s' because that already exists."
+msgstr "无法更名為 '%1$s' ，因其已存在。"
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_folder_does_not_exist_detailed"
+msgid "Folder '%1$s' does not exist anymore (expected location '%2$s')."
+msgstr "文件夾 '%1$s' 已消失（預計路徑為 '%2$s'）。"
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_write_data_bundle"
+msgid "Cannot write data for image '%1$s'."
+msgstr "无法写入圖像 '%1$s' 之數據。"
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_write_data_bundle_detailed"
+msgid "Cannot write data for image '%1$s' (at location '%2$s')."
+msgstr "无法写入圖像數據 '%1$s' （目标路徑 '%2$s'）。"
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_delete_data_bundle"
+msgid "Cannot delete image '%1$s'."
+msgstr "无法刪除文件 '%1$s'。"
+
+msgctxt "UNUSED_imageselect_error_url_of_imported_file_not_found"
+msgid "Image to be imported cannot be found."
+msgstr "無法找到待導入的圖像。"
+
+#, c-format
+msgctxt "UNUSED_error_cannot_save_annotated_image"
+msgid "Cannot save annotated image because: '%1$s'."
+msgstr "無法保存帶註釋的圖像，原因：'%1$s'。"
+
+#, c-format
+msgctxt "UNUSED_error_cannot_save_thumbnail_image"
+msgid "Cannot save thumbnail image because: '%1$s'."
+msgstr "由於以下原因而無法保存縮略圖：'%1$s'。"
+
+#, c-format
+msgctxt "UNUSED_error_cannot_access_files_in_folder"
+msgid "Cannot access files in folder '%1$s'."
+msgstr "無法訪問文件夾 '%1$s' 中的文件。"
+
+#, c-format
+msgctxt "UNUSED_error_target_folder_contains_bundle_with_same_id"
+msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
+msgstr "文件夾 '%1$s' 包含與圖像 '%3$s' 具有相同ID的圖像 '%2$s'。"
+
+msgctxt "UNUSED_storage_error_external_storage_read_only"
+msgid "External storage is read-only."
+msgstr "外部存儲介質仅可讀。"
+
+msgctxt "UNUSED_storage_error_external_storage_could_not_write_file"
+msgid "Could not write file to external memory."
+msgstr "无法写入外部存儲介質。"
+
+msgctxt "UNUSED_storage_error_external_storage_could_not_get_permission_to_write_images"
+msgid ""
+"Could not get permission to write to external storage. No files have been"
+" written."
+msgstr "在外部存儲介質上無寫入權限，文件尚未保存。"
+
+#, c-format
+msgctxt "UNUSED_storage_error_cannot_create_directory_on_external_storage"
+msgid "Could not create directory '%1$s' on external storage."
+msgstr "無法在外部存儲介質 '%1$s' 上創建目錄。"
+
+msgctxt "UNUSED_storage_error_external_storage_destination_is_no_directory"
+msgid "External storage destination is not a directory."
+msgstr "存儲目的地不是一個目錄。"
+
+#, c-format
+msgctxt "UNUSED_storage_error_data_bundle_corrupted"
+msgid "Data in image directory '%1$s' is corrupted."
+msgstr "图像文件夾 '%1$s' 中的數據已損壞。"
+
+msgctxt "UNUSED_storage_error_no_permission_to_read_image_to_be_imported"
+msgid ""
+"Cannot import image because the permission to read external storage has "
+"not been granted."
+msgstr "在外存中无读取权限，無法導入圖像。"
+
+#, c-format
+msgctxt "UNUSED_storage_error_cannot_read_ifd_file"
+msgid "Cannot read IFD file in folder '%1$s'."
+msgstr "無法讀取文件夾 '%1$s' 中的IFD文件。"
+
+#, c-format
+msgctxt "UNUSED_error_cannot_open_file_does_not_exist"
+msgid "Cannot open file '%1$s' because it does not exist."
+msgstr "無法打開文件 '%1$s'，因它不存在。"
+
+#, c-format
+msgctxt "UNUSED_error_cannot_open_file_is_folder"
+msgid "Cannot open file '%1$s' because it is a folder."
+msgstr "無法打開文件 '%1$s'，因它是文件夾。"
+
+#, c-format
+msgctxt "UNUSED_error_cannot_write_file"
+msgid "Cannot write to file '%1$s'."
+msgstr "無法寫入文件 '%1$s'。"
+
+msgctxt "UNUSED_storage_error_cannot_load_image_file_from_remote"
+msgid "Cannot load the image file from cloud storage."
+msgstr "無法從雲存儲加載圖像文件。"
+
+msgctxt "UNUSED_storage_note_pulling_image_file_from_remote"
+msgid "Downloading image file from cloud storage."
+msgstr "正在從雲存儲下載圖像文件。"
+
+#. old gallery export
+#, fuzzy
+msgctxt "UNUSED_export_dialog_saving_images_to_external_storage"
+msgid "Saving images to external storage…"
+msgstr "正在將圖像存至外部介質..."
+
+#, fuzzy
+msgctxt "UNUSED_export_dialog_image_saved_to_external_storage"
+msgid "Saved image to external storage…"
+msgstr "已將圖像存至外部介質..."
+
+#, c-format, fuzzy
+msgctxt "UNUSED_export_dialog_images_saved_to_external_storage"
+msgid "Saved %1$d images to external storage…"
+msgstr "已存儲 %1$d 张图像到外部储存介质"
+
+msgctxt "UNUSED_export_dialog_saving_images_success_title"
+msgid "Export finished"
+msgstr "導出完成"
+
+#, c-format
+msgctxt "UNUSED_export_dialog_saving_images_success_text"
+msgid ""
+"Images have been saved to folder '%1$s'.\n"
+"\n"
+"Maybe you can also find them more easily under /sdcard/Pictures."
+msgstr ""
+"圖像已經存至 '%1$s'.\n"
+"\n"
+"或許你能在這裡更快找到它們 /sdcard/Pictures. "
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_images_message"
+msgid "Images with the same name exist in the target directory."
+msgstr "目標文件夾中有同名圖像."
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_images_overwrite"
+msgid "Overwrite"
+msgstr "覆蓋"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_images_keep_both"
+msgid "Rename"
+msgstr "重命名"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_images_cancel"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_message"
+msgid "A folder with the same name already exists."
+msgstr "同名文件夾已存在"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_replace"
+msgid "Replace"
+msgstr "取代"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_merge"
+msgid "Merge"
+msgstr "合併"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_cancel"
+msgid "Cancel"
+msgstr "取消"
+
+#. Dialog: duplicate image import
+msgctxt "UNUSED_dialog_duplicate_image_import_title"
+msgid "Image Import"
+msgstr "導入圖像"
+
+#, c-format
+msgctxt "UNUSED_dialog_duplicate_image_import_message"
+msgid "Imported image '%1$s' already exists."
+msgstr "導入的圖像 '%1$s' 已存在"
+
+msgctxt "UNUSED_dialog_duplicate_image_import_overwrite"
+msgid "Overwrite"
+msgstr "覆蓋"
+
+msgctxt "UNUSED_dialog_duplicate_image_import_keep_both"
+msgid "Keep both"
+msgstr "共存"
+
+msgctxt "UNUSED_dialog_duplicate_image_import_skip"
+msgid "Skip"
+msgstr "跳過"
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_title"
+msgid "Folder Import"
+msgstr "導入文件夾"
+
+#, c-format
+msgctxt "UNUSED_dialog_duplicate_folder_import_message"
+msgid ""
+"Imported folder '%1$s' already exists. %3$d images should be imported, "
+"out of which %2$d already exist locally."
+msgstr "導入的文件夾 '%1$s' 已存在。應導入 %3$d 張圖像，其中 %2$d 張已存在."
+
+#, c-format
+msgctxt "UNUSED_dialog_duplicate_folder_no_duplicate_images_import_message"
+msgid "Imported folder '%1$s' already exists, but there are no duplicate images."
+msgstr "導入的文件夾 '%1$s' 已存在，之中沒有重複的圖像."
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_merge"
+msgid "Merge"
+msgstr "合併"
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_overwrite"
+msgid "Overwrite"
+msgstr "覆蓋"
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_keep_both"
+msgid "Keep both"
+msgstr "共存"
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_skip"
+msgid "Skip"
+msgstr "跳過"
 

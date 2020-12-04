@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-04 14:09+0100\n"
+"POT-Creation-Date: 2020-12-04 17:48+0100\n"
 "PO-Revision-Date: 2020-08-31 17:28+0200\n"
 "Last-Translator: \n"
 "Language: cs\n"
@@ -31,11 +31,6 @@ msgstr ""
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
 msgstr "Zamítnout"
-
-#, fuzzy
-msgctxt "generic_button_import"
-msgid "Import"
-msgstr "Import"
 
 msgctxt "generic_dialog_title_error"
 msgid "Error"
@@ -71,19 +66,6 @@ msgstr "Opravdu smazat"
 msgctxt "generic_cancel_delete"
 msgid "Cancel"
 msgstr "zrušení"
-
-#, fuzzy
-msgctxt "generic_action_undo"
-msgid "Undo"
-msgstr "vrátit"
-
-msgctxt "generic_action_redo"
-msgid "Redo"
-msgstr "Znovu"
-
-msgctxt "generic_decimal_digits"
-msgid "Decimal digits"
-msgstr "Desetinná místa"
 
 #. image library
 #, fuzzy
@@ -394,75 +376,104 @@ msgid "Small grid"
 msgstr "Malá mřížka"
 
 #. dialog: rename folder
-msgctxt "foldername_dialog_folder_name"
+msgctxt "imageLibrary_folderNameDialog_name"
 msgid "Folder name"
 msgstr "Název složky"
 
-msgctxt "foldername_dialog_folder_name_hint"
+msgctxt "imageLibrary_folderNameDialog_name_hint"
 msgid "Enter folder name"
 msgstr "Název složky"
 
-msgctxt "foldername_dialog_notes"
-msgid "Notes"
-msgstr "Poznámky"
-
 #, fuzzy
-msgctxt "foldername_dialog_icon_color"
+msgctxt "imageLibrary_folderNameDialog_iconColor"
 msgid "Folder color"
 msgstr "Barva složky"
 
+msgctxt "imageLibrary_folderNameDialog_template"
+msgid "Template"
+msgstr ""
+
+msgctxt "imageLibrary_folderNameDialog_notes"
+msgid "Notes"
+msgstr "Poznámky"
+
+#. dialog: rename image
+msgctxt "imageLibrary_imageNameDialog_name"
+msgid "Image name"
+msgstr "Název obrázku"
+
+#, fuzzy
+msgctxt "imageLibrary_imageNameDialog_name_hint"
+msgid "Enter image name"
+msgstr "Zadejte název obrázku"
+
+msgctxt "imageLibrary_imageNameDialog_template"
+msgid "Template"
+msgstr ""
+
+#, fuzzy
+msgctxt "imageLibrary_imageNameDialog_number"
+msgid "Number"
+msgstr "Číslo"
+
+msgctxt "imageLibrary_imageNameDialog_notes"
+msgid "Notes"
+msgstr "Poznámky"
+
+#. dialog: clipboard paste
+msgctxt "imageLibrary_clipboardPasteDialog_title"
+msgid "Clipboard paste options"
+msgstr ""
+
+msgctxt "imageLibrary_clipboardPasteDialog_alsoCopyMeasurementValues"
+msgid "Copy measurements"
+msgstr ""
+
+msgctxt "imageLibrary_clipboardPasteDialog_centerAnnotationOnImage"
+msgid "Center on image"
+msgstr ""
+
+#. TODO: currently unused, but could be used again in the move-image dialog
 msgctxt "imageselect_dialog_move_image_to_folder_title"
 msgid "Choose target folder for the image"
 msgstr "Zvolte cílovou složku pro obrázek"
 
 #. dialog: about app
-msgctxt "imageselect_dialog_about_version"
+msgctxt "aboutApp_version"
 msgid "Version:"
 msgstr "Verze:"
 
-msgctxt "imageselect_dialog_about_license"
+msgctxt "aboutApp_license"
 msgid "License:"
 msgstr "Licence:"
 
 #, fuzzy
-msgctxt "imageselect_dialog_about_source"
+msgctxt "aboutApp_downloadSource"
 msgid "Source:"
 msgstr "Zdroj:"
 
-msgctxt "imageselect_dialog_about_license_evaluation"
-msgid "Free Evaluation"
-msgstr "Verze zdarma"
-
-msgctxt "imageselect_dialog_about_license_pro"
-msgid "Pro"
-msgstr "Pro"
-
-msgctxt "imageselect_dialog_about_license_business"
-msgid "Business"
-msgstr "Business"
-
 #, fuzzy
-msgctxt "imageselect_dialog_about_tutorial_link"
+msgctxt "aboutApp_tutorialLink"
 msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
 msgstr "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">video tutoriál</a>"
 
 #, fuzzy
-msgctxt "imageselect_dialog_about_documentation_link"
+msgctxt "aboutApp_documentationLink"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
 msgstr "<a href=\"https://www.imagemeter.com/manual\">Dokumentace</a>"
 
 #, fuzzy
-msgctxt "imageselect_dialog_about_release_notes"
+msgctxt "aboutApp_releaseNotes"
 msgid "<a href=\"release-notes\">Release notes</a>"
 msgstr "<a href=\"release-notes\">Poznámky k vydání</a>"
 
 #, fuzzy
-msgctxt "imageselect_dialog_about_contact_link"
+msgctxt "aboutApp_contactLink"
 msgid "<a href=\"mailto:imagemeter@gmail.com\">Contact email</a>"
 msgstr "<a href=\"mailto:imagemeter@gmail.com\">Kontaktní email</a>"
 
 #, fuzzy
-msgctxt "imageselect_dialog_about_privacy_policy_link"
+msgctxt "aboutApp_privacyPolicyLink"
 msgid ""
 "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
 "policy</a>"
@@ -471,58 +482,102 @@ msgstr ""
 "ochrany osobních údajů</a>"
 
 #, fuzzy
-msgctxt "imageselect_dialog_about_licenses"
+msgctxt "aboutApp_licenses"
 msgid "<a href=\"licenses\">Licenses</a>"
 msgstr "<a href=\"licenses\">Licence</a>"
 
-#. upgrade
-msgctxt "license_source_in_app"
-msgid "In-app"
-msgstr "V aplikaci"
-
-#, fuzzy
-msgctxt "license_source_native"
-msgid "Native"
-msgstr "Native"
-
-#, fuzzy
-msgctxt "license_source_pro_key_app"
-msgid "Pro-key app"
-msgstr "Aplikace pro klíč"
-
-#, fuzzy
-msgctxt "license_source_volume_key"
-msgid "Volume key"
-msgstr "Tlačítko hlasitosti"
-
+#. upgrade dialog
 #, c-format, fuzzy
-msgctxt "upgrade_dialog_pay_once"
+msgctxt "upgradeDialog_addonPrice_once"
 msgid "%1$s once"
 msgstr "%1$s jednou"
 
 #, c-format, fuzzy
-msgctxt "upgrade_dialog_pay_monthly"
+msgctxt "upgradeDialog_addonPrice_monthly"
 msgid "%1$s/month"
 msgstr "%1$s/měsíc"
 
 #, fuzzy
-msgctxt "upgrade_dialog_first_month_free"
+msgctxt "upgradeDialog_addonPrice_firstMonthFree"
 msgid "First month free"
 msgstr "První měsíc zdarma"
 
 #, fuzzy
-msgctxt "upgrade_dialog_pro_name"
+msgctxt "upgradeDialog_purchaseButton_pro"
+msgid "Upgrade to Pro"
+msgstr "Upgradujte na Pro"
+
+#, fuzzy
+msgctxt "upgradeDialog_purchaseButton_addon"
+msgid "Activate Addon"
+msgstr "Aktivujte Addon"
+
+#, fuzzy
+msgctxt "upgradeDialog_purchaseButton_business"
+msgid "Upgrade to Business"
+msgstr "Upgradujte na Business"
+
+#, fuzzy
+msgctxt "upgradeDialog_purchaseButton_disabled_addonIsActive"
+msgid "Add-on is active"
+msgstr "Doplněk je aktivní"
+
+#, fuzzy
+msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable"
+msgid "Store unavailable"
+msgstr "Obchod není k dispozici"
+
+#, fuzzy
+msgctxt "upgradeDialog_volumeLicenseButton"
+msgid "Enter volume license code"
+msgstr "Zadejte kód hromadné licence"
+
+#, fuzzy
+msgctxt "upgradeDialog_backButton"
+msgid "Back"
+msgstr "Zadní"
+
+#, fuzzy
+msgctxt "upgradeDialog_moreInformationLink"
+msgid ""
+"For more information about these features, &lt;a "
+"href=\"https://www.imagemeter.com/manual/license/android-"
+"licenses\"&gt;visit the website&lt;/a&gt;."
+msgstr ""
+"Další informace o těchto funkcích najdete na webových stránkách <lt / a "
+"href = \"https://www.imagemeter.com/manual/license/android-licenses\" & "
+"gt ;."
+
+#. specification of the add-ons and their feature items
+#, fuzzy
+msgctxt "upgrade_addon_advancedAnnotation_purchaseBoxTitle"
+msgid "Advanced Annotation Add-On"
+msgstr "Rozšířený doplněk anotací"
+
+#, fuzzy
+msgctxt "upgrade_addon_advancedAnnotation_addonName"
+msgid "Advanced Annotation"
+msgstr "Pokročilá anotace"
+
+#, fuzzy
+msgctxt "upgrade_addon_pro_purchaseBoxTitle"
 msgid "Pro"
 msgstr "Pro"
 
-msgctxt "upgrade_dialog_business_name"
+#, fuzzy
+msgctxt "upgrade_addon_pro_addonName"
+msgid "Pro"
+msgstr "Pro"
+
+#, fuzzy
+msgctxt "upgrade_addon_business_purchaseBoxTitle"
 msgid "Business"
 msgstr "Business"
 
 #, fuzzy
-msgctxt "upgrade_dialog_button_activate_addon"
-msgid "Activate Addon"
-msgstr "Aktivujte Addon"
+msgctxt "upgrade_addon_business_addonName"
+msgid "Business"
+msgstr "Business"
 
 #, fuzzy
 msgctxt "upgrade_item_no_watermarks"
@@ -602,46 +657,552 @@ msgctxt "upgrade_item_all_addon_packs"
 msgid "Includes Pro and all add-on packs"
 msgstr "Zahrnuje Pro a všechny balíčky doplňků"
 
-#, fuzzy
-msgctxt "upgrade_dialog_more_information_link"
+#. dialogs that explain why we need an upgrade
+#, c-format, fuzzy
+msgctxt "needUpgradeDialog_titleTemplate"
+msgid "%1$s Add-On"
+msgstr "%1$s Add-On"
+
+#, c-format, fuzzy
+msgctxt "needUpgradeDialog_createSubfolders"
+msgid "Creating subfolders is included in the '%1$s' add-on."
+msgstr "Vytváření podsložek je součástí doplňku '%1$s."
+
+#, c-format, fuzzy
+msgctxt "needUpgradeDialog_moveFolders"
+msgid "Moving folders into other folders is included in the '%1$s' add-on."
+msgstr "Přesun složek do jiných složek je součástí doplňku '%1$s'."
+
+#, c-format, fuzzy
+msgctxt "needUpgradeDialog_audioNotes"
+msgid "Recording audio notes is included in the '%1$s' add-on."
+msgstr "Nahrávání zvukových poznámek je součástí doplňku '%1$s'."
+
+#, c-format, fuzzy
+msgctxt "needUpgradeDialog_detailImages"
+msgid "Adding detail images is included in the '%1$s' add-on."
+msgstr "Přidání podrobných obrázků je součástí doplňku '%1$s'."
+
+#, c-format, fuzzy
+msgctxt "needUpgradeDialog_pdfImport"
+msgid "PDF import is included in the '%1$s' add-on."
+msgstr "Import PDF je součástí doplňku '%1$s'."
+
+#, c-format, fuzzy
+msgctxt "needUpgradeDialog_text_tryWithExamples"
+msgid "You can try this function with the example images (in folder '%1$s')."
+msgstr "Tuto funkci můžete vyzkoušet s ukázkovými obrázky (ve složce '%1$s')."
+
+#, c-format, fuzzy
+msgctxt "needUpgradeDialog_text_createAndtryWithExamples"
 msgid ""
-"For more information about these features, &lt;a "
-"href=\"https://www.imagemeter.com/manual/license/android-"
-"licenses\"&gt;visit the website&lt;/a&gt;."
+"You can try this function with the example images (<a "
+"href=\"create\">create folder '%1$s'</a>)."
 msgstr ""
-"Další informace o těchto funkcích najdete na webových stránkách <lt / a "
-"href = \"https://www.imagemeter.com/manual/license/android-licenses\" & "
-"gt ;."
+"Tuto funkci můžete vyzkoušet pomocí vzorových obrázků (<a "
+"href=\"create\">vytvořit složku '%1$s'</a>)."
+
+#, c-format, fuzzy
+msgctxt "needUpgradeDialog_editingTool"
+msgid "This tool is available in the '%1$s' add-on."
+msgstr "Tento nástroj je k dispozici v doplňku '%1$s'."
+
+msgctxt "needUpgradeDialog_exportDataTables"
+msgid "Exporting data tables is available in the Business version."
+msgstr ""
+
+#. TODO: demo video
+msgctxt "needUpgradeDialog_button_getBusinessVersion"
+msgid "Upgrade to Business version"
+msgstr "Upgradujte na verzi Business"
 
 #, fuzzy
-msgctxt "upgrade_dialog_button_pro_upgrade"
-msgid "Upgrade to Pro"
-msgstr "Upgradujte na Pro"
+msgctxt "needUpgradeDialog_button_getUpgrade"
+msgid "Upgrade"
+msgstr "Vylepšit"
 
 #, fuzzy
-msgctxt "upgrade_dialog_button_business_upgrade"
-msgid "Upgrade to Business"
-msgstr "Upgradujte na Business"
+msgctxt "dialog_migrate_for_addon_packs_title"
+msgid "Activate Add-on Pack"
+msgstr "Aktivujte balíček doplňků"
 
 #, fuzzy
-msgctxt "upgrade_dialog_button_back"
-msgid "Back"
-msgstr "Zadní"
+msgctxt "dialog_migrate_for_addon_packs_text"
+msgid ""
+"Since this native Pro-version is going to be replaced by the free version"
+" with in-app upgrades, add-on packs are only available in the free "
+"version. Please migrate to the free version. Your Pro upgrade will stay "
+"active."
+msgstr ""
+"Protože tato nativní verze Pro bude nahrazena bezplatnou verzí "
+"aktualizacemi v aplikaci, jsou doplňkové balíčky k dispozici pouze v "
+"bezplatné verzi. Přejděte na bezplatnou verzi. Vaše aktualizace Pro "
+"zůstane aktivní."
 
 #, fuzzy
-msgctxt "upgrade_dialog_button_volume_license"
-msgid "Enter volume license code"
-msgstr "Zadejte kód hromadné licence"
+msgctxt "dialog_migrate_for_addon_packs_download_text"
+msgid "Download the free version from here:"
+msgstr "Stáhněte si bezplatnou verzi zde:"
 
 #, fuzzy
-msgctxt "upgrade_dialog_button_addon_is_active"
-msgid "Add-on is active"
-msgstr "Doplněk je aktivní"
+msgctxt "dialog_migrate_for_addon_packs_open_instructions"
+msgid "Show migration instructions"
+msgstr "Zobrazit pokyny k migraci"
+
+#. licensing: volume key dialog
+msgctxt "licensing_volume_key_title"
+msgid "Volume key"
+msgstr "Tlačítko hlasitosti"
 
 #, fuzzy
-msgctxt "upgrade_dialog_button_store_unavailable"
-msgid "Store unavailable"
-msgstr "Obchod není k dispozici"
+msgctxt "licensing_volume_key_note"
+msgid ""
+"Note: you don't need to enter any key when you purchased through the "
+"Google Play store."
+msgstr "Poznámka: Při nákupu v obchodě Google Play nemusíte zadávat žádný klíč."
+
+#, fuzzy
+msgctxt "licensing_volume_key_description"
+msgid "Please enter your volume key:"
+msgstr "Zadejte klíč hlasitosti:"
+
+#, fuzzy
+msgctxt "licensing_volume_key_send_button"
+msgid "Send"
+msgstr "Poslat"
+
+#, fuzzy
+msgctxt "licensing_volume_key_error_parse_server_response"
+msgid "Error parsing server response."
+msgstr "Chyba při analýze odpovědi serveru."
+
+#, fuzzy
+msgctxt "licensing_volume_key_error_invalid_license_code"
+msgid "Invalid license code."
+msgstr "Neplatný licenční kód."
+
+#, fuzzy
+msgctxt "licensing_volume_key_success"
+msgid "License activated"
+msgstr "Licence aktivována"
+
+#. in-app payment
+#, fuzzy
+msgctxt "inapp_error_billing_unavailable"
+msgid "Billing is not available."
+msgstr "Fakturace není k dispozici."
+
+#, fuzzy
+msgctxt "inapp_error_feature_not_supported"
+msgid "Feature is not supported."
+msgstr "Funkce není podporována."
+
+#, fuzzy
+msgctxt "inapp_error_item_already_owned"
+msgid "Item is already owned."
+msgstr "Položka je již ve vlastnictví."
+
+#, fuzzy
+msgctxt "inapp_error_item_unavailable"
+msgid "Item is unavailable."
+msgstr "Položka není k dispozici."
+
+#, fuzzy
+msgctxt "inapp_error_service_disconnected"
+msgid "PlayStore temporarily disconnected, try again later."
+msgstr "PlayStore se dočasně odpojil, zkuste to znovu později."
+
+#, fuzzy
+msgctxt "inapp_error_service_unavailable"
+msgid "Network down, cannot reach PlayStore."
+msgstr "Síť dolů, nelze dosáhnout PlayStore."
+
+#, fuzzy
+msgctxt "inapp_error_user_canceled"
+msgid "Purchase canceled by user."
+msgstr "Nákup zrušen uživatelem."
+
+#, fuzzy
+msgctxt "inapp_error_signature_check_failed"
+msgid "Signature check failed."
+msgstr "Kontrola podpisu se nezdařila."
+
+#, c-format, fuzzy
+msgctxt "inapp_error_unknown"
+msgid "Unknown error, result code: '%1$d', response '%2$s'."
+msgstr "Neznámá chyba, kód výsledku: '%1$d', odpověď '%2$s'."
+
+#, fuzzy
+msgctxt "inapp_error_developer_error"
+msgid "Developer error."
+msgstr "Chyba vývojáře."
+
+#, fuzzy
+msgctxt "inapp_error_generic_error"
+msgid "Generic error."
+msgstr "Obecná chyba."
+
+#, fuzzy
+msgctxt "inapp_error_item_not_owned"
+msgid "Item is not owned."
+msgstr "Položka není vlastněna."
+
+#, fuzzy
+msgctxt "inapp_error_service_timeout"
+msgid "Service timeout."
+msgstr "Časový limit služby."
+
+#. TODO: these names should be a simple summary name for the "About App"
+#. dialog. But this does not work well with the          add-ons. Replace it
+#. with a different system.
+msgctxt "upgrade_licenseName_freeEvaluation"
+msgid "Free Evaluation"
+msgstr "Verze zdarma"
+
+msgctxt "upgrade_licenseName_pro"
+msgid "Pro"
+msgstr "Pro"
+
+msgctxt "upgrade_licenseName_business"
+msgid "Business"
+msgstr "Business"
+
+msgctxt "license_source_in_app"
+msgid "In-app"
+msgstr "V aplikaci"
+
+#, fuzzy
+msgctxt "license_source_native"
+msgid "Native"
+msgstr "Native"
+
+#, fuzzy
+msgctxt "license_source_pro_key_app"
+msgid "Pro-key app"
+msgstr "Aplikace pro klíč"
+
+#, fuzzy
+msgctxt "license_source_volume_key"
+msgid "Volume key"
+msgstr "Tlačítko hlasitosti"
+
+#. example images
+msgctxt "example_folder_name"
+msgid "Examples"
+msgstr "Příklady"
+
+msgctxt "tutorial_images_1"
+msgid "Example 1: Measure on a 2D floor plan"
+msgstr "Příklad 1: Měření na 2D půdorysu"
+
+msgctxt "tutorial_images_2"
+msgid "Example 2: Measure a flat object"
+msgstr "Příklad 2: Měření plochého objektu"
+
+msgctxt "tutorial_images_3"
+msgid "Example 3: Perspectively distorted wall"
+msgstr "Příklad 3: Perspektivně deformovaná zeď"
+
+#, fuzzy
+msgctxt "tutorial_images_4"
+msgid "Example 4: Perspective height measurement"
+msgstr "Příklad 4: Perspektivní měření výšky"
+
+#. image import (TODO: move to editcore. Also Pdf import name?)
+msgctxt "default_image_name_prefix_with_date"
+msgid "image from {M} {d}, {yyyy}"
+msgstr "obrázek z {d} {M}, {yyyy}"
+
+#, fuzzy
+msgctxt "default_image_name_from_unnamed_pdf"
+msgid "PDF import, page {page}"
+msgstr "Import PDF, stránka {page}"
+
+#, fuzzy
+msgctxt "default_image_name_from_pdf"
+msgid "{name}, page {page}"
+msgstr "{name}, stránka {page}"
+
+#. image import from free app
+msgctxt "snackbar_pro_to_free_migration"
+msgid "Pro-version app migration"
+msgstr "Pro-verze migrace aplikace"
+
+#, fuzzy
+msgctxt "snackbar_pro_to_free_migration_info"
+msgid "Info"
+msgstr "Info"
+
+#, fuzzy
+msgctxt "snackbar_pro_to_free_migration_url"
+msgid "https://www.imagemeter.com/manual/license/pro-version-migration"
+msgstr "https://www.imagemeter.com/manual/license/pro-version-migration"
+
+#, fuzzy
+msgctxt "import_pro_app_data"
+msgid "Import images from Pro app"
+msgstr "Importujte obrázky z aplikace Pro"
+
+#, fuzzy
+msgctxt "import_pro_app_data_started_text"
+msgid ""
+"Importing has started to run in the background. When it is finished, "
+"please check that the images were copied correctly and delete them in the"
+" Pro app to save memory space."
+msgstr ""
+"Import začal běžet na pozadí. Po dokončení zkontrolujte, zda byly obrázky"
+" zkopírovány správně, a vymažte je v aplikaci Pro, abyste ušetřili místo "
+"v paměti."
+
+#, fuzzy
+msgctxt "import_pro_app_data_local_not_empty"
+msgid ""
+"Warning: there are images in this app. Importing the images from the Pro "
+"app may overwrite images with the same name."
+msgstr ""
+"Upozornění: v této aplikaci jsou obrázky. Import obrázků z aplikace Pro "
+"může přepsat obrázky se stejným názvem."
+
+#, fuzzy
+msgctxt "import_pro_app_data_local_not_empty_anyway"
+msgid "Import anyway"
+msgstr "Importovat přesto"
+
+#, fuzzy
+msgctxt "import_pro_app_data_title"
+msgid "Importing images from Pro app"
+msgstr "Import obrázků z aplikace Pro"
+
+#, fuzzy
+msgctxt "import_pro_app_data_scan_progress_text"
+msgid "Please wait, searching for images to copy."
+msgstr "Počkejte prosím, vyhledejte obrázky ke zkopírování."
+
+#, c-format, fuzzy
+msgctxt "import_pro_app_data_progress_text"
+msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
+msgstr "Počkejte prosím, %1$d hotových obrázků %2$d (%3$d chyb)."
+
+#, fuzzy
+msgctxt "import_pro_app_data_finished"
+msgid ""
+"Images from the Pro app are now imported. After checking that the images "
+"were imported correctly, you may want to delete the images in the Pro app"
+" to save memory space."
+msgstr ""
+"Obrázky z aplikace Pro jsou nyní importovány. Po ověření, že byly obrázky"
+" importovány správně, možná budete chtít obrázky v aplikaci Pro "
+"odstranit, abyste ušetřili místo v paměti."
+
+#, fuzzy
+msgctxt "import_pro_app_data_failed"
+msgid ""
+"Image import from Pro app has failed or is incomplete. Maybe your memory "
+"is full?"
+msgstr ""
+"Import obrázku z aplikace Pro selhal nebo je neúplný. Možná je vaše paměť"
+" plná?"
+
+#. PDF import dialog
+msgctxt "pdf_import_page_selection_render_resolution"
+msgid "Resolution (dpi):"
+msgstr "Rozlišení (dpi):"
+
+#, fuzzy
+msgctxt "pdf_import_page_selection_output_image_resolution"
+msgid "Output resolution:"
+msgstr "Výstupní rozlišení:"
+
+#, c-format
+msgctxt "pdf_import_page_selection_output_image_resolution_value"
+msgid "%1$.1f MP"
+msgstr "%1$.1f MP"
+
+#, fuzzy
+msgctxt "pdf_import_page_selection_importButton"
+msgid "Import"
+msgstr "Import"
+
+#. dialog: export format
+msgctxt "dialog_export_format_image"
+msgid "Image (JPEG/PNG)"
+msgstr "Obrázek (JPEG/PNG)"
+
+#, fuzzy
+msgctxt "dialog_export_format_pdf"
+msgid "PDF document"
+msgstr "Dokument PDF"
+
+#, fuzzy
+msgctxt "dialog_export_format_zip"
+msgid "ZIP archive"
+msgstr "ZIP archiv"
+
+#, fuzzy
+msgctxt "dialog_export_format_imi"
+msgid "Editable ImageMeter Image (IMI)"
+msgstr "Upravitelný obraz ImageMeter (IMI)"
+
+#, fuzzy
+msgctxt "dialog_export_format_imf"
+msgid "ImageMeter folder (IMF)"
+msgstr "Složka ImageMeter (IMF)"
+
+#, fuzzy
+msgctxt "dialog_export_format_gallery"
+msgid "Save to gallery"
+msgstr "Uložit do galerie"
+
+#, fuzzy
+msgctxt "dialog_export_format_show_next_time"
+msgid "Show format selection next time"
+msgstr "Zobrazit příště výběr formátu"
+
+#. image export
+#, fuzzy
+msgctxt "dialog_image_export_options_show_dialog"
+msgid "Show export options next time"
+msgstr "Zobrazit možnosti exportu příště"
+
+#, fuzzy
+msgctxt "dialog_image_export_use_default_options"
+msgid "Use default export options"
+msgstr "Použijte výchozí možnosti exportu"
+
+#, fuzzy
+msgctxt "dialog_image_export_image_format"
+msgid "Image format"
+msgstr "Formát obrázku"
+
+#, fuzzy
+msgctxt "dialog_image_export_file_format"
+msgid "File format"
+msgstr "Formát souboru"
+
+#, fuzzy
+msgctxt "dialog_image_export_overlays"
+msgid "Overlays"
+msgstr "Překryvné vrstvy"
+
+#, fuzzy
+msgctxt "dialog_image_export_overlay_show_image_title"
+msgid "Show image title"
+msgstr "Zobrazit název obrázku"
+
+#, fuzzy
+msgctxt "dialog_image_export_size_original_image_size"
+msgid "Original image size"
+msgstr "Původní velikost obrázku"
+
+#, fuzzy
+msgctxt "dialog_image_export_size_custom_size"
+msgid "Custom size"
+msgstr "Vlastní velikost"
+
+#, fuzzy
+msgctxt "dialog_image_export_image_quality"
+msgid "Image quality"
+msgstr "Kvalita obrazu"
+
+#, fuzzy
+msgctxt "dialog_image_export_image_size"
+msgid "Image size"
+msgstr "Velikost obrázku"
+
+#. PDF export
+msgctxt "dialog_pdf_export_paper"
+msgid "Paper"
+msgstr "Papír"
+
+#, fuzzy
+msgctxt "dialog_pdf_export_layout"
+msgid "Layout"
+msgstr "Rozložení"
+
+#, fuzzy
+msgctxt "dialog_pdf_export_metadata"
+msgid "Metadata"
+msgstr "Metadata"
+
+msgctxt "dialog_pdf_export_data_table"
+msgid "Data Table"
+msgstr ""
+
+#, fuzzy
+msgctxt "dialog_pdf_export_space_for_notes"
+msgid "Space for image notes"
+msgstr "Prostor pro obrazové poznámky"
+
+#, fuzzy
+msgctxt "dialog_pdf_export_print_table_of_content"
+msgid "Print table of content"
+msgstr "Tisk obsahu"
+
+#, fuzzy
+msgctxt "dialog_pdf_export_print_folder_notes"
+msgid "Print folder notes"
+msgstr "Tisk poznámek ke složce"
+
+msgctxt "dialog_pdf_export_data_table_layout"
+msgid "Table layout"
+msgstr ""
+
+#. PDF export progress notification
+#, fuzzy
+msgctxt "pdf_export_notification_generating_pdf"
+msgid "Generating PDF file"
+msgstr "Generuje se soubor PDF"
+
+#, c-format, fuzzy
+msgctxt "pdf_export_notification_progress"
+msgid "Rendering image %1$d of %2$d."
+msgstr "Vykreslování obrázku %1$d z %2$d."
+
+#, fuzzy
+msgctxt "pdf_export_table_of_contents"
+msgid "Table of contents"
+msgstr "Obsah"
+
+#, fuzzy
+msgctxt "pdf_export_root_folder_title"
+msgid "ImageMeter export"
+msgstr "Export ImageMeter"
+
+#. - ZIP export
+msgctxt "dialog_zip_export_title"
+msgid "ZIP export"
+msgstr "Export do ZIP"
+
+#, fuzzy
+msgctxt "dialog_zip_options_show_dialog"
+msgid "Show ZIP options next time"
+msgstr "Při příštím zobrazení možností ZIP"
+
+#. ZIP export progress notification
+#, fuzzy
+msgctxt "zip_export_notification_generating_title"
+msgid "Generating ZIP file"
+msgstr "Generování ZIP souboru"
+
+#, c-format, fuzzy
+msgctxt "zip_export_notification_progress"
+msgid "Rendering image %1$d of %2$d."
+msgstr "Vykreslování obrázku %1$d z %2$d."
+
+#, c-format, fuzzy
+msgctxt "zip_export_notification_progress_pdf_step"
+msgid "PDF image %1$d of %2$d."
+msgstr "Obrázek PDF %1$d z %2$d."
+
+#, fuzzy
+msgctxt "zip_export_notification_progress_compressing_step"
+msgid "Compressing ZIP file…"
+msgstr "Komprimace souboru ZIP ..."
+
+#. CSV export
+msgctxt "dialog_csv_export_title"
+msgid "Data table export (CSV)"
+msgstr ""
 
 msgctxt "pref_main_title"
 msgid "Settings"
@@ -1662,709 +2223,10 @@ msgctxt "pref_template_partslist_row_show_footer"
 msgid "Show footer row"
 msgstr ""
 
-#. licensing: volume key dialog
-msgctxt "licensing_volume_key_title"
-msgid "Volume key"
-msgstr "Tlačítko hlasitosti"
-
 #, fuzzy
-msgctxt "licensing_volume_key_note"
-msgid ""
-"Note: you don't need to enter any key when you purchased through the "
-"Google Play store."
-msgstr "Poznámka: Při nákupu v obchodě Google Play nemusíte zadávat žádný klíč."
-
-#, fuzzy
-msgctxt "licensing_volume_key_description"
-msgid "Please enter your volume key:"
-msgstr "Zadejte klíč hlasitosti:"
-
-#, fuzzy
-msgctxt "licensing_volume_key_send_button"
-msgid "Send"
-msgstr "Poslat"
-
-#, fuzzy
-msgctxt "licensing_volume_key_error_parse_server_response"
-msgid "Error parsing server response."
-msgstr "Chyba při analýze odpovědi serveru."
-
-#, fuzzy
-msgctxt "licensing_volume_key_error_invalid_license_code"
-msgid "Invalid license code."
-msgstr "Neplatný licenční kód."
-
-#, fuzzy
-msgctxt "licensing_volume_key_success"
-msgid "License activated"
-msgstr "Licence aktivována"
-
-#. in-app payment
-msgctxt "inapp_upgrade_to_business_button"
-msgid "Upgrade to Business version"
-msgstr "Upgradujte na verzi Business"
-
-#, fuzzy
-msgctxt "inapp_upgrade_to_pro_button"
-msgid "Upgrade"
-msgstr "Vylepšit"
-
-#, fuzzy
-msgctxt "inapp_error_billing_unavailable"
-msgid "Billing is not available."
-msgstr "Fakturace není k dispozici."
-
-#, fuzzy
-msgctxt "inapp_error_feature_not_supported"
-msgid "Feature is not supported."
-msgstr "Funkce není podporována."
-
-#, fuzzy
-msgctxt "inapp_error_item_already_owned"
-msgid "Item is already owned."
-msgstr "Položka je již ve vlastnictví."
-
-#, fuzzy
-msgctxt "inapp_error_item_unavailable"
-msgid "Item is unavailable."
-msgstr "Položka není k dispozici."
-
-#, fuzzy
-msgctxt "inapp_error_service_disconnected"
-msgid "PlayStore temporarily disconnected, try again later."
-msgstr "PlayStore se dočasně odpojil, zkuste to znovu později."
-
-#, fuzzy
-msgctxt "inapp_error_service_unavailable"
-msgid "Network down, cannot reach PlayStore."
-msgstr "Síť dolů, nelze dosáhnout PlayStore."
-
-#, fuzzy
-msgctxt "inapp_error_user_canceled"
-msgid "Purchase canceled by user."
-msgstr "Nákup zrušen uživatelem."
-
-#, fuzzy
-msgctxt "inapp_error_signature_check_failed"
-msgid "Signature check failed."
-msgstr "Kontrola podpisu se nezdařila."
-
-#, c-format, fuzzy
-msgctxt "inapp_error_unknown"
-msgid "Unknown error, result code: '%1$d', response '%2$s'."
-msgstr "Neznámá chyba, kód výsledku: '%1$d', odpověď '%2$s'."
-
-#, fuzzy
-msgctxt "inapp_error_developer_error"
-msgid "Developer error."
-msgstr "Chyba vývojáře."
-
-#, fuzzy
-msgctxt "inapp_error_generic_error"
-msgid "Generic error."
-msgstr "Obecná chyba."
-
-#, fuzzy
-msgctxt "inapp_error_item_not_owned"
-msgid "Item is not owned."
-msgstr "Položka není vlastněna."
-
-#, fuzzy
-msgctxt "inapp_error_service_timeout"
-msgid "Service timeout."
-msgstr "Časový limit služby."
-
-#, fuzzy
-msgctxt "addon_advanced_annotation_purchase_title"
-msgid "Advanced Annotation Add-On"
-msgstr "Rozšířený doplněk anotací"
-
-#, fuzzy
-msgctxt "addon_advanced_annotation_title"
-msgid "Advanced Annotation"
-msgstr "Pokročilá anotace"
-
-#, fuzzy
-msgctxt "addon_pro_purchase_title"
-msgid "Pro"
-msgstr "Pro"
-
-#, fuzzy
-msgctxt "addon_pro_title"
-msgid "Pro"
-msgstr "Pro"
-
-#, fuzzy
-msgctxt "addon_business_purchase_title"
-msgid "Business"
-msgstr "Business"
-
-#, fuzzy
-msgctxt "addon_business_title"
-msgid "Business"
-msgstr "Business"
-
-#, c-format, fuzzy
-msgctxt "dialog_need_upgrade_title_template"
-msgid "%1$s Add-On"
-msgstr "%1$s Add-On"
-
-#, c-format, fuzzy
-msgctxt "dialog_need_upgrade_create_subfolders"
-msgid "Creating subfolders is included in the '%1$s' add-on."
-msgstr "Vytváření podsložek je součástí doplňku '%1$s."
-
-#, c-format, fuzzy
-msgctxt "dialog_need_upgrade_move_folders"
-msgid "Moving folders into other folders is included in the '%1$s' add-on."
-msgstr "Přesun složek do jiných složek je součástí doplňku '%1$s'."
-
-#, c-format, fuzzy
-msgctxt "dialog_need_upgrade_audio_notes"
-msgid "Recording audio notes is included in the '%1$s' add-on."
-msgstr "Nahrávání zvukových poznámek je součástí doplňku '%1$s'."
-
-#, c-format, fuzzy
-msgctxt "dialog_need_upgrade_detail_image"
-msgid "Adding detail images is included in the '%1$s' add-on."
-msgstr "Přidání podrobných obrázků je součástí doplňku '%1$s'."
-
-#, c-format, fuzzy
-msgctxt "dialog_need_upgrade_pdf_import"
-msgid "PDF import is included in the '%1$s' add-on."
-msgstr "Import PDF je součástí doplňku '%1$s'."
-
-#, c-format, fuzzy
-msgctxt "dialog_need_upgrade_example_images_text"
-msgid "You can try this function with the example images (in folder '%1$s')."
-msgstr "Tuto funkci můžete vyzkoušet s ukázkovými obrázky (ve složce '%1$s')."
-
-#, c-format, fuzzy
-msgctxt "dialog_need_upgrade_create_example_images_text"
-msgid ""
-"You can try this function with the example images (<a "
-"href=\"create\">create folder '%1$s'</a>)."
-msgstr ""
-"Tuto funkci můžete vyzkoušet pomocí vzorových obrázků (<a "
-"href=\"create\">vytvořit složku '%1$s'</a>)."
-
-#, c-format, fuzzy
-msgctxt "dialog_need_upgrade_tool_message"
-msgid "This tool is available in the '%1$s' add-on."
-msgstr "Tento nástroj je k dispozici v doplňku '%1$s'."
-
-msgctxt "dialog_need_upgrade_data_table_export_message"
-msgid "Exporting data tables is available in the Business version."
-msgstr ""
-
-#. TODO: demo video
-#, fuzzy
-msgctxt "dialog_migrate_for_addon_packs_title"
-msgid "Activate Add-on Pack"
-msgstr "Aktivujte balíček doplňků"
-
-#, fuzzy
-msgctxt "dialog_migrate_for_addon_packs_text"
-msgid ""
-"Since this native Pro-version is going to be replaced by the free version"
-" with in-app upgrades, add-on packs are only available in the free "
-"version. Please migrate to the free version. Your Pro upgrade will stay "
-"active."
-msgstr ""
-"Protože tato nativní verze Pro bude nahrazena bezplatnou verzí "
-"aktualizacemi v aplikaci, jsou doplňkové balíčky k dispozici pouze v "
-"bezplatné verzi. Přejděte na bezplatnou verzi. Vaše aktualizace Pro "
-"zůstane aktivní."
-
-#, fuzzy
-msgctxt "dialog_migrate_for_addon_packs_download_text"
-msgid "Download the free version from here:"
-msgstr "Stáhněte si bezplatnou verzi zde:"
-
-#, fuzzy
-msgctxt "dialog_migrate_for_addon_packs_open_instructions"
-msgid "Show migration instructions"
-msgstr "Zobrazit pokyny k migraci"
-
-#. tutorial
-msgctxt "example_folder_name"
-msgid "Examples"
-msgstr "Příklady"
-
-msgctxt "tutorial_images_1"
-msgid "Example 1: Measure on a 2D floor plan"
-msgstr "Příklad 1: Měření na 2D půdorysu"
-
-msgctxt "tutorial_images_2"
-msgid "Example 2: Measure a flat object"
-msgstr "Příklad 2: Měření plochého objektu"
-
-msgctxt "tutorial_images_3"
-msgid "Example 3: Perspectively distorted wall"
-msgstr "Příklad 3: Perspektivně deformovaná zeď"
-
-#, fuzzy
-msgctxt "tutorial_images_4"
-msgid "Example 4: Perspective height measurement"
-msgstr "Příklad 4: Perspektivní měření výšky"
-
-#. image import
-msgctxt "default_image_name"
-msgid "unnamed image"
-msgstr "nepojmenovaný obrázek"
-
-msgctxt "default_image_name_prefix_with_date"
-msgid "image from {M} {d}, {yyyy}"
-msgstr "obrázek z {d} {M}, {yyyy}"
-
-#, fuzzy
-msgctxt "default_image_name_from_unnamed_pdf"
-msgid "PDF import, page {page}"
-msgstr "Import PDF, stránka {page}"
-
-#, fuzzy
-msgctxt "default_image_name_from_pdf"
-msgid "{name}, page {page}"
-msgstr "{name}, stránka {page}"
-
-#. image import from free app
-msgctxt "snackbar_pro_to_free_migration"
-msgid "Pro-version app migration"
-msgstr "Pro-verze migrace aplikace"
-
-#, fuzzy
-msgctxt "snackbar_pro_to_free_migration_info"
-msgid "Info"
-msgstr "Info"
-
-#, fuzzy
-msgctxt "snackbar_pro_to_free_migration_url"
-msgid "https://www.imagemeter.com/manual/license/pro-version-migration"
-msgstr "https://www.imagemeter.com/manual/license/pro-version-migration"
-
-#, fuzzy
-msgctxt "import_pro_app_data"
-msgid "Import images from Pro app"
-msgstr "Importujte obrázky z aplikace Pro"
-
-#, fuzzy
-msgctxt "import_pro_app_data_started_text"
-msgid ""
-"Importing has started to run in the background. When it is finished, "
-"please check that the images were copied correctly and delete them in the"
-" Pro app to save memory space."
-msgstr ""
-"Import začal běžet na pozadí. Po dokončení zkontrolujte, zda byly obrázky"
-" zkopírovány správně, a vymažte je v aplikaci Pro, abyste ušetřili místo "
-"v paměti."
-
-#, fuzzy
-msgctxt "import_pro_app_data_local_not_empty"
-msgid ""
-"Warning: there are images in this app. Importing the images from the Pro "
-"app may overwrite images with the same name."
-msgstr ""
-"Upozornění: v této aplikaci jsou obrázky. Import obrázků z aplikace Pro "
-"může přepsat obrázky se stejným názvem."
-
-#, fuzzy
-msgctxt "import_pro_app_data_local_not_empty_anyway"
-msgid "Import anyway"
-msgstr "Importovat přesto"
-
-#, fuzzy
-msgctxt "import_pro_app_data_title"
-msgid "Importing images from Pro app"
-msgstr "Import obrázků z aplikace Pro"
-
-#, fuzzy
-msgctxt "import_pro_app_data_scan_progress_text"
-msgid "Please wait, searching for images to copy."
-msgstr "Počkejte prosím, vyhledejte obrázky ke zkopírování."
-
-#, c-format, fuzzy
-msgctxt "import_pro_app_data_progress_text"
-msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
-msgstr "Počkejte prosím, %1$d hotových obrázků %2$d (%3$d chyb)."
-
-#, fuzzy
-msgctxt "import_pro_app_data_finished"
-msgid ""
-"Images from the Pro app are now imported. After checking that the images "
-"were imported correctly, you may want to delete the images in the Pro app"
-" to save memory space."
-msgstr ""
-"Obrázky z aplikace Pro jsou nyní importovány. Po ověření, že byly obrázky"
-" importovány správně, možná budete chtít obrázky v aplikaci Pro "
-"odstranit, abyste ušetřili místo v paměti."
-
-#, fuzzy
-msgctxt "import_pro_app_data_failed"
-msgid ""
-"Image import from Pro app has failed or is incomplete. Maybe your memory "
-"is full?"
-msgstr ""
-"Import obrázku z aplikace Pro selhal nebo je neúplný. Možná je vaše paměť"
-" plná?"
-
-#. PDF import
-msgctxt "pdf_import_page_selection_render_resolution"
-msgid "Resolution (dpi):"
-msgstr "Rozlišení (dpi):"
-
-#, fuzzy
-msgctxt "pdf_import_page_selection_output_image_resolution"
-msgid "Output resolution:"
-msgstr "Výstupní rozlišení:"
-
-#, c-format
-msgctxt "pdf_import_page_selection_output_image_resolution_value"
-msgid "%1$.1f MP"
-msgstr "%1$.1f MP"
-
-#. dialog: export format
-msgctxt "dialog_export_format_image"
-msgid "Image (JPEG/PNG)"
-msgstr "Obrázek (JPEG/PNG)"
-
-#, fuzzy
-msgctxt "dialog_export_format_pdf"
-msgid "PDF document"
-msgstr "Dokument PDF"
-
-#, fuzzy
-msgctxt "dialog_export_format_zip"
-msgid "ZIP archive"
-msgstr "ZIP archiv"
-
-#, fuzzy
-msgctxt "dialog_export_format_imi"
-msgid "Editable ImageMeter Image (IMI)"
-msgstr "Upravitelný obraz ImageMeter (IMI)"
-
-#, fuzzy
-msgctxt "dialog_export_format_imf"
-msgid "ImageMeter folder (IMF)"
-msgstr "Složka ImageMeter (IMF)"
-
-#, fuzzy
-msgctxt "dialog_export_format_gallery"
-msgid "Save to gallery"
-msgstr "Uložit do galerie"
-
-#, fuzzy
-msgctxt "dialog_export_format_show_next_time"
-msgid "Show format selection next time"
-msgstr "Zobrazit příště výběr formátu"
-
-#. image export
-msgctxt "export_dialog_saving_images_to_external_storage"
-msgid "Saving images to external storage..."
-msgstr "Ukládání obrázků do externího úložiště..."
-
-msgctxt "export_dialog_image_saved_to_external_storage"
-msgid "Saved image to external storage..."
-msgstr "Uložen obrázek do externího úložiště..."
-
-#, c-format
-msgctxt "export_dialog_images_saved_to_external_storage"
-msgid "Saved %1$d images to external storage..."
-msgstr "Uloženo %1$d obrázků do externího úložiště..."
-
-msgctxt "export_dialog_saving_images_success_title"
-msgid "Export finished"
-msgstr "Export dokončen"
-
-#, c-format
-msgctxt "export_dialog_saving_images_success_text"
-msgid ""
-"Images have been saved to folder '%1$s'.\n"
-"\n"
-"Maybe you can also find them more easily under /sdcard/Pictures."
-msgstr ""
-"Obrázky byly uloženy do složky '%1$s'.\n"
-"\n"
-"Možná je můžete také lehčeji najít pod /sdcard/Pictures."
-
-msgctxt "export_dialog_overwrite_extpics_images_message"
-msgid "Images with the same name exist in the target directory."
-msgstr "Obrázky se stejným jménem existují v cílovém adresáři."
-
-msgctxt "export_dialog_overwrite_extpics_images_overwrite"
-msgid "Overwrite"
-msgstr "Přepsat"
-
-msgctxt "export_dialog_overwrite_extpics_images_keep_both"
-msgid "Rename"
-msgstr "Přejmenovat"
-
-msgctxt "export_dialog_overwrite_extpics_images_cancel"
-msgid "Cancel"
-msgstr "Zrušit"
-
-msgctxt "export_dialog_overwrite_extpics_folder_message"
-msgid "A folder with the same name already exists."
-msgstr "Složka se stejným jménem již existuje."
-
-msgctxt "export_dialog_overwrite_extpics_folder_replace"
-msgid "Replace"
-msgstr "Nahradit"
-
-msgctxt "export_dialog_overwrite_extpics_folder_merge"
-msgid "Merge"
-msgstr "Sloučit"
-
-msgctxt "export_dialog_overwrite_extpics_folder_cancel"
-msgid "Cancel"
-msgstr "Zrušit"
-
-#, fuzzy
-msgctxt "dialog_image_export_options_show_dialog"
-msgid "Show export options next time"
-msgstr "Zobrazit možnosti exportu příště"
-
-#, fuzzy
-msgctxt "dialog_image_export_use_default_options"
-msgid "Use default export options"
-msgstr "Použijte výchozí možnosti exportu"
-
-#, fuzzy
-msgctxt "dialog_image_export_image_format"
-msgid "Image format"
-msgstr "Formát obrázku"
-
-#, fuzzy
-msgctxt "dialog_image_export_file_format"
-msgid "File format"
-msgstr "Formát souboru"
-
-#, fuzzy
-msgctxt "dialog_image_export_overlays"
-msgid "Overlays"
-msgstr "Překryvné vrstvy"
-
-#, fuzzy
-msgctxt "dialog_image_export_overlay_show_image_title"
-msgid "Show image title"
-msgstr "Zobrazit název obrázku"
-
-#, fuzzy
-msgctxt "dialog_image_export_size_original_image_size"
-msgid "Original image size"
-msgstr "Původní velikost obrázku"
-
-#, fuzzy
-msgctxt "dialog_image_export_size_custom_size"
-msgid "Custom size"
-msgstr "Vlastní velikost"
-
-#, fuzzy
-msgctxt "dialog_image_export_image_quality"
-msgid "Image quality"
-msgstr "Kvalita obrazu"
-
-#, fuzzy
-msgctxt "dialog_image_export_image_size"
-msgid "Image size"
-msgstr "Velikost obrázku"
-
-#, fuzzy
-msgctxt "image_export_default_settings"
+msgctxt "pref_image_export_default_settings"
 msgid "Default image export settings"
 msgstr "Výchozí nastavení exportu obrázku"
-
-#. PDF export
-msgctxt "dialog_pdf_export_paper"
-msgid "Paper"
-msgstr "Papír"
-
-#, fuzzy
-msgctxt "dialog_pdf_export_layout"
-msgid "Layout"
-msgstr "Rozložení"
-
-#, fuzzy
-msgctxt "dialog_pdf_export_metadata"
-msgid "Metadata"
-msgstr "Metadata"
-
-msgctxt "dialog_pdf_export_data_table"
-msgid "Data Table"
-msgstr ""
-
-#, fuzzy
-msgctxt "dialog_pdf_export_space_for_notes"
-msgid "Space for image notes"
-msgstr "Prostor pro obrazové poznámky"
-
-#, fuzzy
-msgctxt "dialog_pdf_export_print_table_of_content"
-msgid "Print table of content"
-msgstr "Tisk obsahu"
-
-#, fuzzy
-msgctxt "dialog_pdf_export_print_folder_notes"
-msgid "Print folder notes"
-msgstr "Tisk poznámek ke složce"
-
-msgctxt "dialog_pdf_export_data_table_layout"
-msgid "Table layout"
-msgstr ""
-
-#, fuzzy
-msgctxt "pdf_export_notification_generating_pdf"
-msgid "Generating PDF file"
-msgstr "Generuje se soubor PDF"
-
-#, c-format, fuzzy
-msgctxt "pdf_export_notification_progress"
-msgid "Rendering image %1$d of %2$d."
-msgstr "Vykreslování obrázku %1$d z %2$d."
-
-#, fuzzy
-msgctxt "pdf_export_table_of_contents"
-msgid "Table of contents"
-msgstr "Obsah"
-
-#, fuzzy
-msgctxt "pdf_export_root_folder_title"
-msgid "ImageMeter export"
-msgstr "Export ImageMeter"
-
-#. - ZIP export
-msgctxt "dialog_zip_export_title"
-msgid "ZIP export"
-msgstr "Export do ZIP"
-
-#, fuzzy
-msgctxt "dialog_zip_options_show_dialog"
-msgid "Show ZIP options next time"
-msgstr "Při příštím zobrazení možností ZIP"
-
-#, fuzzy
-msgctxt "zip_export_notification_generating_title"
-msgid "Generating ZIP file"
-msgstr "Generování ZIP souboru"
-
-#, c-format, fuzzy
-msgctxt "zip_export_notification_progress"
-msgid "Rendering image %1$d of %2$d."
-msgstr "Vykreslování obrázku %1$d z %2$d."
-
-#, c-format, fuzzy
-msgctxt "zip_export_notification_progress_pdf_step"
-msgid "PDF image %1$d of %2$d."
-msgstr "Obrázek PDF %1$d z %2$d."
-
-#, fuzzy
-msgctxt "zip_export_notification_progress_compressing_step"
-msgid "Compressing ZIP file..."
-msgstr "Komprimace souboru ZIP ..."
-
-#. CSV export
-msgctxt "dialog_csv_export_title"
-msgid "Data table export (CSV)"
-msgstr ""
-
-#. dialogs
-msgctxt "imageselect_dialog_image_name_image_title"
-msgid "Image name"
-msgstr "Název obrázku"
-
-#, fuzzy
-msgctxt "imageselect_dialog_image_name_title_hint"
-msgid "Enter image name"
-msgstr "Zadejte název obrázku"
-
-#. string name="imageselect_dialog_image_name_capture_date">Capture
-#. date:</string
-msgctxt "imageselect_dialog_image_name_notes"
-msgid "Notes"
-msgstr "Poznámky"
-
-#, fuzzy
-msgctxt "imageselect_dialog_image_name_number"
-msgid "Number"
-msgstr "Číslo"
-
-msgctxt "imageselect_dialog_image_name_template"
-msgid "Template"
-msgstr ""
-
-msgctxt "dialog_clipboard_paste_options_title"
-msgid "Clipboard paste options"
-msgstr ""
-
-msgctxt "dialog_clipboard_paste_options_copy_measurements"
-msgid "Copy measurements"
-msgstr ""
-
-msgctxt "dialog_clipboard_paste_options_center_content"
-msgid "Center on image"
-msgstr ""
-
-#. Dialog: image import
-msgctxt "dialog_data_import_progress_message"
-msgid "Importing images ..."
-msgstr "Importuji obrázky..."
-
-#. Dialog: duplicate image import
-msgctxt "dialog_duplicate_image_import_title"
-msgid "Image Import"
-msgstr "Import obrázků"
-
-#, c-format
-msgctxt "dialog_duplicate_image_import_message"
-msgid "Imported image '%1$s' already exists."
-msgstr "Importovaný obrázek '%1$s' již existuje."
-
-msgctxt "dialog_duplicate_image_import_overwrite"
-msgid "Overwrite"
-msgstr "Přepsat"
-
-msgctxt "dialog_duplicate_image_import_keep_both"
-msgid "Keep both"
-msgstr "Zachovat oba"
-
-msgctxt "dialog_duplicate_image_import_skip"
-msgid "Skip"
-msgstr "Přeskočit"
-
-msgctxt "dialog_duplicate_folder_import_title"
-msgid "Folder Import"
-msgstr "Importovat složku"
-
-#, c-format
-msgctxt "dialog_duplicate_folder_import_message"
-msgid ""
-"Imported folder '%1$s' already exists. %3$d images should be imported, "
-"out of which %2$d already exist locally."
-msgstr ""
-"Importovaná složka '%1$s' již existuje. %3$d obrázku by mělo být "
-"importováno, z nichž %2$d již existuje lokálně."
-
-#, c-format
-msgctxt "dialog_duplicate_folder_no_duplicate_images_import_message"
-msgid "Imported folder '%1$s' already exists, but there are no duplicate images."
-msgstr ""
-"Importovaná složka '%1$s' již existuje, ale nejsou zde žádné duplicitní "
-"obrázky."
-
-msgctxt "dialog_duplicate_folder_import_merge"
-msgid "Merge"
-msgstr "Sloučit"
-
-msgctxt "dialog_duplicate_folder_import_overwrite"
-msgid "Overwrite"
-msgstr "Přepsat"
-
-msgctxt "dialog_duplicate_folder_import_keep_both"
-msgid "Keep both"
-msgstr "Zachovat oba"
-
-msgctxt "dialog_duplicate_folder_import_skip"
-msgid "Skip"
-msgstr "Přeskočit"
 
 #. Dialog: cloud login required
 msgctxt "dialog_cloud_login_required_title"
@@ -2385,126 +2247,10 @@ msgctxt "dialog_cloud_login_open_prefs_button"
 msgid "Open cloud preferences"
 msgstr "Otevřené cloudové preference"
 
-#. Errors. TODO: check all errors in this section whether they are still
-#. required.
+#. Errors
 msgctxt "imageselect_error_imported_file_is_not_an_image"
 msgid "Imported file is not an image"
 msgstr "Importovaný soubor není obrázek"
-
-msgctxt "imageselect_error_cannot_edit_corrupted_image"
-msgid "The .imm file for this image is corrupted. You cannot edit the image."
-msgstr "Soubor .imm je pro tento obrázek poškozený. Obrázek nemůžete upravit."
-
-msgctxt "imageselect_error_cannot_rename_corrupted_image"
-msgid "The .imm file for this image is corrupted. You cannot rename the image."
-msgstr "Soubor .imm je pro tento obrázek poškozený. Obrázek nemůžete přejmenovat."
-
-msgctxt "imageselect_error_cannot_export_corrupted_image"
-msgid "The images with the corrupted .imm files will not be exported."
-msgstr "Obrázky s poškozenými soubory .imm nebudou exportovány."
-
-#, c-format
-msgctxt "imageselect_error_image_version_more_recent_open_editor_anyways"
-msgid ""
-"The file version of this image (%1$d) is more recent than the maximum "
-"version supported by the ImageMeter version installed (%2$d). Opening the"
-" file may result in lost data or wrong annotations. You should use a "
-"recent version of ImageMeter to open this file.\n"
-"\n"
-"Do you still want to open it?"
-msgstr ""
-"Verze souboru tohoto obrázku (%1$d) je novější než maximální verze "
-"podporovaná nainstalovanou verzí ImageMeter (%2$d). Otevření souboru může"
-" způsobit ztrátu dat nebo nesprávné poznámky. Chcete-li tento soubor "
-"otevřít, měli byste použít nejnovější verzi aplikace ImageMeter.\n"
-"\n"
-"Chcete ho stále otevřít?"
-
-msgctxt "imageselect_error_metadata_format_unknown"
-msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
-msgstr "Soubor image metadata (.imm) nelze přečíst, protože formát není známý."
-
-msgctxt "imageselect_error_cannot_modify_readonly_folder"
-msgid "This is an essential system folder, you cannot remove or rename it."
-msgstr "Toto je nezbytná systémová složka, nelze ji odstranit nebo přejmenovat."
-
-msgctxt "imageselect_error_cannot_move_bundle_to_folder"
-msgid ""
-"Cannot move image to new folder (maybe an image with the same name "
-"already exists)."
-msgstr ""
-"Nelze přesunout obrázek do nové složky (možná obrázek se stejným názvem "
-"již existuje)."
-
-msgctxt "imageselect_error_external_memory_unavailable"
-msgid ""
-"External memory (where your app-data is stored) is not available. Most "
-"probably, your device stores this data on an external SD card which is "
-"currently not available. If this is not the problem in your case, you may"
-" contact imagemeter@gmail.com."
-msgstr ""
-"Externí paměť (kde jsou uložena vaše app-data) není k dispozici. S "
-"největší pravděpodobností váš přístroj ukládá tato data na externí SD "
-"kartu, která v současné době není k dispozici. Pokud toto ve vašem "
-"případě není problém, můžete kontaktovat imagemeter@gmail.com."
-
-#, c-format
-msgctxt "imageselect_error_folder_cannot_create"
-msgid ""
-"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
-"the media (e.g. SD-card) is mounted, this directory exists and is "
-"writable."
-msgstr ""
-"Nelze vytvořit složku '%1$s' v tomto adresáři:.'%2$s' Ujistěte se, že "
-"média (např. SD-karta) jsou připojena, tento adresář existuje a lze na "
-"něj zapisovat."
-
-#, c-format
-msgctxt "imageselect_error_cannot_access_external_data"
-msgid "Cannot access external data at location '%1$s'."
-msgstr "Nelze získat přístup k externím datům v místě '%1$s'."
-
-#, c-format
-msgctxt "imageselect_error_cannot_create_existing_folder"
-msgid "Cannot create folder '%1$s' because it already exists."
-msgstr "Nelze vytvořit složku '%1$s', protože již existuje."
-
-#, c-format
-msgctxt "imageselect_error_folder_rename_target_exists"
-msgid "Cannot rename folder to '%1$s' because that already exists."
-msgstr "Nelze přejmenovat složku na '%1$s' protože taková již existuje."
-
-#, c-format
-msgctxt "imageselect_error_folder_does_not_exist_detailed"
-msgid "Folder '%1$s' does not exist anymore (expected location '%2$s')."
-msgstr "Složka '%1$s' již neexistuje (očekávané umístění '%2$s' )."
-
-#, c-format
-msgctxt "imageselect_error_cannot_write_data_bundle"
-msgid "Cannot write data for image '%1$s'."
-msgstr "Nelze zapsat data pro obraz '%1$s'."
-
-#, c-format
-msgctxt "imageselect_error_cannot_write_data_bundle_detailed"
-msgid "Cannot write data for image '%1$s' (at location '%2$s')."
-msgstr "Nelze zapsat data pro obraz '%1$s' (v místě '%2$s' )."
-
-#, c-format
-msgctxt "imageselect_error_cannot_delete_data_bundle"
-msgid "Cannot delete image '%1$s'."
-msgstr "Nelze odstranit snímek '%1$s'."
-
-msgctxt "imageselect_error_internal_toast"
-msgid ""
-"An internal error happened. Please take a screenshot of the notification "
-"above and send this to me. Thank you!"
-msgstr ""
-"Došlo k vnitřní chybě. Prosím, vytvořte screenshot oznámení výše a "
-"pošlete mi ho. Děkuji!"
-
-msgctxt "imageselect_error_url_of_imported_file_not_found"
-msgid "Image to be imported cannot be found."
-msgstr "Obrázek, který se má importovat, nelze najít."
 
 msgctxt "imageselect_error_cannot_capture_with_camera"
 msgid ""
@@ -2518,6 +2264,14 @@ msgstr ""
 "požadavek snímání. Stále můžete importovat obrázky z galerie, nebo můžete"
 " zkusit nainstalovat alternativní aplikace fotoaparátu."
 
+msgctxt "imageselect_error_internal_toast"
+msgid ""
+"An internal error happened. Please take a screenshot of the notification "
+"above and send this to me. Thank you!"
+msgstr ""
+"Došlo k vnitřní chybě. Prosím, vytvořte screenshot oznámení výše a "
+"pošlete mi ho. Děkuji!"
+
 #, fuzzy
 msgctxt "imageselect_error_no_image_import_activity"
 msgid "There is no app on the device from which we can import images."
@@ -2527,26 +2281,6 @@ msgstr "V zařízení není žádná aplikace, ze které můžeme importovat obr
 msgctxt "imagelibrary_error_cannot_import_current_directory_is_not_valid"
 msgid "Cannot import image because the current directory is not valid."
 msgstr "Nelze importovat obrázek, protože aktuální adresář není platný."
-
-#, c-format, fuzzy
-msgctxt "error_cannot_save_annotated_image"
-msgid "Cannot save annotated image because: '%1$s'."
-msgstr "Nelze uložit anotovaný obrázek, protože: '%1$s'."
-
-#, c-format, fuzzy
-msgctxt "error_cannot_save_thumbnail_image"
-msgid "Cannot save thumbnail image because: '%1$s'."
-msgstr "Obrázek náhledu nelze uložit, protože: '%1$s'."
-
-#, c-format, fuzzy
-msgctxt "error_cannot_access_files_in_folder"
-msgid "Cannot access files in folder '%1$s'."
-msgstr "Nelze získat přístup k souborům ve složce '%1$s'."
-
-#, c-format, fuzzy
-msgctxt "error_target_folder_contains_bundle_with_same_id"
-msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
-msgstr "Složka '%1$s' obsahuje obrázek '%2$s' se stejným ID jako obrázek '%3$s'."
 
 #, fuzzy
 msgctxt "error_cannot_open_pdf"
@@ -2558,79 +2292,9 @@ msgctxt "error_cause_section_title"
 msgid "Cause:"
 msgstr "Způsobit:"
 
-#. storage errors
 msgctxt "storage_error_external_storage_unavailable"
 msgid "External storage (SD card?) not present."
 msgstr "Externí úložiště (SD karta?) není přítomno."
-
-msgctxt "storage_error_external_storage_read_only"
-msgid "External storage is read-only."
-msgstr "Externí úložiště je jen pro čtení."
-
-msgctxt "storage_error_external_storage_could_not_write_file"
-msgid "Could not write file to external memory."
-msgstr "Nelze zapsat soubor do externí paměti."
-
-#, fuzzy
-msgctxt "storage_error_external_storage_could_not_get_permission_to_write_images"
-msgid ""
-"Could not get permission to write to external storage. No files have been"
-" written."
-msgstr ""
-"Nelze získat oprávnění pro zápis na externí úložiště. Žádné soubory "
-"nebyly zapsány."
-
-#, c-format
-msgctxt "storage_error_cannot_create_directory_on_external_storage"
-msgid "Could not create directory '%1$s' on external storage."
-msgstr "Nelze vytvořit adresář '%1$s' na externím úložišti."
-
-msgctxt "storage_error_external_storage_destination_is_no_directory"
-msgid "External storage destination is not a directory."
-msgstr "Cílové umístění externího úložiště není adresář."
-
-#, c-format
-msgctxt "storage_error_data_bundle_corrupted"
-msgid "Data in image directory '%1$s' is corrupted."
-msgstr "Data v adresáři obrázků '%1$s' jsou poškozena."
-
-msgctxt "storage_error_no_permission_to_read_image_to_be_imported"
-msgid ""
-"Cannot import image because the permission to read external storage has "
-"not been granted."
-msgstr ""
-"Nelze importovat obrázek, protože oprávnění ke čtení externího úložiště "
-"nebylo uděleno."
-
-#, c-format, fuzzy
-msgctxt "storage_error_cannot_read_ifd_file"
-msgid "Cannot read IFD file in folder '%1$s'."
-msgstr "Ve složce '%1$s' nelze přečíst soubor IFD."
-
-#, c-format, fuzzy
-msgctxt "error_cannot_open_file_does_not_exist"
-msgid "Cannot open file '%1$s' because it does not exist."
-msgstr "Nelze otevřít soubor '%1$s', protože neexistuje."
-
-#, c-format, fuzzy
-msgctxt "error_cannot_open_file_is_folder"
-msgid "Cannot open file '%1$s' because it is a folder."
-msgstr "Nelze otevřít soubor '%1$s', protože se jedná o složku."
-
-#, c-format, fuzzy
-msgctxt "error_cannot_write_file"
-msgid "Cannot write to file '%1$s'."
-msgstr "Nelze zapisovat do souboru '%1$s'."
-
-#, fuzzy
-msgctxt "storage_error_cannot_load_image_file_from_remote"
-msgid "Cannot load the image file from cloud storage."
-msgstr "Nelze načíst soubor obrázku z cloudového úložiště."
-
-#, fuzzy
-msgctxt "storage_note_pulling_image_file_from_remote"
-msgid "Downloading image file from cloud storage."
-msgstr "Stahování obrazového souboru z cloudového úložiště."
 
 #. filesystem errors
 msgctxt "error_cannot_delete_file"
@@ -7481,11 +7145,6 @@ msgctxt "welcome_message_show_at_startup"
 msgid "Show welcome message at startup"
 msgstr "Zobrazit uvítací zprávu při spuštění"
 
-#, fuzzy
-msgctxt "release_notes_filename"
-msgid "en.html"
-msgstr "en.html"
-
 #. info messages
 msgctxt "main_screen_info_message_pro_key_app_not_needed"
 msgid ""
@@ -7738,4 +7397,343 @@ msgstr ""
 msgctxt "sync_action_delete_remote"
 msgid "Delete on server"
 msgstr ""
+
+#, fuzzy
+msgctxt "generic_action_undo"
+msgid "Undo"
+msgstr "vrátit"
+
+msgctxt "generic_action_redo"
+msgid "Redo"
+msgstr "Znovu"
+
+msgctxt "generic_decimal_digits"
+msgid "Decimal digits"
+msgstr "Desetinná místa"
+
+#. links
+#, fuzzy
+msgctxt "release_notes_filename"
+msgid "en.html"
+msgstr "en.html"
+
+#. ============ unused strings that we keep in case we need the translations
+#. later on ==========
+#. errors
+msgctxt "UNUSED_imageselect_error_cannot_edit_corrupted_image"
+msgid "The .imm file for this image is corrupted. You cannot edit the image."
+msgstr "Soubor .imm je pro tento obrázek poškozený. Obrázek nemůžete upravit."
+
+msgctxt "UNUSED_imageselect_error_cannot_rename_corrupted_image"
+msgid "The .imm file for this image is corrupted. You cannot rename the image."
+msgstr "Soubor .imm je pro tento obrázek poškozený. Obrázek nemůžete přejmenovat."
+
+msgctxt "UNUSED_imageselect_error_cannot_export_corrupted_image"
+msgid "The images with the corrupted .imm files will not be exported."
+msgstr "Obrázky s poškozenými soubory .imm nebudou exportovány."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_image_version_more_recent_open_editor_anyways"
+msgid ""
+"The file version of this image (%1$d) is more recent than the maximum "
+"version supported by the ImageMeter version installed (%2$d). Opening the"
+" file may result in lost data or wrong annotations. You should use a "
+"recent version of ImageMeter to open this file.\n"
+"\n"
+"Do you still want to open it?"
+msgstr ""
+"Verze souboru tohoto obrázku (%1$d) je novější než maximální verze "
+"podporovaná nainstalovanou verzí ImageMeter (%2$d). Otevření souboru může"
+" způsobit ztrátu dat nebo nesprávné poznámky. Chcete-li tento soubor "
+"otevřít, měli byste použít nejnovější verzi aplikace ImageMeter.\n"
+"\n"
+"Chcete ho stále otevřít?"
+
+msgctxt "UNUSED_imageselect_error_metadata_format_unknown"
+msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
+msgstr "Soubor image metadata (.imm) nelze přečíst, protože formát není známý."
+
+msgctxt "UNUSED_imageselect_error_cannot_modify_readonly_folder"
+msgid "This is an essential system folder, you cannot remove or rename it."
+msgstr "Toto je nezbytná systémová složka, nelze ji odstranit nebo přejmenovat."
+
+msgctxt "UNUSED_imageselect_error_cannot_move_bundle_to_folder"
+msgid ""
+"Cannot move image to new folder (maybe an image with the same name "
+"already exists)."
+msgstr ""
+"Nelze přesunout obrázek do nové složky (možná obrázek se stejným názvem "
+"již existuje)."
+
+msgctxt "UNUSED_imageselect_error_external_memory_unavailable"
+msgid ""
+"External memory (where your app-data is stored) is not available. Most "
+"probably, your device stores this data on an external SD card which is "
+"currently not available. If this is not the problem in your case, you may"
+" contact imagemeter@gmail.com."
+msgstr ""
+"Externí paměť (kde jsou uložena vaše app-data) není k dispozici. S "
+"největší pravděpodobností váš přístroj ukládá tato data na externí SD "
+"kartu, která v současné době není k dispozici. Pokud toto ve vašem "
+"případě není problém, můžete kontaktovat imagemeter@gmail.com."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_folder_cannot_create"
+msgid ""
+"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
+"the media (e.g. SD-card) is mounted, this directory exists and is "
+"writable."
+msgstr ""
+"Nelze vytvořit složku '%1$s' v tomto adresáři:.'%2$s' Ujistěte se, že "
+"média (např. SD-karta) jsou připojena, tento adresář existuje a lze na "
+"něj zapisovat."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_access_external_data"
+msgid "Cannot access external data at location '%1$s'."
+msgstr "Nelze získat přístup k externím datům v místě '%1$s'."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_create_existing_folder"
+msgid "Cannot create folder '%1$s' because it already exists."
+msgstr "Nelze vytvořit složku '%1$s', protože již existuje."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_folder_rename_target_exists"
+msgid "Cannot rename folder to '%1$s' because that already exists."
+msgstr "Nelze přejmenovat složku na '%1$s' protože taková již existuje."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_folder_does_not_exist_detailed"
+msgid "Folder '%1$s' does not exist anymore (expected location '%2$s')."
+msgstr "Složka '%1$s' již neexistuje (očekávané umístění '%2$s' )."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_write_data_bundle"
+msgid "Cannot write data for image '%1$s'."
+msgstr "Nelze zapsat data pro obraz '%1$s'."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_write_data_bundle_detailed"
+msgid "Cannot write data for image '%1$s' (at location '%2$s')."
+msgstr "Nelze zapsat data pro obraz '%1$s' (v místě '%2$s' )."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_delete_data_bundle"
+msgid "Cannot delete image '%1$s'."
+msgstr "Nelze odstranit snímek '%1$s'."
+
+msgctxt "UNUSED_imageselect_error_url_of_imported_file_not_found"
+msgid "Image to be imported cannot be found."
+msgstr "Obrázek, který se má importovat, nelze najít."
+
+#, c-format, fuzzy
+msgctxt "UNUSED_error_cannot_save_annotated_image"
+msgid "Cannot save annotated image because: '%1$s'."
+msgstr "Nelze uložit anotovaný obrázek, protože: '%1$s'."
+
+#, c-format, fuzzy
+msgctxt "UNUSED_error_cannot_save_thumbnail_image"
+msgid "Cannot save thumbnail image because: '%1$s'."
+msgstr "Obrázek náhledu nelze uložit, protože: '%1$s'."
+
+#, c-format, fuzzy
+msgctxt "UNUSED_error_cannot_access_files_in_folder"
+msgid "Cannot access files in folder '%1$s'."
+msgstr "Nelze získat přístup k souborům ve složce '%1$s'."
+
+#, c-format, fuzzy
+msgctxt "UNUSED_error_target_folder_contains_bundle_with_same_id"
+msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
+msgstr "Složka '%1$s' obsahuje obrázek '%2$s' se stejným ID jako obrázek '%3$s'."
+
+msgctxt "UNUSED_storage_error_external_storage_read_only"
+msgid "External storage is read-only."
+msgstr "Externí úložiště je jen pro čtení."
+
+msgctxt "UNUSED_storage_error_external_storage_could_not_write_file"
+msgid "Could not write file to external memory."
+msgstr "Nelze zapsat soubor do externí paměti."
+
+#, fuzzy
+msgctxt "UNUSED_storage_error_external_storage_could_not_get_permission_to_write_images"
+msgid ""
+"Could not get permission to write to external storage. No files have been"
+" written."
+msgstr ""
+"Nelze získat oprávnění pro zápis na externí úložiště. Žádné soubory "
+"nebyly zapsány."
+
+#, c-format
+msgctxt "UNUSED_storage_error_cannot_create_directory_on_external_storage"
+msgid "Could not create directory '%1$s' on external storage."
+msgstr "Nelze vytvořit adresář '%1$s' na externím úložišti."
+
+msgctxt "UNUSED_storage_error_external_storage_destination_is_no_directory"
+msgid "External storage destination is not a directory."
+msgstr "Cílové umístění externího úložiště není adresář."
+
+#, c-format
+msgctxt "UNUSED_storage_error_data_bundle_corrupted"
+msgid "Data in image directory '%1$s' is corrupted."
+msgstr "Data v adresáři obrázků '%1$s' jsou poškozena."
+
+msgctxt "UNUSED_storage_error_no_permission_to_read_image_to_be_imported"
+msgid ""
+"Cannot import image because the permission to read external storage has "
+"not been granted."
+msgstr ""
+"Nelze importovat obrázek, protože oprávnění ke čtení externího úložiště "
+"nebylo uděleno."
+
+#, c-format, fuzzy
+msgctxt "UNUSED_storage_error_cannot_read_ifd_file"
+msgid "Cannot read IFD file in folder '%1$s'."
+msgstr "Ve složce '%1$s' nelze přečíst soubor IFD."
+
+#, c-format, fuzzy
+msgctxt "UNUSED_error_cannot_open_file_does_not_exist"
+msgid "Cannot open file '%1$s' because it does not exist."
+msgstr "Nelze otevřít soubor '%1$s', protože neexistuje."
+
+#, c-format, fuzzy
+msgctxt "UNUSED_error_cannot_open_file_is_folder"
+msgid "Cannot open file '%1$s' because it is a folder."
+msgstr "Nelze otevřít soubor '%1$s', protože se jedná o složku."
+
+#, c-format, fuzzy
+msgctxt "UNUSED_error_cannot_write_file"
+msgid "Cannot write to file '%1$s'."
+msgstr "Nelze zapisovat do souboru '%1$s'."
+
+#, fuzzy
+msgctxt "UNUSED_storage_error_cannot_load_image_file_from_remote"
+msgid "Cannot load the image file from cloud storage."
+msgstr "Nelze načíst soubor obrázku z cloudového úložiště."
+
+#, fuzzy
+msgctxt "UNUSED_storage_note_pulling_image_file_from_remote"
+msgid "Downloading image file from cloud storage."
+msgstr "Stahování obrazového souboru z cloudového úložiště."
+
+#. old gallery export
+#, fuzzy
+msgctxt "UNUSED_export_dialog_saving_images_to_external_storage"
+msgid "Saving images to external storage…"
+msgstr "Ukládání obrázků do externího úložiště..."
+
+#, fuzzy
+msgctxt "UNUSED_export_dialog_image_saved_to_external_storage"
+msgid "Saved image to external storage…"
+msgstr "Uložen obrázek do externího úložiště..."
+
+#, c-format, fuzzy
+msgctxt "UNUSED_export_dialog_images_saved_to_external_storage"
+msgid "Saved %1$d images to external storage…"
+msgstr "Uloženo %1$d obrázků do externího úložiště..."
+
+msgctxt "UNUSED_export_dialog_saving_images_success_title"
+msgid "Export finished"
+msgstr "Export dokončen"
+
+#, c-format
+msgctxt "UNUSED_export_dialog_saving_images_success_text"
+msgid ""
+"Images have been saved to folder '%1$s'.\n"
+"\n"
+"Maybe you can also find them more easily under /sdcard/Pictures."
+msgstr ""
+"Obrázky byly uloženy do složky '%1$s'.\n"
+"\n"
+"Možná je můžete také lehčeji najít pod /sdcard/Pictures."
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_images_message"
+msgid "Images with the same name exist in the target directory."
+msgstr "Obrázky se stejným jménem existují v cílovém adresáři."
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_images_overwrite"
+msgid "Overwrite"
+msgstr "Přepsat"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_images_keep_both"
+msgid "Rename"
+msgstr "Přejmenovat"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_images_cancel"
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_message"
+msgid "A folder with the same name already exists."
+msgstr "Složka se stejným jménem již existuje."
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_replace"
+msgid "Replace"
+msgstr "Nahradit"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_merge"
+msgid "Merge"
+msgstr "Sloučit"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_cancel"
+msgid "Cancel"
+msgstr "Zrušit"
+
+#. Dialog: duplicate image import
+msgctxt "UNUSED_dialog_duplicate_image_import_title"
+msgid "Image Import"
+msgstr "Import obrázků"
+
+#, c-format
+msgctxt "UNUSED_dialog_duplicate_image_import_message"
+msgid "Imported image '%1$s' already exists."
+msgstr "Importovaný obrázek '%1$s' již existuje."
+
+msgctxt "UNUSED_dialog_duplicate_image_import_overwrite"
+msgid "Overwrite"
+msgstr "Přepsat"
+
+msgctxt "UNUSED_dialog_duplicate_image_import_keep_both"
+msgid "Keep both"
+msgstr "Zachovat oba"
+
+msgctxt "UNUSED_dialog_duplicate_image_import_skip"
+msgid "Skip"
+msgstr "Přeskočit"
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_title"
+msgid "Folder Import"
+msgstr "Importovat složku"
+
+#, c-format
+msgctxt "UNUSED_dialog_duplicate_folder_import_message"
+msgid ""
+"Imported folder '%1$s' already exists. %3$d images should be imported, "
+"out of which %2$d already exist locally."
+msgstr ""
+"Importovaná složka '%1$s' již existuje. %3$d obrázku by mělo být "
+"importováno, z nichž %2$d již existuje lokálně."
+
+#, c-format
+msgctxt "UNUSED_dialog_duplicate_folder_no_duplicate_images_import_message"
+msgid "Imported folder '%1$s' already exists, but there are no duplicate images."
+msgstr ""
+"Importovaná složka '%1$s' již existuje, ale nejsou zde žádné duplicitní "
+"obrázky."
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_merge"
+msgid "Merge"
+msgstr "Sloučit"
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_overwrite"
+msgid "Overwrite"
+msgstr "Přepsat"
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_keep_both"
+msgid "Keep both"
+msgstr "Zachovat oba"
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_skip"
+msgid "Skip"
+msgstr "Přeskočit"
 

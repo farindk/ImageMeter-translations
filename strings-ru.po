@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-04 14:09+0100\n"
+"POT-Creation-Date: 2020-12-04 17:48+0100\n"
 "PO-Revision-Date: 2020-09-10 11:15+0200\n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -31,10 +31,6 @@ msgstr ""
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
 msgstr "Отклонить"
-
-msgctxt "generic_button_import"
-msgid "Import"
-msgstr "Импортировать"
 
 msgctxt "generic_dialog_title_error"
 msgid "Error"
@@ -67,18 +63,6 @@ msgstr "Действительно удалить"
 msgctxt "generic_cancel_delete"
 msgid "Cancel"
 msgstr "Отмена"
-
-msgctxt "generic_action_undo"
-msgid "Undo"
-msgstr "Отменить"
-
-msgctxt "generic_action_redo"
-msgid "Redo"
-msgstr "Шаг вперед"
-
-msgctxt "generic_decimal_digits"
-msgid "Decimal digits"
-msgstr "Десятичные знаки"
 
 #. image library
 msgctxt "imageLibrary_new_cameraCapture"
@@ -350,72 +334,99 @@ msgid "Small grid"
 msgstr "Малая сетка"
 
 #. dialog: rename folder
-msgctxt "foldername_dialog_folder_name"
+msgctxt "imageLibrary_folderNameDialog_name"
 msgid "Folder name"
 msgstr "Имя папки"
 
-msgctxt "foldername_dialog_folder_name_hint"
+msgctxt "imageLibrary_folderNameDialog_name_hint"
 msgid "Enter folder name"
 msgstr "имя папки"
 
-msgctxt "foldername_dialog_notes"
-msgid "Notes"
-msgstr "Примечание"
-
-msgctxt "foldername_dialog_icon_color"
+msgctxt "imageLibrary_folderNameDialog_iconColor"
 msgid "Folder color"
 msgstr "Цвет папки"
 
+msgctxt "imageLibrary_folderNameDialog_template"
+msgid "Template"
+msgstr ""
+
+msgctxt "imageLibrary_folderNameDialog_notes"
+msgid "Notes"
+msgstr "Примечание"
+
+#. dialog: rename image
+msgctxt "imageLibrary_imageNameDialog_name"
+msgid "Image name"
+msgstr "Имя изображения"
+
+msgctxt "imageLibrary_imageNameDialog_name_hint"
+msgid "Enter image name"
+msgstr "Введите имя изображения"
+
+msgctxt "imageLibrary_imageNameDialog_template"
+msgid "Template"
+msgstr ""
+
+msgctxt "imageLibrary_imageNameDialog_number"
+msgid "Number"
+msgstr "Число"
+
+msgctxt "imageLibrary_imageNameDialog_notes"
+msgid "Notes"
+msgstr "Примечание"
+
+#. dialog: clipboard paste
+msgctxt "imageLibrary_clipboardPasteDialog_title"
+msgid "Clipboard paste options"
+msgstr ""
+
+msgctxt "imageLibrary_clipboardPasteDialog_alsoCopyMeasurementValues"
+msgid "Copy measurements"
+msgstr ""
+
+msgctxt "imageLibrary_clipboardPasteDialog_centerAnnotationOnImage"
+msgid "Center on image"
+msgstr ""
+
+#. TODO: currently unused, but could be used again in the move-image dialog
 msgctxt "imageselect_dialog_move_image_to_folder_title"
 msgid "Choose target folder for the image"
 msgstr "Выберите целевую папку для изображения"
 
 #. dialog: about app
-msgctxt "imageselect_dialog_about_version"
+msgctxt "aboutApp_version"
 msgid "Version:"
 msgstr "версия:"
 
-msgctxt "imageselect_dialog_about_license"
+msgctxt "aboutApp_license"
 msgid "License:"
 msgstr "Лицензия:"
 
-msgctxt "imageselect_dialog_about_source"
+msgctxt "aboutApp_downloadSource"
 msgid "Source:"
 msgstr "Источник:"
 
-msgctxt "imageselect_dialog_about_license_evaluation"
-msgid "Free Evaluation"
-msgstr "Попробовать бесплатно"
-
-msgctxt "imageselect_dialog_about_license_pro"
-msgid "Pro"
-msgstr "Pro"
-
-msgctxt "imageselect_dialog_about_license_business"
-msgid "Business"
-msgstr "Бизнес"
-
-msgctxt "imageselect_dialog_about_tutorial_link"
+msgctxt "aboutApp_tutorialLink"
 msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
 msgstr ""
 "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Обучающее "
 "видео</a>"
 
-msgctxt "imageselect_dialog_about_documentation_link"
+msgctxt "aboutApp_documentationLink"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
 msgstr "<a href=\"https://www.imagemeter.com/manual\">Документация</a>"
 
-msgctxt "imageselect_dialog_about_release_notes"
+msgctxt "aboutApp_releaseNotes"
 msgid "<a href=\"release-notes\">Release notes</a>"
 msgstr "<a href=\"release-notes\">Примечания к релизу</a>"
 
-msgctxt "imageselect_dialog_about_contact_link"
+msgctxt "aboutApp_contactLink"
 msgid "<a href=\"mailto:imagemeter@gmail.com\">Contact email</a>"
 msgstr ""
 "<a href=\"mailto:imagemeter@gmail.com\">Почта для связи Контактный адрес "
 "электронной почты </a>"
 
-msgctxt "imageselect_dialog_about_privacy_policy_link"
+msgctxt "aboutApp_privacyPolicyLink"
 msgid ""
 "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
 "policy</a>"
@@ -423,52 +434,87 @@ msgstr ""
 "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Политика "
 "конфиденциальности</a>"
 
-msgctxt "imageselect_dialog_about_licenses"
+msgctxt "aboutApp_licenses"
 msgid "<a href=\"licenses\">Licenses</a>"
 msgstr "<a href=\"licenses\">лицензии</a>"
 
-#. upgrade
-msgctxt "license_source_in_app"
-msgid "In-app"
-msgstr "В приложении"
-
-msgctxt "license_source_native"
-msgid "Native"
-msgstr "Родной"
-
-msgctxt "license_source_pro_key_app"
-msgid "Pro-key app"
-msgstr "Приложение Pro-key"
-
-msgctxt "license_source_volume_key"
-msgid "Volume key"
-msgstr "Клавиша громкости"
-
+#. upgrade dialog
 #, c-format
-msgctxt "upgrade_dialog_pay_once"
+msgctxt "upgradeDialog_addonPrice_once"
 msgid "%1$s once"
 msgstr "%1$s один раз"
 
 #, c-format
-msgctxt "upgrade_dialog_pay_monthly"
+msgctxt "upgradeDialog_addonPrice_monthly"
 msgid "%1$s/month"
 msgstr "%1$s/месяц"
 
-msgctxt "upgrade_dialog_first_month_free"
+msgctxt "upgradeDialog_addonPrice_firstMonthFree"
 msgid "First month free"
 msgstr "Первый месяц бесплатно"
 
-msgctxt "upgrade_dialog_pro_name"
+msgctxt "upgradeDialog_purchaseButton_pro"
+msgid "Upgrade to Pro"
+msgstr "Перейти на Pro"
+
+msgctxt "upgradeDialog_purchaseButton_addon"
+msgid "Activate Addon"
+msgstr "Активировать пакет"
+
+msgctxt "upgradeDialog_purchaseButton_business"
+msgid "Upgrade to Business"
+msgstr "Перейти на Бизнес"
+
+msgctxt "upgradeDialog_purchaseButton_disabled_addonIsActive"
+msgid "Add-on is active"
+msgstr "Пакет активен"
+
+msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable"
+msgid "Store unavailable"
+msgstr "Магазин недоступен"
+
+msgctxt "upgradeDialog_volumeLicenseButton"
+msgid "Enter volume license code"
+msgstr "Введите код корпоративной лицензии"
+
+msgctxt "upgradeDialog_backButton"
+msgid "Back"
+msgstr "Назад"
+
+msgctxt "upgradeDialog_moreInformationLink"
+msgid ""
+"For more information about these features, &lt;a "
+"href=\"https://www.imagemeter.com/manual/license/android-"
+"licenses\"&gt;visit the website&lt;/a&gt;."
+msgstr ""
+"Для получения дополнительных сведений об этих функциях &lt;a "
+"href=\"https://www.imagemeter.com/manual/license/android-"
+"licenses\"&gt;посетите веб-сайт&lt;/a&gt;."
+
+#. specification of the add-ons and their feature items
+msgctxt "upgrade_addon_advancedAnnotation_purchaseBoxTitle"
+msgid "Advanced Annotation Add-On"
+msgstr "Дополнение Advanced Annotation"
+
+msgctxt "upgrade_addon_advancedAnnotation_addonName"
+msgid "Advanced Annotation"
+msgstr "Расширенная аннотация"
+
+msgctxt "upgrade_addon_pro_purchaseBoxTitle"
 msgid "Pro"
 msgstr "Pro"
 
-msgctxt "upgrade_dialog_business_name"
+msgctxt "upgrade_addon_pro_addonName"
+msgid "Pro"
+msgstr "Pro"
+
+msgctxt "upgrade_addon_business_purchaseBoxTitle"
 msgid "Business"
 msgstr "Бизнес"
 
-msgctxt "upgrade_dialog_button_activate_addon"
-msgid "Activate Addon"
-msgstr "Активировать пакет"
+msgctxt "upgrade_addon_business_addonName"
+msgid "Business"
+msgstr "Бизнес"
 
 msgctxt "upgrade_item_no_watermarks"
 msgid "No watermarks"
@@ -534,39 +580,489 @@ msgctxt "upgrade_item_all_addon_packs"
 msgid "Includes Pro and all add-on packs"
 msgstr "Включает Pro и все дополнительные пакеты"
 
-msgctxt "upgrade_dialog_more_information_link"
-msgid ""
-"For more information about these features, &lt;a "
-"href=\"https://www.imagemeter.com/manual/license/android-"
-"licenses\"&gt;visit the website&lt;/a&gt;."
+#. dialogs that explain why we need an upgrade
+#, c-format
+msgctxt "needUpgradeDialog_titleTemplate"
+msgid "%1$s Add-On"
+msgstr "Пакет %1$s"
+
+#, c-format
+msgctxt "needUpgradeDialog_createSubfolders"
+msgid "Creating subfolders is included in the '%1$s' add-on."
+msgstr "Создание вложенных папок включено в пакет \"%1$s\"."
+
+#, c-format
+msgctxt "needUpgradeDialog_moveFolders"
+msgid "Moving folders into other folders is included in the '%1$s' add-on."
+msgstr "Перемещение папок в другие папки включено в пакет \"%1$s\"."
+
+#, c-format
+msgctxt "needUpgradeDialog_audioNotes"
+msgid "Recording audio notes is included in the '%1$s' add-on."
+msgstr "Запись звуковых заметок включена в пакет \"%1$s\"."
+
+#, c-format
+msgctxt "needUpgradeDialog_detailImages"
+msgid "Adding detail images is included in the '%1$s' add-on."
+msgstr "Добавление изображений деталей включено в пакет \"%1$s\"."
+
+#, c-format
+msgctxt "needUpgradeDialog_pdfImport"
+msgid "PDF import is included in the '%1$s' add-on."
+msgstr "Импорт PDF включен в пакет \"%1$s\"."
+
+#, c-format
+msgctxt "needUpgradeDialog_text_tryWithExamples"
+msgid "You can try this function with the example images (in folder '%1$s')."
 msgstr ""
-"Для получения дополнительных сведений об этих функциях &lt;a "
-"href=\"https://www.imagemeter.com/manual/license/android-"
-"licenses\"&gt;посетите веб-сайт&lt;/a&gt;."
+"Вы можете попробовать эту функцию с примерами изображений (в папке "
+"\"%1$s\")."
 
-msgctxt "upgrade_dialog_button_pro_upgrade"
-msgid "Upgrade to Pro"
-msgstr "Перейти на Pro"
+#, c-format
+msgctxt "needUpgradeDialog_text_createAndtryWithExamples"
+msgid ""
+"You can try this function with the example images (<a "
+"href=\"create\">create folder '%1$s'</a>)."
+msgstr ""
+"Вы можете попробовать эту функцию с примерами изображений (<a "
+"href=\"create\">создать папку '%1$s'</a>)."
 
-msgctxt "upgrade_dialog_button_business_upgrade"
-msgid "Upgrade to Business"
-msgstr "Перейти на Бизнес"
+#, c-format
+msgctxt "needUpgradeDialog_editingTool"
+msgid "This tool is available in the '%1$s' add-on."
+msgstr "Этот инструмент доступен в пакете \"%1$s\"."
 
-msgctxt "upgrade_dialog_button_back"
-msgid "Back"
-msgstr "Назад"
+msgctxt "needUpgradeDialog_exportDataTables"
+msgid "Exporting data tables is available in the Business version."
+msgstr ""
 
-msgctxt "upgrade_dialog_button_volume_license"
-msgid "Enter volume license code"
-msgstr "Введите код корпоративной лицензии"
+#. TODO: demo video
+msgctxt "needUpgradeDialog_button_getBusinessVersion"
+msgid "Upgrade to Business version"
+msgstr "Перейти на версию Business"
 
-msgctxt "upgrade_dialog_button_addon_is_active"
-msgid "Add-on is active"
-msgstr "Пакет активен"
+msgctxt "needUpgradeDialog_button_getUpgrade"
+msgid "Upgrade"
+msgstr "Обновить"
 
-msgctxt "upgrade_dialog_button_store_unavailable"
-msgid "Store unavailable"
-msgstr "Магазин недоступен"
+msgctxt "dialog_migrate_for_addon_packs_title"
+msgid "Activate Add-on Pack"
+msgstr "Активировать дополнительный пакет"
+
+msgctxt "dialog_migrate_for_addon_packs_text"
+msgid ""
+"Since this native Pro-version is going to be replaced by the free version"
+" with in-app upgrades, add-on packs are only available in the free "
+"version. Please migrate to the free version. Your Pro upgrade will stay "
+"active."
+msgstr ""
+"Поскольку эта родная Pro-версия будет заменена бесплатной версией с "
+"обновлениями в приложении, дополнительные пакеты доступны только в "
+"бесплатной версии. Пожалуйста, перейдите на бесплатную версию. Ваше "
+"обновление Pro останется активным."
+
+msgctxt "dialog_migrate_for_addon_packs_download_text"
+msgid "Download the free version from here:"
+msgstr "Загрузите бесплатную версию отсюда:"
+
+msgctxt "dialog_migrate_for_addon_packs_open_instructions"
+msgid "Show migration instructions"
+msgstr "Показать инструкции по миграции"
+
+#. licensing: volume key dialog
+msgctxt "licensing_volume_key_title"
+msgid "Volume key"
+msgstr "Ключ"
+
+msgctxt "licensing_volume_key_note"
+msgid ""
+"Note: you don't need to enter any key when you purchased through the "
+"Google Play store."
+msgstr ""
+"Примечание: Вам не нужно вводить какой-либо ключ при покупке в магазине "
+"Google Play."
+
+msgctxt "licensing_volume_key_description"
+msgid "Please enter your volume key:"
+msgstr "Пожалуйста, введите ключ:"
+
+msgctxt "licensing_volume_key_send_button"
+msgid "Send"
+msgstr "послать"
+
+msgctxt "licensing_volume_key_error_parse_server_response"
+msgid "Error parsing server response."
+msgstr "Ошибка синтаксического анализа ответа сервера."
+
+msgctxt "licensing_volume_key_error_invalid_license_code"
+msgid "Invalid license code."
+msgstr "Неверный лицензионный код."
+
+msgctxt "licensing_volume_key_success"
+msgid "License activated"
+msgstr "Лицензия активирована"
+
+#. in-app payment
+msgctxt "inapp_error_billing_unavailable"
+msgid "Billing is not available."
+msgstr "Биллинг недоступен."
+
+msgctxt "inapp_error_feature_not_supported"
+msgid "Feature is not supported."
+msgstr "Функция не поддерживается."
+
+msgctxt "inapp_error_item_already_owned"
+msgid "Item is already owned."
+msgstr "Товар уже куплен."
+
+msgctxt "inapp_error_item_unavailable"
+msgid "Item is unavailable."
+msgstr "Товар недоступен."
+
+msgctxt "inapp_error_service_disconnected"
+msgid "PlayStore temporarily disconnected, try again later."
+msgstr "PlayStore временно отключен, повторите попытку позже."
+
+msgctxt "inapp_error_service_unavailable"
+msgid "Network down, cannot reach PlayStore."
+msgstr "Сеть не работает, нет доступа к PlayStore."
+
+msgctxt "inapp_error_user_canceled"
+msgid "Purchase canceled by user."
+msgstr "Покупка отменена пользователем."
+
+msgctxt "inapp_error_signature_check_failed"
+msgid "Signature check failed."
+msgstr "Проверка подписи не удалась."
+
+#, c-format
+msgctxt "inapp_error_unknown"
+msgid "Unknown error, result code: '%1$d', response '%2$s'."
+msgstr "Неизвестная ошибка, код результата: \"%1$d\", ответ \"%2$s\"."
+
+msgctxt "inapp_error_developer_error"
+msgid "Developer error."
+msgstr "Ошибка разработчика."
+
+msgctxt "inapp_error_generic_error"
+msgid "Generic error."
+msgstr "Общая ошибка."
+
+msgctxt "inapp_error_item_not_owned"
+msgid "Item is not owned."
+msgstr "Товар не приобретен."
+
+msgctxt "inapp_error_service_timeout"
+msgid "Service timeout."
+msgstr "Тайм-аут службы."
+
+#. TODO: these names should be a simple summary name for the "About App"
+#. dialog. But this does not work well with the          add-ons. Replace it
+#. with a different system.
+msgctxt "upgrade_licenseName_freeEvaluation"
+msgid "Free Evaluation"
+msgstr "Попробовать бесплатно"
+
+msgctxt "upgrade_licenseName_pro"
+msgid "Pro"
+msgstr "Pro"
+
+msgctxt "upgrade_licenseName_business"
+msgid "Business"
+msgstr "Бизнес"
+
+msgctxt "license_source_in_app"
+msgid "In-app"
+msgstr "В приложении"
+
+msgctxt "license_source_native"
+msgid "Native"
+msgstr "Родной"
+
+msgctxt "license_source_pro_key_app"
+msgid "Pro-key app"
+msgstr "Приложение Pro-key"
+
+msgctxt "license_source_volume_key"
+msgid "Volume key"
+msgstr "Клавиша громкости"
+
+#. example images
+msgctxt "example_folder_name"
+msgid "Examples"
+msgstr "Примеры"
+
+msgctxt "tutorial_images_1"
+msgid "Example 1: Measure on a 2D floor plan"
+msgstr "Образец 1: Шкала масштаба на плане квартиры"
+
+msgctxt "tutorial_images_2"
+msgid "Example 2: Measure a flat object"
+msgstr "Образец 2: Измерение объекта на плоскости"
+
+msgctxt "tutorial_images_3"
+msgid "Example 3: Perspectively distorted wall"
+msgstr "Образец 3: Измерение стены с учетом перспективы"
+
+msgctxt "tutorial_images_4"
+msgid "Example 4: Perspective height measurement"
+msgstr "Пример 4: Измерение высоты в перспективе"
+
+#. image import (TODO: move to editcore. Also Pdf import name?)
+msgctxt "default_image_name_prefix_with_date"
+msgid "image from {M} {d}, {yyyy}"
+msgstr "Создано {d} {M} {yyyy}"
+
+msgctxt "default_image_name_from_unnamed_pdf"
+msgid "PDF import, page {page}"
+msgstr "Импорт PDF, страница {page}"
+
+msgctxt "default_image_name_from_pdf"
+msgid "{name}, page {page}"
+msgstr "{name}, страница {page}"
+
+#. image import from free app
+msgctxt "snackbar_pro_to_free_migration"
+msgid "Pro-version app migration"
+msgstr "Миграция приложений на Pro-версию"
+
+msgctxt "snackbar_pro_to_free_migration_info"
+msgid "Info"
+msgstr "Информация"
+
+msgctxt "snackbar_pro_to_free_migration_url"
+msgid "https://www.imagemeter.com/manual/license/pro-version-migration"
+msgstr "https://www.imagemeter.com/manual/license/pro-version-migration"
+
+msgctxt "import_pro_app_data"
+msgid "Import images from Pro app"
+msgstr "Импорт изображений из приложения Pro"
+
+msgctxt "import_pro_app_data_started_text"
+msgid ""
+"Importing has started to run in the background. When it is finished, "
+"please check that the images were copied correctly and delete them in the"
+" Pro app to save memory space."
+msgstr ""
+"Импорт запущен в фоновом режиме. По завершении убедитесь, что изображения"
+" были скопированы правильно, и удалите их в приложении Pro, чтобы "
+"сэкономить место в памяти."
+
+msgctxt "import_pro_app_data_local_not_empty"
+msgid ""
+"Warning: there are images in this app. Importing the images from the Pro "
+"app may overwrite images with the same name."
+msgstr ""
+"Предупреждение: в этом приложении есть изображения. Импорт изображений из"
+" приложения Pro может перезаписать изображения с тем же именем."
+
+msgctxt "import_pro_app_data_local_not_empty_anyway"
+msgid "Import anyway"
+msgstr "Все равно импортировать"
+
+msgctxt "import_pro_app_data_title"
+msgid "Importing images from Pro app"
+msgstr "Импорт изображений из приложения Pro"
+
+msgctxt "import_pro_app_data_scan_progress_text"
+msgid "Please wait, searching for images to copy."
+msgstr "Подождите, идет поиск изображений для копирования."
+
+#, c-format
+msgctxt "import_pro_app_data_progress_text"
+msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
+msgstr "Подождите, %1$d изображение из %2$d выполнено (%3$d ошибок)."
+
+msgctxt "import_pro_app_data_finished"
+msgid ""
+"Images from the Pro app are now imported. After checking that the images "
+"were imported correctly, you may want to delete the images in the Pro app"
+" to save memory space."
+msgstr ""
+"Изображения из приложения Pro теперь импортируются. Убедившись, что "
+"изображения были импортированы правильно, Вы можете удалить изображения в"
+" приложении Pro, чтобы сэкономить место в памяти."
+
+msgctxt "import_pro_app_data_failed"
+msgid ""
+"Image import from Pro app has failed or is incomplete. Maybe your memory "
+"is full?"
+msgstr ""
+"Импорт изображения из приложения Pro завершился неудачно или не завершен."
+" Может у Вас переполнена память?"
+
+#. PDF import dialog
+msgctxt "pdf_import_page_selection_render_resolution"
+msgid "Resolution (dpi):"
+msgstr "Разрешение (dpi):"
+
+msgctxt "pdf_import_page_selection_output_image_resolution"
+msgid "Output resolution:"
+msgstr "Выходное разрешение:"
+
+#, c-format
+msgctxt "pdf_import_page_selection_output_image_resolution_value"
+msgid "%1$.1f MP"
+msgstr " %1$.1f MP"
+
+msgctxt "pdf_import_page_selection_importButton"
+msgid "Import"
+msgstr "Импортировать"
+
+#. dialog: export format
+msgctxt "dialog_export_format_image"
+msgid "Image (JPEG/PNG)"
+msgstr "Изображение (JPEG/PNG)"
+
+msgctxt "dialog_export_format_pdf"
+msgid "PDF document"
+msgstr "PDF документ"
+
+msgctxt "dialog_export_format_zip"
+msgid "ZIP archive"
+msgstr "ZIP архив"
+
+msgctxt "dialog_export_format_imi"
+msgid "Editable ImageMeter Image (IMI)"
+msgstr "Редактируемое изображение ImageMeter (IMI)"
+
+msgctxt "dialog_export_format_imf"
+msgid "ImageMeter folder (IMF)"
+msgstr "Папка ImageMeter (IMF)"
+
+msgctxt "dialog_export_format_gallery"
+msgid "Save to gallery"
+msgstr "Сохранить в галерею"
+
+msgctxt "dialog_export_format_show_next_time"
+msgid "Show format selection next time"
+msgstr "Показать выбранный формат в следующий раз"
+
+#. image export
+msgctxt "dialog_image_export_options_show_dialog"
+msgid "Show export options next time"
+msgstr "Показать параметры экспорта в следующий раз"
+
+msgctxt "dialog_image_export_use_default_options"
+msgid "Use default export options"
+msgstr "Использовать параметры экспорта по умолчанию"
+
+msgctxt "dialog_image_export_image_format"
+msgid "Image format"
+msgstr "Формат изображения"
+
+msgctxt "dialog_image_export_file_format"
+msgid "File format"
+msgstr "Формат файла"
+
+msgctxt "dialog_image_export_overlays"
+msgid "Overlays"
+msgstr "Оверлеи"
+
+msgctxt "dialog_image_export_overlay_show_image_title"
+msgid "Show image title"
+msgstr "Показать название изображения"
+
+msgctxt "dialog_image_export_size_original_image_size"
+msgid "Original image size"
+msgstr "Исходный размер изображения"
+
+msgctxt "dialog_image_export_size_custom_size"
+msgid "Custom size"
+msgstr "Обычный размер"
+
+msgctxt "dialog_image_export_image_quality"
+msgid "Image quality"
+msgstr "Качество изображения"
+
+msgctxt "dialog_image_export_image_size"
+msgid "Image size"
+msgstr "Размер изображения"
+
+#. PDF export
+msgctxt "dialog_pdf_export_paper"
+msgid "Paper"
+msgstr "Бумага"
+
+msgctxt "dialog_pdf_export_layout"
+msgid "Layout"
+msgstr "Макет"
+
+msgctxt "dialog_pdf_export_metadata"
+msgid "Metadata"
+msgstr "Метаданные"
+
+msgctxt "dialog_pdf_export_data_table"
+msgid "Data Table"
+msgstr ""
+
+msgctxt "dialog_pdf_export_space_for_notes"
+msgid "Space for image notes"
+msgstr "Место для заметок с изображениями"
+
+msgctxt "dialog_pdf_export_print_table_of_content"
+msgid "Print table of content"
+msgstr "Распечатать содержание"
+
+msgctxt "dialog_pdf_export_print_folder_notes"
+msgid "Print folder notes"
+msgstr "Печать заметок к папке"
+
+msgctxt "dialog_pdf_export_data_table_layout"
+msgid "Table layout"
+msgstr ""
+
+#. PDF export progress notification
+msgctxt "pdf_export_notification_generating_pdf"
+msgid "Generating PDF file"
+msgstr "Создание файла PDF"
+
+#, c-format
+msgctxt "pdf_export_notification_progress"
+msgid "Rendering image %1$d of %2$d."
+msgstr "Визуализация изображения %1$d из %2$d."
+
+msgctxt "pdf_export_table_of_contents"
+msgid "Table of contents"
+msgstr "Содержание"
+
+msgctxt "pdf_export_root_folder_title"
+msgid "ImageMeter export"
+msgstr "ImageMeter экспорт"
+
+#. - ZIP export
+msgctxt "dialog_zip_export_title"
+msgid "ZIP export"
+msgstr "ZIP экспорт"
+
+msgctxt "dialog_zip_options_show_dialog"
+msgid "Show ZIP options next time"
+msgstr "Показать параметры ZIP в следующий раз"
+
+#. ZIP export progress notification
+msgctxt "zip_export_notification_generating_title"
+msgid "Generating ZIP file"
+msgstr "Создание файла ZIP"
+
+#, c-format
+msgctxt "zip_export_notification_progress"
+msgid "Rendering image %1$d of %2$d."
+msgstr "Визуализация изображения %1$d из %2$d."
+
+#, c-format
+msgctxt "zip_export_notification_progress_pdf_step"
+msgid "PDF image %1$d of %2$d."
+msgstr "Изображение PDF %1$d из %2$d."
+
+#, fuzzy
+msgctxt "zip_export_notification_progress_compressing_step"
+msgid "Compressing ZIP file…"
+msgstr "Сжатие ZIP-файла ..."
+
+#. CSV export
+msgctxt "dialog_csv_export_title"
+msgid "Data table export (CSV)"
+msgstr ""
 
 msgctxt "pref_main_title"
 msgid "Settings"
@@ -1563,638 +2059,9 @@ msgctxt "pref_template_partslist_row_show_footer"
 msgid "Show footer row"
 msgstr ""
 
-#. licensing: volume key dialog
-msgctxt "licensing_volume_key_title"
-msgid "Volume key"
-msgstr "Ключ"
-
-msgctxt "licensing_volume_key_note"
-msgid ""
-"Note: you don't need to enter any key when you purchased through the "
-"Google Play store."
-msgstr ""
-"Примечание: Вам не нужно вводить какой-либо ключ при покупке в магазине "
-"Google Play."
-
-msgctxt "licensing_volume_key_description"
-msgid "Please enter your volume key:"
-msgstr "Пожалуйста, введите ключ:"
-
-msgctxt "licensing_volume_key_send_button"
-msgid "Send"
-msgstr "послать"
-
-msgctxt "licensing_volume_key_error_parse_server_response"
-msgid "Error parsing server response."
-msgstr "Ошибка синтаксического анализа ответа сервера."
-
-msgctxt "licensing_volume_key_error_invalid_license_code"
-msgid "Invalid license code."
-msgstr "Неверный лицензионный код."
-
-msgctxt "licensing_volume_key_success"
-msgid "License activated"
-msgstr "Лицензия активирована"
-
-#. in-app payment
-msgctxt "inapp_upgrade_to_business_button"
-msgid "Upgrade to Business version"
-msgstr "Перейти на версию Business"
-
-msgctxt "inapp_upgrade_to_pro_button"
-msgid "Upgrade"
-msgstr "Обновить"
-
-msgctxt "inapp_error_billing_unavailable"
-msgid "Billing is not available."
-msgstr "Биллинг недоступен."
-
-msgctxt "inapp_error_feature_not_supported"
-msgid "Feature is not supported."
-msgstr "Функция не поддерживается."
-
-msgctxt "inapp_error_item_already_owned"
-msgid "Item is already owned."
-msgstr "Товар уже куплен."
-
-msgctxt "inapp_error_item_unavailable"
-msgid "Item is unavailable."
-msgstr "Товар недоступен."
-
-msgctxt "inapp_error_service_disconnected"
-msgid "PlayStore temporarily disconnected, try again later."
-msgstr "PlayStore временно отключен, повторите попытку позже."
-
-msgctxt "inapp_error_service_unavailable"
-msgid "Network down, cannot reach PlayStore."
-msgstr "Сеть не работает, нет доступа к PlayStore."
-
-msgctxt "inapp_error_user_canceled"
-msgid "Purchase canceled by user."
-msgstr "Покупка отменена пользователем."
-
-msgctxt "inapp_error_signature_check_failed"
-msgid "Signature check failed."
-msgstr "Проверка подписи не удалась."
-
-#, c-format
-msgctxt "inapp_error_unknown"
-msgid "Unknown error, result code: '%1$d', response '%2$s'."
-msgstr "Неизвестная ошибка, код результата: \"%1$d\", ответ \"%2$s\"."
-
-msgctxt "inapp_error_developer_error"
-msgid "Developer error."
-msgstr "Ошибка разработчика."
-
-msgctxt "inapp_error_generic_error"
-msgid "Generic error."
-msgstr "Общая ошибка."
-
-msgctxt "inapp_error_item_not_owned"
-msgid "Item is not owned."
-msgstr "Товар не приобретен."
-
-msgctxt "inapp_error_service_timeout"
-msgid "Service timeout."
-msgstr "Тайм-аут службы."
-
-msgctxt "addon_advanced_annotation_purchase_title"
-msgid "Advanced Annotation Add-On"
-msgstr "Дополнение Advanced Annotation"
-
-msgctxt "addon_advanced_annotation_title"
-msgid "Advanced Annotation"
-msgstr "Расширенная аннотация"
-
-msgctxt "addon_pro_purchase_title"
-msgid "Pro"
-msgstr "Pro"
-
-msgctxt "addon_pro_title"
-msgid "Pro"
-msgstr "Pro"
-
-msgctxt "addon_business_purchase_title"
-msgid "Business"
-msgstr "Бизнес"
-
-msgctxt "addon_business_title"
-msgid "Business"
-msgstr "Бизнес"
-
-#, c-format
-msgctxt "dialog_need_upgrade_title_template"
-msgid "%1$s Add-On"
-msgstr "Пакет %1$s"
-
-#, c-format
-msgctxt "dialog_need_upgrade_create_subfolders"
-msgid "Creating subfolders is included in the '%1$s' add-on."
-msgstr "Создание вложенных папок включено в пакет \"%1$s\"."
-
-#, c-format
-msgctxt "dialog_need_upgrade_move_folders"
-msgid "Moving folders into other folders is included in the '%1$s' add-on."
-msgstr "Перемещение папок в другие папки включено в пакет \"%1$s\"."
-
-#, c-format
-msgctxt "dialog_need_upgrade_audio_notes"
-msgid "Recording audio notes is included in the '%1$s' add-on."
-msgstr "Запись звуковых заметок включена в пакет \"%1$s\"."
-
-#, c-format
-msgctxt "dialog_need_upgrade_detail_image"
-msgid "Adding detail images is included in the '%1$s' add-on."
-msgstr "Добавление изображений деталей включено в пакет \"%1$s\"."
-
-#, c-format
-msgctxt "dialog_need_upgrade_pdf_import"
-msgid "PDF import is included in the '%1$s' add-on."
-msgstr "Импорт PDF включен в пакет \"%1$s\"."
-
-#, c-format
-msgctxt "dialog_need_upgrade_example_images_text"
-msgid "You can try this function with the example images (in folder '%1$s')."
-msgstr ""
-"Вы можете попробовать эту функцию с примерами изображений (в папке "
-"\"%1$s\")."
-
-#, c-format
-msgctxt "dialog_need_upgrade_create_example_images_text"
-msgid ""
-"You can try this function with the example images (<a "
-"href=\"create\">create folder '%1$s'</a>)."
-msgstr ""
-"Вы можете попробовать эту функцию с примерами изображений (<a "
-"href=\"create\">создать папку '%1$s'</a>)."
-
-#, c-format
-msgctxt "dialog_need_upgrade_tool_message"
-msgid "This tool is available in the '%1$s' add-on."
-msgstr "Этот инструмент доступен в пакете \"%1$s\"."
-
-msgctxt "dialog_need_upgrade_data_table_export_message"
-msgid "Exporting data tables is available in the Business version."
-msgstr ""
-
-#. TODO: demo video
-msgctxt "dialog_migrate_for_addon_packs_title"
-msgid "Activate Add-on Pack"
-msgstr "Активировать дополнительный пакет"
-
-msgctxt "dialog_migrate_for_addon_packs_text"
-msgid ""
-"Since this native Pro-version is going to be replaced by the free version"
-" with in-app upgrades, add-on packs are only available in the free "
-"version. Please migrate to the free version. Your Pro upgrade will stay "
-"active."
-msgstr ""
-"Поскольку эта родная Pro-версия будет заменена бесплатной версией с "
-"обновлениями в приложении, дополнительные пакеты доступны только в "
-"бесплатной версии. Пожалуйста, перейдите на бесплатную версию. Ваше "
-"обновление Pro останется активным."
-
-msgctxt "dialog_migrate_for_addon_packs_download_text"
-msgid "Download the free version from here:"
-msgstr "Загрузите бесплатную версию отсюда:"
-
-msgctxt "dialog_migrate_for_addon_packs_open_instructions"
-msgid "Show migration instructions"
-msgstr "Показать инструкции по миграции"
-
-#. tutorial
-msgctxt "example_folder_name"
-msgid "Examples"
-msgstr "Примеры"
-
-msgctxt "tutorial_images_1"
-msgid "Example 1: Measure on a 2D floor plan"
-msgstr "Образец 1: Шкала масштаба на плане квартиры"
-
-msgctxt "tutorial_images_2"
-msgid "Example 2: Measure a flat object"
-msgstr "Образец 2: Измерение объекта на плоскости"
-
-msgctxt "tutorial_images_3"
-msgid "Example 3: Perspectively distorted wall"
-msgstr "Образец 3: Измерение стены с учетом перспективы"
-
-msgctxt "tutorial_images_4"
-msgid "Example 4: Perspective height measurement"
-msgstr "Пример 4: Измерение высоты в перспективе"
-
-#. image import
-msgctxt "default_image_name"
-msgid "unnamed image"
-msgstr "без имени"
-
-msgctxt "default_image_name_prefix_with_date"
-msgid "image from {M} {d}, {yyyy}"
-msgstr "Создано {d} {M} {yyyy}"
-
-msgctxt "default_image_name_from_unnamed_pdf"
-msgid "PDF import, page {page}"
-msgstr "Импорт PDF, страница {page}"
-
-msgctxt "default_image_name_from_pdf"
-msgid "{name}, page {page}"
-msgstr "{name}, страница {page}"
-
-#. image import from free app
-msgctxt "snackbar_pro_to_free_migration"
-msgid "Pro-version app migration"
-msgstr "Миграция приложений на Pro-версию"
-
-msgctxt "snackbar_pro_to_free_migration_info"
-msgid "Info"
-msgstr "Информация"
-
-msgctxt "snackbar_pro_to_free_migration_url"
-msgid "https://www.imagemeter.com/manual/license/pro-version-migration"
-msgstr "https://www.imagemeter.com/manual/license/pro-version-migration"
-
-msgctxt "import_pro_app_data"
-msgid "Import images from Pro app"
-msgstr "Импорт изображений из приложения Pro"
-
-msgctxt "import_pro_app_data_started_text"
-msgid ""
-"Importing has started to run in the background. When it is finished, "
-"please check that the images were copied correctly and delete them in the"
-" Pro app to save memory space."
-msgstr ""
-"Импорт запущен в фоновом режиме. По завершении убедитесь, что изображения"
-" были скопированы правильно, и удалите их в приложении Pro, чтобы "
-"сэкономить место в памяти."
-
-msgctxt "import_pro_app_data_local_not_empty"
-msgid ""
-"Warning: there are images in this app. Importing the images from the Pro "
-"app may overwrite images with the same name."
-msgstr ""
-"Предупреждение: в этом приложении есть изображения. Импорт изображений из"
-" приложения Pro может перезаписать изображения с тем же именем."
-
-msgctxt "import_pro_app_data_local_not_empty_anyway"
-msgid "Import anyway"
-msgstr "Все равно импортировать"
-
-msgctxt "import_pro_app_data_title"
-msgid "Importing images from Pro app"
-msgstr "Импорт изображений из приложения Pro"
-
-msgctxt "import_pro_app_data_scan_progress_text"
-msgid "Please wait, searching for images to copy."
-msgstr "Подождите, идет поиск изображений для копирования."
-
-#, c-format
-msgctxt "import_pro_app_data_progress_text"
-msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
-msgstr "Подождите, %1$d изображение из %2$d выполнено (%3$d ошибок)."
-
-msgctxt "import_pro_app_data_finished"
-msgid ""
-"Images from the Pro app are now imported. After checking that the images "
-"were imported correctly, you may want to delete the images in the Pro app"
-" to save memory space."
-msgstr ""
-"Изображения из приложения Pro теперь импортируются. Убедившись, что "
-"изображения были импортированы правильно, Вы можете удалить изображения в"
-" приложении Pro, чтобы сэкономить место в памяти."
-
-msgctxt "import_pro_app_data_failed"
-msgid ""
-"Image import from Pro app has failed or is incomplete. Maybe your memory "
-"is full?"
-msgstr ""
-"Импорт изображения из приложения Pro завершился неудачно или не завершен."
-" Может у Вас переполнена память?"
-
-#. PDF import
-msgctxt "pdf_import_page_selection_render_resolution"
-msgid "Resolution (dpi):"
-msgstr "Разрешение (dpi):"
-
-msgctxt "pdf_import_page_selection_output_image_resolution"
-msgid "Output resolution:"
-msgstr "Выходное разрешение:"
-
-#, c-format
-msgctxt "pdf_import_page_selection_output_image_resolution_value"
-msgid "%1$.1f MP"
-msgstr " %1$.1f MP"
-
-#. dialog: export format
-msgctxt "dialog_export_format_image"
-msgid "Image (JPEG/PNG)"
-msgstr "Изображение (JPEG/PNG)"
-
-msgctxt "dialog_export_format_pdf"
-msgid "PDF document"
-msgstr "PDF документ"
-
-msgctxt "dialog_export_format_zip"
-msgid "ZIP archive"
-msgstr "ZIP архив"
-
-msgctxt "dialog_export_format_imi"
-msgid "Editable ImageMeter Image (IMI)"
-msgstr "Редактируемое изображение ImageMeter (IMI)"
-
-msgctxt "dialog_export_format_imf"
-msgid "ImageMeter folder (IMF)"
-msgstr "Папка ImageMeter (IMF)"
-
-msgctxt "dialog_export_format_gallery"
-msgid "Save to gallery"
-msgstr "Сохранить в галерею"
-
-msgctxt "dialog_export_format_show_next_time"
-msgid "Show format selection next time"
-msgstr "Показать выбранный формат в следующий раз"
-
-#. image export
-msgctxt "export_dialog_saving_images_to_external_storage"
-msgid "Saving images to external storage..."
-msgstr "Сохранение изображений на внешнее хранилище..."
-
-msgctxt "export_dialog_image_saved_to_external_storage"
-msgid "Saved image to external storage..."
-msgstr "Изображение сохранено на внешнее хранилище..."
-
-#, c-format
-msgctxt "export_dialog_images_saved_to_external_storage"
-msgid "Saved %1$d images to external storage..."
-msgstr "Сохранено %1$d изображений на внешнее хранилище..."
-
-msgctxt "export_dialog_saving_images_success_title"
-msgid "Export finished"
-msgstr "Экспорт завершен"
-
-#, c-format
-msgctxt "export_dialog_saving_images_success_text"
-msgid ""
-"Images have been saved to folder '%1$s'.\n"
-"\n"
-"Maybe you can also find them more easily under /sdcard/Pictures."
-msgstr ""
-"Изображения сохранены в папку '%1$s'.\n"
-"\n"
-"Возможно, Вы сможете найти их более просто в /sdcard/Pictures."
-
-msgctxt "export_dialog_overwrite_extpics_images_message"
-msgid "Images with the same name exist in the target directory."
-msgstr "В этой папке уже есть файл с таким именем"
-
-msgctxt "export_dialog_overwrite_extpics_images_overwrite"
-msgid "Overwrite"
-msgstr "Перезаписать"
-
-msgctxt "export_dialog_overwrite_extpics_images_keep_both"
-msgid "Rename"
-msgstr "Переименовать"
-
-msgctxt "export_dialog_overwrite_extpics_images_cancel"
-msgid "Cancel"
-msgstr "Отмена"
-
-msgctxt "export_dialog_overwrite_extpics_folder_message"
-msgid "A folder with the same name already exists."
-msgstr "Папка с таким именем уже существует"
-
-msgctxt "export_dialog_overwrite_extpics_folder_replace"
-msgid "Replace"
-msgstr "Заменить"
-
-msgctxt "export_dialog_overwrite_extpics_folder_merge"
-msgid "Merge"
-msgstr "Объединить"
-
-msgctxt "export_dialog_overwrite_extpics_folder_cancel"
-msgid "Cancel"
-msgstr "Отмена"
-
-msgctxt "dialog_image_export_options_show_dialog"
-msgid "Show export options next time"
-msgstr "Показать параметры экспорта в следующий раз"
-
-msgctxt "dialog_image_export_use_default_options"
-msgid "Use default export options"
-msgstr "Использовать параметры экспорта по умолчанию"
-
-msgctxt "dialog_image_export_image_format"
-msgid "Image format"
-msgstr "Формат изображения"
-
-msgctxt "dialog_image_export_file_format"
-msgid "File format"
-msgstr "Формат файла"
-
-msgctxt "dialog_image_export_overlays"
-msgid "Overlays"
-msgstr "Оверлеи"
-
-msgctxt "dialog_image_export_overlay_show_image_title"
-msgid "Show image title"
-msgstr "Показать название изображения"
-
-msgctxt "dialog_image_export_size_original_image_size"
-msgid "Original image size"
-msgstr "Исходный размер изображения"
-
-msgctxt "dialog_image_export_size_custom_size"
-msgid "Custom size"
-msgstr "Обычный размер"
-
-msgctxt "dialog_image_export_image_quality"
-msgid "Image quality"
-msgstr "Качество изображения"
-
-msgctxt "dialog_image_export_image_size"
-msgid "Image size"
-msgstr "Размер изображения"
-
-msgctxt "image_export_default_settings"
+msgctxt "pref_image_export_default_settings"
 msgid "Default image export settings"
 msgstr "Настройки экспорта изображений по умолчанию"
-
-#. PDF export
-msgctxt "dialog_pdf_export_paper"
-msgid "Paper"
-msgstr "Бумага"
-
-msgctxt "dialog_pdf_export_layout"
-msgid "Layout"
-msgstr "Макет"
-
-msgctxt "dialog_pdf_export_metadata"
-msgid "Metadata"
-msgstr "Метаданные"
-
-msgctxt "dialog_pdf_export_data_table"
-msgid "Data Table"
-msgstr ""
-
-msgctxt "dialog_pdf_export_space_for_notes"
-msgid "Space for image notes"
-msgstr "Место для заметок с изображениями"
-
-msgctxt "dialog_pdf_export_print_table_of_content"
-msgid "Print table of content"
-msgstr "Распечатать содержание"
-
-msgctxt "dialog_pdf_export_print_folder_notes"
-msgid "Print folder notes"
-msgstr "Печать заметок к папке"
-
-msgctxt "dialog_pdf_export_data_table_layout"
-msgid "Table layout"
-msgstr ""
-
-msgctxt "pdf_export_notification_generating_pdf"
-msgid "Generating PDF file"
-msgstr "Создание файла PDF"
-
-#, c-format
-msgctxt "pdf_export_notification_progress"
-msgid "Rendering image %1$d of %2$d."
-msgstr "Визуализация изображения %1$d из %2$d."
-
-msgctxt "pdf_export_table_of_contents"
-msgid "Table of contents"
-msgstr "Содержание"
-
-msgctxt "pdf_export_root_folder_title"
-msgid "ImageMeter export"
-msgstr "ImageMeter экспорт"
-
-#. - ZIP export
-msgctxt "dialog_zip_export_title"
-msgid "ZIP export"
-msgstr "ZIP экспорт"
-
-msgctxt "dialog_zip_options_show_dialog"
-msgid "Show ZIP options next time"
-msgstr "Показать параметры ZIP в следующий раз"
-
-msgctxt "zip_export_notification_generating_title"
-msgid "Generating ZIP file"
-msgstr "Создание файла ZIP"
-
-#, c-format
-msgctxt "zip_export_notification_progress"
-msgid "Rendering image %1$d of %2$d."
-msgstr "Визуализация изображения %1$d из %2$d."
-
-#, c-format
-msgctxt "zip_export_notification_progress_pdf_step"
-msgid "PDF image %1$d of %2$d."
-msgstr "Изображение PDF %1$d из %2$d."
-
-msgctxt "zip_export_notification_progress_compressing_step"
-msgid "Compressing ZIP file..."
-msgstr "Сжатие ZIP-файла ..."
-
-#. CSV export
-msgctxt "dialog_csv_export_title"
-msgid "Data table export (CSV)"
-msgstr ""
-
-#. dialogs
-msgctxt "imageselect_dialog_image_name_image_title"
-msgid "Image name"
-msgstr "Имя изображения"
-
-msgctxt "imageselect_dialog_image_name_title_hint"
-msgid "Enter image name"
-msgstr "Введите имя изображения"
-
-#. string name="imageselect_dialog_image_name_capture_date">Capture
-#. date:</string
-msgctxt "imageselect_dialog_image_name_notes"
-msgid "Notes"
-msgstr "Примечание"
-
-msgctxt "imageselect_dialog_image_name_number"
-msgid "Number"
-msgstr "Число"
-
-msgctxt "imageselect_dialog_image_name_template"
-msgid "Template"
-msgstr ""
-
-msgctxt "dialog_clipboard_paste_options_title"
-msgid "Clipboard paste options"
-msgstr ""
-
-msgctxt "dialog_clipboard_paste_options_copy_measurements"
-msgid "Copy measurements"
-msgstr ""
-
-msgctxt "dialog_clipboard_paste_options_center_content"
-msgid "Center on image"
-msgstr ""
-
-#. Dialog: image import
-msgctxt "dialog_data_import_progress_message"
-msgid "Importing images ..."
-msgstr "Импорт изображений..."
-
-#. Dialog: duplicate image import
-msgctxt "dialog_duplicate_image_import_title"
-msgid "Image Import"
-msgstr "Импорт изображений"
-
-#, c-format
-msgctxt "dialog_duplicate_image_import_message"
-msgid "Imported image '%1$s' already exists."
-msgstr "Изображение импорта '%1$s' уже существует"
-
-msgctxt "dialog_duplicate_image_import_overwrite"
-msgid "Overwrite"
-msgstr "Перезаписать"
-
-msgctxt "dialog_duplicate_image_import_keep_both"
-msgid "Keep both"
-msgstr "Сохранить оба"
-
-msgctxt "dialog_duplicate_image_import_skip"
-msgid "Skip"
-msgstr "Пропустить"
-
-msgctxt "dialog_duplicate_folder_import_title"
-msgid "Folder Import"
-msgstr "Папка импорта"
-
-#, c-format
-msgctxt "dialog_duplicate_folder_import_message"
-msgid ""
-"Imported folder '%1$s' already exists. %3$d images should be imported, "
-"out of which %2$d already exist locally."
-msgstr ""
-"Папка импорта '%1$s' уже существует. %3$d изображений готово к импорту, "
-"из которых %2$d уже существуют локально."
-
-#, c-format
-msgctxt "dialog_duplicate_folder_no_duplicate_images_import_message"
-msgid "Imported folder '%1$s' already exists, but there are no duplicate images."
-msgstr "Папка импорта '%1$s' уже существует и не содержит дублей."
-
-msgctxt "dialog_duplicate_folder_import_merge"
-msgid "Merge"
-msgstr "Объединить"
-
-msgctxt "dialog_duplicate_folder_import_overwrite"
-msgid "Overwrite"
-msgstr "Перезаписать"
-
-msgctxt "dialog_duplicate_folder_import_keep_both"
-msgid "Keep both"
-msgstr "Сохранить обе"
-
-msgctxt "dialog_duplicate_folder_import_skip"
-msgid "Skip"
-msgstr "Пропустить"
 
 #. Dialog: cloud login required
 msgctxt "dialog_cloud_login_required_title"
@@ -2213,132 +2080,10 @@ msgctxt "dialog_cloud_login_open_prefs_button"
 msgid "Open cloud preferences"
 msgstr "Настройки облака"
 
-#. Errors. TODO: check all errors in this section whether they are still
-#. required.
+#. Errors
 msgctxt "imageselect_error_imported_file_is_not_an_image"
 msgid "Imported file is not an image"
 msgstr "Импортированный файл не является изображением"
-
-msgctxt "imageselect_error_cannot_edit_corrupted_image"
-msgid "The .imm file for this image is corrupted. You cannot edit the image."
-msgstr ""
-"Файл .imm для этого изображения поврежден. Вы не можете редактировать "
-"изображение."
-
-msgctxt "imageselect_error_cannot_rename_corrupted_image"
-msgid "The .imm file for this image is corrupted. You cannot rename the image."
-msgstr ""
-"Файл .imm для этого изображения поврежден. Вы не можете переименовать "
-"изображение."
-
-msgctxt "imageselect_error_cannot_export_corrupted_image"
-msgid "The images with the corrupted .imm files will not be exported."
-msgstr "Изображения с поврежденными файлами .imm не могут быть экспортированы."
-
-#, c-format
-msgctxt "imageselect_error_image_version_more_recent_open_editor_anyways"
-msgid ""
-"The file version of this image (%1$d) is more recent than the maximum "
-"version supported by the ImageMeter version installed (%2$d). Opening the"
-" file may result in lost data or wrong annotations. You should use a "
-"recent version of ImageMeter to open this file.\n"
-"\n"
-"Do you still want to open it?"
-msgstr ""
-"Версия файла этого изображения (%1$d) является более поздней, чем может "
-"открыть установленная версия ImageMeter (%2$d). Открытие файла может "
-"привести к потере данных или неправильной аннотации. Вам необходимо "
-"использовать последние версии ImageMeter, чтобы открыть этот файл.\n"
-"\n"
-"Все еще желаете его открыть?"
-
-msgctxt "imageselect_error_metadata_format_unknown"
-msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
-msgstr ""
-"Метаданные изображения (.imm) нечитабельны, потому, что формат "
-"неизвестный."
-
-msgctxt "imageselect_error_cannot_modify_readonly_folder"
-msgid "This is an essential system folder, you cannot remove or rename it."
-msgstr "Это системная папка, она не может быть удалена или переименована."
-
-msgctxt "imageselect_error_cannot_move_bundle_to_folder"
-msgid ""
-"Cannot move image to new folder (maybe an image with the same name "
-"already exists)."
-msgstr ""
-"Не удается переместить изображение в новую папку (возможно изображение с "
-"таким именем уже существует)"
-
-msgctxt "imageselect_error_external_memory_unavailable"
-msgid ""
-"External memory (where your app-data is stored) is not available. Most "
-"probably, your device stores this data on an external SD card which is "
-"currently not available. If this is not the problem in your case, you may"
-" contact imagemeter@gmail.com."
-msgstr ""
-"Внешняя память (где сохранены данные Вашего приложения) недоступна. "
-"Скорее всего, Ваше устройство сохраняет эти данные на внешнюю SD-карту, "
-"которая в настоящее время недоступна. Если это не Ваш случай, будьте "
-"добры, отпишитесь максимально подробно на imagemeter@gmail.com."
-
-#, c-format
-msgctxt "imageselect_error_folder_cannot_create"
-msgid ""
-"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
-"the media (e.g. SD-card) is mounted, this directory exists and is "
-"writable."
-msgstr ""
-"Невозможно создать папку '%1$s' в директории: '%2$s'. Убедитесь, что "
-"накопитель (например SD-карта) смонтирован, а эта директория существует и"
-" доступна для записи."
-
-#, c-format
-msgctxt "imageselect_error_cannot_access_external_data"
-msgid "Cannot access external data at location '%1$s'."
-msgstr "Нет доступа к внешним данным, расположенным в '%1$s'"
-
-#, c-format
-msgctxt "imageselect_error_cannot_create_existing_folder"
-msgid "Cannot create folder '%1$s' because it already exists."
-msgstr "Невозможно создать папку '%1$s' т.к она уже существует."
-
-#, c-format
-msgctxt "imageselect_error_folder_rename_target_exists"
-msgid "Cannot rename folder to '%1$s' because that already exists."
-msgstr "Невозможно переименовать в '%1$s' т.к такое имя уже существует."
-
-#, c-format
-msgctxt "imageselect_error_folder_does_not_exist_detailed"
-msgid "Folder '%1$s' does not exist anymore (expected location '%2$s')."
-msgstr "Папка '%1$s' больше не существует (ожидаемое расположение '%2$s')."
-
-#, c-format
-msgctxt "imageselect_error_cannot_write_data_bundle"
-msgid "Cannot write data for image '%1$s'."
-msgstr "Невозможно записать данные для '%1$s'."
-
-#, c-format
-msgctxt "imageselect_error_cannot_write_data_bundle_detailed"
-msgid "Cannot write data for image '%1$s' (at location '%2$s')."
-msgstr "Невозможно записать данные для '%1$s' (расположенном в '%2$s')."
-
-#, c-format
-msgctxt "imageselect_error_cannot_delete_data_bundle"
-msgid "Cannot delete image '%1$s'."
-msgstr "Невозможно удалить изображение '%1$s'."
-
-msgctxt "imageselect_error_internal_toast"
-msgid ""
-"An internal error happened. Please take a screenshot of the notification "
-"above and send this to me. Thank you!"
-msgstr ""
-"Произошла внутренняя ошибка. Пожалуйста, сделайте скриншот и вышлите мне."
-" Спасибо!"
-
-msgctxt "imageselect_error_url_of_imported_file_not_found"
-msgid "Image to be imported cannot be found."
-msgstr "Изображение для импорта не найдено."
 
 msgctxt "imageselect_error_cannot_capture_with_camera"
 msgid ""
@@ -2352,6 +2097,14 @@ msgstr ""
 "отвечает на попытку захвата. Вы еще можете импортировать изображения из "
 "галереи, или можете попробовать установить другое приложение камеры."
 
+msgctxt "imageselect_error_internal_toast"
+msgid ""
+"An internal error happened. Please take a screenshot of the notification "
+"above and send this to me. Thank you!"
+msgstr ""
+"Произошла внутренняя ошибка. Пожалуйста, сделайте скриншот и вышлите мне."
+" Спасибо!"
+
 msgctxt "imageselect_error_no_image_import_activity"
 msgid "There is no app on the device from which we can import images."
 msgstr ""
@@ -2364,28 +2117,6 @@ msgstr ""
 "Невозможно импортировать изображение, потому что текущий каталог "
 "недействителен."
 
-#, c-format
-msgctxt "error_cannot_save_annotated_image"
-msgid "Cannot save annotated image because: '%1$s'."
-msgstr "Невозможно сохранить изображение с аннотациями, потому что: \"%1$s\"."
-
-#, c-format
-msgctxt "error_cannot_save_thumbnail_image"
-msgid "Cannot save thumbnail image because: '%1$s'."
-msgstr "Невозможно сохранить уменьшенное изображение, потому что: \"%1$s\"."
-
-#, c-format
-msgctxt "error_cannot_access_files_in_folder"
-msgid "Cannot access files in folder '%1$s'."
-msgstr "Нет доступа к файлам в папке \"%1$s\"."
-
-#, c-format
-msgctxt "error_target_folder_contains_bundle_with_same_id"
-msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
-msgstr ""
-"Папка \"%1$s\" содержит изображение \"%2$s\" с тем же идентификатором, "
-"что и изображение \"%3$s\"."
-
 msgctxt "error_cannot_open_pdf"
 msgid "Cannot open link to PDF file"
 msgstr "Не удается открыть ссылку на файл PDF"
@@ -2394,76 +2125,9 @@ msgctxt "error_cause_section_title"
 msgid "Cause:"
 msgstr "Причина:"
 
-#. storage errors
 msgctxt "storage_error_external_storage_unavailable"
 msgid "External storage (SD card?) not present."
 msgstr "Внешнее хранилище отсутствует."
-
-msgctxt "storage_error_external_storage_read_only"
-msgid "External storage is read-only."
-msgstr "Внешнее хранилище 'только для чтения'."
-
-msgctxt "storage_error_external_storage_could_not_write_file"
-msgid "Could not write file to external memory."
-msgstr "Не удалось записать файл на внешнем хранилище."
-
-msgctxt "storage_error_external_storage_could_not_get_permission_to_write_images"
-msgid ""
-"Could not get permission to write to external storage. No files have been"
-" written."
-msgstr ""
-"Невозможно получить разрешение на запись на внешнее хранилище. Запись "
-"файлов не удалась."
-
-#, c-format
-msgctxt "storage_error_cannot_create_directory_on_external_storage"
-msgid "Could not create directory '%1$s' on external storage."
-msgstr "Не удалось создать директорию '%1$s' на внешнем хранилище."
-
-msgctxt "storage_error_external_storage_destination_is_no_directory"
-msgid "External storage destination is not a directory."
-msgstr "Внешнее хранилище не является директорией назначения."
-
-#, c-format
-msgctxt "storage_error_data_bundle_corrupted"
-msgid "Data in image directory '%1$s' is corrupted."
-msgstr "Данные в директории изображения '%1$s' повреждены."
-
-msgctxt "storage_error_no_permission_to_read_image_to_be_imported"
-msgid ""
-"Cannot import image because the permission to read external storage has "
-"not been granted."
-msgstr ""
-"Невозможно импортировать изображения, ибо разрешения на чтение внешних "
-"накопителей не были предоставлены."
-
-#, c-format
-msgctxt "storage_error_cannot_read_ifd_file"
-msgid "Cannot read IFD file in folder '%1$s'."
-msgstr "Не удается прочитать файл IFD в папке \"%1$s\"."
-
-#, c-format
-msgctxt "error_cannot_open_file_does_not_exist"
-msgid "Cannot open file '%1$s' because it does not exist."
-msgstr "Невозможно открыть файл \"%1$s\", ибо он не существует."
-
-#, c-format
-msgctxt "error_cannot_open_file_is_folder"
-msgid "Cannot open file '%1$s' because it is a folder."
-msgstr "Не удается открыть файл \"%1$s\", потому что это папка."
-
-#, c-format
-msgctxt "error_cannot_write_file"
-msgid "Cannot write to file '%1$s'."
-msgstr "Невозможно записать в файл \"%1$s\"."
-
-msgctxt "storage_error_cannot_load_image_file_from_remote"
-msgid "Cannot load the image file from cloud storage."
-msgstr "Не удается загрузить файл изображения из облачного хранилища."
-
-msgctxt "storage_note_pulling_image_file_from_remote"
-msgid "Downloading image file from cloud storage."
-msgstr "Скачивание файла изображения из облачного хранилища."
 
 #. filesystem errors
 msgctxt "error_cannot_delete_file"
@@ -6895,10 +6559,6 @@ msgctxt "welcome_message_show_at_startup"
 msgid "Show welcome message at startup"
 msgstr "Приветствие при запуске"
 
-msgctxt "release_notes_filename"
-msgid "en.html"
-msgstr "en.html"
-
 #. info messages
 msgctxt "main_screen_info_message_pro_key_app_not_needed"
 msgid ""
@@ -7131,4 +6791,344 @@ msgstr "Удалить локально"
 msgctxt "sync_action_delete_remote"
 msgid "Delete on server"
 msgstr "Удалить с сервера"
+
+msgctxt "generic_action_undo"
+msgid "Undo"
+msgstr "Отменить"
+
+msgctxt "generic_action_redo"
+msgid "Redo"
+msgstr "Шаг вперед"
+
+msgctxt "generic_decimal_digits"
+msgid "Decimal digits"
+msgstr "Десятичные знаки"
+
+#. links
+msgctxt "release_notes_filename"
+msgid "en.html"
+msgstr "en.html"
+
+#. ============ unused strings that we keep in case we need the translations
+#. later on ==========
+#. errors
+msgctxt "UNUSED_imageselect_error_cannot_edit_corrupted_image"
+msgid "The .imm file for this image is corrupted. You cannot edit the image."
+msgstr ""
+"Файл .imm для этого изображения поврежден. Вы не можете редактировать "
+"изображение."
+
+msgctxt "UNUSED_imageselect_error_cannot_rename_corrupted_image"
+msgid "The .imm file for this image is corrupted. You cannot rename the image."
+msgstr ""
+"Файл .imm для этого изображения поврежден. Вы не можете переименовать "
+"изображение."
+
+msgctxt "UNUSED_imageselect_error_cannot_export_corrupted_image"
+msgid "The images with the corrupted .imm files will not be exported."
+msgstr "Изображения с поврежденными файлами .imm не могут быть экспортированы."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_image_version_more_recent_open_editor_anyways"
+msgid ""
+"The file version of this image (%1$d) is more recent than the maximum "
+"version supported by the ImageMeter version installed (%2$d). Opening the"
+" file may result in lost data or wrong annotations. You should use a "
+"recent version of ImageMeter to open this file.\n"
+"\n"
+"Do you still want to open it?"
+msgstr ""
+"Версия файла этого изображения (%1$d) является более поздней, чем может "
+"открыть установленная версия ImageMeter (%2$d). Открытие файла может "
+"привести к потере данных или неправильной аннотации. Вам необходимо "
+"использовать последние версии ImageMeter, чтобы открыть этот файл.\n"
+"\n"
+"Все еще желаете его открыть?"
+
+msgctxt "UNUSED_imageselect_error_metadata_format_unknown"
+msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
+msgstr ""
+"Метаданные изображения (.imm) нечитабельны, потому, что формат "
+"неизвестный."
+
+msgctxt "UNUSED_imageselect_error_cannot_modify_readonly_folder"
+msgid "This is an essential system folder, you cannot remove or rename it."
+msgstr "Это системная папка, она не может быть удалена или переименована."
+
+msgctxt "UNUSED_imageselect_error_cannot_move_bundle_to_folder"
+msgid ""
+"Cannot move image to new folder (maybe an image with the same name "
+"already exists)."
+msgstr ""
+"Не удается переместить изображение в новую папку (возможно изображение с "
+"таким именем уже существует)"
+
+msgctxt "UNUSED_imageselect_error_external_memory_unavailable"
+msgid ""
+"External memory (where your app-data is stored) is not available. Most "
+"probably, your device stores this data on an external SD card which is "
+"currently not available. If this is not the problem in your case, you may"
+" contact imagemeter@gmail.com."
+msgstr ""
+"Внешняя память (где сохранены данные Вашего приложения) недоступна. "
+"Скорее всего, Ваше устройство сохраняет эти данные на внешнюю SD-карту, "
+"которая в настоящее время недоступна. Если это не Ваш случай, будьте "
+"добры, отпишитесь максимально подробно на imagemeter@gmail.com."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_folder_cannot_create"
+msgid ""
+"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
+"the media (e.g. SD-card) is mounted, this directory exists and is "
+"writable."
+msgstr ""
+"Невозможно создать папку '%1$s' в директории: '%2$s'. Убедитесь, что "
+"накопитель (например SD-карта) смонтирован, а эта директория существует и"
+" доступна для записи."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_access_external_data"
+msgid "Cannot access external data at location '%1$s'."
+msgstr "Нет доступа к внешним данным, расположенным в '%1$s'"
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_create_existing_folder"
+msgid "Cannot create folder '%1$s' because it already exists."
+msgstr "Невозможно создать папку '%1$s' т.к она уже существует."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_folder_rename_target_exists"
+msgid "Cannot rename folder to '%1$s' because that already exists."
+msgstr "Невозможно переименовать в '%1$s' т.к такое имя уже существует."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_folder_does_not_exist_detailed"
+msgid "Folder '%1$s' does not exist anymore (expected location '%2$s')."
+msgstr "Папка '%1$s' больше не существует (ожидаемое расположение '%2$s')."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_write_data_bundle"
+msgid "Cannot write data for image '%1$s'."
+msgstr "Невозможно записать данные для '%1$s'."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_write_data_bundle_detailed"
+msgid "Cannot write data for image '%1$s' (at location '%2$s')."
+msgstr "Невозможно записать данные для '%1$s' (расположенном в '%2$s')."
+
+#, c-format
+msgctxt "UNUSED_imageselect_error_cannot_delete_data_bundle"
+msgid "Cannot delete image '%1$s'."
+msgstr "Невозможно удалить изображение '%1$s'."
+
+msgctxt "UNUSED_imageselect_error_url_of_imported_file_not_found"
+msgid "Image to be imported cannot be found."
+msgstr "Изображение для импорта не найдено."
+
+#, c-format
+msgctxt "UNUSED_error_cannot_save_annotated_image"
+msgid "Cannot save annotated image because: '%1$s'."
+msgstr "Невозможно сохранить изображение с аннотациями, потому что: \"%1$s\"."
+
+#, c-format
+msgctxt "UNUSED_error_cannot_save_thumbnail_image"
+msgid "Cannot save thumbnail image because: '%1$s'."
+msgstr "Невозможно сохранить уменьшенное изображение, потому что: \"%1$s\"."
+
+#, c-format
+msgctxt "UNUSED_error_cannot_access_files_in_folder"
+msgid "Cannot access files in folder '%1$s'."
+msgstr "Нет доступа к файлам в папке \"%1$s\"."
+
+#, c-format
+msgctxt "UNUSED_error_target_folder_contains_bundle_with_same_id"
+msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
+msgstr ""
+"Папка \"%1$s\" содержит изображение \"%2$s\" с тем же идентификатором, "
+"что и изображение \"%3$s\"."
+
+msgctxt "UNUSED_storage_error_external_storage_read_only"
+msgid "External storage is read-only."
+msgstr "Внешнее хранилище 'только для чтения'."
+
+msgctxt "UNUSED_storage_error_external_storage_could_not_write_file"
+msgid "Could not write file to external memory."
+msgstr "Не удалось записать файл на внешнем хранилище."
+
+msgctxt "UNUSED_storage_error_external_storage_could_not_get_permission_to_write_images"
+msgid ""
+"Could not get permission to write to external storage. No files have been"
+" written."
+msgstr ""
+"Невозможно получить разрешение на запись на внешнее хранилище. Запись "
+"файлов не удалась."
+
+#, c-format
+msgctxt "UNUSED_storage_error_cannot_create_directory_on_external_storage"
+msgid "Could not create directory '%1$s' on external storage."
+msgstr "Не удалось создать директорию '%1$s' на внешнем хранилище."
+
+msgctxt "UNUSED_storage_error_external_storage_destination_is_no_directory"
+msgid "External storage destination is not a directory."
+msgstr "Внешнее хранилище не является директорией назначения."
+
+#, c-format
+msgctxt "UNUSED_storage_error_data_bundle_corrupted"
+msgid "Data in image directory '%1$s' is corrupted."
+msgstr "Данные в директории изображения '%1$s' повреждены."
+
+msgctxt "UNUSED_storage_error_no_permission_to_read_image_to_be_imported"
+msgid ""
+"Cannot import image because the permission to read external storage has "
+"not been granted."
+msgstr ""
+"Невозможно импортировать изображения, ибо разрешения на чтение внешних "
+"накопителей не были предоставлены."
+
+#, c-format
+msgctxt "UNUSED_storage_error_cannot_read_ifd_file"
+msgid "Cannot read IFD file in folder '%1$s'."
+msgstr "Не удается прочитать файл IFD в папке \"%1$s\"."
+
+#, c-format
+msgctxt "UNUSED_error_cannot_open_file_does_not_exist"
+msgid "Cannot open file '%1$s' because it does not exist."
+msgstr "Невозможно открыть файл \"%1$s\", ибо он не существует."
+
+#, c-format
+msgctxt "UNUSED_error_cannot_open_file_is_folder"
+msgid "Cannot open file '%1$s' because it is a folder."
+msgstr "Не удается открыть файл \"%1$s\", потому что это папка."
+
+#, c-format
+msgctxt "UNUSED_error_cannot_write_file"
+msgid "Cannot write to file '%1$s'."
+msgstr "Невозможно записать в файл \"%1$s\"."
+
+msgctxt "UNUSED_storage_error_cannot_load_image_file_from_remote"
+msgid "Cannot load the image file from cloud storage."
+msgstr "Не удается загрузить файл изображения из облачного хранилища."
+
+msgctxt "UNUSED_storage_note_pulling_image_file_from_remote"
+msgid "Downloading image file from cloud storage."
+msgstr "Скачивание файла изображения из облачного хранилища."
+
+#. old gallery export
+#, fuzzy
+msgctxt "UNUSED_export_dialog_saving_images_to_external_storage"
+msgid "Saving images to external storage…"
+msgstr "Сохранение изображений на внешнее хранилище..."
+
+#, fuzzy
+msgctxt "UNUSED_export_dialog_image_saved_to_external_storage"
+msgid "Saved image to external storage…"
+msgstr "Изображение сохранено на внешнее хранилище..."
+
+#, c-format, fuzzy
+msgctxt "UNUSED_export_dialog_images_saved_to_external_storage"
+msgid "Saved %1$d images to external storage…"
+msgstr "Сохранено %1$d изображений на внешнее хранилище..."
+
+msgctxt "UNUSED_export_dialog_saving_images_success_title"
+msgid "Export finished"
+msgstr "Экспорт завершен"
+
+#, c-format
+msgctxt "UNUSED_export_dialog_saving_images_success_text"
+msgid ""
+"Images have been saved to folder '%1$s'.\n"
+"\n"
+"Maybe you can also find them more easily under /sdcard/Pictures."
+msgstr ""
+"Изображения сохранены в папку '%1$s'.\n"
+"\n"
+"Возможно, Вы сможете найти их более просто в /sdcard/Pictures."
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_images_message"
+msgid "Images with the same name exist in the target directory."
+msgstr "В этой папке уже есть файл с таким именем"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_images_overwrite"
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_images_keep_both"
+msgid "Rename"
+msgstr "Переименовать"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_images_cancel"
+msgid "Cancel"
+msgstr "Отмена"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_message"
+msgid "A folder with the same name already exists."
+msgstr "Папка с таким именем уже существует"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_replace"
+msgid "Replace"
+msgstr "Заменить"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_merge"
+msgid "Merge"
+msgstr "Объединить"
+
+msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_cancel"
+msgid "Cancel"
+msgstr "Отмена"
+
+#. Dialog: duplicate image import
+msgctxt "UNUSED_dialog_duplicate_image_import_title"
+msgid "Image Import"
+msgstr "Импорт изображений"
+
+#, c-format
+msgctxt "UNUSED_dialog_duplicate_image_import_message"
+msgid "Imported image '%1$s' already exists."
+msgstr "Изображение импорта '%1$s' уже существует"
+
+msgctxt "UNUSED_dialog_duplicate_image_import_overwrite"
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+msgctxt "UNUSED_dialog_duplicate_image_import_keep_both"
+msgid "Keep both"
+msgstr "Сохранить оба"
+
+msgctxt "UNUSED_dialog_duplicate_image_import_skip"
+msgid "Skip"
+msgstr "Пропустить"
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_title"
+msgid "Folder Import"
+msgstr "Папка импорта"
+
+#, c-format
+msgctxt "UNUSED_dialog_duplicate_folder_import_message"
+msgid ""
+"Imported folder '%1$s' already exists. %3$d images should be imported, "
+"out of which %2$d already exist locally."
+msgstr ""
+"Папка импорта '%1$s' уже существует. %3$d изображений готово к импорту, "
+"из которых %2$d уже существуют локально."
+
+#, c-format
+msgctxt "UNUSED_dialog_duplicate_folder_no_duplicate_images_import_message"
+msgid "Imported folder '%1$s' already exists, but there are no duplicate images."
+msgstr "Папка импорта '%1$s' уже существует и не содержит дублей."
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_merge"
+msgid "Merge"
+msgstr "Объединить"
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_overwrite"
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_keep_both"
+msgid "Keep both"
+msgstr "Сохранить обе"
+
+msgctxt "UNUSED_dialog_duplicate_folder_import_skip"
+msgid "Skip"
+msgstr "Пропустить"
 
