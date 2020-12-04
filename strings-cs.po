@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-03 19:55+0100\n"
+"POT-Creation-Date: 2020-12-04 14:09+0100\n"
 "PO-Revision-Date: 2020-08-31 17:28+0200\n"
 "Last-Translator: \n"
 "Language: cs\n"
@@ -18,6 +18,15 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+
+#. generic strings
+msgctxt "generic_button_ok"
+msgid "OK"
+msgstr ""
+
+msgctxt "generic_button_cancel"
+msgid "Cancel"
+msgstr ""
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
@@ -68,181 +77,19 @@ msgctxt "generic_action_undo"
 msgid "Undo"
 msgstr "vrátit"
 
+msgctxt "generic_action_redo"
+msgid "Redo"
+msgstr "Znovu"
+
 msgctxt "generic_decimal_digits"
 msgid "Decimal digits"
 msgstr "Desetinná místa"
 
+#. image library
 #, fuzzy
-msgctxt "notification_generic_error_title"
-msgid "Error"
-msgstr "Chyba"
-
-#, fuzzy
-msgctxt "notification_bkg_rendering_title"
-msgid "Image rendering in progress…"
-msgstr "Probíhá vykreslování obrázků…"
-
-#, fuzzy
-msgctxt "notification_bkg_rendering_channel_title"
-msgid "Image rendering"
-msgstr "Vykreslování obrázků"
-
-#, fuzzy
-msgctxt "notification_syncer_channel_title"
-msgid "Cloud synchronization"
-msgstr "Cloudová synchronizace"
-
-#, fuzzy
-msgctxt "notification_import_title"
-msgid "Image import"
-msgstr "Import obrázku"
-
-#, c-format, fuzzy
-msgctxt "notification_import_content"
-msgid "%1d image left …"
-msgid_plural "%1d images left …"
-msgstr[0] "Zbývá $1d obrázků"
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#, fuzzy
-msgctxt "notification_channel_background_processing_title"
-msgid "Background processing"
-msgstr "Zpracování na pozadí"
-
-#, fuzzy
-msgctxt "notification_channel_offscreen_rendering_title"
-msgid "Image rendering"
-msgstr "Vykreslování obrázků"
-
-#, fuzzy
-msgctxt "notification_channel_error_messages_title"
-msgid "Error messages"
-msgstr "Chybové zprávy"
-
-#, fuzzy
-msgctxt "notification_error_importing_IMI_title"
-msgid "Error importing IMI file"
-msgstr "Při importu souboru IMI došlo k chybě"
-
-#, fuzzy
-msgctxt "notification_error_importing_IMF_title"
-msgid "Error importing IMF file"
-msgstr "Při importu souboru IMF došlo k chybě"
-
-#, fuzzy
-msgctxt "notification_error_importing_image_title"
-msgid "Error importing image"
-msgstr "Při importu obrázku došlo k chybě"
-
-#, fuzzy
-msgctxt "notification_error_importing_file_title"
-msgid "Error importing file"
-msgstr "Při importu souboru došlo k chybě"
-
-#, fuzzy
-msgctxt "notification_rendering_precomputed_image_title"
-msgid "Rendering image"
-msgstr "Vykreslování obrazu"
-
-#, fuzzy
-msgctxt "notification_save_to_gallery_title"
-msgid "Saving to gallery"
-msgstr "Ukládání do galerie"
-
-#, fuzzy
-msgctxt "notification_error_saving_to_gallery"
-msgid "Error while saving to gallery"
-msgstr "Při ukládání do galerie došlo k chybě"
-
-#, c-format, fuzzy
-msgctxt "notification_save_to_gallery_content"
-msgid "%1d image left …"
-msgid_plural "%1d images left …"
-msgstr[0] "Zbývá %1d obrázků"
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#, fuzzy
-msgctxt "notification_error_no_permission_to_save_to_gallery"
-msgid "Cannot save to gallery because ImageMeter has no storage write permission."
-msgstr ""
-"Nelze uložit do galerie, protože ImageMeter nemá oprávnění k zápisu do "
-"úložiště."
-
-#, fuzzy
-msgctxt "notification_duplicate_title"
-msgid "Duplicate images"
-msgstr "Duplicitní obrázky"
-
-#, c-format, fuzzy
-msgctxt "notification_duplicate_content"
-msgid "%1$d of %2$d images copied"
-msgstr "Bylo zkopírováno %1$d z %2$d obrázků"
-
-#, fuzzy
-msgctxt "notification_error_duplicating_image"
-msgid "Error while duplicating image"
-msgstr "Při duplikování obrazu došlo k chybě"
-
-#, fuzzy
-msgctxt "filename_copy_tag"
-msgid "copy"
-msgstr "kopírovat"
-
-#. ========== folder/image-selection ==========
-#. menu
-msgctxt "imageLibrary_new_folder"
-msgid "New folder"
-msgstr "Nová složka"
-
-msgctxt "imageLibrary_folder_contextMenu_share"
-msgid "Share folder"
-msgstr "Sdílet složku"
-
-msgctxt "folderselect_menu_save_to_external_memory"
-msgid "Save to gallery"
-msgstr "Uložit do galerie"
-
-msgctxt "imageLibrary_folder_contextMenu_rename"
-msgid "Rename folder"
-msgstr "Přejmenovat složku"
-
-msgctxt "imageLibrary_folder_contextMenu_delete"
-msgid "Delete folder"
-msgstr "Smazat složku"
-
-msgctxt "imageLibrary_folder_contextMenu_print"
-msgid "Print folder"
-msgstr "Vytisknout složku"
-
-msgctxt "navigationDrawer_preferences"
-msgid "Settings"
-msgstr "Nastavení"
-
-#, fuzzy
-msgctxt "imageLibrary_image_contextMenu_rename"
-msgid "Rename"
-msgstr "Přejmenovat"
-
-#, fuzzy
-msgctxt "imageLibrary_folder_contextMenu_duplicate"
-msgid "Duplicate"
-msgstr "Duplikát"
-
-msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
-msgid "Copy to clipboard"
-msgstr ""
-
-msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
-msgid "Paste annotation"
-msgstr ""
-
-msgctxt "imageLibrary_folder_contextMenu_move"
-msgid "Move to folder"
-msgstr "Přesunout do složky"
+msgctxt "imageLibrary_new_cameraCapture"
+msgid "Camera capture"
+msgstr "Vyfotit obrázek"
 
 msgctxt "imageLibrary_new_importImage"
 msgid "Import image"
@@ -253,10 +100,68 @@ msgctxt "imageLibrary_new_canvas"
 msgid "New canvas"
 msgstr "Nové plátno"
 
+msgctxt "imageLibrary_new_folder"
+msgid "New folder"
+msgstr "Nová složka"
+
+msgctxt "imageLibrary_folder_contextMenu_share"
+msgid "Share folder"
+msgstr "Sdílet složku"
+
+msgctxt "imageLibrary_folder_contextMenu_rename"
+msgid "Rename folder"
+msgstr "Přejmenovat složku"
+
+msgctxt "imageLibrary_folder_contextMenu_move"
+msgid "Move to folder"
+msgstr "Přesunout do složky"
+
 #, fuzzy
-msgctxt "imageLibrary_new_cameraCapture"
-msgid "Camera capture"
-msgstr "Vyfotit obrázek"
+msgctxt "imageLibrary_folder_contextMenu_duplicate"
+msgid "Duplicate"
+msgstr "Duplikát"
+
+msgctxt "imageLibrary_folder_contextMenu_delete"
+msgid "Delete folder"
+msgstr "Smazat složku"
+
+msgctxt "imageLibrary_folder_contextMenu_undelete"
+msgid "Undelete"
+msgstr ""
+
+msgctxt "imageLibrary_folder_contextMenu_purge"
+msgid "Purge"
+msgstr ""
+
+msgctxt "imageLibrary_folder_contextMenu_print"
+msgid "Print folder"
+msgstr "Vytisknout složku"
+
+#, fuzzy
+msgctxt "imageLibrary_image_contextMenu_share"
+msgid "Share"
+msgstr "Podíl"
+
+#, fuzzy
+msgctxt "imageLibrary_image_contextMenu_rename"
+msgid "Rename"
+msgstr "Přejmenovat"
+
+msgctxt "imageLibrary_image_contextMenu_move"
+msgid "Move to folder"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
+msgid "Copy to clipboard"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
+msgid "Paste annotation"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_duplicate"
+msgid "Duplicate"
+msgstr ""
 
 #, fuzzy
 msgctxt "imageLibrary_image_contextMenu_delete"
@@ -274,14 +179,14 @@ msgid "Purge"
 msgstr "Očistit"
 
 #, fuzzy
-msgctxt "imageLibrary_image_contextMenu_share"
-msgid "Share"
-msgstr "Podíl"
-
-#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_print"
 msgid "Print"
 msgstr "Vytisknout obraz"
+
+#, fuzzy
+msgctxt "imageLibrary_image_contextMenu_imageInfo"
+msgid "Image info…"
+msgstr "Informace o obrázku…"
 
 #, fuzzy
 msgctxt "imageLibrary_image_contextMenu_forcedCloudUpload"
@@ -289,42 +194,20 @@ msgid "Force cloud upload"
 msgstr "Vynutit cloudové nahrávání"
 
 #, fuzzy
-msgctxt "imageLibrary_image_contextMenu_imageInfo"
-msgid "Image info…"
-msgstr "Informace o obrázku…"
-
-msgctxt "navigationDrawer_upgrade"
-msgid "Upgrade"
-msgstr "Upgrade"
-
-msgctxt "navigationDrawer_importImagesFromFreeApp"
-msgid "Import images from free app"
-msgstr "Importovat obrázky z bezplatné aplikace"
+msgctxt "imageLibrary_menu_openDisplayOptions"
+msgid "Display options…"
+msgstr "Volby zobrazení…"
 
 #, fuzzy
-msgctxt "imageselect_menu_welcome_message"
-msgid "Show welcome message"
-msgstr "Zobrazit uvítací zprávu"
+msgctxt "imageLibrary_menu_openImageNumberingOptions"
+msgid "Image numbering…"
+msgstr "Číslování obrázků…"
 
-msgctxt "navigationDrawer_aboutApp"
-msgid "About app"
-msgstr "O aplikaci"
+msgctxt "imageLibrary_menu_openSettings"
+msgid "Settings…"
+msgstr "Nastavení…"
 
-#. string name="imageselect_menu_sync_current_folder">Sync current
-#. folder</string
-#. string name="imageselect_menu_sync_inbox_folder">Sync inbox with cloud
-#. (beta)</string
-#. string name="imageselect_menu_sync_all_folders">Sync all folders</string
-msgctxt "navigationDrawer_contact"
-msgid "Contact us"
-msgstr "Kontaktujte nás"
-
-#, fuzzy
-msgctxt "navigationDrawer_documentation"
-msgid "Documentation"
-msgstr "Dokumentace"
-
-#. image-library
+#. image-library misc
 msgctxt "imageLibrary_snackbar_imageDeleted"
 msgid "Image deleted"
 msgstr "Obrázek byl smazán"
@@ -374,41 +257,51 @@ msgctxt "imageLibrary_sortingOrder_number_descending"
 msgid "Number, descending"
 msgstr "Číslo, sestupně"
 
-#, fuzzy
-msgctxt "imageLibrary_menu_openDisplayOptions"
-msgid "Display options…"
-msgstr "Volby zobrazení…"
+#. navigation drawer
+msgctxt "navigationDrawer_preferences"
+msgid "Settings"
+msgstr "Nastavení"
 
 #, fuzzy
-msgctxt "imageLibrary_menu_openImageNumberingOptions"
-msgid "Image numbering…"
-msgstr "Číslování obrázků…"
+msgctxt "navigationDrawer_documentation"
+msgid "Documentation"
+msgstr "Dokumentace"
 
-msgctxt "imageLibrary_menu_openSettings"
-msgid "Settings…"
-msgstr "Nastavení…"
+msgctxt "navigationDrawer_upgrade"
+msgid "Upgrade"
+msgstr "Upgrade"
 
-#. errors
-#, c-format
-msgctxt "imagelibrary_cannot_delete_image_in_use"
-msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
-msgstr "Nelze odstranit obrázek '%1$s', protože jej používá %2$s."
+msgctxt "navigationDrawer_importImagesFromFreeApp"
+msgid "Import images from free app"
+msgstr "Importovat obrázky z bezplatné aplikace"
 
-#, fuzzy
-msgctxt "imagelibrary_cannot_load_current_folder"
-msgid ""
-"Cannot load current folder.\n"
-"\n"
-"Please open the settings and set a different storage directory."
-msgstr ""
-"Nelze načíst aktuální složku.\n"
-"\n"
-"Otevřete nastavení a nastavte jiný adresář úložiště."
+msgctxt "navigationDrawer_aboutApp"
+msgid "About app"
+msgstr "O aplikaci"
 
-#, c-format
-msgctxt "imagelibrary_moving_images_to_app_directory"
-msgid "Moving images to app directory (%1$d of %2$d)."
-msgstr ""
+msgctxt "navigationDrawer_contact"
+msgid "Contact us"
+msgstr "Kontaktujte nás"
+
+#, c-format, fuzzy
+msgctxt "navigationDrawer_license"
+msgid "License: %1$s"
+msgstr "Licence: %1$s"
+
+#, c-format, fuzzy
+msgctxt "navigationDrawer_owner"
+msgid "Owner: %1$s"
+msgstr "Vlastník: %1$s"
+
+#, c-format, fuzzy
+msgctxt "navigationDrawer_user"
+msgid "User: %1$s"
+msgstr "Uživatel: %1$s"
+
+#, c-format, fuzzy
+msgctxt "navigationDrawer_version"
+msgid "Version: %1$s"
+msgstr "Verze: %1$s"
 
 #. dialog: numbering
 msgctxt "imageLibrary_numberingDialog_title"
@@ -518,56 +411,6 @@ msgctxt "foldername_dialog_icon_color"
 msgid "Folder color"
 msgstr "Barva složky"
 
-#. dialog: really save to gallery (since this feature should now be obsolet)
-#. string name="imageselect_save_to_gallery_obsolet_message">ImageMeter
-#. can now automatically add all images to the gallery and keep them
-#. up-to-date. You can enable this feature in the 'Storage' section of the
-#. settings. string    string
-#. name="imageselect_save_to_gallery_obsolet_copy_anyways">Copy anyways string
-#. dialog: delete folder/images
-#. dialog_delete_folder_confirmation
-msgctxt "folderselect_dialog_delete_folder_confirmation_message"
-msgid "Really delete the folder and all its content?"
-msgstr "Opravdu smazat složku a veškerý její obsah?"
-
-msgctxt "folderselect_dialog_delete_folder_ok"
-msgid "Yes, delete all"
-msgstr "Ano, smazat všechny"
-
-msgctxt "folderselect_dialog_delete_folder_cancel"
-msgid "No"
-msgstr "Ne"
-
-#. dialog_delete_folder_content_confirmation
-msgctxt "folderselect_dialog_delete_folder_content_confirmation_message"
-msgid "Really delete all images in the folder?"
-msgstr "Opravdu smazat všechny obrázky ve složce?"
-
-msgctxt "folderselect_dialog_delete_folder_content_ok"
-msgid "Yes, delete all"
-msgstr "Ano, smazat všechny"
-
-msgctxt "folderselect_dialog_delete_folder_content_cancel"
-msgid "No"
-msgstr "Ne"
-
-#. dialog_delete_image_confirmation       dialog_delete_images_confirmation
-msgctxt "imageselect_dialog_delete_image_confirmation_message"
-msgid "Really delete this image?"
-msgstr "Opravdu smazat tento obrázek?"
-
-msgctxt "imageselect_dialog_delete_images_confirmation_message"
-msgid "Really delete the selected images?"
-msgstr "Opravdu smazat vybrané obrázky?"
-
-msgctxt "imageselect_dialog_delete_image_ok"
-msgid "Yes, delete"
-msgstr "Ano, smazat"
-
-msgctxt "imageselect_dialog_delete_image_cancel"
-msgid "No"
-msgstr "Ne"
-
 msgctxt "imageselect_dialog_move_image_to_folder_title"
 msgid "Choose target folder for the image"
 msgstr "Zvolte cílovou složku pro obrázek"
@@ -651,26 +494,6 @@ msgstr "Aplikace pro klíč"
 msgctxt "license_source_volume_key"
 msgid "Volume key"
 msgstr "Tlačítko hlasitosti"
-
-#, c-format, fuzzy
-msgctxt "navigationDrawer_license"
-msgid "License: %1$s"
-msgstr "Licence: %1$s"
-
-#, c-format, fuzzy
-msgctxt "navigationDrawer_version"
-msgid "Version: %1$s"
-msgstr "Verze: %1$s"
-
-#, c-format, fuzzy
-msgctxt "navigationDrawer_owner"
-msgid "Owner: %1$s"
-msgstr "Vlastník: %1$s"
-
-#, c-format, fuzzy
-msgctxt "navigationDrawer_user"
-msgid "User: %1$s"
-msgstr "Uživatel: %1$s"
 
 #, c-format, fuzzy
 msgctxt "upgrade_dialog_pay_once"
@@ -819,6 +642,152 @@ msgstr "Doplněk je aktivní"
 msgctxt "upgrade_dialog_button_store_unavailable"
 msgid "Store unavailable"
 msgstr "Obchod není k dispozici"
+
+msgctxt "pref_main_title"
+msgid "Settings"
+msgstr ""
+
+#, fuzzy
+msgctxt "notification_generic_error_title"
+msgid "Error"
+msgstr "Chyba"
+
+#, fuzzy
+msgctxt "notification_bkg_rendering_title"
+msgid "Image rendering in progress…"
+msgstr "Probíhá vykreslování obrázků…"
+
+#, fuzzy
+msgctxt "notification_bkg_rendering_channel_title"
+msgid "Image rendering"
+msgstr "Vykreslování obrázků"
+
+#, fuzzy
+msgctxt "notification_syncer_channel_title"
+msgid "Cloud synchronization"
+msgstr "Cloudová synchronizace"
+
+#, fuzzy
+msgctxt "notification_import_title"
+msgid "Image import"
+msgstr "Import obrázku"
+
+#, c-format, fuzzy
+msgctxt "notification_import_content"
+msgid "%1d image left …"
+msgid_plural "%1d images left …"
+msgstr[0] "Zbývá $1d obrázků"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, fuzzy
+msgctxt "notification_channel_background_processing_title"
+msgid "Background processing"
+msgstr "Zpracování na pozadí"
+
+#, fuzzy
+msgctxt "notification_channel_offscreen_rendering_title"
+msgid "Image rendering"
+msgstr "Vykreslování obrázků"
+
+#, fuzzy
+msgctxt "notification_channel_error_messages_title"
+msgid "Error messages"
+msgstr "Chybové zprávy"
+
+#, fuzzy
+msgctxt "notification_error_importing_IMI_title"
+msgid "Error importing IMI file"
+msgstr "Při importu souboru IMI došlo k chybě"
+
+#, fuzzy
+msgctxt "notification_error_importing_IMF_title"
+msgid "Error importing IMF file"
+msgstr "Při importu souboru IMF došlo k chybě"
+
+#, fuzzy
+msgctxt "notification_error_importing_image_title"
+msgid "Error importing image"
+msgstr "Při importu obrázku došlo k chybě"
+
+#, fuzzy
+msgctxt "notification_error_importing_file_title"
+msgid "Error importing file"
+msgstr "Při importu souboru došlo k chybě"
+
+#, fuzzy
+msgctxt "notification_rendering_precomputed_image_title"
+msgid "Rendering image"
+msgstr "Vykreslování obrazu"
+
+#, fuzzy
+msgctxt "notification_save_to_gallery_title"
+msgid "Saving to gallery"
+msgstr "Ukládání do galerie"
+
+#, fuzzy
+msgctxt "notification_error_saving_to_gallery"
+msgid "Error while saving to gallery"
+msgstr "Při ukládání do galerie došlo k chybě"
+
+#, c-format, fuzzy
+msgctxt "notification_save_to_gallery_content"
+msgid "%1d image left …"
+msgid_plural "%1d images left …"
+msgstr[0] "Zbývá %1d obrázků"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, fuzzy
+msgctxt "notification_error_no_permission_to_save_to_gallery"
+msgid "Cannot save to gallery because ImageMeter has no storage write permission."
+msgstr ""
+"Nelze uložit do galerie, protože ImageMeter nemá oprávnění k zápisu do "
+"úložiště."
+
+#, fuzzy
+msgctxt "notification_duplicate_title"
+msgid "Duplicate images"
+msgstr "Duplicitní obrázky"
+
+#, c-format, fuzzy
+msgctxt "notification_duplicate_content"
+msgid "%1$d of %2$d images copied"
+msgstr "Bylo zkopírováno %1$d z %2$d obrázků"
+
+#, fuzzy
+msgctxt "notification_error_duplicating_image"
+msgid "Error while duplicating image"
+msgstr "Při duplikování obrazu došlo k chybě"
+
+#, fuzzy
+msgctxt "filename_copy_tag"
+msgid "copy"
+msgstr "kopírovat"
+
+#. errors
+#, c-format
+msgctxt "imagelibrary_cannot_delete_image_in_use"
+msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
+msgstr "Nelze odstranit obrázek '%1$s', protože jej používá %2$s."
+
+#, fuzzy
+msgctxt "imagelibrary_cannot_load_current_folder"
+msgid ""
+"Cannot load current folder.\n"
+"\n"
+"Please open the settings and set a different storage directory."
+msgstr ""
+"Nelze načíst aktuální složku.\n"
+"\n"
+"Otevřete nastavení a nastavte jiný adresář úložiště."
+
+#, c-format
+msgctxt "imagelibrary_moving_images_to_app_directory"
+msgid "Moving images to app directory (%1$d of %2$d)."
+msgstr ""
 
 #, fuzzy
 msgctxt "editor_error_nonpro_gelement_limit_message"
@@ -5713,14 +5682,6 @@ msgstr "Prvek zády"
 msgctxt "editor_menu_edit_detach"
 msgid "Enter value manually"
 msgstr "Zadat hodnotu ručně"
-
-msgctxt "editor_menu_edit_undo"
-msgid "Undo"
-msgstr "Zpět"
-
-msgctxt "generic_action_redo"
-msgid "Redo"
-msgstr "Znovu"
 
 #, fuzzy
 msgctxt "editor_menu_edit_rotate"

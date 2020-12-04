@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-03 19:55+0100\n"
+"POT-Creation-Date: 2020-12-04 14:09+0100\n"
 "PO-Revision-Date: 2020-12-02 12:38+0100\n"
 "Last-Translator: \n"
 "Language: ak_GH\n"
@@ -17,6 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+
+#. generic strings
+msgctxt "generic_button_ok"
+msgid "OK"
+msgstr ""
+
+msgctxt "generic_button_cancel"
+msgid "Cancel"
+msgstr ""
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
@@ -62,152 +71,18 @@ msgctxt "generic_action_undo"
 msgid "Undo"
 msgstr "撤消"
 
+msgctxt "generic_action_redo"
+msgid "Redo"
+msgstr "重做"
+
 msgctxt "generic_decimal_digits"
 msgid "Decimal digits"
 msgstr "小數位"
 
-msgctxt "notification_generic_error_title"
-msgid "Error"
-msgstr "錯誤"
-
-msgctxt "notification_bkg_rendering_title"
-msgid "Image rendering in progress…"
-msgstr "正在進行圖像渲染…"
-
-msgctxt "notification_bkg_rendering_channel_title"
-msgid "Image rendering"
-msgstr "圖像渲染"
-
-msgctxt "notification_syncer_channel_title"
-msgid "Cloud synchronization"
-msgstr "云同步"
-
-msgctxt "notification_import_title"
-msgid "Image import"
-msgstr "圖片導入"
-
-#, c-format
-msgctxt "notification_import_content"
-msgid "%1d image left …"
-msgid_plural "%1d images left …"
-msgstr[0] "%1d 图像待处理 ……"
-
-msgctxt "notification_channel_background_processing_title"
-msgid "Background processing"
-msgstr "後台處理中"
-
-msgctxt "notification_channel_offscreen_rendering_title"
-msgid "Image rendering"
-msgstr ""
-
-msgctxt "notification_channel_error_messages_title"
-msgid "Error messages"
-msgstr "錯誤訊息"
-
-msgctxt "notification_error_importing_IMI_title"
-msgid "Error importing IMI file"
-msgstr "導入IMI文件時出錯"
-
-msgctxt "notification_error_importing_IMF_title"
-msgid "Error importing IMF file"
-msgstr "導入IMF文件時出錯"
-
-msgctxt "notification_error_importing_image_title"
-msgid "Error importing image"
-msgstr "導入圖像時出錯"
-
-msgctxt "notification_error_importing_file_title"
-msgid "Error importing file"
-msgstr "導入文件時出錯"
-
-msgctxt "notification_rendering_precomputed_image_title"
-msgid "Rendering image"
-msgstr ""
-
-msgctxt "notification_save_to_gallery_title"
-msgid "Saving to gallery"
-msgstr "保存到圖庫"
-
-msgctxt "notification_error_saving_to_gallery"
-msgid "Error while saving to gallery"
-msgstr "保存到圖庫時出錯"
-
-#, c-format
-msgctxt "notification_save_to_gallery_content"
-msgid "%1d image left …"
-msgid_plural "%1d images left …"
-msgstr[0] "%1d 图片待处理"
-
-msgctxt "notification_error_no_permission_to_save_to_gallery"
-msgid "Cannot save to gallery because ImageMeter has no storage write permission."
-msgstr "ImageMeter 未被授权儲存，無法将图片保存到圖庫。"
-
-msgctxt "notification_duplicate_title"
-msgid "Duplicate images"
-msgstr ""
-
-#, c-format
-msgctxt "notification_duplicate_content"
-msgid "%1$d of %2$d images copied"
-msgstr ""
-
-msgctxt "notification_error_duplicating_image"
-msgid "Error while duplicating image"
-msgstr ""
-
-msgctxt "filename_copy_tag"
-msgid "copy"
-msgstr ""
-
-#. ========== folder/image-selection ==========
-#. menu
-msgctxt "imageLibrary_new_folder"
-msgid "New folder"
-msgstr "新文件夾"
-
-msgctxt "imageLibrary_folder_contextMenu_share"
-msgid "Share folder"
-msgstr "分享文件夾"
-
-msgctxt "folderselect_menu_save_to_external_memory"
-msgid "Save to gallery"
-msgstr "存至圖像庫"
-
-msgctxt "imageLibrary_folder_contextMenu_rename"
-msgid "Rename folder"
-msgstr "文件夾更名"
-
-msgctxt "imageLibrary_folder_contextMenu_delete"
-msgid "Delete folder"
-msgstr "刪除文件夾"
-
-msgctxt "imageLibrary_folder_contextMenu_print"
-msgid "Print folder"
-msgstr "打印文件夾內所有文件"
-
-msgctxt "navigationDrawer_preferences"
-msgid "Settings"
-msgstr "設置"
-
-msgctxt "imageLibrary_image_contextMenu_rename"
-msgid "Rename"
-msgstr "改名"
-
-msgctxt "imageLibrary_folder_contextMenu_duplicate"
-msgid "Duplicate"
-msgstr "复制"
-
-msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
-msgid "Copy to clipboard"
-msgstr ""
-
-msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
-msgid "Paste annotation"
-msgstr ""
-
-msgctxt "imageLibrary_folder_contextMenu_move"
-msgid "Move to folder"
-msgstr "移至文件夾"
+#. image library
+msgctxt "imageLibrary_new_cameraCapture"
+msgid "Camera capture"
+msgstr "拍攝圖像"
 
 msgctxt "imageLibrary_new_importImage"
 msgid "Import image"
@@ -217,9 +92,65 @@ msgctxt "imageLibrary_new_canvas"
 msgid "New canvas"
 msgstr "新画布"
 
-msgctxt "imageLibrary_new_cameraCapture"
-msgid "Camera capture"
-msgstr "拍攝圖像"
+msgctxt "imageLibrary_new_folder"
+msgid "New folder"
+msgstr "新文件夾"
+
+msgctxt "imageLibrary_folder_contextMenu_share"
+msgid "Share folder"
+msgstr "分享文件夾"
+
+msgctxt "imageLibrary_folder_contextMenu_rename"
+msgid "Rename folder"
+msgstr "文件夾更名"
+
+msgctxt "imageLibrary_folder_contextMenu_move"
+msgid "Move to folder"
+msgstr "移至文件夾"
+
+msgctxt "imageLibrary_folder_contextMenu_duplicate"
+msgid "Duplicate"
+msgstr "复制"
+
+msgctxt "imageLibrary_folder_contextMenu_delete"
+msgid "Delete folder"
+msgstr "刪除文件夾"
+
+msgctxt "imageLibrary_folder_contextMenu_undelete"
+msgid "Undelete"
+msgstr ""
+
+msgctxt "imageLibrary_folder_contextMenu_purge"
+msgid "Purge"
+msgstr ""
+
+msgctxt "imageLibrary_folder_contextMenu_print"
+msgid "Print folder"
+msgstr "打印文件夾內所有文件"
+
+msgctxt "imageLibrary_image_contextMenu_share"
+msgid "Share"
+msgstr "分享"
+
+msgctxt "imageLibrary_image_contextMenu_rename"
+msgid "Rename"
+msgstr "改名"
+
+msgctxt "imageLibrary_image_contextMenu_move"
+msgid "Move to folder"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
+msgid "Copy to clipboard"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
+msgid "Paste annotation"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_duplicate"
+msgid "Duplicate"
+msgstr ""
 
 msgctxt "imageLibrary_image_contextMenu_delete"
 msgid "Delete"
@@ -233,52 +164,31 @@ msgctxt "imageLibrary_image_contextMenu_purge"
 msgid "Purge"
 msgstr "清除"
 
-msgctxt "imageLibrary_image_contextMenu_share"
-msgid "Share"
-msgstr "分享"
-
 msgctxt "imageLibrary_image_contextMenu_print"
 msgid "Print"
 msgstr "打印"
-
-msgctxt "imageLibrary_image_contextMenu_forcedCloudUpload"
-msgid "Force cloud upload"
-msgstr ""
 
 msgctxt "imageLibrary_image_contextMenu_imageInfo"
 msgid "Image info…"
 msgstr "圖片信息……"
 
-msgctxt "navigationDrawer_upgrade"
-msgid "Upgrade"
-msgstr "升級"
+msgctxt "imageLibrary_image_contextMenu_forcedCloudUpload"
+msgid "Force cloud upload"
+msgstr ""
 
-msgctxt "navigationDrawer_importImagesFromFreeApp"
-msgid "Import images from free app"
-msgstr "從免費版本導入圖像"
+msgctxt "imageLibrary_menu_openDisplayOptions"
+msgid "Display options…"
+msgstr "顯示選項……"
 
-msgctxt "imageselect_menu_welcome_message"
-msgid "Show welcome message"
-msgstr "顯示歡迎訊息"
+msgctxt "imageLibrary_menu_openImageNumberingOptions"
+msgid "Image numbering…"
+msgstr "圖片編號……"
 
-msgctxt "navigationDrawer_aboutApp"
-msgid "About app"
-msgstr "關於本软件"
+msgctxt "imageLibrary_menu_openSettings"
+msgid "Settings…"
+msgstr "設置……"
 
-#. string name="imageselect_menu_sync_current_folder">Sync current
-#. folder</string
-#. string name="imageselect_menu_sync_inbox_folder">Sync inbox with cloud
-#. (beta)</string
-#. string name="imageselect_menu_sync_all_folders">Sync all folders</string
-msgctxt "navigationDrawer_contact"
-msgid "Contact us"
-msgstr "聯繫我們"
-
-msgctxt "navigationDrawer_documentation"
-msgid "Documentation"
-msgstr "帮助文件"
-
-#. image-library
+#. image-library misc
 msgctxt "imageLibrary_snackbar_imageDeleted"
 msgid "Image deleted"
 msgstr "圖片已刪除"
@@ -319,38 +229,50 @@ msgctxt "imageLibrary_sortingOrder_number_descending"
 msgid "Number, descending"
 msgstr "按數字降序"
 
-msgctxt "imageLibrary_menu_openDisplayOptions"
-msgid "Display options…"
-msgstr "顯示選項……"
+#. navigation drawer
+msgctxt "navigationDrawer_preferences"
+msgid "Settings"
+msgstr "設置"
 
-msgctxt "imageLibrary_menu_openImageNumberingOptions"
-msgid "Image numbering…"
-msgstr "圖片編號……"
+msgctxt "navigationDrawer_documentation"
+msgid "Documentation"
+msgstr "帮助文件"
 
-msgctxt "imageLibrary_menu_openSettings"
-msgid "Settings…"
-msgstr "設置……"
+msgctxt "navigationDrawer_upgrade"
+msgid "Upgrade"
+msgstr "升級"
 
-#. errors
-#, c-format
-msgctxt "imagelibrary_cannot_delete_image_in_use"
-msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
-msgstr "無法刪除圖像'%1$s'，因為 %2$s 正在使用它。"
+msgctxt "navigationDrawer_importImagesFromFreeApp"
+msgid "Import images from free app"
+msgstr "從免費版本導入圖像"
 
-msgctxt "imagelibrary_cannot_load_current_folder"
-msgid ""
-"Cannot load current folder.\n"
-"\n"
-"Please open the settings and set a different storage directory."
-msgstr ""
-"無法加載當前文件夾。\n"
-"\n"
-"請打開設置，选择其他存儲目錄。"
+msgctxt "navigationDrawer_aboutApp"
+msgid "About app"
+msgstr "關於本软件"
+
+msgctxt "navigationDrawer_contact"
+msgid "Contact us"
+msgstr "聯繫我們"
 
 #, c-format
-msgctxt "imagelibrary_moving_images_to_app_directory"
-msgid "Moving images to app directory (%1$d of %2$d)."
+msgctxt "navigationDrawer_license"
+msgid "License: %1$s"
+msgstr "許可证：%1$s"
+
+#, c-format
+msgctxt "navigationDrawer_owner"
+msgid "Owner: %1$s"
 msgstr ""
+
+#, c-format
+msgctxt "navigationDrawer_user"
+msgid "User: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "navigationDrawer_version"
+msgid "Version: %1$s"
+msgstr "版本：%1$s"
 
 #. dialog: numbering
 msgctxt "imageLibrary_numberingDialog_title"
@@ -443,56 +365,6 @@ msgctxt "foldername_dialog_icon_color"
 msgid "Folder color"
 msgstr "文件夾顏色"
 
-#. dialog: really save to gallery (since this feature should now be obsolet)
-#. string name="imageselect_save_to_gallery_obsolet_message">ImageMeter
-#. can now automatically add all images to the gallery and keep them
-#. up-to-date. You can enable this feature in the 'Storage' section of the
-#. settings. string    string
-#. name="imageselect_save_to_gallery_obsolet_copy_anyways">Copy anyways string
-#. dialog: delete folder/images
-#. dialog_delete_folder_confirmation
-msgctxt "folderselect_dialog_delete_folder_confirmation_message"
-msgid "Really delete the folder and all its content?"
-msgstr "確定刪除所選文件夾和之中所有文件？"
-
-msgctxt "folderselect_dialog_delete_folder_ok"
-msgid "Yes, delete all"
-msgstr "確定刪除"
-
-msgctxt "folderselect_dialog_delete_folder_cancel"
-msgid "No"
-msgstr "不刪除"
-
-#. dialog_delete_folder_content_confirmation
-msgctxt "folderselect_dialog_delete_folder_content_confirmation_message"
-msgid "Really delete all images in the folder?"
-msgstr "確定刪除該文件夾中的所有圖像？"
-
-msgctxt "folderselect_dialog_delete_folder_content_ok"
-msgid "Yes, delete all"
-msgstr "是，全部刪除"
-
-msgctxt "folderselect_dialog_delete_folder_content_cancel"
-msgid "No"
-msgstr "否"
-
-#. dialog_delete_image_confirmation       dialog_delete_images_confirmation
-msgctxt "imageselect_dialog_delete_image_confirmation_message"
-msgid "Really delete this image?"
-msgstr "確定刪除這個圖像?"
-
-msgctxt "imageselect_dialog_delete_images_confirmation_message"
-msgid "Really delete the selected images?"
-msgstr "確定刪除所選圖像?"
-
-msgctxt "imageselect_dialog_delete_image_ok"
-msgid "Yes, delete"
-msgstr "是，刪除"
-
-msgctxt "imageselect_dialog_delete_image_cancel"
-msgid "No"
-msgstr "否"
-
 msgctxt "imageselect_dialog_move_image_to_folder_title"
 msgid "Choose target folder for the image"
 msgstr "選擇目標文件夾"
@@ -563,26 +435,6 @@ msgstr "专业版密匙软件"
 
 msgctxt "license_source_volume_key"
 msgid "Volume key"
-msgstr ""
-
-#, c-format
-msgctxt "navigationDrawer_license"
-msgid "License: %1$s"
-msgstr "許可证：%1$s"
-
-#, c-format
-msgctxt "navigationDrawer_version"
-msgid "Version: %1$s"
-msgstr "版本：%1$s"
-
-#, c-format
-msgctxt "navigationDrawer_owner"
-msgid "Owner: %1$s"
-msgstr ""
-
-#, c-format
-msgctxt "navigationDrawer_user"
-msgid "User: %1$s"
 msgstr ""
 
 #, c-format
@@ -705,6 +557,124 @@ msgstr ""
 
 msgctxt "upgrade_dialog_button_store_unavailable"
 msgid "Store unavailable"
+msgstr ""
+
+msgctxt "pref_main_title"
+msgid "Settings"
+msgstr ""
+
+msgctxt "notification_generic_error_title"
+msgid "Error"
+msgstr "錯誤"
+
+msgctxt "notification_bkg_rendering_title"
+msgid "Image rendering in progress…"
+msgstr "正在進行圖像渲染…"
+
+msgctxt "notification_bkg_rendering_channel_title"
+msgid "Image rendering"
+msgstr "圖像渲染"
+
+msgctxt "notification_syncer_channel_title"
+msgid "Cloud synchronization"
+msgstr "云同步"
+
+msgctxt "notification_import_title"
+msgid "Image import"
+msgstr "圖片導入"
+
+#, c-format
+msgctxt "notification_import_content"
+msgid "%1d image left …"
+msgid_plural "%1d images left …"
+msgstr[0] "%1d 图像待处理 ……"
+
+msgctxt "notification_channel_background_processing_title"
+msgid "Background processing"
+msgstr "後台處理中"
+
+msgctxt "notification_channel_offscreen_rendering_title"
+msgid "Image rendering"
+msgstr ""
+
+msgctxt "notification_channel_error_messages_title"
+msgid "Error messages"
+msgstr "錯誤訊息"
+
+msgctxt "notification_error_importing_IMI_title"
+msgid "Error importing IMI file"
+msgstr "導入IMI文件時出錯"
+
+msgctxt "notification_error_importing_IMF_title"
+msgid "Error importing IMF file"
+msgstr "導入IMF文件時出錯"
+
+msgctxt "notification_error_importing_image_title"
+msgid "Error importing image"
+msgstr "導入圖像時出錯"
+
+msgctxt "notification_error_importing_file_title"
+msgid "Error importing file"
+msgstr "導入文件時出錯"
+
+msgctxt "notification_rendering_precomputed_image_title"
+msgid "Rendering image"
+msgstr ""
+
+msgctxt "notification_save_to_gallery_title"
+msgid "Saving to gallery"
+msgstr "保存到圖庫"
+
+msgctxt "notification_error_saving_to_gallery"
+msgid "Error while saving to gallery"
+msgstr "保存到圖庫時出錯"
+
+#, c-format
+msgctxt "notification_save_to_gallery_content"
+msgid "%1d image left …"
+msgid_plural "%1d images left …"
+msgstr[0] "%1d 图片待处理"
+
+msgctxt "notification_error_no_permission_to_save_to_gallery"
+msgid "Cannot save to gallery because ImageMeter has no storage write permission."
+msgstr "ImageMeter 未被授权儲存，無法将图片保存到圖庫。"
+
+msgctxt "notification_duplicate_title"
+msgid "Duplicate images"
+msgstr ""
+
+#, c-format
+msgctxt "notification_duplicate_content"
+msgid "%1$d of %2$d images copied"
+msgstr ""
+
+msgctxt "notification_error_duplicating_image"
+msgid "Error while duplicating image"
+msgstr ""
+
+msgctxt "filename_copy_tag"
+msgid "copy"
+msgstr ""
+
+#. errors
+#, c-format
+msgctxt "imagelibrary_cannot_delete_image_in_use"
+msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
+msgstr "無法刪除圖像'%1$s'，因為 %2$s 正在使用它。"
+
+msgctxt "imagelibrary_cannot_load_current_folder"
+msgid ""
+"Cannot load current folder.\n"
+"\n"
+"Please open the settings and set a different storage directory."
+msgstr ""
+"無法加載當前文件夾。\n"
+"\n"
+"請打開設置，选择其他存儲目錄。"
+
+#, c-format
+msgctxt "imagelibrary_moving_images_to_app_directory"
+msgid "Moving images to app directory (%1$d of %2$d)."
 msgstr ""
 
 msgctxt "editor_error_nonpro_gelement_limit_message"
@@ -5141,14 +5111,6 @@ msgstr "元素下称"
 msgctxt "editor_menu_edit_detach"
 msgid "Enter value manually"
 msgstr "手动输入数值"
-
-msgctxt "editor_menu_edit_undo"
-msgid "Undo"
-msgstr "撤銷"
-
-msgctxt "generic_action_redo"
-msgid "Redo"
-msgstr "重做"
 
 msgctxt "editor_menu_edit_rotate"
 msgid "Rotate image (CW)"

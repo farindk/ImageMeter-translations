@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-03 19:55+0100\n"
+"POT-Creation-Date: 2020-12-04 14:09+0100\n"
 "PO-Revision-Date: 2020-12-03 19:30+0100\n"
 "Last-Translator: \n"
 "Language: pl\n"
@@ -21,6 +21,15 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+
+#. generic strings
+msgctxt "generic_button_ok"
+msgid "OK"
+msgstr ""
+
+msgctxt "generic_button_cancel"
+msgid "Cancel"
+msgstr ""
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
@@ -71,129 +80,28 @@ msgctxt "generic_action_undo"
 msgid "Undo"
 msgstr "Cofnij"
 
+msgctxt "generic_action_redo"
+msgid "Redo"
+msgstr "Przerobić"
+
 msgctxt "generic_decimal_digits"
 msgid "Decimal digits"
 msgstr "Cyfry dziesiętne"
 
-#, fuzzy
-msgctxt "notification_generic_error_title"
-msgid "Error"
-msgstr "Błąd"
+#. image library
+msgctxt "imageLibrary_new_cameraCapture"
+msgid "Camera capture"
+msgstr "Zrobić zdjęcie"
 
-msgctxt "notification_bkg_rendering_title"
-msgid "Image rendering in progress…"
-msgstr "Trwa renderowanie obrazu…"
-
-msgctxt "notification_bkg_rendering_channel_title"
-msgid "Image rendering"
-msgstr "Renderowanie obrazu"
-
-msgctxt "notification_syncer_channel_title"
-msgid "Cloud synchronization"
-msgstr "Synchronizacja z chmurą"
+msgctxt "imageLibrary_new_importImage"
+msgid "Import image"
+msgstr "Importuj obraz"
 
 #, fuzzy
-msgctxt "notification_import_title"
-msgid "Image import"
-msgstr "Import obrazu"
+msgctxt "imageLibrary_new_canvas"
+msgid "New canvas"
+msgstr "Nowe płótno"
 
-#, c-format, fuzzy
-msgctxt "notification_import_content"
-msgid "%1d image left …"
-msgid_plural "%1d images left …"
-msgstr[0] "Pozostał obraz %1d…"
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#, fuzzy
-msgctxt "notification_channel_background_processing_title"
-msgid "Background processing"
-msgstr "Przetwarzanie w tle"
-
-#, fuzzy
-msgctxt "notification_channel_offscreen_rendering_title"
-msgid "Image rendering"
-msgstr "Renderowanie obrazu"
-
-#, fuzzy
-msgctxt "notification_channel_error_messages_title"
-msgid "Error messages"
-msgstr "Komunikaty o błędach"
-
-#, fuzzy
-msgctxt "notification_error_importing_IMI_title"
-msgid "Error importing IMI file"
-msgstr "Błąd podczas importowania pliku IMI"
-
-#, fuzzy
-msgctxt "notification_error_importing_IMF_title"
-msgid "Error importing IMF file"
-msgstr "Błąd podczas importowania pliku IMF"
-
-#, fuzzy
-msgctxt "notification_error_importing_image_title"
-msgid "Error importing image"
-msgstr "Błąd podczas importowania obrazu"
-
-#, fuzzy
-msgctxt "notification_error_importing_file_title"
-msgid "Error importing file"
-msgstr "Błąd podczas importowania pliku"
-
-#, fuzzy
-msgctxt "notification_rendering_precomputed_image_title"
-msgid "Rendering image"
-msgstr "Renderowanie obrazu"
-
-#, fuzzy
-msgctxt "notification_save_to_gallery_title"
-msgid "Saving to gallery"
-msgstr "Zapisywanie do galerii"
-
-#, fuzzy
-msgctxt "notification_error_saving_to_gallery"
-msgid "Error while saving to gallery"
-msgstr "Błąd podczas zapisywania do galerii"
-
-#, c-format
-msgctxt "notification_save_to_gallery_content"
-msgid "%1d image left …"
-msgid_plural "%1d images left …"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#, fuzzy
-msgctxt "notification_error_no_permission_to_save_to_gallery"
-msgid "Cannot save to gallery because ImageMeter has no storage write permission."
-msgstr ""
-"Nie można zapisać do galerii, ponieważ ImageMeter nie ma uprawnień do "
-"zapisu w pamięci."
-
-#, fuzzy
-msgctxt "notification_duplicate_title"
-msgid "Duplicate images"
-msgstr "Zduplikowane obrazy"
-
-#, c-format, fuzzy
-msgctxt "notification_duplicate_content"
-msgid "%1$d of %2$d images copied"
-msgstr "Skopiowano %1$d z %2$d zdjęć"
-
-#, fuzzy
-msgctxt "notification_error_duplicating_image"
-msgid "Error while duplicating image"
-msgstr "Błąd podczas powielania obrazu"
-
-#, fuzzy
-msgctxt "filename_copy_tag"
-msgid "copy"
-msgstr "Kopiuj"
-
-#. ========== folder/image-selection ==========
-#. menu
 msgctxt "imageLibrary_new_folder"
 msgid "New folder"
 msgstr "Nowy folder"
@@ -202,35 +110,47 @@ msgctxt "imageLibrary_folder_contextMenu_share"
 msgid "Share folder"
 msgstr "Dzielić folder"
 
-msgctxt "folderselect_menu_save_to_external_memory"
-msgid "Save to gallery"
-msgstr "Zapisz w galerii"
-
 msgctxt "imageLibrary_folder_contextMenu_rename"
 msgid "Rename folder"
 msgstr "Zmień nazwę folderu"
+
+msgctxt "imageLibrary_folder_contextMenu_move"
+msgid "Move to folder"
+msgstr "Przenieś do folderu"
+
+#, fuzzy
+msgctxt "imageLibrary_folder_contextMenu_duplicate"
+msgid "Duplicate"
+msgstr "Duplikować"
 
 msgctxt "imageLibrary_folder_contextMenu_delete"
 msgid "Delete folder"
 msgstr "Usuń folder"
 
+msgctxt "imageLibrary_folder_contextMenu_undelete"
+msgid "Undelete"
+msgstr ""
+
+msgctxt "imageLibrary_folder_contextMenu_purge"
+msgid "Purge"
+msgstr ""
+
 msgctxt "imageLibrary_folder_contextMenu_print"
 msgid "Print folder"
 msgstr "Drukuj folder"
 
-msgctxt "navigationDrawer_preferences"
-msgid "Settings"
-msgstr "Ustawienia"
+msgctxt "imageLibrary_image_contextMenu_share"
+msgid "Share"
+msgstr "Udostępnij"
 
 #, fuzzy
 msgctxt "imageLibrary_image_contextMenu_rename"
 msgid "Rename"
 msgstr "Przemianować"
 
-#, fuzzy
-msgctxt "imageLibrary_folder_contextMenu_duplicate"
-msgid "Duplicate"
-msgstr "Duplikować"
+msgctxt "imageLibrary_image_contextMenu_move"
+msgid "Move to folder"
+msgstr ""
 
 #, fuzzy
 msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
@@ -242,22 +162,9 @@ msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
 msgid "Paste annotation"
 msgstr "Wklej adnotację"
 
-msgctxt "imageLibrary_folder_contextMenu_move"
-msgid "Move to folder"
-msgstr "Przenieś do folderu"
-
-msgctxt "imageLibrary_new_importImage"
-msgid "Import image"
-msgstr "Importuj obraz"
-
-#, fuzzy
-msgctxt "imageLibrary_new_canvas"
-msgid "New canvas"
-msgstr "Nowe płótno"
-
-msgctxt "imageLibrary_new_cameraCapture"
-msgid "Camera capture"
-msgstr "Zrobić zdjęcie"
+msgctxt "imageLibrary_image_contextMenu_duplicate"
+msgid "Duplicate"
+msgstr ""
 
 #, fuzzy
 msgctxt "imageLibrary_image_contextMenu_delete"
@@ -274,55 +181,34 @@ msgctxt "imageLibrary_image_contextMenu_purge"
 msgid "Purge"
 msgstr "Oczyścić"
 
-msgctxt "imageLibrary_image_contextMenu_share"
-msgid "Share"
-msgstr "Udostępnij"
-
 msgctxt "imageLibrary_image_contextMenu_print"
 msgid "Print"
 msgstr "Drukuj obraz"
-
-#, fuzzy
-msgctxt "imageLibrary_image_contextMenu_forcedCloudUpload"
-msgid "Force cloud upload"
-msgstr "Wymuś przesłanie do chmury"
 
 msgctxt "imageLibrary_image_contextMenu_imageInfo"
 msgid "Image info…"
 msgstr "Informacje o obrazie…"
 
 #, fuzzy
-msgctxt "navigationDrawer_upgrade"
-msgid "Upgrade"
-msgstr "Aktualizacja"
-
-msgctxt "navigationDrawer_importImagesFromFreeApp"
-msgid "Import images from free app"
-msgstr "Importuj zdjęcia z bezpłatnej aplikacji"
-
-msgctxt "imageselect_menu_welcome_message"
-msgid "Show welcome message"
-msgstr "Pokaż powitalną wiadomość"
-
-msgctxt "navigationDrawer_aboutApp"
-msgid "About app"
-msgstr "O aplikacji"
-
-#. string name="imageselect_menu_sync_current_folder">Sync current
-#. folder</string
-#. string name="imageselect_menu_sync_inbox_folder">Sync inbox with cloud
-#. (beta)</string
-#. string name="imageselect_menu_sync_all_folders">Sync all folders</string
-msgctxt "navigationDrawer_contact"
-msgid "Contact us"
-msgstr "Skontaktuj się z nami"
+msgctxt "imageLibrary_image_contextMenu_forcedCloudUpload"
+msgid "Force cloud upload"
+msgstr "Wymuś przesłanie do chmury"
 
 #, fuzzy
-msgctxt "navigationDrawer_documentation"
-msgid "Documentation"
-msgstr "Dokumentacja"
+msgctxt "imageLibrary_menu_openDisplayOptions"
+msgid "Display options…"
+msgstr "Opcje wyświetlania…"
 
-#. image-library
+#, fuzzy
+msgctxt "imageLibrary_menu_openImageNumberingOptions"
+msgid "Image numbering…"
+msgstr "Numeracja zdjęć…"
+
+msgctxt "imageLibrary_menu_openSettings"
+msgid "Settings…"
+msgstr "Ustawienia…"
+
+#. image-library misc
 msgctxt "imageLibrary_snackbar_imageDeleted"
 msgid "Image deleted"
 msgstr "Obraz usunięty"
@@ -372,41 +258,52 @@ msgctxt "imageLibrary_sortingOrder_number_descending"
 msgid "Number, descending"
 msgstr "Liczba malejąca"
 
-#, fuzzy
-msgctxt "imageLibrary_menu_openDisplayOptions"
-msgid "Display options…"
-msgstr "Opcje wyświetlania…"
+#. navigation drawer
+msgctxt "navigationDrawer_preferences"
+msgid "Settings"
+msgstr "Ustawienia"
 
 #, fuzzy
-msgctxt "imageLibrary_menu_openImageNumberingOptions"
-msgid "Image numbering…"
-msgstr "Numeracja zdjęć…"
-
-msgctxt "imageLibrary_menu_openSettings"
-msgid "Settings…"
-msgstr "Ustawienia…"
-
-#. errors
-#, c-format, fuzzy
-msgctxt "imagelibrary_cannot_delete_image_in_use"
-msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
-msgstr "Nie można usunąć obrazu „%1$s”, ponieważ jest on używany przez %2$s."
+msgctxt "navigationDrawer_documentation"
+msgid "Documentation"
+msgstr "Dokumentacja"
 
 #, fuzzy
-msgctxt "imagelibrary_cannot_load_current_folder"
-msgid ""
-"Cannot load current folder.\n"
-"\n"
-"Please open the settings and set a different storage directory."
-msgstr ""
-"Nie można załadować bieżącego folderu.\n"
-"\n"
-"Otwórz ustawienia i ustaw inny katalog pamięci."
+msgctxt "navigationDrawer_upgrade"
+msgid "Upgrade"
+msgstr "Aktualizacja"
+
+msgctxt "navigationDrawer_importImagesFromFreeApp"
+msgid "Import images from free app"
+msgstr "Importuj zdjęcia z bezpłatnej aplikacji"
+
+msgctxt "navigationDrawer_aboutApp"
+msgid "About app"
+msgstr "O aplikacji"
+
+msgctxt "navigationDrawer_contact"
+msgid "Contact us"
+msgstr "Skontaktuj się z nami"
 
 #, c-format, fuzzy
-msgctxt "imagelibrary_moving_images_to_app_directory"
-msgid "Moving images to app directory (%1$d of %2$d)."
-msgstr "Przenoszenie obrazów do katalogu aplikacji (%1$d z %2$d)."
+msgctxt "navigationDrawer_license"
+msgid "License: %1$s"
+msgstr "Licencja: %1$s"
+
+#, c-format, fuzzy
+msgctxt "navigationDrawer_owner"
+msgid "Owner: %1$s"
+msgstr "Właściciel: %1$s"
+
+#, c-format, fuzzy
+msgctxt "navigationDrawer_user"
+msgid "User: %1$s"
+msgstr "Użytkownik: %1$s"
+
+#, c-format, fuzzy
+msgctxt "navigationDrawer_version"
+msgid "Version: %1$s"
+msgstr "Wersja: %1$s"
 
 #. dialog: numbering
 msgctxt "imageLibrary_numberingDialog_title"
@@ -517,56 +414,6 @@ msgctxt "foldername_dialog_icon_color"
 msgid "Folder color"
 msgstr "Kolor folderu"
 
-#. dialog: really save to gallery (since this feature should now be obsolet)
-#. string name="imageselect_save_to_gallery_obsolet_message">ImageMeter
-#. can now automatically add all images to the gallery and keep them
-#. up-to-date. You can enable this feature in the 'Storage' section of the
-#. settings. string    string
-#. name="imageselect_save_to_gallery_obsolet_copy_anyways">Copy anyways string
-#. dialog: delete folder/images
-#. dialog_delete_folder_confirmation
-msgctxt "folderselect_dialog_delete_folder_confirmation_message"
-msgid "Really delete the folder and all its content?"
-msgstr "Na pewno usunąć folder i całą jego zawartość?"
-
-msgctxt "folderselect_dialog_delete_folder_ok"
-msgid "Yes, delete all"
-msgstr "Tak, usuń wszystko"
-
-msgctxt "folderselect_dialog_delete_folder_cancel"
-msgid "No"
-msgstr "Nie"
-
-#. dialog_delete_folder_content_confirmation
-msgctxt "folderselect_dialog_delete_folder_content_confirmation_message"
-msgid "Really delete all images in the folder?"
-msgstr "Na pewno usunąć wszystkie obrazy w folderze?"
-
-msgctxt "folderselect_dialog_delete_folder_content_ok"
-msgid "Yes, delete all"
-msgstr "Tak, usuń wszystko"
-
-msgctxt "folderselect_dialog_delete_folder_content_cancel"
-msgid "No"
-msgstr "Nie"
-
-#. dialog_delete_image_confirmation       dialog_delete_images_confirmation
-msgctxt "imageselect_dialog_delete_image_confirmation_message"
-msgid "Really delete this image?"
-msgstr "Na pewno usunąć ten obraz?"
-
-msgctxt "imageselect_dialog_delete_images_confirmation_message"
-msgid "Really delete the selected images?"
-msgstr "Na pewno usunąć wybrane zdjęcia?"
-
-msgctxt "imageselect_dialog_delete_image_ok"
-msgid "Yes, delete"
-msgstr "Tak, usuń"
-
-msgctxt "imageselect_dialog_delete_image_cancel"
-msgid "No"
-msgstr "Nie"
-
 msgctxt "imageselect_dialog_move_image_to_folder_title"
 msgid "Choose target folder for the image"
 msgstr "Wybierz folder docelowy dla obrazu"
@@ -647,26 +494,6 @@ msgstr "Aplikacja Pro-key"
 msgctxt "license_source_volume_key"
 msgid "Volume key"
 msgstr "Klawisz głośności"
-
-#, c-format, fuzzy
-msgctxt "navigationDrawer_license"
-msgid "License: %1$s"
-msgstr "Licencja: %1$s"
-
-#, c-format, fuzzy
-msgctxt "navigationDrawer_version"
-msgid "Version: %1$s"
-msgstr "Wersja: %1$s"
-
-#, c-format, fuzzy
-msgctxt "navigationDrawer_owner"
-msgid "Owner: %1$s"
-msgstr "Właściciel: %1$s"
-
-#, c-format, fuzzy
-msgctxt "navigationDrawer_user"
-msgid "User: %1$s"
-msgstr "Użytkownik: %1$s"
 
 #, c-format, fuzzy
 msgctxt "upgrade_dialog_pay_once"
@@ -817,6 +644,149 @@ msgstr "Dodatek jest aktywny"
 msgctxt "upgrade_dialog_button_store_unavailable"
 msgid "Store unavailable"
 msgstr "Sklep niedostępny"
+
+msgctxt "pref_main_title"
+msgid "Settings"
+msgstr ""
+
+#, fuzzy
+msgctxt "notification_generic_error_title"
+msgid "Error"
+msgstr "Błąd"
+
+msgctxt "notification_bkg_rendering_title"
+msgid "Image rendering in progress…"
+msgstr "Trwa renderowanie obrazu…"
+
+msgctxt "notification_bkg_rendering_channel_title"
+msgid "Image rendering"
+msgstr "Renderowanie obrazu"
+
+msgctxt "notification_syncer_channel_title"
+msgid "Cloud synchronization"
+msgstr "Synchronizacja z chmurą"
+
+#, fuzzy
+msgctxt "notification_import_title"
+msgid "Image import"
+msgstr "Import obrazu"
+
+#, c-format, fuzzy
+msgctxt "notification_import_content"
+msgid "%1d image left …"
+msgid_plural "%1d images left …"
+msgstr[0] "Pozostał obraz %1d…"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, fuzzy
+msgctxt "notification_channel_background_processing_title"
+msgid "Background processing"
+msgstr "Przetwarzanie w tle"
+
+#, fuzzy
+msgctxt "notification_channel_offscreen_rendering_title"
+msgid "Image rendering"
+msgstr "Renderowanie obrazu"
+
+#, fuzzy
+msgctxt "notification_channel_error_messages_title"
+msgid "Error messages"
+msgstr "Komunikaty o błędach"
+
+#, fuzzy
+msgctxt "notification_error_importing_IMI_title"
+msgid "Error importing IMI file"
+msgstr "Błąd podczas importowania pliku IMI"
+
+#, fuzzy
+msgctxt "notification_error_importing_IMF_title"
+msgid "Error importing IMF file"
+msgstr "Błąd podczas importowania pliku IMF"
+
+#, fuzzy
+msgctxt "notification_error_importing_image_title"
+msgid "Error importing image"
+msgstr "Błąd podczas importowania obrazu"
+
+#, fuzzy
+msgctxt "notification_error_importing_file_title"
+msgid "Error importing file"
+msgstr "Błąd podczas importowania pliku"
+
+#, fuzzy
+msgctxt "notification_rendering_precomputed_image_title"
+msgid "Rendering image"
+msgstr "Renderowanie obrazu"
+
+#, fuzzy
+msgctxt "notification_save_to_gallery_title"
+msgid "Saving to gallery"
+msgstr "Zapisywanie do galerii"
+
+#, fuzzy
+msgctxt "notification_error_saving_to_gallery"
+msgid "Error while saving to gallery"
+msgstr "Błąd podczas zapisywania do galerii"
+
+#, c-format
+msgctxt "notification_save_to_gallery_content"
+msgid "%1d image left …"
+msgid_plural "%1d images left …"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#, fuzzy
+msgctxt "notification_error_no_permission_to_save_to_gallery"
+msgid "Cannot save to gallery because ImageMeter has no storage write permission."
+msgstr ""
+"Nie można zapisać do galerii, ponieważ ImageMeter nie ma uprawnień do "
+"zapisu w pamięci."
+
+#, fuzzy
+msgctxt "notification_duplicate_title"
+msgid "Duplicate images"
+msgstr "Zduplikowane obrazy"
+
+#, c-format, fuzzy
+msgctxt "notification_duplicate_content"
+msgid "%1$d of %2$d images copied"
+msgstr "Skopiowano %1$d z %2$d zdjęć"
+
+#, fuzzy
+msgctxt "notification_error_duplicating_image"
+msgid "Error while duplicating image"
+msgstr "Błąd podczas powielania obrazu"
+
+#, fuzzy
+msgctxt "filename_copy_tag"
+msgid "copy"
+msgstr "Kopiuj"
+
+#. errors
+#, c-format, fuzzy
+msgctxt "imagelibrary_cannot_delete_image_in_use"
+msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
+msgstr "Nie można usunąć obrazu „%1$s”, ponieważ jest on używany przez %2$s."
+
+#, fuzzy
+msgctxt "imagelibrary_cannot_load_current_folder"
+msgid ""
+"Cannot load current folder.\n"
+"\n"
+"Please open the settings and set a different storage directory."
+msgstr ""
+"Nie można załadować bieżącego folderu.\n"
+"\n"
+"Otwórz ustawienia i ustaw inny katalog pamięci."
+
+#, c-format, fuzzy
+msgctxt "imagelibrary_moving_images_to_app_directory"
+msgid "Moving images to app directory (%1$d of %2$d)."
+msgstr "Przenoszenie obrazów do katalogu aplikacji (%1$d z %2$d)."
 
 #, fuzzy
 msgctxt "editor_error_nonpro_gelement_limit_message"
@@ -1301,11 +1271,11 @@ msgstr ""
 "Na tej stronie znajdziesz listę szablonów do zadań pomiarowych.\n"
 " \n"
 "Więcej informacji można znaleźć w <a "
-"href=\"https://www.imagemeter.com/manual/templates/overview\">"
-"samouczkach i instrukcji</a>.\n"
+"href=\"https://www.imagemeter.com/manual/templates/overview\">samouczkach"
+" i instrukcji</a>.\n"
 " \n"
-"Uwaga: szablony są częścią <a href=\"upgrade-dialog\">wersji biznesowej"
-"</a>."
+"Uwaga: szablony są częścią <a href=\"upgrade-dialog\">wersji "
+"biznesowej</a>."
 
 #, fuzzy
 msgctxt "pref_template_list_title"
@@ -1383,8 +1353,8 @@ msgid ""
 msgstr ""
 "<b>Etykietka</b> są przypisane do pomiarów w celu określenia ich "
 "przeznaczenia. Na przykład znacznik może wskazywać, że mierzony prostokąt"
-" jest <em>oknem</em> lub <em>ścianą</em>. Dalej, znaczniki te mogą "
-"służyć do sortowania tych pomiarów w tabelach danych."
+" jest <em>oknem</em> lub <em>ścianą</em>. Dalej, znaczniki te mogą służyć"
+" do sortowania tych pomiarów w tabelach danych."
 
 #, fuzzy
 msgctxt "pref_template_config_custom_edit_tags"
@@ -5949,14 +5919,6 @@ msgstr "Element do tyłu"
 msgctxt "editor_menu_edit_detach"
 msgid "Enter value manually"
 msgstr "Wprowadź wartość ręcznie"
-
-msgctxt "editor_menu_edit_undo"
-msgid "Undo"
-msgstr "Cofnij"
-
-msgctxt "generic_action_redo"
-msgid "Redo"
-msgstr "Przerobić"
 
 #, fuzzy
 msgctxt "editor_menu_edit_rotate"

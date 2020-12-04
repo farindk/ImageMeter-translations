@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-03 19:55+0100\n"
+"POT-Creation-Date: 2020-12-04 14:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+
+#. generic strings
+msgctxt "generic_button_ok"
+msgid "OK"
+msgstr ""
+
+msgctxt "generic_button_cancel"
+msgid "Cancel"
+msgstr ""
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
@@ -53,374 +62,288 @@ msgctxt "generic_confirm_delete"
 msgid "Really delete"
 msgstr ""
 
-msgctxt "generic_cancel"
+msgctxt "generic_cancel_delete"
 msgid "Cancel"
 msgstr ""
 
-msgctxt "generic_undo"
+msgctxt "generic_action_undo"
 msgid "Undo"
+msgstr ""
+
+msgctxt "generic_action_redo"
+msgid "Redo"
 msgstr ""
 
 msgctxt "generic_decimal_digits"
 msgid "Decimal digits"
 msgstr ""
 
-msgctxt "notification_generic_error_title"
-msgid "Error"
-msgstr ""
-
-msgctxt "notification_bkg_rendering_title"
-msgid "Image rendering in progress…"
-msgstr ""
-
-msgctxt "notification_bkg_rendering_channel_title"
-msgid "Image rendering"
-msgstr ""
-
-msgctxt "notification_syncer_channel_title"
-msgid "Cloud synchronization"
-msgstr ""
-
-msgctxt "notification_import_title"
-msgid "Image import"
-msgstr ""
-
-#, c-format
-msgctxt "notification_import_content"
-msgid "%1d image left …"
-msgid_plural "%1d images left …"
-msgstr[0] ""
-msgstr[1] ""
-
-msgctxt "notification_channel_background_processing_title"
-msgid "Background processing"
-msgstr ""
-
-msgctxt "notification_channel_offscreen_rendering_title"
-msgid "Image rendering"
-msgstr ""
-
-msgctxt "notification_channel_error_messages_title"
-msgid "Error messages"
-msgstr ""
-
-msgctxt "notification_error_importing_IMI_title"
-msgid "Error importing IMI file"
-msgstr ""
-
-msgctxt "notification_error_importing_IMF_title"
-msgid "Error importing IMF file"
-msgstr ""
-
-msgctxt "notification_error_importing_image_title"
-msgid "Error importing image"
-msgstr ""
-
-msgctxt "notification_error_importing_file_title"
-msgid "Error importing file"
-msgstr ""
-
-msgctxt "notification_rendering_precomputed_image_title"
-msgid "Rendering image"
-msgstr ""
-
-msgctxt "notification_save_to_gallery_title"
-msgid "Saving to gallery"
-msgstr ""
-
-msgctxt "notification_error_saving_to_gallery"
-msgid "Error while saving to gallery"
-msgstr ""
-
-#, c-format
-msgctxt "notification_save_to_gallery_content"
-msgid "%1d image left …"
-msgid_plural "%1d images left …"
-msgstr[0] ""
-msgstr[1] ""
-
-msgctxt "notification_error_no_permission_to_save_to_gallery"
-msgid "Cannot save to gallery because ImageMeter has no storage write permission."
-msgstr ""
-
-msgctxt "notification_duplicate_title"
-msgid "Duplicate images"
-msgstr ""
-
-#, c-format
-msgctxt "notification_duplicate_content"
-msgid "%1$d of %2$d images copied"
-msgstr ""
-
-msgctxt "notification_error_duplicating_image"
-msgid "Error while duplicating image"
-msgstr ""
-
-msgctxt "filename_copy_tag"
-msgid "copy"
-msgstr ""
-
-#. ========== folder/image-selection ==========
-#. menu
-msgctxt "folderselect_menu_new_folder"
-msgid "New folder"
-msgstr ""
-
-msgctxt "folderselect_menu_share_folder"
-msgid "Share folder"
-msgstr ""
-
-msgctxt "folderselect_menu_save_to_external_memory"
-msgid "Save to gallery"
-msgstr ""
-
-msgctxt "folderselect_menu_rename_folder"
-msgid "Rename folder"
-msgstr ""
-
-msgctxt "folderselect_menu_delete_folder"
-msgid "Delete folder"
-msgstr ""
-
-msgctxt "folderselect_menu_print_folder"
-msgid "Print folder"
-msgstr ""
-
-msgctxt "imageselect_menu_preferences"
-msgid "Settings"
-msgstr ""
-
-msgctxt "imageselect_menu_rename"
-msgid "Rename"
-msgstr ""
-
-msgctxt "imageselect_menu_duplicate"
-msgid "Duplicate"
-msgstr ""
-
-msgctxt "imageselect_menu_copy"
-msgid "Copy to clipboard"
-msgstr ""
-
-msgctxt "imageselect_menu_paste_annotation"
-msgid "Paste annotation"
-msgstr ""
-
-msgctxt "imageselect_menu_move_to_folder"
-msgid "Move to folder"
-msgstr ""
-
-msgctxt "imageselect_menu_import_image"
-msgid "Import image"
-msgstr ""
-
-msgctxt "imageselect_menu_new_canvas"
-msgid "New canvas"
-msgstr ""
-
-msgctxt "imageselect_menu_capture"
+#. image library
+msgctxt "imageLibrary_new_cameraCapture"
 msgid "Camera capture"
 msgstr ""
 
-msgctxt "imageselect_menu_delete_image"
-msgid "Delete"
+msgctxt "imageLibrary_new_importImage"
+msgid "Import image"
 msgstr ""
 
-msgctxt "imageselect_menu_undelete_image"
+msgctxt "imageLibrary_new_canvas"
+msgid "New canvas"
+msgstr ""
+
+msgctxt "imageLibrary_new_folder"
+msgid "New folder"
+msgstr ""
+
+msgctxt "imageLibrary_folder_contextMenu_share"
+msgid "Share folder"
+msgstr ""
+
+msgctxt "imageLibrary_folder_contextMenu_rename"
+msgid "Rename folder"
+msgstr ""
+
+msgctxt "imageLibrary_folder_contextMenu_move"
+msgid "Move to folder"
+msgstr ""
+
+msgctxt "imageLibrary_folder_contextMenu_duplicate"
+msgid "Duplicate"
+msgstr ""
+
+msgctxt "imageLibrary_folder_contextMenu_delete"
+msgid "Delete folder"
+msgstr ""
+
+msgctxt "imageLibrary_folder_contextMenu_undelete"
 msgid "Undelete"
 msgstr ""
 
-msgctxt "imageselect_menu_purge_image"
+msgctxt "imageLibrary_folder_contextMenu_purge"
 msgid "Purge"
 msgstr ""
 
-msgctxt "imageselect_menu_share_image"
+msgctxt "imageLibrary_folder_contextMenu_print"
+msgid "Print folder"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_share"
 msgid "Share"
 msgstr ""
 
-msgctxt "imageselect_menu_print"
+msgctxt "imageLibrary_image_contextMenu_rename"
+msgid "Rename"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_move"
+msgid "Move to folder"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
+msgid "Copy to clipboard"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
+msgid "Paste annotation"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_duplicate"
+msgid "Duplicate"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_delete"
+msgid "Delete"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_undelete"
+msgid "Undelete"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_purge"
+msgid "Purge"
+msgstr ""
+
+msgctxt "imageLibrary_image_contextMenu_print"
 msgid "Print"
 msgstr ""
 
-msgctxt "imageselect_menu_forced_cloud_upload"
-msgid "Force cloud upload"
-msgstr ""
-
-msgctxt "imageselect_menu_image_info"
+msgctxt "imageLibrary_image_contextMenu_imageInfo"
 msgid "Image info…"
 msgstr ""
 
-msgctxt "imageselect_menu_upgrade"
-msgid "Upgrade"
+msgctxt "imageLibrary_image_contextMenu_forcedCloudUpload"
+msgid "Force cloud upload"
 msgstr ""
 
-msgctxt "imageselect_menu_import_images_from_free_app"
-msgid "Import images from free app"
-msgstr ""
-
-msgctxt "imageselect_menu_welcome_message"
-msgid "Show welcome message"
-msgstr ""
-
-msgctxt "imageselect_menu_about_app"
-msgid "About app"
-msgstr ""
-
-#. string name="imageselect_menu_sync_current_folder">Sync current
-#. folder</string
-#. string name="imageselect_menu_sync_inbox_folder">Sync inbox with cloud
-#. (beta)</string
-#. string name="imageselect_menu_sync_all_folders">Sync all folders</string
-msgctxt "imageselect_menu_contact"
-msgid "Contact us"
-msgstr ""
-
-msgctxt "imageselect_menu_documentation"
-msgid "Documentation"
-msgstr ""
-
-#. image-library
-msgctxt "imagelibrary_image_deleted"
-msgid "Image deleted"
-msgstr ""
-
-msgctxt "imagelibrary_folder_deleted"
-msgid "Folder deleted"
-msgstr ""
-
-msgctxt "imagelibrary_breadcrumb_root_folder"
-msgid "Root"
-msgstr ""
-
-msgctxt "imagelibrary_search_hint"
-msgid "Search images"
-msgstr ""
-
-msgctxt "sortingorder_alpha_ascending"
-msgid "Alphabetical"
-msgstr ""
-
-msgctxt "sortingorder_alpha_descending"
-msgid "Alphabetical, reverse"
-msgstr ""
-
-msgctxt "sortingorder_time_ascending"
-msgid "Time, earliest on top"
-msgstr ""
-
-msgctxt "sortingorder_time_descending"
-msgid "Time, latest on top"
-msgstr ""
-
-msgctxt "sortingorder_number_ascending"
-msgid "Number, ascending"
-msgstr ""
-
-msgctxt "sortingorder_number_descending"
-msgid "Number, descending"
-msgstr ""
-
-msgctxt "imagelibrary_display_options"
+msgctxt "imageLibrary_menu_openDisplayOptions"
 msgid "Display options…"
 msgstr ""
 
-msgctxt "imagelibrary_open_image_numbering_options"
+msgctxt "imageLibrary_menu_openImageNumberingOptions"
 msgid "Image numbering…"
 msgstr ""
 
-msgctxt "imagelibrary_settings"
+msgctxt "imageLibrary_menu_openSettings"
 msgid "Settings…"
 msgstr ""
 
-#. errors
-#, c-format
-msgctxt "imagelibrary_cannot_delete_image_in_use"
-msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
+#. image-library misc
+msgctxt "imageLibrary_snackbar_imageDeleted"
+msgid "Image deleted"
 msgstr ""
 
-msgctxt "imagelibrary_cannot_load_current_folder"
-msgid ""
-"Cannot load current folder.\n"
-"\n"
-"Please open the settings and set a different storage directory."
+msgctxt "imageLibrary_snackbar_folderDeleted"
+msgid "Folder deleted"
+msgstr ""
+
+msgctxt "imageLibrary_breadcrumb_rootFolder"
+msgid "Root"
+msgstr ""
+
+msgctxt "imageLibrary_search_hint"
+msgid "Search images"
+msgstr ""
+
+msgctxt "imageLibrary_sortingOrder_alpha_ascending"
+msgid "Alphabetical"
+msgstr ""
+
+msgctxt "imageLibrary_sortingOrder_alpha_descending"
+msgid "Alphabetical, reverse"
+msgstr ""
+
+msgctxt "imageLibrary_sortingOrder_time_ascending"
+msgid "Time, earliest on top"
+msgstr ""
+
+msgctxt "imageLibrary_sortingOrder_time_descending"
+msgid "Time, latest on top"
+msgstr ""
+
+msgctxt "imageLibrary_sortingOrder_number_ascending"
+msgid "Number, ascending"
+msgstr ""
+
+msgctxt "imageLibrary_sortingOrder_number_descending"
+msgid "Number, descending"
+msgstr ""
+
+#. navigation drawer
+msgctxt "navigationDrawer_preferences"
+msgid "Settings"
+msgstr ""
+
+msgctxt "navigationDrawer_documentation"
+msgid "Documentation"
+msgstr ""
+
+msgctxt "navigationDrawer_upgrade"
+msgid "Upgrade"
+msgstr ""
+
+msgctxt "navigationDrawer_importImagesFromFreeApp"
+msgid "Import images from free app"
+msgstr ""
+
+msgctxt "navigationDrawer_aboutApp"
+msgid "About app"
+msgstr ""
+
+msgctxt "navigationDrawer_contact"
+msgid "Contact us"
 msgstr ""
 
 #, c-format
-msgctxt "imagelibrary_moving_images_to_app_directory"
-msgid "Moving images to app directory (%1$d of %2$d)."
+msgctxt "navigationDrawer_license"
+msgid "License: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "navigationDrawer_owner"
+msgid "Owner: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "navigationDrawer_user"
+msgid "User: %1$s"
+msgstr ""
+
+#, c-format
+msgctxt "navigationDrawer_version"
+msgid "Version: %1$s"
 msgstr ""
 
 #. dialog: numbering
-msgctxt "imagelibrary_dialog_numbering_title"
+msgctxt "imageLibrary_numberingDialog_title"
 msgid "Image numbers"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_numbering_enable_auto_numbering"
+msgctxt "imageLibrary_numberingDialog_enableAutoNumbering"
 msgid "Enable auto-numbering"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_numbering_start"
+msgctxt "imageLibrary_numberingDialog_startNumber"
 msgid "Start"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_numbering_increment"
+msgctxt "imageLibrary_numberingDialog_numberIncrement"
 msgid "Increment"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_numbering_renumber_title"
+msgctxt "imageLibrary_numberingDialog_renumbering_sectionTitle"
 msgid "Renumber existing images"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_numbering_renumber_old_number_order"
+msgctxt "imageLibrary_numberingDialog_renumbering_keepOldNumberOrder"
 msgid "Keep order of old numbers"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_numbering_renumber_all"
+msgctxt "imageLibrary_numberingDialog_renumbering_doRenumber"
 msgid "Renumber"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_numbering_remove_all_numbers"
+msgctxt "imageLibrary_numberingDialog_renumbering_removeAllNumbers"
 msgid "Remove numbers"
 msgstr ""
 
 #. dialog: display options
-msgctxt "imagelibrary_dialog_display_options_title"
+msgctxt "imageLibrary_displayOptionsDialog_title"
 msgid "Display options"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_display_options_show_deleted_images"
+msgctxt "imageLibrary_displayOptionsDialog_showDeletedImages"
 msgid "Show deleted images"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_display_options_show_image_numbers"
+msgctxt "imageLibrary_displayOptionsDialog_showImageNumbers"
 msgid "Show image numbers"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_display_options_image_style_title"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_title"
 msgid "Show images as"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_display_options_image_style_list_large"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_large"
 msgid "Large list"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_display_options_image_style_list_medium"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_medium"
 msgid "Medium list"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_display_options_image_style_list_small"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_small"
 msgid "Small list"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_display_options_image_style_grid_large"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_large"
 msgid "Large grid"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_display_options_image_style_grid_medium"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_medium"
 msgid "Medium grid"
 msgstr ""
 
-msgctxt "imagelibrary_dialog_display_options_image_style_grid_small"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_small"
 msgid "Small grid"
 msgstr ""
 
@@ -439,56 +362,6 @@ msgstr ""
 
 msgctxt "foldername_dialog_icon_color"
 msgid "Folder color"
-msgstr ""
-
-#. dialog: really save to gallery (since this feature should now be obsolet)
-#. string name="imageselect_save_to_gallery_obsolet_message">ImageMeter
-#. can now automatically add all images to the gallery and keep them
-#. up-to-date. You can enable this feature in the 'Storage' section of the
-#. settings. string    string
-#. name="imageselect_save_to_gallery_obsolet_copy_anyways">Copy anyways string
-#. dialog: delete folder/images
-#. dialog_delete_folder_confirmation
-msgctxt "folderselect_dialog_delete_folder_confirmation_message"
-msgid "Really delete the folder and all its content?"
-msgstr ""
-
-msgctxt "folderselect_dialog_delete_folder_ok"
-msgid "Yes, delete all"
-msgstr ""
-
-msgctxt "folderselect_dialog_delete_folder_cancel"
-msgid "No"
-msgstr ""
-
-#. dialog_delete_folder_content_confirmation
-msgctxt "folderselect_dialog_delete_folder_content_confirmation_message"
-msgid "Really delete all images in the folder?"
-msgstr ""
-
-msgctxt "folderselect_dialog_delete_folder_content_ok"
-msgid "Yes, delete all"
-msgstr ""
-
-msgctxt "folderselect_dialog_delete_folder_content_cancel"
-msgid "No"
-msgstr ""
-
-#. dialog_delete_image_confirmation       dialog_delete_images_confirmation
-msgctxt "imageselect_dialog_delete_image_confirmation_message"
-msgid "Really delete this image?"
-msgstr ""
-
-msgctxt "imageselect_dialog_delete_images_confirmation_message"
-msgid "Really delete the selected images?"
-msgstr ""
-
-msgctxt "imageselect_dialog_delete_image_ok"
-msgid "Yes, delete"
-msgstr ""
-
-msgctxt "imageselect_dialog_delete_image_cancel"
-msgid "No"
 msgstr ""
 
 msgctxt "imageselect_dialog_move_image_to_folder_title"
@@ -561,26 +434,6 @@ msgstr ""
 
 msgctxt "license_source_volume_key"
 msgid "Volume key"
-msgstr ""
-
-#, c-format
-msgctxt "navigation_drawer_license"
-msgid "License: %1$s"
-msgstr ""
-
-#, c-format
-msgctxt "navigation_drawer_version"
-msgid "Version: %1$s"
-msgstr ""
-
-#, c-format
-msgctxt "navigation_drawer_owner"
-msgid "Owner: %1$s"
-msgstr ""
-
-#, c-format
-msgctxt "navigation_drawer_user"
-msgid "User: %1$s"
 msgstr ""
 
 #, c-format
@@ -701,6 +554,123 @@ msgstr ""
 
 msgctxt "upgrade_dialog_button_store_unavailable"
 msgid "Store unavailable"
+msgstr ""
+
+msgctxt "pref_main_title"
+msgid "Settings"
+msgstr ""
+
+msgctxt "notification_generic_error_title"
+msgid "Error"
+msgstr ""
+
+msgctxt "notification_bkg_rendering_title"
+msgid "Image rendering in progress…"
+msgstr ""
+
+msgctxt "notification_bkg_rendering_channel_title"
+msgid "Image rendering"
+msgstr ""
+
+msgctxt "notification_syncer_channel_title"
+msgid "Cloud synchronization"
+msgstr ""
+
+msgctxt "notification_import_title"
+msgid "Image import"
+msgstr ""
+
+#, c-format
+msgctxt "notification_import_content"
+msgid "%1d image left …"
+msgid_plural "%1d images left …"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "notification_channel_background_processing_title"
+msgid "Background processing"
+msgstr ""
+
+msgctxt "notification_channel_offscreen_rendering_title"
+msgid "Image rendering"
+msgstr ""
+
+msgctxt "notification_channel_error_messages_title"
+msgid "Error messages"
+msgstr ""
+
+msgctxt "notification_error_importing_IMI_title"
+msgid "Error importing IMI file"
+msgstr ""
+
+msgctxt "notification_error_importing_IMF_title"
+msgid "Error importing IMF file"
+msgstr ""
+
+msgctxt "notification_error_importing_image_title"
+msgid "Error importing image"
+msgstr ""
+
+msgctxt "notification_error_importing_file_title"
+msgid "Error importing file"
+msgstr ""
+
+msgctxt "notification_rendering_precomputed_image_title"
+msgid "Rendering image"
+msgstr ""
+
+msgctxt "notification_save_to_gallery_title"
+msgid "Saving to gallery"
+msgstr ""
+
+msgctxt "notification_error_saving_to_gallery"
+msgid "Error while saving to gallery"
+msgstr ""
+
+#, c-format
+msgctxt "notification_save_to_gallery_content"
+msgid "%1d image left …"
+msgid_plural "%1d images left …"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "notification_error_no_permission_to_save_to_gallery"
+msgid "Cannot save to gallery because ImageMeter has no storage write permission."
+msgstr ""
+
+msgctxt "notification_duplicate_title"
+msgid "Duplicate images"
+msgstr ""
+
+#, c-format
+msgctxt "notification_duplicate_content"
+msgid "%1$d of %2$d images copied"
+msgstr ""
+
+msgctxt "notification_error_duplicating_image"
+msgid "Error while duplicating image"
+msgstr ""
+
+msgctxt "filename_copy_tag"
+msgid "copy"
+msgstr ""
+
+#. errors
+#, c-format
+msgctxt "imagelibrary_cannot_delete_image_in_use"
+msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
+msgstr ""
+
+msgctxt "imagelibrary_cannot_load_current_folder"
+msgid ""
+"Cannot load current folder.\n"
+"\n"
+"Please open the settings and set a different storage directory."
+msgstr ""
+
+#, c-format
+msgctxt "imagelibrary_moving_images_to_app_directory"
+msgid "Moving images to app directory (%1$d of %2$d)."
 msgstr ""
 
 msgctxt "editor_error_nonpro_gelement_limit_message"
@@ -5099,14 +5069,6 @@ msgstr ""
 
 msgctxt "editor_menu_edit_detach"
 msgid "Enter value manually"
-msgstr ""
-
-msgctxt "editor_menu_edit_undo"
-msgid "Undo"
-msgstr ""
-
-msgctxt "editor_menu_edit_redo"
-msgid "Redo"
 msgstr ""
 
 msgctxt "editor_menu_edit_rotate"
