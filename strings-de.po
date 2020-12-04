@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-04 20:09+0100\n"
-"PO-Revision-Date: 2020-12-02 20:57+0100\n"
+"POT-Creation-Date: 2020-12-04 21:01+0100\n"
+"PO-Revision-Date: 2020-12-04 20:57+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -21,11 +21,11 @@ msgstr ""
 #. generic strings
 msgctxt "generic_button_ok"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgctxt "generic_button_cancel"
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
@@ -65,7 +65,7 @@ msgstr "Abbrechen"
 
 msgctxt "generic_action_undo"
 msgid "Undo"
-msgstr ""
+msgstr "Rückgängig"
 
 #. image library
 msgctxt "imageLibrary_new_cameraCapture"
@@ -106,11 +106,11 @@ msgstr "Ordner löschen"
 
 msgctxt "imageLibrary_folder_contextMenu_undelete"
 msgid "Undelete"
-msgstr ""
+msgstr "Löschen rückgängig machen"
 
 msgctxt "imageLibrary_folder_contextMenu_purge"
 msgid "Purge"
-msgstr ""
+msgstr "Endgültig löschen"
 
 msgctxt "imageLibrary_folder_contextMenu_print"
 msgid "Print folder"
@@ -126,7 +126,7 @@ msgstr "Umbenennen"
 
 msgctxt "imageLibrary_image_contextMenu_move"
 msgid "Move to folder"
-msgstr ""
+msgstr "In Ordner verschieben"
 
 msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
 msgid "Copy to clipboard"
@@ -138,7 +138,7 @@ msgstr "Messungen einfügen"
 
 msgctxt "imageLibrary_image_contextMenu_duplicate"
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplizieren"
 
 msgctxt "imageLibrary_image_contextMenu_delete"
 msgid "Delete"
@@ -351,7 +351,7 @@ msgstr "Ordnerfarbe"
 
 msgctxt "imageLibrary_folderNameDialog_template"
 msgid "Template"
-msgstr ""
+msgstr "Vorlage"
 
 msgctxt "imageLibrary_folderNameDialog_notes"
 msgid "Notes"
@@ -1199,10 +1199,9 @@ msgctxt "zip_export_notification_progress_pdf_step"
 msgid "PDF image %1$d of %2$d."
 msgstr "PDF Bild %1$d von %2$d."
 
-#, fuzzy
 msgctxt "zip_export_notification_progress_compressing_step"
 msgid "Compressing ZIP file…"
-msgstr "Komprimiere die ZIP Datei..."
+msgstr "Komprimiere die ZIP Datei…"
 
 #. CSV export
 msgctxt "dialog_csv_export_title"
@@ -1316,7 +1315,7 @@ msgstr "Fehler beim Kopieren des Bildes"
 #. main screen
 msgctxt "pref_main_title"
 msgid "Settings"
-msgstr ""
+msgstr "Einstellungen"
 
 msgctxt "pref_category_measures"
 msgid "Measures"
@@ -2426,7 +2425,7 @@ msgstr "Verzeichnisnotizen und ein Inhaltsverzeichnis werden gedruckt"
 
 msgctxt "pref_category_export_general"
 msgid "General"
-msgstr ""
+msgstr "Allgemein"
 
 msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
@@ -2784,15 +2783,13 @@ msgctxt "pref_storage_directory_cannot_move_files"
 msgid "Cannot move files"
 msgstr "Kann die Dateien nicht verschieben"
 
-#, fuzzy
 msgctxt "dialog_storage_move_annotated_images_progress_text"
 msgid "Moving images …"
-msgstr "Verschiebe Bilder ..."
+msgstr "Verschiebe Bilder …"
 
-#, fuzzy
 msgctxt "dialog_storage_directory_move_images_progress_text"
 msgid "Moving images …"
-msgstr "Verschiebe Bilder ..."
+msgstr "Verschiebe Bilder …"
 
 #. Cloud storage
 msgctxt "cloud_storage_notice_text"
@@ -3272,7 +3269,6 @@ msgctxt "pref_template_custom_table_column_measure_info_title"
 msgid "Measure selection"
 msgstr "Messwertauswahl"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_measure_info_description"
 msgid ""
 "Here, you define which measurement of the tagged element to put into this"
@@ -3654,10 +3650,9 @@ msgctxt "cloud_progress_cleanup_server"
 msgid "Cleaning up server."
 msgstr "Server wird aufgeräumt."
 
-#, fuzzy
 msgctxt "cloud_progress_will_cancel"
 msgid "Syncing will be cancelled…"
-msgstr "Synchronisierung wird angehalten..."
+msgstr "Synchronisierung wird angehalten…"
 
 msgctxt "notification_cloud_sync_errors_title"
 msgid "Cloud synchronization errors"
@@ -6930,20 +6925,18 @@ msgid "Downloading image file from cloud storage."
 msgstr "Bilddatei wird vom Cloudspeicher runtergeladen."
 
 #. old gallery export
-#, fuzzy
 msgctxt "UNUSED_export_dialog_saving_images_to_external_storage"
 msgid "Saving images to external storage…"
-msgstr "Speichere die Bilder in den externen Speicher..."
+msgstr "Speichere die Bilder in den externen Speicher…"
 
-#, fuzzy
 msgctxt "UNUSED_export_dialog_image_saved_to_external_storage"
 msgid "Saved image to external storage…"
-msgstr "Bild wurde im externen Speicher abgespeichert..."
+msgstr "Bild wurde im externen Speicher abgespeichert…"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "UNUSED_export_dialog_images_saved_to_external_storage"
 msgid "Saved %1$d images to external storage…"
-msgstr "%1$d Bilder wurden im externen Speicher abgespeichert..."
+msgstr "%1$d Bilder wurden im externen Speicher abgespeichert…"
 
 msgctxt "UNUSED_export_dialog_saving_images_success_title"
 msgid "Export finished"
