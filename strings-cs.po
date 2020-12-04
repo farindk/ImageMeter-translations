@@ -59,12 +59,12 @@ msgid "Really delete"
 msgstr "Opravdu smazat"
 
 #, fuzzy
-msgctxt "generic_cancel"
+msgctxt "generic_cancel_delete"
 msgid "Cancel"
 msgstr "zrušení"
 
 #, fuzzy
-msgctxt "generic_undo"
+msgctxt "generic_action_undo"
 msgid "Undo"
 msgstr "vrátit"
 
@@ -194,11 +194,11 @@ msgstr "kopírovat"
 
 #. ========== folder/image-selection ==========
 #. menu
-msgctxt "folderselect_menu_new_folder"
+msgctxt "imageLibrary_new_folder"
 msgid "New folder"
 msgstr "Nová složka"
 
-msgctxt "folderselect_menu_share_folder"
+msgctxt "imageLibrary_folder_contextMenu_share"
 msgid "Share folder"
 msgstr "Sdílet složku"
 
@@ -206,98 +206,98 @@ msgctxt "folderselect_menu_save_to_external_memory"
 msgid "Save to gallery"
 msgstr "Uložit do galerie"
 
-msgctxt "folderselect_menu_rename_folder"
+msgctxt "imageLibrary_folder_contextMenu_rename"
 msgid "Rename folder"
 msgstr "Přejmenovat složku"
 
-msgctxt "folderselect_menu_delete_folder"
+msgctxt "imageLibrary_folder_contextMenu_delete"
 msgid "Delete folder"
 msgstr "Smazat složku"
 
-msgctxt "folderselect_menu_print_folder"
+msgctxt "imageLibrary_folder_contextMenu_print"
 msgid "Print folder"
 msgstr "Vytisknout složku"
 
-msgctxt "imageselect_menu_preferences"
+msgctxt "navigationDrawer_preferences"
 msgid "Settings"
 msgstr "Nastavení"
 
 #, fuzzy
-msgctxt "imageselect_menu_rename"
+msgctxt "imageLibrary_image_contextMenu_rename"
 msgid "Rename"
 msgstr "Přejmenovat"
 
 #, fuzzy
-msgctxt "imageselect_menu_duplicate"
+msgctxt "imageLibrary_folder_contextMenu_duplicate"
 msgid "Duplicate"
 msgstr "Duplikát"
 
-msgctxt "imageselect_menu_copy"
+msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
 msgid "Copy to clipboard"
 msgstr ""
 
-msgctxt "imageselect_menu_paste_annotation"
+msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
 msgid "Paste annotation"
 msgstr ""
 
-msgctxt "imageselect_menu_move_to_folder"
+msgctxt "imageLibrary_folder_contextMenu_move"
 msgid "Move to folder"
 msgstr "Přesunout do složky"
 
-msgctxt "imageselect_menu_import_image"
+msgctxt "imageLibrary_new_importImage"
 msgid "Import image"
 msgstr "Importovat obrázek"
 
 #, fuzzy
-msgctxt "imageselect_menu_new_canvas"
+msgctxt "imageLibrary_new_canvas"
 msgid "New canvas"
 msgstr "Nové plátno"
 
 #, fuzzy
-msgctxt "imageselect_menu_capture"
+msgctxt "imageLibrary_new_cameraCapture"
 msgid "Camera capture"
 msgstr "Vyfotit obrázek"
 
 #, fuzzy
-msgctxt "imageselect_menu_delete_image"
+msgctxt "imageLibrary_image_contextMenu_delete"
 msgid "Delete"
 msgstr "Vymazat"
 
 #, fuzzy
-msgctxt "imageselect_menu_undelete_image"
+msgctxt "imageLibrary_image_contextMenu_undelete"
 msgid "Undelete"
 msgstr "Obnovit"
 
 #, fuzzy
-msgctxt "imageselect_menu_purge_image"
+msgctxt "imageLibrary_image_contextMenu_purge"
 msgid "Purge"
 msgstr "Očistit"
 
 #, fuzzy
-msgctxt "imageselect_menu_share_image"
+msgctxt "imageLibrary_image_contextMenu_share"
 msgid "Share"
 msgstr "Podíl"
 
 #, fuzzy
-msgctxt "imageselect_menu_print"
+msgctxt "imageLibrary_image_contextMenu_print"
 msgid "Print"
 msgstr "Vytisknout obraz"
 
 #, fuzzy
-msgctxt "imageselect_menu_forced_cloud_upload"
+msgctxt "imageLibrary_image_contextMenu_forcedCloudUpload"
 msgid "Force cloud upload"
 msgstr "Vynutit cloudové nahrávání"
 
 #, fuzzy
-msgctxt "imageselect_menu_image_info"
+msgctxt "imageLibrary_image_contextMenu_imageInfo"
 msgid "Image info…"
 msgstr "Informace o obrázku…"
 
-msgctxt "imageselect_menu_upgrade"
+msgctxt "navigationDrawer_upgrade"
 msgid "Upgrade"
 msgstr "Upgrade"
 
-msgctxt "imageselect_menu_import_images_from_free_app"
+msgctxt "navigationDrawer_importImagesFromFreeApp"
 msgid "Import images from free app"
 msgstr "Importovat obrázky z bezplatné aplikace"
 
@@ -306,7 +306,7 @@ msgctxt "imageselect_menu_welcome_message"
 msgid "Show welcome message"
 msgstr "Zobrazit uvítací zprávu"
 
-msgctxt "imageselect_menu_about_app"
+msgctxt "navigationDrawer_aboutApp"
 msgid "About app"
 msgstr "O aplikaci"
 
@@ -315,76 +315,76 @@ msgstr "O aplikaci"
 #. string name="imageselect_menu_sync_inbox_folder">Sync inbox with cloud
 #. (beta)</string
 #. string name="imageselect_menu_sync_all_folders">Sync all folders</string
-msgctxt "imageselect_menu_contact"
+msgctxt "navigationDrawer_contact"
 msgid "Contact us"
 msgstr "Kontaktujte nás"
 
 #, fuzzy
-msgctxt "imageselect_menu_documentation"
+msgctxt "navigationDrawer_documentation"
 msgid "Documentation"
 msgstr "Dokumentace"
 
 #. image-library
-msgctxt "imagelibrary_image_deleted"
+msgctxt "imageLibrary_snackbar_imageDeleted"
 msgid "Image deleted"
 msgstr "Obrázek byl smazán"
 
 #, fuzzy
-msgctxt "imagelibrary_folder_deleted"
+msgctxt "imageLibrary_snackbar_folderDeleted"
 msgid "Folder deleted"
 msgstr "Složka byla smazána"
 
 #, fuzzy
-msgctxt "imagelibrary_breadcrumb_root_folder"
+msgctxt "imageLibrary_breadcrumb_rootFolder"
 msgid "Root"
 msgstr "Kořenový"
 
 #, fuzzy
-msgctxt "imagelibrary_search_hint"
+msgctxt "imageLibrary_search_hint"
 msgid "Search images"
 msgstr "Prohledávejte obrázky"
 
 #, fuzzy
-msgctxt "sortingorder_alpha_ascending"
+msgctxt "imageLibrary_sortingOrder_alpha_ascending"
 msgid "Alphabetical"
 msgstr "Abecední"
 
 #, fuzzy
-msgctxt "sortingorder_alpha_descending"
+msgctxt "imageLibrary_sortingOrder_alpha_descending"
 msgid "Alphabetical, reverse"
 msgstr "Abecedně, obráceně"
 
 #, fuzzy
-msgctxt "sortingorder_time_ascending"
+msgctxt "imageLibrary_sortingOrder_time_ascending"
 msgid "Time, earliest on top"
 msgstr "Čas, nejdříve nahoře"
 
 #, fuzzy
-msgctxt "sortingorder_time_descending"
+msgctxt "imageLibrary_sortingOrder_time_descending"
 msgid "Time, latest on top"
 msgstr "Čas, nejnovější nahoře"
 
 #, fuzzy
-msgctxt "sortingorder_number_ascending"
+msgctxt "imageLibrary_sortingOrder_number_ascending"
 msgid "Number, ascending"
 msgstr "Číslo, vzestupně"
 
 #, fuzzy
-msgctxt "sortingorder_number_descending"
+msgctxt "imageLibrary_sortingOrder_number_descending"
 msgid "Number, descending"
 msgstr "Číslo, sestupně"
 
 #, fuzzy
-msgctxt "imagelibrary_display_options"
+msgctxt "imageLibrary_menu_openDisplayOptions"
 msgid "Display options…"
 msgstr "Volby zobrazení…"
 
 #, fuzzy
-msgctxt "imagelibrary_open_image_numbering_options"
+msgctxt "imageLibrary_menu_openImageNumberingOptions"
 msgid "Image numbering…"
 msgstr "Číslování obrázků…"
 
-msgctxt "imagelibrary_settings"
+msgctxt "imageLibrary_menu_openSettings"
 msgid "Settings…"
 msgstr "Nastavení…"
 
@@ -411,92 +411,92 @@ msgid "Moving images to app directory (%1$d of %2$d)."
 msgstr ""
 
 #. dialog: numbering
-msgctxt "imagelibrary_dialog_numbering_title"
+msgctxt "imageLibrary_numberingDialog_title"
 msgid "Image numbers"
 msgstr "Čísla obrázků"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_enable_auto_numbering"
+msgctxt "imageLibrary_numberingDialog_enableAutoNumbering"
 msgid "Enable auto-numbering"
 msgstr "Povolit automatické číslování"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_start"
+msgctxt "imageLibrary_numberingDialog_startNumber"
 msgid "Start"
 msgstr "Start"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_increment"
+msgctxt "imageLibrary_numberingDialog_numberIncrement"
 msgid "Increment"
 msgstr "Přírůstek"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_renumber_title"
+msgctxt "imageLibrary_numberingDialog_renumbering_sectionTitle"
 msgid "Renumber existing images"
 msgstr "Přečíslování stávajících obrázků"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_renumber_old_number_order"
+msgctxt "imageLibrary_numberingDialog_renumbering_keepOldNumberOrder"
 msgid "Keep order of old numbers"
 msgstr "Udržujte pořadí starých čísel"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_renumber_all"
+msgctxt "imageLibrary_numberingDialog_renumbering_doRenumber"
 msgid "Renumber"
 msgstr "Přečíslovat"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_remove_all_numbers"
+msgctxt "imageLibrary_numberingDialog_renumbering_removeAllNumbers"
 msgid "Remove numbers"
 msgstr "Odstraňte čísla"
 
 #. dialog: display options
-msgctxt "imagelibrary_dialog_display_options_title"
+msgctxt "imageLibrary_displayOptionsDialog_title"
 msgid "Display options"
 msgstr "Volby zobrazení"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_show_deleted_images"
+msgctxt "imageLibrary_displayOptionsDialog_showDeletedImages"
 msgid "Show deleted images"
 msgstr "Zobrazit smazané obrázky"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_show_image_numbers"
+msgctxt "imageLibrary_displayOptionsDialog_showImageNumbers"
 msgid "Show image numbers"
 msgstr "Zobrazit čísla obrázků"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_title"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_title"
 msgid "Show images as"
 msgstr "Zobrazit obrázky jako"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_list_large"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_large"
 msgid "Large list"
 msgstr "Velký seznam"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_list_medium"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_medium"
 msgid "Medium list"
 msgstr "Střední seznam"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_list_small"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_small"
 msgid "Small list"
 msgstr "Malý seznam"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_grid_large"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_large"
 msgid "Large grid"
 msgstr "Velká mřížka"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_grid_medium"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_medium"
 msgid "Medium grid"
 msgstr "Střední mřížka"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_grid_small"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_small"
 msgid "Small grid"
 msgstr "Malá mřížka"
 
@@ -653,22 +653,22 @@ msgid "Volume key"
 msgstr "Tlačítko hlasitosti"
 
 #, c-format, fuzzy
-msgctxt "navigation_drawer_license"
+msgctxt "navigationDrawer_license"
 msgid "License: %1$s"
 msgstr "Licence: %1$s"
 
 #, c-format, fuzzy
-msgctxt "navigation_drawer_version"
+msgctxt "navigationDrawer_version"
 msgid "Version: %1$s"
 msgstr "Verze: %1$s"
 
 #, c-format, fuzzy
-msgctxt "navigation_drawer_owner"
+msgctxt "navigationDrawer_owner"
 msgid "Owner: %1$s"
 msgstr "Vlastník: %1$s"
 
 #, c-format, fuzzy
-msgctxt "navigation_drawer_user"
+msgctxt "navigationDrawer_user"
 msgid "User: %1$s"
 msgstr "Uživatel: %1$s"
 
@@ -5718,7 +5718,7 @@ msgctxt "editor_menu_edit_undo"
 msgid "Undo"
 msgstr "Zpět"
 
-msgctxt "editor_menu_edit_redo"
+msgctxt "generic_action_redo"
 msgid "Redo"
 msgstr "Znovu"
 

@@ -54,11 +54,11 @@ msgctxt "generic_confirm_delete"
 msgid "Really delete"
 msgstr "确定刪除"
 
-msgctxt "generic_cancel"
+msgctxt "generic_cancel_delete"
 msgid "Cancel"
 msgstr "取消"
 
-msgctxt "generic_undo"
+msgctxt "generic_action_undo"
 msgid "Undo"
 msgstr "撤消"
 
@@ -161,11 +161,11 @@ msgstr ""
 
 #. ========== folder/image-selection ==========
 #. menu
-msgctxt "folderselect_menu_new_folder"
+msgctxt "imageLibrary_new_folder"
 msgid "New folder"
 msgstr "新文件夾"
 
-msgctxt "folderselect_menu_share_folder"
+msgctxt "imageLibrary_folder_contextMenu_share"
 msgid "Share folder"
 msgstr "分享文件夾"
 
@@ -173,87 +173,87 @@ msgctxt "folderselect_menu_save_to_external_memory"
 msgid "Save to gallery"
 msgstr "存至圖像庫"
 
-msgctxt "folderselect_menu_rename_folder"
+msgctxt "imageLibrary_folder_contextMenu_rename"
 msgid "Rename folder"
 msgstr "文件夾更名"
 
-msgctxt "folderselect_menu_delete_folder"
+msgctxt "imageLibrary_folder_contextMenu_delete"
 msgid "Delete folder"
 msgstr "刪除文件夾"
 
-msgctxt "folderselect_menu_print_folder"
+msgctxt "imageLibrary_folder_contextMenu_print"
 msgid "Print folder"
 msgstr "打印文件夾內所有文件"
 
-msgctxt "imageselect_menu_preferences"
+msgctxt "navigationDrawer_preferences"
 msgid "Settings"
 msgstr "設置"
 
-msgctxt "imageselect_menu_rename"
+msgctxt "imageLibrary_image_contextMenu_rename"
 msgid "Rename"
 msgstr "改名"
 
-msgctxt "imageselect_menu_duplicate"
+msgctxt "imageLibrary_folder_contextMenu_duplicate"
 msgid "Duplicate"
 msgstr "复制"
 
-msgctxt "imageselect_menu_copy"
+msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
 msgid "Copy to clipboard"
 msgstr ""
 
-msgctxt "imageselect_menu_paste_annotation"
+msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
 msgid "Paste annotation"
 msgstr ""
 
-msgctxt "imageselect_menu_move_to_folder"
+msgctxt "imageLibrary_folder_contextMenu_move"
 msgid "Move to folder"
 msgstr "移至文件夾"
 
-msgctxt "imageselect_menu_import_image"
+msgctxt "imageLibrary_new_importImage"
 msgid "Import image"
 msgstr "導入圖像"
 
-msgctxt "imageselect_menu_new_canvas"
+msgctxt "imageLibrary_new_canvas"
 msgid "New canvas"
 msgstr "新画布"
 
-msgctxt "imageselect_menu_capture"
+msgctxt "imageLibrary_new_cameraCapture"
 msgid "Camera capture"
 msgstr "拍攝圖像"
 
-msgctxt "imageselect_menu_delete_image"
+msgctxt "imageLibrary_image_contextMenu_delete"
 msgid "Delete"
 msgstr "刪除"
 
-msgctxt "imageselect_menu_undelete_image"
+msgctxt "imageLibrary_image_contextMenu_undelete"
 msgid "Undelete"
 msgstr "取消刪除"
 
-msgctxt "imageselect_menu_purge_image"
+msgctxt "imageLibrary_image_contextMenu_purge"
 msgid "Purge"
 msgstr "清除"
 
-msgctxt "imageselect_menu_share_image"
+msgctxt "imageLibrary_image_contextMenu_share"
 msgid "Share"
 msgstr "分享"
 
-msgctxt "imageselect_menu_print"
+msgctxt "imageLibrary_image_contextMenu_print"
 msgid "Print"
 msgstr "打印"
 
-msgctxt "imageselect_menu_forced_cloud_upload"
+msgctxt "imageLibrary_image_contextMenu_forcedCloudUpload"
 msgid "Force cloud upload"
 msgstr ""
 
-msgctxt "imageselect_menu_image_info"
+msgctxt "imageLibrary_image_contextMenu_imageInfo"
 msgid "Image info…"
 msgstr "圖片信息……"
 
-msgctxt "imageselect_menu_upgrade"
+msgctxt "navigationDrawer_upgrade"
 msgid "Upgrade"
 msgstr "升級"
 
-msgctxt "imageselect_menu_import_images_from_free_app"
+msgctxt "navigationDrawer_importImagesFromFreeApp"
 msgid "Import images from free app"
 msgstr "從免費版本導入圖像"
 
@@ -261,7 +261,7 @@ msgctxt "imageselect_menu_welcome_message"
 msgid "Show welcome message"
 msgstr "顯示歡迎訊息"
 
-msgctxt "imageselect_menu_about_app"
+msgctxt "navigationDrawer_aboutApp"
 msgid "About app"
 msgstr "關於本软件"
 
@@ -270,64 +270,64 @@ msgstr "關於本软件"
 #. string name="imageselect_menu_sync_inbox_folder">Sync inbox with cloud
 #. (beta)</string
 #. string name="imageselect_menu_sync_all_folders">Sync all folders</string
-msgctxt "imageselect_menu_contact"
+msgctxt "navigationDrawer_contact"
 msgid "Contact us"
 msgstr "聯繫我們"
 
-msgctxt "imageselect_menu_documentation"
+msgctxt "navigationDrawer_documentation"
 msgid "Documentation"
 msgstr "帮助文件"
 
 #. image-library
-msgctxt "imagelibrary_image_deleted"
+msgctxt "imageLibrary_snackbar_imageDeleted"
 msgid "Image deleted"
 msgstr "圖片已刪除"
 
-msgctxt "imagelibrary_folder_deleted"
+msgctxt "imageLibrary_snackbar_folderDeleted"
 msgid "Folder deleted"
 msgstr "資料夾已刪除"
 
-msgctxt "imagelibrary_breadcrumb_root_folder"
+msgctxt "imageLibrary_breadcrumb_rootFolder"
 msgid "Root"
 msgstr "根"
 
-msgctxt "imagelibrary_search_hint"
+msgctxt "imageLibrary_search_hint"
 msgid "Search images"
 msgstr "搜索圖片"
 
-msgctxt "sortingorder_alpha_ascending"
+msgctxt "imageLibrary_sortingOrder_alpha_ascending"
 msgid "Alphabetical"
 msgstr "按字母順序"
 
-msgctxt "sortingorder_alpha_descending"
+msgctxt "imageLibrary_sortingOrder_alpha_descending"
 msgid "Alphabetical, reverse"
 msgstr "按字母逆序"
 
-msgctxt "sortingorder_time_ascending"
+msgctxt "imageLibrary_sortingOrder_time_ascending"
 msgid "Time, earliest on top"
 msgstr "按時間顺序"
 
-msgctxt "sortingorder_time_descending"
+msgctxt "imageLibrary_sortingOrder_time_descending"
 msgid "Time, latest on top"
 msgstr "按時間逆序"
 
-msgctxt "sortingorder_number_ascending"
+msgctxt "imageLibrary_sortingOrder_number_ascending"
 msgid "Number, ascending"
 msgstr "按數字升序"
 
-msgctxt "sortingorder_number_descending"
+msgctxt "imageLibrary_sortingOrder_number_descending"
 msgid "Number, descending"
 msgstr "按數字降序"
 
-msgctxt "imagelibrary_display_options"
+msgctxt "imageLibrary_menu_openDisplayOptions"
 msgid "Display options…"
 msgstr "顯示選項……"
 
-msgctxt "imagelibrary_open_image_numbering_options"
+msgctxt "imageLibrary_menu_openImageNumberingOptions"
 msgid "Image numbering…"
 msgstr "圖片編號……"
 
-msgctxt "imagelibrary_settings"
+msgctxt "imageLibrary_menu_openSettings"
 msgid "Settings…"
 msgstr "設置……"
 
@@ -353,76 +353,76 @@ msgid "Moving images to app directory (%1$d of %2$d)."
 msgstr ""
 
 #. dialog: numbering
-msgctxt "imagelibrary_dialog_numbering_title"
+msgctxt "imageLibrary_numberingDialog_title"
 msgid "Image numbers"
 msgstr "圖片編號"
 
-msgctxt "imagelibrary_dialog_numbering_enable_auto_numbering"
+msgctxt "imageLibrary_numberingDialog_enableAutoNumbering"
 msgid "Enable auto-numbering"
 msgstr "啟用自動編號"
 
-msgctxt "imagelibrary_dialog_numbering_start"
+msgctxt "imageLibrary_numberingDialog_startNumber"
 msgid "Start"
 msgstr "開始"
 
-msgctxt "imagelibrary_dialog_numbering_increment"
+msgctxt "imageLibrary_numberingDialog_numberIncrement"
 msgid "Increment"
 msgstr "增量"
 
-msgctxt "imagelibrary_dialog_numbering_renumber_title"
+msgctxt "imageLibrary_numberingDialog_renumbering_sectionTitle"
 msgid "Renumber existing images"
 msgstr "重新編號現有圖像"
 
-msgctxt "imagelibrary_dialog_numbering_renumber_old_number_order"
+msgctxt "imageLibrary_numberingDialog_renumbering_keepOldNumberOrder"
 msgid "Keep order of old numbers"
 msgstr "保持现有编号順序"
 
-msgctxt "imagelibrary_dialog_numbering_renumber_all"
+msgctxt "imageLibrary_numberingDialog_renumbering_doRenumber"
 msgid "Renumber"
 msgstr "重新編號"
 
-msgctxt "imagelibrary_dialog_numbering_remove_all_numbers"
+msgctxt "imageLibrary_numberingDialog_renumbering_removeAllNumbers"
 msgid "Remove numbers"
 msgstr "刪除號碼"
 
 #. dialog: display options
-msgctxt "imagelibrary_dialog_display_options_title"
+msgctxt "imageLibrary_displayOptionsDialog_title"
 msgid "Display options"
 msgstr "顯示選項"
 
-msgctxt "imagelibrary_dialog_display_options_show_deleted_images"
+msgctxt "imageLibrary_displayOptionsDialog_showDeletedImages"
 msgid "Show deleted images"
 msgstr "顯示已刪除的圖像"
 
-msgctxt "imagelibrary_dialog_display_options_show_image_numbers"
+msgctxt "imageLibrary_displayOptionsDialog_showImageNumbers"
 msgid "Show image numbers"
 msgstr "顯示圖像編號"
 
-msgctxt "imagelibrary_dialog_display_options_image_style_title"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_title"
 msgid "Show images as"
 msgstr "顯示圖像為"
 
-msgctxt "imagelibrary_dialog_display_options_image_style_list_large"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_large"
 msgid "Large list"
 msgstr "大号列表"
 
-msgctxt "imagelibrary_dialog_display_options_image_style_list_medium"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_medium"
 msgid "Medium list"
 msgstr "中号列表"
 
-msgctxt "imagelibrary_dialog_display_options_image_style_list_small"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_small"
 msgid "Small list"
 msgstr "小号列表"
 
-msgctxt "imagelibrary_dialog_display_options_image_style_grid_large"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_large"
 msgid "Large grid"
 msgstr "大号网格"
 
-msgctxt "imagelibrary_dialog_display_options_image_style_grid_medium"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_medium"
 msgid "Medium grid"
 msgstr "中号网格"
 
-msgctxt "imagelibrary_dialog_display_options_image_style_grid_small"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_small"
 msgid "Small grid"
 msgstr "小号网格"
 
@@ -566,22 +566,22 @@ msgid "Volume key"
 msgstr ""
 
 #, c-format
-msgctxt "navigation_drawer_license"
+msgctxt "navigationDrawer_license"
 msgid "License: %1$s"
 msgstr "許可证：%1$s"
 
 #, c-format
-msgctxt "navigation_drawer_version"
+msgctxt "navigationDrawer_version"
 msgid "Version: %1$s"
 msgstr "版本：%1$s"
 
 #, c-format
-msgctxt "navigation_drawer_owner"
+msgctxt "navigationDrawer_owner"
 msgid "Owner: %1$s"
 msgstr ""
 
 #, c-format
-msgctxt "navigation_drawer_user"
+msgctxt "navigationDrawer_user"
 msgid "User: %1$s"
 msgstr ""
 
@@ -5146,7 +5146,7 @@ msgctxt "editor_menu_edit_undo"
 msgid "Undo"
 msgstr "撤銷"
 
-msgctxt "editor_menu_edit_redo"
+msgctxt "generic_action_redo"
 msgid "Redo"
 msgstr "重做"
 

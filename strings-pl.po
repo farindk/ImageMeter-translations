@@ -62,12 +62,12 @@ msgid "Really delete"
 msgstr "Naprawdę usuń"
 
 #, fuzzy
-msgctxt "generic_cancel"
+msgctxt "generic_cancel_delete"
 msgid "Cancel"
 msgstr "Anuluj"
 
 #, fuzzy
-msgctxt "generic_undo"
+msgctxt "generic_action_undo"
 msgid "Undo"
 msgstr "Cofnij"
 
@@ -194,11 +194,11 @@ msgstr "Kopiuj"
 
 #. ========== folder/image-selection ==========
 #. menu
-msgctxt "folderselect_menu_new_folder"
+msgctxt "imageLibrary_new_folder"
 msgid "New folder"
 msgstr "Nowy folder"
 
-msgctxt "folderselect_menu_share_folder"
+msgctxt "imageLibrary_folder_contextMenu_share"
 msgid "Share folder"
 msgstr "Dzielić folder"
 
@@ -206,97 +206,97 @@ msgctxt "folderselect_menu_save_to_external_memory"
 msgid "Save to gallery"
 msgstr "Zapisz w galerii"
 
-msgctxt "folderselect_menu_rename_folder"
+msgctxt "imageLibrary_folder_contextMenu_rename"
 msgid "Rename folder"
 msgstr "Zmień nazwę folderu"
 
-msgctxt "folderselect_menu_delete_folder"
+msgctxt "imageLibrary_folder_contextMenu_delete"
 msgid "Delete folder"
 msgstr "Usuń folder"
 
-msgctxt "folderselect_menu_print_folder"
+msgctxt "imageLibrary_folder_contextMenu_print"
 msgid "Print folder"
 msgstr "Drukuj folder"
 
-msgctxt "imageselect_menu_preferences"
+msgctxt "navigationDrawer_preferences"
 msgid "Settings"
 msgstr "Ustawienia"
 
 #, fuzzy
-msgctxt "imageselect_menu_rename"
+msgctxt "imageLibrary_image_contextMenu_rename"
 msgid "Rename"
 msgstr "Przemianować"
 
 #, fuzzy
-msgctxt "imageselect_menu_duplicate"
+msgctxt "imageLibrary_folder_contextMenu_duplicate"
 msgid "Duplicate"
 msgstr "Duplikować"
 
 #, fuzzy
-msgctxt "imageselect_menu_copy"
+msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
 msgid "Copy to clipboard"
 msgstr "Skopiuj do schowka"
 
 #, fuzzy
-msgctxt "imageselect_menu_paste_annotation"
+msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
 msgid "Paste annotation"
 msgstr "Wklej adnotację"
 
-msgctxt "imageselect_menu_move_to_folder"
+msgctxt "imageLibrary_folder_contextMenu_move"
 msgid "Move to folder"
 msgstr "Przenieś do folderu"
 
-msgctxt "imageselect_menu_import_image"
+msgctxt "imageLibrary_new_importImage"
 msgid "Import image"
 msgstr "Importuj obraz"
 
 #, fuzzy
-msgctxt "imageselect_menu_new_canvas"
+msgctxt "imageLibrary_new_canvas"
 msgid "New canvas"
 msgstr "Nowe płótno"
 
-msgctxt "imageselect_menu_capture"
+msgctxt "imageLibrary_new_cameraCapture"
 msgid "Camera capture"
 msgstr "Zrobić zdjęcie"
 
 #, fuzzy
-msgctxt "imageselect_menu_delete_image"
+msgctxt "imageLibrary_image_contextMenu_delete"
 msgid "Delete"
 msgstr "Usunąć"
 
 #, fuzzy
-msgctxt "imageselect_menu_undelete_image"
+msgctxt "imageLibrary_image_contextMenu_undelete"
 msgid "Undelete"
 msgstr "Cofnij usunięcie"
 
 #, fuzzy
-msgctxt "imageselect_menu_purge_image"
+msgctxt "imageLibrary_image_contextMenu_purge"
 msgid "Purge"
 msgstr "Oczyścić"
 
-msgctxt "imageselect_menu_share_image"
+msgctxt "imageLibrary_image_contextMenu_share"
 msgid "Share"
 msgstr "Udostępnij"
 
-msgctxt "imageselect_menu_print"
+msgctxt "imageLibrary_image_contextMenu_print"
 msgid "Print"
 msgstr "Drukuj obraz"
 
 #, fuzzy
-msgctxt "imageselect_menu_forced_cloud_upload"
+msgctxt "imageLibrary_image_contextMenu_forcedCloudUpload"
 msgid "Force cloud upload"
 msgstr "Wymuś przesłanie do chmury"
 
-msgctxt "imageselect_menu_image_info"
+msgctxt "imageLibrary_image_contextMenu_imageInfo"
 msgid "Image info…"
 msgstr "Informacje o obrazie…"
 
 #, fuzzy
-msgctxt "imageselect_menu_upgrade"
+msgctxt "navigationDrawer_upgrade"
 msgid "Upgrade"
 msgstr "Aktualizacja"
 
-msgctxt "imageselect_menu_import_images_from_free_app"
+msgctxt "navigationDrawer_importImagesFromFreeApp"
 msgid "Import images from free app"
 msgstr "Importuj zdjęcia z bezpłatnej aplikacji"
 
@@ -304,7 +304,7 @@ msgctxt "imageselect_menu_welcome_message"
 msgid "Show welcome message"
 msgstr "Pokaż powitalną wiadomość"
 
-msgctxt "imageselect_menu_about_app"
+msgctxt "navigationDrawer_aboutApp"
 msgid "About app"
 msgstr "O aplikacji"
 
@@ -313,76 +313,76 @@ msgstr "O aplikacji"
 #. string name="imageselect_menu_sync_inbox_folder">Sync inbox with cloud
 #. (beta)</string
 #. string name="imageselect_menu_sync_all_folders">Sync all folders</string
-msgctxt "imageselect_menu_contact"
+msgctxt "navigationDrawer_contact"
 msgid "Contact us"
 msgstr "Skontaktuj się z nami"
 
 #, fuzzy
-msgctxt "imageselect_menu_documentation"
+msgctxt "navigationDrawer_documentation"
 msgid "Documentation"
 msgstr "Dokumentacja"
 
 #. image-library
-msgctxt "imagelibrary_image_deleted"
+msgctxt "imageLibrary_snackbar_imageDeleted"
 msgid "Image deleted"
 msgstr "Obraz usunięty"
 
 #, fuzzy
-msgctxt "imagelibrary_folder_deleted"
+msgctxt "imageLibrary_snackbar_folderDeleted"
 msgid "Folder deleted"
 msgstr "Folder usunięty"
 
 #, fuzzy
-msgctxt "imagelibrary_breadcrumb_root_folder"
+msgctxt "imageLibrary_breadcrumb_rootFolder"
 msgid "Root"
 msgstr "Korzeń"
 
 #, fuzzy
-msgctxt "imagelibrary_search_hint"
+msgctxt "imageLibrary_search_hint"
 msgid "Search images"
 msgstr "Szukaj zdjęć"
 
 #, fuzzy
-msgctxt "sortingorder_alpha_ascending"
+msgctxt "imageLibrary_sortingOrder_alpha_ascending"
 msgid "Alphabetical"
 msgstr "Alfabetyczny"
 
 #, fuzzy
-msgctxt "sortingorder_alpha_descending"
+msgctxt "imageLibrary_sortingOrder_alpha_descending"
 msgid "Alphabetical, reverse"
 msgstr "Alfabetycznie, do tyłu"
 
 #, fuzzy
-msgctxt "sortingorder_time_ascending"
+msgctxt "imageLibrary_sortingOrder_time_ascending"
 msgid "Time, earliest on top"
 msgstr "Czas, wcześniej na górze"
 
 #, fuzzy
-msgctxt "sortingorder_time_descending"
+msgctxt "imageLibrary_sortingOrder_time_descending"
 msgid "Time, latest on top"
 msgstr "Czas, najnowsze na górze"
 
 #, fuzzy
-msgctxt "sortingorder_number_ascending"
+msgctxt "imageLibrary_sortingOrder_number_ascending"
 msgid "Number, ascending"
 msgstr "Liczba rosnąco"
 
 #, fuzzy
-msgctxt "sortingorder_number_descending"
+msgctxt "imageLibrary_sortingOrder_number_descending"
 msgid "Number, descending"
 msgstr "Liczba malejąca"
 
 #, fuzzy
-msgctxt "imagelibrary_display_options"
+msgctxt "imageLibrary_menu_openDisplayOptions"
 msgid "Display options…"
 msgstr "Opcje wyświetlania…"
 
 #, fuzzy
-msgctxt "imagelibrary_open_image_numbering_options"
+msgctxt "imageLibrary_menu_openImageNumberingOptions"
 msgid "Image numbering…"
 msgstr "Numeracja zdjęć…"
 
-msgctxt "imagelibrary_settings"
+msgctxt "imageLibrary_menu_openSettings"
 msgid "Settings…"
 msgstr "Ustawienia…"
 
@@ -409,92 +409,92 @@ msgid "Moving images to app directory (%1$d of %2$d)."
 msgstr "Przenoszenie obrazów do katalogu aplikacji (%1$d z %2$d)."
 
 #. dialog: numbering
-msgctxt "imagelibrary_dialog_numbering_title"
+msgctxt "imageLibrary_numberingDialog_title"
 msgid "Image numbers"
 msgstr "Numery zdjęć"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_enable_auto_numbering"
+msgctxt "imageLibrary_numberingDialog_enableAutoNumbering"
 msgid "Enable auto-numbering"
 msgstr "Włącz automatyczne numerowanie"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_start"
+msgctxt "imageLibrary_numberingDialog_startNumber"
 msgid "Start"
 msgstr "Początek"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_increment"
+msgctxt "imageLibrary_numberingDialog_numberIncrement"
 msgid "Increment"
 msgstr "Przyrost"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_renumber_title"
+msgctxt "imageLibrary_numberingDialog_renumbering_sectionTitle"
 msgid "Renumber existing images"
 msgstr "Zmień numerację istniejących obrazów"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_renumber_old_number_order"
+msgctxt "imageLibrary_numberingDialog_renumbering_keepOldNumberOrder"
 msgid "Keep order of old numbers"
 msgstr "Zachowaj porządek starych numerów"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_renumber_all"
+msgctxt "imageLibrary_numberingDialog_renumbering_doRenumber"
 msgid "Renumber"
 msgstr "Zmień numerację"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_numbering_remove_all_numbers"
+msgctxt "imageLibrary_numberingDialog_renumbering_removeAllNumbers"
 msgid "Remove numbers"
 msgstr "Usuń liczby"
 
 #. dialog: display options
-msgctxt "imagelibrary_dialog_display_options_title"
+msgctxt "imageLibrary_displayOptionsDialog_title"
 msgid "Display options"
 msgstr "opcje wyświetlania"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_show_deleted_images"
+msgctxt "imageLibrary_displayOptionsDialog_showDeletedImages"
 msgid "Show deleted images"
 msgstr "Pokaż usunięte obrazy"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_show_image_numbers"
+msgctxt "imageLibrary_displayOptionsDialog_showImageNumbers"
 msgid "Show image numbers"
 msgstr "Pokaż numery zdjęć"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_title"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_title"
 msgid "Show images as"
 msgstr "Pokaż obrazy jako"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_list_large"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_large"
 msgid "Large list"
 msgstr "Duża lista"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_list_medium"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_medium"
 msgid "Medium list"
 msgstr "Średnia lista"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_list_small"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_small"
 msgid "Small list"
 msgstr "Mała lista"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_grid_large"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_large"
 msgid "Large grid"
 msgstr "Duża siatka"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_grid_medium"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_medium"
 msgid "Medium grid"
 msgstr "Średnia siatka"
 
 #, fuzzy
-msgctxt "imagelibrary_dialog_display_options_image_style_grid_small"
+msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_small"
 msgid "Small grid"
 msgstr "Mała siatka"
 
@@ -649,22 +649,22 @@ msgid "Volume key"
 msgstr "Klawisz głośności"
 
 #, c-format, fuzzy
-msgctxt "navigation_drawer_license"
+msgctxt "navigationDrawer_license"
 msgid "License: %1$s"
 msgstr "Licencja: %1$s"
 
 #, c-format, fuzzy
-msgctxt "navigation_drawer_version"
+msgctxt "navigationDrawer_version"
 msgid "Version: %1$s"
 msgstr "Wersja: %1$s"
 
 #, c-format, fuzzy
-msgctxt "navigation_drawer_owner"
+msgctxt "navigationDrawer_owner"
 msgid "Owner: %1$s"
 msgstr "Właściciel: %1$s"
 
 #, c-format, fuzzy
-msgctxt "navigation_drawer_user"
+msgctxt "navigationDrawer_user"
 msgid "User: %1$s"
 msgstr "Użytkownik: %1$s"
 
@@ -5954,7 +5954,7 @@ msgctxt "editor_menu_edit_undo"
 msgid "Undo"
 msgstr "Cofnij"
 
-msgctxt "editor_menu_edit_redo"
+msgctxt "generic_action_redo"
 msgid "Redo"
 msgstr "Przerobić"
 
