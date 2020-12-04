@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in *.po ; do
+  cp $i $i.bkp
+  sed <$i.bkp >$i "s/msgctxt \"$1\"/msgctxt \"$2\"/" 
+done
