@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-14 10:12+0100\n"
-"PO-Revision-Date: 2020-12-12 17:27+0100\n"
+"POT-Creation-Date: 2021-01-08 21:07+0100\n"
+"PO-Revision-Date: 2021-01-08 20:56+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -1393,6 +1393,10 @@ msgctxt "core_unit_radian"
 msgid "radians"
 msgstr "Bogenwinkel"
 
+msgctxt "core_unit_gradians"
+msgid "gradians"
+msgstr "Gon"
+
 #. ========== preferences ==========
 #. main screen
 msgctxt "pref_main_title"
@@ -1544,6 +1548,10 @@ msgctxt "pref_measure_angle_unit_choices:2"
 msgid "Radians"
 msgstr "Radiant"
 
+msgctxt "pref_measure_angle_unit_choices:3"
+msgid "Gradians"
+msgstr "Gon"
+
 msgctxt "pref_measure_min_imperial_fraction"
 msgid "Smallest fraction of an inch"
 msgstr "Kleinster Bruchwert eines Inch"
@@ -1619,6 +1627,18 @@ msgstr "Ja, Maßeinheiten anzeigen"
 msgctxt "pref_measure_label_shows_unit_summaryoff"
 msgid "Show only the value, omit the unit"
 msgstr "Nur den Wert ohne die Maßeinheit anzeigen"
+
+msgctxt "pref_measure_label_disambiguation_dot"
+msgid "Add disambiguation dot"
+msgstr "Mehrdeutige Zahlen verhindern"
+
+msgctxt "pref_measure_label_disambiguation_dot_summaryon"
+msgid "Yes, if necessary"
+msgstr "Ja, Punkt hinzufügen falls nötig"
+
+msgctxt "pref_measure_label_disambiguation_dot_summaryoff"
+msgid "No"
+msgstr "Nein"
 
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
@@ -5297,6 +5317,18 @@ msgstr "Wert und Einheit zeigen"
 msgctxt "dimension_format_show_unit_choices:1"
 msgid "Do not show the unit"
 msgstr "Nur den Wert zeigen"
+
+msgctxt "value_entry_unit_disambiguation"
+msgid "Ambiguous numbers"
+msgstr "Mehrdeutige Zahlen"
+
+msgctxt "value_entry_unit_disambiguation_choices:0"
+msgid "Keep"
+msgstr "so lassen"
+
+msgctxt "value_entry_unit_disambiguation_choices:1"
+msgid "Add disambiguating dot"
+msgstr "Punkt hinzufügen"
 
 #. text box entry dialog
 msgctxt "textbox_dialog_label"

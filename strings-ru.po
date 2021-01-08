@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-14 10:12+0100\n"
+"POT-Creation-Date: 2021-01-08 21:07+0100\n"
 "PO-Revision-Date: 2020-09-10 11:15+0200\n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -76,7 +76,7 @@ msgstr "Камера"
 #, fuzzy
 msgctxt "imageLibrary_new_importImage"
 msgid "Import image/PDF"
-msgstr "Импорт изображения"
+msgstr "Импорт изображения/PDF"
 
 msgctxt "imageLibrary_new_canvas"
 msgid "New canvas"
@@ -1396,6 +1396,11 @@ msgctxt "core_unit_radian"
 msgid "radians"
 msgstr "радианы"
 
+#, fuzzy
+msgctxt "core_unit_gradians"
+msgid "gradians"
+msgstr "Град"
+
 #. ========== preferences ==========
 #. main screen
 msgctxt "pref_main_title"
@@ -1547,6 +1552,11 @@ msgctxt "pref_measure_angle_unit_choices:2"
 msgid "Radians"
 msgstr "Радианы"
 
+#, fuzzy
+msgctxt "pref_measure_angle_unit_choices:3"
+msgid "Gradians"
+msgstr "Град"
+
 msgctxt "pref_measure_min_imperial_fraction"
 msgid "Smallest fraction of an inch"
 msgstr "Дробное значение дюйма"
@@ -1622,6 +1632,18 @@ msgstr "Отображать значения и единицы"
 msgctxt "pref_measure_label_shows_unit_summaryoff"
 msgid "Show only the value, omit the unit"
 msgstr "Только значения, опустив единицы"
+
+msgctxt "pref_measure_label_disambiguation_dot"
+msgid "Add disambiguation dot"
+msgstr ""
+
+msgctxt "pref_measure_label_disambiguation_dot_summaryon"
+msgid "Yes, if necessary"
+msgstr ""
+
+msgctxt "pref_measure_label_disambiguation_dot_summaryoff"
+msgid "No"
+msgstr ""
 
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
@@ -5245,6 +5267,18 @@ msgstr "Показать значение и единицы"
 msgctxt "dimension_format_show_unit_choices:1"
 msgid "Do not show the unit"
 msgstr "Не показывать блок"
+
+msgctxt "value_entry_unit_disambiguation"
+msgid "Ambiguous numbers"
+msgstr ""
+
+msgctxt "value_entry_unit_disambiguation_choices:0"
+msgid "Keep"
+msgstr ""
+
+msgctxt "value_entry_unit_disambiguation_choices:1"
+msgid "Add disambiguating dot"
+msgstr ""
 
 #. text box entry dialog
 msgctxt "textbox_dialog_label"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-12-14 10:12+0100\n"
+"POT-Creation-Date: 2021-01-08 21:07+0100\n"
 "PO-Revision-Date: 2020-09-24 16:44+0200\n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -78,7 +78,7 @@ msgstr "Capturar imagen"
 #, fuzzy
 msgctxt "imageLibrary_new_importImage"
 msgid "Import image/PDF"
-msgstr "Importar imagen"
+msgstr "Importar imagen/PDF"
 
 #, fuzzy
 msgctxt "imageLibrary_new_canvas"
@@ -1574,6 +1574,10 @@ msgctxt "core_unit_radian"
 msgid "radians"
 msgstr "radianes"
 
+msgctxt "core_unit_gradians"
+msgid "gradians"
+msgstr "grado centesimal"
+
 #. ========== preferences ==========
 #. main screen
 msgctxt "pref_main_title"
@@ -1728,6 +1732,10 @@ msgctxt "pref_measure_angle_unit_choices:2"
 msgid "Radians"
 msgstr "Radianes"
 
+msgctxt "pref_measure_angle_unit_choices:3"
+msgid "Gradians"
+msgstr "Grado centesimal"
+
 msgctxt "pref_measure_min_imperial_fraction"
 msgid "Smallest fraction of an inch"
 msgstr "Fracción más pequeña de una inch"
@@ -1806,6 +1814,18 @@ msgstr "Sí, muestra el valor y la unidad"
 msgctxt "pref_measure_label_shows_unit_summaryoff"
 msgid "Show only the value, omit the unit"
 msgstr "Mostrar solo el valor, omitir la unidad"
+
+msgctxt "pref_measure_label_disambiguation_dot"
+msgid "Add disambiguation dot"
+msgstr ""
+
+msgctxt "pref_measure_label_disambiguation_dot_summaryon"
+msgid "Yes, if necessary"
+msgstr ""
+
+msgctxt "pref_measure_label_disambiguation_dot_summaryoff"
+msgid "No"
+msgstr ""
 
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
@@ -5872,6 +5892,18 @@ msgstr "Mostrar valor y unidad"
 msgctxt "dimension_format_show_unit_choices:1"
 msgid "Do not show the unit"
 msgstr "No mostrar la unidad."
+
+msgctxt "value_entry_unit_disambiguation"
+msgid "Ambiguous numbers"
+msgstr ""
+
+msgctxt "value_entry_unit_disambiguation_choices:0"
+msgid "Keep"
+msgstr ""
+
+msgctxt "value_entry_unit_disambiguation_choices:1"
+msgid "Add disambiguating dot"
+msgstr ""
 
 #. text box entry dialog
 #, fuzzy
