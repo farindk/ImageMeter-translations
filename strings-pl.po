@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-01-08 21:07+0100\n"
-"PO-Revision-Date: 2021-01-11 17:02+0100\n"
+"PO-Revision-Date: 2021-01-11 19:56+0100\n"
 "Last-Translator: \n"
 "Language: pl\n"
 "Language-Team: \n"
@@ -351,7 +351,7 @@ msgstr "Kolor folderu"
 
 msgctxt "imageLibrary_folderNameDialog_template"
 msgid "Template"
-msgstr ""
+msgstr "Szablon"
 
 msgctxt "imageLibrary_folderNameDialog_notes"
 msgid "Notes"
@@ -1033,7 +1033,7 @@ msgstr "Układ tabeli"
 
 msgctxt "dialog_pdf_export_data_table_title_vertical"
 msgid "Vertical column titles"
-msgstr ""
+msgstr "Tytuły pionowych kolumn"
 
 msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
@@ -1548,15 +1548,15 @@ msgstr "Wyświetl wyłącznie wartość pomijając jednostkę"
 
 msgctxt "pref_measure_label_disambiguation_dot"
 msgid "Add disambiguation dot"
-msgstr ""
+msgstr "Dodaj kropkę uściślającą"
 
 msgctxt "pref_measure_label_disambiguation_dot_summaryon"
 msgid "Yes, if necessary"
-msgstr ""
+msgstr "Tak, gdy wymagane"
 
 msgctxt "pref_measure_label_disambiguation_dot_summaryoff"
 msgid "No"
-msgstr ""
+msgstr "Nie"
 
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
@@ -1624,19 +1624,19 @@ msgstr "Wszystko"
 
 msgctxt "pref_unit_subsets_imperial"
 msgid "Enabled imperial units"
-msgstr ""
+msgstr "Jednostki imperialne włączone"
 
 msgctxt "pref_unit_subsets_imperial_inch_to_mile"
 msgid "inch, foot, yard, mile"
-msgstr ""
+msgstr "cal, stopa, jard, mila"
 
 msgctxt "pref_unit_subsets_imperial_mil_to_foot"
 msgid "mil, inch, foot"
-msgstr ""
+msgstr "mil, cal, stopa"
 
 msgctxt "pref_unit_subsets_imperial_all"
 msgid "All"
-msgstr ""
+msgstr "Wszystko"
 
 #. Bluetooth
 msgctxt "pref_bluetooth_devices"
@@ -2439,7 +2439,7 @@ msgstr "Zostanie wydrukowana strona z notatkami folderów i spisem treści"
 
 msgctxt "pref_category_export_general"
 msgid "General"
-msgstr ""
+msgstr "Ogólne"
 
 msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
@@ -2605,19 +2605,19 @@ msgstr "Synchronizuj w dowolnej sieci"
 
 msgctxt "pref_storage_cloud_sync_twoway_mode"
 msgid "Two-way sync mode"
-msgstr ""
+msgstr "Tryb synchronizacji dwukierunkowej"
 
 msgctxt "pref_storage_cloud_sync_twoway_mode_safe_sync"
 msgid "Remove deleted images from server, but keep local images when they were deleted elsewhere."
-msgstr ""
+msgstr "Usuń skasowane obrazy z serwera, ale zachowaj obrazy lokalne, nawet gdy zostały usunięte gdzie indziej."
 
 msgctxt "pref_storage_cloud_sync_twoway_mode_full_sync"
-msgid "Delete local images when they were deleted on any other device (BE CAREFUL)."
-msgstr ""
+msgid "Delete local images when they were deleted on any other device (BE CAREFUL).Delete local images when they were deleted on any other device (BE CAREFUL)."
+msgstr "Skasuj lokalne obrazy po ich usunięciu z dowolnego innego urządzenia (OSTROŻNIE)."
 
 msgctxt "pref_storage_cloud_sync_twoway_mode_backup"
 msgid "Never delete images from the server. You may get duplicates when moving images."
-msgstr ""
+msgstr "Nigdy nie usuwaj obrazów z serwera. Opcja możesz generować duplikaty przy przenoszeniu obrazów."
 
 msgctxt "pref_storage_cloud_advanced_maintenance"
 msgid "Advanced maintenance"
@@ -2877,7 +2877,7 @@ msgstr "Usługa Handwerkcloud oferuje nie tylko miejsce na zdjęcia i dokumenty,
 
 msgctxt "cloud_storage_server_note_onedrive"
 msgid "The OneDrive backend might be suitable if you want easy access to your annotated images from your Windows PC."
-msgstr ""
+msgstr "Backend OneDrive może być odpowiedni, jeśli chcesz mieć łatwy dostęp do obrazów opatrzonych adnotacjami używając komputera z systemem Windows."
 
 msgctxt "cloud_storage_do_two_way_sync"
 msgid "Do two-way sync"
@@ -3054,7 +3054,7 @@ msgstr "Etykiety"
 
 msgctxt "pref_template_config_custom_add_tag"
 msgid "+ add tag"
-msgstr ""
+msgstr "+ dodaje etykietę"
 
 #. deprecated
 msgctxt "pref_template_config_custom_label_type"
@@ -3184,11 +3184,11 @@ msgstr "Gdy więcej niż jeden element ma przypisany tę samą etykietę, kilka 
 
 msgctxt "pref_template_custom_table_column_numColumns_info_title"
 msgid "Number of columns"
-msgstr ""
+msgstr "Liczba kolumn"
 
 msgctxt "pref_template_custom_table_column_numColumns_info_description"
 msgid "Creates this number of columns to fill in values with this tag. Use this when you have several measurements with the same tag in one image."
-msgstr ""
+msgstr "Tworzy określoną liczbę kolumn, aby wypełnić wartości tą etykietą. Użyj opcji, gdy masz kilka pomiarów z tą samą etykietą na jednym obrazie."
 
 msgctxt "pref_template_custom_table_column_footer_info_title"
 msgid "Footer row content"
@@ -3216,7 +3216,7 @@ msgstr "Wiele wartości"
 
 msgctxt "pref_template_custom_table_column_num_separate_columns"
 msgid "Num. columns"
-msgstr ""
+msgstr "Nr kolumn"
 
 msgctxt "pref_template_custom_table_column_footer"
 msgid "Footer row"
@@ -4966,15 +4966,15 @@ msgstr "Nie pokazuj jednostki"
 
 msgctxt "value_entry_unit_disambiguation"
 msgid "Ambiguous numbers"
-msgstr ""
+msgstr "Niejednoznaczne liczby"
 
 msgctxt "value_entry_unit_disambiguation_choices:0"
 msgid "Keep"
-msgstr ""
+msgstr "Zachowaj"
 
 msgctxt "value_entry_unit_disambiguation_choices:1"
 msgid "Add disambiguating dot"
-msgstr ""
+msgstr "Dodaj kropkę uściślającą"
 
 #. text box entry dialog
 msgctxt "textbox_dialog_label"
@@ -5346,7 +5346,7 @@ msgstr "brak GPS"
 
 msgctxt "tpool_templ_custom_columntype_widthHeight"
 msgid "Width and height"
-msgstr ""
+msgstr "Szerokość i wysokość"
 
 msgctxt "tpool_templ_custom_new_tablespec_name"
 msgid "Custom Table"
