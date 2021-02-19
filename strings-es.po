@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-02-11 16:21+0100\n"
+"POT-Creation-Date: 2021-02-19 15:47+0100\n"
 "PO-Revision-Date: 2020-09-24 16:44+0200\n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -1241,6 +1241,10 @@ msgstr "Tamaño personalizado"
 msgctxt "dialog_image_export_image_quality"
 msgid "Image quality"
 msgstr "Calidad de la imagen"
+
+msgctxt "dialog_image_export_low_jpeg_image_quality"
+msgid "A quality of at least 80 is recommended."
+msgstr ""
 
 #, fuzzy
 msgctxt "dialog_image_export_image_size"
@@ -4766,6 +4770,28 @@ msgctxt "color_dialog_special_use_main_color"
 msgid "Use main color"
 msgstr "Usar color principal"
 
+#. dialog: element locking
+#, fuzzy
+msgctxt "editor_locking_title"
+msgid "Modification lock"
+msgstr ""
+
+msgctxt "editor_locking_lock_position"
+msgid "Lock position"
+msgstr ""
+
+msgctxt "editor_locking_lock_measurement"
+msgid "Lock measurements"
+msgstr ""
+
+msgctxt "editor_locking_button_apply_to_all"
+msgid "Apply to all"
+msgstr ""
+
+msgctxt "editor_locking_warning_element_value_is_locked"
+msgid "Value is locked. You have to unlock it first."
+msgstr ""
+
 #. === style dialogs ===
 #, fuzzy
 msgctxt "editor_dialog_style_set_as_default"
@@ -7151,6 +7177,14 @@ msgstr "Error ZIP: {}"
 msgctxt "imerror_zip_read_error"
 msgid "Error reading ZIP file."
 msgstr "Error al leer el archivo ZIP."
+
+msgctxt "imerror_corrupted_file_compression"
+msgid "File compression error."
+msgstr ""
+
+msgctxt "imerror_zlib_error"
+msgid "ZLib error code: '{}'."
+msgstr ""
 
 #, fuzzy
 msgctxt "imerror_cannot_generate_pdf"

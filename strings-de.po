@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-02-11 16:21+0100\n"
-"PO-Revision-Date: 2021-02-11 16:21+0100\n"
+"POT-Creation-Date: 2021-02-19 15:47+0100\n"
+"PO-Revision-Date: 2021-02-19 15:44+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -158,7 +158,7 @@ msgstr "Drucken"
 
 msgctxt "imageLibrary_image_contextMenu_imageInfo"
 msgid "Image info…"
-msgstr "Bildinformationen..."
+msgstr "Bildinformationen…"
 
 msgctxt "imageLibrary_image_contextMenu_forcedCloudUpload"
 msgid "Force cloud upload"
@@ -1100,6 +1100,10 @@ msgctxt "dialog_image_export_image_quality"
 msgid "Image quality"
 msgstr "Bildqualität"
 
+msgctxt "dialog_image_export_low_jpeg_image_quality"
+msgid "A quality of at least 80 is recommended."
+msgstr "Eine Qualität von mindestens 80 wird empfohlen."
+
 msgctxt "dialog_image_export_image_size"
 msgid "Image size"
 msgstr "Bildgröße"
@@ -1259,7 +1263,7 @@ msgstr "Fehler"
 
 msgctxt "notification_bkg_rendering_title"
 msgid "Image rendering in progress…"
-msgstr "Bilder werden gezeichnet..."
+msgstr "Bilder werden gezeichnet…"
 
 msgctxt "notification_bkg_rendering_channel_title"
 msgid "Image rendering"
@@ -1277,7 +1281,7 @@ msgstr "Bildimport"
 msgctxt "notification_import_content"
 msgid "%1d image left …"
 msgid_plural "%1d images left …"
-msgstr[0] "Noch %1d Bild ..."
+msgstr[0] "Noch %1d Bild …"
 msgstr[1] "Noch %1d Bilder..."
 
 msgctxt "notification_channel_background_processing_title"
@@ -1324,7 +1328,7 @@ msgstr "Fehler beim Speichern in die Galerie"
 msgctxt "notification_save_to_gallery_content"
 msgid "%1d image left …"
 msgid_plural "%1d images left …"
-msgstr[0] "Noch %1d Bild..."
+msgstr[0] "Noch %1d Bild …"
 msgstr[1] "Noch %1d Bilder..."
 
 msgctxt "notification_error_no_permission_to_save_to_gallery"
@@ -2290,7 +2294,7 @@ msgstr "Bild"
 #. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:1"
 msgid "PDF"
-msgstr "PDF\t"
+msgstr "PDF"
 
 #. TODO: instead of this string-array use the values from
 #. dialog_export_format_*
@@ -2505,7 +2509,7 @@ msgstr "Werden gedreht wenn das Format so besser passt"
 
 msgctxt "pref_export_pdf_may_rotate_images_summaryoff"
 msgid "Images will never be rotated"
-msgstr "Bilder werden nie gedreht\t"
+msgstr "Bilder werden nie gedreht"
 
 msgctxt "pref_export_pdf_separate_landscape_portrait"
 msgid "Separate landscape/portrait in PDF"
@@ -2776,7 +2780,7 @@ msgstr "Fortgeschrittene Serverwartung"
 
 msgctxt "pref_storage_cloud_send_error_log"
 msgid "Send error log by email"
-msgstr "Fehlerlog per EMail schicken..."
+msgstr "Fehlerlog per EMail schicken…"
 
 #. TODO
 msgctxt "pref_storage_cloud_sync_mode"
@@ -2822,7 +2826,7 @@ msgstr "Bilder löschen"
 
 msgctxt "pref_storage_deleted_files_purge_now"
 msgid "Purge all deleted images now!"
-msgstr "Alle Bilder im Papierkorb endgültig entfernen"
+msgstr "Alle Bilder im Papierkorb endgültig entfernen!"
 
 msgctxt "pref_storage_deleted_files_purge_delay"
 msgid "Purge interval"
@@ -2958,7 +2962,7 @@ msgstr ""
 "Das aktive Datenverzeichnis wurde nicht geändert.\n"
 "\n"
 "Bitte beachten Sie, dass das Zielverzeichnis nun nur eine unvollständige "
-"Kopie der Eingangsdaten enthält."
+"Kopie der Eingangsdaten enthält!"
 
 msgctxt "pref_storage_directory_cannot_move_files"
 msgid "Cannot move files"
@@ -3765,7 +3769,7 @@ msgstr "Fehlerbehebung"
 
 msgctxt "pref_information_send_error_log"
 msgid "Send error log by email"
-msgstr "Fehlerlog per EMail schicken..."
+msgstr "Fehlerlog per EMail schicken…"
 
 msgctxt "pref_information_googleplay_purchases"
 msgid "GooglePlay purchases"
@@ -3978,7 +3982,7 @@ msgstr "Wartung des Cloudspeichers"
 
 msgctxt "cloud_storage_maintenance_remove_server_lock_notifcation_progress_text"
 msgid "Removing cloud server lock…"
-msgstr "Serversperre wird entfernt..."
+msgstr "Serversperre wird entfernt…"
 
 msgctxt "cloud_storage_maintenance_remove_server_lock_notifcation_result_title"
 msgid "Removing cloud server lock"
@@ -3998,7 +4002,7 @@ msgstr "Kann die Serversperre '{}' nicht entfernen."
 
 msgctxt "cloud_storage_maintenance_reset_server_cache_notification_progress_text"
 msgid "Resetting cloud server cache…"
-msgstr "Servercache wird zurückgesetzt..."
+msgstr "Servercache wird zurückgesetzt…"
 
 msgctxt "cloud_storage_maintenance_reset_server_cache_notification_result_title"
 msgid "Resetting cloud server cache"
@@ -4014,7 +4018,7 @@ msgstr "Konnte die Datei mit den Servercache nicht entfernen ({})."
 
 msgctxt "cloud_storage_maintenance_reset_sync_state_notification_progress_text"
 msgid "Resetting sync state…"
-msgstr "Sync-State zurücksetzen..."
+msgstr "Sync-State zurücksetzen…"
 
 msgctxt "cloud_storage_maintenance_reset_sync_state_notification_result_title"
 msgid "Resetting sync state"
@@ -4161,7 +4165,7 @@ msgstr "Element sperren"
 
 msgctxt "editor_menu_edit_unlock_element"
 msgid "Unlock element"
-msgstr "ELement entsperren"
+msgstr "Element entsperren"
 
 msgctxt "editor_menu_edit_lock_all_elements"
 msgid "Lock all elements"
@@ -4367,6 +4371,27 @@ msgctxt "color_dialog_special_use_main_color"
 msgid "Use main color"
 msgstr "Hauptfarbe benutzen"
 
+#. dialog: element locking
+msgctxt "editor_locking_title"
+msgid "Modification lock"
+msgstr "Veränderungssperre"
+
+msgctxt "editor_locking_lock_position"
+msgid "Lock position"
+msgstr "Position sperren"
+
+msgctxt "editor_locking_lock_measurement"
+msgid "Lock measurements"
+msgstr "Maße sperren"
+
+msgctxt "editor_locking_button_apply_to_all"
+msgid "Apply to all"
+msgstr "Für alle setzen"
+
+msgctxt "editor_locking_warning_element_value_is_locked"
+msgid "Value is locked. You have to unlock it first."
+msgstr "Wert ist gesperrt, sie müssen ihn erst entsperren."
+
 #. === style dialogs ===
 msgctxt "editor_dialog_style_set_as_default"
 msgid "Set as default"
@@ -4374,7 +4399,7 @@ msgstr "Als Standard setzen"
 
 msgctxt "editor_dialog_style_apply_to"
 msgid "Apply to …"
-msgstr "Anwenden auf ..."
+msgstr "Anwenden auf …"
 
 msgctxt "editor_dialog_style_spinner_various_values"
 msgid "various"
@@ -5052,7 +5077,7 @@ msgstr "Hintergrundfarbe"
 
 msgctxt "editor_label_style_apply_to"
 msgid "Apply to …"
-msgstr "Anwenden auf ..."
+msgstr "Anwenden auf …"
 
 msgctxt "editor_label_style_apply_to_both_sides"
 msgid "Both sides"
@@ -5076,7 +5101,7 @@ msgstr "Das ganze Bild"
 
 msgctxt "editor_label_style_save_as_default_for"
 msgid "Use style as default for …"
-msgstr "Stil als Standard benutzen für ..."
+msgstr "Stil als Standard benutzen für …"
 
 msgctxt "editor_label_style_save_as_default_only_this_label"
 msgid "Only this label"
@@ -5396,7 +5421,7 @@ msgstr "Kein Text"
 
 msgctxt "textbox_text_preset_button"
 msgid "Preset…"
-msgstr "Standardtexte..."
+msgstr "Standardtexte…"
 
 msgctxt "textbox_text_preset_open_prefs"
 msgid "(Define presets …)"
@@ -6008,7 +6033,7 @@ msgstr "Synchronisierung mit Cloud"
 
 msgctxt "tpool_locked_by_image_syncer"
 msgid "image cloud upload"
-msgstr "Bildupload in die Cloud\t"
+msgstr "Bildupload in die Cloud"
 
 msgctxt "tpool_locked_by_list_folder_content"
 msgid "list folder content"
@@ -6204,7 +6229,7 @@ msgstr "Später"
 
 msgctxt "imageselect_error_imported_file_is_not_an_image"
 msgid "Imported file is not an image"
-msgstr "Die importierte Datei ist kein Bild!"
+msgstr "Die importierte Datei ist kein Bild"
 
 msgctxt "imageselect_error_cannot_capture_with_camera"
 msgid ""
@@ -6304,7 +6329,7 @@ msgstr "Kann Verzeichnis '{}' nicht kopieren."
 
 msgctxt "imerror_files_errno"
 msgid "OS error: '{}'."
-msgstr "Betriebssystemfehler: '{}'"
+msgstr "Betriebssystemfehler: '{}'."
 
 msgctxt "imerror_files_cannot_generate_unique_filename"
 msgid "Cannot generate unique filename: '{}'."
@@ -6450,6 +6475,14 @@ msgstr "ZIP-Fehler: {}"
 msgctxt "imerror_zip_read_error"
 msgid "Error reading ZIP file."
 msgstr "Fehler beim Lesen der ZIP-Datei."
+
+msgctxt "imerror_corrupted_file_compression"
+msgid "File compression error."
+msgstr "Fehler in der Dateikompression."
+
+msgctxt "imerror_zlib_error"
+msgid "ZLib error code: '{}'."
+msgstr "ZLib Fehlercode: '{}'."
 
 msgctxt "imerror_cannot_generate_pdf"
 msgid "Cannot generate PDF"
@@ -6926,7 +6959,7 @@ msgstr "Kann den Inhalt des Serververzeichnisses nicht auflisten"
 
 msgctxt "error_cloud_is_not_a_folder"
 msgid "File '{}' is not a folder."
-msgstr "Datei '{}' ist kein Verzeichnis"
+msgstr "Datei '{}' ist kein Verzeichnis."
 
 msgctxt "error_cloud_handwerkcloud_cannot_delete_folder_non_imagemeter_files_present"
 msgid "Cannot delete folder because the file '{}' is not managed by ImageMeter."
