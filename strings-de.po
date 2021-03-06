@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-02-23 12:46+0100\n"
+"POT-Creation-Date: 2021-03-06 16:05+0100\n"
 "PO-Revision-Date: 2021-02-19 15:44+0100\n"
 "Last-Translator: \n"
 "Language: de\n"
@@ -487,6 +487,10 @@ msgctxt "upgradeDialog_purchaseButton_addon"
 msgid "Activate Addon"
 msgstr "Zusatzpaket aktivieren"
 
+msgctxt "upgradeDialog_purchaseButton_basic"
+msgid "Get Basic upgrade"
+msgstr ""
+
 msgctxt "upgradeDialog_purchaseButton_business"
 msgid "Upgrade to Business"
 msgstr "Auf Business upgraden"
@@ -543,6 +547,21 @@ msgctxt "upgradeDialog_addon_without_pro_get_pro"
 msgid "Get Pro instead"
 msgstr "Zuerst Pro installieren"
 
+msgctxt "upgradeDialog_addon_without_basic_title"
+msgid "Add-on without Basic upgrade?"
+msgstr ""
+
+msgctxt "upgradeDialog_addon_without_basic_message"
+msgid ""
+"You are trying to install the add-on without having the Basic upgrade. "
+"This is possible, but probably not what you want. Note that the add-on "
+"does not include the Basic upgrade."
+msgstr ""
+
+msgctxt "upgradeDialog_addon_without_basic_get_basic"
+msgid "Get Basic instead"
+msgstr ""
+
 #. specification of the add-ons and their feature items
 msgctxt "upgrade_addon_advancedAnnotation_purchaseBoxTitle"
 msgid "Advanced Annotation Add-On"
@@ -559,6 +578,14 @@ msgstr "Pro"
 msgctxt "upgrade_addon_pro_addonName"
 msgid "Pro"
 msgstr "Pro"
+
+msgctxt "upgrade_addon_basic_purchaseBoxTitle"
+msgid "Basic"
+msgstr ""
+
+msgctxt "upgrade_addon_basic_addonName"
+msgid "Basic"
+msgstr ""
 
 msgctxt "upgrade_addon_business_purchaseBoxTitle"
 msgid "Business"
@@ -814,6 +841,14 @@ msgctxt "inapp_error_service_timeout"
 msgid "Service timeout."
 msgstr "Zeitüberschreitung des Netzwerkservice."
 
+msgctxt "inapp_error_payment_failed"
+msgid "Payment failed."
+msgstr ""
+
+msgctxt "inapp_error_cannot_query_owned_products"
+msgid "Cannot query for owned upgrades."
+msgstr ""
+
 #. TODO: these names should be a simple summary name for the "About App"
 #. dialog. But this does not work well with the          add-ons. Replace it
 #. with a different system.
@@ -825,9 +860,17 @@ msgctxt "upgrade_licenseName_pro"
 msgid "Pro"
 msgstr "Pro"
 
+msgctxt "upgrade_licenseName_basic"
+msgid "Basic"
+msgstr ""
+
 msgctxt "upgrade_licenseName_business"
 msgid "Business"
 msgstr "Business"
+
+msgctxt "upgrade_licenseName_addon_without_base_license"
+msgid "Add-on without base license"
+msgstr ""
 
 msgctxt "license_source_in_app"
 msgid "In-app"
@@ -3771,8 +3814,9 @@ msgctxt "pref_information_send_error_log"
 msgid "Send error log by email"
 msgstr "Fehlerlog per EMail schicken…"
 
+#, fuzzy
 msgctxt "pref_information_googleplay_purchases"
-msgid "GooglePlay purchases"
+msgid "Store purchases"
 msgstr "Käufe auf GooglePlay"
 
 msgctxt "pref_information_googleplay_purchases_query_failed"
@@ -3782,6 +3826,10 @@ msgstr "Keine Rückmeldung von dem PlayStore empfangen"
 msgctxt "pref_information_googleplay_purchases_no_purchases"
 msgid "PlayStore reports: no purchases for active account"
 msgstr "PlayStore meldet: keine Käufe für das aktive Konto"
+
+msgctxt "pref_information_appgallery_purchases_no_purchases"
+msgid "AppGallery reports: no purchases for active account"
+msgstr ""
 
 #. ===== cloud synchronization =====
 msgctxt "cloud_storage_dialog_sync_action_title"
