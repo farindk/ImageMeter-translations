@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-03-06 17:43+0100\n"
-"PO-Revision-Date: 2021-03-06 16:12+0100\n"
+"PO-Revision-Date: 2021-03-07 00:38+0100\n"
 "Last-Translator: \n"
 "Language: ak_GH\n"
 "Language-Team: zh_Hant_TW <nnworkspace@gmail.com>\n"
-"Plural-Forms: nplurals=1; plural=(0)\n"
+"Plural-Forms: nplurals=1; plural=(0);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. generic strings
 msgctxt "generic_button_ok"
 msgid "OK"
 msgstr "好的"
 
-#, fuzzy
 msgctxt "generic_button_cancel"
 msgid "Cancel"
 msgstr "取消"
@@ -64,7 +64,6 @@ msgctxt "generic_cancel_delete"
 msgid "Cancel"
 msgstr "取消"
 
-#, fuzzy
 msgctxt "generic_action_undo"
 msgid "Undo"
 msgstr "撤消"
@@ -74,7 +73,6 @@ msgctxt "imageLibrary_new_cameraCapture"
 msgid "Camera capture"
 msgstr "拍攝圖像"
 
-#, fuzzy
 msgctxt "imageLibrary_new_importImage"
 msgid "Import image/PDF"
 msgstr "導入圖像"
@@ -107,15 +105,13 @@ msgctxt "imageLibrary_folder_contextMenu_delete"
 msgid "Delete folder"
 msgstr "刪除文件夾"
 
-#, fuzzy
 msgctxt "imageLibrary_folder_contextMenu_undelete"
 msgid "Undelete"
-msgstr "取消刪除"
+msgstr "復原"
 
-#, fuzzy
 msgctxt "imageLibrary_folder_contextMenu_purge"
 msgid "Purge"
-msgstr "清除"
+msgstr "徹底刪除"
 
 msgctxt "imageLibrary_folder_contextMenu_print"
 msgid "Print folder"
@@ -129,22 +125,18 @@ msgctxt "imageLibrary_image_contextMenu_rename"
 msgid "Rename"
 msgstr "改名"
 
-#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_move"
 msgid "Move to folder"
-msgstr "移到文件夾"
+msgstr "移往文件夾"
 
-#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
 msgid "Copy to clipboard"
 msgstr "複製到剪貼板"
 
-#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
 msgid "Paste annotation"
 msgstr "粘貼註釋"
 
-#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_duplicate"
 msgid "Duplicate"
 msgstr "複製"
@@ -169,10 +161,9 @@ msgctxt "imageLibrary_image_contextMenu_imageInfo"
 msgid "Image info…"
 msgstr "圖片信息……"
 
-#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_forcedCloudUpload"
 msgid "Force cloud upload"
-msgstr "強制上傳云"
+msgstr "強制上傳至云儲存"
 
 msgctxt "imageLibrary_menu_openDisplayOptions"
 msgid "Display options…"
@@ -257,12 +248,12 @@ msgctxt "navigationDrawer_license"
 msgid "License: %1$s"
 msgstr "許可证：%1$s"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "navigationDrawer_owner"
 msgid "Owner: %1$s"
-msgstr "所有者：%1$s"
+msgstr "持有者：%1$s"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "navigationDrawer_user"
 msgid "User: %1$s"
 msgstr "用戶：%1$s"
@@ -359,7 +350,6 @@ msgctxt "imageLibrary_folderNameDialog_iconColor"
 msgid "Folder color"
 msgstr "文件夾顏色"
 
-#, fuzzy
 msgctxt "imageLibrary_folderNameDialog_template"
 msgid "Template"
 msgstr "模板"
@@ -377,7 +367,6 @@ msgctxt "imageLibrary_imageNameDialog_name_hint"
 msgid "Enter image name"
 msgstr "輸入圖片名稱"
 
-#, fuzzy
 msgctxt "imageLibrary_imageNameDialog_template"
 msgid "Template"
 msgstr "模板"
@@ -395,15 +384,13 @@ msgctxt "imageLibrary_clipboardPasteDialog_title"
 msgid "Clipboard paste options"
 msgstr "剪貼板粘貼選項"
 
-#, fuzzy
 msgctxt "imageLibrary_clipboardPasteDialog_alsoCopyMeasurementValues"
 msgid "Copy measurements"
-msgstr "複製測量"
+msgstr "複製測量值"
 
-#, fuzzy
 msgctxt "imageLibrary_clipboardPasteDialog_centerAnnotationOnImage"
 msgid "Center on image"
-msgstr "以圖像為中心"
+msgstr "置於圖像中心"
 
 #. TODO: currently unused, but could be used again in the move-image dialog
 msgctxt "imageselect_dialog_move_image_to_folder_title"
@@ -440,12 +427,9 @@ msgid "<a href=\"mailto:info@imagemeter.com\">Contact email</a>"
 msgstr "<a href=\"mailto:info@imagemeter.com\">聯繫電郵</a>"
 
 msgctxt "aboutApp_privacyPolicyLink"
-msgid ""
-"<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
-"policy</a>"
+msgid "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy policy</a>"
 msgstr "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">隱私政策</a>"
 
-#, fuzzy
 msgctxt "aboutApp_licenses"
 msgid "<a href=\"licenses\">Licenses</a>"
 msgstr "<a href=\"licenses\">許可證</a>"
@@ -494,34 +478,29 @@ msgctxt "upgradeDialog_purchaseButton_pro"
 msgid "Upgrade to Pro"
 msgstr "升級至專業版"
 
-#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_addon"
 msgid "Activate Addon"
 msgstr "激活插件"
 
-#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_basic"
 msgid "Get Basic upgrade"
-msgstr "獲得基本升級"
+msgstr "獲取基本升級"
 
 msgctxt "upgradeDialog_purchaseButton_business"
 msgid "Upgrade to Business"
 msgstr "升級至企業版"
 
-#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_disabled_addonIsActive"
 msgid "Add-on is active"
-msgstr "加載項處於活動狀態"
+msgstr "加載項可用"
 
-#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable"
 msgid "Store unavailable"
-msgstr "商店不可用"
+msgstr "軟件商店打烊或者失聯"
 
-#, fuzzy
 msgctxt "upgradeDialog_volumeLicenseButton"
 msgid "Enter volume license code"
-msgstr "輸入批量許可代碼"
+msgstr "輸入批量許可證號碼"
 
 msgctxt "upgradeDialog_backButton"
 msgid "Back"
@@ -529,94 +508,80 @@ msgstr "返回"
 
 msgctxt "upgradeDialog_moreInformationLink"
 msgid ""
-"For more information about these features, &lt;a "
-"href=\"https://www.imagemeter.com/manual/license/android-"
+"For more information about these features, &lt;a href=\"https://www.imagemeter.com/manual/license/android-"
 "licenses\"&gt;visit the website&lt;/a&gt;."
 msgstr ""
-"有關這些功能的更多信息，請＆lt; a href =“ https://www.imagemeter.com/manual/license"
-"/android-licenses”＆gt;訪問網站＆lt; / a＆gt;。"
+"有關這些功能的更多信息，請＆lt; a href =“ https://www.imagemeter.com/manual/license/android-licenses”＆gt;訪問網"
+"站＆lt; / a＆gt;。"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_title"
 msgid "Add-on without Pro upgrade?"
-msgstr "沒有Pro升級的附加組件？"
+msgstr "不含專業升級的加載項？"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_message"
 msgid ""
-"You are trying to install the add-on without having the Pro upgrade. This"
-" is possible, but probably not what you want. Note that the add-on does "
-"not include the Pro upgrade."
-msgstr "您正在嘗試在不升級專業版的情況下安裝加載項。這是可能的，但可能不是您想要的。請注意，附加組件不包括Pro升級。"
+"You are trying to install the add-on without having the Pro upgrade. This is possible, but probably not what you "
+"want. Note that the add-on does not include the Pro upgrade."
+msgstr "您正在安裝的加載項不帶專業升級版的內容。這是允許的，但可能非您所願。請注意，此加載項不含專業升級版的內容。"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_confirm"
 msgid "Get the add-on"
-msgstr "獲取附加組件"
+msgstr "獲取加載項"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_cancel"
 msgid "Cancel"
 msgstr "取消"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_get_pro"
 msgid "Get Pro instead"
 msgstr "獲取專業版"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_basic_title"
 msgid "Add-on without Basic upgrade?"
-msgstr "沒有基本升級的加載項？"
+msgstr "不含基本升級的加載項？"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_basic_message"
 msgid ""
-"You are trying to install the add-on without having the Basic upgrade. "
-"This is possible, but probably not what you want. Note that the add-on "
-"does not include the Basic upgrade."
-msgstr "您正在嘗試在沒有基本升級的情況下安裝加載項。這是可能的，但可能不是您想要的。請注意，該加載項不包括基本升級。"
+"You are trying to install the add-on without having the Basic upgrade. This is possible, but probably not what "
+"you want. Note that the add-on does not include the Basic upgrade."
+msgstr "您正在安裝的加載項不帶基本升級版的內容。這是允許的，但可能非您所願。請注意，此加載項不含基本升級版的內容。"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_basic_get_basic"
 msgid "Get Basic instead"
-msgstr "取而代之的是Basic"
+msgstr "獲取基本版"
 
 #. specification of the add-ons and their feature items
 msgctxt "upgrade_addon_advancedAnnotation_purchaseBoxTitle"
 msgid "Advanced Annotation Add-On"
 msgstr "高級註釋附件"
 
-#, fuzzy
 msgctxt "upgrade_addon_advancedAnnotation_addonName"
 msgid "Advanced Annotation"
-msgstr "進階註解"
+msgstr "高級注釋"
 
 msgctxt "upgrade_addon_pro_purchaseBoxTitle"
 msgid "Pro"
-msgstr "Pro"
+msgstr "專業版"
 
 msgctxt "upgrade_addon_pro_addonName"
 msgid "Pro"
-msgstr "Pro"
+msgstr "專業版"
 
-#, fuzzy
 msgctxt "upgrade_addon_basic_purchaseBoxTitle"
 msgid "Basic"
-msgstr "基本的"
+msgstr "基本版"
 
-#, fuzzy
 msgctxt "upgrade_addon_basic_addonName"
 msgid "Basic"
-msgstr "基本的"
+msgstr "基本版"
 
 msgctxt "upgrade_addon_business_purchaseBoxTitle"
 msgid "Business"
-msgstr "Business"
+msgstr "企業版"
 
 msgctxt "upgrade_addon_business_addonName"
 msgid "Business"
-msgstr "Business"
+msgstr "企業版"
 
 msgctxt "upgrade_item_no_watermarks"
 msgid "No watermarks"
@@ -624,11 +589,11 @@ msgstr "无水印"
 
 msgctxt "upgrade_item_unlimited_measures"
 msgid "Unlimited measures"
-msgstr "無限度量"
+msgstr "不限度量值的個數"
 
 msgctxt "upgrade_item_unlimited_bluetooth"
 msgid "Unlimited Bluetooth"
-msgstr "無限藍牙"
+msgstr "不限藍牙測量的數值範圍"
 
 msgctxt "upgrade_item_draw_circles_etc"
 msgid "Draw and measure circles, rectangles, points"
@@ -654,15 +619,13 @@ msgctxt "upgrade_item_measurement_string"
 msgid "Measurement strings"
 msgstr "便捷输入度量簇"
 
-#, fuzzy
 msgctxt "upgrade_item_pdf_import"
 msgid "PDF import"
 msgstr "PDF導入"
 
-#, fuzzy
 msgctxt "upgrade_item_cloud_access_from_office_pc"
 msgid "Access images from your office PC"
-msgstr "從辦公室PC訪問圖像"
+msgstr "從臺式電腦訪問圖像"
 
 msgctxt "upgrade_item_cloud_device_sync"
 msgid "Sync images between devices"
@@ -672,51 +635,46 @@ msgctxt "upgrade_item_cloud_backup"
 msgid "Backup on your cloud storage"
 msgstr "備份到您的雲存儲"
 
-#, fuzzy
 msgctxt "upgrade_item_data_tables"
 msgid ""
-"&lt;a "
-"href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Export "
-"measurements as data tables&lt;/a&gt;."
-msgstr ""
-"&lt;a "
-"href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;將測量結果導出為數據表&lt;/a&gt;。"
+"&lt;a href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Export measurements as data tables&lt;/"
+"a&gt;."
+msgstr "&lt;a href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;將測量結果導出為數據表&lt;/a&gt;。"
 
-#, fuzzy
 msgctxt "upgrade_item_all_addon_packs"
 msgid "Includes Pro and all add-on packs"
-msgstr "包括Pro和所有附加組件"
+msgstr "包括專業版和所有加載項"
 
 #. dialogs that explain why we need an upgrade
 #, c-format
 msgctxt "needUpgradeDialog_titleTemplate"
 msgid "%1$s Add-On"
-msgstr "%1$s附加組件"
+msgstr "%1$s加載項"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "needUpgradeDialog_createSubfolders"
 msgid "Creating subfolders is included in the '%1$s' add-on."
-msgstr "創建子文件夾包含在'%1$s'附加組件中。"
+msgstr "'%1$s'加載項中包含創建子文件夾。"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "needUpgradeDialog_moveFolders"
 msgid "Moving folders into other folders is included in the '%1$s' add-on."
-msgstr "將文件夾移動到其他文件夾包含在'%1$s'附加組件中。"
+msgstr "'%1$s'加載項中包含將文件夾移動到其他文件夾。"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "needUpgradeDialog_audioNotes"
 msgid "Recording audio notes is included in the '%1$s' add-on."
-msgstr "錄製音頻筆記包含在'%1$s'附加組件中。"
+msgstr "'%1$s'加載項中包含錄製音頻注釋。"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "needUpgradeDialog_detailImages"
 msgid "Adding detail images is included in the '%1$s' add-on."
-msgstr "添加詳細圖像包含在'%1$s'附加組件中。"
+msgstr "'%1$s'加載項中包含添加細節圖像。"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "needUpgradeDialog_pdfImport"
 msgid "PDF import is included in the '%1$s' add-on."
-msgstr "PDF導入包含在'%1$s'附加組件中。"
+msgstr "'%1$s'加載項包含PDF導入。"
 
 #, c-format
 msgctxt "needUpgradeDialog_text_tryWithExamples"
@@ -725,23 +683,19 @@ msgstr "您可以用示例圖像（在文件夾'%1$s'中）尝试此功能。"
 
 #, c-format
 msgctxt "needUpgradeDialog_text_createAndtryWithExamples"
-msgid ""
-"You can try this function with the example images (<a "
-"href=\"create\">create folder '%1$s'</a>)."
+msgid "You can try this function with the example images (<a href=\"create\">create folder '%1$s'</a>)."
 msgstr "您可以用示例圖像尝试此功能（<a href=\"create\">創建文件夾'%1$s'</a>）。"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "needUpgradeDialog_editingTool"
 msgid "This tool is available in the '%1$s' add-on."
-msgstr "該工具在'%1$s'附加組件中可用。"
+msgstr "'%1$s'加載項包含該工具。"
 
-#, fuzzy
 msgctxt "needUpgradeDialog_exportDataTables"
 msgid "Exporting data tables is available in the Business version."
 msgstr "在企業版中可以導出數據表。"
 
 #. TODO: demo video
-#, fuzzy
 msgctxt "needUpgradeDialog_button_getBusinessVersion"
 msgid "Upgrade to Business version"
 msgstr "升級到企業版"
@@ -750,26 +704,22 @@ msgctxt "needUpgradeDialog_button_getUpgrade"
 msgid "Upgrade"
 msgstr "升級"
 
-#, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_title"
 msgid "Activate Add-on Pack"
-msgstr "激活附加包"
+msgstr "激活加載包"
 
-#, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_text"
 msgid ""
-"Since this native Pro-version is going to be replaced by the free version"
-" with in-app upgrades, add-on packs are only available in the free "
-"version. Please migrate to the free version. Your Pro upgrade will stay "
-"active."
-msgstr "由於該原生Pro版本將通過應用內升級由免費版本取代，因此附加包僅在免費版本中可用。請遷移到免費版本。您的專業版升級將繼續有效。"
+"Since this native Pro-version is going to be replaced by the free version with in-app upgrades, add-on packs are "
+"only available in the free version. Please migrate to the free version. Your Pro upgrade will stay active."
+msgstr ""
+"由於本安卓專業版將被包含應用內升級的免費版所取代，因此加載包僅在免費版本中可用。請遷移到免費版本。您的專業版升級"
+"將繼續有效。"
 
-#, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_download_text"
 msgid "Download the free version from here:"
 msgstr "從此處下載免費版本："
 
-#, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_open_instructions"
 msgid "Show migration instructions"
 msgstr "顯示遷移說明"
@@ -777,36 +727,28 @@ msgstr "顯示遷移說明"
 #. licensing: volume key dialog
 msgctxt "licensing_volume_key_title"
 msgid "Volume key"
-msgstr "音量鍵"
+msgstr "批量許可證密碼"
 
-#, fuzzy
 msgctxt "licensing_volume_key_note"
-msgid ""
-"Note: you don't need to enter any key when you purchased through the "
-"Google Play store."
-msgstr "注意：通過Google Play商店購買時，無需輸入任何密鑰。"
+msgid "Note: you don't need to enter any key when you purchased through the Google Play store."
+msgstr "注意：通過 Google Play 商店購買時，無需輸入任何密碼。"
 
-#, fuzzy
 msgctxt "licensing_volume_key_description"
 msgid "Please enter your volume key:"
-msgstr "請輸入您的音量鍵："
+msgstr "請輸入您的批量許可證密碼："
 
-#, fuzzy
 msgctxt "licensing_volume_key_send_button"
 msgid "Send"
 msgstr "發送"
 
-#, fuzzy
 msgctxt "licensing_volume_key_error_parse_server_response"
 msgid "Error parsing server response."
 msgstr "解析服務器響應時出錯。"
 
-#, fuzzy
 msgctxt "licensing_volume_key_error_invalid_license_code"
 msgid "Invalid license code."
-msgstr "無效的許可證代碼。"
+msgstr "無效的許可證號碼。"
 
-#, fuzzy
 msgctxt "licensing_volume_key_success"
 msgid "License activated"
 msgstr "許可證已激活"
@@ -865,15 +807,13 @@ msgctxt "inapp_error_service_timeout"
 msgid "Service timeout."
 msgstr "服務超時。"
 
-#, fuzzy
 msgctxt "inapp_error_payment_failed"
 msgid "Payment failed."
 msgstr "支付失敗。"
 
-#, fuzzy
 msgctxt "inapp_error_cannot_query_owned_products"
 msgid "Cannot query for owned upgrades."
-msgstr "無法查詢擁有的升級。"
+msgstr "無法查詢已經購買的升級。"
 
 #. TODO: these names should be a simple summary name for the "About App"
 #. dialog. But this does not work well with the          add-ons. Replace it
@@ -886,19 +826,17 @@ msgctxt "upgrade_licenseName_pro"
 msgid "Pro"
 msgstr "专业版"
 
-#, fuzzy
 msgctxt "upgrade_licenseName_basic"
 msgid "Basic"
-msgstr "基本的"
+msgstr "基本版"
 
 msgctxt "upgrade_licenseName_business"
 msgid "Business"
 msgstr "企業版"
 
-#, fuzzy
 msgctxt "upgrade_licenseName_addon_without_base_license"
 msgid "Add-on without base license"
-msgstr "沒有基本許可證的附加組件"
+msgstr "沒有基本許可證的加載項"
 
 msgctxt "license_source_in_app"
 msgid "In-app"
@@ -912,64 +850,53 @@ msgctxt "license_source_pro_key_app"
 msgid "Pro-key app"
 msgstr "专业版密匙软件"
 
-#, fuzzy
 msgctxt "license_source_volume_key"
 msgid "Volume key"
-msgstr "音量鍵"
+msgstr "批量許可證密碼"
 
 #. info messages
 msgctxt "main_screen_info_message_pro_key_app_not_needed"
 msgid ""
-"You may deinstall the separate Pro app. It is not needed anymore as a key"
-" to enable the Pro features because you have add-ons that include the Pro"
-" upgrade. Make sure that you have copied all the images from the Pro app "
-"to here as deleting the app will also delete all the images stored in it."
-msgstr "您可以卸載單獨的Pro應用。不再需要它作為啟用Pro功能的鍵，因為您具有包含Pro升級的加載項。確保已將所有圖像從Pro應用程序複製到此處，因為刪除該應用程序也會刪除其中存儲的所有圖像。"
+"You may deinstall the separate Pro app. It is not needed anymore as a key to enable the Pro features because you "
+"have add-ons that include the Pro upgrade. Make sure that you have copied all the images from the Pro app to "
+"here as deleting the app will also delete all the images stored in it."
+msgstr ""
+"您可以卸載單獨的Pro應用。不再需要它作為啟用Pro功能的鍵，因為您具有包含Pro升級的加載項。確保已將所有圖像從Pro應用"
+"程序複製到此處，因為刪除該應用程序也會刪除其中存儲的所有圖像。"
 
-#, fuzzy
 msgctxt "main_screen_info_message_please_rate"
-msgid ""
-"If you like this app, would you mind taking a minute to rate it? Thank "
-"you for your support!"
-msgstr "如果您喜歡這個應用程式，可以介意花一點時間為它評分嗎？感謝您的支持！"
+msgid "If you like this app, would you mind taking a minute to rate it? Thank you for your support!"
+msgstr "如果您喜歡這個應用程式，介意花一點時間為它評分嗎？ 感謝您的支持！"
 
-#, fuzzy
 msgctxt "main_screen_info_message_please_rate_rate_now"
 msgid "Rate now"
-msgstr "現在就評價吧"
+msgstr "現在就評價"
 
-#, fuzzy
 msgctxt "main_screen_info_message_please_rate_later"
 msgid "Later"
-msgstr "之後"
+msgstr "再說"
 
-#, fuzzy
 msgctxt "main_screen_info_message_no_backup"
 msgid ""
-"It looks like your images are currently not backed up. If your phone "
-"breaks or gets lost, the images may be lost too.\n"
+"It looks like your images are currently not backed up. If your phone breaks or gets lost, the images may be lost "
+"too.\n"
 "\n"
-"To prevent this, use the cloud-sync function of the Business version or "
-"do a manual backup of your data."
+"To prevent this, use the cloud-sync function of the Business version or do a manual backup of your data."
 msgstr ""
 "看來您的圖片目前尚未備份。如果您的手機壞了或丟失了，圖像也可能丟失。\n"
 "\n"
 "為避免這種情況，請使用企業版的云同步功能或手動備份數據。"
 
-#, fuzzy
 msgctxt "main_screen_info_message_no_backup_do_not_warn_again"
 msgid "Don't warn again"
-msgstr "不要再警告"
+msgstr "不再警告"
 
-#, fuzzy
 msgctxt "main_screen_info_message_deprecated_directory"
 msgid ""
-"Your images are stored in the public 'Documents' directory. Soon, Android"
-" will not allow apps to access this directory anymore. Please move your "
-"data into the app directory."
-msgstr "您的圖像存儲在公共“文檔”目錄中。很快，Android將不再允許應用訪問此目錄。請將您的數據移至應用目錄。"
+"Your images are stored in the public 'Documents' directory. Soon, Android will not allow apps to access this "
+"directory anymore. Please move your data into the app directory."
+msgstr "您的圖像存儲在公共“文件”目錄中。不久，Android 將不再允許應用訪問此目錄。請將您的數據移至應用目錄。"
 
-#, fuzzy
 msgctxt "main_screen_info_message_deprecated_directory_settings"
 msgid "Open settings"
 msgstr "打開設置"
@@ -1000,17 +927,14 @@ msgctxt "default_image_name_prefix_with_date"
 msgid "image from {M} {d}, {yyyy}"
 msgstr "圖像獲得日期 {yyyy}年 {M} {d}日]"
 
-#, fuzzy
 msgctxt "default_image_name_from_unnamed_pdf"
 msgid "PDF import, page {page}"
-msgstr "PDF導入，第{page}頁"
+msgstr "PDF 導入，第 {page} 頁"
 
-#, fuzzy
 msgctxt "default_image_name_from_pdf"
 msgid "{name}, page {page}"
-msgstr "{name}，第{page}頁"
+msgstr "{name}，第 {page} 頁"
 
-#, fuzzy
 msgctxt "filename_copy_tag"
 msgid "copy"
 msgstr "複製"
@@ -1034,15 +958,14 @@ msgstr "從专业版導入圖像"
 
 msgctxt "import_pro_app_data_started_text"
 msgid ""
-"Importing has started to run in the background. When it is finished, "
-"please check that the images were copied correctly and delete them in the"
-" Pro app to save memory space."
+"Importing has started to run in the background. When it is finished, please check that the images were copied "
+"correctly and delete them in the Pro app to save memory space."
 msgstr "正在後台导入。完成後，請檢查圖像是否完好，然後可以将源文件从专业版中刪除以節省存儲空間。"
 
 msgctxt "import_pro_app_data_local_not_empty"
 msgid ""
-"Warning: there are images in this app. Importing the images from the Pro "
-"app may overwrite images with the same name."
+"Warning: there are images in this app. Importing the images from the Pro app may overwrite images with the same "
+"name."
 msgstr "警告：此软件中已经存有圖像。從专业版導入圖像可能會覆蓋这里的同名圖像。请检查是否有重名图像。"
 
 msgctxt "import_pro_app_data_local_not_empty_anyway"
@@ -1064,15 +987,12 @@ msgstr "已完成%2$d张图像中的%1$d張（%3$d個錯誤），請稍候。"
 
 msgctxt "import_pro_app_data_finished"
 msgid ""
-"Images from the Pro app are now imported. After checking that the images "
-"were imported correctly, you may want to delete the images in the Pro app"
-" to save memory space."
+"Images from the Pro app are now imported. After checking that the images were imported correctly, you may want "
+"to delete the images in the Pro app to save memory space."
 msgstr "专业版中的圖像已导入。确认导入的圖像完好之后，您可以从专业版中刪除原圖像以節省存儲空間。"
 
 msgctxt "import_pro_app_data_failed"
-msgid ""
-"Image import from Pro app has failed or is incomplete. Maybe your memory "
-"is full?"
+msgid "Image import from Pro app has failed or is incomplete. Maybe your memory is full?"
 msgstr "從专业版導入圖像失敗或不完整。内存已滿？"
 
 #. PDF import dialog
@@ -1080,20 +1000,18 @@ msgctxt "pdf_import_page_selection_render_resolution"
 msgid "Resolution (dpi):"
 msgstr "解析度（dpi）："
 
-#, fuzzy
 msgctxt "pdf_import_page_selection_output_image_resolution"
 msgid "Output resolution:"
 msgstr "輸出分辨率："
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "pdf_import_page_selection_output_image_resolution_value"
 msgid "%1$.1f MP"
 msgstr "%1$.1f MP"
 
-#, fuzzy
 msgctxt "pdf_import_page_selection_importButton"
 msgid "Import"
-msgstr "進口"
+msgstr "導入"
 
 #. dialog: export format
 msgctxt "dialog_export_format_image"
@@ -1129,7 +1047,6 @@ msgctxt "dialog_image_export_options_title"
 msgid "Default image export settings"
 msgstr "默認圖像導出設置"
 
-#, fuzzy
 msgctxt "dialog_image_export_use_default_options"
 msgid "Use default export options"
 msgstr "使用默認導出選項"
@@ -1162,10 +1079,9 @@ msgctxt "dialog_image_export_image_quality"
 msgid "Image quality"
 msgstr "畫面質量"
 
-#, fuzzy
 msgctxt "dialog_image_export_low_jpeg_image_quality"
 msgid "A quality of at least 80 is recommended."
-msgstr "建議質量至少為80。"
+msgstr "建議圖像質量至少為 80。"
 
 msgctxt "dialog_image_export_image_size"
 msgid "Image size"
@@ -1200,17 +1116,14 @@ msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
 msgstr "打印文件夾筆記"
 
-#, fuzzy
 msgctxt "dialog_pdf_export_data_table"
 msgid "Data Table"
 msgstr "數據表"
 
-#, fuzzy
 msgctxt "dialog_pdf_export_data_table_layout"
 msgid "Table layout"
 msgstr "表格佈局"
 
-#, fuzzy
 msgctxt "dialog_pdf_export_data_table_title_vertical"
 msgid "Vertical column titles"
 msgstr "垂直欄標題"
@@ -1224,7 +1137,6 @@ msgctxt "pref_export_pdf_print_density"
 msgid "Resolution"
 msgstr "解析度"
 
-#, fuzzy
 msgctxt "pref_export_pdf_output_resolution_default"
 msgid "Default"
 msgstr "默認"
@@ -1273,15 +1185,13 @@ msgctxt "pdf_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
 msgstr "正在渲染 %2$d 张圖像中的第 %1$d 张。"
 
-#, fuzzy
 msgctxt "pdf_export_table_of_contents"
 msgid "Table of contents"
 msgstr "目錄"
 
-#, fuzzy
 msgctxt "pdf_export_root_folder_title"
 msgid "ImageMeter export"
-msgstr "ImageMeter導出"
+msgstr "ImageMeter 導出"
 
 #. - ZIP export
 msgctxt "dialog_zip_export_title"
@@ -1307,7 +1217,6 @@ msgctxt "zip_export_notification_progress_pdf_step"
 msgid "PDF image %1$d of %2$d."
 msgstr "PDF 圖片 %1$d，共 %2$d 张。"
 
-#, fuzzy
 msgctxt "zip_export_notification_progress_compressing_step"
 msgid "Compressing ZIP file…"
 msgstr "ZIP 文件压缩中..."
@@ -1318,7 +1227,6 @@ msgid "Data table export (CSV)"
 msgstr "數據表導出（CSV）"
 
 #. export
-#, fuzzy
 msgctxt "export_eval_version"
 msgid ""
 "Evaluation copy\n"
@@ -1358,7 +1266,6 @@ msgctxt "notification_channel_background_processing_title"
 msgid "Background processing"
 msgstr "後台處理中"
 
-#, fuzzy
 msgctxt "notification_channel_offscreen_rendering_title"
 msgid "Image rendering"
 msgstr "圖像渲染"
@@ -1383,10 +1290,9 @@ msgctxt "notification_error_importing_file_title"
 msgid "Error importing file"
 msgstr "導入文件時出錯"
 
-#, fuzzy
 msgctxt "notification_rendering_precomputed_image_title"
 msgid "Rendering image"
-msgstr "渲染圖"
+msgstr "圖像渲染中"
 
 msgctxt "notification_save_to_gallery_title"
 msgid "Saving to gallery"
@@ -1406,25 +1312,23 @@ msgctxt "notification_error_no_permission_to_save_to_gallery"
 msgid "Cannot save to gallery because ImageMeter has no storage write permission."
 msgstr "ImageMeter 未被授权儲存，無法将图片保存到圖庫。"
 
-#, fuzzy
 msgctxt "notification_duplicate_title"
 msgid "Duplicate images"
-msgstr "影像重複"
+msgstr "復制圖像"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "notification_duplicate_content"
 msgid "%1$d of %2$d images copied"
 msgstr "已復制%2$d張圖像中的%1$d張"
 
-#, fuzzy
 msgctxt "notification_error_duplicating_image"
 msgid "Error while duplicating image"
-msgstr "複製影像時發生錯誤"
+msgstr "複製圖像時出錯"
 
 #. ========== measures ==========
 msgctxt "core_unit_meter"
 msgid "m"
-msgstr "m"
+msgstr "米"
 
 msgctxt "core_unit_inch"
 msgid "inch"
@@ -1448,7 +1352,7 @@ msgstr "mil"
 
 msgctxt "core_unit_meter2"
 msgid "m²"
-msgstr "m²"
+msgstr "平方米"
 
 msgctxt "core_unit_inch2"
 msgid "sq inch"
@@ -1470,12 +1374,10 @@ msgctxt "core_unit_acre"
 msgid "acre"
 msgstr "英畝"
 
-#, fuzzy
 msgctxt "core_unit_are"
 msgid "are"
-msgstr "是"
+msgstr "are"
 
-#, fuzzy
 msgctxt "core_unit_ha"
 msgid "hectare"
 msgstr "公頃"
@@ -1501,10 +1403,9 @@ msgctxt "core_unit_radian"
 msgid "radians"
 msgstr "弧度"
 
-#, fuzzy
 msgctxt "core_unit_gradians"
 msgid "gradians"
-msgstr "梯度"
+msgstr "百分度"
 
 #. ========== preferences ==========
 #. main screen
@@ -1536,12 +1437,10 @@ msgctxt "pref_category_storage"
 msgid "Storage"
 msgstr "儲存介質"
 
-#, fuzzy
 msgctxt "pref_category_templates"
 msgid "Templates and data tables"
 msgstr "模板和數據表"
 
-#, fuzzy
 msgctxt "pref_category_information"
 msgid "Information"
 msgstr "信息"
@@ -1659,10 +1558,9 @@ msgctxt "pref_measure_angle_unit_choices:2"
 msgid "Radians"
 msgstr "弧度"
 
-#, fuzzy
 msgctxt "pref_measure_angle_unit_choices:3"
 msgid "Gradians"
-msgstr "Gradians"
+msgstr "百分度"
 
 msgctxt "pref_measure_min_imperial_fraction"
 msgid "Smallest fraction of an inch"
@@ -1740,47 +1638,38 @@ msgctxt "pref_measure_label_shows_unit_summaryoff"
 msgid "Show only the value, omit the unit"
 msgstr "僅顯示數值"
 
-#, fuzzy
 msgctxt "pref_measure_label_disambiguation_dot"
 msgid "Add disambiguation dot"
 msgstr "添加消歧點"
 
-#, fuzzy
 msgctxt "pref_measure_label_disambiguation_dot_summaryon"
 msgid "Yes, if necessary"
 msgstr "是的，如有必要"
 
-#, fuzzy
 msgctxt "pref_measure_label_disambiguation_dot_summaryoff"
 msgid "No"
 msgstr "不"
 
-#, fuzzy
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
 msgstr "計算值的小數位數"
 
-#, fuzzy
 msgctxt "pref_measure_decimal_digits_metric_length"
 msgid "Decimal digits for metric lengths"
-msgstr "小數位"
+msgstr "公制長度的小數位數"
 
-#, fuzzy
 msgctxt "pref_measure_decimal_digits_metric_areas"
 msgid "Decimal digits for metric areas"
-msgstr "公制區域的小數位數"
+msgstr "公制面積的小數位數"
 
-#, fuzzy
 msgctxt "pref_measure_decimal_digits_angles"
 msgid "Decimal digits for angles"
 msgstr "角度的小數位數"
 
-#, fuzzy
 msgctxt "pref_measure_decimal_digits_imperial_lengths"
 msgid "Decimal digits for imperial lengths"
 msgstr "英制長度的小數位數"
 
-#, fuzzy
 msgctxt "pref_measure_decimal_digits_imperial_areas"
 msgid "Decimal digits for imperial areas"
 msgstr "英制區域的小數位數"
@@ -1813,37 +1702,30 @@ msgctxt "pref_measure_decimal_digits_metric_length_choices:5"
 msgid "5 digits"
 msgstr "5 位小數"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_category"
 msgid "Enabled units"
 msgstr "啟用的單位"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_metric"
 msgid "Enabled metric units"
 msgstr "啟用的度量單位"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_metric_all"
 msgid "All"
 msgstr "全部"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_imperial"
 msgid "Enabled imperial units"
 msgstr "啟用的英制單位"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_imperial_inch_to_mile"
 msgid "inch, foot, yard, mile"
 msgstr "英寸，英尺，碼，英里"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_imperial_mil_to_foot"
 msgid "mil, inch, foot"
 msgstr "密耳，英寸，英尺"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_imperial_all"
 msgid "All"
 msgstr "全部"
@@ -2046,20 +1928,16 @@ msgctxt "pref_bluetooth_use_device_format_summaryoff"
 msgid "Use format set in app preferences"
 msgstr "使用本程序中設置的數值格式"
 
-#, fuzzy
 msgctxt "pref_bluetooth_remote_trigger_twice"
 msgid "Send remote trigger twice"
 msgstr "發送兩次遠程觸發"
 
-#, fuzzy
 msgctxt "pref_bluetooth_remote_trigger_twice_summaryon"
 msgid ""
-"The trigger command will be sent twice. For some laser devices that only "
-"switch on the laser at the first command and perform the measurement at "
-"the second command."
-msgstr "觸發命令將發送兩次。對於某些僅在第一個命令下打開激光器並在第二個命令下執行測量的激光設備。"
+"The trigger command will be sent twice. For some laser devices that only switch on the laser at the first "
+"command and perform the measurement at the second command."
+msgstr "觸發命令將發送兩次。適用於某些在第一個命令下打開激光器，在第二個命令下才執行測量的激光設備。"
 
-#, fuzzy
 msgctxt "pref_bluetooth_remote_trigger_twice_summaryoff"
 msgid "The trigger command will be sent only once."
 msgstr "觸發命令將僅發送一次。"
@@ -2089,7 +1967,6 @@ msgctxt "pref_ui_editor_fullscreen_mode_choices:2"
 msgid "Always"
 msgstr "總是"
 
-#, fuzzy
 msgctxt "pref_editor_zoom_slider"
 msgid "Show zoom slider"
 msgstr "顯示縮放滑塊"
@@ -2122,30 +1999,25 @@ msgctxt "pref_ui_editor_dragging_speed_choices:3"
 msgid "25%"
 msgstr "25%"
 
-#, fuzzy
 msgctxt "pref_ui_editor_rotation"
 msgid "Interactive rotation"
-msgstr "互動輪換"
+msgstr "工作區旋轉"
 
-#, fuzzy
 msgctxt "pref_ui_editor_rotation_dialog"
 msgid "Interactive rotation"
-msgstr "互動輪換"
+msgstr "工作區旋轉"
 
-#, fuzzy
 msgctxt "pref_ui_editor_rotation_choices:0"
 msgid "Disable rotation"
-msgstr "停用輪播"
+msgstr "停用工作區旋轉"
 
-#, fuzzy
 msgctxt "pref_ui_editor_rotation_choices:1"
 msgid "Enabled, snap at original orientation"
-msgstr "已啟用，按原始方向對齊"
+msgstr "已啟用，自動趨向原始方向"
 
-#, fuzzy
 msgctxt "pref_ui_editor_rotation_choices:2"
 msgid "Enabled, snap at 90° degree angles"
-msgstr "啟用，以90度角捕捉"
+msgstr "已啟用，自動趨向 90度角"
 
 msgctxt "pref_ui_helpbar_mode"
 msgid "Help messages"
@@ -2435,10 +2307,9 @@ msgctxt "pref_export_image_show_options_summary_off"
 msgid "Options dialog will be skipped"
 msgstr "選項對話框將被跳過"
 
-#, fuzzy
 msgctxt "pref_export_default_image_export_options"
 msgid "Default image export options…"
-msgstr "默認圖像導出選項…"
+msgstr "默認圖像導出選項……"
 
 msgctxt "pref_export_hardware_msaa"
 msgid "Hardware anti-aliasing"
@@ -2490,52 +2361,42 @@ msgctxt "pref_category_export_csv"
 msgid "CSV file settings"
 msgstr "CSV檔案設定"
 
-#, fuzzy
 msgctxt "pref_export_csv_field_separator"
 msgid "Field separator character"
 msgstr "字段分隔符"
 
-#, fuzzy
 msgctxt "pref_export_csv_cell_values_separator"
 msgid "Cell values separator"
 msgstr "單元格值分隔符"
 
-#, fuzzy
 msgctxt "pref_export_csv_decimal_separator"
 msgid "Decimal separator"
-msgstr "小數點分隔符"
+msgstr "小數點符號"
 
-#, fuzzy
 msgctxt "pref_export_csv_include_header_row"
 msgid "Include header row"
 msgstr "包括標題行"
 
-#, fuzzy
 msgctxt "pref_export_csv_include_footer_row"
 msgid "Include footer row"
 msgstr "包括頁腳行"
 
-#, fuzzy
 msgctxt "pref_export_csv_field_separator_choices:0"
 msgid "Comma"
 msgstr "逗號"
 
-#, fuzzy
 msgctxt "pref_export_csv_field_separator_choices:1"
 msgid "Semicolon"
 msgstr "分號"
 
-#, fuzzy
 msgctxt "pref_export_csv_field_separator_choices:2"
 msgid "Colon"
 msgstr "冒號"
 
-#, fuzzy
 msgctxt "pref_export_csv_decimal_separator_choices:0"
 msgid "Dot"
 msgstr "點"
 
-#, fuzzy
 msgctxt "pref_export_csv_decimal_separator_choices:1"
 msgid "Comma"
 msgstr "逗號"
@@ -2690,32 +2551,26 @@ msgctxt "pref_export_pdf_print_folder_notes_summaryon"
 msgid "Page with folder notes and TOC will be printed"
 msgstr "將打印含有文件夾註記和內容表的頁面"
 
-#, fuzzy
 msgctxt "pref_category_export_general"
 msgid "General"
-msgstr "一般的"
+msgstr "通用選項"
 
-#, fuzzy
 msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
 msgstr "地圖鏈接使用"
 
-#, fuzzy
 msgctxt "pref_export_general_map_link_provider_dialog"
 msgid "Map provider"
 msgstr "地圖提供者"
 
-#, fuzzy
 msgctxt "pref_export_general_map_link_provider_choices:0"
 msgid "Google Maps"
 msgstr "谷歌地圖"
 
-#, fuzzy
 msgctxt "pref_export_general_map_link_provider_choices:1"
 msgid "Bing Maps"
 msgstr "必應地圖"
 
-#, fuzzy
 msgctxt "pref_export_general_map_link_provider_choices:2"
 msgid "OpenStreetMap"
 msgstr "OpenStreetMap"
@@ -2757,10 +2612,9 @@ msgctxt "pref_ui_image_order_criterium_choices:5"
 msgid "Number (descending)"
 msgstr "編號（降序）"
 
-#, fuzzy
 msgctxt "pref_ui_ok_cancel_buttons_on_top"
 msgid "Ok/Cancel buttons on top"
-msgstr "頂部的“確定/取消”按鈕"
+msgstr "“確定/取消”按鈕置頂"
 
 msgctxt "pref_ui_faq_button_enabled"
 msgid "Enable FAQ button"
@@ -2863,40 +2717,29 @@ msgctxt "pref_storage_cloud_wifi_only_off"
 msgid "Sync on any network"
 msgstr "在任何網絡上同步"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode"
 msgid "Two-way sync mode"
 msgstr "雙向同步模式"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_safe_sync"
-msgid ""
-"Remove deleted images from server, but keep local images when they were "
-"deleted elsewhere."
-msgstr "從服務器中刪除已刪除的圖像，但是保留本地圖像（在其他位置刪除它們）。"
+msgid "Remove deleted images from server, but keep local images when they were deleted elsewhere."
+msgstr "從服務器中刪除已刪除的圖像，但是保留本地圖像（在其他設備上刪除它們）。"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_full_sync"
-msgid ""
-"Delete local images when they were deleted on any other device (BE "
-"CAREFUL)."
-msgstr "在其他任何設備上刪除本地圖像後，請刪除它們（小心）。"
+msgid "Delete local images when they were deleted on any other device (BE CAREFUL)."
+msgstr "在其他任何設備上刪除圖像後，也刪除本地圖像（小心）。"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_backup"
-msgid ""
-"Never delete images from the server. You may get duplicates when moving "
-"images."
-msgstr "切勿從服務器刪除圖像。移動圖像時可能會出現重複。"
+msgid "Never delete images from the server. You may get duplicates when moving images."
+msgstr "切勿從服務器刪除圖像。這樣您遷移圖像時可能會有重複的圖像。"
 
 msgctxt "pref_storage_cloud_advanced_maintenance"
 msgid "Advanced maintenance"
 msgstr "高级維護"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_send_error_log"
 msgid "Send error log by email"
-msgstr "通過電子郵件發送錯誤日誌"
+msgstr "通過電子郵件發送應用錯誤記錄"
 
 #. TODO
 msgctxt "pref_storage_cloud_sync_mode"
@@ -3055,14 +2898,12 @@ msgstr "目標儲存介質上空間不足，無法搬運所有的圖像."
 
 msgctxt "pref_storage_directory_error_could_not_copy_all_images"
 msgid ""
-"Could not copy all images to target directory. Maybe your folder names "
-"are no valid filenames on the target filesystem. Please change them and "
-"then try to copy the remaining data.\n"
+"Could not copy all images to target directory. Maybe your folder names are no valid filenames on the target "
+"filesystem. Please change them and then try to copy the remaining data.\n"
 "\n"
 "The active storage directory has not been changed.\n"
 "\n"
-"Please note that the target directory now contains an incomplete copy of "
-"the source data!"
+"Please note that the target directory now contains an incomplete copy of the source data!"
 msgstr ""
 "無法複製所有圖像，或許複製目的地無法識別你的文件夾/文件名字。請將原文件改名並重試。\n"
 "\n"
@@ -3074,25 +2915,21 @@ msgctxt "pref_storage_directory_cannot_move_files"
 msgid "Cannot move files"
 msgstr "無法移動文件"
 
-#, fuzzy
 msgctxt "dialog_storage_move_annotated_images_progress_text"
 msgid "Moving images …"
-msgstr "圖像搬運中……"
+msgstr "圖像遷移中……"
 
-#, fuzzy
 msgctxt "dialog_storage_directory_move_images_progress_text"
 msgid "Moving images …"
-msgstr "圖像搬運中……"
+msgstr "圖像遷移中……"
 
 #. Cloud storage
 msgctxt "cloud_storage_notice_text"
 msgid ""
-"Before setting up cloud storage, you should read the <a "
-"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>"
-" to avoid pitfalls."
+"Before setting up cloud storage, you should read the <a href=\"https://www.imagemeter.com/manual/storage/cloud"
+"\">documentation</a> to avoid pitfalls."
 msgstr ""
-"在設置雲存儲之前，请您閱讀<a "
-"href=\"https://www.imagemeter.com/manual/storage/cloud\">说明文檔</a>，以避免问题。"
+"在設置雲存儲之前，请您閱讀<a href=\"https://www.imagemeter.com/manual/storage/cloud\">说明文檔</a>，以避免问题。"
 
 msgctxt "cloud_storage_cloud_server"
 msgid "Cloud server:"
@@ -3138,54 +2975,46 @@ msgctxt "cloud_storage_provider_nextcloud"
 msgid "Nextcloud / Owncloud"
 msgstr "Nextcloud / Owncloud"
 
-#, fuzzy
 msgctxt "cloud_storage_provider_onedrive"
 msgid "OneDrive"
-msgstr "一個驅動器"
+msgstr "OneDrive"
 
 msgctxt "cloud_storage_server_note_drive"
 msgid ""
-"<b>Note:</b> the Google Drive backend does not allow access to shared "
-"folders yet. Hence, you can share images between devices when they use "
-"the same Google account, but not between devices using different "
-"accounts."
+"<b>Note:</b> the Google Drive backend does not allow access to shared folders yet. Hence, you can share images "
+"between devices when they use the same Google account, but not between devices using different accounts."
 msgstr ""
-"<b>注意：</b> Google Drive 的後端尚不允許訪問共享文件夾。因此，當設備使用相同的 Google "
-"帳戶時，您可以在設備之間共享圖像，但不能在使用不同帳戶的設備之間共享圖像。"
+"<b>注意：</b> Google Drive 的後端尚不允許訪問共享文件夾。因此，當設備使用相同的 Google 帳戶時，您可以在設備之間共"
+"享圖像，但不能在使用不同帳戶的設備之間共享圖像。"
 
 msgctxt "cloud_storage_server_note_dropbox"
 msgid ""
-"The Dropbox backend also supports sharing your images with other Dropbox "
-"users. See the documentation at the link above how to set this up."
+"The Dropbox backend also supports sharing your images with other Dropbox users. See the documentation at the "
+"link above how to set this up."
 msgstr "Dropbox 後端還支持與其他 Dropbox 用戶共享圖像。請參閱上方鏈接上的文檔以進行設置。"
 
 msgctxt "cloud_storage_server_note_nextcloud"
 msgid ""
-"This backend allows you to use your own, private cloud server to host the"
-" images. You can set-up your own users and shared folders. Information "
-"how to set-up a server can be found at the documentation link above."
-msgstr "通過此後端，您可以使用自己的私有云服務器來託管图片。您可以設置自己的用戶和共享文件夾。可以在上面的文檔鏈接中找到有關如何設置服務器的信息。"
+"This backend allows you to use your own, private cloud server to host the images. You can set-up your own users "
+"and shared folders. Information how to set-up a server can be found at the documentation link above."
+msgstr ""
+"通過此後端，您可以使用自己的私有云服務器來託管图片。您可以設置自己的用戶和共享文件夾。可以在上面的文檔鏈接中找到"
+"有關如何設置服務器的信息。"
 
 msgctxt "cloud_storage_server_note_handwerkcloud"
 msgid ""
-"The Handwerkcloud service offers not only storage space for your images "
-"and documents, but also an online office suite and other applications. A "
-"Handwerkcloud subscription includes an ImageMeter Business license. For "
-"more information see the <a "
-"href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
+"The Handwerkcloud service offers not only storage space for your images and documents, but also an online office "
+"suite and other applications. A Handwerkcloud subscription includes an ImageMeter Business license. For more "
+"information see the <a href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
 msgstr ""
 "Handwerkcloud 服務不僅為您的圖像和文檔提供存儲空間，而且還提供在線辦公套件和其他應用程序。Handwerkcloud 訂閱包括 "
-"ImageMeter 企業版許可證。有關更多信息，請參見<a href=\"https://handwerkcloud.de\"> "
-"Handwerkcloud 網站</a>。"
+"ImageMeter 企業版許可證。有關更多信息，請參見<a href=\"https://handwerkcloud.de\"> Handwerkcloud 網站</a>。"
 
-#, fuzzy
 msgctxt "cloud_storage_server_note_onedrive"
 msgid ""
-"The OneDrive backend might be suitable if you want easy access to your "
-"annotated images from your Windows PC."
-msgstr "如果要從Windows PC輕鬆訪問帶註釋的圖像，則OneDrive後端可能是合適的。"
+"The OneDrive backend might be suitable if you want easy access to your annotated images from your Windows PC."
+msgstr "如果要從 Windows PC 輕鬆訪問帶註釋的圖像，則 OneDrive 後端可能是合適的。"
 
-#, fuzzy
 msgctxt "cloud_storage_do_two_way_sync"
 msgid "Do two-way sync"
 msgstr "進行雙向同步"
@@ -3198,51 +3027,43 @@ msgctxt "cloud_storage_default_base_path"
 msgid "ImageMeter"
 msgstr "ImageMeter"
 
-#, fuzzy
 msgctxt "cloud_storage_two_way_info_title"
 msgid "Two-way sync"
 msgstr "雙向同步"
 
-#, fuzzy
 msgctxt "cloud_storage_two_way_info_text"
 msgid ""
-"The two-way sync is for exchanging data between multiple devices. The "
-"data it stores on the cloud storage is for internal use only. Do not "
-"modify the data stored on the cloud server manually!"
-msgstr "雙向同步用於在多個設備之間交換數據。它存儲在雲存儲中的數據僅供內部使用。不要手動修改存儲在雲服務器上的數據！"
+"The two-way sync is for exchanging data between multiple devices. The data it stores on the cloud storage is for "
+"internal use only. Do not modify the data stored on the cloud server manually!"
+msgstr ""
+"雙向同步用於在多個設備之間交換數據。它存儲在雲存儲中的數據僅供本應用內部使用。請勿手動修改存儲在雲服務器上的數"
+"據！"
 
-#, fuzzy
 msgctxt "cloud_storage_do_image_upload_sync"
 msgid "Do image upload"
-msgstr "做圖像上傳"
+msgstr "進行圖像上傳"
 
-#, fuzzy
 msgctxt "cloud_storage_anno_base_directory"
 msgid "Image directory:"
-msgstr "圖片目錄："
+msgstr "圖像文件夾："
 
-#, fuzzy
 msgctxt "cloud_storage_default_anno_base_path"
 msgid "ImageMeter-Measures"
-msgstr "影像測量儀"
+msgstr "ImageMeter-Measures"
 
-#, fuzzy
 msgctxt "cloud_storage_image_upload_info_title"
 msgid "Image upload"
-msgstr "圖片上傳"
+msgstr "圖像上傳"
 
-#, fuzzy
 msgctxt "cloud_storage_image_upload_info_text"
 msgid ""
-"The image upload option stores the measured images on the cloud server. "
-"This is the right option if you want to access your images from your "
-"office PC.\n"
-"This option cannot be used to exchange data between mobile devices. In "
-"fact, you should not sync to the same cloud image directory from several "
-"devices."
+"The image upload option stores the measured images on the cloud server. This is the right option if you want to "
+"access your images from your office PC.\n"
+"This option cannot be used to exchange data between mobile devices. In fact, you should not sync to the same "
+"cloud image directory from several devices."
 msgstr ""
-"圖像上傳選項將測量的圖像存儲在雲服務器上。如果要從辦公室PC訪問圖像，這是正確的選擇。\n"
-"此選項不能用於在移動設備之間交換數據。實際上，您不應從多個設備同步到同一云映像目錄。"
+"圖像上傳選項將已經測量注釋過的圖像存儲在雲服務器上。如果要從辦公室 PC 訪問這些圖像，這是正確的選擇。\n"
+"此選項不能用於在多個移動設備之間交換數據。實際上，您不應從多個設備同步到同一個云圖像文件夾。"
 
 msgctxt "cloud_storage_account"
 msgid "Account owner:"
@@ -3297,122 +3118,95 @@ msgctxt "pref_template_title"
 msgid "Templates"
 msgstr "範本"
 
-#, fuzzy
 msgctxt "pref_template_description"
 msgid ""
-"Templates let you define standard measurement tasks. You can structure "
-"your data collection by assigning tags to the measurements. You can also "
-"define the layout of tabular output of your measurements. \n"
+"Templates let you define standard measurement tasks. You can structure your data collection by assigning tags to "
+"the measurements. You can also define the layout of tabular output of your measurements. \n"
 "On this page, you find the list of templates for your measurement tasks.\n"
 " \n"
-"For more information, see the <a "
-"href=\"https://www.imagemeter.com/manual/templates/overview\">tutorials "
-"and manual</a>.\n"
+"For more information, see the <a href=\"https://www.imagemeter.com/manual/templates/overview\">tutorials and "
+"manual</a>.\n"
 " \n"
-"Note: templates are part of the <a href=\"upgrade-dialog\">Business "
-"version</a>."
+"Note: templates are part of the <a href=\"upgrade-dialog\">Business version</a>."
 msgstr ""
-"模板使您可以定義標準的測量任務。您可以通過為測量分配標籤來構造數據收集。您還可以定義測量結果的表格輸出的佈局。\n"
+"模板使您可以定義常用的測量任務。您可以通過為測量數值配注標籤來構造您的數據集。您還可以定義測量數值的表格佈局。\n"
 "在此頁面上，您可以找到測量任務的模板列表。\n"
 " \n"
-"有關更多信息，請參見<a "
-"href=\"https://www.imagemeter.com/manual/templates/overview\">教程和手冊</a>。"
-"\n"
+"有關更多信息，請參見<a href=\"https://www.imagemeter.com/manual/templates/overview\">教程和手冊</a>。\n"
 " \n"
 "注意：模板是<a href=\"upgrade-dialog\">企業版</a>的一部分。"
 
-#, fuzzy
 msgctxt "pref_template_list_title"
 msgid "List of templates"
 msgstr "模板清單"
 
-#, fuzzy
 msgctxt "pref_template_add_template"
 msgid "+ add template"
 msgstr "+添加模板"
 
-#, fuzzy
 msgctxt "pref_template_template_name"
 msgid "Template name:"
 msgstr "模板名稱："
 
-#, fuzzy
 msgctxt "pref_dialog_template_add_title"
 msgid "Template type"
-msgstr "範本類型"
+msgstr "模板類型"
 
-#, fuzzy
 msgctxt "pref_dialog_template_add_general_description"
-msgid ""
-"Choose the template that best matches your needs. You can further "
-"customize it later."
-msgstr "選擇最符合您需求的模板。您可以稍後進一步對其進行自定義。"
+msgid "Choose the template that best matches your needs. You can further customize it later."
+msgstr "選擇最符合您需求的模板。以後您可以對其進一步修改。"
 
-#, fuzzy
 msgctxt "pref_dialog_template_add_description_title"
 msgid "Template description:"
-msgstr "模闆說明："
+msgstr "模板說明："
 
-#, fuzzy
 msgctxt "pref_dialog_template_add_description_custom"
 msgid ""
-"Each image fills one row in the table. You may assign a tag to each "
-"measurement. Each table column contains the measurement for a specific "
-"tag."
-msgstr "每個圖像填充表中的一行。您可以為每個測量分配一個標籤。每個表格列均包含特定標籤的度量。"
+"Each image fills one row in the table. You may assign a tag to each measurement. Each table column contains the "
+"measurement for a specific tag."
+msgstr "每個圖像的測量數值佔據表中的一行。您可以為每個測量數值分配一個標籤。每個表格列均包含特定標籤的度量。"
 
-#, fuzzy
 msgctxt "pref_dialog_template_add_description_wall_area"
 msgid ""
-"This template is the basis for area computations. The area of some "
-"elements is added to the sum (e.g. walls), while other elements are "
-"subtracted (e.g. windows)."
-msgstr "該模板是面積計算的基礎。一些元素的面積被添加到總和（例如牆），而其他元素的面積被減去（例如窗戶）。"
+"This template is the basis for area computations. The area of some elements is added to the sum (e.g. walls), "
+"while other elements are subtracted (e.g. windows)."
+msgstr "該模板是面積計算的框架。一些元素的面積被添加到總和（例如牆），而其他元素的面積被減去（例如窗戶）。"
 
-#, fuzzy
 msgctxt "pref_dialog_template_add_description_parts_list"
 msgid ""
-"This template lets you generate bills of material, counting different "
-"objects, or summing the length of products (e.g. electrical cables)."
+"This template lets you generate bills of material, counting different objects, or summing the length of products "
+"(e.g. electrical cables)."
 msgstr "使用此模板，您可以生成物料清單，計算不同的對像或累加產品的長度（例如電纜）。"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_edit_tags_description"
 msgid ""
-"<b>Tags</b> are assigned to measurements to specify their purpose. For "
-"example, a tag may tell that the measured rectangle is a <em>window</em> "
-"or a <em>wall</em>. Further on, these tags can be used to sort these "
-"measurements into data tables."
-msgstr "將<b>標籤</b>分配給測量以指定其用途。例如，標籤可以告訴您所測量的矩形是<em>window</em>還是<em>wall</em>。進一步，這些標籤可用於將這些測量結果分類到數據表中。"
+"<b>Tags</b> are assigned to measurements to specify their purpose. For example, a tag may tell that the measured "
+"rectangle is a <em>window</em> or a <em>wall</em>. Further on, these tags can be used to sort these measurements "
+"into data tables."
+msgstr ""
+"將<b>標籤</b>分配給度量以指定其用途。例如，標籤可以標注所測量的矩形是<em>窗戶</em>還是<em>牆</em>。然後，數據表將"
+"依據度量上附帶的標籤將度量自動分配到行與列。"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_edit_tags"
 msgid "Edit element tags"
 msgstr "編輯元素標籤"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_edit_tables_description"
-msgid ""
-"<b>Table layouts</b> define how to arrange your measurements into a data "
-"table."
-msgstr "<b>表格佈局</b>定義瞭如何將測量結果排列到數據表中。"
+msgid "<b>Table layouts</b> define how to arrange your measurements into a data table."
+msgstr "<b>表格佈局</b>定義如何將測量結果排列到數據表中。"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_edit_tables"
 msgid "Edit table layouts"
 msgstr "編輯表格佈局"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_title"
 msgid "Custom Template"
-msgstr "自訂範本"
+msgstr "自訂模板"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_section_tags"
 msgid "Tags"
 msgstr "標籤"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_add_tag"
 msgid "+ add tag"
 msgstr "+添加標籤"
@@ -3427,490 +3221,395 @@ msgctxt "pref_template_config_custom_unit"
 msgid "Unit:"
 msgstr "單元："
 
-#, fuzzy
 msgctxt "pref_template_config_custom_section_table_layouts"
 msgid "Table layouts"
 msgstr "表格佈局"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_add_table_layout"
 msgid "+ add table layout"
 msgstr "+添加表格佈局"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_table_description"
-msgid ""
-"You may define several different layouts how the measured data is "
-"arranged into data tables."
-msgstr "您可以定義幾種不同的佈局，如何將測量的數據排列到數據表中。"
+msgid "You may define several different layouts how the measured data is arranged into data tables."
+msgstr "您可以定義幾種不同的佈局，指定如何將測量數據分配到數據表中。"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_tag_name"
 msgid "Tag name"
 msgstr "標籤名"
 
-#, fuzzy
 msgctxt "pref_template_custom_tag_filter"
 msgid "Filter"
 msgstr "篩選"
 
-#, fuzzy
 msgctxt "templ_labeltype_length"
 msgid "Length"
 msgstr "長度"
 
-#, fuzzy
 msgctxt "templ_labeltype_area"
 msgid "Area"
-msgstr "區域"
+msgstr "面積"
 
-#, fuzzy
 msgctxt "templ_labeltype_angle"
 msgid "Angle"
 msgstr "角度"
 
-#, fuzzy
 msgctxt "templ_labeltype_any"
 msgid "Any"
 msgstr "任何"
 
-#, fuzzy
 msgctxt "templ_labeltype_edge"
 msgid "Edge length"
 msgstr "邊長"
 
-#, fuzzy
 msgctxt "templ_labeltype_perimeter"
 msgid "Perimeter"
 msgstr "周長"
 
-#, fuzzy
 msgctxt "templ_labeltype_radius"
 msgid "Radius"
 msgstr "半徑"
 
-#, fuzzy
 msgctxt "templ_labeltype_diameter"
 msgid "Diameter"
 msgstr "直徑"
 
-#, fuzzy
 msgctxt "templ_labeltype_width"
 msgid "Width"
 msgstr "寬度"
 
-#, fuzzy
 msgctxt "templ_labeltype_height"
 msgid "Height"
 msgstr "高度"
 
-#, fuzzy
 msgctxt "templ_labeltype_rectangleside_rectangle"
 msgid "Rectangle"
 msgstr "長方形"
 
-#, fuzzy
 msgctxt "templ_filter_text"
 msgid "Text"
 msgstr "文本"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_title"
 msgid "Custom Table Configuration"
 msgstr "自定義表配置"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_name"
 msgid "Table name"
-msgstr "表名"
+msgstr "表格名稱"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_columns"
 msgid "Table columns"
-msgstr "表格欄"
+msgstr "表格列"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_columns_add"
 msgid "+ add column"
 msgstr "+添加列"
 
-#, fuzzy
 msgctxt "pref_template_custom_tag_filter_info_title"
 msgid "Element filter"
-msgstr "元素過濾器"
+msgstr "元素篩選器"
 
-#, fuzzy
 msgctxt "pref_template_custom_tag_filter_info_description"
-msgid ""
-"This tag may only be assigned to elements that have the selected "
-"measurement type."
-msgstr "該標籤只能分配給具有所選測量類型的元素。"
+msgid "This tag may only be assigned to elements that have the selected measurement type."
+msgstr "該標籤只能配注給指定測量類型的元素。"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_content_info_title"
 msgid "Column content"
-msgstr "欄內容"
+msgstr "列內容"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_content_info_description"
 msgid ""
-"Specify the cell content in this column. This can be either a measurement"
-" value that you annotated with a tag, or image metadata (e.g. image name,"
-" capture date)."
-msgstr "在此列中指定單元格內容。這可以是您用標籤註釋的測量值，也可以是圖像元數據（例如，圖像名稱，拍攝日期）。"
+"Specify the cell content in this column. This can be either a measurement value that you annotated with a tag, "
+"or image metadata (e.g. image name, capture date)."
+msgstr "指定此列的內容。它可以是配注了標籤的測量值，也可以是圖像元數據（例如，圖像名稱，拍攝日期）。"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_measure_info_title"
 msgid "Measure selection"
 msgstr "度量選擇"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_measure_info_description"
 msgid ""
-"Here, you define which measurement of the tagged element to put into this"
-" column. E.g. for a circle you can choose between its area, radius, "
-"circumference, …"
-msgstr "在這裡，您可以定義要添加到此列中的標記元素的度量。例如。對於圓，您可以在其面積，半徑，周長...之間進行選擇"
+"Here, you define which measurement of the tagged element to put into this column. E.g. for a circle you can "
+"choose between its area, radius, circumference, …"
+msgstr ""
+"此處您可以定義此列收納的標記，所有帶次標記的測量數值歸位至此列。例如。對於圓，您可以在其面積，半徑，周長……之間進"
+"行選擇"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_multiplevalues_info_title"
 msgid "Multiple values per cell"
 msgstr "每個單元格有多個值"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_multiplevalues_info_description"
 msgid ""
-"When several elements are assigned the same tag, several values will be "
-"placed into one cell. Here you can choose to sum these values, take their"
-" average, or other options instead of keeping all in one cell."
-msgstr "當為多個元素分配相同的標籤時，會將多個值放入一個單元格中。在這裡，您可以選擇對這些值求和，取其平均值或其他選項，而不是將所有值都保留在一個單元格中。"
+"When several elements are assigned the same tag, several values will be placed into one cell. Here you can "
+"choose to sum these values, take their average, or other options instead of keeping all in one cell."
+msgstr ""
+"帶同一個標籤的多個測量值將收納至同一個單元格中。此處，您可以對這些值求和，取其平均值或其他選項，取代將所有值都保"
+"留在一個單元格中。"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_numColumns_info_title"
 msgid "Number of columns"
 msgstr "列數"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_numColumns_info_description"
 msgid ""
-"Creates this number of columns to fill in values with this tag. Use this "
-"when you have several measurements with the same tag in one image."
-msgstr "創建此列數以使用此標記填充值。當您在一幅圖像中進行多個具有相同標籤的測量時，請使用此功能。"
+"Creates this number of columns to fill in values with this tag. Use this when you have several measurements with "
+"the same tag in one image."
+msgstr ""
+"創建指定數目的使用此標記的列。當一幅圖像包含多個具有相同標籤的測量時，請使用此功能。比如，一幅圖上有兩隻熊貓。熊"
+"貓媽媽的頭半徑爲 0.3 米，熊貓寶寶的頭半徑爲 0.1 米。 這兩個測量值都標注了標籤 “熊貓頭半徑”。因爲每幅圖只能佔據一"
+"行，所以您需要兩列來安排這兩個 “熊貓頭半徑” 的數值。"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_footer_info_title"
 msgid "Footer row content"
 msgstr "頁腳行內容"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_footer_info_description"
 msgid ""
-"What to place in the footer row of the table. Options include the sum of "
-"all values in the column, the maximum, the average, and other options."
-msgstr "在表格的頁腳行中放置的內容。選項包括列中所有值的總和，最大值，平均值和其他選項。"
+"What to place in the footer row of the table. Options include the sum of all values in the column, the maximum, "
+"the average, and other options."
+msgstr "指定表格頁腳行的內容。可以是列中所有值的總和，最大值，平均值或其他選項。"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_title"
 msgid "Column header"
 msgstr "列標題"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_content"
 msgid "Content"
 msgstr "內容"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_label_type"
 msgid "Measure"
-msgstr "措施"
+msgstr "度量"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_conflict"
 msgid "Multiple values"
 msgstr "多個值"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_num_separate_columns"
 msgid "Num. columns"
-msgstr "算了列"
+msgstr "列數"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_footer"
 msgid "Footer row"
 msgstr "頁腳行"
 
-#, fuzzy
 msgctxt "pref_template_custom_table_column_footer_no_operation"
 msgid "Empty"
-msgstr "空的"
+msgstr "空"
 
-#, fuzzy
 msgctxt "pref_template_areasum_template_title"
 msgid "Area Sum Template Configuration"
-msgstr "區域總和模板配置"
+msgstr "面積總和模板配置"
 
-#, fuzzy
 msgctxt "pref_template_areasum_tags_title"
 msgid "Area Sum Template Tags"
 msgstr "面積總和模板標籤"
 
-#, fuzzy
 msgctxt "pref_template_areasum_table_title"
 msgid "Area Sum Table Configuration"
-msgstr "面積總和表配置"
+msgstr "面積總和表格配置"
 
-#, fuzzy
 msgctxt "pref_template_areasum_tag_subtract"
 msgid "Subtract from sum"
-msgstr "減去總和"
+msgstr "從總和中減去"
 
-#, fuzzy
 msgctxt "pref_template_areasum_tag_factor"
 msgid "Factor"
-msgstr "因素"
+msgstr "乘數因子"
 
-#, fuzzy
 msgctxt "pref_template_areasum_edit_tables"
 msgid "Edit table layout"
 msgstr "編輯表格佈局"
 
-#, fuzzy
 msgctxt "pref_template_areasum_table_column_item"
 msgid "Item Number"
-msgstr "項目編號"
+msgstr "項序號"
 
-#, fuzzy
 msgctxt "pref_template_areasum_table_column_description"
 msgid "Description"
 msgstr "描述"
 
-#, fuzzy
 msgctxt "pref_template_areasum_table_column_count"
 msgid "Count"
-msgstr "數數"
+msgstr "數"
 
-#, fuzzy
 msgctxt "pref_template_areasum_table_column_width_height"
 msgid "Width and height"
 msgstr "寬度和高度"
 
-#, fuzzy
 msgctxt "pref_template_areasum_table_column_measured_area"
 msgid "Measured area"
-msgstr "測量面積"
+msgstr "已測量的面積"
 
-#, fuzzy
 msgctxt "pref_template_areasum_table_column_factor"
 msgid "Factor"
-msgstr "因素"
+msgstr "乘數因子"
 
-#, fuzzy
 msgctxt "pref_template_areasum_table_column_calculated_area"
 msgid "Calculated area"
-msgstr "計算面積"
+msgstr "經計算的面積"
 
-#, fuzzy
 msgctxt "pref_template_areasum_table_column_plus_minus_areas"
 msgid "+/- area columns"
 msgstr "+/-面積列"
 
-#, fuzzy
 msgctxt "pref_template_areasum_table_column_image_area_sum"
 msgid "Image area sum"
-msgstr "圖像面積總和"
+msgstr "本圖像中面積總和"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_item"
-msgid ""
-"The image number. The number will only be filled into the row with the "
-"image title."
-msgstr "圖像編號。該數字將僅在帶有圖像標題的行中填充。"
+msgid "The image number. The number will only be filled into the row with the image title."
+msgstr "圖像序號。該數字將僅在帶有圖像標題的行中填充。"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_description"
 msgid ""
-"Descriptive name of the area. This is either the default name of the tag,"
-" or a manually entered name for this area."
-msgstr "區域的描述性名稱。這是標籤的默認名稱，或者是此區域的手動輸入名稱。"
+"Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this "
+"area."
+msgstr "面積的描述性名稱。這是標籤的默認名稱，或者是此面積的手動輸入名稱。"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_count"
 msgid "The count multiplier for this area."
-msgstr "此區域的計數倍數。"
+msgstr "此面積的個數。"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_width_height"
 msgid ""
-"Width and height are two columns that are filled with the side lengths if"
-" the area is a rectangle. For other shapes, the columns stay empty.\n"
+"Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other "
+"shapes, the columns stay empty.\n"
 "\n"
 "Enter the two column headers separated by a semicolon."
 msgstr ""
-"寬度和高度是兩列，如果該區域是矩形，則用邊長填充。對於其他形狀，列保持為空。\n"
+"如果該區域是矩形，寬度和高度是兩列。若是其他形狀，列內容為空。\n"
 "\n"
-"輸入以分號分隔的兩個列標題。"
+"輸入兩個列標題，請以分號分隔。"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_measured_area"
 msgid "The raw, measured area without the factor or count applied."
 msgstr "未應用因子或計數的原始測量面積。"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_factor"
 msgid "The area factor applied when calculating the final area sum."
 msgstr "計算最終面積總和時應用的面積係數。"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_calculated_area"
 msgid "Calculated area including the factor and count."
-msgstr "計算面積，包括因子和計數。"
+msgstr "經乘數因子和個數計算以後的面積。"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_plus_minus_areas"
 msgid ""
-"Generates two columns: a column including all areas that are added to the"
-" sum, and a column including all areas that are subtracted from the total"
-" sum.\n"
+"Generates two columns: a column including all areas that are added to the sum, and a column including all areas "
+"that are subtracted from the total sum.\n"
 "\n"
 "Enter the two column headers separated by a semicolon."
 msgstr ""
-"生成兩列：一列，包括添加到總和的所有區域，以及一列，包括從總和中減去的所有區域。\n"
+"生成兩列：一列是添加到總和的所有面積，另一列是從總和中減去的所有面積。\n"
 "\n"
 "輸入以分號分隔的兩個列標題。"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_description_image_area_sum"
-msgid ""
-"The total area sum. This include only one value for each image and a "
-"total over all images."
-msgstr "總面積之和。每個圖片僅包含一個值，所有圖片均包含一個值。"
+msgid "The total area sum. This include only one value for each image and a total over all images."
+msgstr "總面積之和。包括每張圖像上的面積總和，以及所有圖像上的面積總和。"
 
-#, fuzzy
 msgctxt "pref_template_partslist_template_title"
 msgid "Parts List Template Configuration"
 msgstr "零件清單模板配置"
 
-#, fuzzy
 msgctxt "pref_template_partslist_tags_title"
 msgid "Parts List Template Tags"
 msgstr "零件清單模板標籤"
 
-#, fuzzy
 msgctxt "pref_template_partslist_table_title"
 msgid "Parts List Table Configuration"
-msgstr "零件清單表配置"
+msgstr "零件清單表格配置"
 
-#, fuzzy
 msgctxt "pref_template_partslist_tag_table_column_header"
 msgid "Column header"
 msgstr "列標題"
 
-#, fuzzy
 msgctxt "pref_template_partslist_table_list_title"
 msgid "Parts List Table Layouts"
 msgstr "零件清單表佈局"
 
-#, fuzzy
 msgctxt "pref_template_partslist_table_layout_title"
 msgid "Parts List Table Layout"
 msgstr "零件清單表佈局"
 
-#, fuzzy
 msgctxt "pref_template_partslist_table_name"
 msgid "Table name"
 msgstr "表名"
 
-#, fuzzy
 msgctxt "pref_template_partslist_section_column_config"
 msgid "Columns configuration"
 msgstr "列配置"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_item_number"
 msgid "Item number"
-msgstr "項目編號"
+msgstr "零件編號"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_none"
 msgid "None"
 msgstr "沒有"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_only_element"
 msgid "Only item numbers"
-msgstr "僅商品編號"
+msgstr "僅零件編號"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_only_image_in_image_row"
 msgid "Only image numbers, only in image row"
 msgstr "僅圖像編號，僅在圖像行中"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_both_image_in_image_row"
 msgid "Both, but image numbers only in image row"
 msgstr "兩者都有，但是圖像編號僅在圖像行中"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_both_all_rows"
 msgid "Image and item numbers in all rows"
-msgstr "所有行中的圖片和商品編號"
+msgstr "圖像編號和零件編號在所有行中"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_combines"
 msgid "Combine image and item numbers in one column"
-msgstr "將圖片和商品編號合併到一欄中"
+msgstr "將圖像和零件編號合併到一欄中"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_tag_name"
 msgid "Tag name"
 msgstr "標籤名"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_comment"
 msgid "Comment"
-msgstr "評論"
+msgstr "注釋"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_quantity"
 msgid "Quantity"
 msgstr "數量"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_items"
 msgid "Item columns"
-msgstr "物品欄"
+msgstr "零件列"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_items_choices_used_tags"
 msgid "Only for used tags"
-msgstr "僅用於二手標籤"
+msgstr "僅對已使用的標籤生成列"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_items_choices_all_tags"
 msgid "For all tags"
-msgstr "對於所有標籤"
+msgstr "對所有標籤生成列"
 
-#, fuzzy
 msgctxt "pref_template_partslist_column_use_custom_titles"
 msgid "Use custom column titles"
 msgstr "使用自定義列標題"
 
-#, fuzzy
 msgctxt "pref_template_partslist_section_row_config"
 msgid "Rows configuration"
 msgstr "行配置"
 
-#, fuzzy
 msgctxt "pref_template_partslist_row_show_image_name"
 msgid "Show rows with image names"
-msgstr "顯示帶有圖像名稱的行"
+msgstr "行中顯示圖像名稱"
 
-#, fuzzy
 msgctxt "pref_template_partslist_item_numbering_for_each_image"
 msgid "Independent item numbering for each image"
-msgstr "每個圖像的獨立項目編號"
+msgstr "每個圖像中的零件獨立編號"
 
-#, fuzzy
 msgctxt "pref_template_partslist_row_show_footer"
 msgid "Show footer row"
 msgstr "顯示頁腳行"
@@ -3920,30 +3619,25 @@ msgctxt "pref_category_information_debugging"
 msgid "Debugging"
 msgstr "調試"
 
-#, fuzzy
 msgctxt "pref_information_send_error_log"
 msgid "Send error log by email"
-msgstr "通過電子郵件發送錯誤日誌"
+msgstr "通過電子郵件發送應用錯誤記錄"
 
-#, fuzzy
 msgctxt "pref_information_googleplay_purchases"
 msgid "Store purchases"
-msgstr "商店購買"
+msgstr "軟件商店購買記錄"
 
-#, fuzzy
 msgctxt "pref_information_googleplay_purchases_query_failed"
 msgid "no query result received from PlayStore"
-msgstr "沒有收到來自PlayStore的查詢結果"
+msgstr "PlayStore 沒有發送查詢結果"
 
-#, fuzzy
 msgctxt "pref_information_googleplay_purchases_no_purchases"
 msgid "PlayStore reports: no purchases for active account"
-msgstr "PlayStore報告：有效帳戶未購買任何商品"
+msgstr "PlayStore 報告：該帳戶未購買本應用的任何版本"
 
-#, fuzzy
 msgctxt "pref_information_appgallery_purchases_no_purchases"
 msgid "AppGallery reports: no purchases for active account"
-msgstr "AppGallery報告：有效帳戶無任何購買"
+msgstr "AppGallery報告：該帳戶未購買本應用的任何版本"
 
 #. ===== cloud synchronization =====
 msgctxt "cloud_storage_dialog_sync_action_title"
@@ -4014,10 +3708,9 @@ msgctxt "cloud_progress_cleanup_server"
 msgid "Cleaning up server."
 msgstr "正在清理服務器中内容。"
 
-#, fuzzy
 msgctxt "cloud_progress_will_cancel"
 msgid "Syncing will be cancelled…"
-msgstr "同步將被取消..."
+msgstr "同步將被取消 ..……"
 
 msgctxt "notification_cloud_sync_errors_title"
 msgid "Cloud synchronization errors"
@@ -4056,27 +3749,22 @@ msgctxt "sync_action_pull_new"
 msgid "Download new"
 msgstr "下載新数据"
 
-#, fuzzy
 msgctxt "sync_action_pull_update"
 msgid "Download update"
 msgstr "下載更新"
 
-#, fuzzy
 msgctxt "sync_action_push_new"
 msgid "Upload new"
-msgstr "上載新"
+msgstr "新上傳"
 
-#, fuzzy
 msgctxt "sync_action_push_update"
 msgid "Upload update"
-msgstr "上載更新"
+msgstr "上傳更新"
 
-#, fuzzy
 msgctxt "sync_action_delete_local"
 msgid "Delete locally"
 msgstr "本地刪除"
 
-#, fuzzy
 msgctxt "sync_action_delete_remote"
 msgid "Delete on server"
 msgstr "在服務器上刪除"
@@ -4088,13 +3776,13 @@ msgstr "雲存儲維護"
 
 msgctxt "cloud_storage_maintenance_remove_server_lock_description"
 msgid ""
-"<b>Remove server lock</b> - In order to prevent simultaneous access to "
-"the data on the cloud server, it is locked during the sync process. In "
-"case of some errors, e.g. network failures, it may be that the server "
-"remains locked. The locks time-out automatically after a few minutes, but"
-" you can also manually remove them immediately if you know for sure that "
-"it is an error."
-msgstr "<b>刪除服務器鎖定</b>——為了防止同時訪問云服務器上的數據，在同步過程中將其鎖定。如果出現某些錯誤，例如網絡故障，可能是服務器正鎖定中。鎖定會在幾分鐘後自動超時，如果您確定发生錯誤，也可以立即手動將其刪除。"
+"<b>Remove server lock</b> - In order to prevent simultaneous access to the data on the cloud server, it is "
+"locked during the sync process. In case of some errors, e.g. network failures, it may be that the server remains "
+"locked. The locks time-out automatically after a few minutes, but you can also manually remove them immediately "
+"if you know for sure that it is an error."
+msgstr ""
+"<b>刪除服務器鎖定</b>——為了防止同時訪問云服務器上的數據，在同步過程中將其鎖定。如果出現某些錯誤，例如網絡故障，可"
+"能是服務器正鎖定中。鎖定會在幾分鐘後自動超時，如果您確定发生錯誤，也可以立即手動將其刪除。"
 
 msgctxt "cloud_storage_maintenance_remove_server_lock_button"
 msgid "Remove server lock"
@@ -4102,12 +3790,12 @@ msgstr "解除服務器鎖定"
 
 msgctxt "cloud_storage_maintenance_reset_server_cache_description"
 msgid ""
-"<b>Reset server cache</b> - The cloud server maintains a cache of images "
-"stored on them. If you delete or add files manually on the server, this "
-"is not seen by the cache. You may reset the server cache to run a full "
-"scan during the next sync. However, note that a full scan may take a long"
-" time if you have many images."
-msgstr "<b>重置服務器緩存</b>——雲服務器上的圖像有緩存。在服務器上手動刪除或添加的文件，不會被缓存捕捉。您可以重置服務器緩存以在下一次同步时運行完整掃描。請注意，如果您有很多圖像，則完整掃描可能持续很久。"
+"<b>Reset server cache</b> - The cloud server maintains a cache of images stored on them. If you delete or add "
+"files manually on the server, this is not seen by the cache. You may reset the server cache to run a full scan "
+"during the next sync. However, note that a full scan may take a long time if you have many images."
+msgstr ""
+"<b>重置服務器緩存</b>——雲服務器上的圖像有緩存。在服務器上手動刪除或添加的文件，不會被缓存捕捉。您可以重置服務器緩"
+"存以在下一次同步时運行完整掃描。請注意，如果您有很多圖像，則完整掃描可能持续很久。"
 
 msgctxt "cloud_storage_maintenance_reset_server_cache_button"
 msgid "Reset server cache"
@@ -4115,12 +3803,12 @@ msgstr "重置服務器緩存"
 
 msgctxt "cloud_storage_maintenance_reset_sync_state_description"
 msgid ""
-"<b>Reset sync state</b> - The next sync will start with no preknowledge "
-"about the data on each side. This means, e.g., that locally deleted "
-"images will be downloaded again from the server instead of being deleted "
-"on the server. There are few cases where resetting the stored sync state "
-"is needed."
-msgstr "<b>重置同步狀態</b>——下次同步时，双方完全陌生如初见。這意味著本地刪除的圖像將再次從服務器下載，而不是在服務器上刪除。在少數情況下，需要重置存儲的同步狀態。"
+"<b>Reset sync state</b> - The next sync will start with no preknowledge about the data on each side. This means, "
+"e.g., that locally deleted images will be downloaded again from the server instead of being deleted on the "
+"server. There are few cases where resetting the stored sync state is needed."
+msgstr ""
+"<b>重置同步狀態</b>——下次同步时，双方完全陌生如初见。這意味著本地刪除的圖像將再次從服務器下載，而不是在服務器上刪"
+"除。在少數情況下，需要重置存儲的同步狀態。"
 
 msgctxt "cloud_storage_maintenance_reset_sync_state_button"
 msgid "Reset sync state"
@@ -4263,19 +3951,19 @@ msgstr "移除"
 
 msgctxt "editor_menu_edit_attach"
 msgid "Compute value"
-msgstr "自动计算数值"
+msgstr "自動計算數值"
 
 msgctxt "editor_menu_edit_element_to_front"
 msgid "Element to front"
-msgstr "元素上浮"
+msgstr "元素上浮至前景"
 
 msgctxt "editor_menu_edit_element_to_back"
 msgid "Element to back"
-msgstr "元素下称"
+msgstr "元素下沉至背景"
 
 msgctxt "editor_menu_edit_detach"
 msgid "Enter value manually"
-msgstr "手动输入数值"
+msgstr "手動輸入數值"
 
 msgctxt "editor_menu_edit_undo"
 msgid "Undo"
@@ -4297,17 +3985,14 @@ msgctxt "editor_menu_edit_transfer_style"
 msgid "Transfer style"
 msgstr "轉移方式"
 
-#, fuzzy
 msgctxt "editor_menu_edit_copy_element"
 msgid "Duplicate element"
 msgstr "複製元素"
 
-#, fuzzy
 msgctxt "editor_menu_edit_copy_to_clipboard"
 msgid "Copy to clipboard"
 msgstr "複製到剪貼板"
 
-#, fuzzy
 msgctxt "editor_menu_edit_paste_from_clipboard"
 msgid "Paste from clipboard"
 msgstr "從剪貼板粘貼"
@@ -4320,12 +4005,10 @@ msgctxt "editor_menu_edit_unlock_element"
 msgid "Unlock element"
 msgstr "解鎖元素"
 
-#, fuzzy
 msgctxt "editor_menu_edit_lock_all_elements"
 msgid "Lock all elements"
 msgstr "鎖定所有元素"
 
-#, fuzzy
 msgctxt "editor_menu_edit_unlock_all_elements"
 msgid "Unlock all elements"
 msgstr "解鎖所有元素"
@@ -4334,12 +4017,10 @@ msgctxt "editor_menu_edit_imagesettings"
 msgid "Image settings"
 msgstr "图像設定"
 
-#, fuzzy
 msgctxt "editor_menu_edit_bluetooth_trigger"
 msgid "Trigger Laser"
 msgstr "觸發激光"
 
-#, fuzzy
 msgctxt "editor_menu_edit_tag"
 msgid "Tag and properties"
 msgstr "標籤和屬性"
@@ -4372,8 +4053,8 @@ msgstr "請指定並拖拽待測面積的一邊."
 
 msgctxt "editor_hint_howto_draw_text"
 msgid ""
-"Please position the text area by pointing at the target location and then"
-" dragging the textbox to the end of the arrow."
+"Please position the text area by pointing at the target location and then dragging the textbox to the end of the "
+"arrow."
 msgstr "請指定並拖拽文字框的一邊."
 
 msgctxt "editor_hint_howto_draw_circle"
@@ -4402,8 +4083,7 @@ msgstr "請繪製矩形對角線。"
 
 msgctxt "editor_hint_howto_draw_perspective_line"
 msgid ""
-"Tool for measuring an unknown distance along a perspectively distorted "
-"line. See the FAQ for an introduction."
+"Tool for measuring an unknown distance along a perspectively distorted line. See the FAQ for an introduction."
 msgstr "此工具用於測量沿着透視扭曲线条的未知距離。有關說明，請參見 FAQ。"
 
 msgctxt "editor_hint_howto_draw_dimstring"
@@ -4419,45 +4099,35 @@ msgid "Click on the measure you want to compute based on the selected reference.
 msgstr "點擊待測度量."
 
 msgctxt "editor_hint_howto_attach_measure"
-msgid ""
-"Click on the reference based on which you want to calculate the selected "
-"measure."
+msgid "Click on the reference based on which you want to calculate the selected measure."
 msgstr "點擊您要與之建立關聯的參照物."
 
-#, fuzzy
 msgctxt "editor_help_why_no_measured_value"
 msgid ""
-"The value cannot yet be computed because the image is not calibrated. "
-"Please add a 'reference scale' or a 'perspective reference'."
-msgstr "由於未校準圖像，因此無法計算該值。請添加“參考比例”或“透視參考”。"
+"The value cannot yet be computed because the image is not calibrated. Please add a 'reference scale' or a "
+"'perspective reference'."
+msgstr "圖像未經校準，故無法計算該值。請添加 “尺度參照” 或 “透視參照物”。"
 
-#, fuzzy
 msgctxt "editor_help_why_no_measured_value_manual_url"
 msgid "https://imagemeter.com/manual/measuring/basics"
 msgstr "https://imagemeter.com/manual/measuring/basics"
 
-#, fuzzy
 msgctxt "editor_help_why_no_measured_value_because_two_references"
 msgid ""
-"The value is not computed because the image contains two references. "
-"Please select 'Compute value' from the menu and select which reference to"
-" use."
-msgstr "由於圖像包含兩個引用，因此未計算該值。請從菜單中選擇“計算值”，然後選擇要使用的參考。"
+"The value is not computed because the image contains two references. Please select 'Compute value' from the menu "
+"and select which reference to use."
+msgstr "圖像關聯了兩個參照物，故無法計算該值。請從菜單中選擇 “自動計算數值”，然後選擇一個要使用的參考物。"
 
-#, fuzzy
 msgctxt "editor_help_do_not_show_again"
 msgid "Don't show again"
 msgstr "不再顯示"
 
-#, fuzzy
 msgctxt "editor_help_show_instructions"
 msgid "Show instructions"
 msgstr "顯示指示"
 
 msgctxt "editor_error_no_reference_to_attach_to"
-msgid ""
-"There is no reference in the image! You need to draw a reference in order"
-" to do automatic computations."
+msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
 msgstr "這個圖像中尚缺參照尺寸！您必須繪出參照物並指定尺寸以啟用自動長度計算. "
 
 msgctxt "editor_error_no_element_to_attach_to_reference"
@@ -4475,13 +4145,11 @@ msgstr "標籤和屬性"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
 msgid ""
-"The image data could not be read successfully. ImageMeter has tried to "
-"load as much of the data as possible, but the image annotations may be "
-"incomplete or may have errors.\n"
+"The image data could not be read successfully. ImageMeter has tried to load as much of the data as possible, but "
+"the image annotations may be incomplete or may have errors.\n"
 "\n"
-"Do you want to keep the old data (new modifications will not be saved), "
-"or do you want to overwrite the data (you will lose the elements that "
-"could not be read successfully)?"
+"Do you want to keep the old data (new modifications will not be saved), or do you want to overwrite the data "
+"(you will lose the elements that could not be read successfully)?"
 msgstr ""
 "這個圖像文件无法成功讀取。本程序已盡力讀取圖像中的所有數據，但是圖像的批註信息有可能不完整或者有錯誤。\n"
 "\n"
@@ -4512,22 +4180,18 @@ msgctxt "editor_locking_title"
 msgid "Modification lock"
 msgstr "修改鎖"
 
-#, fuzzy
 msgctxt "editor_locking_lock_position"
 msgid "Lock position"
-msgstr "鎖位置"
+msgstr "鎖定位置"
 
-#, fuzzy
 msgctxt "editor_locking_lock_measurement"
 msgid "Lock measurements"
-msgstr "鎖定測量"
+msgstr "鎖定測量數值"
 
-#, fuzzy
 msgctxt "editor_locking_button_apply_to_all"
 msgid "Apply to all"
-msgstr "全部應用"
+msgstr "在所有元素上應用"
 
-#, fuzzy
 msgctxt "editor_locking_warning_element_value_is_locked"
 msgid "Value is locked. You have to unlock it first."
 msgstr "值已鎖定。您必須先將其解鎖。"
@@ -4598,12 +4262,10 @@ msgctxt "editor_dialog_style_textbox_text_alignment_choices:2"
 msgid "Right"
 msgstr "右"
 
-#, fuzzy
 msgctxt "editor_textbox_add_arrow"
 msgid "Add arrow"
 msgstr "添加箭頭"
 
-#, fuzzy
 msgctxt "editor_textbox_delete_arrow"
 msgid "Delete arrow"
 msgstr "刪除箭頭"
@@ -4630,7 +4292,6 @@ msgctxt "editor_dialog_style_ellipse_title"
 msgid "Ellipse style"
 msgstr "橢圓風格"
 
-#, fuzzy
 msgctxt "editor_dialog_style_ellipse_fill_color"
 msgid "Fill color"
 msgstr "填色"
@@ -4680,7 +4341,6 @@ msgctxt "editor_dialog_style_measure_text_position_within"
 msgid "Within line"
 msgstr "線條中間"
 
-#, fuzzy
 msgctxt "editor_dialog_style_measure_text_position_horizontal"
 msgid "Horizontal"
 msgstr "水平的"
@@ -4689,7 +4349,6 @@ msgctxt "editor_dialog_style_measure_text_color"
 msgid "Text color"
 msgstr "文字顏色"
 
-#, fuzzy
 msgctxt "editor_measure_move_label"
 msgid "Move label"
 msgstr "移動標籤"
@@ -4754,13 +4413,12 @@ msgstr "常規參照物尺寸"
 
 msgctxt "editor_dialog_style_rect_info_set_default_reference_size_text"
 msgid ""
-"This button stores the currently entered reference dimensions as the "
-"default size. When creating a new reference, these dimensions are "
-"automatically set. You can set this to any reference that is suitable for"
-" your application, e.g. the size of a sheet of paper."
+"This button stores the currently entered reference dimensions as the default size. When creating a new "
+"reference, these dimensions are automatically set. You can set this to any reference that is suitable for your "
+"application, e.g. the size of a sheet of paper."
 msgstr ""
-"按此按鈕可以將當前參照物尺寸儲存為常規值。以後當你圈定一個參照物時，其尺寸會自動設為此常規值。你可以將此法運用至一些常見參照物，例如一張 A4 "
-"白紙."
+"按此按鈕可以將當前參照物尺寸儲存為常規值。以後當你圈定一個參照物時，其尺寸會自動設為此常規值。你可以將此法運用至"
+"一些常見參照物，例如一張 A4 白紙."
 
 msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:0"
 msgid "none"
@@ -4818,10 +4476,9 @@ msgctxt "editor_dialog_style_rect_text_position_choices:1"
 msgid "Within line"
 msgstr "線條中間"
 
-#, fuzzy
 msgctxt "editor_rectref_choose_size"
 msgid "Choose size"
-msgstr "選擇尺碼"
+msgstr "選擇尺寸"
 
 #. GFlatRef (reference scale)
 msgctxt "editor_dialog_style_flatref_title"
@@ -4937,17 +4594,14 @@ msgctxt "editor_dialog_style_area_show_edge_labels"
 msgid "Show edge lengths"
 msgstr "顯示邊長"
 
-#, fuzzy
 msgctxt "editor_dialog_style_area_show_edge_labels_none"
 msgid "None"
-msgstr "沒有"
+msgstr "無"
 
-#, fuzzy
 msgctxt "editor_dialog_style_area_show_edge_labels_custom"
 msgid "Custom"
-msgstr "風俗"
+msgstr "自定義"
 
-#, fuzzy
 msgctxt "editor_dialog_style_area_show_edge_labels_all"
 msgid "All"
 msgstr "全部"
@@ -4956,7 +4610,6 @@ msgctxt "editor_dialog_style_area_edge_font_magnification"
 msgid "Edges font size"
 msgstr "邊緣字體大小"
 
-#, fuzzy
 msgctxt "editor_dialog_style_area_fill_color"
 msgid "Fill color"
 msgstr "填色"
@@ -4965,15 +4618,13 @@ msgctxt "editor_dialog_style_area_line_width_magnification"
 msgid "Line width"
 msgstr "線條寬度"
 
-#, fuzzy
 msgctxt "editor_area_may_add_points"
 msgid "May add points"
-msgstr "可能加分"
+msgstr "可以添加點"
 
-#, fuzzy
 msgctxt "editor_area_may_delete_points"
 msgid "May delete points"
-msgstr "可能會刪除積分"
+msgstr "可以刪除點"
 
 #. GCircle
 msgctxt "editor_dialog_style_circle_title"
@@ -5000,7 +4651,6 @@ msgctxt "editor_dialog_style_circle_show_area"
 msgid "Show area"
 msgstr "顯示面積"
 
-#, fuzzy
 msgctxt "editor_dialog_style_circle_fill_color"
 msgid "Fill color"
 msgstr "填色"
@@ -5032,7 +4682,7 @@ msgstr "s:"
 #. GRectangle
 msgctxt "editor_dialog_style_rectangle_title"
 msgid "Rectangle style"
-msgstr "矩形外观"
+msgstr "矩形外觀"
 
 msgctxt "editor_dialog_style_rectangle_show_edge_lengths"
 msgid "Show side lengths"
@@ -5040,13 +4690,12 @@ msgstr "顯示邊長"
 
 msgctxt "editor_dialog_style_rectangle_show_area"
 msgid "Show area"
-msgstr "显示面积"
+msgstr "顯示面積"
 
 msgctxt "editor_dialog_style_rectangle_show_perimeter"
 msgid "Show perimeter"
 msgstr "顯示周長"
 
-#, fuzzy
 msgctxt "editor_dialog_style_rectangle_fill_color"
 msgid "Fill color"
 msgstr "填色"
@@ -5057,7 +4706,7 @@ msgstr "字體大小"
 
 msgctxt "editor_dialog_style_rectangle_line_width_magnification"
 msgid "Line width"
-msgstr "线条宽度"
+msgstr "線條寬度"
 
 msgctxt "rectangle_area_prefix"
 msgid "A:"
@@ -5070,7 +4719,7 @@ msgstr "P："
 #. GDimString
 msgctxt "editor_dialog_style_dimstring_title"
 msgid "Dimension string style"
-msgstr "度量字符外观"
+msgstr "度量字符外觀"
 
 msgctxt "editor_dialog_style_dimstring_show_marks"
 msgid "Show intersection marks"
@@ -5114,7 +4763,7 @@ msgstr "添加累積字符串"
 
 msgctxt "editor_dimstring_func_swap_orientation"
 msgid "Swap orientation"
-msgstr "转向"
+msgstr "轉向"
 
 #. GMeasurementPoint
 msgctxt "editor_dialog_style_measurementpoint_title"
@@ -5123,7 +4772,7 @@ msgstr "點外观"
 
 msgctxt "editor_dialog_style_measurementpoint_line_width_magnification"
 msgid "Line width"
-msgstr "线条宽度"
+msgstr "線條寬度"
 
 msgctxt "editor_dialog_style_measurementpoint_font_magnification"
 msgid "Font size"
@@ -5147,15 +4796,15 @@ msgstr "顯示文字"
 
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:0"
 msgid "Encircled cross"
-msgstr "带圈的十字叉丝"
+msgstr "帶圈的十字叉絲"
 
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:1"
 msgid "Upright cross"
-msgstr "十字叉丝"
+msgstr "十字叉絲"
 
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:2"
 msgid "Diagonal cross"
-msgstr "X字叉丝"
+msgstr "X字叉絲"
 
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:3"
 msgid "Dot"
@@ -5163,11 +4812,11 @@ msgstr "點"
 
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:4"
 msgid "Elevation top"
-msgstr "至顶记号"
+msgstr "至頂記號"
 
 msgctxt "editor_dialog_style_measurementpoint_shape_choices:5"
 msgid "Elevation bottom"
-msgstr "至底记号"
+msgstr "至底記號"
 
 msgctxt "eight_directions_choices:0"
 msgid "Top left"
@@ -5175,7 +4824,7 @@ msgstr "左上方"
 
 msgctxt "eight_directions_choices:1"
 msgid "Top"
-msgstr "顶部"
+msgstr "頂部"
 
 msgctxt "eight_directions_choices:2"
 msgid "Top right"
@@ -5206,15 +4855,13 @@ msgctxt "editor_dialog_style_perspective_line_title"
 msgid "Perspective line style"
 msgstr "透視線外观"
 
-#, fuzzy
 msgctxt "editor_perspective_live_add_measure"
 msgid "Add measure"
 msgstr "添加度量"
 
-#, fuzzy
 msgctxt "editor_perspective_live_remove_measure"
 msgid "Remove measure"
-msgstr "取消措施"
+msgstr "移除度量"
 
 #. Label style
 msgctxt "editor_label_style_text_color"
@@ -5235,7 +4882,7 @@ msgstr "適用於……"
 
 msgctxt "editor_label_style_apply_to_both_sides"
 msgid "Both sides"
-msgstr "两边"
+msgstr "兩邊"
 
 msgctxt "editor_label_style_apply_to_all_edges"
 msgid "All edges"
@@ -5247,11 +4894,11 @@ msgstr "所有長度"
 
 msgctxt "editor_label_style_apply_to_whole_element"
 msgid "Whole element"
-msgstr "整个元素"
+msgstr "整個元素"
 
 msgctxt "editor_label_style_apply_to_whole_image"
 msgid "Whole image"
-msgstr "整个图像"
+msgstr "整個圖像"
 
 msgctxt "editor_label_style_save_as_default_for"
 msgid "Use style as default for …"
@@ -5259,7 +4906,7 @@ msgstr "使用此外观作為……的默認值"
 
 msgctxt "editor_label_style_save_as_default_only_this_label"
 msgid "Only this label"
-msgstr "仅此標籤"
+msgstr "僅此標籤"
 
 msgctxt "editor_label_style_save_as_default_this_element"
 msgid "This drawing tool"
@@ -5272,7 +4919,7 @@ msgstr "所有繪圖工具"
 #. settings: standard rectangle reference object sizes
 msgctxt "settings_rectref_sizes_title"
 msgid "Reference object sizes"
-msgstr "参照物尺寸"
+msgstr "參照物尺寸"
 
 msgctxt "settings_rectref_sizes_name"
 msgid "Name:"
@@ -5514,7 +5161,7 @@ msgstr "自動測量選項"
 
 msgctxt "value_entry_metadata_prefix"
 msgid "Prefix"
-msgstr "前缀"
+msgstr "前綴"
 
 msgctxt "value_entry_metadata_suffix"
 msgid "Suffix"
@@ -5530,11 +5177,11 @@ msgstr "單元"
 
 msgctxt "value_entry_dimension_format_reduce_fraction_choices:0"
 msgid "Reduce (4/8 becomes 1/2)"
-msgstr "约分（4/8變為1/2）"
+msgstr "約分（4/8變為1/2）"
 
 msgctxt "value_entry_dimension_format_reduce_fraction_choices:1"
 msgid "Keep (4/8 stays 4/8)"
-msgstr "不约分（4/8 还是 4/8）"
+msgstr "不約分（4/8 还是 4/8）"
 
 msgctxt "dimension_format_imperial_unit_display_choices:0"
 msgid "Show as '/\""
@@ -5552,17 +5199,14 @@ msgctxt "dimension_format_show_unit_choices:1"
 msgid "Do not show the unit"
 msgstr "不顯示單位"
 
-#, fuzzy
 msgctxt "value_entry_unit_disambiguation"
 msgid "Ambiguous numbers"
-msgstr "模棱兩可的數字"
+msgstr "容易誤讀的數字（比如 6 和 9）"
 
-#, fuzzy
 msgctxt "value_entry_unit_disambiguation_choices:0"
 msgid "Keep"
 msgstr "保持"
 
-#, fuzzy
 msgctxt "value_entry_unit_disambiguation_choices:1"
 msgid "Add disambiguating dot"
 msgstr "添加消除歧義的點"
@@ -5596,20 +5240,18 @@ msgctxt "textbox_detail_picture_title"
 msgid "Detail picture"
 msgstr "詳細圖片"
 
-#, fuzzy
 msgctxt "textbox_detail_picture_cannot_load"
 msgid "Cannot load detail image"
-msgstr "無法加載詳細圖片"
+msgstr "無法加載細節圖片"
 
-#, fuzzy
 msgctxt "textbox_detail_picture_load_error_zero_size"
 msgid "Image has zero size."
-msgstr "圖片大小為零。"
+msgstr "圖片尺寸為零。"
 
 #. ImageSettings
 msgctxt "imagesettings_dialog_base_sizes"
 msgid "Base sizes"
-msgstr "基础尺寸"
+msgstr "基礎尺寸"
 
 msgctxt "imagesettings_duallabel_mode_choices:0"
 msgid "Off"
@@ -5661,22 +5303,19 @@ msgstr "深藍"
 
 msgctxt "imagesettings_dialog_canvas_colorscheme_presets:3"
 msgid "Custom"
-msgstr "自选"
+msgstr "自選"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_canvas_unit_distance"
 msgid "Unit distance"
 msgstr "單位距離"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_canvas_unit_distance_hint"
 msgid "100 cm"
 msgstr "100 cm"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_canvas_num_subdivisions"
 msgid "Subdivisions"
-msgstr "細分"
+msgstr "細分數量"
 
 msgctxt "imagesettings_dialog_bkgimage_title"
 msgid "Image"
@@ -5698,32 +5337,26 @@ msgctxt "imagesettings_dialog_bkgimage_reset"
 msgid "Reset"
 msgstr "重置"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_calibration_title"
 msgid "Calibration"
 msgstr "校準"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_calibration_enable"
 msgid "Calibrate to image"
-msgstr "校準以成像"
+msgstr "對圖像校準"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_calibration_image_resolution"
 msgid "Resolution"
 msgstr "解析度"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_calibration_image_scale"
 msgid "Scale"
-msgstr "規模"
+msgstr "比例尺"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_calibration_image_scale_real"
 msgid "real"
-msgstr "真實的"
+msgstr "實物"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_calibration_image_scale_image"
 msgid "image"
 msgstr "圖像"
@@ -5745,15 +5378,14 @@ msgctxt "bluetooth_error_bluetooth_not_configured"
 msgid ""
 "You have not yet configured any Bluetooth laser distance meter.\n"
 "\n"
-"First make sure that your device is listed in the system settings. If "
-"required, pair the device.\n"
+"First make sure that your device is listed in the system settings. If required, pair the device.\n"
 " <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n"
 "\n"
 "Afterwards, select your device in the ImageMeter settings:\n"
 " <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n"
 "\n"
-"For more help and a list of supported devices, see <a "
-"href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
+"For more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/"
+"\">here</a>"
 msgstr ""
 "您尚未配置藍牙激光測距儀。\n"
 "\n"
@@ -5763,8 +5395,7 @@ msgstr ""
 "然后，在 ImageMeter 设置中选择您的设备:\n"
 " <a href=\"bluetooth-device\">开启蓝牙设备设定</a>\n"
 "\n"
-"更多帮助信息，以及支持设备列表，请见 <a "
-"href=\"https://imagemeter.com/manual/bluetooth/connect/\">这里</a>"
+"更多帮助信息，以及支持设备列表，请见 <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">这里</a>"
 
 #. 151209
 #, c-format
@@ -5804,13 +5435,11 @@ msgctxt "bluetooth_dialog_scan_needs_location_permission_title"
 msgid "Bluetooth scan"
 msgstr "藍牙偵測"
 
-#, fuzzy
 msgctxt "bluetooth_dialog_scan_needs_location_permission_text"
 msgid ""
-"Since Android 10, the fine location permission is required (previously "
-"coarse location) to scan for nearby Bluetooth devices. Please grant this "
-"permission when requested."
-msgstr "從安卓 6 起，系統需要大致位置偵測權限以偵測附近的藍牙設備。必要时時請授權。"
+"Since Android 10, the fine location permission is required (previously coarse location) to scan for nearby "
+"Bluetooth devices. Please grant this permission when requested."
+msgstr "從安卓 10  起，系統需要大致位置偵測權限以偵測附近的藍牙設備。必要時請授權。"
 
 msgctxt "bluetooth_le_scan_needs_location_title"
 msgid "Bluetooth LE Scan Error"
@@ -5818,8 +5447,7 @@ msgstr "低耗能藍牙偵測錯誤"
 
 msgctxt "bluetooth_le_scan_needs_location_message"
 msgid ""
-"Android requires that the location service is enabled to run a Bluetooth "
-"LE Scan.\n"
+"Android requires that the location service is enabled to run a Bluetooth LE Scan.\n"
 "\n"
 "Please turn on location services.\n"
 "\n"
@@ -5906,355 +5534,285 @@ msgctxt "tpool_templ_template_name_unnamed"
 msgid "New template"
 msgstr "新範本"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_class_display_name"
 msgid "Custom template"
 msgstr "自定義模板"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_new_template_name"
 msgid "New custom template"
-msgstr "新的自定義模板"
+msgstr "新自定義模板"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_empty"
 msgid "Empty"
-msgstr "空的"
+msgstr "空"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_imagename"
 msgid "Image name"
-msgstr "圖片名稱"
+msgstr "圖像名稱"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_notes"
 msgid "Image notes"
-msgstr "圖片註釋"
+msgstr "圖像註釋"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_number"
 msgid "Image number"
-msgstr "圖片編號"
+msgstr "圖像編號"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_capture_date"
 msgid "Image capture date"
 msgstr "圖像拍攝日期"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_gps_latitude"
 msgid "Image GPS latitude"
-msgstr "影像GPS緯度"
+msgstr "圖像 GPS 緯度"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_gps_longitude"
 msgid "Image GPS longitude"
-msgstr "影像GPS經度"
+msgstr "圖像 GPS 經度"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_map_link"
 msgid "GPS map link"
-msgstr "GPS地圖鏈接"
+msgstr "GPS 地圖鏈接"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_map_link_url_text"
 msgid "link"
-msgstr "關聯"
+msgstr "鏈接"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_columncontent_image_map_link_error_no_gps"
 msgid "no GPS"
 msgstr "沒有GPS"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_columntype_widthHeight"
 msgid "Width and height"
 msgstr "寬度和高度"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_columntype_text"
 msgid "Text note"
 msgstr "文字說明"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_new_tablespec_name"
 msgid "Custom Table"
-msgstr "定製表"
+msgstr "自定義表"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_new_tag"
 msgid "new tag"
 msgstr "新標籤"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_tag_filter_text"
 msgid "Text note"
 msgstr "文字說明"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_tag_filter_circle"
 msgid "Circle"
 msgstr "圓圈"
 
-#, fuzzy
 msgctxt "tpool_templ_custom_tag_property_name"
 msgid "Tag"
 msgstr "標籤"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_property_name_tag"
 msgid "Tag"
 msgstr "標籤"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_class_display_name"
 msgid "Area sum template"
 msgstr "面積總和模板"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_wallarea_new_template_name"
 msgid "New wall area template"
-msgstr "新牆區域模板"
+msgstr "新的牆面積模板"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_new_template_name"
 msgid "New floor area template"
-msgstr "新樓面模板"
+msgstr "新的建築面積模板"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_default_table_name"
 msgid "Area sum table"
 msgstr "面積總和表"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_preset_wallarea"
 msgid "Wall area"
 msgstr "牆面面積"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_preset_floorarea"
 msgid "Floor area"
 msgstr "建築面積"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_custom_add"
 msgid "custom (add)"
 msgstr "自定義（添加）"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_custom_minus"
 msgid "custom (subtract)"
-msgstr "自定義（減）"
+msgstr "自定義（減去）"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_wallarea_wall"
 msgid "wall"
 msgstr "牆"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_wallarea_ceiling"
 msgid "ceiling"
 msgstr "天花板"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_wallarea_window"
 msgid "window"
 msgstr "窗戶"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_wallarea_door"
 msgid "door"
 msgstr "門"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_livingroom"
 msgid "living room"
 msgstr "客廳"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_bedroom"
 msgid "bed room"
 msgstr "臥室"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_kitchen"
 msgid "kitchen"
 msgstr "廚房"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_bathroom"
 msgid "bathroom"
 msgstr "浴室"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_genericroom"
 msgid "other room"
 msgstr "其他房間"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_floorarea_balcony"
 msgid "balcony"
 msgstr "陽台"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_item"
 msgid "Pos."
 msgstr "位置"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_description"
 msgid "Description"
 msgstr "描述"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_count"
 msgid "Count"
-msgstr "數數"
+msgstr "數目"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_factor"
 msgid "Factor"
-msgstr "因素"
+msgstr "乘數因子"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_width"
 msgid "Width"
 msgstr "寬度"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_height"
 msgid "Height"
 msgstr "高度"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_area"
 msgid "Area"
-msgstr "區域"
+msgstr "面積"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_deduction"
 msgid "Deduction"
 msgstr "扣除"
 
-#, fuzzy
 msgctxt "tpool_templ_areasum_table_column_header_sumarea"
 msgid "Sum"
-msgstr "和"
+msgstr "總和"
 
-#, fuzzy
 msgctxt "tpool_templ_partslist_class_display_name"
 msgid "Parts list template"
 msgstr "零件清單模板"
 
-#, fuzzy
 msgctxt "tpool_templ_partslist_tablespec_default_table"
 msgid "Default table"
 msgstr "默認表"
 
-#, fuzzy
 msgctxt "tpool_templ_partslist_tablespec_new_table"
 msgid "New table"
 msgstr "新表"
 
-#, fuzzy
 msgctxt "tpool_templ_partslist_property_comment"
 msgid "Comment"
-msgstr "評論"
+msgstr "注釋"
 
-#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_item_image"
 msgid "Image"
 msgstr "圖像"
 
-#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_item_element"
 msgid "No."
-msgstr ""
+msgstr "No. "
 
-#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_item_image_and_element"
 msgid "No."
-msgstr ""
+msgstr "No. "
 
-#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_tagname"
 msgid "Item"
-msgstr "物品"
+msgstr "零件"
 
-#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_comment"
 msgid "Comment"
-msgstr "評論"
+msgstr "注釋"
 
-#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_quantity"
 msgid "Qty"
 msgstr "數量"
 
-#, fuzzy
 msgctxt "tpool_templ_partslist_columnheader_count"
 msgid "Count"
-msgstr "數數"
+msgstr "數目"
 
-#, fuzzy
 msgctxt "templ_uiitem_duplicate_local"
 msgid "(local copy)"
 msgstr "（本地副本）"
 
-#, fuzzy
 msgctxt "templ_uiitem_duplicate_global"
 msgid "(from settings)"
-msgstr "（通過設置）"
+msgstr "（引用設置）"
 
-#, fuzzy
 msgctxt "table_operation_none"
 msgid "None"
-msgstr "沒有"
+msgstr "無"
 
-#, fuzzy
 msgctxt "table_operation_none_keep"
 msgid "Keep"
 msgstr "保持"
 
-#, fuzzy
 msgctxt "table_operation_sum"
 msgid "Sum"
-msgstr "和"
+msgstr "總和"
 
-#, fuzzy
 msgctxt "table_operation_avg"
 msgid "Average"
-msgstr "平均"
+msgstr "平均值"
 
-#, fuzzy
 msgctxt "table_operation_min"
 msgid "Min"
-msgstr "敏"
+msgstr "最小值"
 
-#, fuzzy
 msgctxt "table_operation_max"
 msgid "Max"
-msgstr "最大限度"
+msgstr "最大值"
 
-#, fuzzy
 msgctxt "table_operation_median"
 msgid "Median"
 msgstr "中位數"
 
-#, fuzzy
 msgctxt "table_operation_count"
 msgid "Count"
-msgstr "數數"
+msgstr "數目"
 
-#, fuzzy
 msgctxt "templ_selection_none"
 msgid "None"
-msgstr "沒有"
+msgstr "無"
 
-#, fuzzy
 msgctxt "spinner_selection_various"
 msgid "(various)"
-msgstr "（各種各樣的）"
+msgstr "（多種）"
 
 #. lock reasons
 msgctxt "tpool_locked_by_android_editor"
@@ -6265,75 +5823,61 @@ msgctxt "tpool_locked_by_syncer"
 msgid "cloud synchronization"
 msgstr "云同步"
 
-#, fuzzy
 msgctxt "tpool_locked_by_image_syncer"
 msgid "image cloud upload"
 msgstr "圖片雲上傳"
 
-#, fuzzy
 msgctxt "tpool_locked_by_list_folder_content"
 msgid "list folder content"
 msgstr "列出文件夾內容"
 
-#, fuzzy
 msgctxt "tpool_locked_by_file_browser"
 msgid "file browser"
 msgstr "文件瀏覽器"
 
-#, fuzzy
 msgctxt "tpool_locked_by_thumbnail_rendering"
 msgid "thumbnail rendering"
 msgstr "縮略圖渲染"
 
-#, fuzzy
 msgctxt "tpool_locked_by_rendering"
 msgid "image rendering"
 msgstr "圖像渲染"
 
-#, fuzzy
 msgctxt "tpool_locked_by_create_image"
 msgid "creating image"
-msgstr "創造形象"
+msgstr "新建圖像中"
 
-#, fuzzy
 msgctxt "tpool_locked_by_import_image"
 msgid "importing image"
-msgstr "匯入圖片"
+msgstr "圖片導入中"
 
-#, fuzzy
 msgctxt "tpool_locked_by_pro_migration"
 msgid "pro migration"
-msgstr "專業移民"
+msgstr "專業遷移"
 
-#, fuzzy
 msgctxt "tpool_locked_by_delete_image"
 msgid "deleting image"
-msgstr "刪除圖片"
+msgstr "圖片刪除中"
 
-#, fuzzy
 msgctxt "tpool_locked_by_delete_entity"
 msgid "deleting entity"
-msgstr "刪除實體"
+msgstr "項目刪除中"
 
-#, fuzzy
 msgctxt "tpool_locked_by_dialog_image_name"
 msgid "image renaming dialog"
 msgstr "圖像重命名對話框"
 
-#, fuzzy
 msgctxt "tpool_locked_by_copy_directory"
 msgid "copying directory"
-msgstr "複製目錄"
+msgstr "目錄復制中"
 
-#, fuzzy
 msgctxt "tpool_locked_by_set_library_root"
 msgid "setting image library root"
 msgstr "設置圖片庫根目錄"
 
-#, fuzzy
 msgctxt "tpool_locked_by_undelete_entity"
 msgid "undeleting entity"
-msgstr "取消刪除實體"
+msgstr "取消刪除項目"
 
 #. date strings
 msgctxt "month_names_short_1"
@@ -6448,29 +5992,25 @@ msgstr ""
 "\n"
 "請打開設置，选择其他存儲目錄。"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "imagelibrary_moving_images_to_app_directory"
 msgid "Moving images to app directory (%1$d of %2$d)."
 msgstr "將圖像移動到應用程序目錄（%2$d中的%1$d）。"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "editor_error_nonpro_gelement_limit_message"
-msgid ""
-"Please upgrade to the %1$s version of ImageMeter to use more than five "
-"annotations."
-msgstr "若您想要添加的標記多於 5 個， 請升級到專業版."
+msgid "Please upgrade to the %1$s version of ImageMeter to use more than five annotations."
+msgstr "若您想要添加的標記多於 5 個， 請升級到 %1$s 版。"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "editor_error_nonpro_bluetooth_limit_message"
-msgid ""
-"For Bluetooth measurements with more than 3 meters, please upgrade to the"
-" %1$s version."
-msgstr "若您想從激光測距儀中導入的長度長於 3 米， 請升級到專業版."
+msgid "For Bluetooth measurements with more than 3 meters, please upgrade to the %1$s version."
+msgstr "若您想從激光測距儀中導入的長度長於 3 米， 請升級到 %1$s 版."
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "editor_error_nonpro_clipboard_message"
 msgid "For using the clipboard, please upgrade to the %1$s version."
-msgstr "要使用剪貼板，請升級到Pro版本。"
+msgstr "要使用剪貼板，請升級到 %1$s 版本。"
 
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
@@ -6482,16 +6022,16 @@ msgstr "導入的文件並非圖像!"
 
 msgctxt "imageselect_error_cannot_capture_with_camera"
 msgid ""
-"Cannot start external app to capture camera image. Either the device does"
-" not have a camera or your camera app does not respond to a capture "
-"request. You can still import images from the gallery or you can try to "
-"install an alternative camera app."
-msgstr "無法启动照相程序。可能您的設備不帶照相機或者您的照相程序無法應答。您仍然可以試著從您的圖片庫導入照片，或者安裝另一個照相程序。"
+"Cannot start external app to capture camera image. Either the device does not have a camera or your camera app "
+"does not respond to a capture request. You can still import images from the gallery or you can try to install an "
+"alternative camera app."
+msgstr ""
+"無法启动照相程序。可能您的設備不帶照相機或者您的照相程序無法應答。您仍然可以試著從您的圖片庫導入照片，或者安裝另"
+"一個照相程序。"
 
 msgctxt "imageselect_error_internal_toast"
 msgid ""
-"An internal error happened. Please take a screenshot of the notification "
-"above and send this to me. Thank you!"
+"An internal error happened. Please take a screenshot of the notification above and send this to me. Thank you!"
 msgstr "软件出错。請截屏並用電郵通知软件作者。十分感謝！"
 
 msgctxt "imageselect_error_no_image_import_activity"
@@ -6502,7 +6042,6 @@ msgctxt "imagelibrary_error_cannot_import_current_directory_is_not_valid"
 msgid "Cannot import image because the current directory is not valid."
 msgstr "當前路径無效，無法導入圖像。"
 
-#, fuzzy
 msgctxt "error_cannot_open_pdf"
 msgid "Cannot open link to PDF file"
 msgstr "無法打開指向PDF文件的鏈接"
@@ -6515,7 +6054,7 @@ msgctxt "storage_error_external_storage_unavailable"
 msgid "External storage (SD card?) not present."
 msgstr "外部存儲介質未加载或不存在。"
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "error_cannot_open_browser_url"
 msgid "Cannot open web browser to show web page '%1$s'"
 msgstr "無法打開Web瀏覽器以顯示網頁'%1$s'"
@@ -6702,7 +6241,6 @@ msgctxt "imerror_imi_cannot_open"
 msgid "Cannot open IMI file '{}'."
 msgstr "無法打開 IMI 文件 '{}'。"
 
-#, fuzzy
 msgctxt "imerror_nlohmann_json_parse_error"
 msgid "Parse error '{}'"
 msgstr "解析錯誤 '{}'"
@@ -6719,12 +6257,10 @@ msgctxt "imerror_zip_read_error"
 msgid "Error reading ZIP file."
 msgstr "讀取 ZIP 文件時出錯。"
 
-#, fuzzy
 msgctxt "imerror_corrupted_file_compression"
 msgid "File compression error."
 msgstr "文件壓縮錯誤。"
 
-#, fuzzy
 msgctxt "imerror_zlib_error"
 msgid "ZLib error code: '{}'."
 msgstr "ZLib錯誤代碼：“ {}”。"
@@ -6771,12 +6307,9 @@ msgctxt "imerror_opengl"
 msgid "OpenGL error: \"{}\"."
 msgstr "OpenGL 錯誤：\"{}\"。"
 
-#, fuzzy
 msgctxt "imerror_opengl_cannot_allocate_rendering_surface"
-msgid ""
-"Not enough memory to render at output resolution {}. Please reduce the "
-"output resolution."
-msgstr "沒有足夠的內存可用於以輸出分辨率{}進行渲染。請降低輸出分辨率。"
+msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
+msgstr "沒有足夠的內存以分辨率 {} 進行渲染。請降低輸出分辨率。"
 
 #. other errors
 msgctxt "imerror_out_of_memory"
@@ -6787,15 +6320,13 @@ msgctxt "imerror_out_of_memory_with_size"
 msgid "Out of memory (cannot allocate {} bytes)."
 msgstr "內存不足（無法储存 {} 個字節）。"
 
-#, fuzzy
 msgctxt "imerror_out_of_memory_with_size_mb"
 msgid "Out of memory (cannot allocate {} MB)."
 msgstr "內存不足（無法分配{} MB）。"
 
-#, fuzzy
 msgctxt "imerror_internal_error"
 msgid "Internal error: {}."
-msgstr "內部錯誤： {}。"
+msgstr "應用內部錯誤： {}。"
 
 #. string name="imerror_databundle_cannot_find_imm_file">Cannot find the .imm
 #. file.</string
@@ -6860,17 +6391,14 @@ msgctxt "imerror_android_import_security_exception"
 msgid "Security exception when accessing URI '{}'."
 msgstr "訪問地址 '{}' 時发生安全異常。"
 
-#, fuzzy
 msgctxt "imerror_android_insert_image_into_gallery"
 msgid "Cannot insert image into gallery ({})."
-msgstr "無法將圖片插入圖庫（{}）。"
+msgstr "無法將圖像插入圖庫（{}）。"
 
-#, fuzzy
 msgctxt "imerror_android_copy_image_data_into_gallery"
 msgid "Cannot copy image data into gallery (url='{}')."
 msgstr "無法將圖像數據複製到圖庫（url ='{}'）。"
 
-#, fuzzy
 msgctxt "imerror_android_delete_old_image_from_gallery"
 msgid "Cannot delete old image from gallery (url='{}')."
 msgstr "無法從圖庫中刪除舊圖像（url ='{}'）。"
@@ -6882,46 +6410,37 @@ msgstr "雲儲存"
 msgctxt "cloud_storage_not_configured"
 msgid ""
 "You have not yet configured cloud storage. \n"
-"Cloud storage can be used to sync your images automatically between "
-"multiple devices or for backup. More detailed documentation on this can "
-"be found in the <a "
-"href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \n"
-"The settings for cloud storage can be found in the 'Storage' section of "
-"the app settings (<a href=\"cloud-settings\">open settings</a>)."
+"Cloud storage can be used to sync your images automatically between multiple devices or for backup. More "
+"detailed documentation on this can be found in the <a href=\"https://imagemeter.com/manual/storage/cloud/"
+"\">manual.</a> \n"
+"The settings for cloud storage can be found in the 'Storage' section of the app settings (<a href=\"cloud-"
+"settings\">open settings</a>)."
 msgstr ""
 "您尚未配置雲存儲。\n"
-"雲存儲可用於在多個設備之間自動同步圖像或進行備份。可以在<a "
-"href=\"https://imagemeter.com/manual/storage/cloud/\">《用户手冊》</a>中找到有關此問題的更多詳細文檔。"
-"\n"
+"雲存儲可用於在多個設備之間自動同步圖像或進行備份。可以在<a href=\"https://imagemeter.com/manual/storage/cloud/"
+"\">《用户手冊》</a>中找到有關此問題的更多詳細文檔。\n"
 "可以在應用程序設置的“存儲”部分中找到雲存儲的設置（<a href=\"cloud-settings\">打開設置</a>）。"
 
 msgctxt "cloud_storage_not_configured_syncing_inbox_in_bkg"
 msgid "Your <i>inbox</i> folder is being synced."
 msgstr "您的<i>收件箱</i>文件夾正在同步。"
 
-#, fuzzy
 msgctxt "cloud_storage_not_configured_business_upgrade"
 msgid ""
-"Cloud storage is only available in the <b>Business</b> version of "
-"ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-"
-"business-features\">here</a> for all benefits of the Business version."
+"Cloud storage is only available in the <b>Business</b> version of ImageMeter. See <a href=\"https://imagemeter."
+"com/manual/license/android-business-features\">here</a> for all benefits of the Business version."
 msgstr ""
-"雲存儲僅在 ImageMeter 的<b>企业版</b>中可用。有關企業版的所有優勢，請參見<a "
-"href=\"https://imagemeter.com/manual/license/android-business-"
-"features\">此處</a>。"
+"雲存儲僅在 ImageMeter 的<b>企業版</b>中可用。有關企業版的所有優勢，請參見<a href=\"https://imagemeter.com/manual/"
+"license/android-business-features\">此處</a>。"
 
 msgctxt "cloud_storage_not_configured_inbox_only"
 msgid ""
-"Full cloud storage is only available in the <b>Business</b> version of "
-"ImageMeter. Without Business upgrade, cloud storage is limited to the "
-"<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license"
-"/android-business-features\">here</a> for all benefits of the Business "
-"version."
+"Full cloud storage is only available in the <b>Business</b> version of ImageMeter. Without Business upgrade, "
+"cloud storage is limited to the <i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license/android-"
+"business-features\">here</a> for all benefits of the Business version."
 msgstr ""
-"完整雲存儲僅在 ImageMeter "
-"的<b>企业版</b>中可用。如果不進行版本升級，則云存儲僅限於<i>收件箱</i>文件夾。有關企業版的所有優勢，請參見<a "
-"href=\"https://imagemeter.com/manual/license/android-business-"
-"features\">此處</a>。"
+"完整雲存儲僅在 ImageMeter 的<b>企業版</b>中可用。如果不進行版本升級，則云存儲僅限於<i>收件箱</i>文件夾。有關企業"
+"版的所有優勢，請參見<a href=\"https://imagemeter.com/manual/license/android-business-features\">此處</a>。"
 
 msgctxt "error_cloud_cannot_login_unknown"
 msgid "Cannot sign in to your cloud server account."
@@ -7096,15 +6615,13 @@ msgctxt "error_cloud_server_error"
 msgid "Server error: {}"
 msgstr "服務器錯誤：{}"
 
-#, fuzzy
 msgctxt "error_cloud_file_locked_on_server"
 msgid "File is locked on server. Please retry upload at a later time."
 msgstr "文件已在服務器上鎖定。請稍後重試上傳。"
 
-#, fuzzy
 msgctxt "error_cloud_server_blocked"
 msgid "Server blocked by another client. Please retry at a later time."
-msgstr "服務器被另一個客戶端占用"
+msgstr "服務器被另一個客戶端占用， 請稍後重試。 "
 
 msgctxt "error_cloud_remote_file_does_not_exist"
 msgid "File '{}' does not exist on server"
@@ -7221,15 +6738,14 @@ msgstr "這些圖像的 .imm 文件已損壞，无法被導出. "
 #, c-format
 msgctxt "UNUSED_imageselect_error_image_version_more_recent_open_editor_anyways"
 msgid ""
-"The file version of this image (%1$d) is more recent than the maximum "
-"version supported by the ImageMeter version installed (%2$d). Opening the"
-" file may result in lost data or wrong annotations. You should use a "
-"recent version of ImageMeter to open this file.\n"
+"The file version of this image (%1$d) is more recent than the maximum version supported by the ImageMeter "
+"version installed (%2$d). Opening the file may result in lost data or wrong annotations. You should use a recent "
+"version of ImageMeter to open this file.\n"
 "\n"
 "Do you still want to open it?"
 msgstr ""
-"這張圖像 (%1$d) 被本软件的更高版本編輯過。您正使用的 ImageMeter 版本号是 "
-"(%2$d)。用本版打開該圖像可能導致圖像上的數據錯失。建議您使用本软件的更高版本來打開該文件。\n"
+"這張圖像 (%1$d) 被本软件的更高版本編輯過。您正使用的 ImageMeter 版本号是 (%2$d)。用本版打開該圖像可能導致圖像上的"
+"數據錯失。建議您使用本软件的更高版本來打開該文件。\n"
 "\n"
 "您確定要打開這個圖像？"
 
@@ -7242,28 +6758,23 @@ msgid "This is an essential system folder, you cannot remove or rename it."
 msgstr "這是系統文件夾，不能刪除或者重命名。"
 
 msgctxt "UNUSED_imageselect_error_cannot_move_bundle_to_folder"
-msgid ""
-"Cannot move image to new folder (maybe an image with the same name "
-"already exists)."
+msgid "Cannot move image to new folder (maybe an image with the same name already exists)."
 msgstr "無法將圖像轉移到目標文件夾（那裡可能存在同名圖像）。"
 
-#, fuzzy
 msgctxt "UNUSED_imageselect_error_external_memory_unavailable"
 msgid ""
-"External memory (where your app-data is stored) is not available. Most "
-"probably, your device stores this data on an external SD card which is "
-"currently not available. If this is not the problem in your case, you may"
-" contact info@imagemeter.com."
+"External memory (where your app-data is stored) is not available. Most probably, your device stores this data on "
+"an external SD card which is currently not available. If this is not the problem in your case, you may contact "
+"info@imagemeter.com."
 msgstr ""
-"外部儲存介質 （即本软件數據儲存之處）不可用。很可能您的数据储存在外部闪卡中，但该閃存卡現在未加载，或者不可用。如果不是這個問題，您可以聯繫 "
-"info@imagemeter.com. "
+"外部儲存介質 （即本软件數據儲存之處）不可用。很可能您的数据储存在外部闪卡中，但该閃存卡現在未加载，或者不可用。如"
+"果不是這個問題，您可以聯繫 info@imagemeter.com. "
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_folder_cannot_create"
 msgid ""
-"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
-"the media (e.g. SD-card) is mounted, this directory exists and is "
-"writable."
+"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure the media (e.g. SD-card) is mounted, "
+"this directory exists and is writable."
 msgstr "无法在這個文件夾 '%2$s' 內新建文件夾 '%1$s'。請確認這個儲存介質已經加載，並且该文件夾存在並可寫。"
 
 #, c-format
@@ -7334,9 +6845,7 @@ msgid "Could not write file to external memory."
 msgstr "无法写入外部存儲介質。"
 
 msgctxt "UNUSED_storage_error_external_storage_could_not_get_permission_to_write_images"
-msgid ""
-"Could not get permission to write to external storage. No files have been"
-" written."
+msgid "Could not get permission to write to external storage. No files have been written."
 msgstr "在外部存儲介質上無寫入權限，文件尚未保存。"
 
 #, c-format
@@ -7354,9 +6863,7 @@ msgid "Data in image directory '%1$s' is corrupted."
 msgstr "图像文件夾 '%1$s' 中的數據已損壞。"
 
 msgctxt "UNUSED_storage_error_no_permission_to_read_image_to_be_imported"
-msgid ""
-"Cannot import image because the permission to read external storage has "
-"not been granted."
+msgid "Cannot import image because the permission to read external storage has not been granted."
 msgstr "在外存中无读取权限，無法導入圖像。"
 
 #, c-format
@@ -7388,17 +6895,15 @@ msgid "Downloading image file from cloud storage."
 msgstr "正在從雲存儲下載圖像文件。"
 
 #. old gallery export
-#, fuzzy
 msgctxt "UNUSED_export_dialog_saving_images_to_external_storage"
 msgid "Saving images to external storage…"
 msgstr "正在將圖像存至外部介質..."
 
-#, fuzzy
 msgctxt "UNUSED_export_dialog_image_saved_to_external_storage"
 msgid "Saved image to external storage…"
 msgstr "已將圖像存至外部介質..."
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "UNUSED_export_dialog_images_saved_to_external_storage"
 msgid "Saved %1$d images to external storage…"
 msgstr "已存儲 %1$d 张图像到外部储存介质"
@@ -7479,8 +6984,7 @@ msgstr "導入文件夾"
 #, c-format
 msgctxt "UNUSED_dialog_duplicate_folder_import_message"
 msgid ""
-"Imported folder '%1$s' already exists. %3$d images should be imported, "
-"out of which %2$d already exist locally."
+"Imported folder '%1$s' already exists. %3$d images should be imported, out of which %2$d already exist locally."
 msgstr "導入的文件夾 '%1$s' 已存在。應導入 %3$d 張圖像，其中 %2$d 張已存在."
 
 #, c-format
@@ -7503,4 +7007,3 @@ msgstr "共存"
 msgctxt "UNUSED_dialog_duplicate_folder_import_skip"
 msgid "Skip"
 msgstr ""
-
