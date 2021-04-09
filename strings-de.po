@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-24 11:45+0100\n"
-"PO-Revision-Date: 2021-03-06 16:45+0100\n"
+"POT-Creation-Date: 2021-04-09 22:01+0200\n"
+"PO-Revision-Date: 2021-04-09 22:00+0200\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -2203,6 +2203,19 @@ msgctxt "pref_editor_snapping_strength_choices:2"
 msgid "High"
 msgstr "Hoch"
 
+msgctxt "pref_editor_snapping_raster"
+msgid "Distance step size"
+msgstr "Rasterlänge"
+
+msgctxt "pref_editor_snapping_raster_descr"
+msgid ""
+"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
+"rectangle sides will be restricted to steps of this size."
+msgstr ""
+"Geben Sie eine Distanz ein (z.B. 10cm, 1ft, oder 1'). Die gezeichneten "
+"Maße und Rechteckseiten werden daraufhin auf ganze Vielfache dieser "
+"Strecke beschränkt."
+
 msgctxt "pref_category_editor_magnifier"
 msgid "Magnifier"
 msgstr "Lupe"
@@ -3848,11 +3861,11 @@ msgstr "AppGallery meldet: keine Käufe für das aktive Konto"
 
 msgctxt "pref_category_information_credits"
 msgid "Credits"
-msgstr ""
+msgstr "Danksagungen"
 
 msgctxt "pref_information_translator"
 msgid "."
-msgstr ""
+msgstr "."
 
 #. ===== cloud synchronization =====
 msgctxt "cloud_storage_dialog_sync_action_title"
@@ -6276,21 +6289,21 @@ msgctxt "imagelibrary_moving_images_to_app_directory"
 msgid "Moving images to app directory (%1$d of %2$d)."
 msgstr "Bilder werden ins Appverzeichnis verschoben (%1$d von %2$d)."
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "editor_error_nonpro_gelement_limit_message"
 msgid ""
 "Please upgrade to the %1$s version of ImageMeter to use more than five "
 "annotations."
 msgstr "Mehr als fünf Bemaßungen pro Bild sind mit der %1$s-Version möglich."
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "editor_error_nonpro_bluetooth_limit_message"
 msgid ""
 "For Bluetooth measurements with more than 3 meters, please upgrade to the"
 " %1$s version."
 msgstr "Bluetoothmessungen über 3 Meter sind mit der %1$s-Version möglich."
 
-#, c-format, fuzzy
+#, c-format
 msgctxt "editor_error_nonpro_clipboard_message"
 msgid "For using the clipboard, please upgrade to the %1$s version."
 msgstr ""
