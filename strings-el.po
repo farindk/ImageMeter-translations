@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-04-09 22:01+0200\n"
+"POT-Creation-Date: 2021-04-29 17:36+0200\n"
 "PO-Revision-Date: 2020-06-11 20:22+0200\n"
 "Last-Translator: \n"
 "Language: el\n"
@@ -947,16 +947,34 @@ msgid "Example 4: Perspective height measurement"
 msgstr ""
 
 #. image import (TODO: move to editcore. Also Pdf import name?)
+#, fuzzy
 msgctxt "default_image_name_prefix_with_date"
-msgid "image from {M} {d}, {yyyy}"
-msgstr "εικόνα από {d} {M} {yyyy}"
+msgid "image from {now}"
+msgstr "εικόνα από {now.d} {now.M} {now.yyyy}"
 
 msgctxt "default_image_name_from_unnamed_pdf"
 msgid "PDF import, page {page}"
 msgstr ""
 
+#, fuzzy
 msgctxt "default_image_name_from_pdf"
-msgid "{name}, page {page}"
+msgid "{filename.stem}, page {page}"
+msgstr ""
+
+msgctxt "default_image_name_from_unnamed_import"
+msgid "imported {now}"
+msgstr ""
+
+msgctxt "default_image_name_from_import"
+msgid "{filename.stem}"
+msgstr ""
+
+msgctxt "default_canvas_name"
+msgid "new canvas"
+msgstr ""
+
+msgctxt "default_folder_name"
+msgid "new folder"
 msgstr ""
 
 msgctxt "filename_copy_tag"
@@ -1142,6 +1160,10 @@ msgstr ""
 
 msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
+msgstr ""
+
+msgctxt "dialog_pdf_export_image_title"
+msgid "Image title"
 msgstr ""
 
 msgctxt "dialog_pdf_export_data_table"
@@ -1439,6 +1461,270 @@ msgstr "ακτίνια"
 msgctxt "core_unit_gradians"
 msgid "gradians"
 msgstr "βαθμός"
+
+#. ========== string-script info ==========
+msgctxt "stringscript_help_dialog_title"
+msgid "Brief Scripting Manual"
+msgstr ""
+
+#, fuzzy
+msgctxt "stringscript_help_introtext"
+msgid ""
+"Enter the text that should appear here. You can add variables enclosed by"
+" { } that will be substituted.\n"
+"\n"
+" Here are some example variables, but see below for the list of variables"
+" that are actually allowed here:\n"
+" {image.title} - image title\n"
+" {image.number} - the number you assigned to the image\n"
+" {folder.title} - title of the current folder\n"
+" {folder.parent.title} - title of the parent folder\n"
+"\n"
+" You can build complex expressions like this:\n"
+" {folder.title} / {image.number} - {image.title}"
+msgstr ""
+
+msgctxt "stringscript_help_intro_toplevel_variables"
+msgid "Allowed top level variables:"
+msgstr ""
+
+msgctxt "stringscript_help_intro_subelements"
+msgid ""
+"Each type may have sub-elements. Here is the list of sub-elements for "
+"each data type:"
+msgstr ""
+
+msgctxt "stringscript_root_member_image"
+msgid "This image."
+msgstr ""
+
+msgctxt "stringscript_root_member_folder"
+msgid "Current folder."
+msgstr ""
+
+msgctxt "stringscript_root_member_date"
+msgid "The current date and time."
+msgstr ""
+
+msgctxt "stringscript_root_member_import_image_filename"
+msgid "Filename of the imported image."
+msgstr ""
+
+msgctxt "stringscript_root_member_import_image_exif"
+msgid "EXIF metdata of the imported image."
+msgstr ""
+
+msgctxt "stringscript_root_member_import_pdf_filename"
+msgid "Filename of the imported PDF."
+msgstr ""
+
+msgctxt "stringscript_root_member_imported_pdf_page"
+msgid "Imported PDF page."
+msgstr ""
+
+msgctxt "stringscript_root_member_pdf_image_folder"
+msgid "Folder of each image."
+msgstr ""
+
+msgctxt "stringscript_root_member_pdf_image_exif"
+msgid "EXIF metadata of each image."
+msgstr ""
+
+msgctxt "scriptobject_undefined_value"
+msgid "undefined"
+msgstr ""
+
+msgctxt "scriptobject_undefined_type"
+msgid "undefined"
+msgstr ""
+
+msgctxt "scriptobject_string_type"
+msgid "string"
+msgstr ""
+
+msgctxt "scriptobject_float_type"
+msgid "number"
+msgstr ""
+
+msgctxt "scriptobject_integer_type"
+msgid "integer number"
+msgstr ""
+
+msgctxt "scriptobject_keyvaluepairs_type"
+msgid "collection"
+msgstr ""
+
+msgctxt "scriptobject_keyvaluepairs_description"
+msgid "A collection of other objects"
+msgstr ""
+
+msgctxt "scriptobject_databundle_type"
+msgid "image"
+msgstr ""
+
+msgctxt "scriptobject_databundle_description"
+msgid "Information about an image"
+msgstr ""
+
+msgctxt "scriptobject_databundle_member_title"
+msgid "The image title."
+msgstr ""
+
+msgctxt "scriptobject_databundle_member_parent"
+msgid "The folder this image is located in."
+msgstr ""
+
+msgctxt "scriptobject_databundle_member_number"
+msgid "The user-assigned number."
+msgstr ""
+
+msgctxt "scriptobject_databundle_member_capture_date"
+msgid "The date at which this image was captured."
+msgstr ""
+
+msgctxt "scriptobject_folder_type"
+msgid "folder"
+msgstr ""
+
+msgctxt "scriptobject_folder_description"
+msgid "Information about a folder"
+msgstr ""
+
+msgctxt "scriptobject_folder_member_title"
+msgid "Folder title."
+msgstr ""
+
+msgctxt "scriptobject_folder_member_parent"
+msgid "The folder above this one."
+msgstr ""
+
+msgctxt "scriptobject_folder_member_number"
+msgid "The user-assigned number."
+msgstr ""
+
+msgctxt "scriptobject_date_type"
+msgid "date"
+msgstr ""
+
+msgctxt "scriptobject_date_description"
+msgid "Date and time"
+msgstr ""
+
+msgctxt "scriptobject_date_member_yyyy"
+msgid "Year (4 digits)."
+msgstr ""
+
+msgctxt "scriptobject_date_member_yy"
+msgid "Year (last 2 digits)."
+msgstr ""
+
+msgctxt "scriptobject_date_member_m"
+msgid "Month number."
+msgstr ""
+
+msgctxt "scriptobject_date_member_mm"
+msgid "Month number (2 digits)."
+msgstr ""
+
+msgctxt "scriptobject_date_member_M"
+msgid "Month (name abbreviation)."
+msgstr ""
+
+msgctxt "scriptobject_date_member_MM"
+msgid "Month (full name)."
+msgstr ""
+
+msgctxt "scriptobject_date_member_d"
+msgid "Day number."
+msgstr ""
+
+msgctxt "scriptobject_date_member_dd"
+msgid "Day (2 digits)."
+msgstr ""
+
+msgctxt "scriptobject_date_member_h"
+msgid "Hour."
+msgstr ""
+
+msgctxt "scriptobject_date_member_hh"
+msgid "Hour (2 digits)."
+msgstr ""
+
+msgctxt "scriptobject_date_member_h12"
+msgid "Hour (12 hours + am/pm)."
+msgstr ""
+
+msgctxt "scriptobject_date_member_min"
+msgid "Minutes (2 digits)."
+msgstr ""
+
+msgctxt "scriptobject_date_member_sec"
+msgid "Seconds (2 digits)."
+msgstr ""
+
+msgctxt "scriptobject_date_member_time"
+msgid "Full time in HH:MM:SS format."
+msgstr ""
+
+msgctxt "scriptobject_filename_type"
+msgid "filename"
+msgstr ""
+
+msgctxt "scriptobject_filename_description"
+msgid "A filename"
+msgstr ""
+
+msgctxt "scriptobject_filename_member_stem"
+msgid "The filename without suffix."
+msgstr ""
+
+msgctxt "scriptobject_filename_member_suffix"
+msgid "The filename suffix."
+msgstr ""
+
+msgctxt "scriptobject_exif_type"
+msgid "exif"
+msgstr ""
+
+msgctxt "scriptobject_exif_description"
+msgid "EXIF metadata from the image"
+msgstr ""
+
+msgctxt "scriptobject_exif_member_gps"
+msgid "GPS location."
+msgstr ""
+
+msgctxt "scriptobject_exif_member_date"
+msgid "Date the image was captured."
+msgstr ""
+
+msgctxt "scriptobject_exif_member_make"
+msgid "Camera manufacturer."
+msgstr ""
+
+msgctxt "scriptobject_exif_member_model"
+msgid "Camera model."
+msgstr ""
+
+msgctxt "scriptobject_gps_type"
+msgid "gps"
+msgstr ""
+
+msgctxt "scriptobject_gps_description"
+msgid "GPS location"
+msgstr ""
+
+msgctxt "scriptobject_gps_member_latitude"
+msgid "Latitude (N/S)."
+msgstr ""
+
+msgctxt "scriptobject_gps_member_longitude"
+msgid "Longitude (E/W)."
+msgstr ""
+
+msgctxt "scriptobject_gps_member_altitude"
+msgid "Altitude."
+msgstr ""
 
 #. ========== preferences ==========
 #. main screen
@@ -2688,6 +2974,68 @@ msgctxt "pref_ui_edit_image_after_capture_enabled"
 msgid "Edit image after capture"
 msgstr "Επεξεργασία μετά την σύλληψη"
 
+#. initial texts
+msgctxt "pref_category_ui_initial_titles"
+msgid "Initial titles"
+msgstr ""
+
+msgctxt "pref_category_ui_initial_notes"
+msgid "Initial notes"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_info"
+msgid "Show scripting overview…"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_title_expr_camera"
+msgid "Title for camera images"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_notes_expr_camera"
+msgid "Notes for camera images"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_title_expr_import_image_with_filename"
+msgid "Imported image with filename"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_title_expr_import_image_no_filename"
+msgid "Imported image without filename"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_notes_expr_import_image"
+msgid "Notes for imported image"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_title_expr_import_pdf_with_filename"
+msgid "Imported PDF with filename"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_title_expr_import_pdf_no_filename"
+msgid "imported PDF without filename"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_notes_expr_import_pdf"
+msgid "Notes for imported PDF"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_title_expr_canvas"
+msgid "Title for new canvas"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_notes_expr_canvas"
+msgid "Notes for new canvas"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_folder_title_expr"
+msgid "Title for new folder"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_folder_notes_expr"
+msgid "Notes for new folder"
+msgstr ""
+
+#. numbering
 msgctxt "pref_category_ui_numbering"
 msgid "Image numbering"
 msgstr ""
