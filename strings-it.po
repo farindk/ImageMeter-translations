@@ -957,11 +957,11 @@ msgstr ""
 #. TODO: these names should be a simple summary name for the "About App"
 #. dialog. But this does not work well with the          add-ons. Replace it
 #. with a different system.
-msgctxt "upgrade_licenseName_freeEvaluation"
+msgctxt "license:free"
 msgid "Free Evaluation"
 msgstr "Valutazione gratuita"
 
-msgctxt "upgrade_licenseName_pro"
+msgctxt "license:pro"
 msgid "Pro"
 msgstr "Pro"
 
@@ -970,7 +970,7 @@ msgid "Basic"
 msgstr ""
 
 #, fuzzy
-msgctxt "upgrade_licenseName_business"
+msgctxt "license:business"
 msgid "Business"
 msgstr "Attività commerciale"
 
@@ -978,12 +978,12 @@ msgctxt "upgrade_licenseName_addon_without_base_license"
 msgid "Add-on without base license"
 msgstr ""
 
-msgctxt "license_source_in_app"
+msgctxt "license:source:android-in-app"
 msgid "In-app"
 msgstr "In-app"
 
 #, fuzzy
-msgctxt "license_source_native"
+msgctxt "license:source:android-nativepro"
 msgid "Native"
 msgstr "Native"
 
@@ -1091,38 +1091,38 @@ msgstr "Esempio 4: Misurazione dell'altezza prospettica"
 
 #. image import (TODO: move to editcore. Also Pdf import name?)
 #, fuzzy
-msgctxt "default_image_name_prefix_with_date"
+msgctxt "entity-initialization:image-title:camera"
 msgid "image from {now}"
 msgstr "immagine da {now.d}.{now.M}.{now.yyyy}"
 
 #, fuzzy
-msgctxt "default_image_name_from_unnamed_pdf"
+msgctxt "entity-initialization:image-title:pdf-page-without-name"
 msgid "PDF import, page {page}"
 msgstr "Importazione PDF, pagina {page}"
 
 #, fuzzy
-msgctxt "default_image_name_from_pdf"
+msgctxt "entity-initialization:image-title:pdf-page-with-name"
 msgid "{filename.stem}, page {page}"
 msgstr "{filename.stem}, pagina {page}"
 
-msgctxt "default_image_name_from_unnamed_import"
+msgctxt "entity-initialization:image-title:import-without-name"
 msgid "imported {now}"
 msgstr ""
 
-msgctxt "default_image_name_from_import"
+msgctxt "entity-initialization:image-title:import-with-name"
 msgid "{filename.stem}"
 msgstr ""
 
-msgctxt "default_canvas_name"
+msgctxt "entity-initialization:image-title:canvas"
 msgid "new canvas"
 msgstr ""
 
-msgctxt "default_folder_name"
+msgctxt "entity-initialization:folder-title"
 msgid "new folder"
 msgstr ""
 
 #, fuzzy
-msgctxt "filename_copy_tag"
+msgctxt "filename-copy-tag"
 msgid "copy"
 msgstr "copia"
 
@@ -1432,12 +1432,12 @@ msgid "Rendering image %1$d of %2$d."
 msgstr "Rendering immagine %1$d di %2$d."
 
 #, fuzzy
-msgctxt "pdf_export_table_of_contents"
+msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
 msgstr "Sommario"
 
 #, fuzzy
-msgctxt "pdf_export_root_folder_title"
+msgctxt "pdf-export:root-folder-title"
 msgid "ImageMeter export"
 msgstr "Esportazione di ImageMeter"
 
@@ -1479,7 +1479,7 @@ msgstr ""
 
 #. export
 #, fuzzy
-msgctxt "export_eval_version"
+msgctxt "rendering:watermark"
 msgid ""
 "Evaluation copy\n"
 "Please upgrade to remove watermark"
@@ -1600,84 +1600,84 @@ msgid "Error while duplicating image"
 msgstr "Errore durante la duplicazione dell'immagine"
 
 #. ========== measures ==========
-msgctxt "core_unit_meter"
+msgctxt "unit:translated-name:meter"
 msgid "m"
 msgstr "m"
 
-msgctxt "core_unit_inch"
+msgctxt "unit:translated-name:inch"
 msgid "inch"
 msgstr "pollice"
 
-msgctxt "core_unit_foot"
+msgctxt "unit:translated-name:foot"
 msgid "foot"
 msgstr "piede"
 
-msgctxt "core_unit_yard"
+msgctxt "unit:translated-name:yard"
 msgid "yard"
 msgstr "larda"
 
-msgctxt "core_unit_mile"
+msgctxt "unit:translated-name:mile"
 msgid "mile"
 msgstr "miglio"
 
-msgctxt "core_unit_mil"
+msgctxt "unit:translated-name:mil"
 msgid "mil"
 msgstr ""
 
-msgctxt "core_unit_meter2"
+msgctxt "unit:translated-name:meter2"
 msgid "m²"
 msgstr "m²"
 
-msgctxt "core_unit_inch2"
+msgctxt "unit:translated-name:inch2"
 msgid "sq inch"
 msgstr ""
 
-msgctxt "core_unit_foot2"
+msgctxt "unit:translated-name:foot2"
 msgid "sq foot"
 msgstr ""
 
-msgctxt "core_unit_yard2"
+msgctxt "unit:translated-name:yard2"
 msgid "sq yard"
 msgstr ""
 
-msgctxt "core_unit_mile2"
+msgctxt "unit:translated-name:mile2"
 msgid "sq mile"
 msgstr ""
 
-msgctxt "core_unit_acre"
+msgctxt "unit:translated-name:acre"
 msgid "acre"
 msgstr "acro"
 
-msgctxt "core_unit_are"
+msgctxt "unit:translated-name:are"
 msgid "are"
 msgstr "are"
 
-msgctxt "core_unit_ha"
+msgctxt "unit:translated-name:ha"
 msgid "hectare"
 msgstr "ettaro"
 
-msgctxt "core_unit_mil2"
+msgctxt "unit:translated-name:mil2"
 msgid "square mil"
 msgstr ""
 
-msgctxt "core_unit_cmil"
+msgctxt "unit:translated-name:cmil"
 msgid "circular mil"
 msgstr ""
 
-msgctxt "core_unit_degrees"
+msgctxt "unit:translated-name:degrees"
 msgid "degrees"
 msgstr "gradi"
 
 #, c-format
-msgctxt "core_unit_slope_percent"
+msgctxt "unit:translated-name:slope-percent"
 msgid "slope %"
 msgstr "pendenza %"
 
-msgctxt "core_unit_radian"
+msgctxt "unit:translated-name:radian"
 msgid "radians"
 msgstr "radianti"
 
-msgctxt "core_unit_gradians"
+msgctxt "unit:translated-name:gradians"
 msgid "gradians"
 msgstr "grado centesimale"
 
@@ -1694,7 +1694,7 @@ msgid ""
 msgstr ""
 
 #, fuzzy
-msgctxt "stringscript_help_introtext"
+msgctxt "stringscript:help:introtext"
 msgid ""
 "Enter the text that should appear here. You can add variables enclosed by"
 " { } that will be substituted.\n"
@@ -1710,245 +1710,245 @@ msgid ""
 " {folder.title} / {image.number} - {image.title}"
 msgstr ""
 
-msgctxt "stringscript_help_intro_toplevel_variables"
+msgctxt "stringscript:help:intro_toplevel_variables"
 msgid "Allowed top level variables:"
 msgstr ""
 
-msgctxt "stringscript_help_intro_subelements"
+msgctxt "stringscript:help:intro_subelements"
 msgid ""
 "Each type may have sub-elements. Here is the list of sub-elements for "
 "each data type:"
 msgstr ""
 
-msgctxt "stringscript_root_member_image"
+msgctxt "stringscript:root:member:image"
 msgid "This image."
 msgstr ""
 
-msgctxt "stringscript_root_member_folder"
+msgctxt "stringscript:root:member:folder"
 msgid "Current folder."
 msgstr ""
 
-msgctxt "stringscript_root_member_date"
+msgctxt "stringscript:root:member:date"
 msgid "The current date and time."
 msgstr ""
 
-msgctxt "stringscript_root_member_import_image_filename"
+msgctxt "stringscript:root:member:import_image_filename"
 msgid "Filename of the imported image."
 msgstr ""
 
-msgctxt "stringscript_root_member_import_image_exif"
+msgctxt "stringscript:root:member:import_image_exif"
 msgid "EXIF metdata of the imported image."
 msgstr ""
 
-msgctxt "stringscript_root_member_import_pdf_filename"
+msgctxt "stringscript:root:member:import_pdf_filename"
 msgid "Filename of the imported PDF."
 msgstr ""
 
-msgctxt "stringscript_root_member_imported_pdf_page"
+msgctxt "stringscript:root:member:imported_pdf_page"
 msgid "Imported PDF page."
 msgstr ""
 
-msgctxt "stringscript_root_member_pdf_image_folder"
+msgctxt "stringscript:root:member:pdf-image-folder"
 msgid "Folder of each image."
 msgstr ""
 
-msgctxt "scriptobject_undefined_value"
+msgctxt "scriptobject:undefined:value"
 msgid "undefined"
 msgstr ""
 
-msgctxt "scriptobject_undefined_type"
+msgctxt "scriptobject:undefined:type"
 msgid "undefined"
 msgstr ""
 
-msgctxt "scriptobject_string_type"
+msgctxt "scriptobject:string:type"
 msgid "string"
 msgstr ""
 
-msgctxt "scriptobject_float_type"
+msgctxt "scriptobject:float:type"
 msgid "number"
 msgstr ""
 
-msgctxt "scriptobject_integer_type"
+msgctxt "scriptobject:integer:type"
 msgid "integer number"
 msgstr ""
 
-msgctxt "scriptobject_keyvaluepairs_type"
+msgctxt "scriptobject:keyvaluepairs:type"
 msgid "collection"
 msgstr ""
 
-msgctxt "scriptobject_keyvaluepairs_description"
+msgctxt "scriptobject:keyvaluepairs:description"
 msgid "A collection of other objects"
 msgstr ""
 
-msgctxt "scriptobject_databundle_type"
+msgctxt "scriptobject:databundle:type"
 msgid "image"
 msgstr ""
 
-msgctxt "scriptobject_databundle_description"
+msgctxt "scriptobject:databundle:description"
 msgid "Information about an image"
 msgstr ""
 
-msgctxt "scriptobject_databundle_member_title"
+msgctxt "scriptobject:databundle:member:title"
 msgid "The image title."
 msgstr ""
 
-msgctxt "scriptobject_databundle_member_parent"
+msgctxt "scriptobject:databundle:member:parent"
 msgid "The folder this image is located in."
 msgstr ""
 
-msgctxt "scriptobject_databundle_member_number"
+msgctxt "scriptobject:databundle:member:number"
 msgid "The user-assigned number."
 msgstr ""
 
-msgctxt "scriptobject_databundle_member_capture_date"
+msgctxt "scriptobject:databundle:member:capture_date"
 msgid "The date at which this image was captured."
 msgstr ""
 
-msgctxt "scriptobject_databundle_member_exif"
+msgctxt "scriptobject:databundle:member:exif"
 msgid "EXIF data of this image."
 msgstr ""
 
-msgctxt "scriptobject_folder_type"
+msgctxt "scriptobject:folder:type"
 msgid "folder"
 msgstr ""
 
-msgctxt "scriptobject_folder_description"
+msgctxt "scriptobject:folder:description"
 msgid "Information about a folder"
 msgstr ""
 
-msgctxt "scriptobject_folder_member_title"
+msgctxt "scriptobject:folder:member:title"
 msgid "Folder title."
 msgstr ""
 
-msgctxt "scriptobject_folder_member_parent"
+msgctxt "scriptobject:folder:member:parent"
 msgid "The folder above this one."
 msgstr ""
 
-msgctxt "scriptobject_folder_member_number"
+msgctxt "scriptobject:folder:member:number"
 msgid "The user-assigned number."
 msgstr ""
 
-msgctxt "scriptobject_date_type"
+msgctxt "scriptobject:date:type"
 msgid "date"
 msgstr ""
 
-msgctxt "scriptobject_date_description"
+msgctxt "scriptobject:date:description"
 msgid "Date and time"
 msgstr ""
 
-msgctxt "scriptobject_date_member_yyyy"
+msgctxt "scriptobject:date:member:yyyy"
 msgid "Year (4 digits)."
 msgstr ""
 
-msgctxt "scriptobject_date_member_yy"
+msgctxt "scriptobject:date:member:yy"
 msgid "Year (last 2 digits)."
 msgstr ""
 
-msgctxt "scriptobject_date_member_m"
+msgctxt "scriptobject:date:member:m"
 msgid "Month number."
 msgstr ""
 
-msgctxt "scriptobject_date_member_mm"
+msgctxt "scriptobject:date:member:mm"
 msgid "Month number (2 digits)."
 msgstr ""
 
-msgctxt "scriptobject_date_member_M"
+msgctxt "scriptobject:date:member:M"
 msgid "Month (name abbreviation)."
 msgstr ""
 
-msgctxt "scriptobject_date_member_MM"
+msgctxt "scriptobject:date:member:MM"
 msgid "Month (full name)."
 msgstr ""
 
-msgctxt "scriptobject_date_member_d"
+msgctxt "scriptobject:date:member:d"
 msgid "Day number."
 msgstr ""
 
-msgctxt "scriptobject_date_member_dd"
+msgctxt "scriptobject:date:member:dd"
 msgid "Day (2 digits)."
 msgstr ""
 
-msgctxt "scriptobject_date_member_h"
+msgctxt "scriptobject:date:member:h"
 msgid "Hour."
 msgstr ""
 
-msgctxt "scriptobject_date_member_hh"
+msgctxt "scriptobject:date:member:hh"
 msgid "Hour (2 digits)."
 msgstr ""
 
-msgctxt "scriptobject_date_member_h12"
+msgctxt "scriptobject:date:member:h12"
 msgid "Hour (12 hours + am/pm)."
 msgstr ""
 
-msgctxt "scriptobject_date_member_min"
+msgctxt "scriptobject:date:member:min"
 msgid "Minutes (2 digits)."
 msgstr ""
 
-msgctxt "scriptobject_date_member_sec"
+msgctxt "scriptobject:date:member:sec"
 msgid "Seconds (2 digits)."
 msgstr ""
 
-msgctxt "scriptobject_date_member_time"
+msgctxt "scriptobject:date:member:time"
 msgid "Full time in HH:MM:SS format."
 msgstr ""
 
-msgctxt "scriptobject_filename_type"
+msgctxt "scriptobject:filename:type"
 msgid "filename"
 msgstr ""
 
-msgctxt "scriptobject_filename_description"
+msgctxt "scriptobject:filename:description"
 msgid "A filename"
 msgstr ""
 
-msgctxt "scriptobject_filename_member_stem"
+msgctxt "scriptobject:filename:member:stem"
 msgid "The filename without suffix."
 msgstr ""
 
-msgctxt "scriptobject_filename_member_suffix"
+msgctxt "scriptobject:filename:member:suffix"
 msgid "The filename suffix."
 msgstr ""
 
-msgctxt "scriptobject_exif_type"
+msgctxt "scriptobject:exif:type"
 msgid "exif"
 msgstr ""
 
-msgctxt "scriptobject_exif_description"
+msgctxt "scriptobject:exif:description"
 msgid "EXIF metadata from the image"
 msgstr ""
 
-msgctxt "scriptobject_exif_member_gps"
+msgctxt "scriptobject:exif:member:gps"
 msgid "GPS location."
 msgstr ""
 
-msgctxt "scriptobject_exif_member_date"
+msgctxt "scriptobject:exif:member:date"
 msgid "Date the image was captured."
 msgstr ""
 
-msgctxt "scriptobject_exif_member_make"
+msgctxt "scriptobject:exif:member:make"
 msgid "Camera manufacturer."
 msgstr ""
 
-msgctxt "scriptobject_exif_member_model"
+msgctxt "scriptobject:exif:member:model"
 msgid "Camera model."
 msgstr ""
 
-msgctxt "scriptobject_gps_type"
+msgctxt "scriptobject:gps:type"
 msgid "gps"
 msgstr ""
 
-msgctxt "scriptobject_gps_description"
+msgctxt "scriptobject:gps:description"
 msgid "GPS location"
 msgstr ""
 
-msgctxt "scriptobject_gps_member_latitude"
+msgctxt "scriptobject:gps:member:latitude"
 msgid "Latitude (N/S)."
 msgstr ""
 
-msgctxt "scriptobject_gps_member_longitude"
+msgctxt "scriptobject:gps:member:longitude"
 msgid "Longitude (E/W)."
 msgstr ""
 
-msgctxt "scriptobject_gps_member_altitude"
+msgctxt "scriptobject:gps:member:altitude"
 msgid "Altitude."
 msgstr ""
 
@@ -4038,48 +4038,48 @@ msgctxt "pref_template_custom_tag_filter"
 msgid "Filter"
 msgstr ""
 
-msgctxt "templ_labeltype_length"
+msgctxt "labeltype:length"
 msgid "Length"
 msgstr ""
 
-msgctxt "templ_labeltype_area"
+msgctxt "labeltype:area"
 msgid "Area"
 msgstr ""
 
-msgctxt "templ_labeltype_angle"
+msgctxt "labeltype:angle"
 msgid "Angle"
 msgstr ""
 
-msgctxt "templ_labeltype_any"
+msgctxt "labeltype:any"
 msgid "Any"
 msgstr ""
 
 #, fuzzy
-msgctxt "templ_labeltype_edge"
+msgctxt "labeltype:edge"
 msgid "Edge length"
 msgstr ""
 
-msgctxt "templ_labeltype_perimeter"
+msgctxt "labeltype:perimeter"
 msgid "Perimeter"
 msgstr ""
 
-msgctxt "templ_labeltype_radius"
+msgctxt "labeltype:radius"
 msgid "Radius"
 msgstr ""
 
-msgctxt "templ_labeltype_diameter"
+msgctxt "labeltype:diameter"
 msgid "Diameter"
 msgstr ""
 
-msgctxt "templ_labeltype_width"
+msgctxt "labeltype:width"
 msgid "Width"
 msgstr ""
 
-msgctxt "templ_labeltype_height"
+msgctxt "labeltype:height"
 msgid "Height"
 msgstr ""
 
-msgctxt "templ_labeltype_rectangleside_rectangle"
+msgctxt "labeltype:rectangle-side(rectangle)"
 msgid "Rectangle"
 msgstr ""
 
@@ -4222,59 +4222,59 @@ msgctxt "pref_template_areasum_edit_tables"
 msgid "Edit table layout"
 msgstr ""
 
-msgctxt "pref_template_areasum_table_column_item"
+msgctxt "templ:areasum:item"
 msgid "Item Number"
 msgstr ""
 
-msgctxt "pref_template_areasum_table_column_description"
+msgctxt "templ:areasum:description"
 msgid "Description"
 msgstr ""
 
-msgctxt "pref_template_areasum_table_column_count"
+msgctxt "templ:areasum:count"
 msgid "Count"
 msgstr ""
 
-msgctxt "pref_template_areasum_table_column_width_height"
+msgctxt "templ:areasum:width-height"
 msgid "Width and height"
 msgstr ""
 
-msgctxt "pref_template_areasum_table_column_measured_area"
+msgctxt "templ:areasum:measured-area"
 msgid "Measured area"
 msgstr ""
 
-msgctxt "pref_template_areasum_table_column_factor"
+msgctxt "templ:areasum:factor"
 msgid "Factor"
 msgstr ""
 
-msgctxt "pref_template_areasum_table_column_calculated_area"
+msgctxt "templ:areasum:calculated-area"
 msgid "Calculated area"
 msgstr ""
 
-msgctxt "pref_template_areasum_table_column_plus_minus_areas"
+msgctxt "templ:areasum:plus-minus-area"
 msgid "+/- area columns"
 msgstr ""
 
-msgctxt "pref_template_areasum_table_column_image_area_sum"
+msgctxt "templ:areasum:image-area-sum"
 msgid "Image area sum"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_description_item"
+msgctxt "templ:areasum:table-column-description:item"
 msgid ""
 "The image number. The number will only be filled into the row with the "
 "image title."
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_description_description"
+msgctxt "templ:areasum:table-column-description:description"
 msgid ""
 "Descriptive name of the area. This is either the default name of the tag,"
 " or a manually entered name for this area."
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_description_count"
+msgctxt "templ:areasum:table-column-description:count"
 msgid "The count multiplier for this area."
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_description_width_height"
+msgctxt "templ:areasum:table-column-description:width-height"
 msgid ""
 "Width and height are two columns that are filled with the side lengths if"
 " the area is a rectangle. For other shapes, the columns stay empty.\n"
@@ -4282,19 +4282,19 @@ msgid ""
 "Enter the two column headers separated by a semicolon."
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_description_measured_area"
+msgctxt "templ:areasum:table-column-description:measured-area"
 msgid "The raw, measured area without the factor or count applied."
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_description_factor"
+msgctxt "templ:areasum:table-column-description:factor"
 msgid "The area factor applied when calculating the final area sum."
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_description_calculated_area"
+msgctxt "templ:areasum:table-column-description:calculated-area"
 msgid "Calculated area including the factor and count."
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_description_plus_minus_areas"
+msgctxt "templ:areasum:table-column-description:plus-minus-area"
 msgid ""
 "Generates two columns: a column including all areas that are added to the"
 " sum, and a column including all areas that are subtracted from the total"
@@ -4304,7 +4304,7 @@ msgid ""
 msgstr ""
 
 #, fuzzy
-msgctxt "tpool_templ_areasum_table_column_description_image_area_sum"
+msgctxt "templ:areasum:table-column-description:image-area-sum"
 msgid ""
 "Each row holds the area sum of the image. The footer row holds the total "
 "over all images."
@@ -4574,37 +4574,37 @@ msgid "Close notification"
 msgstr "Chiudi notifica"
 
 #, fuzzy
-msgctxt "sync_action_nop"
+msgctxt "SyncAction:NOP"
 msgid "No action"
 msgstr "Nessuna azione"
 
 #, fuzzy
-msgctxt "sync_action_pull_new"
+msgctxt "SyncAction:PULL_NEW"
 msgid "Download new"
 msgstr "Scarica nuovo"
 
 #, fuzzy
-msgctxt "sync_action_pull_update"
+msgctxt "SyncAction:PULL_UPDATE"
 msgid "Download update"
 msgstr "Scarica l'aggiornamento"
 
 #, fuzzy
-msgctxt "sync_action_push_new"
+msgctxt "SyncAction:PUSH_NEW"
 msgid "Upload new"
 msgstr "Carica nuovo"
 
 #, fuzzy
-msgctxt "sync_action_push_update"
+msgctxt "SyncAction:PUSH_UPDATE"
 msgid "Upload update"
 msgstr "Carica aggiornamento"
 
 #, fuzzy
-msgctxt "sync_action_delete_local"
+msgctxt "SyncAction:DELETE_LOCAL"
 msgid "Delete locally"
 msgstr "Elimina localmente"
 
 #, fuzzy
-msgctxt "sync_action_delete_remote"
+msgctxt "SyncAction:DELETE_REMOTE"
 msgid "Delete on server"
 msgstr "Elimina sul server"
 
@@ -4699,12 +4699,12 @@ msgid "Successfully removed server lock."
 msgstr "Blocco del server rimosso con successo."
 
 #, fuzzy
-msgctxt "cloud_storage_maintenance_remove_server_lock_error_no_lock"
+msgctxt "error:Cloud_CannotRemoveServerLock_no_lock"
 msgid "There was no server lock."
 msgstr "Nessun blocco del server."
 
 #, fuzzy
-msgctxt "cloud_storage_maintenance_remove_server_lock_error"
+msgctxt "error:Cloud_CannotRemoveServerLock"
 msgid "Could not remove server lock file '{}'."
 msgstr "Impossibile rimuovere il file di blocco del server \"{}\"."
 
@@ -4724,7 +4724,7 @@ msgid "Successfully resetted server cache."
 msgstr "Cache del server ripristinata con successo."
 
 #, fuzzy
-msgctxt "cloud_storage_maintenance_reset_server_cache_error"
+msgctxt "error:Cloud_CannotResetServerCache"
 msgid "Could not remove server cache file '{}'."
 msgstr "Impossibile rimuovere il file di cache del server \"{}\"."
 
@@ -4744,7 +4744,7 @@ msgid "Successfully resetted sync state."
 msgstr "Stato di sincronizzazione ripristinato con successo."
 
 #, fuzzy
-msgctxt "cloud_storage_maintenance_reset_sync_state_error"
+msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
 msgstr "Impossibile ripristinare lo stato di sincronizzazione."
 
@@ -5131,7 +5131,7 @@ msgctxt "editor_locking_button_apply_to_all"
 msgid "Apply to all"
 msgstr ""
 
-msgctxt "editor_locking_warning_element_value_is_locked"
+msgctxt "editor:warning:element:value-is-locked"
 msgid "Value is locked. You have to unlock it first."
 msgstr ""
 
@@ -6587,280 +6587,280 @@ msgstr "Luce ambientale troppo forte"
 #. ============================================== EDITCORE
 #. ====================================================
 #. ===== templates =====
-msgctxt "tpool_templ_template_name_unnamed"
+msgctxt "templ:template-name:unnamed"
 msgid "New template"
 msgstr ""
 
-msgctxt "tpool_templ_custom_class_display_name"
+msgctxt "templ:custom:class-display-name"
 msgid "Custom template"
 msgstr ""
 
-msgctxt "tpool_templ_custom_new_template_name"
+msgctxt "templ:custom:new-template-name"
 msgid "New custom template"
 msgstr ""
 
-msgctxt "tpool_templ_custom_columncontent_empty"
+msgctxt "templ:custom:column-content:empty"
 msgid "Empty"
 msgstr ""
 
-msgctxt "tpool_templ_custom_columncontent_imagename"
+msgctxt "templ:custom:column-content:image-name"
 msgid "Image name"
 msgstr ""
 
-msgctxt "tpool_templ_custom_columncontent_image_notes"
+msgctxt "templ:custom:column-content:image-notes"
 msgid "Image notes"
 msgstr ""
 
-msgctxt "tpool_templ_custom_columncontent_image_number"
+msgctxt "templ:custom:column-content:image-number"
 msgid "Image number"
 msgstr ""
 
-msgctxt "tpool_templ_custom_columncontent_image_capture_date"
+msgctxt "templ:custom:column-content:image-capture-date"
 msgid "Image capture date"
 msgstr ""
 
-msgctxt "tpool_templ_custom_columncontent_image_gps_latitude"
+msgctxt "templ:custom:column-content:image-gps-latitude"
 msgid "Image GPS latitude"
 msgstr ""
 
-msgctxt "tpool_templ_custom_columncontent_image_gps_longitude"
+msgctxt "templ:custom:column-content:image-gps-longitude"
 msgid "Image GPS longitude"
 msgstr ""
 
-msgctxt "tpool_templ_custom_columncontent_image_map_link"
+msgctxt "templ:custom:column-content:image-map-link"
 msgid "GPS map link"
 msgstr ""
 
-msgctxt "tpool_templ_custom_columncontent_image_map_link_url_text"
+msgctxt "templ:custom:column-content:image-map-link_url_text"
 msgid "link"
 msgstr ""
 
-msgctxt "tpool_templ_custom_columncontent_image_map_link_error_no_gps"
+msgctxt "templ:custom:column-content:image-map-link_error_no_gps"
 msgid "no GPS"
 msgstr ""
 
 #, fuzzy
-msgctxt "tpool_templ_custom_columntype_widthHeight"
+msgctxt "templ:custom:column-type:width-height"
 msgid "Width and height"
 msgstr ""
 
-msgctxt "tpool_templ_custom_columntype_text"
+msgctxt "templ:custom:column-type:text"
 msgid "Text note"
 msgstr ""
 
-msgctxt "tpool_templ_custom_new_tablespec_name"
+msgctxt "templ:custom:new-tablespec-name"
 msgid "Custom Table"
 msgstr ""
 
-msgctxt "tpool_templ_custom_new_tag"
+msgctxt "templ:custom:new-tag"
 msgid "new tag"
 msgstr ""
 
-msgctxt "tpool_templ_custom_tag_filter_text"
+msgctxt "templ:custom:tag:filter:text"
 msgid "Text note"
 msgstr ""
 
-msgctxt "tpool_templ_custom_tag_filter_circle"
+msgctxt "templ:custom:tag:filter:circle"
 msgid "Circle"
 msgstr ""
 
-msgctxt "tpool_templ_custom_tag_property_name"
+msgctxt "templ:custom:tag:property-name"
 msgid "Tag"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_property_name_tag"
+msgctxt "templ:areasum:tag:property-name"
 msgid "Tag"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_class_display_name"
+msgctxt "templ:areasum:class-display-name"
 msgid "Area sum template"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_wallarea_new_template_name"
+msgctxt "templ:areasum:wallarea:new-template-name"
 msgid "New wall area template"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_floorarea_new_template_name"
+msgctxt "templ:areasum:floorarea:new-template-name"
 msgid "New floor area template"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_default_table_name"
+msgctxt "templ:areasum:tablespec:default-name"
 msgid "Area sum table"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_preset_wallarea"
+msgctxt "templ:areasum:preset:wallarea:display-name"
 msgid "Wall area"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_preset_floorarea"
+msgctxt "templ:areasum:preset:floorarea:display-name"
 msgid "Floor area"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_custom_add"
+msgctxt "templ:areasum:custom-add"
 msgid "custom (add)"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_custom_minus"
+msgctxt "templ:areasum:custom-minus"
 msgid "custom (subtract)"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_wallarea_wall"
+msgctxt "templ:areasum:wallarea:wall"
 msgid "wall"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_wallarea_ceiling"
+msgctxt "templ:areasum:wallarea:ceiling"
 msgid "ceiling"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_wallarea_window"
+msgctxt "templ:areasum:wallarea:window"
 msgid "window"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_wallarea_door"
+msgctxt "templ:areasum:wallarea:door"
 msgid "door"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_floorarea_livingroom"
+msgctxt "templ:areasum:floorarea:living-room"
 msgid "living room"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_floorarea_bedroom"
+msgctxt "templ:areasum:floorarea:bed-room"
 msgid "bed room"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_floorarea_kitchen"
+msgctxt "templ:areasum:floorarea:kitchen"
 msgid "kitchen"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_floorarea_bathroom"
+msgctxt "templ:areasum:floorarea:bath-room"
 msgid "bathroom"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_floorarea_genericroom"
+msgctxt "templ:areasum:floorarea:generic-room"
 msgid "other room"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_floorarea_balcony"
+msgctxt "templ:areasum:floorarea:balcony"
 msgid "balcony"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_header_item"
+msgctxt "templ:areasum:table-column-header:item"
 msgid "Pos."
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_header_description"
+msgctxt "templ:areasum:table-column-header:description"
 msgid "Description"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_header_count"
+msgctxt "templ:areasum:table-column-header:count"
 msgid "Count"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_header_factor"
+msgctxt "templ:areasum:table-column-header:factor"
 msgid "Factor"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_header_width"
+msgctxt "templ:areasum:table-column-header:width"
 msgid "Width"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_header_height"
+msgctxt "templ:areasum:table-column-header:height"
 msgid "Height"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_header_area"
+msgctxt "templ:areasum:table-column-header:area"
 msgid "Area"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_header_deduction"
+msgctxt "templ:areasum:table-column-header:deduction"
 msgid "Deduction"
 msgstr ""
 
-msgctxt "tpool_templ_areasum_table_column_header_sumarea"
+msgctxt "templ:areasum:table-column-header:sumarea"
 msgid "Sum"
 msgstr ""
 
-msgctxt "tpool_templ_partslist_class_display_name"
+msgctxt "templ:partslist:class-display-name"
 msgid "Parts list template"
 msgstr ""
 
-msgctxt "tpool_templ_partslist_tablespec_default_table"
+msgctxt "templ:partslist:tablespec:default"
 msgid "Default table"
 msgstr ""
 
-msgctxt "tpool_templ_partslist_tablespec_new_table"
+msgctxt "templ:partslist:tablespec:new"
 msgid "New table"
 msgstr ""
 
-msgctxt "tpool_templ_partslist_property_comment"
+msgctxt "templ:partslist:tag:comment"
 msgid "Comment"
 msgstr ""
 
-msgctxt "tpool_templ_partslist_columnheader_item_image"
+msgctxt "templ:partslist:columnheader:item:image"
 msgid "Image"
 msgstr ""
 
-msgctxt "tpool_templ_partslist_columnheader_item_element"
+msgctxt "templ:partslist:columnheader:item:element"
 msgid "No."
 msgstr ""
 
-msgctxt "tpool_templ_partslist_columnheader_item_image_and_element"
+msgctxt "templ:partslist:columnheader:item:image_and_element"
 msgid "No."
 msgstr ""
 
-msgctxt "tpool_templ_partslist_columnheader_tagname"
+msgctxt "templ:partslist:columnheader:tagname"
 msgid "Item"
 msgstr ""
 
-msgctxt "tpool_templ_partslist_columnheader_comment"
+msgctxt "templ:partslist:columnheader:comment"
 msgid "Comment"
 msgstr ""
 
-msgctxt "tpool_templ_partslist_columnheader_quantity"
+msgctxt "templ:partslist:columnheader:quantity"
 msgid "Qty"
 msgstr ""
 
-msgctxt "tpool_templ_partslist_columnheader_count"
+msgctxt "templ:partslist:columnheader:count"
 msgid "Count"
 msgstr ""
 
-msgctxt "templ_uiitem_duplicate_local"
+msgctxt "templ:uiitem:duplicate:local"
 msgid "(local copy)"
 msgstr ""
 
-msgctxt "templ_uiitem_duplicate_global"
+msgctxt "templ:uiitem:duplicate:global"
 msgid "(from settings)"
 msgstr ""
 
-msgctxt "table_operation_none"
+msgctxt "table-operation:none"
 msgid "None"
 msgstr ""
 
-msgctxt "table_operation_none_keep"
+msgctxt "table-operation:none_keep"
 msgid "Keep"
 msgstr ""
 
-msgctxt "table_operation_sum"
+msgctxt "table-operation:sum"
 msgid "Sum"
 msgstr ""
 
-msgctxt "table_operation_avg"
+msgctxt "table-operation:avg"
 msgid "Average"
 msgstr ""
 
-msgctxt "table_operation_min"
+msgctxt "table-operation:min"
 msgid "Min"
 msgstr ""
 
-msgctxt "table_operation_max"
+msgctxt "table-operation:max"
 msgid "Max"
 msgstr ""
 
-msgctxt "table_operation_median"
+msgctxt "table-operation:median"
 msgid "Median"
 msgstr ""
 
-msgctxt "table_operation_count"
+msgctxt "table-operation:count"
 msgid "Count"
 msgstr ""
 
@@ -6874,176 +6874,176 @@ msgstr ""
 
 #. lock reasons
 #, fuzzy
-msgctxt "tpool_locked_by_android_editor"
+msgctxt "lock:editor"
 msgid "editor"
 msgstr "editore"
 
 #, fuzzy
-msgctxt "tpool_locked_by_syncer"
+msgctxt "lock:syncer"
 msgid "cloud synchronization"
 msgstr "sincronizzazione cloud"
 
 #, fuzzy
-msgctxt "tpool_locked_by_image_syncer"
+msgctxt "lock:image-syncer"
 msgid "image cloud upload"
 msgstr "caricamento su cloud di immagini"
 
 #, fuzzy
-msgctxt "tpool_locked_by_list_folder_content"
+msgctxt "lock:folder-content"
 msgid "list folder content"
 msgstr "elenca il contenuto della cartella"
 
 #, fuzzy
-msgctxt "tpool_locked_by_file_browser"
+msgctxt "lock:FileBrowserContent"
 msgid "file browser"
 msgstr "browser di file"
 
 #, fuzzy
-msgctxt "tpool_locked_by_thumbnail_rendering"
+msgctxt "lock:thumbnail-rendering"
 msgid "thumbnail rendering"
 msgstr "rendering delle miniature"
 
 #, fuzzy
-msgctxt "tpool_locked_by_rendering"
+msgctxt "lock:rendering"
 msgid "image rendering"
 msgstr "rendering delle immagini"
 
 #, fuzzy
-msgctxt "tpool_locked_by_create_image"
+msgctxt "lock:create-image"
 msgid "creating image"
 msgstr "creazione dell'immagine"
 
 #, fuzzy
-msgctxt "tpool_locked_by_import_image"
+msgctxt "lock:import-image"
 msgid "importing image"
 msgstr "importazione dell'immagine"
 
 #, fuzzy
-msgctxt "tpool_locked_by_pro_migration"
+msgctxt "lock:pro-migration"
 msgid "pro migration"
 msgstr "migrazione pro"
 
 #, fuzzy
-msgctxt "tpool_locked_by_delete_image"
+msgctxt "lock:delete-image"
 msgid "deleting image"
 msgstr "l'eliminazione dell'immagine"
 
-msgctxt "tpool_locked_by_delete_entity"
+msgctxt "lock:delete-entity"
 msgid "deleting entity"
 msgstr ""
 
 #, fuzzy
-msgctxt "tpool_locked_by_dialog_image_name"
+msgctxt "lock:dialog-image-name"
 msgid "image renaming dialog"
 msgstr "finestra di dialogo per rinominare le immagini"
 
 #, fuzzy
-msgctxt "tpool_locked_by_copy_directory"
+msgctxt "lock:copy-directory"
 msgid "copying directory"
 msgstr "copia della directory"
 
-msgctxt "tpool_locked_by_set_library_root"
+msgctxt "lock:set-library-root"
 msgid "setting image library root"
 msgstr ""
 
-msgctxt "tpool_locked_by_undelete_entity"
+msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
 
 #. date strings
-msgctxt "month_names_short_1"
+msgctxt "month-names-short-1"
 msgid "Jan"
 msgstr "genn"
 
-msgctxt "month_names_short_2"
+msgctxt "month-names-short-2"
 msgid "Feb"
 msgstr "febbr"
 
-msgctxt "month_names_short_3"
+msgctxt "month-names-short-3"
 msgid "Mar"
 msgstr "mar"
 
-msgctxt "month_names_short_4"
+msgctxt "month-names-short-4"
 msgid "Apr"
 msgstr "apr"
 
-msgctxt "month_names_short_5"
+msgctxt "month-names-short-5"
 msgid "May"
 msgstr "magg"
 
-msgctxt "month_names_short_6"
+msgctxt "month-names-short-6"
 msgid "Jun"
 msgstr "giugno"
 
-msgctxt "month_names_short_7"
+msgctxt "month-names-short-7"
 msgid "Jul"
 msgstr "luglio"
 
-msgctxt "month_names_short_8"
+msgctxt "month-names-short-8"
 msgid "Aug"
 msgstr "ag"
 
-msgctxt "month_names_short_9"
+msgctxt "month-names-short-9"
 msgid "Sep"
 msgstr "sett"
 
-msgctxt "month_names_short_10"
+msgctxt "month-names-short-10"
 msgid "Oct"
 msgstr "ott"
 
-msgctxt "month_names_short_11"
+msgctxt "month-names-short-11"
 msgid "Nov"
 msgstr "nov"
 
-msgctxt "month_names_short_12"
+msgctxt "month-names-short-12"
 msgid "Dec"
 msgstr "dic"
 
-msgctxt "month_names_long_1"
+msgctxt "month-names-long-1"
 msgid "January"
 msgstr "gennaio"
 
-msgctxt "month_names_long_2"
+msgctxt "month-names-long-2"
 msgid "February"
 msgstr "febbraio"
 
-msgctxt "month_names_long_3"
+msgctxt "month-names-long-3"
 msgid "March"
 msgstr "marzo"
 
-msgctxt "month_names_long_4"
+msgctxt "month-names-long-4"
 msgid "April"
 msgstr "aprile"
 
-msgctxt "month_names_long_5"
+msgctxt "month-names-long-5"
 msgid "May"
 msgstr "maggio"
 
-msgctxt "month_names_long_6"
+msgctxt "month-names-long-6"
 msgid "June"
 msgstr "giugno"
 
-msgctxt "month_names_long_7"
+msgctxt "month-names-long-7"
 msgid "July"
 msgstr "luglio"
 
-msgctxt "month_names_long_8"
+msgctxt "month-names-long-8"
 msgid "August"
 msgstr "agosto"
 
-msgctxt "month_names_long_9"
+msgctxt "month-names-long-9"
 msgid "September"
 msgstr "settembre"
 
-msgctxt "month_names_long_10"
+msgctxt "month-names-long-10"
 msgid "October"
 msgstr "ottobre"
 
-msgctxt "month_names_long_11"
+msgctxt "month-names-long-11"
 msgid "November"
 msgstr "novembre"
 
-msgctxt "month_names_long_12"
+msgctxt "month-names-long-12"
 msgid "December"
 msgstr "dicembre"
 
@@ -7153,70 +7153,70 @@ msgid "Cannot open web browser to show web page '%1$s'"
 msgstr ""
 
 #. filesystem errors
-msgctxt "error_cannot_delete_file"
+msgctxt "error:Files_CannotDeleteFile"
 msgid "Cannot delete file '{}'."
 msgstr "Impossibile eliminare il file \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_files_cannot_read_file"
+msgctxt "error:Files_CannotReadFile"
 msgid "Cannot read file '{}'."
 msgstr "Impossibile leggere il file \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_files_cannot_write_file"
+msgctxt "error:Files_CannotWriteFile"
 msgid "Cannot write file '{}'."
 msgstr "Impossibile scrivere il file \"{}\"."
 
 #, fuzzy
-msgctxt "error_cannot_rename_file"
+msgctxt "error:Files_CannotRenameFile"
 msgid "Cannot rename file '{0}' to '{1}'."
 msgstr "Impossibile rinominare il file \"{0}\" in \"{1}\"."
 
 #, fuzzy
-msgctxt "imerror_files_file_does_not_exist"
+msgctxt "error:Files_FileDoesNotExist"
 msgid "File does not exist: \"{}\"."
 msgstr "Il file non esiste: \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_files_file_cannot_be_opened"
+msgctxt "error:Files_FileCannotBeOpened"
 msgid "Cannot open file \"{}\"."
 msgstr "Non è possibile aprire questo file \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_files_cannot_create_directory"
+msgctxt "error:Files_CannotCreateDirectory"
 msgid "Cannot create directory \"{}\"."
 msgstr "Impossibile creare la directory \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_files_directory_does_not_exist"
+msgctxt "error:Files_DirectoryDoesNotExist"
 msgid "Directory '{}' does not exist."
 msgstr "La directory \"{}\" non esiste."
 
-msgctxt "imageselect_error_cannot_rename_folder"
+msgctxt "error:Files_CannotRenameDirectory"
 msgid "Cannot rename folder '{0}' to '{1}'."
 msgstr "Impossibile rinominare la cartella '{0}' su '{1}'."
 
-msgctxt "imageselect_error_folder_cannot_delete"
+msgctxt "error:Files_CannotDeleteDirectory"
 msgid "Cannot delete folder '{}'."
 msgstr "Impossibile eliminare la cartella '{}'."
 
 #, fuzzy
-msgctxt "imerror_files_cannot_read_directory"
+msgctxt "error:Files_CannotReadDirectory"
 msgid "Cannot read directory '{}'."
 msgstr "Impossibile leggere la directory \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_files_cannot_copy_directory"
+msgctxt "error:Files_CannotCopyDirectory"
 msgid "Cannot copy directory '{}'."
 msgstr "Impossibile copiare la directory \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_files_errno"
+msgctxt "error:Files_Errno"
 msgid "OS error: '{}'."
 msgstr "Errore del sistema operativo: \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_files_cannot_generate_unique_filename"
+msgctxt "error:Files_CannotGenerateUniqueFilename"
 msgid "Cannot generate unique filename: '{}'."
 msgstr "Impossibile generare un nome file univoco: \"{}\"."
 
@@ -7226,129 +7226,129 @@ msgid "Files are currently in use."
 msgstr "I file sono attualmente in uso."
 
 #. used in PrefsStorageDirectory
-msgctxt "imerror_cannot_lock_file_read"
+msgctxt "error:CannotLockPath-readLock"
 msgid "Cannot read file '{}' because it is currently being modified."
 msgstr ""
 "Impossibile leggere il file \"{}\" perché è attualmente in fase di "
 "modifica."
 
 #, fuzzy
-msgctxt "imerror_cannot_lock_file_write"
+msgctxt "error:CannotLockPath-writeLock"
 msgid "Cannot modify file '{}' because it is currently in use."
 msgstr "Impossibile modificare il file \"{}\" perché è attualmente in uso."
 
 #. image library errors
-msgctxt "imerror_library_no_library_directory_defined"
+msgctxt "error:ImageLibrary_NoLibraryDirectoryDefined"
 msgid "No image library directory defined."
 msgstr "Nessuna directory della libreria di immagini definita."
 
 #, fuzzy
-msgctxt "imerror_library_cannot_purge"
+msgctxt "error:ImageLibrary_CannotPurge"
 msgid "Cannot purge deleted images."
 msgstr "Impossibile eliminare le immagini eliminate."
 
 #. entity level errors
-msgctxt "imerror_projectfolder_cannot_create"
+msgctxt "error:ProjectFolder_CannotCreate"
 msgid "Cannot create folder '{}'."
 msgstr "Impossibile creare la cartella \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_projectfolder_cannot_write_ifd"
+msgctxt "error:ProjectFolder_CannotWriteIFD"
 msgid "Cannot write IFD file for folder '{}'."
 msgstr "Impossibile scrivere il file IFD per la cartella \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_projectfolder_cannot_load_folder"
+msgctxt "error:ProjectFolder_CannotLoadFolder"
 msgid "Cannot load folder '{}'."
 msgstr "Impossibile caricare la cartella \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_projectfolder_multiple_ifd_files"
+msgctxt "error:ProjectFolder_MultipleIFDFiles"
 msgid "More than one IFD file found."
 msgstr "Trovato più di un file IFD."
 
 #, fuzzy
-msgctxt "imerror_projectfolder_ifd_parse_error"
+msgctxt "error:ProjectFolder_IFDParseError"
 msgid "IFD file parse error."
 msgstr "Errore di analisi del file IFD."
 
 #, fuzzy
-msgctxt "imerror_databundle_cannot_load_data_bundle"
+msgctxt "error:DataBundle_CannotLoadDataBundle"
 msgid "Cannot load image '{}'."
 msgstr "Impossibile caricare l'immagine \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_databundle_cannot_create"
+msgctxt "error:DataBundle_CannotCreate"
 msgid "Cannot create new image '{}'."
 msgstr "Impossibile creare la nuova immagine \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_databundle_cannot_write_imm"
+msgctxt "error:DataBundle_CannotWriteIMM"
 msgid "Cannot write IMM file for image '{}'."
 msgstr "Impossibile scrivere il file IMM per l'immagine \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_databundle_cannot_delete"
+msgctxt "error:DataBundle_CannotDelete"
 msgid "Cannot delete image '{}'."
 msgstr "Impossibile eliminare l'immagine \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_databundle_cannot_rename_folder"
+msgctxt "error:DataBundle_CannotRenameFolder"
 msgid "Cannot rename directory of image '{}'."
 msgstr "Impossibile rinominare la directory dell'immagine \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_databundle_multiple_imm_files"
+msgctxt "error:DataBundle_MultipleIMMFiles"
 msgid "More than one IMM file found."
 msgstr "È stato trovato più di un file IMM."
 
 #, fuzzy
-msgctxt "imerror_databundle_cannot_open"
+msgctxt "error:DataBundle_CannotOpen"
 msgid "Cannot open image \"{}\"."
 msgstr "Impossibile aprire l'immagine \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_databundle_cannot_read_imm_file"
+msgctxt "error:DataBundle_CannotReadIMMFile"
 msgid "Cannot read IMM file."
 msgstr "Impossibile leggere il file IMM."
 
 #, fuzzy
-msgctxt "imerror_databundle_cannot_get_content_area"
+msgctxt "error:DataBundle_CannotGetContentArea"
 msgid "Unknown content area."
 msgstr "Area del contenuto sconosciuta."
 
 #, fuzzy
-msgctxt "imerror_databundle_imm_parse_error"
+msgctxt "error:DataBundle_IMMParseError"
 msgid "IMM file parse error ({})."
 msgstr "Errore di analisi del file IMM ({})."
 
 #, fuzzy
-msgctxt "imerror_entity_cannot_move"
+msgctxt "error:Entity_CannotMove"
 msgid "Cannot move '{}' to new directory."
 msgstr "Impossibile spostare \"{}\" nella nuova directory."
 
 #, fuzzy
-msgctxt "imerror_entity_numbering_invalid_number"
+msgctxt "error:Entity_Numbering_InvalidNumber"
 msgid "Invalid number: '{}'."
 msgstr "Numero non valido: '{}'."
 
 #. logic level errors
-msgctxt "imerror_delete_logic_cannot_delete"
+msgctxt "error:DeleteLogic_CannotDelete"
 msgid "Cannot delete folder '{}'."
 msgstr "Impossibile eliminare la cartella \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_delete_logic_cannot_mark_as_deleted"
+msgctxt "error:DeleteLogic_CannotMarkAsDeleted"
 msgid "Cannot mark folder '{}' as deleted."
 msgstr "Impossibile contrassegnare la cartella \"{}\" come eliminata."
 
 #. import/export errors
-msgctxt "imerror_unknown_file_format"
+msgctxt "error:UnknownFileFormat"
 msgid "File '{}' has unknown format."
 msgstr "Il file \"{}\" ha un formato sconosciuto."
 
 #, fuzzy
-msgctxt "imerror_cannot_create_imi_file"
+msgctxt "error:CannotCreateIMIFile"
 msgid "Cannot create IMI file '{}'."
 msgstr "Impossibile creare il file IMI \"{}\"."
 
@@ -7358,99 +7358,99 @@ msgid "Cannot export image '{}'."
 msgstr "Impossibile esportare l'immagine \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_imf_corrupted_file"
+msgctxt "error:IMF_CorruptedFile"
 msgid "Corrupted IMF file."
 msgstr "File IMF danneggiato."
 
 #, fuzzy
-msgctxt "imerror_ifd_parse_error"
+msgctxt "error:IFD_ParseError"
 msgid "IFD file parse error."
 msgstr "Errore di analisi del file IFD."
 
 #, fuzzy
-msgctxt "imerror_imi_cannot_open"
+msgctxt "error:IMI_CannotOpen"
 msgid "Cannot open IMI file '{}'."
 msgstr "Impossibile aprire il file IMI \"{}\"."
 
-msgctxt "imerror_nlohmann_json_parse_error"
+msgctxt "error:NLohmann_JsonParseError"
 msgid "Parse error '{}'"
 msgstr ""
 
 #, fuzzy
-msgctxt "imerror_imf_cannot_read_zip"
+msgctxt "error:IMF_CannotReadZip"
 msgid "Corrupted ZIP file \"{}\"."
 msgstr "File ZIP danneggiato \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_zip_error"
+msgctxt "error:ZipError"
 msgid "ZIP error: {}"
 msgstr "Errore ZIP: {}"
 
 #, fuzzy
-msgctxt "imerror_zip_read_error"
+msgctxt "error:ZIP_ReadError"
 msgid "Error reading ZIP file."
 msgstr "Errore durante la lettura del file ZIP."
 
-msgctxt "imerror_corrupted_file_compression"
+msgctxt "error:Files_CorruptedFileCompression"
 msgid "File compression error."
 msgstr ""
 
-msgctxt "imerror_zlib_error"
+msgctxt "error:ZLibCompressionError"
 msgid "ZLib error code: '{}'."
 msgstr ""
 
 #, fuzzy
-msgctxt "imerror_cannot_generate_pdf"
+msgctxt "error:CannotGeneratePdf"
 msgid "Cannot generate PDF"
 msgstr "Impossibile generare PDF"
 
 #, fuzzy
-msgctxt "imerror_libharu"
+msgctxt "error:LibHaru"
 msgid "LibHARU error: \"{}\""
 msgstr "Errore LibHARU: \"{}\""
 
 #. image reader/writer errors
-msgctxt "imerror_imagereader_cannot_read_image"
+msgctxt "error:ImageReader_CannotReadImage"
 msgid "Cannot read image file."
 msgstr "Impossibile leggere il file immagine."
 
 #, fuzzy
-msgctxt "imerror_imagereader_reader_error"
+msgctxt "error:ImageReader_ReaderError"
 msgid "Image reader error."
 msgstr "Errore del lettore di immagini."
 
 #, fuzzy
-msgctxt "imerror_imagereader_corrupted_image"
+msgctxt "error:ImageReader_CorruptedImage"
 msgid "Corrupted image file."
 msgstr "File immagine danneggiato."
 
 #, fuzzy
-msgctxt "imerror_imagereader_unsupported_format"
+msgctxt "error:ImageReader_UnsupportedFormat"
 msgid "Unsupported image format."
 msgstr "Formato immagine non supportato."
 
 #, fuzzy
-msgctxt "imerror_libjpeg_error"
+msgctxt "error:LibJPEG_Error"
 msgid "LibJPEG error: \"{}\"."
 msgstr "Errore LibJPEG: \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_cannot_read_texture"
+msgctxt "error:CannotReadTexture"
 msgid "Cannot read texture '{}'."
 msgstr "Impossibile leggere la trama \"{}\"."
 
 #. rendering errors
-msgctxt "imerror_cannot_render_image"
+msgctxt "error:CannotRenderImage"
 msgid "Cannot render image \"{}\"."
 msgstr "Impossibile eseguire il rendering dell'immagine \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_opengl"
+msgctxt "error:OpenGL"
 msgid "OpenGL error: \"{}\"."
 msgstr "Errore OpenGL: \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_opengl_cannot_allocate_rendering_surface"
+msgctxt "error:OpenGL_cannot_allocate_rendering_surface"
 msgid ""
 "Not enough memory to render at output resolution {}. Please reduce the "
 "output resolution."
@@ -7459,73 +7459,73 @@ msgstr ""
 "output {}. Riduci la risoluzione di output."
 
 #. other errors
-msgctxt "imerror_out_of_memory"
+msgctxt "error:OutOfMemory:no_size"
 msgid "Out of memory."
 msgstr "Fuori dalla memoria."
 
 #, fuzzy
-msgctxt "imerror_out_of_memory_with_size"
+msgctxt "error:OutOfMemory:no_size_with_size"
 msgid "Out of memory (cannot allocate {} bytes)."
 msgstr "Memoria insufficiente (impossibile allocare {} byte)."
 
 #, fuzzy
-msgctxt "imerror_out_of_memory_with_size_mb"
+msgctxt "error:OutOfMemory:no_size_with_size_mb"
 msgid "Out of memory (cannot allocate {} MB)."
 msgstr "Memoria insufficiente (impossibile allocare {} MB)."
 
 #, fuzzy
-msgctxt "imerror_internal_error"
+msgctxt "error:InternalError"
 msgid "Internal error: {}."
 msgstr "Errore interno: {}."
 
 #. string name="imerror_databundle_cannot_find_imm_file">Cannot find the .imm
 #. file.</string
-msgctxt "imerror_editcore_cannot_load_auxiliary_data"
+msgctxt "error:EditCore_CannotLoadAuxiliary_Data"
 msgid "Cannot load auxiliary data."
 msgstr "Impossibile caricare i dati ausiliari."
 
 #, fuzzy
-msgctxt "imerror_editcore_cannot_purge_unused_auxiliary_data"
+msgctxt "error:EditCore_CannotPurgeUnusedAuxiliaryFiles"
 msgid "Cannot delete unused auxiliary data files."
 msgstr "Impossibile eliminare i file di dati ausiliari inutilizzati."
 
 #, fuzzy
-msgctxt "imerror_gtext_cannot_add_detail_image"
+msgctxt "error:GText_CannotAddDetailImage"
 msgid "Cannot add the detail image \"{}\"."
 msgstr "Impossibile aggiungere l'immagine di dettaglio \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_gtext_cannot_add_audio_recording"
+msgctxt "error:GText_CannotAddAudioRecording"
 msgid "Cannot add audio recording \"{}\"."
 msgstr "Impossibile aggiungere la registrazione audio \"{}\"."
 
 #, fuzzy
-msgctxt "imerror_editcore_cannot_read_background_image"
+msgctxt "error:EditCore_CannotReadBackgroundImage"
 msgid "Cannot read photo."
 msgstr "Impossibile leggere la foto."
 
 #, fuzzy
-msgctxt "imerror_imagesetting_cannot_load"
+msgctxt "error:ImageSettings_CannotLoad"
 msgid "Cannot load image settings."
 msgstr "Impossibile caricare le impostazioni dell'immagine."
 
 #, fuzzy
-msgctxt "imerror_imagesetting_cannot_save"
+msgctxt "error:ImageSettings_CannotSave"
 msgid "Cannot save image settings."
 msgstr "Impossibile salvare le impostazioni dell'immagine."
 
 #, fuzzy
-msgctxt "imerror_app_preferences_cannot_set_data_root_directory"
+msgctxt "error:AppPreferences_CannotSetDataRootDirectory"
 msgid "Cannot set the data root directory."
 msgstr "Impossibile impostare la directory principale dei dati."
 
 #, fuzzy
-msgctxt "imerror_app_preferences_cannot_create_data_root_directory"
+msgctxt "error:AppPreferences_CannotCreateDataRootDirectory"
 msgid "Cannot create the data root directory."
 msgstr "Impossibile creare la directory principale dei dati."
 
 #, fuzzy
-msgctxt "imerror_app_preferences_no_root_defined"
+msgctxt "error:AppPreferences_NoRootDefined"
 msgid "No data root directory defined."
 msgstr "Nessuna directory radice dei dati definita."
 
@@ -7540,31 +7540,31 @@ msgid "Syntax error in string template '{}'."
 msgstr "Errore di sintassi nel modello di stringa \"{}\"."
 
 #. android specific errors
-msgctxt "imerror_android_external_directory_not_mounted"
+msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
 msgstr "La directory esterna non è montata."
 
 #, fuzzy
-msgctxt "imerror_android_needs_storage_permission"
+msgctxt "error:Android_NeedsStoragePermission"
 msgid "Access to directory '{}' needs the Storage permission."
 msgstr ""
 "L'accesso alla directory \"{}\" richiede l'autorizzazione di "
 "archiviazione."
 
 #, fuzzy
-msgctxt "imerror_android_import_security_exception"
+msgctxt "error:Android_Import_SecurityException"
 msgid "Security exception when accessing URI '{}'."
 msgstr "Eccezione di sicurezza durante l'accesso all'URI \"{}\"."
 
-msgctxt "imerror_android_insert_image_into_gallery"
+msgctxt "error:Android_InsertImageIntoGallery"
 msgid "Cannot insert image into gallery ({})."
 msgstr ""
 
-msgctxt "imerror_android_copy_image_data_into_gallery"
+msgctxt "error:Android_CopyImageDataIntoGallery"
 msgid "Cannot copy image data into gallery (url='{}')."
 msgstr ""
 
-msgctxt "imerror_android_delete_old_image_from_gallery"
+msgctxt "error:Android_DeleteOldImageFromGallery"
 msgid "Cannot delete old image from gallery (url='{}')."
 msgstr ""
 
@@ -7626,42 +7626,42 @@ msgstr ""
 "features\">qui</a> per tutti i vantaggi della versione Business."
 
 #, fuzzy
-msgctxt "error_cloud_cannot_login_unknown"
+msgctxt "error:Cloud_CannotLogin:unknown"
 msgid "Cannot sign in to your cloud server account."
 msgstr "Impossibile accedere al tuo account del server cloud."
 
 #, fuzzy
-msgctxt "error_cloud_cannot_login_unauthorized"
+msgctxt "error:Cloud_CannotLogin:unauthorized"
 msgid "Not authorized to sign in to your cloud server account."
 msgstr "Non autorizzato ad accedere al tuo account del server cloud."
 
 #, fuzzy
-msgctxt "error_cloud_cannot_login_incorrect_password"
+msgctxt "error:Cloud_CannotLogin:incorrect_password"
 msgid "Wrong user name or password."
 msgstr "Nome utente o password errati."
 
 #, fuzzy
-msgctxt "error_cloud_cannot_login_interactive_required"
+msgctxt "error:Cloud_CannotLogin:interactive_login_required"
 msgid "Interactive sign in to your cloud server account is required."
 msgstr "È richiesto l'accesso interattivo al tuo account del server cloud."
 
 #, fuzzy
-msgctxt "error_cloud_cannot_login_cancelled"
+msgctxt "error:Cloud_CannotLogin:cancelled_by_user"
 msgid "Sign in to your cloud server account has been cancelled."
 msgstr "L'accesso al tuo account del server cloud è stato annullato."
 
 #, fuzzy
-msgctxt "error_cloud_cannot_login_network_error"
+msgctxt "error:Cloud_CannotLogin:network_error"
 msgid "Network error while connecting to your cloud server account."
 msgstr "Errore di rete durante la connessione al tuo account del server cloud."
 
 #, fuzzy
-msgctxt "error_cloud_cannot_login_server_timeout"
+msgctxt "error:Cloud_CannotLogin:server_timeout"
 msgid "Cloud server timeout."
 msgstr "Timeout del server cloud."
 
 #, fuzzy
-msgctxt "error_cloud_cannot_login_basefolder_access"
+msgctxt "error:Cloud_CannotLogin:cannot_access_base_folder"
 msgid "Cannot access data directory on cloud server."
 msgstr "Impossibile accedere alla directory dei dati sul server cloud."
 
@@ -7700,12 +7700,12 @@ msgstr ""
 "questo nome."
 
 #, c-format, fuzzy
-msgctxt "error_cloud_cannot_download_file_download_error"
+msgctxt "error:Cloud_CannotDownloadFile_download_error"
 msgid "Cannot download file '%1$s' from server."
 msgstr "Impossibile scaricare il file «%1$s» dal server."
 
 #, c-format, fuzzy
-msgctxt "error_cloud_cannot_download_file_local_write_error"
+msgctxt "error:Cloud_CannotDownloadFile_local_write_error"
 msgid "Cannot write downloaded file '%1$s' to device."
 msgstr "Impossibile scrivere il file scaricato «%1$s» sul dispositivo."
 
@@ -7791,37 +7791,37 @@ msgid "Cannot scan server content."
 msgstr "Impossibile eseguire la scansione del contenuto del server."
 
 #, fuzzy
-msgctxt "error_cloud_cannot_sync_server_content"
+msgctxt "error:Cloud_SyncError"
 msgid "Cannot sync with server."
 msgstr "Impossibile sincronizzare con il server."
 
 #, c-format, fuzzy
-msgctxt "error_cloud_cannot_parse_sync_state_file"
+msgctxt "error:Cloud_CannotParseSyncStateFile"
 msgid "Cannot parse sync state file '%1$s'."
 msgstr "Impossibile analizzare il file dello stato di sincronizzazione «%1$s»."
 
 #, c-format, fuzzy
-msgctxt "error_cloud_cannot_write_sync_state_file"
+msgctxt "error:Cloud_CannotWriteSyncStateFile"
 msgid "Cannot write sync state file '%1$s'."
 msgstr "Impossibile scrivere il file dello stato di sincronizzazione «%1$s»."
 
 #, c-format, fuzzy
-msgctxt "error_cloud_cannot_load_sync_state_file"
+msgctxt "error:Cloud_CannotLoadSyncStateFile"
 msgid "Cannot load sync state file '%1$s'."
 msgstr "Impossibile caricare il file dello stato di sincronizzazione «%1$s»."
 
 #, fuzzy
-msgctxt "error_cloud_cannot_lock_server"
+msgctxt "error:Cloud_CannotLockServer"
 msgid "Cannot generate server lock file."
 msgstr "Impossibile generare il file di blocco del server."
 
 #, fuzzy
-msgctxt "error_cloud_server_error"
+msgctxt "error:Cloud_ServerError"
 msgid "Server error: {}"
 msgstr "Errore del server: {}"
 
 #, fuzzy
-msgctxt "error_cloud_file_locked_on_server"
+msgctxt "error:Cloud_FileLockedOnServer"
 msgid "File is locked on server. Please retry upload at a later time."
 msgstr "Il file è bloccato sul server. Riprova a caricare in un secondo momento."
 
@@ -7831,107 +7831,107 @@ msgid "Server blocked by another client. Please retry at a later time."
 msgstr "Server bloccato da un altro client. Riprova più tardi."
 
 #, fuzzy
-msgctxt "error_cloud_remote_file_does_not_exist"
+msgctxt "error:Cloud_RemoteFileDoesNotExist"
 msgid "File '{}' does not exist on server"
 msgstr "Il file \"{}\" non esiste sul server"
 
 #, fuzzy
-msgctxt "error_cloud_remote_folder_does_not_exist"
+msgctxt "error:Cloud_RemoteFolderDoesNotExist"
 msgid "Folder '{}' does not exist on server"
 msgstr "La cartella \"{}\" non esiste sul server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_create_folder"
+msgctxt "error:Cloud_CannotCreateFolder"
 msgid "Cannot create folder '{}' on server"
 msgstr "Impossibile creare la cartella \"{}\" sul server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_create_folder_short"
+msgctxt "error:Cloud_CannotCreateFolder_short"
 msgid "Cannot create folder on server"
 msgstr "Impossibile creare una cartella sul server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_upload_file"
+msgctxt "error:Cloud_CannotUploadFile"
 msgid "Cannot upload file '{}' to server"
 msgstr "Impossibile caricare il file \"{}\" sul server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_upload_file_short"
+msgctxt "error:Cloud_CannotUploadFile_short"
 msgid "Cannot upload file to server"
 msgstr "Impossibile caricare il file sul server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_download_file"
+msgctxt "error:Cloud_CannotDownloadFile"
 msgid "Cannot download file '{}' from server"
 msgstr "Impossibile scaricare il file \"{}\" dal server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_download_file_short"
+msgctxt "error:Cloud_CannotDownloadFile_short"
 msgid "Cannot download file from server"
 msgstr "Impossibile scaricare il file dal server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_download_folder"
+msgctxt "error:Cloud_CannotDownloadFolder"
 msgid "Cannot download folder '{}' from server"
 msgstr "Impossibile scaricare la cartella \"{}\" dal server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_download_folder_short"
+msgctxt "error:Cloud_CannotDownloadFolder_short"
 msgid "Cannot download folder from server"
 msgstr "Impossibile scaricare la cartella dal server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_rename_file"
+msgctxt "error:Cloud_CannotRenameFile"
 msgid "Cannot rename file '{}' on server"
 msgstr "Impossibile rinominare il file \"{}\" sul server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_rename_file_short"
+msgctxt "error:Cloud_CannotRenameFile_short"
 msgid "Cannot rename file on server"
 msgstr "Impossibile rinominare il file sul server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_rename_folder"
+msgctxt "error:Cloud_CannotRenameFolder"
 msgid "Cannot rename folder '{}' on server"
 msgstr "Impossibile rinominare la cartella \"{}\" sul server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_rename_folder_short"
+msgctxt "error:Cloud_CannotRenameFolder_short"
 msgid "Cannot rename folder on server"
 msgstr "Impossibile rinominare la cartella sul server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_delete_file"
+msgctxt "error:Cloud_CannotDeleteFile"
 msgid "Cannot delete file '{}' from server"
 msgstr "Impossibile eliminare il file \"{}\" dal server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_delete_file_short"
+msgctxt "error:Cloud_CannotDeleteFile_short"
 msgid "Cannot delete file from server"
 msgstr "Impossibile eliminare il file dal server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_delete_folder"
+msgctxt "error:Cloud_CannotDeleteFolder"
 msgid "Cannot delete folder '{}' from server"
 msgstr "Impossibile eliminare la cartella \"{}\" dal server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_delete_folder_short"
+msgctxt "error:Cloud_CannotDeleteFolder_short"
 msgid "Cannot delete folder from server"
 msgstr "Impossibile eliminare la cartella dal server"
 
 #, fuzzy
-msgctxt "error_cloud_cannot_list_folder_content"
+msgctxt "error:Cloud_CannotListFolderContent"
 msgid "Cannot list content of server folder '{}'"
 msgstr "Impossibile elencare il contenuto della cartella del server \"{}\""
 
 #, fuzzy
-msgctxt "error_cloud_cannot_list_folder_content_short"
+msgctxt "error:Cloud_CannotListFolderContent_short"
 msgid "Cannot list content of server folder"
 msgstr "Impossibile elencare il contenuto della cartella del server"
 
 #, fuzzy
-msgctxt "error_cloud_is_not_a_folder"
+msgctxt "error:Cloud_IsNotAFolder"
 msgid "File '{}' is not a folder."
 msgstr "Il file \"{}\" non è una cartella."
 
