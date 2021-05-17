@@ -6,21 +6,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-04 18:10+0200\n"
+"POT-Creation-Date: 2021-05-17 19:33+0200\n"
 "PO-Revision-Date: 2021-01-11 19:56+0100\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: pl\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=4; plural=(((((0 == 0)) && (((n % 10) >= 2 && (n %"
+" 10) <= 4))) && (!(((n % 100) >= 12 && (n % 100) <= 14)))) ? 1 : ((((((0 "
+"== 0)) && (!((n == 1)))) && (((n % 10) >= 0 && (n % 10) <= 1))) || (((0 "
+"== 0)) && (((n % 10) >= 5 && (n % 10) <= 9)))) || (((0 == 0)) && (((n % "
+"100) >= 12 && (n % 100) <= 14)))) ? 2 : (((n == 1)) && ((0 == 0))) ? 0 : "
+"3)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(((((0 == 0)) && (((n % 10) >= 2 && (n % "
-"10) <= 4))) && (!(((n % 100) >= 12 && (n % 100) <= 14)))) ? 1 : ((((((0 == "
-"0)) && (!((n == 1)))) && (((n % 10) >= 0 && (n % 10) <= 1))) || (((0 == 0)) "
-"&& (((n % 10) >= 5 && (n % 10) <= 9)))) || (((0 == 0)) && (((n % 100) >= 12 "
-"&& (n % 100) <= 14)))) ? 2 : (((n == 1)) && ((0 == 0))) ? 0 : 3)\n"
 "Generated-By: Babel 2.9.0\n"
 
+#. generic strings
 msgctxt "generic_button_ok"
 msgid "OK"
 msgstr "OK"
@@ -69,6 +71,7 @@ msgctxt "generic_action_undo"
 msgid "Undo"
 msgstr "Cofnij"
 
+#. image library
 msgctxt "imageLibrary_new_cameraCapture"
 msgid "Camera capture"
 msgstr "Zrób zdjęcie"
@@ -177,6 +180,7 @@ msgctxt "imageLibrary_menu_openSettings"
 msgid "Settings…"
 msgstr "Ustawienia…"
 
+#. image-library misc
 msgctxt "imageLibrary_snackbar_imageDeleted"
 msgid "Image deleted"
 msgstr "Usunięto obraz"
@@ -217,6 +221,7 @@ msgctxt "imageLibrary_sortingOrder_number_descending"
 msgid "Number, descending"
 msgstr "Wg liczby, malejąco"
 
+#. navigation drawer
 msgctxt "navigationDrawer_preferences"
 msgid "Settings"
 msgstr "Ustawienia"
@@ -241,22 +246,27 @@ msgctxt "navigationDrawer_contact"
 msgid "Contact us"
 msgstr "Skontaktuj się z nami"
 
+#, c-format
 msgctxt "navigationDrawer_license"
 msgid "License: %1$s"
 msgstr "Licencja: %1$s"
 
+#, c-format
 msgctxt "navigationDrawer_owner"
 msgid "Owner: %1$s"
 msgstr "Właściciel: %1$s"
 
+#, c-format
 msgctxt "navigationDrawer_user"
 msgid "User: %1$s"
 msgstr "Użytkownik: %1$s"
 
+#, c-format
 msgctxt "navigationDrawer_version"
 msgid "Version: %1$s"
 msgstr "Wersja: %1$s"
 
+#. dialog: numbering
 msgctxt "imageLibrary_numberingDialog_title"
 msgid "Image numbers"
 msgstr "Numeracja obrazów"
@@ -289,6 +299,7 @@ msgctxt "imageLibrary_numberingDialog_renumbering_removeAllNumbers"
 msgid "Remove numbers"
 msgstr "Usuń liczby"
 
+#. dialog: display options
 msgctxt "imageLibrary_displayOptionsDialog_title"
 msgid "Display options"
 msgstr "Opcje wyświetlania"
@@ -329,6 +340,7 @@ msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_small"
 msgid "Small grid"
 msgstr "Mała siatka"
 
+#. dialog: rename folder
 msgctxt "imageLibrary_folderNameDialog_name"
 msgid "Folder name"
 msgstr "Nazwa folderu"
@@ -349,6 +361,7 @@ msgctxt "imageLibrary_folderNameDialog_notes"
 msgid "Notes"
 msgstr "Notatki"
 
+#. dialog: rename image
 msgctxt "imageLibrary_imageNameDialog_name"
 msgid "Image name"
 msgstr "Tytuł obrazu"
@@ -369,6 +382,7 @@ msgctxt "imageLibrary_imageNameDialog_notes"
 msgid "Notes"
 msgstr "Notatki"
 
+#. dialog: clipboard paste
 msgctxt "imageLibrary_clipboardPasteDialog_title"
 msgid "Clipboard paste options"
 msgstr "Opcje wklejania ze schowka"
@@ -381,10 +395,12 @@ msgctxt "imageLibrary_clipboardPasteDialog_centerAnnotationOnImage"
 msgid "Center on image"
 msgstr "Wyśrodkuj na obrazie"
 
+#. TODO: currently unused, but could be used again in the move-image dialog
 msgctxt "imageselect_dialog_move_image_to_folder_title"
 msgid "Choose target folder for the image"
 msgstr "Wybierz folder docelowy dla obrazu"
 
+#. dialog: about app
 msgctxt "aboutApp_version"
 msgid "Version:"
 msgstr "Wersja:"
@@ -398,11 +414,10 @@ msgid "Source:"
 msgstr "Źródło:"
 
 msgctxt "aboutApp_tutorialLink"
-msgid ""
-"<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
+msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
 msgstr ""
-"<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Samouczek video</"
-"a>"
+"<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Samouczek "
+"video</a>"
 
 msgctxt "aboutApp_documentationLink"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
@@ -428,6 +443,7 @@ msgctxt "aboutApp_licenses"
 msgid "<a href=\"licenses\">Licenses</a>"
 msgstr "<a href=\"licenses\">Licencje</a>"
 
+#. image info dialog
 msgctxt "image_info_image_name"
 msgid "Image Name"
 msgstr "Nazwa obrazu"
@@ -452,10 +468,13 @@ msgctxt "image_info_show_on_map"
 msgid "Show on map"
 msgstr "Pokaż na mapie"
 
+#. upgrade dialog
+#, c-format
 msgctxt "upgradeDialog_addonPrice_once"
 msgid "%1$s once"
 msgstr "%1$s - opłata jednorazowa"
 
+#, c-format
 msgctxt "upgradeDialog_addonPrice_monthly"
 msgid "%1$s/month"
 msgstr "%1$s/miesiąc"
@@ -472,6 +491,10 @@ msgctxt "upgradeDialog_purchaseButton_addon"
 msgid "Activate Addon"
 msgstr "Aktywuj Dodatek"
 
+msgctxt "upgradeDialog_purchaseButton_basic"
+msgid "Get Basic upgrade"
+msgstr ""
+
 msgctxt "upgradeDialog_purchaseButton_business"
 msgid "Upgrade to Business"
 msgstr "Uaktualnij do wersji Biznesowej"
@@ -479,6 +502,10 @@ msgstr "Uaktualnij do wersji Biznesowej"
 msgctxt "upgradeDialog_purchaseButton_disabled_addonIsActive"
 msgid "Add-on is active"
 msgstr "Dodatek jest aktywny"
+
+msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable_playStore"
+msgid "PlayStore unavailable"
+msgstr ""
 
 msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable_appGallery"
 msgid "AppGallery unavailable"
@@ -494,14 +521,53 @@ msgstr "Powrót"
 
 msgctxt "upgradeDialog_moreInformationLink"
 msgid ""
-"For more information about these features, &lt;a href=\"https://www."
-"imagemeter.com/manual/license/android-licenses\"&gt;visit the website&lt;/"
-"a&gt;."
+"For more information about these features, &lt;a "
+"href=\"https://www.imagemeter.com/manual/license/android-"
+"licenses\"&gt;visit the website&lt;/a&gt;."
 msgstr ""
 "Aby uzyskać więcej informacji o dostępnych funkcjach, &lt;a href = "
-"\"https://www.imagemeter.com/manual/license/android-licenses\"&gt;odwiedź "
-"stronę internetową&lt;/a&gt."
+"\"https://www.imagemeter.com/manual/license/android-licenses\"&gt;odwiedź"
+" stronę internetową&lt;/a&gt."
 
+msgctxt "upgradeDialog_addon_without_pro_title"
+msgid "Add-on without Pro upgrade?"
+msgstr ""
+
+msgctxt "upgradeDialog_addon_without_pro_message"
+msgid ""
+"You are trying to install the add-on without having the Pro upgrade. This"
+" is possible, but probably not what you want. Note that the add-on does "
+"not include the Pro upgrade."
+msgstr ""
+
+msgctxt "upgradeDialog_addon_without_pro_confirm"
+msgid "Get the add-on"
+msgstr ""
+
+msgctxt "upgradeDialog_addon_without_pro_cancel"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "upgradeDialog_addon_without_pro_get_pro"
+msgid "Get Pro instead"
+msgstr ""
+
+msgctxt "upgradeDialog_addon_without_basic_title"
+msgid "Add-on without Basic upgrade?"
+msgstr ""
+
+msgctxt "upgradeDialog_addon_without_basic_message"
+msgid ""
+"You are trying to install the add-on without having the Basic upgrade. "
+"This is possible, but probably not what you want. Note that the add-on "
+"does not include the Basic upgrade."
+msgstr ""
+
+msgctxt "upgradeDialog_addon_without_basic_get_basic"
+msgid "Get Basic instead"
+msgstr ""
+
+#. specification of the add-ons and their feature items
 msgctxt "upgrade_addon_advancedAnnotation_purchaseBoxTitle"
 msgid "Advanced Annotation Add-On"
 msgstr "Zaawansowany dodatek do adnotacji"
@@ -517,6 +583,14 @@ msgstr "wersja Pro"
 msgctxt "upgrade_addon_pro_addonName"
 msgid "Pro"
 msgstr "wersja Pro"
+
+msgctxt "upgrade_addon_basic_purchaseBoxTitle"
+msgid "Basic"
+msgstr ""
+
+msgctxt "upgrade_addon_basic_addonName"
+msgid "Basic"
+msgstr ""
 
 msgctxt "upgrade_addon_business_purchaseBoxTitle"
 msgid "Business"
@@ -580,55 +654,64 @@ msgstr "Utwórz kopię zapasową w chmurze"
 
 msgctxt "upgrade_item_data_tables"
 msgid ""
-"&lt;a href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;"
-"Export measurements as data tables&lt;/a&gt;."
+"&lt;a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Export "
+"measurements as data tables&lt;/a&gt;."
 msgstr ""
-"&lt;a href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;"
-"Eksportuj pomiary jako tabele danych&lt;/a&gt;."
+"&lt;a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Eksportuj"
+" pomiary jako tabele danych&lt;/a&gt;."
 
 msgctxt "upgrade_item_all_addon_packs"
 msgid "Includes Pro and all add-on packs"
 msgstr "Zawiera wersję Pro i wszystkie pakiety dodatków"
 
+#. dialogs that explain why we need an upgrade
+#, c-format
 msgctxt "needUpgradeDialog_titleTemplate"
 msgid "%1$s Add-On"
 msgstr "Dodatek: %1$s"
 
+#, c-format
 msgctxt "needUpgradeDialog_createSubfolders"
 msgid "Creating subfolders is included in the '%1$s' add-on."
 msgstr "Tworzenie podfolderów jest zawarte w dodatku „%1$s”."
 
+#, c-format
 msgctxt "needUpgradeDialog_moveFolders"
 msgid "Moving folders into other folders is included in the '%1$s' add-on."
-msgstr ""
-"Przenoszenie folderów do innych folderów jest zawarte w dodatku „%1$s”."
+msgstr "Przenoszenie folderów do innych folderów jest zawarte w dodatku „%1$s”."
 
+#, c-format
 msgctxt "needUpgradeDialog_audioNotes"
 msgid "Recording audio notes is included in the '%1$s' add-on."
 msgstr "Nagrywanie notatek dźwiękowych jest zawarte w dodatku „%1$s”."
 
+#, c-format
 msgctxt "needUpgradeDialog_detailImages"
 msgid "Adding detail images is included in the '%1$s' add-on."
 msgstr "Dodawanie szczegółowych obrazów jest zawarte w dodatku „%1$s”."
 
+#, c-format
 msgctxt "needUpgradeDialog_pdfImport"
 msgid "PDF import is included in the '%1$s' add-on."
 msgstr "Import PDF jest zawarty w dodatku „%1$s”."
 
+#, c-format
 msgctxt "needUpgradeDialog_text_tryWithExamples"
-msgid ""
-"You can try this function with the example images (in folder '%1$s')."
-msgstr ""
-"Możesz wypróbować tę funkcję z przykładowymi obrazami (w folderze „%1$s”)."
+msgid "You can try this function with the example images (in folder '%1$s')."
+msgstr "Możesz wypróbować tę funkcję z przykładowymi obrazami (w folderze „%1$s”)."
 
+#, c-format
 msgctxt "needUpgradeDialog_text_createAndtryWithExamples"
 msgid ""
-"You can try this function with the example images (<a href=\"create"
-"\">create folder '%1$s'</a>)."
+"You can try this function with the example images (<a "
+"href=\"create\">create folder '%1$s'</a>)."
 msgstr ""
-"Możesz wypróbować tę funkcję z przykładowymi obrazami (<a href=\"create"
-"\"> utwórz folder „%1$s”</a>)."
+"Możesz wypróbować tę funkcję z przykładowymi obrazami (<a "
+"href=\"create\"> utwórz folder „%1$s”</a>)."
 
+#, c-format
 msgctxt "needUpgradeDialog_editingTool"
 msgid "This tool is available in the '%1$s' add-on."
 msgstr "To narzędzie jest dostępne w dodatku „%1$s”."
@@ -637,6 +720,7 @@ msgctxt "needUpgradeDialog_exportDataTables"
 msgid "Exporting data tables is available in the Business version."
 msgstr "Eksportowanie tabel danych jest dostępne w wersji Biznesowej."
 
+#. TODO: demo video
 msgctxt "needUpgradeDialog_button_getBusinessVersion"
 msgid "Upgrade to Business version"
 msgstr "Uaktualnij do wersji Biznesowej"
@@ -651,8 +735,8 @@ msgstr "Aktywuj pakiet dodatków"
 
 msgctxt "dialog_migrate_for_addon_packs_text"
 msgid ""
-"Since this native Pro-version is going to be replaced by the free version "
-"with in-app upgrades, add-on packs are only available in the free "
+"Since this native Pro-version is going to be replaced by the free version"
+" with in-app upgrades, add-on packs are only available in the free "
 "version. Please migrate to the free version. Your Pro upgrade will stay "
 "active."
 msgstr ""
@@ -668,6 +752,7 @@ msgctxt "dialog_migrate_for_addon_packs_open_instructions"
 msgid "Show migration instructions"
 msgstr "Pokaż instrukcje dotyczące migracji"
 
+#. licensing: volume key dialog
 msgctxt "licensing_volume_key_title"
 msgid "Volume key"
 msgstr "Klucz z licencją"
@@ -700,9 +785,14 @@ msgctxt "licensing_volume_key_success"
 msgid "License activated"
 msgstr "Licencja aktywowana"
 
+#. in-app payment
 msgctxt "inapp_error_billing_unavailable"
 msgid "Billing is not available."
 msgstr "Zakup niemożliwy."
+
+msgctxt "inapp_error_feature_not_supported"
+msgid "Feature is not supported."
+msgstr ""
 
 msgctxt "inapp_error_item_already_owned"
 msgid "Item is already owned."
@@ -719,8 +809,8 @@ msgstr "Sklep Play jest tymczasowo niedostępny, spróbuj ponownie później."
 msgctxt "inapp_error_service_unavailable"
 msgid "Network down, cannot reach PlayStore."
 msgstr ""
-"Problem z dostępem do Internetu, nie można nawiązać połączenia ze sklepem "
-"Google Play."
+"Problem z dostępem do Internetu, nie można nawiązać połączenia ze sklepem"
+" Google Play."
 
 msgctxt "inapp_error_user_canceled"
 msgid "Purchase canceled by user."
@@ -730,6 +820,7 @@ msgctxt "inapp_error_signature_check_failed"
 msgid "Signature check failed."
 msgstr "Kontrola podpisu nie powiodła się."
 
+#, c-format
 msgctxt "inapp_error_unknown"
 msgid "Unknown error, result code: '%1$d', response '%2$s'."
 msgstr "Nieznany błąd, kod wyniku: '%1$d' (%2$s)."
@@ -750,6 +841,37 @@ msgctxt "inapp_error_service_timeout"
 msgid "Service timeout."
 msgstr "Limit czasu usługi."
 
+msgctxt "inapp_error_payment_failed"
+msgid "Payment failed."
+msgstr ""
+
+msgctxt "inapp_error_cannot_query_owned_products"
+msgid "Cannot query for owned upgrades."
+msgstr ""
+
+#. TODO: these names should be a simple summary name for the "About App"
+#. dialog. But this does not work well with the          add-ons. Replace it
+#. with a different system.
+msgctxt "upgrade_licenseName_basic"
+msgid "Basic"
+msgstr ""
+
+msgctxt "upgrade_licenseName_addon_without_base_license"
+msgid "Add-on without base license"
+msgstr ""
+
+msgctxt "upgrade_licenseName_freeEvaluation"
+msgid "Free Evaluation"
+msgstr ""
+
+msgctxt "upgrade_licenseName_business"
+msgid "Business"
+msgstr ""
+
+msgctxt "upgrade_licenseName_pro"
+msgid "Pro"
+msgstr ""
+
 msgctxt "license_source_pro_key_app"
 msgid "Pro-key app"
 msgstr "Aplikacja Pro (klucz)"
@@ -758,11 +880,12 @@ msgctxt "license_source_volume_key"
 msgid "Volume key"
 msgstr "Klucz z licencją"
 
+#. info messages
 msgctxt "main_screen_info_message_pro_key_app_not_needed"
 msgid ""
-"You may deinstall the separate Pro app. It is not needed anymore as a key "
-"to enable the Pro features because you have add-ons that include the Pro "
-"upgrade. Make sure that you have copied all the images from the Pro app "
+"You may deinstall the separate Pro app. It is not needed anymore as a key"
+" to enable the Pro features because you have add-ons that include the Pro"
+" upgrade. Make sure that you have copied all the images from the Pro app "
 "to here as deleting the app will also delete all the images stored in it."
 msgstr ""
 "Możesz odinstalować samodzielną wersję Pro aplikacji. Nie jest już "
@@ -797,7 +920,8 @@ msgid ""
 "do a manual backup of your data."
 msgstr ""
 "Wygląda na to, że obecnie nie posiadasz kopii zapasowej Twoich obrazów. "
-"Jeśli telefon się zepsuje lub zgubi, stracisz dostęp do swoich pomiarów.\n"
+"Jeśli telefon się zepsuje lub zgubi, stracisz dostęp do swoich pomiarów."
+"\n"
 "\n"
 "Aby temu zapobiec, użyj funkcji synchronizacji w chmurze zawartej w "
 "wersji Biznesowej lub zrób ręczną kopię zapasową swoich danych."
@@ -808,18 +932,19 @@ msgstr "Nie ostrzegaj ponownie"
 
 msgctxt "main_screen_info_message_deprecated_directory"
 msgid ""
-"Your images are stored in the public 'Documents' directory. Soon, Android "
-"will not allow apps to access this directory anymore. Please move your "
+"Your images are stored in the public 'Documents' directory. Soon, Android"
+" will not allow apps to access this directory anymore. Please move your "
 "data into the app directory."
 msgstr ""
 "Twoje obrazy są przechowywane w publicznym katalogu „Dokumenty”. Wkrótce "
-"system operacyjny Android nie będzie już zezwalać aplikacjom na dostęp do "
-"tego katalogu. Przenieś swoje dane do katalogu aplikacji."
+"system operacyjny Android nie będzie już zezwalać aplikacjom na dostęp do"
+" tego katalogu. Przenieś swoje dane do katalogu aplikacji."
 
 msgctxt "main_screen_info_message_deprecated_directory_settings"
 msgid "Open settings"
 msgstr "Otwórz ustawienia"
 
+#. example images
 msgctxt "example_folder_name"
 msgid "Examples"
 msgstr "Przykłady"
@@ -840,6 +965,7 @@ msgctxt "tutorial_images_4"
 msgid "Example 4: Perspective height measurement"
 msgstr "Przykład 4: Perspektywiczny pomiar wysokości"
 
+#. image import from free app
 msgctxt "snackbar_pro_to_free_migration"
 msgid "Pro-version app migration"
 msgstr "Migracja aplikacji z wersji Pro"
@@ -859,8 +985,8 @@ msgstr "Importuj obrazy z wersji Pro"
 msgctxt "import_pro_app_data_started_text"
 msgid ""
 "Importing has started to run in the background. When it is finished, "
-"please check that the images were copied correctly and delete them in the "
-"Pro app to save memory space."
+"please check that the images were copied correctly and delete them in the"
+" Pro app to save memory space."
 msgstr ""
 "W tle rozpoczął się proces importowania danych. Po zakończeniu sprawdź, "
 "czy obrazy zostały poprawnie skopiowane i usuń je z wersji Pro, aby "
@@ -871,8 +997,8 @@ msgid ""
 "Warning: there are images in this app. Importing the images from the Pro "
 "app may overwrite images with the same name."
 msgstr ""
-"Ostrzeżenie: w tej aplikacji są obrazy. Importowanie obrazów z wersji Pro "
-"może zastąpić obrazy o tej samej nazwie."
+"Ostrzeżenie: w tej aplikacji są obrazy. Importowanie obrazów z wersji Pro"
+" może zastąpić obrazy o tej samej nazwie."
 
 msgctxt "import_pro_app_data_local_not_empty_anyway"
 msgid "Import anyway"
@@ -886,6 +1012,7 @@ msgctxt "import_pro_app_data_scan_progress_text"
 msgid "Please wait, searching for images to copy."
 msgstr "Proszę czekać, szukam obrazów do skopiowania."
 
+#, c-format
 msgctxt "import_pro_app_data_progress_text"
 msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
 msgstr "Proszę czekać, przetworzono %1$d z %2$d zdjęć (błędy: %3$d)."
@@ -893,8 +1020,8 @@ msgstr "Proszę czekać, przetworzono %1$d z %2$d zdjęć (błędy: %3$d)."
 msgctxt "import_pro_app_data_finished"
 msgid ""
 "Images from the Pro app are now imported. After checking that the images "
-"were imported correctly, you may want to delete the images in the Pro app "
-"to save memory space."
+"were imported correctly, you may want to delete the images in the Pro app"
+" to save memory space."
 msgstr ""
 "Obrazy z wersji Pro są właśnie importowane. Po sprawdzeniu czy wszystko "
 "zostało poprawnie przeniesione, możesz je usunąć z wersji Pro, aby "
@@ -908,6 +1035,7 @@ msgstr ""
 "Import obrazów z wersji Pro nie powiódł się lub jest niekompletny. Może "
 "pamięć twojego urządzenia jest pełna?"
 
+#. PDF import dialog
 msgctxt "pdf_import_page_selection_render_resolution"
 msgid "Resolution (dpi):"
 msgstr "Rozdzielczość (dpi):"
@@ -916,6 +1044,7 @@ msgctxt "pdf_import_page_selection_output_image_resolution"
 msgid "Output resolution:"
 msgstr "Rozdzielczość wyjściowa:"
 
+#, c-format
 msgctxt "pdf_import_page_selection_output_image_resolution_value"
 msgid "%1$.1f MP"
 msgstr "%1$.1f MP"
@@ -924,6 +1053,7 @@ msgctxt "pdf_import_page_selection_importButton"
 msgid "Import"
 msgstr "Importuj"
 
+#. dialog: export format
 msgctxt "dialog_export_format_image"
 msgid "Image (JPEG/PNG)"
 msgstr "Obraz (JPEG/PNG)"
@@ -952,6 +1082,7 @@ msgctxt "dialog_export_format_show_next_time"
 msgid "Show format selection next time"
 msgstr "Następnym razem pokaż wybór formatu"
 
+#. image export
 msgctxt "dialog_image_export_options_title"
 msgid "Default image export settings"
 msgstr "Domyślne ustawienia eksportu obrazu"
@@ -976,6 +1107,15 @@ msgctxt "dialog_image_export_overlay_show_image_title"
 msgid "Show image title"
 msgstr "Pokaż tytuł obrazu"
 
+#. - OBSOLET
+msgctxt "dialog_image_export_show_text_overlay"
+msgid "Show text overlay"
+msgstr ""
+
+msgctxt "dialog_image_export_text_overlay"
+msgid "Text"
+msgstr ""
+
 msgctxt "dialog_image_export_size_original_image_size"
 msgid "Original image size"
 msgstr "Oryginalny rozmiar obrazu"
@@ -988,6 +1128,10 @@ msgctxt "dialog_image_export_image_quality"
 msgid "Image quality"
 msgstr "Jakość obrazu"
 
+msgctxt "dialog_image_export_low_jpeg_image_quality"
+msgid "A quality of at least 80 is recommended."
+msgstr ""
+
 msgctxt "dialog_image_export_image_size"
 msgid "Image size"
 msgstr "Rozmiar obrazu"
@@ -996,6 +1140,7 @@ msgctxt "dialog_image_export_options_show_dialog"
 msgid "Show export options next time"
 msgstr "Następnym razem pokaż opcje eksportu"
 
+#. PDF export
 msgctxt "dialog_pdf_export_paper"
 msgid "Paper"
 msgstr "Papier"
@@ -1020,6 +1165,10 @@ msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
 msgstr "Wydrukuj notatki do folderu"
 
+msgctxt "dialog_pdf_export_image_title"
+msgid "Image title"
+msgstr ""
+
 msgctxt "dialog_pdf_export_data_table"
 msgid "Data Table"
 msgstr "Tabela danych"
@@ -1036,6 +1185,7 @@ msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
 msgstr "Następnym razem pokaż opcje PDF"
 
+#. TODO
 msgctxt "pref_export_pdf_print_density"
 msgid "Resolution"
 msgstr "Rozdzielczość"
@@ -1048,34 +1198,47 @@ msgctxt "dialog_pdf_options_image_notes_space_choices:0"
 msgid "Do not print notes"
 msgstr "Nie drukuj notatek"
 
+#, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
 msgid "10%"
 msgstr "10%"
 
+#, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:2"
 msgid "20%"
 msgstr "20%"
 
+#, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:3"
 msgid "30%"
 msgstr "30%"
 
+#, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:4"
 msgid "40%"
 msgstr "40%"
 
+#, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
 msgstr "50%"
 
+#. export to gallery
+msgctxt "image_export_to_gallery_in_background"
+msgid "Storing the images into your photo gallery..."
+msgstr ""
+
+#. PDF export progress notification
 msgctxt "pdf_export_notification_generating_pdf"
 msgid "Generating PDF file"
 msgstr "Generowanie pliku PDF"
 
+#, c-format
 msgctxt "pdf_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
 msgstr "Renderowanie obrazu %1$d z %2$d."
 
+#. - ZIP export
 msgctxt "dialog_zip_export_title"
 msgid "ZIP export"
 msgstr "Eksport ZIP"
@@ -1084,14 +1247,17 @@ msgctxt "dialog_zip_options_show_dialog"
 msgid "Show ZIP options next time"
 msgstr "Następnym razem pokaż opcje ZIP"
 
+#. ZIP export progress notification
 msgctxt "zip_export_notification_generating_title"
 msgid "Generating ZIP file"
 msgstr "Generowanie pliku ZIP"
 
+#, c-format
 msgctxt "zip_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
 msgstr "Renderowanie obrazu %1$d z %2$d."
 
+#, c-format
 msgctxt "zip_export_notification_progress_pdf_step"
 msgid "PDF image %1$d of %2$d."
 msgstr "Obraz PDF %1$d z %2$d."
@@ -1100,10 +1266,13 @@ msgctxt "zip_export_notification_progress_compressing_step"
 msgid "Compressing ZIP file…"
 msgstr "Kompresowanie pliku ZIP ..."
 
+#. CSV export
 msgctxt "dialog_csv_export_title"
 msgid "Data table export (CSV)"
 msgstr "Eksport tabeli danych (CSV)"
 
+#. export
+#. notifications
 msgctxt "notification_generic_error_title"
 msgid "Error"
 msgstr "Błąd"
@@ -1124,6 +1293,7 @@ msgctxt "notification_import_title"
 msgid "Image import"
 msgstr "Import obrazu"
 
+#, c-format
 msgctxt "notification_import_content"
 msgid "%1d image left …"
 msgid_plural "%1d images left …"
@@ -1172,6 +1342,7 @@ msgctxt "notification_error_saving_to_gallery"
 msgid "Error while saving to gallery"
 msgstr "Błąd podczas zapisywania w galerii"
 
+#, c-format
 msgctxt "notification_save_to_gallery_content"
 msgid "%1d image left …"
 msgid_plural "%1d images left …"
@@ -1181,8 +1352,7 @@ msgstr[2] "Pozostało %1d obrazów…"
 msgstr[3] "Pozostało %1d obrazów…"
 
 msgctxt "notification_error_no_permission_to_save_to_gallery"
-msgid ""
-"Cannot save to gallery because ImageMeter has no storage write permission."
+msgid "Cannot save to gallery because ImageMeter has no storage write permission."
 msgstr ""
 "Nie można zapisać w galerii, ImageMeter nie ma uprawnień do zapisu w "
 "pamięci urządzenia."
@@ -1191,6 +1361,7 @@ msgctxt "notification_duplicate_title"
 msgid "Duplicate images"
 msgstr "Zduplikowane obrazy"
 
+#, c-format
 msgctxt "notification_duplicate_content"
 msgid "%1$d of %2$d images copied"
 msgstr "Skopiowano %1$d z %2$d obrazów"
@@ -1199,6 +1370,8 @@ msgctxt "notification_error_duplicating_image"
 msgid "Error while duplicating image"
 msgstr "Błąd podczas powielania obrazu"
 
+#. ========== preferences ==========
+#. main screen
 msgctxt "pref_main_title"
 msgid "Settings"
 msgstr "Ustawienia"
@@ -1223,6 +1396,10 @@ msgctxt "pref_category_user_interface"
 msgid "User interface"
 msgstr "Interfejs użytkownika"
 
+msgctxt "pref_category_workflow"
+msgid "Workflow"
+msgstr ""
+
 msgctxt "pref_category_storage"
 msgid "Storage"
 msgstr "Pamięć"
@@ -1235,6 +1412,7 @@ msgctxt "pref_category_information"
 msgid "Information"
 msgstr "Informacje"
 
+#. measures
 msgctxt "pref_measures_default_template"
 msgid "Default measurement format"
 msgstr "Domyślny format pomiaru"
@@ -1519,6 +1697,7 @@ msgctxt "pref_unit_subsets_imperial_all"
 msgid "All"
 msgstr "Wszystkie"
 
+#. Bluetooth
 msgctxt "pref_bluetooth_devices"
 msgid "Laser distance meter"
 msgstr "Dalmierz laserowy"
@@ -1547,6 +1726,7 @@ msgctxt "pref_bluetooth_device_protocol_dialog"
 msgid "Select the protocol used by the laser distance meter"
 msgstr "Wybierz protokół używany przez dalmierz laserowy"
 
+#. TODO: move device names to editcore [untranslated]
 msgctxt "pref_bluetooth_device_protocol_auto"
 msgid "Automatic"
 msgstr "Automatyczny"
@@ -1737,6 +1917,7 @@ msgctxt "pref_bluetooth_remote_trigger_twice_summaryoff"
 msgid "The trigger command will be sent only once."
 msgstr "Polecenie wyzwalające zostanie wysłane tylko raz."
 
+#. Editor
 msgctxt "pref_category_editor_general"
 msgid "General"
 msgstr "Ogólne"
@@ -1765,6 +1946,10 @@ msgctxt "pref_editor_zoom_slider"
 msgid "Show zoom slider"
 msgstr "Pokaż suwak powiększenia"
 
+msgctxt "pref_editor_keep_screen_on"
+msgid "Keep screen on while editing"
+msgstr ""
+
 msgctxt "pref_ui_editor_dragging_speed"
 msgid "Dragging slowdown"
 msgstr "Powolne przeciąganie"
@@ -1773,21 +1958,45 @@ msgctxt "pref_ui_editor_dragging_speed_dialog"
 msgid "Dragging slowdown"
 msgstr "Powolne przeciąganie"
 
+#, c-format
 msgctxt "pref_ui_editor_dragging_speed_choices:0"
 msgid "100%"
 msgstr "100%"
 
+#, c-format
 msgctxt "pref_ui_editor_dragging_speed_choices:1"
 msgid "75%"
 msgstr "75%"
 
+#, c-format
 msgctxt "pref_ui_editor_dragging_speed_choices:2"
 msgid "50%"
 msgstr "50%"
 
+#, c-format
 msgctxt "pref_ui_editor_dragging_speed_choices:3"
 msgid "25%"
 msgstr "25%"
+
+msgctxt "pref_ui_editor_rotation"
+msgid "Interactive rotation"
+msgstr ""
+
+msgctxt "pref_ui_editor_rotation_dialog"
+msgid "Interactive rotation"
+msgstr ""
+
+msgctxt "pref_ui_editor_rotation_choices:0"
+msgid "Disable rotation"
+msgstr ""
+
+msgctxt "pref_ui_editor_rotation_choices:1"
+msgid "Enabled, snap at original orientation"
+msgstr ""
+
+msgctxt "pref_ui_editor_rotation_choices:2"
+msgid "Enabled, snap at 90° degree angles"
+msgstr ""
 
 msgctxt "pref_ui_helpbar_mode"
 msgid "Help messages"
@@ -1821,6 +2030,7 @@ msgctxt "pref_editor_font_size"
 msgid "Font size"
 msgstr "Rozmiar czcionki"
 
+#, c-format
 msgctxt "pref_editor_font_size_summary"
 msgid "%s"
 msgstr "%s"
@@ -1884,6 +2094,16 @@ msgstr "Normalna"
 msgctxt "pref_editor_snapping_strength_choices:2"
 msgid "High"
 msgstr "Wysoka"
+
+msgctxt "pref_editor_snapping_raster"
+msgid "Distance step size"
+msgstr ""
+
+msgctxt "pref_editor_snapping_raster_descr"
+msgid ""
+"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
+"rectangle sides will be restricted to steps of this size."
+msgstr ""
 
 msgctxt "pref_category_editor_magnifier"
 msgid "Magnifier"
@@ -1949,10 +2169,12 @@ msgctxt "pref_category_editor_preset_texts"
 msgid "Preset texts"
 msgstr "Gotowe teksty"
 
+#, c-format
 msgctxt "pref_preset_text"
 msgid "Preset text %1$d"
 msgstr "Własny tekst %1$d"
 
+#, c-format
 msgctxt "pref_preset_text_dialog"
 msgid "Enter preset text %1$d"
 msgstr "Wprowadź własny tekst %1$d"
@@ -1997,6 +2219,7 @@ msgctxt "preset_text_10"
 msgid "exit"
 msgstr "wyjście"
 
+#. Image export
 msgctxt "pref_category_export_format"
 msgid "Export format"
 msgstr "Format eksportowanego pliku"
@@ -2021,26 +2244,38 @@ msgctxt "pref_export_single_image_format_dialog"
 msgid "Export images as"
 msgstr "Eksportuj obrazy jako"
 
+#. TODO: instead of this string-array use the values from
+#. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:0"
 msgid "Image"
 msgstr "Obraz"
 
+#. TODO: instead of this string-array use the values from
+#. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:1"
 msgid "PDF"
 msgstr "PDF"
 
+#. TODO: instead of this string-array use the values from
+#. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:2"
 msgid "Zip archive of images"
 msgstr "Archiwum ZIP"
 
+#. TODO: instead of this string-array use the values from
+#. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:3"
 msgid "ImageMeter image (IMI)"
 msgstr "Obraz ImageMeter (IMI)"
 
+#. TODO: instead of this string-array use the values from
+#. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:4"
 msgid "ImageMeter folder (IMF)"
 msgstr "Folder ImageMeter (IMF)"
 
+#. TODO: instead of this string-array use the values from
+#. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:5"
 msgid "Save to gallery"
 msgstr "Zapisz w galerii"
@@ -2077,6 +2312,7 @@ msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
 msgstr "Wyłączone (niższa jakość wyjściowa)"
 
+#. ZIP
 msgctxt "pref_category_export_zip"
 msgid "ZIP archive settings"
 msgstr "Ustawienia archiwum ZIP"
@@ -2109,6 +2345,7 @@ msgctxt "pref_export_zip_include_pdf"
 msgid "Include PDF file"
 msgstr "Dołącz plik PDF"
 
+#. CSV
 msgctxt "pref_category_export_csv"
 msgid "CSV file settings"
 msgstr "Ustawienia pliku CSV"
@@ -2153,6 +2390,7 @@ msgctxt "pref_export_csv_decimal_separator_choices:1"
 msgid "Comma"
 msgstr "Przecinek"
 
+#. PDF
 msgctxt "pref_category_export_pdf"
 msgid "PDF settings"
 msgstr "Ustawienia PDF"
@@ -2265,25 +2503,34 @@ msgctxt "pref_export_pdf_image_notes_space_dialog"
 msgid "Space reserved for image notes"
 msgstr "Miejsce przeznaczone na notatki z obrazów"
 
+#, c-format
 msgctxt "pref_export_pdf_image_notes_space_choices:0"
 msgid "50%"
 msgstr "50%"
 
+#, c-format
 msgctxt "pref_export_pdf_image_notes_space_choices:1"
 msgid "40%"
 msgstr "40%"
 
+#, c-format
 msgctxt "pref_export_pdf_image_notes_space_choices:2"
 msgid "30%"
 msgstr "30%"
 
+#, c-format
 msgctxt "pref_export_pdf_image_notes_space_choices:3"
 msgid "20%"
 msgstr "20%"
 
+#, c-format
 msgctxt "pref_export_pdf_image_notes_space_choices:4"
 msgid "10%"
 msgstr "10%"
+
+msgctxt "pref_export_pdf_image_notes_space_choices:5"
+msgid "Do not print image notes"
+msgstr ""
 
 msgctxt "pref_export_pdf_print_folder_notes"
 msgid "Print folder notes"
@@ -2321,6 +2568,7 @@ msgctxt "pref_export_general_map_link_provider_choices:2"
 msgid "OpenStreetMap"
 msgstr "OpenStreetMap"
 
+#. User interface
 msgctxt "pref_category_ui_general"
 msgid "General"
 msgstr "Ogólne"
@@ -2377,6 +2625,68 @@ msgctxt "pref_ui_edit_image_after_capture_enabled"
 msgid "Edit image after capture"
 msgstr "Edytuj obraz po zrobieniu zdjęcia"
 
+#. initial texts
+msgctxt "pref_category_ui_initial_titles"
+msgid "Initial titles"
+msgstr ""
+
+msgctxt "pref_category_ui_initial_notes"
+msgid "Initial notes"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_info"
+msgid "Show scripting overview…"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_title_expr_camera"
+msgid "Title for camera images"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_notes_expr_camera"
+msgid "Notes for camera images"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_title_expr_import_image_with_filename"
+msgid "Imported image with filename"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_title_expr_import_image_no_filename"
+msgid "Imported image without filename"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_notes_expr_import_image"
+msgid "Notes for imported image"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_title_expr_import_pdf_with_filename"
+msgid "Imported PDF with filename"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_title_expr_import_pdf_no_filename"
+msgid "imported PDF without filename"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_notes_expr_import_pdf"
+msgid "Notes for imported PDF"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_title_expr_canvas"
+msgid "Title for new canvas"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_image_notes_expr_canvas"
+msgid "Notes for new canvas"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_folder_title_expr"
+msgid "Title for new folder"
+msgstr ""
+
+msgctxt "pref_ui_entity_init_new_folder_notes_expr"
+msgid "Notes for new folder"
+msgstr ""
+
+#. numbering
 msgctxt "pref_category_ui_numbering"
 msgid "Image numbering"
 msgstr "Numeracja obrazów"
@@ -2397,6 +2707,7 @@ msgctxt "pref_ui_image_auto_numbering_invalid_number"
 msgid "Invalid"
 msgstr "Błędna wartość"
 
+#. Storage
 msgctxt "pref_storage_data_directory"
 msgid "Data directory"
 msgstr "Katalog danych"
@@ -2487,8 +2798,8 @@ msgid ""
 "Never delete images from the server. You may get duplicates when moving "
 "images."
 msgstr ""
-"Nigdy nie usuwaj obrazów z serwera. Opcja możesz generować duplikaty przy "
-"przenoszeniu obrazów."
+"Nigdy nie usuwaj obrazów z serwera. Opcja możesz generować duplikaty przy"
+" przenoszeniu obrazów."
 
 msgctxt "pref_storage_cloud_advanced_maintenance"
 msgid "Advanced maintenance"
@@ -2498,6 +2809,7 @@ msgctxt "pref_storage_cloud_send_error_log"
 msgid "Send error log by email"
 msgstr "Wyślij dziennik błędów e-mailem"
 
+#. TODO
 msgctxt "pref_storage_cloud_sync_mode"
 msgid "Synchronization mode"
 msgstr "Tryb synchronizacji"
@@ -2510,22 +2822,27 @@ msgctxt "pref_storage_cloud_sync_mode_choices:1"
 msgid "Backup"
 msgstr "Utwórz kopię zapasową"
 
+#. TODO
 msgctxt "pref_cloud_storage_sync_cautiousness:0"
 msgid "Never ask"
 msgstr "Nigdy nie pytaj"
 
+#. TODO
 msgctxt "pref_cloud_storage_sync_cautiousness:1"
 msgid "Confirm deletions"
 msgstr "Potwierdź usunięcie"
 
+#. TODO
 msgctxt "pref_cloud_storage_sync_cautiousness:2"
 msgid "Confirm conflicts and deletions"
 msgstr "Potwierdź konflikty i usunięcia"
 
+#. TODO
 msgctxt "pref_cloud_storage_sync_cautiousness:3"
 msgid "Confirm everything"
 msgstr "Potwierdź wszystko"
 
+#. TODO
 msgctxt "pref_cloud_storage_sync_mode:0"
 msgid "SYNC MODE"
 msgstr "TRYB SYNCHRONIZACJI"
@@ -2566,6 +2883,7 @@ msgctxt "dialog_purge_images_finished"
 msgid "All deleted images have been purged from memory."
 msgstr "Wszystkie usunięte obrazy zostały oczyszczoe z pamięci."
 
+#. Data directory
 msgctxt "pref_storage_directory_current_directory"
 msgid "Current storage directory:"
 msgstr "Aktualny katalog przechowywania:"
@@ -2610,10 +2928,18 @@ msgctxt "pref_storage_directory_error_nonexistent_directory"
 msgid "This directory is not present. Please choose a different directory."
 msgstr "Ten katalog nie jest dostępny. Wybierz inny folder."
 
+#. Actually, we should use Unicode \u00A0 for non-breaking spaces, but a2po
+#. crashes on them
+#. string name="pref_storage_directory_memory_status">Memory: %1$s\u00A0MB
+#. free, %2$s\u00A0MB used, %3$s\u00A0MB total</string
+#. string name="pref_storage_directory_memory_status_unknown_used">Memory:
+#. %1$s\u00A0MB free, used space unknown, %2$s\u00A0MB total</string
+#, c-format
 msgctxt "pref_storage_directory_memory_status"
 msgid "Memory: %1$d MB free, %2$d MB used, %3$d MB total"
 msgstr "Pamięć: %1$d MB wolne, %2$d MB używane, %3$d MB łącznie"
 
+#, c-format
 msgctxt "pref_storage_directory_memory_status_unknown_used"
 msgid "Memory: %1$d MB free, used space unknown, %2$d MB total"
 msgstr "Pamięć: %1$d MB wolne, używana przestrzeń nieznana, %2$d MB łącznie"
@@ -2635,8 +2961,7 @@ msgid "Insufficient space"
 msgstr "Niewystarczające miejsce"
 
 msgctxt "pref_storage_directory_not_enough_free_space_message"
-msgid ""
-"There is not enough free memory on the target volume to move all images."
+msgid "There is not enough free memory on the target volume to move all images."
 msgstr ""
 "Nie ma wystarczającej ilości wolnej pamięci na docelowym woluminie, aby "
 "móc przenieść wszystkie obrazy."
@@ -2652,8 +2977,8 @@ msgid ""
 "Please note that the target directory now contains an incomplete copy of "
 "the source data!"
 msgstr ""
-"Nie można skopiować wszystkich obrazów do katalogu docelowego. Może nazwy "
-"twoich folderów nie są prawidłowe. Proszę je zmienić, a następnie "
+"Nie można skopiować wszystkich obrazów do katalogu docelowego. Może nazwy"
+" twoich folderów nie są prawidłowe. Proszę je zmienić, a następnie "
 "spróbować skopiować pozostałe dane.\n"
 "Aktywny katalog pamięci nie został zmieniony.\n"
 "Pamiętaj, że katalog docelowy zawiera obecnie niekompletną kopię danych "
@@ -2671,15 +2996,16 @@ msgctxt "dialog_storage_directory_move_images_progress_text"
 msgid "Moving images …"
 msgstr "Przenoszę obrazy …"
 
+#. Cloud storage
 msgctxt "cloud_storage_notice_text"
 msgid ""
-"Before setting up cloud storage, you should read the <a href=\"https://"
-"www.imagemeter.com/manual/storage/cloud\">documentation</a> to avoid "
-"pitfalls."
+"Before setting up cloud storage, you should read the <a "
+"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>"
+" to avoid pitfalls."
 msgstr ""
-"Przed skonfigurowaniem magazynu w chmurze należy przeczytać <a href="
-"\"https://www.imagemeter.com/manual/storage/cloud\">dokumentację</a>, "
-"pomoże Ci to uniknąć niespodzianek."
+"Przed skonfigurowaniem magazynu w chmurze należy przeczytać <a "
+"href=\"https://www.imagemeter.com/manual/storage/cloud\">dokumentację</a>,"
+" pomoże Ci to uniknąć niespodzianek."
 
 msgctxt "cloud_storage_cloud_server"
 msgid "Cloud server:"
@@ -2733,7 +3059,8 @@ msgctxt "cloud_storage_server_note_drive"
 msgid ""
 "<b>Note:</b> the Google Drive backend does not allow access to shared "
 "folders yet. Hence, you can share images between devices when they use "
-"the same Google account, but not between devices using different accounts."
+"the same Google account, but not between devices using different "
+"accounts."
 msgstr ""
 "<b>Uwaga:</b> backend Dysku Google nie pozwala jeszcze na dostęp do "
 "folderów współdzielonych. Dlatego możesz udostępniać obrazy między "
@@ -2746,14 +3073,14 @@ msgid ""
 "users. See the documentation at the link above how to set this up."
 msgstr ""
 "Backend Dropbox obsługuje również udostępnianie zdjęć innym użytkownikom "
-"serwisu. Zobacz dokumentację pod linkiem powyżej by dowiedzieć się w jaki "
-"sposób to skonfigurować."
+"serwisu. Zobacz dokumentację pod linkiem powyżej by dowiedzieć się w jaki"
+" sposób to skonfigurować."
 
 msgctxt "cloud_storage_server_note_nextcloud"
 msgid ""
-"This backend allows you to use your own, private cloud server to host the "
-"images. You can set-up your own users and shared folders. Information how "
-"to set-up a server can be found at the documentation link above."
+"This backend allows you to use your own, private cloud server to host the"
+" images. You can set-up your own users and shared folders. Information "
+"how to set-up a server can be found at the documentation link above."
 msgstr ""
 "Ten backend pozwala na przechowywanie obrazów przy użyciu własnego, "
 "prywatnego serwera w chmurze. Możesz skonfigurować własnych użytkowników "
@@ -2765,14 +3092,15 @@ msgid ""
 "The Handwerkcloud service offers not only storage space for your images "
 "and documents, but also an online office suite and other applications. A "
 "Handwerkcloud subscription includes an ImageMeter Business license. For "
-"more information see the <a href=\"https://handwerkcloud.de"
-"\">Handwerkcloud website</a>."
+"more information see the <a "
+"href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
 msgstr ""
 "Usługa Handwerkcloud oferuje nie tylko miejsce na zdjęcia i dokumenty, "
 "ale także pakiet biurowy online oraz inne aplikacje. Subskrypcja "
 "Handwerkcloud obejmuje także licencję ImageMeter Business. Aby uzyskać "
-"więcej informacji, zobacz \\u003ca href=\"https://handwerkcloud.de"
-"\"\\u003e witrynę Handwerkcloud \\u003c/a\\u003e."
+"więcej informacji, zobacz \\u003ca "
+"href=\"https://handwerkcloud.de\"\\u003e witrynę Handwerkcloud "
+"\\u003c/a\\u003e."
 
 msgctxt "cloud_storage_server_note_onedrive"
 msgid ""
@@ -2889,6 +3217,7 @@ msgctxt "cloud_storage_cautiousness"
 msgid "Cautiousness:"
 msgstr "Ostrożnie:"
 
+#. template config
 msgctxt "pref_template_title"
 msgid "Templates"
 msgstr "Szablony"
@@ -2900,8 +3229,9 @@ msgid ""
 "define the layout of tabular output of your measurements. \n"
 "On this page, you find the list of templates for your measurement tasks.\n"
 " \n"
-"For more information, see the <a href=\"https://www.imagemeter.com/manual/"
-"templates/overview\">tutorials and manual</a>.\n"
+"For more information, see the <a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\">tutorials "
+"and manual</a>.\n"
 " \n"
 "Note: templates are part of the <a href=\"upgrade-dialog\">Business "
 "version</a>."
@@ -2911,11 +3241,12 @@ msgstr ""
 "także zdefiniować układ tabelarycznych wyników pomiarów.\n"
 "Na tej stronie znajdziesz listę szablonów do zadań pomiarowych.\n"
 " \n"
-"Więcej informacji można znaleźć w <a href=\"https://www.imagemeter.com/"
-"manual/templates/overview\">samouczkach i instrukcji</a>.\n"
+"Więcej informacji można znaleźć w <a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\">samouczkach"
+" i instrukcji</a>.\n"
 " \n"
-"Uwaga: szablony są częścią <a href=\"upgrade-dialog\">wersji biznesowej</"
-"a>."
+"Uwaga: szablony są częścią <a href=\"upgrade-dialog\">wersji "
+"biznesowej</a>."
 
 msgctxt "pref_template_list_title"
 msgid "List of templates"
@@ -2962,8 +3293,8 @@ msgid ""
 "subtracted (e.g. windows)."
 msgstr ""
 "Ten szablon jest podstawą do obliczeń powierzchni. Powierzchnia "
-"niektórych elementów jest dodawana do sumy (np. ściany), podczas gdy inne "
-"elementy są odejmowane (np. okna)."
+"niektórych elementów jest dodawana do sumy (np. ściany), podczas gdy inne"
+" elementy są odejmowane (np. okna)."
 
 msgctxt "pref_dialog_template_add_description_parts_list"
 msgid ""
@@ -3014,10 +3345,12 @@ msgctxt "pref_template_config_custom_add_tag"
 msgid "+ add tag"
 msgstr "+ dodaj etykietę"
 
+#. deprecated
 msgctxt "pref_template_config_custom_label_type"
 msgid "Type:"
 msgstr "Rodzaj:"
 
+#. deprecated
 msgctxt "pref_template_config_custom_unit"
 msgid "Unit:"
 msgstr "Jednostka:"
@@ -3084,9 +3417,9 @@ msgstr "Zawartość kolumny"
 
 msgctxt "pref_template_custom_table_column_content_info_description"
 msgid ""
-"Specify the cell content in this column. This can be either a measurement "
-"value that you annotated with a tag, or image metadata (e.g. image name, "
-"capture date)."
+"Specify the cell content in this column. This can be either a measurement"
+" value that you annotated with a tag, or image metadata (e.g. image name,"
+" capture date)."
 msgstr ""
 "Określ zawartość komórki w tej kolumnie. Może to być wartość pomiaru, do "
 "której dodano adnotację etykietą, lub metadane obrazu (np. nazwa obrazu, "
@@ -3098,8 +3431,8 @@ msgstr "Wybór pomiaru"
 
 msgctxt "pref_template_custom_table_column_measure_info_description"
 msgid ""
-"Here, you define which measurement of the tagged element to put into this "
-"column. E.g. for a circle you can choose between its area, radius, "
+"Here, you define which measurement of the tagged element to put into this"
+" column. E.g. for a circle you can choose between its area, radius, "
 "circumference, …"
 msgstr ""
 "W tym miejscu definiujesz, jaki pomiar oznakowanego elementu umieścić w "
@@ -3113,8 +3446,8 @@ msgstr "Wielokrotne wartości na komórkę"
 msgctxt "pref_template_custom_table_column_multiplevalues_info_description"
 msgid ""
 "When several elements are assigned the same tag, several values will be "
-"placed into one cell. Here you can choose to sum these values, take their "
-"average, or other options instead of keeping all in one cell."
+"placed into one cell. Here you can choose to sum these values, take their"
+" average, or other options instead of keeping all in one cell."
 msgstr ""
 "Gdy więcej niż jeden element ma przypisany tę samą etykietę, kilka "
 "wartości zostanie umieszczonych w jednej komórce. Tutaj możesz zsumować "
@@ -3301,6 +3634,7 @@ msgctxt "pref_template_partslist_row_show_footer"
 msgid "Show footer row"
 msgstr "Pokaż wiersz stopki"
 
+#. Preferences: Information
 msgctxt "pref_category_information_debugging"
 msgid "Debugging"
 msgstr "Debugowanie"
@@ -3322,6 +3656,19 @@ msgctxt "pref_information_googleplay_purchases_no_purchases"
 msgid "PlayStore reports: no purchases for active account"
 msgstr "Raporty PlayStore: brak zakupów dla aktywnego konta"
 
+msgctxt "pref_information_appgallery_purchases_no_purchases"
+msgid "AppGallery reports: no purchases for active account"
+msgstr ""
+
+msgctxt "pref_category_information_credits"
+msgid "Credits"
+msgstr ""
+
+msgctxt "pref_information_translator"
+msgid "."
+msgstr ""
+
+#. ===== cloud synchronization =====
 msgctxt "cloud_storage_dialog_sync_action_title"
 msgid "Synchronizing directory"
 msgstr "Synchronizowanie katalogu"
@@ -3362,24 +3709,25 @@ msgctxt "cloud_scan_notification_title"
 msgid "Scanning cloud server content"
 msgstr "Skanowanie zawartości serwera w chmurze"
 
+#, c-format
 msgctxt "cloud_scan_notification_content_no_error"
 msgid "%1$d images, %2$d folders found. %3$d items left."
-msgstr ""
-"Obrazy: %1$d, znalezionych folderów: %2$d. Pozostało: %3$d elementów."
+msgstr "Obrazy: %1$d, znalezionych folderów: %2$d. Pozostało: %3$d elementów."
 
+#, c-format
 msgctxt "cloud_scan_notification_content_with_error"
 msgid "%1$d images, %2$d folders found. %3$d items left, %4$d errors."
-msgstr ""
-"Obrazy: %1$d, znalezionych folderów: %2$d. Pozostało: %3$d, błędy: %4$d."
+msgstr "Obrazy: %1$d, znalezionych folderów: %2$d. Pozostało: %3$d, błędy: %4$d."
 
+#, c-format
 msgctxt "cloud_sync_notification_content_no_error"
 msgid "%1$d items synced, %2$d items left."
 msgstr "Zsynchronizowano %1$d elementów, pozostało %2$d elementów."
 
+#, c-format
 msgctxt "cloud_sync_notification_content_with_error"
 msgid "%1$d items synced, %2$d items left. %3$d errors."
-msgstr ""
-"Zsynchronizowano %1$d elementów, pozostało %2$d elementów. Błędy: %3$d."
+msgstr "Zsynchronizowano %1$d elementów, pozostało %2$d elementów. Błędy: %3$d."
 
 msgctxt "cloud_progress_check_server"
 msgid "Checking server content."
@@ -3401,6 +3749,7 @@ msgctxt "notification_cloud_sync_errors_detailed_action"
 msgid "Show detailed errors"
 msgstr "Pokaż szczegóły błędów"
 
+#, c-format
 msgctxt "notification_cloud_sync_errors_short_text"
 msgid "%1$d synchronization errors"
 msgstr "Błędy synchronizacji: %1$d"
@@ -3421,6 +3770,7 @@ msgctxt "sync_errors_close_notificatoin"
 msgid "Close notification"
 msgstr "Zamknij powiadomienie"
 
+#. cloud server maintenance
 msgctxt "cloud_storage_maintenance_title"
 msgid "Cloud storage maintenance"
 msgstr "Konserwacja pamięci w chmurze"
@@ -3430,8 +3780,8 @@ msgid ""
 "<b>Remove server lock</b> - In order to prevent simultaneous access to "
 "the data on the cloud server, it is locked during the sync process. In "
 "case of some errors, e.g. network failures, it may be that the server "
-"remains locked. The locks time-out automatically after a few minutes, but "
-"you can also manually remove them immediately if you know for sure that "
+"remains locked. The locks time-out automatically after a few minutes, but"
+" you can also manually remove them immediately if you know for sure that "
 "it is an error."
 msgstr ""
 "<b>Usuń blokadę serwera</b> - Aby zapobiec jednoczesnemu dostępowi do "
@@ -3450,8 +3800,8 @@ msgid ""
 "<b>Reset server cache</b> - The cloud server maintains a cache of images "
 "stored on them. If you delete or add files manually on the server, this "
 "is not seen by the cache. You may reset the server cache to run a full "
-"scan during the next sync. However, note that a full scan may take a long "
-"time if you have many images."
+"scan during the next sync. However, note that a full scan may take a long"
+" time if you have many images."
 msgstr ""
 "<b>Zresetuj pamięć podręczną serwera</b> - Serwer w chmurze utrzymuje "
 "pamięć podręczną przechowywanych na nim obrazów. Jeśli ręcznie usuniesz "
@@ -3474,9 +3824,10 @@ msgid ""
 msgstr ""
 "<b>Zresetuj stan synchronizacji</b> - Następna synchronizacja rozpocznie "
 "się bez uprzedniej wiedzy o stanie danych między chmurą a twoim "
-"urządzeniem. Oznacza to np., że lokalnie usunięte obrazy zostaną ponownie "
-"pobrane z serwera zamiast usuwane na serwerze. Istnieje kilka przypadków, "
-"w których konieczne jest zresetowanie zapisanego stanu synchronizacji."
+"urządzeniem. Oznacza to np., że lokalnie usunięte obrazy zostaną ponownie"
+" pobrane z serwera zamiast usuwane na serwerze. Istnieje kilka "
+"przypadków, w których konieczne jest zresetowanie zapisanego stanu "
+"synchronizacji."
 
 msgctxt "cloud_storage_maintenance_reset_sync_state_button"
 msgid "Reset sync state"
@@ -3498,9 +3849,13 @@ msgctxt "cloud_storage_maintenance_remove_server_lock_ok"
 msgid "Successfully removed server lock."
 msgstr "Pomyślnie usunięto blokadę serwera."
 
-msgctxt "error:Cloud_CannotRemoveServerLock_no_lock"
+msgctxt "cloud_storage_maintenance_remove_server_lock_error_no_lock"
 msgid "There was no server lock."
-msgstr "Nie odnotowano blokady serwera."
+msgstr ""
+
+msgctxt "cloud_storage_maintenance_remove_server_lock_error"
+msgid "Could not remove server lock file '{}'."
+msgstr ""
 
 msgctxt "cloud_storage_maintenance_reset_server_cache_notification_progress_text"
 msgid "Resetting cloud server cache…"
@@ -3514,6 +3869,10 @@ msgctxt "cloud_storage_maintenance_reset_server_cache_ok"
 msgid "Successfully resetted server cache."
 msgstr "Pomyślnie zresetowano pamięć podręczną serwera."
 
+msgctxt "cloud_storage_maintenance_reset_server_cache_error"
+msgid "Could not remove server cache file '{}'."
+msgstr ""
+
 msgctxt "cloud_storage_maintenance_reset_sync_state_notification_progress_text"
 msgid "Resetting sync state…"
 msgstr "Resetowanie stanu synchronizacji…"
@@ -3526,6 +3885,12 @@ msgctxt "cloud_storage_maintenance_reset_sync_state_ok"
 msgid "Successfully resetted sync state."
 msgstr "Pomyślnie zresetowano stan synchronizacji."
 
+msgctxt "cloud_storage_maintenance_reset_sync_state_error"
+msgid "Could not reset sync state."
+msgstr ""
+
+#. === editor ===
+#. add
 msgctxt "editor_menu_section_calibration_tools"
 msgid "Calibration tools"
 msgstr "Narzędzia kalibracyjne"
@@ -3598,6 +3963,7 @@ msgctxt "editor_menu_add_cumulative_dimstring"
 msgid "Cumulative string"
 msgstr "Łączny ciąg"
 
+#. menu / toolbar
 msgctxt "editor_menu_edit_delete"
 msgid "Delete element"
 msgstr "Usuń element"
@@ -3682,6 +4048,8 @@ msgctxt "editor_menu_style"
 msgid "Style"
 msgstr "Styl"
 
+#. hints (TODO: should we remove these and instead show an icon of the
+#. currently active tool, like iOS)
 msgctxt "editor_hint_howto_draw_reference"
 msgid "Please point-and-drag one side of the reference."
 msgstr "Wskaż i przeciągnij siatkę odniesienia."
@@ -3704,20 +4072,18 @@ msgstr "Narysuj kontur obszaru jednym pociągnięciem."
 
 msgctxt "editor_hint_howto_draw_text"
 msgid ""
-"Please position the text area by pointing at the target location and then "
-"dragging the textbox to the end of the arrow."
+"Please position the text area by pointing at the target location and then"
+" dragging the textbox to the end of the arrow."
 msgstr ""
 "Wstaw adnotacje klikając na miejsce do którego powinna prowadzić notatka "
 "a następnie przeciągnij ją w dogodne miejsce."
 
 msgctxt "editor_hint_howto_draw_circle"
-msgid ""
-"Please point to the circle center and drag to specify the circle size."
+msgid "Please point to the circle center and drag to specify the circle size."
 msgstr "Wskaż środek okręgu i przeciągnij, aby określić rozmiar okręgu."
 
 msgctxt "editor_hint_howto_draw_freehand"
-msgid ""
-"You are now drawing in freehand mode until you press the close button."
+msgid "You are now drawing in freehand mode until you press the close button."
 msgstr ""
 "Rysujesz teraz w trybie odręcznym, dopóki nie naciśniesz przycisku "
 "zamykania."
@@ -3747,25 +4113,22 @@ msgstr ""
 "perspektywy. Zapoznaj się z sekcją często zadawanych pytań (FAQ)."
 
 msgctxt "editor_hint_howto_draw_dimstring"
-msgid ""
-"Please draw the first dimension string. Use the top toolbar to modify it."
+msgid "Please draw the first dimension string. Use the top toolbar to modify it."
 msgstr ""
 "Narysuj ciąg pierwszego wymiaru. Użyj górnego paska narzędzi, aby go "
 "zmodyfikować."
 
 msgctxt "editor_hint_howto_draw_dimstring_cumulative"
-msgid ""
-"Please draw the first dimension string. Use the top toolbar to modify it."
+msgid "Please draw the first dimension string. Use the top toolbar to modify it."
 msgstr ""
 "Narysuj ciąg pierwszego wymiaru. Użyj górnego paska narzędzi, aby go "
 "zmodyfikować."
 
 msgctxt "editor_hint_howto_attach_to_reference"
-msgid ""
-"Click on the measure you want to compute based on the selected reference."
+msgid "Click on the measure you want to compute based on the selected reference."
 msgstr ""
-"Kliknij miarę, którą chcesz obliczyć na podstawie wybranego punktu siatki "
-"odniesienia."
+"Kliknij miarę, którą chcesz obliczyć na podstawie wybranego punktu siatki"
+" odniesienia."
 
 msgctxt "editor_hint_howto_attach_measure"
 msgid ""
@@ -3790,11 +4153,11 @@ msgstr "https://imagemeter.com/manual/measuring/basics"
 msgctxt "editor_help_why_no_measured_value_because_two_references"
 msgid ""
 "The value is not computed because the image contains two references. "
-"Please select 'Compute value' from the menu and select which reference to "
-"use."
+"Please select 'Compute value' from the menu and select which reference to"
+" use."
 msgstr ""
-"Wartość nie jest obliczana, ponieważ obraz zawiera dwa odwołania. Wybierz "
-"„Oblicz wartość” z menu i wybierz odniesienie, którego chcesz użyć."
+"Wartość nie jest obliczana, ponieważ obraz zawiera dwa odwołania. Wybierz"
+" „Oblicz wartość” z menu i wybierz odniesienie, którego chcesz użyć."
 
 msgctxt "editor_help_do_not_show_again"
 msgid "Don't show again"
@@ -3806,11 +4169,11 @@ msgstr "Pokaż instrukcje"
 
 msgctxt "editor_error_no_reference_to_attach_to"
 msgid ""
-"There is no reference in the image! You need to draw a reference in order "
-"to do automatic computations."
+"There is no reference in the image! You need to draw a reference in order"
+" to do automatic computations."
 msgstr ""
-"W obrazie nie ma siatki odniesienia! Musisz narysować siatkę odniesienia, "
-"aby wykonać automatyczne obliczenia."
+"W obrazie nie ma siatki odniesienia! Musisz narysować siatkę odniesienia,"
+" aby wykonać automatyczne obliczenia."
 
 msgctxt "editor_error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -3820,6 +4183,7 @@ msgctxt "editor_message_element_has_been_attached_to_single_reference"
 msgid "Measure is computed based on the reference you provided."
 msgstr "Miara jest obliczana na podstawie podanej referencji."
 
+#. editor misc
 msgctxt "editor_dialog_tag_properties_title"
 msgid "Tags and properties"
 msgstr "Etykiety i właściwości"
@@ -3862,6 +4226,24 @@ msgctxt "color_dialog_special_use_main_color"
 msgid "Use main color"
 msgstr "Użyj głównego koloru"
 
+#. dialog: element locking
+msgctxt "editor_locking_title"
+msgid "Modification lock"
+msgstr ""
+
+msgctxt "editor_locking_lock_position"
+msgid "Lock position"
+msgstr ""
+
+msgctxt "editor_locking_lock_measurement"
+msgid "Lock measurements"
+msgstr ""
+
+msgctxt "editor_locking_button_apply_to_all"
+msgid "Apply to all"
+msgstr ""
+
+#. === style dialogs ===
 msgctxt "editor_dialog_style_set_as_default"
 msgid "Set as default"
 msgstr "Ustaw jako domyślne"
@@ -3878,6 +4260,7 @@ msgctxt "editor_dialog_style_generic_line_width_magnification"
 msgid "Line width"
 msgstr "Szerokość linii"
 
+#. GText (text box)
 msgctxt "editor_dialog_style_textbox_title"
 msgid "Text box style"
 msgstr "Styl pola tekstowego"
@@ -3934,6 +4317,7 @@ msgctxt "editor_textbox_delete_arrow"
 msgid "Delete arrow"
 msgstr "Usuń strzałkę"
 
+#. GFreehand
 msgctxt "editor_dialog_style_freehand_title"
 msgid "Freehand style"
 msgstr "Styl odręczny"
@@ -3950,10 +4334,16 @@ msgctxt "editor_dialog_style_freehand_line_pattern"
 msgid "Line pattern"
 msgstr "Wzór linii"
 
+#. GEllipse
 msgctxt "editor_dialog_style_ellipse_title"
 msgid "Ellipse style"
 msgstr "Styl elipsy"
 
+msgctxt "editor_dialog_style_ellipse_fill_color"
+msgid "Fill color"
+msgstr ""
+
+#. GMeasure
 msgctxt "editor_dialog_style_line_title"
 msgid "Line style"
 msgstr "Styl linii"
@@ -4010,6 +4400,7 @@ msgctxt "editor_measure_move_label"
 msgid "Move label"
 msgstr "Przenieś etykietę"
 
+#. GAngle
 msgctxt "editor_dialog_style_angle_title"
 msgid "Angle style"
 msgstr "Styl kąta"
@@ -4026,6 +4417,7 @@ msgctxt "editor_dialog_style_angle_line_width_magnification"
 msgid "Line width"
 msgstr "Szerokość linii"
 
+#. GRectRef (perspective reference)
 msgctxt "editor_dialog_style_rect_title"
 msgid "Reference style"
 msgstr "Punkt odniesienia"
@@ -4070,8 +4462,8 @@ msgctxt "editor_dialog_style_rect_info_set_default_reference_size_text"
 msgid ""
 "This button stores the currently entered reference dimensions as the "
 "default size. When creating a new reference, these dimensions are "
-"automatically set. You can set this to any reference that is suitable for "
-"your application, e.g. the size of a sheet of paper."
+"automatically set. You can set this to any reference that is suitable for"
+" your application, e.g. the size of a sheet of paper."
 msgstr ""
 "Ten przycisk zapisuje aktualnie wprowadzone wymiary siatki odniesienia "
 "jako rozmiar domyślny. Podczas tworzenia nowej siatki odniesienia, "
@@ -4138,6 +4530,7 @@ msgctxt "editor_rectref_choose_size"
 msgid "Choose size"
 msgstr "Wybierz rozmiar"
 
+#. GFlatRef (reference scale)
 msgctxt "editor_dialog_style_flatref_title"
 msgid "Reference style"
 msgstr "Punkt odniesienia"
@@ -4230,6 +4623,7 @@ msgctxt "editor_dialog_style_flatref_label_position_choices:3"
 msgid "Alternating, last one below"
 msgstr "Zmienna, poniżej ostatniego"
 
+#. GArea
 msgctxt "editor_dialog_style_area_title"
 msgid "Area style"
 msgstr "Styl powierzchni"
@@ -4266,6 +4660,10 @@ msgctxt "editor_dialog_style_area_edge_font_magnification"
 msgid "Edges font size"
 msgstr "Krawędzie rozmiaru czcionki"
 
+msgctxt "editor_dialog_style_area_fill_color"
+msgid "Fill color"
+msgstr ""
+
 msgctxt "editor_dialog_style_area_line_width_magnification"
 msgid "Line width"
 msgstr "Szerokość linii"
@@ -4278,6 +4676,7 @@ msgctxt "editor_area_may_delete_points"
 msgid "May delete points"
 msgstr "Umożliwia usuwanie punktów"
 
+#. GCircle
 msgctxt "editor_dialog_style_circle_title"
 msgid "Circle style"
 msgstr "Styl koła"
@@ -4301,6 +4700,10 @@ msgstr "Pokaż kąt"
 msgctxt "editor_dialog_style_circle_show_area"
 msgid "Show area"
 msgstr "Pokaż powierzchnię"
+
+msgctxt "editor_dialog_style_circle_fill_color"
+msgid "Fill color"
+msgstr ""
 
 msgctxt "editor_dialog_style_circle_font_magnification"
 msgid "Font size"
@@ -4326,6 +4729,7 @@ msgctxt "circle_arc_length_prefix"
 msgid "s:"
 msgstr "s:"
 
+#. GRectangle
 msgctxt "editor_dialog_style_rectangle_title"
 msgid "Rectangle style"
 msgstr "Styl prostokąta"
@@ -4341,6 +4745,10 @@ msgstr "Pokaż powierzchnia"
 msgctxt "editor_dialog_style_rectangle_show_perimeter"
 msgid "Show perimeter"
 msgstr "Pokaż obwód"
+
+msgctxt "editor_dialog_style_rectangle_fill_color"
+msgid "Fill color"
+msgstr ""
 
 msgctxt "editor_dialog_style_rectangle_font_magnification"
 msgid "Font size"
@@ -4358,6 +4766,7 @@ msgctxt "rectangle_perimeter_prefix"
 msgid "P:"
 msgstr "P:"
 
+#. GDimString
 msgctxt "editor_dialog_style_dimstring_title"
 msgid "Dimension string style"
 msgstr "Styl łańcucha wymiarowego"
@@ -4406,6 +4815,7 @@ msgctxt "editor_dimstring_func_swap_orientation"
 msgid "Swap orientation"
 msgstr "Zamień orientację"
 
+#. GMeasurementPoint
 msgctxt "editor_dialog_style_measurementpoint_title"
 msgid "Point style"
 msgstr "Styl punktu"
@@ -4490,6 +4900,7 @@ msgctxt "eight_directions_choices:7"
 msgid "Left"
 msgstr "Lewy"
 
+#. GPerspectiveLine
 msgctxt "editor_dialog_style_perspective_line_title"
 msgid "Perspective line style"
 msgstr "Styl linii perspektywy"
@@ -4502,6 +4913,7 @@ msgctxt "editor_perspective_live_remove_measure"
 msgid "Remove measure"
 msgstr "Usuń pomiar"
 
+#. Label style
 msgctxt "editor_label_style_text_color"
 msgid "Text color"
 msgstr "Kolor tekstu"
@@ -4554,6 +4966,7 @@ msgctxt "editor_label_style_save_as_default_all_elements"
 msgid "All drawing tools"
 msgstr "Wszystkie narzędzia do rysowania"
 
+#. settings: standard rectangle reference object sizes
 msgctxt "settings_rectref_sizes_title"
 msgid "Reference object sizes"
 msgstr "Rozmiary obiektów odniesienia"
@@ -4594,22 +5007,55 @@ msgctxt "editor_rectref_standard_size_credit_card"
 msgid "Credit card"
 msgstr "Karta kredytowa"
 
+#. still needed for string-array name="templ_custom_labeltype"
+msgctxt "templ_labeltype_length"
+msgid "Length"
+msgstr ""
+
+msgctxt "templ_labeltype_area"
+msgid "Area"
+msgstr ""
+
+msgctxt "templ_labeltype_angle"
+msgid "Angle"
+msgstr ""
+
+msgctxt "templ_labeltype_any"
+msgid "Any"
+msgstr ""
+
+msgctxt "stringscript_help_dialog_title"
+msgid "Brief Scripting Manual"
+msgstr ""
+
+msgctxt "stringscript_help_introlink"
+msgid ""
+"See <a "
+"href=\"https://imagemeter.com/manual/workflow/variables/\">here</a> for "
+"the full documentation."
+msgstr ""
+
+#. value entry dialog
 msgctxt "dimension_format_length_choices:0"
 msgid "metric (1.00 m)"
 msgstr "metryczny (1,00 m)"
 
+#. value entry dialog
 msgctxt "dimension_format_length_choices:1"
 msgid "imperial (1' 10 1/32\")"
 msgstr "imperialny (1 '10 1/32\")"
 
+#. value entry dialog
 msgctxt "dimension_format_length_choices:2"
 msgid "fractional inches (1 1/32\")"
 msgstr "cale (1 1/32\")"
 
+#. value entry dialog
 msgctxt "dimension_format_length_choices:3"
 msgid "imperial decimal (1.00 ft)"
 msgstr "imperialny dziesiętny (1,00 ft)"
 
+#. value entry dialog
 msgctxt "dimension_format_length_choices:4"
 msgid "text"
 msgstr "tekst"
@@ -4682,6 +5128,7 @@ msgctxt "dimension_format_angle_unit_choices:0"
 msgid "degrees"
 msgstr "stopnie"
 
+#, c-format
 msgctxt "dimension_format_angle_unit_choices:1"
 msgid "slope %"
 msgstr "nachylenie %"
@@ -4834,10 +5281,15 @@ msgctxt "value_entry_unit_disambiguation"
 msgid "Ambiguous numbers"
 msgstr "Niejednoznaczne liczby"
 
+msgctxt "value_entry_unit_disambiguation_choices:0"
+msgid "Keep"
+msgstr ""
+
 msgctxt "value_entry_unit_disambiguation_choices:1"
 msgid "Add disambiguating dot"
 msgstr "Dodaj kropkę uściślającą"
 
+#. text box entry dialog
 msgctxt "textbox_dialog_label"
 msgid "Text note"
 msgstr "Wprowadź tekst"
@@ -4874,6 +5326,7 @@ msgctxt "textbox_detail_picture_load_error_zero_size"
 msgid "Image has zero size."
 msgstr "Obraz ma zerowy rozmiar."
 
+#. ImageSettings
 msgctxt "imagesettings_dialog_base_sizes"
 msgid "Base sizes"
 msgstr "Rozmiary podstawowe"
@@ -4986,6 +5439,7 @@ msgctxt "imagesettings_dialog_calibration_image_scale_image"
 msgid "image"
 msgstr "obraz"
 
+#. bluetooth
 msgctxt "bluetooth_message_device_connected"
 msgid "Connection to Bluetooth device established."
 msgstr "Nawiązano połączenie z urządzeniem Bluetooth."
@@ -5009,20 +5463,46 @@ msgid ""
 "Afterwards, select your device in the ImageMeter settings:\n"
 " <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n"
 "\n"
-"For more help and a list of supported devices, see <a href=\"https://"
-"imagemeter.com/manual/bluetooth/connect/\">here</a>"
+"For more help and a list of supported devices, see <a "
+"href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
 msgstr ""
 "Nie skonfigurowałeś jeszcze żadnego dalmierza laserowego Bluetooth.\n"
 "\n"
-"W pierwszej kolejności upewnij się, że twoje urządzenie jest wymienione w "
-"ustawieniach programu. W razie potrzeby należy sparować dalmierz.\n"
+"W pierwszej kolejności upewnij się, że twoje urządzenie jest wymienione w"
+" ustawieniach programu. W razie potrzeby należy sparować dalmierz.\n"
 " <a href=\"android-bluetooth\">Otwórz ustawienia Bluetooth Androida</a>\n"
 "\n"
 "Po czym wybierz swoje urządzenie w ustawieniach ImageMeter:\n"
 " <a href=\"bluetooth-device\">Otwórz ustawienia urządzenia Bluetooth</a>\n"
 "\n"
-"Więcej pomocy i listę obsługiwanych urządzeń znajdziesz <a href=\"https://"
-"imagemeter.com/manual/bluetooth/connect/\">tutaj</a>"
+"Więcej pomocy i listę obsługiwanych urządzeń znajdziesz <a "
+"href=\"https://imagemeter.com/manual/bluetooth/connect/\">tutaj</a>"
+
+#. 151209
+#, c-format
+msgctxt "bluetooth_error_cannot_set_value"
+msgid "Cannot set received Bluetooth value: %1$s."
+msgstr ""
+
+msgctxt "bluetooth_error_cannot_set_value_no_active_element"
+msgid "no active element"
+msgstr ""
+
+msgctxt "bluetooth_error_cannot_set_value_element_has_no_dimension"
+msgid "element does not support measurements"
+msgstr ""
+
+msgctxt "bluetooth_error_cannot_set_value_dimension_is_read_only"
+msgid "element value is read-only"
+msgstr ""
+
+msgctxt "bluetooth_error_cannot_set_value_wrong_dimension_unit"
+msgid "wrong measurement unit"
+msgstr ""
+
+msgctxt "bluetooth_error_cannot_set_value_element_is_locked"
+msgid "element is locked"
+msgstr ""
 
 msgctxt "bluetooth_pref_button_start_bluetooth_scan"
 msgid "Start Bluetooth device scan"
@@ -5042,9 +5522,9 @@ msgid ""
 "coarse location) to scan for nearby Bluetooth devices. Please grant this "
 "permission when requested."
 msgstr ""
-"Od Androida w wersji 6 wymagane jest pozwolenie na określenie lokalizacji "
-"w celu skanowania pobliskich urządzeń Bluetooth. Proszę o udzielenie tego "
-"zezwolenia by wszystko działało poprawnie."
+"Od Androida w wersji 6 wymagane jest pozwolenie na określenie lokalizacji"
+" w celu skanowania pobliskich urządzeń Bluetooth. Proszę o udzielenie "
+"tego zezwolenia by wszystko działało poprawnie."
 
 msgctxt "bluetooth_le_scan_needs_location_title"
 msgid "Bluetooth LE Scan Error"
@@ -5134,10 +5614,9 @@ msgctxt "bluetooth_error_ambient_light_too_strong"
 msgid "Ambient light too strong"
 msgstr "Zbyt silne światło otoczenia"
 
-msgctxt "table-operation:none_keep"
-msgid "Keep"
-msgstr "Zachowaj"
-
+#. ============================================== EDITCORE
+#. ====================================================
+#. ===== templates =====
 msgctxt "templ_selection_none"
 msgid "None"
 msgstr "Brak"
@@ -5146,10 +5625,11 @@ msgctxt "spinner_selection_various"
 msgid "(various)"
 msgstr "(różny)"
 
+#. === errors ===
+#, c-format
 msgctxt "imagelibrary_cannot_delete_image_in_use"
 msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
-msgstr ""
-"Nie można usunąć obrazu „%1$s”, ponieważ jest on używany przez %2$s."
+msgstr "Nie można usunąć obrazu „%1$s”, ponieważ jest on używany przez %2$s."
 
 msgctxt "imagelibrary_cannot_load_current_folder"
 msgid ""
@@ -5161,11 +5641,12 @@ msgstr ""
 "\n"
 "Otwórz ustawienia i wybierz inny katalog pamięci."
 
+#, c-format
 msgctxt "imagelibrary_moving_images_to_app_directory"
 msgid "Moving images to app directory (%1$d of %2$d)."
 msgstr "Przenoszenie obrazów do katalogu aplikacji (%1$d z %2$d)."
 
-#, fuzzy
+#, c-format, fuzzy
 msgctxt "editor_error_nonpro_gelement_limit_message"
 msgid ""
 "Please upgrade to the %1$s version of ImageMeter to use more than five "
@@ -5174,16 +5655,16 @@ msgstr ""
 "Zaktualizuj program ImageMeter do wersji %1$s, aby móc używać więcej niż "
 "pięciu adnotacji."
 
-#, fuzzy
+#, c-format, fuzzy
 msgctxt "editor_error_nonpro_bluetooth_limit_message"
 msgid ""
-"For Bluetooth measurements with more than 3 meters, please upgrade to the "
-"%1$s version."
+"For Bluetooth measurements with more than 3 meters, please upgrade to the"
+" %1$s version."
 msgstr ""
 "W przypadku pomiarów Bluetooth z odległości większej niż 3 metry, "
 "wymagana jest aktualizacja do wersji %1$s."
 
-#, fuzzy
+#, c-format, fuzzy
 msgctxt "editor_error_nonpro_clipboard_message"
 msgid "For using the clipboard, please upgrade to the %1$s version."
 msgstr "Aby korzystać ze schowka, uaktualnij do wersji %1$s."
@@ -5198,13 +5679,13 @@ msgstr "Importowany plik nie jest obrazem"
 
 msgctxt "imageselect_error_cannot_capture_with_camera"
 msgid ""
-"Cannot start external app to capture camera image. Either the device does "
-"not have a camera or your camera app does not respond to a capture "
+"Cannot start external app to capture camera image. Either the device does"
+" not have a camera or your camera app does not respond to a capture "
 "request. You can still import images from the gallery or you can try to "
 "install an alternative camera app."
 msgstr ""
-"Próba zrobienia zdjęcia nie powiodła się, nie można uruchomić zewnętrznej "
-"aplikacji. Albo urządzenie nie ma aparatu albo aplikacja aparatu nie "
+"Próba zrobienia zdjęcia nie powiodła się, nie można uruchomić zewnętrznej"
+" aplikacji. Albo urządzenie nie ma aparatu albo aplikacja aparatu nie "
 "reaguje na wykonanie zdjęcia. Zainstaluj alternatywną aplikację lub "
 "zaimportuj obrazy z galerii."
 
@@ -5213,8 +5694,8 @@ msgid ""
 "An internal error happened. Please take a screenshot of the notification "
 "above and send this to me. Thank you!"
 msgstr ""
-"Wystąpił błąd wewnętrzny. Zrób proszę zrzut ekranu powiadomienia i wyślij "
-"mi drogą mailową. Dziękuję!"
+"Wystąpił błąd wewnętrzny. Zrób proszę zrzut ekranu powiadomienia i wyślij"
+" mi drogą mailową. Dziękuję!"
 
 msgctxt "imageselect_error_no_image_import_activity"
 msgid "There is no app on the device from which we can import images."
@@ -5238,19 +5719,23 @@ msgctxt "storage_error_external_storage_unavailable"
 msgid "External storage (SD card?) not present."
 msgstr "Brak pamięci zewnętrznej (karta SD?)."
 
+#, c-format
 msgctxt "error_cannot_open_browser_url"
 msgid "Cannot open web browser to show web page '%1$s'"
-msgstr ""
-"Nie można otworzyć przeglądarki internetowej, aby wyświetlić stronę '%1$s'"
+msgstr "Nie można otworzyć przeglądarki internetowej, aby wyświetlić stronę '%1$s'"
 
+#. filesystem errors
 msgctxt "error_files_locked"
 msgid "Files are currently in use."
 msgstr "Pliki są obecnie w użyciu."
 
+#. used in PrefsStorageDirectory
+#. import/export errors
 msgctxt "imerror_cannot_export_image"
 msgid "Cannot export image '{}'."
 msgstr "Nie można wyeksportować obrazu „{}”."
 
+#. other errors
 msgctxt "imerror_string_template_unknown_field"
 msgid "Unknown field '{}' in string template."
 msgstr "Nieznane pole „{}” w ciągu szablonu."
@@ -5268,16 +5753,17 @@ msgid ""
 "You have not yet configured cloud storage. \n"
 "Cloud storage can be used to sync your images automatically between "
 "multiple devices or for backup. More detailed documentation on this can "
-"be found in the <a href=\"https://imagemeter.com/manual/storage/cloud/"
-"\">manual.</a> \n"
+"be found in the <a "
+"href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \n"
 "The settings for cloud storage can be found in the 'Storage' section of "
 "the app settings (<a href=\"cloud-settings\">open settings</a>)."
 msgstr ""
 "Nie skonfigurowałeś jeszcze magazynu w chmurze.\n"
-"Chmura może służyć do automatycznej synchronizacji obrazów między wieloma "
-"urządzeniami lub do tworzenia kopii zapasowych. Bardziej szczegółową "
-"dokumentację na ten temat można znaleźć w <a href=\"https://imagemeter."
-"com/manual/storage/cloud/\"> podręczniku. </a>\n"
+"Chmura może służyć do automatycznej synchronizacji obrazów między wieloma"
+" urządzeniami lub do tworzenia kopii zapasowych. Bardziej szczegółową "
+"dokumentację na ten temat można znaleźć w <a "
+"href=\"https://imagemeter.com/manual/storage/cloud/\"> podręczniku. </a>"
+"\n"
 "Ustawienia przechowywania w chmurze można znaleźć w sekcji „Pamięć” "
 "ustawień aplikacji, (<a href=\"cloud-settings\">otwórz ustawienia</a>)."
 
@@ -5292,119 +5778,136 @@ msgid ""
 "business-features\">here</a> for all benefits of the Business version."
 msgstr ""
 "Przechowywanie w chmurze jest dostępne tylko w <b>Biznesowej</b> wersji "
-"ImageMeter. Kliknij <a href=\"https://imagemeter.com/manual/license/"
-"android-business-features\">tutaj</a>, aby zapoznać się ze wszystkimi "
+"ImageMeter. Kliknij <a href=\"https://imagemeter.com/manual/license"
+"/android-business-features\">tutaj</a>, aby zapoznać się ze wszystkimi "
 "zaletami wersji biznesowej."
 
 msgctxt "cloud_storage_not_configured_inbox_only"
 msgid ""
 "Full cloud storage is only available in the <b>Business</b> version of "
 "ImageMeter. Without Business upgrade, cloud storage is limited to the "
-"<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license/"
-"android-business-features\">here</a> for all benefits of the Business "
+"<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license"
+"/android-business-features\">here</a> for all benefits of the Business "
 "version."
 msgstr ""
 "Pełna dostęp do pamięci masowej chmury jest dostępna tylko w "
 "<b>Biznesowej</b> wersji ImageMeter. Bez aktualizacji do biznesowej "
 "wersji aplikacji pamięć w chmurze jest ograniczona wyłącznie do folderu "
-"<i>skrzynki odbiorczej</i>. Kliknij <a href=\"https://imagemeter.com/"
-"manual/license/android-business-features\">tutaj</a>, aby zapoznać się ze "
-"wszystkimi zaletami wersji Business."
+"<i>skrzynki odbiorczej</i>. Kliknij <a "
+"href=\"https://imagemeter.com/manual/license/android-business-"
+"features\">tutaj</a>, aby zapoznać się ze wszystkimi zaletami wersji "
+"Business."
 
+#, c-format
 msgctxt "error_cloud_cannot_create_remote_file_already_exists"
 msgid "Cannot create file '%1$s' because it already exists."
 msgstr ""
 "Nie można utworzyć pliku '%1$s', ponieważ istnieje folder o tej samej "
 "nazwie."
 
+#, c-format
 msgctxt "error_cloud_cannot_create_remote_file_folder_exists"
 msgid "Cannot create file '%1$s' because there is a folder with this name."
-msgstr ""
-"Nie można utworzyć pliku '%1$s', ponieważ istnieje folder o tej nazwie."
+msgstr "Nie można utworzyć pliku '%1$s', ponieważ istnieje folder o tej nazwie."
 
+#, c-format
 msgctxt "error_cloud_cannot_create_remote_file_server_error"
 msgid "Cannot create file '%1$s' because of a server error."
 msgstr "Nie można utworzyć pliku '%1$s' z powodu błędu serwera."
 
+#, c-format
 msgctxt "error_cloud_cannot_create_remote_folder"
 msgid "Cannot create folder '%1$s'."
 msgstr "Nie można utworzyć folderu '%1$s'."
 
+#, c-format
 msgctxt "error_cloud_cannot_create_remote_folder_already_exists"
 msgid "Cannot create folder '%1$s' because it already exists."
 msgstr "Nie można utworzyć folderu '%1$s', ponieważ już istnieje."
 
+#, c-format
 msgctxt "error_cloud_cannot_create_remote_folder_file_exists"
 msgid "Cannot create folder '%1$s' because there is a file with this name."
-msgstr ""
-"Nie można utworzyć folderu '%1$s', ponieważ istnieje plik o tej nazwie."
+msgstr "Nie można utworzyć folderu '%1$s', ponieważ istnieje plik o tej nazwie."
 
-msgctxt "error:Cloud_CannotDownloadFile_download_error"
+#, c-format
+msgctxt "error_cloud_cannot_download_file_download_error"
 msgid "Cannot download file '%1$s' from server."
-msgstr "Nie można pobrać pliku '%1$s' z serwera."
+msgstr ""
 
-msgctxt "error:Cloud_CannotDownloadFile_local_write_error"
+#, c-format
+msgctxt "error_cloud_cannot_download_file_local_write_error"
 msgid "Cannot write downloaded file '%1$s' to device."
-msgstr "Nie można zapisać pobranego pliku '%1$s' na urządzeniu."
+msgstr ""
 
+#, c-format
 msgctxt "error_cloud_cannot_get_remote_metadata"
 msgid "Cannot get metadata of file '%1$s' from server."
 msgstr "Nie można pobrać metadanych pliku '%1$s' z serwera."
 
+#, c-format
 msgctxt "error_cloud_cannot_open_remote_file_does_not_exist"
 msgid "Cannot open file '%1$s' on server because it does not exist."
 msgstr "Nie można otworzyć pliku '%1$s' na serwerze, ponieważ nie istnieje."
 
+#, c-format
 msgctxt "error_cloud_cannot_open_remote_file_is_folder"
 msgid "Cannot open file '%1$s' on server because it is a folder."
-msgstr ""
-"Nie można otworzyć pliku '%1$s' na serwerze, ponieważ jest to folder."
+msgstr "Nie można otworzyć pliku '%1$s' na serwerze, ponieważ jest to folder."
 
+#, c-format
 msgctxt "error_cloud_cannot_open_remote_folder_does_not_exist"
 msgid "Cannot open folder '%1$s' on server because it does not exist."
-msgstr ""
-"Nie można otworzyć folderu '%1$s' na serwerze, ponieważ nie istnieje."
+msgstr "Nie można otworzyć folderu '%1$s' na serwerze, ponieważ nie istnieje."
 
+#, c-format
 msgctxt "error_cloud_cannot_open_remote_folder_is_no_folder"
 msgid "Cannot open folder '%1$s' on server because it is not a folder."
 msgstr ""
 "Nie można otworzyć folderu '%1$s' na serwerze, ponieważ nie jest to "
 "folder."
 
+#, c-format
 msgctxt "error_cloud_cannot_rename_remote_file"
 msgid "Cannot rename remote file '%1$s' to new name '%2$s'."
 msgstr "Nie można zmienić nazwy pliku zdalnego '%1$s' na nową nazwę '%2$s'."
 
+#, c-format
 msgctxt "error_cloud_cannot_rename_remote_folder"
 msgid "Cannot rename remote folder '%1$s' to new name '%2$s'."
-msgstr ""
-"Nie można zmienić nazwy zdalnego folderu '%1$s' na nową nazwę '%2$s'."
+msgstr "Nie można zmienić nazwy zdalnego folderu '%1$s' na nową nazwę '%2$s'."
 
+#, c-format
 msgctxt "error_cloud_remote_databundle_incomplete"
 msgid "Cannot load image '%1$s' because remote file '%2$s' is missing."
-msgstr ""
-"Nie można załadować obrazu '%1$s', ponieważ brakuje zdalnego pliku '%2$s'."
+msgstr "Nie można załadować obrazu '%1$s', ponieważ brakuje zdalnego pliku '%2$s'."
 
+#, c-format
 msgctxt "error_cloud_cannot_sync_databundle"
 msgid "Cannot sync image '%1$s'."
 msgstr "Nie można zsynchronizować obrazu '%1$s'."
 
+#, c-format
 msgctxt "error_cloud_cannot_sync_folder"
 msgid "Cannot sync folder '%1$s'."
 msgstr "Nie można zsynchronizować folderu '%1$s'."
 
+#, c-format
 msgctxt "error_cloud_cannot_delete_remote_file"
 msgid "Cannot delete remote file '%1$s'."
 msgstr "Nie można usunąć zdalnego pliku '%1$s'."
 
+#, c-format
 msgctxt "error_cloud_cannot_delete_remote_folder"
 msgid "Cannot delete remote folder '%1$s'."
 msgstr "Nie można usunąć folderu zdalnego '%1$s'."
 
+#, c-format
 msgctxt "error_cloud_cannot_download_sync_server_cache_file"
 msgid "Cannot download server cache file '%1$s'."
 msgstr "Nie można pobrać pliku pamięci podręcznej serwera „%1$s”."
 
+#, c-format
 msgctxt "error_cloud_cannot_upload_sync_server_cache_file"
 msgid "Cannot upload server cache file '%1$s'."
 msgstr "Nie można przesłać pliku pamięci podręcznej serwera „%1$s”."
@@ -5417,13 +5920,7 @@ msgctxt "error_cloud_server_blocked"
 msgid "Server blocked by another client. Please retry at a later time."
 msgstr "Serwer zablokowany przez innego klienta"
 
-msgctxt "error_cloud_handwerkcloud_cannot_delete_folder_non_imagemeter_files_present"
-msgid ""
-"Cannot delete folder because the file '{}' is not managed by ImageMeter."
-msgstr ""
-"Nie można usunąć folderu, ponieważ plik „{}” nie jest zarządzany przez "
-"ImageMeter."
-
+#. links
 msgctxt "release_notes_filename"
 msgid "en.html"
 msgstr "en.html"
@@ -5432,15 +5929,15 @@ msgctxt "manual_website_link"
 msgid "http://www.imagemeter.com/manual"
 msgstr "http://www.imagemeter.com/manual"
 
+#. ============ unused strings that we keep in case we need the translations
+#. later on ==========
+#. errors
 msgctxt "UNUSED_imageselect_error_cannot_edit_corrupted_image"
-msgid ""
-"The .imm file for this image is corrupted. You cannot edit the image."
-msgstr ""
-"Plik .imm dla tego obrazu jest uszkodzony. Nie możesz edytować obrazu."
+msgid "The .imm file for this image is corrupted. You cannot edit the image."
+msgstr "Plik .imm dla tego obrazu jest uszkodzony. Nie możesz edytować obrazu."
 
 msgctxt "UNUSED_imageselect_error_cannot_rename_corrupted_image"
-msgid ""
-"The .imm file for this image is corrupted. You cannot rename the image."
+msgid "The .imm file for this image is corrupted. You cannot rename the image."
 msgstr ""
 "Plik .imm dla tego obrazu jest uszkodzony. Nie możesz zmienić nazwy "
 "obrazu."
@@ -5449,11 +5946,12 @@ msgctxt "UNUSED_imageselect_error_cannot_export_corrupted_image"
 msgid "The images with the corrupted .imm files will not be exported."
 msgstr "Obrazy z uszkodzonymi plikami .imm nie będą eksportowane."
 
+#, c-format
 msgctxt "UNUSED_imageselect_error_image_version_more_recent_open_editor_anyways"
 msgid ""
 "The file version of this image (%1$d) is more recent than the maximum "
-"version supported by the ImageMeter version installed (%2$d). Opening the "
-"file may result in lost data or wrong annotations. You should use a "
+"version supported by the ImageMeter version installed (%2$d). Opening the"
+" file may result in lost data or wrong annotations. You should use a "
 "recent version of ImageMeter to open this file.\n"
 "\n"
 "Do you still want to open it?"
@@ -5466,8 +5964,7 @@ msgstr ""
 "Czy nadal chcesz go otworzyć?"
 
 msgctxt "UNUSED_imageselect_error_metadata_format_unknown"
-msgid ""
-"Image metadata file (.imm) cannot be read, because it's format is unknown."
+msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
 msgstr ""
 "Nie można odczytać pliku metadanych obrazu (.imm), ponieważ jego format "
 "jest nieznany."
@@ -5491,8 +5988,8 @@ msgctxt "UNUSED_imageselect_error_external_memory_unavailable"
 msgid ""
 "External memory (where your app-data is stored) is not available. Most "
 "probably, your device stores this data on an external SD card which is "
-"currently not available. If this is not the problem in your case, you may "
-"contact info@imagemeter.com."
+"currently not available. If this is not the problem in your case, you may"
+" contact info@imagemeter.com."
 msgstr ""
 "Pamięć zewnętrzna (w której przechowywane są dane aplikacji) jest "
 "niedostępna.Prawdopodobnie twoje urządzenie przechowuje dane na "
@@ -5500,42 +5997,48 @@ msgstr ""
 "problemem jest coś innego możesz skontaktować się z nami pod adresem: "
 "info@imagemeter.com."
 
+#, c-format
 msgctxt "UNUSED_imageselect_error_folder_cannot_create"
 msgid ""
 "Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
 "the media (e.g. SD-card) is mounted, this directory exists and is "
 "writable."
 msgstr ""
-"Nie można utworzyć folderu '%1$s' w tym katalogu: '%2$s'. Upewnij się, że "
-"nośnik (np. karta SD) jest zamontowany, a ten katalog istnieje i ma "
+"Nie można utworzyć folderu '%1$s' w tym katalogu: '%2$s'. Upewnij się, że"
+" nośnik (np. karta SD) jest zamontowany, a ten katalog istnieje i ma "
 "możliwość zapisu."
 
+#, c-format
 msgctxt "UNUSED_imageselect_error_cannot_access_external_data"
 msgid "Cannot access external data at location '%1$s'."
-msgstr ""
-"Nie można uzyskać dostępu do danych zewnętrznych w lokalizacji '%1$s'."
+msgstr "Nie można uzyskać dostępu do danych zewnętrznych w lokalizacji '%1$s'."
 
+#, c-format
 msgctxt "UNUSED_imageselect_error_cannot_create_existing_folder"
 msgid "Cannot create folder '%1$s' because it already exists."
 msgstr "Nie można utworzyć folderu '%1$s', ponieważ już istnieje."
 
+#, c-format
 msgctxt "UNUSED_imageselect_error_folder_rename_target_exists"
 msgid "Cannot rename folder to '%1$s' because that already exists."
-msgstr ""
-"Nie można zmienić nazwy folderu na '%1$s', ponieważ ten już istnieje."
+msgstr "Nie można zmienić nazwy folderu na '%1$s', ponieważ ten już istnieje."
 
+#, c-format
 msgctxt "UNUSED_imageselect_error_folder_does_not_exist_detailed"
 msgid "Folder '%1$s' does not exist anymore (expected location '%2$s')."
 msgstr "Folder '%1$s' już nie istnieje (oczekiwana lokalizacja '%2$s')."
 
+#, c-format
 msgctxt "UNUSED_imageselect_error_cannot_write_data_bundle"
 msgid "Cannot write data for image '%1$s'."
 msgstr "Nie można zapisać danych dla obrazu '%1$s'."
 
+#, c-format
 msgctxt "UNUSED_imageselect_error_cannot_write_data_bundle_detailed"
 msgid "Cannot write data for image '%1$s' (at location '%2$s')."
 msgstr "Nie można zapisać danych dla obrazu '%1$s' (w lokalizacji '%2$s')."
 
+#, c-format
 msgctxt "UNUSED_imageselect_error_cannot_delete_data_bundle"
 msgid "Cannot delete image '%1$s'."
 msgstr "Nie można usunąć obrazu '%1$s'."
@@ -5544,21 +6047,24 @@ msgctxt "UNUSED_imageselect_error_url_of_imported_file_not_found"
 msgid "Image to be imported cannot be found."
 msgstr "Nie można znaleźć obrazu do zaimportowania."
 
+#, c-format
 msgctxt "UNUSED_error_cannot_save_annotated_image"
 msgid "Cannot save annotated image because: '%1$s'."
 msgstr "Nie można zapisać obrazu z adnotacjami, ponieważ: '%1$s'."
 
+#, c-format
 msgctxt "UNUSED_error_cannot_save_thumbnail_image"
 msgid "Cannot save thumbnail image because: '%1$s'."
 msgstr "Nie można zapisać miniaturki, ponieważ: '%1$s'."
 
+#, c-format
 msgctxt "UNUSED_error_cannot_access_files_in_folder"
 msgid "Cannot access files in folder '%1$s'."
 msgstr "Nie można uzyskać dostępu do plików w folderze '%1$s'."
 
+#, c-format
 msgctxt "UNUSED_error_target_folder_contains_bundle_with_same_id"
-msgid ""
-"Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
+msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
 msgstr ""
 "Folder '%1$s' zawiera obraz '%2$s' z tym samym identyfikatorem co obraz "
 "'%3$s'."
@@ -5573,12 +6079,13 @@ msgstr "Nie można zapisać pliku do pamięci zewnętrznej."
 
 msgctxt "UNUSED_storage_error_external_storage_could_not_get_permission_to_write_images"
 msgid ""
-"Could not get permission to write to external storage. No files have been "
-"written."
+"Could not get permission to write to external storage. No files have been"
+" written."
 msgstr ""
 "Nie można uzyskać pozwolenia na zapis do pamięci zewnętrznej. Nie "
 "zapisano żadnych plików."
 
+#, c-format
 msgctxt "UNUSED_storage_error_cannot_create_directory_on_external_storage"
 msgid "Could not create directory '%1$s' on external storage."
 msgstr "Nie można utworzyć katalogu '%1$s' w pamięci zewnętrznej."
@@ -5587,6 +6094,7 @@ msgctxt "UNUSED_storage_error_external_storage_destination_is_no_directory"
 msgid "External storage destination is not a directory."
 msgstr "Miejsce docelowe pamięci zewnętrznej nie jest katalogiem."
 
+#, c-format
 msgctxt "UNUSED_storage_error_data_bundle_corrupted"
 msgid "Data in image directory '%1$s' is corrupted."
 msgstr "Dane w katalogu obrazów '%1$s' są uszkodzone."
@@ -5599,18 +6107,22 @@ msgstr ""
 "Nie można zaimportować obrazu, ponieważ nie przyznano uprawnień do "
 "odczytu pamięci."
 
+#, c-format
 msgctxt "UNUSED_storage_error_cannot_read_ifd_file"
 msgid "Cannot read IFD file in folder '%1$s'."
 msgstr "Nie można odczytać pliku IFD w folderze '%1$s'."
 
+#, c-format
 msgctxt "UNUSED_error_cannot_open_file_does_not_exist"
 msgid "Cannot open file '%1$s' because it does not exist."
 msgstr "Nie można otworzyć pliku '%1$s', ponieważ nie istnieje."
 
+#, c-format
 msgctxt "UNUSED_error_cannot_open_file_is_folder"
 msgid "Cannot open file '%1$s' because it is a folder."
 msgstr "Nie można otworzyć pliku '%1$s', ponieważ jest to folder."
 
+#, c-format
 msgctxt "UNUSED_error_cannot_write_file"
 msgid "Cannot write to file '%1$s'."
 msgstr "Nie można zapisać do pliku „%1$s”."
@@ -5623,6 +6135,7 @@ msgctxt "UNUSED_storage_note_pulling_image_file_from_remote"
 msgid "Downloading image file from cloud storage."
 msgstr "Pobieranie pliku obrazu z chmury."
 
+#. old gallery export
 msgctxt "UNUSED_export_dialog_saving_images_to_external_storage"
 msgid "Saving images to external storage…"
 msgstr "Zapisywanie obrazów w pamięci zewnętrznej…"
@@ -5631,6 +6144,7 @@ msgctxt "UNUSED_export_dialog_image_saved_to_external_storage"
 msgid "Saved image to external storage…"
 msgstr "Zapisany obraz do pamięci zewnętrznej…"
 
+#, c-format
 msgctxt "UNUSED_export_dialog_images_saved_to_external_storage"
 msgid "Saved %1$d images to external storage…"
 msgstr "Zapisane obrazy %1$d do pamięci zewnętrznej…"
@@ -5639,6 +6153,7 @@ msgctxt "UNUSED_export_dialog_saving_images_success_title"
 msgid "Export finished"
 msgstr "Eksport zakończony"
 
+#, c-format
 msgctxt "UNUSED_export_dialog_saving_images_success_text"
 msgid ""
 "Images have been saved to folder '%1$s'.\n"
@@ -5681,10 +6196,12 @@ msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_cancel"
 msgid "Cancel"
 msgstr "Anuluj"
 
+#. Dialog: duplicate image import
 msgctxt "UNUSED_dialog_duplicate_image_import_title"
 msgid "Image Import"
 msgstr "Import obrazu"
 
+#, c-format
 msgctxt "UNUSED_dialog_duplicate_image_import_message"
 msgid "Imported image '%1$s' already exists."
 msgstr "Importowany obraz '%1$s' już istnieje."
@@ -5705,6 +6222,7 @@ msgctxt "UNUSED_dialog_duplicate_folder_import_title"
 msgid "Folder Import"
 msgstr "Importowanie folderu"
 
+#, c-format
 msgctxt "UNUSED_dialog_duplicate_folder_import_message"
 msgid ""
 "Imported folder '%1$s' already exists. %3$d images should be imported, "
@@ -5713,11 +6231,10 @@ msgstr ""
 "Zaimportowany folder '%1$s' już istnieje. %3$d obrazy powinny zostać "
 "zaimportowane, %2$d z nich istnieje lokalnie."
 
+#, c-format
 msgctxt "UNUSED_dialog_duplicate_folder_no_duplicate_images_import_message"
-msgid ""
-"Imported folder '%1$s' already exists, but there are no duplicate images."
-msgstr ""
-"Zaimportowany folder '%1$s' już istnieje, ale nie ma zdublowanych obrazów."
+msgid "Imported folder '%1$s' already exists, but there are no duplicate images."
+msgstr "Zaimportowany folder '%1$s' już istnieje, ale nie ma zdublowanych obrazów."
 
 msgctxt "UNUSED_dialog_duplicate_folder_import_merge"
 msgid "Merge"
@@ -5734,3 +6251,4 @@ msgstr "Zachowaj oba"
 msgctxt "UNUSED_dialog_duplicate_folder_import_skip"
 msgid "Skip"
 msgstr "Pomiń"
+
