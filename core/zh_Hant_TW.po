@@ -1,0 +1,1672 @@
+# Chinese (Traditional, Taiwan) translations for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-05-04 18:10+0200\n"
+"PO-Revision-Date: 2021-03-06 16:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: zh_Hant_TW <nnworkspace@gmail.com>\n"
+"Language: ak_GH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=(0)\n"
+"Generated-By: Babel 2.9.0\n"
+
+msgctxt "error:InternalError"
+msgid "Internal error: {}."
+msgstr "應用內部錯誤： {}。"
+
+#, fuzzy
+msgctxt "error:OutOfMemory:no_size"
+msgid "Out of memory"
+msgstr "内存不足。"
+
+#, fuzzy
+msgctxt "error:OutOfMemory:with_bytes_size"
+msgid "Out of memory (cannot allocate {} bytes)."
+msgstr "內存不足（無法储存 {} 個字節）。"
+
+#, fuzzy
+msgctxt "error:OutOfMemory:with_mb_size"
+msgid "Out of memory (cannot allocate {} MB)."
+msgstr "內存不足（無法分配{} MB）。"
+
+msgctxt "error:ZLibCompressionError"
+msgid "ZLib error code: '{}'."
+msgstr "ZLib錯誤代碼：“ {}”。"
+
+msgctxt "error:ZipError"
+msgid "ZIP error: {}"
+msgstr "ZIP 錯誤：{}"
+
+msgctxt "error:ZIP_ReadError"
+msgid "Error reading ZIP file."
+msgstr "讀取 ZIP 文件時出錯。"
+
+msgctxt "error:NLohmann_JsonParseError"
+msgid "Parse error '{}'"
+msgstr "解析錯誤 '{}'"
+
+msgctxt "error:LibJPEG_Error"
+msgid "LibJPEG error: \"{}\"."
+msgstr "LibJPEG錯誤：\"{}\"。"
+
+msgctxt "error:Files_FileDoesNotExist"
+msgid "File does not exist: \"{}\"."
+msgstr "文件不存在：\"{}\"。"
+
+msgctxt "error:Files_FileCannotBeOpened"
+msgid "Cannot open file \"{}\"."
+msgstr "无法打開文件 \"{}\"。"
+
+msgctxt "error:Files_CannotDeleteFile"
+msgid "Cannot delete file '{}'."
+msgstr "無法刪除文件 '{}'。"
+
+msgctxt "error:Files_CannotReadFile"
+msgid "Cannot read file '{}'."
+msgstr "無法讀取文件 '{}'。"
+
+msgctxt "error:Files_CannotWriteFile"
+msgid "Cannot write file '{}'."
+msgstr "無法寫入文件 '{}'。"
+
+msgctxt "error:Files_CannotRenameFile"
+msgid "Cannot rename file '{0}' to '{1}'."
+msgstr "無法將文件 '{0}' 更名為 '{1}'。"
+
+msgctxt "error:Files_CannotCreateDirectory"
+msgid "Cannot create directory \"{}\"."
+msgstr "無法創建目錄 \"{}\"。"
+
+msgctxt "error:Files_DirectoryDoesNotExist"
+msgid "Directory '{}' does not exist."
+msgstr "目錄 '{}' 不存在。"
+
+msgctxt "error:Files_CannotRenameDirectory"
+msgid "Cannot rename folder '{0}' to '{1}'."
+msgstr "无法將 '{0}' 更名為 '{1}'。"
+
+msgctxt "error:Files_CannotDeleteDirectory"
+msgid "Cannot delete folder '{}'."
+msgstr "无法刪除文件夾 '{}'。"
+
+msgctxt "error:Files_CorruptedFileCompression"
+msgid "File compression error."
+msgstr "文件壓縮錯誤。"
+
+msgctxt "error:Files_CannotReadDirectory"
+msgid "Cannot read directory '{}'."
+msgstr "無法讀取目錄 '{}'。"
+
+msgctxt "error:Files_CannotCopyDirectory"
+msgid "Cannot copy directory '{}'."
+msgstr "無法複製目錄 '{}'。"
+
+msgctxt "error:Files_Errno"
+msgid "OS error: '{}'."
+msgstr "操作系統錯誤：'{}'。"
+
+#, fuzzy
+msgctxt "error:Files_Win32"
+msgid "Windows error: '{}'"
+msgstr "操作系統錯誤：'{}'。"
+
+msgctxt "error:Files_CannotGenerateUniqueFilename"
+msgid "Cannot generate unique filename: '{}'."
+msgstr "無法生成唯一的文件名：'{}'。"
+
+msgctxt "error:ProjectFolder_CannotCreate"
+msgid "Cannot create folder '{}'."
+msgstr "無法創建文件夾 '{}'。"
+
+msgctxt "error:ProjectFolder_CannotWriteIFD"
+msgid "Cannot write IFD file for folder '{}'."
+msgstr "無法為文件夾 '{}' 寫 IFD 文件。"
+
+msgctxt "error:ProjectFolder_CannotLoadFolder"
+msgid "Cannot load folder '{}'."
+msgstr "無法加載文件夾 '{}'。"
+
+#, fuzzy
+msgctxt "error:ProjectFolder_CannotRenameFolder"
+msgid "Cannot rename directory of image '{}'."
+msgstr "無法为圖像 '{}' 的目录更名。"
+
+#, fuzzy
+msgctxt "error:ProjectFolder_CannotDeleteFolder"
+msgid "Cannot delete folder '{}'."
+msgstr "无法刪除文件夾 '{}'。"
+
+msgctxt "error:ProjectFolder_MultipleIFDFiles"
+msgid "More than one IFD file found."
+msgstr "找到多個 IFD 文件。"
+
+msgctxt "error:ProjectFolder_IFDParseError"
+msgid "IFD file parse error."
+msgstr "IFD 文件解析錯誤。"
+
+msgctxt "error:DataBundle_CannotLoadDataBundle"
+msgid "Cannot load image '{}'."
+msgstr "無法加載圖片 '{}'。"
+
+msgctxt "error:DataBundle_CannotCreate"
+msgid "Cannot create new image '{}'."
+msgstr "無法創建新圖像 '{}'。"
+
+msgctxt "error:DataBundle_CannotWriteIMM"
+msgid "Cannot write IMM file for image '{}'."
+msgstr "無法為圖像 '{}' 寫 IMM 文件。"
+
+msgctxt "error:DataBundle_CannotDelete"
+msgid "Cannot delete image '{}'."
+msgstr "無法刪除圖像 '{}'。"
+
+msgctxt "error:DataBundle_CannotRenameFolder"
+msgid "Cannot rename directory of image '{}'."
+msgstr "無法为圖像 '{}' 的目录更名。"
+
+msgctxt "error:DataBundle_MultipleIMMFiles"
+msgid "More than one IMM file found."
+msgstr "找到多個 IMM 文件。"
+
+msgctxt "error:DataBundle_CannotReadIMMFile"
+msgid "Cannot read IMM file."
+msgstr "無法讀取 IMM 文件。"
+
+msgctxt "error:DataBundle_CannotGetContentArea"
+msgid "Unknown content area."
+msgstr "所示区域面积未知。"
+
+msgctxt "error:DataBundle_IMMParseError"
+msgid "IMM file parse error ({})."
+msgstr "IMM 文件解析錯誤（{}）。"
+
+msgctxt "error:Entity_CannotMove"
+msgid "Cannot move '{}' to new directory."
+msgstr "無法將 '{}' 移入新目錄。"
+
+msgctxt "error:Entity_Numbering_InvalidNumber"
+msgid "Invalid number: '{}'."
+msgstr "無效號碼：'{}'。"
+
+msgctxt "error:DeleteLogic_CannotDelete"
+msgid "Cannot delete folder '{}'."
+msgstr "無法刪除文件夾 '{}'。"
+
+msgctxt "error:DeleteLogic_CannotMarkAsDeleted"
+msgid "Cannot mark folder '{}' as deleted."
+msgstr "無法將文件夾 '{}' 標記為已刪除。"
+
+msgctxt "error:IFD_ParseError"
+msgid "IFD file parse error."
+msgstr "IFD 文件解析錯誤。"
+
+msgctxt "error:CannotLockPath-readLock"
+msgid "Cannot read file '{}' because it is currently being modified."
+msgstr "無法讀取文件 '{}'，因為正在對其進行修改。"
+
+msgctxt "error:CannotLockPath-writeLock"
+msgid "Cannot modify file '{}' because it is currently in use."
+msgstr "文件 '{}' 正在使用中，無法修改。"
+
+msgctxt "error:UnknownFileFormat"
+msgid "File '{}' has unknown format."
+msgstr "文件 '{}' 的格式未知。"
+
+msgctxt "error:CannotCreateIMIFile"
+msgid "Cannot create IMI file '{}'."
+msgstr "無法創建 IMI 文件 '{}'。"
+
+#, fuzzy
+msgctxt "error:NoZipSupport"
+msgid "Zip files are not supported."
+msgstr "不支持該功能。"
+
+msgctxt "error:ImageReader_ReaderError"
+msgid "Image reader error."
+msgstr "圖像载入錯誤。"
+
+msgctxt "error:ImageReader_CorruptedImage"
+msgid "Corrupted image file."
+msgstr "圖像文件損壞。"
+
+msgctxt "error:ImageReader_UnsupportedFormat"
+msgid "Unsupported image format."
+msgstr "不支持的圖像格式。"
+
+msgctxt "error:CannotReadTexture"
+msgid "Cannot read texture '{}'."
+msgstr "無法讀取紋理 '{}'。"
+
+msgctxt "error:OpenGL"
+msgid "OpenGL error: \"{}\"."
+msgstr "OpenGL 錯誤：\"{}\"。"
+
+#, fuzzy
+msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
+msgid ""
+"Not enough memory to render at output resolution {}. Please reduce the "
+"output resolution."
+msgstr "沒有足夠的內存以分辨率 {} 進行渲染。請降低輸出分辨率。"
+
+msgctxt "error:CannotRenderImage"
+msgid "Cannot render image \"{}\"."
+msgstr "無法呈現纹理 '{}'。"
+
+msgctxt "error:DataBundle_CannotOpen"
+msgid "Cannot open image \"{}\"."
+msgstr "無法打開圖像 \"{}\"。"
+
+msgctxt "error:EditCore_CannotLoadAuxiliary_Data"
+msgid "Cannot load auxiliary data."
+msgstr "無法加載輔助數據。"
+
+msgctxt "error:EditCore_CannotPurgeUnusedAuxiliaryFiles"
+msgid "Cannot delete unused auxiliary data files."
+msgstr "無法刪除未使用的輔助數據文件。"
+
+msgctxt "error:GText_CannotAddDetailImage"
+msgid "Cannot add the detail image \"{}\"."
+msgstr "無法添加細節圖像 \"{}\"。"
+
+msgctxt "error:GText_CannotAddAudioRecording"
+msgid "Cannot add audio recording \"{}\"."
+msgstr "無法添加錄音 \"{}\"。"
+
+msgctxt "error:EditCore_CannotReadBackgroundImage"
+msgid "Cannot read photo."
+msgstr "無法讀取照片。"
+
+msgctxt "error:ImageReader_CannotReadImage"
+msgid "Cannot read image file."
+msgstr "無法讀取圖像文件。"
+
+msgctxt "error:IMI_CannotOpen"
+msgid "Cannot open IMI file '{}'."
+msgstr "無法打開 IMI 文件 '{}'。"
+
+msgctxt "error:IMF_CannotReadZip"
+msgid "Corrupted ZIP file \"{}\"."
+msgstr "ZIP 文件 '{}' 已損壞。"
+
+msgctxt "error:IMF_CorruptedFile"
+msgid "Corrupted IMF file."
+msgstr "IMF 文件損壞。"
+
+msgctxt "error:CannotGeneratePdf"
+msgid "Cannot generate PDF"
+msgstr "無法生成 PDF"
+
+msgctxt "error:LibHaru"
+msgid "LibHARU error: \"{}\""
+msgstr "LibHARU 錯誤：\"{}\""
+
+msgctxt "error:ImageSettings_CannotLoad"
+msgid "Cannot load image settings."
+msgstr "無法加載圖像設置。"
+
+msgctxt "error:ImageSettings_CannotSave"
+msgid "Cannot save image settings."
+msgstr "無法保存圖像設置。"
+
+msgctxt "error:AppPreferences_CannotSetDataRootDirectory"
+msgid "Cannot set the data root directory."
+msgstr "無法設置數據根目錄。"
+
+msgctxt "error:AppPreferences_CannotCreateDataRootDirectory"
+msgid "Cannot create the data root directory."
+msgstr "無法創建數據根目錄。"
+
+msgctxt "error:AppPreferences_NoRootDefined"
+msgid "No data root directory defined."
+msgstr "未定義數據根目錄。"
+
+msgctxt "error:ImageLibrary_NoLibraryDirectoryDefined"
+msgid "No image library directory defined."
+msgstr "未定義圖像庫目錄。"
+
+msgctxt "error:ImageLibrary_CannotPurge"
+msgid "Cannot purge deleted images."
+msgstr "無法清除已刪除的圖像。"
+
+msgctxt "error:Cloud_CannotLogin:unknown"
+msgid "Cannot sign in to your cloud server account."
+msgstr "無法登錄您的雲服務器帳戶。"
+
+msgctxt "error:Cloud_CannotLogin:unauthorized"
+msgid "Not authorized to sign in to your cloud server account."
+msgstr "未經授權登錄您的雲服務器帳戶。"
+
+msgctxt "error:Cloud_CannotLogin:incorrect_password"
+msgid "Wrong user name or password."
+msgstr "錯誤的用戶名或密碼。"
+
+msgctxt "error:Cloud_CannotLogin:interactive_login_required"
+msgid "Interactive sign in to your cloud server account is required."
+msgstr "需要交互式登錄到您的雲服務器帳戶。"
+
+msgctxt "error:Cloud_CannotLogin:cancelled_by_user"
+msgid "Sign in to your cloud server account has been cancelled."
+msgstr "登錄您的雲服務器帳戶已被取消。"
+
+msgctxt "error:Cloud_CannotLogin:network_error"
+msgid "Network error while connecting to your cloud server account."
+msgstr "連接到您的雲服務器帳戶時出現網絡錯誤。"
+
+msgctxt "error:Cloud_CannotLogin:server_timeout"
+msgid "Cloud server timeout."
+msgstr "雲服務器超時。"
+
+msgctxt "error:Cloud_CannotLogin:cannot_access_base_folder"
+msgid "Cannot access data directory on cloud server."
+msgstr "無法訪問云服務器上的數據目錄。"
+
+msgctxt "error:Cloud_SyncError"
+msgid "Cannot sync with server."
+msgstr "無法與服務器同步。"
+
+#, fuzzy
+msgctxt "error:Cloud_CannotParseSyncStateFile"
+msgid "Cannot parse sync state file '{}'."
+msgstr "無法解析同步狀態文件 '%1$s'。"
+
+#, fuzzy
+msgctxt "error:Cloud_CannotWriteSyncStateFile"
+msgid "Cannot write sync state file '{}'."
+msgstr "無法寫入同步狀態文件 '%1$s'。"
+
+#, fuzzy
+msgctxt "error:Cloud_CannotLoadSyncStateFile"
+msgid "Cannot load sync state file '{}'."
+msgstr "無法加載同步狀態文件 '%1$s'。"
+
+msgctxt "error:Cloud_CannotLockServer"
+msgid "Cannot generate server lock file."
+msgstr "無法生成服務器鎖定文件。"
+
+msgctxt "error:Cloud_ServerError"
+msgid "Server error: {}"
+msgstr "服務器錯誤：{}"
+
+msgctxt "error:Cloud_FileLockedOnServer"
+msgid "File is locked on server. Please retry upload at a later time."
+msgstr "文件已在服務器上鎖定。請稍後重試上傳。"
+
+msgctxt "error:Cloud_RemoteFileDoesNotExist"
+msgid "File '{}' does not exist on server"
+msgstr "服務器上不存在文件 '{}'"
+
+msgctxt "error:Cloud_RemoteFolderDoesNotExist"
+msgid "Folder '{}' does not exist on server"
+msgstr "服務器上不存在文件夾 '{}'"
+
+msgctxt "error:Cloud_CannotCreateFolder"
+msgid "Cannot create folder '{}' on server"
+msgstr "無法在服務器上創建文件夾 '{}'"
+
+#, fuzzy
+msgctxt "error:Cloud_CannotCreateFolder-short"
+msgid "Cannot create folder on server"
+msgstr "無法在服務器上創建文件夾"
+
+msgctxt "error:Cloud_CannotUploadFile"
+msgid "Cannot upload file '{}' to server"
+msgstr "無法將文件 '{}' 上傳到服務器"
+
+#, fuzzy
+msgctxt "error:Cloud_CannotUploadFile-short"
+msgid "Cannot upload file to server"
+msgstr "無法將文件上傳到服務器"
+
+msgctxt "error:Cloud_CannotDownloadFile"
+msgid "Cannot download file '{}' from server"
+msgstr "無法從服務器下載文件 '{}'"
+
+#, fuzzy
+msgctxt "error:Cloud_CannotDownloadFile-short"
+msgid "Cannot download file from server"
+msgstr "無法從服務器下載文件"
+
+msgctxt "error:Cloud_CannotDownloadFolder"
+msgid "Cannot download folder '{}' from server"
+msgstr "無法從服務器下載文件夾 '{}'"
+
+#, fuzzy
+msgctxt "error:Cloud_CannotDownloadFolder-short"
+msgid "Cannot download folder from server"
+msgstr "無法從服務器下載文件夾"
+
+msgctxt "error:Cloud_CannotRenameFile"
+msgid "Cannot rename file '{}' on server"
+msgstr "無法在服務器上重命名文件 '{}'"
+
+#, fuzzy
+msgctxt "error:Cloud_CannotRenameFile-short"
+msgid "Cannot rename file on server"
+msgstr "無法重命名服務器上的文件"
+
+msgctxt "error:Cloud_CannotRenameFolder"
+msgid "Cannot rename folder '{}' on server"
+msgstr "無法在服務器上重命名文件夾 '{}'"
+
+#, fuzzy
+msgctxt "error:Cloud_CannotRenameFolder-short"
+msgid "Cannot rename folder on server"
+msgstr "無法重命名服務器上的文件夾"
+
+msgctxt "error:Cloud_CannotDeleteFile"
+msgid "Cannot delete file '{}' from server"
+msgstr "無法從服務器刪除文件 '{}'"
+
+#, fuzzy
+msgctxt "error:Cloud_CannotDeleteFile-short"
+msgid "Cannot delete file from server"
+msgstr "無法從服務器刪除文件"
+
+msgctxt "error:Cloud_CannotDeleteFolder"
+msgid "Cannot delete folder '{}' from server"
+msgstr "無法從服務器刪除文件夾 '{}'"
+
+#, fuzzy
+msgctxt "error:Cloud_CannotDeleteFolder"
+msgid "Cannot delete folder from server"
+msgstr "無法從服務器刪除文件夾"
+
+msgctxt "error:Cloud_CannotListFolderContent"
+msgid "Cannot list content of server folder '{}'"
+msgstr "無法列出服務器文件夾 '{}' 的內容"
+
+#, fuzzy
+msgctxt "error:Cloud_CannotListFolderContent"
+msgid "Cannot list content of server folder"
+msgstr "無法列出服務器文件夾的內容"
+
+msgctxt "error:Cloud_IsNotAFolder"
+msgid "File '{}' is not a folder."
+msgstr "文件 '{}' 不是文件夾。"
+
+msgctxt "error:Cloud_CannotRemoveServerLock"
+msgid "Could not remove server lock file '{}'."
+msgstr "無法刪除服務器鎖定文件 '{}'。"
+
+msgctxt "error:Cloud_CannotResetServerCache"
+msgid "Could not remove server cache file '{}'."
+msgstr "無法刪除服務器緩存文件 '{}'。"
+
+msgctxt "error:Cloud_CannotResetSyncState"
+msgid "Could not reset sync state."
+msgstr "無法重置同步狀態。"
+
+msgctxt "error:HTTP-error-400"
+msgid "400 : Bad Request"
+msgstr ""
+
+msgctxt "error:HTTP-error-401"
+msgid "401 : Unauthorized"
+msgstr ""
+
+msgctxt "error:HTTP-error-403"
+msgid "403 : Forbidden"
+msgstr ""
+
+msgctxt "error:HTTP-error-404"
+msgid "404 : Not Found"
+msgstr ""
+
+msgctxt "error:HTTP-error-405"
+msgid "405 : Method Not Allowed"
+msgstr ""
+
+msgctxt "error:HTTP-error-406"
+msgid "406 : Not Acceptable"
+msgstr ""
+
+msgctxt "error:HTTP-error-407"
+msgid "407 : Proxy Authentication Required"
+msgstr ""
+
+msgctxt "error:HTTP-error-408"
+msgid "408 : Request Timeout"
+msgstr ""
+
+msgctxt "error:HTTP-error-409"
+msgid "409 : Conflict"
+msgstr ""
+
+msgctxt "error:HTTP-error-410"
+msgid "410 : Gone"
+msgstr ""
+
+#, fuzzy
+msgctxt "error:HTTP-error-500"
+msgid "500 : Internal Server Error"
+msgstr "應用內部錯誤： {}。"
+
+msgctxt "error:HTTP-error-501"
+msgid "501 : Not Implemented"
+msgstr ""
+
+msgctxt "error:HTTP-error-502"
+msgid "502 : Bad Gateway"
+msgstr ""
+
+#, fuzzy
+msgctxt "error:HTTP-error-503"
+msgid "503 : Service Unavailable"
+msgstr "軟件商店打烊或者失聯"
+
+msgctxt "error:HTTP-error-504"
+msgid "504 : Gateway Timeout"
+msgstr ""
+
+#, fuzzy
+msgctxt "error:NetworkError"
+msgid "Network error: {}"
+msgstr "服務器錯誤：{}"
+
+#, fuzzy
+msgctxt "error:BluetoothError:no_active_element"
+msgid "no active element"
+msgstr "沒有選中的待測元素"
+
+#, fuzzy
+msgctxt "error:BluetoothError:element_has_no_dimension"
+msgid "element does not support measurements"
+msgstr "該元素不支持測量"
+
+#, fuzzy
+msgctxt "error:BluetoothError:dimension_is_read_only"
+msgid "element value is read-only"
+msgstr "元素數值只讀"
+
+#, fuzzy
+msgctxt "error:BluetoothError:wrong_dimension_unit"
+msgid "wrong measurement unit"
+msgstr "錯誤的測量單位"
+
+#, fuzzy
+msgctxt "error:BluetoothError:element_is_locked"
+msgid "element is locked"
+msgstr "元素被鎖定"
+
+#, fuzzy
+msgctxt "error:BluetoothError:generic"
+msgid "Cannot set received Bluetooth value."
+msgstr "無法設定接收到的藍牙數值：%1$s。"
+
+msgctxt "error:Android_ExternalDirectoryNotMounted"
+msgid "External directory is not mounted."
+msgstr "未加载外部目錄。"
+
+msgctxt "error:Android_NeedsStoragePermission"
+msgid "Access to directory '{}' needs the Storage permission."
+msgstr "目錄 '{}' 需要访问權限。"
+
+msgctxt "error:Android_Import_SecurityException"
+msgid "Security exception when accessing URI '{}'."
+msgstr "訪問地址 '{}' 時发生安全異常。"
+
+msgctxt "error:Android_InsertImageIntoGallery"
+msgid "Cannot insert image into gallery ({})."
+msgstr "無法將圖像插入圖庫（{}）。"
+
+msgctxt "error:Android_CopyImageDataIntoGallery"
+msgid "Cannot copy image data into gallery (url='{}')."
+msgstr "無法將圖像數據複製到圖庫（url ='{}'）。"
+
+msgctxt "error:Android_DeleteOldImageFromGallery"
+msgid "Cannot delete old image from gallery (url='{}')."
+msgstr "無法從圖庫中刪除舊圖像（url ='{}'）。"
+
+msgctxt "unit:translated-name:meter"
+msgid "m"
+msgstr "米"
+
+msgctxt "unit:translated-name:inch"
+msgid "inch"
+msgstr "英寸"
+
+msgctxt "unit:translated-name:foot"
+msgid "foot"
+msgstr "英尺"
+
+msgctxt "unit:translated-name:yard"
+msgid "yard"
+msgstr "英碼"
+
+msgctxt "unit:translated-name:mile"
+msgid "mile"
+msgstr "英里"
+
+msgctxt "unit:translated-name:mil"
+msgid "mil"
+msgstr "mil"
+
+msgctxt "unit:translated-name:meter2"
+msgid "m²"
+msgstr "平方米"
+
+msgctxt "unit:translated-name:inch2"
+msgid "sq inch"
+msgstr "平方英寸"
+
+msgctxt "unit:translated-name:foot2"
+msgid "sq foot"
+msgstr "平方英尺"
+
+msgctxt "unit:translated-name:yard2"
+msgid "sq yard"
+msgstr "平方碼"
+
+msgctxt "unit:translated-name:mile2"
+msgid "sq mile"
+msgstr "平方英里"
+
+msgctxt "unit:translated-name:acre"
+msgid "acre"
+msgstr "英畝"
+
+msgctxt "unit:translated-name:are"
+msgid "are"
+msgstr "are"
+
+msgctxt "unit:translated-name:ha"
+msgid "hectare"
+msgstr "公頃"
+
+msgctxt "unit:translated-name:mil2"
+msgid "square mil"
+msgstr "平方密爾"
+
+msgctxt "unit:translated-name:cmil"
+msgid "circular mil"
+msgstr "圓形密耳"
+
+msgctxt "unit:translated-name:degrees"
+msgid "degrees"
+msgstr "度"
+
+msgctxt "unit:translated-name:slope-percent"
+msgid "slope %"
+msgstr "斜率 %"
+
+msgctxt "unit:translated-name:radian"
+msgid "radians"
+msgstr "弧度"
+
+msgctxt "unit:translated-name:gradians"
+msgid "gradians"
+msgstr "百分度"
+
+msgctxt "labeltype:any"
+msgid "Any"
+msgstr "任何"
+
+msgctxt "labeltype:length"
+msgid "Length"
+msgstr "長度"
+
+msgctxt "labeltype:area"
+msgid "Area"
+msgstr "面積"
+
+msgctxt "labeltype:angle"
+msgid "Angle"
+msgstr "角度"
+
+msgctxt "labeltype:edge"
+msgid "Edge length"
+msgstr "邊長"
+
+msgctxt "labeltype:perimeter"
+msgid "Perimeter"
+msgstr "周長"
+
+msgctxt "labeltype:diameter"
+msgid "Diameter"
+msgstr "直徑"
+
+msgctxt "labeltype:radius"
+msgid "Radius"
+msgstr "半徑"
+
+msgctxt "labeltype:width"
+msgid "Width"
+msgstr "寬度"
+
+msgctxt "labeltype:height"
+msgid "Height"
+msgstr "高度"
+
+msgctxt "labeltype:rectangle-side(rectangle)"
+msgid "Rectangle"
+msgstr "長方形"
+
+msgctxt "month-names-short-1"
+msgid "Jan"
+msgstr "一月"
+
+msgctxt "month-names-short-2"
+msgid "Feb"
+msgstr "二月"
+
+msgctxt "month-names-short-3"
+msgid "Mar"
+msgstr "三月"
+
+msgctxt "month-names-short-4"
+msgid "Apr"
+msgstr "四月"
+
+msgctxt "month-names-short-5"
+msgid "May"
+msgstr "五月"
+
+msgctxt "month-names-short-6"
+msgid "Jun"
+msgstr "六月"
+
+msgctxt "month-names-short-7"
+msgid "Jul"
+msgstr "七月"
+
+msgctxt "month-names-short-8"
+msgid "Aug"
+msgstr "八月"
+
+msgctxt "month-names-short-9"
+msgid "Sep"
+msgstr "九月"
+
+msgctxt "month-names-short-10"
+msgid "Oct"
+msgstr "十月"
+
+msgctxt "month-names-short-11"
+msgid "Nov"
+msgstr "十一月"
+
+msgctxt "month-names-short-12"
+msgid "Dec"
+msgstr "十二月"
+
+msgctxt "month-names-long-1"
+msgid "January"
+msgstr "一月"
+
+msgctxt "month-names-long-2"
+msgid "February"
+msgstr "二月"
+
+msgctxt "month-names-long-3"
+msgid "March"
+msgstr "三月"
+
+msgctxt "month-names-long-4"
+msgid "April"
+msgstr "四月"
+
+msgctxt "month-names-long-5"
+msgid "May"
+msgstr "五月"
+
+msgctxt "month-names-long-6"
+msgid "June"
+msgstr "六月"
+
+msgctxt "month-names-long-7"
+msgid "July"
+msgstr "七月"
+
+msgctxt "month-names-long-8"
+msgid "August"
+msgstr "八月"
+
+msgctxt "month-names-long-9"
+msgid "September"
+msgstr "九月"
+
+msgctxt "month-names-long-10"
+msgid "October"
+msgstr "十月"
+
+msgctxt "month-names-long-11"
+msgid "November"
+msgstr "十一月"
+
+msgctxt "month-names-long-12"
+msgid "December"
+msgstr "十二月"
+
+msgctxt "rendering:watermark"
+msgid ""
+"Evaluation copy\n"
+"Please upgrade to remove watermark"
+msgstr ""
+"試用版\n"
+"请升级以删除水印"
+
+msgctxt "filename-copy-tag"
+msgid "copy"
+msgstr "複製"
+
+msgctxt "pdf-export:table-of-contents"
+msgid "Table of contents"
+msgstr "目錄"
+
+msgctxt "pdf-export:root-folder-title"
+msgid "ImageMeter export"
+msgstr "ImageMeter 導出"
+
+msgctxt "templ:template-name:unnamed"
+msgid "New template"
+msgstr "新範本"
+
+msgctxt "templ:custom:class-display-name"
+msgid "Custom template"
+msgstr "自定義模板"
+
+msgctxt "templ:custom:new-template-name"
+msgid "New custom template"
+msgstr "新自定義模板"
+
+msgctxt "templ:custom:column-content:empty"
+msgid "Empty"
+msgstr "空"
+
+msgctxt "templ:custom:column-content:image-name"
+msgid "Image name"
+msgstr "圖像名稱"
+
+msgctxt "templ:custom:column-content:image-notes"
+msgid "Image notes"
+msgstr "圖像註釋"
+
+msgctxt "templ:custom:column-content:image-number"
+msgid "Image number"
+msgstr "圖像編號"
+
+msgctxt "templ:custom:column-content:image-capture-date"
+msgid "Image capture date"
+msgstr "圖像拍攝日期"
+
+msgctxt "templ:custom:column-content:image-gps-latitude"
+msgid "Image GPS latitude"
+msgstr "圖像 GPS 緯度"
+
+msgctxt "templ:custom:column-content:image-gps-longitude"
+msgid "Image GPS longitude"
+msgstr "圖像 GPS 經度"
+
+msgctxt "templ:custom:column-content:image-map-link"
+msgid "GPS map link"
+msgstr "GPS 地圖鏈接"
+
+#, fuzzy
+msgctxt "templ:custom:column-content:image-map-link:url:text"
+msgid "link"
+msgstr "鏈接"
+
+#, fuzzy
+msgctxt "templ:custom:column-content:image-map-link:error:no-gps"
+msgid "no GPS"
+msgstr "沒有GPS"
+
+msgctxt "templ:custom:column-type:width-height"
+msgid "Width and height"
+msgstr "寬度和高度"
+
+msgctxt "templ:custom:column-type:text"
+msgid "Text note"
+msgstr "文字說明"
+
+msgctxt "templ:custom:new-tablespec-name"
+msgid "Custom Table"
+msgstr "自定義表"
+
+msgctxt "templ:custom:new-tag"
+msgid "new tag"
+msgstr "新標籤"
+
+msgctxt "templ:custom:tag:filter:text"
+msgid "Text note"
+msgstr "文字說明"
+
+msgctxt "templ:custom:tag:filter:circle"
+msgid "Circle"
+msgstr "圓圈"
+
+msgctxt "templ:custom:tag:property-name"
+msgid "Tag"
+msgstr "標籤"
+
+msgctxt "templ:areasum:class-display-name"
+msgid "Area sum template"
+msgstr "面積總和模板"
+
+msgctxt "templ:areasum:preset:wallarea:display-name"
+msgid "Wall area"
+msgstr "牆面面積"
+
+msgctxt "templ:areasum:preset:floorarea:display-name"
+msgid "Floor area"
+msgstr "建築面積"
+
+msgctxt "templ:areasum:tag:property-name"
+msgid "Tag"
+msgstr "標籤"
+
+msgctxt "templ:areasum:wallarea:new-template-name"
+msgid "New wall area template"
+msgstr "新的牆面積模板"
+
+msgctxt "templ:areasum:floorarea:new-template-name"
+msgid "New floor area template"
+msgstr "新的建築面積模板"
+
+msgctxt "templ:areasum:custom-add"
+msgid "custom (add)"
+msgstr "自定義（添加）"
+
+msgctxt "templ:areasum:custom-minus"
+msgid "custom (subtract)"
+msgstr "自定義（減去）"
+
+msgctxt "templ:areasum:wallarea:wall"
+msgid "wall"
+msgstr "牆"
+
+msgctxt "templ:areasum:wallarea:ceiling"
+msgid "ceiling"
+msgstr "天花板"
+
+msgctxt "templ:areasum:wallarea:window"
+msgid "window"
+msgstr "窗戶"
+
+msgctxt "templ:areasum:wallarea:door"
+msgid "door"
+msgstr "門"
+
+msgctxt "templ:areasum:floorarea:living-room"
+msgid "living room"
+msgstr "客廳"
+
+msgctxt "templ:areasum:floorarea:bed-room"
+msgid "bed room"
+msgstr "臥室"
+
+msgctxt "templ:areasum:floorarea:kitchen"
+msgid "kitchen"
+msgstr "廚房"
+
+msgctxt "templ:areasum:floorarea:bath-room"
+msgid "bathroom"
+msgstr "浴室"
+
+msgctxt "templ:areasum:floorarea:generic-room"
+msgid "other room"
+msgstr "其他房間"
+
+msgctxt "templ:areasum:floorarea:balcony"
+msgid "balcony"
+msgstr "陽台"
+
+msgctxt "templ:areasum:table-column-header:item"
+msgid "Pos."
+msgstr "位置"
+
+msgctxt "templ:areasum:table-column-header:description"
+msgid "Description"
+msgstr "描述"
+
+msgctxt "templ:areasum:table-column-header:count"
+msgid "Count"
+msgstr "數目"
+
+msgctxt "templ:areasum:table-column-header:factor"
+msgid "Factor"
+msgstr "乘數因子"
+
+msgctxt "templ:areasum:table-column-header:width"
+msgid "Width"
+msgstr "寬度"
+
+msgctxt "templ:areasum:table-column-header:height"
+msgid "Height"
+msgstr "高度"
+
+msgctxt "templ:areasum:table-column-header:area"
+msgid "Area"
+msgstr "面積"
+
+msgctxt "templ:areasum:table-column-header:deduction"
+msgid "Deduction"
+msgstr "扣除"
+
+msgctxt "templ:areasum:table-column-header:sumarea"
+msgid "Sum"
+msgstr "總和"
+
+msgctxt "templ:areasum:item"
+msgid "Item Number"
+msgstr "項序號"
+
+msgctxt "templ:areasum:description"
+msgid "Description"
+msgstr "描述"
+
+msgctxt "templ:areasum:count"
+msgid "Count"
+msgstr "數"
+
+msgctxt "templ:areasum:width-height"
+msgid "Width and height"
+msgstr "寬度和高度"
+
+msgctxt "templ:areasum:measured-area"
+msgid "Measured area"
+msgstr "已測量的面積"
+
+msgctxt "templ:areasum:factor"
+msgid "Factor"
+msgstr "乘數因子"
+
+msgctxt "templ:areasum:calculated-area"
+msgid "Calculated area"
+msgstr "經計算的面積"
+
+msgctxt "templ:areasum:plus-minus-area"
+msgid "+/- area columns"
+msgstr "+/-面積列"
+
+msgctxt "templ:areasum:image-area-sum"
+msgid "Image area sum"
+msgstr "本圖像中面積總和"
+
+msgctxt "templ:areasum:tablespec:default-name"
+msgid "Area sum table"
+msgstr "面積總和表"
+
+msgctxt "templ:areasum:table-column-description:item"
+msgid ""
+"The image number. The number will only be filled into the row with the image "
+"title."
+msgstr "圖像序號。該數字將僅在帶有圖像標題的行中填充。"
+
+msgctxt "templ:areasum:table-column-description:description"
+msgid ""
+"Descriptive name of the area. This is either the default name of the tag, or "
+"a manually entered name for this area."
+msgstr "面積的描述性名稱。這是標籤的默認名稱，或者是此面積的手動輸入名稱。"
+
+msgctxt "templ:areasum:table-column-description:count"
+msgid "The count multiplier for this area."
+msgstr "此面積的個數。"
+
+msgctxt "templ:areasum:table-column-description:width-height"
+msgid ""
+"Width and height are two columns that are filled with the side lengths if "
+"the area is a rectangle. For other shapes, the columns stay empty.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+"如果該區域是矩形，寬度和高度是兩列。若是其他形狀，列內容為空。\n"
+"\n"
+"輸入兩個列標題，請以分號分隔。"
+
+msgctxt "templ:areasum:table-column-description:measured-area"
+msgid "The raw, measured area without the factor or count applied."
+msgstr "未應用因子或計數的原始測量面積。"
+
+msgctxt "templ:areasum:table-column-description:factor"
+msgid "The area factor applied when calculating the final area sum."
+msgstr "計算最終面積總和時應用的面積係數。"
+
+msgctxt "templ:areasum:table-column-description:calculated-area"
+msgid "Calculated area including the factor and count."
+msgstr "經乘數因子和個數計算以後的面積。"
+
+msgctxt "templ:areasum:table-column-description:plus-minus-area"
+msgid ""
+"Generates two columns: a column including all areas that are added to the "
+"sum, and a column including all areas that are subtracted from the total "
+"sum.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+"生成兩列：一列是添加到總和的所有面積，另一列是從總和中減去的所有面積。\n"
+"\n"
+"輸入以分號分隔的兩個列標題。"
+
+msgctxt "templ:areasum:table-column-description:image-area-sum"
+msgid ""
+"Each row holds the area sum of the image. The footer row holds the total "
+"over all images."
+msgstr ""
+
+msgctxt "templ:partslist:class-display-name"
+msgid "Parts list template"
+msgstr "零件清單模板"
+
+#, fuzzy
+msgctxt "templ:partslist:tagtype:count"
+msgid "Count"
+msgstr "數"
+
+#, fuzzy
+msgctxt "templ:partslist:tagtype:length"
+msgid "Length"
+msgstr "長度"
+
+#, fuzzy
+msgctxt "templ:partslist:tagtype:area"
+msgid "Area"
+msgstr "面積"
+
+msgctxt "templ:partslist:tablespec:default"
+msgid "Default table"
+msgstr "默認表"
+
+msgctxt "templ:partslist:tablespec:new"
+msgid "New table"
+msgstr "新表"
+
+#, fuzzy
+msgctxt "templ:partslist:tag:tag"
+msgid "Tag"
+msgstr "標籤"
+
+#, fuzzy
+msgctxt "templ:partslist:tag:name"
+msgid "Description"
+msgstr "描述"
+
+#, fuzzy
+msgctxt "templ:partslist:tag:count"
+msgid "Count"
+msgstr "數"
+
+msgctxt "templ:partslist:tag:comment"
+msgid "Comment"
+msgstr "注釋"
+
+msgctxt "templ:partslist:columnheader:item:image"
+msgid "Image"
+msgstr "圖像"
+
+msgctxt "templ:partslist:columnheader:item:element"
+msgid "No."
+msgstr "No. "
+
+msgctxt "templ:partslist:columnheader:item:image_and_element"
+msgid "No."
+msgstr "No. "
+
+msgctxt "templ:partslist:columnheader:tagname"
+msgid "Item"
+msgstr "零件"
+
+msgctxt "templ:partslist:columnheader:comment"
+msgid "Comment"
+msgstr "注釋"
+
+msgctxt "templ:partslist:columnheader:count"
+msgid "Count"
+msgstr "數目"
+
+msgctxt "templ:partslist:columnheader:quantity"
+msgid "Qty"
+msgstr "數量"
+
+msgctxt "templ:uiitem:duplicate:local"
+msgid "(local copy)"
+msgstr "（本地副本）"
+
+msgctxt "templ:uiitem:duplicate:global"
+msgid "(from settings)"
+msgstr "（引用設置）"
+
+msgctxt "table-operation:none"
+msgid "None"
+msgstr "無"
+
+#, fuzzy
+msgctxt "table-operation:none:keep"
+msgid "Keep"
+msgstr "保持"
+
+msgctxt "table-operation:sum"
+msgid "Sum"
+msgstr "總和"
+
+msgctxt "table-operation:avg"
+msgid "Average"
+msgstr "平均值"
+
+msgctxt "table-operation:min"
+msgid "Min"
+msgstr "最小值"
+
+msgctxt "table-operation:max"
+msgid "Max"
+msgstr "最大值"
+
+msgctxt "table-operation:median"
+msgid "Median"
+msgstr "中位數"
+
+msgctxt "table-operation:count"
+msgid "Count"
+msgstr "數目"
+
+msgctxt "SyncAction:NOP"
+msgid "No action"
+msgstr "不做任何事"
+
+msgctxt "SyncAction:PULL_NEW"
+msgid "Download new"
+msgstr "下載新数据"
+
+msgctxt "SyncAction:PULL_UPDATE"
+msgid "Download update"
+msgstr "下載更新"
+
+msgctxt "SyncAction:PUSH_NEW"
+msgid "Upload new"
+msgstr "新上傳"
+
+msgctxt "SyncAction:PUSH_UPDATE"
+msgid "Upload update"
+msgstr "上傳更新"
+
+msgctxt "SyncAction:DELETE_LOCAL"
+msgid "Delete locally"
+msgstr "本地刪除"
+
+msgctxt "SyncAction:DELETE_REMOTE"
+msgid "Delete on server"
+msgstr "在服務器上刪除"
+
+msgctxt "license:source:android-in-app"
+msgid "In-app"
+msgstr "应用內购买"
+
+msgctxt "license:source:android-nativepro"
+msgid "Native"
+msgstr "本機"
+
+msgctxt "license:free"
+msgid "Free Evaluation"
+msgstr "免費試用版"
+
+msgctxt "license:pro"
+msgid "Pro"
+msgstr "专业版"
+
+msgctxt "license:business"
+msgid "Business"
+msgstr "企業版"
+
+#, fuzzy
+msgctxt "entity-initialization:image-title:camera"
+msgid "image from {now}"
+msgstr "圖像獲得日期 {now.yyyy}年 {now.M} {now.d}日]"
+
+#, fuzzy
+msgctxt "entity-initialization:image-title:pdf-page-with-name"
+msgid "{filename.stem}, page {page}"
+msgstr "{filename.stem}，第 {page} 頁"
+
+msgctxt "entity-initialization:image-title:pdf-page-without-name"
+msgid "PDF import, page {page}"
+msgstr "PDF 導入，第 {page} 頁"
+
+msgctxt "entity-initialization:image-title:import-with-name"
+msgid "{filename.stem}"
+msgstr ""
+
+msgctxt "entity-initialization:image-title:import-without-name"
+msgid "imported {now}"
+msgstr ""
+
+msgctxt "entity-initialization:image-title:canvas"
+msgid "new canvas"
+msgstr ""
+
+msgctxt "entity-initialization:folder-title"
+msgid "new folder"
+msgstr ""
+
+msgctxt "stringscript:help:introtext"
+msgid ""
+"Enter the text that should appear here. You can add variables enclosed by "
+"{ } that will be substituted.\n"
+"\n"
+"Here are some example variables, but see below for the list of variables "
+"that are actually allowed here:\n"
+"{image.title} - image title\n"
+"{image.number} - the number you assigned to the image\n"
+"{folder.title} - title of the current folder\n"
+"{folder.parent.title} - title of the parent folder\n"
+"\n"
+"You can build complex expressions like this:\n"
+"{folder.title} / {image.number} - {image.title}"
+msgstr ""
+
+msgctxt "stringscript:help:intro_toplevel_variables"
+msgid "Allowed top level variables:"
+msgstr ""
+
+msgctxt "stringscript:help:intro_subelements"
+msgid ""
+"Each type may have sub-elements. Here is the list of sub-elements for each "
+"data type:"
+msgstr ""
+
+msgctxt "stringscript:root:member:image"
+msgid "This image."
+msgstr ""
+
+msgctxt "stringscript:root:member:folder"
+msgid "Current folder."
+msgstr ""
+
+msgctxt "stringscript:root:member:date"
+msgid "The current date and time"
+msgstr ""
+
+msgctxt "stringscript:root:member:import_image_filename"
+msgid "Filename of the imported image."
+msgstr ""
+
+msgctxt "stringscript:root:member:import_image_exif"
+msgid "EXIF metdata of the imported image."
+msgstr ""
+
+msgctxt "stringscript:root:member:import_pdf_filename"
+msgid "Filename of the imported PDF."
+msgstr ""
+
+msgctxt "stringscript:root:member:imported_pdf_page"
+msgid "Imported PDF page."
+msgstr ""
+
+msgctxt "stringscript:root:member:pdf-image-folder"
+msgid "Folder of each image."
+msgstr ""
+
+msgctxt "scriptobject:undefined:value"
+msgid "undefined"
+msgstr ""
+
+msgctxt "scriptobject:undefined:type"
+msgid "undefined"
+msgstr ""
+
+msgctxt "scriptobject:string:type"
+msgid "string"
+msgstr ""
+
+msgctxt "scriptobject:float:type"
+msgid "number"
+msgstr ""
+
+msgctxt "scriptobject:integer:type"
+msgid "integer number"
+msgstr ""
+
+msgctxt "scriptobject:keyvaluepairs:type"
+msgid "collection"
+msgstr ""
+
+msgctxt "scriptobject:keyvaluepairs:description"
+msgid "A collection of other objects"
+msgstr ""
+
+msgctxt "scriptobject:databundle:type"
+msgid "image"
+msgstr ""
+
+msgctxt "scriptobject:databundle:description"
+msgid "Information about an image"
+msgstr ""
+
+msgctxt "scriptobject:databundle:member:title"
+msgid "The image title."
+msgstr ""
+
+msgctxt "scriptobject:databundle:member:parent"
+msgid "The folder this image is located in."
+msgstr ""
+
+msgctxt "scriptobject:databundle:member:number"
+msgid "The user-assigned number."
+msgstr ""
+
+msgctxt "scriptobject:databundle:member:capture_date"
+msgid "The date at which this image was captured."
+msgstr ""
+
+msgctxt "scriptobject:databundle:member:exif"
+msgid "EXIF data of this image."
+msgstr ""
+
+msgctxt "scriptobject:folder:type"
+msgid "folder"
+msgstr ""
+
+msgctxt "scriptobject:folder:description"
+msgid "Information about a folder"
+msgstr ""
+
+msgctxt "scriptobject:folder:member:title"
+msgid "Folder title."
+msgstr ""
+
+msgctxt "scriptobject:folder:member:parent"
+msgid "The folder above this one."
+msgstr ""
+
+msgctxt "scriptobject:folder:member:number"
+msgid "The user-assigned number."
+msgstr ""
+
+msgctxt "scriptobject:date:type"
+msgid "date"
+msgstr ""
+
+msgctxt "scriptobject:date:description"
+msgid "Date and time"
+msgstr ""
+
+msgctxt "scriptobject:date:member:yyyy"
+msgid "Year (4 digits)."
+msgstr ""
+
+msgctxt "scriptobject:date:member:yy"
+msgid "Year (last 2 digits)."
+msgstr ""
+
+msgctxt "scriptobject:date:member:m"
+msgid "Month number."
+msgstr ""
+
+msgctxt "scriptobject:date:member:mm"
+msgid "Month number (2 digits)."
+msgstr ""
+
+msgctxt "scriptobject:date:member:M"
+msgid "Month (name abbreviation)."
+msgstr ""
+
+msgctxt "scriptobject:date:member:MM"
+msgid "Month (full name)."
+msgstr ""
+
+msgctxt "scriptobject:date:member:d"
+msgid "Day of month."
+msgstr ""
+
+msgctxt "scriptobject:date:member:dd"
+msgid "Day of month (2 digits)."
+msgstr ""
+
+msgctxt "scriptobject:date:member:h"
+msgid "Hour."
+msgstr ""
+
+msgctxt "scriptobject:date:member:hh"
+msgid "Hour (2 digits)."
+msgstr ""
+
+msgctxt "scriptobject:date:member:h12"
+msgid "Hour (12 hours + am/pm)."
+msgstr ""
+
+msgctxt "scriptobject:date:member:min"
+msgid "Minutes (2 digits)."
+msgstr ""
+
+msgctxt "scriptobject:date:member:sec"
+msgid "Seconds (2 digits)."
+msgstr ""
+
+msgctxt "scriptobject:date:member:time"
+msgid "Full time in HH:MM:SS format."
+msgstr ""
+
+msgctxt "scriptobject:filename:type"
+msgid "filename"
+msgstr ""
+
+msgctxt "scriptobject:filename:description"
+msgid "A filename"
+msgstr ""
+
+msgctxt "scriptobject:filename:member:stem"
+msgid "The filename without suffix."
+msgstr ""
+
+msgctxt "scriptobject:filename:member:suffix"
+msgid "The filanme suffix."
+msgstr ""
+
+msgctxt "scriptobject:exif:type"
+msgid "exif"
+msgstr ""
+
+msgctxt "scriptobject:exif:description"
+msgid "EXIF metadata from the image"
+msgstr ""
+
+msgctxt "scriptobject:exif:member:gps"
+msgid "GPS location."
+msgstr ""
+
+msgctxt "scriptobject:exif:member:date"
+msgid "Date the image was captured."
+msgstr ""
+
+msgctxt "scriptobject:exif:member:make"
+msgid "Camera manufacturer."
+msgstr ""
+
+msgctxt "scriptobject:exif:member:model"
+msgid "Camera model."
+msgstr ""
+
+msgctxt "scriptobject:gps:type"
+msgid "gps"
+msgstr ""
+
+msgctxt "scriptobject:gps:description"
+msgid "GPS location"
+msgstr ""
+
+msgctxt "scriptobject:gps:member:latitude"
+msgid "Latitude (N/S)."
+msgstr ""
+
+msgctxt "scriptobject:gps:member:longitude"
+msgid "Longitude (E/W)."
+msgstr ""
+
+msgctxt "scriptobject:gps:member:altitude"
+msgid "Altitude."
+msgstr ""
+
+msgctxt "editor:warning:element:value-is-locked"
+msgid "Value is locked. You have to unlock it first."
+msgstr "值已鎖定。您必須先將其解鎖。"
+
+msgctxt "lock:editor"
+msgid "editor"
+msgstr "文档編輯器"
+
+msgctxt "lock:folder-content"
+msgid "list folder content"
+msgstr "列出文件夾內容"
+
+msgctxt "lock:FileBrowserContent"
+msgid "file browser"
+msgstr "文件瀏覽器"
+
+msgctxt "lock:thumbnail-rendering"
+msgid "thumbnail rendering"
+msgstr "縮略圖渲染"
+
+msgctxt "lock:rendering"
+msgid "image rendering"
+msgstr "圖像渲染"
+
+msgctxt "lock:create-image"
+msgid "creating image"
+msgstr "新建圖像中"
+
+msgctxt "lock:import-image"
+msgid "importing image"
+msgstr "圖片導入中"
+
+msgctxt "lock:syncer"
+msgid "cloud synchronization"
+msgstr "云同步"
+
+msgctxt "lock:image-syncer"
+msgid "image cloud upload"
+msgstr "圖片雲上傳"
+
+msgctxt "lock:pro-migration"
+msgid "pro migration"
+msgstr "專業遷移"
+
+msgctxt "lock:delete-image"
+msgid "deleting image"
+msgstr "圖片刪除中"
+
+msgctxt "lock:delete-entity"
+msgid "deleting entity"
+msgstr "項目刪除中"
+
+msgctxt "lock:dialog-image-name"
+msgid "image renaming dialog"
+msgstr "圖像重命名對話框"
+
+msgctxt "lock:copy-directory"
+msgid "copying directory"
+msgstr "目錄復制中"
+
+msgctxt "lock:set-library-root"
+msgid "setting image library root"
+msgstr "設置圖片庫根目錄"
+
+msgctxt "lock:undelete-entity"
+msgid "undeleting entity"
+msgstr "取消刪除項目"
