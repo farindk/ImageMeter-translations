@@ -8,25 +8,97 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2021-05-17 21:33+0200\n"
+"PO-Revision-Date: 2021-05-18 00:38+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : 1);\n"
+"Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : "
+"1);\n"
 "Generated-By: Babel 2.9.0\n"
 "X-Generator: Poedit 2.3\n"
 
-#, fuzzy
 msgctxt "pc:mainwindow:menu:file"
 msgid "&File"
 msgstr "&Datei"
 
+msgctxt "pc:mainwindow:menu:file:open-image"
+msgid "&Open image..."
+msgstr "Bild öffnen..."
+
+msgctxt "pc:mainwindow:menu:file:import-image"
+msgid "&Import image..."
+msgstr "Bild &Importieren..."
+
+msgctxt "pc:mainwindow:menu:file:import-image:shortcut"
+msgid "Ctrl+I"
+msgstr "Ctrl+I"
+
+msgctxt "pc:mainwindow:menu:file:import-to-library"
+msgid "Import to &library"
+msgstr "Bild in Bibliothek importieren"
+
+msgctxt "pc:mainwindow:menu:file:save"
+msgid "&Save"
+msgstr "&Speichern"
+
+msgctxt "pc:mainwindow:menu:file:export-image"
+msgid "&Export image..."
+msgstr "Bild &exportieren..."
+
+msgctxt "pc:mainwindow:menu:file:export-imi"
+msgid "Export I&MI..."
+msgstr "I&MI exportieren..."
+
+msgctxt "pc:mainwindow:menu:file:run-cloud-sync"
+msgid "Run &cloud sync..."
+msgstr "Cloud-&Sync starten..."
+
+msgctxt "pc:mainwindow:menu:file:quit"
+msgid "&Quit"
+msgstr "&Beenden"
+
 msgctxt "pc:mainwindow:menu:edit"
 msgid "&Edit"
 msgstr "&Bearbeiten"
+
+msgctxt "pc:mainwindow:menu:edit:delete-element"
+msgid "Delete element"
+msgstr "Element löschen"
+
+msgctxt "pc:mainwindow:menu:edit:undo"
+msgid "Undo"
+msgstr "Rückgängig"
+
+msgctxt "pc:mainwindow:menu:edit:redo"
+msgid "Redo"
+msgstr "Wiederherstellen"
+
+msgctxt "pc:mainwindow:menu:edit:preferences"
+msgid "Preferences"
+msgstr "&Einstellungen"
+
+msgctxt "pc:mainwindow:menu:edit:copy"
+msgid "Copy"
+msgstr "Kopieren"
+
+msgctxt "pc:mainwindow:menu:edit:paste"
+msgid "Paste"
+msgstr "Einfügen"
+
+msgctxt "pc:mainwindow:menu:edit:cut"
+msgid "Cut"
+msgstr "Ausschneiden"
+
+msgctxt "pc:mainwindow:menu:edit:lock-element"
+msgid "Lock element"
+msgstr "Element sperren"
+
+msgctxt "pc:mainwindow:menu:edit:unlock-element"
+msgid "Unlock element"
+msgstr "Element entsperren"
 
 msgctxt "pc:mainwindow:menu:view"
 msgid "&View"
@@ -36,9 +108,53 @@ msgctxt "pc:mainwindow:menu:view:sorting"
 msgid "&Sorting"
 msgstr "&Sortierung"
 
+msgctxt "pc:mainwindow:menu:view:sorting:by-name"
+msgid "Sort by &name"
+msgstr "Nach &Namen sortieren"
+
+msgctxt "pc:mainwindow:menu:view:sorting:by-creation-date"
+msgid "Sort by creation &date"
+msgstr "Nach Erstellungs&datum sortieren"
+
+msgctxt "pc:mainwindow:menu:view:sorting:by-modification-date"
+msgid "Sort by &modification date"
+msgstr "Nach &Änderungsdatum sortieren"
+
+msgctxt "pc:mainwindow:menu:view:sorting:by-number"
+msgid "Sort by n&umber"
+msgstr "Nach N&ummer sortieren"
+
+msgctxt "pc:mainwindow:menu:view:sorting:ascending"
+msgid "&Ascending"
+msgstr "&Aufsteigend"
+
+msgctxt "pc:mainwindow:menu:view:sorting:descending"
+msgid "&Descending"
+msgstr "A&bsteigend"
+
+msgctxt "pc:mainwindow:menu:view:show-deleted-files"
+msgid "Show recently &deleted files"
+msgstr "Kürzliche gelöschte Dateien zeigen"
+
+msgctxt "pc:mainwindow:menu:view:show-image-numbers"
+msgid "Show image &numbers"
+msgstr "Bildnummern zeigen"
+
 msgctxt "pc:mainwindow:menu:image"
 msgid "&Image"
 msgstr "B&ild"
+
+msgctxt "pc:mainwindow:menu:image:rotate-left"
+msgid "Rotate image left"
+msgstr "Bild nach links drehen"
+
+msgctxt "pc:mainwindow:menu:image:rotate-right"
+msgid "Rotate image right"
+msgstr "Bild nach rechts drehen"
+
+msgctxt "pc:mainwindow:menu:image:image-settings"
+msgid "Image &settings..."
+msgstr "Bild&einstellungen..."
 
 msgctxt "pc:mainwindow:menu:windows"
 msgid "&Windows"
@@ -47,6 +163,38 @@ msgstr "&Fenster"
 msgctxt "pc:mainwindow:menu:help"
 msgid "&Help"
 msgstr "&Hilfe"
+
+msgctxt "pc:mainwindow:menu:help:license"
+msgid "&License..."
+msgstr "&Lizenz..."
+
+msgctxt "pc:mainwindow:menu:help:about"
+msgid "&About..."
+msgstr "&Informationen..."
+
+msgctxt "pc:mainwindow:dock:image-library:title"
+msgid "Image Library"
+msgstr "Bild-Bibliothek"
+
+msgctxt "pc:mainwindow:dock:style:title"
+msgid "Style"
+msgstr "Stil"
+
+msgctxt "pc:mainwindow:dock:label-style:title"
+msgid "Label Style"
+msgstr "Textstil"
+
+msgctxt "pc:error:cannot-rename-folder:in-use"
+msgid "Cannot rename folder. It is currently in use."
+msgstr "Kann den Ordner nicht umbenennen. Er wird momentan benutzt."
+
+msgctxt "pc:error:cannot-quit-program:sync-in-progress"
+msgid ""
+"Cannot quit program now because cloud synchronization is currently in "
+"progress."
+msgstr ""
+"Programm kann nicht beendet werden, da die Cloudsynchronisation "
+"gerade aktiv ist."
 
 msgctxt "pc:update_channel_alpha"
 msgid "alpha"
