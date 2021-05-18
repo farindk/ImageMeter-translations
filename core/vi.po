@@ -478,9 +478,10 @@ msgctxt "error:Cloud_CannotListFolderContent"
 msgid "Cannot list content of server folder '{}'"
 msgstr ""
 
-msgctxt "error:Cloud_CannotListFolderContent"
+#, fuzzy
+msgctxt "error:Cloud_CannotListFolderContent-short"
 msgid "Cannot list content of server folder"
-msgstr ""
+msgstr "Không thể xóa thư mục '{}'."
 
 msgctxt "error:Cloud_IsNotAFolder"
 msgid "File '{}' is not a folder."
@@ -740,6 +741,71 @@ msgctxt "labeltype:rectangle-side(rectangle)"
 msgid "Rectangle"
 msgstr ""
 
+#, fuzzy
+msgctxt "dimformat:options-ui:min-imperial-fraction:title"
+msgid "Smallest fraction"
+msgstr "Phần nhỏ nhất của một inch"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:title:long"
+msgid "Smallest fraction of an inch"
+msgstr "Phần nhỏ nhất của một inch"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:no-fraction"
+msgid "No fractions"
+msgstr "Không có phân số"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:n"
+msgid "Fractions down to 1/{}"
+msgstr "Phân số xuống 1/{}"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:title"
+msgid "Textual imperial units"
+msgstr "Đơn vị đế quốc văn bản"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:no"
+msgid "Show as '/\""
+msgstr "Các đơn vị hoàng gia sẽ được hiển thị là '/\""
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
+msgid "Show as ft/in"
+msgstr "Các đơn vị hoàng gia sẽ được hiển thị dưới dạng ft/in"
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:title"
+msgid "Ambiguous numbers"
+msgstr ""
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:no"
+msgid "Keep"
+msgstr ""
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
+msgid "Add dot if necessary"
+msgstr ""
+
+msgctxt "dimformat:options-ui:show-units:title"
+msgid "Show units"
+msgstr "Hiển thị đơn vị"
+
+msgctxt "dimformat:options-ui:show-units:no"
+msgid "Show only the value, omit the unit"
+msgstr "Chỉ hiển thị giá trị, bỏ qua đơn vị"
+
+msgctxt "dimformat:options-ui:show-units:yes"
+msgid "Yes, show value and unit"
+msgstr "Có, hiển thị giá trị và đơn vị"
+
+msgctxt "dimformat:options-ui:reduce-fractions:title"
+msgid "Reduce fractions"
+msgstr "Giảm phân số"
+
+msgctxt "dimformat:options-ui:reduce-fractions:no"
+msgid "Keep (4/8 stays 4/8)"
+msgstr "Phân số sẽ không được giảm (4/8 ở 4/8)"
+
+msgctxt "dimformat:options-ui:reduce-fractions:yes"
+msgid "Reduce (4/8 becomes 1/2)"
+msgstr "Phân số sẽ giảm (4/8 trở thành 1/2)"
+
 msgctxt "month-names-short-1"
 msgid "Jan"
 msgstr ""
@@ -845,9 +911,32 @@ msgstr ""
 "bản đánh giá\n"
 "Vui lòng nâng cấp để xóa hình mờ"
 
+msgctxt "export:resolution-too-small"
+msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
+msgstr ""
+
 msgctxt "filename-copy-tag"
 msgid "copy"
 msgstr ""
+
+msgctxt "entities:cannot_delete_image:in_use"
+msgid "Cannot delete image '{0}' because it is in use by '{1}'."
+msgstr ""
+
+#, fuzzy
+msgctxt "entities:cannot_delete_folder:in_use"
+msgid "Cannot delete folder '{0}' because it is in use by '{1}'."
+msgstr "Không thể đổi tên thư mục '{0}' thành '{1}'."
+
+#, fuzzy
+msgctxt "entities:cannot_move_folder:into_itself"
+msgid "Cannot move folder '{}' into itself."
+msgstr "Không thể đổi tên thư mục '{0}' thành '{1}'."
+
+#, fuzzy
+msgctxt "entities:cannot_rename_image:in_use"
+msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
+msgstr "Không thể đổi tên tệp '{0}' thành '{1}'."
 
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"

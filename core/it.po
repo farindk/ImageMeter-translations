@@ -566,7 +566,7 @@ msgid "Cannot list content of server folder '{}'"
 msgstr "Impossibile elencare il contenuto della cartella del server \"{}\""
 
 #, fuzzy
-msgctxt "error:Cloud_CannotListFolderContent"
+msgctxt "error:Cloud_CannotListFolderContent-short"
 msgid "Cannot list content of server folder"
 msgstr "Impossibile elencare il contenuto della cartella del server"
 
@@ -838,6 +838,71 @@ msgctxt "labeltype:rectangle-side(rectangle)"
 msgid "Rectangle"
 msgstr ""
 
+#, fuzzy
+msgctxt "dimformat:options-ui:min-imperial-fraction:title"
+msgid "Smallest fraction"
+msgstr "La più piccola frazione di un pollice"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:title:long"
+msgid "Smallest fraction of an inch"
+msgstr "La più piccola frazione di un pollice"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:no-fraction"
+msgid "No fractions"
+msgstr "Nessuna frazione"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:n"
+msgid "Fractions down to 1/{}"
+msgstr "Frazioni fino a 1/{}"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:title"
+msgid "Textual imperial units"
+msgstr "Unità imperiali testuali"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:no"
+msgid "Show as '/\""
+msgstr "Unità imperiali saranno mostrate come '/\""
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
+msgid "Show as ft/in"
+msgstr "Unità imperiali saranno mostrate come ft/in"
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:title"
+msgid "Ambiguous numbers"
+msgstr ""
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:no"
+msgid "Keep"
+msgstr ""
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
+msgid "Add dot if necessary"
+msgstr ""
+
+msgctxt "dimformat:options-ui:show-units:title"
+msgid "Show units"
+msgstr "Mostra unità"
+
+msgctxt "dimformat:options-ui:show-units:no"
+msgid "Show only the value, omit the unit"
+msgstr "Mostra solo il valore, ometti l'unità"
+
+msgctxt "dimformat:options-ui:show-units:yes"
+msgid "Yes, show value and unit"
+msgstr "Sì, mostra valore e unità"
+
+msgctxt "dimformat:options-ui:reduce-fractions:title"
+msgid "Reduce fractions"
+msgstr "Ridurre le frazioni"
+
+msgctxt "dimformat:options-ui:reduce-fractions:no"
+msgid "Keep (4/8 stays 4/8)"
+msgstr "Le frazioni non saranno ridotte (4/8 soggiorni 4/8)"
+
+msgctxt "dimformat:options-ui:reduce-fractions:yes"
+msgid "Reduce (4/8 becomes 1/2)"
+msgstr "Le frazioni saranno ridotte (4/8 diventa 1/2)"
+
 msgctxt "month-names-short-1"
 msgid "Jan"
 msgstr "genn"
@@ -943,10 +1008,34 @@ msgstr ""
 "Copia di valutazione\n"
 "Aggiorna per rimuovere la filigrana"
 
+msgctxt "export:resolution-too-small"
+msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
+msgstr ""
+
 #, fuzzy
 msgctxt "filename-copy-tag"
 msgid "copy"
 msgstr "copia"
+
+#, fuzzy
+msgctxt "entities:cannot_delete_image:in_use"
+msgid "Cannot delete image '{0}' because it is in use by '{1}'."
+msgstr "Impossibile modificare il file \"{}\" perché è attualmente in uso."
+
+#, fuzzy
+msgctxt "entities:cannot_delete_folder:in_use"
+msgid "Cannot delete folder '{0}' because it is in use by '{1}'."
+msgstr "Impossibile modificare il file \"{}\" perché è attualmente in uso."
+
+#, fuzzy
+msgctxt "entities:cannot_move_folder:into_itself"
+msgid "Cannot move folder '{}' into itself."
+msgstr "Impossibile rinominare la cartella \"{}\" sul server"
+
+#, fuzzy
+msgctxt "entities:cannot_rename_image:in_use"
+msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
+msgstr "Impossibile modificare il file \"{}\" perché è attualmente in uso."
 
 #, fuzzy
 msgctxt "pdf-export:table-of-contents"
@@ -985,7 +1074,8 @@ msgctxt "editor:attach:hint_howto_attach_measure"
 msgid ""
 "Click on the reference based on which you want to calculate the selected "
 "measure."
-msgstr "Clicca sul riferimento a cui si desidera allegare la misura selezionata."
+msgstr ""
+"Clicca sul riferimento a cui si desidera allegare la misura selezionata."
 
 msgctxt "templ:template-name:unnamed"
 msgid "New template"

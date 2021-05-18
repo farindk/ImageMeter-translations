@@ -569,7 +569,7 @@ msgid "Cannot list content of server folder '{}'"
 msgstr "Não é possível listar o conteúdo da pasta do servidor '{}'"
 
 #, fuzzy
-msgctxt "error:Cloud_CannotListFolderContent"
+msgctxt "error:Cloud_CannotListFolderContent-short"
 msgid "Cannot list content of server folder"
 msgstr "Não é possível listar o conteúdo da pasta do servidor"
 
@@ -841,6 +841,71 @@ msgid "Rectangle"
 msgstr ""
 
 #, fuzzy
+msgctxt "dimformat:options-ui:min-imperial-fraction:title"
+msgid "Smallest fraction"
+msgstr "Menor fração de uma polegada"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:title:long"
+msgid "Smallest fraction of an inch"
+msgstr "Menor fração de uma polegada"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:no-fraction"
+msgid "No fractions"
+msgstr "Sem frações"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:n"
+msgid "Fractions down to 1/{}"
+msgstr "Frações até 1/{}"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:title"
+msgid "Textual imperial units"
+msgstr "Unidades imperiais textuais"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:no"
+msgid "Show as '/\""
+msgstr "As unidades imperiais serão mostradas como '/ \""
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
+msgid "Show as ft/in"
+msgstr "As unidades imperiais serão mostradas como ft/in"
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:title"
+msgid "Ambiguous numbers"
+msgstr ""
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:no"
+msgid "Keep"
+msgstr ""
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
+msgid "Add dot if necessary"
+msgstr ""
+
+msgctxt "dimformat:options-ui:show-units:title"
+msgid "Show units"
+msgstr "Mostrar unidades"
+
+msgctxt "dimformat:options-ui:show-units:no"
+msgid "Show only the value, omit the unit"
+msgstr "Mostrar apenas o valor, omitir a unidade"
+
+msgctxt "dimformat:options-ui:show-units:yes"
+msgid "Yes, show value and unit"
+msgstr "Sim, mostrar o valor e a unidade"
+
+msgctxt "dimformat:options-ui:reduce-fractions:title"
+msgid "Reduce fractions"
+msgstr "Reduzir frações"
+
+msgctxt "dimformat:options-ui:reduce-fractions:no"
+msgid "Keep (4/8 stays 4/8)"
+msgstr "As frações não serão reduzidas (4/8 permanece 4/8)"
+
+msgctxt "dimformat:options-ui:reduce-fractions:yes"
+msgid "Reduce (4/8 becomes 1/2)"
+msgstr "As frações serão reduzidas (4/8 para 1/2)"
+
+#, fuzzy
 msgctxt "month-names-short-1"
 msgid "Jan"
 msgstr "jan"
@@ -969,10 +1034,37 @@ msgstr ""
 "Cópia de avaliação\n"
 "Atualize para remover a marca d'água"
 
+msgctxt "export:resolution-too-small"
+msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
+msgstr ""
+
 #, fuzzy
 msgctxt "filename-copy-tag"
 msgid "copy"
 msgstr "cópia"
+
+#, fuzzy
+msgctxt "entities:cannot_delete_image:in_use"
+msgid "Cannot delete image '{0}' because it is in use by '{1}'."
+msgstr ""
+"Não é possível modificar o arquivo '{}' porque ele está em uso no momento."
+
+#, fuzzy
+msgctxt "entities:cannot_delete_folder:in_use"
+msgid "Cannot delete folder '{0}' because it is in use by '{1}'."
+msgstr ""
+"Não é possível modificar o arquivo '{}' porque ele está em uso no momento."
+
+#, fuzzy
+msgctxt "entities:cannot_move_folder:into_itself"
+msgid "Cannot move folder '{}' into itself."
+msgstr "Não é possível renomear a pasta '{}' no servidor"
+
+#, fuzzy
+msgctxt "entities:cannot_rename_image:in_use"
+msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
+msgstr ""
+"Não é possível modificar o arquivo '{}' porque ele está em uso no momento."
 
 #, fuzzy
 msgctxt "pdf-export:table-of-contents"
@@ -989,8 +1081,8 @@ msgid ""
 "There is no reference in the image! You need to draw a reference in order to "
 "do automatic computations."
 msgstr ""
-"Não há referência na imagem! Você precisa desenhar uma referência para "
-"fazer cálculos automáticos."
+"Não há referência na imagem! Você precisa desenhar uma referência para fazer "
+"cálculos automáticos."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -1003,15 +1095,15 @@ msgstr "A medida é calculada com base na referência que você forneceu."
 msgctxt "editor:attach:hint_howto_attach_to_reference"
 msgid ""
 "Click on the measure you want to compute based on the selected reference."
-msgstr "Clique na medida que deseja calcular com base na referência selecionada."
+msgstr ""
+"Clique na medida que deseja calcular com base na referência selecionada."
 
 msgctxt "editor:attach:hint_howto_attach_measure"
 msgid ""
 "Click on the reference based on which you want to calculate the selected "
 "measure."
 msgstr ""
-"Clique na referência com base na qual deseja calcular a medida "
-"selecionada."
+"Clique na referência com base na qual deseja calcular a medida selecionada."
 
 msgctxt "templ:template-name:unnamed"
 msgid "New template"

@@ -8,31 +8,29 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2021-05-04 18:10+0200\n"
+"PO-Revision-Date: 2021-05-18 18:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : 1)\n"
+"Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : 1);\n"
 "Generated-By: Babel 2.9.0\n"
+"X-Generator: Poedit 2.3\n"
 
 msgctxt "error:InternalError"
 msgid "Internal error: {}."
 msgstr "Interner Fehler: {}."
 
-#, fuzzy
 msgctxt "error:OutOfMemory:no_size"
 msgid "Out of memory"
-msgstr "Kein Speicher mehr."
+msgstr "Kein Speicher mehr"
 
-#, fuzzy
 msgctxt "error:OutOfMemory:with_bytes_size"
 msgid "Out of memory (cannot allocate {} bytes)."
 msgstr "Kein Speicher mehr (kann keine {} Bytes reservieren)."
 
-#, fuzzy
 msgctxt "error:OutOfMemory:with_mb_size"
 msgid "Out of memory (cannot allocate {} MB)."
 msgstr "Kein Speicher mehr (kann keine {} MB reservieren)."
@@ -113,7 +111,6 @@ msgctxt "error:Files_Errno"
 msgid "OS error: '{}'."
 msgstr "Betriebssystemfehler: '{}'."
 
-#, fuzzy
 msgctxt "error:Files_Win32"
 msgid "Windows error: '{}'"
 msgstr "Betriebssystemfehler: '{}'."
@@ -134,12 +131,10 @@ msgctxt "error:ProjectFolder_CannotLoadFolder"
 msgid "Cannot load folder '{}'."
 msgstr "Kann den Ordner '{}' nicht laden."
 
-#, fuzzy
 msgctxt "error:ProjectFolder_CannotRenameFolder"
 msgid "Cannot rename directory of image '{}'."
 msgstr "Kann das Verzeichnis von Bild '{}' nicht umbenennen."
 
-#, fuzzy
 msgctxt "error:ProjectFolder_CannotDeleteFolder"
 msgid "Cannot delete folder '{}'."
 msgstr "Kann Verzeichnis '{}' nicht löschen."
@@ -224,10 +219,9 @@ msgctxt "error:CannotCreateIMIFile"
 msgid "Cannot create IMI file '{}'."
 msgstr "Kann die IMI-Datei '{}' nicht erzeugen."
 
-#, fuzzy
 msgctxt "error:NoZipSupport"
 msgid "Zip files are not supported."
-msgstr "Funktion wird nicht unterstützt."
+msgstr "Zip-Dateien werden nicht unterstützt."
 
 msgctxt "error:ImageReader_ReaderError"
 msgid "Image reader error."
@@ -249,7 +243,6 @@ msgctxt "error:OpenGL"
 msgid "OpenGL error: \"{}\"."
 msgstr "OpenGL Fehler: {}"
 
-#, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
 msgid ""
 "Not enough memory to render at output resolution {}. Please reduce the "
@@ -376,20 +369,17 @@ msgctxt "error:Cloud_SyncError"
 msgid "Cannot sync with server."
 msgstr "Kann nicht mit dem Server synchronisieren."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotParseSyncStateFile"
 msgid "Cannot parse sync state file '{}'."
-msgstr "Kann die Syncstatus-Datei '%1$s' nicht lesen."
+msgstr "Kann die Syncstatus-Datei '{}' nicht lesen."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotWriteSyncStateFile"
 msgid "Cannot write sync state file '{}'."
-msgstr "Kann die Syncstatus-Datei '%1$s' nicht schreiben."
+msgstr "Kann die Syncstatus-Datei '{}' nicht schreiben."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotLoadSyncStateFile"
 msgid "Cannot load sync state file '{}'."
-msgstr "Kann die Syncstatus-Datei '%1$s' nicht laden."
+msgstr "Kann die Syncstatus-Datei '{}' nicht laden."
 
 msgctxt "error:Cloud_CannotLockServer"
 msgid "Cannot generate server lock file."
@@ -416,7 +406,6 @@ msgctxt "error:Cloud_CannotCreateFolder"
 msgid "Cannot create folder '{}' on server"
 msgstr "Kann Verzeichnis '{}' nicht auf dem Server erstellen"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotCreateFolder-short"
 msgid "Cannot create folder on server"
 msgstr "Kann das Verzeichnis nicht auf dem Server erstellen"
@@ -425,7 +414,6 @@ msgctxt "error:Cloud_CannotUploadFile"
 msgid "Cannot upload file '{}' to server"
 msgstr "Kann die Datei '{}' nicht zum Server hochladen"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotUploadFile-short"
 msgid "Cannot upload file to server"
 msgstr "Kann die Datei nicht zum Server hochladen"
@@ -434,7 +422,6 @@ msgctxt "error:Cloud_CannotDownloadFile"
 msgid "Cannot download file '{}' from server"
 msgstr "Kann die Datei '{}' nicht vom Server herunterladen"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotDownloadFile-short"
 msgid "Cannot download file from server"
 msgstr "Kann die Datei nicht herunterladen"
@@ -443,25 +430,22 @@ msgctxt "error:Cloud_CannotDownloadFolder"
 msgid "Cannot download folder '{}' from server"
 msgstr "Kann den Ordner '{}' nicht vom Server laden"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotDownloadFolder-short"
 msgid "Cannot download folder from server"
-msgstr "Cann den Ordner nicht vom Server laden"
+msgstr "Kann den Ordner nicht vom Server laden"
 
 msgctxt "error:Cloud_CannotRenameFile"
 msgid "Cannot rename file '{}' on server"
 msgstr "Kann die Datei '{}' auf dem Server nicht umbenennen"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotRenameFile-short"
 msgid "Cannot rename file on server"
-msgstr "Cann die Datei auf dem Server nicht umbenennen"
+msgstr "Kann die Datei auf dem Server nicht umbenennen"
 
 msgctxt "error:Cloud_CannotRenameFolder"
 msgid "Cannot rename folder '{}' on server"
 msgstr "Kann den Ordner '{}' auf dem Server nicht umbenennen"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotRenameFolder-short"
 msgid "Cannot rename folder on server"
 msgstr "Kann den Ordner auf dem Server nicht umbenennen"
@@ -470,7 +454,6 @@ msgctxt "error:Cloud_CannotDeleteFile"
 msgid "Cannot delete file '{}' from server"
 msgstr "Kann die Datei '{}' nicht auf dem Server löschen"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotDeleteFile-short"
 msgid "Cannot delete file from server"
 msgstr "Kann die Datei nicht auf dem Server löschen"
@@ -479,7 +462,6 @@ msgctxt "error:Cloud_CannotDeleteFolder"
 msgid "Cannot delete folder '{}' from server"
 msgstr "Kann das Verzeichnis '{}' nicht auf dem Server löschen"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotDeleteFolder"
 msgid "Cannot delete folder from server"
 msgstr "Kann das Verzeichnis nicht auf dem Server löschen"
@@ -488,8 +470,7 @@ msgctxt "error:Cloud_CannotListFolderContent"
 msgid "Cannot list content of server folder '{}'"
 msgstr "Kann den Inhalt des Serververzeichnisses '{}' nicht auflisten"
 
-#, fuzzy
-msgctxt "error:Cloud_CannotListFolderContent"
+msgctxt "error:Cloud_CannotListFolderContent-short"
 msgid "Cannot list content of server folder"
 msgstr "Kann den Inhalt des Serververzeichnisses nicht auflisten"
 
@@ -511,100 +492,91 @@ msgstr "Konnte den Sync-State nicht zurücksetzen."
 
 msgctxt "error:HTTP-error-400"
 msgid "400 : Bad Request"
-msgstr ""
+msgstr "400 : Ungültige Anforderung"
 
 msgctxt "error:HTTP-error-401"
 msgid "401 : Unauthorized"
-msgstr ""
+msgstr "401 : nicht autorisiert"
 
 msgctxt "error:HTTP-error-403"
 msgid "403 : Forbidden"
-msgstr ""
+msgstr "403 : verboten"
 
 msgctxt "error:HTTP-error-404"
 msgid "404 : Not Found"
-msgstr ""
+msgstr "404 : nicht gefunden"
 
 msgctxt "error:HTTP-error-405"
 msgid "405 : Method Not Allowed"
-msgstr ""
+msgstr "405 : Methode nicht erlaubt"
 
 msgctxt "error:HTTP-error-406"
 msgid "406 : Not Acceptable"
-msgstr ""
+msgstr "406 : nicht akzeptabel"
 
 msgctxt "error:HTTP-error-407"
 msgid "407 : Proxy Authentication Required"
-msgstr ""
+msgstr "407 : Authentifizierung am Proxy benötigt"
 
 msgctxt "error:HTTP-error-408"
 msgid "408 : Request Timeout"
-msgstr ""
+msgstr "408 : Zeitüberschreitung der Anfrage"
 
 msgctxt "error:HTTP-error-409"
 msgid "409 : Conflict"
-msgstr ""
+msgstr "409 : Konflikt"
 
 msgctxt "error:HTTP-error-410"
 msgid "410 : Gone"
-msgstr ""
+msgstr "410 : nicht mehr vorhanden"
 
-#, fuzzy
 msgctxt "error:HTTP-error-500"
 msgid "500 : Internal Server Error"
-msgstr "Interner Fehler: {}."
+msgstr "500 : Interner Serverfehler"
 
 msgctxt "error:HTTP-error-501"
 msgid "501 : Not Implemented"
-msgstr ""
+msgstr "501 : nicht implementiert"
 
 msgctxt "error:HTTP-error-502"
 msgid "502 : Bad Gateway"
-msgstr ""
+msgstr "502 : ungültiges Gateway"
 
-#, fuzzy
 msgctxt "error:HTTP-error-503"
 msgid "503 : Service Unavailable"
-msgstr "PlayStore nicht verfügbar"
+msgstr "503 : Service nicht verfügbar"
 
 msgctxt "error:HTTP-error-504"
 msgid "504 : Gateway Timeout"
-msgstr ""
+msgstr "504 : Gateway-Zeitüberschreitung"
 
-#, fuzzy
 msgctxt "error:NetworkError"
 msgid "Network error: {}"
-msgstr "Serverfehler: {}"
+msgstr "Netzwerkfehler: {}"
 
-#, fuzzy
 msgctxt "error:BluetoothError:no_active_element"
 msgid "no active element"
 msgstr "kein Element ausgewählt"
 
-#, fuzzy
 msgctxt "error:BluetoothError:element_has_no_dimension"
 msgid "element does not support measurements"
 msgstr "Element unterstützt keine Abmessungen"
 
-#, fuzzy
 msgctxt "error:BluetoothError:dimension_is_read_only"
 msgid "element value is read-only"
 msgstr "Elementwert ist schreibgeschützt"
 
-#, fuzzy
 msgctxt "error:BluetoothError:wrong_dimension_unit"
 msgid "wrong measurement unit"
 msgstr "falsche Maßeinheit"
 
-#, fuzzy
 msgctxt "error:BluetoothError:element_is_locked"
 msgid "element is locked"
 msgstr "Element ist gesperrt"
 
-#, fuzzy
 msgctxt "error:BluetoothError:generic"
 msgid "Cannot set received Bluetooth value."
-msgstr "Kann den über Bluetooth empfangenen Wert nicht setzen: %1$s."
+msgstr "Kann den über Bluetooth empfangenen Wert nicht setzen."
 
 msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
@@ -754,6 +726,70 @@ msgctxt "labeltype:rectangle-side(rectangle)"
 msgid "Rectangle"
 msgstr "Rechteck"
 
+msgctxt "dimformat:options-ui:min-imperial-fraction:title"
+msgid "Smallest fraction"
+msgstr "Kleinster Bruchwert"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:title:long"
+msgid "Smallest fraction of an inch"
+msgstr "Kleinster Bruchwert eines Inch"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:no-fraction"
+msgid "No fractions"
+msgstr "Keine Brüche"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:n"
+msgid "Fractions down to 1/{}"
+msgstr "Brüche bis zu 1/{}"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:title"
+msgid "Textual imperial units"
+msgstr "Britische Maßbezeichnung"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:no"
+msgid "Show as '/\""
+msgstr "Britische Maße als '/\" abkürzen"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
+msgid "Show as ft/in"
+msgstr "Britische Maße als ft/in zeigen"
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:title"
+msgid "Ambiguous numbers"
+msgstr "Mehrdeutige Zahlen"
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:no"
+msgid "Keep"
+msgstr "So lassen"
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
+msgid "Add dot if necessary"
+msgstr "Punkt hinzufügen falls nötig"
+
+msgctxt "dimformat:options-ui:show-units:title"
+msgid "Show units"
+msgstr "Maßeinheit anzeigen"
+
+msgctxt "dimformat:options-ui:show-units:no"
+msgid "Show only the value, omit the unit"
+msgstr "Ja, Maßeinheiten anzeigen"
+
+msgctxt "dimformat:options-ui:show-units:yes"
+msgid "Yes, show value and unit"
+msgstr "Nur den Wert ohne die Maßeinheit anzeigen"
+
+msgctxt "dimformat:options-ui:reduce-fractions:title"
+msgid "Reduce fractions"
+msgstr "Brüche kürzen"
+
+msgctxt "dimformat:options-ui:reduce-fractions:no"
+msgid "Keep (4/8 stays 4/8)"
+msgstr "Nicht kürzen (4/8 bleibt 4/8)"
+
+msgctxt "dimformat:options-ui:reduce-fractions:yes"
+msgid "Reduce (4/8 becomes 1/2)"
+msgstr "Kürzen (4/8 wird zu 1/2)"
+
 msgctxt "month-names-short-1"
 msgid "Jan"
 msgstr "Jan"
@@ -858,9 +894,31 @@ msgstr ""
 "Testversion\n"
 "Bitte upgraden um das Wasserzeichen zu entfernen"
 
+msgctxt "export:resolution-too-small"
+msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
+msgstr "Ausgabeauflösung ist zu klein. Das Minimum ist {0}x{1} Pixel."
+
 msgctxt "filename-copy-tag"
 msgid "copy"
 msgstr "Kopie"
+
+msgctxt "entities:cannot_delete_image:in_use"
+msgid "Cannot delete image '{0}' because it is in use by '{1}'."
+msgstr "Kann Bild '{0}' nicht löschen, da es momentan von '{1}' benutzt wird."
+
+msgctxt "entities:cannot_delete_folder:in_use"
+msgid "Cannot delete folder '{0}' because it is in use by '{1}'."
+msgstr ""
+"Kann Ordner '{0}' nicht löschen, da er momentan von '{1}' benutzt wird."
+
+msgctxt "entities:cannot_move_folder:into_itself"
+msgid "Cannot move folder '{}' into itself."
+msgstr "Kann den Ordner '{}' nicht in sich selbst verschieben."
+
+msgctxt "entities:cannot_rename_image:in_use"
+msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
+msgstr ""
+"Kann das Bild '{0}' nicht umbenennen, da es momentan von '{1}' benutzt wird."
 
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
@@ -898,8 +956,8 @@ msgid ""
 "Click on the reference based on which you want to calculate the selected "
 "measure."
 msgstr ""
-"Wählen Sie die Referenz, anhand derer Sie die gewählte Bemaßung berechnen"
-" möchten."
+"Wählen Sie die Referenz, anhand derer Sie die gewählte Bemaßung berechnen "
+"möchten."
 
 msgctxt "templ:template-name:unnamed"
 msgid "New template"
@@ -945,12 +1003,10 @@ msgctxt "templ:custom:column-content:image-map-link"
 msgid "GPS map link"
 msgstr "GPS Kartenlink"
 
-#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:url:text"
 msgid "link"
 msgstr "Link"
 
-#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:error:no-gps"
 msgid "no GPS"
 msgstr "kein GPS"
@@ -1201,17 +1257,14 @@ msgctxt "templ:partslist:class-display-name"
 msgid "Parts list template"
 msgstr "Stücklistenvorlage"
 
-#, fuzzy
 msgctxt "templ:partslist:tagtype:count"
 msgid "Count"
 msgstr "Anzahl"
 
-#, fuzzy
 msgctxt "templ:partslist:tagtype:length"
 msgid "Length"
 msgstr "Länge"
 
-#, fuzzy
 msgctxt "templ:partslist:tagtype:area"
 msgid "Area"
 msgstr "Fläche"
@@ -1224,17 +1277,14 @@ msgctxt "templ:partslist:tablespec:new"
 msgid "New table"
 msgstr "Neue Tabelle"
 
-#, fuzzy
 msgctxt "templ:partslist:tag:tag"
 msgid "Tag"
 msgstr "Etikett"
 
-#, fuzzy
 msgctxt "templ:partslist:tag:name"
 msgid "Description"
 msgstr "Beschreibung"
 
-#, fuzzy
 msgctxt "templ:partslist:tag:count"
 msgid "Count"
 msgstr "Anzahl"
@@ -1283,7 +1333,6 @@ msgctxt "table-operation:none"
 msgid "None"
 msgstr "Keine"
 
-#, fuzzy
 msgctxt "table-operation:none:keep"
 msgid "Keep"
 msgstr "So lassen"
@@ -1388,7 +1437,6 @@ msgctxt "entity-initialization:folder-title"
 msgid "new folder"
 msgstr "neuer Ordner"
 
-#, fuzzy
 msgctxt "stringscript:help:introtext"
 msgid ""
 "Enter the text that should appear here. You can add variables enclosed by "
@@ -1438,10 +1486,9 @@ msgctxt "stringscript:root:member:folder"
 msgid "Current folder."
 msgstr "Aktueller Ordner."
 
-#, fuzzy
 msgctxt "stringscript:root:member:date"
 msgid "The current date and time"
-msgstr "Das aktuelle Datum und die Zeit."
+msgstr "Das aktuelle Datum und die Zeit"
 
 msgctxt "stringscript:root:member:import_image_filename"
 msgid "Filename of the imported image."
@@ -1461,7 +1508,7 @@ msgstr "Importierte PDF-Seitennummer."
 
 msgctxt "stringscript:root:member:pdf-image-folder"
 msgid "Folder of each image."
-msgstr ""
+msgstr "Ordner für jedes Bild."
 
 msgctxt "scriptobject:undefined:value"
 msgid "undefined"
@@ -1573,9 +1620,8 @@ msgstr "Monat (ganzer Name)."
 
 msgctxt "scriptobject:date:member:d"
 msgid "Day of month."
-msgstr ""
+msgstr "Tag im Monat."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:dd"
 msgid "Day of month (2 digits)."
 msgstr "Tag im Monat (zwei Ziffern)."
@@ -1616,7 +1662,6 @@ msgctxt "scriptobject:filename:member:stem"
 msgid "The filename without suffix."
 msgstr "Der Dateiname ohne Endung."
 
-#, fuzzy
 msgctxt "scriptobject:filename:member:suffix"
 msgid "The filanme suffix."
 msgstr "Die Dateinamensendung."

@@ -484,7 +484,7 @@ msgid "Cannot list content of server folder '{}'"
 msgstr "无法列出服务器文档夹 '{}' 的内容"
 
 #, fuzzy
-msgctxt "error:Cloud_CannotListFolderContent"
+msgctxt "error:Cloud_CannotListFolderContent-short"
 msgid "Cannot list content of server folder"
 msgstr "无法列出服务器文档夹的内容"
 
@@ -749,6 +749,75 @@ msgctxt "labeltype:rectangle-side(rectangle)"
 msgid "Rectangle"
 msgstr "长方形"
 
+#, fuzzy
+msgctxt "dimformat:options-ui:min-imperial-fraction:title"
+msgid "Smallest fraction"
+msgstr "最小分数"
+
+#, fuzzy
+msgctxt "dimformat:options-ui:min-imperial-fraction:title:long"
+msgid "Smallest fraction of an inch"
+msgstr "一英寸的最小分数"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:no-fraction"
+msgid "No fractions"
+msgstr "不使用分数"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:n"
+msgid "Fractions down to 1/{}"
+msgstr "分数部分精确至 1/{}"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:title"
+msgid "Textual imperial units"
+msgstr "英制单位的呈现方式"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:no"
+msgid "Show as '/\""
+msgstr "英制单位呈现为 '/\""
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
+msgid "Show as ft/in"
+msgstr "英制单位呈现为： ft/in"
+
+#, fuzzy
+msgctxt "dimformat:options-ui:ambiguous-numbers:title"
+msgid "Ambiguous numbers"
+msgstr "添加消歧点"
+
+#, fuzzy
+msgctxt "dimformat:options-ui:ambiguous-numbers:no"
+msgid "Keep"
+msgstr "不"
+
+#, fuzzy
+msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
+msgid "Add dot if necessary"
+msgstr "是的，如有必要"
+
+msgctxt "dimformat:options-ui:show-units:title"
+msgid "Show units"
+msgstr "显示单位"
+
+msgctxt "dimformat:options-ui:show-units:no"
+msgid "Show only the value, omit the unit"
+msgstr "仅显示数值"
+
+msgctxt "dimformat:options-ui:show-units:yes"
+msgid "Yes, show value and unit"
+msgstr "是， 显示数值和单位"
+
+msgctxt "dimformat:options-ui:reduce-fractions:title"
+msgid "Reduce fractions"
+msgstr "简约分数"
+
+msgctxt "dimformat:options-ui:reduce-fractions:no"
+msgid "Keep (4/8 stays 4/8)"
+msgstr "不约去分子分母的最大公因数 (4/8 显示为 4/8)"
+
+msgctxt "dimformat:options-ui:reduce-fractions:yes"
+msgid "Reduce (4/8 becomes 1/2)"
+msgstr "约去分子分母的最大公因数 (4/8 约为 1/2)"
+
 msgctxt "month-names-short-1"
 msgid "Jan"
 msgstr "一月"
@@ -853,9 +922,33 @@ msgstr ""
 "试用版\n"
 "请升级以删除水印"
 
+msgctxt "export:resolution-too-small"
+msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
+msgstr ""
+
 msgctxt "filename-copy-tag"
 msgid "copy"
 msgstr "拷贝"
+
+#, fuzzy
+msgctxt "entities:cannot_delete_image:in_use"
+msgid "Cannot delete image '{0}' because it is in use by '{1}'."
+msgstr "文档 '{}' 正在使用中，无法修改。"
+
+#, fuzzy
+msgctxt "entities:cannot_delete_folder:in_use"
+msgid "Cannot delete folder '{0}' because it is in use by '{1}'."
+msgstr "文档 '{}' 正在使用中，无法修改。"
+
+#, fuzzy
+msgctxt "entities:cannot_move_folder:into_itself"
+msgid "Cannot move folder '{}' into itself."
+msgstr "无法在服务器上重命名文档夹 '{}'"
+
+#, fuzzy
+msgctxt "entities:cannot_rename_image:in_use"
+msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
+msgstr "文档 '{}' 正在使用中，无法修改。"
 
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"

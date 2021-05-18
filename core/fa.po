@@ -486,7 +486,7 @@ msgid "Cannot list content of server folder '{}'"
 msgstr "نمی توان محتوای پوشه سرور '{}' را لیست کرد"
 
 #, fuzzy
-msgctxt "error:Cloud_CannotListFolderContent"
+msgctxt "error:Cloud_CannotListFolderContent-short"
 msgid "Cannot list content of server folder"
 msgstr "نمی توان محتوای پوشه سرور را لیست کرد"
 
@@ -752,6 +752,72 @@ msgctxt "labeltype:rectangle-side(rectangle)"
 msgid "Rectangle"
 msgstr "مستطیل"
 
+#, fuzzy
+msgctxt "dimformat:options-ui:min-imperial-fraction:title"
+msgid "Smallest fraction"
+msgstr "کوچکترین کسر از یک اینچ"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:title:long"
+msgid "Smallest fraction of an inch"
+msgstr "کوچکترین کسر از یک اینچ"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:no-fraction"
+msgid "No fractions"
+msgstr "غیرکسری"
+
+#, fuzzy
+msgctxt "dimformat:options-ui:min-imperial-fraction:n"
+msgid "Fractions down to 1/{}"
+msgstr "کسرها به 1/{} کوچک شوند"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:title"
+msgid "Textual imperial units"
+msgstr "واحدهای امپریال متنی"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:no"
+msgid "Show as '/\""
+msgstr "واحدهای امپریال نمایش داده می شوند به صورت '/\""
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
+msgid "Show as ft/in"
+msgstr "واحدهای امپریال به صورت ft/in نمایش داده خواهند شد"
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:title"
+msgid "Ambiguous numbers"
+msgstr "افزودن ابهامزدایی نقطه"
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:no"
+msgid "Keep"
+msgstr "خیر"
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
+msgid "Add dot if necessary"
+msgstr "بله، در صورت لزوم"
+
+msgctxt "dimformat:options-ui:show-units:title"
+msgid "Show units"
+msgstr "نمایش واحدها"
+
+msgctxt "dimformat:options-ui:show-units:no"
+msgid "Show only the value, omit the unit"
+msgstr "فقط نمایش مقدار ، حذف واحد"
+
+msgctxt "dimformat:options-ui:show-units:yes"
+msgid "Yes, show value and unit"
+msgstr "بله، نمایش مقدار و واحد"
+
+msgctxt "dimformat:options-ui:reduce-fractions:title"
+msgid "Reduce fractions"
+msgstr "ساده کردن کسرها"
+
+msgctxt "dimformat:options-ui:reduce-fractions:no"
+msgid "Keep (4/8 stays 4/8)"
+msgstr "کسرها ساده نخواهند شد (4/8 باقی می ماند 4/8)"
+
+msgctxt "dimformat:options-ui:reduce-fractions:yes"
+msgid "Reduce (4/8 becomes 1/2)"
+msgstr "کسرها ساده خواهند شد (4/8 می شود 1/2)"
+
 msgctxt "month-names-short-1"
 msgid "Jan"
 msgstr "ژانویه"
@@ -857,9 +923,33 @@ msgstr ""
 "کپی ارزیابی\n"
 "لطفاً برای حذف علامت Watermark ارتقاء دهید"
 
+msgctxt "export:resolution-too-small"
+msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
+msgstr ""
+
 msgctxt "filename-copy-tag"
 msgid "copy"
 msgstr "کپی"
+
+#, fuzzy
+msgctxt "entities:cannot_delete_image:in_use"
+msgid "Cannot delete image '{0}' because it is in use by '{1}'."
+msgstr "فایل '{}' قابل تغییر نیست زیرا هم اکنون در حال استفاده است."
+
+#, fuzzy
+msgctxt "entities:cannot_delete_folder:in_use"
+msgid "Cannot delete folder '{0}' because it is in use by '{1}'."
+msgstr "فایل '{}' قابل تغییر نیست زیرا هم اکنون در حال استفاده است."
+
+#, fuzzy
+msgctxt "entities:cannot_move_folder:into_itself"
+msgid "Cannot move folder '{}' into itself."
+msgstr "تغییرنام پوشه '{}' در سرور امکان پذیر نیست"
+
+#, fuzzy
+msgctxt "entities:cannot_rename_image:in_use"
+msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
+msgstr "فایل '{}' قابل تغییر نیست زیرا هم اکنون در حال استفاده است."
 
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
@@ -874,8 +964,8 @@ msgid ""
 "There is no reference in the image! You need to draw a reference in order to "
 "do automatic computations."
 msgstr ""
-"هیچ مرجعی در عکس وجود ندارد! شما نیاز به رسم یک مرجع جهت محاسبات اتوماتیک"
-" دارید."
+"هیچ مرجعی در عکس وجود ندارد! شما نیاز به رسم یک مرجع جهت محاسبات اتوماتیک "
+"دارید."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -889,16 +979,16 @@ msgctxt "editor:attach:hint_howto_attach_to_reference"
 msgid ""
 "Click on the measure you want to compute based on the selected reference."
 msgstr ""
-"بر روی اندازه گیری ای که می خواهید بر اساس مرجع انتخاب شده محاسبه گردد "
-"کلیک کنید."
+"بر روی اندازه گیری ای که می خواهید بر اساس مرجع انتخاب شده محاسبه گردد کلیک "
+"کنید."
 
 msgctxt "editor:attach:hint_howto_attach_measure"
 msgid ""
 "Click on the reference based on which you want to calculate the selected "
 "measure."
 msgstr ""
-"بر روی مرجع بر اساس آنچه که می خواهید اندازه گیری انتخابی را محاسبه "
-"نمایید کلیک کنید."
+"بر روی مرجع بر اساس آنچه که می خواهید اندازه گیری انتخابی را محاسبه نمایید "
+"کلیک کنید."
 
 msgctxt "templ:template-name:unnamed"
 msgid "New template"

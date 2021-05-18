@@ -474,9 +474,10 @@ msgctxt "error:Cloud_CannotListFolderContent"
 msgid "Cannot list content of server folder '{}'"
 msgstr ""
 
-msgctxt "error:Cloud_CannotListFolderContent"
+#, fuzzy
+msgctxt "error:Cloud_CannotListFolderContent-short"
 msgid "Cannot list content of server folder"
-msgstr ""
+msgstr "Δεν μπορεί να διαγραφεί ο φάκελος '{}'."
 
 msgctxt "error:Cloud_IsNotAFolder"
 msgid "File '{}' is not a folder."
@@ -736,6 +737,72 @@ msgctxt "labeltype:rectangle-side(rectangle)"
 msgid "Rectangle"
 msgstr ""
 
+#, fuzzy
+msgctxt "dimformat:options-ui:min-imperial-fraction:title"
+msgid "Smallest fraction"
+msgstr "Μικρότερο κλάσμα της ίντσας"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:title:long"
+msgid "Smallest fraction of an inch"
+msgstr "Μικρότερο κλάσμα της ίντσας"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:no-fraction"
+msgid "No fractions"
+msgstr "Χωρίς κλάσματα"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:n"
+msgid "Fractions down to 1/{}"
+msgstr "Κλάσμα μέχρι 1/{}"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:title"
+msgid "Textual imperial units"
+msgstr "Εμφάνιση βρετανικών μονάδων"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:no"
+msgid "Show as '/\""
+msgstr "Θα εμφανίζονται ως '/\""
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
+msgid "Show as ft/in"
+msgstr "Θα εμφανίζονται ως ft/in"
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:title"
+msgid "Ambiguous numbers"
+msgstr ""
+
+#, fuzzy
+msgctxt "dimformat:options-ui:ambiguous-numbers:no"
+msgid "Keep"
+msgstr "Κρατήστε και τις δύο"
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
+msgid "Add dot if necessary"
+msgstr ""
+
+msgctxt "dimformat:options-ui:show-units:title"
+msgid "Show units"
+msgstr "Εμφάνιση μονάδων"
+
+msgctxt "dimformat:options-ui:show-units:no"
+msgid "Show only the value, omit the unit"
+msgstr "Να εμφανίζονται μόνο τα αποτελέσματα"
+
+msgctxt "dimformat:options-ui:show-units:yes"
+msgid "Yes, show value and unit"
+msgstr "Να εμφανίζονται τα αποτελέσματα και οι μονάδες"
+
+msgctxt "dimformat:options-ui:reduce-fractions:title"
+msgid "Reduce fractions"
+msgstr "Απλοποίηση κλασμάτων"
+
+msgctxt "dimformat:options-ui:reduce-fractions:no"
+msgid "Keep (4/8 stays 4/8)"
+msgstr "Τα κλάσματα δεν θα απλοποιηθούν (το 4/8 μένει 4/8)"
+
+msgctxt "dimformat:options-ui:reduce-fractions:yes"
+msgid "Reduce (4/8 becomes 1/2)"
+msgstr "Τα κλάσματα θα απλοποιηθούν (το 4/8 γίνεται 1/2)"
+
 msgctxt "month-names-short-1"
 msgid "Jan"
 msgstr ""
@@ -841,8 +908,30 @@ msgstr ""
 "Αντίγραφο για αξιολόγηση\n"
 "Αναβαθμίστε για να καταργήσετε το υδατογράφημα"
 
+msgctxt "export:resolution-too-small"
+msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
+msgstr ""
+
 msgctxt "filename-copy-tag"
 msgid "copy"
+msgstr ""
+
+msgctxt "entities:cannot_delete_image:in_use"
+msgid "Cannot delete image '{0}' because it is in use by '{1}'."
+msgstr ""
+
+#, fuzzy
+msgctxt "entities:cannot_delete_folder:in_use"
+msgid "Cannot delete folder '{0}' because it is in use by '{1}'."
+msgstr "Δεν μπορεί να μετονομαστεί ο φάκελος '{0}' σε '{1}'."
+
+#, fuzzy
+msgctxt "entities:cannot_move_folder:into_itself"
+msgid "Cannot move folder '{}' into itself."
+msgstr "Δεν μπορεί να μετονομαστεί ο φάκελος '{0}' σε '{1}'."
+
+msgctxt "entities:cannot_rename_image:in_use"
+msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
 msgstr ""
 
 msgctxt "pdf-export:table-of-contents"
@@ -858,8 +947,8 @@ msgid ""
 "There is no reference in the image! You need to draw a reference in order to "
 "do automatic computations."
 msgstr ""
-"Δεν υπάρχει αναφορά! Σχεδιάστε μία, ώστε να μπορείτε να κάνετε αυτόματους"
-" υπολογισμούς."
+"Δεν υπάρχει αναφορά! Σχεδιάστε μία, ώστε να μπορείτε να κάνετε αυτόματους "
+"υπολογισμούς."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -881,8 +970,8 @@ msgid ""
 "Click on the reference based on which you want to calculate the selected "
 "measure."
 msgstr ""
-"Κάντε κλικ στην αναφορά βάση της οποίας θέλετε να υπολογιστεί η "
-"επιλεγμένη μέτρηση."
+"Κάντε κλικ στην αναφορά βάση της οποίας θέλετε να υπολογιστεί η επιλεγμένη "
+"μέτρηση."
 
 msgctxt "templ:template-name:unnamed"
 msgid "New template"

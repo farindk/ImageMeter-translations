@@ -490,7 +490,7 @@ msgid "Cannot list content of server folder '{}'"
 msgstr "Nie można wyświetlić zawartości folderu serwera „{}”"
 
 #, fuzzy
-msgctxt "error:Cloud_CannotListFolderContent"
+msgctxt "error:Cloud_CannotListFolderContent-short"
 msgid "Cannot list content of server folder"
 msgstr "Nie można wyświetlić zawartości folderu na serwerze"
 
@@ -757,6 +757,74 @@ msgctxt "labeltype:rectangle-side(rectangle)"
 msgid "Rectangle"
 msgstr "Prostokąt"
 
+#, fuzzy
+msgctxt "dimformat:options-ui:min-imperial-fraction:title"
+msgid "Smallest fraction"
+msgstr "Najmniejszy ułamek cala"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:title:long"
+msgid "Smallest fraction of an inch"
+msgstr "Najmniejszy ułamek cala"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:no-fraction"
+msgid "No fractions"
+msgstr "Bez ułamków"
+
+msgctxt "dimformat:options-ui:min-imperial-fraction:n"
+msgid "Fractions down to 1/{}"
+msgstr "Ułamki do 1/{}"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:title"
+msgid "Textual imperial units"
+msgstr "Tekstowe jednostki imperialne"
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:no"
+msgid "Show as '/\""
+msgstr "Jednostki imperialne będą wyświetlane jako '/\""
+
+msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
+msgid "Show as ft/in"
+msgstr "Jednostki imperialne będą wyświetlane jako ft/in"
+
+#, fuzzy
+msgctxt "dimformat:options-ui:ambiguous-numbers:title"
+msgid "Ambiguous numbers"
+msgstr "Dodaj kropkę uściślającą"
+
+#, fuzzy
+msgctxt "dimformat:options-ui:ambiguous-numbers:no"
+msgid "Keep"
+msgstr "Nie"
+
+#, fuzzy
+msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
+msgid "Add dot if necessary"
+msgstr "Tak, gdy wymagana"
+
+msgctxt "dimformat:options-ui:show-units:title"
+msgid "Show units"
+msgstr "Pokaż jednostki"
+
+msgctxt "dimformat:options-ui:show-units:no"
+msgid "Show only the value, omit the unit"
+msgstr "Wyświetl wyłącznie wartość pomijając jednostkę"
+
+msgctxt "dimformat:options-ui:show-units:yes"
+msgid "Yes, show value and unit"
+msgstr "Tak, pokaż wartość i jednostkę"
+
+msgctxt "dimformat:options-ui:reduce-fractions:title"
+msgid "Reduce fractions"
+msgstr "Zmniejsz ułamki"
+
+msgctxt "dimformat:options-ui:reduce-fractions:no"
+msgid "Keep (4/8 stays 4/8)"
+msgstr "Ułamki nie zostaną zmniejszone (4/8 zostanie 4/8)"
+
+msgctxt "dimformat:options-ui:reduce-fractions:yes"
+msgid "Reduce (4/8 becomes 1/2)"
+msgstr "Ułamki zostaną zmniejszone (4/8 stanie się 1/2)"
+
 msgctxt "month-names-short-1"
 msgid "Jan"
 msgstr "Sty"
@@ -861,9 +929,33 @@ msgstr ""
 "Kopia próbna\n"
 "Uaktualnij, aby usunąć znak wodny"
 
+msgctxt "export:resolution-too-small"
+msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
+msgstr ""
+
 msgctxt "filename-copy-tag"
 msgid "copy"
 msgstr "Kopiuj"
+
+#, fuzzy
+msgctxt "entities:cannot_delete_image:in_use"
+msgid "Cannot delete image '{0}' because it is in use by '{1}'."
+msgstr "Nie można zmodyfikować pliku „{}”, ponieważ jest on aktualnie używany."
+
+#, fuzzy
+msgctxt "entities:cannot_delete_folder:in_use"
+msgid "Cannot delete folder '{0}' because it is in use by '{1}'."
+msgstr "Nie można zmodyfikować pliku „{}”, ponieważ jest on aktualnie używany."
+
+#, fuzzy
+msgctxt "entities:cannot_move_folder:into_itself"
+msgid "Cannot move folder '{}' into itself."
+msgstr "Nie można zmienić nazwy folderu „{}” na serwerze"
+
+#, fuzzy
+msgctxt "entities:cannot_rename_image:in_use"
+msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
+msgstr "Nie można zmodyfikować pliku „{}”, ponieważ jest on aktualnie używany."
 
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
@@ -878,8 +970,8 @@ msgid ""
 "There is no reference in the image! You need to draw a reference in order to "
 "do automatic computations."
 msgstr ""
-"W obrazie nie ma siatki odniesienia! Musisz narysować siatkę odniesienia,"
-" aby wykonać automatyczne obliczenia."
+"W obrazie nie ma siatki odniesienia! Musisz narysować siatkę odniesienia, "
+"aby wykonać automatyczne obliczenia."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -893,8 +985,8 @@ msgctxt "editor:attach:hint_howto_attach_to_reference"
 msgid ""
 "Click on the measure you want to compute based on the selected reference."
 msgstr ""
-"Kliknij miarę, którą chcesz obliczyć na podstawie wybranego punktu siatki"
-" odniesienia."
+"Kliknij miarę, którą chcesz obliczyć na podstawie wybranego punktu siatki "
+"odniesienia."
 
 msgctxt "editor:attach:hint_howto_attach_measure"
 msgid ""
