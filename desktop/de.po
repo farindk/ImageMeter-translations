@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2021-05-26 13:17+0200\n"
+"PO-Revision-Date: 2021-05-26 14:23+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -594,6 +594,84 @@ msgstr "Datenverzeichnis"
 msgctxt "pc:prefs:server-params:webdav:check-login"
 msgid "Check login"
 msgstr "Login prüfen"
+
+msgctxt "pc:sync:progress-dialog:title"
+msgid "Cloud sync in progress"
+msgstr "Cloud-Sync wird ausgeführt"
+
+msgctxt "pc:sync:progress-dialog:sync-task:title"
+msgid "Synchronization task"
+msgstr "Bearbeitungsschritt"
+
+msgctxt "pc:sync:progress-dialog:progress:title"
+msgid "Progress"
+msgstr "Fortschritt"
+
+msgctxt "pc:sync:progress-dialog:current-action:title"
+msgid "Current action"
+msgstr "Aktuelle Aktion"
+
+msgctxt "pc:sync:progress-dialog:cancel-sync"
+msgid "Cancel sync"
+msgstr "Sync abbrechen"
+
+msgctxt "pc:sync:progress-dialog:close-button"
+msgid "Close"
+msgstr "Schließen"
+
+msgctxt "pc:sync:progress-dialog:warning:wait-until-finished"
+msgid ""
+"Synchronization is still in progress. Please wait until it has been stopped."
+msgstr "Synchronisation ist aktiv. Bitte warten Sie bis sie angehalten wurde."
+
+msgctxt "pc:sync:progress:action:scanning-server"
+msgid "Scanning server..."
+msgstr "Durchsuche den Server..."
+
+msgctxt "pc:sync:progress:action:scanning-server:status"
+msgid "{0} images found, {1} folders found, {2} errors. {3} items left."
+msgstr ""
+"{0} Bilder gefunden, {1} Ordner gefunden, {2} Fehler. {3} Elemente übrig."
+
+msgctxt "pc:sync:progress:action:sync:push-new"
+msgid "Uploading {}"
+msgstr "Lade hoch: {}"
+
+msgctxt "pc:sync:progress:action:sync:push-update"
+msgid "Uploading changes for {}"
+msgstr "Lade Änderungen hoch: {}"
+
+msgctxt "pc:sync:progress:action:sync:pull-new"
+msgid "Downloading {}"
+msgstr "Lade runter: {}"
+
+msgctxt "pc:sync:progress:action:sync:pull-update"
+msgid "Downloading changes for {}"
+msgstr "Lade Änderungen runter: {}"
+
+msgctxt "pc:sync:progress:action:sync:delete-local"
+msgid "Delete local {}"
+msgstr "Lösche lokal: {}"
+
+msgctxt "pc:sync:progress:action:sync:delete-remote"
+msgid "Delete remote {}"
+msgstr "Lösche auf Server: {}"
+
+msgctxt "pc:sync:progress:action:sync:status"
+msgid "{0} items synced ({1} errors), {2} items left."
+msgstr "{0} Elemente synchronisiert ({1} Fehler), {2} Elemente übrig."
+
+msgctxt "pc:sync:progress:action:checking-for-server-updates"
+msgid "Checking server for updates..."
+msgstr "Frage den Server nach Updates..."
+
+msgctxt "pc:sync:progress:action:cleaning-up-server"
+msgid "Cleaning up server..."
+msgstr "Räume den Server auf..."
+
+msgctxt "pc:sync:progress:action:finished"
+msgid "Finished"
+msgstr "Fertig"
 
 #~ msgctxt "pc:value-entry:unit:imperial-format"
 #~ msgid "Imperial format"
