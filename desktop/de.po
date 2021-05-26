@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2021-05-24 21:21+0200\n"
+"PO-Revision-Date: 2021-05-26 13:17+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -217,7 +217,7 @@ msgstr ""
 
 msgctxt "pc:value-entry:dialog:title"
 msgid "Enter the dimension value"
-msgstr ""
+msgstr "Bemaßung eingeben"
 
 msgctxt "pc:value-entry:tab:value"
 msgid "Value"
@@ -392,7 +392,7 @@ msgstr "Upgrade-Webseite öffnen"
 
 msgctxt "pc:prefs:dialog:title"
 msgid "Preferences"
-msgstr ""
+msgstr "Einstellungen"
 
 msgctxt "pc:prefs:sections:title"
 msgid "Section"
@@ -472,7 +472,128 @@ msgstr "Vorlagen und Datentabellen"
 
 msgctxt "pc:prefs:editor:styling:default-values-for-new-images"
 msgid "Default values for new images"
+msgstr "Standardwerte für neue Bilder"
+
+msgctxt "pc:prefs:initial-texts:new-image:group-title"
+msgid "New image"
+msgstr "Neues Bild"
+
+msgctxt "pc:prefs:initial-texts:new-canvas:group-title"
+msgid "New canvas"
+msgstr "Neue Zeichenfläche"
+
+msgctxt "pc:prefs:initial-texts:new-folder:group-title"
+msgid "New folder"
+msgstr "Neuer Ordner"
+
+msgctxt "pc:prefs:initial-texts:general:title"
+msgid "Title"
+msgstr "Titel"
+
+msgctxt "pc:prefs:initial-texts:general:notes"
+msgid "Notes"
+msgstr "Notizen"
+
+msgctxt "pc:prefs:initial-texts:general:info-button"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "pc:prefs:library:root-directory"
+msgid "Image library directory"
+msgstr "Verzeichnis der Bild-Bibliothek"
+
+msgctxt "pc:prefs:library:root-directory:set-button"
+msgid "Set"
+msgstr "Setzen"
+
+msgctxt "pc:prefs:library:purge-interval"
+msgid "Keep deleted images"
+msgstr "Gelöschte Bilder behalten"
+
+msgctxt "pc:prefs:library:purge-interval:dont-keep"
+msgid "Delete immediately"
+msgstr "sofort löschen"
+
+msgctxt "pc:prefs:library:purge-interval:one-hour"
+msgid "Keep for one hour"
+msgstr "für eine Stunde"
+
+msgctxt "pc:prefs:library:purge-interval:one-day"
+msgid "Keep for one day"
+msgstr "für einen Tag"
+
+msgctxt "pc:prefs:library:purge-interval:one-week"
+msgid "Keep for one week"
+msgstr "für eine Woche"
+
+msgctxt "pc:prefs:library:purge-interval:one-month"
+msgid "Keep for one month"
+msgstr "für einen Monat"
+
+msgctxt "pc:prefs:library:purge-interval:one-year"
+msgid "Keep for one year"
+msgstr "für ein Jahr"
+
+msgctxt "pc:prefs:library:purge-interval:forever"
+msgid "Keep forever"
+msgstr "für immer"
+
+msgctxt "pc:prefs:library:purge-now-button"
+msgid "Purge images in trashcan now!"
+msgstr "Bilder im Mülleimer jetzt löschen!"
+
+msgctxt "pc:prefs:sync:enable-sync-config"
+msgid "Enable"
+msgstr "Aktiviert"
+
+msgctxt "pc:prefs:server-params:group-title"
+msgid "Cloud server"
+msgstr "Cloud-Server"
+
+msgctxt "pc:prefs:sync-options:group-title"
+msgid "Sync options"
+msgstr "Synchronisierungs-Optionen"
+
+msgctxt "pc:prefs:sync-options:two-way:delete-remotely-when-deleted-locally"
+msgid "Delete files on server when deleted locally"
+msgstr "Dateien auf dem Server löschen, wenn sie lokal gelöscht wurden"
+
+msgctxt "pc:prefs:sync-options:two-way:delete-locally-when-deleted-remotely"
+msgid "Delete files locally when deleted on server"
+msgstr "Dateien lokal löschen, wenn sie auf dem Server gelöscht wurden"
+
+msgctxt "pc:prefs:sync-options:two-way:sync-when-edit-conflict"
+msgid "Sync changes even when there is an edit conflict"
 msgstr ""
+"Änderungen auch dann synchronisieren, wenn es einen Bearbeitungskonflikt gibt"
+
+msgctxt "pc:prefs:server-params:filesystem:data-directory"
+msgid "Data directory"
+msgstr "Datenverzeichnis"
+
+msgctxt "pc:prefs:server-params:filesystem:data-directory:set"
+msgid "Set"
+msgstr "Setzen"
+
+msgctxt "pc:prefs:server-params:webdav:server-url"
+msgid "WebDAV URL"
+msgstr "WebDAV URL"
+
+msgctxt "pc:prefs:server-params:webdav:username"
+msgid "Username"
+msgstr "Benutzername"
+
+msgctxt "pc:prefs:server-params:webdav:password"
+msgid "Password"
+msgstr "Passwort"
+
+msgctxt "pc:prefs:server-params:webdav:data-directory"
+msgid "Data directory"
+msgstr "Datenverzeichnis"
+
+msgctxt "pc:prefs:server-params:webdav:check-login"
+msgid "Check login"
+msgstr "Login prüfen"
 
 #~ msgctxt "pc:value-entry:unit:imperial-format"
 #~ msgid "Imperial format"

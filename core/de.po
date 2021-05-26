@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2021-05-24 20:29+0200\n"
+"PO-Revision-Date: 2021-05-26 13:12+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -960,31 +960,19 @@ msgstr "Blocksatz"
 
 msgctxt "ui:list:add-entry"
 msgid "Add"
-msgstr ""
+msgstr "Hinzufügen"
 
 msgctxt "ui:list:remove-entry"
 msgid "Remove"
-msgstr ""
+msgstr "Entfernen"
 
 msgctxt "ui:list:move-entry-up"
 msgid "Up"
-msgstr ""
+msgstr "Hoch"
 
 msgctxt "ui:list:move-entry-down"
 msgid "Down"
-msgstr ""
-
-msgctxt "rendering:watermark"
-msgid ""
-"Evaluation copy\n"
-"Please upgrade to remove watermark"
-msgstr ""
-"Testversion\n"
-"Bitte upgraden um das Wasserzeichen zu entfernen"
-
-msgctxt "export:resolution-too-small"
-msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
-msgstr "Ausgabeauflösung ist zu klein. Das Minimum ist {0}x{1} Pixel."
+msgstr "Runter"
 
 msgctxt "filename-copy-tag"
 msgid "copy"
@@ -1007,6 +995,58 @@ msgctxt "entities:cannot_rename_image:in_use"
 msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
 msgstr ""
 "Kann das Bild '{0}' nicht umbenennen, da es momentan von '{1}' benutzt wird."
+
+msgctxt "rendering:watermark"
+msgid ""
+"Evaluation copy\n"
+"Please upgrade to remove watermark"
+msgstr ""
+"Testversion\n"
+"Bitte upgraden um das Wasserzeichen zu entfernen"
+
+msgctxt "export:resolution-too-small"
+msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
+msgstr "Ausgabeauflösung ist zu klein. Das Minimum ist {0}x{1} Pixel."
+
+msgctxt "image-export:size:group-title"
+msgid "Image size"
+msgstr "Bildgröße"
+
+msgctxt "image-export:size:suggested-size"
+msgid "Suggested size"
+msgstr "Empfohlene Größe"
+
+msgctxt "image-export:size:original-size"
+msgid "Original image size"
+msgstr "Größe wie das Originalbild"
+
+msgctxt "image-export:size:custom-size"
+msgid "Custom size"
+msgstr "Eigene Größe"
+
+msgctxt "image-export:format:group-title"
+msgid "Image format"
+msgstr "Bildformat"
+
+msgctxt "image-export:format:file-format"
+msgid "File format"
+msgstr "Dateiformat"
+
+msgctxt "image-export:format:jpeg-quality"
+msgid "Image quality"
+msgstr "Bildqualität"
+
+msgctxt "image-export:overlays:group-title"
+msgid "Overlays"
+msgstr "Zusatzinformationen"
+
+msgctxt "image-export:overlays:show-text"
+msgid "Show text overlay"
+msgstr "Text anzeigen"
+
+msgctxt "image-export:overlays:text"
+msgid "Text"
+msgstr "Text"
 
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
@@ -1477,24 +1517,25 @@ msgstr "Rasterlänge"
 
 msgctxt "prefs:editor:snapping:distance-step-size:hint"
 msgid "1 ft"
-msgstr ""
+msgstr "1 cm"
 
 msgctxt "prefs:editor:snapping:distance-step-size:tooltip"
 msgid "Snap to multiples of this distance (only for rectangles and distance)."
 msgstr ""
+"Auf Vielfaches dieser Länge einrasten (nur für Rechtecke und Längenmaße)."
 
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
 msgid ""
 "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
 "rectangle sides will be restricted to steps of this size."
 msgstr ""
-"Geben Sie eine Distanz ein (z.B. 10cm, 1ft, oder 1'). Die gezeichneten "
-"Maße und Rechteckseiten werden daraufhin auf ganze Vielfache dieser "
-"Strecke beschränkt."
+"Geben Sie eine Distanz ein (z.B. 10cm, 1ft, oder 1'). Die gezeichneten Maße "
+"und Rechteckseiten werden daraufhin auf ganze Vielfache dieser Strecke "
+"beschränkt."
 
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
 msgid "Freehand"
-msgstr ""
+msgstr "Freihand zeichnen"
 
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay"
 msgid "End freehand drawing delay"
@@ -1518,11 +1559,27 @@ msgstr "Nach langer Verzögerung"
 
 msgctxt "prefs:editor:drawing-tools:textbox:group-title"
 msgid "Text note"
-msgstr ""
+msgstr "Textnotiz"
 
 msgctxt "prefs:editor:drawing-tools:textbox:preset-texts:title"
 msgid "Preset texts"
 msgstr "Vordefinierte Texte"
+
+msgctxt "prefs:ui:editor:anti-aliasing"
+msgid "Anti-aliasing in editor"
+msgstr "Kantenglättung im Editor"
+
+msgctxt "prefs:ui:editor:anti-aliasing:off"
+msgid "Off"
+msgstr "Keine"
+
+msgctxt "prefs:ui:language"
+msgid "Language"
+msgstr "Sprache"
+
+msgctxt "prefs:ui:language:automatic"
+msgid "Automatic"
+msgstr "Automatisch"
 
 msgctxt "templ:template-name:unnamed"
 msgid "New template"
@@ -2342,4 +2399,3 @@ msgstr "Wurzelverzeichnis der Bildbibliothek setzen"
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr "Datei wiederherstellen"
-
