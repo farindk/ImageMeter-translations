@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2021-05-26 13:12+0200\n"
+"PO-Revision-Date: 2021-06-02 22:37+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -996,6 +996,50 @@ msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
 msgstr ""
 "Kann das Bild '{0}' nicht umbenennen, da es momentan von '{1}' benutzt wird."
 
+msgctxt "imagebundle-settings:dialog-title"
+msgid "Image settings"
+msgstr "Bildeinstellungen"
+
+msgctxt "imagebundle-settings:image-title"
+msgid "Image name"
+msgstr "Bildname"
+
+msgctxt "imagebundle-settings:image-number"
+msgid "Number"
+msgstr "Nummer"
+
+msgctxt "imagebundle-settings:template"
+msgid "Data scheme"
+msgstr "Datenvorlage"
+
+msgctxt "imagebundle-settings:image-notes"
+msgid "Image notes"
+msgstr "Notizen"
+
+msgctxt "folder-settings:dialog-title"
+msgid "Folder settings"
+msgstr "Ordnereinstellungen"
+
+msgctxt "folder-settings:folder-title"
+msgid "Folder name"
+msgstr "Ordnername"
+
+msgctxt "folder-settings:template"
+msgid "Data scheme"
+msgstr "Datenvorlage"
+
+msgctxt "folder-settings:folder-color"
+msgid "Folder color"
+msgstr "Ordnerfarbe"
+
+msgctxt "folder-settings:folder-notes"
+msgid "Folder notes"
+msgstr "Notizen"
+
+msgctxt "access-control:users-with-access:list-title"
+msgid "Users with access"
+msgstr "Benutzer mit Zugriff"
+
 msgctxt "rendering:watermark"
 msgid ""
 "Evaluation copy\n"
@@ -1047,6 +1091,10 @@ msgstr "Text anzeigen"
 msgctxt "image-export:overlays:text"
 msgid "Text"
 msgstr "Text"
+
+msgctxt "image-export:filename-expression"
+msgid "{image.title}"
+msgstr "{image.title}"
 
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
@@ -1580,6 +1628,14 @@ msgstr "Sprache"
 msgctxt "prefs:ui:language:automatic"
 msgid "Automatic"
 msgstr "Automatisch"
+
+msgctxt "prefs:company:user-id"
+msgid "User ID"
+msgstr "Kennung"
+
+msgctxt "prefs:company:user-full-name"
+msgid "Full name"
+msgstr "Voller Name"
 
 msgctxt "templ:template-name:unnamed"
 msgid "New template"
@@ -2151,6 +2207,22 @@ msgstr "Zahl"
 msgctxt "scriptobject:integer:type"
 msgid "integer number"
 msgstr "ganze Zahl"
+
+msgctxt "scriptobject:integer:description"
+msgid "An integer number"
+msgstr "Eine ganze Zahl"
+
+msgctxt "scriptobject:integer:member:2"
+msgid "Format as 2-digit number"
+msgstr "Als 2-stellige Zahl formatieren"
+
+msgctxt "scriptobject:integer:member:3"
+msgid "Format as 3-digit number"
+msgstr "Als 3-stellige Zahl formatieren"
+
+msgctxt "scriptobject:integer:member:4"
+msgid "Format as 4-digit number"
+msgstr "Als 4-stellige Zahl formatieren"
 
 msgctxt "scriptobject:keyvaluepairs:type"
 msgid "collection"
