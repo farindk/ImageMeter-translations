@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-26 13:34+0200\n"
+"POT-Creation-Date: 2021-06-03 22:07+0200\n"
 "PO-Revision-Date: 2020-06-11 20:22+0200\n"
 "Last-Translator: \n"
 "Language: el\n"
@@ -740,8 +740,8 @@ msgid "Show migration instructions"
 msgstr ""
 
 #. licensing: volume key dialog
-msgctxt "licensing_volume_key_title"
-msgid "Volume key"
+msgctxt "licensing_company_key_title"
+msgid "Company configuration key"
 msgstr ""
 
 msgctxt "licensing_volume_key_note"
@@ -750,24 +750,24 @@ msgid ""
 "Google Play store."
 msgstr ""
 
-msgctxt "licensing_volume_key_description"
-msgid "Please enter your volume key:"
+msgctxt "licensing_company_key_description"
+msgid "Please enter your company key:"
 msgstr ""
 
 msgctxt "licensing_volume_key_send_button"
 msgid "Send"
 msgstr ""
 
-msgctxt "licensing_volume_key_error_parse_server_response"
+msgctxt "licensing_company_key_error_parse_server_response"
 msgid "Error parsing server response."
 msgstr ""
 
-msgctxt "licensing_volume_key_error_invalid_license_code"
-msgid "Invalid license code."
+msgctxt "licensing_company_key_error_invalid_license_code"
+msgid "Invalid key."
 msgstr ""
 
-msgctxt "licensing_volume_key_success"
-msgid "License activated"
+msgctxt "licensing_company_key_success"
+msgid "Key activated"
 msgstr ""
 
 #. in-app payment
@@ -1315,6 +1315,10 @@ msgstr "Αποθήκευση"
 
 msgctxt "pref_category_templates"
 msgid "Templates and data tables"
+msgstr ""
+
+msgctxt "pref_category_company"
+msgid "Company"
 msgstr ""
 
 msgctxt "pref_category_information"
@@ -2034,6 +2038,17 @@ msgstr ""
 msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
 msgstr "Ανενεργή (χαμηλότερη ποιότητα εικόνας)"
+
+msgctxt "pref_export_image_filename_expression"
+msgid "Expression for output filename"
+msgstr ""
+
+msgctxt "pref_export_image_filename_expression_message"
+msgid ""
+"Please see the documentation at "
+"\"https://imagemeter.com/manual/workflow/variables\" to learn more about "
+"writing string expressions with variables."
+msgstr ""
 
 #. ZIP
 msgctxt "pref_category_export_zip"
@@ -3307,6 +3322,23 @@ msgstr ""
 
 msgctxt "pref_information_translator"
 msgid "."
+msgstr ""
+
+#. Preferences: Company
+msgctxt "pref_company_enter_config_key"
+msgid "Enter company key"
+msgstr ""
+
+msgctxt "pref_company_enter_config_key_summary_set"
+msgid "Key set"
+msgstr ""
+
+msgctxt "pref_company_enter_config_key_summary_unset"
+msgid "Not set"
+msgstr ""
+
+msgctxt "pref_company_user_id"
+msgid "User ID"
 msgstr ""
 
 #. ===== cloud synchronization =====

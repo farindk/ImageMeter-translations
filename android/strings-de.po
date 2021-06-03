@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-26 13:34+0200\n"
-"PO-Revision-Date: 2021-05-04 18:10+0200\n"
+"POT-Creation-Date: 2021-06-03 22:07+0200\n"
+"PO-Revision-Date: 2021-06-03 22:05+0200\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -501,7 +501,7 @@ msgstr "Paket ist aktiv"
 
 msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable_playStore"
 msgid "PlayStore unavailable"
-msgstr ""
+msgstr "PlayStore ist nicht erreichbar"
 
 msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable_appGallery"
 msgid "AppGallery unavailable"
@@ -760,9 +760,9 @@ msgid "Show migration instructions"
 msgstr "Anleitung zur Migration anzeigen"
 
 #. licensing: volume key dialog
-msgctxt "licensing_volume_key_title"
-msgid "Volume key"
-msgstr "Volumencode"
+msgctxt "licensing_company_key_title"
+msgid "Company configuration key"
+msgstr "Firmen-Konfigurationscode"
 
 msgctxt "licensing_volume_key_note"
 msgid ""
@@ -772,25 +772,25 @@ msgstr ""
 "Hinweis: Sie brauchen keinen Code einzugeben, wenn Sie das Upgrade durch "
 "den Google Play Store erworben haben."
 
-msgctxt "licensing_volume_key_description"
-msgid "Please enter your volume key:"
-msgstr "Bitte geben Sie Ihren Volumencode ein:"
+msgctxt "licensing_company_key_description"
+msgid "Please enter your company key:"
+msgstr "Bitte geben Sie den Firmencode ein:"
 
 msgctxt "licensing_volume_key_send_button"
 msgid "Send"
 msgstr "Aktivieren"
 
-msgctxt "licensing_volume_key_error_parse_server_response"
+msgctxt "licensing_company_key_error_parse_server_response"
 msgid "Error parsing server response."
-msgstr "Kann Serverantwort nicht interpretieren."
+msgstr "Fehler beim Lesen der Serverantwort."
 
-msgctxt "licensing_volume_key_error_invalid_license_code"
-msgid "Invalid license code."
-msgstr "Ungültiger Lizenzcode."
+msgctxt "licensing_company_key_error_invalid_license_code"
+msgid "Invalid key."
+msgstr "Ungültiger Code."
 
-msgctxt "licensing_volume_key_success"
-msgid "License activated"
-msgstr "Lizenz aktiviert"
+msgctxt "licensing_company_key_success"
+msgid "Key activated"
+msgstr "Code wurde aktiviert."
 
 #. in-app payment
 msgctxt "inapp_error_billing_unavailable"
@@ -799,7 +799,7 @@ msgstr "Bezahlfunktion ist nicht vorhanden."
 
 msgctxt "inapp_error_feature_not_supported"
 msgid "Feature is not supported."
-msgstr ""
+msgstr "Funktion wird nicht unterstützt."
 
 msgctxt "inapp_error_item_already_owned"
 msgid "Item is already owned."
@@ -869,15 +869,15 @@ msgstr "Zusatzpaket ohne Basic-Upgrade"
 
 msgctxt "upgrade_licenseName_freeEvaluation"
 msgid "Free Evaluation"
-msgstr ""
+msgstr "Kostenlose Testversion"
 
 msgctxt "upgrade_licenseName_business"
 msgid "Business"
-msgstr ""
+msgstr "Business"
 
 msgctxt "upgrade_licenseName_pro"
 msgid "Pro"
-msgstr ""
+msgstr "Pro"
 
 msgctxt "license_source_pro_key_app"
 msgid "Pro-key app"
@@ -1368,6 +1368,10 @@ msgstr "Speicherverwaltung"
 msgctxt "pref_category_templates"
 msgid "Templates and data tables"
 msgstr "Vorlagen und Datentabellen"
+
+msgctxt "pref_category_company"
+msgid "Company"
+msgstr "Firma"
 
 msgctxt "pref_category_information"
 msgid "Information"
@@ -2086,6 +2090,20 @@ msgstr "Aktiv (einige fehlerhafte GPUs zeigen evtl. nur ein schwarzes Bild)"
 msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
 msgstr "Inaktiv (reduzierte Ausgabequalität)"
+
+msgctxt "pref_export_image_filename_expression"
+msgid "Expression for output filename"
+msgstr "Ausdruck für Ausgabe-Dateiname"
+
+msgctxt "pref_export_image_filename_expression_message"
+msgid ""
+"Please see the documentation at "
+"\"https://imagemeter.com/manual/workflow/variables\" to learn more about "
+"writing string expressions with variables."
+msgstr ""
+"Bitte schauen Sie in der Dokumentation unter "
+"\"https://imagemeter.com/de/manual/workflow/variables\" nach, wie man "
+"Variablen in Textausdrücken verwendet."
 
 #. ZIP
 msgctxt "pref_category_export_zip"
@@ -3451,6 +3469,23 @@ msgctxt "pref_information_translator"
 msgid "."
 msgstr "."
 
+#. Preferences: Company
+msgctxt "pref_company_enter_config_key"
+msgid "Enter company key"
+msgstr "Firmen-Konfigurationcode eingeben"
+
+msgctxt "pref_company_enter_config_key_summary_set"
+msgid "Key set"
+msgstr "Code aktiviert"
+
+msgctxt "pref_company_enter_config_key_summary_unset"
+msgid "Not set"
+msgstr "Kein Code gesetzt"
+
+msgctxt "pref_company_user_id"
+msgid "User ID"
+msgstr "Benutzerkennung"
+
 #. ===== cloud synchronization =====
 msgctxt "cloud_storage_dialog_sync_action_title"
 msgid "Synchronizing directory"
@@ -3634,11 +3669,11 @@ msgstr "Serversperre wurde erfolgreich entfernt."
 
 msgctxt "cloud_storage_maintenance_remove_server_lock_error_no_lock"
 msgid "There was no server lock."
-msgstr ""
+msgstr "Es gab keine Serversperre."
 
 msgctxt "cloud_storage_maintenance_remove_server_lock_error"
 msgid "Could not remove server lock file '{}'."
-msgstr ""
+msgstr "Konnte die Serversperren-Datei '{}' nicht entfernen."
 
 msgctxt "cloud_storage_maintenance_reset_server_cache_notification_progress_text"
 msgid "Resetting cloud server cache…"
@@ -3654,7 +3689,7 @@ msgstr "Servercache wurde erfolgreich zurückgesetzt."
 
 msgctxt "cloud_storage_maintenance_reset_server_cache_error"
 msgid "Could not remove server cache file '{}'."
-msgstr ""
+msgstr "Konnte die Servercache-Datei '{}' nicht entfernen."
 
 msgctxt "cloud_storage_maintenance_reset_sync_state_notification_progress_text"
 msgid "Resetting sync state…"
@@ -3670,7 +3705,7 @@ msgstr "Sync-State wurde erfolgreich zurückgesetzt."
 
 msgctxt "cloud_storage_maintenance_reset_sync_state_error"
 msgid "Could not reset sync state."
-msgstr ""
+msgstr "Konnte den Sync-State nicht zurücksetzen."
 
 #. === editor ===
 #. add
@@ -4288,19 +4323,19 @@ msgstr "Kreditkarte"
 #. still needed for string-array name="templ_custom_labeltype"
 msgctxt "templ_labeltype_length"
 msgid "Length"
-msgstr ""
+msgstr "Länge"
 
 msgctxt "templ_labeltype_area"
 msgid "Area"
-msgstr ""
+msgstr "Fläche"
 
 msgctxt "templ_labeltype_angle"
 msgid "Angle"
-msgstr ""
+msgstr "Winkel"
 
 msgctxt "templ_labeltype_any"
 msgid "Any"
-msgstr ""
+msgstr "Alle"
 
 msgctxt "stringscript_help_dialog_title"
 msgid "Brief Scripting Manual"
@@ -4627,27 +4662,27 @@ msgstr ""
 #, c-format
 msgctxt "bluetooth_error_cannot_set_value"
 msgid "Cannot set received Bluetooth value: %1$s."
-msgstr ""
+msgstr "Kann den empfangenen Bluetoothwert '%1$s' nicht setzen."
 
 msgctxt "bluetooth_error_cannot_set_value_no_active_element"
 msgid "no active element"
-msgstr ""
+msgstr "kein aktives Element"
 
 msgctxt "bluetooth_error_cannot_set_value_element_has_no_dimension"
 msgid "element does not support measurements"
-msgstr ""
+msgstr "Element unterstützt keine Maße"
 
 msgctxt "bluetooth_error_cannot_set_value_dimension_is_read_only"
 msgid "element value is read-only"
-msgstr ""
+msgstr "Element kann nur gelesen werden"
 
 msgctxt "bluetooth_error_cannot_set_value_wrong_dimension_unit"
 msgid "wrong measurement unit"
-msgstr ""
+msgstr "falsche Maßeinheit"
 
 msgctxt "bluetooth_error_cannot_set_value_element_is_locked"
 msgid "element is locked"
-msgstr ""
+msgstr "Element ist gesperrt"
 
 msgctxt "bluetooth_pref_button_start_bluetooth_scan"
 msgid "Start Bluetooth device scan"
@@ -4976,12 +5011,12 @@ msgstr ""
 #, c-format
 msgctxt "error_cloud_cannot_download_file_download_error"
 msgid "Cannot download file '%1$s' from server."
-msgstr ""
+msgstr "Kann die Datei '%1$s' nicht vom Server laden."
 
 #, c-format
 msgctxt "error_cloud_cannot_download_file_local_write_error"
 msgid "Cannot write downloaded file '%1$s' to device."
-msgstr ""
+msgstr "Kann die heruntergeladene Datei '%1$s' nicht auf dem Gerät speichern."
 
 #, c-format
 msgctxt "error_cloud_cannot_get_remote_metadata"

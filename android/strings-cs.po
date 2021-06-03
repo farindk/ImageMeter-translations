@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-26 13:34+0200\n"
+"POT-Creation-Date: 2021-06-03 22:07+0200\n"
 "PO-Revision-Date: 2020-08-31 17:28+0200\n"
 "Last-Translator: \n"
 "Language: cs\n"
@@ -838,9 +838,9 @@ msgid "Show migration instructions"
 msgstr "Zobrazit pokyny k migraci"
 
 #. licensing: volume key dialog
-msgctxt "licensing_volume_key_title"
-msgid "Volume key"
-msgstr "Tlačítko hlasitosti"
+msgctxt "licensing_company_key_title"
+msgid "Company configuration key"
+msgstr ""
 
 #, fuzzy
 msgctxt "licensing_volume_key_note"
@@ -849,30 +849,26 @@ msgid ""
 "Google Play store."
 msgstr "Poznámka: Při nákupu v obchodě Google Play nemusíte zadávat žádný klíč."
 
-#, fuzzy
-msgctxt "licensing_volume_key_description"
-msgid "Please enter your volume key:"
-msgstr "Zadejte klíč hlasitosti:"
+msgctxt "licensing_company_key_description"
+msgid "Please enter your company key:"
+msgstr ""
 
 #, fuzzy
 msgctxt "licensing_volume_key_send_button"
 msgid "Send"
 msgstr "Poslat"
 
-#, fuzzy
-msgctxt "licensing_volume_key_error_parse_server_response"
+msgctxt "licensing_company_key_error_parse_server_response"
 msgid "Error parsing server response."
-msgstr "Chyba při analýze odpovědi serveru."
+msgstr ""
 
-#, fuzzy
-msgctxt "licensing_volume_key_error_invalid_license_code"
-msgid "Invalid license code."
-msgstr "Neplatný licenční kód."
+msgctxt "licensing_company_key_error_invalid_license_code"
+msgid "Invalid key."
+msgstr ""
 
-#, fuzzy
-msgctxt "licensing_volume_key_success"
-msgid "License activated"
-msgstr "Licence aktivována"
+msgctxt "licensing_company_key_success"
+msgid "Key activated"
+msgstr ""
 
 #. in-app payment
 #, fuzzy
@@ -1523,6 +1519,10 @@ msgstr "Úložiště"
 
 msgctxt "pref_category_templates"
 msgid "Templates and data tables"
+msgstr ""
+
+msgctxt "pref_category_company"
+msgid "Company"
 msgstr ""
 
 #, fuzzy
@@ -2261,6 +2261,17 @@ msgstr "Povoleno (některé chybné GPU mohou kreslit pouze černé obrázky)"
 msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
 msgstr "Zakázáno (nižší kvalita výstupu)"
+
+msgctxt "pref_export_image_filename_expression"
+msgid "Expression for output filename"
+msgstr ""
+
+msgctxt "pref_export_image_filename_expression_message"
+msgid ""
+"Please see the documentation at "
+"\"https://imagemeter.com/manual/workflow/variables\" to learn more about "
+"writing string expressions with variables."
+msgstr ""
 
 #. ZIP
 msgctxt "pref_category_export_zip"
@@ -3643,6 +3654,23 @@ msgstr ""
 
 msgctxt "pref_information_translator"
 msgid "."
+msgstr ""
+
+#. Preferences: Company
+msgctxt "pref_company_enter_config_key"
+msgid "Enter company key"
+msgstr ""
+
+msgctxt "pref_company_enter_config_key_summary_set"
+msgid "Key set"
+msgstr ""
+
+msgctxt "pref_company_enter_config_key_summary_unset"
+msgid "Not set"
+msgstr ""
+
+msgctxt "pref_company_user_id"
+msgid "User ID"
 msgstr ""
 
 #. ===== cloud synchronization =====

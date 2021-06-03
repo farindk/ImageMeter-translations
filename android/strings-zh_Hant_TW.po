@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-05-26 13:34+0200\n"
+"POT-Creation-Date: 2021-06-03 22:07+0200\n"
 "PO-Revision-Date: 2021-03-06 16:12+0100\n"
 "Last-Translator: \n"
 "Language: ak_GH\n"
@@ -738,9 +738,9 @@ msgid "Show migration instructions"
 msgstr "顯示遷移說明"
 
 #. licensing: volume key dialog
-msgctxt "licensing_volume_key_title"
-msgid "Volume key"
-msgstr "批量許可證密碼"
+msgctxt "licensing_company_key_title"
+msgid "Company configuration key"
+msgstr ""
 
 msgctxt "licensing_volume_key_note"
 msgid ""
@@ -748,25 +748,25 @@ msgid ""
 "Google Play store."
 msgstr "注意：通過 Google Play 商店購買時，無需輸入任何密碼。"
 
-msgctxt "licensing_volume_key_description"
-msgid "Please enter your volume key:"
-msgstr "請輸入您的批量許可證密碼："
+msgctxt "licensing_company_key_description"
+msgid "Please enter your company key:"
+msgstr ""
 
 msgctxt "licensing_volume_key_send_button"
 msgid "Send"
 msgstr "發送"
 
-msgctxt "licensing_volume_key_error_parse_server_response"
+msgctxt "licensing_company_key_error_parse_server_response"
 msgid "Error parsing server response."
-msgstr "解析服務器響應時出錯。"
+msgstr ""
 
-msgctxt "licensing_volume_key_error_invalid_license_code"
-msgid "Invalid license code."
-msgstr "無效的許可證號碼。"
+msgctxt "licensing_company_key_error_invalid_license_code"
+msgid "Invalid key."
+msgstr ""
 
-msgctxt "licensing_volume_key_success"
-msgid "License activated"
-msgstr "許可證已激活"
+msgctxt "licensing_company_key_success"
+msgid "Key activated"
+msgstr ""
 
 #. in-app payment
 msgctxt "inapp_error_billing_unavailable"
@@ -1315,6 +1315,10 @@ msgstr "儲存介質"
 msgctxt "pref_category_templates"
 msgid "Templates and data tables"
 msgstr "模板和數據表"
+
+msgctxt "pref_category_company"
+msgid "Company"
+msgstr ""
 
 msgctxt "pref_category_information"
 msgid "Information"
@@ -2030,6 +2034,17 @@ msgstr "啟用（某些有缺陷的圖像處理器可能僅顯示黑色圖像）
 msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
 msgstr "關閉（標註外觀品質會降低）"
+
+msgctxt "pref_export_image_filename_expression"
+msgid "Expression for output filename"
+msgstr ""
+
+msgctxt "pref_export_image_filename_expression_message"
+msgid ""
+"Please see the documentation at "
+"\"https://imagemeter.com/manual/workflow/variables\" to learn more about "
+"writing string expressions with variables."
+msgstr ""
 
 #. ZIP
 msgctxt "pref_category_export_zip"
@@ -3316,6 +3331,23 @@ msgstr ""
 
 msgctxt "pref_information_translator"
 msgid "."
+msgstr ""
+
+#. Preferences: Company
+msgctxt "pref_company_enter_config_key"
+msgid "Enter company key"
+msgstr ""
+
+msgctxt "pref_company_enter_config_key_summary_set"
+msgid "Key set"
+msgstr ""
+
+msgctxt "pref_company_enter_config_key_summary_unset"
+msgid "Not set"
+msgstr ""
+
+msgctxt "pref_company_user_id"
+msgid "User ID"
 msgstr ""
 
 #. ===== cloud synchronization =====
