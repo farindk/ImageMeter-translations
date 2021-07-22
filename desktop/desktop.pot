@@ -16,15 +16,11 @@ msgid "&File"
 msgstr ""
 
 msgctxt "pc:mainwindow:menu:file:open-image"
-msgid "&Open image..."
+msgid "Open image without import..."
 msgstr ""
 
 msgctxt "pc:mainwindow:menu:file:import-image"
-msgid "&Import image..."
-msgstr ""
-
-msgctxt "pc:mainwindow:menu:file:import-image:shortcut"
-msgid "Ctrl+I"
+msgid "&Open and import image..."
 msgstr ""
 
 msgctxt "pc:mainwindow:menu:file:import-to-library"
@@ -33,6 +29,10 @@ msgstr ""
 
 msgctxt "pc:mainwindow:menu:file:save"
 msgid "&Save"
+msgstr ""
+
+msgctxt "pc:mainwindow:menu:file:close-image-editor"
+msgid "&Close image"
 msgstr ""
 
 msgctxt "pc:mainwindow:menu:file:export-image"
@@ -65,6 +65,10 @@ msgstr ""
 
 msgctxt "pc:mainwindow:menu:edit:redo"
 msgid "Redo"
+msgstr ""
+
+msgctxt "pc:mainwindow:menu:edit:image-numbering"
+msgid "Image numbering"
 msgstr ""
 
 msgctxt "pc:mainwindow:menu:edit:preferences"
@@ -155,8 +159,24 @@ msgctxt "pc:mainwindow:menu:image:image-settings"
 msgid "Image &settings..."
 msgstr ""
 
+msgctxt "pc:mainwindow:menu:image:element-locking"
+msgid "Element locking..."
+msgstr ""
+
+msgctxt "pc:mainwindow:menu:image:use-dimformat-from-settings"
+msgid "Use units from settings for all elements"
+msgstr ""
+
 msgctxt "pc:mainwindow:menu:windows"
 msgid "&Windows"
+msgstr ""
+
+msgctxt "pc:mainwindow:menu:windows:mdi-arrange-tiled"
+msgid "Arrange windows tiled"
+msgstr ""
+
+msgctxt "pc:mainwindow:menu:windows:mdi-arrange-cascaded"
+msgid "Arrange windows cascaded"
 msgstr ""
 
 msgctxt "pc:mainwindow:menu:help"
@@ -211,6 +231,26 @@ msgctxt "pc:error:cannot-quit-program:sync-in-progress"
 msgid "Cannot quit program now because cloud synchronization is currently in progress."
 msgstr ""
 
+msgctxt "pc:error-dialog:window-title:info"
+msgid "Information"
+msgstr ""
+
+msgctxt "pc:error-dialog:window-title:warning"
+msgid "Warning"
+msgstr ""
+
+msgctxt "pc:error-dialog:window-title:error"
+msgid "Error"
+msgstr ""
+
+msgctxt "pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-title"
+msgid "Use units from settings"
+msgstr ""
+
+msgctxt "pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-text"
+msgid "Also convert the units of the values that you entered manually or by Bluetooth?"
+msgstr ""
+
 msgctxt "pc:import:pdf:render-resolution-dpi"
 msgid "Resolution (dpi):"
 msgstr ""
@@ -227,6 +267,10 @@ msgctxt "pc:import:pdf:page-selection-title"
 msgid "Select PDF pages to import"
 msgstr ""
 
+msgctxt "pc:import:pdf:calibrate-to-page-size"
+msgid "Calibrate to page size"
+msgstr ""
+
 msgctxt "pc:import:pdf:progress-dialog-title"
 msgid "Importing PDF pages"
 msgstr ""
@@ -235,12 +279,32 @@ msgctxt "pc:import:pdf:progress-dialog-message"
 msgid "Importing PDF pages ..."
 msgstr ""
 
+msgctxt "pc:import:edit-images-after-opening:ask:dialog-title"
+msgid "Edit images"
+msgstr ""
+
+msgctxt "pc:import:edit-images-after-opening:ask:dialog-text"
+msgid "Open all {} imported images in the editor?"
+msgstr ""
+
 msgctxt "pc:export:imi:multiple:output-dir:file-dialog:title"
 msgid "Output IMIs to directory"
 msgstr ""
 
 msgctxt "pc:export:dxf:error:no-entities"
 msgid "There are no objects to write into the DXF. Note that currently only areas are written to the DXF and that they have to be assigned to a reference."
+msgstr ""
+
+msgctxt "pc:export:zip:dialog-title"
+msgid "ZIP export options"
+msgstr ""
+
+msgctxt "pc:export:image:dialog-title"
+msgid "Image export options"
+msgstr ""
+
+msgctxt "pc:export:pdf:dialog-title"
+msgid "PDF export options"
 msgstr ""
 
 msgctxt "pc:databundle:settings:rename:warning:same-title-already-exists"
@@ -363,6 +427,10 @@ msgctxt "pc:audio-note:really-delete:message"
 msgid "Delete audio note?"
 msgstr ""
 
+msgctxt "pc:image-settings:dialog-title"
+msgid "Image settings"
+msgstr ""
+
 msgctxt "pc:image-settings:tab:styling"
 msgid "Styling"
 msgstr ""
@@ -373,6 +441,10 @@ msgstr ""
 
 msgctxt "pc:image-settings:tab:canvas"
 msgid "Canvas"
+msgstr ""
+
+msgctxt "pc:image-settings:tab:calibration"
+msgid "Calibration"
 msgstr ""
 
 msgctxt "pc:image-settings:image:color-presets"
@@ -391,6 +463,10 @@ msgctxt "pc:xlsx-export:must-have-xlsx-suffix"
 msgid "XLSX file must have a .xlsx suffix."
 msgstr ""
 
+msgctxt "pc:zip-export:must-have-zip-suffix"
+msgid "ZIP file must have a .zip suffix."
+msgstr ""
+
 msgctxt "pc:update_channel_alpha"
 msgid "alpha"
 msgstr ""
@@ -405,6 +481,42 @@ msgstr ""
 
 msgctxt "pc:prefs:ui:language:changed-restart-program"
 msgid "The language setting has changed. Please restart the program for the changes to take effect."
+msgstr ""
+
+msgctxt "pc:image-numbering:dialog:title"
+msgid "Image numbering"
+msgstr ""
+
+msgctxt "pc:image-numbering:dialog:image-numbering-section"
+msgid "Image numbering"
+msgstr ""
+
+msgctxt "pc:image-numbering:dialog:button:renumber-images"
+msgid "Renumber images"
+msgstr ""
+
+msgctxt "pc:image-numbering:dialog:button:remove-numbers"
+msgid "Remove numbers"
+msgstr ""
+
+msgctxt "pc:image-numbering:dialog:enable-auto-numbering"
+msgid "Enable automatic numbering"
+msgstr ""
+
+msgctxt "pc:element-locking:dialog:title"
+msgid "Element locking"
+msgstr ""
+
+msgctxt "pc:element-locking:dialog:group-title"
+msgid "Lock all elements in the image"
+msgstr ""
+
+msgctxt "pc:element-locking:dialog:lock-position"
+msgid "Lock element position"
+msgstr ""
+
+msgctxt "pc:element-locking:dialog:lock-value"
+msgid "Lock element measurement value"
 msgstr ""
 
 msgctxt "pc:about-dialog:title"
@@ -499,6 +611,10 @@ msgctxt "pc:prefs:section:export"
 msgid "Export"
 msgstr ""
 
+msgctxt "pc:prefs:section:editor:reference-object-sizes"
+msgid "Reference object sizes"
+msgstr ""
+
 msgctxt "pc:prefs:section:export:image"
 msgid "Image export"
 msgstr ""
@@ -577,6 +693,10 @@ msgstr ""
 
 msgctxt "pc:prefs:initial-texts:general:info-button"
 msgid "Info"
+msgstr ""
+
+msgctxt "pc:prefs:ui:edit-images-after-opening"
+msgid "Edit images after opening"
 msgstr ""
 
 msgctxt "pc:prefs:library:root-directory"

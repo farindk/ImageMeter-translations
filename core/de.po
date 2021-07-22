@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2021-06-30 18:22+0200\n"
+"PO-Revision-Date: 2021-07-22 16:58+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -1064,6 +1064,22 @@ msgctxt "access-control:anybody:full-name"
 msgid "Anybody"
 msgstr "Jedermann"
 
+msgctxt "image-numbering:start-number"
+msgid "Start"
+msgstr "Start"
+
+msgctxt "image-numbering:increment"
+msgid "Increment"
+msgstr "Inkrement"
+
+msgctxt "image-numbering:section:renumber-existing-images"
+msgid "Renumber existing images"
+msgstr "Bestehende Bilder neu nummerieren"
+
+msgctxt "image-numbering:keep-old-numbering-order"
+msgid "Keep old numbering order"
+msgstr "Alte Nummerierungsreihenfolge beibehalten"
+
 msgctxt "rendering:watermark"
 msgid ""
 "Evaluation copy\n"
@@ -1128,6 +1144,18 @@ msgctxt "pdf-export:root-folder-title"
 msgid "ImageMeter export"
 msgstr "ImageMeter Export"
 
+msgctxt "zip-export:include-annotated-images"
+msgid "Include annotated images"
+msgstr "Bemaßte Bilder hinzufügen"
+
+msgctxt "zip-export:include-original-images"
+msgid "Include original images"
+msgstr "Originalbilder hinzufügen"
+
+msgctxt "zip-export:include-pdf-file"
+msgid "Include PDF file"
+msgstr "PDF-Datei hinzufügen"
+
 msgctxt "editor:attach:error_no_reference_to_attach_to"
 msgid ""
 "There is no reference in the image! You need to draw a reference in order to "
@@ -1158,6 +1186,30 @@ msgid ""
 msgstr ""
 "Wählen Sie die Referenz, anhand derer Sie die gewählte Bemaßung berechnen "
 "möchten."
+
+msgctxt "editor:attach:messagebox:title"
+msgid "Compute Measure"
+msgstr "Maßwert berechnen"
+
+msgctxt "editor:rectref:standard-size:legal"
+msgid "Legal"
+msgstr "Legal (US Papiergröße)"
+
+msgctxt "editor:rectref:standard-size:letter"
+msgid "Letter"
+msgstr "Letter (US Papiergröße)"
+
+msgctxt "editor:rectref:standard-size:credit-card"
+msgid "Credit card"
+msgstr "Kreditkarte"
+
+msgctxt "editor:image-modified-dialog:title"
+msgid "Image has been modified"
+msgstr "Bild wurde verändert"
+
+msgctxt "editor:image-modified-dialog:text"
+msgid "Image has been modified. Do you want to save it?"
+msgstr "Das Bild wurde verändert. Wollen Sie es speichern?"
 
 msgctxt "editor:styling:line-caps"
 msgid "Line style"
@@ -1538,6 +1590,14 @@ msgstr "Farbe für feines Gitter"
 msgctxt "image-settings:canvas:grid-subdivisions"
 msgid "Subdivisions"
 msgstr "Unterteilungen"
+
+msgctxt "image-settings:canvas:unit-distance"
+msgid "Unit distance"
+msgstr "Gittergröße"
+
+msgctxt "image-settings:canvas:unit-distance-hint"
+msgid "100 cm"
+msgstr "100 cm"
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
 msgid "Snap to object corners"
