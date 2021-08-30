@@ -39,9 +39,10 @@ msgctxt "error:OutOfMemory:with_mb_size"
 msgid "Out of memory (cannot allocate {} MB)."
 msgstr "Nedostatek paměti (nelze přidělit {} MB)."
 
+#, fuzzy
 msgctxt "error:ZLibCompressionError"
 msgid "ZLib error code: '{}'."
-msgstr ""
+msgstr "Kód chyby ZLib: '{}'."
 
 #, fuzzy
 msgctxt "error:ZipError"
@@ -53,18 +54,20 @@ msgctxt "error:ZIP_ReadError"
 msgid "Error reading ZIP file."
 msgstr "Chyba při čtení souboru ZIP."
 
+#, fuzzy
 msgctxt "error:NLohmann_JsonParseError"
 msgid "Parse error '{}'"
-msgstr ""
+msgstr "Chyba analýzy '{}'"
 
 #, fuzzy
 msgctxt "error:LibJPEG_Error"
 msgid "LibJPEG error: \"{}\"."
 msgstr "Chyba LibJPEG: \"{}\"."
 
+#, fuzzy
 msgctxt "error:CommaSeparatedList_EmptyString"
 msgid "Empty item in list."
-msgstr ""
+msgstr "Prázdná položka v seznamu."
 
 #, fuzzy
 msgctxt "error:Files_FileDoesNotExist"
@@ -113,9 +116,10 @@ msgctxt "error:Files_CannotDeleteDirectory"
 msgid "Cannot delete folder '{}'."
 msgstr "Nelze odstranit složku '{}'."
 
+#, fuzzy
 msgctxt "error:Files_CorruptedFileCompression"
 msgid "File compression error."
-msgstr ""
+msgstr "Chyba komprese souboru."
 
 #, fuzzy
 msgctxt "error:Files_CannotReadDirectory"
@@ -295,12 +299,8 @@ msgstr "Chyba OpenGL: \"{}\"."
 
 #, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
-msgid ""
-"Not enough memory to render at output resolution {}. Please reduce the "
-"output resolution."
-msgstr ""
-"Nedostatek paměti pro vykreslení při výstupním rozlišení {}. Snižte výstupní "
-"rozlišení."
+msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
+msgstr "Nedostatek paměti pro vykreslení při výstupním rozlišení {}. Snižte výstupní rozlišení."
 
 msgctxt "error:CannotRenderImage"
 msgid "Cannot render image \"{}\"."
@@ -593,67 +593,80 @@ msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
 msgstr "Nelze obnovit stav synchronizace."
 
+#, fuzzy
 msgctxt "error:HTTP-error-400"
 msgid "400 : Bad Request"
-msgstr ""
+msgstr "400: Špatný požadavek"
 
+#, fuzzy
 msgctxt "error:HTTP-error-401"
 msgid "401 : Unauthorized"
-msgstr ""
+msgstr "401: Neoprávněné"
 
+#, fuzzy
 msgctxt "error:HTTP-error-403"
 msgid "403 : Forbidden"
-msgstr ""
+msgstr "403: Přístup odepřen"
 
+#, fuzzy
 msgctxt "error:HTTP-error-404"
 msgid "404 : Not Found"
-msgstr ""
+msgstr "404: Nenalezeno"
 
+#, fuzzy
 msgctxt "error:HTTP-error-405"
 msgid "405 : Method Not Allowed"
-msgstr ""
+msgstr "405: Metoda není povolena"
 
+#, fuzzy
 msgctxt "error:HTTP-error-406"
 msgid "406 : Not Acceptable"
-msgstr ""
+msgstr "406: Nepřijatelné"
 
+#, fuzzy
 msgctxt "error:HTTP-error-407"
 msgid "407 : Proxy Authentication Required"
-msgstr ""
+msgstr "407: Je vyžadováno ověření proxy"
 
+#, fuzzy
 msgctxt "error:HTTP-error-408"
 msgid "408 : Request Timeout"
-msgstr ""
+msgstr "408: Žádost o časový limit"
 
+#, fuzzy
 msgctxt "error:HTTP-error-409"
 msgid "409 : Conflict"
-msgstr ""
+msgstr "409: Konflikt"
 
+#, fuzzy
 msgctxt "error:HTTP-error-410"
 msgid "410 : Gone"
-msgstr ""
+msgstr "410: Pryč"
 
 #, fuzzy
 msgctxt "error:HTTP-error-500"
 msgid "500 : Internal Server Error"
-msgstr "Interní chyba: {}."
+msgstr "500: Interní chyba serveru"
 
+#, fuzzy
 msgctxt "error:HTTP-error-501"
 msgid "501 : Not Implemented"
-msgstr ""
+msgstr "501: Neimplementováno"
 
+#, fuzzy
 msgctxt "error:HTTP-error-502"
 msgid "502 : Bad Gateway"
-msgstr ""
+msgstr "502: Bad Gateway"
 
 #, fuzzy
 msgctxt "error:HTTP-error-503"
 msgid "503 : Service Unavailable"
-msgstr "Obchod není k dispozici"
+msgstr "503: Obchod není k dispozici"
 
+#, fuzzy
 msgctxt "error:HTTP-error-504"
 msgid "504 : Gateway Timeout"
-msgstr ""
+msgstr "504: Gateway Timeout"
 
 #, fuzzy
 msgctxt "error:NetworkError"
@@ -704,17 +717,20 @@ msgctxt "error:Android_Import_SecurityException"
 msgid "Security exception when accessing URI '{}'."
 msgstr "Výjimka zabezpečení při přístupu k URI '{}'."
 
+#, fuzzy
 msgctxt "error:Android_InsertImageIntoGallery"
 msgid "Cannot insert image into gallery ({})."
-msgstr ""
+msgstr "Obrázek nelze vložit do galerie ({})."
 
+#, fuzzy
 msgctxt "error:Android_CopyImageDataIntoGallery"
 msgid "Cannot copy image data into gallery (url='{}')."
-msgstr ""
+msgstr "Nelze kopírovat obrazová data do galerie (url='{}')."
 
+#, fuzzy
 msgctxt "error:Android_DeleteOldImageFromGallery"
 msgid "Cannot delete old image from gallery (url='{}')."
-msgstr ""
+msgstr "Starý obrázek nelze odstranit z galerie (url='{}')."
 
 msgctxt "unit:translated-name:meter"
 msgid "m"
@@ -728,57 +744,68 @@ msgctxt "unit:translated-name:foot"
 msgid "foot"
 msgstr "stopa"
 
+#, fuzzy
 msgctxt "unit:translated-name:yard"
 msgid "yard"
-msgstr ""
+msgstr "yard"
 
+#, fuzzy
 msgctxt "unit:translated-name:mile"
 msgid "mile"
-msgstr ""
+msgstr "míle"
 
+#, fuzzy
 msgctxt "unit:translated-name:mil"
 msgid "mil"
-msgstr ""
+msgstr "mil"
 
 msgctxt "unit:translated-name:meter2"
 msgid "m²"
 msgstr "m²"
 
+#, fuzzy
 msgctxt "unit:translated-name:inch2"
 msgid "sq inch"
-msgstr ""
+msgstr "čtverečních palců"
 
+#, fuzzy
 msgctxt "unit:translated-name:foot2"
 msgid "sq foot"
-msgstr ""
+msgstr "čtvereční stopa"
 
+#, fuzzy
 msgctxt "unit:translated-name:yard2"
 msgid "sq yard"
-msgstr ""
+msgstr "sq yard"
 
+#, fuzzy
 msgctxt "unit:translated-name:mile2"
 msgid "sq mile"
-msgstr ""
+msgstr "čtvereční míle"
 
+#, fuzzy
 msgctxt "unit:translated-name:acre"
 msgid "acre"
-msgstr ""
+msgstr "akr"
 
+#, fuzzy
 msgctxt "unit:translated-name:are"
 msgid "are"
-msgstr ""
+msgstr "are"
 
 msgctxt "unit:translated-name:ha"
 msgid "hectare"
 msgstr "hektar"
 
+#, fuzzy
 msgctxt "unit:translated-name:mil2"
 msgid "square mil"
-msgstr ""
+msgstr "čtverečních mil"
 
+#, fuzzy
 msgctxt "unit:translated-name:cmil"
 msgid "circular mil"
-msgstr ""
+msgstr "kruhový mil"
 
 msgctxt "unit:translated-name:degrees"
 msgid "degrees"
@@ -820,49 +847,60 @@ msgctxt "dimtemplate:area:decimal-imperial"
 msgid "imperial"
 msgstr "imperiální"
 
+#, fuzzy
 msgctxt "labeltype:any"
 msgid "Any"
-msgstr ""
+msgstr "Žádný"
 
+#, fuzzy
 msgctxt "labeltype:length"
 msgid "Length"
-msgstr ""
+msgstr "Délka"
 
+#, fuzzy
 msgctxt "labeltype:area"
 msgid "Area"
-msgstr ""
+msgstr "Plocha"
 
+#, fuzzy
 msgctxt "labeltype:angle"
 msgid "Angle"
-msgstr ""
+msgstr "Úhel"
 
+#, fuzzy
 msgctxt "labeltype:edge"
 msgid "Edge length"
-msgstr ""
+msgstr "Délka hrany"
 
+#, fuzzy
 msgctxt "labeltype:perimeter"
 msgid "Perimeter"
-msgstr ""
+msgstr "Obvod"
 
+#, fuzzy
 msgctxt "labeltype:diameter"
 msgid "Diameter"
-msgstr ""
+msgstr "Průměr"
 
+#, fuzzy
 msgctxt "labeltype:radius"
 msgid "Radius"
-msgstr ""
+msgstr "Poloměr"
 
+#, fuzzy
 msgctxt "labeltype:width"
 msgid "Width"
-msgstr ""
+msgstr "Šířka"
 
+#, fuzzy
 msgctxt "labeltype:height"
 msgid "Height"
-msgstr ""
+msgstr "Výška"
 
+#, fuzzy
 msgctxt "labeltype:rectangle-side(rectangle)"
 msgid "Rectangle"
-msgstr ""
+msgstr "Obdélník"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:min-imperial-fraction:title"
@@ -893,17 +931,20 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "Imperiální jednotky budou zobrazeny jako ft/in"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
 msgid "Ambiguous numbers"
-msgstr ""
+msgstr "Nejasná čísla"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:no"
 msgid "Keep"
-msgstr ""
+msgstr "Držet"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
-msgstr ""
+msgstr "V případě potřeby přidejte tečku"
 
 msgctxt "dimformat:options-ui:show-units:title"
 msgid "Show units"
@@ -1080,25 +1121,30 @@ msgctxt "text-h-alignment:right"
 msgid "Right"
 msgstr "Vpravo"
 
+#, fuzzy
 msgctxt "text-h-alignment:block"
 msgid "Block"
-msgstr ""
+msgstr "Blok"
 
+#, fuzzy
 msgctxt "ui:list:add-entry"
 msgid "Add"
-msgstr ""
+msgstr "Přidat"
 
+#, fuzzy
 msgctxt "ui:list:remove-entry"
 msgid "Remove"
-msgstr ""
+msgstr "Odstranit"
 
+#, fuzzy
 msgctxt "ui:list:move-entry-up"
 msgid "Up"
-msgstr ""
+msgstr "Nahoru"
 
+#, fuzzy
 msgctxt "ui:list:move-entry-down"
 msgid "Down"
-msgstr ""
+msgstr "Dolů"
 
 #, fuzzy
 msgctxt "filename-copy-tag"
@@ -1125,107 +1171,125 @@ msgctxt "entities:cannot_rename_image:in_use"
 msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
 msgstr "Soubor '{}' nelze upravit, protože se aktuálně používá."
 
+#, fuzzy
 msgctxt "image-library:breadcrumbs:root-folder"
 msgid "Root"
-msgstr ""
+msgstr "Vykořenit"
 
+#, fuzzy
 msgctxt "imagebundle-settings:dialog-title"
 msgid "Image settings"
-msgstr ""
+msgstr "Nastavení obrazu"
 
+#, fuzzy
 msgctxt "imagebundle-settings:image-title"
 msgid "Image name"
-msgstr ""
+msgstr "Název obrázku"
 
+#, fuzzy
 msgctxt "imagebundle-settings:image-number"
 msgid "Number"
-msgstr ""
+msgstr "Číslo"
 
+#, fuzzy
 msgctxt "imagebundle-settings:template"
 msgid "Data scheme"
-msgstr ""
+msgstr "Datové schéma"
 
+#, fuzzy
 msgctxt "imagebundle-settings:image-notes"
 msgid "Image notes"
-msgstr ""
+msgstr "Obrázkové poznámky"
 
+#, fuzzy
 msgctxt "template-selection-mixin:copy-local-template-to-prefs"
 msgid "Copy template to preferences"
-msgstr ""
+msgstr "Zkopírujte šablonu do předvoleb"
 
+#, fuzzy
 msgctxt "folder-settings:dialog-title"
 msgid "Folder settings"
-msgstr ""
+msgstr "Nastavení složky"
 
+#, fuzzy
 msgctxt "folder-settings:folder-title"
 msgid "Folder name"
-msgstr ""
+msgstr "Název složky"
 
+#, fuzzy
 msgctxt "folder-settings:template"
 msgid "Data scheme"
-msgstr ""
+msgstr "Datové schéma"
 
+#, fuzzy
 msgctxt "folder-settings:folder-color"
 msgid "Folder color"
-msgstr ""
+msgstr "Barva složky"
 
+#, fuzzy
 msgctxt "folder-settings:folder-notes"
 msgid "Folder notes"
-msgstr ""
+msgstr "Poznámky ke složce"
 
+#, fuzzy
 msgctxt "access-control:users-with-access:list-title"
 msgid "Users with access"
-msgstr ""
+msgstr "Uživatelé s přístupem"
 
+#, fuzzy
 msgctxt "access-control:admin:full-name"
 msgid "Administrator"
-msgstr ""
+msgstr "Správce"
 
+#, fuzzy
 msgctxt "access-control:nobody:full-name"
 msgid "No user"
-msgstr ""
+msgstr "Žádný uživatel"
 
+#, fuzzy
 msgctxt "access-control:anybody:full-name"
 msgid "Anybody"
-msgstr ""
+msgstr "Někdo"
 
+#, fuzzy
 msgctxt "image-numbering:start-number"
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
+#, fuzzy
 msgctxt "image-numbering:increment"
 msgid "Increment"
-msgstr ""
+msgstr "Přírůstek"
 
+#, fuzzy
 msgctxt "image-numbering:section:renumber-existing-images"
 msgid "Renumber existing images"
-msgstr ""
+msgstr "Přečíslovat existující obrázky"
 
+#, fuzzy
 msgctxt "image-numbering:keep-old-numbering-order"
 msgid "Keep old numbering order"
-msgstr ""
+msgstr "Zachovat staré pořadí číslování"
 
 #, fuzzy
 msgctxt "rendering:watermark"
-msgid ""
-"Evaluation copy\n"
-"Please upgrade to remove watermark"
-msgstr ""
-"Zkušební kopie\n"
-"Upgradujte a odeberte vodoznak"
+msgid "Evaluation copy\nPlease upgrade to remove watermark"
+msgstr "Zkušební kopie\nUpgradujte a odeberte vodoznak"
 
+#, fuzzy
 msgctxt "export:resolution-too-small"
 msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
-msgstr ""
+msgstr "Výstupní rozlišení je příliš malé. Minimum je {0}x{1} pixelů."
 
 #, fuzzy
 msgctxt "image-export:size:group-title"
 msgid "Image size"
 msgstr "Velikost obrázku"
 
+#, fuzzy
 msgctxt "image-export:size:suggested-size"
 msgid "Suggested size"
-msgstr ""
+msgstr "Doporučená velikost"
 
 #, fuzzy
 msgctxt "image-export:size:original-size"
@@ -1257,17 +1321,20 @@ msgctxt "image-export:overlays:group-title"
 msgid "Overlays"
 msgstr "Překryvné vrstvy"
 
+#, fuzzy
 msgctxt "image-export:overlays:show-text"
 msgid "Show text overlay"
-msgstr ""
+msgstr "Zobrazit překrytí textu"
 
+#, fuzzy
 msgctxt "image-export:overlays:text"
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
+#, fuzzy
 msgctxt "image-export:filename-expression"
 msgid "{image.title}"
-msgstr ""
+msgstr "{image.title}"
 
 #, fuzzy
 msgctxt "pdf-export:table-of-contents"
@@ -1279,25 +1346,24 @@ msgctxt "pdf-export:root-folder-title"
 msgid "ImageMeter export"
 msgstr "Export ImageMeter"
 
+#, fuzzy
 msgctxt "zip-export:include-annotated-images"
 msgid "Include annotated images"
-msgstr ""
+msgstr "Zahrnout obrázky s poznámkami"
 
+#, fuzzy
 msgctxt "zip-export:include-original-images"
 msgid "Include original images"
-msgstr ""
+msgstr "Vložit originální obrázky"
 
+#, fuzzy
 msgctxt "zip-export:include-pdf-file"
 msgid "Include PDF file"
-msgstr ""
+msgstr "Zahrnout soubor PDF"
 
 msgctxt "editor:attach:error_no_reference_to_attach_to"
-msgid ""
-"There is no reference in the image! You need to draw a reference in order to "
-"do automatic computations."
-msgstr ""
-"Neexistuje žádné zaměření v obraze! Musíte zadat zaměření, aby se provedly "
-"automatické výpočty."
+msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
+msgstr "Neexistuje žádné zaměření v obraze! Musíte zadat zaměření, aby se provedly automatické výpočty."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -1308,40 +1374,42 @@ msgid "Measure is computed based on the reference you provided."
 msgstr "Rozměr se vypočítá na základě reference, kterou jste zadali."
 
 msgctxt "editor:attach:hint_howto_attach_to_reference"
-msgid ""
-"Click on the measure you want to compute based on the selected reference."
-msgstr ""
-"Klikněte na míru, kterou chcete vypočítat na základě vybraného zaměření."
+msgid "Click on the measure you want to compute based on the selected reference."
+msgstr "Klikněte na míru, kterou chcete vypočítat na základě vybraného zaměření."
 
 msgctxt "editor:attach:hint_howto_attach_measure"
-msgid ""
-"Click on the reference based on which you want to calculate the selected "
-"measure."
+msgid "Click on the reference based on which you want to calculate the selected measure."
 msgstr "Klikněte na zaměření, na kterém chcete spočítat vybraný objekt."
 
+#, fuzzy
 msgctxt "editor:attach:messagebox:title"
 msgid "Compute Measure"
-msgstr ""
+msgstr "Vypočítat opatření"
 
+#, fuzzy
 msgctxt "editor:rectref:standard-size:legal"
 msgid "Legal"
-msgstr ""
+msgstr "Právní"
 
+#, fuzzy
 msgctxt "editor:rectref:standard-size:letter"
 msgid "Letter"
-msgstr ""
+msgstr "Dopis"
 
+#, fuzzy
 msgctxt "editor:rectref:standard-size:credit-card"
 msgid "Credit card"
-msgstr ""
+msgstr "Kreditní karta"
 
+#, fuzzy
 msgctxt "editor:image-modified-dialog:title"
 msgid "Image has been modified"
-msgstr ""
+msgstr "Obrázek byl upraven"
 
+#, fuzzy
 msgctxt "editor:image-modified-dialog:text"
 msgid "Image has been modified. Do you want to save it?"
-msgstr ""
+msgstr "Obrázek byl upraven. Chcete to uložit?"
 
 msgctxt "editor:styling:line-caps"
 msgid "Line style"
@@ -1363,9 +1431,10 @@ msgctxt "editor:styling:font-size"
 msgid "Font size"
 msgstr "Velikost písma"
 
+#, fuzzy
 msgctxt "editor:styling:fill-color"
 msgid "Fill color"
-msgstr ""
+msgstr "Vyplň barvu"
 
 #, fuzzy
 msgctxt "editor:styling:text-color"
@@ -1377,9 +1446,10 @@ msgctxt "editor:styling:text-background-color"
 msgid "Background color"
 msgstr "Barva pozadí"
 
+#, fuzzy
 msgctxt "editor:styling:set-as-default"
 msgid "Set as default"
-msgstr ""
+msgstr "Nastavit jako výchozí"
 
 #, fuzzy
 msgctxt "editor:styling:label:apply-to"
@@ -1605,13 +1675,15 @@ msgctxt "editor:styling:measurement-point:marker-symbol:dot"
 msgid "Dot"
 msgstr "Tečka"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:elevation-top"
 msgid "Elevation top"
-msgstr ""
+msgstr "Nadmořská výška"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:elevation-bottom"
 msgid "Elevation bottom"
-msgstr ""
+msgstr "Výškové dno"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-size"
@@ -1710,17 +1782,20 @@ msgctxt "image-settings:image:contrast"
 msgid "Contrast"
 msgstr "Kontrast"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:greyscale"
 msgid "Greyscale"
-msgstr ""
+msgstr "Ve stupních šedi"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:bright"
 msgid "Bright"
-msgstr ""
+msgstr "Jasný"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:dark"
 msgid "Dark"
-msgstr ""
+msgstr "Temný"
 
 #, fuzzy
 msgctxt "image-settings:image:color-preset:original"
@@ -1752,30 +1827,35 @@ msgctxt "image-settings:canvas:color-scheme:custom"
 msgid "Custom"
 msgstr "Zvyk"
 
+#, fuzzy
 msgctxt "image-settings:canvas:background-color"
 msgid "Background color"
-msgstr ""
+msgstr "Barva pozadí"
 
+#, fuzzy
 msgctxt "image-settings:canvas:coarse-grid-color"
 msgid "Coarse grid color"
-msgstr ""
+msgstr "Hrubá barva mřížky"
 
+#, fuzzy
 msgctxt "image-settings:canvas:fine-grid-color"
 msgid "Fine grid color"
-msgstr ""
+msgstr "Jemná barva mřížky"
 
 #, fuzzy
 msgctxt "image-settings:canvas:grid-subdivisions"
 msgid "Subdivisions"
 msgstr "Dělení"
 
+#, fuzzy
 msgctxt "image-settings:canvas:unit-distance"
 msgid "Unit distance"
-msgstr ""
+msgstr "Jednotková vzdálenost"
 
+#, fuzzy
 msgctxt "image-settings:canvas:unit-distance-hint"
 msgid "100 cm"
-msgstr ""
+msgstr "100 cm"
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
 msgid "Snap to object corners"
@@ -1821,27 +1901,30 @@ msgctxt "prefs:editor:snapping:snapping-strength:high"
 msgid "High"
 msgstr "Velká"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size"
 msgid "Distance step size"
-msgstr ""
+msgstr "Velikost kroku vzdálenosti"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:hint"
 msgid "1 ft"
-msgstr ""
+msgstr "1 ft"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:tooltip"
 msgid "Snap to multiples of this distance (only for rectangles and distance)."
-msgstr ""
+msgstr "Přichytit na násobky této vzdálenosti (pouze pro obdélníky a vzdálenost)."
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
-msgid ""
-"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
-"rectangle sides will be restricted to steps of this size."
-msgstr ""
+msgid "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and rectangle sides will be restricted to steps of this size."
+msgstr "Zadejte vzdálenost pomocí jednotky (např. 10cm, 1ft nebo 1'). Nakreslené rozměry a strany obdélníku budou omezeny na kroky této velikosti."
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
 msgid "Freehand"
-msgstr ""
+msgstr "Volná ruka"
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay"
@@ -1868,426 +1951,509 @@ msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:long"
 msgid "Long"
 msgstr "Dlouho"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:group-title"
 msgid "Text note"
-msgstr ""
+msgstr "Textová poznámka"
 
 msgctxt "prefs:editor:drawing-tools:textbox:preset-texts:title"
 msgid "Preset texts"
 msgstr "Přednastavené texty"
 
+#, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing"
 msgid "Anti-aliasing in editor"
-msgstr ""
+msgstr "Vyhlazování v editoru"
 
+#, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing:off"
 msgid "Off"
-msgstr ""
+msgstr "Vypnuto"
 
+#, fuzzy
 msgctxt "prefs:ui:language"
 msgid "Language"
-msgstr ""
+msgstr "Jazyk"
 
+#, fuzzy
 msgctxt "prefs:ui:language:automatic"
 msgid "Automatic"
-msgstr ""
+msgstr "Automatický"
 
+#, fuzzy
 msgctxt "prefs:company:user-id"
 msgid "User ID"
-msgstr ""
+msgstr "uživatelské ID"
 
+#, fuzzy
 msgctxt "prefs:company:user-full-name"
 msgid "Full name"
-msgstr ""
+msgstr "Celé jméno"
 
+#, fuzzy
 msgctxt "templ:template-name:unnamed"
 msgid "New template"
-msgstr ""
+msgstr "Nová šablona"
 
+#, fuzzy
 msgctxt "templ:custom:class-display-name"
 msgid "Custom template"
-msgstr ""
+msgstr "Vlastní šablona"
 
+#, fuzzy
 msgctxt "templ:custom:new-template-name"
 msgid "New custom template"
-msgstr ""
+msgstr "Nová vlastní šablona"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:empty"
 msgid "Empty"
-msgstr ""
+msgstr "Prázdný"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-name"
 msgid "Image name"
-msgstr ""
+msgstr "Název obrázku"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-notes"
 msgid "Image notes"
-msgstr ""
+msgstr "Obrázkové poznámky"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-number"
 msgid "Image number"
-msgstr ""
+msgstr "Číslo obrázku"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-capture-date"
 msgid "Image capture date"
-msgstr ""
+msgstr "Datum pořízení obrázku"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-gps-latitude"
 msgid "Image GPS latitude"
-msgstr ""
+msgstr "Obrázek GPS zeměpisná šířka"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-gps-longitude"
 msgid "Image GPS longitude"
-msgstr ""
+msgstr "Obrázek zeměpisná délka GPS"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link"
 msgid "GPS map link"
-msgstr ""
+msgstr "Odkaz na mapu GPS"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:url:text"
 msgid "link"
-msgstr ""
+msgstr "odkaz"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:error:no-gps"
 msgid "no GPS"
-msgstr ""
+msgstr "žádné GPS"
 
+#, fuzzy
 msgctxt "templ:custom:column-type:width-height"
 msgid "Width and height"
-msgstr ""
+msgstr "Šířka a výška"
 
+#, fuzzy
 msgctxt "templ:custom:column-type:text"
 msgid "Text note"
-msgstr ""
+msgstr "Textová poznámka"
 
+#, fuzzy
 msgctxt "templ:custom:new-tablespec-name"
 msgid "Custom Table"
-msgstr ""
+msgstr "Vlastní tabulka"
 
+#, fuzzy
 msgctxt "templ:custom:new-tag"
 msgid "new tag"
-msgstr ""
+msgstr "nový štítek"
 
+#, fuzzy
 msgctxt "templ:custom:tag:filter:text"
 msgid "Text note"
-msgstr ""
+msgstr "Textová poznámka"
 
+#, fuzzy
 msgctxt "templ:custom:tag:filter:circle"
 msgid "Circle"
-msgstr ""
+msgstr "Kruh"
 
+#, fuzzy
 msgctxt "templ:custom:tag:property-name"
 msgid "Tag"
-msgstr ""
+msgstr "Štítek"
 
+#, fuzzy
 msgctxt "templ:areasum:class-display-name"
 msgid "Area sum template"
-msgstr ""
+msgstr "Šablona součtu plochy"
 
+#, fuzzy
 msgctxt "templ:areasum:preset:wallarea:display-name"
 msgid "Wall area"
-msgstr ""
+msgstr "Plocha zdi"
 
+#, fuzzy
 msgctxt "templ:areasum:preset:floorarea:display-name"
 msgid "Floor area"
-msgstr ""
+msgstr "Podlahová plocha"
 
+#, fuzzy
 msgctxt "templ:areasum:tag:property-name"
 msgid "Tag"
-msgstr ""
+msgstr "Štítek"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:new-template-name"
 msgid "New wall area template"
-msgstr ""
+msgstr "Nová šablona oblasti stěn"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:new-template-name"
 msgid "New floor area template"
-msgstr ""
+msgstr "Nová šablona podlahové plochy"
 
+#, fuzzy
 msgctxt "templ:areasum:custom-add"
 msgid "custom (add)"
-msgstr ""
+msgstr "vlastní (přidat)"
 
+#, fuzzy
 msgctxt "templ:areasum:custom-minus"
 msgid "custom (subtract)"
-msgstr ""
+msgstr "vlastní (odečíst)"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:wall"
 msgid "wall"
-msgstr ""
+msgstr "stěna"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:ceiling"
 msgid "ceiling"
-msgstr ""
+msgstr "strop"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:window"
 msgid "window"
-msgstr ""
+msgstr "okno"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:door"
 msgid "door"
-msgstr ""
+msgstr "dveře"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:living-room"
 msgid "living room"
-msgstr ""
+msgstr "obývací pokoj"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:bed-room"
 msgid "bed room"
-msgstr ""
+msgstr "lůžkový pokoj"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:kitchen"
 msgid "kitchen"
-msgstr ""
+msgstr "kuchyně"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:bath-room"
 msgid "bathroom"
-msgstr ""
+msgstr "koupelna"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:generic-room"
 msgid "other room"
-msgstr ""
+msgstr "jiná místnost"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:balcony"
 msgid "balcony"
-msgstr ""
+msgstr "balkón"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:item"
 msgid "Pos."
-msgstr ""
+msgstr "Poz."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:description"
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:count"
 msgid "Count"
-msgstr ""
+msgstr "Počet"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:factor"
 msgid "Factor"
-msgstr ""
+msgstr "Faktor"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:width"
 msgid "Width"
-msgstr ""
+msgstr "Šířka"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:height"
 msgid "Height"
-msgstr ""
+msgstr "Výška"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:area"
 msgid "Area"
-msgstr ""
+msgstr "Plocha"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:deduction"
 msgid "Deduction"
-msgstr ""
+msgstr "Dedukce"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:sumarea"
 msgid "Sum"
-msgstr ""
+msgstr "Součet"
 
+#, fuzzy
 msgctxt "templ:areasum:item"
 msgid "Item Number"
-msgstr ""
+msgstr "Číslo položky"
 
+#, fuzzy
 msgctxt "templ:areasum:description"
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
+#, fuzzy
 msgctxt "templ:areasum:count"
 msgid "Count"
-msgstr ""
+msgstr "Počet"
 
+#, fuzzy
 msgctxt "templ:areasum:width-height"
 msgid "Width and height"
-msgstr ""
+msgstr "Šířka a výška"
 
+#, fuzzy
 msgctxt "templ:areasum:measured-area"
 msgid "Measured area"
-msgstr ""
+msgstr "Měřená plocha"
 
+#, fuzzy
 msgctxt "templ:areasum:factor"
 msgid "Factor"
-msgstr ""
+msgstr "Faktor"
 
+#, fuzzy
 msgctxt "templ:areasum:calculated-area"
 msgid "Calculated area"
-msgstr ""
+msgstr "Vypočítaná plocha"
 
+#, fuzzy
 msgctxt "templ:areasum:plus-minus-area"
 msgid "+/- area columns"
-msgstr ""
+msgstr "+/- sloupce oblasti"
 
+#, fuzzy
 msgctxt "templ:areasum:image-area-sum"
 msgid "Image area sum"
-msgstr ""
+msgstr "Součet oblasti obrázku"
 
+#, fuzzy
 msgctxt "templ:areasum:tablespec:default-name"
 msgid "Area sum table"
-msgstr ""
+msgstr "Tabulka součtů ploch"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:item"
-msgid ""
-"The image number. The number will only be filled into the row with the image "
-"title."
-msgstr ""
+msgid "The image number. The number will only be filled into the row with the image title."
+msgstr "Číslo obrázku. Číslo bude vyplněno pouze do řádku s názvem obrázku."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:description"
-msgid ""
-"Descriptive name of the area. This is either the default name of the tag, or "
-"a manually entered name for this area."
-msgstr ""
+msgid "Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this area."
+msgstr "Popisný název oblasti. Toto je buď výchozí název značky, nebo ručně zadaný název pro tuto oblast."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:count"
 msgid "The count multiplier for this area."
-msgstr ""
+msgstr "Multiplikátor počtu pro tuto oblast."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
-msgid ""
-"Width and height are two columns that are filled with the side lengths if "
-"the area is a rectangle. For other shapes, the columns stay empty.\n"
-"\n"
-"Enter the two column headers separated by a semicolon."
-msgstr ""
+msgid "Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n\nEnter the two column headers separated by a semicolon."
+msgstr "Šířka a výška jsou dva sloupce, které jsou vyplněny délkami stran, pokud je oblast obdélník. U ostatních tvarů zůstávají sloupce prázdné.\n\nZadejte dvě záhlaví sloupců oddělená středníkem."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:measured-area"
 msgid "The raw, measured area without the factor or count applied."
-msgstr ""
+msgstr "Surová, měřená oblast bez použitého faktoru nebo počtu."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:factor"
 msgid "The area factor applied when calculating the final area sum."
-msgstr ""
+msgstr "Faktor plochy použitý při výpočtu konečného součtu plochy."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:calculated-area"
 msgid "Calculated area including the factor and count."
-msgstr ""
+msgstr "Vypočítaná plocha včetně faktoru a počtu."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
-msgid ""
-"Generates two columns: a column including all areas that are added to the "
-"sum, and a column including all areas that are subtracted from the total "
-"sum.\n"
-"\n"
-"Enter the two column headers separated by a semicolon."
-msgstr ""
+msgid "Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n\nEnter the two column headers separated by a semicolon."
+msgstr "Generuje dva sloupce: sloupec zahrnující všechny oblasti, které jsou přidány k součtu, a sloupec zahrnující všechny oblasti, které jsou odečteny od celkového součtu.\n\nZadejte dvě záhlaví sloupců oddělená středníkem."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:image-area-sum"
-msgid ""
-"Each row holds the area sum of the image. The footer row holds the total "
-"over all images."
-msgstr ""
+msgid "Each row holds the area sum of the image. The footer row holds the total over all images."
+msgstr "Každý řádek obsahuje součet ploch obrázku. Řádek zápatí obsahuje součet přes všechny obrázky."
 
+#, fuzzy
 msgctxt "templ:partslist:class-display-name"
 msgid "Parts list template"
-msgstr ""
+msgstr "Šablona seznamu dílů"
 
+#, fuzzy
 msgctxt "templ:partslist:tagtype:count"
 msgid "Count"
-msgstr ""
+msgstr "Počet"
 
+#, fuzzy
 msgctxt "templ:partslist:tagtype:length"
 msgid "Length"
-msgstr ""
+msgstr "Délka"
 
 #, fuzzy
 msgctxt "templ:partslist:tagtype:area"
 msgid "Area"
 msgstr "Plocha"
 
+#, fuzzy
 msgctxt "templ:partslist:tablespec:default"
 msgid "Default table"
-msgstr ""
+msgstr "Výchozí tabulka"
 
+#, fuzzy
 msgctxt "templ:partslist:tablespec:new"
 msgid "New table"
-msgstr ""
+msgstr "Nový stůl"
 
+#, fuzzy
 msgctxt "templ:partslist:tag:tag"
 msgid "Tag"
-msgstr ""
+msgstr "Štítek"
 
+#, fuzzy
 msgctxt "templ:partslist:tag:name"
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
+#, fuzzy
 msgctxt "templ:partslist:tag:count"
 msgid "Count"
-msgstr ""
+msgstr "Počet"
 
+#, fuzzy
 msgctxt "templ:partslist:tag:comment"
 msgid "Comment"
-msgstr ""
+msgstr "Komentář"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:item:image"
 msgid "Image"
-msgstr ""
+msgstr "obraz"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:item:element"
 msgid "No."
-msgstr ""
+msgstr "Ne."
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:item:image_and_element"
 msgid "No."
-msgstr ""
+msgstr "Ne."
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:tagname"
 msgid "Item"
-msgstr ""
+msgstr "Položka"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:comment"
 msgid "Comment"
-msgstr ""
+msgstr "Komentář"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:count"
 msgid "Count"
-msgstr ""
+msgstr "Počet"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:quantity"
 msgid "Qty"
-msgstr ""
+msgstr "Množství"
 
+#, fuzzy
 msgctxt "templ:uiitem:duplicate:local"
 msgid "(local copy)"
-msgstr ""
+msgstr "(místní kopie)"
 
+#, fuzzy
 msgctxt "templ:uiitem:duplicate:global"
 msgid "(from settings)"
-msgstr ""
+msgstr "(z nastavení)"
 
+#, fuzzy
 msgctxt "table-operation:none"
 msgid "None"
-msgstr ""
+msgstr "Žádný"
 
 #, fuzzy
 msgctxt "table-operation:none:keep"
 msgid "Keep"
 msgstr "Zachovat oba"
 
+#, fuzzy
 msgctxt "table-operation:sum"
 msgid "Sum"
-msgstr ""
+msgstr "Součet"
 
+#, fuzzy
 msgctxt "table-operation:avg"
 msgid "Average"
-msgstr ""
+msgstr "Průměrný"
 
+#, fuzzy
 msgctxt "table-operation:min"
 msgid "Min"
-msgstr ""
+msgstr "Min"
 
+#, fuzzy
 msgctxt "table-operation:max"
 msgid "Max"
-msgstr ""
+msgstr "Max"
 
+#, fuzzy
 msgctxt "table-operation:median"
 msgid "Median"
-msgstr ""
+msgstr "Medián"
 
+#, fuzzy
 msgctxt "table-operation:count"
 msgid "Count"
-msgstr ""
+msgstr "Počet"
 
 #, fuzzy
 msgctxt "SyncAction:NOP"
@@ -2309,17 +2475,20 @@ msgctxt "SyncAction:PUSH_NEW"
 msgid "Upload new"
 msgstr "Nahrát nové"
 
+#, fuzzy
 msgctxt "SyncAction:PUSH_UPDATE"
 msgid "Upload update"
-msgstr ""
+msgstr "Nahrát aktualizaci"
 
+#, fuzzy
 msgctxt "SyncAction:DELETE_LOCAL"
 msgid "Delete locally"
-msgstr ""
+msgstr "Odstranit lokálně"
 
+#, fuzzy
 msgctxt "SyncAction:DELETE_REMOTE"
 msgid "Delete on server"
-msgstr ""
+msgstr "Smazat na serveru"
 
 msgctxt "license:source:android-in-app"
 msgid "In-app"
@@ -2357,366 +2526,433 @@ msgctxt "entity-initialization:image-title:pdf-page-without-name"
 msgid "PDF import, page {page}"
 msgstr "Import PDF, stránka {page}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:import-with-name"
 msgid "{filename.stem}"
-msgstr ""
+msgstr "{filename.stem}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:import-without-name"
 msgid "imported {now}"
-msgstr ""
+msgstr "importováno {now}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:canvas"
 msgid "new canvas"
-msgstr ""
+msgstr "nové plátno"
 
+#, fuzzy
 msgctxt "entity-initialization:folder-title"
 msgid "new folder"
-msgstr ""
+msgstr "nová složka"
 
+#, fuzzy
 msgctxt "stringscript:help:introtext"
-msgid ""
-"Enter the text that should appear here. You can add variables enclosed by "
-"{ } that will be substituted.\n"
-"\n"
-"Here are some example variables, but see below for the list of variables "
-"that are actually allowed here:\n"
-"{image.title} - image title\n"
-"{image.number} - the number you assigned to the image\n"
-"{folder.title} - title of the current folder\n"
-"{folder.parent.title} - title of the parent folder\n"
-"\n"
-"You can build complex expressions like this:\n"
-"{folder.title} / {image.number} - {image.title}"
-msgstr ""
+msgid "Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n\nHere are some example variables, but see below for the list of variables that are actually allowed here:\n{image.title} - image title\n{image.number} - the number you assigned to the image\n{folder.title} - title of the current folder\n{folder.parent.title} - title of the parent folder\n\nYou can build complex expressions like this:\n{folder.title} / {image.number} - {image.title}"
+msgstr "Zadejte text, který by se zde měl objevit. Můžete přidat proměnné uzavřené znakem { }, které budou nahrazeny.\n\nZde je několik příkladů proměnných, ale seznam proměnných, které jsou zde skutečně povoleny, naleznete níže:\n{image.title} - název obrázku\n{image.number} - číslo, které jste obrázku přiřadili\n{folder.title} - název aktuální složky\n{folder.parent.title} - název nadřazené složky\n\nSložité výrazy můžete vytvářet takto:\n{folder.title} / {image.number} - {image.title}"
 
+#, fuzzy
 msgctxt "stringscript:help:intro_toplevel_variables"
 msgid "Allowed top level variables:"
-msgstr ""
+msgstr "Povolené proměnné nejvyšší úrovně:"
 
+#, fuzzy
 msgctxt "stringscript:help:intro_subelements"
-msgid ""
-"Each type may have sub-elements. Here is the list of sub-elements for each "
-"data type:"
-msgstr ""
+msgid "Each type may have sub-elements. Here is the list of sub-elements for each data type:"
+msgstr "Každý typ může mít dílčí prvky. Zde je seznam dílčích prvků pro každý datový typ:"
 
+#, fuzzy
 msgctxt "stringscript:root:member:image"
 msgid "This image."
-msgstr ""
+msgstr "Tento obrázek."
 
+#, fuzzy
 msgctxt "stringscript:root:member:folder"
 msgid "Current folder."
-msgstr ""
+msgstr "Aktuální složka."
 
+#, fuzzy
 msgctxt "stringscript:root:member:date"
 msgid "The current date and time"
-msgstr ""
+msgstr "Aktuální datum a čas"
 
+#, fuzzy
 msgctxt "stringscript:root:member:import_image_filename"
 msgid "Filename of the imported image."
-msgstr ""
+msgstr "Název souboru importovaného obrázku."
 
+#, fuzzy
 msgctxt "stringscript:root:member:import_image_exif"
 msgid "EXIF metdata of the imported image."
-msgstr ""
+msgstr "EXIF metadata importovaného obrázku."
 
+#, fuzzy
 msgctxt "stringscript:root:member:import_pdf_filename"
 msgid "Filename of the imported PDF."
-msgstr ""
+msgstr "Název souboru importovaného PDF."
 
+#, fuzzy
 msgctxt "stringscript:root:member:imported_pdf_page"
 msgid "Imported PDF page."
-msgstr ""
+msgstr "Importovaná stránka PDF."
 
+#, fuzzy
 msgctxt "stringscript:root:member:pdf-image-folder"
 msgid "Folder of each image."
-msgstr ""
+msgstr "Složka každého obrázku."
 
+#, fuzzy
 msgctxt "scriptobject:undefined:value"
 msgid "undefined"
-msgstr ""
+msgstr "nedefinováno"
 
+#, fuzzy
 msgctxt "scriptobject:undefined:type"
 msgid "undefined"
-msgstr ""
+msgstr "nedefinováno"
 
+#, fuzzy
 msgctxt "scriptobject:string:type"
 msgid "string"
-msgstr ""
+msgstr "text"
 
+#, fuzzy
 msgctxt "scriptobject:float:type"
 msgid "number"
-msgstr ""
+msgstr "číslo"
 
+#, fuzzy
 msgctxt "scriptobject:integer:type"
 msgid "integer number"
-msgstr ""
+msgstr "celé číslo"
 
+#, fuzzy
 msgctxt "scriptobject:integer:description"
 msgid "An integer number"
-msgstr ""
+msgstr "Celé číslo"
 
+#, fuzzy
 msgctxt "scriptobject:integer:member:2"
 msgid "Format as 2-digit number"
-msgstr ""
+msgstr "Formátovat jako 2místné číslo"
 
+#, fuzzy
 msgctxt "scriptobject:integer:member:3"
 msgid "Format as 3-digit number"
-msgstr ""
+msgstr "Formátovat jako 3místné číslo"
 
+#, fuzzy
 msgctxt "scriptobject:integer:member:4"
 msgid "Format as 4-digit number"
-msgstr ""
+msgstr "Formátovat jako 4místné číslo"
 
+#, fuzzy
 msgctxt "scriptobject:keyvaluepairs:type"
 msgid "collection"
-msgstr ""
+msgstr "sbírka"
 
+#, fuzzy
 msgctxt "scriptobject:keyvaluepairs:description"
 msgid "A collection of other objects"
-msgstr ""
+msgstr "Sbírka dalších předmětů"
 
+#, fuzzy
 msgctxt "scriptobject:databundle:type"
 msgid "image"
-msgstr ""
+msgstr "obraz"
 
+#, fuzzy
 msgctxt "scriptobject:databundle:description"
 msgid "Information about an image"
-msgstr ""
+msgstr "Informace o obrázku"
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:title"
 msgid "The image title."
-msgstr ""
+msgstr "Název obrázku."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:parent"
 msgid "The folder this image is located in."
-msgstr ""
+msgstr "Složka, ve které se nachází tento obrázek."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:number"
 msgid "The user-assigned number."
-msgstr ""
+msgstr "Uživatelem přiřazené číslo."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:capture_date"
 msgid "The date at which this image was captured."
-msgstr ""
+msgstr "Datum, kdy byl tento obrázek zachycen."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:exif"
 msgid "EXIF data of this image."
-msgstr ""
+msgstr "EXIF data tohoto obrázku."
 
+#, fuzzy
 msgctxt "scriptobject:folder:type"
 msgid "folder"
-msgstr ""
+msgstr "složku"
 
+#, fuzzy
 msgctxt "scriptobject:folder:description"
 msgid "Information about a folder"
-msgstr ""
+msgstr "Informace o složce"
 
+#, fuzzy
 msgctxt "scriptobject:folder:member:title"
 msgid "Folder title."
-msgstr ""
+msgstr "Název složky."
 
+#, fuzzy
 msgctxt "scriptobject:folder:member:parent"
 msgid "The folder above this one."
-msgstr ""
+msgstr "Složka nad touto."
 
+#, fuzzy
 msgctxt "scriptobject:folder:member:number"
 msgid "The user-assigned number."
-msgstr ""
+msgstr "Uživatelem přiřazené číslo."
 
+#, fuzzy
 msgctxt "scriptobject:date:type"
 msgid "date"
-msgstr ""
+msgstr "datum"
 
+#, fuzzy
 msgctxt "scriptobject:date:description"
 msgid "Date and time"
-msgstr ""
+msgstr "Datum a čas"
 
+#, fuzzy
 msgctxt "scriptobject:date:member:yyyy"
 msgid "Year (4 digits)."
-msgstr ""
+msgstr "Rok (4 číslice)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:yy"
 msgid "Year (last 2 digits)."
-msgstr ""
+msgstr "Rok (poslední 2 číslice)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:m"
 msgid "Month number."
-msgstr ""
+msgstr "Číslo měsíce."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:mm"
 msgid "Month number (2 digits)."
-msgstr ""
+msgstr "Číslo měsíce (2 číslice)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:M"
 msgid "Month (name abbreviation)."
-msgstr ""
+msgstr "Měsíc (zkratka názvu)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:MM"
 msgid "Month (full name)."
-msgstr ""
+msgstr "Měsíc (celé jméno)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:d"
 msgid "Day of month."
-msgstr ""
+msgstr "Den v měsíci."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:dd"
 msgid "Day of month (2 digits)."
-msgstr ""
+msgstr "Den v měsíci (2 číslice)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:h"
 msgid "Hour."
-msgstr ""
+msgstr "Hodina."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:hh"
 msgid "Hour (2 digits)."
-msgstr ""
+msgstr "Hodina (2 číslice)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:h12"
 msgid "Hour (12 hours + am/pm)."
-msgstr ""
+msgstr "Hodina (12 hodin + dopoledne/odpoledne)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:min"
 msgid "Minutes (2 digits)."
-msgstr ""
+msgstr "Minuty (2 číslice)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:sec"
 msgid "Seconds (2 digits)."
-msgstr ""
+msgstr "Sekundy (2 číslice)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:time"
 msgid "Full time in HH:MM:SS format."
-msgstr ""
+msgstr "Na plný úvazek ve formátu HH:MM:SS."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:hhmm"
 msgid "Time in HH:MM format."
-msgstr ""
+msgstr "Čas ve formátu HH:MM."
 
+#, fuzzy
 msgctxt "scriptobject:filename:type"
 msgid "filename"
-msgstr ""
+msgstr "název souboru"
 
+#, fuzzy
 msgctxt "scriptobject:filename:description"
 msgid "A filename"
-msgstr ""
+msgstr "Název souboru"
 
+#, fuzzy
 msgctxt "scriptobject:filename:member:stem"
 msgid "The filename without suffix."
-msgstr ""
+msgstr "Název souboru bez přípony."
 
+#, fuzzy
 msgctxt "scriptobject:filename:member:suffix"
 msgid "The filanme suffix."
-msgstr ""
+msgstr "Filanmová přípona."
 
+#, fuzzy
 msgctxt "scriptobject:exif:type"
 msgid "exif"
-msgstr ""
+msgstr "exif"
 
+#, fuzzy
 msgctxt "scriptobject:exif:description"
 msgid "EXIF metadata from the image"
-msgstr ""
+msgstr "EXIF metadata z obrázku"
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:gps"
 msgid "GPS location."
-msgstr ""
+msgstr "Poloha GPS."
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:date"
 msgid "Date the image was captured."
-msgstr ""
+msgstr "Datum pořízení obrázku."
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:make"
 msgid "Camera manufacturer."
-msgstr ""
+msgstr "Výrobce kamery."
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:model"
 msgid "Camera model."
-msgstr ""
+msgstr "Model kamery."
 
+#, fuzzy
 msgctxt "scriptobject:gps:type"
 msgid "gps"
-msgstr ""
+msgstr "GPS"
 
+#, fuzzy
 msgctxt "scriptobject:gps:description"
 msgid "GPS location"
-msgstr ""
+msgstr "Poloha GPS"
 
+#, fuzzy
 msgctxt "scriptobject:gps:member:latitude"
 msgid "Latitude (N/S)."
-msgstr ""
+msgstr "Zeměpisná šířka (J/S)."
 
+#, fuzzy
 msgctxt "scriptobject:gps:member:longitude"
 msgid "Longitude (E/W)."
-msgstr ""
+msgstr "Zeměpisná délka (V/Z)."
 
+#, fuzzy
 msgctxt "scriptobject:gps:member:altitude"
 msgid "Altitude."
-msgstr ""
+msgstr "Nadmořská výška."
 
+#, fuzzy
 msgctxt "editor:warning:element:value-is-locked"
 msgid "Value is locked. You have to unlock it first."
-msgstr ""
+msgstr "Hodnota je uzamčena. Nejprve jej musíte odemknout."
 
 #, fuzzy
 msgctxt "lock:editor"
 msgid "editor"
 msgstr "editor"
 
+#, fuzzy
 msgctxt "lock:folder-content"
 msgid "list folder content"
-msgstr ""
+msgstr "seznam obsahu složky"
 
+#, fuzzy
 msgctxt "lock:FileBrowserContent"
 msgid "file browser"
-msgstr ""
+msgstr "prohlížeč souborů"
 
+#, fuzzy
 msgctxt "lock:thumbnail-rendering"
 msgid "thumbnail rendering"
-msgstr ""
+msgstr "vykreslování miniatur"
 
+#, fuzzy
 msgctxt "lock:rendering"
 msgid "image rendering"
-msgstr ""
+msgstr "vykreslování obrazu"
 
+#, fuzzy
 msgctxt "lock:create-image"
 msgid "creating image"
-msgstr ""
+msgstr "vytváření obrazu"
 
+#, fuzzy
 msgctxt "lock:import-image"
 msgid "importing image"
-msgstr ""
+msgstr "import obrázku"
 
 #, fuzzy
 msgctxt "lock:syncer"
 msgid "cloud synchronization"
 msgstr "cloudová synchronizace"
 
+#, fuzzy
 msgctxt "lock:image-syncer"
 msgid "image cloud upload"
-msgstr ""
+msgstr "odesílání obrázků do cloudu"
 
+#, fuzzy
 msgctxt "lock:pro-migration"
 msgid "pro migration"
-msgstr ""
+msgstr "pro migraci"
 
+#, fuzzy
 msgctxt "lock:delete-image"
 msgid "deleting image"
-msgstr ""
+msgstr "mazání obrázku"
 
+#, fuzzy
 msgctxt "lock:delete-entity"
 msgid "deleting entity"
-msgstr ""
+msgstr "mazání entity"
 
+#, fuzzy
 msgctxt "lock:dialog-image-name"
 msgid "image renaming dialog"
-msgstr ""
+msgstr "dialog pro přejmenování obrázku"
 
+#, fuzzy
 msgctxt "lock:copy-directory"
 msgid "copying directory"
-msgstr ""
+msgstr "kopírování adresáře"
 
+#, fuzzy
 msgctxt "lock:set-library-root"
 msgid "setting image library root"
-msgstr ""
+msgstr "nastavení kořenového adresáře knihovny obrázků"
 
-msgctxt "lock:undelete-entity"
-msgid "undeleting entity"
-msgstr ""
