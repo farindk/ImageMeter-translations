@@ -18,77 +18,95 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(((n == 1)) ? 0 : 1)\n"
 "Generated-By: Babel 2.9.0\n"
 
+#, fuzzy
 msgctxt "error:InternalError"
 msgid "Internal error: {}."
-msgstr ""
+msgstr "Εσωτερικό σφάλμα: {}."
 
+#, fuzzy
 msgctxt "error:OutOfMemory:no_size"
 msgid "Out of memory"
-msgstr ""
+msgstr "Μη διαθέσιμη μνήμη"
 
+#, fuzzy
 msgctxt "error:OutOfMemory:with_bytes_size"
 msgid "Out of memory (cannot allocate {} bytes)."
-msgstr ""
+msgstr "Εκτός μνήμης (δεν είναι δυνατή η κατανομή {} byte)."
 
+#, fuzzy
 msgctxt "error:OutOfMemory:with_mb_size"
 msgid "Out of memory (cannot allocate {} MB)."
-msgstr ""
+msgstr "Εκτός μνήμης (δεν είναι δυνατή η κατανομή {} MB)."
 
+#, fuzzy
 msgctxt "error:ZLibCompressionError"
 msgid "ZLib error code: '{}'."
-msgstr ""
+msgstr "Κωδικός σφάλματος ZLib: '{}'."
 
+#, fuzzy
 msgctxt "error:ZipError"
 msgid "ZIP error: {}"
-msgstr ""
+msgstr "Σφάλμα ZIP: {}"
 
+#, fuzzy
 msgctxt "error:ZIP_ReadError"
 msgid "Error reading ZIP file."
-msgstr ""
+msgstr "Σφάλμα ανάγνωσης αρχείου ZIP."
 
+#, fuzzy
 msgctxt "error:NLohmann_JsonParseError"
 msgid "Parse error '{}'"
-msgstr ""
+msgstr "Ανάλυση σφάλματος '{}'"
 
+#, fuzzy
 msgctxt "error:LibJPEG_Error"
 msgid "LibJPEG error: \"{}\"."
-msgstr ""
+msgstr "Σφάλμα LibJPEG: \"{}\"."
 
+#, fuzzy
 msgctxt "error:CommaSeparatedList_EmptyString"
 msgid "Empty item in list."
-msgstr ""
+msgstr "Κενό στοιχείο στη λίστα."
 
+#, fuzzy
 msgctxt "error:Files_FileDoesNotExist"
 msgid "File does not exist: \"{}\"."
-msgstr ""
+msgstr "Το αρχείο δεν υπάρχει: \"{}\"."
 
+#, fuzzy
 msgctxt "error:Files_FileCannotBeOpened"
 msgid "Cannot open file \"{}\"."
-msgstr ""
+msgstr "Δεν είναι δυνατό το άνοιγμα του αρχείου \"{}\"."
 
+#, fuzzy
 msgctxt "error:Files_CannotDeleteFile"
 msgid "Cannot delete file '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η διαγραφή του αρχείου '{}'."
 
+#, fuzzy
 msgctxt "error:Files_CannotReadFile"
 msgid "Cannot read file '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η ανάγνωση του αρχείου '{}'."
 
+#, fuzzy
 msgctxt "error:Files_CannotWriteFile"
 msgid "Cannot write file '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η εγγραφή του αρχείου '{}'."
 
+#, fuzzy
 msgctxt "error:Files_CannotRenameFile"
 msgid "Cannot rename file '{0}' to '{1}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η μετονομασία του αρχείου '{0}' σε '{1}'."
 
+#, fuzzy
 msgctxt "error:Files_CannotCreateDirectory"
 msgid "Cannot create directory \"{}\"."
-msgstr ""
+msgstr "Δεν είναι δυνατή η δημιουργία καταλόγου \"{}\"."
 
+#, fuzzy
 msgctxt "error:Files_DirectoryDoesNotExist"
 msgid "Directory '{}' does not exist."
-msgstr ""
+msgstr "Ο κατάλογος '{}' δεν υπάρχει."
 
 msgctxt "error:Files_CannotRenameDirectory"
 msgid "Cannot rename folder '{0}' to '{1}'."
@@ -98,41 +116,50 @@ msgctxt "error:Files_CannotDeleteDirectory"
 msgid "Cannot delete folder '{}'."
 msgstr "Δεν μπορεί να διαγραφεί ο φάκελος '{}'."
 
+#, fuzzy
 msgctxt "error:Files_CorruptedFileCompression"
 msgid "File compression error."
-msgstr ""
+msgstr "Σφάλμα συμπίεσης αρχείων."
 
+#, fuzzy
 msgctxt "error:Files_CannotReadDirectory"
 msgid "Cannot read directory '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η ανάγνωση του καταλόγου '{}'."
 
+#, fuzzy
 msgctxt "error:Files_CannotCopyDirectory"
 msgid "Cannot copy directory '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η αντιγραφή του καταλόγου '{}'."
 
+#, fuzzy
 msgctxt "error:Files_Errno"
 msgid "OS error: '{}'."
-msgstr ""
+msgstr "Σφάλμα λειτουργικού συστήματος: '{}'."
 
+#, fuzzy
 msgctxt "error:Files_Win32"
 msgid "Windows error: '{}'"
-msgstr ""
+msgstr "Σφάλμα Windows: '{}'"
 
+#, fuzzy
 msgctxt "error:Files_CannotGenerateUniqueFilename"
 msgid "Cannot generate unique filename: '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η δημιουργία μοναδικού ονόματος αρχείου: '{}'."
 
+#, fuzzy
 msgctxt "error:ProjectFolder_CannotCreate"
 msgid "Cannot create folder '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η δημιουργία φακέλου '{}'."
 
+#, fuzzy
 msgctxt "error:ProjectFolder_CannotWriteIFD"
 msgid "Cannot write IFD file for folder '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η εγγραφή αρχείου IFD για το φάκελο '{}'."
 
+#, fuzzy
 msgctxt "error:ProjectFolder_CannotLoadFolder"
 msgid "Cannot load folder '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η φόρτωση του φακέλου '{}'."
 
 #, fuzzy
 msgctxt "error:ProjectFolder_CannotRenameFolder"
@@ -144,231 +171,285 @@ msgctxt "error:ProjectFolder_CannotDeleteFolder"
 msgid "Cannot delete folder '{}'."
 msgstr "Δεν μπορεί να διαγραφεί ο φάκελος '{}'."
 
+#, fuzzy
 msgctxt "error:ProjectFolder_MultipleIFDFiles"
 msgid "More than one IFD file found."
-msgstr ""
+msgstr "Βρέθηκαν περισσότερα από ένα αρχεία IFD."
 
+#, fuzzy
 msgctxt "error:ProjectFolder_IFDParseError"
 msgid "IFD file parse error."
-msgstr ""
+msgstr "Σφάλμα ανάλυσης αρχείου IFD."
 
+#, fuzzy
 msgctxt "error:DataBundle_CannotLoadDataBundle"
 msgid "Cannot load image '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η φόρτωση της εικόνας '{}'."
 
+#, fuzzy
 msgctxt "error:DataBundle_CannotCreate"
 msgid "Cannot create new image '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η δημιουργία νέας εικόνας '{}'."
 
+#, fuzzy
 msgctxt "error:DataBundle_CannotWriteIMM"
 msgid "Cannot write IMM file for image '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η εγγραφή αρχείου IMM για την εικόνα '{}'."
 
+#, fuzzy
 msgctxt "error:DataBundle_CannotDelete"
 msgid "Cannot delete image '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η διαγραφή της εικόνας '{}'."
 
+#, fuzzy
 msgctxt "error:DataBundle_CannotRenameFolder"
 msgid "Cannot rename directory of image '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η μετονομασία του καταλόγου της εικόνας '{}'."
 
+#, fuzzy
 msgctxt "error:DataBundle_MultipleIMMFiles"
 msgid "More than one IMM file found."
-msgstr ""
+msgstr "Βρέθηκαν περισσότερα από ένα αρχεία IMM."
 
+#, fuzzy
 msgctxt "error:DataBundle_CannotReadIMMFile"
 msgid "Cannot read IMM file."
-msgstr ""
+msgstr "Δεν είναι δυνατή η ανάγνωση του αρχείου IMM."
 
+#, fuzzy
 msgctxt "error:DataBundle_CannotGetContentArea"
 msgid "Unknown content area."
-msgstr ""
+msgstr "Άγνωστη περιοχή περιεχομένου."
 
+#, fuzzy
 msgctxt "error:DataBundle_IMMParseError"
 msgid "IMM file parse error ({})."
-msgstr ""
+msgstr "Σφάλμα ανάλυσης αρχείου IMM ({})."
 
+#, fuzzy
 msgctxt "error:Entity_CannotMove"
 msgid "Cannot move '{}' to new directory."
-msgstr ""
+msgstr "Δεν είναι δυνατή η μετακίνηση '{}' στον νέο κατάλογο."
 
+#, fuzzy
 msgctxt "error:Entity_Numbering_InvalidNumber"
 msgid "Invalid number: '{}'."
-msgstr ""
+msgstr "Μη έγκυρος αριθμός: '{}'."
 
+#, fuzzy
 msgctxt "error:DeleteLogic_CannotDelete"
 msgid "Cannot delete folder '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η διαγραφή του φακέλου '{}'."
 
+#, fuzzy
 msgctxt "error:DeleteLogic_CannotMarkAsDeleted"
 msgid "Cannot mark folder '{}' as deleted."
-msgstr ""
+msgstr "Δεν είναι δυνατή η επισήμανση του φακέλου '{}' ως διαγραμμένου."
 
+#, fuzzy
 msgctxt "error:IFD_ParseError"
 msgid "IFD file parse error."
-msgstr ""
+msgstr "Σφάλμα ανάλυσης αρχείου IFD."
 
+#, fuzzy
 msgctxt "error:CannotLockPath-readLock"
 msgid "Cannot read file '{}' because it is currently being modified."
-msgstr ""
+msgstr "Δεν είναι δυνατή η ανάγνωση του αρχείου '{}' επειδή αυτή τη στιγμή τροποποιείται."
 
+#, fuzzy
 msgctxt "error:CannotLockPath-writeLock"
 msgid "Cannot modify file '{}' because it is currently in use."
-msgstr ""
+msgstr "Δεν είναι δυνατή η τροποποίηση του αρχείου '{}' επειδή χρησιμοποιείται αυτήν τη στιγμή."
 
+#, fuzzy
 msgctxt "error:UnknownFileFormat"
 msgid "File '{}' has unknown format."
-msgstr ""
+msgstr "Το αρχείο '{}' έχει άγνωστη μορφή."
 
+#, fuzzy
 msgctxt "error:CannotCreateIMIFile"
 msgid "Cannot create IMI file '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η δημιουργία αρχείου IMI '{}'."
 
+#, fuzzy
 msgctxt "error:NoZipSupport"
 msgid "Zip files are not supported."
-msgstr ""
+msgstr "Τα αρχεία zip δεν υποστηρίζονται."
 
+#, fuzzy
 msgctxt "error:ImageReader_ReaderError"
 msgid "Image reader error."
-msgstr ""
+msgstr "Σφάλμα αναγνώστη εικόνας."
 
+#, fuzzy
 msgctxt "error:ImageReader_CorruptedImage"
 msgid "Corrupted image file."
-msgstr ""
+msgstr "Κατεστραμμένο αρχείο εικόνας."
 
+#, fuzzy
 msgctxt "error:ImageReader_UnsupportedFormat"
 msgid "Unsupported image format."
-msgstr ""
+msgstr "Μη υποστηριζόμενη μορφή εικόνας."
 
+#, fuzzy
 msgctxt "error:CannotReadTexture"
 msgid "Cannot read texture '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η ανάγνωση της υφής '{}'."
 
+#, fuzzy
 msgctxt "error:OpenGL"
 msgid "OpenGL error: \"{}\"."
-msgstr ""
+msgstr "Σφάλμα OpenGL: \"{}\"."
 
+#, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
-msgid ""
-"Not enough memory to render at output resolution {}. Please reduce the "
-"output resolution."
-msgstr ""
+msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
+msgstr "Δεν υπάρχει αρκετή μνήμη για απόδοση σε ανάλυση εξόδου {}. Μειώστε την ανάλυση εξόδου."
 
+#, fuzzy
 msgctxt "error:CannotRenderImage"
 msgid "Cannot render image \"{}\"."
-msgstr ""
+msgstr "Δεν είναι δυνατή η απόδοση της εικόνας \"{}\"."
 
+#, fuzzy
 msgctxt "error:DataBundle_CannotOpen"
 msgid "Cannot open image \"{}\"."
-msgstr ""
+msgstr "Δεν είναι δυνατό το άνοιγμα της εικόνας \"{}\"."
 
+#, fuzzy
 msgctxt "error:EditCore_CannotLoadAuxiliary_Data"
 msgid "Cannot load auxiliary data."
-msgstr ""
+msgstr "Δεν είναι δυνατή η φόρτωση βοηθητικών δεδομένων."
 
+#, fuzzy
 msgctxt "error:EditCore_CannotPurgeUnusedAuxiliaryFiles"
 msgid "Cannot delete unused auxiliary data files."
-msgstr ""
+msgstr "Δεν είναι δυνατή η διαγραφή αχρησιμοποίητων βοηθητικών αρχείων δεδομένων."
 
+#, fuzzy
 msgctxt "error:GText_CannotAddDetailImage"
 msgid "Cannot add the detail image \"{}\"."
-msgstr ""
+msgstr "Δεν είναι δυνατή η προσθήκη της λεπτομερούς εικόνας \"{}\"."
 
+#, fuzzy
 msgctxt "error:GText_CannotAddAudioRecording"
 msgid "Cannot add audio recording \"{}\"."
-msgstr ""
+msgstr "Δεν είναι δυνατή η προσθήκη εγγραφής ήχου \"{}\"."
 
+#, fuzzy
 msgctxt "error:EditCore_CannotReadBackgroundImage"
 msgid "Cannot read photo."
-msgstr ""
+msgstr "Δεν είναι δυνατή η ανάγνωση της φωτογραφίας."
 
+#, fuzzy
 msgctxt "error:ImageReader_CannotReadImage"
 msgid "Cannot read image file."
-msgstr ""
+msgstr "Δεν είναι δυνατή η ανάγνωση του αρχείου εικόνας."
 
+#, fuzzy
 msgctxt "error:IMI_CannotOpen"
 msgid "Cannot open IMI file '{}'."
-msgstr ""
+msgstr "Δεν είναι δυνατό το άνοιγμα του αρχείου IMI '{}'."
 
+#, fuzzy
 msgctxt "error:IMF_CannotReadZip"
 msgid "Corrupted ZIP file \"{}\"."
-msgstr ""
+msgstr "Κατεστραμμένο αρχείο ZIP \"{}\"."
 
+#, fuzzy
 msgctxt "error:IMF_CorruptedFile"
 msgid "Corrupted IMF file."
-msgstr ""
+msgstr "Κατεστραμμένο αρχείο ΔΝΤ."
 
+#, fuzzy
 msgctxt "error:CannotGeneratePdf"
 msgid "Cannot generate PDF"
-msgstr ""
+msgstr "Δεν είναι δυνατή η δημιουργία PDF"
 
+#, fuzzy
 msgctxt "error:LibHaru"
 msgid "LibHARU error: \"{}\""
-msgstr ""
+msgstr "Σφάλμα LibHARU: \"{}\""
 
+#, fuzzy
 msgctxt "error:ImageSettings_CannotLoad"
 msgid "Cannot load image settings."
-msgstr ""
+msgstr "Δεν είναι δυνατή η φόρτωση των ρυθμίσεων εικόνας."
 
+#, fuzzy
 msgctxt "error:ImageSettings_CannotSave"
 msgid "Cannot save image settings."
-msgstr ""
+msgstr "Δεν είναι δυνατή η αποθήκευση των ρυθμίσεων εικόνας."
 
+#, fuzzy
 msgctxt "error:AppPreferences_CannotSetDataRootDirectory"
 msgid "Cannot set the data root directory."
-msgstr ""
+msgstr "Δεν είναι δυνατή η ρύθμιση του ριζικού καταλόγου δεδομένων."
 
+#, fuzzy
 msgctxt "error:AppPreferences_CannotCreateDataRootDirectory"
 msgid "Cannot create the data root directory."
-msgstr ""
+msgstr "Δεν είναι δυνατή η δημιουργία του ριζικού καταλόγου δεδομένων."
 
+#, fuzzy
 msgctxt "error:AppPreferences_NoRootDefined"
 msgid "No data root directory defined."
-msgstr ""
+msgstr "Δεν έχει καθοριστεί ριζικός κατάλογος δεδομένων."
 
+#, fuzzy
 msgctxt "error:ImageLibrary_NoLibraryDirectoryDefined"
 msgid "No image library directory defined."
-msgstr ""
+msgstr "Δεν έχει καθοριστεί κατάλογος βιβλιοθήκης εικόνων."
 
+#, fuzzy
 msgctxt "error:ImageLibrary_CannotPurge"
 msgid "Cannot purge deleted images."
-msgstr ""
+msgstr "Δεν είναι δυνατή η εκκαθάριση των διαγραμμένων εικόνων."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLogin:unknown"
 msgid "Cannot sign in to your cloud server account."
-msgstr ""
+msgstr "Δεν είναι δυνατή η σύνδεση στον λογαριασμό διακομιστή cloud."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLogin:unauthorized"
 msgid "Not authorized to sign in to your cloud server account."
-msgstr ""
+msgstr "Δεν έχει εξουσιοδότηση για σύνδεση στον λογαριασμό διακομιστή cloud."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLogin:incorrect_password"
 msgid "Wrong user name or password."
-msgstr ""
+msgstr "Λάθος όνομα χρήστη ή κωδικός."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLogin:interactive_login_required"
 msgid "Interactive sign in to your cloud server account is required."
-msgstr ""
+msgstr "Απαιτείται διαδραστική σύνδεση στον λογαριασμό σας στο διακομιστή cloud."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLogin:cancelled_by_user"
 msgid "Sign in to your cloud server account has been cancelled."
-msgstr ""
+msgstr "Η σύνδεση στον λογαριασμό διακομιστή cloud έχει ακυρωθεί."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLogin:network_error"
 msgid "Network error while connecting to your cloud server account."
-msgstr ""
+msgstr "Σφάλμα δικτύου κατά τη σύνδεση στον λογαριασμό διακομιστή cloud."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLogin:server_timeout"
 msgid "Cloud server timeout."
-msgstr ""
+msgstr "Λήξη χρόνου διακομιστή cloud."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLogin:cannot_access_base_folder"
 msgid "Cannot access data directory on cloud server."
-msgstr ""
+msgstr "Δεν είναι δυνατή η πρόσβαση στον κατάλογο δεδομένων στον διακομιστή cloud."
 
+#, fuzzy
 msgctxt "error:Cloud_SyncError"
 msgid "Cannot sync with server."
-msgstr ""
+msgstr "Δεν είναι δυνατός ο συγχρονισμός με το διακομιστή."
 
 #, fuzzy
 msgctxt "error:Cloud_CannotParseSyncStateFile"
@@ -385,183 +466,220 @@ msgctxt "error:Cloud_CannotLoadSyncStateFile"
 msgid "Cannot load sync state file '{}'."
 msgstr "Δεν μπορεί να διαγραφεί ο φάκελος '{}'."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLockServer"
 msgid "Cannot generate server lock file."
-msgstr ""
+msgstr "Δεν είναι δυνατή η δημιουργία αρχείου κλειδώματος διακομιστή."
 
+#, fuzzy
 msgctxt "error:Cloud_ServerError"
 msgid "Server error: {}"
-msgstr ""
+msgstr "Σφάλμα Διακομιστή: {}"
 
+#, fuzzy
 msgctxt "error:Cloud_FileLockedOnServer"
 msgid "File is locked on server. Please retry upload at a later time."
-msgstr ""
+msgstr "Το αρχείο είναι κλειδωμένο στο διακομιστή. Δοκιμάστε ξανά τη μεταφόρτωση αργότερα."
 
+#, fuzzy
 msgctxt "error:Cloud_RemoteFileDoesNotExist"
 msgid "File '{}' does not exist on server"
-msgstr ""
+msgstr "Το αρχείο '{}' δεν υπάρχει στο διακομιστή"
 
+#, fuzzy
 msgctxt "error:Cloud_RemoteFolderDoesNotExist"
 msgid "Folder '{}' does not exist on server"
-msgstr ""
+msgstr "Ο φάκελος '{}' δεν υπάρχει στο διακομιστή"
 
+#, fuzzy
 msgctxt "error:Cloud_CannotCreateFolder"
 msgid "Cannot create folder '{}' on server"
-msgstr ""
+msgstr "Δεν είναι δυνατή η δημιουργία φακέλου '{}' στον διακομιστή"
 
 #, fuzzy
 msgctxt "error:Cloud_CannotCreateFolder-short"
 msgid "Cannot create folder on server"
 msgstr "Δεν μπορεί να διαγραφεί ο φάκελος '{}'."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotUploadFile"
 msgid "Cannot upload file '{}' to server"
-msgstr ""
+msgstr "Δεν είναι δυνατή η μεταφόρτωση του αρχείου '{}' στο διακομιστή"
 
+#, fuzzy
 msgctxt "error:Cloud_CannotUploadFile-short"
 msgid "Cannot upload file to server"
-msgstr ""
+msgstr "Δεν είναι δυνατή η μεταφόρτωση αρχείου στο διακομιστή"
 
+#, fuzzy
 msgctxt "error:Cloud_CannotDownloadFile"
 msgid "Cannot download file '{}' from server"
-msgstr ""
+msgstr "Δεν είναι δυνατή η λήψη του αρχείου '{}' από το διακομιστή"
 
+#, fuzzy
 msgctxt "error:Cloud_CannotDownloadFile-short"
 msgid "Cannot download file from server"
-msgstr ""
+msgstr "Δεν είναι δυνατή η λήψη αρχείου από το διακομιστή"
 
+#, fuzzy
 msgctxt "error:Cloud_CannotDownloadFolder"
 msgid "Cannot download folder '{}' from server"
-msgstr ""
+msgstr "Δεν είναι δυνατή η λήψη του φακέλου '{}' από το διακομιστή"
 
+#, fuzzy
 msgctxt "error:Cloud_CannotDownloadFolder-short"
 msgid "Cannot download folder from server"
-msgstr ""
+msgstr "Δεν είναι δυνατή η λήψη φακέλου από το διακομιστή"
 
+#, fuzzy
 msgctxt "error:Cloud_CannotRenameFile"
 msgid "Cannot rename file '{}' on server"
-msgstr ""
+msgstr "Δεν είναι δυνατή η μετονομασία του αρχείου '{}' στον διακομιστή"
 
 #, fuzzy
 msgctxt "error:Cloud_CannotRenameFile-short"
 msgid "Cannot rename file on server"
 msgstr "Δεν μπορεί να μετονομαστεί ο φάκελος '{0}' σε '{1}'."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotRenameFolder"
 msgid "Cannot rename folder '{}' on server"
-msgstr ""
+msgstr "Δεν είναι δυνατή η μετονομασία του φακέλου '{}' στον διακομιστή"
 
 #, fuzzy
 msgctxt "error:Cloud_CannotRenameFolder-short"
 msgid "Cannot rename folder on server"
 msgstr "Δεν μπορεί να μετονομαστεί ο φάκελος '{0}' σε '{1}'."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotDeleteFile"
 msgid "Cannot delete file '{}' from server"
-msgstr ""
+msgstr "Δεν είναι δυνατή η διαγραφή του αρχείου '{}' από το διακομιστή"
 
 #, fuzzy
 msgctxt "error:Cloud_CannotDeleteFile-short"
 msgid "Cannot delete file from server"
 msgstr "Δεν μπορεί να διαγραφεί ο φάκελος '{}'."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotDeleteFolder"
 msgid "Cannot delete folder '{}' from server"
-msgstr ""
+msgstr "Δεν είναι δυνατή η διαγραφή του φακέλου '{}' από το διακομιστή"
 
 #, fuzzy
 msgctxt "error:Cloud_CannotDeleteFolder"
 msgid "Cannot delete folder from server"
 msgstr "Δεν μπορεί να διαγραφεί ο φάκελος '{}'."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotListFolderContent"
 msgid "Cannot list content of server folder '{}'"
-msgstr ""
+msgstr "Δεν είναι δυνατή η αναγραφή περιεχομένου του φακέλου διακομιστή '{}'"
 
 #, fuzzy
 msgctxt "error:Cloud_CannotListFolderContent-short"
 msgid "Cannot list content of server folder"
 msgstr "Δεν μπορεί να διαγραφεί ο φάκελος '{}'."
 
+#, fuzzy
 msgctxt "error:Cloud_IsNotAFolder"
 msgid "File '{}' is not a folder."
-msgstr ""
+msgstr "Το αρχείο '{}' δεν είναι φάκελος."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotRemoveServerLock"
 msgid "Could not remove server lock file '{}'."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η κατάργηση του αρχείου κλειδώματος διακομιστή '{}'."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotResetServerCache"
 msgid "Could not remove server cache file '{}'."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η κατάργηση του αρχείου προσωρινής μνήμης διακομιστή '{}'."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
-msgstr ""
+msgstr "Δεν ήταν δυνατή η επαναφορά της κατάστασης συγχρονισμού."
 
+#, fuzzy
 msgctxt "error:HTTP-error-400"
 msgid "400 : Bad Request"
-msgstr ""
+msgstr "400: Κακό αίτημα"
 
+#, fuzzy
 msgctxt "error:HTTP-error-401"
 msgid "401 : Unauthorized"
-msgstr ""
+msgstr "401: Μη εξουσιοδοτημένο"
 
+#, fuzzy
 msgctxt "error:HTTP-error-403"
 msgid "403 : Forbidden"
-msgstr ""
+msgstr "403: απαγορευμένο"
 
+#, fuzzy
 msgctxt "error:HTTP-error-404"
 msgid "404 : Not Found"
-msgstr ""
+msgstr "404: δεν βρέθηκε"
 
+#, fuzzy
 msgctxt "error:HTTP-error-405"
 msgid "405 : Method Not Allowed"
-msgstr ""
+msgstr "405: Η μέθοδος δεν επιτρέπεται"
 
+#, fuzzy
 msgctxt "error:HTTP-error-406"
-msgid "406 : Not Acceptable"
-msgstr ""
+msgid "406: Not Acceptable"
+msgstr "406: Μη αποδεκτό"
 
+#, fuzzy
 msgctxt "error:HTTP-error-407"
 msgid "407 : Proxy Authentication Required"
-msgstr ""
+msgstr "407: Απαιτείται έλεγχος ταυτότητας διακομιστή μεσολάβησης"
 
+#, fuzzy
 msgctxt "error:HTTP-error-408"
 msgid "408 : Request Timeout"
-msgstr ""
+msgstr "408: Χρονικό όριο αιτήματος"
 
+#, fuzzy
 msgctxt "error:HTTP-error-409"
 msgid "409 : Conflict"
-msgstr ""
+msgstr "409: Σύγκρουση"
 
+#, fuzzy
 msgctxt "error:HTTP-error-410"
 msgid "410 : Gone"
-msgstr ""
+msgstr "410: Έφυγε"
 
+#, fuzzy
 msgctxt "error:HTTP-error-500"
 msgid "500 : Internal Server Error"
-msgstr ""
+msgstr "500: Εσωτερικό σφάλμα διακομιστή"
 
+#, fuzzy
 msgctxt "error:HTTP-error-501"
 msgid "501 : Not Implemented"
-msgstr ""
+msgstr "501: Δεν εφαρμόζεται"
 
+#, fuzzy
 msgctxt "error:HTTP-error-502"
 msgid "502 : Bad Gateway"
-msgstr ""
+msgstr "502: Bad Gateway"
 
+#, fuzzy
 msgctxt "error:HTTP-error-503"
 msgid "503 : Service Unavailable"
-msgstr ""
+msgstr "503: Υπηρεσία Μη Διαθέσιμη"
 
+#, fuzzy
 msgctxt "error:HTTP-error-504"
 msgid "504 : Gateway Timeout"
-msgstr ""
+msgstr "504: Χρονικό όριο πύλης"
 
+#, fuzzy
 msgctxt "error:NetworkError"
 msgid "Network error: {}"
-msgstr ""
+msgstr "Σφάλμα δικτύου: {}"
 
 #, fuzzy
 msgctxt "error:BluetoothError:no_active_element"
@@ -593,29 +711,35 @@ msgctxt "error:BluetoothError:generic"
 msgid "Cannot set received Bluetooth value."
 msgstr "Δεν μπορεί να τεθεί η Bluetooth τιμή: %1$s."
 
+#, fuzzy
 msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
-msgstr ""
+msgstr "Ο εξωτερικός κατάλογος δεν είναι τοποθετημένος."
 
+#, fuzzy
 msgctxt "error:Android_NeedsStoragePermission"
 msgid "Access to directory '{}' needs the Storage permission."
-msgstr ""
+msgstr "Η πρόσβαση στον κατάλογο '{}' χρειάζεται άδεια αποθήκευσης."
 
+#, fuzzy
 msgctxt "error:Android_Import_SecurityException"
 msgid "Security exception when accessing URI '{}'."
-msgstr ""
+msgstr "Εξαίρεση ασφαλείας κατά την πρόσβαση στο URI '{}'."
 
+#, fuzzy
 msgctxt "error:Android_InsertImageIntoGallery"
 msgid "Cannot insert image into gallery ({})."
-msgstr ""
+msgstr "Δεν είναι δυνατή η εισαγωγή εικόνας στη συλλογή ({})."
 
+#, fuzzy
 msgctxt "error:Android_CopyImageDataIntoGallery"
 msgid "Cannot copy image data into gallery (url='{}')."
-msgstr ""
+msgstr "Δεν είναι δυνατή η αντιγραφή δεδομένων εικόνας στη συλλογή (url='{}')."
 
+#, fuzzy
 msgctxt "error:Android_DeleteOldImageFromGallery"
 msgid "Cannot delete old image from gallery (url='{}')."
-msgstr ""
+msgstr "Δεν είναι δυνατή η διαγραφή της παλιάς εικόνας από τη συλλογή (url='{}')."
 
 msgctxt "unit:translated-name:meter"
 msgid "m"
@@ -633,13 +757,15 @@ msgctxt "unit:translated-name:yard"
 msgid "yard"
 msgstr "γιάρδα"
 
+#, fuzzy
 msgctxt "unit:translated-name:mile"
 msgid "mile"
-msgstr ""
+msgstr "μίλι"
 
+#, fuzzy
 msgctxt "unit:translated-name:mil"
 msgid "mil"
-msgstr ""
+msgstr "mil"
 
 msgctxt "unit:translated-name:meter2"
 msgid "m²"
@@ -653,33 +779,40 @@ msgctxt "unit:translated-name:foot2"
 msgid "sq foot"
 msgstr "τετραγωνικά πόδια (sq ft)"
 
+#, fuzzy
 msgctxt "unit:translated-name:yard2"
 msgid "sq yard"
-msgstr ""
+msgstr "τετραγωνική αυλή (sq yd)"
 
+#, fuzzy
 msgctxt "unit:translated-name:mile2"
 msgid "sq mile"
-msgstr ""
+msgstr "τετραγωνικό μίλι"
 
+#, fuzzy
 msgctxt "unit:translated-name:acre"
 msgid "acre"
-msgstr ""
+msgstr "Έικρ"
 
+#, fuzzy
 msgctxt "unit:translated-name:are"
 msgid "are"
-msgstr ""
+msgstr "άριο"
 
+#, fuzzy
 msgctxt "unit:translated-name:ha"
 msgid "hectare"
-msgstr ""
+msgstr "εκτάριο"
 
+#, fuzzy
 msgctxt "unit:translated-name:mil2"
 msgid "square mil"
-msgstr ""
+msgstr "τετραγωνικό mil"
 
+#, fuzzy
 msgctxt "unit:translated-name:cmil"
 msgid "circular mil"
-msgstr ""
+msgstr "κυκλικό mil"
 
 msgctxt "unit:translated-name:degrees"
 msgid "degrees"
@@ -703,11 +836,11 @@ msgstr "Μετρικό (1.00 m)"
 
 msgctxt "dimtemplate:length:decimal-imperial"
 msgid "Imperial (1.00 ft)"
-msgstr "Βρετανικό (1' 10 1/32\")"
+msgstr "Βρετανικό (1.00 ft)"
 
 msgctxt "dimtemplate:length:imperial-interleaved"
 msgid "Imperial (1' 10 1/32\")"
-msgstr "Βρετανικό (1.00 ft)"
+msgstr "Βρετανικό (1' 10 1/32\")"
 
 msgctxt "dimtemplate:length:imperial-fractional-inches"
 msgid "Inches with fractions (1 1/8\")"
@@ -721,49 +854,60 @@ msgctxt "dimtemplate:area:decimal-imperial"
 msgid "imperial"
 msgstr "βρετανικό"
 
+#, fuzzy
 msgctxt "labeltype:any"
 msgid "Any"
-msgstr ""
+msgstr "Οποιος"
 
+#, fuzzy
 msgctxt "labeltype:length"
 msgid "Length"
-msgstr ""
+msgstr "Μήκος"
 
+#, fuzzy
 msgctxt "labeltype:area"
 msgid "Area"
-msgstr ""
+msgstr "Περιοχή"
 
+#, fuzzy
 msgctxt "labeltype:angle"
 msgid "Angle"
-msgstr ""
+msgstr "Γωνία"
 
+#, fuzzy
 msgctxt "labeltype:edge"
 msgid "Edge length"
-msgstr ""
+msgstr "Μήκος άκρου"
 
+#, fuzzy
 msgctxt "labeltype:perimeter"
 msgid "Perimeter"
-msgstr ""
+msgstr "Περίμετρος"
 
+#, fuzzy
 msgctxt "labeltype:diameter"
 msgid "Diameter"
-msgstr ""
+msgstr "Διάμετρος"
 
+#, fuzzy
 msgctxt "labeltype:radius"
 msgid "Radius"
-msgstr ""
+msgstr "Ακτίνα κύκλου"
 
+#, fuzzy
 msgctxt "labeltype:width"
 msgid "Width"
-msgstr ""
+msgstr "Πλάτος"
 
+#, fuzzy
 msgctxt "labeltype:height"
 msgid "Height"
-msgstr ""
+msgstr "Υψος"
 
+#, fuzzy
 msgctxt "labeltype:rectangle-side(rectangle)"
 msgid "Rectangle"
-msgstr ""
+msgstr "Ορθογώνιο παραλληλόγραμμο"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:min-imperial-fraction:title"
@@ -794,18 +938,20 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "Θα εμφανίζονται ως ft/in"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
 msgid "Ambiguous numbers"
-msgstr ""
+msgstr "Διφορούμενοι αριθμοί"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:no"
 msgid "Keep"
 msgstr "Κρατήστε και τις δύο"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
-msgstr ""
+msgstr "Προσθέστε τελεία εάν είναι απαραίτητο"
 
 msgctxt "dimformat:options-ui:show-units:title"
 msgid "Show units"
@@ -831,173 +977,215 @@ msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "Τα κλάσματα θα απλοποιηθούν (το 4/8 γίνεται 1/2)"
 
+#, fuzzy
 msgctxt "month-names-short-1"
 msgid "Jan"
-msgstr ""
+msgstr "Ιαν"
 
+#, fuzzy
 msgctxt "month-names-short-2"
 msgid "Feb"
-msgstr ""
+msgstr "Φεβ"
 
+#, fuzzy
 msgctxt "month-names-short-3"
 msgid "Mar"
-msgstr ""
+msgstr "Μάρ"
 
+#, fuzzy
 msgctxt "month-names-short-4"
 msgid "Apr"
-msgstr ""
+msgstr "Απρ"
 
+#, fuzzy
 msgctxt "month-names-short-5"
 msgid "May"
-msgstr ""
+msgstr "Μάι"
 
+#, fuzzy
 msgctxt "month-names-short-6"
 msgid "Jun"
-msgstr ""
+msgstr "Ιουν"
 
+#, fuzzy
 msgctxt "month-names-short-7"
 msgid "Jul"
-msgstr ""
+msgstr "Ιουλ"
 
+#, fuzzy
 msgctxt "month-names-short-8"
 msgid "Aug"
-msgstr ""
+msgstr "Αυγ"
 
+#, fuzzy
 msgctxt "month-names-short-9"
 msgid "Sep"
-msgstr ""
+msgstr "Σεπ"
 
+#, fuzzy
 msgctxt "month-names-short-10"
 msgid "Oct"
-msgstr ""
+msgstr "Οκτ"
 
+#, fuzzy
 msgctxt "month-names-short-11"
 msgid "Nov"
-msgstr ""
+msgstr "Νοέ"
 
+#, fuzzy
 msgctxt "month-names-short-12"
 msgid "Dec"
-msgstr ""
+msgstr "Δεκ"
 
+#, fuzzy
 msgctxt "month-names-long-1"
 msgid "January"
-msgstr ""
+msgstr "Ιανουάριος"
 
+#, fuzzy
 msgctxt "month-names-long-2"
 msgid "February"
-msgstr ""
+msgstr "Φεβρουάριος"
 
+#, fuzzy
 msgctxt "month-names-long-3"
 msgid "March"
-msgstr ""
+msgstr "Μάρτιος"
 
+#, fuzzy
 msgctxt "month-names-long-4"
 msgid "April"
-msgstr ""
+msgstr "Απρίλιος"
 
+#, fuzzy
 msgctxt "month-names-long-5"
 msgid "May"
-msgstr ""
+msgstr "Μάιος"
 
+#, fuzzy
 msgctxt "month-names-long-6"
 msgid "June"
-msgstr ""
+msgstr "Ιούνιος"
 
+#, fuzzy
 msgctxt "month-names-long-7"
 msgid "July"
-msgstr ""
+msgstr "Ιούλιος"
 
+#, fuzzy
 msgctxt "month-names-long-8"
 msgid "August"
-msgstr ""
+msgstr "Αύγουστος"
 
+#, fuzzy
 msgctxt "month-names-long-9"
 msgid "September"
-msgstr ""
+msgstr "Σεπτέμβριος"
 
+#, fuzzy
 msgctxt "month-names-long-10"
 msgid "October"
-msgstr ""
+msgstr "Οκτώβριος"
 
+#, fuzzy
 msgctxt "month-names-long-11"
 msgid "November"
-msgstr ""
+msgstr "Νοέμβριος"
 
+#, fuzzy
 msgctxt "month-names-long-12"
 msgid "December"
-msgstr ""
+msgstr "Δεκέμβριος"
 
+#, fuzzy
 msgctxt "eight-directions:top-left"
 msgid "Top left"
-msgstr ""
+msgstr "Πάνω αριστερά"
 
+#, fuzzy
 msgctxt "eight-directions:top"
 msgid "Top"
-msgstr ""
+msgstr "Μπλουζα"
 
+#, fuzzy
 msgctxt "eight-directions:top-right"
 msgid "Top right"
-msgstr ""
+msgstr "Πάνω δεξιά"
 
+#, fuzzy
 msgctxt "eight-directions:right"
 msgid "Right"
-msgstr ""
+msgstr "σωστά"
 
+#, fuzzy
 msgctxt "eight-directions:bottom-right"
 msgid "Bottom right"
-msgstr ""
+msgstr "Κάτω δεξιά"
 
+#, fuzzy
 msgctxt "eight-directions:bottom"
 msgid "Bottom"
-msgstr ""
+msgstr "Κάτω μέρος"
 
+#, fuzzy
 msgctxt "eight-directions:bottom-left"
 msgid "Bottom left"
-msgstr ""
+msgstr "Κάτω αριστερά"
 
+#, fuzzy
 msgctxt "eight-directions:left"
 msgid "Left"
-msgstr ""
+msgstr "Αριστερά"
 
+#, fuzzy
 msgctxt "text-h-alignment:left"
 msgid "Left"
-msgstr ""
+msgstr "Αριστερά"
 
+#, fuzzy
 msgctxt "text-h-alignment:center"
 msgid "Center"
-msgstr ""
+msgstr "Κέντρο"
 
+#, fuzzy
 msgctxt "text-h-alignment:right"
 msgid "Right"
-msgstr ""
+msgstr "σωστά"
 
+#, fuzzy
 msgctxt "text-h-alignment:block"
 msgid "Block"
-msgstr ""
+msgstr "Block"
 
+#, fuzzy
 msgctxt "ui:list:add-entry"
 msgid "Add"
-msgstr ""
+msgstr "Προσθήκη"
 
+#, fuzzy
 msgctxt "ui:list:remove-entry"
 msgid "Remove"
-msgstr ""
+msgstr "Αφαιρώ"
 
+#, fuzzy
 msgctxt "ui:list:move-entry-up"
 msgid "Up"
-msgstr ""
+msgstr "Πάνω"
 
+#, fuzzy
 msgctxt "ui:list:move-entry-down"
 msgid "Down"
-msgstr ""
+msgstr "Κάτω"
 
+#, fuzzy
 msgctxt "filename-copy-tag"
 msgid "copy"
-msgstr ""
+msgstr "αντίγραφο"
 
+#, fuzzy
 msgctxt "entities:cannot_delete_image:in_use"
 msgid "Cannot delete image '{0}' because it is in use by '{1}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η διαγραφή της εικόνας '{0}' επειδή χρησιμοποιείται από το '{1}'."
 
 #, fuzzy
 msgctxt "entities:cannot_delete_folder:in_use"
@@ -1009,174 +1197,204 @@ msgctxt "entities:cannot_move_folder:into_itself"
 msgid "Cannot move folder '{}' into itself."
 msgstr "Δεν μπορεί να μετονομαστεί ο φάκελος '{0}' σε '{1}'."
 
+#, fuzzy
 msgctxt "entities:cannot_rename_image:in_use"
 msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
-msgstr ""
+msgstr "Δεν είναι δυνατή η μετονομασία της εικόνας '{0}' επειδή χρησιμοποιείται αυτήν τη στιγμή από το '{1}'."
 
+#, fuzzy
 msgctxt "image-library:breadcrumbs:root-folder"
 msgid "Root"
-msgstr ""
+msgstr "Ρίζα"
 
+#, fuzzy
 msgctxt "imagebundle-settings:dialog-title"
 msgid "Image settings"
-msgstr ""
+msgstr "Ρυθμίσεις εικόνας"
 
+#, fuzzy
 msgctxt "imagebundle-settings:image-title"
 msgid "Image name"
-msgstr ""
+msgstr "Όνομα εικόνας"
 
+#, fuzzy
 msgctxt "imagebundle-settings:image-number"
 msgid "Number"
-msgstr ""
+msgstr "Αριθμός"
 
+#, fuzzy
 msgctxt "imagebundle-settings:template"
 msgid "Data scheme"
-msgstr ""
+msgstr "Σχέδιο δεδομένων"
 
+#, fuzzy
 msgctxt "imagebundle-settings:image-notes"
 msgid "Image notes"
-msgstr ""
+msgstr "Σημειώσεις εικόνας"
 
+#, fuzzy
 msgctxt "template-selection-mixin:copy-local-template-to-prefs"
 msgid "Copy template to preferences"
-msgstr ""
+msgstr "Αντιγραφή προτύπου στις προτιμήσεις"
 
+#, fuzzy
 msgctxt "folder-settings:dialog-title"
 msgid "Folder settings"
-msgstr ""
+msgstr "Ρυθμίσεις φακέλου"
 
+#, fuzzy
 msgctxt "folder-settings:folder-title"
 msgid "Folder name"
-msgstr ""
+msgstr "Ονομα φακέλου"
 
+#, fuzzy
 msgctxt "folder-settings:template"
 msgid "Data scheme"
-msgstr ""
+msgstr "Σχέδιο δεδομένων"
 
+#, fuzzy
 msgctxt "folder-settings:folder-color"
 msgid "Folder color"
-msgstr ""
+msgstr "Χρώμα φακέλου"
 
+#, fuzzy
 msgctxt "folder-settings:folder-notes"
 msgid "Folder notes"
-msgstr ""
+msgstr "Σημειώσεις φακέλου"
 
+#, fuzzy
 msgctxt "access-control:users-with-access:list-title"
 msgid "Users with access"
-msgstr ""
+msgstr "Χρήστες με πρόσβαση"
 
+#, fuzzy
 msgctxt "access-control:admin:full-name"
 msgid "Administrator"
-msgstr ""
+msgstr "Διαχειριστής"
 
+#, fuzzy
 msgctxt "access-control:nobody:full-name"
 msgid "No user"
-msgstr ""
+msgstr "Χωρίς χρήστη"
 
+#, fuzzy
 msgctxt "access-control:anybody:full-name"
 msgid "Anybody"
-msgstr ""
+msgstr "Οποιοσδήποτε"
 
+#, fuzzy
 msgctxt "image-numbering:start-number"
 msgid "Start"
-msgstr ""
+msgstr "Αρχή"
 
+#, fuzzy
 msgctxt "image-numbering:increment"
 msgid "Increment"
-msgstr ""
+msgstr "Αύξηση"
 
+#, fuzzy
 msgctxt "image-numbering:section:renumber-existing-images"
 msgid "Renumber existing images"
-msgstr ""
+msgstr "Αριθμήστε τις υπάρχουσες εικόνες"
 
+#, fuzzy
 msgctxt "image-numbering:keep-old-numbering-order"
 msgid "Keep old numbering order"
-msgstr ""
+msgstr "Κρατήστε την παλιά σειρά αρίθμησης"
 
 #, fuzzy
 msgctxt "rendering:watermark"
-msgid ""
-"Evaluation copy\n"
-"Please upgrade to remove watermark"
-msgstr ""
-"Αντίγραφο για αξιολόγηση\n"
-"Αναβαθμίστε για να καταργήσετε το υδατογράφημα"
+msgid "Evaluation copy\nPlease upgrade to remove watermark"
+msgstr "Αντίγραφο για αξιολόγηση\nΑναβαθμίστε για να καταργήσετε το υδατογράφημα"
 
+#, fuzzy
 msgctxt "export:resolution-too-small"
 msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
-msgstr ""
+msgstr "Η ανάλυση εξόδου είναι πολύ μικρή. Το ελάχιστο είναι {0}x{1} εικονοστοιχεία."
 
+#, fuzzy
 msgctxt "image-export:size:group-title"
 msgid "Image size"
-msgstr ""
+msgstr "Μέγεθος εικόνας"
 
+#, fuzzy
 msgctxt "image-export:size:suggested-size"
 msgid "Suggested size"
-msgstr ""
+msgstr "Προτεινόμενο μέγεθος"
 
+#, fuzzy
 msgctxt "image-export:size:original-size"
 msgid "Original image size"
-msgstr ""
+msgstr "Αρχικό μέγεθος εικόνας"
 
+#, fuzzy
 msgctxt "image-export:size:custom-size"
 msgid "Custom size"
-msgstr ""
+msgstr "Προσαρμοσμένο μέγεθος"
 
+#, fuzzy
 msgctxt "image-export:format:group-title"
 msgid "Image format"
-msgstr ""
+msgstr "Μορφή εικόνας"
 
+#, fuzzy
 msgctxt "image-export:format:file-format"
 msgid "File format"
-msgstr ""
+msgstr "Μορφή αρχείου"
 
+#, fuzzy
 msgctxt "image-export:format:jpeg-quality"
 msgid "Image quality"
-msgstr ""
+msgstr "Ποιότητα εικόνας"
 
+#, fuzzy
 msgctxt "image-export:overlays:group-title"
 msgid "Overlays"
-msgstr ""
+msgstr "Επικαλύψεις"
 
+#, fuzzy
 msgctxt "image-export:overlays:show-text"
 msgid "Show text overlay"
-msgstr ""
+msgstr "Εμφάνιση επικάλυψης κειμένου"
 
+#, fuzzy
 msgctxt "image-export:overlays:text"
 msgid "Text"
-msgstr ""
+msgstr "Κείμενο"
 
+#, fuzzy
 msgctxt "image-export:filename-expression"
 msgid "{image.title}"
-msgstr ""
+msgstr "{image.title}"
 
+#, fuzzy
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
-msgstr ""
+msgstr "Πίνακας περιεχομένων"
 
+#, fuzzy
 msgctxt "pdf-export:root-folder-title"
 msgid "ImageMeter export"
-msgstr ""
+msgstr "ImageMeter εξαγωγή"
 
+#, fuzzy
 msgctxt "zip-export:include-annotated-images"
 msgid "Include annotated images"
-msgstr ""
+msgstr "Συμπεριλάβετε σχολιασμένες εικόνες"
 
+#, fuzzy
 msgctxt "zip-export:include-original-images"
 msgid "Include original images"
-msgstr ""
+msgstr "Συμπεριλάβετε πρωτότυπες εικόνες"
 
+#, fuzzy
 msgctxt "zip-export:include-pdf-file"
 msgid "Include PDF file"
-msgstr ""
+msgstr "Συμπεριλάβετε αρχείο PDF"
 
 msgctxt "editor:attach:error_no_reference_to_attach_to"
-msgid ""
-"There is no reference in the image! You need to draw a reference in order to "
-"do automatic computations."
-msgstr ""
-"Δεν υπάρχει αναφορά! Σχεδιάστε μία, ώστε να μπορείτε να κάνετε αυτόματους "
-"υπολογισμούς."
+msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
+msgstr "Δεν υπάρχει αναφορά! Σχεδιάστε μία, ώστε να μπορείτε να κάνετε αυτόματους υπολογισμούς."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -1187,43 +1405,42 @@ msgid "Measure is computed based on the reference you provided."
 msgstr "Η μέτρηση υπολογίστηκε βάση της αναφοράς που θέσατε."
 
 msgctxt "editor:attach:hint_howto_attach_to_reference"
-msgid ""
-"Click on the measure you want to compute based on the selected reference."
-msgstr ""
-"Κάντε κλικ στη μέτρηση που θέλετε να υπολογίσετε, με βάση την επιλεγμένη "
-"αναφορά."
+msgid "Click on the measure you want to compute based on the selected reference."
+msgstr "Κάντε κλικ στη μέτρηση που θέλετε να υπολογίσετε, με βάση την επιλεγμένη αναφορά."
 
 msgctxt "editor:attach:hint_howto_attach_measure"
-msgid ""
-"Click on the reference based on which you want to calculate the selected "
-"measure."
-msgstr ""
-"Κάντε κλικ στην αναφορά βάση της οποίας θέλετε να υπολογιστεί η επιλεγμένη "
-"μέτρηση."
+msgid "Click on the reference based on which you want to calculate the selected measure."
+msgstr "Κάντε κλικ στην αναφορά βάση της οποίας θέλετε να υπολογιστεί η επιλεγμένη μέτρηση."
 
+#, fuzzy
 msgctxt "editor:attach:messagebox:title"
 msgid "Compute Measure"
-msgstr ""
+msgstr "Υπολογίστε το Μέτρο"
 
+#, fuzzy
 msgctxt "editor:rectref:standard-size:legal"
 msgid "Legal"
-msgstr ""
+msgstr "Legal"
 
+#, fuzzy
 msgctxt "editor:rectref:standard-size:letter"
 msgid "Letter"
-msgstr ""
+msgstr "Letter"
 
+#, fuzzy
 msgctxt "editor:rectref:standard-size:credit-card"
 msgid "Credit card"
-msgstr ""
+msgstr "Πιστωτική κάρτα"
 
+#, fuzzy
 msgctxt "editor:image-modified-dialog:title"
 msgid "Image has been modified"
-msgstr ""
+msgstr "Η εικόνα έχει τροποποιηθεί"
 
+#, fuzzy
 msgctxt "editor:image-modified-dialog:text"
 msgid "Image has been modified. Do you want to save it?"
-msgstr ""
+msgstr "Η εικόνα έχει τροποποιηθεί. Θέλετε να το αποθηκεύσετε;"
 
 msgctxt "editor:styling:line-caps"
 msgid "Line style"
@@ -1245,62 +1462,74 @@ msgctxt "editor:styling:font-size"
 msgid "Font size"
 msgstr "Μέγεθος κειμένου"
 
+#, fuzzy
 msgctxt "editor:styling:fill-color"
 msgid "Fill color"
-msgstr ""
+msgstr "Χρώμα γεμίσματος"
 
 #, fuzzy
 msgctxt "editor:styling:text-color"
 msgid "Text color"
 msgstr "Θέση κειμένου"
 
+#, fuzzy
 msgctxt "editor:styling:text-background-color"
 msgid "Background color"
-msgstr ""
+msgstr "Χρώμα του φόντου"
 
 msgctxt "editor:styling:set-as-default"
 msgid "Set as default"
 msgstr "Ορισμός ως προεπιλογή"
 
+#, fuzzy
 msgctxt "editor:styling:label:apply-to"
 msgid "Apply to …"
-msgstr ""
+msgstr "Εφαρμόζω σε …"
 
+#, fuzzy
 msgctxt "editor:styling:label:apply-to:both-sides"
 msgid "Both sides"
-msgstr ""
+msgstr "Δυο πλευρες"
 
+#, fuzzy
 msgctxt "editor:styling:label:apply-to:all-edges"
 msgid "All edges"
-msgstr ""
+msgstr "Όλες οι άκρες"
 
+#, fuzzy
 msgctxt "editor:styling:label:apply-to:all-lengths"
 msgid "All lengths"
-msgstr ""
+msgstr "Όλα τα μήκη"
 
+#, fuzzy
 msgctxt "editor:styling:label:apply-to:whole-element"
 msgid "Whole element"
-msgstr ""
+msgstr "Ολόκληρο στοιχείο"
 
+#, fuzzy
 msgctxt "editor:styling:label:apply-to:whole-image"
 msgid "Whole image"
-msgstr ""
+msgstr "Ολόκληρη εικόνα"
 
+#, fuzzy
 msgctxt "editor:styling:label:save-as-default:selection-title"
 msgid "Use style as default for …"
-msgstr ""
+msgstr "Χρησιμοποιήστε το στυλ ως προεπιλογή για…"
 
+#, fuzzy
 msgctxt "editor:styling:label:save-as-default:only-this-label"
 msgid "Only this label"
-msgstr ""
+msgstr "Μόνο αυτή η ετικέτα"
 
+#, fuzzy
 msgctxt "editor:styling:label:save-as-default:this-drawing-tool"
 msgid "This drawing tool"
-msgstr ""
+msgstr "Αυτό το εργαλείο σχεδίασης"
 
+#, fuzzy
 msgctxt "editor:styling:label:save-as-default:all-drawing-tools"
 msgid "All drawing tools"
-msgstr ""
+msgstr "Όλα τα εργαλεία σχεδίασης"
 
 msgctxt "editor:styling:measure:show-length"
 msgid "Show length"
@@ -1318,9 +1547,10 @@ msgctxt "editor:styling:label-display-mode:within-line"
 msgid "Within line"
 msgstr "Πάνω στη γραμμή"
 
+#, fuzzy
 msgctxt "editor:styling:label-display-mode:horizontal"
 msgid "Horizontal"
-msgstr ""
+msgstr "Οριζόντιος"
 
 #, fuzzy
 msgctxt "editor:styling:angle:show-angle"
@@ -1332,33 +1562,40 @@ msgctxt "editor:styling:area:show-area-label"
 msgid "Show area"
 msgstr "Να φαίνεται το κείμενο"
 
+#, fuzzy
 msgctxt "editor:styling:area:show-perimeter-label"
 msgid "Show perimeter"
-msgstr ""
+msgstr "Εμφάνιση περιμέτρου"
 
+#, fuzzy
 msgctxt "editor:styling:area:show-edge-labels"
 msgid "Show edge lengths"
-msgstr ""
+msgstr "Εμφάνιση μηκών ακμών"
 
+#, fuzzy
 msgctxt "editor:styling:area:show-edge-labels:none"
 msgid "None"
-msgstr ""
+msgstr "Κανένας"
 
+#, fuzzy
 msgctxt "editor:styling:area:show-edge-labels:custom"
 msgid "Custom"
-msgstr ""
+msgstr "Εθιμο"
 
+#, fuzzy
 msgctxt "editor:styling:area:show-edge-labels:all"
 msgid "All"
-msgstr ""
+msgstr "Ολα"
 
+#, fuzzy
 msgctxt "editor:styling:area:edge-labels-font-size"
 msgid "Edges font size"
-msgstr ""
+msgstr "Μέγεθος γραμματοσειράς Edges"
 
+#, fuzzy
 msgctxt "editor:styling:area:area-label-font-size"
 msgid "Area font size"
-msgstr ""
+msgstr "Μέγεθος γραμματοσειράς περιοχής"
 
 msgctxt "editor:styling:circle:show-radius-label"
 msgid "Show radius"
@@ -1380,9 +1617,10 @@ msgctxt "editor:styling:circle:show-area-label"
 msgid "Show area"
 msgstr "Να φαίνεται το εμβαδόν"
 
+#, fuzzy
 msgctxt "editor:styling:dimstring:show-intersection-marks"
 msgid "Show intersection marks"
-msgstr ""
+msgstr "Εμφάνιση σημείων τομής"
 
 msgctxt "editor:styling:flatref:subdivisions"
 msgid "Subdivisions"
@@ -1442,37 +1680,45 @@ msgctxt "editor:styling:measurement-point:label-position"
 msgid "Label position"
 msgstr "Θέση κειμένου"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol"
 msgid "Marker"
-msgstr ""
+msgstr "Σημάδι"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:encircled-cross"
 msgid "Encircled cross"
-msgstr ""
+msgstr "Κυκλωμένος σταυρός"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:upright-cross"
 msgid "Upright cross"
-msgstr ""
+msgstr "Όρθιος σταυρός"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:diagonal-cross"
 msgid "Diagonal cross"
-msgstr ""
+msgstr "Διαγώνιος σταυρός"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:dot"
 msgid "Dot"
-msgstr ""
+msgstr "Τελεία"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:elevation-top"
 msgid "Elevation top"
-msgstr ""
+msgstr "Υψόμετρο κορυφή"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:elevation-bottom"
 msgid "Elevation bottom"
-msgstr ""
+msgstr "Υψόμετρο κάτω"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-size"
 msgid "Marker size"
-msgstr ""
+msgstr "Μέγεθος δείκτη"
 
 msgctxt "editor:styling:perspective-line:always-show-grid"
 msgid "Always show grid"
@@ -1530,9 +1776,10 @@ msgctxt "editor:styling:rect-ref:grid-subdivions:v"
 msgid "Grid subdivisions (V)"
 msgstr "Υποδιαιρέσεις κανάβου (V)"
 
+#, fuzzy
 msgctxt "editor:styling:textbox:text-h-alignment"
 msgid "Text alignment"
-msgstr ""
+msgstr "Ευθυγράμμιση κειμένου"
 
 msgctxt "editor:styling:textbox:show-text-outline"
 msgid "Text outline"
@@ -1546,81 +1793,100 @@ msgctxt "editor:styling:textbox:show-box-border"
 msgid "Show box border"
 msgstr "Να φαίνεται το περίγραμμα"
 
+#, fuzzy
 msgctxt "editor:styling:textbox:box-background-color"
 msgid "Background color"
-msgstr ""
+msgstr "Χρώμα του φόντου"
 
+#, fuzzy
 msgctxt "image-settings:image:saturation"
 msgid "Saturation"
-msgstr ""
+msgstr "Κορεσμός"
 
+#, fuzzy
 msgctxt "image-settings:image:brightness"
 msgid "Brightness"
-msgstr ""
+msgstr "Λάμψη"
 
+#, fuzzy
 msgctxt "image-settings:image:contrast"
 msgid "Contrast"
-msgstr ""
+msgstr "Αντίθεση"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:greyscale"
 msgid "Greyscale"
-msgstr ""
+msgstr "Greyscale"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:bright"
 msgid "Bright"
-msgstr ""
+msgstr "φωτεινή"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:dark"
 msgid "Dark"
-msgstr ""
+msgstr "Σκοτάδι"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:original"
 msgid "Reset"
-msgstr ""
+msgstr "Επαναφορά"
 
+#, fuzzy
 msgctxt "image-settings:canvas:color-scheme"
 msgid "Color scheme"
-msgstr ""
+msgstr "Χρώμα"
 
+#, fuzzy
 msgctxt "image-settings:canvas:color-scheme:white"
 msgid "White"
-msgstr ""
+msgstr "λευκό"
 
+#, fuzzy
 msgctxt "image-settings:canvas:color-scheme:black"
 msgid "Black"
-msgstr ""
+msgstr "Μαύρος"
 
+#, fuzzy
 msgctxt "image-settings:canvas:color-scheme:dark-blue"
 msgid "Dark blue"
-msgstr ""
+msgstr "Σκούρο μπλε"
 
+#, fuzzy
 msgctxt "image-settings:canvas:color-scheme:custom"
 msgid "Custom"
-msgstr ""
+msgstr "Εθιμο"
 
+#, fuzzy
 msgctxt "image-settings:canvas:background-color"
 msgid "Background color"
-msgstr ""
+msgstr "Χρώμα του φόντου"
 
+#, fuzzy
 msgctxt "image-settings:canvas:coarse-grid-color"
 msgid "Coarse grid color"
-msgstr ""
+msgstr "Χοντρό χρώμα πλέγματος"
 
+#, fuzzy
 msgctxt "image-settings:canvas:fine-grid-color"
 msgid "Fine grid color"
-msgstr ""
+msgstr "Λεπτό χρώμα πλέγματος"
 
+#, fuzzy
 msgctxt "image-settings:canvas:grid-subdivisions"
 msgid "Subdivisions"
-msgstr ""
+msgstr "Υποδιαιρέσεις"
 
+#, fuzzy
 msgctxt "image-settings:canvas:unit-distance"
 msgid "Unit distance"
-msgstr ""
+msgstr "Απόσταση μονάδας"
 
+#, fuzzy
 msgctxt "image-settings:canvas:unit-distance-hint"
 msgid "100 cm"
-msgstr ""
+msgstr "100 cm"
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
 msgid "Snap to object corners"
@@ -1666,504 +1932,604 @@ msgctxt "prefs:editor:snapping:snapping-strength:high"
 msgid "High"
 msgstr "Υψηλή"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size"
 msgid "Distance step size"
-msgstr ""
+msgstr "Μέγεθος βήματος απόστασης"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:hint"
 msgid "1 ft"
-msgstr ""
+msgstr "1 ft"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:tooltip"
 msgid "Snap to multiples of this distance (only for rectangles and distance)."
-msgstr ""
+msgstr "Τραβήξτε πολλαπλάσια αυτής της απόστασης (μόνο για ορθογώνια και απόσταση)."
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
-msgid ""
-"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
-"rectangle sides will be restricted to steps of this size."
-msgstr ""
+msgid "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and rectangle sides will be restricted to steps of this size."
+msgstr "Εισαγάγετε μια απόσταση με μονάδα (π.χ. 10cm, 1ft ή 1'). Οι διαγραμμένες διαστάσεις και οι ορθογώνιες πλευρές θα περιοριστούν σε βήματα αυτού του μεγέθους."
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
 msgid "Freehand"
-msgstr ""
+msgstr "γραφικός χαρακτήρας"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay"
 msgid "End freehand drawing delay"
-msgstr ""
+msgstr "καθυστέρηση μέχρι να σταματήσει η γραφή"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:off"
 msgid "Off"
-msgstr ""
+msgstr "Μακριά από"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:short"
 msgid "Short"
-msgstr ""
+msgstr "Μικρός"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:normal"
 msgid "Normal"
-msgstr ""
+msgstr "Κανονικός"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:long"
 msgid "Long"
-msgstr ""
+msgstr "Μακρύς"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:group-title"
 msgid "Text note"
-msgstr ""
+msgstr "Σημείωση κειμένου"
 
 msgctxt "prefs:editor:drawing-tools:textbox:preset-texts:title"
 msgid "Preset texts"
 msgstr "Προκαθορισμένα κείμενα"
 
+#, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing"
 msgid "Anti-aliasing in editor"
-msgstr ""
+msgstr "Anti-aliasing στο editor"
 
+#, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing:off"
 msgid "Off"
-msgstr ""
+msgstr "Μακριά από"
 
+#, fuzzy
 msgctxt "prefs:ui:language"
 msgid "Language"
-msgstr ""
+msgstr "Γλώσσα"
 
+#, fuzzy
 msgctxt "prefs:ui:language:automatic"
 msgid "Automatic"
-msgstr ""
+msgstr "Αυτόματο"
 
+#, fuzzy
 msgctxt "prefs:company:user-id"
 msgid "User ID"
-msgstr ""
+msgstr "ταυτότητα χρήστη"
 
+#, fuzzy
 msgctxt "prefs:company:user-full-name"
 msgid "Full name"
-msgstr ""
+msgstr "Πλήρες όνομα"
 
+#, fuzzy
 msgctxt "templ:template-name:unnamed"
 msgid "New template"
-msgstr ""
+msgstr "Νέο πρότυπο"
 
+#, fuzzy
 msgctxt "templ:custom:class-display-name"
 msgid "Custom template"
-msgstr ""
+msgstr "Προσαρμοσμένο πρότυπο"
 
+#, fuzzy
 msgctxt "templ:custom:new-template-name"
 msgid "New custom template"
-msgstr ""
+msgstr "Νέο προσαρμοσμένο πρότυπο"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:empty"
 msgid "Empty"
-msgstr ""
+msgstr "Αδειάζω"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-name"
 msgid "Image name"
-msgstr ""
+msgstr "Όνομα εικόνας"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-notes"
 msgid "Image notes"
-msgstr ""
+msgstr "Σημειώσεις εικόνας"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-number"
 msgid "Image number"
-msgstr ""
+msgstr "Αριθμός εικόνας"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-capture-date"
 msgid "Image capture date"
-msgstr ""
+msgstr "Ημερομηνία λήψης εικόνας"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-gps-latitude"
 msgid "Image GPS latitude"
-msgstr ""
+msgstr "Εικόνα γεωγραφικό πλάτος"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-gps-longitude"
 msgid "Image GPS longitude"
-msgstr ""
+msgstr "Εικόνα γεωγραφικό μήκος"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link"
 msgid "GPS map link"
-msgstr ""
+msgstr "Σύνδεσμος χάρτη GPS"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:url:text"
 msgid "link"
-msgstr ""
+msgstr "Σύνδεσμος"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:error:no-gps"
 msgid "no GPS"
-msgstr ""
+msgstr "χωρίς GPS"
 
+#, fuzzy
 msgctxt "templ:custom:column-type:width-height"
 msgid "Width and height"
-msgstr ""
+msgstr "Πλάτος και ύψος"
 
+#, fuzzy
 msgctxt "templ:custom:column-type:text"
 msgid "Text note"
-msgstr ""
+msgstr "Σημείωση κειμένου"
 
+#, fuzzy
 msgctxt "templ:custom:new-tablespec-name"
 msgid "Custom Table"
-msgstr ""
+msgstr "Προσαρμοσμένος πίνακας"
 
+#, fuzzy
 msgctxt "templ:custom:new-tag"
 msgid "new tag"
-msgstr ""
+msgstr "νέα ετικέτα"
 
+#, fuzzy
 msgctxt "templ:custom:tag:filter:text"
 msgid "Text note"
-msgstr ""
+msgstr "Σημείωση κειμένου"
 
+#, fuzzy
 msgctxt "templ:custom:tag:filter:circle"
 msgid "Circle"
-msgstr ""
+msgstr "Κύκλος"
 
+#, fuzzy
 msgctxt "templ:custom:tag:property-name"
 msgid "Tag"
-msgstr ""
+msgstr "Ετικέτα"
 
+#, fuzzy
 msgctxt "templ:areasum:class-display-name"
 msgid "Area sum template"
-msgstr ""
+msgstr "Πρότυπο αθροίσματος περιοχής"
 
+#, fuzzy
 msgctxt "templ:areasum:preset:wallarea:display-name"
 msgid "Wall area"
-msgstr ""
+msgstr "Περιοχή τοίχου"
 
+#, fuzzy
 msgctxt "templ:areasum:preset:floorarea:display-name"
 msgid "Floor area"
-msgstr ""
+msgstr "Περιοχή δαπέδου"
 
+#, fuzzy
 msgctxt "templ:areasum:tag:property-name"
 msgid "Tag"
-msgstr ""
+msgstr "Ετικέτα"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:new-template-name"
 msgid "New wall area template"
-msgstr ""
+msgstr "Νέο πρότυπο περιοχής τοίχου"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:new-template-name"
 msgid "New floor area template"
-msgstr ""
+msgstr "Νέο πρότυπο επιφάνειας δαπέδου"
 
+#, fuzzy
 msgctxt "templ:areasum:custom-add"
 msgid "custom (add)"
-msgstr ""
+msgstr "προσαρμοσμένο (προσθήκη)"
 
+#, fuzzy
 msgctxt "templ:areasum:custom-minus"
 msgid "custom (subtract)"
-msgstr ""
+msgstr "προσαρμοσμένο (αφαιρεί)"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:wall"
 msgid "wall"
-msgstr ""
+msgstr "τείχος"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:ceiling"
 msgid "ceiling"
-msgstr ""
+msgstr "οροφή"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:window"
 msgid "window"
-msgstr ""
+msgstr "παράθυρο"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:door"
 msgid "door"
-msgstr ""
+msgstr "πόρτα"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:living-room"
 msgid "living room"
-msgstr ""
+msgstr "σαλόνι"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:bed-room"
 msgid "bed room"
-msgstr ""
+msgstr "κρεβατοκάμαρα"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:kitchen"
 msgid "kitchen"
-msgstr ""
+msgstr "κουζίνα"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:bath-room"
 msgid "bathroom"
-msgstr ""
+msgstr "τουαλέτα"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:generic-room"
 msgid "other room"
-msgstr ""
+msgstr "άλλο δωμάτιο"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:balcony"
 msgid "balcony"
-msgstr ""
+msgstr "μπαλκόνι"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:item"
 msgid "Pos."
-msgstr ""
+msgstr "Pos"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:description"
 msgid "Description"
-msgstr ""
+msgstr "Περιγραφή"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:count"
 msgid "Count"
-msgstr ""
+msgstr "μετρώ"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:factor"
 msgid "Factor"
-msgstr ""
+msgstr "Παράγοντας"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:width"
 msgid "Width"
-msgstr ""
+msgstr "Πλάτος"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:height"
 msgid "Height"
-msgstr ""
+msgstr "Υψος"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:area"
 msgid "Area"
-msgstr ""
+msgstr "Περιοχή"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:deduction"
 msgid "Deduction"
-msgstr ""
+msgstr "Αφαίρεση"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:sumarea"
 msgid "Sum"
-msgstr ""
+msgstr "Αθροισμα"
 
+#, fuzzy
 msgctxt "templ:areasum:item"
 msgid "Item Number"
-msgstr ""
+msgstr "Αριθμός αντικειμένου"
 
+#, fuzzy
 msgctxt "templ:areasum:description"
 msgid "Description"
-msgstr ""
+msgstr "Περιγραφή"
 
+#, fuzzy
 msgctxt "templ:areasum:count"
 msgid "Count"
-msgstr ""
+msgstr "μετρώ"
 
+#, fuzzy
 msgctxt "templ:areasum:width-height"
 msgid "Width and height"
-msgstr ""
+msgstr "Πλάτος και ύψος"
 
+#, fuzzy
 msgctxt "templ:areasum:measured-area"
 msgid "Measured area"
-msgstr ""
+msgstr "Μετρημένη περιοχή"
 
+#, fuzzy
 msgctxt "templ:areasum:factor"
 msgid "Factor"
-msgstr ""
+msgstr "Παράγοντας"
 
+#, fuzzy
 msgctxt "templ:areasum:calculated-area"
 msgid "Calculated area"
-msgstr ""
+msgstr "Υπολογιζόμενη έκταση"
 
+#, fuzzy
 msgctxt "templ:areasum:plus-minus-area"
 msgid "+/- area columns"
-msgstr ""
+msgstr "στήλες +/- περιοχής"
 
+#, fuzzy
 msgctxt "templ:areasum:image-area-sum"
 msgid "Image area sum"
-msgstr ""
+msgstr "Άθροισμα περιοχής εικόνας"
 
+#, fuzzy
 msgctxt "templ:areasum:tablespec:default-name"
 msgid "Area sum table"
-msgstr ""
+msgstr "Πίνακας αθροίσματος περιοχής"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:item"
-msgid ""
-"The image number. The number will only be filled into the row with the image "
-"title."
-msgstr ""
+msgid "The image number. The number will only be filled into the row with the image title."
+msgstr "Ο αριθμός της εικόνας. Ο αριθμός θα συμπληρωθεί μόνο στη γραμμή με τον τίτλο της εικόνας."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:description"
-msgid ""
-"Descriptive name of the area. This is either the default name of the tag, or "
-"a manually entered name for this area."
-msgstr ""
+msgid "Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this area."
+msgstr "Περιγραφικό όνομα της περιοχής. Αυτό είναι είτε το προεπιλεγμένο όνομα της ετικέτας είτε ένα μη αυτόματα εισαγόμενο όνομα για αυτήν την περιοχή."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:count"
 msgid "The count multiplier for this area."
-msgstr ""
+msgstr "Ο πολλαπλασιαστής καταμέτρησης για αυτήν την περιοχή."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
-msgid ""
-"Width and height are two columns that are filled with the side lengths if "
-"the area is a rectangle. For other shapes, the columns stay empty.\n"
-"\n"
-"Enter the two column headers separated by a semicolon."
-msgstr ""
+msgid "Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n\nEnter the two column headers separated by a semicolon."
+msgstr "Το πλάτος και το ύψος είναι δύο στήλες που γεμίζουν με τα μήκη των πλευρών εάν η περιοχή είναι ορθογώνιο. Για άλλα σχήματα, οι στήλες παραμένουν κενές.\n\nΕισαγάγετε τις δύο κεφαλίδες στηλών που χωρίζονται με ερωτηματικό."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:measured-area"
 msgid "The raw, measured area without the factor or count applied."
-msgstr ""
+msgstr "Η ακατέργαστη, μετρημένη επιφάνεια χωρίς τον συντελεστή ή τον αριθμό που εφαρμόζεται."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:factor"
 msgid "The area factor applied when calculating the final area sum."
-msgstr ""
+msgstr "Ο συντελεστής επιφάνειας που εφαρμόζεται κατά τον υπολογισμό του τελικού αθροίσματος εμβαδού."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:calculated-area"
 msgid "Calculated area including the factor and count."
-msgstr ""
+msgstr "Υπολογιζόμενη περιοχή συμπεριλαμβανομένου του συντελεστή και του αριθμού."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
-msgid ""
-"Generates two columns: a column including all areas that are added to the "
-"sum, and a column including all areas that are subtracted from the total "
-"sum.\n"
-"\n"
-"Enter the two column headers separated by a semicolon."
-msgstr ""
+msgid "Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n\nEnter the two column headers separated by a semicolon."
+msgstr "Δημιουργεί δύο στήλες: μια στήλη που περιλαμβάνει όλες τις περιοχές που προστίθενται στο άθροισμα και μια στήλη που περιλαμβάνει όλες τις περιοχές που αφαιρούνται από το συνολικό άθροισμα.\n\nΕισαγάγετε τις δύο κεφαλίδες στηλών που χωρίζονται με ερωτηματικό."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:image-area-sum"
-msgid ""
-"Each row holds the area sum of the image. The footer row holds the total "
-"over all images."
-msgstr ""
+msgid "Each row holds the area sum of the image. The footer row holds the total over all images."
+msgstr "Κάθε σειρά περιέχει το άθροισμα της περιοχής της εικόνας. Η σειρά υποσέλιδου περιέχει το σύνολο σε όλες τις εικόνες."
 
+#, fuzzy
 msgctxt "templ:partslist:class-display-name"
 msgid "Parts list template"
-msgstr ""
+msgstr "Πρότυπο λίστας ανταλλακτικών"
 
+#, fuzzy
 msgctxt "templ:partslist:tagtype:count"
 msgid "Count"
-msgstr ""
+msgstr "μετρώ"
 
+#, fuzzy
 msgctxt "templ:partslist:tagtype:length"
 msgid "Length"
-msgstr ""
+msgstr "Μήκος"
 
 #, fuzzy
 msgctxt "templ:partslist:tagtype:area"
 msgid "Area"
 msgstr "Εμβαδόν"
 
+#, fuzzy
 msgctxt "templ:partslist:tablespec:default"
 msgid "Default table"
-msgstr ""
+msgstr "Προεπιλεγμένος πίνακας"
 
+#, fuzzy
 msgctxt "templ:partslist:tablespec:new"
 msgid "New table"
-msgstr ""
+msgstr "Νέο τραπέζι"
 
+#, fuzzy
 msgctxt "templ:partslist:tag:tag"
 msgid "Tag"
-msgstr ""
+msgstr "Ετικέτα"
 
+#, fuzzy
 msgctxt "templ:partslist:tag:name"
 msgid "Description"
-msgstr ""
+msgstr "Περιγραφή"
 
+#, fuzzy
 msgctxt "templ:partslist:tag:count"
 msgid "Count"
-msgstr ""
+msgstr "μετρώ"
 
+#, fuzzy
 msgctxt "templ:partslist:tag:comment"
 msgid "Comment"
-msgstr ""
+msgstr "Σχόλιο"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:item:image"
 msgid "Image"
-msgstr ""
+msgstr "Εικόνα"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:item:element"
 msgid "No."
-msgstr ""
+msgstr "Οχι."
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:item:image_and_element"
 msgid "No."
-msgstr ""
+msgstr "Οχι."
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:tagname"
 msgid "Item"
-msgstr ""
+msgstr "Είδος"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:comment"
 msgid "Comment"
-msgstr ""
+msgstr "Σχόλιο"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:count"
 msgid "Count"
-msgstr ""
+msgstr "μετρώ"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:quantity"
 msgid "Qty"
-msgstr ""
+msgstr "Ποσότητα"
 
+#, fuzzy
 msgctxt "templ:uiitem:duplicate:local"
 msgid "(local copy)"
-msgstr ""
+msgstr "(τοπικό αντίγραφο)"
 
+#, fuzzy
 msgctxt "templ:uiitem:duplicate:global"
 msgid "(from settings)"
-msgstr ""
+msgstr "(από τις ρυθμίσεις)"
 
+#, fuzzy
 msgctxt "table-operation:none"
 msgid "None"
-msgstr ""
+msgstr "Κανένας"
 
 #, fuzzy
 msgctxt "table-operation:none:keep"
 msgid "Keep"
 msgstr "Κρατήστε και τις δύο"
 
+#, fuzzy
 msgctxt "table-operation:sum"
 msgid "Sum"
-msgstr ""
+msgstr "Αθροισμα"
 
+#, fuzzy
 msgctxt "table-operation:avg"
 msgid "Average"
-msgstr ""
+msgstr "Μέση τιμή"
 
+#, fuzzy
 msgctxt "table-operation:min"
 msgid "Min"
-msgstr ""
+msgstr "Ελάχ"
 
+#, fuzzy
 msgctxt "table-operation:max"
 msgid "Max"
-msgstr ""
+msgstr "Μέγιστη"
 
+#, fuzzy
 msgctxt "table-operation:median"
 msgid "Median"
-msgstr ""
+msgstr "Διάμεσος"
 
+#, fuzzy
 msgctxt "table-operation:count"
 msgid "Count"
-msgstr ""
+msgstr "μετρώ"
 
+#, fuzzy
 msgctxt "SyncAction:NOP"
 msgid "No action"
-msgstr ""
+msgstr "Καμία ενέργεια"
 
+#, fuzzy
 msgctxt "SyncAction:PULL_NEW"
 msgid "Download new"
-msgstr ""
+msgstr "Λήψη νέων"
 
+#, fuzzy
 msgctxt "SyncAction:PULL_UPDATE"
 msgid "Download update"
-msgstr ""
+msgstr "Λήψη ενημέρωσης"
 
+#, fuzzy
 msgctxt "SyncAction:PUSH_NEW"
 msgid "Upload new"
-msgstr ""
+msgstr "Ανεβάστε νέο"
 
+#, fuzzy
 msgctxt "SyncAction:PUSH_UPDATE"
 msgid "Upload update"
-msgstr ""
+msgstr "Μεταφόρτωση ενημέρωσης"
 
+#, fuzzy
 msgctxt "SyncAction:DELETE_LOCAL"
 msgid "Delete locally"
-msgstr ""
+msgstr "Διαγραφή τοπικά"
 
+#, fuzzy
 msgctxt "SyncAction:DELETE_REMOTE"
 msgid "Delete on server"
-msgstr ""
+msgstr "Διαγραφή στο διακομιστή"
 
+#, fuzzy
 msgctxt "license:source:android-in-app"
 msgid "In-app"
-msgstr ""
+msgstr "Εντός εφαρμογής"
 
+#, fuzzy
 msgctxt "license:source:android-nativepro"
 msgid "Native"
-msgstr ""
+msgstr "Ντόπιος"
 
 #, fuzzy
 msgctxt "license:free"
@@ -2174,381 +2540,453 @@ msgctxt "license:pro"
 msgid "Pro"
 msgstr "Pro"
 
+#, fuzzy
 msgctxt "license:business"
 msgid "Business"
-msgstr ""
+msgstr "Business"
 
 #, fuzzy
 msgctxt "entity-initialization:image-title:camera"
 msgid "image from {now}"
 msgstr "εικόνα από {now.d} {now.M} {now.yyyy}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:pdf-page-with-name"
 msgid "{filename.stem}, page {page}"
-msgstr ""
+msgstr "{filename.stem}, σελίδα {page}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:pdf-page-without-name"
 msgid "PDF import, page {page}"
-msgstr ""
+msgstr "Εισαγωγή PDF, σελίδα {page}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:import-with-name"
 msgid "{filename.stem}"
-msgstr ""
+msgstr "{filename.stem}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:import-without-name"
 msgid "imported {now}"
-msgstr ""
+msgstr "εισαγόμενο {now}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:canvas"
 msgid "new canvas"
-msgstr ""
+msgstr "νέος καμβάς"
 
+#, fuzzy
 msgctxt "entity-initialization:folder-title"
 msgid "new folder"
-msgstr ""
+msgstr "νέος φάκελος"
 
+#, fuzzy
 msgctxt "stringscript:help:introtext"
-msgid ""
-"Enter the text that should appear here. You can add variables enclosed by "
-"{ } that will be substituted.\n"
-"\n"
-"Here are some example variables, but see below for the list of variables "
-"that are actually allowed here:\n"
-"{image.title} - image title\n"
-"{image.number} - the number you assigned to the image\n"
-"{folder.title} - title of the current folder\n"
-"{folder.parent.title} - title of the parent folder\n"
-"\n"
-"You can build complex expressions like this:\n"
-"{folder.title} / {image.number} - {image.title}"
-msgstr ""
+msgid "Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n\nHere are some example variables, but see below for the list of variables that are actually allowed here:\n{image.title} - image title\n{image.number} - the number you assigned to the image\n{folder.title} - title of the current folder\n{folder.parent.title} - title of the parent folder\n\nYou can build complex expressions like this:\n{folder.title} / {image.number} - {image.title}"
+msgstr "Εισαγάγετε το κείμενο που πρέπει να εμφανιστεί εδώ. Μπορείτε να προσθέσετε μεταβλητές που περικλείονται από το {} και θα αντικατασταθούν.\n\nΑκολουθούν ορισμένα παραδείγματα μεταβλητών, αλλά δείτε παρακάτω για τη λίστα των μεταβλητών που επιτρέπονται πραγματικά εδώ:\n{image.title} - τίτλος εικόνας\n{image.number} - ο αριθμός που εκχωρήσατε στην εικόνα\n{folder.title} - τίτλος του τρέχοντος φακέλου\n{folder.parent.title} - τίτλος του γονικού φακέλου\n\nΜπορείτε να δημιουργήσετε σύνθετες εκφράσεις όπως αυτή:\n{folder.title} / {image.number} - {image.title}"
 
+#, fuzzy
 msgctxt "stringscript:help:intro_toplevel_variables"
 msgid "Allowed top level variables:"
-msgstr ""
+msgstr "Επιτρεπόμενες μεταβλητές ανώτατου επιπέδου:"
 
+#, fuzzy
 msgctxt "stringscript:help:intro_subelements"
-msgid ""
-"Each type may have sub-elements. Here is the list of sub-elements for each "
-"data type:"
-msgstr ""
+msgid "Each type may have sub-elements. Here is the list of sub-elements for each data type:"
+msgstr "Κάθε τύπος μπορεί να έχει υπο-στοιχεία. Ακολουθεί η λίστα των υπο-στοιχείων για κάθε τύπο δεδομένων:"
 
+#, fuzzy
 msgctxt "stringscript:root:member:image"
 msgid "This image."
-msgstr ""
+msgstr "Αυτή η εικόνα."
 
+#, fuzzy
 msgctxt "stringscript:root:member:folder"
 msgid "Current folder."
-msgstr ""
+msgstr "Τρέχων φάκελος."
 
+#, fuzzy
 msgctxt "stringscript:root:member:date"
 msgid "The current date and time"
-msgstr ""
+msgstr "Η τρέχουσα ημερομηνία και ώρα"
 
+#, fuzzy
 msgctxt "stringscript:root:member:import_image_filename"
 msgid "Filename of the imported image."
-msgstr ""
+msgstr "Όνομα αρχείου της εισαγόμενης εικόνας."
 
+#, fuzzy
 msgctxt "stringscript:root:member:import_image_exif"
 msgid "EXIF metdata of the imported image."
-msgstr ""
+msgstr "Μεταδεδομένα EXIF της εισαγόμενης εικόνας."
 
+#, fuzzy
 msgctxt "stringscript:root:member:import_pdf_filename"
 msgid "Filename of the imported PDF."
-msgstr ""
+msgstr "Όνομα αρχείου του εισαγόμενου PDF."
 
+#, fuzzy
 msgctxt "stringscript:root:member:imported_pdf_page"
 msgid "Imported PDF page."
-msgstr ""
+msgstr "Εισαγωγή σελίδας PDF."
 
+#, fuzzy
 msgctxt "stringscript:root:member:pdf-image-folder"
 msgid "Folder of each image."
-msgstr ""
+msgstr "Φάκελος κάθε εικόνας."
 
+#, fuzzy
 msgctxt "scriptobject:undefined:value"
 msgid "undefined"
-msgstr ""
+msgstr "απροσδιόριστος"
 
+#, fuzzy
 msgctxt "scriptobject:undefined:type"
 msgid "undefined"
-msgstr ""
+msgstr "απροσδιόριστος"
 
+#, fuzzy
 msgctxt "scriptobject:string:type"
 msgid "string"
-msgstr ""
+msgstr "κείμενο"
 
+#, fuzzy
 msgctxt "scriptobject:float:type"
 msgid "number"
-msgstr ""
+msgstr "αριθμός"
 
+#, fuzzy
 msgctxt "scriptobject:integer:type"
 msgid "integer number"
-msgstr ""
+msgstr "ακέραιος αριθμός"
 
+#, fuzzy
 msgctxt "scriptobject:integer:description"
 msgid "An integer number"
-msgstr ""
+msgstr "Ένας ακέραιος αριθμός"
 
+#, fuzzy
 msgctxt "scriptobject:integer:member:2"
 msgid "Format as 2-digit number"
-msgstr ""
+msgstr "Μορφοποίηση ως διψήφιος αριθμός"
 
+#, fuzzy
 msgctxt "scriptobject:integer:member:3"
 msgid "Format as 3-digit number"
-msgstr ""
+msgstr "Μορφοποίηση ως τριψήφιος αριθμός"
 
+#, fuzzy
 msgctxt "scriptobject:integer:member:4"
 msgid "Format as 4-digit number"
-msgstr ""
+msgstr "Μορφοποίηση ως τετραψήφιος αριθμός"
 
+#, fuzzy
 msgctxt "scriptobject:keyvaluepairs:type"
 msgid "collection"
-msgstr ""
+msgstr "συλλογή"
 
+#, fuzzy
 msgctxt "scriptobject:keyvaluepairs:description"
 msgid "A collection of other objects"
-msgstr ""
+msgstr "Μια συλλογή από άλλα αντικείμενα"
 
+#, fuzzy
 msgctxt "scriptobject:databundle:type"
 msgid "image"
-msgstr ""
+msgstr "εικόνα"
 
+#, fuzzy
 msgctxt "scriptobject:databundle:description"
 msgid "Information about an image"
-msgstr ""
+msgstr "Πληροφορίες για μια εικόνα"
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:title"
 msgid "The image title."
-msgstr ""
+msgstr "Ο τίτλος της εικόνας."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:parent"
 msgid "The folder this image is located in."
-msgstr ""
+msgstr "Ο φάκελος στον οποίο βρίσκεται αυτή η εικόνα."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:number"
 msgid "The user-assigned number."
-msgstr ""
+msgstr "Ο αριθμός που έχει εκχωρηθεί από τον χρήστη."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:capture_date"
 msgid "The date at which this image was captured."
-msgstr ""
+msgstr "Η ημερομηνία κατά την οποία τραβήχτηκε αυτή η εικόνα."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:exif"
 msgid "EXIF data of this image."
-msgstr ""
+msgstr "EXIF δεδομένα αυτής της εικόνας."
 
+#, fuzzy
 msgctxt "scriptobject:folder:type"
 msgid "folder"
-msgstr ""
+msgstr "ντοσιέ"
 
+#, fuzzy
 msgctxt "scriptobject:folder:description"
 msgid "Information about a folder"
-msgstr ""
+msgstr "Πληροφορίες για έναν φάκελο"
 
+#, fuzzy
 msgctxt "scriptobject:folder:member:title"
 msgid "Folder title."
-msgstr ""
+msgstr "Τίτλος φακέλου."
 
+#, fuzzy
 msgctxt "scriptobject:folder:member:parent"
 msgid "The folder above this one."
-msgstr ""
+msgstr "Ο φάκελος πάνω από αυτόν."
 
+#, fuzzy
 msgctxt "scriptobject:folder:member:number"
 msgid "The user-assigned number."
-msgstr ""
+msgstr "Ο αριθμός που έχει εκχωρηθεί από τον χρήστη."
 
+#, fuzzy
 msgctxt "scriptobject:date:type"
 msgid "date"
-msgstr ""
+msgstr "ημερομηνία"
 
+#, fuzzy
 msgctxt "scriptobject:date:description"
 msgid "Date and time"
-msgstr ""
+msgstr "Ημερομηνία και ώρα"
 
+#, fuzzy
 msgctxt "scriptobject:date:member:yyyy"
 msgid "Year (4 digits)."
-msgstr ""
+msgstr "Έτος (4 ψηφία)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:yy"
 msgid "Year (last 2 digits)."
-msgstr ""
+msgstr "Έτος (τελευταία 2 ψηφία)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:m"
 msgid "Month number."
-msgstr ""
+msgstr "Αριθμός μήνα."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:mm"
 msgid "Month number (2 digits)."
-msgstr ""
+msgstr "Αριθμός μήνα (2 ψηφία)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:M"
 msgid "Month (name abbreviation)."
-msgstr ""
+msgstr "Μήνας (συντομογραφία ονόματος)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:MM"
 msgid "Month (full name)."
-msgstr ""
+msgstr "Μήνας (πλήρες όνομα)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:d"
 msgid "Day of month."
-msgstr ""
+msgstr "Ημέρα του μήνα."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:dd"
 msgid "Day of month (2 digits)."
-msgstr ""
+msgstr "Ημέρα του μήνα (2 ψηφία)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:h"
 msgid "Hour."
-msgstr ""
+msgstr "Ωρα."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:hh"
 msgid "Hour (2 digits)."
-msgstr ""
+msgstr "Hρα (2 ψηφία)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:h12"
 msgid "Hour (12 hours + am/pm)."
-msgstr ""
+msgstr "Hρα (12 ώρες + π.μ./μ.μ.)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:min"
 msgid "Minutes (2 digits)."
-msgstr ""
+msgstr "Πρακτικά (2 ψηφία)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:sec"
 msgid "Seconds (2 digits)."
-msgstr ""
+msgstr "Δευτερόλεπτα (2 ψηφία)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:time"
 msgid "Full time in HH:MM:SS format."
-msgstr ""
+msgstr "Πλήρης απασχόληση σε μορφή HH:MM:SS."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:hhmm"
 msgid "Time in HH:MM format."
-msgstr ""
+msgstr "Χρόνος σε μορφή HH:MM."
 
+#, fuzzy
 msgctxt "scriptobject:filename:type"
 msgid "filename"
-msgstr ""
+msgstr "όνομα αρχείου"
 
+#, fuzzy
 msgctxt "scriptobject:filename:description"
 msgid "A filename"
-msgstr ""
+msgstr "Όνομα αρχείου"
 
+#, fuzzy
 msgctxt "scriptobject:filename:member:stem"
 msgid "The filename without suffix."
-msgstr ""
+msgstr "Το όνομα αρχείου χωρίς επίθημα."
 
+#, fuzzy
 msgctxt "scriptobject:filename:member:suffix"
 msgid "The filanme suffix."
-msgstr ""
+msgstr "Το επίθημα filanme."
 
+#, fuzzy
 msgctxt "scriptobject:exif:type"
 msgid "exif"
-msgstr ""
+msgstr "exif"
 
+#, fuzzy
 msgctxt "scriptobject:exif:description"
 msgid "EXIF metadata from the image"
-msgstr ""
+msgstr "Μεταδεδομένα EXIF από την εικόνα"
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:gps"
 msgid "GPS location."
-msgstr ""
+msgstr "Θέση GPS."
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:date"
 msgid "Date the image was captured."
-msgstr ""
+msgstr "Ημερομηνία λήψης της εικόνας."
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:make"
 msgid "Camera manufacturer."
-msgstr ""
+msgstr "Κατασκευαστής κάμερας."
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:model"
 msgid "Camera model."
-msgstr ""
+msgstr "Μοντέλο κάμερας."
 
+#, fuzzy
 msgctxt "scriptobject:gps:type"
 msgid "gps"
-msgstr ""
+msgstr "gps"
 
+#, fuzzy
 msgctxt "scriptobject:gps:description"
 msgid "GPS location"
-msgstr ""
+msgstr "Θέση GPS"
 
+#, fuzzy
 msgctxt "scriptobject:gps:member:latitude"
 msgid "Latitude (N/S)."
-msgstr ""
+msgstr "Γεωγραφικό πλάτος (B/N)."
 
+#, fuzzy
 msgctxt "scriptobject:gps:member:longitude"
 msgid "Longitude (E/W)."
-msgstr ""
+msgstr "Γεωγραφικό μήκος (Α/Δ)."
 
+#, fuzzy
 msgctxt "scriptobject:gps:member:altitude"
 msgid "Altitude."
-msgstr ""
+msgstr "Υψόμετρο."
 
+#, fuzzy
 msgctxt "editor:warning:element:value-is-locked"
 msgid "Value is locked. You have to unlock it first."
-msgstr ""
+msgstr "Η τιμή είναι κλειδωμένη. Πρέπει πρώτα να το ξεκλειδώσετε."
 
+#, fuzzy
 msgctxt "lock:editor"
 msgid "editor"
-msgstr ""
+msgstr "συντάκτης"
 
+#, fuzzy
 msgctxt "lock:folder-content"
 msgid "list folder content"
-msgstr ""
+msgstr "λίστα περιεχομένου φακέλου"
 
+#, fuzzy
 msgctxt "lock:FileBrowserContent"
 msgid "file browser"
-msgstr ""
+msgstr "πρόγραμμα περιήγησης αρχείων"
 
+#, fuzzy
 msgctxt "lock:thumbnail-rendering"
 msgid "thumbnail rendering"
-msgstr ""
+msgstr "μικρογραφία απόδοση"
 
+#, fuzzy
 msgctxt "lock:rendering"
 msgid "image rendering"
-msgstr ""
+msgstr "απόδοση εικόνας"
 
+#, fuzzy
 msgctxt "lock:create-image"
 msgid "creating image"
-msgstr ""
+msgstr "δημιουργία εικόνας"
 
+#, fuzzy
 msgctxt "lock:import-image"
 msgid "importing image"
-msgstr ""
+msgstr "εισαγωγή εικόνας"
 
+#, fuzzy
 msgctxt "lock:syncer"
 msgid "cloud synchronization"
-msgstr ""
+msgstr "συγχρονισμός cloud"
 
+#, fuzzy
 msgctxt "lock:image-syncer"
 msgid "image cloud upload"
-msgstr ""
+msgstr "μεταφόρτωση νέφους εικόνας"
 
+#, fuzzy
 msgctxt "lock:pro-migration"
 msgid "pro migration"
-msgstr ""
+msgstr "υπέρ της μετανάστευσης"
 
+#, fuzzy
 msgctxt "lock:delete-image"
 msgid "deleting image"
-msgstr ""
+msgstr "διαγραφή εικόνας"
 
+#, fuzzy
 msgctxt "lock:delete-entity"
 msgid "deleting entity"
-msgstr ""
+msgstr "διαγραφή οντότητας"
 
+#, fuzzy
 msgctxt "lock:dialog-image-name"
 msgid "image renaming dialog"
-msgstr ""
+msgstr "διάλογος μετονομασίας εικόνας"
 
+#, fuzzy
 msgctxt "lock:copy-directory"
 msgid "copying directory"
-msgstr ""
+msgstr "αντιγραφή καταλόγου"
 
+#, fuzzy
 msgctxt "lock:set-library-root"
 msgid "setting image library root"
-msgstr ""
+msgstr "ρύθμιση της ρίζας της βιβλιοθήκης εικόνων"
 
-msgctxt "lock:undelete-entity"
-msgid "undeleting entity"
-msgstr ""

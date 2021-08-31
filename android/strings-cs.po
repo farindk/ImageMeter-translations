@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-06-14 20:15+0200\n"
+"POT-Creation-Date: 2021-08-12 17:13+0200\n"
 "PO-Revision-Date: 2020-08-31 17:28+0200\n"
 "Last-Translator: \n"
 "Language: cs\n"
@@ -17,16 +17,17 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
-#. generic strings
+#. generic strings, fuzzy
 msgctxt "generic_button_ok"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
+#, fuzzy
 msgctxt "generic_button_cancel"
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušení"
 
 #, fuzzy
 msgctxt "generic_button_dismiss"
@@ -68,9 +69,10 @@ msgctxt "generic_cancel_delete"
 msgid "Cancel"
 msgstr "zrušení"
 
+#, fuzzy
 msgctxt "generic_action_undo"
 msgid "Undo"
-msgstr ""
+msgstr "Vrátit"
 
 #. image library
 #, fuzzy
@@ -113,13 +115,15 @@ msgctxt "imageLibrary_folder_contextMenu_delete"
 msgid "Delete folder"
 msgstr "Smazat složku"
 
+#, fuzzy
 msgctxt "imageLibrary_folder_contextMenu_undelete"
 msgid "Undelete"
-msgstr ""
+msgstr "Zrušit smazání"
 
+#, fuzzy
 msgctxt "imageLibrary_folder_contextMenu_purge"
 msgid "Purge"
-msgstr ""
+msgstr "Očistit"
 
 msgctxt "imageLibrary_folder_contextMenu_print"
 msgid "Print folder"
@@ -135,21 +139,25 @@ msgctxt "imageLibrary_image_contextMenu_rename"
 msgid "Rename"
 msgstr "Přejmenovat"
 
+#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_move"
 msgid "Move to folder"
-msgstr ""
+msgstr "Přesunout do složky"
 
+#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Zkopírovat do schránky"
 
+#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
 msgid "Paste annotation"
-msgstr ""
+msgstr "Vložit anotaci"
 
+#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_duplicate"
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplikát"
 
 #, fuzzy
 msgctxt "imageLibrary_image_contextMenu_delete"
@@ -381,6 +389,16 @@ msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_small"
 msgid "Small grid"
 msgstr "Malá mřížka"
 
+#, fuzzy
+msgctxt "imageLibrary_displayOptionsDialog_showDeletedImages_summary_on"
+msgid "Deleted images are shown greyed out"
+msgstr "Smazané obrázky jsou zobrazeny šedě"
+
+#, fuzzy
+msgctxt "imageLibrary_displayOptionsDialog_showDeletedImages_summary_off"
+msgid "Deleted images are hidden"
+msgstr "Smazané obrázky jsou skryté"
+
 #. dialog: rename folder
 msgctxt "imageLibrary_folderNameDialog_name"
 msgid "Folder name"
@@ -395,9 +413,10 @@ msgctxt "imageLibrary_folderNameDialog_iconColor"
 msgid "Folder color"
 msgstr "Barva složky"
 
+#, fuzzy
 msgctxt "imageLibrary_folderNameDialog_template"
 msgid "Template"
-msgstr ""
+msgstr "Šablona"
 
 msgctxt "imageLibrary_folderNameDialog_notes"
 msgid "Notes"
@@ -413,9 +432,10 @@ msgctxt "imageLibrary_imageNameDialog_name_hint"
 msgid "Enter image name"
 msgstr "Zadejte název obrázku"
 
+#, fuzzy
 msgctxt "imageLibrary_imageNameDialog_template"
 msgid "Template"
-msgstr ""
+msgstr "Šablona"
 
 #, fuzzy
 msgctxt "imageLibrary_imageNameDialog_number"
@@ -426,18 +446,20 @@ msgctxt "imageLibrary_imageNameDialog_notes"
 msgid "Notes"
 msgstr "Poznámky"
 
-#. dialog: clipboard paste
+#. dialog: clipboard paste, fuzzy
 msgctxt "imageLibrary_clipboardPasteDialog_title"
 msgid "Clipboard paste options"
-msgstr ""
+msgstr "Možnosti vložení schránky"
 
+#, fuzzy
 msgctxt "imageLibrary_clipboardPasteDialog_alsoCopyMeasurementValues"
 msgid "Copy measurements"
-msgstr ""
+msgstr "Kopírování měření"
 
+#, fuzzy
 msgctxt "imageLibrary_clipboardPasteDialog_centerAnnotationOnImage"
 msgid "Center on image"
-msgstr ""
+msgstr "Střed na obrázku"
 
 #. TODO: currently unused, but could be used again in the move-image dialog
 msgctxt "imageselect_dialog_move_image_to_folder_title"
@@ -479,12 +501,8 @@ msgstr "<a href=\"mailto:info@imagemeter.com\">Kontaktní email</a>"
 
 #, fuzzy
 msgctxt "aboutApp_privacyPolicyLink"
-msgid ""
-"<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
-"policy</a>"
-msgstr ""
-"<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Zásady "
-"ochrany osobních údajů</a>"
+msgid "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy policy</a>"
+msgstr "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Zásady ochrany osobních údajů</a>"
 
 #, fuzzy
 msgctxt "aboutApp_licenses"
@@ -547,9 +565,10 @@ msgctxt "upgradeDialog_purchaseButton_addon"
 msgid "Activate Addon"
 msgstr "Aktivujte Addon"
 
+#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_basic"
 msgid "Get Basic upgrade"
-msgstr ""
+msgstr "Získejte základní upgrade"
 
 #, fuzzy
 msgctxt "upgradeDialog_purchaseButton_business"
@@ -561,9 +580,10 @@ msgctxt "upgradeDialog_purchaseButton_disabled_addonIsActive"
 msgid "Add-on is active"
 msgstr "Doplněk je aktivní"
 
+#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable_playStore"
 msgid "PlayStore unavailable"
-msgstr ""
+msgstr "PlayStore není k dispozici"
 
 #, fuzzy
 msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable_appGallery"
@@ -582,52 +602,48 @@ msgstr "Zadní"
 
 #, fuzzy
 msgctxt "upgradeDialog_moreInformationLink"
-msgid ""
-"For more information about these features, &lt;a "
-"href=\"https://www.imagemeter.com/manual/license/android-"
-"licenses\"&gt;visit the website&lt;/a&gt;."
-msgstr ""
-"Další informace o těchto funkcích najdete na webových stránkách <lt / a "
-"href = \"https://www.imagemeter.com/manual/license/android-licenses\" & "
-"gt ;."
+msgid "For more information about these features, &lt;a href=\"https://www.imagemeter.com/manual/license/android-licenses\"&gt;visit the website&lt;/a&gt;."
+msgstr "Další informace o těchto funkcích najdete &lt;a href=\"https://www.imagemeter.com/manual/license/android-licenses\"&gt;na webových stránkách&lt;/a&gt;."
 
+#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_title"
 msgid "Add-on without Pro upgrade?"
-msgstr ""
+msgstr "Doplněk bez upgradu Pro?"
 
+#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_message"
-msgid ""
-"You are trying to install the add-on without having the Pro upgrade. This"
-" is possible, but probably not what you want. Note that the add-on does "
-"not include the Pro upgrade."
-msgstr ""
+msgid "You are trying to install the add-on without having the Pro upgrade. This is possible, but probably not what you want. Note that the add-on does not include the Pro upgrade."
+msgstr "Pokoušíte se nainstalovat doplněk bez aktualizace Pro. To je možné, ale pravděpodobně ne to, co chcete. Všimněte si, že doplněk neobsahuje upgrade Pro."
 
+#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_confirm"
 msgid "Get the add-on"
-msgstr ""
+msgstr "Získejte doplněk"
 
+#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_cancel"
 msgid "Cancel"
-msgstr ""
+msgstr "zrušení"
 
+#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_get_pro"
 msgid "Get Pro instead"
-msgstr ""
+msgstr "Získejte místo toho Pro"
 
+#, fuzzy
 msgctxt "upgradeDialog_addon_without_basic_title"
 msgid "Add-on without Basic upgrade?"
-msgstr ""
+msgstr "Doplněk bez základní aktualizace?"
 
+#, fuzzy
 msgctxt "upgradeDialog_addon_without_basic_message"
-msgid ""
-"You are trying to install the add-on without having the Basic upgrade. "
-"This is possible, but probably not what you want. Note that the add-on "
-"does not include the Basic upgrade."
-msgstr ""
+msgid "You are trying to install the add-on without having the Basic upgrade. This is possible, but probably not what you want. Note that the add-on does not include the Basic upgrade."
+msgstr "Pokoušíte se nainstalovat doplněk, aniž byste museli provést základní upgrade. To je možné, ale pravděpodobně ne to, co chcete. Všimněte si, že doplněk neobsahuje základní upgrade."
 
+#, fuzzy
 msgctxt "upgradeDialog_addon_without_basic_get_basic"
 msgid "Get Basic instead"
-msgstr ""
+msgstr "Získejte místo toho Basic"
 
 #. specification of the add-ons and their feature items
 #, fuzzy
@@ -650,13 +666,15 @@ msgctxt "upgrade_addon_pro_addonName"
 msgid "Pro"
 msgstr "Pro"
 
+#, fuzzy
 msgctxt "upgrade_addon_basic_purchaseBoxTitle"
 msgid "Basic"
-msgstr ""
+msgstr "Základní"
 
+#, fuzzy
 msgctxt "upgrade_addon_basic_addonName"
 msgid "Basic"
-msgstr ""
+msgstr "Základní"
 
 #, fuzzy
 msgctxt "upgrade_addon_business_purchaseBoxTitle"
@@ -733,12 +751,10 @@ msgctxt "upgrade_item_cloud_backup"
 msgid "Backup on your cloud storage"
 msgstr "Záloha v cloudovém úložišti"
 
+#, fuzzy
 msgctxt "upgrade_item_data_tables"
-msgid ""
-"&lt;a "
-"href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Export "
-"measurements as data tables&lt;/a&gt;."
-msgstr ""
+msgid "&lt;a href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Export measurements as data tables&lt;/a&gt;."
+msgstr "&lt;a href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Exportovat měření jako datové tabulky&lt;/a&gt;."
 
 #, fuzzy
 msgctxt "upgrade_item_all_addon_packs"
@@ -783,21 +799,18 @@ msgstr "Tuto funkci můžete vyzkoušet s ukázkovými obrázky (ve složce '%1$
 
 #, c-format, fuzzy
 msgctxt "needUpgradeDialog_text_createAndtryWithExamples"
-msgid ""
-"You can try this function with the example images (<a "
-"href=\"create\">create folder '%1$s'</a>)."
-msgstr ""
-"Tuto funkci můžete vyzkoušet pomocí vzorových obrázků (<a "
-"href=\"create\">vytvořit složku '%1$s'</a>)."
+msgid "You can try this function with the example images (<a href=\"create\">create folder '%1$s'</a>)."
+msgstr "Tuto funkci můžete vyzkoušet pomocí vzorových obrázků (<a href=\"create\">vytvořit složku '%1$s'</a>)."
 
 #, c-format, fuzzy
 msgctxt "needUpgradeDialog_editingTool"
 msgid "This tool is available in the '%1$s' add-on."
 msgstr "Tento nástroj je k dispozici v doplňku '%1$s'."
 
+#, fuzzy
 msgctxt "needUpgradeDialog_exportDataTables"
 msgid "Exporting data tables is available in the Business version."
-msgstr ""
+msgstr "Export datových tabulek je k dispozici ve verzi Business."
 
 #. TODO: demo video
 msgctxt "needUpgradeDialog_button_getBusinessVersion"
@@ -816,16 +829,8 @@ msgstr "Aktivujte balíček doplňků"
 
 #, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_text"
-msgid ""
-"Since this native Pro-version is going to be replaced by the free version"
-" with in-app upgrades, add-on packs are only available in the free "
-"version. Please migrate to the free version. Your Pro upgrade will stay "
-"active."
-msgstr ""
-"Protože tato nativní verze Pro bude nahrazena bezplatnou verzí "
-"aktualizacemi v aplikaci, jsou doplňkové balíčky k dispozici pouze v "
-"bezplatné verzi. Přejděte na bezplatnou verzi. Vaše aktualizace Pro "
-"zůstane aktivní."
+msgid "Since this native Pro-version is going to be replaced by the free version with in-app upgrades, add-on packs are only available in the free version. Please migrate to the free version. Your Pro upgrade will stay active."
+msgstr "Protože tato nativní verze Pro bude nahrazena bezplatnou verzí aktualizacemi v aplikaci, jsou doplňkové balíčky k dispozici pouze v bezplatné verzi. Přejděte na bezplatnou verzi. Vaše aktualizace Pro zůstane aktivní."
 
 #, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_download_text"
@@ -837,38 +842,40 @@ msgctxt "dialog_migrate_for_addon_packs_open_instructions"
 msgid "Show migration instructions"
 msgstr "Zobrazit pokyny k migraci"
 
-#. licensing: volume key dialog
+#. licensing: volume key dialog, fuzzy
 msgctxt "licensing_company_key_title"
 msgid "Company configuration key"
-msgstr ""
+msgstr "Klíč pro konfiguraci společnosti"
 
 #, fuzzy
 msgctxt "licensing_volume_key_note"
-msgid ""
-"Note: you don't need to enter any key when you purchased through the "
-"Google Play store."
+msgid "Note: you don't need to enter any key when you purchased through the Google Play store."
 msgstr "Poznámka: Při nákupu v obchodě Google Play nemusíte zadávat žádný klíč."
 
+#, fuzzy
 msgctxt "licensing_company_key_description"
 msgid "Please enter your company key:"
-msgstr ""
+msgstr "Zadejte prosím svůj firemní klíč:"
 
 #, fuzzy
 msgctxt "licensing_volume_key_send_button"
 msgid "Send"
 msgstr "Poslat"
 
+#, fuzzy
 msgctxt "licensing_company_key_error_parse_server_response"
 msgid "Error parsing server response."
-msgstr ""
+msgstr "Chyba při analýze odpovědi serveru."
 
+#, fuzzy
 msgctxt "licensing_company_key_error_invalid_license_code"
 msgid "Invalid key."
-msgstr ""
+msgstr "Špatný klíč."
 
+#, fuzzy
 msgctxt "licensing_company_key_success"
 msgid "Key activated"
-msgstr ""
+msgstr "Klíč aktivován"
 
 #. in-app payment
 #, fuzzy
@@ -876,9 +883,10 @@ msgctxt "inapp_error_billing_unavailable"
 msgid "Billing is not available."
 msgstr "Fakturace není k dispozici."
 
+#, fuzzy
 msgctxt "inapp_error_feature_not_supported"
 msgid "Feature is not supported."
-msgstr ""
+msgstr "Funkce není podporována."
 
 #, fuzzy
 msgctxt "inapp_error_item_already_owned"
@@ -935,36 +943,42 @@ msgctxt "inapp_error_service_timeout"
 msgid "Service timeout."
 msgstr "Časový limit služby."
 
+#, fuzzy
 msgctxt "inapp_error_payment_failed"
 msgid "Payment failed."
-msgstr ""
+msgstr "Platba selhala."
 
+#, fuzzy
 msgctxt "inapp_error_cannot_query_owned_products"
 msgid "Cannot query for owned upgrades."
-msgstr ""
+msgstr "Nelze dotazovat na vlastněné upgrady."
 
-#. TODO: these names should be a simple summary name for the "About App"
+#. TODO: these names should be a simple summary name for the "About App", fuzzy
 #. dialog. But this does not work well with the          add-ons. Replace it
 #. with a different system.
 msgctxt "upgrade_licenseName_basic"
 msgid "Basic"
-msgstr ""
+msgstr "Základní"
 
+#, fuzzy
 msgctxt "upgrade_licenseName_addon_without_base_license"
 msgid "Add-on without base license"
-msgstr ""
+msgstr "Doplněk bez základní licence"
 
+#, fuzzy
 msgctxt "upgrade_licenseName_freeEvaluation"
 msgid "Free Evaluation"
-msgstr ""
+msgstr "Zdarma hodnocení"
 
+#, fuzzy
 msgctxt "upgrade_licenseName_business"
 msgid "Business"
-msgstr ""
+msgstr "Podnikání"
 
+#, fuzzy
 msgctxt "upgrade_licenseName_pro"
 msgid "Pro"
-msgstr ""
+msgstr "Pro"
 
 #, fuzzy
 msgctxt "license_source_pro_key_app"
@@ -978,26 +992,13 @@ msgstr "Tlačítko hlasitosti"
 
 #. info messages
 msgctxt "main_screen_info_message_pro_key_app_not_needed"
-msgid ""
-"You may deinstall the separate Pro app. It is not needed anymore as a key"
-" to enable the Pro features because you have add-ons that include the Pro"
-" upgrade. Make sure that you have copied all the images from the Pro app "
-"to here as deleting the app will also delete all the images stored in it."
-msgstr ""
-"Můžete odinstalovat samostatnou aplikaci Pro. Už není třeba jako klíč k "
-"aktivaci funkcí Pro, protože máte doplňky, které zahrnují aktualizaci "
-"Pro. Ujistěte se, že jste zde zkopírovali všechny obrázky z aplikace Pro,"
-" protože odstraněním aplikace se také odstraní všechny obrázky v ní "
-"uložené."
+msgid "You may deinstall the separate Pro app. It is not needed anymore as a key to enable the Pro features because you have add-ons that include the Pro upgrade. Make sure that you have copied all the images from the Pro app to here as deleting the app will also delete all the images stored in it."
+msgstr "Můžete odinstalovat samostatnou aplikaci Pro. Už není třeba jako klíč k aktivaci funkcí Pro, protože máte doplňky, které zahrnují aktualizaci Pro. Ujistěte se, že jste zde zkopírovali všechny obrázky z aplikace Pro, protože odstraněním aplikace se také odstraní všechny obrázky v ní uložené."
 
 #, fuzzy
 msgctxt "main_screen_info_message_please_rate"
-msgid ""
-"If you like this app, would you mind taking a minute to rate it? Thank "
-"you for your support!"
-msgstr ""
-"Pokud se vám tato aplikace líbí, bude vám vadit chvilku, než ji "
-"ohodnotit? Děkuji za vaší podporu!"
+msgid "If you like this app, would you mind taking a minute to rate it? Thank you for your support!"
+msgstr "Pokud se vám tato aplikace líbí, bude vám vadit chvilku, než ji ohodnotit? Děkuji za vaší podporu!"
 
 #, fuzzy
 msgctxt "main_screen_info_message_please_rate_rate_now"
@@ -1011,18 +1012,8 @@ msgstr "Později"
 
 #, fuzzy
 msgctxt "main_screen_info_message_no_backup"
-msgid ""
-"It looks like your images are currently not backed up. If your phone "
-"breaks or gets lost, the images may be lost too.\n"
-"\n"
-"To prevent this, use the cloud-sync function of the Business version or "
-"do a manual backup of your data."
-msgstr ""
-"Vypadá to, že vaše obrázky nejsou v současné době zálohovány. Pokud se "
-"váš telefon zlomí nebo se ztratí, mohou se ztratit i obrázky.\n"
-"\n"
-"Chcete-li tomu zabránit, použijte funkci cloudové synchronizace verze "
-"Business nebo proveďte ruční zálohování dat."
+msgid "It looks like your images are currently not backed up. If your phone breaks or gets lost, the images may be lost too.\n\nTo prevent this, use the cloud-sync function of the Business version or do a manual backup of your data."
+msgstr "Vypadá to, že vaše obrázky nejsou v současné době zálohovány. Pokud se váš telefon zlomí nebo se ztratí, mohou se ztratit i obrázky.\n\nChcete-li tomu zabránit, použijte funkci cloudové synchronizace verze Business nebo proveďte ruční zálohování dat."
 
 #, fuzzy
 msgctxt "main_screen_info_message_no_backup_do_not_warn_again"
@@ -1031,14 +1022,8 @@ msgstr "Nebudete znovu varovat"
 
 #, fuzzy
 msgctxt "main_screen_info_message_deprecated_directory"
-msgid ""
-"Your images are stored in the public 'Documents' directory. Soon, Android"
-" will not allow apps to access this directory anymore. Please move your "
-"data into the app directory."
-msgstr ""
-"Vaše obrázky jsou uloženy ve veřejném adresáři „Dokumenty“. Android již "
-"brzy nedovolí aplikacím přístup do tohoto adresáře. Přesuňte prosím data "
-"do adresáře aplikace."
+msgid "Your images are stored in the public 'Documents' directory. Soon, Android will not allow apps to access this directory anymore. Please move your data into the app directory."
+msgstr "Vaše obrázky jsou uloženy ve veřejném adresáři „Dokumenty“. Android již brzy nedovolí aplikacím přístup do tohoto adresáře. Přesuňte prosím data do adresáře aplikace."
 
 #, fuzzy
 msgctxt "main_screen_info_message_deprecated_directory_settings"
@@ -1089,23 +1074,13 @@ msgstr "Importujte obrázky z aplikace Pro"
 
 #, fuzzy
 msgctxt "import_pro_app_data_started_text"
-msgid ""
-"Importing has started to run in the background. When it is finished, "
-"please check that the images were copied correctly and delete them in the"
-" Pro app to save memory space."
-msgstr ""
-"Import začal běžet na pozadí. Po dokončení zkontrolujte, zda byly obrázky"
-" zkopírovány správně, a vymažte je v aplikaci Pro, abyste ušetřili místo "
-"v paměti."
+msgid "Importing has started to run in the background. When it is finished, please check that the images were copied correctly and delete them in the Pro app to save memory space."
+msgstr "Import začal běžet na pozadí. Po dokončení zkontrolujte, zda byly obrázky zkopírovány správně, a vymažte je v aplikaci Pro, abyste ušetřili místo v paměti."
 
 #, fuzzy
 msgctxt "import_pro_app_data_local_not_empty"
-msgid ""
-"Warning: there are images in this app. Importing the images from the Pro "
-"app may overwrite images with the same name."
-msgstr ""
-"Upozornění: v této aplikaci jsou obrázky. Import obrázků z aplikace Pro "
-"může přepsat obrázky se stejným názvem."
+msgid "Warning: there are images in this app. Importing the images from the Pro app may overwrite images with the same name."
+msgstr "Upozornění: v této aplikaci jsou obrázky. Import obrázků z aplikace Pro může přepsat obrázky se stejným názvem."
 
 #, fuzzy
 msgctxt "import_pro_app_data_local_not_empty_anyway"
@@ -1129,23 +1104,13 @@ msgstr "Počkejte prosím, %1$d hotových obrázků %2$d (%3$d chyb)."
 
 #, fuzzy
 msgctxt "import_pro_app_data_finished"
-msgid ""
-"Images from the Pro app are now imported. After checking that the images "
-"were imported correctly, you may want to delete the images in the Pro app"
-" to save memory space."
-msgstr ""
-"Obrázky z aplikace Pro jsou nyní importovány. Po ověření, že byly obrázky"
-" importovány správně, možná budete chtít obrázky v aplikaci Pro "
-"odstranit, abyste ušetřili místo v paměti."
+msgid "Images from the Pro app are now imported. After checking that the images were imported correctly, you may want to delete the images in the Pro app to save memory space."
+msgstr "Obrázky z aplikace Pro jsou nyní importovány. Po ověření, že byly obrázky importovány správně, možná budete chtít obrázky v aplikaci Pro odstranit, abyste ušetřili místo v paměti."
 
 #, fuzzy
 msgctxt "import_pro_app_data_failed"
-msgid ""
-"Image import from Pro app has failed or is incomplete. Maybe your memory "
-"is full?"
-msgstr ""
-"Import obrázku z aplikace Pro selhal nebo je neúplný. Možná je vaše paměť"
-" plná?"
+msgid "Image import from Pro app has failed or is incomplete. Maybe your memory is full?"
+msgstr "Import obrázku z aplikace Pro selhal nebo je neúplný. Možná je vaše paměť plná?"
 
 #. PDF import dialog
 msgctxt "pdf_import_page_selection_render_resolution"
@@ -1161,6 +1126,11 @@ msgstr "Výstupní rozlišení:"
 msgctxt "pdf_import_page_selection_output_image_resolution_value"
 msgid "%1$.1f MP"
 msgstr "%1$.1f MP"
+
+#, fuzzy
+msgctxt "pdf_import_page_selection_calibrate_to_page_size"
+msgid "Calibrate to page size"
+msgstr "Kalibrovat na velikost stránky"
 
 #, fuzzy
 msgctxt "pdf_import_page_selection_importButton"
@@ -1213,9 +1183,10 @@ msgctxt "dialog_image_export_use_default_options"
 msgid "Use default export options"
 msgstr "Použijte výchozí možnosti exportu"
 
+#, fuzzy
 msgctxt "dialog_image_export_low_jpeg_image_quality"
 msgid "A quality of at least 80 is recommended."
-msgstr ""
+msgstr "Doporučuje se kvalita alespoň 80."
 
 #, fuzzy
 msgctxt "dialog_image_export_options_show_dialog"
@@ -1252,21 +1223,25 @@ msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
 msgstr "Tisk poznámek ke složce"
 
+#, fuzzy
 msgctxt "dialog_pdf_export_image_title"
 msgid "Image title"
-msgstr ""
+msgstr "Název obrázku"
 
+#, fuzzy
 msgctxt "dialog_pdf_export_data_table"
 msgid "Data Table"
-msgstr ""
+msgstr "Datová tabulka"
 
+#, fuzzy
 msgctxt "dialog_pdf_export_data_table_layout"
 msgid "Table layout"
-msgstr ""
+msgstr "Rozložení stolu"
 
+#, fuzzy
 msgctxt "dialog_pdf_export_data_table_title_vertical"
 msgid "Vertical column titles"
-msgstr ""
+msgstr "Svislé názvy sloupců"
 
 #, fuzzy
 msgctxt "dialog_pdf_options_show_dialog"
@@ -1314,10 +1289,10 @@ msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
 msgstr "50%"
 
-#. export to gallery
+#. export to gallery, fuzzy
 msgctxt "image_export_to_gallery_in_background"
 msgid "Storing the images into your photo gallery..."
-msgstr ""
+msgstr "Ukládání obrázků do vaší fotogalerie..."
 
 #. PDF export progress notification
 #, fuzzy
@@ -1361,10 +1336,10 @@ msgctxt "zip_export_notification_progress_compressing_step"
 msgid "Compressing ZIP file…"
 msgstr "Komprimace souboru ZIP ..."
 
-#. CSV export
+#. CSV export, fuzzy
 msgctxt "dialog_csv_export_title"
 msgid "Data table export (CSV)"
-msgstr ""
+msgstr "Export datové tabulky (CSV)"
 
 #. export
 #. notifications
@@ -1464,9 +1439,7 @@ msgstr[3] ""
 #, fuzzy
 msgctxt "notification_error_no_permission_to_save_to_gallery"
 msgid "Cannot save to gallery because ImageMeter has no storage write permission."
-msgstr ""
-"Nelze uložit do galerie, protože ImageMeter nemá oprávnění k zápisu do "
-"úložiště."
+msgstr "Nelze uložit do galerie, protože ImageMeter nemá oprávnění k zápisu do úložiště."
 
 #, fuzzy
 msgctxt "notification_duplicate_title"
@@ -1483,11 +1456,11 @@ msgctxt "notification_error_duplicating_image"
 msgid "Error while duplicating image"
 msgstr "Při duplikování obrazu došlo k chybě"
 
-#. ========== preferences ==========
+#. ========== preferences ==========, fuzzy
 #. main screen
 msgctxt "pref_main_title"
 msgid "Settings"
-msgstr ""
+msgstr "Nastavení"
 
 msgctxt "pref_category_measures"
 msgid "Measures"
@@ -1509,21 +1482,24 @@ msgctxt "pref_category_user_interface"
 msgid "User interface"
 msgstr "Uživatelské rozhraní"
 
+#, fuzzy
 msgctxt "pref_category_workflow"
 msgid "Workflow"
-msgstr ""
+msgstr "Pracovní postup"
 
 msgctxt "pref_category_storage"
 msgid "Storage"
 msgstr "Úložiště"
 
+#, fuzzy
 msgctxt "pref_category_templates"
 msgid "Templates and data tables"
-msgstr ""
+msgstr "Šablony a datové tabulky"
 
+#, fuzzy
 msgctxt "pref_category_company"
 msgid "Company"
-msgstr ""
+msgstr "Společnost"
 
 #, fuzzy
 msgctxt "pref_category_information"
@@ -1634,30 +1610,35 @@ msgctxt "pref_measure_angle_unit_choices:3"
 msgid "Gradians"
 msgstr "Grad"
 
+#, fuzzy
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
-msgstr ""
+msgstr "Desítkové číslice pro vypočítané hodnoty"
 
 #, fuzzy
 msgctxt "pref_measure_decimal_digits_metric_length"
 msgid "Decimal digits for metric lengths"
 msgstr "Desetinná místa"
 
+#, fuzzy
 msgctxt "pref_measure_decimal_digits_metric_areas"
 msgid "Decimal digits for metric areas"
-msgstr ""
+msgstr "Desetinné číslice pro metrické oblasti"
 
+#, fuzzy
 msgctxt "pref_measure_decimal_digits_angles"
 msgid "Decimal digits for angles"
-msgstr ""
+msgstr "Desetinné číslice pro úhly"
 
+#, fuzzy
 msgctxt "pref_measure_decimal_digits_imperial_lengths"
 msgid "Decimal digits for imperial lengths"
-msgstr ""
+msgstr "Desetinné číslice pro imperiální délky"
 
+#, fuzzy
 msgctxt "pref_measure_decimal_digits_imperial_areas"
 msgid "Decimal digits for imperial areas"
-msgstr ""
+msgstr "Desetinné číslice pro imperiální oblasti"
 
 msgctxt "pref_measure_decimal_digits_metric_length_dialog"
 msgid "Number of decimal digits in computed values"
@@ -1687,33 +1668,40 @@ msgctxt "pref_measure_decimal_digits_metric_length_choices:5"
 msgid "5 digits"
 msgstr "5 číslic"
 
+#, fuzzy
 msgctxt "pref_unit_subsets_category"
 msgid "Enabled units"
-msgstr ""
+msgstr "Povolené jednotky"
 
+#, fuzzy
 msgctxt "pref_unit_subsets_metric"
 msgid "Enabled metric units"
-msgstr ""
+msgstr "Povolené metrické jednotky"
 
+#, fuzzy
 msgctxt "pref_unit_subsets_metric_all"
 msgid "All"
-msgstr ""
+msgstr "Všechno"
 
+#, fuzzy
 msgctxt "pref_unit_subsets_imperial"
 msgid "Enabled imperial units"
-msgstr ""
+msgstr "Povolené imperiální jednotky"
 
+#, fuzzy
 msgctxt "pref_unit_subsets_imperial_inch_to_mile"
 msgid "inch, foot, yard, mile"
-msgstr ""
+msgstr "palec, stopa, yard, míle"
 
+#, fuzzy
 msgctxt "pref_unit_subsets_imperial_mil_to_foot"
 msgid "mil, inch, foot"
-msgstr ""
+msgstr "mil, palec, stopa"
 
+#, fuzzy
 msgctxt "pref_unit_subsets_imperial_all"
 msgid "All"
-msgstr ""
+msgstr "Všechno"
 
 #. Bluetooth
 msgctxt "pref_bluetooth_devices"
@@ -1753,9 +1741,10 @@ msgctxt "pref_bluetooth_device_protocol_bosch_plr"
 msgid "Bosch PLR"
 msgstr "Bosch PLR"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_bosch_glm50c"
 msgid "Bosch GLM50c"
-msgstr ""
+msgstr "Bosch GLM50c"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm100c"
 msgid "Bosch GLM100c"
@@ -1764,6 +1753,11 @@ msgstr "Bosch GLM100c"
 msgctxt "pref_bluetooth_device_protocol_bosch_glm120c"
 msgid "Bosch GLM120c"
 msgstr "Bosch GLM120c"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_bosch_glm150c"
+msgid "Bosch GLM150c"
+msgstr "Bosch GLM150c"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm400c"
 msgid "Bosch GLM400c"
@@ -1809,9 +1803,10 @@ msgctxt "pref_bluetooth_device_protocol_leica_disto_x"
 msgid "Leica Disto X3/X4"
 msgstr "Leica Disto X3/X4"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_leica_disto_d1"
 msgid "Leica Disto D1"
-msgstr ""
+msgstr "Leica Disto D1"
 
 msgctxt "pref_bluetooth_device_protocol_lti_trupulse"
 msgid "LTI TruPulse"
@@ -1837,9 +1832,10 @@ msgctxt "pref_bluetooth_device_protocol_mileseey_r2b"
 msgid "Mileseey R2B"
 msgstr "Mileseey R2B"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_mileseey_m120"
 msgid "Mileseey M120"
-msgstr ""
+msgstr "Mileseey M120"
 
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
 msgid "Sndway SW-S100"
@@ -1865,21 +1861,40 @@ msgctxt "pref_bluetooth_device_protocol_condtrol_xp3"
 msgid "Condtrol XP3/XP4 Pro"
 msgstr "Condtrol XP3/XP4 Pro"
 
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_condtrol_vector60"
+msgid "Condtrol Vector 60"
+msgstr "Condtrol Vector 60"
+
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_sola_vector_100"
 msgid "Sola Vector 100 Pro"
-msgstr ""
+msgstr "Sola Vector 100 Pro"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_einhell_te_ld60"
 msgid "Einhell TE-LD60"
-msgstr ""
+msgstr "Einhell TE-LD60"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_optex_btl140"
 msgid "OPTEX BTL-140"
-msgstr ""
+msgstr "OPTEX BTL-140"
 
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_popoman_lmbt60"
+msgid "Popoman LMBT60"
+msgstr "Popoman LMBT60"
+
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_meethk_ms_bldm440"
 msgid "Meet HK MS-BLDM440"
-msgstr ""
+msgstr "Meet HK MS-BLDM440"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_renpho_tape_measure"
+msgid "Renpho tape measure"
+msgstr "Svinovací metr Renpho"
 
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
 msgid "LTI TruPulse distance mode"
@@ -1932,13 +1947,8 @@ msgstr "Odeslat dálkovou spoušť dvakrát"
 
 #, fuzzy
 msgctxt "pref_bluetooth_remote_trigger_twice_summaryon"
-msgid ""
-"The trigger command will be sent twice. For some laser devices that only "
-"switch on the laser at the first command and perform the measurement at "
-"the second command."
-msgstr ""
-"Spouštěcí příkaz bude odeslán dvakrát. U některých laserových zařízení "
-"zapínají laser pouze na první povel a měření provádějí na druhý povel."
+msgid "The trigger command will be sent twice. For some laser devices that only switch on the laser at the first command and perform the measurement at the second command."
+msgstr "Spouštěcí příkaz bude odeslán dvakrát. U některých laserových zařízení zapínají laser pouze na první povel a měření provádějí na druhý povel."
 
 #, fuzzy
 msgctxt "pref_bluetooth_remote_trigger_twice_summaryoff"
@@ -1971,13 +1981,15 @@ msgctxt "pref_ui_editor_fullscreen_mode_choices:2"
 msgid "Always"
 msgstr "Vždy"
 
+#, fuzzy
 msgctxt "pref_editor_zoom_slider"
 msgid "Show zoom slider"
-msgstr ""
+msgstr "Zobrazit posuvník zoomu"
 
+#, fuzzy
 msgctxt "pref_editor_keep_screen_on"
 msgid "Keep screen on while editing"
-msgstr ""
+msgstr "Při úpravách ponechat obrazovku zapnutou"
 
 msgctxt "pref_ui_editor_dragging_speed"
 msgid "Dragging slowdown"
@@ -2007,25 +2019,55 @@ msgctxt "pref_ui_editor_dragging_speed_choices:3"
 msgid "25%"
 msgstr "25%"
 
+#, fuzzy
+msgctxt "pref_ui_editor_tool_long_press_action"
+msgid "Long-press on tool selection"
+msgstr "Dlouze stiskněte při výběru nástroje"
+
+#, fuzzy
+msgctxt "pref_ui_editor_tool_long_press_dialog"
+msgid "Long-press on tool selection"
+msgstr "Dlouze stiskněte při výběru nástroje"
+
+#, fuzzy
+msgctxt "pref_ui_editor_tool_long_press_choices:0"
+msgid "No action"
+msgstr "Žádná akce"
+
+#, fuzzy
+msgctxt "pref_ui_editor_tool_long_press_choices:1"
+msgid "Keep tool selected"
+msgstr "Ponechat nástroj vybraný"
+
+#, fuzzy
+msgctxt "pref_ui_editor_tool_long_press_vibrate"
+msgid "Vibrate on long-press on tool"
+msgstr "Vibrace při dlouhém stisknutí nástroje"
+
+#, fuzzy
 msgctxt "pref_ui_editor_rotation"
 msgid "Interactive rotation"
-msgstr ""
+msgstr "Interaktivní rotace"
 
+#, fuzzy
 msgctxt "pref_ui_editor_rotation_dialog"
 msgid "Interactive rotation"
-msgstr ""
+msgstr "Interaktivní rotace"
 
+#, fuzzy
 msgctxt "pref_ui_editor_rotation_choices:0"
 msgid "Disable rotation"
-msgstr ""
+msgstr "Zakázat otáčení"
 
+#, fuzzy
 msgctxt "pref_ui_editor_rotation_choices:1"
 msgid "Enabled, snap at original orientation"
-msgstr ""
+msgstr "Povoleno, přichytit na původní orientaci"
 
+#, fuzzy
 msgctxt "pref_ui_editor_rotation_choices:2"
 msgid "Enabled, snap at 90° degree angles"
-msgstr ""
+msgstr "Povoleno, přichytávání pod úhly 90 °"
 
 msgctxt "pref_ui_helpbar_mode"
 msgid "Help messages"
@@ -2270,16 +2312,15 @@ msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
 msgstr "Zakázáno (nižší kvalita výstupu)"
 
+#, fuzzy
 msgctxt "pref_export_image_filename_expression"
 msgid "Expression for output filename"
-msgstr ""
+msgstr "Výraz pro výstupní název souboru"
 
+#, fuzzy
 msgctxt "pref_export_image_filename_expression_message"
-msgid ""
-"Please see the documentation at "
-"\"https://imagemeter.com/manual/workflow/variables\" to learn more about "
-"writing string expressions with variables."
-msgstr ""
+msgid "Please see the documentation at \"https://imagemeter.com/manual/workflow/variables\" to learn more about writing string expressions with variables."
+msgstr "Další informace o psaní řetězcových výrazů pomocí proměnných najdete v dokumentaci na adrese „https://imagemeter.com/manual/workflow/variables“."
 
 #. ZIP
 msgctxt "pref_category_export_zip"
@@ -2317,50 +2358,60 @@ msgctxt "pref_export_zip_include_pdf"
 msgid "Include PDF file"
 msgstr "Zahrnout soubor PDF"
 
-#. CSV
+#. CSV, fuzzy
 msgctxt "pref_category_export_csv"
 msgid "CSV file settings"
-msgstr ""
+msgstr "Nastavení souboru CSV"
 
+#, fuzzy
 msgctxt "pref_export_csv_field_separator"
 msgid "Field separator character"
-msgstr ""
+msgstr "Znak oddělovače polí"
 
+#, fuzzy
 msgctxt "pref_export_csv_cell_values_separator"
 msgid "Cell values separator"
-msgstr ""
+msgstr "Oddělovač hodnot buněk"
 
+#, fuzzy
 msgctxt "pref_export_csv_decimal_separator"
 msgid "Decimal separator"
-msgstr ""
+msgstr "Desetinný oddělovač"
 
+#, fuzzy
 msgctxt "pref_export_csv_include_header_row"
 msgid "Include header row"
-msgstr ""
+msgstr "Zahrnout řádek záhlaví"
 
+#, fuzzy
 msgctxt "pref_export_csv_include_footer_row"
 msgid "Include footer row"
-msgstr ""
+msgstr "Zahrnout řádek zápatí"
 
+#, fuzzy
 msgctxt "pref_export_csv_field_separator_choices:0"
 msgid "Comma"
-msgstr ""
+msgstr "Čárka"
 
+#, fuzzy
 msgctxt "pref_export_csv_field_separator_choices:1"
 msgid "Semicolon"
-msgstr ""
+msgstr "Středník"
 
+#, fuzzy
 msgctxt "pref_export_csv_field_separator_choices:2"
 msgid "Colon"
-msgstr ""
+msgstr "Dvojtečka"
 
+#, fuzzy
 msgctxt "pref_export_csv_decimal_separator_choices:0"
 msgid "Dot"
-msgstr ""
+msgstr "Tečka"
 
+#, fuzzy
 msgctxt "pref_export_csv_decimal_separator_choices:1"
 msgid "Comma"
-msgstr ""
+msgstr "Čárka"
 
 #. PDF
 msgctxt "pref_category_export_pdf"
@@ -2503,9 +2554,10 @@ msgctxt "pref_export_pdf_image_notes_space_choices:4"
 msgid "10%"
 msgstr "10%"
 
+#, fuzzy
 msgctxt "pref_export_pdf_image_notes_space_choices:5"
 msgid "Do not print image notes"
-msgstr ""
+msgstr "Netiskněte poznámky k obrázku"
 
 msgctxt "pref_export_pdf_print_folder_notes"
 msgid "Print folder notes"
@@ -2519,29 +2571,35 @@ msgctxt "pref_export_pdf_print_folder_notes_summaryon"
 msgid "Page with folder notes and TOC will be printed"
 msgstr "Stránka s poznámkami ke složce a TOC se vytisknou"
 
+#, fuzzy
 msgctxt "pref_category_export_general"
 msgid "General"
-msgstr ""
+msgstr "Všeobecné"
 
+#, fuzzy
 msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
-msgstr ""
+msgstr "Používají se odkazy na mapy"
 
+#, fuzzy
 msgctxt "pref_export_general_map_link_provider_dialog"
 msgid "Map provider"
-msgstr ""
+msgstr "Poskytovatel map"
 
+#, fuzzy
 msgctxt "pref_export_general_map_link_provider_choices:0"
 msgid "Google Maps"
-msgstr ""
+msgstr "Google mapy"
 
+#, fuzzy
 msgctxt "pref_export_general_map_link_provider_choices:1"
 msgid "Bing Maps"
-msgstr ""
+msgstr "Mapy Bing"
 
+#, fuzzy
 msgctxt "pref_export_general_map_link_provider_choices:2"
 msgid "OpenStreetMap"
-msgstr ""
+msgstr "OpenStreetMap"
 
 #. User interface
 msgctxt "pref_category_ui_general"
@@ -2604,66 +2662,123 @@ msgctxt "pref_ui_edit_image_after_capture_enabled"
 msgid "Edit image after capture"
 msgstr "Upravit obrázek po vyfocení"
 
+#, fuzzy
+msgctxt "pref_category_ui_limits"
+msgid "Limits"
+msgstr "Limity"
+
+#, fuzzy
+msgctxt "pref_ui_max_image_resolution"
+msgid "Maximum image resolution"
+msgstr "Maximální rozlišení obrazu"
+
+#, fuzzy
+msgctxt "pref_ui_max_image_resolution_choices:0"
+msgid "1 megapixel"
+msgstr "1 megapixel"
+
+#, fuzzy
+msgctxt "pref_ui_max_image_resolution_choices:1"
+msgid "4 megapixel"
+msgstr "4 megapixely"
+
+#, fuzzy
+msgctxt "pref_ui_max_image_resolution_choices:2"
+msgid "16 megapixel"
+msgstr "16 megapixelů"
+
+#, fuzzy
+msgctxt "pref_ui_max_image_resolution_choices:3"
+msgid "64 megapixel"
+msgstr "64 megapixelů"
+
+#, fuzzy
+msgctxt "pref_ui_max_image_resolution_choices:4"
+msgid "256 megapixel"
+msgstr "256 megapixelů"
+
+#, fuzzy
+msgctxt "pref_ui_max_image_resolution_choices:5"
+msgid "unlimited"
+msgstr "neomezený"
+
+#. <string name="pref_category_ui_import">Import</string>     <string, fuzzy
+#. name="pref_ui_pdf_import_calibrate_to_page_size">PDF import: calibrate to
+#. page size</string>
 #. initial texts
 msgctxt "pref_category_ui_initial_titles"
 msgid "Initial titles"
-msgstr ""
+msgstr "Počáteční tituly"
 
+#, fuzzy
 msgctxt "pref_category_ui_initial_notes"
 msgid "Initial notes"
-msgstr ""
+msgstr "Úvodní poznámky"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_info"
 msgid "Show scripting overview…"
-msgstr ""
+msgstr "Zobrazit přehled skriptování…"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_camera"
 msgid "Title for camera images"
-msgstr ""
+msgstr "Název pro obrázky z fotoaparátu"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_notes_expr_camera"
 msgid "Notes for camera images"
-msgstr ""
+msgstr "Poznámky k obrázkům z fotoaparátu"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_import_image_with_filename"
 msgid "Imported image with filename"
-msgstr ""
+msgstr "Importovaný obrázek s názvem souboru"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_import_image_no_filename"
 msgid "Imported image without filename"
-msgstr ""
+msgstr "Importovaný obrázek bez názvu souboru"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_notes_expr_import_image"
 msgid "Notes for imported image"
-msgstr ""
+msgstr "Poznámky k importovanému obrázku"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_import_pdf_with_filename"
 msgid "Imported PDF with filename"
-msgstr ""
+msgstr "Importovaný PDF s názvem souboru"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_import_pdf_no_filename"
 msgid "imported PDF without filename"
-msgstr ""
+msgstr "importovaný PDF bez názvu souboru"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_notes_expr_import_pdf"
 msgid "Notes for imported PDF"
-msgstr ""
+msgstr "Poznámky k importovanému PDF"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_canvas"
 msgid "Title for new canvas"
-msgstr ""
+msgstr "Název pro nové plátno"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_notes_expr_canvas"
 msgid "Notes for new canvas"
-msgstr ""
+msgstr "Poznámky k novému plátnu"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_folder_title_expr"
 msgid "Title for new folder"
-msgstr ""
+msgstr "Název nové složky"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_folder_notes_expr"
 msgid "Notes for new folder"
-msgstr ""
+msgstr "Poznámky k nové složce"
 
 #. numbering
 #, fuzzy
@@ -2770,27 +2885,25 @@ msgctxt "pref_storage_cloud_wifi_only_off"
 msgid "Sync on any network"
 msgstr "Synchronizace v jakékoli síti"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode"
 msgid "Two-way sync mode"
-msgstr ""
+msgstr "Režim obousměrné synchronizace"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_safe_sync"
-msgid ""
-"Remove deleted images from server, but keep local images when they were "
-"deleted elsewhere."
-msgstr ""
+msgid "Remove deleted images from server, but keep local images when they were deleted elsewhere."
+msgstr "Odstraňte odstraněné obrázky ze serveru, ale ponechte místní obrázky, pokud byly odstraněny jinde."
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_full_sync"
-msgid ""
-"Delete local images when they were deleted on any other device (BE "
-"CAREFUL)."
-msgstr ""
+msgid "Delete local images when they were deleted on any other device (BE CAREFUL)."
+msgstr "Odstraňte místní obrázky, když byly odstraněny na jakémkoli jiném zařízení (POZOR)."
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_backup"
-msgid ""
-"Never delete images from the server. You may get duplicates when moving "
-"images."
-msgstr ""
+msgid "Never delete images from the server. You may get duplicates when moving images."
+msgstr "Nikdy nesmažte obrázky ze serveru. Při přesouvání obrázků můžete získat duplikáty."
 
 #, fuzzy
 msgctxt "pref_storage_cloud_advanced_maintenance"
@@ -2976,24 +3089,8 @@ msgid "There is not enough free memory on the target volume to move all images."
 msgstr "Na cílovém svazku není dostatek volné paměti pro přesun všech obrázků."
 
 msgctxt "pref_storage_directory_error_could_not_copy_all_images"
-msgid ""
-"Could not copy all images to target directory. Maybe your folder names "
-"are no valid filenames on the target filesystem. Please change them and "
-"then try to copy the remaining data.\n"
-"\n"
-"The active storage directory has not been changed.\n"
-"\n"
-"Please note that the target directory now contains an incomplete copy of "
-"the source data!"
-msgstr ""
-"Nešlo zkopírovat všechny obrázky do cílového adresáře. Možná názvy vašich"
-" složek nejsou platná pro cílový souborový systém. Prosím, změňte je a "
-"poté zkuste zkopírovat zbývající data.\n"
-"\n"
-"Aktivní adresář úložiště nebyl změněn.\n"
-"\n"
-"Berte na vědomí, že cílový adresář nyní obsahuje neúplnou kopii "
-"zdrojových dat!"
+msgid "Could not copy all images to target directory. Maybe your folder names are no valid filenames on the target filesystem. Please change them and then try to copy the remaining data.\n\nThe active storage directory has not been changed.\n\nPlease note that the target directory now contains an incomplete copy of the source data!"
+msgstr "Nešlo zkopírovat všechny obrázky do cílového adresáře. Možná názvy vašich složek nejsou platná pro cílový souborový systém. Prosím, změňte je a poté zkuste zkopírovat zbývající data.\n\nAktivní adresář úložiště nebyl změněn.\n\nBerte na vědomí, že cílový adresář nyní obsahuje neúplnou kopii zdrojových dat!"
 
 #, fuzzy
 msgctxt "pref_storage_directory_cannot_move_files"
@@ -3013,14 +3110,8 @@ msgstr "Přesouvám obrázky ..."
 #. Cloud storage
 #, fuzzy
 msgctxt "cloud_storage_notice_text"
-msgid ""
-"Before setting up cloud storage, you should read the <a "
-"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>"
-" to avoid pitfalls."
-msgstr ""
-"Před nastavením cloudového úložiště byste si měli přečíst <a "
-"href=\"https://www.imagemeter.com/manual/storage/cloud\">dokumentaci</a>,"
-" abyste se vyhnuli nástrahám."
+msgid "Before setting up cloud storage, you should read the <a href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a> to avoid pitfalls."
+msgstr "Před nastavením cloudového úložiště byste si měli přečíst <a href=\"https://www.imagemeter.com/manual/storage/cloud\">dokumentaci</a>, abyste se vyhnuli nástrahám."
 
 #, fuzzy
 msgctxt "cloud_storage_cloud_server"
@@ -3072,62 +3163,28 @@ msgid "OneDrive"
 msgstr "OneDrive"
 
 msgctxt "cloud_storage_server_note_drive"
-msgid ""
-"<b>Note:</b> the Google Drive backend does not allow access to shared "
-"folders yet. Hence, you can share images between devices when they use "
-"the same Google account, but not between devices using different "
-"accounts."
-msgstr ""
-"<b>Poznámka:</b> backend Disku Google zatím neumožňuje přístup ke "
-"sdíleným složkám. Můžete tedy sdílet obrázky mezi zařízeními, když "
-"používají stejný účet Google, ale ne mezi zařízeními používajícími různé "
-"účty."
+msgid "<b>Note:</b> the Google Drive backend does not allow access to shared folders yet. Hence, you can share images between devices when they use the same Google account, but not between devices using different accounts."
+msgstr "<b>Poznámka:</b> backend Disku Google zatím neumožňuje přístup ke sdíleným složkám. Můžete tedy sdílet obrázky mezi zařízeními, když používají stejný účet Google, ale ne mezi zařízeními používajícími různé účty."
 
 #, fuzzy
 msgctxt "cloud_storage_server_note_dropbox"
-msgid ""
-"The Dropbox backend also supports sharing your images with other Dropbox "
-"users. See the documentation at the link above how to set this up."
-msgstr ""
-"Backend backbox také podporuje sdílení vašich obrázků s ostatními "
-"uživateli Dropbox. Postup nastavení naleznete v dokumentaci na výše "
-"uvedeném odkazu."
+msgid "The Dropbox backend also supports sharing your images with other Dropbox users. See the documentation at the link above how to set this up."
+msgstr "Backend backbox také podporuje sdílení vašich obrázků s ostatními uživateli Dropbox. Postup nastavení naleznete v dokumentaci na výše uvedeném odkazu."
 
 #, fuzzy
 msgctxt "cloud_storage_server_note_nextcloud"
-msgid ""
-"This backend allows you to use your own, private cloud server to host the"
-" images. You can set-up your own users and shared folders. Information "
-"how to set-up a server can be found at the documentation link above."
-msgstr ""
-"Tento backend umožňuje použít k hostování obrázků svůj vlastní privátní "
-"cloudový server. Můžete nastavit své vlastní uživatele a sdílené složky. "
-"Informace o nastavení serveru naleznete na výše uvedeném odkazu na "
-"dokumentaci."
+msgid "This backend allows you to use your own, private cloud server to host the images. You can set-up your own users and shared folders. Information how to set-up a server can be found at the documentation link above."
+msgstr "Tento backend umožňuje použít k hostování obrázků svůj vlastní privátní cloudový server. Můžete nastavit své vlastní uživatele a sdílené složky. Informace o nastavení serveru naleznete na výše uvedeném odkazu na dokumentaci."
 
 #, fuzzy
 msgctxt "cloud_storage_server_note_handwerkcloud"
-msgid ""
-"The Handwerkcloud service offers not only storage space for your images "
-"and documents, but also an online office suite and other applications. A "
-"Handwerkcloud subscription includes an ImageMeter Business license. For "
-"more information see the <a "
-"href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
-msgstr ""
-"Služba Handwerkcloud nabízí nejen úložný prostor pro vaše obrázky a "
-"dokumenty, ale také online kancelářskou sadu a další aplikace. Předplatné"
-" Handwerkcloud zahrnuje licenci ImageMeter Business. Další informace "
-"naleznete na <a href=\"https://handwerkcloud.de\">webových stránkách "
-"Handwerkcloud</a>."
+msgid "The Handwerkcloud service offers not only storage space for your images and documents, but also an online office suite and other applications. A Handwerkcloud subscription includes an ImageMeter Business license. For more information see the <a href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
+msgstr "Služba Handwerkcloud nabízí nejen úložný prostor pro vaše obrázky a dokumenty, ale také online kancelářskou sadu a další aplikace. Předplatné Handwerkcloud zahrnuje licenci ImageMeter Business. Další informace naleznete na <a href=\"https://handwerkcloud.de\">webových stránkách Handwerkcloud</a>."
 
 #, fuzzy
 msgctxt "cloud_storage_server_note_onedrive"
-msgid ""
-"The OneDrive backend might be suitable if you want easy access to your "
-"annotated images from your Windows PC."
-msgstr ""
-"Podpora OneDrive je nyní v beta testování. Pokud se s tím setkáte, "
-"pošlete zprávu na adresu info@imagemeter.com."
+msgid "The OneDrive backend might be suitable if you want easy access to your annotated images from your Windows PC."
+msgstr "Podpora OneDrive je nyní v beta testování. Pokud se s tím setkáte, pošlete zprávu na adresu info@imagemeter.com."
 
 #, fuzzy
 msgctxt "cloud_storage_do_two_way_sync"
@@ -3150,14 +3207,8 @@ msgstr "Obousměrná synchronizace"
 
 #, fuzzy
 msgctxt "cloud_storage_two_way_info_text"
-msgid ""
-"The two-way sync is for exchanging data between multiple devices. The "
-"data it stores on the cloud storage is for internal use only. Do not "
-"modify the data stored on the cloud server manually!"
-msgstr ""
-"Obousměrná synchronizace slouží k výměně dat mezi více zařízeními. Data, "
-"která ukládá do cloudového úložiště, jsou určena pouze pro interní "
-"použití. Neměňte data uložená na cloudovém serveru ručně!"
+msgid "The two-way sync is for exchanging data between multiple devices. The data it stores on the cloud storage is for internal use only. Do not modify the data stored on the cloud server manually!"
+msgstr "Obousměrná synchronizace slouží k výměně dat mezi více zařízeními. Data, která ukládá do cloudového úložiště, jsou určena pouze pro interní použití. Neměňte data uložená na cloudovém serveru ručně!"
 
 #, fuzzy
 msgctxt "cloud_storage_do_image_upload_sync"
@@ -3181,20 +3232,8 @@ msgstr "Nahrávání obrázku"
 
 #, fuzzy
 msgctxt "cloud_storage_image_upload_info_text"
-msgid ""
-"The image upload option stores the measured images on the cloud server. "
-"This is the right option if you want to access your images from your "
-"office PC.\n"
-"This option cannot be used to exchange data between mobile devices. In "
-"fact, you should not sync to the same cloud image directory from several "
-"devices."
-msgstr ""
-"Možnost odesílání obrázků ukládá naměřené obrázky na cloudový server. "
-"Toto je správná volba, pokud chcete získat přístup k obrázkům z "
-"kancelářského počítače.\n"
-"Tuto možnost nelze použít k výměně dat mezi mobilními zařízeními. Ve "
-"skutečnosti byste neměli synchronizovat do stejného adresáře cloudových "
-"obrázků z několika zařízení."
+msgid "The image upload option stores the measured images on the cloud server. This is the right option if you want to access your images from your office PC.\nThis option cannot be used to exchange data between mobile devices. In fact, you should not sync to the same cloud image directory from several devices."
+msgstr "Možnost odesílání obrázků ukládá naměřené obrázky na cloudový server. Toto je správná volba, pokud chcete získat přístup k obrázkům z kancelářského počítače.\nTuto možnost nelze použít k výměně dat mezi mobilními zařízeními. Ve skutečnosti byste neměli synchronizovat do stejného adresáře cloudových obrázků z několika zařízení."
 
 #, fuzzy
 msgctxt "cloud_storage_account"
@@ -3256,381 +3295,415 @@ msgctxt "cloud_storage_cautiousness"
 msgid "Cautiousness:"
 msgstr "Opatrnost:"
 
-#. template config
+#. template config, fuzzy
 msgctxt "pref_template_title"
 msgid "Templates"
-msgstr ""
+msgstr "Šablony"
 
+#, fuzzy
 msgctxt "pref_template_description"
-msgid ""
-"Templates let you define standard measurement tasks. You can structure "
-"your data collection by assigning tags to the measurements. You can also "
-"define the layout of tabular output of your measurements. \n"
-"On this page, you find the list of templates for your measurement tasks.\n"
-" \n"
-"For more information, see the <a "
-"href=\"https://www.imagemeter.com/manual/templates/overview\">tutorials "
-"and manual</a>.\n"
-" \n"
-"Note: templates are part of the <a href=\"upgrade-dialog\">Business "
-"version</a>."
-msgstr ""
+msgid "Templates let you define standard measurement tasks. You can structure your data collection by assigning tags to the measurements. You can also define the layout of tabular output of your measurements. \nOn this page, you find the list of templates for your measurement tasks.\n \nFor more information, see the <a href=\"https://www.imagemeter.com/manual/templates/overview\">tutorials and manual</a>.\n \nNote: templates are part of the <a href=\"upgrade-dialog\">Business version</a>."
+msgstr "Šablony vám umožňují definovat standardní úkoly měření. Sběr dat můžete strukturovat přiřazením etikety k měřením. Můžete také definovat rozložení tabulkového výstupu vašich měření.\nNa této stránce najdete seznam šablon pro vaše úkoly měření.\n \nDalší informace naleznete v <a href=\"https://www.imagemeter.com/manual/templates/overview\">návodech a manuálu</a>.\n \nPoznámka: šablony jsou součástí <a href=\"upgrade-dialog\">obchodní verze</a>."
 
+#, fuzzy
 msgctxt "pref_template_list_title"
 msgid "List of templates"
-msgstr ""
+msgstr "Seznam šablon"
 
+#, fuzzy
 msgctxt "pref_template_add_template"
 msgid "+ add template"
-msgstr ""
+msgstr "+ přidat šablonu"
 
+#, fuzzy
 msgctxt "pref_template_template_name"
 msgid "Template name:"
-msgstr ""
+msgstr "Název šablony:"
 
+#, fuzzy
 msgctxt "pref_dialog_template_add_title"
 msgid "Template type"
-msgstr ""
+msgstr "Typ šablony"
 
+#, fuzzy
 msgctxt "pref_dialog_template_add_general_description"
-msgid ""
-"Choose the template that best matches your needs. You can further "
-"customize it later."
-msgstr ""
+msgid "Choose the template that best matches your needs. You can further customize it later."
+msgstr "Vyberte si šablonu, která nejlépe odpovídá vašim potřebám. Později si jej můžete dále přizpůsobit."
 
+#, fuzzy
 msgctxt "pref_dialog_template_add_description_title"
 msgid "Template description:"
-msgstr ""
+msgstr "Popis šablony:"
 
+#, fuzzy
 msgctxt "pref_dialog_template_add_description_custom"
-msgid ""
-"Each image fills one row in the table. You may assign a tag to each "
-"measurement. Each table column contains the measurement for a specific "
-"tag."
-msgstr ""
+msgid "Each image fills one row in the table. You may assign a tag to each measurement. Each table column contains the measurement for a specific tag."
+msgstr "Každý obrázek vyplní jeden řádek v tabulce. Ke každému měření můžete přiřadit etiketa. Každý sloupec tabulky obsahuje měření pro konkrétní etiketa."
 
+#, fuzzy
 msgctxt "pref_dialog_template_add_description_wall_area"
-msgid ""
-"This template is the basis for area computations. The area of some "
-"elements is added to the sum (e.g. walls), while other elements are "
-"subtracted (e.g. windows)."
-msgstr ""
+msgid "This template is the basis for area computations. The area of some elements is added to the sum (e.g. walls), while other elements are subtracted (e.g. windows)."
+msgstr "Tato šablona je základem pro oblastní výpočty. K součtu se přičte plocha některých prvků (např. Stěny), zatímco jiné prvky se odečtou (např. Okna)."
 
+#, fuzzy
 msgctxt "pref_dialog_template_add_description_parts_list"
-msgid ""
-"This template lets you generate bills of material, counting different "
-"objects, or summing the length of products (e.g. electrical cables)."
-msgstr ""
+msgid "This template lets you generate bills of material, counting different objects, or summing the length of products (e.g. electrical cables)."
+msgstr "Tato šablona vám umožňuje generovat kusovníky, počítat různé předměty nebo sčítat délku produktů (např. Elektrických kabelů)."
 
+#, fuzzy
 msgctxt "pref_template_config_custom_edit_tags_description"
-msgid ""
-"<b>Tags</b> are assigned to measurements to specify their purpose. For "
-"example, a tag may tell that the measured rectangle is a <em>window</em> "
-"or a <em>wall</em>. Further on, these tags can be used to sort these "
-"measurements into data tables."
-msgstr ""
+msgid "<b>Tags</b> are assigned to measurements to specify their purpose. For example, a tag may tell that the measured rectangle is a <em>window</em> or a <em>wall</em>. Further on, these tags can be used to sort these measurements into data tables."
+msgstr "<b>Etikety</b> jsou přiřazeny k měření, aby určily jejich účel. Etikety například může říci, že měřený obdélník je <em>okno</em> nebo <em>zeď</em>. Tyto etikety lze dále použít k třídění těchto měření do datových tabulek."
 
+#, fuzzy
 msgctxt "pref_template_config_custom_edit_tags"
 msgid "Edit element tags"
-msgstr ""
+msgstr "Upravte etikety prvků"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_edit_tables_description"
-msgid ""
-"<b>Table layouts</b> define how to arrange your measurements into a data "
-"table."
-msgstr ""
+msgid "<b>Table layouts</b> define how to arrange your measurements into a data table."
+msgstr "<b>Rozložení tabulky</b> definuje, jak uspořádat vaše měření do datové tabulky."
 
+#, fuzzy
 msgctxt "pref_template_config_custom_edit_tables"
 msgid "Edit table layouts"
-msgstr ""
+msgstr "Upravit rozložení tabulky"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_title"
 msgid "Custom Template"
-msgstr ""
+msgstr "Vlastní šablona"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_section_tags"
 msgid "Tags"
-msgstr ""
+msgstr "Etikety"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_add_tag"
 msgid "+ add tag"
-msgstr ""
+msgstr "+ přidat etiketa"
 
-#. deprecated
+#. deprecated, fuzzy
 msgctxt "pref_template_config_custom_label_type"
 msgid "Type:"
-msgstr ""
+msgstr "Typ:"
 
-#. deprecated
+#. deprecated, fuzzy
 msgctxt "pref_template_config_custom_unit"
 msgid "Unit:"
-msgstr ""
+msgstr "Jednotka:"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_section_table_layouts"
 msgid "Table layouts"
-msgstr ""
+msgstr "Rozložení stolu"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_add_table_layout"
 msgid "+ add table layout"
-msgstr ""
+msgstr "+ přidat rozložení tabulky"
 
+#, fuzzy
 msgctxt "pref_template_config_custom_table_description"
-msgid ""
-"You may define several different layouts how the measured data is "
-"arranged into data tables."
-msgstr ""
+msgid "You may define several different layouts how the measured data is arranged into data tables."
+msgstr "Můžete definovat několik různých rozvržení, jak jsou měřená data uspořádána do datových tabulek."
 
+#, fuzzy
 msgctxt "pref_template_config_custom_tag_name"
 msgid "Tag name"
-msgstr ""
+msgstr "Název etiketa"
 
+#, fuzzy
 msgctxt "pref_template_custom_tag_filter"
 msgid "Filter"
-msgstr ""
+msgstr "Filtr"
 
+#, fuzzy
 msgctxt "templ_filter_text"
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_title"
 msgid "Custom Table Configuration"
-msgstr ""
+msgstr "Vlastní konfigurace tabulky"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_name"
 msgid "Table name"
-msgstr ""
+msgstr "Název tabulky"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_columns"
 msgid "Table columns"
-msgstr ""
+msgstr "Sloupce tabulky"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_columns_add"
 msgid "+ add column"
-msgstr ""
+msgstr "+ přidat sloupec"
 
+#, fuzzy
 msgctxt "pref_template_custom_tag_filter_info_title"
 msgid "Element filter"
-msgstr ""
+msgstr "Filtr prvků"
 
+#, fuzzy
 msgctxt "pref_template_custom_tag_filter_info_description"
-msgid ""
-"This tag may only be assigned to elements that have the selected "
-"measurement type."
-msgstr ""
+msgid "This tag may only be assigned to elements that have the selected measurement type."
+msgstr "Tuto etiketa lze přiřadit pouze k prvkům, které mají vybraný typ měření."
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_content_info_title"
 msgid "Column content"
-msgstr ""
+msgstr "Obsah sloupce"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_content_info_description"
-msgid ""
-"Specify the cell content in this column. This can be either a measurement"
-" value that you annotated with a tag, or image metadata (e.g. image name,"
-" capture date)."
-msgstr ""
+msgid "Specify the cell content in this column. This can be either a measurement value that you annotated with a tag, or image metadata (e.g. image name, capture date)."
+msgstr "V tomto sloupci zadejte obsah buňky. Může to být buď naměřená hodnota, kterou jste označili tagem, nebo metadata obrázku (např. Název obrázku, datum pořízení)."
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_measure_info_title"
 msgid "Measure selection"
-msgstr ""
+msgstr "Změřit výběr"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_measure_info_description"
-msgid ""
-"Here, you define which measurement of the tagged element to put into this"
-" column. E.g. for a circle you can choose between its area, radius, "
-"circumference, …"
-msgstr ""
+msgid "Here, you define which measurement of the tagged element to put into this column. E.g. for a circle you can choose between its area, radius, circumference, …"
+msgstr "Zde definujete, jaké měření tagovaného prvku vložíte do tohoto sloupce. Např. u kruhu si můžete vybrat mezi jeho oblastí, poloměrem, obvodem…"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_multiplevalues_info_title"
 msgid "Multiple values per cell"
-msgstr ""
+msgstr "Několik hodnot na buňku"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_multiplevalues_info_description"
-msgid ""
-"When several elements are assigned the same tag, several values will be "
-"placed into one cell. Here you can choose to sum these values, take their"
-" average, or other options instead of keeping all in one cell."
-msgstr ""
+msgid "When several elements are assigned the same tag, several values will be placed into one cell. Here you can choose to sum these values, take their average, or other options instead of keeping all in one cell."
+msgstr "Když je stejné etiqueta přiřazeno několik prvků, bude do jedné buňky umístěno několik hodnot. Zde můžete zvolit součet těchto hodnot, vzít jejich průměr nebo jiné možnosti místo toho, aby byly všechny v jedné buňce."
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_numColumns_info_title"
 msgid "Number of columns"
-msgstr ""
+msgstr "Počet sloupců"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_numColumns_info_description"
-msgid ""
-"Creates this number of columns to fill in values with this tag. Use this "
-"when you have several measurements with the same tag in one image."
-msgstr ""
+msgid "Creates this number of columns to fill in values with this tag. Use this when you have several measurements with the same tag in one image."
+msgstr "Vytvoří tento počet sloupců k vyplnění hodnot touto značkou. Tuto možnost použijte, pokud máte několik měření se stejnou značkou na jednom obrázku."
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_footer_info_title"
 msgid "Footer row content"
-msgstr ""
+msgstr "Obsah řádku v zápatí"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_footer_info_description"
-msgid ""
-"What to place in the footer row of the table. Options include the sum of "
-"all values in the column, the maximum, the average, and other options."
-msgstr ""
+msgid "What to place in the footer row of the table. Options include the sum of all values in the column, the maximum, the average, and other options."
+msgstr "Co umístit do řady zápatí tabulky. Možnosti zahrnují součet všech hodnot ve sloupci, maximum, průměr a další možnosti."
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_title"
 msgid "Column header"
-msgstr ""
+msgstr "Záhlaví sloupce"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_content"
 msgid "Content"
-msgstr ""
+msgstr "Obsah"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_label_type"
 msgid "Measure"
-msgstr ""
+msgstr "Opatření"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_conflict"
 msgid "Multiple values"
-msgstr ""
+msgstr "Více hodnot"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_num_separate_columns"
 msgid "Num. columns"
-msgstr ""
+msgstr "Č. sloupce"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_footer"
 msgid "Footer row"
-msgstr ""
+msgstr "Zápatí řada"
 
+#, fuzzy
 msgctxt "pref_template_custom_table_column_footer_no_operation"
 msgid "Empty"
-msgstr ""
+msgstr "Prázdný"
 
+#, fuzzy
 msgctxt "pref_template_areasum_template_title"
 msgid "Area Sum Template Configuration"
-msgstr ""
+msgstr "Konfigurace šablony součtu plochy"
 
+#, fuzzy
 msgctxt "pref_template_areasum_tags_title"
 msgid "Area Sum Template Tags"
-msgstr ""
+msgstr "Šablony šablon oblastí"
 
+#, fuzzy
 msgctxt "pref_template_areasum_table_title"
 msgid "Area Sum Table Configuration"
-msgstr ""
+msgstr "Konfigurace tabulky součtů oblastí"
 
+#, fuzzy
 msgctxt "pref_template_areasum_tag_subtract"
 msgid "Subtract from sum"
-msgstr ""
+msgstr "Odečíst od součtu"
 
+#, fuzzy
 msgctxt "pref_template_areasum_tag_factor"
 msgid "Factor"
-msgstr ""
+msgstr "Faktor"
 
+#, fuzzy
 msgctxt "pref_template_areasum_edit_tables"
 msgid "Edit table layout"
-msgstr ""
+msgstr "Upravit rozložení tabulky"
 
+#, fuzzy
 msgctxt "pref_template_partslist_template_title"
 msgid "Parts List Template Configuration"
-msgstr ""
+msgstr "Konfigurace šablony seznamu dílů"
 
+#, fuzzy
 msgctxt "pref_template_partslist_tags_title"
 msgid "Parts List Template Tags"
-msgstr ""
+msgstr "Štítky šablony seznamu dílů"
 
+#, fuzzy
 msgctxt "pref_template_partslist_table_title"
 msgid "Parts List Table Configuration"
-msgstr ""
+msgstr "Konfigurace tabulky seznamu dílů"
 
+#, fuzzy
 msgctxt "pref_template_partslist_tag_table_column_header"
 msgid "Column header"
-msgstr ""
+msgstr "Záhlaví sloupce"
 
+#, fuzzy
 msgctxt "pref_template_partslist_table_list_title"
 msgid "Parts List Table Layouts"
-msgstr ""
+msgstr "Rozložení tabulky seznamu dílů"
 
+#, fuzzy
 msgctxt "pref_template_partslist_table_layout_title"
 msgid "Parts List Table Layout"
-msgstr ""
+msgstr "Rozložení tabulky seznamu dílů"
 
+#, fuzzy
 msgctxt "pref_template_partslist_table_name"
 msgid "Table name"
-msgstr ""
+msgstr "Název tabulky"
 
+#, fuzzy
 msgctxt "pref_template_partslist_section_column_config"
 msgid "Columns configuration"
-msgstr ""
+msgstr "Konfigurace sloupců"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number"
 msgid "Item number"
-msgstr ""
+msgstr "Číslo položky"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_none"
 msgid "None"
-msgstr ""
+msgstr "Žádný"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_only_element"
 msgid "Only item numbers"
-msgstr ""
+msgstr "Pouze čísla položek"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_only_image_in_image_row"
 msgid "Only image numbers, only in image row"
-msgstr ""
+msgstr "Pouze čísla obrázků, pouze v řádku obrázků"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_both_image_in_image_row"
 msgid "Both, but image numbers only in image row"
-msgstr ""
+msgstr "Obojí, ale čísla obrázků pouze v řádku obrázku"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_both_all_rows"
 msgid "Image and item numbers in all rows"
-msgstr ""
+msgstr "Čísla obrázků a položek ve všech řádcích"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_item_number_choices_combines"
 msgid "Combine image and item numbers in one column"
-msgstr ""
+msgstr "Zkombinujte čísla obrázků a položek do jednoho sloupce"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_tag_name"
 msgid "Tag name"
-msgstr ""
+msgstr "Název etiqueta"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_comment"
 msgid "Comment"
-msgstr ""
+msgstr "Komentář"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_quantity"
 msgid "Quantity"
-msgstr ""
+msgstr "Množství"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_items"
 msgid "Item columns"
-msgstr ""
+msgstr "Sloupce položek"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_items_choices_used_tags"
 msgid "Only for used tags"
-msgstr ""
+msgstr "Pouze pro použité etiquety"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_items_choices_all_tags"
 msgid "For all tags"
-msgstr ""
+msgstr "Pro všechny etiquety"
 
+#, fuzzy
 msgctxt "pref_template_partslist_column_use_custom_titles"
 msgid "Use custom column titles"
-msgstr ""
+msgstr "Použijte vlastní názvy sloupců"
 
+#, fuzzy
 msgctxt "pref_template_partslist_section_row_config"
 msgid "Rows configuration"
-msgstr ""
+msgstr "Konfigurace řádků"
 
+#, fuzzy
 msgctxt "pref_template_partslist_row_show_image_name"
 msgid "Show rows with image names"
-msgstr ""
+msgstr "Zobrazit řádky s názvy obrázků"
 
+#, fuzzy
 msgctxt "pref_template_partslist_item_numbering_for_each_image"
 msgid "Independent item numbering for each image"
-msgstr ""
+msgstr "Nezávislé číslování položek pro každý obrázek"
 
+#, fuzzy
 msgctxt "pref_template_partslist_row_show_footer"
 msgid "Show footer row"
-msgstr ""
+msgstr "Zobrazit řádek zápatí"
 
-#. Preferences: Information
+#. Preferences: Information, fuzzy
 msgctxt "pref_category_information_debugging"
 msgid "Debugging"
-msgstr ""
+msgstr "Ladění"
 
 #, fuzzy
 msgctxt "pref_information_send_error_log"
@@ -3652,34 +3725,40 @@ msgctxt "pref_information_googleplay_purchases_no_purchases"
 msgid "PlayStore reports: no purchases for active account"
 msgstr "Přehledy PlayStore: žádné nákupy pro aktivní účet"
 
+#, fuzzy
 msgctxt "pref_information_appgallery_purchases_no_purchases"
 msgid "AppGallery reports: no purchases for active account"
-msgstr ""
+msgstr "Přehledy AppGallery: žádné nákupy pro aktivní účet"
 
+#, fuzzy
 msgctxt "pref_category_information_credits"
 msgid "Credits"
-msgstr ""
+msgstr "Kredity"
 
+#, fuzzy
 msgctxt "pref_information_translator"
 msgid "."
-msgstr ""
+msgstr "."
 
-#. Preferences: Company
+#. Preferences: Company, fuzzy
 msgctxt "pref_company_enter_config_key"
 msgid "Enter company key"
-msgstr ""
+msgstr "Zadejte klíč společnosti"
 
+#, fuzzy
 msgctxt "pref_company_enter_config_key_summary_set"
 msgid "Key set"
-msgstr ""
+msgstr "Sada klíčů"
 
+#, fuzzy
 msgctxt "pref_company_enter_config_key_summary_unset"
 msgid "Not set"
-msgstr ""
+msgstr "Nenastaveno"
 
+#, fuzzy
 msgctxt "pref_company_user_id"
 msgid "User ID"
-msgstr ""
+msgstr "Uživatelské ID"
 
 #. ===== cloud synchronization =====
 #, fuzzy
@@ -3810,20 +3889,8 @@ msgstr "Údržba cloudového úložiště"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_description"
-msgid ""
-"<b>Remove server lock</b> - In order to prevent simultaneous access to "
-"the data on the cloud server, it is locked during the sync process. In "
-"case of some errors, e.g. network failures, it may be that the server "
-"remains locked. The locks time-out automatically after a few minutes, but"
-" you can also manually remove them immediately if you know for sure that "
-"it is an error."
-msgstr ""
-"<b>Odebrat zámek serveru</b> - Aby se zabránilo současnému přístupu k "
-"datům na cloudovém serveru, je během procesu synchronizace uzamčen. V "
-"případě některých chyb, např. Pokud dojde k selhání sítě, je možné, že "
-"server zůstává zamčený. Časový limit zámků se automaticky spustí po "
-"několika minutách, ale můžete je také ručně odstranit okamžitě, pokud "
-"víte, že se jedná o chybu."
+msgid "<b>Remove server lock</b> - In order to prevent simultaneous access to the data on the cloud server, it is locked during the sync process. In case of some errors, e.g. network failures, it may be that the server remains locked. The locks time-out automatically after a few minutes, but you can also manually remove them immediately if you know for sure that it is an error."
+msgstr "<b>Odebrat zámek serveru</b> - Aby se zabránilo současnému přístupu k datům na cloudovém serveru, je během procesu synchronizace uzamčen. V případě některých chyb, např. Pokud dojde k selhání sítě, je možné, že server zůstává zamčený. Časový limit zámků se automaticky spustí po několika minutách, ale můžete je také ručně odstranit okamžitě, pokud víte, že se jedná o chybu."
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_button"
@@ -3832,18 +3899,8 @@ msgstr "Odebrat zámek serveru"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_description"
-msgid ""
-"<b>Reset server cache</b> - The cloud server maintains a cache of images "
-"stored on them. If you delete or add files manually on the server, this "
-"is not seen by the cache. You may reset the server cache to run a full "
-"scan during the next sync. However, note that a full scan may take a long"
-" time if you have many images."
-msgstr ""
-"<b>Obnovit mezipaměť serveru</b> - Cloudový server udržuje mezipaměť "
-"obrázků uložených v nich. Pokud odstraníte nebo přidáte soubory ručně na "
-"serveru, mezipaměť to neuvidí. Můžete resetovat mezipaměť serveru a "
-"spustit další kontrolu během další synchronizace. Pokud však máte mnoho "
-"obrázků, úplné skenování může trvat dlouho."
+msgid "<b>Reset server cache</b> - The cloud server maintains a cache of images stored on them. If you delete or add files manually on the server, this is not seen by the cache. You may reset the server cache to run a full scan during the next sync. However, note that a full scan may take a long time if you have many images."
+msgstr "<b>Obnovit mezipaměť serveru</b> - Cloudový server udržuje mezipaměť obrázků uložených v nich. Pokud odstraníte nebo přidáte soubory ručně na serveru, mezipaměť to neuvidí. Můžete resetovat mezipaměť serveru a spustit další kontrolu během další synchronizace. Pokud však máte mnoho obrázků, úplné skenování může trvat dlouho."
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_button"
@@ -3852,18 +3909,8 @@ msgstr "Obnovení mezipaměti serveru"
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_description"
-msgid ""
-"<b>Reset sync state</b> - The next sync will start with no preknowledge "
-"about the data on each side. This means, e.g., that locally deleted "
-"images will be downloaded again from the server instead of being deleted "
-"on the server. There are few cases where resetting the stored sync state "
-"is needed."
-msgstr ""
-"<b>Obnovit stav synchronizace</b> - Následující synchronizace začne bez "
-"překonání informací o datech na každé straně. To například znamená, že "
-"lokálně smazané obrázky budou staženy znovu ze serveru místo toho, aby "
-"byly odstraněny na serveru. Existuje několik případů, kdy je třeba "
-"resetovat uložený stav synchronizace."
+msgid "<b>Reset sync state</b> - The next sync will start with no preknowledge about the data on each side. This means, e.g., that locally deleted images will be downloaded again from the server instead of being deleted on the server. There are few cases where resetting the stored sync state is needed."
+msgstr "<b>Obnovit stav synchronizace</b> - Následující synchronizace začne bez překonání informací o datech na každé straně. To například znamená, že lokálně smazané obrázky budou staženy znovu ze serveru místo toho, aby byly odstraněny na serveru. Existuje několik případů, kdy je třeba resetovat uložený stav synchronizace."
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_button"
@@ -3890,13 +3937,15 @@ msgctxt "cloud_storage_maintenance_remove_server_lock_ok"
 msgid "Successfully removed server lock."
 msgstr "Zámek serveru byl úspěšně odstraněn."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_error_no_lock"
 msgid "There was no server lock."
-msgstr ""
+msgstr "Nebyl žádný zámek serveru."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_remove_server_lock_error"
 msgid "Could not remove server lock file '{}'."
-msgstr ""
+msgstr "Soubor zámku serveru „{}“ nelze odebrat."
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_notification_progress_text"
@@ -3913,9 +3962,10 @@ msgctxt "cloud_storage_maintenance_reset_server_cache_ok"
 msgid "Successfully resetted server cache."
 msgstr "Vyrovnávací paměť serveru byla úspěšně resetována."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_server_cache_error"
 msgid "Could not remove server cache file '{}'."
-msgstr ""
+msgstr "Soubor mezipaměti serveru '{}' nelze odebrat."
 
 #, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_notification_progress_text"
@@ -3932,9 +3982,10 @@ msgctxt "cloud_storage_maintenance_reset_sync_state_ok"
 msgid "Successfully resetted sync state."
 msgstr "Stav synchronizace byl úspěšně resetován."
 
+#, fuzzy
 msgctxt "cloud_storage_maintenance_reset_sync_state_error"
 msgid "Could not reset sync state."
-msgstr ""
+msgstr "Stav synchronizace nelze resetovat."
 
 #. === editor ===
 #. add
@@ -3973,9 +4024,10 @@ msgctxt "editor_menu_add_angle"
 msgid "Angle"
 msgstr "Úhel"
 
+#, fuzzy
 msgctxt "editor_menu_add_area"
 msgid "Area"
-msgstr ""
+msgstr "Plocha"
 
 #, fuzzy
 msgctxt "editor_menu_add_text"
@@ -4072,13 +4124,15 @@ msgctxt "editor_menu_edit_copy_element"
 msgid "Duplicate element"
 msgstr "Prvek kopírování"
 
+#, fuzzy
 msgctxt "editor_menu_edit_copy_to_clipboard"
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Zkopírovat do schránky"
 
+#, fuzzy
 msgctxt "editor_menu_edit_paste_from_clipboard"
 msgid "Paste from clipboard"
-msgstr ""
+msgstr "Vložit ze schránky"
 
 #, fuzzy
 msgctxt "editor_menu_edit_lock_element"
@@ -4090,13 +4144,15 @@ msgctxt "editor_menu_edit_unlock_element"
 msgid "Unlock element"
 msgstr "Odemkněte prvek"
 
+#, fuzzy
 msgctxt "editor_menu_edit_lock_all_elements"
 msgid "Lock all elements"
-msgstr ""
+msgstr "Zamkněte všechny prvky"
 
+#, fuzzy
 msgctxt "editor_menu_edit_unlock_all_elements"
 msgid "Unlock all elements"
-msgstr ""
+msgstr "Odemkněte všechny prvky"
 
 #, fuzzy
 msgctxt "editor_menu_edit_imagesettings"
@@ -4108,9 +4164,10 @@ msgctxt "editor_menu_edit_bluetooth_trigger"
 msgid "Trigger Laser"
 msgstr "Spusťte laser"
 
+#, fuzzy
 msgctxt "editor_menu_edit_tag"
 msgid "Tag and properties"
-msgstr ""
+msgstr "Etiqueta a vlastnosti"
 
 msgctxt "editor_menu_style"
 msgid "Style"
@@ -4139,12 +4196,8 @@ msgid "Please draw the outline of the area in one stroke."
 msgstr "Prosím, nakreslete obrys oblasti jedním tahem."
 
 msgctxt "editor_hint_howto_draw_text"
-msgid ""
-"Please position the text area by pointing at the target location and then"
-" dragging the textbox to the end of the arrow."
-msgstr ""
-"Umístěte textovou oblast tak, že ukážete na cílové místo a potom "
-"přetáhnete textové pole na konec šipky."
+msgid "Please position the text area by pointing at the target location and then dragging the textbox to the end of the arrow."
+msgstr "Umístěte textovou oblast tak, že ukážete na cílové místo a potom přetáhnete textové pole na konec šipky."
 
 msgctxt "editor_hint_howto_draw_circle"
 msgid "Please point to the circle center and drag to specify the circle size."
@@ -4176,35 +4229,23 @@ msgstr "Nakreslete obdélník úhlopříčku."
 
 #, fuzzy
 msgctxt "editor_hint_howto_draw_perspective_line"
-msgid ""
-"Tool for measuring an unknown distance along a perspectively distorted "
-"line. See the FAQ for an introduction."
-msgstr ""
-"Nástroj pro měření neznámé vzdálenosti podél perspektivně zkreslené čáry."
-" Úvod naleznete v FAQ."
+msgid "Tool for measuring an unknown distance along a perspectively distorted line. See the FAQ for an introduction."
+msgstr "Nástroj pro měření neznámé vzdálenosti podél perspektivně zkreslené čáry. Úvod naleznete v FAQ."
 
 #, fuzzy
 msgctxt "editor_hint_howto_draw_dimstring"
 msgid "Please draw the first dimension string. Use the top toolbar to modify it."
-msgstr ""
-"Nakreslete řetězec první dimenze. Chcete-li jej upravit, použijte horní "
-"panel nástrojů."
+msgstr "Nakreslete řetězec první dimenze. Chcete-li jej upravit, použijte horní panel nástrojů."
 
 #, fuzzy
 msgctxt "editor_hint_howto_draw_dimstring_cumulative"
 msgid "Please draw the first dimension string. Use the top toolbar to modify it."
-msgstr ""
-"Nakreslete řetězec první dimenze. Chcete-li jej upravit, použijte horní "
-"panel nástrojů."
+msgstr "Nakreslete řetězec první dimenze. Chcete-li jej upravit, použijte horní panel nástrojů."
 
 #, fuzzy
 msgctxt "editor_help_why_no_measured_value"
-msgid ""
-"The value cannot yet be computed because the image is not calibrated. "
-"Please add a 'reference scale' or a 'perspective reference'."
-msgstr ""
-"Hodnotu nelze zatím vypočítat, protože obraz není zkalibrován. Přidejte "
-"prosím „referenční stupnici“ nebo „perspektivní odkaz“."
+msgid "The value cannot yet be computed because the image is not calibrated. Please add a 'reference scale' or a 'perspective reference'."
+msgstr "Hodnotu nelze zatím vypočítat, protože obraz není zkalibrován. Přidejte prosím „referenční stupnici“ nebo „perspektivní odkaz“."
 
 #, fuzzy
 msgctxt "editor_help_why_no_measured_value_manual_url"
@@ -4213,13 +4254,8 @@ msgstr "https://imagemeter.com/manual/measuring/basics"
 
 #, fuzzy
 msgctxt "editor_help_why_no_measured_value_because_two_references"
-msgid ""
-"The value is not computed because the image contains two references. "
-"Please select 'Compute value' from the menu and select which reference to"
-" use."
-msgstr ""
-"Hodnota není vypočítána, protože obraz obsahuje dva odkazy. Vyberte z "
-"nabídky položku „Vypočítat hodnotu“ a vyberte odkaz, který chcete použít."
+msgid "The value is not computed because the image contains two references. Please select 'Compute value' from the menu and select which reference to use."
+msgstr "Hodnota není vypočítána, protože obraz obsahuje dva odkazy. Vyberte z nabídky položku „Vypočítat hodnotu“ a vyberte odkaz, který chcete použít."
 
 #, fuzzy
 msgctxt "editor_help_do_not_show_again"
@@ -4231,27 +4267,14 @@ msgctxt "editor_help_show_instructions"
 msgid "Show instructions"
 msgstr "Zobrazit pokyny"
 
-#. editor misc
+#. editor misc, fuzzy
 msgctxt "editor_dialog_tag_properties_title"
 msgid "Tags and properties"
-msgstr ""
+msgstr "Značky a vlastnosti"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
-msgid ""
-"The image data could not be read successfully. ImageMeter has tried to "
-"load as much of the data as possible, but the image annotations may be "
-"incomplete or may have errors.\n"
-"\n"
-"Do you want to keep the old data (new modifications will not be saved), "
-"or do you want to overwrite the data (you will lose the elements that "
-"could not be read successfully)?"
-msgstr ""
-"Obrazové údaje nebyly úspěšně přečteny. ImageMeter se pokusil načíst co "
-"možná nejvíce dat, ale obrázky opatřené poznámkami mohou být neúplné nebo"
-" mohou mít chyby.\n"
-"\n"
-"Chcete zachovat staré údaje (nové úpravy nebudou uloženy) nebo chcete "
-"přepsat data (ztratíte prvky, které nebyly úspěšně přečteny)?"
+msgid "The image data could not be read successfully. ImageMeter has tried to load as much of the data as possible, but the image annotations may be incomplete or may have errors.\n\nDo you want to keep the old data (new modifications will not be saved), or do you want to overwrite the data (you will lose the elements that could not be read successfully)?"
+msgstr "Obrazové údaje nebyly úspěšně přečteny. ImageMeter se pokusil načíst co možná nejvíce dat, ale obrázky opatřené poznámkami mohou být neúplné nebo mohou mít chyby.\n\nChcete zachovat staré údaje (nové úpravy nebudou uloženy) nebo chcete přepsat data (ztratíte prvky, které nebyly úspěšně přečteny)?"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_overwrite_button"
 msgid "Overwrite"
@@ -4276,22 +4299,25 @@ msgctxt "color_dialog_special_use_main_color"
 msgid "Use main color"
 msgstr "Použijte hlavní barvu"
 
-#. dialog: element locking
+#. dialog: element locking, fuzzy
 msgctxt "editor_locking_title"
 msgid "Modification lock"
-msgstr ""
+msgstr "Zámek úprav"
 
+#, fuzzy
 msgctxt "editor_locking_lock_position"
 msgid "Lock position"
-msgstr ""
+msgstr "Pozice zámku"
 
+#, fuzzy
 msgctxt "editor_locking_lock_measurement"
 msgid "Lock measurements"
-msgstr ""
+msgstr "Zamknout měření"
 
+#, fuzzy
 msgctxt "editor_locking_button_apply_to_all"
 msgid "Apply to all"
-msgstr ""
+msgstr "Aplikovat na všechno"
 
 #. === style dialogs ===
 #, fuzzy
@@ -4371,16 +4397,8 @@ msgid "Default Reference Size"
 msgstr "Výchozí Velikost Reference"
 
 msgctxt "editor_dialog_style_rect_info_set_default_reference_size_text"
-msgid ""
-"This button stores the currently entered reference dimensions as the "
-"default size. When creating a new reference, these dimensions are "
-"automatically set. You can set this to any reference that is suitable for"
-" your application, e.g. the size of a sheet of paper."
-msgstr ""
-"Toto tlačítko ukládá aktuálně zadané rozměry reference jako výchozí "
-"velikost. Při vytváření nové reference jsou tyto rozměry automaticky "
-"nastaveny. Toto můžete nastavit pro jakoukoliv referenci, která se hodí "
-"pro vaší potřebu, např. velikost listu papíru."
+msgid "This button stores the currently entered reference dimensions as the default size. When creating a new reference, these dimensions are automatically set. You can set this to any reference that is suitable for your application, e.g. the size of a sheet of paper."
+msgstr "Toto tlačítko ukládá aktuálně zadané rozměry reference jako výchozí velikost. Při vytváření nové reference jsou tyto rozměry automaticky nastaveny. Toto můžete nastavit pro jakoukoliv referenci, která se hodí pro vaší potřebu, např. velikost listu papíru."
 
 msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:0"
 msgid "none"
@@ -4614,33 +4632,35 @@ msgctxt "editor_rectref_standard_size_credit_card"
 msgid "Credit card"
 msgstr "Kreditní karta"
 
-#. still needed for string-array name="templ_custom_labeltype"
+#. still needed for string-array name="templ_custom_labeltype", fuzzy
 msgctxt "templ_labeltype_length"
 msgid "Length"
-msgstr ""
+msgstr "Délka"
 
+#, fuzzy
 msgctxt "templ_labeltype_area"
 msgid "Area"
-msgstr ""
+msgstr "Plocha"
 
+#, fuzzy
 msgctxt "templ_labeltype_angle"
 msgid "Angle"
-msgstr ""
+msgstr "Úhel"
 
+#, fuzzy
 msgctxt "templ_labeltype_any"
 msgid "Any"
-msgstr ""
+msgstr "Žádný"
 
+#, fuzzy
 msgctxt "stringscript_help_dialog_title"
 msgid "Brief Scripting Manual"
-msgstr ""
+msgstr "Stručný skriptovací manuál"
 
+#, fuzzy
 msgctxt "stringscript_help_introlink"
-msgid ""
-"See <a "
-"href=\"https://imagemeter.com/manual/workflow/variables/\">here</a> for "
-"the full documentation."
-msgstr ""
+msgid "See <a href=\"https://imagemeter.com/manual/workflow/variables/\">here</a> for the full documentation."
+msgstr "Úplnou dokumentaci najdete <a href=\"https://imagemeter.com/manual/workflow/variables/\">zde</a>."
 
 #. value entry dialog
 msgctxt "dimension_format_imperial_length_unit_choices:0"
@@ -4967,58 +4987,39 @@ msgid "Bluetooth connection failed."
 msgstr "Bluetooth spojení selhalo."
 
 msgctxt "bluetooth_error_bluetooth_not_configured"
-msgid ""
-"You have not yet configured any Bluetooth laser distance meter.\n"
-"\n"
-"First make sure that your device is listed in the system settings. If "
-"required, pair the device.\n"
-" <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n"
-"\n"
-"Afterwards, select your device in the ImageMeter settings:\n"
-" <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n"
-"\n"
-"For more help and a list of supported devices, see <a "
-"href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
-msgstr ""
-"Nemáte dosud nakonfigurovaný žádný Bluetooth laserový měřič vzdálenosti.\n"
-"\n"
-"Nejprve se ujistěte, že je zařízení uvedeno v systémových nastaveních. V "
-"případě potřeby zařízení spárujte.\n"
-" <a href=\"android-bluetooth\">Otevřete nastavení Bluetooth pro "
-"Android</a>\n"
-"\n"
-"Poté vyberte zařízení v nastavení ImageMeter:\n"
-" <a href=\"bluetooth-device\">Otevřete nastavení zařízení Bluetooth</a>\n"
-"\n"
-"Další nápovědu a seznam podporovaných zařízení <a "
-"href=\"https://imagemeter.com/manual/bluetooth/connect/\">najdete "
-"zde</a>."
+msgid "You have not yet configured any Bluetooth laser distance meter.\n\nFirst make sure that your device is listed in the system settings. If required, pair the device.\n <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n\nAfterwards, select your device in the ImageMeter settings:\n <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n\nFor more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
+msgstr "Nemáte dosud nakonfigurovaný žádný Bluetooth laserový měřič vzdálenosti.\n\nNejprve se ujistěte, že je zařízení uvedeno v systémových nastaveních. V případě potřeby zařízení spárujte.\n <a href=\"android-bluetooth\">Otevřete nastavení Bluetooth pro Android</a>\n\nPoté vyberte zařízení v nastavení ImageMeter:\n <a href=\"bluetooth-device\">Otevřete nastavení zařízení Bluetooth</a>\n\nDalší nápovědu a seznam podporovaných zařízení <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">najdete zde</a>."
 
-#. 151209
+#. 151209, fuzzy
 #, c-format
 msgctxt "bluetooth_error_cannot_set_value"
 msgid "Cannot set received Bluetooth value: %1$s."
-msgstr ""
+msgstr "Nelze nastavit přijatou hodnotu Bluetooth: %1$s."
 
+#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_no_active_element"
 msgid "no active element"
-msgstr ""
+msgstr "žádný aktivní prvek"
 
+#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_element_has_no_dimension"
 msgid "element does not support measurements"
-msgstr ""
+msgstr "prvek nepodporuje měření"
 
+#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_dimension_is_read_only"
 msgid "element value is read-only"
-msgstr ""
+msgstr "hodnota elementu je jen pro čtení"
 
+#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_wrong_dimension_unit"
 msgid "wrong measurement unit"
-msgstr ""
+msgstr "špatná měřicí jednotka"
 
+#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_element_is_locked"
 msgid "element is locked"
-msgstr ""
+msgstr "prvek je uzamčen"
 
 msgctxt "bluetooth_pref_button_start_bluetooth_scan"
 msgid "Start Bluetooth device scan"
@@ -5034,34 +5035,16 @@ msgstr "Bluetooth skenování"
 
 #, fuzzy
 msgctxt "bluetooth_dialog_scan_needs_location_permission_text"
-msgid ""
-"Since Android 10, the fine location permission is required (previously "
-"coarse location) to scan for nearby Bluetooth devices. Please grant this "
-"permission when requested."
-msgstr ""
-"Od Androidu 6 je vyžadováno oprávnění k poloze pro skenování blízkých "
-"zařízení Bluetooth. Prosím, udělte toto oprávnění jakmile budete vyzváni."
+msgid "Since Android 10, the fine location permission is required (previously coarse location) to scan for nearby Bluetooth devices. Please grant this permission when requested."
+msgstr "Od Androidu 10 je vyžadováno oprávnění k poloze pro skenování blízkých zařízení Bluetooth. Prosím, udělte toto oprávnění jakmile budete vyzváni."
 
 msgctxt "bluetooth_le_scan_needs_location_title"
 msgid "Bluetooth LE Scan Error"
 msgstr "Chyba skenování Bluetooth LE"
 
 msgctxt "bluetooth_le_scan_needs_location_message"
-msgid ""
-"Android requires that the location service is enabled to run a Bluetooth "
-"LE Scan.\n"
-"\n"
-"Please turn on location services.\n"
-"\n"
-"After the Bluetooth LE scan, you can turn this off again."
-msgstr ""
-"Android vyžaduje, aby byla aktivovaná služba určování polohy pro spuštění"
-" Bluetooth LE Scan.\n"
-"\n"
-"Prosím, zapněte služby určování polohy.\n"
-"\n"
-"Po dokončení skenování pomocí Bluetooth LE můžete tuto funkci znovu "
-"vypnout."
+msgid "Android requires that the location service is enabled to run a Bluetooth LE Scan.\n\nPlease turn on location services.\n\nAfter the Bluetooth LE scan, you can turn this off again."
+msgstr "Android vyžaduje, aby byla aktivovaná služba určování polohy pro spuštění Bluetooth LE Scan.\n\nProsím, zapněte služby určování polohy.\n\nPo dokončení skenování pomocí Bluetooth LE můžete tuto funkci znovu vypnout."
 
 msgctxt "bluetooth_error_unknown"
 msgid "Unknown error"
@@ -5137,16 +5120,17 @@ msgctxt "bluetooth_error_ambient_light_too_strong"
 msgid "Ambient light too strong"
 msgstr "Příliš mnoho světla v pozadí"
 
-#. ============================================== EDITCORE
+#. ============================================== EDITCORE, fuzzy
 #. ====================================================
 #. ===== templates =====
 msgctxt "templ_selection_none"
 msgid "None"
-msgstr ""
+msgstr "Žádný"
 
+#, fuzzy
 msgctxt "spinner_selection_various"
 msgid "(various)"
-msgstr ""
+msgstr "(rozličný)"
 
 #. === errors ===
 #, c-format
@@ -5156,42 +5140,28 @@ msgstr "Nelze odstranit obrázek '%1$s', protože jej používá %2$s."
 
 #, fuzzy
 msgctxt "imagelibrary_cannot_load_current_folder"
-msgid ""
-"Cannot load current folder.\n"
-"\n"
-"Please open the settings and set a different storage directory."
-msgstr ""
-"Nelze načíst aktuální složku.\n"
-"\n"
-"Otevřete nastavení a nastavte jiný adresář úložiště."
+msgid "Cannot load current folder.\n\nPlease open the settings and set a different storage directory."
+msgstr "Nelze načíst aktuální složku.\n\nOtevřete nastavení a nastavte jiný adresář úložiště."
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "imagelibrary_moving_images_to_app_directory"
 msgid "Moving images to app directory (%1$d of %2$d)."
-msgstr ""
+msgstr "Přesouvání obrázků do adresáře aplikace (%1$d z %2$d)."
 
 #, c-format, fuzzy
 msgctxt "editor_error_nonpro_gelement_limit_message"
-msgid ""
-"Please upgrade to the %1$s version of ImageMeter to use more than five "
-"annotations."
-msgstr ""
-"Prosím, upgradgujte na %1$s verzi ImageMeter pro použití více než pěti "
-"poznámek."
+msgid "Please upgrade to the %1$s version of ImageMeter to use more than five annotations."
+msgstr "Prosím, upgradgujte na %1$s verzi ImageMeter pro použití více než pěti poznámek."
 
 #, c-format, fuzzy
 msgctxt "editor_error_nonpro_bluetooth_limit_message"
-msgid ""
-"For Bluetooth measurements with more than 3 meters, please upgrade to the"
-" %1$s version."
-msgstr ""
-"Pro Bluetooth měření s více než 3 metry, prosím, proveďte upgrade na %1$s"
-" verzi."
+msgid "For Bluetooth measurements with more than 3 meters, please upgrade to the %1$s version."
+msgstr "Pro Bluetooth měření s více než 3 metry, prosím, proveďte upgrade na %1$s verzi."
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "editor_error_nonpro_clipboard_message"
 msgid "For using the clipboard, please upgrade to the %1$s version."
-msgstr ""
+msgstr "Chcete -li schránku používat, upgradujte na verzi %1$s."
 
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
@@ -5202,24 +5172,12 @@ msgid "Imported file is not an image"
 msgstr "Importovaný soubor není obrázek"
 
 msgctxt "imageselect_error_cannot_capture_with_camera"
-msgid ""
-"Cannot start external app to capture camera image. Either the device does"
-" not have a camera or your camera app does not respond to a capture "
-"request. You can still import images from the gallery or you can try to "
-"install an alternative camera app."
-msgstr ""
-"Nelze spustit externí aplikaci pro vyfocení obrazu z fotoaparátu. Buď "
-"zařízení nemá fotoaparát nebo vaše aplikace fotoaparát nereaguje na "
-"požadavek snímání. Stále můžete importovat obrázky z galerie, nebo můžete"
-" zkusit nainstalovat alternativní aplikace fotoaparátu."
+msgid "Cannot start external app to capture camera image. Either the device does not have a camera or your camera app does not respond to a capture request. You can still import images from the gallery or you can try to install an alternative camera app."
+msgstr "Nelze spustit externí aplikaci pro vyfocení obrazu z fotoaparátu. Buď zařízení nemá fotoaparát nebo vaše aplikace fotoaparát nereaguje na požadavek snímání. Stále můžete importovat obrázky z galerie, nebo můžete zkusit nainstalovat alternativní aplikace fotoaparátu."
 
 msgctxt "imageselect_error_internal_toast"
-msgid ""
-"An internal error happened. Please take a screenshot of the notification "
-"above and send this to me. Thank you!"
-msgstr ""
-"Došlo k vnitřní chybě. Prosím, vytvořte screenshot oznámení výše a "
-"pošlete mi ho. Děkuji!"
+msgid "An internal error happened. Please take a screenshot of the notification above and send this to me. Thank you!"
+msgstr "Došlo k vnitřní chybě. Prosím, vytvořte screenshot oznámení výše a pošlete mi ho. Děkuji!"
 
 #, fuzzy
 msgctxt "imageselect_error_no_image_import_activity"
@@ -5245,10 +5203,10 @@ msgctxt "storage_error_external_storage_unavailable"
 msgid "External storage (SD card?) not present."
 msgstr "Externí úložiště (SD karta?) není přítomno."
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "error_cannot_open_browser_url"
 msgid "Cannot open web browser to show web page '%1$s'"
-msgstr ""
+msgstr "Nelze otevřít webový prohlížeč a zobrazit webovou stránku '%1$s'"
 
 #. filesystem errors
 #, fuzzy
@@ -5281,22 +5239,8 @@ msgstr "Cloudové úložiště"
 
 #, fuzzy
 msgctxt "cloud_storage_not_configured"
-msgid ""
-"You have not yet configured cloud storage. \n"
-"Cloud storage can be used to sync your images automatically between "
-"multiple devices or for backup. More detailed documentation on this can "
-"be found in the <a "
-"href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \n"
-"The settings for cloud storage can be found in the 'Storage' section of "
-"the app settings (<a href=\"cloud-settings\">open settings</a>)."
-msgstr ""
-"Ještě jste nenakonfigurovali cloudové úložiště.\n"
-"Cloudové úložiště lze použít k automatické synchronizaci obrázků mezi "
-"více zařízeními nebo k zálohování. Podrobnější dokumentaci k tomu "
-"naleznete v manuálu <a "
-"href=\"https://imagemeter.com/manual/storage/cloud/\">. </a>\n"
-"Nastavení cloudového úložiště naleznete v části „Úložiště“ v nastavení "
-"aplikace (<a href=\"cloud-settings\">otevřená nastavení</a>)."
+msgid "You have not yet configured cloud storage. \nCloud storage can be used to sync your images automatically between multiple devices or for backup. More detailed documentation on this can be found in the <a href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \nThe settings for cloud storage can be found in the 'Storage' section of the app settings (<a href=\"cloud-settings\">open settings</a>)."
+msgstr "Ještě jste nenakonfigurovali cloudové úložiště.\nCloudové úložiště lze použít k automatické synchronizaci obrázků mezi více zařízeními nebo k zálohování. Podrobnější dokumentaci k tomu naleznete v manuálu <a href=\"https://imagemeter.com/manual/storage/cloud/\">. </a>\nNastavení cloudového úložiště naleznete v části „Úložiště“ v nastavení aplikace (<a href=\"cloud-settings\">otevřená nastavení</a>)."
 
 #, fuzzy
 msgctxt "cloud_storage_not_configured_syncing_inbox_in_bkg"
@@ -5305,30 +5249,13 @@ msgstr "Vaše složka <i>inbox</i> se synchronizuje."
 
 #, fuzzy
 msgctxt "cloud_storage_not_configured_business_upgrade"
-msgid ""
-"Cloud storage is only available in the <b>Business</b> version of "
-"ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-"
-"business-features\">here</a> for all benefits of the Business version."
-msgstr ""
-"Cloudové úložiště je k dispozici pouze ve verzi <b>Business</b> "
-"ImageMeter. Viz <a href=\"https://imagemeter.com/manual/license/android-"
-"business-features\">zde</a>, kde jsou uvedeny všechny výhody verze "
-"Business."
+msgid "Cloud storage is only available in the <b>Business</b> version of ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-business-features\">here</a> for all benefits of the Business version."
+msgstr "Cloudové úložiště je k dispozici pouze ve verzi <b>Business</b> ImageMeter. Viz <a href=\"https://imagemeter.com/manual/license/android-business-features\">zde</a>, kde jsou uvedeny všechny výhody verze Business."
 
 #, fuzzy
 msgctxt "cloud_storage_not_configured_inbox_only"
-msgid ""
-"Full cloud storage is only available in the <b>Business</b> version of "
-"ImageMeter. Without Business upgrade, cloud storage is limited to the "
-"<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license"
-"/android-business-features\">here</a> for all benefits of the Business "
-"version."
-msgstr ""
-"Úplné cloudové úložiště je k dispozici pouze ve verzi <b>Business</b> "
-"ImageMeter. Bez Business upgrade je cloudové úložiště omezeno na složku "
-"<i>inbox</i>. Viz <a href=\"https://imagemeter.com/manual/license"
-"/android-business-features\">zde</a>, kde jsou uvedeny všechny výhody "
-"verze Business."
+msgid "Full cloud storage is only available in the <b>Business</b> version of ImageMeter. Without Business upgrade, cloud storage is limited to the <i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license/android-business-features\">here</a> for all benefits of the Business version."
+msgstr "Úplné cloudové úložiště je k dispozici pouze ve verzi <b>Business</b> ImageMeter. Bez Business upgrade je cloudové úložiště omezeno na složku <i>inbox</i>. Viz <a href=\"https://imagemeter.com/manual/license/android-business-features\">zde</a>, kde jsou uvedeny všechny výhody verze Business."
 
 #, c-format, fuzzy
 msgctxt "error_cloud_cannot_create_remote_file_already_exists"
@@ -5360,15 +5287,15 @@ msgctxt "error_cloud_cannot_create_remote_folder_file_exists"
 msgid "Cannot create folder '%1$s' because there is a file with this name."
 msgstr "Nelze vytvořit složku '%1$s', protože existuje soubor s tímto názvem."
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "error_cloud_cannot_download_file_download_error"
 msgid "Cannot download file '%1$s' from server."
-msgstr ""
+msgstr "Soubor '%1$s' nelze stáhnout ze serveru."
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "error_cloud_cannot_download_file_local_write_error"
 msgid "Cannot write downloaded file '%1$s' to device."
-msgstr ""
+msgstr "Stažený soubor '%1$s' nelze zapsat do zařízení."
 
 #, c-format, fuzzy
 msgctxt "error_cloud_cannot_get_remote_metadata"
@@ -5454,7 +5381,7 @@ msgstr "Server zablokován jiným klientem. Zkuste to prosím později."
 #, fuzzy
 msgctxt "release_notes_filename"
 msgid "en.html"
-msgstr "en.html"
+msgstr "cs.html"
 
 msgctxt "manual_website_link"
 msgid "http://www.imagemeter.com/manual"
@@ -5477,20 +5404,8 @@ msgstr "Obrázky s poškozenými soubory .imm nebudou exportovány."
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_image_version_more_recent_open_editor_anyways"
-msgid ""
-"The file version of this image (%1$d) is more recent than the maximum "
-"version supported by the ImageMeter version installed (%2$d). Opening the"
-" file may result in lost data or wrong annotations. You should use a "
-"recent version of ImageMeter to open this file.\n"
-"\n"
-"Do you still want to open it?"
-msgstr ""
-"Verze souboru tohoto obrázku (%1$d) je novější než maximální verze "
-"podporovaná nainstalovanou verzí ImageMeter (%2$d). Otevření souboru může"
-" způsobit ztrátu dat nebo nesprávné poznámky. Chcete-li tento soubor "
-"otevřít, měli byste použít nejnovější verzi aplikace ImageMeter.\n"
-"\n"
-"Chcete ho stále otevřít?"
+msgid "The file version of this image (%1$d) is more recent than the maximum version supported by the ImageMeter version installed (%2$d). Opening the file may result in lost data or wrong annotations. You should use a recent version of ImageMeter to open this file.\n\nDo you still want to open it?"
+msgstr "Verze souboru tohoto obrázku (%1$d) je novější než maximální verze podporovaná nainstalovanou verzí ImageMeter (%2$d). Otevření souboru může způsobit ztrátu dat nebo nesprávné poznámky. Chcete-li tento soubor otevřít, měli byste použít nejnovější verzi aplikace ImageMeter.\n\nChcete ho stále otevřít?"
 
 msgctxt "UNUSED_imageselect_error_metadata_format_unknown"
 msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
@@ -5501,36 +5416,18 @@ msgid "This is an essential system folder, you cannot remove or rename it."
 msgstr "Toto je nezbytná systémová složka, nelze ji odstranit nebo přejmenovat."
 
 msgctxt "UNUSED_imageselect_error_cannot_move_bundle_to_folder"
-msgid ""
-"Cannot move image to new folder (maybe an image with the same name "
-"already exists)."
-msgstr ""
-"Nelze přesunout obrázek do nové složky (možná obrázek se stejným názvem "
-"již existuje)."
+msgid "Cannot move image to new folder (maybe an image with the same name already exists)."
+msgstr "Nelze přesunout obrázek do nové složky (možná obrázek se stejným názvem již existuje)."
 
 #, fuzzy
 msgctxt "UNUSED_imageselect_error_external_memory_unavailable"
-msgid ""
-"External memory (where your app-data is stored) is not available. Most "
-"probably, your device stores this data on an external SD card which is "
-"currently not available. If this is not the problem in your case, you may"
-" contact info@imagemeter.com."
-msgstr ""
-"Externí paměť (kde jsou uložena vaše app-data) není k dispozici. S "
-"největší pravděpodobností váš přístroj ukládá tato data na externí SD "
-"kartu, která v současné době není k dispozici. Pokud toto ve vašem "
-"případě není problém, můžete kontaktovat info@imagemeter.com."
+msgid "External memory (where your app-data is stored) is not available. Most probably, your device stores this data on an external SD card which is currently not available. If this is not the problem in your case, you may contact info@imagemeter.com."
+msgstr "Externí paměť (kde jsou uložena vaše app-data) není k dispozici. S největší pravděpodobností váš přístroj ukládá tato data na externí SD kartu, která v současné době není k dispozici. Pokud toto ve vašem případě není problém, můžete kontaktovat info@imagemeter.com."
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_folder_cannot_create"
-msgid ""
-"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
-"the media (e.g. SD-card) is mounted, this directory exists and is "
-"writable."
-msgstr ""
-"Nelze vytvořit složku '%1$s' v tomto adresáři:.'%2$s' Ujistěte se, že "
-"média (např. SD-karta) jsou připojena, tento adresář existuje a lze na "
-"něj zapisovat."
+msgid "Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure the media (e.g. SD-card) is mounted, this directory exists and is writable."
+msgstr "Nelze vytvořit složku '%1$s' v tomto adresáři: '%2$s' Ujistěte se, že média (např. SD-karta) jsou připojena, tento adresář existuje a lze na něj zapisovat."
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_cannot_access_external_data"
@@ -5601,12 +5498,8 @@ msgstr "Nelze zapsat soubor do externí paměti."
 
 #, fuzzy
 msgctxt "UNUSED_storage_error_external_storage_could_not_get_permission_to_write_images"
-msgid ""
-"Could not get permission to write to external storage. No files have been"
-" written."
-msgstr ""
-"Nelze získat oprávnění pro zápis na externí úložiště. Žádné soubory "
-"nebyly zapsány."
+msgid "Could not get permission to write to external storage. No files have been written."
+msgstr "Nelze získat oprávnění pro zápis na externí úložiště. Žádné soubory nebyly zapsány."
 
 #, c-format
 msgctxt "UNUSED_storage_error_cannot_create_directory_on_external_storage"
@@ -5623,12 +5516,8 @@ msgid "Data in image directory '%1$s' is corrupted."
 msgstr "Data v adresáři obrázků '%1$s' jsou poškozena."
 
 msgctxt "UNUSED_storage_error_no_permission_to_read_image_to_be_imported"
-msgid ""
-"Cannot import image because the permission to read external storage has "
-"not been granted."
-msgstr ""
-"Nelze importovat obrázek, protože oprávnění ke čtení externího úložiště "
-"nebylo uděleno."
+msgid "Cannot import image because the permission to read external storage has not been granted."
+msgstr "Nelze importovat obrázek, protože oprávnění ke čtení externího úložiště nebylo uděleno."
 
 #, c-format, fuzzy
 msgctxt "UNUSED_storage_error_cannot_read_ifd_file"
@@ -5682,14 +5571,8 @@ msgstr "Export dokončen"
 
 #, c-format
 msgctxt "UNUSED_export_dialog_saving_images_success_text"
-msgid ""
-"Images have been saved to folder '%1$s'.\n"
-"\n"
-"Maybe you can also find them more easily under /sdcard/Pictures."
-msgstr ""
-"Obrázky byly uloženy do složky '%1$s'.\n"
-"\n"
-"Možná je můžete také lehčeji najít pod /sdcard/Pictures."
+msgid "Images have been saved to folder '%1$s'.\n\nMaybe you can also find them more easily under /sdcard/Pictures."
+msgstr "Obrázky byly uloženy do složky '%1$s'.\n\nMožná je můžete také lehčeji najít pod /sdcard/Pictures."
 
 msgctxt "UNUSED_export_dialog_overwrite_extpics_images_message"
 msgid "Images with the same name exist in the target directory."
@@ -5737,9 +5620,10 @@ msgctxt "UNUSED_dialog_duplicate_image_import_overwrite"
 msgid "Overwrite"
 msgstr "Přepsat"
 
+#, fuzzy
 msgctxt "UNUSED_dialog_duplicate_image_import_keep_both"
 msgid "Keep both"
-msgstr ""
+msgstr "Nechat si oba"
 
 msgctxt "UNUSED_dialog_duplicate_image_import_skip"
 msgid "Skip"
@@ -5751,19 +5635,13 @@ msgstr "Importovat složku"
 
 #, c-format
 msgctxt "UNUSED_dialog_duplicate_folder_import_message"
-msgid ""
-"Imported folder '%1$s' already exists. %3$d images should be imported, "
-"out of which %2$d already exist locally."
-msgstr ""
-"Importovaná složka '%1$s' již existuje. %3$d obrázku by mělo být "
-"importováno, z nichž %2$d již existuje lokálně."
+msgid "Imported folder '%1$s' already exists. %3$d images should be imported, out of which %2$d already exist locally."
+msgstr "Importovaná složka '%1$s' již existuje. %3$d obrázku by mělo být importováno, z nichž %2$d již existuje lokálně."
 
 #, c-format
 msgctxt "UNUSED_dialog_duplicate_folder_no_duplicate_images_import_message"
 msgid "Imported folder '%1$s' already exists, but there are no duplicate images."
-msgstr ""
-"Importovaná složka '%1$s' již existuje, ale nejsou zde žádné duplicitní "
-"obrázky."
+msgstr "Importovaná složka '%1$s' již existuje, ale nejsou zde žádné duplicitní obrázky."
 
 msgctxt "UNUSED_dialog_duplicate_folder_import_merge"
 msgid "Merge"
@@ -5781,11 +5659,13 @@ msgctxt "UNUSED_dialog_duplicate_folder_import_skip"
 msgid "Skip"
 msgstr "Přeskočit"
 
+#, fuzzy
 msgctxt "dummy:0"
 msgid "item 1"
-msgstr ""
+msgstr "položka 1"
 
+#, fuzzy
 msgctxt "dummy:1"
 msgid "item 2"
-msgstr ""
+msgstr "položka 2"
 

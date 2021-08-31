@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2021-07-22 18:35+0200\n"
+"PO-Revision-Date: 2021-08-10 20:47+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -18,6 +18,77 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : 1);\n"
 "Generated-By: Babel 2.9.0\n"
 "X-Generator: Poedit 2.4.2\n"
+
+msgctxt "pc:setup-wizard:locale:title"
+msgid "Language and Units"
+msgstr "Sprache und Einheiten"
+
+msgctxt "pc:setup-wizard:locale:subtitle"
+msgid "Set your preferred interface language and measurement units."
+msgstr "Wählen Sie die bevorzugte Sprache und Maßeinheiten."
+
+msgctxt "pc:setup-wizard:locale:length-unit:inch"
+msgid "inch"
+msgstr "Zoll"
+
+msgctxt "pc:setup-wizard:locale:length-unit:foot"
+msgid "foot"
+msgstr "Fuß"
+
+msgctxt "pc:setup-wizard:locale:length-unit:interleaved"
+msgid "feet and inches (1'  3 1/2\")"
+msgstr "Fuß und Zoll (1'  3 1/2\")"
+
+msgctxt "pc:setup-wizard:locale:length-unit:fractional-inches"
+msgid "inches with fractions (15 1/2\")"
+msgstr "Zoll mit Brüchen (15 1/2\")"
+
+msgctxt "pc:setup-wizard:locale:area-unit:sq-inch"
+msgid "sq inch"
+msgstr "Zoll²"
+
+msgctxt "pc:setup-wizard:locale:area-unit:sq-feet"
+msgid "sq feet"
+msgstr "Fuß²"
+
+msgctxt "pc:setup-wizard:locale:language-label"
+msgid "Language"
+msgstr "Sprache"
+
+msgctxt "pc:setup-wizard:locale:length-unit-label"
+msgid "Default length unit"
+msgstr "Längeneinheit"
+
+msgctxt "pc:setup-wizard:locale:area-unit-label"
+msgid "Default area unit"
+msgstr "Flächeneinheit"
+
+msgctxt "pc:setup-wizard:locale:unit-note-label"
+msgid "Note: more options are available in the settings."
+msgstr "Hinweis: mehr Optionen sind in den Einstellungen verfügbar."
+
+msgctxt "pc:setup-wizard:library:title"
+msgid "Image directory"
+msgstr "Bild-Bibliothek"
+
+msgctxt "pc:setup-wizard:library:subtitle"
+msgid ""
+"Set the directory where ImageMeter should store the images and measurements."
+msgstr ""
+"Wählen Sie das Verzeichnis, in dem ImageMeter die Bilder und Bemaßungen "
+"speichern soll."
+
+msgctxt "pc:setup-wizard:library:label-image-directory"
+msgid "Image directory"
+msgstr "Bildverzeichnis"
+
+msgctxt "pc:setup-wizard:library:radio-button:custom-directory"
+msgid "Custom directory:"
+msgstr "eigenes Verzeichnis:"
+
+msgctxt "pc:setup-wizard:library:hidden-path-note"
+msgid "(hidden directory)"
+msgstr "(verstecktes Verzeichnis)"
 
 msgctxt "pc:mainwindow:menu:file"
 msgid "&File"
@@ -41,7 +112,7 @@ msgstr "&Speichern"
 
 msgctxt "pc:mainwindow:menu:file:close-image-editor"
 msgid "&Close image"
-msgstr "Bild &Schließen"
+msgstr "Bild &schließen"
 
 msgctxt "pc:mainwindow:menu:file:export-image"
 msgid "&Export image..."
@@ -199,6 +270,10 @@ msgctxt "pc:mainwindow:menu:help:about"
 msgid "&About..."
 msgstr "&Informationen..."
 
+msgctxt "pc:mainwindow:menu:help:run-setup-wizard"
+msgid "Run setup wizard..."
+msgstr "Setup-Assistent ausführen..."
+
 msgctxt "pc:mainwindow:dock:image-library:title"
 msgid "Image Library"
 msgstr "Bild-Bibliothek"
@@ -243,6 +318,90 @@ msgstr ""
 "Programm kann nicht beendet werden, da die Cloudsynchronisation gerade aktiv "
 "ist."
 
+msgctxt "pc:image-library:button:new-folder:tooltip"
+msgid "New folder"
+msgstr "Neuer Ordner"
+
+msgctxt "pc:image-library:button:import-image:tooltip"
+msgid "Import image"
+msgstr "Bild importieren"
+
+msgctxt "pc:image-library:button:new-canvas:tooltip"
+msgid "New canvas"
+msgstr "Neue Zeichenfläche"
+
+msgctxt "pc:image-library:button:delete:tooltip"
+msgid "Delete image or folder"
+msgstr "Bild oder Ordner löschen"
+
+msgctxt "pc:image-library:name-filter:placeholder"
+msgid "Filter names"
+msgstr "Namen filtern"
+
+msgctxt "pc:image-library:context-menu:open"
+msgid "Open"
+msgstr "Öffnen"
+
+msgctxt "pc:image-library:context-menu:rename-edit"
+msgid "Rename / Edit notes"
+msgstr "Umbenennen / Notizen bearbeiten"
+
+msgctxt "pc:image-library:context-menu:move"
+msgid "Move"
+msgstr "Verschieben"
+
+msgctxt "pc:image-library:context-menu:duplicate"
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+msgctxt "pc:image-library:context-menu:delete"
+msgid "Delete"
+msgstr "Löschen"
+
+msgctxt "pc:image-library:context-menu:restore"
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+msgctxt "pc:image-library:context-menu:purge"
+msgid "Purge deleted item now"
+msgstr "Endgültig löschen"
+
+msgctxt "pc:image-library:context-menu:export"
+msgid "Export"
+msgstr "Exportieren"
+
+msgctxt "pc:image-library:context-menu:export:image"
+msgid "Image (JPEG/PNG)…"
+msgstr "Bild (JPEG/PNG)…"
+
+msgctxt "pc:image-library:context-menu:export:imi"
+msgid "ImageMeter image (IMI)…"
+msgstr "ImageMeter-Bild (IMI)…"
+
+msgctxt "pc:image-library:context-menu:export:imf"
+msgid "ImageMeter folder (IMF)…"
+msgstr "ImageMeter-Ordner (IMF)…"
+
+msgctxt "pc:image-library:context-menu:export:pdf"
+msgid "PDF document…"
+msgstr "PDF-Dokument…"
+
+msgctxt "pc:image-library:context-menu:export:zip"
+msgid "ZIP archive…"
+msgstr "ZIP-Archive…"
+
+msgctxt "pc:image-library:context-menu:export:dxf"
+msgid "CAD drawing (DXF)…"
+msgstr "CAD-Zeichnung (DXF)…"
+
+msgctxt "pc:image-library:context-menu:export:csv"
+msgid "Spreadsheet table (CSV)…"
+msgstr "Datentabelle (CSV)…"
+
+msgctxt "pc:image-library:context-menu:export:xlsx"
+msgid "Excel table (XLSX)…"
+msgstr "Exceltabelle (XLSX)…"
+
 msgctxt "pc:error-dialog:window-title:info"
 msgid "Information"
 msgstr "Information"
@@ -267,7 +426,7 @@ msgid ""
 "Bluetooth?"
 msgstr ""
 "Sollen auch die Maßeinheiten geändert werden, welche manuell eingegeben oder "
-"über Bluetooth empfangen  wurden?"
+"über Bluetooth empfangen wurden?"
 
 msgctxt "pc:import:pdf:render-resolution-dpi"
 msgid "Resolution (dpi):"
@@ -378,6 +537,74 @@ msgstr "Benutzer fragen"
 msgctxt "pc:access-control:select-user:dialog-title"
 msgid "Select users ..."
 msgstr "Benutzer auswählen ..."
+
+msgctxt "pc:editor:toolbar-tools:tool-button:pointer:tooltip"
+msgid "Select and edit"
+msgstr "Auswählen und Editieren"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:flatref:tooltip"
+msgid "Reference scale"
+msgstr "Referenzmaßstab"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:rectref:tooltip"
+msgid "Perspective reference"
+msgstr "Perspektivische Referenz"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:perspline:tooltip"
+msgid "Perspective length"
+msgstr "Perspektivische Längenmessung"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:measure:tooltip"
+msgid "Dimension"
+msgstr "Länge"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:angle:tooltip"
+msgid "Angle"
+msgstr "Winkel"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:dimstring:tooltip"
+msgid "Dimension string"
+msgstr "Maßkette"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:cumulative-dimstring:tooltip"
+msgid "Cumulative dimension string"
+msgstr "Maßkette mit Bezugspunkt"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:area:tooltip"
+msgid "Area"
+msgstr "Fläche"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:circle:tooltip"
+msgid "Circle"
+msgstr "Kreis"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:rectangle:tooltip"
+msgid "Rectangle"
+msgstr "Rechteck"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:measurement-point:tooltip"
+msgid "Measurement point"
+msgstr "Messpunkt"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:text-note:tooltip"
+msgid "Text note, audio note, detail image"
+msgstr "Notiz (Text, Audio, Detailbild)"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:freehand:tooltip"
+msgid "Freehand drawing"
+msgstr "Freihandzeichnung"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:line:tooltip"
+msgid "Line (unmeasured)"
+msgstr "Linie (ohne Bemaßung)"
+
+msgctxt "pc:editor:toolbar-tools:tool-button:ellipse:tooltip"
+msgid "Ellipse (unmeasured)"
+msgstr "Ellipse (ohne Bemaßung)"
+
+msgctxt "pc:editor:toolbar-tools:context-menu:keep-selected"
+msgid "Keep selected"
+msgstr "Ausgewählt lassen"
 
 msgctxt "pc:value-entry:dialog:title"
 msgid "Enter the dimension value"
@@ -710,6 +937,18 @@ msgctxt "pc:prefs:editor:styling:default-values-for-new-images"
 msgid "Default values for new images"
 msgstr "Standardwerte für neue Bilder"
 
+msgctxt "pc:prefs:editor:refsizes:header:name"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "pc:prefs:editor:refsizes:header:width"
+msgid "Width"
+msgstr "Breite"
+
+msgctxt "pc:prefs:editor:refsizes:header:height"
+msgid "Height"
+msgstr "Höhe"
+
 msgctxt "pc:prefs:initial-texts:new-image:group-title"
 msgid "New image"
 msgstr "Neues Bild"
@@ -741,6 +980,10 @@ msgstr "Info"
 msgctxt "pc:prefs:ui:edit-images-after-opening"
 msgid "Edit images after opening"
 msgstr "Bilder nach dem Öffnen editieren"
+
+msgctxt "pc:prefs:ui:pdf-page-thumbnail-size"
+msgid "PDF page thumbnail size:"
+msgstr "Größe der Vorschaubilder von PDF-Seiten"
 
 msgctxt "pc:prefs:library:root-directory"
 msgid "Image library directory"

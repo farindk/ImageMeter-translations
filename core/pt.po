@@ -38,9 +38,10 @@ msgctxt "error:OutOfMemory:with_mb_size"
 msgid "Out of memory (cannot allocate {} MB)."
 msgstr "Falta de memória (não é possível alocar {} MB)."
 
+#, fuzzy
 msgctxt "error:ZLibCompressionError"
 msgid "ZLib error code: '{}'."
-msgstr ""
+msgstr "Código de erro ZLib: '{}'."
 
 #, fuzzy
 msgctxt "error:ZipError"
@@ -52,18 +53,20 @@ msgctxt "error:ZIP_ReadError"
 msgid "Error reading ZIP file."
 msgstr "Erro ao ler o arquivo ZIP."
 
+#, fuzzy
 msgctxt "error:NLohmann_JsonParseError"
 msgid "Parse error '{}'"
-msgstr ""
+msgstr "Erro de análise '{}'"
 
 #, fuzzy
 msgctxt "error:LibJPEG_Error"
 msgid "LibJPEG error: \"{}\"."
 msgstr "Erro LibJPEG: \"{}\"."
 
+#, fuzzy
 msgctxt "error:CommaSeparatedList_EmptyString"
 msgid "Empty item in list."
-msgstr ""
+msgstr "Item vazio na lista."
 
 #, fuzzy
 msgctxt "error:Files_FileDoesNotExist"
@@ -112,9 +115,10 @@ msgctxt "error:Files_CannotDeleteDirectory"
 msgid "Cannot delete folder '{}'."
 msgstr "Não é possível excluir a pasta '{}'."
 
+#, fuzzy
 msgctxt "error:Files_CorruptedFileCompression"
 msgid "File compression error."
-msgstr ""
+msgstr "Erro de compactação de arquivo."
 
 #, fuzzy
 msgctxt "error:Files_CannotReadDirectory"
@@ -246,15 +250,12 @@ msgstr "Erro de análise de arquivo IFD."
 
 msgctxt "error:CannotLockPath-readLock"
 msgid "Cannot read file '{}' because it is currently being modified."
-msgstr ""
-"Não é possível ler o arquivo '{}' porque ele está sendo modificado no "
-"momento."
+msgstr "Não é possível ler o arquivo '{}' porque ele está sendo modificado no momento."
 
 #, fuzzy
 msgctxt "error:CannotLockPath-writeLock"
 msgid "Cannot modify file '{}' because it is currently in use."
-msgstr ""
-"Não é possível modificar o arquivo '{}' porque ele está em uso no momento."
+msgstr "Não é possível modificar o arquivo '{}' porque ele está em uso no momento."
 
 msgctxt "error:UnknownFileFormat"
 msgid "File '{}' has unknown format."
@@ -297,12 +298,8 @@ msgstr "Erro do OpenGL: \"{}\"."
 
 #, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
-msgid ""
-"Not enough memory to render at output resolution {}. Please reduce the "
-"output resolution."
-msgstr ""
-"Memória insuficiente para renderizar na resolução de saída {}. Por favor, "
-"reduza a resolução de saída."
+msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
+msgstr "Memória insuficiente para renderizar na resolução de saída {}. Por favor, reduza a resolução de saída."
 
 msgctxt "error:CannotRenderImage"
 msgid "Cannot render image \"{}\"."
@@ -473,9 +470,7 @@ msgstr "Erro de servidor: {}"
 #, fuzzy
 msgctxt "error:Cloud_FileLockedOnServer"
 msgid "File is locked on server. Please retry upload at a later time."
-msgstr ""
-"O arquivo está bloqueado no servidor. Tente fazer o upload novamente mais "
-"tarde."
+msgstr "O arquivo está bloqueado no servidor. Tente fazer o upload novamente mais tarde."
 
 #, fuzzy
 msgctxt "error:Cloud_RemoteFileDoesNotExist"
@@ -597,67 +592,80 @@ msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
 msgstr "Não foi possível redefinir o estado de sincronização."
 
+#, fuzzy
 msgctxt "error:HTTP-error-400"
 msgid "400 : Bad Request"
-msgstr ""
+msgstr "400: Pedido inválido"
 
+#, fuzzy
 msgctxt "error:HTTP-error-401"
 msgid "401 : Unauthorized"
-msgstr ""
+msgstr "401: Não autorizado"
 
+#, fuzzy
 msgctxt "error:HTTP-error-403"
 msgid "403 : Forbidden"
-msgstr ""
+msgstr "403: Proibido"
 
+#, fuzzy
 msgctxt "error:HTTP-error-404"
 msgid "404 : Not Found"
-msgstr ""
+msgstr "404: Não encontrado"
 
+#, fuzzy
 msgctxt "error:HTTP-error-405"
 msgid "405 : Method Not Allowed"
-msgstr ""
+msgstr "405: Método não permitido"
 
+#, fuzzy
 msgctxt "error:HTTP-error-406"
 msgid "406 : Not Acceptable"
-msgstr ""
+msgstr "406: Não Aceitável"
 
+#, fuzzy
 msgctxt "error:HTTP-error-407"
 msgid "407 : Proxy Authentication Required"
-msgstr ""
+msgstr "407: Autenticação de proxy necessária"
 
+#, fuzzy
 msgctxt "error:HTTP-error-408"
 msgid "408 : Request Timeout"
-msgstr ""
+msgstr "408: Tempo Limite de Solicitação"
 
+#, fuzzy
 msgctxt "error:HTTP-error-409"
 msgid "409 : Conflict"
-msgstr ""
+msgstr "409: Conflito"
 
+#, fuzzy
 msgctxt "error:HTTP-error-410"
 msgid "410 : Gone"
-msgstr ""
+msgstr "410: Ido"
 
 #, fuzzy
 msgctxt "error:HTTP-error-500"
 msgid "500 : Internal Server Error"
-msgstr "Erro interno: {}."
+msgstr "500: Erro do Servidor Interno"
 
+#, fuzzy
 msgctxt "error:HTTP-error-501"
 msgid "501 : Not Implemented"
-msgstr ""
+msgstr "501: Não Implementado"
 
+#, fuzzy
 msgctxt "error:HTTP-error-502"
 msgid "502 : Bad Gateway"
-msgstr ""
+msgstr "502: Bad Gateway"
 
 #, fuzzy
 msgctxt "error:HTTP-error-503"
 msgid "503 : Service Unavailable"
-msgstr "Loja indisponível"
+msgstr "503: Loja indisponível"
 
+#, fuzzy
 msgctxt "error:HTTP-error-504"
 msgid "504 : Gateway Timeout"
-msgstr ""
+msgstr "504: Tempo Limite do Gateway"
 
 #, fuzzy
 msgctxt "error:NetworkError"
@@ -708,17 +716,20 @@ msgctxt "error:Android_Import_SecurityException"
 msgid "Security exception when accessing URI '{}'."
 msgstr "Exceção de segurança ao acessar o URI '{}'."
 
+#, fuzzy
 msgctxt "error:Android_InsertImageIntoGallery"
 msgid "Cannot insert image into gallery ({})."
-msgstr ""
+msgstr "Não é possível inserir imagem na galeria ({})."
 
+#, fuzzy
 msgctxt "error:Android_CopyImageDataIntoGallery"
 msgid "Cannot copy image data into gallery (url='{}')."
-msgstr ""
+msgstr "Não é possível copiar os dados da imagem para a galeria (url='{}')."
 
+#, fuzzy
 msgctxt "error:Android_DeleteOldImageFromGallery"
 msgid "Cannot delete old image from gallery (url='{}')."
-msgstr ""
+msgstr "Não é possível excluir a imagem antiga da galeria (url='{}')."
 
 msgctxt "unit:translated-name:meter"
 msgid "m"
@@ -740,9 +751,10 @@ msgctxt "unit:translated-name:mile"
 msgid "mile"
 msgstr "milha"
 
+#, fuzzy
 msgctxt "unit:translated-name:mil"
 msgid "mil"
-msgstr ""
+msgstr "mil"
 
 msgctxt "unit:translated-name:meter2"
 msgid "m²"
@@ -776,13 +788,15 @@ msgctxt "unit:translated-name:ha"
 msgid "hectare"
 msgstr "hectare"
 
+#, fuzzy
 msgctxt "unit:translated-name:mil2"
 msgid "square mil"
-msgstr ""
+msgstr "mil quadrado"
 
+#, fuzzy
 msgctxt "unit:translated-name:cmil"
 msgid "circular mil"
-msgstr ""
+msgstr "mil circular"
 
 msgctxt "unit:translated-name:degrees"
 msgid "degrees"
@@ -806,11 +820,11 @@ msgstr "Métrico (1.00 m)"
 
 msgctxt "dimtemplate:length:decimal-imperial"
 msgid "Imperial (1.00 ft)"
-msgstr "Imperial (1' 10 1/32\")"
+msgstr "Imperial (1.00 pés)"
 
 msgctxt "dimtemplate:length:imperial-interleaved"
 msgid "Imperial (1' 10 1/32\")"
-msgstr "Imperial (1.00 pés)"
+msgstr "Imperial (1' 10 1/32\")"
 
 msgctxt "dimtemplate:length:imperial-fractional-inches"
 msgid "Inches with fractions (1 1/8\")"
@@ -824,49 +838,60 @@ msgctxt "dimtemplate:area:decimal-imperial"
 msgid "imperial"
 msgstr "imperial"
 
+#, fuzzy
 msgctxt "labeltype:any"
 msgid "Any"
-msgstr ""
+msgstr "Algum"
 
+#, fuzzy
 msgctxt "labeltype:length"
 msgid "Length"
-msgstr ""
+msgstr "Comprimento"
 
+#, fuzzy
 msgctxt "labeltype:area"
 msgid "Area"
-msgstr ""
+msgstr "Área"
 
+#, fuzzy
 msgctxt "labeltype:angle"
 msgid "Angle"
-msgstr ""
+msgstr "Ângulo"
 
+#, fuzzy
 msgctxt "labeltype:edge"
 msgid "Edge length"
-msgstr ""
+msgstr "Comprimento da aresta"
 
+#, fuzzy
 msgctxt "labeltype:perimeter"
 msgid "Perimeter"
-msgstr ""
+msgstr "Perímetro"
 
+#, fuzzy
 msgctxt "labeltype:diameter"
 msgid "Diameter"
-msgstr ""
+msgstr "Diâmetro"
 
+#, fuzzy
 msgctxt "labeltype:radius"
 msgid "Radius"
-msgstr ""
+msgstr "Raio"
 
+#, fuzzy
 msgctxt "labeltype:width"
 msgid "Width"
-msgstr ""
+msgstr "Largura"
 
+#, fuzzy
 msgctxt "labeltype:height"
 msgid "Height"
-msgstr ""
+msgstr "Altura"
 
+#, fuzzy
 msgctxt "labeltype:rectangle-side(rectangle)"
 msgid "Rectangle"
-msgstr ""
+msgstr "Retângulo"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:min-imperial-fraction:title"
@@ -897,17 +922,20 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "As unidades imperiais serão mostradas como ft/in"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
 msgid "Ambiguous numbers"
-msgstr ""
+msgstr "Números ambíguos"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:no"
 msgid "Keep"
-msgstr ""
+msgstr "Guarda"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
-msgstr ""
+msgstr "Adicione um ponto se necessário"
 
 msgctxt "dimformat:options-ui:show-units:title"
 msgid "Show units"
@@ -1100,25 +1128,30 @@ msgctxt "text-h-alignment:right"
 msgid "Right"
 msgstr "Direita"
 
+#, fuzzy
 msgctxt "text-h-alignment:block"
 msgid "Block"
-msgstr ""
+msgstr "Bloquear"
 
+#, fuzzy
 msgctxt "ui:list:add-entry"
 msgid "Add"
-msgstr ""
+msgstr "Adicionar"
 
+#, fuzzy
 msgctxt "ui:list:remove-entry"
 msgid "Remove"
-msgstr ""
+msgstr "Retirar"
 
+#, fuzzy
 msgctxt "ui:list:move-entry-up"
 msgid "Up"
-msgstr ""
+msgstr "Acima"
 
+#, fuzzy
 msgctxt "ui:list:move-entry-down"
 msgid "Down"
-msgstr ""
+msgstr "Baixa"
 
 #, fuzzy
 msgctxt "filename-copy-tag"
@@ -1128,14 +1161,12 @@ msgstr "cópia"
 #, fuzzy
 msgctxt "entities:cannot_delete_image:in_use"
 msgid "Cannot delete image '{0}' because it is in use by '{1}'."
-msgstr ""
-"Não é possível modificar o arquivo '{}' porque ele está em uso no momento."
+msgstr "Não é possível modificar o arquivo '{}' porque ele está em uso no momento."
 
 #, fuzzy
 msgctxt "entities:cannot_delete_folder:in_use"
 msgid "Cannot delete folder '{0}' because it is in use by '{1}'."
-msgstr ""
-"Não é possível modificar o arquivo '{}' porque ele está em uso no momento."
+msgstr "Não é possível modificar o arquivo '{}' porque ele está em uso no momento."
 
 #, fuzzy
 msgctxt "entities:cannot_move_folder:into_itself"
@@ -1145,110 +1176,127 @@ msgstr "Não é possível renomear a pasta '{}' no servidor"
 #, fuzzy
 msgctxt "entities:cannot_rename_image:in_use"
 msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
-msgstr ""
-"Não é possível modificar o arquivo '{}' porque ele está em uso no momento."
+msgstr "Não é possível renomear a imagem '{0} porque ela está sendo usada por '{1}'."
 
+#, fuzzy
 msgctxt "image-library:breadcrumbs:root-folder"
 msgid "Root"
-msgstr ""
+msgstr "Raiz"
 
+#, fuzzy
 msgctxt "imagebundle-settings:dialog-title"
 msgid "Image settings"
-msgstr ""
+msgstr "Configurações de imagem"
 
+#, fuzzy
 msgctxt "imagebundle-settings:image-title"
 msgid "Image name"
-msgstr ""
+msgstr "Nome da imagem"
 
+#, fuzzy
 msgctxt "imagebundle-settings:image-number"
 msgid "Number"
-msgstr ""
+msgstr "Número"
 
+#, fuzzy
 msgctxt "imagebundle-settings:template"
 msgid "Data scheme"
-msgstr ""
+msgstr "Esquema de dados"
 
+#, fuzzy
 msgctxt "imagebundle-settings:image-notes"
 msgid "Image notes"
-msgstr ""
+msgstr "Notas de imagem"
 
+#, fuzzy
 msgctxt "template-selection-mixin:copy-local-template-to-prefs"
 msgid "Copy template to preferences"
-msgstr ""
+msgstr "Copiar modelo para preferências"
 
+#, fuzzy
 msgctxt "folder-settings:dialog-title"
 msgid "Folder settings"
-msgstr ""
+msgstr "Configurações de pasta"
 
+#, fuzzy
 msgctxt "folder-settings:folder-title"
 msgid "Folder name"
-msgstr ""
+msgstr "Nome da pasta"
 
+#, fuzzy
 msgctxt "folder-settings:template"
 msgid "Data scheme"
-msgstr ""
+msgstr "Esquema de dados"
 
+#, fuzzy
 msgctxt "folder-settings:folder-color"
 msgid "Folder color"
-msgstr ""
+msgstr "Cor da pasta"
 
+#, fuzzy
 msgctxt "folder-settings:folder-notes"
 msgid "Folder notes"
-msgstr ""
+msgstr "Notas de pasta"
 
+#, fuzzy
 msgctxt "access-control:users-with-access:list-title"
 msgid "Users with access"
-msgstr ""
+msgstr "Usuários com acesso"
 
+#, fuzzy
 msgctxt "access-control:admin:full-name"
 msgid "Administrator"
-msgstr ""
+msgstr "Administrador"
 
+#, fuzzy
 msgctxt "access-control:nobody:full-name"
 msgid "No user"
-msgstr ""
+msgstr "Sem usuário"
 
+#, fuzzy
 msgctxt "access-control:anybody:full-name"
 msgid "Anybody"
-msgstr ""
+msgstr "Qualquer pessoa"
 
+#, fuzzy
 msgctxt "image-numbering:start-number"
 msgid "Start"
-msgstr ""
+msgstr "Começar"
 
+#, fuzzy
 msgctxt "image-numbering:increment"
 msgid "Increment"
-msgstr ""
+msgstr "Incremento"
 
+#, fuzzy
 msgctxt "image-numbering:section:renumber-existing-images"
 msgid "Renumber existing images"
-msgstr ""
+msgstr "Renumerar imagens existentes"
 
+#, fuzzy
 msgctxt "image-numbering:keep-old-numbering-order"
 msgid "Keep old numbering order"
-msgstr ""
+msgstr "Manter a ordem de numeração antiga"
 
 #, fuzzy
 msgctxt "rendering:watermark"
-msgid ""
-"Evaluation copy\n"
-"Please upgrade to remove watermark"
-msgstr ""
-"Cópia de avaliação\n"
-"Atualize para remover a marca d'água"
+msgid "Evaluation copy\nPlease upgrade to remove watermark"
+msgstr "Cópia de avaliação\nAtualize para remover a marca d'água"
 
+#, fuzzy
 msgctxt "export:resolution-too-small"
 msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
-msgstr ""
+msgstr "A resolução de saída é muito pequena. O mínimo é {0}x{1} pixels."
 
 #, fuzzy
 msgctxt "image-export:size:group-title"
 msgid "Image size"
 msgstr "Tamanho da imagem"
 
+#, fuzzy
 msgctxt "image-export:size:suggested-size"
 msgid "Suggested size"
-msgstr ""
+msgstr "Tamanho sugerido"
 
 #, fuzzy
 msgctxt "image-export:size:original-size"
@@ -1280,17 +1328,20 @@ msgctxt "image-export:overlays:group-title"
 msgid "Overlays"
 msgstr "Sobreposições"
 
+#, fuzzy
 msgctxt "image-export:overlays:show-text"
 msgid "Show text overlay"
-msgstr ""
+msgstr "Mostrar sobreposição de texto"
 
+#, fuzzy
 msgctxt "image-export:overlays:text"
 msgid "Text"
-msgstr ""
+msgstr "Texto"
 
+#, fuzzy
 msgctxt "image-export:filename-expression"
 msgid "{image.title}"
-msgstr ""
+msgstr "{image.title}"
 
 #, fuzzy
 msgctxt "pdf-export:table-of-contents"
@@ -1302,25 +1353,24 @@ msgctxt "pdf-export:root-folder-title"
 msgid "ImageMeter export"
 msgstr "Exportação de ImageMeter"
 
+#, fuzzy
 msgctxt "zip-export:include-annotated-images"
 msgid "Include annotated images"
-msgstr ""
+msgstr "Incluir imagens anotadas"
 
+#, fuzzy
 msgctxt "zip-export:include-original-images"
 msgid "Include original images"
-msgstr ""
+msgstr "Incluir imagens originais"
 
+#, fuzzy
 msgctxt "zip-export:include-pdf-file"
 msgid "Include PDF file"
-msgstr ""
+msgstr "Incluir arquivo PDF"
 
 msgctxt "editor:attach:error_no_reference_to_attach_to"
-msgid ""
-"There is no reference in the image! You need to draw a reference in order to "
-"do automatic computations."
-msgstr ""
-"Não há referência na imagem! Você precisa desenhar uma referência para fazer "
-"cálculos automáticos."
+msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
+msgstr "Não há referência na imagem! Você precisa desenhar uma referência para fazer cálculos automáticos."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -1331,41 +1381,42 @@ msgid "Measure is computed based on the reference you provided."
 msgstr "A medida é calculada com base na referência que você forneceu."
 
 msgctxt "editor:attach:hint_howto_attach_to_reference"
-msgid ""
-"Click on the measure you want to compute based on the selected reference."
-msgstr ""
-"Clique na medida que deseja calcular com base na referência selecionada."
+msgid "Click on the measure you want to compute based on the selected reference."
+msgstr "Clique na medida que deseja calcular com base na referência selecionada."
 
 msgctxt "editor:attach:hint_howto_attach_measure"
-msgid ""
-"Click on the reference based on which you want to calculate the selected "
-"measure."
-msgstr ""
-"Clique na referência com base na qual deseja calcular a medida selecionada."
+msgid "Click on the reference based on which you want to calculate the selected measure."
+msgstr "Clique na referência com base na qual deseja calcular a medida selecionada."
 
+#, fuzzy
 msgctxt "editor:attach:messagebox:title"
 msgid "Compute Measure"
-msgstr ""
+msgstr "Calcular Medida"
 
+#, fuzzy
 msgctxt "editor:rectref:standard-size:legal"
 msgid "Legal"
-msgstr ""
+msgstr "Legal"
 
+#, fuzzy
 msgctxt "editor:rectref:standard-size:letter"
 msgid "Letter"
-msgstr ""
+msgstr "Letter"
 
+#, fuzzy
 msgctxt "editor:rectref:standard-size:credit-card"
 msgid "Credit card"
-msgstr ""
+msgstr "Cartão de crédito"
 
+#, fuzzy
 msgctxt "editor:image-modified-dialog:title"
 msgid "Image has been modified"
-msgstr ""
+msgstr "A imagem foi modificada"
 
+#, fuzzy
 msgctxt "editor:image-modified-dialog:text"
 msgid "Image has been modified. Do you want to save it?"
-msgstr ""
+msgstr "A imagem foi modificada. Você quer salvá-lo?"
 
 msgctxt "editor:styling:line-caps"
 msgid "Line style"
@@ -1387,9 +1438,10 @@ msgctxt "editor:styling:font-size"
 msgid "Font size"
 msgstr "Tamanho da fonte"
 
+#, fuzzy
 msgctxt "editor:styling:fill-color"
 msgid "Fill color"
-msgstr ""
+msgstr "Cor de preenchimento"
 
 msgctxt "editor:styling:text-color"
 msgid "Text color"
@@ -1717,17 +1769,20 @@ msgctxt "image-settings:image:contrast"
 msgid "Contrast"
 msgstr "Contraste"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:greyscale"
 msgid "Greyscale"
-msgstr ""
+msgstr "Escala de cinza"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:bright"
 msgid "Bright"
-msgstr ""
+msgstr "Brilhante"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:dark"
 msgid "Dark"
-msgstr ""
+msgstr "Escuro"
 
 #, fuzzy
 msgctxt "image-settings:image:color-preset:original"
@@ -1759,30 +1814,35 @@ msgctxt "image-settings:canvas:color-scheme:custom"
 msgid "Custom"
 msgstr "personalizadas"
 
+#, fuzzy
 msgctxt "image-settings:canvas:background-color"
 msgid "Background color"
-msgstr ""
+msgstr "Cor de fundo"
 
+#, fuzzy
 msgctxt "image-settings:canvas:coarse-grid-color"
 msgid "Coarse grid color"
-msgstr ""
+msgstr "Cor de grade grosseira"
 
+#, fuzzy
 msgctxt "image-settings:canvas:fine-grid-color"
 msgid "Fine grid color"
-msgstr ""
+msgstr "Cor fina da grade"
 
 #, fuzzy
 msgctxt "image-settings:canvas:grid-subdivisions"
 msgid "Subdivisions"
 msgstr "Subdivisões"
 
+#, fuzzy
 msgctxt "image-settings:canvas:unit-distance"
 msgid "Unit distance"
-msgstr ""
+msgstr "Distância unitária"
 
+#, fuzzy
 msgctxt "image-settings:canvas:unit-distance-hint"
 msgid "100 cm"
-msgstr ""
+msgstr "100 cm"
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
 msgid "Snap to object corners"
@@ -1828,27 +1888,30 @@ msgctxt "prefs:editor:snapping:snapping-strength:high"
 msgid "High"
 msgstr "Alto"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size"
 msgid "Distance step size"
-msgstr ""
+msgstr "Tamanho do passo de distância"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:hint"
 msgid "1 ft"
-msgstr ""
+msgstr "1 ft"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:tooltip"
 msgid "Snap to multiples of this distance (only for rectangles and distance)."
-msgstr ""
+msgstr "Faça snap em múltiplos desta distância (apenas para retângulos e distância)."
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
-msgid ""
-"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
-"rectangle sides will be restricted to steps of this size."
-msgstr ""
+msgid "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and rectangle sides will be restricted to steps of this size."
+msgstr "Insira uma distância com unidade (por exemplo, 10cm, 1ft ou 1'). As dimensões desenhadas e os lados do retângulo serão restritos a etapas desse tamanho."
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
 msgid "Freehand"
-msgstr ""
+msgstr "Mão livre"
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay"
@@ -1875,426 +1938,509 @@ msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:long"
 msgid "Long"
 msgstr "Longo"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:group-title"
 msgid "Text note"
-msgstr ""
+msgstr "Nota de texto"
 
 msgctxt "prefs:editor:drawing-tools:textbox:preset-texts:title"
 msgid "Preset texts"
 msgstr "Textos pré-definidos"
 
+#, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing"
 msgid "Anti-aliasing in editor"
-msgstr ""
+msgstr "Anti-aliasing no editor"
 
+#, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing:off"
 msgid "Off"
-msgstr ""
+msgstr "Desligado"
 
+#, fuzzy
 msgctxt "prefs:ui:language"
 msgid "Language"
-msgstr ""
+msgstr "Língua"
 
+#, fuzzy
 msgctxt "prefs:ui:language:automatic"
 msgid "Automatic"
-msgstr ""
+msgstr "Automático"
 
+#, fuzzy
 msgctxt "prefs:company:user-id"
 msgid "User ID"
-msgstr ""
+msgstr "ID do usuário"
 
+#, fuzzy
 msgctxt "prefs:company:user-full-name"
 msgid "Full name"
-msgstr ""
+msgstr "Nome completo"
 
+#, fuzzy
 msgctxt "templ:template-name:unnamed"
 msgid "New template"
-msgstr ""
+msgstr "Novo modelo"
 
+#, fuzzy
 msgctxt "templ:custom:class-display-name"
 msgid "Custom template"
-msgstr ""
+msgstr "Modelo personalizado"
 
+#, fuzzy
 msgctxt "templ:custom:new-template-name"
 msgid "New custom template"
-msgstr ""
+msgstr "Novo modelo personalizado"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:empty"
 msgid "Empty"
-msgstr ""
+msgstr "Vazio"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-name"
 msgid "Image name"
-msgstr ""
+msgstr "Nome da imagem"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-notes"
 msgid "Image notes"
-msgstr ""
+msgstr "Notas de imagem"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-number"
 msgid "Image number"
-msgstr ""
+msgstr "Número da imagem"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-capture-date"
 msgid "Image capture date"
-msgstr ""
+msgstr "Data de captura de imagem"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-gps-latitude"
 msgid "Image GPS latitude"
-msgstr ""
+msgstr "Latitude GPS de imagem"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-gps-longitude"
 msgid "Image GPS longitude"
-msgstr ""
+msgstr "Longitude GPS de imagem"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link"
 msgid "GPS map link"
-msgstr ""
+msgstr "Link do mapa GPS"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:url:text"
 msgid "link"
-msgstr ""
+msgstr "ligação"
 
+#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:error:no-gps"
 msgid "no GPS"
-msgstr ""
+msgstr "sem GPS"
 
+#, fuzzy
 msgctxt "templ:custom:column-type:width-height"
 msgid "Width and height"
-msgstr ""
+msgstr "Largura e altura"
 
+#, fuzzy
 msgctxt "templ:custom:column-type:text"
 msgid "Text note"
-msgstr ""
+msgstr "Nota de texto"
 
+#, fuzzy
 msgctxt "templ:custom:new-tablespec-name"
 msgid "Custom Table"
-msgstr ""
+msgstr "Tabela Personalizada"
 
+#, fuzzy
 msgctxt "templ:custom:new-tag"
 msgid "new tag"
-msgstr ""
+msgstr "nova etiqueta"
 
+#, fuzzy
 msgctxt "templ:custom:tag:filter:text"
 msgid "Text note"
-msgstr ""
+msgstr "Nota de texto"
 
+#, fuzzy
 msgctxt "templ:custom:tag:filter:circle"
 msgid "Circle"
-msgstr ""
+msgstr "Círculo"
 
+#, fuzzy
 msgctxt "templ:custom:tag:property-name"
 msgid "Tag"
-msgstr ""
+msgstr "Etiqueta"
 
+#, fuzzy
 msgctxt "templ:areasum:class-display-name"
 msgid "Area sum template"
-msgstr ""
+msgstr "Modelo de soma de área"
 
+#, fuzzy
 msgctxt "templ:areasum:preset:wallarea:display-name"
 msgid "Wall area"
-msgstr ""
+msgstr "Área da parede"
 
+#, fuzzy
 msgctxt "templ:areasum:preset:floorarea:display-name"
 msgid "Floor area"
-msgstr ""
+msgstr "Área do piso"
 
+#, fuzzy
 msgctxt "templ:areasum:tag:property-name"
 msgid "Tag"
-msgstr ""
+msgstr "Etiqueta"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:new-template-name"
 msgid "New wall area template"
-msgstr ""
+msgstr "Novo modelo de área de parede"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:new-template-name"
 msgid "New floor area template"
-msgstr ""
+msgstr "Novo modelo de área de piso"
 
+#, fuzzy
 msgctxt "templ:areasum:custom-add"
 msgid "custom (add)"
-msgstr ""
+msgstr "personalizado (adicionar)"
 
+#, fuzzy
 msgctxt "templ:areasum:custom-minus"
 msgid "custom (subtract)"
-msgstr ""
+msgstr "personalizado (subtrair)"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:wall"
 msgid "wall"
-msgstr ""
+msgstr "muro"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:ceiling"
 msgid "ceiling"
-msgstr ""
+msgstr "teto"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:window"
 msgid "window"
-msgstr ""
+msgstr "janela"
 
+#, fuzzy
 msgctxt "templ:areasum:wallarea:door"
 msgid "door"
-msgstr ""
+msgstr "porta"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:living-room"
 msgid "living room"
-msgstr ""
+msgstr "sala de estar"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:bed-room"
 msgid "bed room"
-msgstr ""
+msgstr "quarto"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:kitchen"
 msgid "kitchen"
-msgstr ""
+msgstr "cozinha"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:bath-room"
 msgid "bathroom"
-msgstr ""
+msgstr "banheiro"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:generic-room"
 msgid "other room"
-msgstr ""
+msgstr "outra sala"
 
+#, fuzzy
 msgctxt "templ:areasum:floorarea:balcony"
 msgid "balcony"
-msgstr ""
+msgstr "sacada"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:item"
 msgid "Pos."
-msgstr ""
+msgstr "Pos."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:description"
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:count"
 msgid "Count"
-msgstr ""
+msgstr "Contar"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:factor"
 msgid "Factor"
-msgstr ""
+msgstr "Fator"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:width"
 msgid "Width"
-msgstr ""
+msgstr "Largura"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:height"
 msgid "Height"
-msgstr ""
+msgstr "Altura"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:area"
 msgid "Area"
-msgstr ""
+msgstr "Área"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:deduction"
 msgid "Deduction"
-msgstr ""
+msgstr "Dedução"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-header:sumarea"
 msgid "Sum"
-msgstr ""
+msgstr "Soma"
 
+#, fuzzy
 msgctxt "templ:areasum:item"
 msgid "Item Number"
-msgstr ""
+msgstr "Número de item"
 
+#, fuzzy
 msgctxt "templ:areasum:description"
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
+#, fuzzy
 msgctxt "templ:areasum:count"
 msgid "Count"
-msgstr ""
+msgstr "Contar"
 
+#, fuzzy
 msgctxt "templ:areasum:width-height"
 msgid "Width and height"
-msgstr ""
+msgstr "Largura e altura"
 
+#, fuzzy
 msgctxt "templ:areasum:measured-area"
 msgid "Measured area"
-msgstr ""
+msgstr "Área medida"
 
+#, fuzzy
 msgctxt "templ:areasum:factor"
 msgid "Factor"
-msgstr ""
+msgstr "Fator"
 
+#, fuzzy
 msgctxt "templ:areasum:calculated-area"
 msgid "Calculated area"
-msgstr ""
+msgstr "Área calculada"
 
+#, fuzzy
 msgctxt "templ:areasum:plus-minus-area"
 msgid "+/- area columns"
-msgstr ""
+msgstr "+/- colunas de área"
 
+#, fuzzy
 msgctxt "templ:areasum:image-area-sum"
 msgid "Image area sum"
-msgstr ""
+msgstr "Soma da área da imagem"
 
+#, fuzzy
 msgctxt "templ:areasum:tablespec:default-name"
 msgid "Area sum table"
-msgstr ""
+msgstr "Tabela de soma de área"
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:item"
-msgid ""
-"The image number. The number will only be filled into the row with the image "
-"title."
-msgstr ""
+msgid "The image number. The number will only be filled into the row with the image title."
+msgstr "O número da imagem. O número só será preenchido na linha com o título da imagem."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:description"
-msgid ""
-"Descriptive name of the area. This is either the default name of the tag, or "
-"a manually entered name for this area."
-msgstr ""
+msgid "Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this area."
+msgstr "Nome descritivo da área. Este é o nome padrão da tag ou um nome inserido manualmente para esta área."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:count"
 msgid "The count multiplier for this area."
-msgstr ""
+msgstr "O multiplicador de contagem para esta área."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
-msgid ""
-"Width and height are two columns that are filled with the side lengths if "
-"the area is a rectangle. For other shapes, the columns stay empty.\n"
-"\n"
-"Enter the two column headers separated by a semicolon."
-msgstr ""
+msgid "Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n\nEnter the two column headers separated by a semicolon."
+msgstr "Largura e altura são duas colunas que são preenchidas com os comprimentos laterais se a área for um retângulo. Para outras formas, as colunas permanecem vazias.\n\nInsira os dois cabeçalhos de coluna separados por ponto-e-vírgula."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:measured-area"
 msgid "The raw, measured area without the factor or count applied."
-msgstr ""
+msgstr "A área bruta medida sem o fator ou contagem aplicado."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:factor"
 msgid "The area factor applied when calculating the final area sum."
-msgstr ""
+msgstr "O fator de área aplicado ao calcular a soma final da área."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:calculated-area"
 msgid "Calculated area including the factor and count."
-msgstr ""
+msgstr "Área calculada incluindo o fator e a contagem."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
-msgid ""
-"Generates two columns: a column including all areas that are added to the "
-"sum, and a column including all areas that are subtracted from the total "
-"sum.\n"
-"\n"
-"Enter the two column headers separated by a semicolon."
-msgstr ""
+msgid "Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n\nEnter the two column headers separated by a semicolon."
+msgstr "Gera duas colunas: uma coluna incluindo todas as áreas adicionadas à soma e uma coluna incluindo todas as áreas subtraídas da soma total.\n\nInsira os dois cabeçalhos de coluna separados por ponto-e-vírgula."
 
+#, fuzzy
 msgctxt "templ:areasum:table-column-description:image-area-sum"
-msgid ""
-"Each row holds the area sum of the image. The footer row holds the total "
-"over all images."
-msgstr ""
+msgid "Each row holds the area sum of the image. The footer row holds the total over all images."
+msgstr "Cada linha contém a soma da área da imagem. A linha de rodapé contém o total de todas as imagens."
 
+#, fuzzy
 msgctxt "templ:partslist:class-display-name"
 msgid "Parts list template"
-msgstr ""
+msgstr "Modelo de lista de peças"
 
+#, fuzzy
 msgctxt "templ:partslist:tagtype:count"
 msgid "Count"
-msgstr ""
+msgstr "Contar"
 
+#, fuzzy
 msgctxt "templ:partslist:tagtype:length"
 msgid "Length"
-msgstr ""
+msgstr "Comprimento"
 
 #, fuzzy
 msgctxt "templ:partslist:tagtype:area"
 msgid "Area"
 msgstr "Área"
 
+#, fuzzy
 msgctxt "templ:partslist:tablespec:default"
 msgid "Default table"
-msgstr ""
+msgstr "Tabela padrão"
 
+#, fuzzy
 msgctxt "templ:partslist:tablespec:new"
 msgid "New table"
-msgstr ""
+msgstr "Nova mesa"
 
+#, fuzzy
 msgctxt "templ:partslist:tag:tag"
 msgid "Tag"
-msgstr ""
+msgstr "Etiqueta"
 
+#, fuzzy
 msgctxt "templ:partslist:tag:name"
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
+#, fuzzy
 msgctxt "templ:partslist:tag:count"
 msgid "Count"
-msgstr ""
+msgstr "Contar"
 
+#, fuzzy
 msgctxt "templ:partslist:tag:comment"
 msgid "Comment"
-msgstr ""
+msgstr "Comente"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:item:image"
 msgid "Image"
-msgstr ""
+msgstr "Imagem"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:item:element"
 msgid "No."
-msgstr ""
+msgstr "Não."
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:item:image_and_element"
 msgid "No."
-msgstr ""
+msgstr "Não."
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:tagname"
 msgid "Item"
-msgstr ""
+msgstr "Item"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:comment"
 msgid "Comment"
-msgstr ""
+msgstr "Comente"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:count"
 msgid "Count"
-msgstr ""
+msgstr "Contar"
 
+#, fuzzy
 msgctxt "templ:partslist:columnheader:quantity"
 msgid "Qty"
-msgstr ""
+msgstr "Qtde"
 
+#, fuzzy
 msgctxt "templ:uiitem:duplicate:local"
 msgid "(local copy)"
-msgstr ""
+msgstr "(cópia local)"
 
+#, fuzzy
 msgctxt "templ:uiitem:duplicate:global"
 msgid "(from settings)"
-msgstr ""
+msgstr "(das configurações)"
 
+#, fuzzy
 msgctxt "table-operation:none"
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
 #, fuzzy
 msgctxt "table-operation:none:keep"
 msgid "Keep"
 msgstr "Manter ambos"
 
+#, fuzzy
 msgctxt "table-operation:sum"
 msgid "Sum"
-msgstr ""
+msgstr "Soma"
 
+#, fuzzy
 msgctxt "table-operation:avg"
 msgid "Average"
-msgstr ""
+msgstr "Média"
 
+#, fuzzy
 msgctxt "table-operation:min"
 msgid "Min"
-msgstr ""
+msgstr "Min"
 
+#, fuzzy
 msgctxt "table-operation:max"
 msgid "Max"
-msgstr ""
+msgstr "Máx"
 
+#, fuzzy
 msgctxt "table-operation:median"
 msgid "Median"
-msgstr ""
+msgstr "Mediana"
 
+#, fuzzy
 msgctxt "table-operation:count"
 msgid "Count"
-msgstr ""
+msgstr "Contar"
 
 #, fuzzy
 msgctxt "SyncAction:NOP"
@@ -2367,366 +2513,433 @@ msgctxt "entity-initialization:image-title:pdf-page-without-name"
 msgid "PDF import, page {page}"
 msgstr "Importação de PDF, página {page}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:import-with-name"
 msgid "{filename.stem}"
-msgstr ""
+msgstr "{filename.stem}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:import-without-name"
 msgid "imported {now}"
-msgstr ""
+msgstr "importado {now}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:canvas"
 msgid "new canvas"
-msgstr ""
+msgstr "nova tela"
 
+#, fuzzy
 msgctxt "entity-initialization:folder-title"
 msgid "new folder"
-msgstr ""
+msgstr "nova pasta"
 
+#, fuzzy
 msgctxt "stringscript:help:introtext"
-msgid ""
-"Enter the text that should appear here. You can add variables enclosed by "
-"{ } that will be substituted.\n"
-"\n"
-"Here are some example variables, but see below for the list of variables "
-"that are actually allowed here:\n"
-"{image.title} - image title\n"
-"{image.number} - the number you assigned to the image\n"
-"{folder.title} - title of the current folder\n"
-"{folder.parent.title} - title of the parent folder\n"
-"\n"
-"You can build complex expressions like this:\n"
-"{folder.title} / {image.number} - {image.title}"
-msgstr ""
+msgid "Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n\nHere are some example variables, but see below for the list of variables that are actually allowed here:\n{image.title} - image title\n{image.number} - the number you assigned to the image\n{folder.title} - title of the current folder\n{folder.parent.title} - title of the parent folder\n\nYou can build complex expressions like this:\n{folder.title} / {image.number} - {image.title}"
+msgstr "Digite o texto que deve aparecer aqui. Você pode adicionar variáveis delimitadas por {} que serão substituídas.\n\nAqui estão alguns exemplos de variáveis, mas veja abaixo a lista de variáveis que são realmente permitidas aqui:\n{image.title} - título da imagem\n{image.number} - o número que você atribuiu à imagem\n{folder.title} - título da pasta atual\n{folder.parent.title} - título da pasta pai\n\nVocê pode construir expressões complexas como esta:\n{folder.title} / {image.number} - {image.title}"
 
+#, fuzzy
 msgctxt "stringscript:help:intro_toplevel_variables"
 msgid "Allowed top level variables:"
-msgstr ""
+msgstr "Variáveis de nível superior permitidas:"
 
+#, fuzzy
 msgctxt "stringscript:help:intro_subelements"
-msgid ""
-"Each type may have sub-elements. Here is the list of sub-elements for each "
-"data type:"
-msgstr ""
+msgid "Each type may have sub-elements. Here is the list of sub-elements for each data type:"
+msgstr "Cada tipo pode ter subelementos. Aqui está a lista de subelementos para cada tipo de dados:"
 
+#, fuzzy
 msgctxt "stringscript:root:member:image"
 msgid "This image."
-msgstr ""
+msgstr "Esta imagem."
 
+#, fuzzy
 msgctxt "stringscript:root:member:folder"
 msgid "Current folder."
-msgstr ""
+msgstr "Pasta atual."
 
+#, fuzzy
 msgctxt "stringscript:root:member:date"
 msgid "The current date and time"
-msgstr ""
+msgstr "A data e hora atuais"
 
+#, fuzzy
 msgctxt "stringscript:root:member:import_image_filename"
 msgid "Filename of the imported image."
-msgstr ""
+msgstr "Nome do arquivo da imagem importada."
 
+#, fuzzy
 msgctxt "stringscript:root:member:import_image_exif"
 msgid "EXIF metdata of the imported image."
-msgstr ""
+msgstr "Metdados EXIF da imagem importada."
 
+#, fuzzy
 msgctxt "stringscript:root:member:import_pdf_filename"
 msgid "Filename of the imported PDF."
-msgstr ""
+msgstr "Nome do arquivo do PDF importado."
 
+#, fuzzy
 msgctxt "stringscript:root:member:imported_pdf_page"
 msgid "Imported PDF page."
-msgstr ""
+msgstr "Página PDF importada."
 
+#, fuzzy
 msgctxt "stringscript:root:member:pdf-image-folder"
 msgid "Folder of each image."
-msgstr ""
+msgstr "Pasta de cada imagem."
 
+#, fuzzy
 msgctxt "scriptobject:undefined:value"
 msgid "undefined"
-msgstr ""
+msgstr "Indefinido"
 
+#, fuzzy
 msgctxt "scriptobject:undefined:type"
 msgid "undefined"
-msgstr ""
+msgstr "Indefinido"
 
+#, fuzzy
 msgctxt "scriptobject:string:type"
 msgid "string"
-msgstr ""
+msgstr "texto"
 
+#, fuzzy
 msgctxt "scriptobject:float:type"
 msgid "number"
-msgstr ""
+msgstr "número"
 
+#, fuzzy
 msgctxt "scriptobject:integer:type"
 msgid "integer number"
-msgstr ""
+msgstr "número inteiro"
 
+#, fuzzy
 msgctxt "scriptobject:integer:description"
 msgid "An integer number"
-msgstr ""
+msgstr "Um número inteiro"
 
+#, fuzzy
 msgctxt "scriptobject:integer:member:2"
 msgid "Format as 2-digit number"
-msgstr ""
+msgstr "Formatar como um número de 2 dígitos"
 
+#, fuzzy
 msgctxt "scriptobject:integer:member:3"
 msgid "Format as 3-digit number"
-msgstr ""
+msgstr "Formatar como um número de 3 dígitos"
 
+#, fuzzy
 msgctxt "scriptobject:integer:member:4"
 msgid "Format as 4-digit number"
-msgstr ""
+msgstr "Formatar como um número de 4 dígitos"
 
+#, fuzzy
 msgctxt "scriptobject:keyvaluepairs:type"
 msgid "collection"
-msgstr ""
+msgstr "coleção"
 
+#, fuzzy
 msgctxt "scriptobject:keyvaluepairs:description"
 msgid "A collection of other objects"
-msgstr ""
+msgstr "Uma coleção de outros objetos"
 
+#, fuzzy
 msgctxt "scriptobject:databundle:type"
 msgid "image"
-msgstr ""
+msgstr "imagem"
 
+#, fuzzy
 msgctxt "scriptobject:databundle:description"
 msgid "Information about an image"
-msgstr ""
+msgstr "Informação sobre uma imagem"
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:title"
 msgid "The image title."
-msgstr ""
+msgstr "O título da imagem."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:parent"
 msgid "The folder this image is located in."
-msgstr ""
+msgstr "A pasta em que esta imagem está localizada."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:number"
 msgid "The user-assigned number."
-msgstr ""
+msgstr "O número atribuído pelo usuário."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:capture_date"
 msgid "The date at which this image was captured."
-msgstr ""
+msgstr "A data em que esta imagem foi capturada."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:exif"
 msgid "EXIF data of this image."
-msgstr ""
+msgstr "Dados EXIF desta imagem."
 
+#, fuzzy
 msgctxt "scriptobject:folder:type"
 msgid "folder"
-msgstr ""
+msgstr "pasta"
 
+#, fuzzy
 msgctxt "scriptobject:folder:description"
 msgid "Information about a folder"
-msgstr ""
+msgstr "Informações sobre uma pasta"
 
+#, fuzzy
 msgctxt "scriptobject:folder:member:title"
 msgid "Folder title."
-msgstr ""
+msgstr "Título da pasta."
 
+#, fuzzy
 msgctxt "scriptobject:folder:member:parent"
 msgid "The folder above this one."
-msgstr ""
+msgstr "A pasta acima desta."
 
+#, fuzzy
 msgctxt "scriptobject:folder:member:number"
 msgid "The user-assigned number."
-msgstr ""
+msgstr "O número atribuído pelo usuário."
 
+#, fuzzy
 msgctxt "scriptobject:date:type"
 msgid "date"
-msgstr ""
+msgstr "encontro"
 
+#, fuzzy
 msgctxt "scriptobject:date:description"
 msgid "Date and time"
-msgstr ""
+msgstr "Data e hora"
 
+#, fuzzy
 msgctxt "scriptobject:date:member:yyyy"
 msgid "Year (4 digits)."
-msgstr ""
+msgstr "Ano (4 dígitos)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:yy"
 msgid "Year (last 2 digits)."
-msgstr ""
+msgstr "Ano (últimos 2 dígitos)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:m"
 msgid "Month number."
-msgstr ""
+msgstr "Número do mês."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:mm"
 msgid "Month number (2 digits)."
-msgstr ""
+msgstr "Número do mês (2 dígitos)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:M"
 msgid "Month (name abbreviation)."
-msgstr ""
+msgstr "Mês (abreviatura do nome)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:MM"
 msgid "Month (full name)."
-msgstr ""
+msgstr "Mês (nome completo)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:d"
 msgid "Day of month."
-msgstr ""
+msgstr "Dia do mês."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:dd"
 msgid "Day of month (2 digits)."
-msgstr ""
+msgstr "Dia do mês (2 dígitos)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:h"
 msgid "Hour."
-msgstr ""
+msgstr "Hora."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:hh"
 msgid "Hour (2 digits)."
-msgstr ""
+msgstr "Hora (2 dígitos)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:h12"
 msgid "Hour (12 hours + am/pm)."
-msgstr ""
+msgstr "Hora (12 horas + am/pm)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:min"
 msgid "Minutes (2 digits)."
-msgstr ""
+msgstr "Minutos (2 dígitos)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:sec"
 msgid "Seconds (2 digits)."
-msgstr ""
+msgstr "Segundos (2 dígitos)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:time"
 msgid "Full time in HH:MM:SS format."
-msgstr ""
+msgstr "A tempo inteiro no formato HH:MM:SS."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:hhmm"
 msgid "Time in HH:MM format."
-msgstr ""
+msgstr "Hora no formato HH:MM."
 
+#, fuzzy
 msgctxt "scriptobject:filename:type"
 msgid "filename"
-msgstr ""
+msgstr "nome do arquivo"
 
+#, fuzzy
 msgctxt "scriptobject:filename:description"
 msgid "A filename"
-msgstr ""
+msgstr "Um nome de arquivo"
 
+#, fuzzy
 msgctxt "scriptobject:filename:member:stem"
 msgid "The filename without suffix."
-msgstr ""
+msgstr "O nome do arquivo sem sufixo."
 
+#, fuzzy
 msgctxt "scriptobject:filename:member:suffix"
 msgid "The filanme suffix."
-msgstr ""
+msgstr "O sufixo filanme."
 
+#, fuzzy
 msgctxt "scriptobject:exif:type"
 msgid "exif"
-msgstr ""
+msgstr "exif"
 
+#, fuzzy
 msgctxt "scriptobject:exif:description"
 msgid "EXIF metadata from the image"
-msgstr ""
+msgstr "Metadados EXIF da imagem"
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:gps"
 msgid "GPS location."
-msgstr ""
+msgstr "Localização GPS."
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:date"
 msgid "Date the image was captured."
-msgstr ""
+msgstr "Data em que a imagem foi capturada."
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:make"
 msgid "Camera manufacturer."
-msgstr ""
+msgstr "Fabricante da câmera."
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:model"
 msgid "Camera model."
-msgstr ""
+msgstr "Modelo da câmera."
 
+#, fuzzy
 msgctxt "scriptobject:gps:type"
 msgid "gps"
-msgstr ""
+msgstr "GPS"
 
+#, fuzzy
 msgctxt "scriptobject:gps:description"
 msgid "GPS location"
-msgstr ""
+msgstr "Localização GPS"
 
+#, fuzzy
 msgctxt "scriptobject:gps:member:latitude"
 msgid "Latitude (N/S)."
-msgstr ""
+msgstr "Latitude (N/S)."
 
+#, fuzzy
 msgctxt "scriptobject:gps:member:longitude"
 msgid "Longitude (E/W)."
-msgstr ""
+msgstr "Longitude (E/W)."
 
+#, fuzzy
 msgctxt "scriptobject:gps:member:altitude"
 msgid "Altitude."
-msgstr ""
+msgstr "Altitude."
 
+#, fuzzy
 msgctxt "editor:warning:element:value-is-locked"
 msgid "Value is locked. You have to unlock it first."
-msgstr ""
+msgstr "O valor está bloqueado. Você tem que desbloqueá-lo primeiro."
 
 #, fuzzy
 msgctxt "lock:editor"
 msgid "editor"
 msgstr "editor"
 
+#, fuzzy
 msgctxt "lock:folder-content"
 msgid "list folder content"
-msgstr ""
+msgstr "listar o conteúdo da pasta"
 
+#, fuzzy
 msgctxt "lock:FileBrowserContent"
 msgid "file browser"
-msgstr ""
+msgstr "navegador de arquivos"
 
+#, fuzzy
 msgctxt "lock:thumbnail-rendering"
 msgid "thumbnail rendering"
-msgstr ""
+msgstr "renderização de miniaturas"
 
+#, fuzzy
 msgctxt "lock:rendering"
 msgid "image rendering"
-msgstr ""
+msgstr "renderização de imagem"
 
+#, fuzzy
 msgctxt "lock:create-image"
 msgid "creating image"
-msgstr ""
+msgstr "criando imagem"
 
+#, fuzzy
 msgctxt "lock:import-image"
 msgid "importing image"
-msgstr ""
+msgstr "importando imagem"
 
 #, fuzzy
 msgctxt "lock:syncer"
 msgid "cloud synchronization"
 msgstr "sincronização na nuvem"
 
+#, fuzzy
 msgctxt "lock:image-syncer"
 msgid "image cloud upload"
-msgstr ""
+msgstr "upload de imagem na nuvem"
 
+#, fuzzy
 msgctxt "lock:pro-migration"
 msgid "pro migration"
-msgstr ""
+msgstr "migração profissional"
 
+#, fuzzy
 msgctxt "lock:delete-image"
 msgid "deleting image"
-msgstr ""
+msgstr "excluindo imagem"
 
+#, fuzzy
 msgctxt "lock:delete-entity"
 msgid "deleting entity"
-msgstr ""
+msgstr "excluindo entidade"
 
+#, fuzzy
 msgctxt "lock:dialog-image-name"
 msgid "image renaming dialog"
-msgstr ""
+msgstr "diálogo de renomeação de imagem"
 
+#, fuzzy
 msgctxt "lock:copy-directory"
 msgid "copying directory"
-msgstr ""
+msgstr "copiando diretório"
 
+#, fuzzy
 msgctxt "lock:set-library-root"
 msgid "setting image library root"
-msgstr ""
+msgstr "configurando a raiz da biblioteca de imagens"
 
-msgctxt "lock:undelete-entity"
-msgid "undeleting entity"
-msgstr ""
