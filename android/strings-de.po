@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-06 14:02+0200\n"
-"PO-Revision-Date: 2021-08-30 15:35+0200\n"
+"POT-Creation-Date: 2021-09-09 20:41+0200\n"
+"PO-Revision-Date: 2021-09-09 20:44+0200\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
@@ -1272,6 +1272,10 @@ msgstr "Bild wird gezeichnet"
 msgctxt "notification_channel_error_messages_title"
 msgid "Error messages"
 msgstr "Fehlermeldungen"
+
+msgctxt "notification_channel_bluetooth_title"
+msgid "Bluetooth connection"
+msgstr "Bluetooth-Verbindung"
 
 msgctxt "notification_error_importing_IMI_title"
 msgid "Error importing IMI file"
@@ -4638,6 +4642,30 @@ msgid "image"
 msgstr "Bild"
 
 #. bluetooth
+msgctxt "bluetooth_notification_title"
+msgid "Bluetooth device connection"
+msgstr "Verbindung zu Bluetooth-Gerät"
+
+msgctxt "bluetooth_notification_state_text_connected"
+msgid "Connected to device"
+msgstr "Mit Gerät verbunden"
+
+msgctxt "bluetooth_notification_state_text_connecting"
+msgid "Connecting to device…"
+msgstr "Verbindung wird hergestellt…"
+
+msgctxt "bluetooth_notification_state_text_reconnecting"
+msgid "Trying to reconnect to device…"
+msgstr "Versuche die Verbindung wieder herzustellen…"
+
+msgctxt "bluetooth_notification_disconnect_action"
+msgid "Disconnect"
+msgstr "Verbindung trennen"
+
+msgctxt "bluetooth_notification_stop_connecting_action"
+msgid "Stop"
+msgstr "Stoppen"
+
 msgctxt "bluetooth_message_device_connected"
 msgid "Connection to Bluetooth device established."
 msgstr "Verbindung zum Bluetoothgerät hergestellt."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-12 17:13+0200\n"
+"POT-Creation-Date: 2021-09-09 20:41+0200\n"
 "PO-Revision-Date: 2021-02-09 11:36+0100\n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#. generic strings, fuzzy
+#. generic strings
 msgctxt "generic_button_ok"
 msgid "OK"
 msgstr "Ok"
@@ -399,7 +399,7 @@ msgctxt "imageLibrary_imageNameDialog_notes"
 msgid "Notes"
 msgstr "Примечание"
 
-#. dialog: clipboard paste, fuzzy
+#. dialog: clipboard paste
 msgctxt "imageLibrary_clipboardPasteDialog_title"
 msgid "Clipboard paste options"
 msgstr "Параметры вставки в буфер обмена"
@@ -750,7 +750,7 @@ msgctxt "dialog_migrate_for_addon_packs_open_instructions"
 msgid "Show migration instructions"
 msgstr "Показать инструкции по миграции"
 
-#. licensing: volume key dialog, fuzzy
+#. licensing: volume key dialog
 msgctxt "licensing_company_key_title"
 msgid "Company configuration key"
 msgstr "Ключ конфигурации компании"
@@ -848,7 +848,7 @@ msgctxt "inapp_error_cannot_query_owned_products"
 msgid "Cannot query for owned upgrades."
 msgstr "Невозможно запросить собственные обновления."
 
-#. TODO: these names should be a simple summary name for the "About App", fuzzy
+#. TODO: these names should be a simple summary name for the "About App"
 #. dialog. But this does not work well with the          add-ons. Replace it
 #. with a different system.
 msgctxt "upgrade_licenseName_basic"
@@ -1144,7 +1144,7 @@ msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
 msgstr "50%"
 
-#. export to gallery, fuzzy
+#. export to gallery
 msgctxt "image_export_to_gallery_in_background"
 msgid "Storing the images into your photo gallery..."
 msgstr "Сохранение изображений в вашей фотогалерее..."
@@ -1188,7 +1188,7 @@ msgctxt "zip_export_notification_progress_compressing_step"
 msgid "Compressing ZIP file…"
 msgstr "Сжатие ZIP-файла ..."
 
-#. CSV export, fuzzy
+#. CSV export
 msgctxt "dialog_csv_export_title"
 msgid "Data table export (CSV)"
 msgstr "Экспорт таблицы данных (CSV)"
@@ -1235,6 +1235,11 @@ msgstr "Рендеринг изображения"
 msgctxt "notification_channel_error_messages_title"
 msgid "Error messages"
 msgstr "Сообщения об ошибках"
+
+#, fuzzy
+msgctxt "notification_channel_bluetooth_title"
+msgid "Bluetooth connection"
+msgstr "Соединение Bluetooth"
 
 msgctxt "notification_error_importing_IMI_title"
 msgid "Error importing IMI file"
@@ -1290,7 +1295,7 @@ msgctxt "notification_error_duplicating_image"
 msgid "Error while duplicating image"
 msgstr "Ошибка при копировании изображения"
 
-#. ========== preferences ==========, fuzzy
+#. ========== preferences ==========
 #. main screen
 msgctxt "pref_main_title"
 msgid "Settings"
@@ -2164,7 +2169,7 @@ msgctxt "pref_export_zip_include_pdf"
 msgid "Include PDF file"
 msgstr "PDF файл"
 
-#. CSV, fuzzy
+#. CSV
 msgctxt "pref_category_export_csv"
 msgid "CSV file settings"
 msgstr "Настройки файла CSV"
@@ -3027,7 +3032,7 @@ msgctxt "cloud_storage_cautiousness"
 msgid "Cautiousness:"
 msgstr "Внимание:"
 
-#. template config, fuzzy
+#. template config
 msgctxt "pref_template_title"
 msgid "Templates"
 msgstr "Шаблоны"
@@ -3117,12 +3122,12 @@ msgctxt "pref_template_config_custom_add_tag"
 msgid "+ add tag"
 msgstr "+ добавить тег"
 
-#. deprecated, fuzzy
+#. deprecated
 msgctxt "pref_template_config_custom_label_type"
 msgid "Type:"
 msgstr "Тип:"
 
-#. deprecated, fuzzy
+#. deprecated
 msgctxt "pref_template_config_custom_unit"
 msgid "Unit:"
 msgstr "Ед. изм:"
@@ -3469,7 +3474,7 @@ msgctxt "pref_information_translator"
 msgid "."
 msgstr "."
 
-#. Preferences: Company, fuzzy
+#. Preferences: Company
 msgctxt "pref_company_enter_config_key"
 msgid "Enter company key"
 msgstr "Введите ключ компании"
@@ -3929,7 +3934,7 @@ msgctxt "editor_help_show_instructions"
 msgid "Show instructions"
 msgstr "Показать инструкции"
 
-#. editor misc, fuzzy
+#. editor misc
 msgctxt "editor_dialog_tag_properties_title"
 msgid "Tags and properties"
 msgstr "Теги и свойства"
@@ -3958,7 +3963,7 @@ msgctxt "color_dialog_special_use_main_color"
 msgid "Use main color"
 msgstr "Выбор цвета"
 
-#. dialog: element locking, fuzzy
+#. dialog: element locking
 msgctxt "editor_locking_title"
 msgid "Modification lock"
 msgstr "Блокировка модификации"
@@ -4257,7 +4262,7 @@ msgctxt "editor_rectref_standard_size_credit_card"
 msgid "Credit card"
 msgstr "Кредитная карта"
 
-#. still needed for string-array name="templ_custom_labeltype", fuzzy
+#. still needed for string-array name="templ_custom_labeltype"
 msgctxt "templ_labeltype_length"
 msgid "Length"
 msgstr "Длина"
@@ -4555,7 +4560,36 @@ msgctxt "imagesettings_dialog_calibration_image_scale_image"
 msgid "image"
 msgstr "Картинка"
 
-#. bluetooth
+#. bluetooth, fuzzy
+msgctxt "bluetooth_notification_title"
+msgid "Bluetooth device connection"
+msgstr "Подключение устройства Bluetooth"
+
+#, fuzzy
+msgctxt "bluetooth_notification_state_text_connected"
+msgid "Connected to device"
+msgstr "Подключено к устройству"
+
+#, fuzzy
+msgctxt "bluetooth_notification_state_text_connecting"
+msgid "Connecting to device…"
+msgstr "Подключение к устройству…"
+
+#, fuzzy
+msgctxt "bluetooth_notification_state_text_reconnecting"
+msgid "Trying to reconnect to device…"
+msgstr "Попытка повторно подключиться к устройству…"
+
+#, fuzzy
+msgctxt "bluetooth_notification_disconnect_action"
+msgid "Disconnect"
+msgstr "Отключить"
+
+#, fuzzy
+msgctxt "bluetooth_notification_stop_connecting_action"
+msgid "Stop"
+msgstr "Стоп"
+
 msgctxt "bluetooth_message_device_connected"
 msgid "Connection to Bluetooth device established."
 msgstr "Соединение Bluetooth-устройством установлено."
@@ -4572,7 +4606,7 @@ msgctxt "bluetooth_error_bluetooth_not_configured"
 msgid "You have not yet configured any Bluetooth laser distance meter.\n\nFirst make sure that your device is listed in the system settings. If required, pair the device.\n <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n\nAfterwards, select your device in the ImageMeter settings:\n <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n\nFor more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
 msgstr "Вы еще не настроили лазерный дальномер Bluetooth.\n\nСначала убедитесь, что Ваше устройство указано в настройках системы. При необходимости выполните сопряжение устройства.\n  <a href=\"android-bluetooth\">Откройте настройки Android Bluetooth</a>\n\nПосле этого выберите свое устройство в настройках ImageMeter:\n  <a href=\"bluetooth-device\">Откройте настройки устройства Bluetooth</a>\n\nДля получения дополнительной помощи и списка поддерживаемых устройств см. <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">здесь</a>"
 
-#. 151209, fuzzy
+#. 151209
 #, c-format
 msgctxt "bluetooth_error_cannot_set_value"
 msgid "Cannot set received Bluetooth value: %1$s."
@@ -4696,7 +4730,7 @@ msgctxt "bluetooth_error_ambient_light_too_strong"
 msgid "Ambient light too strong"
 msgstr "Слишком яркий фон"
 
-#. ============================================== EDITCORE, fuzzy
+#. ============================================== EDITCORE
 #. ====================================================
 #. ===== templates =====
 msgctxt "templ_selection_none"

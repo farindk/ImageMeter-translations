@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-12 17:13+0200\n"
+"POT-Creation-Date: 2021-09-09 20:41+0200\n"
 "PO-Revision-Date: 2021-01-11 19:56+0100\n"
 "Last-Translator: \n"
 "Language: pl\n"
@@ -739,7 +739,7 @@ msgctxt "dialog_migrate_for_addon_packs_open_instructions"
 msgid "Show migration instructions"
 msgstr "Pokaż instrukcje dotyczące migracji"
 
-#. licensing: volume key dialog, fuzzy
+#. licensing: volume key dialog
 msgctxt "licensing_company_key_title"
 msgid "Company configuration key"
 msgstr "Klucz konfiguracji firmy"
@@ -837,7 +837,7 @@ msgctxt "inapp_error_cannot_query_owned_products"
 msgid "Cannot query for owned upgrades."
 msgstr "Nie można wyszukiwać posiadanych uaktualnień."
 
-#. TODO: these names should be a simple summary name for the "About App", fuzzy
+#. TODO: these names should be a simple summary name for the "About App"
 #. dialog. But this does not work well with the          add-ons. Replace it
 #. with a different system.
 msgctxt "upgrade_licenseName_basic"
@@ -1130,7 +1130,7 @@ msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
 msgstr "50%"
 
-#. export to gallery, fuzzy
+#. export to gallery
 msgctxt "image_export_to_gallery_in_background"
 msgid "Storing the images into your photo gallery..."
 msgstr "Zapisywanie obrazów w galerii zdjęć..."
@@ -1220,6 +1220,11 @@ msgstr "Renderowanie obrazu"
 msgctxt "notification_channel_error_messages_title"
 msgid "Error messages"
 msgstr "Komunikaty o błędach"
+
+#, fuzzy
+msgctxt "notification_channel_bluetooth_title"
+msgid "Bluetooth connection"
+msgstr "Połączenie Bluetooth"
 
 msgctxt "notification_error_importing_IMI_title"
 msgid "Error importing IMI file"
@@ -2456,7 +2461,7 @@ msgctxt "pref_ui_max_image_resolution_choices:5"
 msgid "unlimited"
 msgstr "Nieograniczony"
 
-#. <string name="pref_category_ui_import">Import</string>     <string, fuzzy
+#. <string name="pref_category_ui_import">Import</string>     <string
 #. name="pref_ui_pdf_import_calibrate_to_page_size">PDF import: calibrate to
 #. page size</string>
 #. initial texts
@@ -3341,7 +3346,7 @@ msgctxt "pref_information_translator"
 msgid "."
 msgstr "."
 
-#. Preferences: Company, fuzzy
+#. Preferences: Company
 msgctxt "pref_company_enter_config_key"
 msgid "Enter company key"
 msgstr "Wpisz klucz firmy"
@@ -3822,7 +3827,7 @@ msgctxt "color_dialog_special_use_main_color"
 msgid "Use main color"
 msgstr "Użyj głównego koloru"
 
-#. dialog: element locking, fuzzy
+#. dialog: element locking
 msgctxt "editor_locking_title"
 msgid "Modification lock"
 msgstr "Blokada modyfikacji"
@@ -4121,7 +4126,7 @@ msgctxt "editor_rectref_standard_size_credit_card"
 msgid "Credit card"
 msgstr "Karta kredytowa"
 
-#. still needed for string-array name="templ_custom_labeltype", fuzzy
+#. still needed for string-array name="templ_custom_labeltype"
 msgctxt "templ_labeltype_length"
 msgid "Length"
 msgstr "Długość"
@@ -4419,7 +4424,36 @@ msgctxt "imagesettings_dialog_calibration_image_scale_image"
 msgid "image"
 msgstr "obraz"
 
-#. bluetooth
+#. bluetooth, fuzzy
+msgctxt "bluetooth_notification_title"
+msgid "Bluetooth device connection"
+msgstr "Połączenie z urządzeniem Bluetooth"
+
+#, fuzzy
+msgctxt "bluetooth_notification_state_text_connected"
+msgid "Connected to device"
+msgstr "Połączono z urządzeniem"
+
+#, fuzzy
+msgctxt "bluetooth_notification_state_text_connecting"
+msgid "Connecting to device…"
+msgstr "Połączenie z urządzeniem…"
+
+#, fuzzy
+msgctxt "bluetooth_notification_state_text_reconnecting"
+msgid "Trying to reconnect to device…"
+msgstr "Próbuję ponownie połączyć się z urządzeniem…"
+
+#, fuzzy
+msgctxt "bluetooth_notification_disconnect_action"
+msgid "Disconnect"
+msgstr "Rozłączyć się"
+
+#, fuzzy
+msgctxt "bluetooth_notification_stop_connecting_action"
+msgid "Stop"
+msgstr "Zatrzymać"
+
 msgctxt "bluetooth_message_device_connected"
 msgid "Connection to Bluetooth device established."
 msgstr "Nawiązano połączenie z urządzeniem Bluetooth."
@@ -4436,7 +4470,7 @@ msgctxt "bluetooth_error_bluetooth_not_configured"
 msgid "You have not yet configured any Bluetooth laser distance meter.\n\nFirst make sure that your device is listed in the system settings. If required, pair the device.\n <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n\nAfterwards, select your device in the ImageMeter settings:\n <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n\nFor more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
 msgstr "Nie skonfigurowałeś jeszcze żadnego dalmierza laserowego Bluetooth.\n\nW pierwszej kolejności upewnij się, że twoje urządzenie jest wymienione w ustawieniach programu. W razie potrzeby należy sparować dalmierz.\n <a href=\"android-bluetooth\">Otwórz ustawienia Bluetooth Androida</a>\n\nPo czym wybierz swoje urządzenie w ustawieniach ImageMeter:\n <a href=\"bluetooth-device\">Otwórz ustawienia urządzenia Bluetooth</a>\n\nWięcej pomocy i listę obsługiwanych urządzeń znajdziesz <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">tutaj</a>"
 
-#. 151209, fuzzy
+#. 151209
 #, c-format
 msgctxt "bluetooth_error_cannot_set_value"
 msgid "Cannot set received Bluetooth value: %1$s."
