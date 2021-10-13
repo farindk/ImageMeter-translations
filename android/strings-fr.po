@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-08-12 17:13+0200\n"
+"POT-Creation-Date: 2021-09-09 20:41+0200\n"
 "PO-Revision-Date: 2021-02-19 15:47+0100\n"
 "Last-Translator: \n"
 "Language: fr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#. generic strings, fuzzy
+#. generic strings
 msgctxt "generic_button_ok"
 msgid "OK"
 msgstr "OK"
@@ -400,7 +400,7 @@ msgctxt "imageLibrary_imageNameDialog_notes"
 msgid "Notes"
 msgstr "Notes"
 
-#. dialog: clipboard paste, fuzzy
+#. dialog: clipboard paste
 msgctxt "imageLibrary_clipboardPasteDialog_title"
 msgid "Clipboard paste options"
 msgstr "Options de collage du presse-papiers"
@@ -765,7 +765,7 @@ msgctxt "dialog_migrate_for_addon_packs_open_instructions"
 msgid "Show migration instructions"
 msgstr "Afficher les instructions de migration"
 
-#. licensing: volume key dialog, fuzzy
+#. licensing: volume key dialog
 msgctxt "licensing_company_key_title"
 msgid "Company configuration key"
 msgstr "Clé de configuration de l'entreprise"
@@ -864,7 +864,7 @@ msgctxt "inapp_error_cannot_query_owned_products"
 msgid "Cannot query for owned upgrades."
 msgstr "Impossible de rechercher les mises à niveau possédées."
 
-#. TODO: these names should be a simple summary name for the "About App", fuzzy
+#. TODO: these names should be a simple summary name for the "About App"
 #. dialog. But this does not work well with the          add-ons. Replace it
 #. with a different system.
 msgctxt "upgrade_licenseName_basic"
@@ -1171,7 +1171,7 @@ msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
 msgstr "50%"
 
-#. export to gallery, fuzzy
+#. export to gallery
 msgctxt "image_export_to_gallery_in_background"
 msgid "Storing the images into your photo gallery..."
 msgstr "Stockage des images dans votre galerie de photos..."
@@ -1215,7 +1215,7 @@ msgctxt "zip_export_notification_progress_compressing_step"
 msgid "Compressing ZIP file…"
 msgstr "Compression du fichier ZIP ..."
 
-#. CSV export, fuzzy
+#. CSV export
 msgctxt "dialog_csv_export_title"
 msgid "Data table export (CSV)"
 msgstr "Exportation de table de données (CSV)"
@@ -1260,6 +1260,11 @@ msgstr "Rendu d’image"
 msgctxt "notification_channel_error_messages_title"
 msgid "Error messages"
 msgstr "Messages d'erreur"
+
+#, fuzzy
+msgctxt "notification_channel_bluetooth_title"
+msgid "Bluetooth connection"
+msgstr "Connexion Bluetooth"
 
 msgctxt "notification_error_importing_IMI_title"
 msgid "Error importing IMI file"
@@ -1315,7 +1320,7 @@ msgctxt "notification_error_duplicating_image"
 msgid "Error while duplicating image"
 msgstr "Erreur lors de la duplication de l'image"
 
-#. ========== preferences ==========, fuzzy
+#. ========== preferences ==========
 #. main screen
 msgctxt "pref_main_title"
 msgid "Settings"
@@ -2199,7 +2204,7 @@ msgctxt "pref_export_zip_include_pdf"
 msgid "Include PDF file"
 msgstr "Inclure le fichier PDF"
 
-#. CSV, fuzzy
+#. CSV
 msgctxt "pref_category_export_csv"
 msgid "CSV file settings"
 msgstr "Paramètres du fichier CSV"
@@ -2536,7 +2541,7 @@ msgctxt "pref_ui_max_image_resolution_choices:5"
 msgid "unlimited"
 msgstr "illimité"
 
-#. <string name="pref_category_ui_import">Import</string>     <string, fuzzy
+#. <string name="pref_category_ui_import">Import</string>     <string
 #. name="pref_ui_pdf_import_calibrate_to_page_size">PDF import: calibrate to
 #. page size</string>
 #. initial texts
@@ -3067,7 +3072,7 @@ msgctxt "cloud_storage_cautiousness"
 msgid "Cautiousness:"
 msgstr "Prudence:"
 
-#. template config, fuzzy
+#. template config
 msgctxt "pref_template_title"
 msgid "Templates"
 msgstr "Modèles"
@@ -3157,12 +3162,12 @@ msgctxt "pref_template_config_custom_add_tag"
 msgid "+ add tag"
 msgstr "+ ajouter une etiquette"
 
-#. deprecated, fuzzy
+#. deprecated
 msgctxt "pref_template_config_custom_label_type"
 msgid "Type:"
 msgstr "Type:"
 
-#. deprecated, fuzzy
+#. deprecated
 msgctxt "pref_template_config_custom_unit"
 msgid "Unit:"
 msgstr "Unité:"
@@ -3472,7 +3477,7 @@ msgctxt "pref_template_partslist_row_show_footer"
 msgid "Show footer row"
 msgstr "Afficher la ligne de pied de page"
 
-#. Preferences: Information, fuzzy
+#. Preferences: Information
 msgctxt "pref_category_information_debugging"
 msgid "Debugging"
 msgstr "Débogage"
@@ -3512,7 +3517,7 @@ msgctxt "pref_information_translator"
 msgid "."
 msgstr "."
 
-#. Preferences: Company, fuzzy
+#. Preferences: Company
 msgctxt "pref_company_enter_config_key"
 msgid "Enter company key"
 msgstr "Entrer la clé de l'entreprise"
@@ -4309,7 +4314,7 @@ msgctxt "editor_rectref_standard_size_credit_card"
 msgid "Credit card"
 msgstr "Carte de crédit"
 
-#. still needed for string-array name="templ_custom_labeltype", fuzzy
+#. still needed for string-array name="templ_custom_labeltype"
 msgctxt "templ_labeltype_length"
 msgid "Length"
 msgstr "Longueur"
@@ -4617,7 +4622,36 @@ msgctxt "imagesettings_dialog_calibration_image_scale_image"
 msgid "image"
 msgstr "image"
 
-#. bluetooth
+#. bluetooth, fuzzy
+msgctxt "bluetooth_notification_title"
+msgid "Bluetooth device connection"
+msgstr "Connexion d'un appareil Bluetooth"
+
+#, fuzzy
+msgctxt "bluetooth_notification_state_text_connected"
+msgid "Connected to device"
+msgstr "Connecté à l'appareil"
+
+#, fuzzy
+msgctxt "bluetooth_notification_state_text_connecting"
+msgid "Connecting to device…"
+msgstr "Connexion au dispositif…"
+
+#, fuzzy
+msgctxt "bluetooth_notification_state_text_reconnecting"
+msgid "Trying to reconnect to device…"
+msgstr "Tentative de reconnexion à l'appareil…"
+
+#, fuzzy
+msgctxt "bluetooth_notification_disconnect_action"
+msgid "Disconnect"
+msgstr "Déconnecter"
+
+#, fuzzy
+msgctxt "bluetooth_notification_stop_connecting_action"
+msgid "Stop"
+msgstr "Arrêter"
+
 msgctxt "bluetooth_message_device_connected"
 msgid "Connection to Bluetooth device established."
 msgstr "Connexion à un appareil Bluetooth établie."
@@ -4634,7 +4668,7 @@ msgctxt "bluetooth_error_bluetooth_not_configured"
 msgid "You have not yet configured any Bluetooth laser distance meter.\n\nFirst make sure that your device is listed in the system settings. If required, pair the device.\n <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n\nAfterwards, select your device in the ImageMeter settings:\n <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n\nFor more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
 msgstr "Vous n'avez encore configuré aucun télémètre laser Bluetooth.\n\nAssurez-vous d'abord que votre appareil est répertorié dans les paramètres système. Si nécessaire, associez l'appareil.\n  <a href=\"android-bluetooth\">Ouvrir les paramètres Bluetooth Android</a>\n\nEnsuite, sélectionnez votre appareil dans les paramètres d'ImageMeter:\n  <a href=\"bluetooth-device\">Ouvrir les paramètres de l'appareil Bluetooth</a>\n\nPour plus d'aide et voir la liste des appareils pris en charge, voir <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">ici</a>"
 
-#. 151209, fuzzy
+#. 151209
 #, c-format
 msgctxt "bluetooth_error_cannot_set_value"
 msgid "Cannot set received Bluetooth value: %1$s."
@@ -4758,7 +4792,7 @@ msgctxt "bluetooth_error_ambient_light_too_strong"
 msgid "Ambient light too strong"
 msgstr "La lumière ambiante est trop forte"
 
-#. ============================================== EDITCORE, fuzzy
+#. ============================================== EDITCORE
 #. ====================================================
 #. ===== templates =====
 msgctxt "templ_selection_none"
