@@ -405,6 +405,14 @@ msgctxt "error:Cloud_FileLockedOnServer"
 msgid "File is locked on server. Please retry upload at a later time."
 msgstr "فایل بر روی سرور قفل شده است. لطفاً بعداً دوباره آپلود کنید."
 
+msgctxt "error:Cloud_ServerBlocked"
+msgid "Server blocked by another client. Please retry at a later time."
+msgstr ""
+
+msgctxt "error:Cloud_CannotLockLocalFiles"
+msgid "Cannot get exclusive access on local files"
+msgstr ""
+
 msgctxt "error:Cloud_RemoteFileDoesNotExist"
 msgid "File '{}' does not exist on server"
 msgstr "فایل '{}' در سرور وجود ندارد"
@@ -2188,6 +2196,101 @@ msgstr "حذف به صورت محلی"
 msgctxt "SyncAction:DELETE_REMOTE"
 msgid "Delete on server"
 msgstr "حذف از سرور"
+
+msgctxt "sync:error:cloud-sync-currently-in-use:retry-later"
+msgid "Cloud-sync is currently in use. Please retry later."
+msgstr ""
+
+msgctxt "sync:task:description:anno-image"
+msgid "Image upload to {}"
+msgstr ""
+
+msgctxt "sync:task:description:two-way"
+msgid "Two way sync with {}"
+msgstr ""
+
+msgctxt "sync:task:backend-options:descr:filesystem"
+msgid "directory '{0}'"
+msgstr ""
+
+msgctxt "sync:task:backend-options:descr:onedrive"
+msgid "OneDrive directory '{0}'"
+msgstr ""
+
+msgctxt "sync:task:backend-options:descr:webdav"
+msgid "WebDAV URL '{0}'"
+msgstr ""
+
+msgctxt "sync:server-maintenance:title"
+msgid "Cloud storage maintenance"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock-description"
+msgid ""
+"<b>Remove server lock</b> - In order to prevent simultaneous access to the "
+"data on the cloud server, it is locked during the sync process. In case of "
+"some errors, e.g. network failures, it may be that the server remains "
+"locked. The locks time-out automatically after a few minutes, but you can "
+"also manually remove them immediately if you know for sure that it is an "
+"error."
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock-button"
+msgid "Remove server lock"
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-server-cache-description"
+msgid ""
+"<b>Reset server cache</b> - The cloud server maintains a cache of images "
+"stored on them. If you delete or add files manually on the server, this is "
+"not seen by the cache. You may reset the server cache to run a full scan "
+"during the next sync. However, note that a full scan may take a long time if "
+"you have many images."
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-server-cache-button"
+msgid "Reset server cache"
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state-description"
+msgid ""
+"<b>Reset sync state</b> - The next sync will start with no preknowledge "
+"about the data on each side. This means, e.g., that locally deleted images "
+"will be downloaded again from the server instead of being deleted on the "
+"server. There are few cases where resetting the stored sync state is needed."
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state-button"
+msgid "Reset sync state"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock:action-title"
+msgid "Removing cloud server lock"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock:result:success"
+msgid "Successfully removed server lock."
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock:result:error:no-lock"
+msgid "There was no server lock."
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-cache:action-title"
+msgid "Resetting cloud server cache"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-cache:result:success"
+msgid "Successfully resetted server cache."
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state:action-title"
+msgid "Resetting sync state"
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state:result:success"
+msgid "Successfully resetted sync state."
+msgstr ""
 
 msgctxt "license:source:android-in-app"
 msgid "In-app"

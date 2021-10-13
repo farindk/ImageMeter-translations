@@ -250,7 +250,8 @@ msgstr "Errore di analisi del file IFD."
 
 msgctxt "error:CannotLockPath-readLock"
 msgid "Cannot read file '{}' because it is currently being modified."
-msgstr "Impossibile leggere il file '{}' perché è attualmente in fase di modifica."
+msgstr ""
+"Impossibile leggere il file '{}' perché è attualmente in fase di modifica."
 
 #, fuzzy
 msgctxt "error:CannotLockPath-writeLock"
@@ -298,8 +299,12 @@ msgstr "Errore OpenGL: \"{}\"."
 
 #, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
-msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
-msgstr "Memoria insufficiente per eseguire il rendering alla risoluzione di output {}. Riduci la risoluzione di output."
+msgid ""
+"Not enough memory to render at output resolution {}. Please reduce the "
+"output resolution."
+msgstr ""
+"Memoria insufficiente per eseguire il rendering alla risoluzione di output "
+"{}. Riduci la risoluzione di output."
 
 msgctxt "error:CannotRenderImage"
 msgid "Cannot render image \"{}\"."
@@ -470,7 +475,16 @@ msgstr "Errore del server: {}"
 #, fuzzy
 msgctxt "error:Cloud_FileLockedOnServer"
 msgid "File is locked on server. Please retry upload at a later time."
-msgstr "Il file è bloccato sul server. Riprova a caricare in un secondo momento."
+msgstr ""
+"Il file è bloccato sul server. Riprova a caricare in un secondo momento."
+
+msgctxt "error:Cloud_ServerBlocked"
+msgid "Server blocked by another client. Please retry at a later time."
+msgstr ""
+
+msgctxt "error:Cloud_CannotLockLocalFiles"
+msgid "Cannot get exclusive access on local files"
+msgstr ""
 
 #, fuzzy
 msgctxt "error:Cloud_RemoteFileDoesNotExist"
@@ -709,7 +723,8 @@ msgstr "La directory esterna non è montata."
 #, fuzzy
 msgctxt "error:Android_NeedsStoragePermission"
 msgid "Access to directory '{}' needs the Storage permission."
-msgstr "L'accesso alla directory '{}' richiede l'autorizzazione di archiviazione."
+msgstr ""
+"L'accesso alla directory '{}' richiede l'autorizzazione di archiviazione."
 
 #, fuzzy
 msgctxt "error:Android_Import_SecurityException"
@@ -1260,8 +1275,12 @@ msgstr "Mantieni il vecchio ordine di numerazione"
 
 #, fuzzy
 msgctxt "rendering:watermark"
-msgid "Evaluation copy\nPlease upgrade to remove watermark"
-msgstr "Copia di valutazione\nAggiorna per rimuovere la filigrana"
+msgid ""
+"Evaluation copy\n"
+"Please upgrade to remove watermark"
+msgstr ""
+"Copia di valutazione\n"
+"Aggiorna per rimuovere la filigrana"
 
 #, fuzzy
 msgctxt "export:resolution-too-small"
@@ -1349,8 +1368,12 @@ msgid "Include PDF file"
 msgstr "Includi file PDF"
 
 msgctxt "editor:attach:error_no_reference_to_attach_to"
-msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
-msgstr "Non c'è alcun riferimento nell'immagine! È necessario disegnare un riferimento per eseguire calcoli automatici."
+msgid ""
+"There is no reference in the image! You need to draw a reference in order to "
+"do automatic computations."
+msgstr ""
+"Non c'è alcun riferimento nell'immagine! È necessario disegnare un "
+"riferimento per eseguire calcoli automatici."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -1361,12 +1384,18 @@ msgid "Measure is computed based on the reference you provided."
 msgstr "La misura è calcolata in base al riferimento che hai fornito."
 
 msgctxt "editor:attach:hint_howto_attach_to_reference"
-msgid "Click on the measure you want to compute based on the selected reference."
-msgstr "Fare clic sulla misura che si desidera calcolare in base al riferimento selezionato."
+msgid ""
+"Click on the measure you want to compute based on the selected reference."
+msgstr ""
+"Fare clic sulla misura che si desidera calcolare in base al riferimento "
+"selezionato."
 
 msgctxt "editor:attach:hint_howto_attach_measure"
-msgid "Click on the reference based on which you want to calculate the selected measure."
-msgstr "Clicca sul riferimento a cui si desidera allegare la misura selezionata."
+msgid ""
+"Click on the reference based on which you want to calculate the selected "
+"measure."
+msgstr ""
+"Clicca sul riferimento a cui si desidera allegare la misura selezionata."
 
 #, fuzzy
 msgctxt "editor:attach:messagebox:title"
@@ -1886,8 +1915,13 @@ msgstr "Snap a multipli di questa distanza (solo per rettangoli e distanza)."
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
-msgid "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and rectangle sides will be restricted to steps of this size."
-msgstr "Immettere una distanza con l'unità (ad es. 10 cm, 1 ft o 1'). Le dimensioni disegnate e i lati del rettangolo saranno limitati ai passaggi di questa dimensione."
+msgid ""
+"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
+"rectangle sides will be restricted to steps of this size."
+msgstr ""
+"Immettere una distanza con l'unità (ad es. 10 cm, 1 ft o 1'). Le dimensioni "
+"disegnate e i lati del rettangolo saranno limitati ai passaggi di questa "
+"dimensione."
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
@@ -2245,13 +2279,21 @@ msgstr "Tabella somma area"
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:item"
-msgid "The image number. The number will only be filled into the row with the image title."
-msgstr "Il numero dell'immagine. Il numero verrà inserito solo nella riga con il titolo dell'immagine."
+msgid ""
+"The image number. The number will only be filled into the row with the image "
+"title."
+msgstr ""
+"Il numero dell'immagine. Il numero verrà inserito solo nella riga con il "
+"titolo dell'immagine."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:description"
-msgid "Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this area."
-msgstr "Nome descrittivo dell'area. Questo è il nome predefinito del tag o un nome immesso manualmente per quest'area."
+msgid ""
+"Descriptive name of the area. This is either the default name of the tag, or "
+"a manually entered name for this area."
+msgstr ""
+"Nome descrittivo dell'area. Questo è il nome predefinito del tag o un nome "
+"immesso manualmente per quest'area."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:count"
@@ -2260,8 +2302,17 @@ msgstr "Il moltiplicatore di conteggio per quest'area."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
-msgid "Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n\nEnter the two column headers separated by a semicolon."
-msgstr "Larghezza e altezza sono due colonne che vengono riempite con le lunghezze dei lati se l'area è un rettangolo. Per altre forme, le colonne rimangono vuote.\n\nImmettere le due intestazioni di colonna separate da un punto e virgola."
+msgid ""
+"Width and height are two columns that are filled with the side lengths if "
+"the area is a rectangle. For other shapes, the columns stay empty.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+"Larghezza e altezza sono due colonne che vengono riempite con le lunghezze "
+"dei lati se l'area è un rettangolo. Per altre forme, le colonne rimangono "
+"vuote.\n"
+"\n"
+"Immettere le due intestazioni di colonna separate da un punto e virgola."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:measured-area"
@@ -2271,7 +2322,9 @@ msgstr "L'area grezza misurata senza il fattore o il conteggio applicato."
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:factor"
 msgid "The area factor applied when calculating the final area sum."
-msgstr "Il fattore dell'area applicato durante il calcolo della somma dell'area finale."
+msgstr ""
+"Il fattore dell'area applicato durante il calcolo della somma dell'area "
+"finale."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:calculated-area"
@@ -2280,13 +2333,27 @@ msgstr "Area calcolata che include il fattore e il conteggio."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
-msgid "Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n\nEnter the two column headers separated by a semicolon."
-msgstr "Genera due colonne: una colonna che include tutte le aree che vengono aggiunte alla somma e una colonna che include tutte le aree che vengono sottratte dalla somma totale.\n\nImmettere le due intestazioni di colonna separate da un punto e virgola."
+msgid ""
+"Generates two columns: a column including all areas that are added to the "
+"sum, and a column including all areas that are subtracted from the total "
+"sum.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+"Genera due colonne: una colonna che include tutte le aree che vengono "
+"aggiunte alla somma e una colonna che include tutte le aree che vengono "
+"sottratte dalla somma totale.\n"
+"\n"
+"Immettere le due intestazioni di colonna separate da un punto e virgola."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:image-area-sum"
-msgid "Each row holds the area sum of the image. The footer row holds the total over all images."
-msgstr "Ogni riga contiene la somma dell'area dell'immagine. La riga del piè di pagina contiene il totale di tutte le immagini."
+msgid ""
+"Each row holds the area sum of the image. The footer row holds the total "
+"over all images."
+msgstr ""
+"Ogni riga contiene la somma dell'area dell'immagine. La riga del piè di "
+"pagina contiene il totale di tutte le immagini."
 
 #, fuzzy
 msgctxt "templ:partslist:class-display-name"
@@ -2458,6 +2525,101 @@ msgctxt "SyncAction:DELETE_REMOTE"
 msgid "Delete on server"
 msgstr "Elimina sul server"
 
+msgctxt "sync:error:cloud-sync-currently-in-use:retry-later"
+msgid "Cloud-sync is currently in use. Please retry later."
+msgstr ""
+
+msgctxt "sync:task:description:anno-image"
+msgid "Image upload to {}"
+msgstr ""
+
+msgctxt "sync:task:description:two-way"
+msgid "Two way sync with {}"
+msgstr ""
+
+msgctxt "sync:task:backend-options:descr:filesystem"
+msgid "directory '{0}'"
+msgstr ""
+
+msgctxt "sync:task:backend-options:descr:onedrive"
+msgid "OneDrive directory '{0}'"
+msgstr ""
+
+msgctxt "sync:task:backend-options:descr:webdav"
+msgid "WebDAV URL '{0}'"
+msgstr ""
+
+msgctxt "sync:server-maintenance:title"
+msgid "Cloud storage maintenance"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock-description"
+msgid ""
+"<b>Remove server lock</b> - In order to prevent simultaneous access to the "
+"data on the cloud server, it is locked during the sync process. In case of "
+"some errors, e.g. network failures, it may be that the server remains "
+"locked. The locks time-out automatically after a few minutes, but you can "
+"also manually remove them immediately if you know for sure that it is an "
+"error."
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock-button"
+msgid "Remove server lock"
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-server-cache-description"
+msgid ""
+"<b>Reset server cache</b> - The cloud server maintains a cache of images "
+"stored on them. If you delete or add files manually on the server, this is "
+"not seen by the cache. You may reset the server cache to run a full scan "
+"during the next sync. However, note that a full scan may take a long time if "
+"you have many images."
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-server-cache-button"
+msgid "Reset server cache"
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state-description"
+msgid ""
+"<b>Reset sync state</b> - The next sync will start with no preknowledge "
+"about the data on each side. This means, e.g., that locally deleted images "
+"will be downloaded again from the server instead of being deleted on the "
+"server. There are few cases where resetting the stored sync state is needed."
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state-button"
+msgid "Reset sync state"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock:action-title"
+msgid "Removing cloud server lock"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock:result:success"
+msgid "Successfully removed server lock."
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock:result:error:no-lock"
+msgid "There was no server lock."
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-cache:action-title"
+msgid "Resetting cloud server cache"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-cache:result:success"
+msgid "Successfully resetted server cache."
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state:action-title"
+msgid "Resetting sync state"
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state:result:success"
+msgid "Successfully resetted sync state."
+msgstr ""
+
 msgctxt "license:source:android-in-app"
 msgid "In-app"
 msgstr "In-app"
@@ -2517,8 +2679,32 @@ msgstr "nuova cartella"
 
 #, fuzzy
 msgctxt "stringscript:help:introtext"
-msgid "Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n\nHere are some example variables, but see below for the list of variables that are actually allowed here:\n{image.title} - image title\n{image.number} - the number you assigned to the image\n{folder.title} - title of the current folder\n{folder.parent.title} - title of the parent folder\n\nYou can build complex expressions like this:\n{folder.title} / {image.number} - {image.title}"
-msgstr "Inserisci il testo che dovrebbe apparire qui. Puoi aggiungere variabili racchiuse da { } che verranno sostituite.\n\nEcco alcune variabili di esempio, ma vedi sotto per l'elenco delle variabili effettivamente consentite qui:\n{image.title} - titolo dell'immagine\n{image.number} - il numero che hai assegnato all'immagine\n{folder.title} - titolo della cartella corrente\n{folder.parent.title} - titolo della cartella principale\n\nPuoi creare espressioni complesse come questa:\n{image.title} / {image.number} - {image.title}"
+msgid ""
+"Enter the text that should appear here. You can add variables enclosed by "
+"{ } that will be substituted.\n"
+"\n"
+"Here are some example variables, but see below for the list of variables "
+"that are actually allowed here:\n"
+"{image.title} - image title\n"
+"{image.number} - the number you assigned to the image\n"
+"{folder.title} - title of the current folder\n"
+"{folder.parent.title} - title of the parent folder\n"
+"\n"
+"You can build complex expressions like this:\n"
+"{folder.title} / {image.number} - {image.title}"
+msgstr ""
+"Inserisci il testo che dovrebbe apparire qui. Puoi aggiungere variabili "
+"racchiuse da { } che verranno sostituite.\n"
+"\n"
+"Ecco alcune variabili di esempio, ma vedi sotto per l'elenco delle variabili "
+"effettivamente consentite qui:\n"
+"{image.title} - titolo dell'immagine\n"
+"{image.number} - il numero che hai assegnato all'immagine\n"
+"{folder.title} - titolo della cartella corrente\n"
+"{folder.parent.title} - titolo della cartella principale\n"
+"\n"
+"Puoi creare espressioni complesse come questa:\n"
+"{image.title} / {image.number} - {image.title}"
 
 #, fuzzy
 msgctxt "stringscript:help:intro_toplevel_variables"
@@ -2527,8 +2713,12 @@ msgstr "Variabili di primo livello consentite:"
 
 #, fuzzy
 msgctxt "stringscript:help:intro_subelements"
-msgid "Each type may have sub-elements. Here is the list of sub-elements for each data type:"
-msgstr "Ogni tipo può avere sottoelementi. Ecco l'elenco dei sottoelementi per ogni tipo di dati:"
+msgid ""
+"Each type may have sub-elements. Here is the list of sub-elements for each "
+"data type:"
+msgstr ""
+"Ogni tipo può avere sottoelementi. Ecco l'elenco dei sottoelementi per ogni "
+"tipo di dati:"
 
 #, fuzzy
 msgctxt "stringscript:root:member:image"
@@ -2925,3 +3115,6 @@ msgctxt "lock:set-library-root"
 msgid "setting image library root"
 msgstr "impostazione della radice della libreria di immagini"
 
+msgctxt "lock:undelete-entity"
+msgid "undeleting entity"
+msgstr ""

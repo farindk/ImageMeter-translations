@@ -254,12 +254,16 @@ msgstr "Σφάλμα ανάλυσης αρχείου IFD."
 #, fuzzy
 msgctxt "error:CannotLockPath-readLock"
 msgid "Cannot read file '{}' because it is currently being modified."
-msgstr "Δεν είναι δυνατή η ανάγνωση του αρχείου '{}' επειδή αυτή τη στιγμή τροποποιείται."
+msgstr ""
+"Δεν είναι δυνατή η ανάγνωση του αρχείου '{}' επειδή αυτή τη στιγμή "
+"τροποποιείται."
 
 #, fuzzy
 msgctxt "error:CannotLockPath-writeLock"
 msgid "Cannot modify file '{}' because it is currently in use."
-msgstr "Δεν είναι δυνατή η τροποποίηση του αρχείου '{}' επειδή χρησιμοποιείται αυτήν τη στιγμή."
+msgstr ""
+"Δεν είναι δυνατή η τροποποίηση του αρχείου '{}' επειδή χρησιμοποιείται αυτήν "
+"τη στιγμή."
 
 #, fuzzy
 msgctxt "error:UnknownFileFormat"
@@ -303,8 +307,12 @@ msgstr "Σφάλμα OpenGL: \"{}\"."
 
 #, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
-msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
-msgstr "Δεν υπάρχει αρκετή μνήμη για απόδοση σε ανάλυση εξόδου {}. Μειώστε την ανάλυση εξόδου."
+msgid ""
+"Not enough memory to render at output resolution {}. Please reduce the "
+"output resolution."
+msgstr ""
+"Δεν υπάρχει αρκετή μνήμη για απόδοση σε ανάλυση εξόδου {}. Μειώστε την "
+"ανάλυση εξόδου."
 
 #, fuzzy
 msgctxt "error:CannotRenderImage"
@@ -324,7 +332,8 @@ msgstr "Δεν είναι δυνατή η φόρτωση βοηθητικών δ
 #, fuzzy
 msgctxt "error:EditCore_CannotPurgeUnusedAuxiliaryFiles"
 msgid "Cannot delete unused auxiliary data files."
-msgstr "Δεν είναι δυνατή η διαγραφή αχρησιμοποίητων βοηθητικών αρχείων δεδομένων."
+msgstr ""
+"Δεν είναι δυνατή η διαγραφή αχρησιμοποίητων βοηθητικών αρχείων δεδομένων."
 
 #, fuzzy
 msgctxt "error:GText_CannotAddDetailImage"
@@ -424,7 +433,8 @@ msgstr "Λάθος όνομα χρήστη ή κωδικός."
 #, fuzzy
 msgctxt "error:Cloud_CannotLogin:interactive_login_required"
 msgid "Interactive sign in to your cloud server account is required."
-msgstr "Απαιτείται διαδραστική σύνδεση στον λογαριασμό σας στο διακομιστή cloud."
+msgstr ""
+"Απαιτείται διαδραστική σύνδεση στον λογαριασμό σας στο διακομιστή cloud."
 
 #, fuzzy
 msgctxt "error:Cloud_CannotLogin:cancelled_by_user"
@@ -444,7 +454,8 @@ msgstr "Λήξη χρόνου διακομιστή cloud."
 #, fuzzy
 msgctxt "error:Cloud_CannotLogin:cannot_access_base_folder"
 msgid "Cannot access data directory on cloud server."
-msgstr "Δεν είναι δυνατή η πρόσβαση στον κατάλογο δεδομένων στον διακομιστή cloud."
+msgstr ""
+"Δεν είναι δυνατή η πρόσβαση στον κατάλογο δεδομένων στον διακομιστή cloud."
 
 #, fuzzy
 msgctxt "error:Cloud_SyncError"
@@ -479,7 +490,17 @@ msgstr "Σφάλμα Διακομιστή: {}"
 #, fuzzy
 msgctxt "error:Cloud_FileLockedOnServer"
 msgid "File is locked on server. Please retry upload at a later time."
-msgstr "Το αρχείο είναι κλειδωμένο στο διακομιστή. Δοκιμάστε ξανά τη μεταφόρτωση αργότερα."
+msgstr ""
+"Το αρχείο είναι κλειδωμένο στο διακομιστή. Δοκιμάστε ξανά τη μεταφόρτωση "
+"αργότερα."
+
+msgctxt "error:Cloud_ServerBlocked"
+msgid "Server blocked by another client. Please retry at a later time."
+msgstr ""
+
+msgctxt "error:Cloud_CannotLockLocalFiles"
+msgid "Cannot get exclusive access on local files"
+msgstr ""
 
 #, fuzzy
 msgctxt "error:Cloud_RemoteFileDoesNotExist"
@@ -594,7 +615,8 @@ msgstr "Δεν ήταν δυνατή η κατάργηση του αρχείου
 #, fuzzy
 msgctxt "error:Cloud_CannotResetServerCache"
 msgid "Could not remove server cache file '{}'."
-msgstr "Δεν ήταν δυνατή η κατάργηση του αρχείου προσωρινής μνήμης διακομιστή '{}'."
+msgstr ""
+"Δεν ήταν δυνατή η κατάργηση του αρχείου προσωρινής μνήμης διακομιστή '{}'."
 
 #, fuzzy
 msgctxt "error:Cloud_CannotResetSyncState"
@@ -626,10 +648,9 @@ msgctxt "error:HTTP-error-405"
 msgid "405 : Method Not Allowed"
 msgstr "405: Η μέθοδος δεν επιτρέπεται"
 
-#, fuzzy
 msgctxt "error:HTTP-error-406"
-msgid "406: Not Acceptable"
-msgstr "406: Μη αποδεκτό"
+msgid "406 : Not Acceptable"
+msgstr ""
 
 #, fuzzy
 msgctxt "error:HTTP-error-407"
@@ -739,7 +760,8 @@ msgstr "Δεν είναι δυνατή η αντιγραφή δεδομένων 
 #, fuzzy
 msgctxt "error:Android_DeleteOldImageFromGallery"
 msgid "Cannot delete old image from gallery (url='{}')."
-msgstr "Δεν είναι δυνατή η διαγραφή της παλιάς εικόνας από τη συλλογή (url='{}')."
+msgstr ""
+"Δεν είναι δυνατή η διαγραφή της παλιάς εικόνας από τη συλλογή (url='{}')."
 
 msgctxt "unit:translated-name:meter"
 msgid "m"
@@ -1185,7 +1207,9 @@ msgstr "αντίγραφο"
 #, fuzzy
 msgctxt "entities:cannot_delete_image:in_use"
 msgid "Cannot delete image '{0}' because it is in use by '{1}'."
-msgstr "Δεν είναι δυνατή η διαγραφή της εικόνας '{0}' επειδή χρησιμοποιείται από το '{1}'."
+msgstr ""
+"Δεν είναι δυνατή η διαγραφή της εικόνας '{0}' επειδή χρησιμοποιείται από το "
+"'{1}'."
 
 #, fuzzy
 msgctxt "entities:cannot_delete_folder:in_use"
@@ -1200,7 +1224,9 @@ msgstr "Δεν μπορεί να μετονομαστεί ο φάκελος '{0}
 #, fuzzy
 msgctxt "entities:cannot_rename_image:in_use"
 msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
-msgstr "Δεν είναι δυνατή η μετονομασία της εικόνας '{0}' επειδή χρησιμοποιείται αυτήν τη στιγμή από το '{1}'."
+msgstr ""
+"Δεν είναι δυνατή η μετονομασία της εικόνας '{0}' επειδή χρησιμοποιείται "
+"αυτήν τη στιγμή από το '{1}'."
 
 #, fuzzy
 msgctxt "image-library:breadcrumbs:root-folder"
@@ -1304,13 +1330,18 @@ msgstr "Κρατήστε την παλιά σειρά αρίθμησης"
 
 #, fuzzy
 msgctxt "rendering:watermark"
-msgid "Evaluation copy\nPlease upgrade to remove watermark"
-msgstr "Αντίγραφο για αξιολόγηση\nΑναβαθμίστε για να καταργήσετε το υδατογράφημα"
+msgid ""
+"Evaluation copy\n"
+"Please upgrade to remove watermark"
+msgstr ""
+"Αντίγραφο για αξιολόγηση\n"
+"Αναβαθμίστε για να καταργήσετε το υδατογράφημα"
 
 #, fuzzy
 msgctxt "export:resolution-too-small"
 msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
-msgstr "Η ανάλυση εξόδου είναι πολύ μικρή. Το ελάχιστο είναι {0}x{1} εικονοστοιχεία."
+msgstr ""
+"Η ανάλυση εξόδου είναι πολύ μικρή. Το ελάχιστο είναι {0}x{1} εικονοστοιχεία."
 
 #, fuzzy
 msgctxt "image-export:size:group-title"
@@ -1393,8 +1424,12 @@ msgid "Include PDF file"
 msgstr "Συμπεριλάβετε αρχείο PDF"
 
 msgctxt "editor:attach:error_no_reference_to_attach_to"
-msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
-msgstr "Δεν υπάρχει αναφορά! Σχεδιάστε μία, ώστε να μπορείτε να κάνετε αυτόματους υπολογισμούς."
+msgid ""
+"There is no reference in the image! You need to draw a reference in order to "
+"do automatic computations."
+msgstr ""
+"Δεν υπάρχει αναφορά! Σχεδιάστε μία, ώστε να μπορείτε να κάνετε αυτόματους "
+"υπολογισμούς."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -1405,12 +1440,19 @@ msgid "Measure is computed based on the reference you provided."
 msgstr "Η μέτρηση υπολογίστηκε βάση της αναφοράς που θέσατε."
 
 msgctxt "editor:attach:hint_howto_attach_to_reference"
-msgid "Click on the measure you want to compute based on the selected reference."
-msgstr "Κάντε κλικ στη μέτρηση που θέλετε να υπολογίσετε, με βάση την επιλεγμένη αναφορά."
+msgid ""
+"Click on the measure you want to compute based on the selected reference."
+msgstr ""
+"Κάντε κλικ στη μέτρηση που θέλετε να υπολογίσετε, με βάση την επιλεγμένη "
+"αναφορά."
 
 msgctxt "editor:attach:hint_howto_attach_measure"
-msgid "Click on the reference based on which you want to calculate the selected measure."
-msgstr "Κάντε κλικ στην αναφορά βάση της οποίας θέλετε να υπολογιστεί η επιλεγμένη μέτρηση."
+msgid ""
+"Click on the reference based on which you want to calculate the selected "
+"measure."
+msgstr ""
+"Κάντε κλικ στην αναφορά βάση της οποίας θέλετε να υπολογιστεί η επιλεγμένη "
+"μέτρηση."
 
 #, fuzzy
 msgctxt "editor:attach:messagebox:title"
@@ -1945,12 +1987,18 @@ msgstr "1 ft"
 #, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:tooltip"
 msgid "Snap to multiples of this distance (only for rectangles and distance)."
-msgstr "Τραβήξτε πολλαπλάσια αυτής της απόστασης (μόνο για ορθογώνια και απόσταση)."
+msgstr ""
+"Τραβήξτε πολλαπλάσια αυτής της απόστασης (μόνο για ορθογώνια και απόσταση)."
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
-msgid "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and rectangle sides will be restricted to steps of this size."
-msgstr "Εισαγάγετε μια απόσταση με μονάδα (π.χ. 10cm, 1ft ή 1'). Οι διαγραμμένες διαστάσεις και οι ορθογώνιες πλευρές θα περιοριστούν σε βήματα αυτού του μεγέθους."
+msgid ""
+"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
+"rectangle sides will be restricted to steps of this size."
+msgstr ""
+"Εισαγάγετε μια απόσταση με μονάδα (π.χ. 10cm, 1ft ή 1'). Οι διαγραμμένες "
+"διαστάσεις και οι ορθογώνιες πλευρές θα περιοριστούν σε βήματα αυτού του "
+"μεγέθους."
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
@@ -2308,13 +2356,21 @@ msgstr "Πίνακας αθροίσματος περιοχής"
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:item"
-msgid "The image number. The number will only be filled into the row with the image title."
-msgstr "Ο αριθμός της εικόνας. Ο αριθμός θα συμπληρωθεί μόνο στη γραμμή με τον τίτλο της εικόνας."
+msgid ""
+"The image number. The number will only be filled into the row with the image "
+"title."
+msgstr ""
+"Ο αριθμός της εικόνας. Ο αριθμός θα συμπληρωθεί μόνο στη γραμμή με τον τίτλο "
+"της εικόνας."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:description"
-msgid "Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this area."
-msgstr "Περιγραφικό όνομα της περιοχής. Αυτό είναι είτε το προεπιλεγμένο όνομα της ετικέτας είτε ένα μη αυτόματα εισαγόμενο όνομα για αυτήν την περιοχή."
+msgid ""
+"Descriptive name of the area. This is either the default name of the tag, or "
+"a manually entered name for this area."
+msgstr ""
+"Περιγραφικό όνομα της περιοχής. Αυτό είναι είτε το προεπιλεγμένο όνομα της "
+"ετικέτας είτε ένα μη αυτόματα εισαγόμενο όνομα για αυτήν την περιοχή."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:count"
@@ -2323,33 +2379,61 @@ msgstr "Ο πολλαπλασιαστής καταμέτρησης για αυτ
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
-msgid "Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n\nEnter the two column headers separated by a semicolon."
-msgstr "Το πλάτος και το ύψος είναι δύο στήλες που γεμίζουν με τα μήκη των πλευρών εάν η περιοχή είναι ορθογώνιο. Για άλλα σχήματα, οι στήλες παραμένουν κενές.\n\nΕισαγάγετε τις δύο κεφαλίδες στηλών που χωρίζονται με ερωτηματικό."
+msgid ""
+"Width and height are two columns that are filled with the side lengths if "
+"the area is a rectangle. For other shapes, the columns stay empty.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+"Το πλάτος και το ύψος είναι δύο στήλες που γεμίζουν με τα μήκη των πλευρών "
+"εάν η περιοχή είναι ορθογώνιο. Για άλλα σχήματα, οι στήλες παραμένουν "
+"κενές.\n"
+"\n"
+"Εισαγάγετε τις δύο κεφαλίδες στηλών που χωρίζονται με ερωτηματικό."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:measured-area"
 msgid "The raw, measured area without the factor or count applied."
-msgstr "Η ακατέργαστη, μετρημένη επιφάνεια χωρίς τον συντελεστή ή τον αριθμό που εφαρμόζεται."
+msgstr ""
+"Η ακατέργαστη, μετρημένη επιφάνεια χωρίς τον συντελεστή ή τον αριθμό που "
+"εφαρμόζεται."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:factor"
 msgid "The area factor applied when calculating the final area sum."
-msgstr "Ο συντελεστής επιφάνειας που εφαρμόζεται κατά τον υπολογισμό του τελικού αθροίσματος εμβαδού."
+msgstr ""
+"Ο συντελεστής επιφάνειας που εφαρμόζεται κατά τον υπολογισμό του τελικού "
+"αθροίσματος εμβαδού."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:calculated-area"
 msgid "Calculated area including the factor and count."
-msgstr "Υπολογιζόμενη περιοχή συμπεριλαμβανομένου του συντελεστή και του αριθμού."
+msgstr ""
+"Υπολογιζόμενη περιοχή συμπεριλαμβανομένου του συντελεστή και του αριθμού."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
-msgid "Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n\nEnter the two column headers separated by a semicolon."
-msgstr "Δημιουργεί δύο στήλες: μια στήλη που περιλαμβάνει όλες τις περιοχές που προστίθενται στο άθροισμα και μια στήλη που περιλαμβάνει όλες τις περιοχές που αφαιρούνται από το συνολικό άθροισμα.\n\nΕισαγάγετε τις δύο κεφαλίδες στηλών που χωρίζονται με ερωτηματικό."
+msgid ""
+"Generates two columns: a column including all areas that are added to the "
+"sum, and a column including all areas that are subtracted from the total "
+"sum.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+"Δημιουργεί δύο στήλες: μια στήλη που περιλαμβάνει όλες τις περιοχές που "
+"προστίθενται στο άθροισμα και μια στήλη που περιλαμβάνει όλες τις περιοχές "
+"που αφαιρούνται από το συνολικό άθροισμα.\n"
+"\n"
+"Εισαγάγετε τις δύο κεφαλίδες στηλών που χωρίζονται με ερωτηματικό."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:image-area-sum"
-msgid "Each row holds the area sum of the image. The footer row holds the total over all images."
-msgstr "Κάθε σειρά περιέχει το άθροισμα της περιοχής της εικόνας. Η σειρά υποσέλιδου περιέχει το σύνολο σε όλες τις εικόνες."
+msgid ""
+"Each row holds the area sum of the image. The footer row holds the total "
+"over all images."
+msgstr ""
+"Κάθε σειρά περιέχει το άθροισμα της περιοχής της εικόνας. Η σειρά υποσέλιδου "
+"περιέχει το σύνολο σε όλες τις εικόνες."
 
 #, fuzzy
 msgctxt "templ:partslist:class-display-name"
@@ -2521,6 +2605,101 @@ msgctxt "SyncAction:DELETE_REMOTE"
 msgid "Delete on server"
 msgstr "Διαγραφή στο διακομιστή"
 
+msgctxt "sync:error:cloud-sync-currently-in-use:retry-later"
+msgid "Cloud-sync is currently in use. Please retry later."
+msgstr ""
+
+msgctxt "sync:task:description:anno-image"
+msgid "Image upload to {}"
+msgstr ""
+
+msgctxt "sync:task:description:two-way"
+msgid "Two way sync with {}"
+msgstr ""
+
+msgctxt "sync:task:backend-options:descr:filesystem"
+msgid "directory '{0}'"
+msgstr ""
+
+msgctxt "sync:task:backend-options:descr:onedrive"
+msgid "OneDrive directory '{0}'"
+msgstr ""
+
+msgctxt "sync:task:backend-options:descr:webdav"
+msgid "WebDAV URL '{0}'"
+msgstr ""
+
+msgctxt "sync:server-maintenance:title"
+msgid "Cloud storage maintenance"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock-description"
+msgid ""
+"<b>Remove server lock</b> - In order to prevent simultaneous access to the "
+"data on the cloud server, it is locked during the sync process. In case of "
+"some errors, e.g. network failures, it may be that the server remains "
+"locked. The locks time-out automatically after a few minutes, but you can "
+"also manually remove them immediately if you know for sure that it is an "
+"error."
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock-button"
+msgid "Remove server lock"
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-server-cache-description"
+msgid ""
+"<b>Reset server cache</b> - The cloud server maintains a cache of images "
+"stored on them. If you delete or add files manually on the server, this is "
+"not seen by the cache. You may reset the server cache to run a full scan "
+"during the next sync. However, note that a full scan may take a long time if "
+"you have many images."
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-server-cache-button"
+msgid "Reset server cache"
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state-description"
+msgid ""
+"<b>Reset sync state</b> - The next sync will start with no preknowledge "
+"about the data on each side. This means, e.g., that locally deleted images "
+"will be downloaded again from the server instead of being deleted on the "
+"server. There are few cases where resetting the stored sync state is needed."
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state-button"
+msgid "Reset sync state"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock:action-title"
+msgid "Removing cloud server lock"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock:result:success"
+msgid "Successfully removed server lock."
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock:result:error:no-lock"
+msgid "There was no server lock."
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-cache:action-title"
+msgid "Resetting cloud server cache"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-cache:result:success"
+msgid "Successfully resetted server cache."
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state:action-title"
+msgid "Resetting sync state"
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state:result:success"
+msgid "Successfully resetted sync state."
+msgstr ""
+
 #, fuzzy
 msgctxt "license:source:android-in-app"
 msgid "In-app"
@@ -2582,8 +2761,32 @@ msgstr "νέος φάκελος"
 
 #, fuzzy
 msgctxt "stringscript:help:introtext"
-msgid "Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n\nHere are some example variables, but see below for the list of variables that are actually allowed here:\n{image.title} - image title\n{image.number} - the number you assigned to the image\n{folder.title} - title of the current folder\n{folder.parent.title} - title of the parent folder\n\nYou can build complex expressions like this:\n{folder.title} / {image.number} - {image.title}"
-msgstr "Εισαγάγετε το κείμενο που πρέπει να εμφανιστεί εδώ. Μπορείτε να προσθέσετε μεταβλητές που περικλείονται από το {} και θα αντικατασταθούν.\n\nΑκολουθούν ορισμένα παραδείγματα μεταβλητών, αλλά δείτε παρακάτω για τη λίστα των μεταβλητών που επιτρέπονται πραγματικά εδώ:\n{image.title} - τίτλος εικόνας\n{image.number} - ο αριθμός που εκχωρήσατε στην εικόνα\n{folder.title} - τίτλος του τρέχοντος φακέλου\n{folder.parent.title} - τίτλος του γονικού φακέλου\n\nΜπορείτε να δημιουργήσετε σύνθετες εκφράσεις όπως αυτή:\n{folder.title} / {image.number} - {image.title}"
+msgid ""
+"Enter the text that should appear here. You can add variables enclosed by "
+"{ } that will be substituted.\n"
+"\n"
+"Here are some example variables, but see below for the list of variables "
+"that are actually allowed here:\n"
+"{image.title} - image title\n"
+"{image.number} - the number you assigned to the image\n"
+"{folder.title} - title of the current folder\n"
+"{folder.parent.title} - title of the parent folder\n"
+"\n"
+"You can build complex expressions like this:\n"
+"{folder.title} / {image.number} - {image.title}"
+msgstr ""
+"Εισαγάγετε το κείμενο που πρέπει να εμφανιστεί εδώ. Μπορείτε να προσθέσετε "
+"μεταβλητές που περικλείονται από το {} και θα αντικατασταθούν.\n"
+"\n"
+"Ακολουθούν ορισμένα παραδείγματα μεταβλητών, αλλά δείτε παρακάτω για τη "
+"λίστα των μεταβλητών που επιτρέπονται πραγματικά εδώ:\n"
+"{image.title} - τίτλος εικόνας\n"
+"{image.number} - ο αριθμός που εκχωρήσατε στην εικόνα\n"
+"{folder.title} - τίτλος του τρέχοντος φακέλου\n"
+"{folder.parent.title} - τίτλος του γονικού φακέλου\n"
+"\n"
+"Μπορείτε να δημιουργήσετε σύνθετες εκφράσεις όπως αυτή:\n"
+"{folder.title} / {image.number} - {image.title}"
 
 #, fuzzy
 msgctxt "stringscript:help:intro_toplevel_variables"
@@ -2592,8 +2795,12 @@ msgstr "Επιτρεπόμενες μεταβλητές ανώτατου επι�
 
 #, fuzzy
 msgctxt "stringscript:help:intro_subelements"
-msgid "Each type may have sub-elements. Here is the list of sub-elements for each data type:"
-msgstr "Κάθε τύπος μπορεί να έχει υπο-στοιχεία. Ακολουθεί η λίστα των υπο-στοιχείων για κάθε τύπο δεδομένων:"
+msgid ""
+"Each type may have sub-elements. Here is the list of sub-elements for each "
+"data type:"
+msgstr ""
+"Κάθε τύπος μπορεί να έχει υπο-στοιχεία. Ακολουθεί η λίστα των υπο-στοιχείων "
+"για κάθε τύπο δεδομένων:"
 
 #, fuzzy
 msgctxt "stringscript:root:member:image"
@@ -2990,3 +3197,11 @@ msgctxt "lock:set-library-root"
 msgid "setting image library root"
 msgstr "ρύθμιση της ρίζας της βιβλιοθήκης εικόνων"
 
+msgctxt "lock:undelete-entity"
+msgid "undeleting entity"
+msgstr ""
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-406"
+#~ msgid "406: Not Acceptable"
+#~ msgstr "406: Μη αποδεκτό"

@@ -299,8 +299,12 @@ msgstr "Chyba OpenGL: \"{}\"."
 
 #, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
-msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
-msgstr "Nedostatek paměti pro vykreslení při výstupním rozlišení {}. Snižte výstupní rozlišení."
+msgid ""
+"Not enough memory to render at output resolution {}. Please reduce the "
+"output resolution."
+msgstr ""
+"Nedostatek paměti pro vykreslení při výstupním rozlišení {}. Snižte výstupní "
+"rozlišení."
 
 msgctxt "error:CannotRenderImage"
 msgid "Cannot render image \"{}\"."
@@ -472,6 +476,14 @@ msgstr "Chyba serveru: {}"
 msgctxt "error:Cloud_FileLockedOnServer"
 msgid "File is locked on server. Please retry upload at a later time."
 msgstr "Soubor je uzamčen na serveru. Zkuste to prosím znovu později."
+
+msgctxt "error:Cloud_ServerBlocked"
+msgid "Server blocked by another client. Please retry at a later time."
+msgstr ""
+
+msgctxt "error:Cloud_CannotLockLocalFiles"
+msgid "Cannot get exclusive access on local files"
+msgstr ""
 
 #, fuzzy
 msgctxt "error:Cloud_RemoteFileDoesNotExist"
@@ -1273,8 +1285,12 @@ msgstr "Zachovat staré pořadí číslování"
 
 #, fuzzy
 msgctxt "rendering:watermark"
-msgid "Evaluation copy\nPlease upgrade to remove watermark"
-msgstr "Zkušební kopie\nUpgradujte a odeberte vodoznak"
+msgid ""
+"Evaluation copy\n"
+"Please upgrade to remove watermark"
+msgstr ""
+"Zkušební kopie\n"
+"Upgradujte a odeberte vodoznak"
 
 #, fuzzy
 msgctxt "export:resolution-too-small"
@@ -1362,8 +1378,12 @@ msgid "Include PDF file"
 msgstr "Zahrnout soubor PDF"
 
 msgctxt "editor:attach:error_no_reference_to_attach_to"
-msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
-msgstr "Neexistuje žádné zaměření v obraze! Musíte zadat zaměření, aby se provedly automatické výpočty."
+msgid ""
+"There is no reference in the image! You need to draw a reference in order to "
+"do automatic computations."
+msgstr ""
+"Neexistuje žádné zaměření v obraze! Musíte zadat zaměření, aby se provedly "
+"automatické výpočty."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -1374,11 +1394,15 @@ msgid "Measure is computed based on the reference you provided."
 msgstr "Rozměr se vypočítá na základě reference, kterou jste zadali."
 
 msgctxt "editor:attach:hint_howto_attach_to_reference"
-msgid "Click on the measure you want to compute based on the selected reference."
-msgstr "Klikněte na míru, kterou chcete vypočítat na základě vybraného zaměření."
+msgid ""
+"Click on the measure you want to compute based on the selected reference."
+msgstr ""
+"Klikněte na míru, kterou chcete vypočítat na základě vybraného zaměření."
 
 msgctxt "editor:attach:hint_howto_attach_measure"
-msgid "Click on the reference based on which you want to calculate the selected measure."
+msgid ""
+"Click on the reference based on which you want to calculate the selected "
+"measure."
 msgstr "Klikněte na zaměření, na kterém chcete spočítat vybraný objekt."
 
 #, fuzzy
@@ -1914,12 +1938,17 @@ msgstr "1 ft"
 #, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:tooltip"
 msgid "Snap to multiples of this distance (only for rectangles and distance)."
-msgstr "Přichytit na násobky této vzdálenosti (pouze pro obdélníky a vzdálenost)."
+msgstr ""
+"Přichytit na násobky této vzdálenosti (pouze pro obdélníky a vzdálenost)."
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
-msgid "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and rectangle sides will be restricted to steps of this size."
-msgstr "Zadejte vzdálenost pomocí jednotky (např. 10cm, 1ft nebo 1'). Nakreslené rozměry a strany obdélníku budou omezeny na kroky této velikosti."
+msgid ""
+"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
+"rectangle sides will be restricted to steps of this size."
+msgstr ""
+"Zadejte vzdálenost pomocí jednotky (např. 10cm, 1ft nebo 1'). Nakreslené "
+"rozměry a strany obdélníku budou omezeny na kroky této velikosti."
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
@@ -2277,13 +2306,19 @@ msgstr "Tabulka součtů ploch"
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:item"
-msgid "The image number. The number will only be filled into the row with the image title."
+msgid ""
+"The image number. The number will only be filled into the row with the image "
+"title."
 msgstr "Číslo obrázku. Číslo bude vyplněno pouze do řádku s názvem obrázku."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:description"
-msgid "Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this area."
-msgstr "Popisný název oblasti. Toto je buď výchozí název značky, nebo ručně zadaný název pro tuto oblast."
+msgid ""
+"Descriptive name of the area. This is either the default name of the tag, or "
+"a manually entered name for this area."
+msgstr ""
+"Popisný název oblasti. Toto je buď výchozí název značky, nebo ručně zadaný "
+"název pro tuto oblast."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:count"
@@ -2292,8 +2327,16 @@ msgstr "Multiplikátor počtu pro tuto oblast."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
-msgid "Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n\nEnter the two column headers separated by a semicolon."
-msgstr "Šířka a výška jsou dva sloupce, které jsou vyplněny délkami stran, pokud je oblast obdélník. U ostatních tvarů zůstávají sloupce prázdné.\n\nZadejte dvě záhlaví sloupců oddělená středníkem."
+msgid ""
+"Width and height are two columns that are filled with the side lengths if "
+"the area is a rectangle. For other shapes, the columns stay empty.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+"Šířka a výška jsou dva sloupce, které jsou vyplněny délkami stran, pokud je "
+"oblast obdélník. U ostatních tvarů zůstávají sloupce prázdné.\n"
+"\n"
+"Zadejte dvě záhlaví sloupců oddělená středníkem."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:measured-area"
@@ -2312,13 +2355,27 @@ msgstr "Vypočítaná plocha včetně faktoru a počtu."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
-msgid "Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n\nEnter the two column headers separated by a semicolon."
-msgstr "Generuje dva sloupce: sloupec zahrnující všechny oblasti, které jsou přidány k součtu, a sloupec zahrnující všechny oblasti, které jsou odečteny od celkového součtu.\n\nZadejte dvě záhlaví sloupců oddělená středníkem."
+msgid ""
+"Generates two columns: a column including all areas that are added to the "
+"sum, and a column including all areas that are subtracted from the total "
+"sum.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+"Generuje dva sloupce: sloupec zahrnující všechny oblasti, které jsou přidány "
+"k součtu, a sloupec zahrnující všechny oblasti, které jsou odečteny od "
+"celkového součtu.\n"
+"\n"
+"Zadejte dvě záhlaví sloupců oddělená středníkem."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:image-area-sum"
-msgid "Each row holds the area sum of the image. The footer row holds the total over all images."
-msgstr "Každý řádek obsahuje součet ploch obrázku. Řádek zápatí obsahuje součet přes všechny obrázky."
+msgid ""
+"Each row holds the area sum of the image. The footer row holds the total "
+"over all images."
+msgstr ""
+"Každý řádek obsahuje součet ploch obrázku. Řádek zápatí obsahuje součet přes "
+"všechny obrázky."
 
 #, fuzzy
 msgctxt "templ:partslist:class-display-name"
@@ -2490,6 +2547,101 @@ msgctxt "SyncAction:DELETE_REMOTE"
 msgid "Delete on server"
 msgstr "Smazat na serveru"
 
+msgctxt "sync:error:cloud-sync-currently-in-use:retry-later"
+msgid "Cloud-sync is currently in use. Please retry later."
+msgstr ""
+
+msgctxt "sync:task:description:anno-image"
+msgid "Image upload to {}"
+msgstr ""
+
+msgctxt "sync:task:description:two-way"
+msgid "Two way sync with {}"
+msgstr ""
+
+msgctxt "sync:task:backend-options:descr:filesystem"
+msgid "directory '{0}'"
+msgstr ""
+
+msgctxt "sync:task:backend-options:descr:onedrive"
+msgid "OneDrive directory '{0}'"
+msgstr ""
+
+msgctxt "sync:task:backend-options:descr:webdav"
+msgid "WebDAV URL '{0}'"
+msgstr ""
+
+msgctxt "sync:server-maintenance:title"
+msgid "Cloud storage maintenance"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock-description"
+msgid ""
+"<b>Remove server lock</b> - In order to prevent simultaneous access to the "
+"data on the cloud server, it is locked during the sync process. In case of "
+"some errors, e.g. network failures, it may be that the server remains "
+"locked. The locks time-out automatically after a few minutes, but you can "
+"also manually remove them immediately if you know for sure that it is an "
+"error."
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock-button"
+msgid "Remove server lock"
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-server-cache-description"
+msgid ""
+"<b>Reset server cache</b> - The cloud server maintains a cache of images "
+"stored on them. If you delete or add files manually on the server, this is "
+"not seen by the cache. You may reset the server cache to run a full scan "
+"during the next sync. However, note that a full scan may take a long time if "
+"you have many images."
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-server-cache-button"
+msgid "Reset server cache"
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state-description"
+msgid ""
+"<b>Reset sync state</b> - The next sync will start with no preknowledge "
+"about the data on each side. This means, e.g., that locally deleted images "
+"will be downloaded again from the server instead of being deleted on the "
+"server. There are few cases where resetting the stored sync state is needed."
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state-button"
+msgid "Reset sync state"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock:action-title"
+msgid "Removing cloud server lock"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock:result:success"
+msgid "Successfully removed server lock."
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-lock:result:error:no-lock"
+msgid "There was no server lock."
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-cache:action-title"
+msgid "Resetting cloud server cache"
+msgstr ""
+
+msgctxt "sync:server-maintenance:remove-server-cache:result:success"
+msgid "Successfully resetted server cache."
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state:action-title"
+msgid "Resetting sync state"
+msgstr ""
+
+msgctxt "sync:server-maintenance:reset-sync-state:result:success"
+msgid "Successfully resetted sync state."
+msgstr ""
+
 msgctxt "license:source:android-in-app"
 msgid "In-app"
 msgstr "V aplikaci"
@@ -2548,8 +2700,32 @@ msgstr "nová složka"
 
 #, fuzzy
 msgctxt "stringscript:help:introtext"
-msgid "Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n\nHere are some example variables, but see below for the list of variables that are actually allowed here:\n{image.title} - image title\n{image.number} - the number you assigned to the image\n{folder.title} - title of the current folder\n{folder.parent.title} - title of the parent folder\n\nYou can build complex expressions like this:\n{folder.title} / {image.number} - {image.title}"
-msgstr "Zadejte text, který by se zde měl objevit. Můžete přidat proměnné uzavřené znakem { }, které budou nahrazeny.\n\nZde je několik příkladů proměnných, ale seznam proměnných, které jsou zde skutečně povoleny, naleznete níže:\n{image.title} - název obrázku\n{image.number} - číslo, které jste obrázku přiřadili\n{folder.title} - název aktuální složky\n{folder.parent.title} - název nadřazené složky\n\nSložité výrazy můžete vytvářet takto:\n{folder.title} / {image.number} - {image.title}"
+msgid ""
+"Enter the text that should appear here. You can add variables enclosed by "
+"{ } that will be substituted.\n"
+"\n"
+"Here are some example variables, but see below for the list of variables "
+"that are actually allowed here:\n"
+"{image.title} - image title\n"
+"{image.number} - the number you assigned to the image\n"
+"{folder.title} - title of the current folder\n"
+"{folder.parent.title} - title of the parent folder\n"
+"\n"
+"You can build complex expressions like this:\n"
+"{folder.title} / {image.number} - {image.title}"
+msgstr ""
+"Zadejte text, který by se zde měl objevit. Můžete přidat proměnné uzavřené "
+"znakem { }, které budou nahrazeny.\n"
+"\n"
+"Zde je několik příkladů proměnných, ale seznam proměnných, které jsou zde "
+"skutečně povoleny, naleznete níže:\n"
+"{image.title} - název obrázku\n"
+"{image.number} - číslo, které jste obrázku přiřadili\n"
+"{folder.title} - název aktuální složky\n"
+"{folder.parent.title} - název nadřazené složky\n"
+"\n"
+"Složité výrazy můžete vytvářet takto:\n"
+"{folder.title} / {image.number} - {image.title}"
 
 #, fuzzy
 msgctxt "stringscript:help:intro_toplevel_variables"
@@ -2558,8 +2734,12 @@ msgstr "Povolené proměnné nejvyšší úrovně:"
 
 #, fuzzy
 msgctxt "stringscript:help:intro_subelements"
-msgid "Each type may have sub-elements. Here is the list of sub-elements for each data type:"
-msgstr "Každý typ může mít dílčí prvky. Zde je seznam dílčích prvků pro každý datový typ:"
+msgid ""
+"Each type may have sub-elements. Here is the list of sub-elements for each "
+"data type:"
+msgstr ""
+"Každý typ může mít dílčí prvky. Zde je seznam dílčích prvků pro každý datový "
+"typ:"
 
 #, fuzzy
 msgctxt "stringscript:root:member:image"
@@ -2956,3 +3136,6 @@ msgctxt "lock:set-library-root"
 msgid "setting image library root"
 msgstr "nastavení kořenového adresáře knihovny obrázků"
 
+msgctxt "lock:undelete-entity"
+msgid "undeleting entity"
+msgstr ""
