@@ -478,9 +478,10 @@ msgid "File is locked on server. Please retry upload at a later time."
 msgstr ""
 "Il file è bloccato sul server. Riprova a caricare in un secondo momento."
 
+#, fuzzy
 msgctxt "error:Cloud_ServerBlocked"
 msgid "Server blocked by another client. Please retry at a later time."
-msgstr ""
+msgstr "Server bloccato da un altro client. Riprova più tardi."
 
 msgctxt "error:Cloud_CannotLockLocalFiles"
 msgid "Cannot get exclusive access on local files"
@@ -2549,10 +2550,12 @@ msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
 msgstr ""
 
+#, fuzzy
 msgctxt "sync:server-maintenance:title"
 msgid "Cloud storage maintenance"
-msgstr ""
+msgstr "Manutenzione del cloud storage"
 
+#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-description"
 msgid ""
 "<b>Remove server lock</b> - In order to prevent simultaneous access to the "
@@ -2561,12 +2564,14 @@ msgid ""
 "locked. The locks time-out automatically after a few minutes, but you can "
 "also manually remove them immediately if you know for sure that it is an "
 "error."
-msgstr ""
+msgstr "<b>Rimuovi blocco server</b>: per impedire l'accesso simultaneo ai dati sul server cloud, viene bloccato durante il processo di sincronizzazione. In caso di errori, ad es. errori di rete, è possibile che il server rimanga bloccato. I blocchi scadono automaticamente dopo alcuni minuti, ma puoi anche rimuoverli manualmente immediatamente se sai per certo che si tratta di un errore."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-button"
 msgid "Remove server lock"
-msgstr ""
+msgstr "Rimuovi il blocco del server"
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-description"
 msgid ""
 "<b>Reset server cache</b> - The cloud server maintains a cache of images "
@@ -2574,23 +2579,26 @@ msgid ""
 "not seen by the cache. You may reset the server cache to run a full scan "
 "during the next sync. However, note that a full scan may take a long time if "
 "you have many images."
-msgstr ""
+msgstr "<b>Reimposta cache del server</b>: il server cloud conserva una cache di immagini memorizzate su di essi. Se elimini o aggiungi file manualmente sul server, ciò non viene visto dalla cache. È possibile ripristinare la cache del server per eseguire una scansione completa durante la sincronizzazione successiva. Tuttavia, tieni presente che una scansione completa potrebbe richiedere molto tempo se hai molte immagini."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-button"
 msgid "Reset server cache"
-msgstr ""
+msgstr "Reimposta la cache del server"
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-description"
 msgid ""
 "<b>Reset sync state</b> - The next sync will start with no preknowledge "
 "about the data on each side. This means, e.g., that locally deleted images "
 "will be downloaded again from the server instead of being deleted on the "
 "server. There are few cases where resetting the stored sync state is needed."
-msgstr ""
+msgstr "<b>Reimposta stato sincronizzazione</b>: la sincronizzazione successiva inizierà senza alcuna conoscenza preliminare dei dati su ciascun lato. Ciò significa, ad esempio, che le immagini eliminate localmente verranno scaricate di nuovo dal server invece di essere eliminate sul server. Ci sono pochi casi in cui è necessario ripristinare lo stato di sincronizzazione memorizzato."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-button"
 msgid "Reset sync state"
-msgstr ""
+msgstr "Reimposta lo stato di sincronizzazione"
 
 msgctxt "sync:server-maintenance:remove-server-lock:action-title"
 msgid "Removing cloud server lock"
@@ -3118,3 +3126,4 @@ msgstr "impostazione della radice della libreria di immagini"
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
+

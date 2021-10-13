@@ -481,9 +481,10 @@ msgid "File is locked on server. Please retry upload at a later time."
 msgstr ""
 "El archivo está bloqueado en el servidor. Vuelva a intentar cargar más tarde."
 
+#, fuzzy
 msgctxt "error:Cloud_ServerBlocked"
 msgid "Server blocked by another client. Please retry at a later time."
-msgstr ""
+msgstr "Servidor bloqueado por otro cliente. Vuelva a intentarlo más tarde."
 
 msgctxt "error:Cloud_CannotLockLocalFiles"
 msgid "Cannot get exclusive access on local files"
@@ -2648,10 +2649,12 @@ msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
 msgstr ""
 
+#, fuzzy
 msgctxt "sync:server-maintenance:title"
 msgid "Cloud storage maintenance"
-msgstr ""
+msgstr "Mantenimiento de almacenamiento en la nube"
 
+#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-description"
 msgid ""
 "<b>Remove server lock</b> - In order to prevent simultaneous access to the "
@@ -2660,12 +2663,14 @@ msgid ""
 "locked. The locks time-out automatically after a few minutes, but you can "
 "also manually remove them immediately if you know for sure that it is an "
 "error."
-msgstr ""
+msgstr "<b>Eliminar bloqueo del servidor</b>: para evitar el acceso simultáneo a los datos en el servidor de la nube, se bloquea durante el proceso de sincronización. En caso de algunos errores, p. fallas en la red, puede ser que el servidor permanezca bloqueado. Los bloqueos caducan automáticamente después de unos minutos, pero también puede eliminarlos manualmente de inmediato si sabe con certeza que se trata de un error."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-button"
 msgid "Remove server lock"
-msgstr ""
+msgstr "Eliminar bloqueo del servidor"
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-description"
 msgid ""
 "<b>Reset server cache</b> - The cloud server maintains a cache of images "
@@ -2673,23 +2678,26 @@ msgid ""
 "not seen by the cache. You may reset the server cache to run a full scan "
 "during the next sync. However, note that a full scan may take a long time if "
 "you have many images."
-msgstr ""
+msgstr "<b>Restablecer caché del servidor</b>: el servidor en la nube mantiene un caché de imágenes almacenadas en ellos. Si elimina o agrega archivos manualmente en el servidor, la caché no verá esto. Puede restablecer el caché del servidor para ejecutar un análisis completo durante la próxima sincronización. Sin embargo, tenga en cuenta que un escaneo completo puede llevar mucho tiempo si tiene muchas imágenes."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-button"
 msgid "Reset server cache"
-msgstr ""
+msgstr "Restablecer caché del servidor"
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-description"
 msgid ""
 "<b>Reset sync state</b> - The next sync will start with no preknowledge "
 "about the data on each side. This means, e.g., that locally deleted images "
 "will be downloaded again from the server instead of being deleted on the "
 "server. There are few cases where resetting the stored sync state is needed."
-msgstr ""
+msgstr "<b>Restablecer estado de sincronización</b>: la próxima sincronización comenzará sin conocimiento previo sobre los datos en cada lado. Esto significa, por ejemplo, que las imágenes eliminadas localmente se descargarán nuevamente del servidor en lugar de eliminarse en el servidor. Hay pocos casos en los que se necesita restablecer el estado de sincronización almacenado."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-button"
 msgid "Reset sync state"
-msgstr ""
+msgstr "Restablecer estado de sincronización"
 
 msgctxt "sync:server-maintenance:remove-server-lock:action-title"
 msgid "Removing cloud server lock"
@@ -3222,3 +3230,4 @@ msgstr ""
 #~ msgctxt "error:HTTP-error-404"
 #~ msgid "404: Not Found"
 #~ msgstr "404 No encontrado"
+

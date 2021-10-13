@@ -477,9 +477,10 @@ msgctxt "error:Cloud_FileLockedOnServer"
 msgid "File is locked on server. Please retry upload at a later time."
 msgstr "Soubor je uzamčen na serveru. Zkuste to prosím znovu později."
 
+#, fuzzy
 msgctxt "error:Cloud_ServerBlocked"
 msgid "Server blocked by another client. Please retry at a later time."
-msgstr ""
+msgstr "Server zablokován jiným klientem. Zkuste to prosím později."
 
 msgctxt "error:Cloud_CannotLockLocalFiles"
 msgid "Cannot get exclusive access on local files"
@@ -2571,10 +2572,12 @@ msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
 msgstr ""
 
+#, fuzzy
 msgctxt "sync:server-maintenance:title"
 msgid "Cloud storage maintenance"
-msgstr ""
+msgstr "Údržba cloudového úložiště"
 
+#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-description"
 msgid ""
 "<b>Remove server lock</b> - In order to prevent simultaneous access to the "
@@ -2583,12 +2586,14 @@ msgid ""
 "locked. The locks time-out automatically after a few minutes, but you can "
 "also manually remove them immediately if you know for sure that it is an "
 "error."
-msgstr ""
+msgstr "<b>Odebrat zámek serveru</b> - Aby se zabránilo současnému přístupu k datům na cloudovém serveru, je během procesu synchronizace uzamčen. V případě některých chyb, např. Pokud dojde k selhání sítě, je možné, že server zůstává zamčený. Časový limit zámků se automaticky spustí po několika minutách, ale můžete je také ručně odstranit okamžitě, pokud víte, že se jedná o chybu."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-button"
 msgid "Remove server lock"
-msgstr ""
+msgstr "Odebrat zámek serveru"
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-description"
 msgid ""
 "<b>Reset server cache</b> - The cloud server maintains a cache of images "
@@ -2596,23 +2601,26 @@ msgid ""
 "not seen by the cache. You may reset the server cache to run a full scan "
 "during the next sync. However, note that a full scan may take a long time if "
 "you have many images."
-msgstr ""
+msgstr "<b>Obnovit mezipaměť serveru</b> - Cloudový server udržuje mezipaměť obrázků uložených v nich. Pokud odstraníte nebo přidáte soubory ručně na serveru, mezipaměť to neuvidí. Můžete resetovat mezipaměť serveru a spustit další kontrolu během další synchronizace. Pokud však máte mnoho obrázků, úplné skenování může trvat dlouho."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-button"
 msgid "Reset server cache"
-msgstr ""
+msgstr "Obnovení mezipaměti serveru"
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-description"
 msgid ""
 "<b>Reset sync state</b> - The next sync will start with no preknowledge "
 "about the data on each side. This means, e.g., that locally deleted images "
 "will be downloaded again from the server instead of being deleted on the "
 "server. There are few cases where resetting the stored sync state is needed."
-msgstr ""
+msgstr "<b>Obnovit stav synchronizace</b> - Následující synchronizace začne bez překonání informací o datech na každé straně. To například znamená, že lokálně smazané obrázky budou staženy znovu ze serveru místo toho, aby byly odstraněny na serveru. Existuje několik případů, kdy je třeba resetovat uložený stav synchronizace."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-button"
 msgid "Reset sync state"
-msgstr ""
+msgstr "Obnovit stav synchronizace"
 
 msgctxt "sync:server-maintenance:remove-server-lock:action-title"
 msgid "Removing cloud server lock"
@@ -3139,3 +3147,4 @@ msgstr "nastavení kořenového adresáře knihovny obrázků"
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
+

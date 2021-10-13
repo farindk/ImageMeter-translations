@@ -494,9 +494,10 @@ msgstr ""
 "Το αρχείο είναι κλειδωμένο στο διακομιστή. Δοκιμάστε ξανά τη μεταφόρτωση "
 "αργότερα."
 
+#, fuzzy
 msgctxt "error:Cloud_ServerBlocked"
 msgid "Server blocked by another client. Please retry at a later time."
-msgstr ""
+msgstr "Ο διακομιστής αποκλείστηκε από άλλο πρόγραμμα -πελάτη. Δοκιμάστε ξανά αργότερα."
 
 msgctxt "error:Cloud_CannotLockLocalFiles"
 msgid "Cannot get exclusive access on local files"
@@ -2631,8 +2632,9 @@ msgstr ""
 
 msgctxt "sync:server-maintenance:title"
 msgid "Cloud storage maintenance"
-msgstr ""
+msgstr "Συντήρηση αποθήκευσης στο cloud"
 
+#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-description"
 msgid ""
 "<b>Remove server lock</b> - In order to prevent simultaneous access to the "
@@ -2641,12 +2643,14 @@ msgid ""
 "locked. The locks time-out automatically after a few minutes, but you can "
 "also manually remove them immediately if you know for sure that it is an "
 "error."
-msgstr ""
+msgstr "<b>Κατάργηση κλειδώματος διακομιστή</b> - Για να αποφευχθεί η ταυτόχρονη πρόσβαση στα δεδομένα του διακομιστή cloud, κλειδώνεται κατά τη διαδικασία συγχρονισμού. Σε περίπτωση ορισμένων σφαλμάτων, π.χ. αποτυχίες δικτύου, μπορεί ο διακομιστής να παραμένει κλειδωμένος. Το κλείδωμα του χρονικού ορίου κλειδώνει αυτόματα μετά από λίγα λεπτά, αλλά μπορείτε επίσης να το αφαιρέσετε με μη αυτόματο τρόπο εάν γνωρίζετε με βεβαιότητα ότι πρόκειται για σφάλμα."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-button"
 msgid "Remove server lock"
-msgstr ""
+msgstr "Κατάργηση κλειδώματος διακομιστή"
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-description"
 msgid ""
 "<b>Reset server cache</b> - The cloud server maintains a cache of images "
@@ -2654,23 +2658,26 @@ msgid ""
 "not seen by the cache. You may reset the server cache to run a full scan "
 "during the next sync. However, note that a full scan may take a long time if "
 "you have many images."
-msgstr ""
+msgstr "<b>Επαναφορά προσωρινής μνήμης διακομιστή</b> - Ο διακομιστής cloud διατηρεί μια προσωρινή μνήμη εικόνων που είναι αποθηκευμένες σε αυτά. Εάν διαγράψετε ή προσθέσετε αρχεία με μη αυτόματο τρόπο στο διακομιστή, αυτό δεν φαίνεται από την προσωρινή μνήμη. Μπορείτε να επαναφέρετε την προσωρινή μνήμη του διακομιστή για να εκτελέσετε μια πλήρη σάρωση κατά τον επόμενο συγχρονισμό. Ωστόσο, σημειώστε ότι μια πλήρης σάρωση μπορεί να διαρκέσει πολύ εάν έχετε πολλές εικόνες."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-button"
 msgid "Reset server cache"
-msgstr ""
+msgstr "Επαναφορά της προσωρινής μνήμης του διακομιστή"
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-description"
 msgid ""
 "<b>Reset sync state</b> - The next sync will start with no preknowledge "
 "about the data on each side. This means, e.g., that locally deleted images "
 "will be downloaded again from the server instead of being deleted on the "
 "server. There are few cases where resetting the stored sync state is needed."
-msgstr ""
+msgstr "<b>Επαναφορά κατάστασης συγχρονισμού</b> - Ο επόμενος συγχρονισμός θα ξεκινήσει χωρίς να γνωρίζουμε τα δεδομένα σε κάθε πλευρά. Αυτό σημαίνει, π.χ., ότι οι τοπικά διαγραμμένες εικόνες θα ληφθούν ξανά από το διακομιστή αντί να διαγραφούν στον διακομιστή. Υπάρχουν λίγες περιπτώσεις όπου απαιτείται επαναφορά της αποθηκευμένης κατάστασης συγχρονισμού."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-button"
 msgid "Reset sync state"
-msgstr ""
+msgstr "Επαναφορά κατάστασης συγχρονισμού"
 
 msgctxt "sync:server-maintenance:remove-server-lock:action-title"
 msgid "Removing cloud server lock"
@@ -3205,3 +3212,4 @@ msgstr ""
 #~ msgctxt "error:HTTP-error-406"
 #~ msgid "406: Not Acceptable"
 #~ msgstr "406: Μη αποδεκτό"
+
