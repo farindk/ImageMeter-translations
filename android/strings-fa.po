@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-09-09 20:41+0200\n"
+"POT-Creation-Date: 2021-11-11 19:38+0100\n"
 "PO-Revision-Date: 2021-03-24 11:46+0100\n"
 "Last-Translator: \n"
 "Language: fa\n"
@@ -1622,6 +1622,10 @@ msgstr "خودکار"
 msgctxt "pref_bluetooth_device_protocol_bosch_plr"
 msgid "Bosch PLR"
 msgstr "Bosch PLR"
+
+msgctxt "pref_bluetooth_device_protocol_bosch_dle150c"
+msgid "Bosch DLE150c"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm50c"
 msgid "Bosch GLM50c"
@@ -3704,121 +3708,9 @@ msgid "Close notification"
 msgstr "بستن اعلان"
 
 #. cloud server maintenance
-msgctxt "cloud_storage_maintenance_title"
-msgid "Cloud storage maintenance"
-msgstr "نگهداری ذخیره سازی ابری"
-
-msgctxt "cloud_storage_maintenance_remove_server_lock_description"
-msgid ""
-"<b>Remove server lock</b> - In order to prevent simultaneous access to "
-"the data on the cloud server, it is locked during the sync process. In "
-"case of some errors, e.g. network failures, it may be that the server "
-"remains locked. The locks time-out automatically after a few minutes, but"
-" you can also manually remove them immediately if you know for sure that "
-"it is an error."
-msgstr ""
-"<b>حذف قفل سرور</b> - به منظور جلوگیری از دسترسی همزمان به داده های موجود"
-" در سرور ابری ، در طی فرآیند همگام سازی قفل می شود. در صورت بروز برخی "
-"خطاها ، به عنوان مثال در خرابی های شبکه ، ممکن است سرور قفل شده است. قفل "
-"زمان بعد از چند دقیقه به طور خودکار انجام می شود ، اما اگر شما مطمئن "
-"هستید که این یک خطا است ، می توانید بلافاصله آن ها را دستی حذف کنید."
-
-msgctxt "cloud_storage_maintenance_remove_server_lock_button"
-msgid "Remove server lock"
-msgstr "برداشتن قفل سرور"
-
-msgctxt "cloud_storage_maintenance_reset_server_cache_description"
-msgid ""
-"<b>Reset server cache</b> - The cloud server maintains a cache of images "
-"stored on them. If you delete or add files manually on the server, this "
-"is not seen by the cache. You may reset the server cache to run a full "
-"scan during the next sync. However, note that a full scan may take a long"
-" time if you have many images."
-msgstr ""
-"<b>بازنشانی حافظه پنهان سرور</b> - سرور ابری حافظه پنهانی عکس های ذخیره "
-"شده روی آن ها را حفظ می کند. اگر فایل ها را به صورت دستی در سرور حذف یا "
-"اضافه کنید ، این توسط حافظه پنهان دیده نمی شود. شما می توانید حافظه پنهان"
-" سرور را تنظیم کنید تا در هنگام همگام سازی بعدی اسکن کامل انجام شود. با "
-"این حال ، توجه داشته باشید که اگر عکس های زیادی داشته باشید ، اسکن کامل "
-"ممکن است طولانی شود."
-
-msgctxt "cloud_storage_maintenance_reset_server_cache_button"
-msgid "Reset server cache"
-msgstr "راه اندازی حافظه پنهان سرور"
-
-msgctxt "cloud_storage_maintenance_reset_sync_state_description"
-msgid ""
-"<b>Reset sync state</b> - The next sync will start with no preknowledge "
-"about the data on each side. This means, e.g., that locally deleted "
-"images will be downloaded again from the server instead of being deleted "
-"on the server. There are few cases where resetting the stored sync state "
-"is needed."
-msgstr ""
-"<b>تنظیم مجدد حالت همگام سازی</b> - همگام سازی بعدی بدون تایید در مورد "
-"داده های هر طرف شروع نمی شود. این به این معنی است که به عنوان مثال ، عکس "
-"های محلی که پاک شده اند به جای اینکه در سرور حذف شوند ، دوباره از سرور "
-"دانلود می شوند. موارد کمی وجود دارد که به تنظیم مجدد حالت همگام سازی "
-"ذخیره شده نیاز باشد."
-
-msgctxt "cloud_storage_maintenance_reset_sync_state_button"
-msgid "Reset sync state"
-msgstr "تنظیم مجدد حالت همگام سازی"
-
 msgctxt "cloud_storage_maintenance_notifcation_progress_title"
 msgid "Cloud server maintenance"
 msgstr "تعمیر و نگهداری سرور ابری"
-
-msgctxt "cloud_storage_maintenance_remove_server_lock_notifcation_progress_text"
-msgid "Removing cloud server lock…"
-msgstr "در حال حذف قفل سرور ابری…"
-
-msgctxt "cloud_storage_maintenance_remove_server_lock_notifcation_result_title"
-msgid "Removing cloud server lock"
-msgstr "در حال حذف قفل سرور ابری"
-
-msgctxt "cloud_storage_maintenance_remove_server_lock_ok"
-msgid "Successfully removed server lock."
-msgstr "قفل سرور با موفقیت حذف شد."
-
-msgctxt "cloud_storage_maintenance_remove_server_lock_error_no_lock"
-msgid "There was no server lock."
-msgstr ""
-
-msgctxt "cloud_storage_maintenance_remove_server_lock_error"
-msgid "Could not remove server lock file '{}'."
-msgstr ""
-
-msgctxt "cloud_storage_maintenance_reset_server_cache_notification_progress_text"
-msgid "Resetting cloud server cache…"
-msgstr "بازنشانی حافظه پنهان سرور ابری…"
-
-msgctxt "cloud_storage_maintenance_reset_server_cache_notification_result_title"
-msgid "Resetting cloud server cache"
-msgstr "بازنشانی حافظه پنهان سرور ابری"
-
-msgctxt "cloud_storage_maintenance_reset_server_cache_ok"
-msgid "Successfully resetted server cache."
-msgstr "حافظه پنهان سرور با موفقیت راه اندازی شد."
-
-msgctxt "cloud_storage_maintenance_reset_server_cache_error"
-msgid "Could not remove server cache file '{}'."
-msgstr ""
-
-msgctxt "cloud_storage_maintenance_reset_sync_state_notification_progress_text"
-msgid "Resetting sync state…"
-msgstr "بازنشانی حالت همگام سازی…"
-
-msgctxt "cloud_storage_maintenance_reset_sync_state_notification_result_title"
-msgid "Resetting sync state"
-msgstr "حالت همگام سازی با موفقیت تنظیم شد."
-
-msgctxt "cloud_storage_maintenance_reset_sync_state_ok"
-msgid "Successfully resetted sync state."
-msgstr "حالت همگام سازی با موفقیت تنظیم شد."
-
-msgctxt "cloud_storage_maintenance_reset_sync_state_error"
-msgid "Could not reset sync state."
-msgstr ""
 
 #. === editor ===
 #. add
@@ -4301,34 +4193,10 @@ msgctxt "editor_dialog_style_circle_title"
 msgid "Circle style"
 msgstr "سبک دایره"
 
-msgctxt "circle_radius_prefix"
-msgid "r:"
-msgstr "r:"
-
-msgctxt "circle_area_prefix"
-msgid "A:"
-msgstr "A:"
-
-msgctxt "circle_circumference_prefix"
-msgid "C:"
-msgstr "C:"
-
-msgctxt "circle_arc_length_prefix"
-msgid "s:"
-msgstr "s:"
-
 #. GRectangle
 msgctxt "editor_dialog_style_rectangle_title"
 msgid "Rectangle style"
 msgstr "سبک مستطیل"
-
-msgctxt "rectangle_area_prefix"
-msgid "A:"
-msgstr "A:"
-
-msgctxt "rectangle_perimeter_prefix"
-msgid "P:"
-msgstr "P:"
 
 #. GDimString
 msgctxt "editor_dialog_style_dimstring_title"
@@ -4633,10 +4501,6 @@ msgstr "از پیش تعیین شده ..."
 msgctxt "textbox_text_preset_open_prefs"
 msgid "(Define presets …)"
 msgstr "(تعریف ایستگاه از پیش تنظیم شده ...)"
-
-msgctxt "textbox_hint_undefined_text"
-msgid "click to enter text"
-msgstr "برای وارد کردن متن کلیک کنید"
 
 msgctxt "textbox_audio_notes_title"
 msgid "Audio note"
