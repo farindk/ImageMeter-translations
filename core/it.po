@@ -1418,6 +1418,10 @@ msgctxt "editor:rectref:standard-size:credit-card"
 msgid "Credit card"
 msgstr "Carta di credito"
 
+msgctxt "editor:text:undefined-text-placeholder"
+msgid "click to enter text"
+msgstr "cliccare per inserire il testo"
+
 #, fuzzy
 msgctxt "editor:image-modified-dialog:title"
 msgid "Image has been modified"
@@ -1962,6 +1966,34 @@ msgstr "Nota di testo"
 msgctxt "prefs:editor:drawing-tools:textbox:preset-texts:title"
 msgid "Preset texts"
 msgstr "Testi preimpostati"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:general-area"
+msgid "A:"
+msgstr "A:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:general-perimeter"
+msgid "P:"
+msgstr "P:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-radius"
+msgid "r:"
+msgstr "r:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-diameter"
+msgid "d:"
+msgstr ""
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-area"
+msgid "A:"
+msgstr "A:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-circumference"
+msgid "C:"
+msgstr "C:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-arc-length"
+msgid "s:"
+msgstr "s:"
 
 #, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing"
@@ -2564,7 +2596,13 @@ msgid ""
 "locked. The locks time-out automatically after a few minutes, but you can "
 "also manually remove them immediately if you know for sure that it is an "
 "error."
-msgstr "<b>Rimuovi blocco server</b>: per impedire l'accesso simultaneo ai dati sul server cloud, viene bloccato durante il processo di sincronizzazione. In caso di errori, ad es. errori di rete, è possibile che il server rimanga bloccato. I blocchi scadono automaticamente dopo alcuni minuti, ma puoi anche rimuoverli manualmente immediatamente se sai per certo che si tratta di un errore."
+msgstr ""
+"<b>Rimuovi blocco server</b>: per impedire l'accesso simultaneo ai dati sul "
+"server cloud, viene bloccato durante il processo di sincronizzazione. In "
+"caso di errori, ad es. errori di rete, è possibile che il server rimanga "
+"bloccato. I blocchi scadono automaticamente dopo alcuni minuti, ma puoi "
+"anche rimuoverli manualmente immediatamente se sai per certo che si tratta "
+"di un errore."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-button"
@@ -2579,7 +2617,13 @@ msgid ""
 "not seen by the cache. You may reset the server cache to run a full scan "
 "during the next sync. However, note that a full scan may take a long time if "
 "you have many images."
-msgstr "<b>Reimposta cache del server</b>: il server cloud conserva una cache di immagini memorizzate su di essi. Se elimini o aggiungi file manualmente sul server, ciò non viene visto dalla cache. È possibile ripristinare la cache del server per eseguire una scansione completa durante la sincronizzazione successiva. Tuttavia, tieni presente che una scansione completa potrebbe richiedere molto tempo se hai molte immagini."
+msgstr ""
+"<b>Reimposta cache del server</b>: il server cloud conserva una cache di "
+"immagini memorizzate su di essi. Se elimini o aggiungi file manualmente sul "
+"server, ciò non viene visto dalla cache. È possibile ripristinare la cache "
+"del server per eseguire una scansione completa durante la sincronizzazione "
+"successiva. Tuttavia, tieni presente che una scansione completa potrebbe "
+"richiedere molto tempo se hai molte immagini."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-button"
@@ -2593,7 +2637,13 @@ msgid ""
 "about the data on each side. This means, e.g., that locally deleted images "
 "will be downloaded again from the server instead of being deleted on the "
 "server. There are few cases where resetting the stored sync state is needed."
-msgstr "<b>Reimposta stato sincronizzazione</b>: la sincronizzazione successiva inizierà senza alcuna conoscenza preliminare dei dati su ciascun lato. Ciò significa, ad esempio, che le immagini eliminate localmente verranno scaricate di nuovo dal server invece di essere eliminate sul server. Ci sono pochi casi in cui è necessario ripristinare lo stato di sincronizzazione memorizzato."
+msgstr ""
+"<b>Reimposta stato sincronizzazione</b>: la sincronizzazione successiva "
+"inizierà senza alcuna conoscenza preliminare dei dati su ciascun lato. Ciò "
+"significa, ad esempio, che le immagini eliminate localmente verranno "
+"scaricate di nuovo dal server invece di essere eliminate sul server. Ci sono "
+"pochi casi in cui è necessario ripristinare lo stato di sincronizzazione "
+"memorizzato."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-button"
@@ -3133,6 +3183,4 @@ msgstr "impostazione della radice della libreria di immagini"
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
-
-
 

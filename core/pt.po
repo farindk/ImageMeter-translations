@@ -1442,6 +1442,10 @@ msgctxt "editor:rectref:standard-size:credit-card"
 msgid "Credit card"
 msgstr "Cartão de crédito"
 
+msgctxt "editor:text:undefined-text-placeholder"
+msgid "click to enter text"
+msgstr "clicar para inserir texto"
+
 #, fuzzy
 msgctxt "editor:image-modified-dialog:title"
 msgid "Image has been modified"
@@ -1986,6 +1990,34 @@ msgstr "Nota de texto"
 msgctxt "prefs:editor:drawing-tools:textbox:preset-texts:title"
 msgid "Preset texts"
 msgstr "Textos pré-definidos"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:general-area"
+msgid "A:"
+msgstr "A:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:general-perimeter"
+msgid "P:"
+msgstr "P:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-radius"
+msgid "r:"
+msgstr "r:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-diameter"
+msgid "d:"
+msgstr ""
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-area"
+msgid "A:"
+msgstr "A:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-circumference"
+msgid "C:"
+msgstr "C:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-arc-length"
+msgid "s:"
+msgstr "s:"
 
 #, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing"
@@ -2585,7 +2617,13 @@ msgid ""
 "locked. The locks time-out automatically after a few minutes, but you can "
 "also manually remove them immediately if you know for sure that it is an "
 "error."
-msgstr "<b>Remover bloqueio do servidor</b> - Para impedir o acesso simultâneo aos dados no servidor em nuvem, eles são bloqueados durante o processo de sincronização. No caso de alguns erros, p. falhas de rede, pode ser que o servidor permaneça bloqueado. Os bloqueios atingem o tempo limite automaticamente após alguns minutos, mas você também pode removê-los manualmente imediatamente se tiver certeza de que é um erro."
+msgstr ""
+"<b>Remover bloqueio do servidor</b> - Para impedir o acesso simultâneo aos "
+"dados no servidor em nuvem, eles são bloqueados durante o processo de "
+"sincronização. No caso de alguns erros, p. falhas de rede, pode ser que o "
+"servidor permaneça bloqueado. Os bloqueios atingem o tempo limite "
+"automaticamente após alguns minutos, mas você também pode removê-los "
+"manualmente imediatamente se tiver certeza de que é um erro."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-button"
@@ -2600,7 +2638,13 @@ msgid ""
 "not seen by the cache. You may reset the server cache to run a full scan "
 "during the next sync. However, note that a full scan may take a long time if "
 "you have many images."
-msgstr "<b>Redefinir cache do servidor</b> - O servidor em nuvem mantém um cache de imagens armazenadas neles. Se você excluir ou adicionar arquivos manualmente no servidor, isso não será visto pelo cache. Você pode redefinir o cache do servidor para executar uma verificação completa durante a próxima sincronização. No entanto, observe que uma digitalização completa pode demorar muito se você tiver muitas imagens."
+msgstr ""
+"<b>Redefinir cache do servidor</b> - O servidor em nuvem mantém um cache de "
+"imagens armazenadas neles. Se você excluir ou adicionar arquivos manualmente "
+"no servidor, isso não será visto pelo cache. Você pode redefinir o cache do "
+"servidor para executar uma verificação completa durante a próxima "
+"sincronização. No entanto, observe que uma digitalização completa pode "
+"demorar muito se você tiver muitas imagens."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-button"
@@ -2614,7 +2658,12 @@ msgid ""
 "about the data on each side. This means, e.g., that locally deleted images "
 "will be downloaded again from the server instead of being deleted on the "
 "server. There are few cases where resetting the stored sync state is needed."
-msgstr "<b>Redefinir estado de sincronização</b> - A próxima sincronização será iniciada sem pré-conhecimento sobre os dados de cada lado. Isso significa, por exemplo, que imagens excluídas localmente serão baixadas novamente do servidor em vez de serem excluídas no servidor. Existem poucos casos em que é necessário redefinir o estado de sincronização armazenada."
+msgstr ""
+"<b>Redefinir estado de sincronização</b> - A próxima sincronização será "
+"iniciada sem pré-conhecimento sobre os dados de cada lado. Isso significa, "
+"por exemplo, que imagens excluídas localmente serão baixadas novamente do "
+"servidor em vez de serem excluídas no servidor. Existem poucos casos em que "
+"é necessário redefinir o estado de sincronização armazenada."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-button"
@@ -3153,6 +3202,4 @@ msgstr "configurando a raiz da biblioteca de imagens"
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
-
-
 

@@ -1426,6 +1426,10 @@ msgctxt "editor:rectref:standard-size:credit-card"
 msgid "Credit card"
 msgstr "Kreditní karta"
 
+msgctxt "editor:text:undefined-text-placeholder"
+msgid "click to enter text"
+msgstr "klikněte pro zadání textu"
+
 #, fuzzy
 msgctxt "editor:image-modified-dialog:title"
 msgid "Image has been modified"
@@ -1989,6 +1993,34 @@ msgstr "Textová poznámka"
 msgctxt "prefs:editor:drawing-tools:textbox:preset-texts:title"
 msgid "Preset texts"
 msgstr "Přednastavené texty"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:general-area"
+msgid "A:"
+msgstr "A:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:general-perimeter"
+msgid "P:"
+msgstr "P:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-radius"
+msgid "r:"
+msgstr "r:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-diameter"
+msgid "d:"
+msgstr ""
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-area"
+msgid "A:"
+msgstr "A:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-circumference"
+msgid "C:"
+msgstr "C:"
+
+msgctxt "prefs:editor:drawing-tools:prefix-text:circle-arc-length"
+msgid "s:"
+msgstr "s:"
 
 #, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing"
@@ -2586,7 +2618,13 @@ msgid ""
 "locked. The locks time-out automatically after a few minutes, but you can "
 "also manually remove them immediately if you know for sure that it is an "
 "error."
-msgstr "<b>Odebrat zámek serveru</b> - Aby se zabránilo současnému přístupu k datům na cloudovém serveru, je během procesu synchronizace uzamčen. V případě některých chyb, např. Pokud dojde k selhání sítě, je možné, že server zůstává zamčený. Časový limit zámků se automaticky spustí po několika minutách, ale můžete je také ručně odstranit okamžitě, pokud víte, že se jedná o chybu."
+msgstr ""
+"<b>Odebrat zámek serveru</b> - Aby se zabránilo současnému přístupu k datům "
+"na cloudovém serveru, je během procesu synchronizace uzamčen. V případě "
+"některých chyb, např. Pokud dojde k selhání sítě, je možné, že server "
+"zůstává zamčený. Časový limit zámků se automaticky spustí po několika "
+"minutách, ale můžete je také ručně odstranit okamžitě, pokud víte, že se "
+"jedná o chybu."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-button"
@@ -2601,7 +2639,12 @@ msgid ""
 "not seen by the cache. You may reset the server cache to run a full scan "
 "during the next sync. However, note that a full scan may take a long time if "
 "you have many images."
-msgstr "<b>Obnovit mezipaměť serveru</b> - Cloudový server udržuje mezipaměť obrázků uložených v nich. Pokud odstraníte nebo přidáte soubory ručně na serveru, mezipaměť to neuvidí. Můžete resetovat mezipaměť serveru a spustit další kontrolu během další synchronizace. Pokud však máte mnoho obrázků, úplné skenování může trvat dlouho."
+msgstr ""
+"<b>Obnovit mezipaměť serveru</b> - Cloudový server udržuje mezipaměť obrázků "
+"uložených v nich. Pokud odstraníte nebo přidáte soubory ručně na serveru, "
+"mezipaměť to neuvidí. Můžete resetovat mezipaměť serveru a spustit další "
+"kontrolu během další synchronizace. Pokud však máte mnoho obrázků, úplné "
+"skenování může trvat dlouho."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-button"
@@ -2615,7 +2658,12 @@ msgid ""
 "about the data on each side. This means, e.g., that locally deleted images "
 "will be downloaded again from the server instead of being deleted on the "
 "server. There are few cases where resetting the stored sync state is needed."
-msgstr "<b>Obnovit stav synchronizace</b> - Následující synchronizace začne bez překonání informací o datech na každé straně. To například znamená, že lokálně smazané obrázky budou staženy znovu ze serveru místo toho, aby byly odstraněny na serveru. Existuje několik případů, kdy je třeba resetovat uložený stav synchronizace."
+msgstr ""
+"<b>Obnovit stav synchronizace</b> - Následující synchronizace začne bez "
+"překonání informací o datech na každé straně. To například znamená, že "
+"lokálně smazané obrázky budou staženy znovu ze serveru místo toho, aby byly "
+"odstraněny na serveru. Existuje několik případů, kdy je třeba resetovat "
+"uložený stav synchronizace."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-button"
@@ -3154,6 +3202,4 @@ msgstr "nastavení kořenového adresáře knihovny obrázků"
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
-
-
 
