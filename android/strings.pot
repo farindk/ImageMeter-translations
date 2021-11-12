@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-11 19:38+0100\n"
+"POT-Creation-Date: 2021-11-12 21:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -478,6 +478,11 @@ msgctxt "upgradeDialog_addonPrice_monthly"
 msgid "%1$s/month"
 msgstr ""
 
+#, c-format
+msgctxt "upgradeDialog_addonPrice_monthly_and_yearly"
+msgid "%1$s/month or %2$s/year"
+msgstr ""
+
 msgctxt "upgradeDialog_addonPrice_firstMonthFree"
 msgid "First month free"
 msgstr ""
@@ -496,6 +501,16 @@ msgstr ""
 
 msgctxt "upgradeDialog_purchaseButton_business"
 msgid "Upgrade to Business"
+msgstr ""
+
+#, c-format
+msgctxt "upgradeDialog_purchaseButton_business_monthly"
+msgid "Upgrade (%1$s/month)"
+msgstr ""
+
+#, c-format
+msgctxt "upgradeDialog_purchaseButton_business_yearly"
+msgid "Upgrade (%1$s/year)"
 msgstr ""
 
 msgctxt "upgradeDialog_purchaseButton_disabled_addonIsActive"

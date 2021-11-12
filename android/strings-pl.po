@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-11 19:38+0100\n"
+"POT-Creation-Date: 2021-11-12 21:48+0100\n"
 "PO-Revision-Date: 2021-01-11 19:56+0100\n"
 "Last-Translator: \n"
 "Language: pl\n"
@@ -489,6 +489,11 @@ msgctxt "upgradeDialog_addonPrice_monthly"
 msgid "%1$s/month"
 msgstr "%1$s/miesiąc"
 
+#, c-format, fuzzy
+msgctxt "upgradeDialog_addonPrice_monthly_and_yearly"
+msgid "%1$s/month or %2$s/year"
+msgstr "%1$s/miesiąc lub %2$s/rok"
+
 msgctxt "upgradeDialog_addonPrice_firstMonthFree"
 msgid "First month free"
 msgstr "Pierwszy miesiąc za darmo"
@@ -509,6 +514,16 @@ msgstr "Uzyskaj podstawową aktualizację"
 msgctxt "upgradeDialog_purchaseButton_business"
 msgid "Upgrade to Business"
 msgstr "Uaktualnij do wersji Biznesowej"
+
+#, c-format, fuzzy
+msgctxt "upgradeDialog_purchaseButton_business_monthly"
+msgid "Upgrade (%1$s/month)"
+msgstr "Uaktualnij (%1$s/month)"
+
+#, c-format, fuzzy
+msgctxt "upgradeDialog_purchaseButton_business_yearly"
+msgid "Upgrade (%1$s/year)"
+msgstr "Uaktualnij (%1$s/rok)"
 
 msgctxt "upgradeDialog_purchaseButton_disabled_addonIsActive"
 msgid "Add-on is active"

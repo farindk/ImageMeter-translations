@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-11 19:38+0100\n"
+"POT-Creation-Date: 2021-11-12 21:48+0100\n"
 "PO-Revision-Date: 2020-06-11 20:22+0200\n"
 "Last-Translator: \n"
 "Language: el\n"
@@ -559,6 +559,11 @@ msgctxt "upgradeDialog_addonPrice_monthly"
 msgid "%1$s/month"
 msgstr "%1$s/μήνα"
 
+#, c-format, fuzzy
+msgctxt "upgradeDialog_addonPrice_monthly_and_yearly"
+msgid "%1$s/month or %2$s/year"
+msgstr "%1$s/μήνα ή %2$s/έτος"
+
 #, fuzzy
 msgctxt "upgradeDialog_addonPrice_firstMonthFree"
 msgid "First month free"
@@ -583,6 +588,16 @@ msgstr "Λάβετε βασική αναβάθμιση"
 msgctxt "upgradeDialog_purchaseButton_business"
 msgid "Upgrade to Business"
 msgstr "Αναβάθμιση σε Business"
+
+#, c-format, fuzzy
+msgctxt "upgradeDialog_purchaseButton_business_monthly"
+msgid "Upgrade (%1$s/month)"
+msgstr "Αναβάθμιση (%1$s/μήνα)"
+
+#, c-format, fuzzy
+msgctxt "upgradeDialog_purchaseButton_business_yearly"
+msgid "Upgrade (%1$s/year)"
+msgstr "Αναβάθμιση (%1$s/έτος)"
 
 #, fuzzy
 msgctxt "upgradeDialog_purchaseButton_disabled_addonIsActive"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-11 19:38+0100\n"
+"POT-Creation-Date: 2021-11-12 21:48+0100\n"
 "PO-Revision-Date: 2021-02-09 11:36+0100\n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -501,6 +501,11 @@ msgctxt "upgradeDialog_addonPrice_monthly"
 msgid "%1$s/month"
 msgstr "%1$s/месяц"
 
+#, c-format, fuzzy
+msgctxt "upgradeDialog_addonPrice_monthly_and_yearly"
+msgid "%1$s/month or %2$s/year"
+msgstr "%1$s/месяц или %2$s/год"
+
 msgctxt "upgradeDialog_addonPrice_firstMonthFree"
 msgid "First month free"
 msgstr "Первый месяц бесплатно"
@@ -521,6 +526,16 @@ msgstr "Получить базовое обновление"
 msgctxt "upgradeDialog_purchaseButton_business"
 msgid "Upgrade to Business"
 msgstr "Перейти на Бизнес"
+
+#, c-format, fuzzy
+msgctxt "upgradeDialog_purchaseButton_business_monthly"
+msgid "Upgrade (%1$s/month)"
+msgstr "Перейти (%1$s/месяц)"
+
+#, c-format, fuzzy
+msgctxt "upgradeDialog_purchaseButton_business_yearly"
+msgid "Upgrade (%1$s/year)"
+msgstr "Перейти (%1$s/год)"
 
 msgctxt "upgradeDialog_purchaseButton_disabled_addonIsActive"
 msgid "Add-on is active"
