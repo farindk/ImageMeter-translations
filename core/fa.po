@@ -518,6 +518,18 @@ msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
 msgstr ""
 
+msgctxt "error:CloudBackend_OneDrive_DirectoryNotSet"
+msgid "OneDrive server data directory is not set"
+msgstr ""
+
+msgctxt "error:CloudBackend_GoogleDrive_DirectoryNotSet"
+msgid "Google Drive server data directory is not set"
+msgstr ""
+
+msgctxt "error:CloudBackend_Filesystem_DirectoryNotSet"
+msgid "Storage directory is not set"
+msgstr ""
+
 msgctxt "error:HTTP-error-400"
 msgid "400 : Bad Request"
 msgstr ""
@@ -626,6 +638,10 @@ msgstr "دسترسی به دایرکتوری '{}' نیاز به مجوز ذخی�
 msgctxt "error:Android_Import_SecurityException"
 msgid "Security exception when accessing URI '{}'."
 msgstr "استثناء امنیتی هنگام دسترسی به URL '{}'."
+
+msgctxt "error:Android_Import_IllegalStateException"
+msgid "Illegal state exception when accessing URI '{}'"
+msgstr ""
 
 msgctxt "error:Android_InsertImageIntoGallery"
 msgid "Cannot insert image into gallery ({})."
@@ -2257,6 +2273,10 @@ msgctxt "sync:task:backend-options:descr:onedrive"
 msgid "OneDrive directory '{0}'"
 msgstr ""
 
+msgctxt "sync:task:backend-options:descr:googledrive"
+msgid "Google Drive directory '{0}'"
+msgstr ""
+
 msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
 msgstr ""
@@ -2347,6 +2367,18 @@ msgstr "حالت همگام سازی با موفقیت تنظیم شد."
 msgctxt "sync:server-maintenance:reset-sync-state:result:success"
 msgid "Successfully resetted sync state."
 msgstr "حالت همگام سازی با موفقیت تنظیم شد."
+
+msgctxt "sync:oauth2:browser-message:successful-login:googledrive"
+msgid ""
+"You have successfully logged into GoogleDrive. You can close this tab and "
+"return to ImageMeter now."
+msgstr ""
+
+msgctxt "sync:oauth2:browser-message:successful-login:onedrive"
+msgid ""
+"You have successfully logged into OneDrive. You can close this tab and "
+"return to ImageMeter now."
+msgstr ""
 
 msgctxt "license:source:android-in-app"
 msgid "In-app"
@@ -2745,4 +2777,3 @@ msgstr "تنظیم ریشه کتابخانه عکس"
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
-

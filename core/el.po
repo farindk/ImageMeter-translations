@@ -626,6 +626,18 @@ msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
 msgstr "Δεν ήταν δυνατή η επαναφορά της κατάστασης συγχρονισμού."
 
+msgctxt "error:CloudBackend_OneDrive_DirectoryNotSet"
+msgid "OneDrive server data directory is not set"
+msgstr ""
+
+msgctxt "error:CloudBackend_GoogleDrive_DirectoryNotSet"
+msgid "Google Drive server data directory is not set"
+msgstr ""
+
+msgctxt "error:CloudBackend_Filesystem_DirectoryNotSet"
+msgid "Storage directory is not set"
+msgstr ""
+
 #, fuzzy
 msgctxt "error:HTTP-error-400"
 msgid "400 : Bad Request"
@@ -749,6 +761,10 @@ msgstr "Η πρόσβαση στον κατάλογο '{}' χρειάζεται 
 msgctxt "error:Android_Import_SecurityException"
 msgid "Security exception when accessing URI '{}'."
 msgstr "Εξαίρεση ασφαλείας κατά την πρόσβαση στο URI '{}'."
+
+msgctxt "error:Android_Import_IllegalStateException"
+msgid "Illegal state exception when accessing URI '{}'"
+msgstr ""
 
 #, fuzzy
 msgctxt "error:Android_InsertImageIntoGallery"
@@ -2669,6 +2685,10 @@ msgctxt "sync:task:backend-options:descr:onedrive"
 msgid "OneDrive directory '{0}'"
 msgstr ""
 
+msgctxt "sync:task:backend-options:descr:googledrive"
+msgid "Google Drive directory '{0}'"
+msgstr ""
+
 msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
 msgstr ""
@@ -2775,6 +2795,18 @@ msgstr "Επαναφορά κατάστασης συγχρονισμού"
 msgctxt "sync:server-maintenance:reset-sync-state:result:success"
 msgid "Successfully resetted sync state."
 msgstr "Επιτυχής επαναφορά της κατάστασης συγχρονισμού."
+
+msgctxt "sync:oauth2:browser-message:successful-login:googledrive"
+msgid ""
+"You have successfully logged into GoogleDrive. You can close this tab and "
+"return to ImageMeter now."
+msgstr ""
+
+msgctxt "sync:oauth2:browser-message:successful-login:onedrive"
+msgid ""
+"You have successfully logged into OneDrive. You can close this tab and "
+"return to ImageMeter now."
+msgstr ""
 
 #, fuzzy
 msgctxt "license:source:android-in-app"
@@ -3281,4 +3313,3 @@ msgstr ""
 #~ msgctxt "error:HTTP-error-406"
 #~ msgid "406: Not Acceptable"
 #~ msgstr "406: Μη αποδεκτό"
-

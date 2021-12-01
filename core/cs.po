@@ -606,6 +606,18 @@ msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
 msgstr "Stav synchronizace nelze resetovat."
 
+msgctxt "error:CloudBackend_OneDrive_DirectoryNotSet"
+msgid "OneDrive server data directory is not set"
+msgstr ""
+
+msgctxt "error:CloudBackend_GoogleDrive_DirectoryNotSet"
+msgid "Google Drive server data directory is not set"
+msgstr ""
+
+msgctxt "error:CloudBackend_Filesystem_DirectoryNotSet"
+msgid "Storage directory is not set"
+msgstr ""
+
 #, fuzzy
 msgctxt "error:HTTP-error-400"
 msgid "400 : Bad Request"
@@ -729,6 +741,10 @@ msgstr "Přístup do adresáře '{}' vyžaduje oprávnění k úložišti."
 msgctxt "error:Android_Import_SecurityException"
 msgid "Security exception when accessing URI '{}'."
 msgstr "Výjimka zabezpečení při přístupu k URI '{}'."
+
+msgctxt "error:Android_Import_IllegalStateException"
+msgid "Illegal state exception when accessing URI '{}'"
+msgstr ""
 
 #, fuzzy
 msgctxt "error:Android_InsertImageIntoGallery"
@@ -2607,6 +2623,10 @@ msgctxt "sync:task:backend-options:descr:onedrive"
 msgid "OneDrive directory '{0}'"
 msgstr ""
 
+msgctxt "sync:task:backend-options:descr:googledrive"
+msgid "Google Drive directory '{0}'"
+msgstr ""
+
 msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
 msgstr ""
@@ -2711,6 +2731,18 @@ msgstr "Resetování stavu synchronizace"
 msgctxt "sync:server-maintenance:reset-sync-state:result:success"
 msgid "Successfully resetted sync state."
 msgstr "Stav synchronizace byl úspěšně resetován."
+
+msgctxt "sync:oauth2:browser-message:successful-login:googledrive"
+msgid ""
+"You have successfully logged into GoogleDrive. You can close this tab and "
+"return to ImageMeter now."
+msgstr ""
+
+msgctxt "sync:oauth2:browser-message:successful-login:onedrive"
+msgid ""
+"You have successfully logged into OneDrive. You can close this tab and "
+"return to ImageMeter now."
+msgstr ""
 
 msgctxt "license:source:android-in-app"
 msgid "In-app"
@@ -3209,4 +3241,3 @@ msgstr "nastavení kořenového adresáře knihovny obrázků"
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
-
