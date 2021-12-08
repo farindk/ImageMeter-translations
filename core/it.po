@@ -1391,6 +1391,39 @@ msgctxt "zip-export:include-pdf-file"
 msgid "Include PDF file"
 msgstr "Includi file PDF"
 
+msgctxt "about-image:unknown-gps"
+msgid "no GPS coordinates"
+msgstr ""
+
+msgctxt "about-image:dialog-title"
+msgid "Image Information"
+msgstr ""
+
+msgctxt "about-image:image-name"
+msgid "Image Name"
+msgstr "Nome dell'immagine"
+
+msgctxt "about-image:capture-date"
+msgid "Capture Date"
+msgstr "Data di acquisizione"
+
+#, fuzzy
+msgctxt "about-image:creation-date"
+msgid "Creation Date"
+msgstr "Data di creazione"
+
+msgctxt "about-image:original-image-resolution"
+msgid "Original Image Resolution"
+msgstr "Risoluzione dell'immagine originale"
+
+msgctxt "about-image:gps-coordinates"
+msgid "GPS Coordinates"
+msgstr "Coordinate GPS"
+
+msgctxt "about-image:gps:show-on-map"
+msgid "Show on map"
+msgstr "Mostra sulla mappa"
+
 msgctxt "editor:attach:error_no_reference_to_attach_to"
 msgid ""
 "There is no reference in the image! You need to draw a reference in order to "
@@ -1881,6 +1914,38 @@ msgstr "Distanza unitaria"
 msgctxt "image-settings:canvas:unit-distance-hint"
 msgid "100 cm"
 msgstr "100 cm"
+
+#, fuzzy
+msgctxt "image-settings:secondary-label:title"
+msgid "Secondary Label"
+msgstr "Etichetta secondaria"
+
+#, fuzzy
+msgctxt "image-settings:secondary-label:mode"
+msgid "Mode"
+msgstr "Modalità"
+
+msgctxt "image-settings:secondary-label:no-secondary-label"
+msgid "No secondary label"
+msgstr ""
+
+msgctxt "image-settings:secondary-label:alternative-unit"
+msgid "Alternative unit"
+msgstr ""
+
+#, fuzzy
+msgctxt "image-settings:secondary-label:alternative-unit:unit"
+msgid "Unit"
+msgstr "Unità"
+
+msgctxt "image-settings:secondary-label:model-scale"
+msgid "Model scale"
+msgstr ""
+
+#, fuzzy
+msgctxt "image-settings:secondary-label:model-scale:scale"
+msgid "Scale"
+msgstr "Scala"
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
 msgid "Snap to object corners"
@@ -2605,6 +2670,10 @@ msgctxt "sync:task:backend-options:descr:googledrive"
 msgid "Google Drive directory '{0}'"
 msgstr ""
 
+msgctxt "sync:task:backend-options:descr:dropbox"
+msgid "Dropbox directory '{0}'"
+msgstr ""
+
 msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
 msgstr ""
@@ -2722,6 +2791,12 @@ msgctxt "sync:oauth2:browser-message:successful-login:onedrive"
 msgid ""
 "You have successfully logged into OneDrive. You can close this tab and "
 "return to ImageMeter now."
+msgstr ""
+
+msgctxt "sync:oauth2:browser-message:successful-login:dropbox"
+msgid ""
+"You have successfully logged into Dropbox. You can close this tab and return "
+"to ImageMeter now."
 msgstr ""
 
 msgctxt "license:source:android-in-app"
@@ -3222,3 +3297,4 @@ msgstr "impostazione della radice della libreria di immagini"
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
+
