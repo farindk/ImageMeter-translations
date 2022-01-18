@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-12-27 23:12+0100\n"
+"POT-Creation-Date: 2022-01-18 20:01+0100\n"
 "PO-Revision-Date: 2020-08-31 17:28+0200\n"
 "Last-Translator: \n"
 "Language: cs\n"
@@ -2670,26 +2670,6 @@ msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
 msgstr "Používají se odkazy na mapy"
 
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_dialog"
-msgid "Map provider"
-msgstr "Poskytovatel map"
-
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_choices:0"
-msgid "Google Maps"
-msgstr "Google mapy"
-
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_choices:1"
-msgid "Bing Maps"
-msgstr "Mapy Bing"
-
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_choices:2"
-msgid "OpenStreetMap"
-msgstr "OpenStreetMap"
-
 #. User interface
 msgctxt "pref_category_ui_general"
 msgid "General"
@@ -3518,54 +3498,9 @@ msgid "Template name:"
 msgstr "Název šablony:"
 
 #, fuzzy
-msgctxt "pref_dialog_template_add_title"
-msgid "Template type"
-msgstr "Typ šablony"
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_general_description"
-msgid ""
-"Choose the template that best matches your needs. You can further "
-"customize it later."
-msgstr ""
-"Vyberte si šablonu, která nejlépe odpovídá vašim potřebám. Později si jej"
-" můžete dále přizpůsobit."
-
-#, fuzzy
 msgctxt "pref_dialog_template_add_description_title"
 msgid "Template description:"
 msgstr "Popis šablony:"
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_custom"
-msgid ""
-"Each image fills one row in the table. You may assign a tag to each "
-"measurement. Each table column contains the measurement for a specific "
-"tag."
-msgstr ""
-"Každý obrázek vyplní jeden řádek v tabulce. Ke každému měření můžete "
-"přiřadit etiketa. Každý sloupec tabulky obsahuje měření pro konkrétní "
-"etiketa."
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_wall_area"
-msgid ""
-"This template is the basis for area computations. The area of some "
-"elements is added to the sum (e.g. walls), while other elements are "
-"subtracted (e.g. windows)."
-msgstr ""
-"Tato šablona je základem pro oblastní výpočty. K součtu se přičte plocha "
-"některých prvků (např. Stěny), zatímco jiné prvky se odečtou (např. "
-"Okna)."
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_parts_list"
-msgid ""
-"This template lets you generate bills of material, counting different "
-"objects, or summing the length of products (e.g. electrical cables)."
-msgstr ""
-"Tato šablona vám umožňuje generovat kusovníky, počítat různé předměty "
-"nebo sčítat délku produktů (např. Elektrických kabelů)."
 
 #, fuzzy
 msgctxt "pref_template_config_custom_edit_tags_description"
@@ -3659,26 +3594,6 @@ msgid "Text"
 msgstr "Text"
 
 #, fuzzy
-msgctxt "pref_template_custom_table_title"
-msgid "Custom Table Configuration"
-msgstr "Vlastní konfigurace tabulky"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_name"
-msgid "Table name"
-msgstr "Název tabulky"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_columns"
-msgid "Table columns"
-msgstr "Sloupce tabulky"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_columns_add"
-msgid "+ add column"
-msgstr "+ přidat sloupec"
-
-#, fuzzy
 msgctxt "pref_template_custom_tag_filter_info_title"
 msgid "Element filter"
 msgstr "Filtr prvků"
@@ -3689,118 +3604,6 @@ msgid ""
 "This tag may only be assigned to elements that have the selected "
 "measurement type."
 msgstr "Tuto etiketa lze přiřadit pouze k prvkům, které mají vybraný typ měření."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_content_info_title"
-msgid "Column content"
-msgstr "Obsah sloupce"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_content_info_description"
-msgid ""
-"Specify the cell content in this column. This can be either a measurement"
-" value that you annotated with a tag, or image metadata (e.g. image name,"
-" capture date)."
-msgstr ""
-"V tomto sloupci zadejte obsah buňky. Může to být buď naměřená hodnota, "
-"kterou jste označili tagem, nebo metadata obrázku (např. Název obrázku, "
-"datum pořízení)."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_measure_info_title"
-msgid "Measure selection"
-msgstr "Změřit výběr"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_measure_info_description"
-msgid ""
-"Here, you define which measurement of the tagged element to put into this"
-" column. E.g. for a circle you can choose between its area, radius, "
-"circumference, …"
-msgstr ""
-"Zde definujete, jaké měření tagovaného prvku vložíte do tohoto sloupce. "
-"Např. u kruhu si můžete vybrat mezi jeho oblastí, poloměrem, obvodem…"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_multiplevalues_info_title"
-msgid "Multiple values per cell"
-msgstr "Několik hodnot na buňku"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_multiplevalues_info_description"
-msgid ""
-"When several elements are assigned the same tag, several values will be "
-"placed into one cell. Here you can choose to sum these values, take their"
-" average, or other options instead of keeping all in one cell."
-msgstr ""
-"Když je stejné etiqueta přiřazeno několik prvků, bude do jedné buňky "
-"umístěno několik hodnot. Zde můžete zvolit součet těchto hodnot, vzít "
-"jejich průměr nebo jiné možnosti místo toho, aby byly všechny v jedné "
-"buňce."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_numColumns_info_title"
-msgid "Number of columns"
-msgstr "Počet sloupců"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_numColumns_info_description"
-msgid ""
-"Creates this number of columns to fill in values with this tag. Use this "
-"when you have several measurements with the same tag in one image."
-msgstr ""
-"Vytvoří tento počet sloupců k vyplnění hodnot touto značkou. Tuto možnost"
-" použijte, pokud máte několik měření se stejnou značkou na jednom "
-"obrázku."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer_info_title"
-msgid "Footer row content"
-msgstr "Obsah řádku v zápatí"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer_info_description"
-msgid ""
-"What to place in the footer row of the table. Options include the sum of "
-"all values in the column, the maximum, the average, and other options."
-msgstr ""
-"Co umístit do řady zápatí tabulky. Možnosti zahrnují součet všech hodnot "
-"ve sloupci, maximum, průměr a další možnosti."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_title"
-msgid "Column header"
-msgstr "Záhlaví sloupce"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_content"
-msgid "Content"
-msgstr "Obsah"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_label_type"
-msgid "Measure"
-msgstr "Opatření"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_conflict"
-msgid "Multiple values"
-msgstr "Více hodnot"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_num_separate_columns"
-msgid "Num. columns"
-msgstr "Č. sloupce"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer"
-msgid "Footer row"
-msgstr "Zápatí řada"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer_no_operation"
-msgid "Empty"
-msgstr "Prázdný"
 
 #, fuzzy
 msgctxt "pref_template_areasum_template_title"
@@ -3861,106 +3664,6 @@ msgstr "Rozložení tabulky seznamu dílů"
 msgctxt "pref_template_partslist_table_layout_title"
 msgid "Parts List Table Layout"
 msgstr "Rozložení tabulky seznamu dílů"
-
-#, fuzzy
-msgctxt "pref_template_partslist_table_name"
-msgid "Table name"
-msgstr "Název tabulky"
-
-#, fuzzy
-msgctxt "pref_template_partslist_section_column_config"
-msgid "Columns configuration"
-msgstr "Konfigurace sloupců"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number"
-msgid "Item number"
-msgstr "Číslo položky"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_none"
-msgid "None"
-msgstr "Žádný"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_only_element"
-msgid "Only item numbers"
-msgstr "Pouze čísla položek"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_only_image_in_image_row"
-msgid "Only image numbers, only in image row"
-msgstr "Pouze čísla obrázků, pouze v řádku obrázků"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_both_image_in_image_row"
-msgid "Both, but image numbers only in image row"
-msgstr "Obojí, ale čísla obrázků pouze v řádku obrázku"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_both_all_rows"
-msgid "Image and item numbers in all rows"
-msgstr "Čísla obrázků a položek ve všech řádcích"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_combines"
-msgid "Combine image and item numbers in one column"
-msgstr "Zkombinujte čísla obrázků a položek do jednoho sloupce"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_tag_name"
-msgid "Tag name"
-msgstr "Název etiqueta"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_comment"
-msgid "Comment"
-msgstr "Komentář"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_quantity"
-msgid "Quantity"
-msgstr "Množství"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_items"
-msgid "Item columns"
-msgstr "Sloupce položek"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_items_choices_used_tags"
-msgid "Only for used tags"
-msgstr "Pouze pro použité etiquety"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_items_choices_all_tags"
-msgid "For all tags"
-msgstr "Pro všechny etiquety"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_use_custom_titles"
-msgid "Use custom column titles"
-msgstr "Použijte vlastní názvy sloupců"
-
-#, fuzzy
-msgctxt "pref_template_partslist_section_row_config"
-msgid "Rows configuration"
-msgstr "Konfigurace řádků"
-
-#, fuzzy
-msgctxt "pref_template_partslist_row_show_image_name"
-msgid "Show rows with image names"
-msgstr "Zobrazit řádky s názvy obrázků"
-
-#, fuzzy
-msgctxt "pref_template_partslist_item_numbering_for_each_image"
-msgid "Independent item numbering for each image"
-msgstr "Nezávislé číslování položek pro každý obrázek"
-
-#, fuzzy
-msgctxt "pref_template_partslist_row_show_footer"
-msgid "Show footer row"
-msgstr "Zobrazit řádek zápatí"
 
 #. Preferences: Information
 msgctxt "pref_category_information_debugging"

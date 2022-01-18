@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-12-27 23:12+0100\n"
+"POT-Creation-Date: 2022-01-18 20:01+0100\n"
 "PO-Revision-Date: 2021-03-06 16:12+0100\n"
 "Last-Translator: \n"
 "Language: ak_GH\n"
@@ -2332,22 +2332,6 @@ msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
 msgstr "地圖鏈接使用"
 
-msgctxt "pref_export_general_map_link_provider_dialog"
-msgid "Map provider"
-msgstr "地圖提供者"
-
-msgctxt "pref_export_general_map_link_provider_choices:0"
-msgid "Google Maps"
-msgstr "谷歌地圖"
-
-msgctxt "pref_export_general_map_link_provider_choices:1"
-msgid "Bing Maps"
-msgstr "必應地圖"
-
-msgctxt "pref_export_general_map_link_provider_choices:2"
-msgid "OpenStreetMap"
-msgstr "OpenStreetMap"
-
 #. User interface
 msgctxt "pref_category_ui_general"
 msgid "General"
@@ -3039,39 +3023,9 @@ msgctxt "pref_template_template_name"
 msgid "Template name:"
 msgstr "模板名稱："
 
-msgctxt "pref_dialog_template_add_title"
-msgid "Template type"
-msgstr "模板類型"
-
-msgctxt "pref_dialog_template_add_general_description"
-msgid ""
-"Choose the template that best matches your needs. You can further "
-"customize it later."
-msgstr "選擇最符合您需求的模板。以後您可以對其進一步修改。"
-
 msgctxt "pref_dialog_template_add_description_title"
 msgid "Template description:"
 msgstr "模板說明："
-
-msgctxt "pref_dialog_template_add_description_custom"
-msgid ""
-"Each image fills one row in the table. You may assign a tag to each "
-"measurement. Each table column contains the measurement for a specific "
-"tag."
-msgstr "每個圖像的測量數值佔據表中的一行。您可以為每個測量數值分配一個標籤。每個表格列均包含特定標籤的度量。"
-
-msgctxt "pref_dialog_template_add_description_wall_area"
-msgid ""
-"This template is the basis for area computations. The area of some "
-"elements is added to the sum (e.g. walls), while other elements are "
-"subtracted (e.g. windows)."
-msgstr "該模板是面積計算的框架。一些元素的面積被添加到總和（例如牆），而其他元素的面積被減去（例如窗戶）。"
-
-msgctxt "pref_dialog_template_add_description_parts_list"
-msgid ""
-"This template lets you generate bills of material, counting different "
-"objects, or summing the length of products (e.g. electrical cables)."
-msgstr "使用此模板，您可以生成物料清單，計算不同的對像或累加產品的長度（例如電纜）。"
 
 msgctxt "pref_template_config_custom_edit_tags_description"
 msgid ""
@@ -3143,22 +3097,6 @@ msgctxt "templ_filter_text"
 msgid "Text"
 msgstr "文本"
 
-msgctxt "pref_template_custom_table_title"
-msgid "Custom Table Configuration"
-msgstr "自定義表配置"
-
-msgctxt "pref_template_custom_table_name"
-msgid "Table name"
-msgstr "表格名稱"
-
-msgctxt "pref_template_custom_table_columns"
-msgid "Table columns"
-msgstr "表格列"
-
-msgctxt "pref_template_custom_table_columns_add"
-msgid "+ add column"
-msgstr "+添加列"
-
 msgctxt "pref_template_custom_tag_filter_info_title"
 msgid "Element filter"
 msgstr "元素篩選器"
@@ -3168,90 +3106,6 @@ msgid ""
 "This tag may only be assigned to elements that have the selected "
 "measurement type."
 msgstr "該標籤只能配注給指定測量類型的元素。"
-
-msgctxt "pref_template_custom_table_column_content_info_title"
-msgid "Column content"
-msgstr "列內容"
-
-msgctxt "pref_template_custom_table_column_content_info_description"
-msgid ""
-"Specify the cell content in this column. This can be either a measurement"
-" value that you annotated with a tag, or image metadata (e.g. image name,"
-" capture date)."
-msgstr "指定此列的內容。它可以是配注了標籤的測量值，也可以是圖像元數據（例如，圖像名稱，拍攝日期）。"
-
-msgctxt "pref_template_custom_table_column_measure_info_title"
-msgid "Measure selection"
-msgstr "度量選擇"
-
-msgctxt "pref_template_custom_table_column_measure_info_description"
-msgid ""
-"Here, you define which measurement of the tagged element to put into this"
-" column. E.g. for a circle you can choose between its area, radius, "
-"circumference, …"
-msgstr "此處您可以定義此列收納的標記，所有帶次標記的測量數值歸位至此列。例如。對於圓，您可以在其面積，半徑，周長……之間進行選擇"
-
-msgctxt "pref_template_custom_table_column_multiplevalues_info_title"
-msgid "Multiple values per cell"
-msgstr "每個單元格有多個值"
-
-msgctxt "pref_template_custom_table_column_multiplevalues_info_description"
-msgid ""
-"When several elements are assigned the same tag, several values will be "
-"placed into one cell. Here you can choose to sum these values, take their"
-" average, or other options instead of keeping all in one cell."
-msgstr "帶同一個標籤的多個測量值將收納至同一個單元格中。此處，您可以對這些值求和，取其平均值或其他選項，取代將所有值都保留在一個單元格中。"
-
-msgctxt "pref_template_custom_table_column_numColumns_info_title"
-msgid "Number of columns"
-msgstr "列數"
-
-msgctxt "pref_template_custom_table_column_numColumns_info_description"
-msgid ""
-"Creates this number of columns to fill in values with this tag. Use this "
-"when you have several measurements with the same tag in one image."
-msgstr ""
-"創建指定數目的使用此標記的列。當一幅圖像包含多個具有相同標籤的測量時，請使用此功能。比如，一幅圖上有兩隻熊貓。熊貓媽媽的頭半徑爲 0.3 "
-"米，熊貓寶寶的頭半徑爲 0.1 米。 這兩個測量值都標注了標籤 “熊貓頭半徑”。因爲每幅圖只能佔據一行，所以您需要兩列來安排這兩個 “熊貓頭半徑”"
-" 的數值。"
-
-msgctxt "pref_template_custom_table_column_footer_info_title"
-msgid "Footer row content"
-msgstr "頁腳行內容"
-
-msgctxt "pref_template_custom_table_column_footer_info_description"
-msgid ""
-"What to place in the footer row of the table. Options include the sum of "
-"all values in the column, the maximum, the average, and other options."
-msgstr "指定表格頁腳行的內容。可以是列中所有值的總和，最大值，平均值或其他選項。"
-
-msgctxt "pref_template_custom_table_column_title"
-msgid "Column header"
-msgstr "列標題"
-
-msgctxt "pref_template_custom_table_column_content"
-msgid "Content"
-msgstr "內容"
-
-msgctxt "pref_template_custom_table_column_label_type"
-msgid "Measure"
-msgstr "度量"
-
-msgctxt "pref_template_custom_table_column_conflict"
-msgid "Multiple values"
-msgstr "多個值"
-
-msgctxt "pref_template_custom_table_column_num_separate_columns"
-msgid "Num. columns"
-msgstr "列數"
-
-msgctxt "pref_template_custom_table_column_footer"
-msgid "Footer row"
-msgstr "頁腳行"
-
-msgctxt "pref_template_custom_table_column_footer_no_operation"
-msgid "Empty"
-msgstr "空"
 
 msgctxt "pref_template_areasum_template_title"
 msgid "Area Sum Template Configuration"
@@ -3300,86 +3154,6 @@ msgstr "零件清單表佈局"
 msgctxt "pref_template_partslist_table_layout_title"
 msgid "Parts List Table Layout"
 msgstr "零件清單表佈局"
-
-msgctxt "pref_template_partslist_table_name"
-msgid "Table name"
-msgstr "表名"
-
-msgctxt "pref_template_partslist_section_column_config"
-msgid "Columns configuration"
-msgstr "列配置"
-
-msgctxt "pref_template_partslist_column_item_number"
-msgid "Item number"
-msgstr "零件編號"
-
-msgctxt "pref_template_partslist_column_item_number_choices_none"
-msgid "None"
-msgstr "沒有"
-
-msgctxt "pref_template_partslist_column_item_number_choices_only_element"
-msgid "Only item numbers"
-msgstr "僅零件編號"
-
-msgctxt "pref_template_partslist_column_item_number_choices_only_image_in_image_row"
-msgid "Only image numbers, only in image row"
-msgstr "僅圖像編號，僅在圖像行中"
-
-msgctxt "pref_template_partslist_column_item_number_choices_both_image_in_image_row"
-msgid "Both, but image numbers only in image row"
-msgstr "兩者都有，但是圖像編號僅在圖像行中"
-
-msgctxt "pref_template_partslist_column_item_number_choices_both_all_rows"
-msgid "Image and item numbers in all rows"
-msgstr "圖像編號和零件編號在所有行中"
-
-msgctxt "pref_template_partslist_column_item_number_choices_combines"
-msgid "Combine image and item numbers in one column"
-msgstr "將圖像和零件編號合併到一欄中"
-
-msgctxt "pref_template_partslist_column_tag_name"
-msgid "Tag name"
-msgstr "標籤名"
-
-msgctxt "pref_template_partslist_column_comment"
-msgid "Comment"
-msgstr "注釋"
-
-msgctxt "pref_template_partslist_column_quantity"
-msgid "Quantity"
-msgstr "數量"
-
-msgctxt "pref_template_partslist_column_items"
-msgid "Item columns"
-msgstr "零件列"
-
-msgctxt "pref_template_partslist_column_items_choices_used_tags"
-msgid "Only for used tags"
-msgstr "僅對已使用的標籤生成列"
-
-msgctxt "pref_template_partslist_column_items_choices_all_tags"
-msgid "For all tags"
-msgstr "對所有標籤生成列"
-
-msgctxt "pref_template_partslist_column_use_custom_titles"
-msgid "Use custom column titles"
-msgstr "使用自定義列標題"
-
-msgctxt "pref_template_partslist_section_row_config"
-msgid "Rows configuration"
-msgstr "行配置"
-
-msgctxt "pref_template_partslist_row_show_image_name"
-msgid "Show rows with image names"
-msgstr "行中顯示圖像名稱"
-
-msgctxt "pref_template_partslist_item_numbering_for_each_image"
-msgid "Independent item numbering for each image"
-msgstr "每個圖像中的零件獨立編號"
-
-msgctxt "pref_template_partslist_row_show_footer"
-msgid "Show footer row"
-msgstr "顯示頁腳行"
 
 #. Preferences: Information
 msgctxt "pref_category_information_debugging"

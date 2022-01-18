@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-12-27 23:12+0100\n"
+"POT-Creation-Date: 2022-01-18 20:01+0100\n"
 "PO-Revision-Date: 2020-06-11 20:22+0200\n"
 "Last-Translator: \n"
 "Language: el\n"
@@ -2714,26 +2714,6 @@ msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
 msgstr "Χρήση συνδέσμων χάρτη"
 
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_dialog"
-msgid "Map provider"
-msgstr "Πάροχος χαρτών"
-
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_choices:0"
-msgid "Google Maps"
-msgstr "Χάρτες Google"
-
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_choices:1"
-msgid "Bing Maps"
-msgstr "Χάρτες Bing"
-
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_choices:2"
-msgid "OpenStreetMap"
-msgstr "OpenStreetMap"
-
 #. User interface
 msgctxt "pref_category_ui_general"
 msgid "General"
@@ -3574,55 +3554,9 @@ msgid "Template name:"
 msgstr "Όνομα προτύπου:"
 
 #, fuzzy
-msgctxt "pref_dialog_template_add_title"
-msgid "Template type"
-msgstr "Τύπος προτύπου"
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_general_description"
-msgid ""
-"Choose the template that best matches your needs. You can further "
-"customize it later."
-msgstr ""
-"Επιλέξτε το πρότυπο που ταιριάζει καλύτερα στις ανάγκες σας. Μπορείτε να "
-"το προσαρμόσετε περαιτέρω αργότερα."
-
-#, fuzzy
 msgctxt "pref_dialog_template_add_description_title"
 msgid "Template description:"
 msgstr "Περιγραφή προτύπου:"
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_custom"
-msgid ""
-"Each image fills one row in the table. You may assign a tag to each "
-"measurement. Each table column contains the measurement for a specific "
-"tag."
-msgstr ""
-"Κάθε εικόνα γεμίζει μία γραμμή στον πίνακα. Μπορείτε να εκχωρήσετε μια "
-"ετικέτα σε κάθε μέτρηση. Κάθε στήλη πίνακα περιέχει τη μέτρηση για μια "
-"συγκεκριμένη ετικέτα."
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_wall_area"
-msgid ""
-"This template is the basis for area computations. The area of some "
-"elements is added to the sum (e.g. walls), while other elements are "
-"subtracted (e.g. windows)."
-msgstr ""
-"Αυτό το πρότυπο είναι η βάση για υπολογισμούς περιοχής. Το εμβαδόν "
-"ορισμένων στοιχείων προστίθεται στο άθροισμα (π.χ. τοίχοι), ενώ άλλα "
-"στοιχεία αφαιρούνται (π.χ. παράθυρα)."
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_parts_list"
-msgid ""
-"This template lets you generate bills of material, counting different "
-"objects, or summing the length of products (e.g. electrical cables)."
-msgstr ""
-"Αυτό το πρότυπο σάς επιτρέπει να δημιουργείτε λογαριασμούς υλικού, να "
-"μετράτε διαφορετικά αντικείμενα ή να αθροίζετε το μήκος των προϊόντων "
-"(π.χ. ηλεκτρικά καλώδια)."
 
 #, fuzzy
 msgctxt "pref_template_config_custom_edit_tags_description"
@@ -3717,26 +3651,6 @@ msgid "Text"
 msgstr "Κείμενο"
 
 #, fuzzy
-msgctxt "pref_template_custom_table_title"
-msgid "Custom Table Configuration"
-msgstr "Προσαρμοσμένη διαμόρφωση πίνακα"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_name"
-msgid "Table name"
-msgstr "Όνομα πίνακα"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_columns"
-msgid "Table columns"
-msgstr "Στήλες πίνακα"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_columns_add"
-msgid "+ add column"
-msgstr "+ προσθήκη στήλης"
-
-#, fuzzy
 msgctxt "pref_template_custom_tag_filter_info_title"
 msgid "Element filter"
 msgstr "Φίλτρο στοιχείων"
@@ -3749,120 +3663,6 @@ msgid ""
 msgstr ""
 "Αυτή η ετικέτα μπορεί να εκχωρηθεί μόνο σε στοιχεία που έχουν τον "
 "επιλεγμένο τύπο μέτρησης."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_content_info_title"
-msgid "Column content"
-msgstr "Περιεχόμενο στήλης"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_content_info_description"
-msgid ""
-"Specify the cell content in this column. This can be either a measurement"
-" value that you annotated with a tag, or image metadata (e.g. image name,"
-" capture date)."
-msgstr ""
-"Καθορίστε το περιεχόμενο του κελιού σε αυτήν τη στήλη. Αυτό μπορεί να "
-"είναι είτε μια τιμή μέτρησης που σχολιάσατε με μια ετικέτα, είτε "
-"μεταδεδομένα εικόνας (π.χ. όνομα εικόνας, ημερομηνία λήψης)."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_measure_info_title"
-msgid "Measure selection"
-msgstr "Μετρήστε την επιλογή"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_measure_info_description"
-msgid ""
-"Here, you define which measurement of the tagged element to put into this"
-" column. E.g. for a circle you can choose between its area, radius, "
-"circumference, …"
-msgstr ""
-"Εδώ, ορίζετε ποια μέτρηση του στοιχείου με ετικέτα πρέπει να τοποθετήσετε"
-" σε αυτήν τη στήλη. Π.χ. για έναν κύκλο μπορείτε να επιλέξετε ανάμεσα "
-"στην περιοχή, την ακτίνα, την περιφέρεια,…"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_multiplevalues_info_title"
-msgid "Multiple values per cell"
-msgstr "Πολλαπλές τιμές ανά κελί"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_multiplevalues_info_description"
-msgid ""
-"When several elements are assigned the same tag, several values will be "
-"placed into one cell. Here you can choose to sum these values, take their"
-" average, or other options instead of keeping all in one cell."
-msgstr ""
-"Όταν σε πολλά στοιχεία εκχωρηθεί η ίδια ετικέτα, πολλές τιμές θα "
-"τοποθετηθούν σε ένα κελί. Εδώ μπορείτε να επιλέξετε να αθροίσετε αυτές "
-"τις τιμές, να λάβετε τον μέσο όρο ή άλλες επιλογές αντί να τις "
-"διατηρήσετε σε ένα κελί."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_numColumns_info_title"
-msgid "Number of columns"
-msgstr "Αριθμός στηλών"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_numColumns_info_description"
-msgid ""
-"Creates this number of columns to fill in values with this tag. Use this "
-"when you have several measurements with the same tag in one image."
-msgstr ""
-"Δημιουργεί αυτόν τον αριθμό στηλών για συμπλήρωση τιμών με αυτήν την "
-"ετικέτα. Χρησιμοποιήστε αυτό όταν έχετε πολλές μετρήσεις με την ίδια "
-"ετικέτα σε μία εικόνα."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer_info_title"
-msgid "Footer row content"
-msgstr "Περιεχόμενο υποσέλιδου"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer_info_description"
-msgid ""
-"What to place in the footer row of the table. Options include the sum of "
-"all values in the column, the maximum, the average, and other options."
-msgstr ""
-"Τι να τοποθετήσετε στη σειρά του υποσέλιδου του πίνακα. Οι επιλογές "
-"περιλαμβάνουν το άθροισμα όλων των τιμών στη στήλη, το μέγιστο, το μέσο "
-"όρο και άλλες επιλογές."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_title"
-msgid "Column header"
-msgstr "Κεφαλίδα στήλης"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_content"
-msgid "Content"
-msgstr "Περιεχόμενο"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_label_type"
-msgid "Measure"
-msgstr "Μετρήσει"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_conflict"
-msgid "Multiple values"
-msgstr "Πολλαπλές τιμές"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_num_separate_columns"
-msgid "Num. columns"
-msgstr "Αριθμ. στήλες"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer"
-msgid "Footer row"
-msgstr "Σειρά υποσέλιδου"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer_no_operation"
-msgid "Empty"
-msgstr "Αδειάζω"
 
 #, fuzzy
 msgctxt "pref_template_areasum_template_title"
@@ -3923,106 +3723,6 @@ msgstr "Λίστα μερών Διάταξη πίνακα"
 msgctxt "pref_template_partslist_table_layout_title"
 msgid "Parts List Table Layout"
 msgstr "Λίστα μερών Διάταξη πίνακα"
-
-#, fuzzy
-msgctxt "pref_template_partslist_table_name"
-msgid "Table name"
-msgstr "Όνομα πίνακα"
-
-#, fuzzy
-msgctxt "pref_template_partslist_section_column_config"
-msgid "Columns configuration"
-msgstr "Διαμόρφωση στηλών"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number"
-msgid "Item number"
-msgstr "Αριθμός αντικειμένου"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_none"
-msgid "None"
-msgstr "Κανένας"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_only_element"
-msgid "Only item numbers"
-msgstr "Μόνο αριθμοί στοιχείων"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_only_image_in_image_row"
-msgid "Only image numbers, only in image row"
-msgstr "Μόνο αριθμοί εικόνας, μόνο στη σειρά εικόνας"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_both_image_in_image_row"
-msgid "Both, but image numbers only in image row"
-msgstr "Και τα δύο, αλλά οι αριθμοί εικόνας μόνο στη σειρά εικόνας"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_both_all_rows"
-msgid "Image and item numbers in all rows"
-msgstr "Αριθμοί εικόνας και στοιχείων σε όλες τις σειρές"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_combines"
-msgid "Combine image and item numbers in one column"
-msgstr "Συνδυάστε αριθμούς εικόνας και στοιχείων σε μια στήλη"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_tag_name"
-msgid "Tag name"
-msgstr "Όνομα ετικέτας"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_comment"
-msgid "Comment"
-msgstr "Σχόλιο"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_quantity"
-msgid "Quantity"
-msgstr "Ποσότητα"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_items"
-msgid "Item columns"
-msgstr "Στήλες στοιχείων"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_items_choices_used_tags"
-msgid "Only for used tags"
-msgstr "Μόνο για χρησιμοποιημένες ετικέτες"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_items_choices_all_tags"
-msgid "For all tags"
-msgstr "Για όλες τις ετικέτες"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_use_custom_titles"
-msgid "Use custom column titles"
-msgstr "Χρησιμοποιήστε προσαρμοσμένους τίτλους στηλών"
-
-#, fuzzy
-msgctxt "pref_template_partslist_section_row_config"
-msgid "Rows configuration"
-msgstr "Διαμόρφωση γραμμών"
-
-#, fuzzy
-msgctxt "pref_template_partslist_row_show_image_name"
-msgid "Show rows with image names"
-msgstr "Εμφάνιση σειρών με ονόματα εικόνων"
-
-#, fuzzy
-msgctxt "pref_template_partslist_item_numbering_for_each_image"
-msgid "Independent item numbering for each image"
-msgstr "Ανεξάρτητη αρίθμηση στοιχείων για κάθε εικόνα"
-
-#, fuzzy
-msgctxt "pref_template_partslist_row_show_footer"
-msgid "Show footer row"
-msgstr "Εμφάνιση γραμμής υποσέλιδου"
 
 #. Preferences: Information
 msgctxt "pref_category_information_debugging"

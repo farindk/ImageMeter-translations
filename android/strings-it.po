@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-12-27 23:12+0100\n"
+"POT-Creation-Date: 2022-01-18 20:01+0100\n"
 "PO-Revision-Date: 2020-08-31 17:56+0200\n"
 "Last-Translator: \n"
 "Language: it\n"
@@ -2675,26 +2675,6 @@ msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
 msgstr "I collegamenti alle mappe utilizzano"
 
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_dialog"
-msgid "Map provider"
-msgstr "Fornitore di mappe"
-
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_choices:0"
-msgid "Google Maps"
-msgstr "Google Maps"
-
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_choices:1"
-msgid "Bing Maps"
-msgstr "Mappe Bing"
-
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_choices:2"
-msgid "OpenStreetMap"
-msgstr "OpenStreetMap"
-
 #. User interface
 msgctxt "pref_category_ui_general"
 msgid "General"
@@ -3530,54 +3510,9 @@ msgid "Template name:"
 msgstr "Nome modello:"
 
 #, fuzzy
-msgctxt "pref_dialog_template_add_title"
-msgid "Template type"
-msgstr "Tipo di modello"
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_general_description"
-msgid ""
-"Choose the template that best matches your needs. You can further "
-"customize it later."
-msgstr ""
-"Scegli il modello più adatto alle tue esigenze. Puoi personalizzarlo "
-"ulteriormente in seguito."
-
-#, fuzzy
 msgctxt "pref_dialog_template_add_description_title"
 msgid "Template description:"
 msgstr "Descrizione del modello:"
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_custom"
-msgid ""
-"Each image fills one row in the table. You may assign a tag to each "
-"measurement. Each table column contains the measurement for a specific "
-"tag."
-msgstr ""
-"Ogni immagine riempie una riga nella tabella. Puoi assegnare un tag a "
-"ciascuna misurazione. Ogni colonna della tabella contiene la misurazione "
-"per un tag specifico."
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_wall_area"
-msgid ""
-"This template is the basis for area computations. The area of some "
-"elements is added to the sum (e.g. walls), while other elements are "
-"subtracted (e.g. windows)."
-msgstr ""
-"Questo modello è la base per i calcoli dell'area. Alla somma viene "
-"aggiunta l'area di alcuni elementi (es. muri), mentre altri elementi "
-"vengono sottratti (es. finestre)."
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_parts_list"
-msgid ""
-"This template lets you generate bills of material, counting different "
-"objects, or summing the length of products (e.g. electrical cables)."
-msgstr ""
-"Questo modello consente di generare distinte base, contare diversi "
-"oggetti o sommare la lunghezza dei prodotti (ad es. cavi elettrici)."
 
 #, fuzzy
 msgctxt "pref_template_config_custom_edit_tags_description"
@@ -3671,26 +3606,6 @@ msgid "Text"
 msgstr "Testo"
 
 #, fuzzy
-msgctxt "pref_template_custom_table_title"
-msgid "Custom Table Configuration"
-msgstr "Configurazione tabella personalizzata"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_name"
-msgid "Table name"
-msgstr "Nome della tabella"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_columns"
-msgid "Table columns"
-msgstr "Colonne della tabella"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_columns_add"
-msgid "+ add column"
-msgstr "+ aggiungi colonna"
-
-#, fuzzy
 msgctxt "pref_template_custom_tag_filter_info_title"
 msgid "Element filter"
 msgstr "Filtro elemento"
@@ -3703,119 +3618,6 @@ msgid ""
 msgstr ""
 "Questo tag può essere assegnato solo agli elementi che hanno il tipo di "
 "misurazione selezionato."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_content_info_title"
-msgid "Column content"
-msgstr "Contenuto della colonna"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_content_info_description"
-msgid ""
-"Specify the cell content in this column. This can be either a measurement"
-" value that you annotated with a tag, or image metadata (e.g. image name,"
-" capture date)."
-msgstr ""
-"Specificare il contenuto della cella in questa colonna. Può trattarsi di "
-"un valore di misurazione annotato con un tag o di metadati dell'immagine "
-"(ad es. nome dell'immagine, data di acquisizione)."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_measure_info_title"
-msgid "Measure selection"
-msgstr "Selezione della misura"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_measure_info_description"
-msgid ""
-"Here, you define which measurement of the tagged element to put into this"
-" column. E.g. for a circle you can choose between its area, radius, "
-"circumference, …"
-msgstr ""
-"Qui si definisce quale misura dell'elemento etichettato inserire in "
-"questa colonna. Per esempio. per un cerchio puoi scegliere tra la sua "
-"area, raggio, circonferenza, …"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_multiplevalues_info_title"
-msgid "Multiple values per cell"
-msgstr "Più valori per cella"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_multiplevalues_info_description"
-msgid ""
-"When several elements are assigned the same tag, several values will be "
-"placed into one cell. Here you can choose to sum these values, take their"
-" average, or other options instead of keeping all in one cell."
-msgstr ""
-"Quando a più elementi viene assegnato lo stesso tag, più valori verranno "
-"inseriti in una cella. Qui puoi scegliere di sommare questi valori, "
-"prendere la loro media o altre opzioni invece di tenere tutto in una "
-"cella."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_numColumns_info_title"
-msgid "Number of columns"
-msgstr "Numero di colonne"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_numColumns_info_description"
-msgid ""
-"Creates this number of columns to fill in values with this tag. Use this "
-"when you have several measurements with the same tag in one image."
-msgstr ""
-"Crea questo numero di colonne per riempire i valori con questo tag. Usalo"
-" quando hai diverse misurazioni con lo stesso tag in un'immagine."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer_info_title"
-msgid "Footer row content"
-msgstr "Contenuto riga piè di pagina"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer_info_description"
-msgid ""
-"What to place in the footer row of the table. Options include the sum of "
-"all values in the column, the maximum, the average, and other options."
-msgstr ""
-"Cosa inserire nella riga del piè di pagina della tabella. Le opzioni "
-"includono la somma di tutti i valori nella colonna, il massimo, la media "
-"e altre opzioni."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_title"
-msgid "Column header"
-msgstr "Intestazione di colonna"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_content"
-msgid "Content"
-msgstr "Contenuto"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_label_type"
-msgid "Measure"
-msgstr "Misurare"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_conflict"
-msgid "Multiple values"
-msgstr "Valori multipli"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_num_separate_columns"
-msgid "Num. columns"
-msgstr "Num. colonne"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer"
-msgid "Footer row"
-msgstr "Riga piè di pagina"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer_no_operation"
-msgid "Empty"
-msgstr "Vuoto"
 
 #, fuzzy
 msgctxt "pref_template_areasum_template_title"
@@ -3876,106 +3678,6 @@ msgstr "Layout della tabella dell'elenco delle parti"
 msgctxt "pref_template_partslist_table_layout_title"
 msgid "Parts List Table Layout"
 msgstr "Layout della tabella dell'elenco delle parti"
-
-#, fuzzy
-msgctxt "pref_template_partslist_table_name"
-msgid "Table name"
-msgstr "Nome della tabella"
-
-#, fuzzy
-msgctxt "pref_template_partslist_section_column_config"
-msgid "Columns configuration"
-msgstr "Configurazione colonne"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number"
-msgid "Item number"
-msgstr "Codice articolo"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_none"
-msgid "None"
-msgstr "Nessuno"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_only_element"
-msgid "Only item numbers"
-msgstr "Solo numeri di articolo"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_only_image_in_image_row"
-msgid "Only image numbers, only in image row"
-msgstr "Solo numeri di immagine, solo nella riga dell'immagine"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_both_image_in_image_row"
-msgid "Both, but image numbers only in image row"
-msgstr "Entrambi, ma solo i numeri delle immagini nella riga dell'immagine"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_both_all_rows"
-msgid "Image and item numbers in all rows"
-msgstr "Immagine e numeri di articolo in tutte le righe"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_combines"
-msgid "Combine image and item numbers in one column"
-msgstr "Combina i numeri di immagine e articolo in una colonna"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_tag_name"
-msgid "Tag name"
-msgstr "Nome dell'etichetta"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_comment"
-msgid "Comment"
-msgstr "Commento"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_quantity"
-msgid "Quantity"
-msgstr "Quantità"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_items"
-msgid "Item columns"
-msgstr "Colonne articolo"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_items_choices_used_tags"
-msgid "Only for used tags"
-msgstr "Solo per tag usati"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_items_choices_all_tags"
-msgid "For all tags"
-msgstr "Per tutti i tag"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_use_custom_titles"
-msgid "Use custom column titles"
-msgstr "Usa titoli di colonna personalizzati"
-
-#, fuzzy
-msgctxt "pref_template_partslist_section_row_config"
-msgid "Rows configuration"
-msgstr "Configurazione righe"
-
-#, fuzzy
-msgctxt "pref_template_partslist_row_show_image_name"
-msgid "Show rows with image names"
-msgstr "Mostra le righe con i nomi delle immagini"
-
-#, fuzzy
-msgctxt "pref_template_partslist_item_numbering_for_each_image"
-msgid "Independent item numbering for each image"
-msgstr "Numerazione articolo indipendente per ogni immagine"
-
-#, fuzzy
-msgctxt "pref_template_partslist_row_show_footer"
-msgid "Show footer row"
-msgstr "Mostra riga piè di pagina"
 
 #. Preferences: Information
 #, fuzzy

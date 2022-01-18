@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-12-27 23:12+0100\n"
+"POT-Creation-Date: 2022-01-18 20:01+0100\n"
 "PO-Revision-Date: 2021-02-09 11:36+0100\n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -2491,26 +2491,6 @@ msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
 msgstr "Ссылки на карту используют"
 
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_dialog"
-msgid "Map provider"
-msgstr "Поставщик карт"
-
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_choices:0"
-msgid "Google Maps"
-msgstr "Карты Гугл"
-
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_choices:1"
-msgid "Bing Maps"
-msgstr "Карты Bing"
-
-#, fuzzy
-msgctxt "pref_export_general_map_link_provider_choices:2"
-msgid "OpenStreetMap"
-msgstr "OpenStreetMap"
-
 #. User interface
 msgctxt "pref_category_ui_general"
 msgid "General"
@@ -3274,55 +3254,9 @@ msgid "Template name:"
 msgstr "Имя Шаблона:"
 
 #, fuzzy
-msgctxt "pref_dialog_template_add_title"
-msgid "Template type"
-msgstr "Тип шаблона"
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_general_description"
-msgid ""
-"Choose the template that best matches your needs. You can further "
-"customize it later."
-msgstr ""
-"Выберите шаблон, который лучше всего соответствует вашим потребностям. Вы"
-" можете настроить его позже."
-
-#, fuzzy
 msgctxt "pref_dialog_template_add_description_title"
 msgid "Template description:"
 msgstr "Описание шаблона:"
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_custom"
-msgid ""
-"Each image fills one row in the table. You may assign a tag to each "
-"measurement. Each table column contains the measurement for a specific "
-"tag."
-msgstr ""
-"Каждое изображение заполняет одну строку в таблице. Вы можете присвоить "
-"метку каждому измерению. Каждый столбец таблицы содержит измерение для "
-"определенного тега."
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_wall_area"
-msgid ""
-"This template is the basis for area computations. The area of some "
-"elements is added to the sum (e.g. walls), while other elements are "
-"subtracted (e.g. windows)."
-msgstr ""
-"Этот шаблон является основой для расчета площади. Площадь некоторых "
-"элементов добавляется к сумме (например, стен), а площадь других "
-"элементов (например, окон) вычитается."
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_parts_list"
-msgid ""
-"This template lets you generate bills of material, counting different "
-"objects, or summing the length of products (e.g. electrical cables)."
-msgstr ""
-"Этот шаблон позволяет создавать ведомости материалов, подсчитывая "
-"различные объекты или суммируя длину продуктов (например, электрических "
-"кабелей)."
 
 #, fuzzy
 msgctxt "pref_template_config_custom_edit_tags_description"
@@ -3416,26 +3350,6 @@ msgid "Text"
 msgstr "Текст"
 
 #, fuzzy
-msgctxt "pref_template_custom_table_title"
-msgid "Custom Table Configuration"
-msgstr "Конфигурация настраиваемой таблицы"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_name"
-msgid "Table name"
-msgstr "Имя таблицы"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_columns"
-msgid "Table columns"
-msgstr "Столбцы таблицы"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_columns_add"
-msgid "+ add column"
-msgstr "+ добавить столбец"
-
-#, fuzzy
 msgctxt "pref_template_custom_tag_filter_info_title"
 msgid "Element filter"
 msgstr "Элементный фильтр"
@@ -3446,119 +3360,6 @@ msgid ""
 "This tag may only be assigned to elements that have the selected "
 "measurement type."
 msgstr "Этот тег может быть назначен только элементам с выбранным типом измерения."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_content_info_title"
-msgid "Column content"
-msgstr "Содержание столбца"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_content_info_description"
-msgid ""
-"Specify the cell content in this column. This can be either a measurement"
-" value that you annotated with a tag, or image metadata (e.g. image name,"
-" capture date)."
-msgstr ""
-"В этом столбце укажите содержимое ячейки. Это может быть либо значение "
-"измерения, которое вы аннотировали тегом, либо метаданные изображения "
-"(например, имя изображения, дата захвата)."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_measure_info_title"
-msgid "Measure selection"
-msgstr "Выбор меры"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_measure_info_description"
-msgid ""
-"Here, you define which measurement of the tagged element to put into this"
-" column. E.g. for a circle you can choose between its area, radius, "
-"circumference, …"
-msgstr ""
-"Здесь вы определяете, какое измерение помеченного элемента поместить в "
-"этот столбец. Например. для круга вы можете выбрать его площадь, радиус, "
-"длину окружности и т. д."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_multiplevalues_info_title"
-msgid "Multiple values per cell"
-msgstr "Несколько значений на ячейку"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_multiplevalues_info_description"
-msgid ""
-"When several elements are assigned the same tag, several values will be "
-"placed into one cell. Here you can choose to sum these values, take their"
-" average, or other options instead of keeping all in one cell."
-msgstr ""
-"Если нескольким элементам назначен один и тот же тег, несколько значений "
-"будут помещены в одну ячейку. Здесь вы можете суммировать эти значения, "
-"брать их среднее значение или другие параметры вместо того, чтобы хранить"
-" все в одной ячейке."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_numColumns_info_title"
-msgid "Number of columns"
-msgstr "Число столбцов"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_numColumns_info_description"
-msgid ""
-"Creates this number of columns to fill in values with this tag. Use this "
-"when you have several measurements with the same tag in one image."
-msgstr ""
-"Создает это количество столбцов для заполнения значений с помощью этого "
-"тега. Используйте это, когда у вас есть несколько измерений с одним и тем"
-" же тегом на одном изображении."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer_info_title"
-msgid "Footer row content"
-msgstr "Содержимое строки нижнего колонтитула"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer_info_description"
-msgid ""
-"What to place in the footer row of the table. Options include the sum of "
-"all values in the column, the maximum, the average, and other options."
-msgstr ""
-"Что разместить в нижнем колонтитуле таблицы. Параметры включают сумму "
-"всех значений в столбце, максимальное, среднее и другие параметры."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_title"
-msgid "Column header"
-msgstr "Заголовок столбца"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_content"
-msgid "Content"
-msgstr "Содержание"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_label_type"
-msgid "Measure"
-msgstr "Мера"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_conflict"
-msgid "Multiple values"
-msgstr "Несколько значений"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_num_separate_columns"
-msgid "Num. columns"
-msgstr "Num. столбцы"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer"
-msgid "Footer row"
-msgstr "Строка нижнего колонтитула"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer_no_operation"
-msgid "Empty"
-msgstr "Пустой"
 
 #, fuzzy
 msgctxt "pref_template_areasum_template_title"
@@ -3619,106 +3420,6 @@ msgstr "Макеты таблиц со списком деталей"
 msgctxt "pref_template_partslist_table_layout_title"
 msgid "Parts List Table Layout"
 msgstr "Макет таблицы списка деталей"
-
-#, fuzzy
-msgctxt "pref_template_partslist_table_name"
-msgid "Table name"
-msgstr "Имя таблицы"
-
-#, fuzzy
-msgctxt "pref_template_partslist_section_column_config"
-msgid "Columns configuration"
-msgstr "Конфигурация колонн"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number"
-msgid "Item number"
-msgstr "Номер предмета"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_none"
-msgid "None"
-msgstr "Никто"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_only_element"
-msgid "Only item numbers"
-msgstr "Только номера позиций"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_only_image_in_image_row"
-msgid "Only image numbers, only in image row"
-msgstr "Только номера изображений, только в строке изображений"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_both_image_in_image_row"
-msgid "Both, but image numbers only in image row"
-msgstr "Оба, но номера изображений только в строке изображений"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_both_all_rows"
-msgid "Image and item numbers in all rows"
-msgstr "Номера изображений и позиций во всех строках"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_item_number_choices_combines"
-msgid "Combine image and item numbers in one column"
-msgstr "Объедините изображения и номера позиций в одном столбце"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_tag_name"
-msgid "Tag name"
-msgstr "Название тэга"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_comment"
-msgid "Comment"
-msgstr "Комментарий"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_quantity"
-msgid "Quantity"
-msgstr "Количество"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_items"
-msgid "Item columns"
-msgstr "Столбцы предметов"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_items_choices_used_tags"
-msgid "Only for used tags"
-msgstr "Только для использованных тегов"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_items_choices_all_tags"
-msgid "For all tags"
-msgstr "Для всех тегов"
-
-#, fuzzy
-msgctxt "pref_template_partslist_column_use_custom_titles"
-msgid "Use custom column titles"
-msgstr "Используйте настраиваемые заголовки столбцов"
-
-#, fuzzy
-msgctxt "pref_template_partslist_section_row_config"
-msgid "Rows configuration"
-msgstr "Конфигурация рядов"
-
-#, fuzzy
-msgctxt "pref_template_partslist_row_show_image_name"
-msgid "Show rows with image names"
-msgstr "Показать строки с именами изображений"
-
-#, fuzzy
-msgctxt "pref_template_partslist_item_numbering_for_each_image"
-msgid "Independent item numbering for each image"
-msgstr "Независимая нумерация элементов для каждого изображения"
-
-#, fuzzy
-msgctxt "pref_template_partslist_row_show_footer"
-msgid "Show footer row"
-msgstr "Показать строку нижнего колонтитула"
 
 #. Preferences: Information
 msgctxt "pref_category_information_debugging"

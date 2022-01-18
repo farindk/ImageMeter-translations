@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-12-27 23:12+0100\n"
+"POT-Creation-Date: 2022-01-18 20:01+0100\n"
 "PO-Revision-Date: 2021-03-24 11:46+0100\n"
 "Last-Translator: \n"
 "Language: fa\n"
@@ -2402,22 +2402,6 @@ msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
 msgstr "استفاده از لینک های نقشه"
 
-msgctxt "pref_export_general_map_link_provider_dialog"
-msgid "Map provider"
-msgstr "ارائه دهنده نقشه"
-
-msgctxt "pref_export_general_map_link_provider_choices:0"
-msgid "Google Maps"
-msgstr "گوگل مپز"
-
-msgctxt "pref_export_general_map_link_provider_choices:1"
-msgid "Bing Maps"
-msgstr "نقشه های بینگ"
-
-msgctxt "pref_export_general_map_link_provider_choices:2"
-msgid "OpenStreetMap"
-msgstr "نقشه خیابان باز"
-
 #. User interface
 msgctxt "pref_category_ui_general"
 msgid "General"
@@ -3150,51 +3134,9 @@ msgctxt "pref_template_template_name"
 msgid "Template name:"
 msgstr "نام الگو:"
 
-msgctxt "pref_dialog_template_add_title"
-msgid "Template type"
-msgstr "نوع الگو"
-
-msgctxt "pref_dialog_template_add_general_description"
-msgid ""
-"Choose the template that best matches your needs. You can further "
-"customize it later."
-msgstr ""
-"الگویی را انتخاب کنید که با نیازهای شما مطابقت داشته باشد. بعداً می "
-"توانید آن را سفارشی کنید."
-
 msgctxt "pref_dialog_template_add_description_title"
 msgid "Template description:"
 msgstr "شرح الگو:"
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_custom"
-msgid ""
-"Each image fills one row in the table. You may assign a tag to each "
-"measurement. Each table column contains the measurement for a specific "
-"tag."
-msgstr ""
-"هر عکس یک ردیف را در جدول پر می کند. شما می توانید یک برچسب را به هر "
-"اندازه گیری اختصاص دهید. هر ستون جدول شامل اندازه گیری برای یک برچسب خاص "
-"است."
-
-#, fuzzy
-msgctxt "pref_dialog_template_add_description_wall_area"
-msgid ""
-"This template is the basis for area computations. The area of some "
-"elements is added to the sum (e.g. walls), while other elements are "
-"subtracted (e.g. windows)."
-msgstr ""
-"این الگو مبنای محاسبات سطح است. مساحت برخی از عناصر به مجموع (به عنوان "
-"مثال دیوارها) اضافه می شود ، در حالی که عناصر دیگر کم می شوند (به عنوان "
-"مثال پنجره ها)."
-
-msgctxt "pref_dialog_template_add_description_parts_list"
-msgid ""
-"This template lets you generate bills of material, counting different "
-"objects, or summing the length of products (e.g. electrical cables)."
-msgstr ""
-"این الگو به شما اجازه می دهد تا صورتحساب های مواد را تولید کنید، شمارش "
-"اشیاء مختلف یا جمع آوری طول محصولات (به عنوان مثال کابل برق) را می دهد."
 
 #, fuzzy
 msgctxt "pref_template_config_custom_edit_tags_description"
@@ -3278,23 +3220,6 @@ msgctxt "templ_filter_text"
 msgid "Text"
 msgstr "متن"
 
-msgctxt "pref_template_custom_table_title"
-msgid "Custom Table Configuration"
-msgstr "پیکربندی جدول سفارشی"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_name"
-msgid "Table name"
-msgstr "نام جدول"
-
-msgctxt "pref_template_custom_table_columns"
-msgid "Table columns"
-msgstr "ستون های جدول"
-
-msgctxt "pref_template_custom_table_columns_add"
-msgid "+ add column"
-msgstr "+ افزودن ستون"
-
 msgctxt "pref_template_custom_tag_filter_info_title"
 msgid "Element filter"
 msgstr "فیلتر عنصر"
@@ -3306,104 +3231,6 @@ msgid ""
 msgstr ""
 "این برچسب فقط ممکن است به عناصری اختصاص یابد که نوع اندازه گیری انتخاب "
 "شده را دارند."
-
-msgctxt "pref_template_custom_table_column_content_info_title"
-msgid "Column content"
-msgstr "محتوای ستون"
-
-msgctxt "pref_template_custom_table_column_content_info_description"
-msgid ""
-"Specify the cell content in this column. This can be either a measurement"
-" value that you annotated with a tag, or image metadata (e.g. image name,"
-" capture date)."
-msgstr ""
-"محتوای سلول را در این ستون مشخص کنید. این می تواند یک مقدار اندازه گیری "
-"باشد که با برچسب حاشیه نویسی کرده اید یا فراداده عکس (به عنوان مثال نام "
-"عکس ، تاریخ ضبط)."
-
-msgctxt "pref_template_custom_table_column_measure_info_title"
-msgid "Measure selection"
-msgstr "انتخاب اندازه گیری"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_measure_info_description"
-msgid ""
-"Here, you define which measurement of the tagged element to put into this"
-" column. E.g. for a circle you can choose between its area, radius, "
-"circumference, …"
-msgstr ""
-"در اینجا ، شما تعیین می کنید که کدام عنصر برچسب خورده را در این ستون قرار"
-" دهید. به عنوان مثال برای یک دایره می توانید بین مساحت ، شعاع ، محیط آن "
-"را انتخاب کنید."
-
-msgctxt "pref_template_custom_table_column_multiplevalues_info_title"
-msgid "Multiple values per cell"
-msgstr "مقادیر متعدد در هر سلول"
-
-msgctxt "pref_template_custom_table_column_multiplevalues_info_description"
-msgid ""
-"When several elements are assigned the same tag, several values will be "
-"placed into one cell. Here you can choose to sum these values, take their"
-" average, or other options instead of keeping all in one cell."
-msgstr ""
-"وقتی به چندین عنصر یک برچسب اختصاص داده شود ، چندین مقدار در یک سلول قرار"
-" می گیرند. در اینجا می توانید به جای نگه داشتن همه در یک سلول ، این "
-"مقادیر را جمع کنید ، میانگین آن ها یا گزینه های دیگر را انتخاب کنید."
-
-msgctxt "pref_template_custom_table_column_numColumns_info_title"
-msgid "Number of columns"
-msgstr "تعداد ستون ها"
-
-msgctxt "pref_template_custom_table_column_numColumns_info_description"
-msgid ""
-"Creates this number of columns to fill in values with this tag. Use this "
-"when you have several measurements with the same tag in one image."
-msgstr ""
-"برای پر کردن مقادیر با این برچسب ، این تعداد ستون را ایجاد می کند. هنگامی"
-" که چندین اندازه گیری با همان برچسب در یک عکس دارید ، از این استفاده "
-"کنید."
-
-msgctxt "pref_template_custom_table_column_footer_info_title"
-msgid "Footer row content"
-msgstr "محتوای ردیف پاورقی"
-
-msgctxt "pref_template_custom_table_column_footer_info_description"
-msgid ""
-"What to place in the footer row of the table. Options include the sum of "
-"all values in the column, the maximum, the average, and other options."
-msgstr ""
-"چه چیزی را باید در ردیف پایین جدول قرار دهید. گزینه ها شامل مجموع مقادیر "
-"موجود در ستون ، حداکثر ، میانگین و سایر گزینه ها می  باشد."
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_title"
-msgid "Column header"
-msgstr "سرصفحه ستون"
-
-msgctxt "pref_template_custom_table_column_content"
-msgid "Content"
-msgstr "محتوا"
-
-msgctxt "pref_template_custom_table_column_label_type"
-msgid "Measure"
-msgstr "اندازه گرفتن"
-
-msgctxt "pref_template_custom_table_column_conflict"
-msgid "Multiple values"
-msgstr "مقادیر چندگانه"
-
-msgctxt "pref_template_custom_table_column_num_separate_columns"
-msgid "Num. columns"
-msgstr "تعداد ستون"
-
-#, fuzzy
-msgctxt "pref_template_custom_table_column_footer"
-msgid "Footer row"
-msgstr "ردیف پاورقی"
-
-msgctxt "pref_template_custom_table_column_footer_no_operation"
-msgid "Empty"
-msgstr "خالی"
 
 msgctxt "pref_template_areasum_template_title"
 msgid "Area Sum Template Configuration"
@@ -3452,86 +3279,6 @@ msgstr "چیدمان جدول لیست قطعات"
 msgctxt "pref_template_partslist_table_layout_title"
 msgid "Parts List Table Layout"
 msgstr "چیدمان جدول لیست قطعات"
-
-msgctxt "pref_template_partslist_table_name"
-msgid "Table name"
-msgstr "نام جدول"
-
-msgctxt "pref_template_partslist_section_column_config"
-msgid "Columns configuration"
-msgstr "پیکربندی ستون ها"
-
-msgctxt "pref_template_partslist_column_item_number"
-msgid "Item number"
-msgstr "شماره آیتم"
-
-msgctxt "pref_template_partslist_column_item_number_choices_none"
-msgid "None"
-msgstr "هیچ"
-
-msgctxt "pref_template_partslist_column_item_number_choices_only_element"
-msgid "Only item numbers"
-msgstr "فقط شماره های آیتم"
-
-msgctxt "pref_template_partslist_column_item_number_choices_only_image_in_image_row"
-msgid "Only image numbers, only in image row"
-msgstr "فقط شمارهای عکس ، فقط در ردیف عکس"
-
-msgctxt "pref_template_partslist_column_item_number_choices_both_image_in_image_row"
-msgid "Both, but image numbers only in image row"
-msgstr "و ، اما شماره های عکس فقط در ردیف عکس است"
-
-msgctxt "pref_template_partslist_column_item_number_choices_both_all_rows"
-msgid "Image and item numbers in all rows"
-msgstr "شماره عکس و آیتم در همه ردیف ها"
-
-msgctxt "pref_template_partslist_column_item_number_choices_combines"
-msgid "Combine image and item numbers in one column"
-msgstr "ترکیب عکس و شماره های آیتم در یک ستون"
-
-msgctxt "pref_template_partslist_column_tag_name"
-msgid "Tag name"
-msgstr "نام برچسب"
-
-msgctxt "pref_template_partslist_column_comment"
-msgid "Comment"
-msgstr "نظرات"
-
-msgctxt "pref_template_partslist_column_quantity"
-msgid "Quantity"
-msgstr "تعداد"
-
-msgctxt "pref_template_partslist_column_items"
-msgid "Item columns"
-msgstr "ستون های آیتم"
-
-msgctxt "pref_template_partslist_column_items_choices_used_tags"
-msgid "Only for used tags"
-msgstr "فقط برای برچسب های استفاده شده"
-
-msgctxt "pref_template_partslist_column_items_choices_all_tags"
-msgid "For all tags"
-msgstr "برای همه برچسب ها"
-
-msgctxt "pref_template_partslist_column_use_custom_titles"
-msgid "Use custom column titles"
-msgstr "استفاده از عناوین ستون سفارشی"
-
-msgctxt "pref_template_partslist_section_row_config"
-msgid "Rows configuration"
-msgstr "پیکربندی ردیف ها"
-
-msgctxt "pref_template_partslist_row_show_image_name"
-msgid "Show rows with image names"
-msgstr "نمایش ردیف ها با نام عکس"
-
-msgctxt "pref_template_partslist_item_numbering_for_each_image"
-msgid "Independent item numbering for each image"
-msgstr "شماره گذاری آیتم مستقل برای هر عکس"
-
-msgctxt "pref_template_partslist_row_show_footer"
-msgid "Show footer row"
-msgstr "نمایش ردیف پاورقی"
 
 #. Preferences: Information
 msgctxt "pref_category_information_debugging"
