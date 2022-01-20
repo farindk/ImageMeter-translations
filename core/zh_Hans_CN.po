@@ -1014,6 +1014,38 @@ msgctxt "text-h-alignment:block"
 msgid "Block"
 msgstr ""
 
+msgctxt "sorting:by-name:ascending"
+msgid "by name, ascending"
+msgstr ""
+
+msgctxt "sorting:by-name:descending"
+msgid "by name, descending"
+msgstr ""
+
+msgctxt "sorting:by-creation-date:ascending"
+msgid "by creation date, ascending"
+msgstr ""
+
+msgctxt "sorting:by-creation-date:descending"
+msgid "by creation date, descending"
+msgstr ""
+
+msgctxt "sorting:by-modification-date:ascending"
+msgid "by modification date, ascending"
+msgstr ""
+
+msgctxt "sorting:by-modification-date:descending"
+msgid "by modification date, descending"
+msgstr ""
+
+msgctxt "sorting:by-number:ascending"
+msgid "by number, ascending"
+msgstr ""
+
+msgctxt "sorting:by-number:descending"
+msgid "by number, descending"
+msgstr ""
+
 msgctxt "ui:list:add-entry"
 msgid "Add"
 msgstr ""
@@ -1028,6 +1060,10 @@ msgstr ""
 
 msgctxt "ui:list:move-entry-down"
 msgid "Down"
+msgstr ""
+
+msgctxt "ui:button:info"
+msgid "Info"
 msgstr ""
 
 msgctxt "filename-copy-tag"
@@ -1197,6 +1233,158 @@ msgstr "目录"
 msgctxt "pdf-export:root-folder-title"
 msgid "ImageMeter export"
 msgstr "ImageMeter 导出"
+
+msgctxt "export:pdf:dialog-title"
+msgid "PDF export options"
+msgstr ""
+
+msgctxt "export:pdf:section:paper"
+msgid "Paper"
+msgstr "纸张尺幅"
+
+msgctxt "export:pdf:section:layout"
+msgid "Layout"
+msgstr "布局"
+
+msgctxt "export:pdf:section:metadata"
+msgid "Metadata"
+msgstr "元数据"
+
+msgctxt "export:pdf:paper-orientation(pdf)"
+msgid "PDF page orientation"
+msgstr "PDF 页面方向"
+
+msgctxt "export:pdf:paper-orientation"
+msgid "Paper orientation"
+msgstr ""
+
+msgctxt "export:pdf:paper-orientation:portrait"
+msgid "Portrait"
+msgstr "肖像"
+
+msgctxt "export:pdf:paper-orientation:landscape"
+msgid "Landscape"
+msgstr "风景"
+
+msgctxt "export:pdf:paper-orientation:automatic"
+msgid "Automatic"
+msgstr "自动"
+
+msgctxt "export:pdf:paper-size(pdf)"
+msgid "PDF page size"
+msgstr "PDF 页面尺寸"
+
+msgctxt "export:pdf:paper-size"
+msgid "Paper size"
+msgstr ""
+
+msgctxt "export:pdf:paper-size:a4"
+msgid "A4"
+msgstr "A4"
+
+msgctxt "export:pdf:paper-size:a3"
+msgid "A3"
+msgstr "A3"
+
+msgctxt "export:pdf:paper-size:letter"
+msgid "Letter"
+msgstr "Letter"
+
+msgctxt "export:pdf:paper-size:legal"
+msgid "Legal"
+msgstr "Legal"
+
+msgctxt "export:pdf:may-rotate-images"
+msgid "Images may be rotated"
+msgstr "允许 PDF 中的图像旋转"
+
+msgctxt "export:pdf:may-rotate-images(pdf)"
+msgid "Images in PDF may be rotated"
+msgstr "允许 PDF 中的图像旋转"
+
+msgctxt "export:pdf:may-rotate-images:description:on"
+msgid "Will rotate images if format fits better"
+msgstr "图像方向将可能旋转以获得最优显示布局"
+
+msgctxt "export:pdf:may-rotate-images:description:off"
+msgid "Images will never be rotated"
+msgstr "图像将不会旋转"
+
+msgctxt "export:pdf:images-per-page"
+msgid "Images per page"
+msgstr ""
+
+msgctxt "export:pdf:images-per-page(pdf)"
+msgid "Images per PDF page"
+msgstr "PDF 文档中每页的图像数"
+
+msgctxt "export:pdf:images-per-page(pdf,long)"
+msgid "Print how many images on each PDF page"
+msgstr "PDF 文档每页安排多少张图片"
+
+msgctxt "export:pdf:print-image-notes"
+msgid "Print image notes"
+msgstr "打印图像注记"
+
+msgctxt "export:pdf:image-notes-space"
+msgid "Space reserved for image notes"
+msgstr "为图像注记预留的空间"
+
+msgctxt "export:pdf:image-notes-space(short)"
+msgid "Space for image notes"
+msgstr ""
+
+msgctxt "export:pdf:image-notes-space:do-not-print-notes"
+msgid "Do not print image notes"
+msgstr "不打印注记"
+
+msgctxt "export:pdf:image-notes-space:reserve-X-space"
+msgid "Reserve {0}% space"
+msgstr ""
+
+msgctxt "export:pdf:print-folder-notes"
+msgid "Print folder notes"
+msgstr "打印文档夹注记"
+
+msgctxt "export:pdf:print-folder-notes:description:on"
+msgid "Page with folder notes and TOC will be printed"
+msgstr "将打印含有文档夹注记和内容表的页面"
+
+msgctxt "export:pdf:print-folder-notes:description:off"
+msgid "No folder notes will be printed"
+msgstr "不打印文档夹注记"
+
+msgctxt "export:pdf:print-table-of-content"
+msgid "Print table of content"
+msgstr "打印目录"
+
+msgctxt "export:pdf:image-title"
+msgid "Image title"
+msgstr ""
+
+msgctxt "export:pdf:section:data-table"
+msgid "Data Table"
+msgstr "数据表"
+
+msgctxt "export:pdf:table-layout"
+msgid "Table layout"
+msgstr "表格布局"
+
+msgctxt "export:pdf:table-layout:vertical-column-titles"
+msgid "Vertical column titles"
+msgstr "垂直栏标题"
+
+msgctxt "export:pdf:print-density"
+msgid "Resolution"
+msgstr "分辨率"
+
+msgctxt "export:pdf:print-density:default"
+msgid "Default"
+msgstr "默认"
+
+msgctxt "print:options:dialog-title"
+msgid "Print options"
+msgstr ""
 
 msgctxt "zip-export:include-annotated-images"
 msgid "Include annotated images"
@@ -2009,7 +2197,9 @@ msgid ""
 "Specify the cell content in this column. This can be either a measurement "
 "value that you annotated with a tag, or image metadata (e.g. image name, "
 "capture date)."
-msgstr "指定此列的内容。它可以是配注了标签的测量值，也可以是图像元数据（例如，图像名称，拍摄日期）。"
+msgstr ""
+"指定此列的内容。它可以是配注了标签的测量值，也可以是图像元数据（例如，图像名"
+"称，拍摄日期）。"
 
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip-title"
 msgid "Measure selection"
@@ -2020,7 +2210,9 @@ msgid ""
 "Here, you define which measurement of the tagged element to put into this "
 "column. E.g. for a circle you can choose between its area, radius, "
 "circumference, …"
-msgstr "此处您可以定义此列收纳的标记，所有带次标记的测量数值归位至此列。例如。对于圆，您可以在其面积，半径，周长……之间进行选择"
+msgstr ""
+"此处您可以定义此列收纳的标记，所有带次标记的测量数值归位至此列。例如。对于"
+"圆，您可以在其面积，半径，周长……之间进行选择"
 
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip-title"
 msgid "Multiple values per cell"
@@ -2031,7 +2223,9 @@ msgid ""
 "When several elements are assigned the same tag, several values will be "
 "placed into one cell. Here you can choose to sum these values, take their "
 "average, or other options instead of keeping all in one cell."
-msgstr "带同一个标签的多个测量值将收纳至同一个单元格中。此处，您可以对这些值求和，取其平均值或其他选项，取代将所有值都保留在一个单元格中。"
+msgstr ""
+"带同一个标签的多个测量值将收纳至同一个单元格中。此处，您可以对这些值求和，取"
+"其平均值或其他选项，取代将所有值都保留在一个单元格中。"
 
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip-title"
 msgid "Number of columns"
@@ -2042,9 +2236,10 @@ msgid ""
 "Creates this number of columns to fill in values with this tag. Use this "
 "when you have several measurements with the same tag in one image."
 msgstr ""
-"创建指定数目的使用此标记的列。当一幅图像包含多个具有相同标签的测量时，请使用此功能。比如，一幅图上有两只熊猫。熊猫妈妈的头半径为 0.3 "
-"米，熊猫宝宝的头半径为 0.1 米。 这两个测量值都标注了标签 “熊猫头半径”。因为每幅图只能占据一行，所以您需要两列来安排这两个 “熊猫头半径”"
-" 的数值。"
+"创建指定数目的使用此标记的列。当一幅图像包含多个具有相同标签的测量时，请使用"
+"此功能。比如，一幅图上有两只熊猫。熊猫妈妈的头半径为 0.3 米，熊猫宝宝的头半径"
+"为 0.1 米。 这两个测量值都标注了标签 “熊猫头半径”。因为每幅图只能占据一行，所"
+"以您需要两列来安排这两个 “熊猫头半径” 的数值。"
 
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip-title"
 msgid "Footer row content"
@@ -2054,7 +2249,8 @@ msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip"
 msgid ""
 "What to place in the footer row of the table. Options include the sum of all "
 "values in the column, the maximum, the average, and other options."
-msgstr "指定表格页脚行的内容。可以是列中所有值的总和，最大值，平均值或其他选项。"
+msgstr ""
+"指定表格页脚行的内容。可以是列中所有值的总和，最大值，平均值或其他选项。"
 
 msgctxt "prefs:template:areasum:tablespec:dialog-title"
 msgid "Edit the table layout of the area template"
@@ -2072,11 +2268,13 @@ msgctxt "prefs:template:partslist:tablespec:item-number:only-element"
 msgid "Only item numbers"
 msgstr "仅零件编号"
 
-msgctxt "prefs:template:partslist:tablespec:item-number:only-image-in-image-row"
+msgctxt ""
+"prefs:template:partslist:tablespec:item-number:only-image-in-image-row"
 msgid "Only image numbers, only in image row"
 msgstr "仅图像编号，仅在图像行中"
 
-msgctxt "prefs:template:partslist:tablespec:item-number:both-image-in-image-row"
+msgctxt ""
+"prefs:template:partslist:tablespec:item-number:both-image-in-image-row"
 msgid "Both, but image numbers only in image row"
 msgstr "两者都有，但是图像编号仅在图像行中"
 
@@ -2136,7 +2334,8 @@ msgctxt "prefs:template:partslist:tablespec:row-config:show-image-name"
 msgid "Show rows with image names"
 msgstr "行中显示图像名称"
 
-msgctxt "prefs:template:partslist:tablespec:row-config:item-numbering-for-each-image"
+msgctxt ""
+"prefs:template:partslist:tablespec:row-config:item-numbering-for-each-image"
 msgid "Independent item numbering for each image"
 msgstr "每个图像中的零件独立编号"
 
@@ -2200,7 +2399,9 @@ msgctxt "templ:custom:long-description"
 msgid ""
 "Each image fills one row in the table. You may assign a tag to each "
 "measurement. Each table column contains the measurement for a specific tag."
-msgstr "每个图像的测量数值占据表中的一行。您可以为每个测量数值分配一个标签。每个表格列均包含特定标签的度量。"
+msgstr ""
+"每个图像的测量数值占据表中的一行。您可以为每个测量数值分配一个标签。每个表格"
+"列均包含特定标签的度量。"
 
 msgctxt "templ:custom:column-content:empty"
 msgid "Empty"
@@ -2289,7 +2490,9 @@ msgid ""
 "This template is the basis for area computations. The area of some elements "
 "is added to the sum (e.g. walls), while other elements are subtracted (e.g. "
 "windows)."
-msgstr "该模板是面积计算的框架。一些元素的面积被添加到总和（例如墙），而其他元素的面积被减去（例如窗户）。"
+msgstr ""
+"该模板是面积计算的框架。一些元素的面积被添加到总和（例如墙），而其他元素的面"
+"积被减去（例如窗户）。"
 
 msgctxt "templ:areasum:tag:property-name"
 msgid "Tag"
@@ -2492,7 +2695,8 @@ msgctxt "templ:partslist:long-description"
 msgid ""
 "This template lets you generate bills of material, counting different "
 "objects, or summing the length of products (e.g. electrical cables)."
-msgstr "使用此模板，您可以生成物料清单，计算不同的对像或累加产品的长度（例如电缆）。"
+msgstr ""
+"使用此模板，您可以生成物料清单，计算不同的对像或累加产品的长度（例如电缆）。"
 
 #, fuzzy
 msgctxt "templ:partslist:tagtype:count"
@@ -3178,5 +3382,7 @@ msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr "取消删除项目"
 
-
+#~ msgctxt "export:pdf:may-rotate-images(short)"
+#~ msgid "Images in PDF may be rotated"
+#~ msgstr "允许 PDF 中的图像旋转"
 
