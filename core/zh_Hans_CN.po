@@ -750,11 +750,11 @@ msgid "Inches with fractions (1 1/8\")"
 msgstr "带分数的英制"
 
 msgctxt "dimtemplate:area:decimal-metric"
-msgid "metric"
+msgid "Metric"
 msgstr "公制单位"
 
 msgctxt "dimtemplate:area:decimal-imperial"
-msgid "imperial"
+msgid "Imperial"
 msgstr "英制单位"
 
 msgctxt "labeltype:any"
@@ -831,6 +831,16 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "英制单位呈现为： ft/in"
 
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
+msgid "Add dot after ambiguous numbers"
+msgstr ""
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
+msgid ""
+"When enabled, a dot is placed after numbers that are ambiguous when read "
+"upside down, like this: 66."
+msgstr ""
+
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
 msgid "Ambiguous numbers"
@@ -845,6 +855,12 @@ msgstr "不"
 msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
 msgstr "是的，如有必要"
+
+msgctxt "dimformat:options-ui:show-units:title:tooltip"
+msgid ""
+"When disabled, measures are shown without the unit. I.e. just the plain "
+"number '23' instead of '23 cm'."
+msgstr ""
 
 msgctxt "dimformat:options-ui:show-units:title"
 msgid "Show units"
@@ -869,6 +885,10 @@ msgstr "不约去分子分母的最大公因数 (4/8 显示为 4/8)"
 msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "约去分子分母的最大公因数 (4/8 约为 1/2)"
+
+msgctxt "dimformat:options-ui:decimal-digits(short)"
+msgid "Decimal digits"
+msgstr "小数字"
 
 msgctxt "month-names-short-1"
 msgid "Jan"
@@ -1935,6 +1955,22 @@ msgstr "规模"
 
 msgctxt "editor:properties:dialog-title"
 msgid "Tag and Properties"
+msgstr ""
+
+msgctxt "prefs:measures:length-unit"
+msgid "Length unit"
+msgstr ""
+
+msgctxt "prefs:measures:area-unit"
+msgid "Area unit"
+msgstr ""
+
+msgctxt "prefs:measures:angle-unit"
+msgid "Angle unit"
+msgstr "角度单位"
+
+msgctxt "prefs:measures:group:display-options"
+msgid "Display options"
 msgstr ""
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
@@ -3434,8 +3470,15 @@ msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr "取消删除项目"
 
+#~ msgctxt "dimtemplate:area:decimal-metric"
+#~ msgid "metric"
+#~ msgstr "公制单位"
+
+#~ msgctxt "dimtemplate:area:decimal-imperial"
+#~ msgid "imperial"
+#~ msgstr "英制单位"
+
 #~ msgctxt "export:pdf:may-rotate-images(short)"
 #~ msgid "Images in PDF may be rotated"
 #~ msgstr "允许 PDF 中的图像旋转"
-
 

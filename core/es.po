@@ -874,12 +874,12 @@ msgid "Inches with fractions (1 1/8\")"
 msgstr "Pulgadas con fracciones (1 1/8\")"
 
 msgctxt "dimtemplate:area:decimal-metric"
-msgid "metric"
-msgstr "métrico"
+msgid "Metric"
+msgstr "Métrico"
 
 msgctxt "dimtemplate:area:decimal-imperial"
-msgid "imperial"
-msgstr "imperial"
+msgid "Imperial"
+msgstr "Imperial"
 
 #, fuzzy
 msgctxt "labeltype:any"
@@ -965,6 +965,16 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "Unidades imperiales serán mostradas como ft/in"
 
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
+msgid "Add dot after ambiguous numbers"
+msgstr ""
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
+msgid ""
+"When enabled, a dot is placed after numbers that are ambiguous when read "
+"upside down, like this: 66."
+msgstr ""
+
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
 msgid "Ambiguous numbers"
@@ -979,6 +989,12 @@ msgstr "Mantén ambos"
 msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
 msgstr "Agregue un punto si es necesario"
+
+msgctxt "dimformat:options-ui:show-units:title:tooltip"
+msgid ""
+"When disabled, measures are shown without the unit. I.e. just the plain "
+"number '23' instead of '23 cm'."
+msgstr ""
 
 #, fuzzy
 msgctxt "dimformat:options-ui:show-units:title"
@@ -1006,6 +1022,10 @@ msgstr "Las fracciones no se reducirán (4/8 se queda en 4/8)"
 msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "Las fracciones se reducirán (4/8 se convierte en 1/2)"
+
+msgctxt "dimformat:options-ui:decimal-digits(short)"
+msgid "Decimal digits"
+msgstr "Dígitos decimales"
 
 #, fuzzy
 msgctxt "month-names-short-1"
@@ -2285,6 +2305,22 @@ msgstr "Escala"
 
 msgctxt "editor:properties:dialog-title"
 msgid "Tag and Properties"
+msgstr ""
+
+msgctxt "prefs:measures:length-unit"
+msgid "Length unit"
+msgstr ""
+
+msgctxt "prefs:measures:area-unit"
+msgid "Area unit"
+msgstr ""
+
+msgctxt "prefs:measures:angle-unit"
+msgid "Angle unit"
+msgstr "Unidad angular"
+
+msgctxt "prefs:measures:group:display-options"
+msgid "Display options"
 msgstr ""
 
 #, fuzzy
@@ -4113,6 +4149,14 @@ msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
 
+#~ msgctxt "dimtemplate:area:decimal-metric"
+#~ msgid "metric"
+#~ msgstr "métrico"
+
+#~ msgctxt "dimtemplate:area:decimal-imperial"
+#~ msgid "imperial"
+#~ msgstr "imperial"
+
 #, fuzzy
 #~ msgctxt "export:pdf:may-rotate-images(short)"
 #~ msgid "Images in PDF may be rotated"
@@ -4122,5 +4166,4 @@ msgstr ""
 #~ msgctxt "error:HTTP-error-404"
 #~ msgid "404: Not Found"
 #~ msgstr "404 No encontrado"
-
 

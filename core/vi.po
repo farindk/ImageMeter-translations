@@ -742,12 +742,12 @@ msgid "Inches with fractions (1 1/8\")"
 msgstr "Inch với phân số (1 1/8\")"
 
 msgctxt "dimtemplate:area:decimal-metric"
-msgid "metric"
-msgstr "số liệu"
+msgid "Metric"
+msgstr "Số liệu"
 
 msgctxt "dimtemplate:area:decimal-imperial"
-msgid "imperial"
-msgstr "hoàng gia"
+msgid "Imperial"
+msgstr "Hoàng gia"
 
 msgctxt "labeltype:any"
 msgid "Any"
@@ -822,6 +822,16 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "Các đơn vị hoàng gia sẽ được hiển thị dưới dạng ft/in"
 
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
+msgid "Add dot after ambiguous numbers"
+msgstr ""
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
+msgid ""
+"When enabled, a dot is placed after numbers that are ambiguous when read "
+"upside down, like this: 66."
+msgstr ""
+
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
 msgid "Ambiguous numbers"
 msgstr ""
@@ -832,6 +842,12 @@ msgstr ""
 
 msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
+msgstr ""
+
+msgctxt "dimformat:options-ui:show-units:title:tooltip"
+msgid ""
+"When disabled, measures are shown without the unit. I.e. just the plain "
+"number '23' instead of '23 cm'."
 msgstr ""
 
 msgctxt "dimformat:options-ui:show-units:title"
@@ -857,6 +873,10 @@ msgstr "Phân số sẽ không được giảm (4/8 ở 4/8)"
 msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "Phân số sẽ giảm (4/8 trở thành 1/2)"
+
+msgctxt "dimformat:options-ui:decimal-digits(short)"
+msgid "Decimal digits"
+msgstr "Chữ số thập phân"
 
 msgctxt "month-names-short-1"
 msgid "Jan"
@@ -1924,6 +1944,22 @@ msgstr ""
 
 msgctxt "editor:properties:dialog-title"
 msgid "Tag and Properties"
+msgstr ""
+
+msgctxt "prefs:measures:length-unit"
+msgid "Length unit"
+msgstr ""
+
+msgctxt "prefs:measures:area-unit"
+msgid "Area unit"
+msgstr ""
+
+msgctxt "prefs:measures:angle-unit"
+msgid "Angle unit"
+msgstr "Đơn vị góc"
+
+msgctxt "prefs:measures:group:display-options"
+msgid "Display options"
 msgstr ""
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
@@ -3381,8 +3417,15 @@ msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
 
+#~ msgctxt "dimtemplate:area:decimal-metric"
+#~ msgid "metric"
+#~ msgstr "số liệu"
+
+#~ msgctxt "dimtemplate:area:decimal-imperial"
+#~ msgid "imperial"
+#~ msgstr "hoàng gia"
+
 #~ msgctxt "export:pdf:may-rotate-images(short)"
 #~ msgid "Images in PDF may be rotated"
 #~ msgstr "Hình ảnh trong PDF có thể được xoay"
-
 

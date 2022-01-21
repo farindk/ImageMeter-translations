@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2022-01-17 21:15+0100\n"
+"PO-Revision-Date: 2022-01-21 16:08+0100\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -729,11 +729,11 @@ msgid "Inches with fractions (1 1/8\")"
 msgstr "Zoll mit Brüchen (1 1/8\")"
 
 msgctxt "dimtemplate:area:decimal-metric"
-msgid "metric"
+msgid "Metric"
 msgstr "Metrisch"
 
 msgctxt "dimtemplate:area:decimal-imperial"
-msgid "imperial"
+msgid "Imperial"
 msgstr "Britisch"
 
 msgctxt "labeltype:any"
@@ -808,6 +808,18 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "Britische Maße als ft/in zeigen"
 
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
+msgid "Add dot after ambiguous numbers"
+msgstr "Hinter mehrdeutigen Zahlen einen Punkt setzen"
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
+msgid ""
+"When enabled, a dot is placed after numbers that are ambiguous when read "
+"upside down, like this: 66."
+msgstr ""
+"Wenn dies aktiviert ist, wird ein Punkt hinter die Zahlen gesetzt, die auf "
+"dem Kopf stehend mehrdeutig sind. Zum Beispiel: 66."
+
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
 msgid "Ambiguous numbers"
 msgstr "Mehrdeutige Zahlen"
@@ -819,6 +831,14 @@ msgstr "So lassen"
 msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
 msgstr "Punkt hinzufügen falls nötig"
+
+msgctxt "dimformat:options-ui:show-units:title:tooltip"
+msgid ""
+"When disabled, measures are shown without the unit. I.e. just the plain "
+"number '23' instead of '23 cm'."
+msgstr ""
+"Wenn dies deaktiviert ist, dann werden die Maße ohne die Einheit "
+"geschrieben. Das heißt, z.B. nur die reine Zahl '23' anstatt '23 cm'."
 
 msgctxt "dimformat:options-ui:show-units:title"
 msgid "Show units"
@@ -843,6 +863,10 @@ msgstr "Nicht kürzen (4/8 bleibt 4/8)"
 msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "Kürzen (4/8 wird zu 1/2)"
+
+msgctxt "dimformat:options-ui:decimal-digits(short)"
+msgid "Decimal digits"
+msgstr "Dezimalstellen"
 
 msgctxt "month-names-short-1"
 msgid "Jan"
@@ -990,35 +1014,35 @@ msgstr "Blocksatz"
 
 msgctxt "sorting:by-name:ascending"
 msgid "by name, ascending"
-msgstr ""
+msgstr "alphabetisch, vorwärts"
 
 msgctxt "sorting:by-name:descending"
 msgid "by name, descending"
-msgstr ""
+msgstr "alphabetisch, rückwärts"
 
 msgctxt "sorting:by-creation-date:ascending"
 msgid "by creation date, ascending"
-msgstr ""
+msgstr "nach Erstellungsdatum, vorwärts"
 
 msgctxt "sorting:by-creation-date:descending"
 msgid "by creation date, descending"
-msgstr ""
+msgstr "nach Erstellungsdatum, rückwärts"
 
 msgctxt "sorting:by-modification-date:ascending"
 msgid "by modification date, ascending"
-msgstr ""
+msgstr "nach Änderungsdatum, vorwärts"
 
 msgctxt "sorting:by-modification-date:descending"
 msgid "by modification date, descending"
-msgstr ""
+msgstr "nach Änderungsdatum, rückwärts"
 
 msgctxt "sorting:by-number:ascending"
 msgid "by number, ascending"
-msgstr ""
+msgstr "nach Nummer, aufsteigend"
 
 msgctxt "sorting:by-number:descending"
 msgid "by number, descending"
-msgstr ""
+msgstr "nach Nummer, absteigend"
 
 msgctxt "ui:list:add-entry"
 msgid "Add"
@@ -1038,7 +1062,7 @@ msgstr "Runter"
 
 msgctxt "ui:button:info"
 msgid "Info"
-msgstr ""
+msgstr "Info"
 
 msgctxt "filename-copy-tag"
 msgid "copy"
@@ -1208,7 +1232,7 @@ msgstr "ImageMeter Export"
 
 msgctxt "export:pdf:dialog-title"
 msgid "PDF export options"
-msgstr ""
+msgstr "PDF Exportoptionen"
 
 msgctxt "export:pdf:section:paper"
 msgid "Paper"
@@ -1228,7 +1252,7 @@ msgstr "PDF Seitenausrichtung"
 
 msgctxt "export:pdf:paper-orientation"
 msgid "Paper orientation"
-msgstr ""
+msgstr "Seitenausrichtung"
 
 msgctxt "export:pdf:paper-orientation:portrait"
 msgid "Portrait"
@@ -1248,7 +1272,7 @@ msgstr "PDF Seitengröße"
 
 msgctxt "export:pdf:paper-size"
 msgid "Paper size"
-msgstr ""
+msgstr "Papiergröße"
 
 msgctxt "export:pdf:paper-size:a4"
 msgid "A4"
@@ -1284,7 +1308,7 @@ msgstr "Bilder werden nie gedreht"
 
 msgctxt "export:pdf:images-per-page"
 msgid "Images per page"
-msgstr ""
+msgstr "Bilder pro Seite"
 
 msgctxt "export:pdf:images-per-page(pdf)"
 msgid "Images per PDF page"
@@ -1304,7 +1328,7 @@ msgstr "Reservierter Platz für Bildnotizen"
 
 msgctxt "export:pdf:image-notes-space(short)"
 msgid "Space for image notes"
-msgstr ""
+msgstr "Platz für Bildnotizen"
 
 msgctxt "export:pdf:image-notes-space:do-not-print-notes"
 msgid "Do not print image notes"
@@ -1312,7 +1336,7 @@ msgstr "Bildnotizen nicht drucken"
 
 msgctxt "export:pdf:image-notes-space:reserve-X-space"
 msgid "Reserve {0}% space"
-msgstr ""
+msgstr "Reserviere {0}% Platz"
 
 msgctxt "export:pdf:print-folder-notes"
 msgid "Print folder notes"
@@ -1356,7 +1380,7 @@ msgstr "Standard"
 
 msgctxt "print:options:dialog-title"
 msgid "Print options"
-msgstr ""
+msgstr "Druckoptionen"
 
 msgctxt "zip-export:include-annotated-images"
 msgid "Include annotated images"
@@ -1911,7 +1935,23 @@ msgstr "Maßstab"
 
 msgctxt "editor:properties:dialog-title"
 msgid "Tag and Properties"
-msgstr ""
+msgstr "Etikett und Eigenschaften"
+
+msgctxt "prefs:measures:length-unit"
+msgid "Length unit"
+msgstr "Längeneinheit"
+
+msgctxt "prefs:measures:area-unit"
+msgid "Area unit"
+msgstr "Flächeneinheit"
+
+msgctxt "prefs:measures:angle-unit"
+msgid "Angle unit"
+msgstr "Winkeleinheit"
+
+msgctxt "prefs:measures:group:display-options"
+msgid "Display options"
+msgstr "Darstellungsoptionen"
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
 msgid "Snap to object corners"
@@ -2406,15 +2446,15 @@ msgstr "Kartendienstleister"
 
 msgctxt "prefs:map-provider:google-maps"
 msgid "Google Maps"
-msgstr ""
+msgstr "Google Maps"
 
 msgctxt "prefs:map-provider:bing-maps"
 msgid "Bing Maps"
-msgstr ""
+msgstr "Bing Maps"
 
 msgctxt "prefs:map-provider:open-street-map"
 msgid "OpenStreetMap"
-msgstr ""
+msgstr "OpenStreetMap"
 
 msgctxt "prefs:company:user-id"
 msgid "User ID"
@@ -3452,6 +3492,14 @@ msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr "Datei wiederherstellen"
 
+#~ msgctxt "dimtemplate:area:decimal-metric"
+#~ msgid "metric"
+#~ msgstr "Metrisch"
+
+#~ msgctxt "dimtemplate:area:decimal-imperial"
+#~ msgid "imperial"
+#~ msgstr "Britisch"
+
 #~ msgctxt "export:pdf:may-rotate-images(short)"
 #~ msgid "Images in PDF may be rotated"
 #~ msgstr "Bilder im PDF dürfen gedreht werden"
@@ -3459,5 +3507,3 @@ msgstr "Datei wiederherstellen"
 #~ msgctxt "error:CommaSeparatedList_EmptyString"
 #~ msgid "Empty item in list"
 #~ msgstr "Leerer Eintrag in der Liste."
-
-

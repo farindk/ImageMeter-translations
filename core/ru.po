@@ -777,11 +777,11 @@ msgid "Inches with fractions (1 1/8\")"
 msgstr "Дюймы с дробями (1 1/8\\\")"
 
 msgctxt "dimtemplate:area:decimal-metric"
-msgid "metric"
+msgid "Metric"
 msgstr "метрический"
 
 msgctxt "dimtemplate:area:decimal-imperial"
-msgid "imperial"
+msgid "Imperial"
 msgstr "английский"
 
 #, fuzzy
@@ -868,6 +868,16 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "Англ. единицы измерения будут выглядеть как ft/in"
 
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
+msgid "Add dot after ambiguous numbers"
+msgstr ""
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
+msgid ""
+"When enabled, a dot is placed after numbers that are ambiguous when read "
+"upside down, like this: 66."
+msgstr ""
+
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
 msgid "Ambiguous numbers"
@@ -882,6 +892,12 @@ msgstr "Хранить"
 msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
 msgstr "При необходимости добавьте точку"
+
+msgctxt "dimformat:options-ui:show-units:title:tooltip"
+msgid ""
+"When disabled, measures are shown without the unit. I.e. just the plain "
+"number '23' instead of '23 cm'."
+msgstr ""
 
 msgctxt "dimformat:options-ui:show-units:title"
 msgid "Show units"
@@ -906,6 +922,10 @@ msgstr "Дроби не будут сокращены (4/8 останется 4/
 msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "Дроби будут сокращены (4/8 станет 1/2)"
+
+msgctxt "dimformat:options-ui:decimal-digits(short)"
+msgid "Decimal digits"
+msgstr "Десятичные знаки"
 
 msgctxt "month-names-short-1"
 msgid "Jan"
@@ -2029,6 +2049,22 @@ msgstr "Масштаб"
 
 msgctxt "editor:properties:dialog-title"
 msgid "Tag and Properties"
+msgstr ""
+
+msgctxt "prefs:measures:length-unit"
+msgid "Length unit"
+msgstr ""
+
+msgctxt "prefs:measures:area-unit"
+msgid "Area unit"
+msgstr ""
+
+msgctxt "prefs:measures:angle-unit"
+msgid "Angle unit"
+msgstr "Единицы измерения углов"
+
+msgctxt "prefs:measures:group:display-options"
+msgid "Display options"
 msgstr ""
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
@@ -3798,8 +3834,15 @@ msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
 
+#~ msgctxt "dimtemplate:area:decimal-metric"
+#~ msgid "metric"
+#~ msgstr "метрический"
+
+#~ msgctxt "dimtemplate:area:decimal-imperial"
+#~ msgid "imperial"
+#~ msgstr "английский"
+
 #~ msgctxt "export:pdf:may-rotate-images(short)"
 #~ msgid "Images in PDF may be rotated"
 #~ msgstr "Поворот картинок в PDF"
-
 

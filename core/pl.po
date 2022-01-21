@@ -761,12 +761,12 @@ msgid "Inches with fractions (1 1/8\")"
 msgstr "Cale (1 1/8\")"
 
 msgctxt "dimtemplate:area:decimal-metric"
-msgid "metric"
-msgstr "metryczny"
+msgid "Metric"
+msgstr "Metryczny"
 
 msgctxt "dimtemplate:area:decimal-imperial"
-msgid "imperial"
-msgstr "imperial"
+msgid "Imperial"
+msgstr "Imperial"
 
 msgctxt "labeltype:any"
 msgid "Any"
@@ -841,6 +841,16 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "Jednostki imperialne będą wyświetlane jako ft/in"
 
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
+msgid "Add dot after ambiguous numbers"
+msgstr ""
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
+msgid ""
+"When enabled, a dot is placed after numbers that are ambiguous when read "
+"upside down, like this: 66."
+msgstr ""
+
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
 msgid "Ambiguous numbers"
@@ -855,6 +865,12 @@ msgstr "Nie"
 msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
 msgstr "Tak, gdy wymagana"
+
+msgctxt "dimformat:options-ui:show-units:title:tooltip"
+msgid ""
+"When disabled, measures are shown without the unit. I.e. just the plain "
+"number '23' instead of '23 cm'."
+msgstr ""
 
 msgctxt "dimformat:options-ui:show-units:title"
 msgid "Show units"
@@ -879,6 +895,10 @@ msgstr "Ułamki nie zostaną zmniejszone (4/8 zostanie 4/8)"
 msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "Ułamki zostaną zmniejszone (4/8 stanie się 1/2)"
+
+msgctxt "dimformat:options-ui:decimal-digits(short)"
+msgid "Decimal digits"
+msgstr "Cyfry dziesiętne"
 
 msgctxt "month-names-short-1"
 msgid "Jan"
@@ -1954,6 +1974,22 @@ msgstr "Skala"
 
 msgctxt "editor:properties:dialog-title"
 msgid "Tag and Properties"
+msgstr ""
+
+msgctxt "prefs:measures:length-unit"
+msgid "Length unit"
+msgstr ""
+
+msgctxt "prefs:measures:area-unit"
+msgid "Area unit"
+msgstr ""
+
+msgctxt "prefs:measures:angle-unit"
+msgid "Angle unit"
+msgstr "Jednostka kąta"
+
+msgctxt "prefs:measures:group:display-options"
+msgid "Display options"
 msgstr ""
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
@@ -3486,8 +3522,15 @@ msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr "przywracanie elementu"
 
+#~ msgctxt "dimtemplate:area:decimal-metric"
+#~ msgid "metric"
+#~ msgstr "metryczny"
+
+#~ msgctxt "dimtemplate:area:decimal-imperial"
+#~ msgid "imperial"
+#~ msgstr "imperial"
+
 #~ msgctxt "export:pdf:may-rotate-images(short)"
 #~ msgid "Images in PDF may be rotated"
 #~ msgstr "Obrazy w formacie PDF mogą być obracane"
-
 

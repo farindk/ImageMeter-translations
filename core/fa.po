@@ -752,11 +752,11 @@ msgid "Inches with fractions (1 1/8\")"
 msgstr "اینچ با کسری (1 1/8\")"
 
 msgctxt "dimtemplate:area:decimal-metric"
-msgid "metric"
+msgid "Metric"
 msgstr "متریک"
 
 msgctxt "dimtemplate:area:decimal-imperial"
-msgid "imperial"
+msgid "Imperial"
 msgstr "امپریال"
 
 msgctxt "labeltype:any"
@@ -834,6 +834,16 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "واحدهای امپریال به صورت ft/in نمایش داده خواهند شد"
 
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
+msgid "Add dot after ambiguous numbers"
+msgstr ""
+
+msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
+msgid ""
+"When enabled, a dot is placed after numbers that are ambiguous when read "
+"upside down, like this: 66."
+msgstr ""
+
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
 msgid "Ambiguous numbers"
 msgstr "افزودن ابهامزدایی نقطه"
@@ -845,6 +855,12 @@ msgstr "خیر"
 msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
 msgstr "بله، در صورت لزوم"
+
+msgctxt "dimformat:options-ui:show-units:title:tooltip"
+msgid ""
+"When disabled, measures are shown without the unit. I.e. just the plain "
+"number '23' instead of '23 cm'."
+msgstr ""
 
 msgctxt "dimformat:options-ui:show-units:title"
 msgid "Show units"
@@ -869,6 +885,10 @@ msgstr "کسرها ساده نخواهند شد (4/8 باقی می ماند 4/8)
 msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "کسرها ساده خواهند شد (4/8 می شود 1/2)"
+
+msgctxt "dimformat:options-ui:decimal-digits(short)"
+msgid "Decimal digits"
+msgstr "ارقام اعشاری"
 
 msgctxt "month-names-short-1"
 msgid "Jan"
@@ -1944,6 +1964,22 @@ msgstr "مقیاس"
 
 msgctxt "editor:properties:dialog-title"
 msgid "Tag and Properties"
+msgstr ""
+
+msgctxt "prefs:measures:length-unit"
+msgid "Length unit"
+msgstr ""
+
+msgctxt "prefs:measures:area-unit"
+msgid "Area unit"
+msgstr ""
+
+msgctxt "prefs:measures:angle-unit"
+msgid "Angle unit"
+msgstr "واحد زاویه"
+
+msgctxt "prefs:measures:group:display-options"
+msgid "Display options"
 msgstr ""
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
@@ -3468,8 +3504,15 @@ msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
 
+#~ msgctxt "dimtemplate:area:decimal-metric"
+#~ msgid "metric"
+#~ msgstr "متریک"
+
+#~ msgctxt "dimtemplate:area:decimal-imperial"
+#~ msgid "imperial"
+#~ msgstr "امپریال"
+
 #~ msgctxt "export:pdf:may-rotate-images(short)"
 #~ msgid "Images in PDF may be rotated"
 #~ msgstr "عکس ها در PDF ممکن است بچرخند"
-
 
