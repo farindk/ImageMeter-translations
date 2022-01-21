@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-18 20:01+0100\n"
+"POT-Creation-Date: 2022-01-21 16:47+0100\n"
 "PO-Revision-Date: 2020-06-11 20:22+0200\n"
 "Last-Translator: \n"
 "Language: el\n"
@@ -2630,26 +2630,13 @@ msgctxt "pref_export_pdf_may_rotate_images_summaryoff"
 msgid "Images will never be rotated"
 msgstr "Δεν θα περιστραφούν"
 
-msgctxt "pref_export_pdf_separate_landscape_portrait"
-msgid "Separate landscape/portrait in PDF"
-msgstr "Χωριστή διάταξη οριζόντια/κάθετα"
-
-msgctxt "pref_export_pdf_separate_landscape_portrait_dialog"
-msgid "When to separate landscape/portrait in PDF"
-msgstr "Πότε να χωρίζουν οι σελίδες οριζόντια/κάθετα στο PDF"
-
-msgctxt "pref_export_pdf_separate_landscape_portrait_choices:0"
-msgid "Never"
-msgstr "Ποτέ"
-
-msgctxt "pref_export_pdf_separate_landscape_portrait_choices:1"
-msgid "If it does not increase page count"
-msgstr "Εάν δεν αυξάνεται ο αριθμός των σελίδων"
-
-msgctxt "pref_export_pdf_separate_landscape_portrait_choices:2"
-msgid "Always"
-msgstr "Πάντα"
-
+#. <string name="pref_export_pdf_separate_landscape_portrait">Separate
+#. landscape/portrait in PDF</string>     <string
+#. name="pref_export_pdf_separate_landscape_portrait_dialog">When to separate
+#. landscape/portrait in PDF</string>     <string-array
+#. name="pref_export_pdf_separate_landscape_portrait_choices">
+#. <item>Never</item>         <item>If it does not increase page count</item>
+#. <item>Always</item>     </string-array>
 msgctxt "pref_export_pdf_print_image_notes"
 msgid "Print image notes"
 msgstr "Εκτύπωση σημειώσεων εικόνων"
@@ -2661,36 +2648,6 @@ msgstr "Χώρος δεσμευμένος για σημειώσεις της ε�
 msgctxt "pref_export_pdf_image_notes_space_dialog"
 msgid "Space reserved for image notes"
 msgstr "Χώρος δεσμευμένος για σημειώσεις της εικόνας"
-
-#, c-format
-msgctxt "pref_export_pdf_image_notes_space_choices:0"
-msgid "50%"
-msgstr "50%"
-
-#, c-format
-msgctxt "pref_export_pdf_image_notes_space_choices:1"
-msgid "40%"
-msgstr "40%"
-
-#, c-format
-msgctxt "pref_export_pdf_image_notes_space_choices:2"
-msgid "30%"
-msgstr "30%"
-
-#, c-format
-msgctxt "pref_export_pdf_image_notes_space_choices:3"
-msgid "20%"
-msgstr "20%"
-
-#, c-format
-msgctxt "pref_export_pdf_image_notes_space_choices:4"
-msgid "10%"
-msgstr "10%"
-
-#, fuzzy
-msgctxt "pref_export_pdf_image_notes_space_choices:5"
-msgid "Do not print image notes"
-msgstr "Μην εκτυπώνετε σημειώσεις εικόνας"
 
 msgctxt "pref_export_pdf_print_folder_notes"
 msgid "Print folder notes"
@@ -2782,41 +2739,12 @@ msgctxt "pref_category_ui_limits"
 msgid "Limits"
 msgstr "Όρια"
 
-#, fuzzy
-msgctxt "pref_ui_max_image_resolution"
-msgid "Maximum image resolution"
-msgstr "Μέγιστη ανάλυση εικόνας"
-
-#, fuzzy
-msgctxt "pref_ui_max_image_resolution_choices:0"
-msgid "1 megapixel"
-msgstr "1 megapixel"
-
-#, fuzzy
-msgctxt "pref_ui_max_image_resolution_choices:1"
-msgid "4 megapixel"
-msgstr "4 megapixel"
-
-#, fuzzy
-msgctxt "pref_ui_max_image_resolution_choices:2"
-msgid "16 megapixel"
-msgstr "16 megapixel"
-
-#, fuzzy
-msgctxt "pref_ui_max_image_resolution_choices:3"
-msgid "64 megapixel"
-msgstr "64 megapixel"
-
-#, fuzzy
-msgctxt "pref_ui_max_image_resolution_choices:4"
-msgid "256 megapixel"
-msgstr "256 megapixel"
-
-#, fuzzy
-msgctxt "pref_ui_max_image_resolution_choices:5"
-msgid "unlimited"
-msgstr "απεριόριστος"
-
+#. <string name="pref_ui_max_image_resolution">Maximum image
+#. resolution</string>      <string-array
+#. name="pref_ui_max_image_resolution_choices">         <item>1
+#. megapixel</item>         <item>4 megapixel</item>         <item>16
+#. megapixel</item>         <item>64 megapixel</item>         <item>256
+#. megapixel</item>         <item>unlimited</item>     </string-array>
 #. <string name="pref_category_ui_import">Import</string>     <string
 #. name="pref_ui_pdf_import_calibrate_to_page_size">PDF import: calibrate to
 #. page size</string>
@@ -4871,31 +4799,14 @@ msgctxt "imagesettings_dialog_calibration_title"
 msgid "Calibration"
 msgstr "Βαθμονόμηση"
 
-#, fuzzy
-msgctxt "imagesettings_dialog_calibration_enable"
-msgid "Calibrate to image"
-msgstr "Βαθμονόμηση στην εικόνα"
-
-#, fuzzy
-msgctxt "imagesettings_dialog_calibration_image_resolution"
-msgid "Resolution"
-msgstr "Ανάλυση"
-
-#, fuzzy
-msgctxt "imagesettings_dialog_calibration_image_scale"
-msgid "Scale"
-msgstr "Κλίμακα"
-
-#, fuzzy
-msgctxt "imagesettings_dialog_calibration_image_scale_real"
-msgid "real"
-msgstr "πραγματικός"
-
-#, fuzzy
-msgctxt "imagesettings_dialog_calibration_image_scale_image"
-msgid "image"
-msgstr "εικόνα"
-
+#. <string name="imagesettings_dialog_calibration_enable">Calibrate to
+#. image</string>     <string
+#. name="imagesettings_dialog_calibration_image_resolution">Resolution</string>
+#. <string name="imagesettings_dialog_calibration_image_scale">Scale</string>
+#. <string
+#. name="imagesettings_dialog_calibration_image_scale_real">real</string>
+#. <string
+#. name="imagesettings_dialog_calibration_image_scale_image">image</string>
 #. bluetooth
 msgctxt "bluetooth_notification_title"
 msgid "Bluetooth device connection"
