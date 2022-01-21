@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-18 20:01+0100\n"
+"POT-Creation-Date: 2022-01-21 16:47+0100\n"
 "PO-Revision-Date: 2021-03-24 11:46+0100\n"
 "Last-Translator: \n"
 "Language: fa\n"
@@ -2321,26 +2321,13 @@ msgctxt "pref_export_pdf_may_rotate_images_summaryoff"
 msgid "Images will never be rotated"
 msgstr "عکس ها هرگز چرخانده نخواهند شد"
 
-msgctxt "pref_export_pdf_separate_landscape_portrait"
-msgid "Separate landscape/portrait in PDF"
-msgstr "جداگانه  بودن عمودی/افقی در PDF"
-
-msgctxt "pref_export_pdf_separate_landscape_portrait_dialog"
-msgid "When to separate landscape/portrait in PDF"
-msgstr "زمان جداگانه بودن عمودی/افقی در PDF"
-
-msgctxt "pref_export_pdf_separate_landscape_portrait_choices:0"
-msgid "Never"
-msgstr "هرگز"
-
-msgctxt "pref_export_pdf_separate_landscape_portrait_choices:1"
-msgid "If it does not increase page count"
-msgstr "اگر تعداد صفحه ها را افزایش نمی دهد"
-
-msgctxt "pref_export_pdf_separate_landscape_portrait_choices:2"
-msgid "Always"
-msgstr "همیشه"
-
+#. <string name="pref_export_pdf_separate_landscape_portrait">Separate
+#. landscape/portrait in PDF</string>     <string
+#. name="pref_export_pdf_separate_landscape_portrait_dialog">When to separate
+#. landscape/portrait in PDF</string>     <string-array
+#. name="pref_export_pdf_separate_landscape_portrait_choices">
+#. <item>Never</item>         <item>If it does not increase page count</item>
+#. <item>Always</item>     </string-array>
 msgctxt "pref_export_pdf_print_image_notes"
 msgid "Print image notes"
 msgstr "چاپ یادداشت های عکس"
@@ -2352,35 +2339,6 @@ msgstr "فضای ذخیره شده برای یادداشت های عکس"
 msgctxt "pref_export_pdf_image_notes_space_dialog"
 msgid "Space reserved for image notes"
 msgstr "فضای ذخیره شده برای یادداشت های عکس"
-
-#, c-format
-msgctxt "pref_export_pdf_image_notes_space_choices:0"
-msgid "50%"
-msgstr "50%"
-
-#, c-format
-msgctxt "pref_export_pdf_image_notes_space_choices:1"
-msgid "40%"
-msgstr "40%"
-
-#, c-format
-msgctxt "pref_export_pdf_image_notes_space_choices:2"
-msgid "30%"
-msgstr "30%"
-
-#, c-format
-msgctxt "pref_export_pdf_image_notes_space_choices:3"
-msgid "20%"
-msgstr "20%"
-
-#, c-format
-msgctxt "pref_export_pdf_image_notes_space_choices:4"
-msgid "10%"
-msgstr "10%"
-
-msgctxt "pref_export_pdf_image_notes_space_choices:5"
-msgid "Do not print image notes"
-msgstr ""
 
 msgctxt "pref_export_pdf_print_folder_notes"
 msgid "Print folder notes"
@@ -2463,34 +2421,12 @@ msgctxt "pref_category_ui_limits"
 msgid "Limits"
 msgstr ""
 
-msgctxt "pref_ui_max_image_resolution"
-msgid "Maximum image resolution"
-msgstr ""
-
-msgctxt "pref_ui_max_image_resolution_choices:0"
-msgid "1 megapixel"
-msgstr ""
-
-msgctxt "pref_ui_max_image_resolution_choices:1"
-msgid "4 megapixel"
-msgstr ""
-
-msgctxt "pref_ui_max_image_resolution_choices:2"
-msgid "16 megapixel"
-msgstr ""
-
-msgctxt "pref_ui_max_image_resolution_choices:3"
-msgid "64 megapixel"
-msgstr ""
-
-msgctxt "pref_ui_max_image_resolution_choices:4"
-msgid "256 megapixel"
-msgstr ""
-
-msgctxt "pref_ui_max_image_resolution_choices:5"
-msgid "unlimited"
-msgstr ""
-
+#. <string name="pref_ui_max_image_resolution">Maximum image
+#. resolution</string>      <string-array
+#. name="pref_ui_max_image_resolution_choices">         <item>1
+#. megapixel</item>         <item>4 megapixel</item>         <item>16
+#. megapixel</item>         <item>64 megapixel</item>         <item>256
+#. megapixel</item>         <item>unlimited</item>     </string-array>
 #. <string name="pref_category_ui_import">Import</string>     <string
 #. name="pref_ui_pdf_import_calibrate_to_page_size">PDF import: calibrate to
 #. page size</string>
@@ -4280,26 +4216,14 @@ msgctxt "imagesettings_dialog_calibration_title"
 msgid "Calibration"
 msgstr "کالیبراسیون"
 
-msgctxt "imagesettings_dialog_calibration_enable"
-msgid "Calibrate to image"
-msgstr "کالیبراسیون به عکس"
-
-msgctxt "imagesettings_dialog_calibration_image_resolution"
-msgid "Resolution"
-msgstr "وضوح"
-
-msgctxt "imagesettings_dialog_calibration_image_scale"
-msgid "Scale"
-msgstr "مقیاس"
-
-msgctxt "imagesettings_dialog_calibration_image_scale_real"
-msgid "real"
-msgstr "واقعی"
-
-msgctxt "imagesettings_dialog_calibration_image_scale_image"
-msgid "image"
-msgstr "عکس"
-
+#. <string name="imagesettings_dialog_calibration_enable">Calibrate to
+#. image</string>     <string
+#. name="imagesettings_dialog_calibration_image_resolution">Resolution</string>
+#. <string name="imagesettings_dialog_calibration_image_scale">Scale</string>
+#. <string
+#. name="imagesettings_dialog_calibration_image_scale_real">real</string>
+#. <string
+#. name="imagesettings_dialog_calibration_image_scale_image">image</string>
 #. bluetooth
 msgctxt "bluetooth_notification_title"
 msgid "Bluetooth device connection"
