@@ -729,6 +729,22 @@ msgctxt "error:BluetoothError:generic"
 msgid "Cannot set received Bluetooth value."
 msgstr "Impossibile impostare il valore Bluetooth ricevuto."
 
+msgctxt "error:QKeychain:entry-not-found"
+msgid "No key found for '{}'."
+msgstr ""
+
+msgctxt "error:QKeychain:cannot-delete-entry"
+msgid "Cannot delete key for '{}'."
+msgstr ""
+
+msgctxt "error:QKeychain:access-denied"
+msgid "Access to key-chain denied."
+msgstr ""
+
+msgctxt "error:QKeychain:no-keychain-available"
+msgid "No key-chain available."
+msgstr ""
+
 msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
 msgstr "La directory esterna non è montata."
@@ -1181,6 +1197,26 @@ msgctxt "text-h-alignment:block"
 msgid "Block"
 msgstr "Bloccare"
 
+#, fuzzy
+msgctxt "character:comma"
+msgid "Comma"
+msgstr "Virgola"
+
+#, fuzzy
+msgctxt "character:semicolon"
+msgid "Semicolon"
+msgstr "Punto e virgola"
+
+#, fuzzy
+msgctxt "character:colon"
+msgid "Colon"
+msgstr "Colon"
+
+#, fuzzy
+msgctxt "character:dot"
+msgid "Dot"
+msgstr "Punto"
+
 msgctxt "sorting:by-name:ascending"
 msgid "by name, ascending"
 msgstr ""
@@ -1432,6 +1468,11 @@ msgid "{image.title}"
 msgstr "{image.title}"
 
 #, fuzzy
+msgctxt "image-export:use-default-options"
+msgid "Use default export options"
+msgstr "Usa le opzioni di esportazione predefinite"
+
+#, fuzzy
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
 msgstr "Sommario"
@@ -1598,6 +1639,31 @@ msgstr "Risoluzione"
 msgctxt "export:pdf:print-density:default"
 msgid "Default"
 msgstr "Predefinito"
+
+#, fuzzy
+msgctxt "export:csv:field-separator"
+msgid "Field separator character"
+msgstr "Carattere separatore di campo"
+
+#, fuzzy
+msgctxt "export:csv:cell-values-separator"
+msgid "Cell values separator"
+msgstr "Separatore valori cella"
+
+#, fuzzy
+msgctxt "export:csv:decimal-separator"
+msgid "Decimal separator"
+msgstr "Separatore decimale"
+
+#, fuzzy
+msgctxt "export:csv:include-table-header-row"
+msgid "Include header row"
+msgstr "Includi riga di intestazione"
+
+#, fuzzy
+msgctxt "export:csv:include-table-footer-row"
+msgid "Include footer row"
+msgstr "Includi riga piè di pagina"
 
 msgctxt "print:options:dialog-title"
 msgid "Print options"

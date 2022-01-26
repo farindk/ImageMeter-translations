@@ -731,6 +731,22 @@ msgctxt "error:BluetoothError:generic"
 msgid "Cannot set received Bluetooth value."
 msgstr "No se puede configurar el valor de Bluetooth recibido."
 
+msgctxt "error:QKeychain:entry-not-found"
+msgid "No key found for '{}'."
+msgstr ""
+
+msgctxt "error:QKeychain:cannot-delete-entry"
+msgid "Cannot delete key for '{}'."
+msgstr ""
+
+msgctxt "error:QKeychain:access-denied"
+msgid "Access to key-chain denied."
+msgstr ""
+
+msgctxt "error:QKeychain:no-keychain-available"
+msgid "No key-chain available."
+msgstr ""
+
 msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
 msgstr "El directorio externo no está montado."
@@ -1223,6 +1239,26 @@ msgctxt "text-h-alignment:block"
 msgid "Block"
 msgstr "Cuadra"
 
+#, fuzzy
+msgctxt "character:comma"
+msgid "Comma"
+msgstr "Coma"
+
+#, fuzzy
+msgctxt "character:semicolon"
+msgid "Semicolon"
+msgstr "Punto y coma"
+
+#, fuzzy
+msgctxt "character:colon"
+msgid "Colon"
+msgstr "Colon"
+
+#, fuzzy
+msgctxt "character:dot"
+msgid "Dot"
+msgstr "Punto"
+
 msgctxt "sorting:by-name:ascending"
 msgid "by name, ascending"
 msgstr ""
@@ -1475,6 +1511,11 @@ msgid "{image.title}"
 msgstr "{image.title}"
 
 #, fuzzy
+msgctxt "image-export:use-default-options"
+msgid "Use default export options"
+msgstr "Usar opciones de exportación predeterminadas"
+
+#, fuzzy
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
 msgstr "Tabla de contenido"
@@ -1652,6 +1693,31 @@ msgstr "Resolución"
 msgctxt "export:pdf:print-density:default"
 msgid "Default"
 msgstr "Defecto"
+
+#, fuzzy
+msgctxt "export:csv:field-separator"
+msgid "Field separator character"
+msgstr "Carácter separador de campo"
+
+#, fuzzy
+msgctxt "export:csv:cell-values-separator"
+msgid "Cell values separator"
+msgstr "Separador de valores de celda"
+
+#, fuzzy
+msgctxt "export:csv:decimal-separator"
+msgid "Decimal separator"
+msgstr "Separador decimal"
+
+#, fuzzy
+msgctxt "export:csv:include-table-header-row"
+msgid "Include header row"
+msgstr "Incluir fila de encabezado"
+
+#, fuzzy
+msgctxt "export:csv:include-table-footer-row"
+msgid "Include footer row"
+msgstr "Incluir fila de pie de página"
 
 msgctxt "print:options:dialog-title"
 msgid "Print options"

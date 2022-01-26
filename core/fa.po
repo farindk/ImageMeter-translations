@@ -627,6 +627,22 @@ msgctxt "error:BluetoothError:generic"
 msgid "Cannot set received Bluetooth value."
 msgstr "نمی توان مقدار دریافتی بلوتوث را قرار داد."
 
+msgctxt "error:QKeychain:entry-not-found"
+msgid "No key found for '{}'."
+msgstr ""
+
+msgctxt "error:QKeychain:cannot-delete-entry"
+msgid "Cannot delete key for '{}'."
+msgstr ""
+
+msgctxt "error:QKeychain:access-denied"
+msgid "Access to key-chain denied."
+msgstr ""
+
+msgctxt "error:QKeychain:no-keychain-available"
+msgid "No key-chain available."
+msgstr ""
+
 msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
 msgstr "دایرکتوری خارجی نصب نشده است."
@@ -1050,6 +1066,22 @@ msgctxt "text-h-alignment:block"
 msgid "Block"
 msgstr ""
 
+msgctxt "character:comma"
+msgid "Comma"
+msgstr "پاراگراف"
+
+msgctxt "character:semicolon"
+msgid "Semicolon"
+msgstr "سمیکولن"
+
+msgctxt "character:colon"
+msgid "Colon"
+msgstr "کولون"
+
+msgctxt "character:dot"
+msgid "Dot"
+msgstr "نقطه"
+
 msgctxt "sorting:by-name:ascending"
 msgid "by name, ascending"
 msgstr ""
@@ -1263,6 +1295,10 @@ msgctxt "image-export:filename-expression"
 msgid "{image.title}"
 msgstr ""
 
+msgctxt "image-export:use-default-options"
+msgid "Use default export options"
+msgstr "استفاده از گزینه های پیش فرض صادر کردن"
+
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
 msgstr "فهرست مطالب"
@@ -1418,6 +1454,26 @@ msgstr "وضوح"
 msgctxt "export:pdf:print-density:default"
 msgid "Default"
 msgstr "پیش فرض"
+
+msgctxt "export:csv:field-separator"
+msgid "Field separator character"
+msgstr "شخصیت جدا کننده فیلد(زمینه)"
+
+msgctxt "export:csv:cell-values-separator"
+msgid "Cell values separator"
+msgstr "جدا کننده مقادیر سلول"
+
+msgctxt "export:csv:decimal-separator"
+msgid "Decimal separator"
+msgstr "جدا کننده اعشار"
+
+msgctxt "export:csv:include-table-header-row"
+msgid "Include header row"
+msgstr "قرار دادن ردیف سرتیتر(هدر)"
+
+msgctxt "export:csv:include-table-footer-row"
+msgid "Include footer row"
+msgstr "قرار دادن ردیف پاورقی"
 
 msgctxt "print:options:dialog-title"
 msgid "Print options"

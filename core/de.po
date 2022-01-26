@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2022-01-21 16:08+0100\n"
+"PO-Revision-Date: 2022-01-26 17:26+0100\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -604,6 +604,22 @@ msgctxt "error:BluetoothError:generic"
 msgid "Cannot set received Bluetooth value."
 msgstr "Kann den über Bluetooth empfangenen Wert nicht setzen."
 
+msgctxt "error:QKeychain:entry-not-found"
+msgid "No key found for '{}'."
+msgstr "Kein Schlüssel für '{}' gefunden."
+
+msgctxt "error:QKeychain:cannot-delete-entry"
+msgid "Cannot delete key for '{}'."
+msgstr "Kann den Schlüssel für '{}' nicht löschen."
+
+msgctxt "error:QKeychain:access-denied"
+msgid "Access to key-chain denied."
+msgstr "Zugriff zum Schlüsselbund verweigert."
+
+msgctxt "error:QKeychain:no-keychain-available"
+msgid "No key-chain available."
+msgstr "Kein Schlüsselbund verfügbar."
+
 msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
 msgstr "Externes Verzeichnis ist nicht eingehängt."
@@ -1028,6 +1044,22 @@ msgctxt "text-h-alignment:block"
 msgid "Block"
 msgstr "Blocksatz"
 
+msgctxt "character:comma"
+msgid "Comma"
+msgstr "Komma"
+
+msgctxt "character:semicolon"
+msgid "Semicolon"
+msgstr "Semikolon"
+
+msgctxt "character:colon"
+msgid "Colon"
+msgstr "Doppelpunkt"
+
+msgctxt "character:dot"
+msgid "Dot"
+msgstr "Punkt"
+
 msgctxt "sorting:by-name:ascending"
 msgid "by name, ascending"
 msgstr "alphabetisch, vorwärts"
@@ -1238,6 +1270,10 @@ msgctxt "image-export:filename-expression"
 msgid "{image.title}"
 msgstr "{image.title}"
 
+msgctxt "image-export:use-default-options"
+msgid "Use default export options"
+msgstr "Standardoptionen benutzen"
+
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
 msgstr "Inhaltsverzeichnis"
@@ -1393,6 +1429,26 @@ msgstr "Bildauflösung"
 msgctxt "export:pdf:print-density:default"
 msgid "Default"
 msgstr "Standard"
+
+msgctxt "export:csv:field-separator"
+msgid "Field separator character"
+msgstr "Feldseparatorzeichen"
+
+msgctxt "export:csv:cell-values-separator"
+msgid "Cell values separator"
+msgstr "Separator für Werte innerhalb einer Zelle"
+
+msgctxt "export:csv:decimal-separator"
+msgid "Decimal separator"
+msgstr "Dezimaltrennzeichen"
+
+msgctxt "export:csv:include-table-header-row"
+msgid "Include header row"
+msgstr "Titelzeile einfügen"
+
+msgctxt "export:csv:include-table-footer-row"
+msgid "Include footer row"
+msgstr "Fußzeile einfügen"
 
 msgctxt "print:options:dialog-title"
 msgid "Print options"
@@ -3523,4 +3579,3 @@ msgstr "Datei wiederherstellen"
 #~ msgctxt "error:CommaSeparatedList_EmptyString"
 #~ msgid "Empty item in list"
 #~ msgstr "Leerer Eintrag in der Liste."
-
