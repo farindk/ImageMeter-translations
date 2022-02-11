@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-21 16:47+0100\n"
+"POT-Creation-Date: 2022-02-11 12:40+0100\n"
 "PO-Revision-Date: 2021-03-24 11:46+0100\n"
 "Last-Translator: \n"
 "Language: fa\n"
@@ -1103,10 +1103,6 @@ msgctxt "dialog_image_export_options_title"
 msgid "Default image export settings"
 msgstr "تنظیمات پیش فرض صادر کردن عکس"
 
-msgctxt "dialog_image_export_use_default_options"
-msgid "Use default export options"
-msgstr "استفاده از گزینه های پیش فرض صادر کردن"
-
 msgctxt "dialog_image_export_low_jpeg_image_quality"
 msgid "A quality of at least 80 is recommended."
 msgstr "حداقل کیفیت 80 توصیه می شود."
@@ -1116,83 +1112,67 @@ msgid "Show export options next time"
 msgstr "دفعه بعد گزینه های صادر کردن را نشان دهید"
 
 #. PDF export
-msgctxt "dialog_pdf_export_paper"
-msgid "Paper"
-msgstr "کاغذ"
-
-msgctxt "dialog_pdf_export_layout"
-msgid "Layout"
-msgstr "چیدمان"
-
-msgctxt "dialog_pdf_export_metadata"
-msgid "Metadata"
-msgstr "فراداده"
-
+#. <string name="dialog_pdf_export_paper">Paper</string>     <string
+#. name="dialog_pdf_export_layout">Layout</string>     <string
+#. name="dialog_pdf_export_metadata">Metadata</string>
 msgctxt "dialog_pdf_export_space_for_notes"
 msgid "Space for image notes"
 msgstr "فضایی برای یادداشت های عکس"
-
-msgctxt "dialog_pdf_export_print_table_of_content"
-msgid "Print table of content"
-msgstr "چاپ جدول مطالب"
 
 msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
 msgstr "چاپ یادداشت های پوشه"
 
-msgctxt "dialog_pdf_export_image_title"
-msgid "Image title"
-msgstr ""
-
+#. <string name="dialog_pdf_export_print_table_of_content">Print table of
+#. content</string>     <string name="dialog_pdf_export_image_title">Image
+#. title</string>
 msgctxt "dialog_pdf_export_data_table"
 msgid "Data Table"
 msgstr "جدول داده"
 
-msgctxt "dialog_pdf_export_data_table_layout"
-msgid "Table layout"
-msgstr "چیدمان جدول"
-
-msgctxt "dialog_pdf_export_data_table_title_vertical"
-msgid "Vertical column titles"
-msgstr "عناوین ستون عمودی"
-
+#. <string name="dialog_pdf_export_data_table_layout">Table
+#. layout</string>     <string
+#. name="dialog_pdf_export_data_table_title_vertical">Vertical column
+#. titles</string>
 msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
 msgstr "دفعه بعد گزینه های PDF را نشان دهید"
 
-#. TODO
-msgctxt "pref_export_pdf_print_density"
-msgid "Resolution"
-msgstr "وضوح"
-
+#. TODO: replace this with "export:pdf:print-density:default" in the PO set
 msgctxt "pref_export_pdf_output_resolution_default"
 msgid "Default"
 msgstr "پیش فرض"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 msgctxt "dialog_pdf_options_image_notes_space_choices:0"
 msgid "Do not print notes"
 msgstr "یادداشت ها را چاپ نکنید"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
 msgid "10%"
 msgstr "10%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:2"
 msgid "20%"
 msgstr "20%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:3"
 msgid "30%"
 msgstr "30%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:4"
 msgid "40%"
 msgstr "40%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
@@ -1470,30 +1450,6 @@ msgctxt "pref_measure_imperial_area_unit_choices:4"
 msgid "acre"
 msgstr "acre"
 
-msgctxt "pref_measure_angle_unit"
-msgid "Angle unit"
-msgstr "واحد زاویه"
-
-msgctxt "pref_measure_angle_unit_dialog"
-msgid "Angle unit"
-msgstr "واحد زاویه"
-
-msgctxt "pref_measure_angle_unit_choices:0"
-msgid "Degrees"
-msgstr "درجه"
-
-msgctxt "pref_measure_angle_unit_choices:1"
-msgid "Slope percent"
-msgstr "درصد شیب"
-
-msgctxt "pref_measure_angle_unit_choices:2"
-msgid "Radians"
-msgstr "رادیان"
-
-msgctxt "pref_measure_angle_unit_choices:3"
-msgid "Gradians"
-msgstr "گرادیان"
-
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
 msgstr "رقم اعشاری برای مقادیر محاسبه شده"
@@ -1600,8 +1556,9 @@ msgctxt "pref_bluetooth_device_protocol"
 msgid "Bluetooth protocol"
 msgstr "پروتکل بلوتوث"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_dialog"
-msgid "Select the protocol used by the laser distance meter"
+msgid "Select your laser distance meter"
 msgstr "انتخاب پروتکل استفاده شده توسط اندازه گیر فاصلۀ لیزری"
 
 #. TODO: move device names to editcore [untranslated]
@@ -1763,6 +1720,10 @@ msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_renpho_tape_measure"
 msgid "Renpho tape measure"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_magpie_vh80"
+msgid "Magpie VH-80"
 msgstr ""
 
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
@@ -2200,46 +2161,6 @@ msgctxt "pref_category_export_csv"
 msgid "CSV file settings"
 msgstr "تنظیمات فایل CSV"
 
-msgctxt "pref_export_csv_field_separator"
-msgid "Field separator character"
-msgstr "شخصیت جدا کننده فیلد(زمینه)"
-
-msgctxt "pref_export_csv_cell_values_separator"
-msgid "Cell values separator"
-msgstr "جدا کننده مقادیر سلول"
-
-msgctxt "pref_export_csv_decimal_separator"
-msgid "Decimal separator"
-msgstr "جدا کننده اعشار"
-
-msgctxt "pref_export_csv_include_header_row"
-msgid "Include header row"
-msgstr "قرار دادن ردیف سرتیتر(هدر)"
-
-msgctxt "pref_export_csv_include_footer_row"
-msgid "Include footer row"
-msgstr "قرار دادن ردیف پاورقی"
-
-msgctxt "pref_export_csv_field_separator_choices:0"
-msgid "Comma"
-msgstr "پاراگراف"
-
-msgctxt "pref_export_csv_field_separator_choices:1"
-msgid "Semicolon"
-msgstr "سمیکولن"
-
-msgctxt "pref_export_csv_field_separator_choices:2"
-msgid "Colon"
-msgstr "کولون"
-
-msgctxt "pref_export_csv_decimal_separator_choices:0"
-msgid "Dot"
-msgstr "نقطه"
-
-msgctxt "pref_export_csv_decimal_separator_choices:1"
-msgid "Comma"
-msgstr "پاراگراف"
-
 #. PDF
 msgctxt "pref_category_export_pdf"
 msgid "PDF settings"
@@ -2257,101 +2178,45 @@ msgctxt "pref_export_pdf_show_options_summary_off"
 msgid "Options dialog will be skipped"
 msgstr "گزینه ها گفتگوی چشم پوشی خواهد شد"
 
-msgctxt "pref_export_pdf_images_per_page"
-msgid "Images per PDF page"
-msgstr "عکس ها در هر صفحۀ PDF"
-
-msgctxt "pref_export_pdf_images_per_page_dialog"
-msgid "Print how many images on each PDF page"
-msgstr "چاپ تعداد عکس ها در هر صفحۀ PDF"
-
-msgctxt "pref_export_pdf_paper_orientation"
-msgid "PDF page orientation"
-msgstr "جهت صفحۀ PDF"
-
-msgctxt "pref_export_pdf_paper_orientation_dialog"
-msgid "PDF page orientation"
-msgstr "جهت صفحۀ PDF"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:0"
-msgid "Portrait"
-msgstr "افقی"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:1"
-msgid "Landscape"
-msgstr "عمودی"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:2"
-msgid "Automatic"
-msgstr "اتوماتیک"
-
-msgctxt "pref_export_pdf_paper_size"
-msgid "PDF page size"
-msgstr "اندازۀ صفحۀ PDF"
-
-msgctxt "pref_export_pdf_paper_size_dialog"
-msgid "PDF page size"
-msgstr "اندازۀ صفحۀ PDF"
-
-msgctxt "pref_export_pdf_paper_size_choices:0"
-msgid "A4"
-msgstr "A4"
-
-msgctxt "pref_export_pdf_paper_size_choices:1"
-msgid "A3"
-msgstr "A3"
-
-msgctxt "pref_export_pdf_paper_size_choices:2"
-msgid "Letter"
-msgstr "نامه"
-
-msgctxt "pref_export_pdf_paper_size_choices:3"
-msgid "Legal"
-msgstr "مجاز"
-
-msgctxt "pref_export_pdf_may_rotate_images"
-msgid "Images in PDF may be rotated"
-msgstr "عکس ها در PDF ممکن است بچرخند"
-
-msgctxt "pref_export_pdf_may_rotate_images_summaryon"
-msgid "Will rotate images if format fits better"
-msgstr "عکس ها چرخانده خواهند شد اگر بهتر جایگیری شوند"
-
-msgctxt "pref_export_pdf_may_rotate_images_summaryoff"
-msgid "Images will never be rotated"
-msgstr "عکس ها هرگز چرخانده نخواهند شد"
-
+#. <string name="pref_export_pdf_images_per_page">Images per PDF
+#. page</string>     <string
+#. name="pref_export_pdf_images_per_page_dialog">Print how many images on each
+#. PDF page</string>
+#. <string name="pref_export_pdf_paper_orientation">PDF page
+#. orientation</string>     <string
+#. name="pref_export_pdf_paper_orientation_dialog">PDF page
+#. orientation</string>     <string-array
+#. name="pref_export_pdf_paper_orientation_choices">
+#. <item>Portrait</item>         <item>Landscape</item>
+#. <item>Automatic</item>     </string-array>
+#. <string name="pref_export_pdf_paper_size">PDF page size</string>
+#. <string name="pref_export_pdf_paper_size_dialog">PDF page size</string>
+#. <string-array name="pref_export_pdf_paper_size_choices">
+#. <item>A4</item>         <item>A3</item>         <item>Letter</item>
+#. <item>Legal</item>     </string-array>
+#. <string name="pref_export_pdf_may_rotate_images">Images in PDF may be
+#. rotated</string>     <string
+#. name="pref_export_pdf_may_rotate_images_summaryon">Will rotate images if
+#. format fits better</string>     <string
+#. name="pref_export_pdf_may_rotate_images_summaryoff">Images will never be
+#. rotated</string>
 #. <string name="pref_export_pdf_separate_landscape_portrait">Separate
 #. landscape/portrait in PDF</string>     <string
 #. name="pref_export_pdf_separate_landscape_portrait_dialog">When to separate
 #. landscape/portrait in PDF</string>     <string-array
 #. name="pref_export_pdf_separate_landscape_portrait_choices">
 #. <item>Never</item>         <item>If it does not increase page count</item>
-#. <item>Always</item>     </string-array>
-msgctxt "pref_export_pdf_print_image_notes"
-msgid "Print image notes"
-msgstr "چاپ یادداشت های عکس"
-
-msgctxt "pref_export_pdf_image_notes_space"
-msgid "Space reserved for image notes"
-msgstr "فضای ذخیره شده برای یادداشت های عکس"
-
-msgctxt "pref_export_pdf_image_notes_space_dialog"
-msgid "Space reserved for image notes"
-msgstr "فضای ذخیره شده برای یادداشت های عکس"
-
-msgctxt "pref_export_pdf_print_folder_notes"
-msgid "Print folder notes"
-msgstr "چاپ یادداشت های پوشه"
-
-msgctxt "pref_export_pdf_print_folder_notes_summaryoff"
-msgid "No folder notes will be printed"
-msgstr "هیچ یادداشت پوشه ای چاپ نخواهد شد"
-
-msgctxt "pref_export_pdf_print_folder_notes_summaryon"
-msgid "Page with folder notes and TOC will be printed"
-msgstr "صفحه ای با یادداشت های پوشه و TOC چاپ خواهد شد"
-
+#. <item>Always</item>     </string-array>      <string
+#. name="pref_export_pdf_print_image_notes">Print image notes</string>
+#. <string name="pref_export_pdf_image_notes_space">Space reserved for
+#. image notes</string>     <string
+#. name="pref_export_pdf_image_notes_space_dialog">Space reserved for image
+#. notes</string>      <string name="pref_export_pdf_print_folder_notes">Print
+#. folder notes</string>     <string
+#. name="pref_export_pdf_print_folder_notes_summaryoff">No folder notes will be
+#. printed</string>     <string
+#. name="pref_export_pdf_print_folder_notes_summaryon">Page with folder notes
+#. and TOC will be printed</string>
 msgctxt "pref_category_export_general"
 msgid "General"
 msgstr "عمومی"
@@ -4144,10 +4009,6 @@ msgstr "پیشوند"
 msgctxt "value_entry_metadata_suffix"
 msgid "Suffix"
 msgstr "پسوند"
-
-msgctxt "value_entry_decimal_digits"
-msgid "Decimal digits"
-msgstr "ارقام اعشاری"
 
 msgctxt "value_entry_unit_unit"
 msgid "Unit"

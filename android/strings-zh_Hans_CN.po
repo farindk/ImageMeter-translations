@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-21 16:47+0100\n"
+"POT-Creation-Date: 2022-02-11 12:40+0100\n"
 "PO-Revision-Date: 2021-03-07 17:47+0100\n"
 "Last-Translator: \n"
 "Language: ak_GH\n"
@@ -1046,10 +1046,6 @@ msgctxt "dialog_image_export_options_title"
 msgid "Default image export settings"
 msgstr "默认图像导出设置"
 
-msgctxt "dialog_image_export_use_default_options"
-msgid "Use default export options"
-msgstr "使用默认导出选项"
-
 msgctxt "dialog_image_export_low_jpeg_image_quality"
 msgid "A quality of at least 80 is recommended."
 msgstr "建议图像质量至少为 80。"
@@ -1059,83 +1055,67 @@ msgid "Show export options next time"
 msgstr "下次再显示导出选项"
 
 #. PDF export
-msgctxt "dialog_pdf_export_paper"
-msgid "Paper"
-msgstr "纸张尺幅"
-
-msgctxt "dialog_pdf_export_layout"
-msgid "Layout"
-msgstr "布局"
-
-msgctxt "dialog_pdf_export_metadata"
-msgid "Metadata"
-msgstr "元数据"
-
+#. <string name="dialog_pdf_export_paper">Paper</string>     <string
+#. name="dialog_pdf_export_layout">Layout</string>     <string
+#. name="dialog_pdf_export_metadata">Metadata</string>
 msgctxt "dialog_pdf_export_space_for_notes"
 msgid "Space for image notes"
 msgstr "图像备注的空间"
-
-msgctxt "dialog_pdf_export_print_table_of_content"
-msgid "Print table of content"
-msgstr "打印目录"
 
 msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
 msgstr "打印文档夹笔记"
 
-msgctxt "dialog_pdf_export_image_title"
-msgid "Image title"
-msgstr ""
-
+#. <string name="dialog_pdf_export_print_table_of_content">Print table of
+#. content</string>     <string name="dialog_pdf_export_image_title">Image
+#. title</string>
 msgctxt "dialog_pdf_export_data_table"
 msgid "Data Table"
 msgstr "数据表"
 
-msgctxt "dialog_pdf_export_data_table_layout"
-msgid "Table layout"
-msgstr "表格布局"
-
-msgctxt "dialog_pdf_export_data_table_title_vertical"
-msgid "Vertical column titles"
-msgstr "垂直栏标题"
-
+#. <string name="dialog_pdf_export_data_table_layout">Table
+#. layout</string>     <string
+#. name="dialog_pdf_export_data_table_title_vertical">Vertical column
+#. titles</string>
 msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
 msgstr "下次显示 PDF 选项"
 
-#. TODO
-msgctxt "pref_export_pdf_print_density"
-msgid "Resolution"
-msgstr "分辨率"
-
+#. TODO: replace this with "export:pdf:print-density:default" in the PO set
 msgctxt "pref_export_pdf_output_resolution_default"
 msgid "Default"
 msgstr "默认"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 msgctxt "dialog_pdf_options_image_notes_space_choices:0"
 msgid "Do not print notes"
 msgstr "不打印注记"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
 msgid "10%"
 msgstr "10%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:2"
 msgid "20%"
 msgstr "20%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:3"
 msgid "30%"
 msgstr "30%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:4"
 msgid "40%"
 msgstr "40%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
@@ -1407,30 +1387,6 @@ msgctxt "pref_measure_imperial_area_unit_choices:4"
 msgid "acre"
 msgstr "acre"
 
-msgctxt "pref_measure_angle_unit"
-msgid "Angle unit"
-msgstr "角度单位"
-
-msgctxt "pref_measure_angle_unit_dialog"
-msgid "Angle unit"
-msgstr "角度单位"
-
-msgctxt "pref_measure_angle_unit_choices:0"
-msgid "Degrees"
-msgstr "度"
-
-msgctxt "pref_measure_angle_unit_choices:1"
-msgid "Slope percent"
-msgstr "斜率"
-
-msgctxt "pref_measure_angle_unit_choices:2"
-msgid "Radians"
-msgstr "弧度"
-
-msgctxt "pref_measure_angle_unit_choices:3"
-msgid "Gradians"
-msgstr "百分度"
-
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
 msgstr "计算值的小数字数"
@@ -1536,8 +1492,9 @@ msgctxt "pref_bluetooth_device_protocol"
 msgid "Bluetooth protocol"
 msgstr "蓝牙协议"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_dialog"
-msgid "Select the protocol used by the laser distance meter"
+msgid "Select your laser distance meter"
 msgstr "选择激光测距设备的通信协议"
 
 #. TODO: move device names to editcore [untranslated]
@@ -1699,6 +1656,10 @@ msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_renpho_tape_measure"
 msgid "Renpho tape measure"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_magpie_vh80"
+msgid "Magpie VH-80"
 msgstr ""
 
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
@@ -2130,46 +2091,6 @@ msgctxt "pref_category_export_csv"
 msgid "CSV file settings"
 msgstr "CSV文件设置"
 
-msgctxt "pref_export_csv_field_separator"
-msgid "Field separator character"
-msgstr "字段分隔符"
-
-msgctxt "pref_export_csv_cell_values_separator"
-msgid "Cell values separator"
-msgstr "单元格值分隔符"
-
-msgctxt "pref_export_csv_decimal_separator"
-msgid "Decimal separator"
-msgstr "小数点符号"
-
-msgctxt "pref_export_csv_include_header_row"
-msgid "Include header row"
-msgstr "包括标题行"
-
-msgctxt "pref_export_csv_include_footer_row"
-msgid "Include footer row"
-msgstr "包括页脚行"
-
-msgctxt "pref_export_csv_field_separator_choices:0"
-msgid "Comma"
-msgstr "逗号"
-
-msgctxt "pref_export_csv_field_separator_choices:1"
-msgid "Semicolon"
-msgstr "分号"
-
-msgctxt "pref_export_csv_field_separator_choices:2"
-msgid "Colon"
-msgstr "冒号"
-
-msgctxt "pref_export_csv_decimal_separator_choices:0"
-msgid "Dot"
-msgstr "点"
-
-msgctxt "pref_export_csv_decimal_separator_choices:1"
-msgid "Comma"
-msgstr "逗号"
-
 #. PDF
 msgctxt "pref_category_export_pdf"
 msgid "PDF settings"
@@ -2187,101 +2108,45 @@ msgctxt "pref_export_pdf_show_options_summary_off"
 msgid "Options dialog will be skipped"
 msgstr "选项对话框将被跳过"
 
-msgctxt "pref_export_pdf_images_per_page"
-msgid "Images per PDF page"
-msgstr "PDF 文档中每页的图像数"
-
-msgctxt "pref_export_pdf_images_per_page_dialog"
-msgid "Print how many images on each PDF page"
-msgstr "PDF 文档每页安排多少张图片"
-
-msgctxt "pref_export_pdf_paper_orientation"
-msgid "PDF page orientation"
-msgstr "PDF 页面方向"
-
-msgctxt "pref_export_pdf_paper_orientation_dialog"
-msgid "PDF page orientation"
-msgstr "PDF 页面方向"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:0"
-msgid "Portrait"
-msgstr "肖像"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:1"
-msgid "Landscape"
-msgstr "风景"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:2"
-msgid "Automatic"
-msgstr "自动"
-
-msgctxt "pref_export_pdf_paper_size"
-msgid "PDF page size"
-msgstr "PDF 页面尺寸"
-
-msgctxt "pref_export_pdf_paper_size_dialog"
-msgid "PDF page size"
-msgstr "PDF 页面尺寸"
-
-msgctxt "pref_export_pdf_paper_size_choices:0"
-msgid "A4"
-msgstr "A4"
-
-msgctxt "pref_export_pdf_paper_size_choices:1"
-msgid "A3"
-msgstr "A3"
-
-msgctxt "pref_export_pdf_paper_size_choices:2"
-msgid "Letter"
-msgstr "Letter"
-
-msgctxt "pref_export_pdf_paper_size_choices:3"
-msgid "Legal"
-msgstr "Legal"
-
-msgctxt "pref_export_pdf_may_rotate_images"
-msgid "Images in PDF may be rotated"
-msgstr "允许 PDF 中的图像旋转"
-
-msgctxt "pref_export_pdf_may_rotate_images_summaryon"
-msgid "Will rotate images if format fits better"
-msgstr "图像方向将可能旋转以获得最优显示布局"
-
-msgctxt "pref_export_pdf_may_rotate_images_summaryoff"
-msgid "Images will never be rotated"
-msgstr "图像将不会旋转"
-
+#. <string name="pref_export_pdf_images_per_page">Images per PDF
+#. page</string>     <string
+#. name="pref_export_pdf_images_per_page_dialog">Print how many images on each
+#. PDF page</string>
+#. <string name="pref_export_pdf_paper_orientation">PDF page
+#. orientation</string>     <string
+#. name="pref_export_pdf_paper_orientation_dialog">PDF page
+#. orientation</string>     <string-array
+#. name="pref_export_pdf_paper_orientation_choices">
+#. <item>Portrait</item>         <item>Landscape</item>
+#. <item>Automatic</item>     </string-array>
+#. <string name="pref_export_pdf_paper_size">PDF page size</string>
+#. <string name="pref_export_pdf_paper_size_dialog">PDF page size</string>
+#. <string-array name="pref_export_pdf_paper_size_choices">
+#. <item>A4</item>         <item>A3</item>         <item>Letter</item>
+#. <item>Legal</item>     </string-array>
+#. <string name="pref_export_pdf_may_rotate_images">Images in PDF may be
+#. rotated</string>     <string
+#. name="pref_export_pdf_may_rotate_images_summaryon">Will rotate images if
+#. format fits better</string>     <string
+#. name="pref_export_pdf_may_rotate_images_summaryoff">Images will never be
+#. rotated</string>
 #. <string name="pref_export_pdf_separate_landscape_portrait">Separate
 #. landscape/portrait in PDF</string>     <string
 #. name="pref_export_pdf_separate_landscape_portrait_dialog">When to separate
 #. landscape/portrait in PDF</string>     <string-array
 #. name="pref_export_pdf_separate_landscape_portrait_choices">
 #. <item>Never</item>         <item>If it does not increase page count</item>
-#. <item>Always</item>     </string-array>
-msgctxt "pref_export_pdf_print_image_notes"
-msgid "Print image notes"
-msgstr "打印图像注记"
-
-msgctxt "pref_export_pdf_image_notes_space"
-msgid "Space reserved for image notes"
-msgstr "为图像注记预留的空间"
-
-msgctxt "pref_export_pdf_image_notes_space_dialog"
-msgid "Space reserved for image notes"
-msgstr "为图像注记预留的空间"
-
-msgctxt "pref_export_pdf_print_folder_notes"
-msgid "Print folder notes"
-msgstr "打印文档夹注记"
-
-msgctxt "pref_export_pdf_print_folder_notes_summaryoff"
-msgid "No folder notes will be printed"
-msgstr "不打印文档夹注记"
-
-msgctxt "pref_export_pdf_print_folder_notes_summaryon"
-msgid "Page with folder notes and TOC will be printed"
-msgstr "将打印含有文档夹注记和内容表的页面"
-
+#. <item>Always</item>     </string-array>      <string
+#. name="pref_export_pdf_print_image_notes">Print image notes</string>
+#. <string name="pref_export_pdf_image_notes_space">Space reserved for
+#. image notes</string>     <string
+#. name="pref_export_pdf_image_notes_space_dialog">Space reserved for image
+#. notes</string>      <string name="pref_export_pdf_print_folder_notes">Print
+#. folder notes</string>     <string
+#. name="pref_export_pdf_print_folder_notes_summaryoff">No folder notes will be
+#. printed</string>     <string
+#. name="pref_export_pdf_print_folder_notes_summaryon">Page with folder notes
+#. and TOC will be printed</string>
 msgctxt "pref_category_export_general"
 msgid "General"
 msgstr "通用选项"
@@ -3992,10 +3857,6 @@ msgstr "前缀"
 msgctxt "value_entry_metadata_suffix"
 msgid "Suffix"
 msgstr "后缀"
-
-msgctxt "value_entry_decimal_digits"
-msgid "Decimal digits"
-msgstr "小数字"
 
 msgctxt "value_entry_unit_unit"
 msgid "Unit"

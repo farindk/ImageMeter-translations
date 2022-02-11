@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-21 16:47+0100\n"
+"POT-Creation-Date: 2022-02-11 12:40+0100\n"
 "PO-Revision-Date: 2021-02-09 11:36+0100\n"
 "Last-Translator: \n"
 "Language: ru\n"
@@ -1134,10 +1134,6 @@ msgctxt "dialog_image_export_options_title"
 msgid "Default image export settings"
 msgstr "Настройки экспорта изображений по умолчанию"
 
-msgctxt "dialog_image_export_use_default_options"
-msgid "Use default export options"
-msgstr "Использовать параметры экспорта по умолчанию"
-
 #, fuzzy
 msgctxt "dialog_image_export_low_jpeg_image_quality"
 msgid "A quality of at least 80 is recommended."
@@ -1148,87 +1144,68 @@ msgid "Show export options next time"
 msgstr "Показать параметры экспорта в следующий раз"
 
 #. PDF export
-msgctxt "dialog_pdf_export_paper"
-msgid "Paper"
-msgstr "Бумага"
-
-msgctxt "dialog_pdf_export_layout"
-msgid "Layout"
-msgstr "Макет"
-
-msgctxt "dialog_pdf_export_metadata"
-msgid "Metadata"
-msgstr "Метаданные"
-
+#. <string name="dialog_pdf_export_paper">Paper</string>     <string
+#. name="dialog_pdf_export_layout">Layout</string>     <string
+#. name="dialog_pdf_export_metadata">Metadata</string>
 msgctxt "dialog_pdf_export_space_for_notes"
 msgid "Space for image notes"
 msgstr "Место для заметок с изображениями"
-
-msgctxt "dialog_pdf_export_print_table_of_content"
-msgid "Print table of content"
-msgstr "Распечатать содержание"
 
 msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
 msgstr "Печать заметок к папке"
 
-#, fuzzy
-msgctxt "dialog_pdf_export_image_title"
-msgid "Image title"
-msgstr "Название изображения"
-
+#. <string name="dialog_pdf_export_print_table_of_content">Print table of
+#. content</string>     <string name="dialog_pdf_export_image_title">Image
+#. title</string>
 #, fuzzy
 msgctxt "dialog_pdf_export_data_table"
 msgid "Data Table"
 msgstr "Таблица данных"
 
-#, fuzzy
-msgctxt "dialog_pdf_export_data_table_layout"
-msgid "Table layout"
-msgstr "Макет стола"
-
-#, fuzzy
-msgctxt "dialog_pdf_export_data_table_title_vertical"
-msgid "Vertical column titles"
-msgstr "Заголовки вертикальных столбцов"
-
+#. <string name="dialog_pdf_export_data_table_layout">Table
+#. layout</string>     <string
+#. name="dialog_pdf_export_data_table_title_vertical">Vertical column
+#. titles</string>
 msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
 msgstr "Показать параметры PDF в следующий раз"
 
-#. TODO
-msgctxt "pref_export_pdf_print_density"
-msgid "Resolution"
-msgstr "Разрешение"
-
+#. TODO: replace this with "export:pdf:print-density:default" in the PO set
 msgctxt "pref_export_pdf_output_resolution_default"
 msgid "Default"
 msgstr "По умолчанию"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 msgctxt "dialog_pdf_options_image_notes_space_choices:0"
 msgid "Do not print notes"
 msgstr "Не печатать заметки"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
 msgid "10%"
 msgstr "10%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:2"
 msgid "20%"
 msgstr "20%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:3"
 msgid "30%"
 msgstr "30%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:4"
 msgid "40%"
 msgstr "40%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
@@ -1513,31 +1490,6 @@ msgctxt "pref_measure_imperial_area_unit_choices:4"
 msgid "acre"
 msgstr "Акр"
 
-msgctxt "pref_measure_angle_unit"
-msgid "Angle unit"
-msgstr "Единицы измерения углов"
-
-msgctxt "pref_measure_angle_unit_dialog"
-msgid "Angle unit"
-msgstr "Единицы измерения углов"
-
-msgctxt "pref_measure_angle_unit_choices:0"
-msgid "Degrees"
-msgstr "Градусы"
-
-msgctxt "pref_measure_angle_unit_choices:1"
-msgid "Slope percent"
-msgstr "Проценты отклонения"
-
-msgctxt "pref_measure_angle_unit_choices:2"
-msgid "Radians"
-msgstr "Радианы"
-
-#, fuzzy
-msgctxt "pref_measure_angle_unit_choices:3"
-msgid "Gradians"
-msgstr "Град"
-
 #, fuzzy
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
@@ -1656,8 +1608,9 @@ msgctxt "pref_bluetooth_device_protocol"
 msgid "Bluetooth protocol"
 msgstr "Bluetooth протокол"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_dialog"
-msgid "Select the protocol used by the laser distance meter"
+msgid "Select your laser distance meter"
 msgstr "Выбор протокола для лазерного дальномера"
 
 #. TODO: move device names to editcore [untranslated]
@@ -1823,6 +1776,10 @@ msgstr "Meet HK MS-BLDM440"
 msgctxt "pref_bluetooth_device_protocol_renpho_tape_measure"
 msgid "Renpho tape measure"
 msgstr "Рулетка Renpho"
+
+msgctxt "pref_bluetooth_device_protocol_magpie_vh80"
+msgid "Magpie VH-80"
+msgstr ""
 
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
 msgid "LTI TruPulse distance mode"
@@ -2276,56 +2233,6 @@ msgctxt "pref_category_export_csv"
 msgid "CSV file settings"
 msgstr "Настройки файла CSV"
 
-#, fuzzy
-msgctxt "pref_export_csv_field_separator"
-msgid "Field separator character"
-msgstr "Символ-разделитель полей"
-
-#, fuzzy
-msgctxt "pref_export_csv_cell_values_separator"
-msgid "Cell values separator"
-msgstr "Разделитель значений ячеек"
-
-#, fuzzy
-msgctxt "pref_export_csv_decimal_separator"
-msgid "Decimal separator"
-msgstr "Десятичный разделитель"
-
-#, fuzzy
-msgctxt "pref_export_csv_include_header_row"
-msgid "Include header row"
-msgstr "Включить строку заголовка"
-
-#, fuzzy
-msgctxt "pref_export_csv_include_footer_row"
-msgid "Include footer row"
-msgstr "Включить строку нижнего колонтитула"
-
-#, fuzzy
-msgctxt "pref_export_csv_field_separator_choices:0"
-msgid "Comma"
-msgstr "Запятая"
-
-#, fuzzy
-msgctxt "pref_export_csv_field_separator_choices:1"
-msgid "Semicolon"
-msgstr "Точка с запятой"
-
-#, fuzzy
-msgctxt "pref_export_csv_field_separator_choices:2"
-msgid "Colon"
-msgstr "Двоеточие"
-
-#, fuzzy
-msgctxt "pref_export_csv_decimal_separator_choices:0"
-msgid "Dot"
-msgstr "Точка"
-
-#, fuzzy
-msgctxt "pref_export_csv_decimal_separator_choices:1"
-msgid "Comma"
-msgstr "Запятая"
-
 #. PDF
 msgctxt "pref_category_export_pdf"
 msgid "PDF settings"
@@ -2343,101 +2250,45 @@ msgctxt "pref_export_pdf_show_options_summary_off"
 msgid "Options dialog will be skipped"
 msgstr "Диалог настроек будет пропущен"
 
-msgctxt "pref_export_pdf_images_per_page"
-msgid "Images per PDF page"
-msgstr "Изображений на PDF странице"
-
-msgctxt "pref_export_pdf_images_per_page_dialog"
-msgid "Print how many images on each PDF page"
-msgstr "Кол-во изображений на PDF странице при распечатке"
-
-msgctxt "pref_export_pdf_paper_orientation"
-msgid "PDF page orientation"
-msgstr "Ориентация PDF страницы"
-
-msgctxt "pref_export_pdf_paper_orientation_dialog"
-msgid "PDF page orientation"
-msgstr "Ориентация PDF страницы"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:0"
-msgid "Portrait"
-msgstr "Портретный формат"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:1"
-msgid "Landscape"
-msgstr "Альбомный формат"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:2"
-msgid "Automatic"
-msgstr "Автоматический"
-
-msgctxt "pref_export_pdf_paper_size"
-msgid "PDF page size"
-msgstr "Размер PDF страницы"
-
-msgctxt "pref_export_pdf_paper_size_dialog"
-msgid "PDF page size"
-msgstr "Размер PDF страницы"
-
-msgctxt "pref_export_pdf_paper_size_choices:0"
-msgid "A4"
-msgstr "A4"
-
-msgctxt "pref_export_pdf_paper_size_choices:1"
-msgid "A3"
-msgstr "A3"
-
-msgctxt "pref_export_pdf_paper_size_choices:2"
-msgid "Letter"
-msgstr "Письмо (США)"
-
-msgctxt "pref_export_pdf_paper_size_choices:3"
-msgid "Legal"
-msgstr "Документ (США)"
-
-msgctxt "pref_export_pdf_may_rotate_images"
-msgid "Images in PDF may be rotated"
-msgstr "Поворот картинок в PDF"
-
-msgctxt "pref_export_pdf_may_rotate_images_summaryon"
-msgid "Will rotate images if format fits better"
-msgstr "Разворот картинок, для компактного размещения"
-
-msgctxt "pref_export_pdf_may_rotate_images_summaryoff"
-msgid "Images will never be rotated"
-msgstr "Не поворачивать картинки"
-
+#. <string name="pref_export_pdf_images_per_page">Images per PDF
+#. page</string>     <string
+#. name="pref_export_pdf_images_per_page_dialog">Print how many images on each
+#. PDF page</string>
+#. <string name="pref_export_pdf_paper_orientation">PDF page
+#. orientation</string>     <string
+#. name="pref_export_pdf_paper_orientation_dialog">PDF page
+#. orientation</string>     <string-array
+#. name="pref_export_pdf_paper_orientation_choices">
+#. <item>Portrait</item>         <item>Landscape</item>
+#. <item>Automatic</item>     </string-array>
+#. <string name="pref_export_pdf_paper_size">PDF page size</string>
+#. <string name="pref_export_pdf_paper_size_dialog">PDF page size</string>
+#. <string-array name="pref_export_pdf_paper_size_choices">
+#. <item>A4</item>         <item>A3</item>         <item>Letter</item>
+#. <item>Legal</item>     </string-array>
+#. <string name="pref_export_pdf_may_rotate_images">Images in PDF may be
+#. rotated</string>     <string
+#. name="pref_export_pdf_may_rotate_images_summaryon">Will rotate images if
+#. format fits better</string>     <string
+#. name="pref_export_pdf_may_rotate_images_summaryoff">Images will never be
+#. rotated</string>
 #. <string name="pref_export_pdf_separate_landscape_portrait">Separate
 #. landscape/portrait in PDF</string>     <string
 #. name="pref_export_pdf_separate_landscape_portrait_dialog">When to separate
 #. landscape/portrait in PDF</string>     <string-array
 #. name="pref_export_pdf_separate_landscape_portrait_choices">
 #. <item>Never</item>         <item>If it does not increase page count</item>
-#. <item>Always</item>     </string-array>
-msgctxt "pref_export_pdf_print_image_notes"
-msgid "Print image notes"
-msgstr "Печать аннотаций картинок"
-
-msgctxt "pref_export_pdf_image_notes_space"
-msgid "Space reserved for image notes"
-msgstr "Лимит размера аннотаций"
-
-msgctxt "pref_export_pdf_image_notes_space_dialog"
-msgid "Space reserved for image notes"
-msgstr "Лимит размера аннотаций"
-
-msgctxt "pref_export_pdf_print_folder_notes"
-msgid "Print folder notes"
-msgstr "Печать аннотаций папок"
-
-msgctxt "pref_export_pdf_print_folder_notes_summaryoff"
-msgid "No folder notes will be printed"
-msgstr "Не печатать аннотации"
-
-msgctxt "pref_export_pdf_print_folder_notes_summaryon"
-msgid "Page with folder notes and TOC will be printed"
-msgstr "Печать содержимого и аннотаций папок"
-
+#. <item>Always</item>     </string-array>      <string
+#. name="pref_export_pdf_print_image_notes">Print image notes</string>
+#. <string name="pref_export_pdf_image_notes_space">Space reserved for
+#. image notes</string>     <string
+#. name="pref_export_pdf_image_notes_space_dialog">Space reserved for image
+#. notes</string>      <string name="pref_export_pdf_print_folder_notes">Print
+#. folder notes</string>     <string
+#. name="pref_export_pdf_print_folder_notes_summaryoff">No folder notes will be
+#. printed</string>     <string
+#. name="pref_export_pdf_print_folder_notes_summaryon">Page with folder notes
+#. and TOC will be printed</string>
 #, fuzzy
 msgctxt "pref_category_export_general"
 msgid "General"
@@ -4298,10 +4149,6 @@ msgstr "Префикс"
 msgctxt "value_entry_metadata_suffix"
 msgid "Suffix"
 msgstr "Суффикс"
-
-msgctxt "value_entry_decimal_digits"
-msgid "Decimal digits"
-msgstr "Десятичные знаки"
 
 msgctxt "value_entry_unit_unit"
 msgid "Unit"

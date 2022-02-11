@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-21 16:47+0100\n"
+"POT-Creation-Date: 2022-02-11 12:40+0100\n"
 "PO-Revision-Date: 2020-08-31 17:28+0200\n"
 "Last-Translator: \n"
 "Language: cs\n"
@@ -1255,11 +1255,6 @@ msgid "Default image export settings"
 msgstr "Výchozí nastavení exportu obrázku"
 
 #, fuzzy
-msgctxt "dialog_image_export_use_default_options"
-msgid "Use default export options"
-msgstr "Použijte výchozí možnosti exportu"
-
-#, fuzzy
 msgctxt "dialog_image_export_low_jpeg_image_quality"
 msgid "A quality of at least 80 is recommended."
 msgstr "Doporučuje se kvalita alespoň 80."
@@ -1270,96 +1265,73 @@ msgid "Show export options next time"
 msgstr "Zobrazit možnosti exportu příště"
 
 #. PDF export
-msgctxt "dialog_pdf_export_paper"
-msgid "Paper"
-msgstr "Papír"
-
-#, fuzzy
-msgctxt "dialog_pdf_export_layout"
-msgid "Layout"
-msgstr "Rozložení"
-
-#, fuzzy
-msgctxt "dialog_pdf_export_metadata"
-msgid "Metadata"
-msgstr "Metadata"
-
+#. <string name="dialog_pdf_export_paper">Paper</string>     <string
+#. name="dialog_pdf_export_layout">Layout</string>     <string
+#. name="dialog_pdf_export_metadata">Metadata</string>
 #, fuzzy
 msgctxt "dialog_pdf_export_space_for_notes"
 msgid "Space for image notes"
 msgstr "Prostor pro obrazové poznámky"
 
 #, fuzzy
-msgctxt "dialog_pdf_export_print_table_of_content"
-msgid "Print table of content"
-msgstr "Tisk obsahu"
-
-#, fuzzy
 msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
 msgstr "Tisk poznámek ke složce"
 
-#, fuzzy
-msgctxt "dialog_pdf_export_image_title"
-msgid "Image title"
-msgstr "Název obrázku"
-
+#. <string name="dialog_pdf_export_print_table_of_content">Print table of
+#. content</string>     <string name="dialog_pdf_export_image_title">Image
+#. title</string>
 #, fuzzy
 msgctxt "dialog_pdf_export_data_table"
 msgid "Data Table"
 msgstr "Datová tabulka"
 
-#, fuzzy
-msgctxt "dialog_pdf_export_data_table_layout"
-msgid "Table layout"
-msgstr "Rozložení stolu"
-
-#, fuzzy
-msgctxt "dialog_pdf_export_data_table_title_vertical"
-msgid "Vertical column titles"
-msgstr "Svislé názvy sloupců"
-
+#. <string name="dialog_pdf_export_data_table_layout">Table
+#. layout</string>     <string
+#. name="dialog_pdf_export_data_table_title_vertical">Vertical column
+#. titles</string>
 #, fuzzy
 msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
 msgstr "Příště zobrazit možnosti PDF"
 
-#. TODO
-#, fuzzy
-msgctxt "pref_export_pdf_print_density"
-msgid "Resolution"
-msgstr "Rozlišení"
-
+#. TODO: replace this with "export:pdf:print-density:default" in the PO set
 #, fuzzy
 msgctxt "pref_export_pdf_output_resolution_default"
 msgid "Default"
 msgstr "Výchozí"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, fuzzy
 msgctxt "dialog_pdf_options_image_notes_space_choices:0"
 msgid "Do not print notes"
 msgstr "Netiskněte poznámky"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
 msgid "10%"
 msgstr "10%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:2"
 msgid "20%"
 msgstr "20%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:3"
 msgid "30%"
 msgstr "30%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:4"
 msgid "40%"
 msgstr "40%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
@@ -1669,30 +1641,6 @@ msgctxt "pref_measure_imperial_area_unit_choices:4"
 msgid "acre"
 msgstr "acre"
 
-msgctxt "pref_measure_angle_unit"
-msgid "Angle unit"
-msgstr "Jednotka úhlů"
-
-msgctxt "pref_measure_angle_unit_dialog"
-msgid "Angle unit"
-msgstr "Jednotka úhlů"
-
-msgctxt "pref_measure_angle_unit_choices:0"
-msgid "Degrees"
-msgstr "Stupňů"
-
-msgctxt "pref_measure_angle_unit_choices:1"
-msgid "Slope percent"
-msgstr "Procento sklonu"
-
-msgctxt "pref_measure_angle_unit_choices:2"
-msgid "Radians"
-msgstr "Radiánů"
-
-msgctxt "pref_measure_angle_unit_choices:3"
-msgid "Gradians"
-msgstr "Grad"
-
 #, fuzzy
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
@@ -1811,8 +1759,9 @@ msgctxt "pref_bluetooth_device_protocol"
 msgid "Bluetooth protocol"
 msgstr "Protokol Bluetooth"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_dialog"
-msgid "Select the protocol used by the laser distance meter"
+msgid "Select your laser distance meter"
 msgstr "Zvolte protokol používaný laserovým měřičem vzdálenosti"
 
 #. TODO: move device names to editcore [untranslated]
@@ -1986,6 +1935,10 @@ msgstr "Meet HK MS-BLDM440"
 msgctxt "pref_bluetooth_device_protocol_renpho_tape_measure"
 msgid "Renpho tape measure"
 msgstr "Svinovací metr Renpho"
+
+msgctxt "pref_bluetooth_device_protocol_magpie_vh80"
+msgid "Magpie VH-80"
+msgstr ""
 
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
 msgid "LTI TruPulse distance mode"
@@ -2452,56 +2405,6 @@ msgctxt "pref_category_export_csv"
 msgid "CSV file settings"
 msgstr "Nastavení souboru CSV"
 
-#, fuzzy
-msgctxt "pref_export_csv_field_separator"
-msgid "Field separator character"
-msgstr "Znak oddělovače polí"
-
-#, fuzzy
-msgctxt "pref_export_csv_cell_values_separator"
-msgid "Cell values separator"
-msgstr "Oddělovač hodnot buněk"
-
-#, fuzzy
-msgctxt "pref_export_csv_decimal_separator"
-msgid "Decimal separator"
-msgstr "Desetinný oddělovač"
-
-#, fuzzy
-msgctxt "pref_export_csv_include_header_row"
-msgid "Include header row"
-msgstr "Zahrnout řádek záhlaví"
-
-#, fuzzy
-msgctxt "pref_export_csv_include_footer_row"
-msgid "Include footer row"
-msgstr "Zahrnout řádek zápatí"
-
-#, fuzzy
-msgctxt "pref_export_csv_field_separator_choices:0"
-msgid "Comma"
-msgstr "Čárka"
-
-#, fuzzy
-msgctxt "pref_export_csv_field_separator_choices:1"
-msgid "Semicolon"
-msgstr "Středník"
-
-#, fuzzy
-msgctxt "pref_export_csv_field_separator_choices:2"
-msgid "Colon"
-msgstr "Dvojtečka"
-
-#, fuzzy
-msgctxt "pref_export_csv_decimal_separator_choices:0"
-msgid "Dot"
-msgstr "Tečka"
-
-#, fuzzy
-msgctxt "pref_export_csv_decimal_separator_choices:1"
-msgid "Comma"
-msgstr "Čárka"
-
 #. PDF
 msgctxt "pref_category_export_pdf"
 msgid "PDF settings"
@@ -2522,101 +2425,45 @@ msgctxt "pref_export_pdf_show_options_summary_off"
 msgid "Options dialog will be skipped"
 msgstr "Dialogové okno Možnosti bude přeskočeno"
 
-msgctxt "pref_export_pdf_images_per_page"
-msgid "Images per PDF page"
-msgstr "Obrázků na stránku PDF"
-
-msgctxt "pref_export_pdf_images_per_page_dialog"
-msgid "Print how many images on each PDF page"
-msgstr "Kolik obrázků vytisknout na každou stranu PDF"
-
-msgctxt "pref_export_pdf_paper_orientation"
-msgid "PDF page orientation"
-msgstr "Orientace stránky PDF"
-
-msgctxt "pref_export_pdf_paper_orientation_dialog"
-msgid "PDF page orientation"
-msgstr "Orientace stránky PDF"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:0"
-msgid "Portrait"
-msgstr "Na výšku"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:1"
-msgid "Landscape"
-msgstr "Na šířku"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:2"
-msgid "Automatic"
-msgstr "Automaticky"
-
-msgctxt "pref_export_pdf_paper_size"
-msgid "PDF page size"
-msgstr "Velikost stránky PDF"
-
-msgctxt "pref_export_pdf_paper_size_dialog"
-msgid "PDF page size"
-msgstr "Velikost stránky PDF"
-
-msgctxt "pref_export_pdf_paper_size_choices:0"
-msgid "A4"
-msgstr "A4"
-
-msgctxt "pref_export_pdf_paper_size_choices:1"
-msgid "A3"
-msgstr "A3"
-
-msgctxt "pref_export_pdf_paper_size_choices:2"
-msgid "Letter"
-msgstr "Dopis"
-
-msgctxt "pref_export_pdf_paper_size_choices:3"
-msgid "Legal"
-msgstr "Legal"
-
-msgctxt "pref_export_pdf_may_rotate_images"
-msgid "Images in PDF may be rotated"
-msgstr "Obrázky v PDF mohou být otočeny"
-
-msgctxt "pref_export_pdf_may_rotate_images_summaryon"
-msgid "Will rotate images if format fits better"
-msgstr "Otočí obrázky, pokud formát vyhovuje lépe"
-
-msgctxt "pref_export_pdf_may_rotate_images_summaryoff"
-msgid "Images will never be rotated"
-msgstr "Obrázky nikdy nebudou otočeny"
-
+#. <string name="pref_export_pdf_images_per_page">Images per PDF
+#. page</string>     <string
+#. name="pref_export_pdf_images_per_page_dialog">Print how many images on each
+#. PDF page</string>
+#. <string name="pref_export_pdf_paper_orientation">PDF page
+#. orientation</string>     <string
+#. name="pref_export_pdf_paper_orientation_dialog">PDF page
+#. orientation</string>     <string-array
+#. name="pref_export_pdf_paper_orientation_choices">
+#. <item>Portrait</item>         <item>Landscape</item>
+#. <item>Automatic</item>     </string-array>
+#. <string name="pref_export_pdf_paper_size">PDF page size</string>
+#. <string name="pref_export_pdf_paper_size_dialog">PDF page size</string>
+#. <string-array name="pref_export_pdf_paper_size_choices">
+#. <item>A4</item>         <item>A3</item>         <item>Letter</item>
+#. <item>Legal</item>     </string-array>
+#. <string name="pref_export_pdf_may_rotate_images">Images in PDF may be
+#. rotated</string>     <string
+#. name="pref_export_pdf_may_rotate_images_summaryon">Will rotate images if
+#. format fits better</string>     <string
+#. name="pref_export_pdf_may_rotate_images_summaryoff">Images will never be
+#. rotated</string>
 #. <string name="pref_export_pdf_separate_landscape_portrait">Separate
 #. landscape/portrait in PDF</string>     <string
 #. name="pref_export_pdf_separate_landscape_portrait_dialog">When to separate
 #. landscape/portrait in PDF</string>     <string-array
 #. name="pref_export_pdf_separate_landscape_portrait_choices">
 #. <item>Never</item>         <item>If it does not increase page count</item>
-#. <item>Always</item>     </string-array>
-msgctxt "pref_export_pdf_print_image_notes"
-msgid "Print image notes"
-msgstr "Vytisknout poznámky k obrázku"
-
-msgctxt "pref_export_pdf_image_notes_space"
-msgid "Space reserved for image notes"
-msgstr "Místo rezervované pro poznámky k obrázkům"
-
-msgctxt "pref_export_pdf_image_notes_space_dialog"
-msgid "Space reserved for image notes"
-msgstr "Místo rezervované pro poznámky k obrázkům"
-
-msgctxt "pref_export_pdf_print_folder_notes"
-msgid "Print folder notes"
-msgstr "Vytisknout poznámky ke složce"
-
-msgctxt "pref_export_pdf_print_folder_notes_summaryoff"
-msgid "No folder notes will be printed"
-msgstr "Žádné poznámky ke složce nebudou vytisknuty"
-
-msgctxt "pref_export_pdf_print_folder_notes_summaryon"
-msgid "Page with folder notes and TOC will be printed"
-msgstr "Stránka s poznámkami ke složce a TOC se vytisknou"
-
+#. <item>Always</item>     </string-array>      <string
+#. name="pref_export_pdf_print_image_notes">Print image notes</string>
+#. <string name="pref_export_pdf_image_notes_space">Space reserved for
+#. image notes</string>     <string
+#. name="pref_export_pdf_image_notes_space_dialog">Space reserved for image
+#. notes</string>      <string name="pref_export_pdf_print_folder_notes">Print
+#. folder notes</string>     <string
+#. name="pref_export_pdf_print_folder_notes_summaryoff">No folder notes will be
+#. printed</string>     <string
+#. name="pref_export_pdf_print_folder_notes_summaryon">Page with folder notes
+#. and TOC will be printed</string>
 #, fuzzy
 msgctxt "pref_category_export_general"
 msgid "General"
@@ -4646,10 +4493,6 @@ msgstr "Předpona"
 msgctxt "value_entry_metadata_suffix"
 msgid "Suffix"
 msgstr "Přípona"
-
-msgctxt "value_entry_decimal_digits"
-msgid "Decimal digits"
-msgstr "Desetinná místa"
 
 #, fuzzy
 msgctxt "value_entry_unit_unit"

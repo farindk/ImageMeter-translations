@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-01-21 16:47+0100\n"
+"POT-Creation-Date: 2022-02-11 12:40+0100\n"
 "PO-Revision-Date: 2021-01-11 19:56+0100\n"
 "Last-Translator: \n"
 "Language: pl\n"
@@ -1121,10 +1121,6 @@ msgctxt "dialog_image_export_options_title"
 msgid "Default image export settings"
 msgstr "Domyślne ustawienia eksportu obrazu"
 
-msgctxt "dialog_image_export_use_default_options"
-msgid "Use default export options"
-msgstr "Użyj domyślnych opcji eksportu"
-
 #, fuzzy
 msgctxt "dialog_image_export_low_jpeg_image_quality"
 msgid "A quality of at least 80 is recommended."
@@ -1135,84 +1131,67 @@ msgid "Show export options next time"
 msgstr "Następnym razem pokaż opcje eksportu"
 
 #. PDF export
-msgctxt "dialog_pdf_export_paper"
-msgid "Paper"
-msgstr "Papier"
-
-msgctxt "dialog_pdf_export_layout"
-msgid "Layout"
-msgstr "Układ"
-
-msgctxt "dialog_pdf_export_metadata"
-msgid "Metadata"
-msgstr "Metadane"
-
+#. <string name="dialog_pdf_export_paper">Paper</string>     <string
+#. name="dialog_pdf_export_layout">Layout</string>     <string
+#. name="dialog_pdf_export_metadata">Metadata</string>
 msgctxt "dialog_pdf_export_space_for_notes"
 msgid "Space for image notes"
 msgstr "Miejsce na notatki do obrazów"
-
-msgctxt "dialog_pdf_export_print_table_of_content"
-msgid "Print table of content"
-msgstr "Wydrukuj spis treści"
 
 msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
 msgstr "Wydrukuj notatki do folderu"
 
-#, fuzzy
-msgctxt "dialog_pdf_export_image_title"
-msgid "Image title"
-msgstr "Tytuł obrazu"
-
+#. <string name="dialog_pdf_export_print_table_of_content">Print table of
+#. content</string>     <string name="dialog_pdf_export_image_title">Image
+#. title</string>
 msgctxt "dialog_pdf_export_data_table"
 msgid "Data Table"
 msgstr "Tabela danych"
 
-msgctxt "dialog_pdf_export_data_table_layout"
-msgid "Table layout"
-msgstr "Układ tabeli"
-
-msgctxt "dialog_pdf_export_data_table_title_vertical"
-msgid "Vertical column titles"
-msgstr "Tytuły pionowych kolumn"
-
+#. <string name="dialog_pdf_export_data_table_layout">Table
+#. layout</string>     <string
+#. name="dialog_pdf_export_data_table_title_vertical">Vertical column
+#. titles</string>
 msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
 msgstr "Następnym razem pokaż opcje PDF"
 
-#. TODO
-msgctxt "pref_export_pdf_print_density"
-msgid "Resolution"
-msgstr "Rozdzielczość"
-
+#. TODO: replace this with "export:pdf:print-density:default" in the PO set
 msgctxt "pref_export_pdf_output_resolution_default"
 msgid "Default"
 msgstr "Domyślna"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 msgctxt "dialog_pdf_options_image_notes_space_choices:0"
 msgid "Do not print notes"
 msgstr "Nie drukuj notatek"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
 msgid "10%"
 msgstr "10%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:2"
 msgid "20%"
 msgstr "20%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:3"
 msgid "30%"
 msgstr "30%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:4"
 msgid "40%"
 msgstr "40%"
 
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
@@ -1495,30 +1474,6 @@ msgctxt "pref_measure_imperial_area_unit_choices:4"
 msgid "acre"
 msgstr "akr"
 
-msgctxt "pref_measure_angle_unit"
-msgid "Angle unit"
-msgstr "Jednostka kąta"
-
-msgctxt "pref_measure_angle_unit_dialog"
-msgid "Angle unit"
-msgstr "Jednostka kąta"
-
-msgctxt "pref_measure_angle_unit_choices:0"
-msgid "Degrees"
-msgstr "Stopnie"
-
-msgctxt "pref_measure_angle_unit_choices:1"
-msgid "Slope percent"
-msgstr "Procent nachylenia"
-
-msgctxt "pref_measure_angle_unit_choices:2"
-msgid "Radians"
-msgstr "Radian"
-
-msgctxt "pref_measure_angle_unit_choices:3"
-msgid "Gradians"
-msgstr "Grad"
-
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
 msgstr "Cyfry dziesiętne dla obliczanych wartości"
@@ -1624,8 +1579,9 @@ msgctxt "pref_bluetooth_device_protocol"
 msgid "Bluetooth protocol"
 msgstr "Protokół Bluetooth"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_dialog"
-msgid "Select the protocol used by the laser distance meter"
+msgid "Select your laser distance meter"
 msgstr "Wybierz protokół używany przez dalmierz laserowy"
 
 #. TODO: move device names to editcore [untranslated]
@@ -1794,6 +1750,10 @@ msgstr "Meet HK MS-BLDM440"
 msgctxt "pref_bluetooth_device_protocol_renpho_tape_measure"
 msgid "Renpho tape measure"
 msgstr "Taśma miernicza Renpho"
+
+msgctxt "pref_bluetooth_device_protocol_magpie_vh80"
+msgid "Magpie VH-80"
+msgstr ""
 
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
 msgid "LTI TruPulse distance mode"
@@ -2243,46 +2203,6 @@ msgctxt "pref_category_export_csv"
 msgid "CSV file settings"
 msgstr "Ustawienia pliku CSV"
 
-msgctxt "pref_export_csv_field_separator"
-msgid "Field separator character"
-msgstr "Znak separatora pól"
-
-msgctxt "pref_export_csv_cell_values_separator"
-msgid "Cell values separator"
-msgstr "Separator wartości komórek"
-
-msgctxt "pref_export_csv_decimal_separator"
-msgid "Decimal separator"
-msgstr "Separator liczb dziesiętnych"
-
-msgctxt "pref_export_csv_include_header_row"
-msgid "Include header row"
-msgstr "Uwzględnij wiersz nagłówka"
-
-msgctxt "pref_export_csv_include_footer_row"
-msgid "Include footer row"
-msgstr "Uwzględnij wiersz stopki"
-
-msgctxt "pref_export_csv_field_separator_choices:0"
-msgid "Comma"
-msgstr "Przecinek"
-
-msgctxt "pref_export_csv_field_separator_choices:1"
-msgid "Semicolon"
-msgstr "Średnik"
-
-msgctxt "pref_export_csv_field_separator_choices:2"
-msgid "Colon"
-msgstr "Dwukropek"
-
-msgctxt "pref_export_csv_decimal_separator_choices:0"
-msgid "Dot"
-msgstr "Kropka"
-
-msgctxt "pref_export_csv_decimal_separator_choices:1"
-msgid "Comma"
-msgstr "Przecinek"
-
 #. PDF
 msgctxt "pref_category_export_pdf"
 msgid "PDF settings"
@@ -2300,101 +2220,45 @@ msgctxt "pref_export_pdf_show_options_summary_off"
 msgid "Options dialog will be skipped"
 msgstr "Okno dialogowe opcji zostanie pominięte"
 
-msgctxt "pref_export_pdf_images_per_page"
-msgid "Images per PDF page"
-msgstr "Liczba obrazów na stronie PDF"
-
-msgctxt "pref_export_pdf_images_per_page_dialog"
-msgid "Print how many images on each PDF page"
-msgstr "Wydrukuj liczbę obrazów na każdej stronie PDF"
-
-msgctxt "pref_export_pdf_paper_orientation"
-msgid "PDF page orientation"
-msgstr "Orientacja strony PDF"
-
-msgctxt "pref_export_pdf_paper_orientation_dialog"
-msgid "PDF page orientation"
-msgstr "Wybór orientacji strony PDF"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:0"
-msgid "Portrait"
-msgstr "Pionowa"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:1"
-msgid "Landscape"
-msgstr "Pozioma"
-
-msgctxt "pref_export_pdf_paper_orientation_choices:2"
-msgid "Automatic"
-msgstr "Automatyczna"
-
-msgctxt "pref_export_pdf_paper_size"
-msgid "PDF page size"
-msgstr "Rozmiar strony PDF"
-
-msgctxt "pref_export_pdf_paper_size_dialog"
-msgid "PDF page size"
-msgstr "Wybór rozmiaru strony PDF"
-
-msgctxt "pref_export_pdf_paper_size_choices:0"
-msgid "A4"
-msgstr "A4"
-
-msgctxt "pref_export_pdf_paper_size_choices:1"
-msgid "A3"
-msgstr "A3"
-
-msgctxt "pref_export_pdf_paper_size_choices:2"
-msgid "Letter"
-msgstr "List"
-
-msgctxt "pref_export_pdf_paper_size_choices:3"
-msgid "Legal"
-msgstr "Legal"
-
-msgctxt "pref_export_pdf_may_rotate_images"
-msgid "Images in PDF may be rotated"
-msgstr "Obrazy w formacie PDF mogą być obracane"
-
-msgctxt "pref_export_pdf_may_rotate_images_summaryon"
-msgid "Will rotate images if format fits better"
-msgstr "Obróci obrazy, jeśli format pasuje lepiej"
-
-msgctxt "pref_export_pdf_may_rotate_images_summaryoff"
-msgid "Images will never be rotated"
-msgstr "Obrazy nigdy nie zostaną obrócone"
-
+#. <string name="pref_export_pdf_images_per_page">Images per PDF
+#. page</string>     <string
+#. name="pref_export_pdf_images_per_page_dialog">Print how many images on each
+#. PDF page</string>
+#. <string name="pref_export_pdf_paper_orientation">PDF page
+#. orientation</string>     <string
+#. name="pref_export_pdf_paper_orientation_dialog">PDF page
+#. orientation</string>     <string-array
+#. name="pref_export_pdf_paper_orientation_choices">
+#. <item>Portrait</item>         <item>Landscape</item>
+#. <item>Automatic</item>     </string-array>
+#. <string name="pref_export_pdf_paper_size">PDF page size</string>
+#. <string name="pref_export_pdf_paper_size_dialog">PDF page size</string>
+#. <string-array name="pref_export_pdf_paper_size_choices">
+#. <item>A4</item>         <item>A3</item>         <item>Letter</item>
+#. <item>Legal</item>     </string-array>
+#. <string name="pref_export_pdf_may_rotate_images">Images in PDF may be
+#. rotated</string>     <string
+#. name="pref_export_pdf_may_rotate_images_summaryon">Will rotate images if
+#. format fits better</string>     <string
+#. name="pref_export_pdf_may_rotate_images_summaryoff">Images will never be
+#. rotated</string>
 #. <string name="pref_export_pdf_separate_landscape_portrait">Separate
 #. landscape/portrait in PDF</string>     <string
 #. name="pref_export_pdf_separate_landscape_portrait_dialog">When to separate
 #. landscape/portrait in PDF</string>     <string-array
 #. name="pref_export_pdf_separate_landscape_portrait_choices">
 #. <item>Never</item>         <item>If it does not increase page count</item>
-#. <item>Always</item>     </string-array>
-msgctxt "pref_export_pdf_print_image_notes"
-msgid "Print image notes"
-msgstr "Wydrukuj notatki z obrazów"
-
-msgctxt "pref_export_pdf_image_notes_space"
-msgid "Space reserved for image notes"
-msgstr "Miejsce przeznaczone na obrazy notatek"
-
-msgctxt "pref_export_pdf_image_notes_space_dialog"
-msgid "Space reserved for image notes"
-msgstr "Miejsce przeznaczone na notatki z obrazów"
-
-msgctxt "pref_export_pdf_print_folder_notes"
-msgid "Print folder notes"
-msgstr "Wydrukuj notatki folderów"
-
-msgctxt "pref_export_pdf_print_folder_notes_summaryoff"
-msgid "No folder notes will be printed"
-msgstr "Żadne notatki z folderów nie zostaną wydrukowane"
-
-msgctxt "pref_export_pdf_print_folder_notes_summaryon"
-msgid "Page with folder notes and TOC will be printed"
-msgstr "Zostanie wydrukowana strona z notatkami folderów i spisem treści"
-
+#. <item>Always</item>     </string-array>      <string
+#. name="pref_export_pdf_print_image_notes">Print image notes</string>
+#. <string name="pref_export_pdf_image_notes_space">Space reserved for
+#. image notes</string>     <string
+#. name="pref_export_pdf_image_notes_space_dialog">Space reserved for image
+#. notes</string>      <string name="pref_export_pdf_print_folder_notes">Print
+#. folder notes</string>     <string
+#. name="pref_export_pdf_print_folder_notes_summaryoff">No folder notes will be
+#. printed</string>     <string
+#. name="pref_export_pdf_print_folder_notes_summaryon">Page with folder notes
+#. and TOC will be printed</string>
 msgctxt "pref_category_export_general"
 msgid "General"
 msgstr "Ogólne"
@@ -4204,10 +4068,6 @@ msgstr "Prefix"
 msgctxt "value_entry_metadata_suffix"
 msgid "Suffix"
 msgstr "Suffix"
-
-msgctxt "value_entry_decimal_digits"
-msgid "Decimal digits"
-msgstr "Cyfry dziesiętne"
 
 msgctxt "value_entry_unit_unit"
 msgid "Unit"
