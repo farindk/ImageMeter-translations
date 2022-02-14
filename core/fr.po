@@ -314,6 +314,14 @@ msgctxt "error:IMF_CorruptedFile"
 msgid "Corrupted IMF file."
 msgstr "Fichier IMF corrompu."
 
+msgctxt "error:CannotGenerateCsv"
+msgid "Cannot generate CSV file"
+msgstr ""
+
+msgctxt "error:CannotGenerateXlsx"
+msgid "Cannot generate XLSX file"
+msgstr ""
+
 msgctxt "error:CannotGeneratePdf"
 msgid "Cannot generate PDF"
 msgstr "Impossible de générer un PDF"
@@ -669,6 +677,10 @@ msgstr ""
 
 msgctxt "error:QKeychain:no-keychain-available"
 msgid "No key-chain available."
+msgstr ""
+
+msgctxt "error:AudioDecoder_avcodec"
+msgid "Cannot play audio file ({})."
 msgstr ""
 
 msgctxt "error:Android_ExternalDirectoryNotMounted"
@@ -1162,6 +1174,14 @@ msgctxt "sorting:by-number:descending"
 msgid "by number, descending"
 msgstr ""
 
+msgctxt "AudioDecoder_avcodec:no-audio-stream-found"
+msgid "No audio stream in file."
+msgstr ""
+
+msgctxt "AudioDecoder_avcodec:unsupported-audio-codec"
+msgid "Unsupported audio codec."
+msgstr ""
+
 #, fuzzy
 msgctxt "ui:list:add-entry"
 msgid "Add"
@@ -1627,6 +1647,24 @@ msgstr "Inclure la ligne d'en-tête"
 msgctxt "export:csv:include-table-footer-row"
 msgid "Include footer row"
 msgstr "Inclure la ligne de pied de page"
+
+msgctxt "export:csv:error:cannot-export-csv"
+msgid "Cannot export CSV file"
+msgstr ""
+
+msgctxt "export:csv:entities-have-no-common-template"
+msgid "There are no common templates defined."
+msgstr ""
+
+msgctxt "export:csv:entities-have-no-common-template:details"
+msgid ""
+"You need to assign a template to each image and folder that you export. You "
+"have to use the same template for each image and folder."
+msgstr ""
+
+msgctxt "export:tablespec-to-export:dialog-title"
+msgid "Choose data table to export"
+msgstr ""
 
 msgctxt "print:options:dialog-title"
 msgid "Print options"
@@ -2806,6 +2844,26 @@ msgctxt "prefs:ui:maximum-texture-resolution:unlimited"
 msgid "unlimited"
 msgstr "illimité"
 
+msgctxt "prefs:audio-input:dialog-title"
+msgid "Select audio input device"
+msgstr ""
+
+msgctxt "prefs:audio-input:button:test"
+msgid "Test"
+msgstr ""
+
+msgctxt "prefs:ui:audio-input-device"
+msgid "Audio input device"
+msgstr ""
+
+msgctxt "prefs:ui:audio-input-device:button:choose"
+msgid "Choose"
+msgstr ""
+
+msgctxt "prefs:ui:enable-experimental-dxf-export"
+msgid "Enable DXF export (experimental)"
+msgstr ""
+
 #, fuzzy
 msgctxt "prefs:map-provider:title"
 msgid "Map provider"
@@ -2832,6 +2890,11 @@ msgstr "Identifiant d'utilisateur"
 msgctxt "prefs:company:user-full-name"
 msgid "Full name"
 msgstr "Nom et prénom"
+
+#, fuzzy
+msgctxt "templ:template-name"
+msgid "Template name"
+msgstr "Nom du modèle"
 
 #, fuzzy
 msgctxt "templ:template-name:unnamed"
@@ -4053,3 +4116,4 @@ msgstr ""
 #~ msgctxt "export:pdf:may-rotate-images(short)"
 #~ msgid "Images in PDF may be rotated"
 #~ msgstr "Les images en PDF peuvent être pivotées"
+
