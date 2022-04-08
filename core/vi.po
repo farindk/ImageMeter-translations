@@ -645,6 +645,10 @@ msgctxt "error:AudioDecoder_avcodec"
 msgid "Cannot play audio file ({})."
 msgstr ""
 
+msgctxt "error:AudioWriter_M4A"
+msgid "Cannot write audio file ({})."
+msgstr ""
+
 msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
 msgstr ""
@@ -1169,6 +1173,18 @@ msgctxt "image-library:breadcrumbs:root-folder"
 msgid "Root"
 msgstr ""
 
+msgctxt "image-library:company-policy:may-not-add-folder-here"
+msgid "Your company policy does not allow to add a new folder at this place."
+msgstr ""
+
+msgctxt "image-library:company-policy:may-not-add-image-here"
+msgid "Your company policy does not allow to add a new image at this place."
+msgstr ""
+
+msgctxt "image-library:company-policy:may-not-delete-here"
+msgid "Your company policy does not allow to delete items at this place."
+msgstr ""
+
 msgctxt "imagebundle-settings:dialog-title"
 msgid "Image settings"
 msgstr ""
@@ -1546,6 +1562,10 @@ msgctxt "export:csv:error:cannot-export-csv"
 msgid "Cannot export CSV file"
 msgstr ""
 
+msgctxt "export:csv:error:cannot-export-xlsx"
+msgid "Cannot export XLSX file"
+msgstr ""
+
 msgctxt "export:csv:entities-have-no-common-template"
 msgid "There are no common templates defined."
 msgstr ""
@@ -1749,6 +1769,14 @@ msgctxt "editor:styling:label:apply-to:all-lengths"
 msgid "All lengths"
 msgstr "Tất cả độ dài"
 
+msgctxt "editor:styling:label:apply-to:all-angles"
+msgid "All angles"
+msgstr ""
+
+msgctxt "editor:styling:label:apply-to:all-radii"
+msgid "All radii"
+msgstr ""
+
 msgctxt "editor:styling:label:apply-to:whole-element"
 msgid "Whole element"
 msgstr "Toàn bộ yếu tố"
@@ -1914,6 +1942,10 @@ msgctxt "editor:styling:measurement-point:marker-symbol"
 msgid "Marker"
 msgstr "Đánh dấu"
 
+msgctxt "editor:styling:measurement-point:marker-symbol:no-symbol"
+msgid "No symbol"
+msgstr ""
+
 msgctxt "editor:styling:measurement-point:marker-symbol:encircled-cross"
 msgid "Encircled cross"
 msgstr "Bao quanh chéo"
@@ -1937,6 +1969,30 @@ msgstr "Đỉnh cao"
 msgctxt "editor:styling:measurement-point:marker-symbol:elevation-bottom"
 msgid "Elevation bottom"
 msgstr "Độ cao đáy"
+
+msgctxt "editor:styling:measurement-point:marker-symbol:tilt-left"
+msgid "Tilt left"
+msgstr ""
+
+msgctxt "editor:styling:measurement-point:marker-symbol:tilt-right"
+msgid "Tilt right"
+msgstr ""
+
+msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-left"
+msgid "V-Tilt left"
+msgstr ""
+
+msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-right"
+msgid "V-Tilt right"
+msgstr ""
+
+msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:left"
+msgid "L"
+msgstr ""
+
+msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:right"
+msgid "R"
+msgstr ""
 
 msgctxt "editor:styling:measurement-point:marker-symbol-size"
 msgid "Marker size"
@@ -2013,6 +2069,104 @@ msgstr "Hiển thị đường viền"
 msgctxt "editor:styling:textbox:box-background-color"
 msgid "Background color"
 msgstr "Màu nền"
+
+msgctxt "editor:styling:rounded-polyline:edge-label-position"
+msgid "Length position"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:radius-label-position"
+msgid "Radius position"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:angle-label-position"
+msgid "Angle position"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:edge-label-position:none"
+msgid "Do not show"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:edge-label-position:outside-along"
+msgid "Along line"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:edge-label-position:various"
+msgid "---"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:corner-label-position:none"
+msgid "Do not show"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:corner-label-position:inside"
+msgid "Inside"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-along"
+msgid "Outside (along)"
+msgstr ""
+
+msgctxt ""
+"editor:styling:rounded-polyline:corner-label-position:outside-orthogonal"
+msgid "Outside (orthogonal)"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:corner-label-position:various"
+msgid "---"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:side-length-mode"
+msgid "Side length"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:side-length-mode:tangent-length"
+msgid "Tangent length"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:side-length-mode:tangent-plus-radius"
+msgid "Tangent plus radius"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:side-length-mode:miter-joint"
+msgid "Miter joints"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:side-length-mode:rebar"
+msgid "Rebar"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:mode:move-corner"
+msgid "Move corner"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:mode:adjust-corner-radius"
+msgid "Corner radius"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:mode:add-corner"
+msgid "Add corner"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:mode:delete-corner"
+msgid "Delete corner"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:action:open-contour"
+msgid "Open contour"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:action:close-contour"
+msgid "Close contour"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:action:extrude"
+msgid "Extrude"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:action:extrude:invalid-extrusion-offset"
+msgid ""
+"Invalid extrusion offset. This offset value would lead to an invalid shape."
+msgstr ""
 
 msgctxt "image-settings:image:saturation"
 msgid "Saturation"
@@ -3648,4 +3802,3 @@ msgstr ""
 #~ msgctxt "export:pdf:may-rotate-images(short)"
 #~ msgid "Images in PDF may be rotated"
 #~ msgstr "Hình ảnh trong PDF có thể được xoay"
-

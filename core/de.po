@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2022-02-14 14:16+0100\n"
+"PO-Revision-Date: 2022-04-08 17:16+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : 1);\n"
 "Generated-By: Babel 2.9.0\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.0\n"
 
 msgctxt "error:InternalError"
 msgid "Internal error: {}."
@@ -632,6 +632,10 @@ msgctxt "error:AudioDecoder_avcodec"
 msgid "Cannot play audio file ({})."
 msgstr "Kann die Audiodatei '{}' nicht abspielen."
 
+msgctxt "error:AudioWriter_M4A"
+msgid "Cannot write audio file ({})."
+msgstr ""
+
 msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
 msgstr "Externes Verzeichnis ist nicht eingehängt."
@@ -1158,6 +1162,24 @@ msgctxt "image-library:breadcrumbs:root-folder"
 msgid "Root"
 msgstr "Start"
 
+msgctxt "image-library:company-policy:may-not-add-folder-here"
+msgid "Your company policy does not allow to add a new folder at this place."
+msgstr ""
+"Ihre Unternehmensrichtlinie erlaubt es nicht, an dieser Stelle ein neues "
+"Verzeichnis hinzuzufügen."
+
+msgctxt "image-library:company-policy:may-not-add-image-here"
+msgid "Your company policy does not allow to add a new image at this place."
+msgstr ""
+"Ihre Unternehmensrichtlinie erlaubt es nicht, an dieser Stelle ein neues "
+"Bild hinzuzufügen."
+
+msgctxt "image-library:company-policy:may-not-delete-here"
+msgid "Your company policy does not allow to delete items at this place."
+msgstr ""
+"Ihre Unternehmensrichtlinie erlaubt es nicht, an dieser Stelle Daten zu "
+"löschen."
+
 msgctxt "imagebundle-settings:dialog-title"
 msgid "Image settings"
 msgstr "Bildeinstellungen"
@@ -1542,6 +1564,10 @@ msgctxt "export:csv:error:cannot-export-csv"
 msgid "Cannot export CSV file"
 msgstr "Kann die CSV-Datei nicht exportieren"
 
+msgctxt "export:csv:error:cannot-export-xlsx"
+msgid "Cannot export XLSX file"
+msgstr "Kann die XLSX-Datei nicht exportieren"
+
 msgctxt "export:csv:entities-have-no-common-template"
 msgid "There are no common templates defined."
 msgstr "Es ist keine gemeinsame Vorlage definiert."
@@ -1757,6 +1783,14 @@ msgctxt "editor:styling:label:apply-to:all-lengths"
 msgid "All lengths"
 msgstr "Alle Längen"
 
+msgctxt "editor:styling:label:apply-to:all-angles"
+msgid "All angles"
+msgstr "Alle Winkel"
+
+msgctxt "editor:styling:label:apply-to:all-radii"
+msgid "All radii"
+msgstr "Alle Radien"
+
 msgctxt "editor:styling:label:apply-to:whole-element"
 msgid "Whole element"
 msgstr "Das ganze Element"
@@ -1921,6 +1955,10 @@ msgctxt "editor:styling:measurement-point:marker-symbol"
 msgid "Marker"
 msgstr "Symbol"
 
+msgctxt "editor:styling:measurement-point:marker-symbol:no-symbol"
+msgid "No symbol"
+msgstr "Kein Symbol"
+
 msgctxt "editor:styling:measurement-point:marker-symbol:encircled-cross"
 msgid "Encircled cross"
 msgstr "Kreuz mit Kreis"
@@ -1944,6 +1982,30 @@ msgstr "Höhenkote (UK)"
 msgctxt "editor:styling:measurement-point:marker-symbol:elevation-bottom"
 msgid "Elevation bottom"
 msgstr "Höhenkote (OK)"
+
+msgctxt "editor:styling:measurement-point:marker-symbol:tilt-left"
+msgid "Tilt left"
+msgstr "Neigung links"
+
+msgctxt "editor:styling:measurement-point:marker-symbol:tilt-right"
+msgid "Tilt right"
+msgstr "Neigung rechts"
+
+msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-left"
+msgid "V-Tilt left"
+msgstr "V-Neigung links"
+
+msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-right"
+msgid "V-Tilt right"
+msgstr "V-Neigung rechts"
+
+msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:left"
+msgid "L"
+msgstr "L"
+
+msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:right"
+msgid "R"
+msgstr "R"
 
 msgctxt "editor:styling:measurement-point:marker-symbol-size"
 msgid "Marker size"
@@ -2020,6 +2082,104 @@ msgstr "Rahmen zeichnen"
 msgctxt "editor:styling:textbox:box-background-color"
 msgid "Background color"
 msgstr "Hintergrundfarbe"
+
+msgctxt "editor:styling:rounded-polyline:edge-label-position"
+msgid "Length position"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:radius-label-position"
+msgid "Radius position"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:angle-label-position"
+msgid "Angle position"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:edge-label-position:none"
+msgid "Do not show"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:edge-label-position:outside-along"
+msgid "Along line"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:edge-label-position:various"
+msgid "---"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:corner-label-position:none"
+msgid "Do not show"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:corner-label-position:inside"
+msgid "Inside"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-along"
+msgid "Outside (along)"
+msgstr ""
+
+msgctxt ""
+"editor:styling:rounded-polyline:corner-label-position:outside-orthogonal"
+msgid "Outside (orthogonal)"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:corner-label-position:various"
+msgid "---"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:side-length-mode"
+msgid "Side length"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:side-length-mode:tangent-length"
+msgid "Tangent length"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:side-length-mode:tangent-plus-radius"
+msgid "Tangent plus radius"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:side-length-mode:miter-joint"
+msgid "Miter joints"
+msgstr ""
+
+msgctxt "editor:styling:rounded-polyline:side-length-mode:rebar"
+msgid "Rebar"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:mode:move-corner"
+msgid "Move corner"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:mode:adjust-corner-radius"
+msgid "Corner radius"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:mode:add-corner"
+msgid "Add corner"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:mode:delete-corner"
+msgid "Delete corner"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:action:open-contour"
+msgid "Open contour"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:action:close-contour"
+msgid "Close contour"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:action:extrude"
+msgid "Extrude"
+msgstr ""
+
+msgctxt "editor:rounded-polyline:action:extrude:invalid-extrusion-offset"
+msgid ""
+"Invalid extrusion offset. This offset value would lead to an invalid shape."
+msgstr ""
 
 msgctxt "image-settings:image:saturation"
 msgid "Saturation"
