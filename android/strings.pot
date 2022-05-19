@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-02-11 12:48+0100\n"
+"POT-Creation-Date: 2022-05-19 21:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -624,6 +624,10 @@ msgstr ""
 
 msgctxt "upgrade_item_pdf_import"
 msgid "PDF import"
+msgstr ""
+
+msgctxt "upgrade_item_counter"
+msgid "Counting tool"
 msgstr ""
 
 msgctxt "upgrade_item_cloud_access_from_office_pc"
@@ -1527,6 +1531,10 @@ msgctxt "pref_bluetooth_device_protocol_bosch_glm50_27c"
 msgid "Bosch GLM50-27c"
 msgstr ""
 
+msgctxt "pref_bluetooth_device_protocol_bosch_glm165_27c"
+msgid "Bosch GLM165-27c"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_cem_ildm150"
 msgid "CEM iLDM-150"
 msgstr ""
@@ -1579,6 +1587,10 @@ msgctxt "pref_bluetooth_device_protocol_stanley_tlm99si"
 msgid "Stanley TLM99si"
 msgstr ""
 
+msgctxt "pref_bluetooth_device_protocol_stanley_tlm165si"
+msgid "Stanley TLM165si"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_suaoki"
 msgid "Suaoki"
 msgstr ""
@@ -1603,6 +1615,10 @@ msgctxt "pref_bluetooth_device_protocol_uni_t_lm40b"
 msgid "UNI-T LM40B"
 msgstr ""
 
+msgctxt "pref_bluetooth_device_protocol_uni_t_lm120d"
+msgid "UNI-T LM120D"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_precaster_cx100"
 msgid "Precaster CX100"
 msgstr ""
@@ -1615,6 +1631,10 @@ msgctxt "pref_bluetooth_device_protocol_laserliner_compactpro"
 msgid "Laserliner Compact Pro"
 msgstr ""
 
+msgctxt "pref_bluetooth_device_protocol_laserliner_compactplus"
+msgid "Laserliner Compact Plus"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_toolsmart_anglefinder"
 msgid "ToolSmart-AngleFinder"
 msgstr ""
@@ -1625,6 +1645,10 @@ msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_condtrol_vector60"
 msgid "Condtrol Vector 60"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_stier_sle120"
+msgid "Stier SLE-120"
 msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_sola_vector_100"
@@ -2391,6 +2415,7 @@ msgctxt "pref_storage_cloud_advanced_maintenance"
 msgid "Advanced maintenance"
 msgstr ""
 
+#. FUNCTION WAS REMOVED
 msgctxt "pref_storage_cloud_send_error_log"
 msgid "Send error log by email"
 msgstr ""
@@ -3162,6 +3187,14 @@ msgctxt "editor_menu_add_cumulative_dimstring"
 msgid "Cumulative string"
 msgstr ""
 
+msgctxt "editor_menu_add_counter"
+msgid "Counter"
+msgstr ""
+
+msgctxt "editor_menu_add_valuelist"
+msgid "Value list"
+msgstr ""
+
 #. menu / toolbar
 msgctxt "editor_menu_edit_delete"
 msgid "Delete element"
@@ -3313,6 +3346,16 @@ msgctxt "editor_hint_howto_draw_dimstring_cumulative"
 msgid "Please draw the first dimension string. Use the top toolbar to modify it."
 msgstr ""
 
+msgctxt "editor_hint_howto_draw_counter"
+msgid ""
+"Click on the objects you want to count. Place several counters at once by"
+" long-pressing on the counting tool."
+msgstr ""
+
+msgctxt "editor_hint_howto_draw_valuelist"
+msgid "Place the value list. It shows the total values of your counters."
+msgstr ""
+
 msgctxt "editor_help_why_no_measured_value"
 msgid ""
 "The value cannot yet be computed because the image is not calibrated. "
@@ -3360,6 +3403,10 @@ msgstr ""
 
 msgctxt "editor_dialog_save_corrupted_imm_file_keep_old_button"
 msgid "Keep old data"
+msgstr ""
+
+msgctxt "editor_dialog_tag_for_counter_title"
+msgid "Select tag to count"
 msgstr ""
 
 msgctxt "color_dialog_special_transparent"
@@ -3594,6 +3641,11 @@ msgstr ""
 #. GMeasurementPoint
 msgctxt "editor_dialog_style_measurementpoint_title"
 msgid "Point style"
+msgstr ""
+
+#. GCounter
+msgctxt "editor_dialog_style_counter_title"
+msgid "Counter style"
 msgstr ""
 
 #. GPerspectiveLine
