@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-05-24 20:27+0200\n"
+"POT-Creation-Date: 2022-06-08 19:47+0200\n"
 "PO-Revision-Date: 2022-02-11 12:49+0100\n"
 "Last-Translator: \n"
 "Language: el\n"
@@ -747,9 +747,10 @@ msgctxt "upgrade_item_pdf_import"
 msgid "PDF import"
 msgstr "Εισαγωγή PDF"
 
+#, fuzzy
 msgctxt "upgrade_item_counter"
 msgid "Counting tool"
-msgstr ""
+msgstr "Εργαλείο μέτρησης"
 
 #, fuzzy
 msgctxt "upgrade_item_cloud_access_from_office_pc"
@@ -842,6 +843,13 @@ msgid "Exporting data tables is available in the Business version."
 msgstr "Η εξαγωγή πινάκων δεδομένων είναι διαθέσιμη στην έκδοση Business."
 
 #. TODO: demo video
+#, c-format
+msgctxt "needUpgradeDialog_counter"
+msgid ""
+"The counting tool is available in the '%1$s' add-on. Watch the <a "
+"href=\"%2$s\">tutorial video</a> to learn more about this tool."
+msgstr ""
+
 msgctxt "needUpgradeDialog_button_getBusinessVersion"
 msgid "Upgrade to Business version"
 msgstr "Αναβάθμιση σε Business έκδοση"
@@ -4034,6 +4042,16 @@ msgstr ""
 "\"Υπολογισμός τιμής\" από το μενού και επιλέξτε ποια αναφορά θα "
 "χρησιμοποιήσετε."
 
+msgctxt "editor_help_counter_tutorial_video_url"
+msgid "https://www.youtube.com/watch?v=jBNa8TqToNY"
+msgstr ""
+
+msgctxt "editor_help_counter_tutorial"
+msgid ""
+"If you would like to see a short tutorial video how to use the counting "
+"tool, use the link below."
+msgstr ""
+
 #, fuzzy
 msgctxt "editor_help_do_not_show_again"
 msgid "Don't show again"
@@ -4075,8 +4093,12 @@ msgctxt "editor_dialog_save_corrupted_imm_file_keep_old_button"
 msgid "Keep old data"
 msgstr "Κρατήστε τα παλιά δεδομένα"
 
-msgctxt "editor_dialog_tag_for_counter_title"
-msgid "Select tag to count"
+msgctxt "editor_dialog_new_counter_title"
+msgid "New counter"
+msgstr ""
+
+msgctxt "editor_dialog_existing_counters_title"
+msgid "Existing counters"
 msgstr ""
 
 #, fuzzy

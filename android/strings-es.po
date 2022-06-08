@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-05-24 20:27+0200\n"
+"POT-Creation-Date: 2022-06-08 19:47+0200\n"
 "PO-Revision-Date: 2022-02-11 12:49+0100\n"
 "Last-Translator: \n"
 "Language: es\n"
@@ -736,9 +736,10 @@ msgctxt "upgrade_item_pdf_import"
 msgid "PDF import"
 msgstr "Importar PDF"
 
+#, fuzzy
 msgctxt "upgrade_item_counter"
 msgid "Counting tool"
-msgstr ""
+msgstr "Numerador"
 
 #, fuzzy
 msgctxt "upgrade_item_cloud_access_from_office_pc"
@@ -829,6 +830,13 @@ msgid "Exporting data tables is available in the Business version."
 msgstr "La exportación de tablas de datos está disponible en la versión Business."
 
 #. TODO: demo video
+#, c-format, fuzzy
+msgctxt "needUpgradeDialog_counter"
+msgid ""
+"The counting tool is available in the '%1$s' add-on. Watch the <a "
+"href=\"%2$s\">tutorial video</a> to learn more about this tool."
+msgstr "La herramienta de conteo está incluida en el complemento '%1$s'. El <a href=\"%2$s\">Video explicativo</a> muestra cómo funciona la herramienta de conteo."
+
 #, fuzzy
 msgctxt "needUpgradeDialog_button_getBusinessVersion"
 msgid "Upgrade to Business version"
@@ -3802,13 +3810,15 @@ msgctxt "editor_menu_add_cumulative_dimstring"
 msgid "Cumulative string"
 msgstr "Cadena acumulativa"
 
+#, fuzzy
 msgctxt "editor_menu_add_counter"
 msgid "Counter"
-msgstr ""
+msgstr "Numerador"
 
+#, fuzzy
 msgctxt "editor_menu_add_resultslist"
 msgid "Results list"
-msgstr ""
+msgstr "Lista de resultados"
 
 #. menu / toolbar
 msgctxt "editor_menu_edit_delete"
@@ -4004,9 +4014,10 @@ msgid ""
 " long-pressing on the counting tool."
 msgstr ""
 
+#, fuzzy
 msgctxt "editor_hint_howto_draw_resultslist"
 msgid "Place the value list. It shows the total values of your counters."
-msgstr ""
+msgstr "Coloque la lista de resultados. Muestra los valores totales de todos los contadores."
 
 #, fuzzy
 msgctxt "editor_help_why_no_measured_value"
@@ -4031,6 +4042,17 @@ msgid ""
 msgstr ""
 "El valor no se calcula porque la imagen contiene dos referencias. "
 "Seleccione 'Calcular valor' en el menú y seleccione qué referencia usar."
+
+msgctxt "editor_help_counter_tutorial_video_url"
+msgid "https://www.youtube.com/watch?v=jBNa8TqToNY"
+msgstr ""
+
+#, fuzzy
+msgctxt "editor_help_counter_tutorial"
+msgid ""
+"If you would like to see a short tutorial video how to use the counting "
+"tool, use the link below."
+msgstr "Hay un video tutorial que explica cómo usar la herramienta de conteo. Si quieres verlo, utiliza el siguiente enlace."
 
 #, fuzzy
 msgctxt "editor_help_do_not_show_again"
@@ -4073,9 +4095,15 @@ msgctxt "editor_dialog_save_corrupted_imm_file_keep_old_button"
 msgid "Keep old data"
 msgstr "Mantener los datos antiguos"
 
-msgctxt "editor_dialog_tag_for_counter_title"
-msgid "Select tag to count"
-msgstr ""
+#, fuzzy
+msgctxt "editor_dialog_new_counter_title"
+msgid "New counter"
+msgstr "Nuevo contador"
+
+#, fuzzy
+msgctxt "editor_dialog_existing_counters_title"
+msgid "Existing counters"
+msgstr "Contadores existentes"
 
 #, fuzzy
 msgctxt "color_dialog_special_transparent"
@@ -4350,10 +4378,10 @@ msgctxt "editor_dialog_style_measurementpoint_title"
 msgid "Point style"
 msgstr "Estilo de punto"
 
-#. GCounter
+#, fuzzy
 msgctxt "editor_dialog_style_counter_title"
 msgid "Counter style"
-msgstr ""
+msgstr "Estilo contador"
 
 #. GPerspectiveLine
 #, fuzzy
