@@ -3,1124 +3,903 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2022-04-29 12:45+0200\n"
+"PO-Revision-Date: 2022-06-12 17:27+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: ImageMeter\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: uk\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.1\n"
 
-#, fuzzy
 msgctxt "error:InternalError"
 msgid "Internal error: {}."
 msgstr "Внутрішня помилка: {}."
 
-#, fuzzy
 msgctxt "error:OutOfMemory:no_size"
 msgid "Out of memory"
-msgstr "Недостатньо помяті"
+msgstr "Недостатньо пам'яті"
 
-#, fuzzy
 msgctxt "error:OutOfMemory:with_bytes_size"
 msgid "Out of memory (cannot allocate {} bytes)."
 msgstr "Недостатньо пам’яті (неможливо виділити {} байт)."
 
-#, fuzzy
 msgctxt "error:OutOfMemory:with_mb_size"
 msgid "Out of memory (cannot allocate {} MB)."
 msgstr "Недостатньо пам’яті (неможливо виділити {} МБ)."
 
-#, fuzzy
 msgctxt "error:ZLibCompressionError"
 msgid "ZLib error code: '{}'."
 msgstr "Код помилки ZLib: '{}'."
 
-#, fuzzy
 msgctxt "error:ZipError"
 msgid "ZIP error: {}"
 msgstr "Помилка ZIP: {}"
 
-#, fuzzy
 msgctxt "error:ZIP_ReadError"
 msgid "Error reading ZIP file."
 msgstr "Помилка читання ZIP-файлу."
 
-#, fuzzy
 msgctxt "error:NLohmann_JsonParseError"
 msgid "Parse error '{}'"
 msgstr "Помилка аналізу \"{}\""
 
-#, fuzzy
 msgctxt "error:LibJPEG_Error"
 msgid "LibJPEG error: \"{}\"."
 msgstr "Помилка LibJPEG: \"{}\"."
 
-#, fuzzy
 msgctxt "error:CommaSeparatedList_EmptyString"
 msgid "Empty item in list."
 msgstr "Порожній елемент у списку."
 
-#, fuzzy
 msgctxt "error:Files_FileDoesNotExist"
 msgid "File does not exist: \"{}\"."
 msgstr "Файл не існує: \"{}\"."
 
-#, fuzzy
 msgctxt "error:Files_FileCannotBeOpened"
 msgid "Cannot open file \"{}\"."
 msgstr "Не вдається відкрити файл \"{}\"."
 
-#, fuzzy
 msgctxt "error:Files_CannotDeleteFile"
 msgid "Cannot delete file '{}'."
 msgstr "Неможливо видалити файл '{}'."
 
-#, fuzzy
 msgctxt "error:Files_CannotReadFile"
 msgid "Cannot read file '{}'."
 msgstr "Не вдається прочитати файл '{}'."
 
-#, fuzzy
 msgctxt "error:Files_CannotWriteFile"
 msgid "Cannot write file '{}'."
 msgstr "Неможливо записати файл '{}'."
 
-#, fuzzy
 msgctxt "error:Files_CannotRenameFile"
 msgid "Cannot rename file '{0}' to '{1}'."
 msgstr "Неможливо перейменувати файл \"{0}\" на \"{1}\"."
 
-#, fuzzy
 msgctxt "error:Files_CannotCreateDirectory"
 msgid "Cannot create directory \"{}\"."
 msgstr "Неможливо створити каталог \"{}\"."
 
-#, fuzzy
 msgctxt "error:Files_DirectoryDoesNotExist"
 msgid "Directory '{}' does not exist."
 msgstr "Каталог '{}' не існує."
 
-#, fuzzy
 msgctxt "error:Files_CannotRenameDirectory"
 msgid "Cannot rename folder '{0}' to '{1}'."
 msgstr "Неможливо перейменувати папку \"{0}\" на \"{1}\"."
 
-#, fuzzy
 msgctxt "error:Files_CannotDeleteDirectory"
 msgid "Cannot delete folder '{}'."
 msgstr "Не вдається видалити папку \"{}\"."
 
-#, fuzzy
 msgctxt "error:Files_CorruptedFileCompression"
 msgid "File compression error."
 msgstr "Помилка стиснення файлу."
 
-#, fuzzy
 msgctxt "error:Files_CannotReadDirectory"
 msgid "Cannot read directory '{}'."
 msgstr "Неможливо прочитати каталог '{}'."
 
-#, fuzzy
 msgctxt "error:Files_CannotCopyDirectory"
 msgid "Cannot copy directory '{}'."
 msgstr "Неможливо скопіювати каталог '{}'."
 
-#, fuzzy
 msgctxt "error:Files_Errno"
 msgid "OS error: '{}'."
 msgstr "Помилка ОС: \"{}\"."
 
-#, fuzzy
 msgctxt "error:Files_Win32"
 msgid "Windows error: '{}'"
 msgstr "Помилка Windows: '{}'"
 
-#, fuzzy
 msgctxt "error:Files_CannotGenerateUniqueFilename"
 msgid "Cannot generate unique filename: '{}'."
 msgstr "Неможливо створити унікальну назву файлу: '{}'."
 
-#, fuzzy
 msgctxt "error:ProjectFolder_CannotCreate"
 msgid "Cannot create folder '{}'."
 msgstr "Не вдається створити папку \"{}\"."
 
-#, fuzzy
 msgctxt "error:ProjectFolder_CannotWriteIFD"
 msgid "Cannot write IFD file for folder '{}'."
 msgstr "Неможливо записати файл IFD для папки \"{}\"."
 
-#, fuzzy
 msgctxt "error:ProjectFolder_CannotLoadFolder"
 msgid "Cannot load folder '{}'."
 msgstr "Не вдається завантажити папку \"{}\"."
 
-#, fuzzy
 msgctxt "error:ProjectFolder_CannotRenameFolder"
 msgid "Cannot rename directory of image '{}'."
 msgstr "Неможливо перейменувати каталог зображення '{}'."
 
-#, fuzzy
 msgctxt "error:ProjectFolder_CannotDeleteFolder"
 msgid "Cannot delete folder '{}'."
 msgstr "Не вдається видалити папку \"{}\"."
 
-#, fuzzy
 msgctxt "error:ProjectFolder_MultipleIFDFiles"
 msgid "More than one IFD file found."
 msgstr "Знайдено більше одного файлу IFD."
 
-#, fuzzy
 msgctxt "error:ProjectFolder_IFDParseError"
 msgid "IFD file parse error."
 msgstr "Помилка аналізу файлу IFD."
 
-#, fuzzy
 msgctxt "error:DataBundle_CannotLoadDataBundle"
 msgid "Cannot load image '{}'."
 msgstr "Не вдається завантажити зображення \"{}\"."
 
-#, fuzzy
 msgctxt "error:DataBundle_CannotCreate"
 msgid "Cannot create new image '{}'."
 msgstr "Неможливо створити нове зображення \"{}\"."
 
-#, fuzzy
 msgctxt "error:DataBundle_CannotWriteIMM"
 msgid "Cannot write IMM file for image '{}'."
 msgstr "Неможливо записати файл IMM для зображення \"{}\"."
 
-#, fuzzy
 msgctxt "error:DataBundle_CannotDelete"
 msgid "Cannot delete image '{}'."
 msgstr "Неможливо видалити зображення \"{}\"."
 
-#, fuzzy
 msgctxt "error:DataBundle_CannotRenameFolder"
 msgid "Cannot rename directory of image '{}'."
 msgstr "Неможливо перейменувати каталог зображення '{}'."
 
-#, fuzzy
 msgctxt "error:DataBundle_MultipleIMMFiles"
 msgid "More than one IMM file found."
 msgstr "Знайдено більше одного файлу IMM."
 
-#, fuzzy
 msgctxt "error:DataBundle_CannotReadIMMFile"
 msgid "Cannot read IMM file."
 msgstr "Не вдається прочитати файл IMM."
 
-#, fuzzy
 msgctxt "error:DataBundle_CannotGetContentArea"
 msgid "Unknown content area."
 msgstr "Невідома область вмісту."
 
-#, fuzzy
 msgctxt "error:DataBundle_IMMParseError"
 msgid "IMM file parse error ({})."
 msgstr "Помилка аналізу файлу IMM ({})."
 
-#, fuzzy
 msgctxt "error:Entity_CannotMove"
 msgid "Cannot move '{}' to new directory."
 msgstr "Неможливо перемістити '{}' до нового каталогу."
 
-#, fuzzy
 msgctxt "error:Entity_Numbering_InvalidNumber"
 msgid "Invalid number: '{}'."
 msgstr "Недійсне число: '{}'."
 
-#, fuzzy
 msgctxt "error:DeleteLogic_CannotDelete"
 msgid "Cannot delete folder '{}'."
 msgstr "Не вдається видалити папку \"{}\"."
 
-#, fuzzy
 msgctxt "error:DeleteLogic_CannotMarkAsDeleted"
 msgid "Cannot mark folder '{}' as deleted."
 msgstr "Не вдається позначити папку \"{}\" як видалену."
 
-#, fuzzy
 msgctxt "error:IFD_ParseError"
 msgid "IFD file parse error."
 msgstr "Помилка аналізу файлу IFD."
 
-#, fuzzy
 msgctxt "error:CannotLockPath-readLock"
 msgid "Cannot read file '{}' because it is currently being modified."
 msgstr "Неможливо прочитати файл '{}', оскільки він зараз модифікується."
 
-#, fuzzy
 msgctxt "error:CannotLockPath-writeLock"
 msgid "Cannot modify file '{}' because it is currently in use."
 msgstr "Неможливо змінити файл '{}', оскільки він зараз використовується."
 
-#, fuzzy
 msgctxt "error:UnknownFileFormat"
 msgid "File '{}' has unknown format."
 msgstr "Файл '{}' має невідомий формат."
 
-#, fuzzy
 msgctxt "error:CannotCreateIMIFile"
 msgid "Cannot create IMI file '{}'."
 msgstr "Не вдається створити файл IMI \"{}\"."
 
-#, fuzzy
 msgctxt "error:NoZipSupport"
 msgid "Zip files are not supported."
 msgstr "Zip-файли не підтримуються."
 
-#, fuzzy
 msgctxt "error:ImageReader_ReaderError"
 msgid "Image reader error."
 msgstr "Помилка зчитування зображень."
 
-#, fuzzy
 msgctxt "error:ImageReader_CorruptedImage"
 msgid "Corrupted image file."
 msgstr "Пошкоджений файл зображення."
 
-#, fuzzy
 msgctxt "error:ImageReader_UnsupportedFormat"
 msgid "Unsupported image format."
 msgstr "Непідтримуваний формат зображення."
 
-#, fuzzy
 msgctxt "error:CannotReadTexture"
 msgid "Cannot read texture '{}'."
 msgstr "Не вдається прочитати текстуру \"{}\"."
 
-#, fuzzy
 msgctxt "error:OpenGL"
 msgid "OpenGL error: \"{}\"."
 msgstr "Помилка OpenGL: \"{}\"."
 
-#, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
 msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
 msgstr "Недостатньо пам’яті для відтворення з роздільною здатністю {}. Будь ласка, зменште вихідну роздільну здатність."
 
-#, fuzzy
 msgctxt "error:CannotRenderImage"
 msgid "Cannot render image \"{}\"."
 msgstr "Неможливо відобразити зображення \"{}\"."
 
-#, fuzzy
 msgctxt "error:DataBundle_CannotOpen"
 msgid "Cannot open image \"{}\"."
 msgstr "Не вдається відкрити зображення \"{}\"."
 
-#, fuzzy
 msgctxt "error:EditCore_CannotLoadAuxiliary_Data"
 msgid "Cannot load auxiliary data."
 msgstr "Не вдається завантажити допоміжні дані."
 
-#, fuzzy
 msgctxt "error:EditCore_CannotPurgeUnusedAuxiliaryFiles"
 msgid "Cannot delete unused auxiliary data files."
 msgstr "Неможливо видалити невикористані файли допоміжних даних."
 
-#, fuzzy
 msgctxt "error:GText_CannotAddDetailImage"
 msgid "Cannot add the detail image \"{}\"."
 msgstr "Неможливо додати детальне зображення \"{}\"."
 
-#, fuzzy
 msgctxt "error:GText_CannotAddAudioRecording"
 msgid "Cannot add audio recording \"{}\"."
 msgstr "Не вдається додати аудіозапис \"{}\"."
 
-#, fuzzy
 msgctxt "error:EditCore_CannotReadBackgroundImage"
 msgid "Cannot read photo."
-msgstr "Не можу прочитати фото."
+msgstr "Не вдається прочитати фото."
 
-#, fuzzy
 msgctxt "error:ImageReader_CannotReadImage"
 msgid "Cannot read image file."
 msgstr "Не вдається прочитати файл зображення."
 
-#, fuzzy
 msgctxt "error:IMI_CannotOpen"
 msgid "Cannot open IMI file '{}'."
 msgstr "Не вдається відкрити файл IMI \"{}\"."
 
-#, fuzzy
 msgctxt "error:IMF_CannotReadZip"
 msgid "Corrupted ZIP file \"{}\"."
 msgstr "Пошкоджений ZIP-файл \"{}\"."
 
-#, fuzzy
 msgctxt "error:IMF_CorruptedFile"
 msgid "Corrupted IMF file."
 msgstr "Пошкоджений файл IMF."
 
-#, fuzzy
 msgctxt "error:CannotGenerateCsv"
 msgid "Cannot generate CSV file"
 msgstr "Не вдається створити файл CSV"
 
-#, fuzzy
 msgctxt "error:CannotGenerateXlsx"
 msgid "Cannot generate XLSX file"
 msgstr "Не вдається створити файл XLSX"
 
-#, fuzzy
 msgctxt "error:CannotCreateZIPFile"
 msgid "Cannot create ZIP file"
 msgstr "Не вдається створити ZIP-файл"
 
-#, fuzzy
 msgctxt "error:Export_NoImagesToWrite"
 msgid "Data to export does not contain any images"
 msgstr "Дані для експорту не містять жодних зображень"
 
-#, fuzzy
 msgctxt "error:CannotGeneratePdf"
 msgid "Cannot generate PDF"
 msgstr "Не вдається створити PDF"
 
-#, fuzzy
 msgctxt "error:LibHaru"
 msgid "LibHARU error: \"{}\""
 msgstr "Помилка LibHARU: \"{}\""
 
-#, fuzzy
 msgctxt "error:ImageSettings_CannotLoad"
 msgid "Cannot load image settings."
 msgstr "Не вдається завантажити налаштування зображення."
 
-#, fuzzy
 msgctxt "error:ImageSettings_CannotSave"
 msgid "Cannot save image settings."
 msgstr "Не вдається зберегти налаштування зображення."
 
-#, fuzzy
 msgctxt "error:AppPreferences_CannotSetDataRootDirectory"
 msgid "Cannot set the data root directory."
 msgstr "Не вдається встановити кореневий каталог даних."
 
-#, fuzzy
 msgctxt "error:AppPreferences_CannotCreateDataRootDirectory"
 msgid "Cannot create the data root directory."
 msgstr "Не вдається створити кореневий каталог даних."
 
-#, fuzzy
 msgctxt "error:AppPreferences_NoRootDefined"
 msgid "No data root directory defined."
 msgstr "Кореневий каталог даних не визначено."
 
-#, fuzzy
 msgctxt "error:ImageLibrary_NoLibraryDirectoryDefined"
 msgid "No image library directory defined."
 msgstr "Не визначено каталог бібліотеки зображень."
 
-#, fuzzy
 msgctxt "error:ImageLibrary_CannotPurge"
 msgid "Cannot purge deleted images."
 msgstr "Неможливо видалити видалені зображення."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotLogin:unknown"
 msgid "Cannot sign in to your cloud server account."
 msgstr "Не вдається ввійти в обліковий запис хмарного сервера."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotLogin:unauthorized"
 msgid "Not authorized to sign in to your cloud server account."
-msgstr "Не має права входити в обліковий запис хмарного сервера."
+msgstr "Не авторизований для входу в особистий обліковий запис хмарного сервера."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotLogin:incorrect_password"
 msgid "Wrong user name or password."
 msgstr "Неправильне ім'я користувача або пароль."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotLogin:interactive_login_required"
 msgid "Interactive sign in to your cloud server account is required."
 msgstr "Потрібен інтерактивний вхід у ваш обліковий запис хмарного сервера."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotLogin:cancelled_by_user"
 msgid "Sign in to your cloud server account has been cancelled."
 msgstr "Вхід у ваш обліковий запис хмарного сервера скасовано."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotLogin:network_error"
 msgid "Network error while connecting to your cloud server account."
 msgstr "Помилка мережі під час підключення до вашого облікового запису хмарного сервера."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotLogin:server_timeout"
 msgid "Cloud server timeout."
 msgstr "Час очікування хмарного сервера."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotLogin:cannot_access_base_folder"
 msgid "Cannot access data directory on cloud server."
 msgstr "Не вдається отримати доступ до каталогу даних на хмарному сервері."
 
-#, fuzzy
 msgctxt "error:Cloud_SyncError"
 msgid "Cannot sync with server."
-msgstr "Не вдається синхронізувати з сервером."
+msgstr "Не вдається синхронізуватися з сервером."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotParseSyncStateFile"
 msgid "Cannot parse sync state file '{}'."
 msgstr "Не вдається проаналізувати файл стану синхронізації \"{}\"."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotWriteSyncStateFile"
 msgid "Cannot write sync state file '{}'."
 msgstr "Неможливо записати файл стану синхронізації \"{}\"."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotLoadSyncStateFile"
 msgid "Cannot load sync state file '{}'."
 msgstr "Не вдається завантажити файл стану синхронізації \"{}\"."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotLockServer"
 msgid "Cannot generate server lock file."
 msgstr "Не вдається створити файл блокування сервера."
 
-#, fuzzy
 msgctxt "error:Cloud_ServerError"
 msgid "Server error: {}"
 msgstr "Помилка серверу: {}"
 
-#, fuzzy
 msgctxt "error:Cloud_FileLockedOnServer"
 msgid "File is locked on server. Please retry upload at a later time."
 msgstr "Файл заблоковано на сервері. Повторіть спробу завантаження пізніше."
 
-#, fuzzy
 msgctxt "error:Cloud_ServerBlocked"
 msgid "Server blocked by another client. Please retry at a later time."
 msgstr "Сервер заблокований іншим клієнтом. Повторіть спробу пізніше."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotLockLocalFiles"
 msgid "Cannot get exclusive access on local files"
 msgstr "Неможливо отримати ексклюзивний доступ до локальних файлів"
 
-#, fuzzy
 msgctxt "error:Cloud_RemoteFileDoesNotExist"
 msgid "File '{}' does not exist on server"
 msgstr "Файл '{}' не існує на сервері"
 
-#, fuzzy
 msgctxt "error:Cloud_RemoteFolderDoesNotExist"
 msgid "Folder '{}' does not exist on server"
 msgstr "Папка \"{}\" не існує на сервері"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotCreateFolder"
 msgid "Cannot create folder '{}' on server"
 msgstr "Не вдається створити папку \"{}\" на сервері"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotCreateFolder-short"
 msgid "Cannot create folder on server"
 msgstr "Не вдається створити папку на сервері"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotUploadFile"
 msgid "Cannot upload file '{}' to server"
 msgstr "Не вдається завантажити файл \"{}\" на сервер"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotUploadFile-short"
 msgid "Cannot upload file to server"
 msgstr "Не вдається завантажити файл на сервер"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotDownloadFile"
 msgid "Cannot download file '{}' from server"
 msgstr "Не вдається завантажити файл \"{}\" із сервера"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotDownloadFile-short"
 msgid "Cannot download file from server"
 msgstr "Не вдається завантажити файл із сервера"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotDownloadFolder"
 msgid "Cannot download folder '{}' from server"
-msgstr "Не вдається завантажити папку \"{}\" із сервера"
+msgstr "Не вдається завантажити папку \"{}\" з сервера"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotDownloadFolder-short"
 msgid "Cannot download folder from server"
 msgstr "Не вдається завантажити папку з сервера"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotRenameFile"
 msgid "Cannot rename file '{}' on server"
 msgstr "Не вдається перейменувати файл '{}' на сервері"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotRenameFile-short"
 msgid "Cannot rename file on server"
 msgstr "Неможливо перейменувати файл на сервері"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotRenameFolder"
 msgid "Cannot rename folder '{}' on server"
 msgstr "Не вдається перейменувати папку \"{}\" на сервері"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotRenameFolder-short"
 msgid "Cannot rename folder on server"
 msgstr "Не вдається перейменувати папку на сервері"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotDeleteFile"
 msgid "Cannot delete file '{}' from server"
-msgstr "Неможливо видалити файл \"{}\" із сервера"
+msgstr "Не вдається видалити файл \"{}\" із сервера"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotDeleteFile-short"
 msgid "Cannot delete file from server"
 msgstr "Не вдається видалити файл із сервера"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotDeleteFolder"
 msgid "Cannot delete folder '{}' from server"
 msgstr "Не вдається видалити папку \"{}\" із сервера"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotDeleteFolder"
 msgid "Cannot delete folder from server"
 msgstr "Не вдається видалити папку з сервера"
 
-#, fuzzy
 msgctxt "error:Cloud_CannotListFolderContent"
 msgid "Cannot list content of server folder '{}'"
 msgstr "Неможливо відобразити вміст папки сервера \"{}\""
 
-#, fuzzy
 msgctxt "error:Cloud_CannotListFolderContent-short"
 msgid "Cannot list content of server folder"
-msgstr "Неможливо перерахувати вміст папки сервера"
+msgstr "Неможливо відобразити вміст папки сервера"
 
-#, fuzzy
 msgctxt "error:Cloud_IsNotAFolder"
 msgid "File '{}' is not a folder."
-msgstr "Файл '{}' не є папкою."
+msgstr "Файл '{}' не являється папкою."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotRemoveServerLock"
 msgid "Could not remove server lock file '{}'."
 msgstr "Не вдалося видалити файл блокування сервера \"{}\"."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotResetServerCache"
 msgid "Could not remove server cache file '{}'."
 msgstr "Не вдалося видалити файл кешу сервера \"{}\"."
 
-#, fuzzy
 msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
 msgstr "Не вдалося скинути стан синхронізації."
 
-#, fuzzy
 msgctxt "error:CloudBackend_OneDrive_DirectoryNotSet"
 msgid "OneDrive server data directory is not set"
 msgstr "Каталог даних сервера OneDrive не встановлено"
 
-#, fuzzy
 msgctxt "error:CloudBackend_GoogleDrive_DirectoryNotSet"
 msgid "Google Drive server data directory is not set"
 msgstr "Каталог даних сервера Google Диска не встановлено"
 
-#, fuzzy
 msgctxt "error:CloudBackend_Filesystem_DirectoryNotSet"
 msgid "Storage directory is not set"
 msgstr "Каталог зберігання не встановлено"
 
-#, fuzzy
 msgctxt "error:HTTP-error-400"
 msgid "400 : Bad Request"
-msgstr "400 : Поганий запит"
+msgstr "400 : Помилковий запит"
 
-#, fuzzy
 msgctxt "error:HTTP-error-401"
 msgid "401 : Unauthorized"
 msgstr "401 : Неавторизовано"
 
-#, fuzzy
 msgctxt "error:HTTP-error-403"
 msgid "403 : Forbidden"
 msgstr "403 : Заборонено"
 
-#, fuzzy
 msgctxt "error:HTTP-error-404"
 msgid "404 : Not Found"
 msgstr "404 : Не знайдено"
 
-#, fuzzy
 msgctxt "error:HTTP-error-405"
 msgid "405 : Method Not Allowed"
-msgstr "405 : Метод не дозволений"
+msgstr "405 : Метод заборонений"
 
-#, fuzzy
 msgctxt "error:HTTP-error-406"
 msgid "406 : Not Acceptable"
 msgstr "406 : Неприйнятно"
 
-#, fuzzy
 msgctxt "error:HTTP-error-407"
 msgid "407 : Proxy Authentication Required"
-msgstr "407 : Proxy Authentication Required"
+msgstr "407 : Потрібна автентифікація проксі"
 
-#, fuzzy
 msgctxt "error:HTTP-error-408"
 msgid "408 : Request Timeout"
 msgstr "408 : Час очікування запиту"
 
-#, fuzzy
 msgctxt "error:HTTP-error-409"
 msgid "409 : Conflict"
 msgstr "409 : Конфлікт"
 
-#, fuzzy
 msgctxt "error:HTTP-error-410"
 msgid "410 : Gone"
 msgstr "410 : Пішов"
 
-#, fuzzy
 msgctxt "error:HTTP-error-500"
 msgid "500 : Internal Server Error"
 msgstr "500 : Внутрішня помилка сервера"
 
-#, fuzzy
 msgctxt "error:HTTP-error-501"
 msgid "501 : Not Implemented"
 msgstr "501 : Не реалізовано"
 
-#, fuzzy
 msgctxt "error:HTTP-error-502"
 msgid "502 : Bad Gateway"
 msgstr "502 : Поганий шлюз"
 
-#, fuzzy
 msgctxt "error:HTTP-error-503"
 msgid "503 : Service Unavailable"
 msgstr "503 : Послуга недоступна"
 
-#, fuzzy
 msgctxt "error:HTTP-error-504"
 msgid "504 : Gateway Timeout"
-msgstr "504 : Час очікування шлюзу"
+msgstr "504 : Час очікування серверу вичерпано"
 
-#, fuzzy
 msgctxt "error:NetworkError"
 msgid "Network error: {}"
-msgstr "Помилка мережі: {}"
+msgstr "Помилка сервера: {}"
 
-#, fuzzy
 msgctxt "error:BluetoothError:no_active_element"
 msgid "no active element"
-msgstr "немає активного елемента"
+msgstr "неактивний елемент"
 
-#, fuzzy
 msgctxt "error:BluetoothError:element_has_no_dimension"
 msgid "element does not support measurements"
 msgstr "елемент не підтримує вимірювання"
 
-#, fuzzy
 msgctxt "error:BluetoothError:dimension_is_read_only"
 msgid "element value is read-only"
 msgstr "значення елемента доступне лише для читання"
 
-#, fuzzy
 msgctxt "error:BluetoothError:wrong_dimension_unit"
 msgid "wrong measurement unit"
 msgstr "неправильна одиниця вимірювання"
 
-#, fuzzy
 msgctxt "error:BluetoothError:element_is_locked"
 msgid "element is locked"
 msgstr "елемент заблокований"
 
-#, fuzzy
 msgctxt "error:BluetoothError:generic"
 msgid "Cannot set received Bluetooth value."
-msgstr "Не вдається встановити отримане значення Bluetooth."
+msgstr "Не вдається встановити отримане через Bluetooth значення."
 
-#, fuzzy
 msgctxt "error:QKeychain:entry-not-found"
 msgid "No key found for '{}'."
 msgstr "Не знайдено ключ для '{}'."
 
-#, fuzzy
 msgctxt "error:QKeychain:cannot-delete-entry"
 msgid "Cannot delete key for '{}'."
 msgstr "Не вдається видалити ключ для '{}'."
 
-#, fuzzy
 msgctxt "error:QKeychain:access-denied"
 msgid "Access to key-chain denied."
-msgstr "Доступ до брелока заборонено."
+msgstr "Доступ до зв'язки ключів заборонено."
 
-#, fuzzy
 msgctxt "error:QKeychain:no-keychain-available"
 msgid "No key-chain available."
-msgstr "Немає в наявності брелока."
+msgstr "Недоступна зв'язка ключів."
 
-#, fuzzy
 msgctxt "error:AudioDecoder_avcodec"
 msgid "Cannot play audio file ({})."
 msgstr "Не вдається відтворити аудіофайл ({})."
 
-#, fuzzy
 msgctxt "error:AudioWriter_M4A"
 msgid "Cannot write audio file ({})."
 msgstr "Неможливо записати аудіофайл ({})."
 
-#, fuzzy
 msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
 msgstr "Зовнішній каталог не підключено."
 
-#, fuzzy
 msgctxt "error:Android_NeedsStoragePermission"
 msgid "Access to directory '{}' needs the Storage permission."
 msgstr "Для доступу до каталогу '{}' потрібен дозвіл на зберігання."
 
-#, fuzzy
 msgctxt "error:Android_Import_SecurityException"
 msgid "Security exception when accessing URI '{}'."
 msgstr "Виняток безпеки під час доступу до URI '{}'."
 
-#, fuzzy
 msgctxt "error:Android_Import_IllegalStateException"
 msgid "Illegal state exception when accessing URI '{}'"
-msgstr "Незаконний виняток стану під час доступу до URI '{}'"
+msgstr "Недозволений виняток стану під час доступу до URI '{}'"
 
-#, fuzzy
 msgctxt "error:Android_InsertImageIntoGallery"
 msgid "Cannot insert image into gallery ({})."
 msgstr "Неможливо вставити зображення в галерею ({})."
 
-#, fuzzy
 msgctxt "error:Android_CopyImageDataIntoGallery"
 msgid "Cannot copy image data into gallery (url='{}')."
 msgstr "Неможливо скопіювати дані зображення в галерею (url='{}')."
 
-#, fuzzy
 msgctxt "error:Android_DeleteOldImageFromGallery"
 msgid "Cannot delete old image from gallery (url='{}')."
 msgstr "Неможливо видалити старе зображення з галереї (url='{}')."
 
-#, fuzzy
 msgctxt "unit:translated-name:meter"
 msgid "m"
 msgstr "м"
 
-#, fuzzy
 msgctxt "unit:translated-name:inch"
 msgid "inch"
 msgstr "дюйм"
 
-#, fuzzy
 msgctxt "unit:translated-name:foot"
 msgid "foot"
-msgstr "стопа"
+msgstr "фут"
 
-#, fuzzy
 msgctxt "unit:translated-name:yard"
 msgid "yard"
-msgstr "двор"
+msgstr "ярд"
 
-#, fuzzy
 msgctxt "unit:translated-name:mile"
 msgid "mile"
 msgstr "миля"
 
-#, fuzzy
 msgctxt "unit:translated-name:mil"
 msgid "mil"
-msgstr "міл"
+msgstr "мм"
 
-#, fuzzy
 msgctxt "unit:translated-name:meter2"
 msgid "m²"
 msgstr "м²"
 
-#, fuzzy
 msgctxt "unit:translated-name:inch2"
 msgid "sq inch"
 msgstr "кв. дюйм"
 
-#, fuzzy
 msgctxt "unit:translated-name:foot2"
 msgid "sq foot"
 msgstr "квадратний фут"
 
-#, fuzzy
 msgctxt "unit:translated-name:yard2"
 msgid "sq yard"
-msgstr "кв. двор"
+msgstr "кв. ярд"
 
-#, fuzzy
 msgctxt "unit:translated-name:mile2"
 msgid "sq mile"
 msgstr "квадратна миля"
 
-#, fuzzy
 msgctxt "unit:translated-name:acre"
 msgid "acre"
 msgstr "акр"
 
 msgctxt "unit:translated-name:are"
 msgid "are"
-msgstr ""
+msgstr "ар"
 
-#, fuzzy
 msgctxt "unit:translated-name:ha"
 msgid "hectare"
 msgstr "га"
 
-#, fuzzy
 msgctxt "unit:translated-name:mil2"
 msgid "square mil"
-msgstr "квадратних міл"
+msgstr "квадратних мм"
 
-#, fuzzy
 msgctxt "unit:translated-name:cmil"
 msgid "circular mil"
-msgstr "круговий міл"
+msgstr "довжина кола в мм"
 
-#, fuzzy
 msgctxt "unit:translated-name:degrees"
 msgid "degrees"
 msgstr "градуси"
 
-#, fuzzy
 msgctxt "unit:translated-name:slope-percent"
 msgid "slope %"
 msgstr "нахил %"
 
-#, fuzzy
 msgctxt "unit:translated-name:radian"
 msgid "radians"
 msgstr "радіани"
 
-#, fuzzy
 msgctxt "unit:translated-name:gradians"
 msgid "gradians"
 msgstr "градіни"
 
-#, fuzzy
 msgctxt "unit:translated-name:degrees(uppercase)"
 msgid "Degrees"
 msgstr "Градуси"
 
-#, fuzzy
 msgctxt "unit:translated-name:slope-percent(uppercase)"
 msgid "Slope %"
 msgstr "Нахил %"
 
-#, fuzzy
 msgctxt "unit:translated-name:radian(uppercase)"
 msgid "Radians"
-msgstr "радіани"
+msgstr "Радіани"
 
-#, fuzzy
 msgctxt "unit:translated-name:gradians(uppercase)"
 msgid "Gradians"
 msgstr "Градіани"
 
-#, fuzzy
 msgctxt "dimtemplate:length:decimal-metric"
 msgid "Metric (1.00 m)"
 msgstr "Метрична (1,00 м)"
 
-#, fuzzy
 msgctxt "dimtemplate:length:decimal-imperial"
 msgid "Imperial (1.00 ft)"
 msgstr "Імперський (1,00 фута)"
 
-#, fuzzy
 msgctxt "dimtemplate:length:imperial-interleaved"
 msgid "Imperial (1' 10 1/32\")"
 msgstr "Імперський (1' 10 1/32\")"
 
-#, fuzzy
 msgctxt "dimtemplate:length:imperial-fractional-inches"
 msgid "Inches with fractions (1 1/8\")"
 msgstr "Дюйми з дробами (1 1/8\")"
 
-#, fuzzy
 msgctxt "dimtemplate:area:decimal-metric"
 msgid "Metric"
 msgstr "Метрична"
 
-#, fuzzy
 msgctxt "dimtemplate:area:decimal-imperial"
 msgid "Imperial"
 msgstr "Імператорський"
 
-#, fuzzy
 msgctxt "labeltype:any"
 msgid "Any"
 msgstr "Будь-який"
 
-#, fuzzy
 msgctxt "labeltype:length"
 msgid "Length"
 msgstr "Довжина"
 
-#, fuzzy
 msgctxt "labeltype:area"
 msgid "Area"
 msgstr "Площа"
 
-#, fuzzy
 msgctxt "labeltype:angle"
 msgid "Angle"
 msgstr "Кут"
 
-#, fuzzy
 msgctxt "labeltype:edge"
 msgid "Edge length"
 msgstr "Довжина краю"
 
-#, fuzzy
 msgctxt "labeltype:perimeter"
 msgid "Perimeter"
 msgstr "Периметр"
 
-#, fuzzy
 msgctxt "labeltype:diameter"
 msgid "Diameter"
 msgstr "Діаметр"
 
-#, fuzzy
 msgctxt "labeltype:radius"
 msgid "Radius"
 msgstr "Радіус"
 
-#, fuzzy
 msgctxt "labeltype:width"
 msgid "Width"
 msgstr "Ширина"
 
-#, fuzzy
 msgctxt "labeltype:height"
 msgid "Height"
 msgstr "Висота"
 
-#, fuzzy
 msgctxt "labeltype:rectangle-side(rectangle)"
 msgid "Rectangle"
-msgstr "прямокутник"
+msgstr "Прямокутник"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:min-imperial-fraction:title"
 msgid "Smallest fraction"
-msgstr "Найменша частка"
+msgstr "Дробове значення дюйма"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:min-imperial-fraction:title:long"
 msgid "Smallest fraction of an inch"
-msgstr "Найменша частка дюйма"
+msgstr "Дробове значення дюйма"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:min-imperial-fraction:no-fraction"
 msgid "No fractions"
 msgstr "Без дробів"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:min-imperial-fraction:n"
 msgid "Fractions down to 1/{}"
 msgstr "Дроби зменшені до 1/{}"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:imperial-uses-text-units:title"
 msgid "Textual imperial units"
 msgstr "Текстові імперські одиниці"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:imperial-uses-text-units:no"
 msgid "Show as '/\""
-msgstr "Показати як '/\""
+msgstr "Англ. одиниці вимірювання будуть виглядати як '/\""
 
-#, fuzzy
 msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
-msgstr "Показати як фути/дюйми"
+msgstr "Англ. одиниці вимірювання будуть виглядати як фути/дюйми"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
 msgid "Add dot after ambiguous numbers"
 msgstr "Додайте крапку після неоднозначних чисел"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
 msgid "When enabled, a dot is placed after numbers that are ambiguous when read upside down, like this: 66."
 msgstr "Якщо ввімкнено, після неоднозначних чисел ставиться крапка, наприклад: 66."
 
-#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
 msgid "Ambiguous numbers"
 msgstr "Неоднозначні цифри"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:no"
 msgid "Keep"
 msgstr "Зберігайте"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
 msgstr "За потреби додайте крапку"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:show-units:title:tooltip"
 msgid "When disabled, measures are shown without the unit. I.e. just the plain number '23' instead of '23 cm'."
-msgstr "Якщо вимкнено, показники відображаються без пристрою. тобто просто звичайна цифра \"23\" замість \"23 см\"."
+msgstr "Якщо вимкнено, показники відображаються без одиниць виміру. тобто просто звичайна цифра \"23\" замість \"23 см\"."
 
-#, fuzzy
 msgctxt "dimformat:options-ui:show-units:title"
 msgid "Show units"
-msgstr "Показати одиниці"
+msgstr "Показати одиниці виміру"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:show-units:no"
 msgid "Show only the value, omit the unit"
-msgstr "Показати лише значення, опустити одиницю"
+msgstr "Показати лише значення, опустити одиницю виміру"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:show-units:yes"
 msgid "Yes, show value and unit"
-msgstr "Так, покажіть значення та одиницю"
+msgstr "Так, показати значення та одиницю виміру"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:reduce-fractions:title"
 msgid "Reduce fractions"
-msgstr "Зменшити дроби"
+msgstr "Скоротити дроби"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:reduce-fractions:no"
 msgid "Keep (4/8 stays 4/8)"
 msgstr "Зберігати (4/8 залишається 4/8)"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
-msgstr "Зменшити (4/8 стає 1/2)"
+msgstr "Соротити (4/8 стає 1/2)"
 
-#, fuzzy
 msgctxt "dimformat:options-ui:decimal-digits(short)"
 msgid "Decimal digits"
-msgstr "Десяткові цифри"
+msgstr "Десяткові значення"
 
 msgctxt "month-names-short-1"
 msgid "Jan"
@@ -1218,505 +997,406 @@ msgctxt "month-names-long-12"
 msgid "December"
 msgstr "Грудень"
 
-#, fuzzy
 msgctxt "eight-directions:top-left"
 msgid "Top left"
-msgstr "Зліва вгорі"
+msgstr "Ліворуч вгорі"
 
-#, fuzzy
 msgctxt "eight-directions:top"
 msgid "Top"
-msgstr "Топ"
+msgstr "Вгорі"
 
-#, fuzzy
 msgctxt "eight-directions:top-right"
 msgid "Top right"
-msgstr "Верхній правий"
+msgstr "Праворуч вгорі"
 
-#, fuzzy
 msgctxt "eight-directions:right"
 msgid "Right"
-msgstr "Правильно"
+msgstr "Праворуч"
 
-#, fuzzy
 msgctxt "eight-directions:bottom-right"
 msgid "Bottom right"
-msgstr "Внизу справа"
+msgstr "Знизу праворуч"
 
-#, fuzzy
 msgctxt "eight-directions:bottom"
 msgid "Bottom"
-msgstr "Нижня частина"
+msgstr "Знизу"
 
-#, fuzzy
 msgctxt "eight-directions:bottom-left"
 msgid "Bottom left"
-msgstr "Унизу зліва"
+msgstr "Знизу ліворуч"
 
-#, fuzzy
 msgctxt "eight-directions:left"
 msgid "Left"
 msgstr "Ліворуч"
 
-#, fuzzy
 msgctxt "text-h-alignment:left"
 msgid "Left"
 msgstr "Ліворуч"
 
-#, fuzzy
 msgctxt "text-h-alignment:center"
 msgid "Center"
 msgstr "Центр"
 
-#, fuzzy
 msgctxt "text-h-alignment:right"
 msgid "Right"
-msgstr "Правильно"
+msgstr "Праворуч"
 
-#, fuzzy
 msgctxt "text-h-alignment:block"
 msgid "Block"
 msgstr "Блокувати"
 
-#, fuzzy
 msgctxt "character:comma"
 msgid "Comma"
 msgstr "Кома"
 
-#, fuzzy
 msgctxt "character:semicolon"
 msgid "Semicolon"
 msgstr "Крапка з комою"
 
-#, fuzzy
 msgctxt "character:colon"
 msgid "Colon"
-msgstr "Товста кишка"
+msgstr "Двокрапка"
 
-#, fuzzy
 msgctxt "character:dot"
 msgid "Dot"
 msgstr "Крапка"
 
-#, fuzzy
 msgctxt "sorting:by-name:ascending"
 msgid "by name, ascending"
-msgstr "за назвою, висхідний"
+msgstr "за назвою, за зростанням"
 
-#, fuzzy
 msgctxt "sorting:by-name:descending"
 msgid "by name, descending"
-msgstr "за назвою, спад"
+msgstr "за назвою, за спаданням"
 
-#, fuzzy
 msgctxt "sorting:by-creation-date:ascending"
 msgid "by creation date, ascending"
 msgstr "за датою створення, за зростанням"
 
-#, fuzzy
 msgctxt "sorting:by-creation-date:descending"
 msgid "by creation date, descending"
-msgstr "за датою створення, спадання"
+msgstr "за датою створення, за спаданням"
 
-#, fuzzy
 msgctxt "sorting:by-modification-date:ascending"
 msgid "by modification date, ascending"
-msgstr "за датою зміни, зростаючий"
+msgstr "за датою зміни, за зростанням"
 
-#, fuzzy
 msgctxt "sorting:by-modification-date:descending"
 msgid "by modification date, descending"
-msgstr "за датою зміни, спадання"
+msgstr "за датою зміни, за спаданням"
 
-#, fuzzy
 msgctxt "sorting:by-number:ascending"
 msgid "by number, ascending"
-msgstr "за номером, зростаючий"
+msgstr "за номером, за зростанням"
 
-#, fuzzy
 msgctxt "sorting:by-number:descending"
 msgid "by number, descending"
-msgstr "за номером, за спаданням"
+msgstr "за номером, спадаючий"
 
-#, fuzzy
 msgctxt "AudioDecoder_avcodec:no-audio-stream-found"
 msgid "No audio stream in file."
 msgstr "У файлі немає аудіопотоку."
 
-#, fuzzy
 msgctxt "AudioDecoder_avcodec:unsupported-audio-codec"
 msgid "Unsupported audio codec."
 msgstr "Непідтримуваний аудіокодек."
 
-#, fuzzy
 msgctxt "ui:list:add-entry"
 msgid "Add"
 msgstr "Додати"
 
-#, fuzzy
 msgctxt "ui:list:remove-entry"
 msgid "Remove"
 msgstr "Видалити"
 
-#, fuzzy
 msgctxt "ui:list:move-entry-up"
 msgid "Up"
 msgstr "Вгору"
 
-#, fuzzy
 msgctxt "ui:list:move-entry-down"
 msgid "Down"
 msgstr "Вниз"
 
-#, fuzzy
 msgctxt "ui:button:info"
 msgid "Info"
 msgstr "Інформація"
 
-#, fuzzy
 msgctxt "filename-copy-tag"
 msgid "copy"
 msgstr "копія"
 
-#, fuzzy
 msgctxt "entities:cannot_delete_image:in_use"
 msgid "Cannot delete image '{0}' because it is in use by '{1}'."
 msgstr "Неможливо видалити зображення \"{0}\", оскільки воно використовується \"{1}\"."
 
-#, fuzzy
 msgctxt "entities:cannot_delete_folder:in_use"
 msgid "Cannot delete folder '{0}' because it is in use by '{1}'."
 msgstr "Неможливо видалити папку \"{0}\", оскільки її використовує \"{1}\"."
 
-#, fuzzy
 msgctxt "entities:cannot_move_folder:into_itself"
 msgid "Cannot move folder '{}' into itself."
 msgstr "Неможливо перемістити папку \"{}\" в себе."
 
-#, fuzzy
 msgctxt "entities:cannot_rename_image:in_use"
 msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
 msgstr "Неможливо перейменувати зображення \"{0}\", оскільки воно наразі використовується \"{1}\"."
 
-#, fuzzy
 msgctxt "image-library:breadcrumbs:root-folder"
 msgid "Root"
 msgstr "Корінь"
 
-#, fuzzy
 msgctxt "image-library:company-policy:may-not-add-folder-here"
 msgid "Your company policy does not allow to add a new folder at this place."
 msgstr "Політика вашої компанії не дозволяє додавати нову папку в це місце."
 
-#, fuzzy
 msgctxt "image-library:company-policy:may-not-add-image-here"
 msgid "Your company policy does not allow to add a new image at this place."
 msgstr "Політика вашої компанії не дозволяє додавати нове зображення на цьому місці."
 
-#, fuzzy
 msgctxt "image-library:company-policy:may-not-delete-here"
 msgid "Your company policy does not allow to delete items at this place."
 msgstr "Політика вашої компанії не дозволяє видаляти елементи з цього місця."
 
-#, fuzzy
 msgctxt "imagebundle-settings:dialog-title"
 msgid "Image settings"
 msgstr "Налаштування зображення"
 
-#, fuzzy
 msgctxt "imagebundle-settings:image-title"
 msgid "Image name"
 msgstr "Назва зображення"
 
-#, fuzzy
 msgctxt "imagebundle-settings:image-number"
 msgid "Number"
 msgstr "Номер"
 
-#, fuzzy
 msgctxt "imagebundle-settings:template"
 msgid "Data scheme"
 msgstr "Схема даних"
 
-#, fuzzy
 msgctxt "imagebundle-settings:image-notes"
 msgid "Image notes"
 msgstr "Нотатки до зображень"
 
-#, fuzzy
 msgctxt "template-selection-mixin:copy-local-template-to-prefs"
 msgid "Copy template to preferences"
 msgstr "Скопіюйте шаблон у налаштування"
 
-#, fuzzy
 msgctxt "folder-settings:dialog-title"
 msgid "Folder settings"
 msgstr "Налаштування папки"
 
-#, fuzzy
 msgctxt "folder-settings:folder-title"
 msgid "Folder name"
 msgstr "Назва папки"
 
-#, fuzzy
 msgctxt "folder-settings:template"
 msgid "Data scheme"
 msgstr "Схема даних"
 
-#, fuzzy
 msgctxt "folder-settings:folder-color"
 msgid "Folder color"
 msgstr "Колір папки"
 
-#, fuzzy
 msgctxt "folder-settings:folder-notes"
 msgid "Folder notes"
 msgstr "Примітки до папки"
 
-#, fuzzy
 msgctxt "access-control:users-with-access:list-title"
 msgid "Users with access"
 msgstr "Користувачі з доступом"
 
-#, fuzzy
 msgctxt "access-control:admin:full-name"
 msgid "Administrator"
 msgstr "Адміністратор"
 
-#, fuzzy
 msgctxt "access-control:nobody:full-name"
 msgid "No user"
 msgstr "Немає користувача"
 
-#, fuzzy
 msgctxt "access-control:anybody:full-name"
 msgid "Anybody"
 msgstr "Будь-хто"
 
-#, fuzzy
 msgctxt "image-numbering:start-number"
 msgid "Start"
-msgstr "Почніть"
+msgstr "Починайте"
 
-#, fuzzy
 msgctxt "image-numbering:increment"
 msgid "Increment"
-msgstr "Приріст"
+msgstr "Інкремент"
 
-#, fuzzy
 msgctxt "image-numbering:section:renumber-existing-images"
 msgid "Renumber existing images"
 msgstr "Перенумеруйте наявні зображення"
 
-#, fuzzy
 msgctxt "image-numbering:keep-old-numbering-order"
 msgid "Keep old numbering order"
-msgstr "Зберігайте старий порядок нумерації"
+msgstr "Зберегти старий порядок нумерації"
 
-#, fuzzy
 msgctxt "import:open-image:without-import:file-dialog:title"
 msgid "Open image"
 msgstr "Відкрити зображення"
 
-#, fuzzy
 msgctxt "import:import-image:file-dialog:title"
 msgid "Import image to library"
 msgstr "Імпортувати зображення в бібліотеку"
 
-#, fuzzy
 msgctxt "import:import-to-library:image-already-exists:make-copy-question"
 msgid "Image is already in the library. Do you want to make a copy?"
 msgstr "Зображення вже є в бібліотеці. Ви хочете зробити копію?"
 
-#, fuzzy
 msgctxt "rendering:watermark"
 msgid ""
 "Evaluation copy\n"
 "Please upgrade to remove watermark"
 msgstr ""
-"Копія оцінки\n"
-"Оновіть, щоб видалити водяний знак"
+"Пробна версія\n"
+"Будь ласка, оновіть, щоб видалити водяний знак"
 
-#, fuzzy
 msgctxt "export:resolution-too-small"
 msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
 msgstr "Вихідна роздільна здатність занадто мала. Мінімум – {0}x{1} пікселів."
 
-#, fuzzy
 msgctxt "export:image-not-saved:dialog-title"
 msgid "Images with unsaved changes"
 msgstr "Зображення із незбереженими змінами"
 
-#, fuzzy
 msgctxt "export:image-not-saved:exporting-images-with-unsaved-changes:description"
 msgid "You are trying to export images that are still opened with unsaved changes."
 msgstr "Ви намагаєтеся експортувати зображення, які все ще відкриті з незбереженими змінами."
 
-#, fuzzy
 msgctxt "export:image-not-saved:exporting-images-with-unsaved-changes:question"
 msgid "Do you want to save them before exporting?"
 msgstr "Зберегти їх перед експортом?"
 
-#, fuzzy
 msgctxt "export:overwrite-plain-image:dialog-title"
 msgid "Destructive overwrite"
 msgstr "Деструктивне перезапис"
 
-#, fuzzy
 msgctxt "export:overwrite-plain-image:message"
 msgid ""
 "If you overwrite the original image file '{}' with your annotations, you cannot change it later. The original image will be lost.\n"
 "It is recommended to save to a different file or save as an IMI file that can still be edited lated."
 msgstr ""
-"Якщо ви перезапишете вихідний файл зображення '{}' своїми анотаціями, ви не зможете змінити його пізніше. Оригінальне зображення буде втрачено.\n"
-"Рекомендується зберегти в іншому файлі або зберегти як файл IMI, який все ще можна редагувати в пізній час."
+"Якщо ви перезапишете вихідний файл зображення '{}' зі своїми анотаціями, ви не зможете змінити його пізніше. Оригінальне зображення буде втрачено.\n"
+"Рекомендується зберегти в іншому файлі або зберегти як файл IMI, який все ще можна редагувати пізніше."
 
-#, fuzzy
 msgctxt "export:overwrite-plain-image:button:save-as-image"
 msgid "&Save as image..."
 msgstr "&Зберегти як зображення..."
 
-#, fuzzy
 msgctxt "export:overwrite-plain-image:button:save-as-imi"
 msgid "Save as &IMI..."
 msgstr "Зберегти як &IMI..."
 
-#, fuzzy
 msgctxt "export:multiple-images:target-directory:dialog-title"
 msgid "Output images to directory"
 msgstr "Вивести зображення в каталог"
 
-#, fuzzy
 msgctxt "export:image:invalid-filename-suffix"
 msgid "You specified an invalid file suffix (please use one of the supported formats)"
-msgstr "Ви вказали недійсний суфікс файлу (використовуйте один із підтримуваних форматів)"
+msgstr "Ви вказали недійсний формат файлу (використовуйте один із підтримуваних форматів)"
 
-#, fuzzy
 msgctxt "export:specific-format:invalid-filename-suffix"
 msgid "You cannot change the file type (must have {} suffix)"
-msgstr "Ви не можете змінити тип файлу (повинен мати суфікс {})"
+msgstr "Ви не можете змінити тип файлу (повинен мати формат {})"
 
-#, fuzzy
 msgctxt "image-export:size:group-title"
 msgid "Image size"
 msgstr "Розмір зображення"
 
-#, fuzzy
 msgctxt "image-export:size:suggested-size"
 msgid "Suggested size"
 msgstr "Рекомендований розмір"
 
-#, fuzzy
 msgctxt "image-export:size:original-size"
 msgid "Original image size"
 msgstr "Оригінальний розмір зображення"
 
-#, fuzzy
 msgctxt "image-export:size:custom-size"
 msgid "Custom size"
 msgstr "Індивідуальний розмір"
 
-#, fuzzy
 msgctxt "image-export:format:group-title"
 msgid "Image format"
 msgstr "Формат зображення"
 
-#, fuzzy
 msgctxt "image-export:format:file-format"
 msgid "File format"
 msgstr "Формат файлу"
 
-#, fuzzy
 msgctxt "image-export:format:jpeg-quality"
 msgid "Image quality"
 msgstr "Якість зображення"
 
-#, fuzzy
 msgctxt "image-export:overlays:group-title"
 msgid "Overlays"
-msgstr "Накладки"
+msgstr "Накладання"
 
-#, fuzzy
 msgctxt "image-export:overlays:show-text"
 msgid "Show text overlay"
 msgstr "Показати накладання тексту"
 
-#, fuzzy
 msgctxt "image-export:overlays:text"
 msgid "Text"
 msgstr "Текст"
 
-#, fuzzy
 msgctxt "image-export:filename-expression"
 msgid "{image.title}"
 msgstr "{image.title}"
 
-#, fuzzy
 msgctxt "image-export:use-default-options"
 msgid "Use default export options"
 msgstr "Використовуйте параметри експорту за замовчуванням"
 
-#, fuzzy
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
 msgstr "Зміст"
 
-#, fuzzy
 msgctxt "pdf-export:root-folder-title"
 msgid "ImageMeter export"
 msgstr "Експорт ImageMeter"
 
-#, fuzzy
 msgctxt "export:pdf:dialog-title"
 msgid "PDF export options"
 msgstr "Параметри експорту PDF"
 
-#, fuzzy
 msgctxt "export:pdf:section:paper"
 msgid "Paper"
-msgstr "папір"
+msgstr "Папір"
 
-#, fuzzy
 msgctxt "export:pdf:section:layout"
 msgid "Layout"
 msgstr "Макет"
 
-#, fuzzy
 msgctxt "export:pdf:section:metadata"
 msgid "Metadata"
 msgstr "Метадані"
 
-#, fuzzy
 msgctxt "export:pdf:paper-orientation(pdf)"
 msgid "PDF page orientation"
 msgstr "Орієнтація сторінки PDF"
 
-#, fuzzy
 msgctxt "export:pdf:paper-orientation"
 msgid "Paper orientation"
 msgstr "Орієнтація паперу"
 
-#, fuzzy
 msgctxt "export:pdf:paper-orientation:portrait"
 msgid "Portrait"
 msgstr "Портрет"
 
-#, fuzzy
 msgctxt "export:pdf:paper-orientation:landscape"
 msgid "Landscape"
 msgstr "Пейзаж"
 
-#, fuzzy
 msgctxt "export:pdf:paper-orientation:automatic"
 msgid "Automatic"
 msgstr "Автоматичний"
 
-#, fuzzy
 msgctxt "export:pdf:paper-size(pdf)"
 msgid "PDF page size"
 msgstr "Розмір сторінки PDF"
 
-#, fuzzy
 msgctxt "export:pdf:paper-size"
 msgid "Paper size"
 msgstr "Розмір паперу"
@@ -1731,1541 +1411,1236 @@ msgstr "A3"
 
 msgctxt "export:pdf:paper-size:letter"
 msgid "Letter"
-msgstr ""
+msgstr "Лист США"
 
 msgctxt "export:pdf:paper-size:legal"
 msgid "Legal"
-msgstr ""
+msgstr "Документ США"
 
-#, fuzzy
 msgctxt "export:pdf:may-rotate-images"
 msgid "Images may be rotated"
 msgstr "Зображення можна повертати"
 
-#, fuzzy
 msgctxt "export:pdf:may-rotate-images(pdf)"
 msgid "Images in PDF may be rotated"
 msgstr "Зображення в PDF-файлі можна повертати"
 
-#, fuzzy
 msgctxt "export:pdf:may-rotate-images:description:on"
 msgid "Will rotate images if format fits better"
-msgstr "Обертатиме зображення, якщо формат підходить краще"
+msgstr "Розворот зображення для компактного розміщення"
 
-#, fuzzy
 msgctxt "export:pdf:may-rotate-images:description:off"
 msgid "Images will never be rotated"
 msgstr "Зображення ніколи не повертатимуться"
 
-#, fuzzy
 msgctxt "export:pdf:images-per-page"
 msgid "Images per page"
 msgstr "Зображення на сторінку"
 
-#, fuzzy
 msgctxt "export:pdf:images-per-page(pdf)"
 msgid "Images per PDF page"
 msgstr "Зображення на сторінку PDF"
 
-#, fuzzy
 msgctxt "export:pdf:images-per-page(pdf,long)"
 msgid "Print how many images on each PDF page"
-msgstr "Роздрукуйте, скільки зображень на кожній сторінці PDF"
+msgstr "Кількість зображень на сторінці PDF під час друку"
 
-#, fuzzy
 msgctxt "export:pdf:print-image-notes"
 msgid "Print image notes"
 msgstr "Роздрукувати примітки до зображень"
 
-#, fuzzy
 msgctxt "export:pdf:image-notes-space"
 msgid "Space reserved for image notes"
-msgstr "Місце для приміток до зображень"
+msgstr "Ліміт розміру анотацій до зображень"
 
-#, fuzzy
 msgctxt "export:pdf:image-notes-space(short)"
 msgid "Space for image notes"
-msgstr "Місце для приміток до зображень"
+msgstr "Розмір анотацій до зображень"
 
-#, fuzzy
 msgctxt "export:pdf:image-notes-space:do-not-print-notes"
 msgid "Do not print image notes"
-msgstr "Не друкуйте нотатки до зображень"
+msgstr "Не друкувати нотатки до зображень"
 
-#, fuzzy
 msgctxt "export:pdf:image-notes-space:reserve-X-space"
 msgid "Reserve {0}% space"
 msgstr "Зарезервуйте {0}% місця"
 
-#, fuzzy
 msgctxt "export:pdf:print-folder-notes"
 msgid "Print folder notes"
 msgstr "Роздрукувати нотатки з папки"
 
-#, fuzzy
 msgctxt "export:pdf:print-folder-notes:description:on"
 msgid "Page with folder notes and TOC will be printed"
 msgstr "Буде надруковано сторінку з примітками до папки та описом"
 
-#, fuzzy
 msgctxt "export:pdf:print-folder-notes:description:off"
 msgid "No folder notes will be printed"
 msgstr "Примітки до папки не друкуватимуться"
 
-#, fuzzy
 msgctxt "export:pdf:print-table-of-content"
 msgid "Print table of content"
 msgstr "Роздрукувати зміст"
 
-#, fuzzy
 msgctxt "export:pdf:image-title"
 msgid "Image title"
 msgstr "Назва зображення"
 
-#, fuzzy
 msgctxt "export:pdf:section:data-table"
 msgid "Data Table"
 msgstr "Таблиця даних"
 
-#, fuzzy
 msgctxt "export:pdf:table-layout"
 msgid "Table layout"
 msgstr "Макет столу"
 
-#, fuzzy
 msgctxt "export:pdf:table-layout:vertical-column-titles"
 msgid "Vertical column titles"
 msgstr "Вертикальні заголовки стовпців"
 
-#, fuzzy
 msgctxt "export:pdf:print-density"
 msgid "Resolution"
 msgstr "Резолюція"
 
-#, fuzzy
 msgctxt "export:pdf:print-density:default"
 msgid "Default"
 msgstr "За замовчуванням"
 
-#, fuzzy
 msgctxt "export:csv:field-separator"
 msgid "Field separator character"
 msgstr "Символ роздільника полів"
 
-#, fuzzy
 msgctxt "export:csv:cell-values-separator"
 msgid "Cell values separator"
 msgstr "Роздільник значень клітинок"
 
-#, fuzzy
 msgctxt "export:csv:decimal-separator"
 msgid "Decimal separator"
 msgstr "Десятковий роздільник"
 
-#, fuzzy
 msgctxt "export:csv:include-table-header-row"
 msgid "Include header row"
 msgstr "Включити рядок заголовка"
 
-#, fuzzy
 msgctxt "export:csv:include-table-footer-row"
 msgid "Include footer row"
 msgstr "Включити рядок нижнього колонтитула"
 
-#, fuzzy
 msgctxt "export:csv:error:cannot-export-csv"
 msgid "Cannot export CSV file"
 msgstr "Не вдається експортувати файл CSV"
 
-#, fuzzy
 msgctxt "export:csv:error:cannot-export-xlsx"
 msgid "Cannot export XLSX file"
 msgstr "Не вдається експортувати файл XLSX"
 
-#, fuzzy
 msgctxt "export:csv:entities-have-no-common-template"
 msgid "There are no common templates defined."
 msgstr "Немає визначених загальних шаблонів."
 
-#, fuzzy
 msgctxt "export:csv:entities-have-no-common-template:details"
 msgid "You need to assign a template to each image and folder that you export. You have to use the same template for each image and folder."
 msgstr "Вам потрібно призначити шаблон кожному зображенню та папці, які ви експортуєте. Ви повинні використовувати один і той же шаблон для кожного зображення та папки."
 
-#, fuzzy
 msgctxt "export:tablespec-to-export:dialog-title"
 msgid "Choose data table to export"
 msgstr "Виберіть таблицю даних для експорту"
 
-#, fuzzy
 msgctxt "print:options:dialog-title"
 msgid "Print options"
 msgstr "Параметри друку"
 
-#, fuzzy
 msgctxt "zip-export:include-annotated-images"
 msgid "Include annotated images"
 msgstr "Додайте анотовані зображення"
 
-#, fuzzy
 msgctxt "zip-export:include-original-images"
 msgid "Include original images"
 msgstr "Додайте оригінальні зображення"
 
-#, fuzzy
 msgctxt "zip-export:include-detail-images"
 msgid "Include detail images"
 msgstr "Додайте детальні зображення"
 
-#, fuzzy
 msgctxt "zip-export:include-audio-notes"
 msgid "Include audio notes"
 msgstr "Включіть звукові нотатки"
 
-#, fuzzy
 msgctxt "zip-export:include-pdf-file"
 msgid "Include PDF file"
 msgstr "Включити файл PDF"
 
-#, fuzzy
 msgctxt "about-image:unknown-gps"
 msgid "no GPS coordinates"
 msgstr "немає координат GPS"
 
-#, fuzzy
 msgctxt "about-image:dialog-title"
 msgid "Image Information"
 msgstr "Інформація про зображення"
 
-#, fuzzy
 msgctxt "about-image:image-name"
 msgid "Image Name"
 msgstr "Назва зображення"
 
-#, fuzzy
 msgctxt "about-image:capture-date"
 msgid "Capture Date"
 msgstr "Дата зйомки"
 
-#, fuzzy
 msgctxt "about-image:creation-date"
 msgid "Creation Date"
 msgstr "Дата створення"
 
-#, fuzzy
 msgctxt "about-image:original-image-resolution"
 msgid "Original Image Resolution"
 msgstr "Оригінальна роздільна здатність зображення"
 
-#, fuzzy
 msgctxt "about-image:gps-coordinates"
 msgid "GPS Coordinates"
 msgstr "GPS координати"
 
-#, fuzzy
 msgctxt "about-image:gps:show-on-map"
 msgid "Show on map"
 msgstr "Показати на карті"
 
-#, fuzzy
 msgctxt "editor:attach:error_no_reference_to_attach_to"
 msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
-msgstr "На зображенні немає посилання! Щоб виконувати автоматичні обчислення, потрібно намалювати посилання."
+msgstr "На зображенні немає посилання! Щоб виконати автоматичні обчислення, потрібно надати посилання."
 
-#, fuzzy
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
 msgstr "Немає жодної міри, яку можна було б обчислити."
 
-#, fuzzy
 msgctxt "editor:attach:info_element_has_been_attached_to_single_reference"
 msgid "Measure is computed based on the reference you provided."
 msgstr "Міра обчислюється на основі наданого вами посилання."
 
-#, fuzzy
 msgctxt "editor:attach:hint_howto_attach_to_reference"
 msgid "Click on the measure you want to compute based on the selected reference."
-msgstr "Клацніть на міру, яку потрібно обчислити на основі вибраного довідника."
+msgstr "Виберіть міру, яку потрібно обчислити на основі вибраного довідника."
 
-#, fuzzy
 msgctxt "editor:attach:hint_howto_attach_measure"
 msgid "Click on the reference based on which you want to calculate the selected measure."
 msgstr "Натисніть на довідник, на основі якого потрібно розрахувати вибрану міру."
 
-#, fuzzy
 msgctxt "editor:attach:messagebox:title"
 msgid "Compute Measure"
 msgstr "Обчислити міру"
 
 msgctxt "editor:rectref:standard-size:legal"
 msgid "Legal"
-msgstr ""
+msgstr "Документ (США)"
 
 msgctxt "editor:rectref:standard-size:letter"
 msgid "Letter"
-msgstr ""
+msgstr "Лист США"
 
-#, fuzzy
 msgctxt "editor:rectref:standard-size:credit-card"
 msgid "Credit card"
 msgstr "Кредитна картка"
 
-#, fuzzy
 msgctxt "editor:text:undefined-text-placeholder"
 msgid "click to enter text"
-msgstr "клацніть, щоб ввести текст"
+msgstr "натисніть, щоб ввести текст"
 
-#, fuzzy
 msgctxt "editor:image-modified-dialog:title"
 msgid "Image has been modified"
 msgstr "Зображення було змінено"
 
-#, fuzzy
 msgctxt "editor:image-modified-dialog:text"
 msgid "Image has been modified. Do you want to save it?"
 msgstr "Зображення було змінено. Ви хочете його зберегти?"
 
-#, fuzzy
 msgctxt "editor:loaded-image-has-more-recent-version:title"
 msgid "Trying to load unsupported file format"
 msgstr "Спроба завантажити непідтримуваний формат файлу"
 
-#, fuzzy
 msgctxt "editor:loaded-image-has-more-recent-version:warning"
 msgid "This image has been saved with a more recent version. You need at least version {} to load this image correctly. You can still try to open this file, but some parts of it might be missing."
 msgstr "Це зображення було збережено в новішій версії. Щоб правильно завантажити це зображення, потрібна принаймні версія {}. Ви все ще можете спробувати відкрити цей файл, але деякі його частини можуть бути відсутніми."
 
-#, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:title"
 msgid "Overwrite with incompletely loaded image"
-msgstr "Перезапис неповністю завантаженим зображенням"
+msgstr "Перезапис неповністю завантаженого зображення"
 
-#, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:warning"
 msgid "This image has only been loaded partially because it was written with a more recent software version. If you save this image now, parts of the information in the original file gets lost."
 msgstr "Це зображення було завантажено лише частково, оскільки воно було написано з новішою версією програмного забезпечення. Якщо ви збережете це зображення зараз, частина інформації в оригінальному файлі буде втрачена."
 
-#, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:question"
 msgid "Do you still want to overwrite the file?"
 msgstr "Ви все ще хочете перезаписати файл?"
 
-#, fuzzy
 msgctxt "editor:styling:line-caps"
 msgid "Line style"
 msgstr "Стиль лінії"
 
-#, fuzzy
 msgctxt "editor:styling:line-caps-size"
 msgid "Line cap size"
-msgstr "Розмір кришки лінії"
+msgstr "Розмір вказівників"
 
-#, fuzzy
 msgctxt "editor:styling:line-width"
 msgid "Line width"
 msgstr "Ширина лінії"
 
-#, fuzzy
 msgctxt "editor:styling:line-pattern"
 msgid "Line pattern"
-msgstr "Лінійний візерунок"
+msgstr "Тип ліній"
 
-#, fuzzy
 msgctxt "editor:styling:font-size"
 msgid "Font size"
 msgstr "Розмір шрифту"
 
-#, fuzzy
 msgctxt "editor:styling:fill-color"
 msgid "Fill color"
 msgstr "Колір заливки"
 
-#, fuzzy
 msgctxt "editor:styling:text-color"
 msgid "Text color"
 msgstr "Колір тексту"
 
-#, fuzzy
 msgctxt "editor:styling:text-background-color"
 msgid "Background color"
 msgstr "Колір фону"
 
-#, fuzzy
 msgctxt "editor:styling:set-as-default"
 msgid "Set as default"
 msgstr "Встановити за замовчуванням"
 
-#, fuzzy
 msgctxt "editor:styling:label:apply-to"
 msgid "Apply to …"
 msgstr "Застосувати до …"
 
-#, fuzzy
 msgctxt "editor:styling:label:apply-to:both-sides"
 msgid "Both sides"
 msgstr "Обидві сторони"
 
-#, fuzzy
 msgctxt "editor:styling:label:apply-to:all-edges"
 msgid "All edges"
 msgstr "Всі краї"
 
-#, fuzzy
 msgctxt "editor:styling:label:apply-to:all-lengths"
 msgid "All lengths"
 msgstr "Усі довжини"
 
-#, fuzzy
 msgctxt "editor:styling:label:apply-to:all-angles"
 msgid "All angles"
 msgstr "Усі кути"
 
-#, fuzzy
 msgctxt "editor:styling:label:apply-to:all-radii"
 msgid "All radii"
 msgstr "Усі радіуси"
 
-#, fuzzy
 msgctxt "editor:styling:label:apply-to:whole-element"
 msgid "Whole element"
 msgstr "Цілий елемент"
 
-#, fuzzy
 msgctxt "editor:styling:label:apply-to:whole-image"
 msgid "Whole image"
 msgstr "Ціле зображення"
 
-#, fuzzy
 msgctxt "editor:styling:label:save-as-default:selection-title"
 msgid "Use style as default for …"
 msgstr "Використовувати стиль за замовчуванням для…"
 
-#, fuzzy
 msgctxt "editor:styling:label:save-as-default:only-this-label"
 msgid "Only this label"
-msgstr "Тільки ця етикетка"
+msgstr "Тільки цей ярлик"
 
-#, fuzzy
 msgctxt "editor:styling:label:save-as-default:this-drawing-tool"
 msgid "This drawing tool"
 msgstr "Цей інструмент для малювання"
 
-#, fuzzy
 msgctxt "editor:styling:label:save-as-default:all-drawing-tools"
 msgid "All drawing tools"
 msgstr "Всі інструменти для малювання"
 
-#, fuzzy
 msgctxt "editor:styling:measure:show-length"
 msgid "Show length"
 msgstr "Показати довжину"
 
-#, fuzzy
 msgctxt "editor:styling:label-display-mode"
 msgid "Text position"
 msgstr "Позиція тексту"
 
-#, fuzzy
 msgctxt "editor:styling:label-display-mode:above-line"
 msgid "Above line"
 msgstr "Над рядком"
 
-#, fuzzy
 msgctxt "editor:styling:label-display-mode:within-line"
 msgid "Within line"
 msgstr "В межах лінії"
 
-#, fuzzy
 msgctxt "editor:styling:label-display-mode:horizontal"
 msgid "Horizontal"
 msgstr "Горизонтальний"
 
-#, fuzzy
 msgctxt "editor:styling:angle:show-angle"
 msgid "Show angle"
 msgstr "Показати кут"
 
-#, fuzzy
 msgctxt "editor:styling:area:show-area-label"
 msgid "Show area"
-msgstr "Показати територію"
+msgstr "Показати площу"
 
-#, fuzzy
 msgctxt "editor:styling:area:show-perimeter-label"
 msgid "Show perimeter"
 msgstr "Показати периметр"
 
-#, fuzzy
 msgctxt "editor:styling:area:show-edge-labels"
 msgid "Show edge lengths"
 msgstr "Показати довжину країв"
 
-#, fuzzy
 msgctxt "editor:styling:area:show-edge-labels:none"
 msgid "None"
 msgstr "Жодного"
 
-#, fuzzy
 msgctxt "editor:styling:area:show-edge-labels:custom"
 msgid "Custom"
-msgstr "На замовлення"
+msgstr "Користувальницький"
 
-#, fuzzy
 msgctxt "editor:styling:area:show-edge-labels:all"
 msgid "All"
-msgstr "всі"
+msgstr "Всі"
 
-#, fuzzy
 msgctxt "editor:styling:area:edge-labels-font-size"
 msgid "Edges font size"
-msgstr "Розмір шрифту країв"
+msgstr "Розмір шрифту по краях"
 
-#, fuzzy
 msgctxt "editor:styling:area:area-label-font-size"
 msgid "Area font size"
-msgstr "Розмір шрифту області"
+msgstr "Розмір шрифту "
 
-#, fuzzy
 msgctxt "editor:styling:circle:show-radius-label"
 msgid "Show radius"
 msgstr "Показати радіус"
 
-#, fuzzy
 msgctxt "editor:styling:circle:show-diameter-label"
 msgid "Show diameter"
 msgstr "Показати діаметр"
 
-#, fuzzy
 msgctxt "editor:styling:circle:show-circumference-label"
 msgid "Show circumference"
 msgstr "Покажіть окружність"
 
-#, fuzzy
 msgctxt "editor:styling:circle:show-angle-label"
 msgid "Show angle"
 msgstr "Показати кут"
 
-#, fuzzy
 msgctxt "editor:styling:circle:show-area-label"
 msgid "Show area"
-msgstr "Показати територію"
+msgstr "Показати площу"
 
-#, fuzzy
 msgctxt "editor:styling:dimstring:show-intersection-marks"
 msgid "Show intersection marks"
 msgstr "Показати позначки перехрестя"
 
-#, fuzzy
 msgctxt "editor:styling:flatref:subdivisions"
 msgid "Subdivisions"
 msgstr "Підрозділи"
 
-#, fuzzy
 msgctxt "editor:styling:flatref:subdivisions:none"
 msgid "None"
 msgstr "Жодного"
 
-#, fuzzy
 msgctxt "editor:styling:flatref:display-labels"
 msgid "Display labels"
-msgstr "Відображення етикеток"
+msgstr "Вид розмітки"
 
-#, fuzzy
 msgctxt "editor:styling:flatref:display-labels:none"
 msgid "None"
 msgstr "Жодного"
 
-#, fuzzy
 msgctxt "editor:styling:flatref:display-labels:only-total-length"
 msgid "Only total length"
 msgstr "Тільки загальна довжина"
 
-#, fuzzy
 msgctxt "editor:styling:flatref:display-labels:all-labels"
 msgid "All labels"
-msgstr "Усі етикетки"
+msgstr "Усі мітки"
 
-#, fuzzy
 msgctxt "editor:styling:flatref:display-labels:every-second-label"
 msgid "Every second label"
-msgstr "Кожна друга етикетка"
+msgstr "Кожна друга мітка"
 
-#, fuzzy
 msgctxt "editor:styling:flatref:label-position"
 msgid "Label position"
-msgstr "Позиція етикетки"
+msgstr "Позиція мітки"
 
-#, fuzzy
 msgctxt "editor:styling:flatref:label-position:above"
 msgid "Above"
 msgstr "Вище"
 
-#, fuzzy
 msgctxt "editor:styling:flatref:label-position:below"
 msgid "Below"
 msgstr "Нижче"
 
-#, fuzzy
 msgctxt "editor:styling:flatref:label-position:alternating-last-above"
 msgid "Alternating, last one above"
 msgstr "Чергування, остання вище"
 
-#, fuzzy
 msgctxt "editor:styling:flatref:label-position:alternating-last-below"
 msgid "Alternating, last one below"
-msgstr "Черговий, останній нижче"
+msgstr "Черговий, остання нижче"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:show-label"
 msgid "Show text"
 msgstr "Показати текст"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:label-position"
 msgid "Label position"
-msgstr "Позиція етикетки"
+msgstr "Позиція мітки"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol"
 msgid "Marker"
 msgstr "Маркер"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:no-symbol"
 msgid "No symbol"
 msgstr "Немає символу"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:encircled-cross"
 msgid "Encircled cross"
-msgstr "Обведений хрест"
+msgstr "Приціл"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:upright-cross"
 msgid "Upright cross"
 msgstr "Вертикальний хрест"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:diagonal-cross"
 msgid "Diagonal cross"
 msgstr "Діагональний хрест"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:dot"
 msgid "Dot"
 msgstr "Крапка"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:elevation-top"
 msgid "Elevation top"
 msgstr "Верхня висота"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:elevation-bottom"
 msgid "Elevation bottom"
 msgstr "Висота дна"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:tilt-left"
 msgid "Tilt left"
 msgstr "Нахил ліворуч"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:tilt-right"
 msgid "Tilt right"
 msgstr "Нахил праворуч"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-left"
 msgid "V-Tilt left"
 msgstr "V-нахил ліворуч"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-right"
 msgid "V-Tilt right"
 msgstr "V-нахил праворуч"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:left"
 msgid "L"
 msgstr "Л"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:right"
 msgid "R"
-msgstr "Р"
+msgstr "П"
 
-#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-size"
 msgid "Marker size"
 msgstr "Розмір маркера"
 
-#, fuzzy
 msgctxt "editor:styling:perspective-line:always-show-grid"
 msgid "Always show grid"
-msgstr "Завжди показувати сітку"
+msgstr "Показати сітку"
 
-#, fuzzy
 msgctxt "editor:styling:rectangle:show-side-lengths"
 msgid "Show side lengths"
-msgstr "Показати довжину сторін"
+msgstr "Показати заміри "
 
-#, fuzzy
 msgctxt "editor:styling:rectangle:show-area"
 msgid "Show area"
-msgstr "Показати територію"
+msgstr "Показати площину"
 
-#, fuzzy
 msgctxt "editor:styling:rectangle:show-perimeter"
 msgid "Show perimeter"
 msgstr "Показати периметр"
 
-#, fuzzy
 msgctxt "editor:styling:rect-ref:show-side-lengths"
 msgid "Show side lengths"
 msgstr "Показати довжину сторін"
 
-#, fuzzy
 msgctxt "editor:styling:rect-ref:text-position"
 msgid "Text position"
 msgstr "Позиція тексту"
 
-#, fuzzy
 msgctxt "editor:styling:rect-ref:text-position:above-line"
 msgid "Above line"
-msgstr "Над рядком"
+msgstr "Зверху"
 
-#, fuzzy
 msgctxt "editor:styling:rect-ref:text-position:within-line"
 msgid "Within line"
-msgstr "В межах лінії"
+msgstr "Всередині"
 
-#, fuzzy
 msgctxt "editor:styling:rect-ref:show-area"
 msgid "Show area"
-msgstr "Показати територію"
+msgstr "Площина"
 
-#, fuzzy
 msgctxt "editor:styling:rect-ref:always-show-grid"
 msgid "Always show grid"
-msgstr "Завжди показувати сітку"
+msgstr "Показувати сітку"
 
-#, fuzzy
 msgctxt "editor:styling:rect-ref:grid-subdivions:both"
 msgid "Grid subdivisions"
-msgstr "Підрозділи сітки"
+msgstr "Поділів у сітці"
 
-#, fuzzy
 msgctxt "editor:styling:rect-ref:grid-subdivions:h"
 msgid "Grid subdivisions (H)"
-msgstr "Підрозділи сітки (H)"
+msgstr "Ділення сітки (H)"
 
-#, fuzzy
 msgctxt "editor:styling:rect-ref:grid-subdivions:v"
 msgid "Grid subdivisions (V)"
-msgstr "Підрозділи сітки (V)"
+msgstr "Ділення сітки (V)"
 
-#, fuzzy
 msgctxt "editor:styling:textbox:text-h-alignment"
 msgid "Text alignment"
 msgstr "Вирівнювання тексту"
 
-#, fuzzy
 msgctxt "editor:styling:textbox:show-text-outline"
 msgid "Text outline"
-msgstr "Конспект тексту"
+msgstr "Текст з контуром"
 
-#, fuzzy
 msgctxt "editor:styling:textbox:show-arrows"
 msgid "Show arrows"
 msgstr "Показати стрілки"
 
-#, fuzzy
 msgctxt "editor:styling:textbox:show-box-border"
 msgid "Show box border"
-msgstr "Показати межу поля"
+msgstr "Видимість кайми"
 
-#, fuzzy
 msgctxt "editor:styling:textbox:box-background-color"
 msgid "Background color"
 msgstr "Колір фону"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position"
 msgid "Length position"
-msgstr "Положення довжини"
+msgstr "Розміщення значення довжини"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:radius-label-position"
 msgid "Radius position"
-msgstr "Радіус положення"
+msgstr "Розміщення значення радіус у"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:angle-label-position"
 msgid "Angle position"
-msgstr "Кутове положення"
+msgstr "Розміщення значення кута"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:none"
 msgid "Do not show"
 msgstr "Не показувати"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:outside-along"
 msgid "Along line"
 msgstr "По лінії"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:various"
 msgid "---"
 msgstr "---"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:none"
 msgid "Do not show"
 msgstr "Не показувати"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:inside"
 msgid "Inside"
 msgstr "Всередині"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-along"
 msgid "Outside (along)"
 msgstr "Зовні (вздовж)"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-orthogonal"
 msgid "Outside (orthogonal)"
 msgstr "Зовні (ортогональний)"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:various"
 msgid "---"
 msgstr "---"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode"
 msgid "Side length"
 msgstr "Довжина сторони"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:tangent-length"
 msgid "Tangent length"
 msgstr "Довжина дотичної"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:tangent-plus-radius"
 msgid "Tangent plus radius"
 msgstr "Тангенс плюс радіус"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:miter-joint"
 msgid "Miter joints"
 msgstr "Мітрові з’єднання"
 
-#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:rebar"
 msgid "Rebar"
 msgstr "Арматура"
 
-#, fuzzy
 msgctxt "editor:rounded-polyline:mode:move-corner"
 msgid "Move corner"
 msgstr "Перемістити кут"
 
-#, fuzzy
 msgctxt "editor:rounded-polyline:mode:adjust-corner-radius"
 msgid "Corner radius"
 msgstr "Кутовий радіус"
 
-#, fuzzy
 msgctxt "editor:rounded-polyline:mode:add-corner"
 msgid "Add corner"
 msgstr "Додайте куток"
 
-#, fuzzy
 msgctxt "editor:rounded-polyline:mode:delete-corner"
 msgid "Delete corner"
 msgstr "Видалити кут"
 
-#, fuzzy
 msgctxt "editor:rounded-polyline:action:open-contour"
 msgid "Open contour"
 msgstr "Відкритий контур"
 
-#, fuzzy
 msgctxt "editor:rounded-polyline:action:close-contour"
 msgid "Close contour"
 msgstr "Закрити контур"
 
-#, fuzzy
 msgctxt "editor:rounded-polyline:action:extrude"
 msgid "Extrude"
 msgstr "Екструдувати"
 
-#, fuzzy
 msgctxt "editor:rounded-polyline:action:extrude:invalid-extrusion-offset"
 msgid "Invalid extrusion offset. This offset value would lead to an invalid shape."
 msgstr "Недійсне зміщення екструзії. Це значення зміщення призведе до неправильної форми."
 
-#, fuzzy
 msgctxt "editor:styling:counter:shape"
 msgid "Shape"
 msgstr "Форма"
 
-#, fuzzy
 msgctxt "editor:styling:counter:shape:circle"
 msgid "Circle"
 msgstr "Коло"
 
-#, fuzzy
 msgctxt "editor:styling:counter:shape:square"
 msgid "Square"
-msgstr "Майдан"
+msgstr "Площина"
 
-#, fuzzy
 msgctxt "editor:styling:counter:shape:triangle-up"
 msgid "Triangle (up)"
 msgstr "Трикутник (вгору)"
 
-#, fuzzy
 msgctxt "editor:styling:counter:shape:triangle-down"
 msgid "Triangle (down)"
 msgstr "Трикутник (вниз)"
 
-#, fuzzy
 msgctxt "editor:value-list:generic-counter"
 msgid "count"
 msgstr "рахувати"
 
-#, fuzzy
 msgctxt "image-settings:image:saturation"
 msgid "Saturation"
 msgstr "Насичення"
 
-#, fuzzy
 msgctxt "image-settings:image:brightness"
 msgid "Brightness"
 msgstr "Яскравість"
 
-#, fuzzy
 msgctxt "image-settings:image:contrast"
 msgid "Contrast"
 msgstr "Контраст"
 
-#, fuzzy
 msgctxt "image-settings:image:color-preset:greyscale"
 msgid "Greyscale"
 msgstr "Відтінки сірого"
 
-#, fuzzy
 msgctxt "image-settings:image:color-preset:bright"
 msgid "Bright"
 msgstr "Яскравий"
 
-#, fuzzy
 msgctxt "image-settings:image:color-preset:dark"
 msgid "Dark"
 msgstr "Темний"
 
-#, fuzzy
 msgctxt "image-settings:image:color-preset:original"
 msgid "Reset"
 msgstr "Скинути"
 
-#, fuzzy
 msgctxt "image-settings:canvas:color-scheme"
 msgid "Color scheme"
 msgstr "Кольорова схема"
 
-#, fuzzy
 msgctxt "image-settings:canvas:color-scheme:white"
 msgid "White"
 msgstr "Білий"
 
-#, fuzzy
 msgctxt "image-settings:canvas:color-scheme:black"
 msgid "Black"
 msgstr "Чорний"
 
-#, fuzzy
 msgctxt "image-settings:canvas:color-scheme:dark-blue"
 msgid "Dark blue"
 msgstr "Темно-синій"
 
-#, fuzzy
 msgctxt "image-settings:canvas:color-scheme:custom"
 msgid "Custom"
-msgstr "На замовлення"
+msgstr "Адаптивний"
 
-#, fuzzy
 msgctxt "image-settings:canvas:background-color"
 msgid "Background color"
 msgstr "Колір фону"
 
-#, fuzzy
 msgctxt "image-settings:canvas:coarse-grid-color"
 msgid "Coarse grid color"
 msgstr "Колір грубої сітки"
 
-#, fuzzy
 msgctxt "image-settings:canvas:fine-grid-color"
 msgid "Fine grid color"
 msgstr "Колір тонкої сітки"
 
-#, fuzzy
 msgctxt "image-settings:canvas:grid-subdivisions"
 msgid "Subdivisions"
 msgstr "Підрозділи"
 
-#, fuzzy
 msgctxt "image-settings:canvas:unit-distance"
 msgid "Unit distance"
-msgstr "Відстань одиниці"
+msgstr "Одинична відстань"
 
-#, fuzzy
 msgctxt "image-settings:canvas:unit-distance-hint"
 msgid "100 cm"
 msgstr "100 см"
 
-#, fuzzy
 msgctxt "image-settings:calibration:enable-to-image"
 msgid "Calibrate to image"
 msgstr "Відкалібрувати за зображенням"
 
-#, fuzzy
 msgctxt "image-settings:calibration:image-resolution"
 msgid "Resolution"
-msgstr "Резолюція"
+msgstr "Роздільна здатність"
 
-#, fuzzy
 msgctxt "image-settings:calibration:scale"
 msgid "Scale"
 msgstr "Масштаб"
 
-#, fuzzy
 msgctxt "image-settings:calibration:scale:real"
 msgid "real"
-msgstr "справжній"
+msgstr "реальний"
 
-#, fuzzy
 msgctxt "image-settings:calibration:scale:image"
 msgid "image"
 msgstr "зображення"
 
-#, fuzzy
 msgctxt "image-settings:secondary-label:title"
 msgid "Secondary Label"
-msgstr "Вторинна етикетка"
+msgstr "Додаткова мітка"
 
-#, fuzzy
 msgctxt "image-settings:secondary-label:mode"
 msgid "Mode"
 msgstr "Режим"
 
-#, fuzzy
 msgctxt "image-settings:secondary-label:mode:off"
 msgid "Off"
 msgstr "Вимкнено"
 
-#, fuzzy
 msgctxt "image-settings:secondary-label:no-secondary-label"
 msgid "No secondary label"
-msgstr "Немає вторинної етикетки"
+msgstr "Немає додаткової мітки"
 
-#, fuzzy
 msgctxt "image-settings:secondary-label:alternative-unit"
 msgid "Alternative unit"
 msgstr "Альтернативний блок"
 
-#, fuzzy
 msgctxt "image-settings:secondary-label:alternative-unit:unit"
 msgid "Unit"
-msgstr "одиниця"
+msgstr "Одиниця виміру"
 
-#, fuzzy
 msgctxt "image-settings:secondary-label:model-scale"
 msgid "Model scale"
-msgstr "Модельний масштаб"
+msgstr "Масштаб моделі"
 
-#, fuzzy
 msgctxt "image-settings:secondary-label:model-scale:scale"
 msgid "Scale"
 msgstr "Масштаб"
 
-#, fuzzy
 msgctxt "editor:properties:dialog-title"
 msgid "Tag and Properties"
 msgstr "Тег і властивості"
 
-#, fuzzy
 msgctxt "editor:tag-chooser:dialog-title"
 msgid "Select Tag"
 msgstr "Виберіть тег"
 
-#, fuzzy
 msgctxt "prefs:measures:length-unit"
 msgid "Length unit"
 msgstr "Одиниця довжини"
 
-#, fuzzy
 msgctxt "prefs:measures:area-unit"
 msgid "Area unit"
 msgstr "Одиниця площі"
 
-#, fuzzy
 msgctxt "prefs:measures:angle-unit"
 msgid "Angle unit"
 msgstr "Одиниця кута"
 
-#, fuzzy
 msgctxt "prefs:measures:group:display-options"
 msgid "Display options"
 msgstr "Параметри відображення"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
 msgid "Snap to object corners"
 msgstr "Прив’язка до кутів об’єкта"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-object-outline"
 msgid "Snap to object outline"
 msgstr "Прив’язка до контуру об’єкта"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:snap-perpendicular-to-object-outline"
 msgid "Perpendiculat to object outline"
 msgstr "Перпендикуляр до контуру об'єкта"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation"
 msgid "Snap to H/V-orientation"
 msgstr "Прив’язка до H/V-орієнтації"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation:off"
 msgid "Off"
 msgstr "Вимкнено"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation:only-when-attached"
 msgid "Only when attached to reference"
 msgstr "Тільки якщо додано до посилання"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation:on"
 msgid "On"
 msgstr "Увімкнено"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:snapping-strength"
 msgid "Snapping strength"
-msgstr "Міцність відриву"
+msgstr "Ступінь прив'язки"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:snapping-strength:low"
 msgid "Low"
 msgstr "Низька"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:snapping-strength:normal"
 msgid "Normal"
 msgstr "Нормальний"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:snapping-strength:high"
 msgid "High"
 msgstr "Високий"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size"
 msgid "Distance step size"
 msgstr "Розмір кроку відстані"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:hint"
 msgid "1 ft"
 msgstr "1 фут"
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:tooltip"
 msgid "Snap to multiples of this distance (only for rectangles and distance)."
 msgstr "Прив’язка до кратної цій відстані (лише для прямокутників і відстані)."
 
-#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
 msgid "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and rectangle sides will be restricted to steps of this size."
 msgstr "Введіть відстань за допомогою одиниці (наприклад, 10 см, 1 фут або 1 фут). Намальовані розміри та сторони прямокутника будуть обмежені кроками такого розміру."
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
 msgid "Freehand"
 msgstr "Від руки"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay"
 msgid "End freehand drawing delay"
-msgstr "Завершення затримки малювання від руки"
+msgstr "Затримка відгуку під час малювання"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:off"
 msgid "Off"
 msgstr "Вимкнено"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:short"
 msgid "Short"
-msgstr "Короткий"
+msgstr "Коротка"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:normal"
 msgid "Normal"
-msgstr "Нормальний"
+msgstr "Нормальна"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:long"
 msgid "Long"
-msgstr "Довгота"
+msgstr "Довга"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:group-title"
 msgid "Text note"
 msgstr "Текстова примітка"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:preset-texts:title"
 msgid "Preset texts"
 msgstr "Попередньо встановлені тексти"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:prefix-text:general-area"
 msgid "A:"
 msgstr "A:"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:prefix-text:general-perimeter"
 msgid "P:"
 msgstr "P:"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:prefix-text:circle-radius"
 msgid "r:"
 msgstr "r:"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:prefix-text:circle-diameter"
 msgid "d:"
 msgstr "г:"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:prefix-text:circle-area"
 msgid "A:"
 msgstr "A:"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:prefix-text:circle-circumference"
 msgid "C:"
 msgstr "C:"
 
-#, fuzzy
 msgctxt "prefs:editor:drawing-tools:prefix-text:circle-arc-length"
 msgid "s:"
 msgstr "s:"
 
-#, fuzzy
 msgctxt "prefs:template:add:general-description"
 msgid "Choose the template that best matches your needs. You can further customize it later."
 msgstr "Виберіть шаблон, який найкраще відповідає вашим потребам. Ви можете додатково налаштувати його пізніше."
 
-#, fuzzy
 msgctxt "prefs:template:add:dialog-title"
 msgid "Template type"
 msgstr "Тип шаблону"
 
-#, fuzzy
 msgctxt "prefs:template:add-template(capital)"
 msgid "Add template"
 msgstr "Додати шаблон"
 
-#, fuzzy
 msgctxt "prefs:template:remove-template(capital)"
 msgid "Remove template"
 msgstr "Видалити шаблон"
 
-#, fuzzy
 msgctxt "prefs:template:list-header:name(pc)"
 msgid "Name"
 msgstr "Ім'я"
 
-#, fuzzy
 msgctxt "prefs:template:list-header:type(pc)"
 msgid "Type"
 msgstr "Тип"
 
-#, fuzzy
 msgctxt "prefs:template:list:group-title(pc)"
 msgid "Templates"
 msgstr "Шаблони"
 
-#, fuzzy
 msgctxt "prefs:template:config:group-title(pc)"
 msgid "Template configuration"
 msgstr "Конфігурація шаблону"
 
-#, fuzzy
 msgctxt "prefs:template:tags:list-title"
 msgid "Tags"
 msgstr "Мітки"
 
-#, fuzzy
 msgctxt "prefs:template:table-layouts:list-title"
 msgid "Table layouts"
-msgstr "Макети столів"
+msgstr "Макети таблиці"
 
-#, fuzzy
 msgctxt "prefs:template:table-layouts:edit-button"
 msgid "Edit"
 msgstr "Редагувати"
 
-#, fuzzy
 msgctxt "prefs:template:tags:list-header:name"
 msgid "Name"
 msgstr "Ім'я"
 
-#, fuzzy
 msgctxt "prefs:template:tags:list-header:name:tooltip"
 msgid "Name of the tag"
 msgstr "Назва тега"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tag:list-header:content-type"
 msgid "Content type"
 msgstr "Тип вмісту"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tag:list-header:content-type:tooltip"
 msgid "The content type limits to which kind of elements the tag can be attached."
 msgstr "Тип вмісту обмежує, до якого типу елементів можна приєднати тег."
 
-#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:name"
 msgid "Name"
 msgstr "Ім'я"
 
-#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:name:tooltip"
 msgid "Name of the table layout"
 msgstr "Назва макета таблиці"
 
-#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:columns"
 msgid "Columns"
 msgstr "Колонки"
 
-#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:columns:tooltip"
 msgid "Summary of the columns in this table"
 msgstr "Підсумок стовпців у цій таблиці"
 
-#, fuzzy
 msgctxt "prefs:template:partlist:tags:list-header:column-title"
 msgid "Column title"
 msgstr "Заголовок колонки"
 
-#, fuzzy
 msgctxt "prefs:template:partlist:tags:list-header:column-title:tooltip"
 msgid "The column name for this tag in the table output. If left empty, the tag name will be used as column title."
 msgstr "Ім’я стовпця для цього тега у виводі таблиці. Якщо залишити пустим, ім’я тегу використовуватиметься як заголовок стовпця."
 
-#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract"
 msgid "Subtract"
 msgstr "Відняти"
 
-#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract:tooltip"
 msgid "Whether the value should be subtracted from the area sum."
 msgstr "Чи слід відняти значення від суми площ."
 
-#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:factor"
 msgid "Factor"
 msgstr "Фактор"
 
-#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:factor:tooltip"
 msgid "The factor by which this area contributes to the sum."
 msgstr "Коефіцієнт, за яким ця площа вносить вклад в суму."
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:dialog-title"
 msgid "Edit custom template table layout"
 msgstr "Редагувати спеціальний шаблон таблиці"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:dialog-title(short)"
 msgid "Custom Table Configuration"
 msgstr "Спеціальна конфігурація таблиці"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:table-name-label"
 msgid "Table name"
 msgstr "Ім'я таблиці"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns-list-label"
 msgid "Table columns"
 msgstr "Стовпці таблиці"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns-list:add-column-entry"
 msgid "+ add column"
 msgstr "+ додати стовпець"
 
-#, fuzzy
 msgctxt "prefs:template:generic:tablespec:columns:list-header:column-header"
 msgid "Column header"
 msgstr "Заголовок стовпця"
 
-#, fuzzy
 msgctxt "prefs:template:generic:tablespec:columns:list-header:content"
 msgid "Content"
 msgstr "Зміст"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:list-header:measure"
 msgid "Measure"
-msgstr "Виміряти"
+msgstr "Одиниці виміру"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:list-header:multiple-values"
 msgid "Multiple values"
 msgstr "Кілька значень"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:list-header:num-columns"
 msgid "Num. columns"
-msgstr "Кількість колонки"
+msgstr "Кількість колонок"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:list-header:footer-row"
 msgid "Footer row"
 msgstr "Нижній колонтитул"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:footer:empty"
 msgid "Empty"
 msgstr "Порожній"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:content:tooltip-title"
 msgid "Column content"
 msgstr "Вміст колонки"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:content:tooltip"
 msgid "Specify the cell content in this column. This can be either a measurement value that you annotated with a tag, or image metadata (e.g. image name, capture date)."
-msgstr "Укажіть вміст комірки в цьому стовпці. Це може бути або значення вимірювання, яке ви анотували тегом, або метадані зображення (наприклад, назва зображення, дата зйомки)."
+msgstr "Укажіть вміст клітинки в цьому стовпці. Це може бути або значення вимірювання, яке ви анотували тегом, або метадані зображення (наприклад, назва зображення, дата зйомки)."
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip-title"
 msgid "Measure selection"
 msgstr "Вибір міри"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip"
 msgid "Here, you define which measurement of the tagged element to put into this column. E.g. for a circle you can choose between its area, radius, circumference, …"
-msgstr "Тут ви визначаєте, яке вимірювання позначеного елемента помістити в цей стовпець. напр. для кола ви можете вибрати між його площею, радіусом, окружністю, ..."
+msgstr "Тут ви визначаєте, яке вимірювання позначеного елемента помістити в цей стовпець, напр. для кола ви можете вибрати між його площею, радіусом, окружністю, ..."
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip-title"
 msgid "Multiple values per cell"
 msgstr "Кілька значень на клітинку"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip"
 msgid "When several elements are assigned the same tag, several values will be placed into one cell. Here you can choose to sum these values, take their average, or other options instead of keeping all in one cell."
 msgstr "Якщо кільком елементам присвоєно один і той же тег, кілька значень буде поміщено в одну клітинку. Тут ви можете вибрати підсумовування цих значень, їх середнє значення або інші параметри замість того, щоб тримати все в одній клітинці."
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip-title"
 msgid "Number of columns"
 msgstr "Кількість стовпців"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip"
 msgid "Creates this number of columns to fill in values with this tag. Use this when you have several measurements with the same tag in one image."
 msgstr "Створює таку кількість стовпців для заповнення значень цим тегом. Використовуйте це, якщо у вас є кілька вимірювань з одним і тим же тегом на одному зображенні."
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip-title"
 msgid "Footer row content"
 msgstr "Вміст рядка нижнього колонтитула"
 
-#, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip"
 msgid "What to place in the footer row of the table. Options include the sum of all values in the column, the maximum, the average, and other options."
 msgstr "Що розмістити в нижньому рядку таблиці. Параметри включають суму всіх значень у стовпці, максимальну, середню та інші параметри."
 
-#, fuzzy
 msgctxt "prefs:template:areasum:tablespec:dialog-title"
 msgid "Edit the table layout of the area template"
 msgstr "Відредагуйте макет таблиці шаблону області"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:dialog-title"
 msgid "Edit table layout of the parts-list template"
 msgstr "Редагувати макет таблиці шаблону списку деталей"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number:none"
 msgid "None"
 msgstr "Жодного"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number:only-element"
 msgid "Only item numbers"
 msgstr "Тільки номери позицій"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number:only-image-in-image-row"
 msgid "Only image numbers, only in image row"
 msgstr "Лише номери зображень, лише в рядку зображень"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number:both-image-in-image-row"
 msgid "Both, but image numbers only in image row"
 msgstr "Обидва, але номери зображень лише в рядку зображень"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number:both-all-rows"
 msgid "Image and item numbers in all rows"
 msgstr "Номери зображень і елементів у всіх рядках"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number:combined"
 msgid "Combine image and item numbers in one column"
 msgstr "Об’єднайте зображення та номери елементів в одному стовпці"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:column-items:used-tags"
 msgid "Only for used tags"
 msgstr "Тільки для використаних тегів"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:column-items:all-tags"
 msgid "For all tags"
 msgstr "Для всіх тегів"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:table-name"
 msgid "Table name"
 msgstr "Ім'я таблиці"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:column-config:title"
 msgid "Columns configuration"
 msgstr "Конфігурація колонок"
@@ -3275,282 +2650,226 @@ msgctxt "prefs:template:partslist:tablespec:item-number"
 msgid "Item number"
 msgstr "Номер позиції"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:tag-name"
 msgid "Tag name"
 msgstr "Ім'я тега"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:comment"
 msgid "Comment"
 msgstr "Коментар"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:quantity"
 msgid "Quantity"
 msgstr "Кількість"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-columns"
 msgid "Item columns"
 msgstr "Стовпці елементів"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:use-custom-titles"
 msgid "Use custom column titles"
-msgstr "Використовуйте спеціальні заголовки стовпців"
+msgstr "Використовуйте заголовки стовпців, що настроюються."
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:row-config:title"
 msgid "Rows configuration"
 msgstr "Конфігурація рядків"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:row-config:show-image-name"
 msgid "Show rows with image names"
 msgstr "Показати рядки з назвами зображень"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:row-config:item-numbering-for-each-image"
 msgid "Independent item numbering for each image"
 msgstr "Незалежна нумерація елементів для кожного зображення"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:row-config:show-footer"
 msgid "Show footer row"
 msgstr "Показати рядок нижнього колонтитула"
 
-#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:row-config:combine-counters-into-one-row"
 msgid "Combine counters into one row per tag"
 msgstr "Об’єднайте лічильники в один рядок для кожного тегу"
 
-#, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing"
 msgid "Anti-aliasing in editor"
 msgstr "Згладжування в редакторі"
 
-#, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing:off"
 msgid "Off"
 msgstr "Вимкнено"
 
-#, fuzzy
 msgctxt "prefs:ui:language"
 msgid "Language"
 msgstr "Мова"
 
-#, fuzzy
 msgctxt "prefs:ui:language:automatic"
 msgid "Automatic"
 msgstr "Автоматичний"
 
-#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution"
 msgid "Maximum image resolution"
 msgstr "Максимальна роздільна здатність зображення"
 
-#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution:1mp"
 msgid "1 megapixel"
 msgstr "1 мегапіксель"
 
-#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution:4mp"
 msgid "4 megapixel"
 msgstr "4 мегапікселя"
 
-#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution:16mp"
 msgid "16 megapixel"
 msgstr "16 мегапікселів"
 
-#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution:64mp"
 msgid "64 megapixel"
 msgstr "64 мегапікселя"
 
-#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution:256mp"
 msgid "256 megapixel"
 msgstr "256 мегапікселів"
 
-#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution:unlimited"
 msgid "unlimited"
 msgstr "необмежений"
 
-#, fuzzy
 msgctxt "prefs:audio-input:dialog-title"
 msgid "Select audio input device"
 msgstr "Виберіть пристрій введення аудіо"
 
-#, fuzzy
 msgctxt "prefs:audio-input:button:test"
 msgid "Test"
 msgstr "Тест"
 
-#, fuzzy
 msgctxt "prefs:ui:audio-input-device"
 msgid "Audio input device"
 msgstr "Пристрій введення звуку"
 
-#, fuzzy
 msgctxt "prefs:ui:audio-input-device:button:choose"
 msgid "Choose"
 msgstr "Виберіть"
 
-#, fuzzy
 msgctxt "prefs:ui:enable-experimental-dxf-export"
 msgid "Enable DXF export (experimental)"
 msgstr "Увімкнути експорт DXF (експериментальний)"
 
-#, fuzzy
 msgctxt "prefs:map-provider:title"
 msgid "Map provider"
 msgstr "Постачальник карт"
 
-#, fuzzy
 msgctxt "prefs:map-provider:google-maps"
 msgid "Google Maps"
 msgstr "Гугл-мапи"
 
-#, fuzzy
 msgctxt "prefs:map-provider:bing-maps"
 msgid "Bing Maps"
 msgstr "Карти Bing"
 
-#, fuzzy
 msgctxt "prefs:map-provider:open-street-map"
 msgid "OpenStreetMap"
 msgstr "OpenStreetMap"
 
-#, fuzzy
 msgctxt "prefs:company:user-id"
 msgid "User ID"
 msgstr "ідентифікатор користувача"
 
-#, fuzzy
 msgctxt "prefs:company:user-full-name"
 msgid "Full name"
 msgstr "Повне ім'я"
 
-#, fuzzy
 msgctxt "templ:template-name"
 msgid "Template name"
 msgstr "Назва шаблону"
 
-#, fuzzy
 msgctxt "templ:template-name:unnamed"
 msgid "New template"
 msgstr "Новий шаблон"
 
-#, fuzzy
 msgctxt "templ:custom:class-display-name"
 msgid "Custom template"
-msgstr "Спеціальний шаблон"
+msgstr "Свій шаблон"
 
-#, fuzzy
 msgctxt "templ:custom:new-template-name"
 msgid "New custom template"
-msgstr "Новий спеціальний шаблон"
+msgstr "Новий шаблон, що настроюється"
 
-#, fuzzy
 msgctxt "templ:custom:long-description"
 msgid "Each image fills one row in the table. You may assign a tag to each measurement. Each table column contains the measurement for a specific tag."
 msgstr "Кожне зображення заповнює один рядок у таблиці. Ви можете призначити тег кожному вимірюванню. Кожен стовпець таблиці містить вимірювання для певного тегу."
 
-#, fuzzy
 msgctxt "templ:custom:column-content:empty"
 msgid "Empty"
 msgstr "Порожній"
 
-#, fuzzy
 msgctxt "templ:custom:column-content:image-name"
 msgid "Image name"
 msgstr "Назва зображення"
 
-#, fuzzy
 msgctxt "templ:custom:column-content:image-notes"
 msgid "Image notes"
 msgstr "Нотатки до зображень"
 
-#, fuzzy
 msgctxt "templ:custom:column-content:image-number"
 msgid "Image number"
 msgstr "Номер зображення"
 
-#, fuzzy
 msgctxt "templ:custom:column-content:image-capture-date"
 msgid "Image capture date"
 msgstr "Дата зйомки зображення"
 
-#, fuzzy
 msgctxt "templ:custom:column-content:image-gps-latitude"
 msgid "Image GPS latitude"
 msgstr "Зображення широти GPS"
 
-#, fuzzy
 msgctxt "templ:custom:column-content:image-gps-longitude"
 msgid "Image GPS longitude"
 msgstr "Зображення Довгота GPS"
 
-#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link"
 msgid "GPS map link"
 msgstr "Посилання на GPS-карту"
 
-#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:url:text"
 msgid "link"
 msgstr "посилання"
 
-#, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:error:no-gps"
 msgid "no GPS"
 msgstr "немає GPS"
 
-#, fuzzy
 msgctxt "templ:custom:column-type:width-height"
 msgid "Width and height"
 msgstr "Ширина і висота"
 
-#, fuzzy
 msgctxt "templ:custom:column-type:text"
 msgid "Text note"
 msgstr "Текстова примітка"
 
-#, fuzzy
 msgctxt "templ:custom:new-tablespec-name"
 msgid "Custom Table"
-msgstr "Спеціальна таблиця"
+msgstr "Настроювана таблиця"
 
-#, fuzzy
 msgctxt "templ:custom:new-tag"
 msgid "new tag"
 msgstr "новий тег"
 
-#, fuzzy
 msgctxt "templ:custom:tag:filter:text"
 msgid "Text note"
 msgstr "Текстова примітка"
 
-#, fuzzy
 msgctxt "templ:custom:tag:filter:circle"
 msgid "Circle"
 msgstr "Коло"
 
-#, fuzzy
 msgctxt "templ:custom:tag:property-name"
 msgid "Tag"
 msgstr "тег"
 
-#, fuzzy
 msgctxt "templ:areasum:class-display-name"
 msgid "Area sum template"
 msgstr "Шаблон площі суми"
 
-#, fuzzy
 msgctxt "templ:areasum:preset:wallarea:display-name"
 msgid "Wall area"
 msgstr "Площа стіни"
@@ -3560,197 +2879,158 @@ msgctxt "templ:areasum:preset:floorarea:display-name"
 msgid "Floor area"
 msgstr "Площа підлоги"
 
-#, fuzzy
 msgctxt "templ:areasum:long-description:wallarea"
 msgid "This template is the basis for area computations. The area of some elements is added to the sum (e.g. walls), while other elements are subtracted (e.g. windows)."
 msgstr "Цей шаблон є основою для обчислень площі. Площа деяких елементів додається до суми (наприклад, стіни), а інші елементи віднімаються (наприклад, вікна)."
 
-#, fuzzy
 msgctxt "templ:areasum:tag:property-name"
 msgid "Tag"
-msgstr "тег"
+msgstr "Тег"
 
-#, fuzzy
 msgctxt "templ:areasum:wallarea:new-template-name"
 msgid "New wall area template"
-msgstr "Новий шаблон стіни"
+msgstr "Новий шаблон області стіни"
 
-#, fuzzy
 msgctxt "templ:areasum:floorarea:new-template-name"
 msgid "New floor area template"
 msgstr "Новий шаблон площі підлоги"
 
-#, fuzzy
 msgctxt "templ:areasum:custom-add"
 msgid "custom (add)"
-msgstr "на замовлення (додати)"
+msgstr "за замовчуванням (додати)"
 
-#, fuzzy
 msgctxt "templ:areasum:custom-minus"
 msgid "custom (subtract)"
-msgstr "звичай (відняти)"
+msgstr "за замовчуванням (відняти)"
 
-#, fuzzy
 msgctxt "templ:areasum:wallarea:wall"
 msgid "wall"
 msgstr "стіна"
 
-#, fuzzy
 msgctxt "templ:areasum:wallarea:ceiling"
 msgid "ceiling"
 msgstr "стеля"
 
-#, fuzzy
 msgctxt "templ:areasum:wallarea:window"
 msgid "window"
 msgstr "вікно"
 
-#, fuzzy
 msgctxt "templ:areasum:wallarea:door"
 msgid "door"
 msgstr "двері"
 
-#, fuzzy
 msgctxt "templ:areasum:floorarea:living-room"
 msgid "living room"
 msgstr "Вітальня"
 
-#, fuzzy
 msgctxt "templ:areasum:floorarea:bed-room"
 msgid "bed room"
 msgstr "спальня"
 
-#, fuzzy
 msgctxt "templ:areasum:floorarea:kitchen"
 msgid "kitchen"
 msgstr "кухня"
 
-#, fuzzy
 msgctxt "templ:areasum:floorarea:bath-room"
 msgid "bathroom"
 msgstr "ванна кімната"
 
-#, fuzzy
 msgctxt "templ:areasum:floorarea:generic-room"
 msgid "other room"
-msgstr "іншу кімнату"
+msgstr "інша кімнату"
 
-#, fuzzy
 msgctxt "templ:areasum:floorarea:balcony"
 msgid "balcony"
 msgstr "балкон"
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-header:item"
 msgid "Pos."
 msgstr "Поз."
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-header:description"
 msgid "Description"
 msgstr "Опис"
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-header:count"
 msgid "Count"
 msgstr "Рахувати"
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-header:factor"
 msgid "Factor"
 msgstr "Фактор"
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-header:width"
 msgid "Width"
 msgstr "Ширина"
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-header:height"
 msgid "Height"
 msgstr "Висота"
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-header:area"
 msgid "Area"
 msgstr "Площа"
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-header:deduction"
 msgid "Deduction"
-msgstr "Відрахування"
+msgstr "Віднімання"
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-header:sumarea"
 msgid "Sum"
 msgstr "Сума"
 
-#, fuzzy
 msgctxt "templ:areasum:item"
 msgid "Item Number"
 msgstr "Номер позиції"
 
-#, fuzzy
 msgctxt "templ:areasum:description"
 msgid "Description"
 msgstr "Опис"
 
-#, fuzzy
 msgctxt "templ:areasum:count"
 msgid "Count"
 msgstr "Рахувати"
 
-#, fuzzy
 msgctxt "templ:areasum:width-height"
 msgid "Width and height"
 msgstr "Ширина і висота"
 
-#, fuzzy
 msgctxt "templ:areasum:measured-area"
 msgid "Measured area"
 msgstr "Виміряна площа"
 
-#, fuzzy
 msgctxt "templ:areasum:factor"
 msgid "Factor"
 msgstr "Фактор"
 
-#, fuzzy
 msgctxt "templ:areasum:calculated-area"
 msgid "Calculated area"
 msgstr "Розрахункова площа"
 
-#, fuzzy
 msgctxt "templ:areasum:plus-minus-area"
 msgid "+/- area columns"
 msgstr "+/- стовпці області"
 
-#, fuzzy
 msgctxt "templ:areasum:image-area-sum"
 msgid "Image area sum"
 msgstr "Сума площ зображення"
 
-#, fuzzy
 msgctxt "templ:areasum:tablespec:default-name"
 msgid "Area sum table"
 msgstr "Таблиця сум площ"
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-description:item"
 msgid "The image number. The number will only be filled into the row with the image title."
 msgstr "Номер зображення. Число буде заповнено лише в рядку з назвою зображення."
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-description:description"
 msgid "Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this area."
 msgstr "Описова назва місцевості. Це або назва тега за замовчуванням, або ім’я, введене вручну для цієї області."
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-description:count"
 msgid "The count multiplier for this area."
 msgstr "Множник кількості для цієї області."
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
 msgid ""
 "Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n"
@@ -3761,22 +3041,18 @@ msgstr ""
 "\n"
 "Введіть два заголовки стовпців, розділені крапкою з комою."
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-description:measured-area"
 msgid "The raw, measured area without the factor or count applied."
 msgstr "Необроблена, виміряна площа без застосування коефіцієнта чи підрахунку."
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-description:factor"
 msgid "The area factor applied when calculating the final area sum."
 msgstr "Коефіцієнт площі, що застосовується при обчисленні кінцевої суми площ."
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-description:calculated-area"
 msgid "Calculated area including the factor and count."
 msgstr "Розрахункова площа, включаючи коефіцієнт і кількість."
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
 msgid ""
 "Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n"
@@ -3787,207 +3063,166 @@ msgstr ""
 "\n"
 "Введіть два заголовки стовпців, розділені крапкою з комою."
 
-#, fuzzy
 msgctxt "templ:areasum:table-column-description:image-area-sum"
 msgid "Each row holds the area sum of the image. The footer row holds the total over all images."
 msgstr "Кожен рядок містить суму площ зображення. Рядок нижнього колонтитула містить загальну суму для всіх зображень."
 
-#, fuzzy
 msgctxt "templ:partslist:class-display-name"
 msgid "Parts list template"
 msgstr "Шаблон списку запчастин"
 
-#, fuzzy
 msgctxt "templ:partslist:long-description"
 msgid "This template lets you generate bills of material, counting different objects, or summing the length of products (e.g. electrical cables)."
 msgstr "Цей шаблон дає змогу створювати специфікації матеріалів, підраховувати різні об’єкти або підсумовувати довжину продуктів (наприклад, електричних кабелів)."
 
-#, fuzzy
 msgctxt "templ:partslist:tagtype:count"
 msgid "Count"
 msgstr "Рахувати"
 
-#, fuzzy
 msgctxt "templ:partslist:tagtype:length"
 msgid "Length"
 msgstr "Довжина"
 
-#, fuzzy
 msgctxt "templ:partslist:tagtype:area"
 msgid "Area"
 msgstr "Площа"
 
-#, fuzzy
 msgctxt "templ:partslist:tablespec:default"
 msgid "Default table"
 msgstr "Таблиця за замовчуванням"
 
-#, fuzzy
 msgctxt "templ:partslist:tablespec:new"
 msgid "New table"
-msgstr "Новий стіл"
+msgstr "Нова таблиця"
 
-#, fuzzy
 msgctxt "templ:partslist:tag:tag"
 msgid "Tag"
-msgstr "тег"
+msgstr "Тег"
 
-#, fuzzy
 msgctxt "templ:partslist:tag:name"
 msgid "Description"
 msgstr "Опис"
 
-#, fuzzy
 msgctxt "templ:partslist:tag:count"
 msgid "Count"
 msgstr "Рахувати"
 
-#, fuzzy
 msgctxt "templ:partslist:tag:comment"
 msgid "Comment"
 msgstr "Коментар"
 
-#, fuzzy
 msgctxt "templ:partslist:columnheader:item:image"
 msgid "Image"
 msgstr "Зображення"
 
-#, fuzzy
 msgctxt "templ:partslist:columnheader:item:element"
 msgid "No."
 msgstr "Ні."
 
-#, fuzzy
 msgctxt "templ:partslist:columnheader:item:image_and_element"
 msgid "No."
 msgstr "Ні."
 
-#, fuzzy
 msgctxt "templ:partslist:columnheader:tagname"
 msgid "Item"
-msgstr "Пункт"
+msgstr "Елемент"
 
-#, fuzzy
 msgctxt "templ:partslist:columnheader:comment"
 msgid "Comment"
 msgstr "Коментар"
 
-#, fuzzy
 msgctxt "templ:partslist:columnheader:count"
 msgid "Count"
 msgstr "Рахувати"
 
-#, fuzzy
 msgctxt "templ:partslist:columnheader:quantity"
 msgid "Qty"
 msgstr "Кількість"
 
-#, fuzzy
 msgctxt "templ:uiitem:duplicate:local"
 msgid "(local copy)"
 msgstr "(локальна копія)"
 
-#, fuzzy
 msgctxt "templ:uiitem:duplicate:global"
 msgid "(from settings)"
 msgstr "(з налаштувань)"
 
-#, fuzzy
 msgctxt "table-operation:none"
 msgid "None"
 msgstr "Жодного"
 
-#, fuzzy
 msgctxt "table-operation:none:keep"
 msgid "Keep"
-msgstr "Зберігайте"
+msgstr "Зберегти"
 
-#, fuzzy
 msgctxt "table-operation:sum"
 msgid "Sum"
 msgstr "Сума"
 
-#, fuzzy
 msgctxt "table-operation:avg"
 msgid "Average"
 msgstr "Середній"
 
-#, fuzzy
 msgctxt "table-operation:min"
 msgid "Min"
 msgstr "Хв"
 
-#, fuzzy
 msgctxt "table-operation:max"
 msgid "Max"
 msgstr "Макс"
 
-#, fuzzy
 msgctxt "table-operation:median"
 msgid "Median"
 msgstr "Медіана"
 
-#, fuzzy
 msgctxt "table-operation:count"
 msgid "Count"
 msgstr "Рахувати"
 
-#, fuzzy
 msgctxt "SyncAction:NOP"
 msgid "No action"
 msgstr "Ніяких дій"
 
-#, fuzzy
 msgctxt "SyncAction:PULL_NEW"
 msgid "Download new"
 msgstr "Завантажити новий"
 
-#, fuzzy
 msgctxt "SyncAction:PULL_UPDATE"
 msgid "Download update"
 msgstr "Завантажити оновлення"
 
-#, fuzzy
 msgctxt "SyncAction:PUSH_NEW"
 msgid "Upload new"
-msgstr "Завантажте нову"
+msgstr "Завантажити новий"
 
-#, fuzzy
 msgctxt "SyncAction:PUSH_UPDATE"
 msgid "Upload update"
 msgstr "Завантажити оновлення"
 
-#, fuzzy
 msgctxt "SyncAction:DELETE_LOCAL"
 msgid "Delete locally"
 msgstr "Видалити локально"
 
-#, fuzzy
 msgctxt "SyncAction:DELETE_REMOTE"
 msgid "Delete on server"
 msgstr "Видалити на сервері"
 
-#, fuzzy
 msgctxt "sync:error:cloud-sync-currently-in-use:retry-later"
 msgid "Cloud-sync is currently in use. Please retry later."
 msgstr "Наразі використовується хмарна синхронізація. Повторіть спробу пізніше."
 
-#, fuzzy
 msgctxt "sync:task:description:anno-image"
 msgid "Image upload to {}"
 msgstr "Завантажити зображення на {}"
 
-#, fuzzy
 msgctxt "sync:task:description:two-way"
 msgid "Two way sync with {}"
 msgstr "Двостороння синхронізація з {}"
 
-#, fuzzy
 msgctxt "sync:task:backend-options:descr:filesystem"
 msgid "directory '{0}'"
 msgstr "каталог '{0}'"
 
-#, fuzzy
 msgctxt "sync:task:backend-options:descr:onedrive"
 msgid "OneDrive directory '{0}'"
 msgstr "Каталог OneDrive \"{0}\""
@@ -3997,182 +3232,146 @@ msgctxt "sync:task:backend-options:descr:googledrive"
 msgid "Google Drive directory '{0}'"
 msgstr "Каталог Диска Google \"{0}\""
 
-#, fuzzy
 msgctxt "sync:task:backend-options:descr:dropbox"
 msgid "Dropbox directory '{0}'"
 msgstr "Каталог Dropbox \"{0}\""
 
-#, fuzzy
 msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
 msgstr "URL-адреса WebDAV \"{0}\""
 
-#, fuzzy
 msgctxt "sync:server-maintenance:title"
 msgid "Cloud storage maintenance"
 msgstr "Обслуговування хмарного сховища"
 
-#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-description"
 msgid "<b>Remove server lock</b> - In order to prevent simultaneous access to the data on the cloud server, it is locked during the sync process. In case of some errors, e.g. network failures, it may be that the server remains locked. The locks time-out automatically after a few minutes, but you can also manually remove them immediately if you know for sure that it is an error."
 msgstr "<b>Зняти блокування сервера</b> – щоб запобігти одночасному доступу до даних на хмарному сервері, він блокується під час процесу синхронізації. У разі деяких помилок, напр. збої в мережі, можливо, сервер залишається заблокованим. Тайм-аут блокування автоматично закінчується через кілька хвилин, але ви також можете негайно видалити їх вручну, якщо точно знаєте, що це помилка."
 
-#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-button"
 msgid "Remove server lock"
 msgstr "Зняти блокування сервера"
 
-#, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-description"
 msgid "<b>Reset server cache</b> - The cloud server maintains a cache of images stored on them. If you delete or add files manually on the server, this is not seen by the cache. You may reset the server cache to run a full scan during the next sync. However, note that a full scan may take a long time if you have many images."
 msgstr "<b>Скинути кеш сервера</b> – хмарний сервер підтримує кеш зображень, що зберігаються на ньому. Якщо ви видаляєте або додаєте файли вручну на сервері, це не бачить кеш. Ви можете скинути кеш сервера, щоб виконати повне сканування під час наступної синхронізації. Однак зверніть увагу, що повне сканування може зайняти багато часу, якщо у вас багато зображень."
 
-#, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-button"
 msgid "Reset server cache"
 msgstr "Скинути кеш сервера"
 
-#, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-description"
 msgid "<b>Reset sync state</b> - The next sync will start with no preknowledge about the data on each side. This means, e.g., that locally deleted images will be downloaded again from the server instead of being deleted on the server. There are few cases where resetting the stored sync state is needed."
 msgstr "<b>Скинути стан синхронізації</b> – наступна синхронізація розпочнеться без попередньої інформації про дані на кожній стороні. Це означає, наприклад, що локально видалені зображення будуть знову завантажені з сервера замість того, щоб видалятися на сервері. Існує кілька випадків, коли потрібне скидання збереженого стану синхронізації."
 
-#, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-button"
 msgid "Reset sync state"
 msgstr "Скинути стан синхронізації"
 
-#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock:action-title"
 msgid "Removing cloud server lock"
 msgstr "Зняття блокування хмарного сервера"
 
-#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock:result:success"
 msgid "Successfully removed server lock."
 msgstr "Блокування сервера успішно знято."
 
-#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock:result:error:no-lock"
 msgid "There was no server lock."
 msgstr "Не було блокування сервера."
 
-#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-cache:action-title"
 msgid "Resetting cloud server cache"
 msgstr "Скидання кешу хмарного сервера"
 
-#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-cache:result:success"
 msgid "Successfully resetted server cache."
 msgstr "Кеш сервера успішно скинуто."
 
-#, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state:action-title"
 msgid "Resetting sync state"
 msgstr "Скидання стану синхронізації"
 
-#, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state:result:success"
 msgid "Successfully resetted sync state."
 msgstr "Стан синхронізації успішно скинуто."
 
-#, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:googledrive"
 msgid "You have successfully logged into GoogleDrive. You can close this tab and return to ImageMeter now."
 msgstr "Ви успішно ввійшли в GoogleDrive. Ви можете закрити цю вкладку і повернутися до ImageMeter зараз."
 
-#, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:onedrive"
 msgid "You have successfully logged into OneDrive. You can close this tab and return to ImageMeter now."
 msgstr "Ви успішно ввійшли в OneDrive. Ви можете закрити цю вкладку і повернутися до ImageMeter зараз."
 
-#, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:dropbox"
 msgid "You have successfully logged into Dropbox. You can close this tab and return to ImageMeter now."
 msgstr "Ви успішно ввійшли в Dropbox. Ви можете закрити цю вкладку і повернутися до ImageMeter зараз."
 
-#, fuzzy
 msgctxt "license:source:android-in-app"
 msgid "In-app"
 msgstr "У програмі"
 
-#, fuzzy
 msgctxt "license:source:android-nativepro"
 msgid "Native"
 msgstr "Рідний"
 
-#, fuzzy
 msgctxt "license:free"
 msgid "Free Evaluation"
 msgstr "Безкоштовна оцінка"
 
-#, fuzzy
 msgctxt "license:pro"
 msgid "Pro"
-msgstr "професіонал"
+msgstr "Pro"
 
-#, fuzzy
 msgctxt "license:business"
 msgid "Business"
 msgstr "Бізнес"
 
-#, fuzzy
 msgctxt "entity-initialization:image-title:camera"
 msgid "image from {now}"
-msgstr "зображення з {зараз}"
+msgstr "зображення з {now}"
 
-#, fuzzy
 msgctxt "entity-initialization:image-title:pdf-page-with-name"
 msgid "{filename.stem}, page {page}"
 msgstr "{filename.stem}, сторінка {page}"
 
-#, fuzzy
 msgctxt "entity-initialization:image-title:pdf-page-without-name"
 msgid "PDF import, page {page}"
-msgstr "Імпорт PDF, сторінка {стор.}"
+msgstr "Імпорт PDF, сторінка {page}"
 
-#, fuzzy
 msgctxt "entity-initialization:image-title:import-with-name"
 msgid "{filename.stem}"
 msgstr "{filename.stem}"
 
-#, fuzzy
 msgctxt "entity-initialization:image-title:import-without-name"
 msgid "imported {now}"
-msgstr "імпортовано {зараз}"
+msgstr "імпортовано {now}"
 
-#, fuzzy
 msgctxt "entity-initialization:image-title:canvas"
 msgid "new canvas"
 msgstr "нове полотно"
 
-#, fuzzy
 msgctxt "entity-initialization:folder-title"
 msgid "new folder"
-msgstr "Нова папка"
+msgstr "нова папка"
 
-#, fuzzy
 msgctxt "feedback-email"
 msgid "info@imagemeter.com"
 msgstr "info@imagemeter.com"
 
-#, fuzzy
 msgctxt "log-archive:duration:1-day"
 msgid "One day"
-msgstr "Одного дня"
+msgstr "Один день"
 
-#, fuzzy
 msgctxt "log-archive:duration:2-days"
 msgid "Two days"
 msgstr "Два дні"
 
-#, fuzzy
 msgctxt "log-archive:duration:3-days"
 msgid "Three days"
 msgstr "Три дні"
 
-#, fuzzy
 msgctxt "stringscript:help:introtext"
 msgid ""
 "Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n"
@@ -4197,242 +3396,194 @@ msgstr ""
 "Ви можете побудувати такі складні вирази:\n"
 "{folder.title} / {image.number} - {image.title}"
 
-#, fuzzy
 msgctxt "stringscript:help:intro_toplevel_variables"
 msgid "Allowed top level variables:"
 msgstr "Дозволені змінні верхнього рівня:"
 
-#, fuzzy
 msgctxt "stringscript:help:intro_subelements"
 msgid "Each type may have sub-elements. Here is the list of sub-elements for each data type:"
 msgstr "Кожен тип може мати піделементи. Ось список піделементів для кожного типу даних:"
 
-#, fuzzy
 msgctxt "stringscript:root:member:image"
 msgid "This image."
 msgstr "Цей образ."
 
-#, fuzzy
 msgctxt "stringscript:root:member:folder"
 msgid "Current folder."
 msgstr "Поточна папка."
 
-#, fuzzy
 msgctxt "stringscript:root:member:date"
 msgid "The current date and time"
 msgstr "Поточна дата і час"
 
-#, fuzzy
 msgctxt "stringscript:root:member:import_image_filename"
 msgid "Filename of the imported image."
 msgstr "Ім'я файлу імпортованого зображення."
 
-#, fuzzy
 msgctxt "stringscript:root:member:import_image_exif"
 msgid "EXIF metdata of the imported image."
 msgstr "Метадані EXIF імпортованого зображення."
 
-#, fuzzy
 msgctxt "stringscript:root:member:import_pdf_filename"
 msgid "Filename of the imported PDF."
 msgstr "Ім’я файлу імпортованого PDF."
 
-#, fuzzy
 msgctxt "stringscript:root:member:imported_pdf_page"
 msgid "Imported PDF page."
 msgstr "Імпортована сторінка PDF."
 
-#, fuzzy
 msgctxt "stringscript:root:member:pdf-image-folder"
 msgid "Folder of each image."
 msgstr "Папка кожного зображення."
 
-#, fuzzy
 msgctxt "scriptobject:undefined:value"
 msgid "undefined"
 msgstr "невизначений"
 
-#, fuzzy
 msgctxt "scriptobject:undefined:type"
 msgid "undefined"
 msgstr "невизначений"
 
-#, fuzzy
 msgctxt "scriptobject:string:type"
 msgid "string"
 msgstr "рядок"
 
-#, fuzzy
 msgctxt "scriptobject:float:type"
 msgid "number"
 msgstr "номер"
 
-#, fuzzy
 msgctxt "scriptobject:integer:type"
 msgid "integer number"
 msgstr "ціле число"
 
-#, fuzzy
 msgctxt "scriptobject:integer:description"
 msgid "An integer number"
 msgstr "Ціле число"
 
-#, fuzzy
 msgctxt "scriptobject:integer:member:2"
 msgid "Format as 2-digit number"
 msgstr "Формат у вигляді 2-значного числа"
 
-#, fuzzy
 msgctxt "scriptobject:integer:member:3"
 msgid "Format as 3-digit number"
 msgstr "Формат у вигляді 3-значного числа"
 
-#, fuzzy
 msgctxt "scriptobject:integer:member:4"
 msgid "Format as 4-digit number"
 msgstr "Формат у вигляді 4-значного числа"
 
-#, fuzzy
 msgctxt "scriptobject:keyvaluepairs:type"
 msgid "collection"
 msgstr "колекція"
 
-#, fuzzy
 msgctxt "scriptobject:keyvaluepairs:description"
 msgid "A collection of other objects"
 msgstr "Колекція інших об'єктів"
 
-#, fuzzy
 msgctxt "scriptobject:databundle:type"
 msgid "image"
 msgstr "зображення"
 
-#, fuzzy
 msgctxt "scriptobject:databundle:description"
 msgid "Information about an image"
 msgstr "Інформація про зображення"
 
-#, fuzzy
 msgctxt "scriptobject:databundle:member:title"
 msgid "The image title."
 msgstr "Назва зображення."
 
-#, fuzzy
 msgctxt "scriptobject:databundle:member:parent"
 msgid "The folder this image is located in."
 msgstr "Папка, в якій знаходиться це зображення."
 
-#, fuzzy
 msgctxt "scriptobject:databundle:member:number"
 msgid "The user-assigned number."
 msgstr "Номер, призначений користувачем."
 
-#, fuzzy
 msgctxt "scriptobject:databundle:member:capture_date"
 msgid "The date at which this image was captured."
 msgstr "Дата зйомки цього зображення."
 
-#, fuzzy
 msgctxt "scriptobject:databundle:member:exif"
 msgid "EXIF data of this image."
 msgstr "Дані EXIF цього зображення."
 
-#, fuzzy
 msgctxt "scriptobject:folder:type"
 msgid "folder"
-msgstr "папку"
+msgstr "папка"
 
-#, fuzzy
 msgctxt "scriptobject:folder:description"
 msgid "Information about a folder"
 msgstr "Інформація про папку"
 
-#, fuzzy
 msgctxt "scriptobject:folder:member:title"
 msgid "Folder title."
 msgstr "Назва папки."
 
-#, fuzzy
 msgctxt "scriptobject:folder:member:parent"
 msgid "The folder above this one."
 msgstr "Папка над цією."
 
-#, fuzzy
 msgctxt "scriptobject:folder:member:number"
 msgid "The user-assigned number."
 msgstr "Номер, призначений користувачем."
 
-#, fuzzy
 msgctxt "scriptobject:date:type"
 msgid "date"
 msgstr "дата"
 
-#, fuzzy
 msgctxt "scriptobject:date:description"
 msgid "Date and time"
 msgstr "Дата і час"
 
-#, fuzzy
 msgctxt "scriptobject:date:member:yyyy"
 msgid "Year (4 digits)."
 msgstr "Рік (4 цифри)."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:yy"
 msgid "Year (last 2 digits)."
 msgstr "Рік (2 останні цифри)."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:m"
 msgid "Month number."
 msgstr "Номер місяця."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:mm"
 msgid "Month number (2 digits)."
 msgstr "Номер місяця (2 цифри)."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:M"
 msgid "Month (name abbreviation)."
 msgstr "Місяць (абревіатура назви)."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:MM"
 msgid "Month (full name)."
 msgstr "Місяць (ПІБ)."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:d"
 msgid "Day of month."
 msgstr "День місяця."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:dd"
 msgid "Day of month (2 digits)."
 msgstr "День місяця (2 цифри)."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:h"
 msgid "Hour."
-msgstr "годину."
+msgstr "Година."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:hh"
 msgid "Hour (2 digits)."
 msgstr "Година (2 цифри)."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:h12"
 msgid "Hour (12 hours + am/pm)."
 msgstr "Години (12 годин + ранку/півдня)."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:min"
 msgid "Minutes (2 digits)."
 msgstr "Хвилини (2 цифри)."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:sec"
 msgid "Seconds (2 digits)."
 msgstr "Секунди (2 цифри)."
@@ -4442,162 +3593,131 @@ msgctxt "scriptobject:date:member:time"
 msgid "Full time in HH:MM:SS format."
 msgstr "Повний робочий день у форматі ГГ:ММ:СС."
 
-#, fuzzy
 msgctxt "scriptobject:date:member:hhmm"
 msgid "Time in HH:MM format."
 msgstr "Час у форматі ГГ:ММ."
 
-#, fuzzy
 msgctxt "scriptobject:filename:type"
 msgid "filename"
 msgstr "ім'я файлу"
 
-#, fuzzy
 msgctxt "scriptobject:filename:description"
 msgid "A filename"
 msgstr "Ім'я файлу"
 
-#, fuzzy
 msgctxt "scriptobject:filename:member:stem"
 msgid "The filename without suffix."
 msgstr "Ім'я файлу без суфікса."
 
-#, fuzzy
 msgctxt "scriptobject:filename:member:suffix"
 msgid "The filanme suffix."
-msgstr "Суфікс філанме."
+msgstr "Суфікс імені файлу."
 
 #, fuzzy
 msgctxt "scriptobject:exif:type"
 msgid "exif"
 msgstr "exif"
 
-#, fuzzy
 msgctxt "scriptobject:exif:description"
 msgid "EXIF metadata from the image"
 msgstr "Метадані EXIF із зображення"
 
-#, fuzzy
 msgctxt "scriptobject:exif:member:gps"
 msgid "GPS location."
 msgstr "Розташування GPS."
 
-#, fuzzy
 msgctxt "scriptobject:exif:member:date"
 msgid "Date the image was captured."
 msgstr "Дата зйомки зображення."
 
-#, fuzzy
 msgctxt "scriptobject:exif:member:make"
 msgid "Camera manufacturer."
 msgstr "Виробник камери."
 
-#, fuzzy
 msgctxt "scriptobject:exif:member:model"
 msgid "Camera model."
 msgstr "Модель камери."
 
-#, fuzzy
 msgctxt "scriptobject:gps:type"
 msgid "gps"
 msgstr "GPS"
 
-#, fuzzy
 msgctxt "scriptobject:gps:description"
 msgid "GPS location"
 msgstr "Розташування GPS"
 
-#, fuzzy
 msgctxt "scriptobject:gps:member:latitude"
 msgid "Latitude (N/S)."
-msgstr "Широта (N/S)."
+msgstr "Широта (Пн/Пд)."
 
-#, fuzzy
 msgctxt "scriptobject:gps:member:longitude"
 msgid "Longitude (E/W)."
-msgstr "Довгота (E/W)."
+msgstr "Довгота (Сх/Зах)."
 
-#, fuzzy
 msgctxt "scriptobject:gps:member:altitude"
 msgid "Altitude."
 msgstr "Висота над рівнем моря."
 
-#, fuzzy
 msgctxt "editor:warning:element:value-is-locked"
 msgid "Value is locked. You have to unlock it first."
 msgstr "Значення заблоковано. Спочатку його потрібно розблокувати."
 
-#, fuzzy
 msgctxt "lock:editor"
 msgid "editor"
 msgstr "редактор"
 
-#, fuzzy
 msgctxt "lock:folder-content"
 msgid "list folder content"
 msgstr "список вмісту папки"
 
-#, fuzzy
 msgctxt "lock:FileBrowserContent"
 msgid "file browser"
 msgstr "браузер файлів"
 
-#, fuzzy
 msgctxt "lock:thumbnail-rendering"
 msgid "thumbnail rendering"
 msgstr "візуалізація ескізів"
 
-#, fuzzy
 msgctxt "lock:rendering"
 msgid "image rendering"
 msgstr "рендеринг зображення"
 
-#, fuzzy
 msgctxt "lock:create-image"
 msgid "creating image"
-msgstr "створення іміджу"
+msgstr "створення зображення"
 
-#, fuzzy
 msgctxt "lock:import-image"
 msgid "importing image"
 msgstr "імпортування зображення"
 
-#, fuzzy
 msgctxt "lock:syncer"
 msgid "cloud synchronization"
 msgstr "хмарна синхронізація"
 
-#, fuzzy
 msgctxt "lock:image-syncer"
 msgid "image cloud upload"
-msgstr "завантаження хмари зображень"
+msgstr "завантаження зображень з хмари"
 
-#, fuzzy
 msgctxt "lock:pro-migration"
 msgid "pro migration"
-msgstr "про міграцію"
+msgstr "pro міграція"
 
-#, fuzzy
 msgctxt "lock:delete-image"
 msgid "deleting image"
 msgstr "видалення зображення"
 
-#, fuzzy
 msgctxt "lock:delete-entity"
 msgid "deleting entity"
-msgstr "видалення сутності"
+msgstr "видалення об'єкт"
 
-#, fuzzy
 msgctxt "lock:dialog-image-name"
 msgid "image renaming dialog"
 msgstr "діалогове вікно перейменування зображення"
 
-#, fuzzy
 msgctxt "lock:copy-directory"
 msgid "copying directory"
 msgstr "каталог копіювання"
 
-#, fuzzy
 msgctxt "lock:set-library-root"
 msgid "setting image library root"
 msgstr "налаштування кореневої бібліотеки зображень"
