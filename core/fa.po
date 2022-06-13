@@ -126,6 +126,10 @@ msgctxt "error:Files_CannotGenerateUniqueFilename"
 msgid "Cannot generate unique filename: '{}'."
 msgstr "نام فایل منحصر به فرد ایجاد نمی شود: '{}'."
 
+msgctxt "error:File_UnsupportedFileFormat"
+msgid "Format of file '{}' is not supported."
+msgstr ""
+
 msgctxt "error:ProjectFolder_CannotCreate"
 msgid "Cannot create folder '{}'."
 msgstr "پوشه '{}' ایجاد نمی شود."
@@ -695,6 +699,23 @@ msgctxt "error:Android_DeleteOldImageFromGallery"
 msgid "Cannot delete old image from gallery (url='{}')."
 msgstr "حذف عکس قدیمی از گالری امکان پذیر نیست (url='{}')."
 
+msgctxt "error:QtCamera_NotFound"
+msgid "Camera with name '{}' is not connected."
+msgstr ""
+
+msgctxt "error:CameraBackendMismatch"
+msgid "Camera '{}' was configured on a different system."
+msgstr ""
+
+msgctxt "error:QtCamera_MultipleDifferentStreams"
+msgid ""
+"Cannot start video because another stream with different settings is active."
+msgstr ""
+
+msgctxt "error:NoCameraConfigured"
+msgid "No camera is configured in the preferences."
+msgstr ""
+
 msgctxt "unit:translated-name:meter"
 msgid "m"
 msgstr "m"
@@ -1206,6 +1227,14 @@ msgctxt "image-library:company-policy:may-not-delete-here"
 msgid "Your company policy does not allow to delete items at this place."
 msgstr ""
 
+msgctxt "image-library:move:target-folder:dialog-title"
+msgid "Move into folder"
+msgstr ""
+
+msgctxt "image-library:move:target-folder:description"
+msgid "Select the destination folder:"
+msgstr ""
+
 msgctxt "imagebundle-settings:dialog-title"
 msgid "Image settings"
 msgstr ""
@@ -1649,6 +1678,14 @@ msgctxt "about-image:original-image-resolution"
 msgid "Original Image Resolution"
 msgstr "وضوح عکس اصلی"
 
+msgctxt "about-image:camera-configuration"
+msgid "Camera Configuration"
+msgstr ""
+
+msgctxt "about-image:camera-name-and-resolution"
+msgid "'{}' at {}x{}"
+msgstr ""
+
 msgctxt "about-image:gps-coordinates"
 msgid "GPS Coordinates"
 msgstr "مختصات GPS"
@@ -1762,6 +1799,10 @@ msgctxt "editor:styling:font-size"
 msgid "Font size"
 msgstr "اندازۀ فونت"
 
+msgctxt "editor:styling:color"
+msgid "Color"
+msgstr ""
+
 msgctxt "editor:styling:fill-color"
 msgid "Fill color"
 msgstr "پر کردن رنگ"
@@ -1777,6 +1818,22 @@ msgstr "رنگ پس زمینه"
 msgctxt "editor:styling:set-as-default"
 msgid "Set as default"
 msgstr "قرار دادن به صورت پیش فرض"
+
+msgctxt "editor:styling:color:transparent"
+msgid "Transparent"
+msgstr ""
+
+msgctxt "editor:styling:color:automatic"
+msgid "Autormatic"
+msgstr ""
+
+msgctxt "editor:styling:color:master-color"
+msgid "Master color"
+msgstr ""
+
+msgctxt "editor:styling:color:custom-color"
+msgid "Custom color"
+msgstr ""
 
 msgctxt "editor:styling:label:apply-to"
 msgid "Apply to …"
@@ -2216,7 +2273,11 @@ msgctxt "editor:styling:counter:shape:triangle-down"
 msgid "Triangle (down)"
 msgstr ""
 
-msgctxt "editor:value-list:generic-counter"
+msgctxt "editor:styling:counter:filled-shape"
+msgid "Filled shape"
+msgstr ""
+
+msgctxt "editor:results-list:generic-counter"
 msgid "count"
 msgstr ""
 
@@ -2352,6 +2413,26 @@ msgctxt "editor:tag-chooser:dialog-title"
 msgid "Select Tag"
 msgstr ""
 
+msgctxt "editor:new-counter:config-dialog:title"
+msgid "Specify counter"
+msgstr ""
+
+msgctxt "editor:new-counter:config-dialog:group:existing-counters"
+msgid "Existing counters"
+msgstr ""
+
+msgctxt "editor:new-counter:config-dialog:group:new-counter"
+msgid "New counter"
+msgstr ""
+
+msgctxt "editor:new-counter:config-dialog:group:new-counter:name"
+msgid "Name"
+msgstr ""
+
+msgctxt "editor:new-counter:config-dialog:group:new-counter:symbol"
+msgid "Symbol"
+msgstr ""
+
 msgctxt "prefs:measures:length-unit"
 msgid "Length unit"
 msgstr ""
@@ -2366,6 +2447,14 @@ msgstr "واحد زاویه"
 
 msgctxt "prefs:measures:group:display-options"
 msgid "Display options"
+msgstr ""
+
+msgctxt "prefs:image-library:set-directory:dialog-title"
+msgid "Set image library directory"
+msgstr ""
+
+msgctxt "prefs:image-library:use-directory:info-text"
+msgid "Use {}"
 msgstr ""
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
@@ -2489,6 +2578,22 @@ msgstr "C:"
 msgctxt "prefs:editor:drawing-tools:prefix-text:circle-arc-length"
 msgid "s:"
 msgstr "s:"
+
+msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:title"
+msgid "Open notes entry dialog"
+msgstr ""
+
+msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:no"
+msgid "Do not open automatically"
+msgstr ""
+
+msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:if-multiple"
+msgid "Open when adding multiple notes"
+msgstr ""
+
+msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:yes"
+msgid "Open when new note is added"
+msgstr ""
 
 msgctxt "prefs:template:add:general-description"
 msgid ""
@@ -2617,6 +2722,10 @@ msgstr "ستون های جدول"
 msgctxt "prefs:template:custom:tablespec:columns-list:add-column-entry"
 msgid "+ add column"
 msgstr "+ افزودن ستون"
+
+msgctxt "prefs:template:tag-list:add-tag-entry"
+msgid "+ add tag"
+msgstr ""
 
 #, fuzzy
 msgctxt "prefs:template:generic:tablespec:columns:list-header:column-header"
@@ -2899,6 +3008,73 @@ msgctxt "prefs:company:user-full-name"
 msgid "Full name"
 msgstr ""
 
+msgctxt "prefs:camera:camera-name"
+msgid "Camera"
+msgstr ""
+
+msgctxt "prefs:camera:camera-resolution"
+msgid "Resolution"
+msgstr ""
+
+msgctxt "prefs:camera:camera-framerate"
+msgid "Frame rate"
+msgstr ""
+
+msgctxt "prefs:camera:calibration:title"
+msgid "Calibration"
+msgstr ""
+
+msgctxt "prefs:camera:calibration:text(yes+date)"
+msgid "Yes, calibrated on {}"
+msgstr ""
+
+msgctxt "prefs:camera:calibration:text(no)"
+msgid "Not calibrated"
+msgstr ""
+
+msgctxt "prefs:camera:calibration:button:remove-calibration"
+msgid "Remove calibration"
+msgstr ""
+
+msgctxt "prefs:camera:camera-list:none"
+msgid "None"
+msgstr ""
+
+msgctxt "live-camera:editor-window:title"
+msgid "Live camera"
+msgstr ""
+
+msgctxt "live-camera:save:live-or-capture:title"
+msgid "Save live video"
+msgstr ""
+
+msgctxt "live-camera:save:live-or-capture:text"
+msgid ""
+"Save a captured image of the live video or a live camera placeholder image?"
+msgstr ""
+
+msgctxt "live-camera:save:live-or-capture:captured-image"
+msgid "Capture image"
+msgstr ""
+
+msgctxt "live-camera:save:live-or-capture:live-video"
+msgid "Live video"
+msgstr ""
+
+msgctxt "camera-calibration:overwrite:title"
+msgid "Store camera calibration"
+msgstr ""
+
+msgctxt "camera-calibration:overwrite-existing:ask-overwrite"
+msgid ""
+"There is already a calibration stored for this camera at this resolution. Do "
+"you want to overwrite the existing calibration?"
+msgstr ""
+
+msgctxt "camera-calibration:saved:confirmation-message"
+msgid "Camera calibration has been stored."
+msgstr ""
+
 msgctxt "templ:template-name"
 msgid "Template name"
 msgstr "نام الگو"
@@ -2975,6 +3151,10 @@ msgctxt "templ:custom:column-type:text"
 msgid "Text note"
 msgstr "یادداشت متن"
 
+msgctxt "templ:custom:column-type:counter"
+msgid "Counter"
+msgstr ""
+
 msgctxt "templ:custom:new-tablespec-name"
 msgid "Custom Table"
 msgstr "جدول سفارشی"
@@ -2990,6 +3170,10 @@ msgstr "یادداشت متن"
 msgctxt "templ:custom:tag:filter:circle"
 msgid "Circle"
 msgstr "دایره"
+
+msgctxt "templ:custom:tag:filter:counter"
+msgid "Counter"
+msgstr ""
 
 msgctxt "templ:custom:tag:property-name"
 msgid "Tag"
@@ -3372,12 +3556,18 @@ msgctxt "sync:error:cloud-sync-currently-in-use:retry-later"
 msgid "Cloud-sync is currently in use. Please retry later."
 msgstr ""
 
+msgctxt "sync:error:no-cloud-sync-tasks-configured(pc)"
+msgid ""
+"There are no enabled cloud-sync tasks. Nothing to do. First configure some "
+"sync tasks in the preferences, section 'Storage/Cloud Storage'."
+msgstr ""
+
 msgctxt "sync:task:description:anno-image"
 msgid "Image upload to {}"
 msgstr ""
 
 msgctxt "sync:task:description:two-way"
-msgid "Two way sync with {}"
+msgid "Two-way sync with {}"
 msgstr ""
 
 msgctxt "sync:task:backend-options:descr:filesystem"
