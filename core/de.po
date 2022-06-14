@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2022-06-06 13:56+0200\n"
+"PO-Revision-Date: 2022-06-14 10:32+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -694,6 +694,10 @@ msgstr ""
 msgctxt "error:NoCameraConfigured"
 msgid "No camera is configured in the preferences."
 msgstr "In den Einstellungen wurde noch keine Kamera konfiguriert."
+
+msgctxt "error:UnknownCameraBackend"
+msgid "Unknown camera backend"
+msgstr "Unbekanntes Kamerasystem"
 
 msgctxt "unit:translated-name:meter"
 msgid "m"
@@ -3020,6 +3024,42 @@ msgstr "Auflösung"
 msgctxt "prefs:camera:camera-framerate"
 msgid "Frame rate"
 msgstr "Bildrate"
+
+msgctxt "prefs:camera:camera-exposure-time"
+msgid "Exposure time"
+msgstr "Belichtungszeit"
+
+msgctxt "prefs:camera:camera-auto-exposure:target-grey-level"
+msgid "Exposure target grey level"
+msgstr "Zielhelligkeit der Belichtung"
+
+msgctxt "prefs:camera:camera-exposure-mode"
+msgid "Exposure mode"
+msgstr "Belichtungsmodus"
+
+msgctxt "prefs:camera:camera-exposure-mode:timed"
+msgid "Timed"
+msgstr "Zeitgesteuert"
+
+msgctxt "prefs:camera:camera-exposure-mode:auto-grey-level"
+msgid "Automatic grey level"
+msgstr "Regelung auf Zielhelligkeit"
+
+msgctxt "prefs:camera:camera-roi:crop-left"
+msgid "ROI crop left"
+msgstr "Bildbeschnitt links"
+
+msgctxt "prefs:camera:camera-roi:crop-right"
+msgid "ROI crop right"
+msgstr "Bildbeschnitt rechts"
+
+msgctxt "prefs:camera:camera-roi:crop-top"
+msgid "ROI crop top"
+msgstr "Bildbeschnitt oben"
+
+msgctxt "prefs:camera:camera-roi:crop-bottom"
+msgid "ROI crop bottom"
+msgstr "Bildbeschnitt unten"
 
 msgctxt "prefs:camera:calibration:title"
 msgid "Calibration"

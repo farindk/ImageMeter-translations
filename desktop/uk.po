@@ -4,19 +4,20 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
 "PO-Revision-Date: 2022-04-29 13:35+0200\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: ImageMeter\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: ImageMeter\n"
 "X-Generator: Poedit 3.0\n"
 
 #, fuzzy
 msgctxt "pc:error:cannot-find-windows-explorer"
 msgid "Cannot find 'explorer.exe' in path to launch Windows Explorer."
-msgstr "Не вдається знайти «explorer.exe» у шляху до запуску Провідника Windows."
+msgstr ""
+"Не вдається знайти «explorer.exe» у шляху до запуску Провідника Windows."
 
 #, fuzzy
 msgctxt "pc:setup-wizard:dialog-title"
@@ -90,8 +91,11 @@ msgstr "Каталог зображень"
 
 #, fuzzy
 msgctxt "pc:setup-wizard:library:subtitle"
-msgid "Set the directory where ImageMeter should store the images and measurements."
-msgstr "Встановіть каталог, в якому ImageMeter має зберігати зображення та вимірювання."
+msgid ""
+"Set the directory where ImageMeter should store the images and measurements."
+msgstr ""
+"Встановіть каталог, в якому ImageMeter має зберігати зображення та "
+"вимірювання."
 
 #, fuzzy
 msgctxt "pc:setup-wizard:library:label-image-directory"
@@ -298,6 +302,10 @@ msgctxt "pc:mainwindow:menu:image:rotate-right"
 msgid "Rotate image right"
 msgstr "Повернути зображення вправо"
 
+msgctxt "pc:mainwindow:menu:image:flip-horizontally"
+msgid "Flip image horizontally"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:menu:image:image-settings"
 msgid "Image &settings..."
@@ -308,10 +316,26 @@ msgctxt "pc:mainwindow:menu:image:element-locking"
 msgid "Element locking..."
 msgstr "Блокування елементів..."
 
+msgctxt "pc:mainwindow:menu:image:pause-video"
+msgid "Pause video"
+msgstr ""
+
+msgctxt "pc:mainwindow:menu:image:play-video"
+msgid "Play video"
+msgstr ""
+
+msgctxt "pc:mainwindow:menu:image:capture-video-frame"
+msgid "Capture image"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:menu:image:use-dimformat-from-settings"
 msgid "Use units from settings for all elements"
 msgstr "Використовуйте одиниці з налаштувань для всіх елементів"
+
+msgctxt "pc:mainwindow:menu:image:calibrate-camera-from-image"
+msgid "Calibrate camera from image"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:mainwindow:menu:windows"
@@ -405,8 +429,12 @@ msgstr "Не вдається перейменувати папку. Нараз�
 
 #, fuzzy
 msgctxt "pc:error:cannot-quit-program:sync-in-progress"
-msgid "Cannot quit program now because cloud synchronization is currently in progress."
-msgstr "Зараз не вдається вийти з програми, оскільки зараз виконується синхронізація з хмарою."
+msgid ""
+"Cannot quit program now because cloud synchronization is currently in "
+"progress."
+msgstr ""
+"Зараз не вдається вийти з програми, оскільки зараз виконується синхронізація "
+"з хмарою."
 
 #, fuzzy
 msgctxt "pc:mainwindow:quit-program:unsaved-changed:dialog-title"
@@ -437,6 +465,14 @@ msgstr "Імпортувати зображення"
 msgctxt "pc:image-library:button:new-canvas:tooltip"
 msgid "New canvas"
 msgstr "Нове полотно"
+
+msgctxt "pc:image-library:button:new-camera:tooltip"
+msgid "Camera capture"
+msgstr ""
+
+msgctxt "pc:image-library:button:new-video:tooltip"
+msgid "Live video"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:image-library:button:delete:tooltip"
@@ -559,14 +595,20 @@ msgid "Error"
 msgstr "Помилка"
 
 #, fuzzy
-msgctxt "pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-title"
+msgctxt ""
+"pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-title"
 msgid "Use units from settings"
 msgstr "Використовуйте одиниці з налаштувань"
 
 #, fuzzy
-msgctxt "pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-text"
-msgid "Also convert the units of the values that you entered manually or by Bluetooth?"
-msgstr "Також конвертувати одиниці значень, які ви ввели вручну або за допомогою Bluetooth?"
+msgctxt ""
+"pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-text"
+msgid ""
+"Also convert the units of the values that you entered manually or by "
+"Bluetooth?"
+msgstr ""
+"Також конвертувати одиниці значень, які ви ввели вручну або за допомогою "
+"Bluetooth?"
 
 #, fuzzy
 msgctxt "pc:import:pdf:render-resolution-dpi"
@@ -620,8 +662,12 @@ msgstr "Вивести IMI до каталогу"
 
 #, fuzzy
 msgctxt "pc:export:dxf:error:no-entities"
-msgid "There are no objects to write into the DXF. Note that currently only areas are written to the DXF and that they have to be assigned to a reference."
-msgstr "Немає об’єктів для запису в DXF. Зауважте, що наразі в DXF записуються лише області і що їх потрібно призначити до посилання."
+msgid ""
+"There are no objects to write into the DXF. Note that currently only areas "
+"are written to the DXF and that they have to be assigned to a reference."
+msgstr ""
+"Немає об’єктів для запису в DXF. Зауважте, що наразі в DXF записуються лише "
+"області і що їх потрібно призначити до посилання."
 
 #, fuzzy
 msgctxt "pc:export:zip:dialog-title"
@@ -635,13 +681,21 @@ msgstr "Параметри експорту зображень"
 
 #, fuzzy
 msgctxt "pc:databundle:settings:rename:warning:same-title-already-exists"
-msgid "An image with this name already exists. Do you really want to use the same name?"
-msgstr "Зображення з такою назвою вже існує. Ви дійсно хочете використовувати те саме ім'я?"
+msgid ""
+"An image with this name already exists. Do you really want to use the same "
+"name?"
+msgstr ""
+"Зображення з такою назвою вже існує. Ви дійсно хочете використовувати те "
+"саме ім'я?"
 
 #, fuzzy
 msgctxt "pc:folder:settings:rename:warning:same-title-already-exists"
-msgid "A folder with this name already exists. Do you really want to use the same name?"
-msgstr "Папка з такою назвою вже існує. Ви дійсно хочете використовувати те саме ім'я?"
+msgid ""
+"A folder with this name already exists. Do you really want to use the same "
+"name?"
+msgstr ""
+"Папка з такою назвою вже існує. Ви дійсно хочете використовувати те саме "
+"ім'я?"
 
 #, fuzzy
 msgctxt "pc:move-entities:adapt-permissions:dialog-title"
@@ -650,8 +704,12 @@ msgstr "Адаптувати дозволи"
 
 #, fuzzy
 msgctxt "pc:move-entities:adapt-permissions:message"
-msgid "The permissions of the files differ from the target folder's permissions. Should the permissions of the files be adapted?"
-msgstr "Дозволи для файлів відрізняються від дозволів цільової папки. Чи потрібно адаптувати дозволи файлів?"
+msgid ""
+"The permissions of the files differ from the target folder's permissions. "
+"Should the permissions of the files be adapted?"
+msgstr ""
+"Дозволи для файлів відрізняються від дозволів цільової папки. Чи потрібно "
+"адаптувати дозволи файлів?"
 
 #, fuzzy
 msgctxt "pc:move-entities:adapt-permissions:choice:keep"
@@ -773,10 +831,9 @@ msgctxt "pc:editor:toolbar-tools:tool-button:counter:tooltip"
 msgid "Counter"
 msgstr "Лічильник"
 
-#, fuzzy
-msgctxt "pc:editor:toolbar-tools:tool-button:value-list:tooltip"
-msgid "Value list"
-msgstr "Список цінностей"
+msgctxt "pc:editor:toolbar-tools:tool-button:results-list:tooltip"
+msgid "Results list"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:editor:toolbar-tools:context-menu:keep-selected"
@@ -821,7 +878,8 @@ msgstr "Вказує, чи обчислюється значення чи вво
 #, fuzzy
 msgctxt "pc:value-entry:error:invalid-value:check-unit"
 msgid "Invalid value. Please check whether your unit selection is valid."
-msgstr "Недійсне значення. Будь ласка, перевірте, чи є ваш вибір одиниці дійсним."
+msgstr ""
+"Недійсне значення. Будь ласка, перевірте, чи є ваш вибір одиниці дійсним."
 
 #, fuzzy
 msgctxt "pc:value-entry:error:invalid-value:use-as-text"
@@ -1065,8 +1123,12 @@ msgstr "Ліцензії"
 
 #, fuzzy
 msgctxt "pc:prefs:ui:language:changed-restart-program"
-msgid "The language setting has changed. Please restart the program for the changes to take effect."
-msgstr "Налаштування мови змінилося. Перезапустіть програму, щоб зміни набули чинності."
+msgid ""
+"The language setting has changed. Please restart the program for the changes "
+"to take effect."
+msgstr ""
+"Налаштування мови змінилося. Перезапустіть програму, щоб зміни набули "
+"чинності."
 
 #, fuzzy
 msgctxt "pc:image-numbering:dialog:title"
@@ -1245,8 +1307,12 @@ msgstr "ВІДЧИНЕНО"
 
 #, fuzzy
 msgctxt "pc:feedback-dialog:error:could-not-open-mailprogram"
-msgid "Could not open e-mail software. Please open it manually and use the email address shown here."
-msgstr "Не вдалося відкрити програмне забезпечення електронної пошти. Відкрийте його вручну та скористайтеся вказаною тут адресою електронної пошти."
+msgid ""
+"Could not open e-mail software. Please open it manually and use the email "
+"address shown here."
+msgstr ""
+"Не вдалося відкрити програмне забезпечення електронної пошти. Відкрийте його "
+"вручну та скористайтеся вказаною тут адресою електронної пошти."
 
 #, fuzzy
 msgctxt "pc:prefs:dialog:title"
@@ -1287,6 +1353,10 @@ msgstr "Стрижка"
 msgctxt "pc:prefs:section:editor:drawing-tools"
 msgid "Drawing tools"
 msgstr "Інструменти для малювання"
+
+msgctxt "pc:prefs:section:camera"
+msgid "Camera"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:prefs:section:export"
@@ -1533,6 +1603,10 @@ msgctxt "pc:prefs:server-params:filesystem:data-directory:set"
 msgid "Set"
 msgstr "Набір"
 
+msgctxt "pc:prefs:server-params:filesystem:target-directory"
+msgid "Target directory for synced data"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:prefs:server-params:webdav:server-url"
 msgid "WebDAV URL"
@@ -1568,6 +1642,37 @@ msgctxt "pc:prefs:server-params:webdav:check-login:success"
 msgid "Success"
 msgstr "Успіх"
 
+msgctxt "pc:prefs:server-params:oauth:login-description"
+msgid ""
+"In order to process the login, you will be redirected to your web-browser."
+msgstr ""
+
+msgctxt "pc:prefs:server-params:oauth:login-was-redirected"
+msgid ""
+"Please continue the login process on the page that was opened in your web-"
+"browser."
+msgstr ""
+
+msgctxt "pc:prefs:server-params:oauth:logged-in-as-user"
+msgid "Logged in as user: {}"
+msgstr ""
+
+msgctxt "pc:prefs:server-params:oauth:cannot-log-in"
+msgid "Cannot log in"
+msgstr ""
+
+msgctxt "pc:prefs:server-params:oauth:login-button"
+msgid "Log in"
+msgstr ""
+
+msgctxt "pc:prefs:server-params:oauth:logout-button"
+msgid "Log out"
+msgstr ""
+
+msgctxt "pc:prefs:server-params:data-directory"
+msgid "Data directory"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:title"
 msgid "Add new sync task"
@@ -1601,37 +1706,55 @@ msgstr "Завантаження зображення"
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:webdav:description"
 msgid "Can be used with any WebDAV server, including Nextcloud/Owncloud."
-msgstr "Можна використовувати з будь-яким сервером WebDAV, включаючи Nextcloud/Owncloud."
+msgstr ""
+"Можна використовувати з будь-яким сервером WebDAV, включаючи Nextcloud/"
+"Owncloud."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:onedrive:description"
 msgid "Use this to sync with your Microsoft OneDrive account."
-msgstr "Використовуйте це для синхронізації з обліковим записом Microsoft OneDrive."
+msgstr ""
+"Використовуйте це для синхронізації з обліковим записом Microsoft OneDrive."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:googledrive:description"
 msgid "Use this to sync with your Google Drive account."
-msgstr "Використовуйте це для синхронізації зі своїм обліковим записом Google Drive."
+msgstr ""
+"Використовуйте це для синхронізації зі своїм обліковим записом Google Drive."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:dropbox:description"
 msgid "Use this to sync with your Dropbox account."
-msgstr "Використовуйте це для синхронізації зі своїм обліковим записом Dropbox."
+msgstr ""
+"Використовуйте це для синхронізації зі своїм обліковим записом Dropbox."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:filesystem:description"
-msgid "Instead of a cloud server, the data is synced to a local directory on your PC."
-msgstr "Замість хмарного сервера дані синхронізуються з локальним каталогом на вашому ПК."
+msgid ""
+"Instead of a cloud server, the data is synced to a local directory on your "
+"PC."
+msgstr ""
+"Замість хмарного сервера дані синхронізуються з локальним каталогом на "
+"вашому ПК."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:sync-mode:two-way:description"
-msgid "Syncs editable images in both directions between devices. New images and changes will be forwarded to the other device."
-msgstr "Синхронізує редаговані зображення в обох напрямках між пристроями. Нові зображення та зміни будуть переслані на інший пристрій."
+msgid ""
+"Syncs editable images in both directions between devices. New images and "
+"changes will be forwarded to the other device."
+msgstr ""
+"Синхронізує редаговані зображення в обох напрямках між пристроями. Нові "
+"зображення та зміни будуть переслані на інший пристрій."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:sync-mode:image-upload:description"
-msgid "Uploads annotated JPEG images to the server. This is a one-way upload to the server. Thus, the uploaded images cannot be edited further on other devices."
-msgstr "Завантажує анотовані зображення JPEG на сервер. Це одностороннє завантаження на сервер. Таким чином, завантажені зображення не можна редагувати далі на інших пристроях."
+msgid ""
+"Uploads annotated JPEG images to the server. This is a one-way upload to the "
+"server. Thus, the uploaded images cannot be edited further on other devices."
+msgstr ""
+"Завантажує анотовані зображення JPEG на сервер. Це одностороннє завантаження "
+"на сервер. Таким чином, завантажені зображення не можна редагувати далі на "
+"інших пристроях."
 
 #, fuzzy
 msgctxt "pc:prefs:company:users-list-title"
@@ -1650,8 +1773,12 @@ msgstr "Користувачі каталогу верхнього рівня"
 
 #, fuzzy
 msgctxt "pc:prefs:company:folder-permissions:top-level-folder-users:tooltip"
-msgid "Comma separated list of users that will have access rights for new top-level directories."
-msgstr "Розділений комами список користувачів, які матимуть права доступу до нових каталогів верхнього рівня."
+msgid ""
+"Comma separated list of users that will have access rights for new top-level "
+"directories."
+msgstr ""
+"Розділений комами список користувачів, які матимуть права доступу до нових "
+"каталогів верхнього рівня."
 
 #, fuzzy
 msgctxt "pc:prefs:company:folder-permissions:moving-between-folder"
@@ -1695,8 +1822,10 @@ msgstr "Закрити"
 
 #, fuzzy
 msgctxt "pc:sync:progress-dialog:warning:wait-until-finished"
-msgid "Synchronization is still in progress. Please wait until it has been stopped."
-msgstr "Синхронізація ще триває. Будь ласка, зачекайте, поки це не буде зупинено."
+msgid ""
+"Synchronization is still in progress. Please wait until it has been stopped."
+msgstr ""
+"Синхронізація ще триває. Будь ласка, зачекайте, поки це не буде зупинено."
 
 #, fuzzy
 msgctxt "pc:sync:progress:action:preparing"
@@ -1711,7 +1840,9 @@ msgstr "Сканування сервера..."
 #, fuzzy
 msgctxt "pc:sync:progress:action:scanning-server:status"
 msgid "{0} images found, {1} folders found, {2} errors. {3} items left."
-msgstr "Знайдено зображень: {0}, знайдено папок: {1}, помилок: {2}. Залишилося елементів: {3}."
+msgstr ""
+"Знайдено зображень: {0}, знайдено папок: {1}, помилок: {2}. Залишилося "
+"елементів: {3}."
 
 #, fuzzy
 msgctxt "pc:sync:progress:action:sync:push-new"
@@ -1746,7 +1877,8 @@ msgstr "Видалити віддалений {}"
 #, fuzzy
 msgctxt "pc:sync:progress:action:sync:status"
 msgid "{0} items synced ({1} errors), {2} items left."
-msgstr "Синхронізовано елементів: {0} (помилок: {1}), залишилося елементів: {2}."
+msgstr ""
+"Синхронізовано елементів: {0} (помилок: {1}), залишилося елементів: {2}."
 
 #, fuzzy
 msgctxt "pc:sync:progress:action:checking-for-server-updates"
@@ -1768,10 +1900,13 @@ msgctxt "pc:sync:progress:action:finished-with-errors"
 msgid "Finished ({} errors)"
 msgstr "Завершено (помилок: {})"
 
-#, fuzzy
-msgctxt "pc:sync:oauth-login-dialog:title"
+msgctxt "pc:sync:oauth-login-dialog:window-title"
 msgid "User login required"
-msgstr "Потрібен вхід користувача"
+msgstr ""
+
+msgctxt "pc:sync:oauth-login-dialog:title"
+msgid "Login required"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:sync:oauth-login-dialog:message"
@@ -1780,7 +1915,8 @@ msgid ""
 "When you press 'log in', the login page will open in your web-browser."
 msgstr ""
 "Не вдається отримати доступ до сервера {}. Ви повинні увійти знову.\n"
-"Коли ви натискаєте «увійти», у вашому веб-браузері відкриється сторінка входу."
+"Коли ви натискаєте «увійти», у вашому веб-браузері відкриється сторінка "
+"входу."
 
 #, fuzzy
 msgctxt "pc:sync:oauth-login-dialog:success-message"
@@ -1795,3 +1931,22 @@ msgstr ""
 msgctxt "pc:sync:oauth-login-dialog:error"
 msgid "Login failed"
 msgstr "Помилка логіну"
+
+msgctxt "pc:sync:oauth-login-dialog:login-button"
+msgid "Log in"
+msgstr ""
+
+msgctxt "pc:sync:passwort-login:error"
+msgid ""
+"Cannot log in, please check your username and password in the sync settings."
+msgstr ""
+
+#, fuzzy
+#~ msgctxt "pc:editor:toolbar-tools:tool-button:value-list:tooltip"
+#~ msgid "Value list"
+#~ msgstr "Список цінностей"
+
+#, fuzzy
+#~ msgctxt "pc:sync:oauth-login-dialog:title"
+#~ msgid "User login required"
+#~ msgstr "Потрібен вхід користувача"
