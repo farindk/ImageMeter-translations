@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2022-06-14 10:32+0200\n"
+"PO-Revision-Date: 2022-06-21 15:36+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -699,6 +699,70 @@ msgctxt "error:UnknownCameraBackend"
 msgid "Unknown camera backend"
 msgstr "Unbekanntes Kamerasystem"
 
+msgctxt "error:Daheng_Camera"
+msgid "Daheng camera error ({0}): '{1}'"
+msgstr "Daheng Kamerafehler ({0}): '{1}'"
+
+msgctxt "error:Daheng_Camera:1"
+msgid "Unspecified internal error"
+msgstr "Unspezifischer interner Fehler"
+
+msgctxt "error:Daheng_Camera:2"
+msgid "Cannot find TL library"
+msgstr "Kann die TL-Bibliothek nicht finden"
+
+msgctxt "error:Daheng_Camera:3"
+msgid "Camera device not found"
+msgstr "Kamera nicht gefunden"
+
+msgctxt "error:Daheng_Camera:4"
+msgid "Device is offline"
+msgstr "Kamera ist offline"
+
+msgctxt "error:Daheng_Camera:5"
+msgid "Invalid parameter"
+msgstr "Ungültiger Parameter"
+
+msgctxt "error:Daheng_Camera:6"
+msgid "Invalid handle"
+msgstr "Ungültiger Handle"
+
+msgctxt "error:Daheng_Camera:7"
+msgid "Invalid software interface"
+msgstr "Ungültiges Softwareinterface"
+
+msgctxt "error:Daheng_Camera:8"
+msgid "Function inaccessible or incorrect access mode"
+msgstr "Funktion nicht zugreifbar oder falscher Zugriffsmodus"
+
+msgctxt "error:Daheng_Camera:9"
+msgid "Request buffer is too small"
+msgstr "Anfragepuffer ist zu klein"
+
+msgctxt "error:Daheng_Camera:10"
+msgid "Invalid feature data-type"
+msgstr "Ungültiger Datentyp für die Funktion"
+
+msgctxt "error:Daheng_Camera:11"
+msgid "Value out of range"
+msgstr "Wert außerhalb des Bereichs"
+
+msgctxt "error:Daheng_Camera:12"
+msgid "Unimplemented function"
+msgstr "Nicht implementierte Funktion"
+
+msgctxt "error:Daheng_Camera:13"
+msgid "Interface uninitialized"
+msgstr "Schnittstelle ist nicht initialisiert"
+
+msgctxt "error:Daheng_Camera:14"
+msgid "Timeout error"
+msgstr "Zeitüberschreitungs-Fehler"
+
+msgctxt "error:Daheng_Camera:unknown"
+msgid "Unknown error"
+msgstr "Unbekannter Fehler"
+
 msgctxt "unit:translated-name:meter"
 msgid "m"
 msgstr "m"
@@ -1298,6 +1362,30 @@ msgstr "Bestehende Bilder neu nummerieren"
 msgctxt "image-numbering:keep-old-numbering-order"
 msgid "Keep old numbering order"
 msgstr "Alte Nummerierungsreihenfolge beibehalten"
+
+msgctxt "clipboard:action:copy"
+msgid "Copy to clipboard"
+msgstr "In Zwischenspeicher kopieren"
+
+msgctxt "clipboard:action:paste"
+msgid "Paste from clipboard"
+msgstr "Aus Zwischenspeicher einfügen"
+
+msgctxt "clipboard-paste-dialog:window-title"
+msgid "Clipboard paste options"
+msgstr "Einfügeoptionen"
+
+msgctxt "clipboard-paste-dialog:title"
+msgid "Clipboard paste options"
+msgstr "Einfügeoptionen"
+
+msgctxt "clipboard-paste-dialog:option:copy-measurements"
+msgid "Copy measurements"
+msgstr "Messwerte kopieren"
+
+msgctxt "clipboard-paste-dialog:option:center-on-image"
+msgid "Center on image"
+msgstr "Im Bild zentrieren"
 
 msgctxt "import:open-image:without-import:file-dialog:title"
 msgid "Open image"
@@ -4214,4 +4302,3 @@ msgstr "Datei wiederherstellen"
 #~ msgctxt "error:CommaSeparatedList_EmptyString"
 #~ msgid "Empty item in list"
 #~ msgstr "Leerer Eintrag in der Liste."
-
