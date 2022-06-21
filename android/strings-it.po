@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-06-18 22:04+0200\n"
+"POT-Creation-Date: 2022-06-21 20:16+0200\n"
 "PO-Revision-Date: 2022-02-11 12:49+0100\n"
 "Last-Translator: \n"
 "Language: it\n"
@@ -139,16 +139,6 @@ msgstr "Rinomina"
 msgctxt "imageLibrary_image_contextMenu_move"
 msgid "Move to folder"
 msgstr "Sposta nella cartella"
-
-#, fuzzy
-msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
-msgid "Copy to clipboard"
-msgstr "Copia negli appunti"
-
-#, fuzzy
-msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
-msgid "Paste annotation"
-msgstr "Incolla annotazione"
 
 #, fuzzy
 msgctxt "imageLibrary_image_contextMenu_duplicate"
@@ -439,21 +429,6 @@ msgstr "Numero"
 msgctxt "imageLibrary_imageNameDialog_notes"
 msgid "Notes"
 msgstr "Osservazioni"
-
-#. dialog: clipboard paste
-msgctxt "imageLibrary_clipboardPasteDialog_title"
-msgid "Clipboard paste options"
-msgstr "Opzioni di incolla negli appunti"
-
-#, fuzzy
-msgctxt "imageLibrary_clipboardPasteDialog_alsoCopyMeasurementValues"
-msgid "Copy measurements"
-msgstr "Copia misure"
-
-#, fuzzy
-msgctxt "imageLibrary_clipboardPasteDialog_centerAnnotationOnImage"
-msgid "Center on image"
-msgstr "Centra sull'immagine"
 
 #. TODO: currently unused, but could be used again in the move-image dialog
 msgctxt "imageselect_dialog_move_image_to_folder_title"
@@ -3827,16 +3802,6 @@ msgctxt "editor_menu_edit_copy_element"
 msgid "Duplicate element"
 msgstr "Copia elemento"
 
-#, fuzzy
-msgctxt "editor_menu_edit_copy_to_clipboard"
-msgid "Copy to clipboard"
-msgstr "Copia negli appunti"
-
-#, fuzzy
-msgctxt "editor_menu_edit_paste_from_clipboard"
-msgid "Paste from clipboard"
-msgstr "Incolla dagli appunti"
-
 msgctxt "editor_menu_edit_lock_element"
 msgid "Lock element"
 msgstr "Blocca elemento"
@@ -4111,16 +4076,8 @@ msgctxt "editor_dialog_style_textbox_title"
 msgid "Text box style"
 msgstr "Stile casella di testo"
 
-#, fuzzy
-msgctxt "editor_textbox_add_arrow"
-msgid "Add arrow"
-msgstr "Aggiungi freccia"
-
-#, fuzzy
-msgctxt "editor_textbox_delete_arrow"
-msgid "Delete arrow"
-msgstr "Elimina freccia"
-
+#. <string name="editor_textbox_add_arrow">Add arrow</string>     <string
+#. name="editor_textbox_delete_arrow">Delete arrow</string>
 #. GFreehand
 msgctxt "editor_dialog_style_freehand_title"
 msgid "Freehand style"
@@ -4152,11 +4109,7 @@ msgctxt "editor_dialog_style_measure_title"
 msgid "Dimension style"
 msgstr "Stile dimensione"
 
-#, fuzzy
-msgctxt "editor_measure_move_label"
-msgid "Move label"
-msgstr "Sposta etichetta"
-
+#. <string name="editor_measure_move_label">Move label</string>
 #. GAngle
 msgctxt "editor_dialog_style_angle_title"
 msgid "Angle style"
@@ -4232,11 +4185,7 @@ msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:10"
 msgid "10"
 msgstr "10"
 
-#, fuzzy
-msgctxt "editor_rectref_choose_size"
-msgid "Choose size"
-msgstr "Scegli la taglia"
-
+#. <string name="editor_rectref_choose_size">Choose size</string>
 #. GFlatRef (reference scale)
 msgctxt "editor_dialog_style_flatref_title"
 msgid "Reference style"
@@ -4247,16 +4196,8 @@ msgctxt "editor_dialog_style_area_title"
 msgid "Area style"
 msgstr "Stile de l'area"
 
-#, fuzzy
-msgctxt "editor_area_may_add_points"
-msgid "May add points"
-msgstr "Può aggiungere punti"
-
-#, fuzzy
-msgctxt "editor_area_may_delete_points"
-msgid "May delete points"
-msgstr "Può eliminare punti"
-
+#. <string name="editor_area_may_add_points">May add points</string>
+#. <string name="editor_area_may_delete_points">May delete points</string>
 #. GCircle
 msgctxt "editor_dialog_style_circle_title"
 msgid "Circle style"
@@ -4273,56 +4214,19 @@ msgctxt "editor_dialog_style_dimstring_title"
 msgid "Dimension string style"
 msgstr "Stile stringa quota"
 
-#, fuzzy
-msgctxt "editor_dimstring_mode_add_markers"
-msgid "Add measures"
-msgstr "Aggiungi misure"
-
-#, fuzzy
-msgctxt "editor_dimstring_mode_move_markers"
-msgid "Move measures"
-msgstr "Sposta misure"
-
-#, fuzzy
-msgctxt "editor_dimstring_mode_toggle_segments"
-msgid "Toggle segments"
-msgstr "Attiva/disattiva segmenti"
-
-#, fuzzy
-msgctxt "editor_dimstring_mode_move_strings"
-msgid "Move strings"
-msgstr "Sposta le stringhe"
-
-#, fuzzy
-msgctxt "editor_dimstring_mode_set_values"
-msgid "Set values"
-msgstr "Imposta valori"
-
-#, fuzzy
-msgctxt "editor_dimstring_mode_adjust_guide_lines_lengths"
-msgid "Guide lines lengths"
-msgstr "Lunghezze delle linee guida"
-
-#, fuzzy
-msgctxt "editor_dimstring_func_edit_mode"
-msgid "Select edit mode"
-msgstr "Seleziona la modalità di modifica"
-
-#, fuzzy
-msgctxt "editor_dimstring_func_add_string"
-msgid "Add string"
-msgstr "Aggiungi stringa"
-
-#, fuzzy
-msgctxt "editor_dimstring_func_add_cumulative_string"
-msgid "Add cumulative string"
-msgstr "Aggiungi una stringa cumulativa"
-
-#, fuzzy
-msgctxt "editor_dimstring_func_swap_orientation"
-msgid "Swap orientation"
-msgstr "Scambia l'orientamento"
-
+#. <string name="editor_dimstring_mode_add_markers">Add measures</string>
+#. <string name="editor_dimstring_mode_move_markers">Move measures</string>
+#. <string name="editor_dimstring_mode_toggle_segments">Toggle
+#. segments</string>     <string name="editor_dimstring_mode_move_strings">Move
+#. strings</string>     <string name="editor_dimstring_mode_set_values">Set
+#. values</string>     <string
+#. name="editor_dimstring_mode_adjust_guide_lines_lengths">Guide lines
+#. lengths</string>     <string name="editor_dimstring_func_edit_mode">Select
+#. edit mode</string>     <string name="editor_dimstring_func_add_string">Add
+#. string</string>     <string
+#. name="editor_dimstring_func_add_cumulative_string">Add cumulative
+#. string</string>     <string
+#. name="editor_dimstring_func_swap_orientation">Swap orientation</string>
 #. GMeasurementPoint
 msgctxt "editor_dialog_style_measurementpoint_title"
 msgid "Point style"
@@ -4339,16 +4243,9 @@ msgctxt "editor_dialog_style_perspective_line_title"
 msgid "Perspective line style"
 msgstr "Stile della linea prospettica"
 
-#, fuzzy
-msgctxt "editor_perspective_live_add_measure"
-msgid "Add measure"
-msgstr "Aggiungi misura"
-
-#, fuzzy
-msgctxt "editor_perspective_live_remove_measure"
-msgid "Remove measure"
-msgstr "Rimuovi misura"
-
+#. <string name="editor_perspective_live_add_measure">Add measure</string>
+#. <string name="editor_perspective_live_remove_measure">Remove
+#. measure</string>
 #. settings: standard rectangle reference object sizes
 msgctxt "settings_rectref_sizes_title"
 msgid "Reference object sizes"

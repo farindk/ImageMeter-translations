@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-06-18 22:04+0200\n"
+"POT-Creation-Date: 2022-06-21 20:16+0200\n"
 "PO-Revision-Date: 2022-02-11 12:49+0100\n"
 "Last-Translator: \n"
 "Language: cs\n"
@@ -143,16 +143,6 @@ msgstr "Přejmenovat"
 msgctxt "imageLibrary_image_contextMenu_move"
 msgid "Move to folder"
 msgstr "Přesunout do složky"
-
-#, fuzzy
-msgctxt "imageLibrary_image_contextMenu_copyToClipboard"
-msgid "Copy to clipboard"
-msgstr "Zkopírovat do schránky"
-
-#, fuzzy
-msgctxt "imageLibrary_image_contextMenu_pasteAnnotationFromClipboard"
-msgid "Paste annotation"
-msgstr "Vložit anotaci"
 
 #, fuzzy
 msgctxt "imageLibrary_image_contextMenu_duplicate"
@@ -445,21 +435,6 @@ msgstr "Číslo"
 msgctxt "imageLibrary_imageNameDialog_notes"
 msgid "Notes"
 msgstr "Poznámky"
-
-#. dialog: clipboard paste
-msgctxt "imageLibrary_clipboardPasteDialog_title"
-msgid "Clipboard paste options"
-msgstr "Možnosti vložení schránky"
-
-#, fuzzy
-msgctxt "imageLibrary_clipboardPasteDialog_alsoCopyMeasurementValues"
-msgid "Copy measurements"
-msgstr "Kopírování měření"
-
-#, fuzzy
-msgctxt "imageLibrary_clipboardPasteDialog_centerAnnotationOnImage"
-msgid "Center on image"
-msgstr "Střed na obrázku"
 
 #. TODO: currently unused, but could be used again in the move-image dialog
 msgctxt "imageselect_dialog_move_image_to_folder_title"
@@ -3822,16 +3797,6 @@ msgid "Duplicate element"
 msgstr "Prvek kopírování"
 
 #, fuzzy
-msgctxt "editor_menu_edit_copy_to_clipboard"
-msgid "Copy to clipboard"
-msgstr "Zkopírovat do schránky"
-
-#, fuzzy
-msgctxt "editor_menu_edit_paste_from_clipboard"
-msgid "Paste from clipboard"
-msgstr "Vložit ze schránky"
-
-#, fuzzy
 msgctxt "editor_menu_edit_lock_element"
 msgid "Lock element"
 msgstr "Prvek zámku"
@@ -4098,16 +4063,8 @@ msgctxt "editor_dialog_style_textbox_title"
 msgid "Text box style"
 msgstr "Styl textového pole"
 
-#, fuzzy
-msgctxt "editor_textbox_add_arrow"
-msgid "Add arrow"
-msgstr "Přidat šipku"
-
-#, fuzzy
-msgctxt "editor_textbox_delete_arrow"
-msgid "Delete arrow"
-msgstr "Smazat šipku"
-
+#. <string name="editor_textbox_add_arrow">Add arrow</string>     <string
+#. name="editor_textbox_delete_arrow">Delete arrow</string>
 #. GFreehand
 msgctxt "editor_dialog_style_freehand_title"
 msgid "Freehand style"
@@ -4141,11 +4098,7 @@ msgctxt "editor_dialog_style_measure_title"
 msgid "Dimension style"
 msgstr "Styl rozměru"
 
-#, fuzzy
-msgctxt "editor_measure_move_label"
-msgid "Move label"
-msgstr "Přesuňte štítek"
-
+#. <string name="editor_measure_move_label">Move label</string>
 #. GAngle
 msgctxt "editor_dialog_style_angle_title"
 msgid "Angle style"
@@ -4220,11 +4173,7 @@ msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:10"
 msgid "10"
 msgstr "10"
 
-#, fuzzy
-msgctxt "editor_rectref_choose_size"
-msgid "Choose size"
-msgstr "Vyberte velikost"
-
+#. <string name="editor_rectref_choose_size">Choose size</string>
 #. GFlatRef (reference scale)
 msgctxt "editor_dialog_style_flatref_title"
 msgid "Reference style"
@@ -4235,16 +4184,8 @@ msgctxt "editor_dialog_style_area_title"
 msgid "Area style"
 msgstr "Styl oblasti"
 
-#, fuzzy
-msgctxt "editor_area_may_add_points"
-msgid "May add points"
-msgstr "Může přidávat body"
-
-#, fuzzy
-msgctxt "editor_area_may_delete_points"
-msgid "May delete points"
-msgstr "Může smazat body"
-
+#. <string name="editor_area_may_add_points">May add points</string>
+#. <string name="editor_area_may_delete_points">May delete points</string>
 #. GCircle
 msgctxt "editor_dialog_style_circle_title"
 msgid "Circle style"
@@ -4262,56 +4203,19 @@ msgctxt "editor_dialog_style_dimstring_title"
 msgid "Dimension string style"
 msgstr "Styl řetězce kótování"
 
-#, fuzzy
-msgctxt "editor_dimstring_mode_add_markers"
-msgid "Add measures"
-msgstr "Přidejte opatření"
-
-#, fuzzy
-msgctxt "editor_dimstring_mode_move_markers"
-msgid "Move measures"
-msgstr "Přesuňte opatření"
-
-#, fuzzy
-msgctxt "editor_dimstring_mode_toggle_segments"
-msgid "Toggle segments"
-msgstr "Přepnout segmenty"
-
-#, fuzzy
-msgctxt "editor_dimstring_mode_move_strings"
-msgid "Move strings"
-msgstr "Přesuňte řetězce"
-
-#, fuzzy
-msgctxt "editor_dimstring_mode_set_values"
-msgid "Set values"
-msgstr "Nastavte hodnoty"
-
-#, fuzzy
-msgctxt "editor_dimstring_mode_adjust_guide_lines_lengths"
-msgid "Guide lines lengths"
-msgstr "Délka vodicích čar"
-
-#, fuzzy
-msgctxt "editor_dimstring_func_edit_mode"
-msgid "Select edit mode"
-msgstr "Vyberte režim úprav"
-
-#, fuzzy
-msgctxt "editor_dimstring_func_add_string"
-msgid "Add string"
-msgstr "Přidat řetězec"
-
-#, fuzzy
-msgctxt "editor_dimstring_func_add_cumulative_string"
-msgid "Add cumulative string"
-msgstr "Přidat kumulativní řetězec"
-
-#, fuzzy
-msgctxt "editor_dimstring_func_swap_orientation"
-msgid "Swap orientation"
-msgstr "Zaměnit orientaci"
-
+#. <string name="editor_dimstring_mode_add_markers">Add measures</string>
+#. <string name="editor_dimstring_mode_move_markers">Move measures</string>
+#. <string name="editor_dimstring_mode_toggle_segments">Toggle
+#. segments</string>     <string name="editor_dimstring_mode_move_strings">Move
+#. strings</string>     <string name="editor_dimstring_mode_set_values">Set
+#. values</string>     <string
+#. name="editor_dimstring_mode_adjust_guide_lines_lengths">Guide lines
+#. lengths</string>     <string name="editor_dimstring_func_edit_mode">Select
+#. edit mode</string>     <string name="editor_dimstring_func_add_string">Add
+#. string</string>     <string
+#. name="editor_dimstring_func_add_cumulative_string">Add cumulative
+#. string</string>     <string
+#. name="editor_dimstring_func_swap_orientation">Swap orientation</string>
 #. GMeasurementPoint
 #, fuzzy
 msgctxt "editor_dialog_style_measurementpoint_title"
@@ -4329,16 +4233,9 @@ msgctxt "editor_dialog_style_perspective_line_title"
 msgid "Perspective line style"
 msgstr "Perspektivní styl čáry"
 
-#, fuzzy
-msgctxt "editor_perspective_live_add_measure"
-msgid "Add measure"
-msgstr "Přidejte opatření"
-
-#, fuzzy
-msgctxt "editor_perspective_live_remove_measure"
-msgid "Remove measure"
-msgstr "Odstraňte opatření"
-
+#. <string name="editor_perspective_live_add_measure">Add measure</string>
+#. <string name="editor_perspective_live_remove_measure">Remove
+#. measure</string>
 #. settings: standard rectangle reference object sizes
 msgctxt "settings_rectref_sizes_title"
 msgid "Reference object sizes"
