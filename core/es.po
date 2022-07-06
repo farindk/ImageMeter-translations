@@ -774,6 +774,11 @@ msgid "No key-chain available."
 msgstr "No hay llavero disponible."
 
 #, fuzzy
+msgctxt "error:QKeychain:other-error"
+msgid "Key-chain error: {}."
+msgstr "Error de llavero: {}."
+
+#, fuzzy
 msgctxt "error:AudioDecoder_avcodec"
 msgid "Cannot play audio file ({})."
 msgstr "No se puede reproducir el archivo de audio ({})."
@@ -1710,12 +1715,8 @@ msgstr "La imagen ya está en la biblioteca. ¿Quieres hacer una copia?"
 
 #, fuzzy
 msgctxt "rendering:watermark"
-msgid ""
-"Evaluation copy\n"
-"Please upgrade to remove watermark"
-msgstr ""
-"Copia de evaluación\n"
-"Actualice para eliminar la marca de agua"
+msgid "Evaluation copy\nPlease upgrade to remove watermark"
+msgstr "Copia de evaluación\nActualice para eliminar la marca de agua"
 
 #, fuzzy
 msgctxt "export:resolution-too-small"
@@ -1727,8 +1728,10 @@ msgctxt "export:image-not-saved:dialog-title"
 msgid "Images with unsaved changes"
 msgstr "Imágenes con cambios no guardados"
 
-msgctxt "export:image-not-saved:exporting-images-with-unsaved-changes:description"
-msgid "You are trying to export images that are still opened with unsaved changes."
+msgctxt ""
+"export:image-not-saved:exporting-images-with-unsaved-changes:description"
+msgid ""
+"You are trying to export images that are still opened with unsaved changes."
 msgstr ""
 
 #, fuzzy
@@ -1743,12 +1746,8 @@ msgstr "Sobrescritura destructiva"
 
 #, fuzzy
 msgctxt "export:overwrite-plain-image:message"
-msgid ""
-"If you overwrite the original image file '{}' with your annotations, you cannot change it later. The original image will be lost.\n"
-"It is recommended to save to a different file or save as an IMI file that can still be edited lated."
-msgstr ""
-"Si sobrescribe el archivo de imagen original '{}' con sus anotaciones, no podrá cambiarlo más tarde. La imagen original se perderá.\n"
-"Se recomienda guardar en un archivo diferente o guardar como un archivo IMI que aún se puede editar más tarde."
+msgid "If you overwrite the original image file '{}' with your annotations, you cannot change it later. The original image will be lost.\nIt is recommended to save to a different file or save as an IMI file that can still be edited lated."
+msgstr "Si sobrescribe el archivo de imagen original '{}' con sus anotaciones, no podrá cambiarlo más tarde. La imagen original se perderá.\nSe recomienda guardar en un archivo diferente o guardar como un archivo IMI que aún se puede editar más tarde."
 
 #, fuzzy
 msgctxt "export:overwrite-plain-image:button:save-as-image"
@@ -2021,6 +2020,11 @@ msgid "Default"
 msgstr "Defecto"
 
 #, fuzzy
+msgctxt "export:pdf:print-density:dpi-formatstring"
+msgid "{} dpi"
+msgstr "{} ppp"
+
+#, fuzzy
 msgctxt "export:csv:field-separator"
 msgid "Field separator character"
 msgstr "Carácter separador de campo"
@@ -2287,7 +2291,7 @@ msgstr "Transparente"
 
 #, fuzzy
 msgctxt "editor:styling:color:automatic"
-msgid "Autormatic"
+msgid "Automatic"
 msgstr "Automático"
 
 #, fuzzy
@@ -2299,6 +2303,46 @@ msgstr "color maestro"
 msgctxt "editor:styling:color:custom-color"
 msgid "Custom color"
 msgstr "Color personalizado"
+
+#, fuzzy
+msgctxt "editor:styling:color-palette:standard:name"
+msgid "Standard"
+msgstr "Estándar"
+
+#, fuzzy
+msgctxt "editor:styling:color-palette:custom:name"
+msgid "Custom"
+msgstr "Disfraz"
+
+#, fuzzy
+msgctxt "prefs:color-palette:group-title"
+msgid "Color palette"
+msgstr "Paleta de color"
+
+#, fuzzy
+msgctxt "prefs:color-palette:active-palette"
+msgid "Active color palette"
+msgstr "Paleta de colores activa"
+
+#, fuzzy
+msgctxt "prefs:color-palette:show-custom-colors"
+msgid "Allow adding custom colors"
+msgstr "Permitir agregar colores personalizados"
+
+#, fuzzy
+msgctxt "prefs:color-palette:custom-palette-configuration:button"
+msgid "Customize color palette…"
+msgstr "Personaliza la paleta de colores…"
+
+#, fuzzy
+msgctxt "prefs:color-palette:custom-palette-configuration:title"
+msgid "Custom color palette"
+msgstr "Paleta de colores personalizada"
+
+#, fuzzy
+msgctxt "prefs:color-palette:custom-palette-configuration:number-of-rows"
+msgid "Number of rows"
+msgstr "Número de filas"
 
 #, fuzzy
 msgctxt "editor:styling:label:apply-to"
@@ -2829,7 +2873,8 @@ msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-along"
 msgid "Outside (along)"
 msgstr "Afuera (a lo largo)"
 
-msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-orthogonal"
+msgctxt ""
+"editor:styling:rounded-polyline:corner-label-position:outside-orthogonal"
 msgid "Outside (orthogonal)"
 msgstr ""
 
@@ -3608,12 +3653,14 @@ msgid "Only item numbers"
 msgstr "Solo números de artículo"
 
 #, fuzzy
-msgctxt "prefs:template:partslist:tablespec:item-number:only-image-in-image-row"
+msgctxt ""
+"prefs:template:partslist:tablespec:item-number:only-image-in-image-row"
 msgid "Only image numbers, only in image row"
 msgstr "Solo números de imagen, solo en la fila de imágenes"
 
 #, fuzzy
-msgctxt "prefs:template:partslist:tablespec:item-number:both-image-in-image-row"
+msgctxt ""
+"prefs:template:partslist:tablespec:item-number:both-image-in-image-row"
 msgid "Both, but image numbers only in image row"
 msgstr "Ambos, pero números de imagen solo en la fila de imágenes"
 
@@ -3688,7 +3735,8 @@ msgid "Show rows with image names"
 msgstr "Mostrar filas con nombres de imágenes"
 
 #, fuzzy
-msgctxt "prefs:template:partslist:tablespec:row-config:item-numbering-for-each-image"
+msgctxt ""
+"prefs:template:partslist:tablespec:row-config:item-numbering-for-each-image"
 msgid "Independent item numbering for each image"
 msgstr "Numeración de artículos independiente para cada imagen"
 
@@ -3697,7 +3745,8 @@ msgctxt "prefs:template:partslist:tablespec:row-config:show-footer"
 msgid "Show footer row"
 msgstr "Mostrar fila de pie de página"
 
-msgctxt "prefs:template:partslist:tablespec:row-config:combine-counters-into-one-row"
+msgctxt ""
+"prefs:template:partslist:tablespec:row-config:combine-counters-into-one-row"
 msgid "Combine counters into one row per tag"
 msgstr ""
 
@@ -4273,14 +4322,8 @@ msgstr "El multiplicador de conteo para esta área."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
-msgid ""
-"Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n"
-"\n"
-"Enter the two column headers separated by a semicolon."
-msgstr ""
-"El ancho y el alto son dos columnas que se rellenan con las longitudes de los lados si el área es un rectángulo. Para otras formas, las columnas permanecen vacías.\n"
-"\n"
-"Ingrese los encabezados de dos columnas separados por un punto y coma."
+msgid "Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n\nEnter the two column headers separated by a semicolon."
+msgstr "El ancho y el alto son dos columnas que se rellenan con las longitudes de los lados si el área es un rectángulo. Para otras formas, las columnas permanecen vacías.\n\nIngrese los encabezados de dos columnas separados por un punto y coma."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:measured-area"
@@ -4299,14 +4342,8 @@ msgstr "Área calculada que incluye el factor y el recuento."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
-msgid ""
-"Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n"
-"\n"
-"Enter the two column headers separated by a semicolon."
-msgstr ""
-"Genera dos columnas: una columna que incluye todas las áreas que se suman a la suma y una columna que incluye todas las áreas que se restan de la suma total.\n"
-"\n"
-"Ingrese los encabezados de dos columnas separados por un punto y coma."
+msgid "Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n\nEnter the two column headers separated by a semicolon."
+msgstr "Genera dos columnas: una columna que incluye todas las áreas que se suman a la suma y una columna que incluye todas las áreas que se restan de la suma total.\n\nIngrese los encabezados de dos columnas separados por un punto y coma."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:image-area-sum"
@@ -4711,28 +4748,8 @@ msgstr "Tres días"
 
 #, fuzzy
 msgctxt "stringscript:help:introtext"
-msgid ""
-"Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n"
-"\n"
-"Here are some example variables, but see below for the list of variables that are actually allowed here:\n"
-"{image.title} - image title\n"
-"{image.number} - the number you assigned to the image\n"
-"{folder.title} - title of the current folder\n"
-"{folder.parent.title} - title of the parent folder\n"
-"\n"
-"You can build complex expressions like this:\n"
-"{folder.title} / {image.number} - {image.title}"
-msgstr ""
-"Ingrese el texto que debería aparecer aquí. Puede agregar variables encerradas por {} que serán sustituidas.\n"
-"\n"
-"Aquí hay algunas variables de ejemplo, pero vea a continuación la lista de variables que realmente están permitidas aquí:\n"
-"{image.title}: título de la imagen\n"
-"{image.number}: el número que asignó a la imagen\n"
-"{folder.title}: título de la carpeta actual\n"
-"{folder.parent.title}: título de la carpeta principal\n"
-"\n"
-"Puede crear expresiones complejas como esta:\n"
-"{folder.title} / {image.number} - {image.title}"
+msgid "Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n\nHere are some example variables, but see below for the list of variables that are actually allowed here:\n{image.title} - image title\n{image.number} - the number you assigned to the image\n{folder.title} - title of the current folder\n{folder.parent.title} - title of the parent folder\n\nYou can build complex expressions like this:\n{folder.title} / {image.number} - {image.title}"
+msgstr "Ingrese el texto que debería aparecer aquí. Puede agregar variables encerradas por {} que serán sustituidas.\n\nAquí hay algunas variables de ejemplo, pero vea a continuación la lista de variables que realmente están permitidas aquí:\n{image.title}: título de la imagen\n{image.number}: el número que asignó a la imagen\n{folder.title}: título de la carpeta actual\n{folder.parent.title}: título de la carpeta principal\n\nPuede crear expresiones complejas como esta:\n{folder.title} / {image.number} - {image.title}"
 
 #, fuzzy
 msgctxt "stringscript:help:intro_toplevel_variables"
@@ -5144,6 +5161,11 @@ msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr "entidad de recuperación"
 
+#, fuzzy
+#~ msgctxt "editor:styling:color:automatic"
+#~ msgid "Autormatic"
+#~ msgstr "Automático"
+
 #~ msgctxt "editor:styling:line-caps"
 #~ msgid "Line style"
 #~ msgstr "Estilo de línea"
@@ -5165,3 +5187,4 @@ msgstr "entidad de recuperación"
 #~ msgctxt "error:HTTP-error-404"
 #~ msgid "404: Not Found"
 #~ msgstr "404 No encontrado"
+

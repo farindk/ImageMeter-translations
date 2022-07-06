@@ -773,6 +773,11 @@ msgid "No key-chain available."
 msgstr "Nessun portachiavi disponibile."
 
 #, fuzzy
+msgctxt "error:QKeychain:other-error"
+msgid "Key-chain error: {}."
+msgstr "Errore catena chiave: {}."
+
+#, fuzzy
 msgctxt "error:AudioDecoder_avcodec"
 msgid "Cannot play audio file ({})."
 msgstr "Impossibile riprodurre il file audio ({})."
@@ -1962,6 +1967,11 @@ msgid "Default"
 msgstr "Predefinito"
 
 #, fuzzy
+msgctxt "export:pdf:print-density:dpi-formatstring"
+msgid "{} dpi"
+msgstr "{} dpi"
+
+#, fuzzy
 msgctxt "export:csv:field-separator"
 msgid "Field separator character"
 msgstr "Carattere separatore di campo"
@@ -2216,8 +2226,8 @@ msgstr "Trasparente"
 
 #, fuzzy
 msgctxt "editor:styling:color:automatic"
-msgid "Autormatic"
-msgstr "automatico"
+msgid "Automatic"
+msgstr "Automatico"
 
 #, fuzzy
 msgctxt "editor:styling:color:master-color"
@@ -2228,6 +2238,46 @@ msgstr "Colore principale"
 msgctxt "editor:styling:color:custom-color"
 msgid "Custom color"
 msgstr "Colore personalizzato"
+
+#, fuzzy
+msgctxt "editor:styling:color-palette:standard:name"
+msgid "Standard"
+msgstr "Standard"
+
+#, fuzzy
+msgctxt "editor:styling:color-palette:custom:name"
+msgid "Custom"
+msgstr "Costume"
+
+#, fuzzy
+msgctxt "prefs:color-palette:group-title"
+msgid "Color palette"
+msgstr "Palette dei colori"
+
+#, fuzzy
+msgctxt "prefs:color-palette:active-palette"
+msgid "Active color palette"
+msgstr "Tavolozza dei colori attiva"
+
+#, fuzzy
+msgctxt "prefs:color-palette:show-custom-colors"
+msgid "Allow adding custom colors"
+msgstr "Consenti l'aggiunta di colori personalizzati"
+
+#, fuzzy
+msgctxt "prefs:color-palette:custom-palette-configuration:button"
+msgid "Customize color palette…"
+msgstr "Personalizza la tavolozza dei colori..."
+
+#, fuzzy
+msgctxt "prefs:color-palette:custom-palette-configuration:title"
+msgid "Custom color palette"
+msgstr "Tavolozza dei colori personalizzata"
+
+#, fuzzy
+msgctxt "prefs:color-palette:custom-palette-configuration:number-of-rows"
+msgid "Number of rows"
+msgstr "Numero di righe"
 
 #, fuzzy
 msgctxt "editor:styling:label:apply-to"
@@ -4985,6 +5035,11 @@ msgstr "impostazione della radice della libreria di immagini"
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr "entità annullante"
+
+#, fuzzy
+#~ msgctxt "editor:styling:color:automatic"
+#~ msgid "Autormatic"
+#~ msgstr "automatico"
 
 #~ msgctxt "editor:styling:line-caps"
 #~ msgid "Line style"
