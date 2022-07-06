@@ -267,7 +267,7 @@ msgstr "Erreur OpenGL: \"{}\"."
 #, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
 msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
-msgstr "Pas assez de mémoire pour le rendu à la résolution de sortie {}. Veuillez réduire la résolution de sortie."
+msgstr "Pas assez de mémoire pour effectuer le rendu à la résolution de sortie {}. Veuillez réduire la résolution de sortie."
 
 msgctxt "error:CannotRenderImage"
 msgid "Cannot render image \"{}\"."
@@ -761,7 +761,7 @@ msgstr "Aucune caméra n'est configurée dans les préférences."
 #, fuzzy
 msgctxt "error:UnknownCameraBackend"
 msgid "Unknown camera backend"
-msgstr "Backend de caméra inconnu"
+msgstr "Dorsal de caméra inconnu"
 
 #, fuzzy
 msgctxt "error:Daheng_Camera"
@@ -1343,7 +1343,7 @@ msgstr "Attendre"
 #, fuzzy
 msgctxt "splash:item-status:running"
 msgid "Running"
-msgstr "Fonctionnement"
+msgstr "En cours"
 
 #, fuzzy
 msgctxt "splash:item-status:ok"
@@ -1582,7 +1582,8 @@ msgctxt "rendering:watermark"
 msgid ""
 "Evaluation copy\n"
 "Please upgrade to remove watermark"
-msgstr "Version d'évaluation"
+msgstr "Copie d'évaluation\n"
+"Veuillez mettre à niveau pour supprimer le filigrane"
 
 #, fuzzy
 msgctxt "export:resolution-too-small"
@@ -1817,7 +1818,7 @@ msgstr "Ne pas imprimer de notes"
 #, fuzzy
 msgctxt "export:pdf:image-notes-space:reserve-X-space"
 msgid "Reserve {0}% space"
-msgstr "Réserver {0} % d'espace"
+msgstr "Réserver {0}% d'espace"
 
 msgctxt "export:pdf:print-folder-notes"
 msgid "Print folder notes"
@@ -2056,7 +2057,7 @@ msgstr "Remplacer par une image incomplètement chargée"
 #, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:warning"
 msgid "This image has only been loaded partially because it was written with a more recent software version. If you save this image now, parts of the information in the original file gets lost."
-msgstr "Cette image n'a été chargée que partiellement car elle a été écrite avec une version logicielle plus récente. Si vous enregistrez cette image maintenant, une partie des informations du fichier d'origine est perdue."
+msgstr "Cette image n'a été chargée que partiellement car elle a été écrite avec une version logicielle plus récente. Si vous enregistrez cette image maintenant, une partie des informations du fichier d'origine sera perdue."
 
 #, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:question"
@@ -2569,7 +2570,7 @@ msgstr "Angle de position"
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:none"
 msgid "Do not show"
-msgstr "Ne montre pas"
+msgstr "Ne pas montrer"
 
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:outside-along"
@@ -2584,7 +2585,7 @@ msgstr "---"
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:none"
 msgid "Do not show"
-msgstr "Ne montre pas"
+msgstr "Ne pas montrer"
 
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:inside"
@@ -2820,7 +2821,7 @@ msgstr "Résolution"
 #, fuzzy
 msgctxt "image-settings:calibration:scale"
 msgid "Scale"
-msgstr "Escalader"
+msgstr "Échelle"
 
 #, fuzzy
 msgctxt "image-settings:calibration:scale:real"
@@ -3160,7 +3161,7 @@ msgstr "Nom"
 #, fuzzy
 msgctxt "prefs:template:tablespec:list-header:name:tooltip"
 msgid "Name of the table layout"
-msgstr "Nom du format de table"
+msgstr "Nom du format du tableau"
 
 #, fuzzy
 msgctxt "prefs:template:tablespec:list-header:columns"
@@ -3180,7 +3181,7 @@ msgstr "Titre de la colonne"
 #, fuzzy
 msgctxt "prefs:template:partlist:tags:list-header:column-title:tooltip"
 msgid "The column name for this tag in the table output. If left empty, the tag name will be used as column title."
-msgstr "Le nom de la colonne pour cette balise dans la sortie du tableau. Si laissé vide, le nom de la balise sera utilisé comme titre de colonne."
+msgstr "Nom de la colonne pour cette balise dans la sortie du tableau. Si laissé vide, le nom de la balise sera utilisé comme titre de colonne."
 
 #, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract"
@@ -3210,12 +3211,12 @@ msgstr "Modifier la mise en page du tableau de modèle personnalisé"
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:dialog-title(short)"
 msgid "Custom Table Configuration"
-msgstr "Configuration de table personnalisée"
+msgstr "Configuration de tableau personnalisé"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:table-name-label"
 msgid "Table name"
-msgstr "Nom de la table"
+msgstr "Nom du tableau"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns-list-label"
@@ -3240,7 +3241,7 @@ msgstr "En-tête de colonne"
 #, fuzzy
 msgctxt "prefs:template:generic:tablespec:columns:list-header:content"
 msgid "Content"
-msgstr "Teneur"
+msgstr "Contenu"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:list-header:measure"
@@ -3285,7 +3286,7 @@ msgstr "Sélection de mesure"
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip"
 msgid "Here, you define which measurement of the tagged element to put into this column. E.g. for a circle you can choose between its area, radius, circumference, …"
-msgstr "Ici, vous définissez quelle mesure de l'élément étiqueté mettre dans cette colonne. Par exemple. pour un cercle vous pouvez choisir entre son aire, son rayon, sa circonférence, …"
+msgstr "Ici, vous définissez quelle mesure de l'élément étiqueté à mettre dans cette colonne. Par exemple. pour un cercle vous pouvez choisir entre son aire, son rayon, sa circonférence, …"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip-title"
@@ -3305,7 +3306,7 @@ msgstr "Le nombre de colonnes"
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip"
 msgid "Creates this number of columns to fill in values with this tag. Use this when you have several measurements with the same tag in one image."
-msgstr "Crée ce nombre de colonnes pour remplir les valeurs avec cette balise. Utilisez-le lorsque vous avez plusieurs mesures avec le même tag dans une image."
+msgstr "Crée ce nombre de colonnes pour remplir les valeurs avec cette balise. Utilisez-le lorsque vous avez plusieurs mesures avec la meme étiquette dans une image."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip-title"
@@ -3320,7 +3321,7 @@ msgstr "Que placer dans la ligne de pied de page du tableau. Les options incluen
 #, fuzzy
 msgctxt "prefs:template:areasum:tablespec:dialog-title"
 msgid "Edit the table layout of the area template"
-msgstr "Modifier la disposition de table du modèle de zone"
+msgstr "Modifier la disposition du tableau du modèle de zone"
 
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:dialog-title"
@@ -3330,7 +3331,7 @@ msgstr "Modifier la disposition du tableau du modèle de liste de pièces"
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number:none"
 msgid "None"
-msgstr "Rien"
+msgstr "Aucun"
 
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number:only-element"
@@ -3370,7 +3371,7 @@ msgstr "Pour toutes les étiquettes"
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:table-name"
 msgid "Table name"
-msgstr "Nom de la table"
+msgstr "Nom du tableau"
 
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:column-config:title"
@@ -3430,7 +3431,7 @@ msgstr "Afficher la ligne de pied de page"
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:row-config:combine-counters-into-one-row"
 msgid "Combine counters into one row per tag"
-msgstr "Combiner les compteurs en une ligne par tag"
+msgstr "Combiner les compteurs en une ligne par étiquette"
 
 #, fuzzy
 msgctxt "prefs:ui:qt-scale-factor"
@@ -3595,22 +3596,22 @@ msgstr "Niveau de gris automatique"
 #, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-left"
 msgid "ROI crop left"
-msgstr "Recadrage du retour sur investissement à gauche"
+msgstr "Rogner à gauche"
 
 #, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-right"
 msgid "ROI crop right"
-msgstr "Recadrage du retour sur investissement à droite"
+msgstr "Rogner à droite"
 
 #, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-top"
 msgid "ROI crop top"
-msgstr "Haut court ROI"
+msgstr "Rogner en haut"
 
 #, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-bottom"
 msgid "ROI crop bottom"
-msgstr "Retour sur investissement en bas"
+msgstr "Rogner en bas"
 
 #, fuzzy
 msgctxt "prefs:camera:calibration:title"
@@ -3825,7 +3826,7 @@ msgstr "Étiquette"
 #, fuzzy
 msgctxt "templ:areasum:wallarea:new-template-name"
 msgid "New wall area template"
-msgstr "Nouveau modèle de zone de mur"
+msgstr "Nouveau modèle de zone murale"
 
 #, fuzzy
 msgctxt "templ:areasum:floorarea:new-template-name"
@@ -3855,7 +3856,7 @@ msgstr "plafond"
 #, fuzzy
 msgctxt "templ:areasum:wallarea:window"
 msgid "window"
-msgstr "la fenêtre"
+msgstr "fenêtre"
 
 #, fuzzy
 msgctxt "templ:areasum:wallarea:door"
@@ -3900,7 +3901,7 @@ msgstr "Pos."
 #, fuzzy
 msgctxt "templ:areasum:table-column-header:description"
 msgid "Description"
-msgstr "La description"
+msgstr "Description"
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-header:count"
@@ -3940,12 +3941,12 @@ msgstr "Somme"
 #, fuzzy
 msgctxt "templ:areasum:item"
 msgid "Item Number"
-msgstr "Numéro d'article"
+msgstr "Numéro article"
 
 #, fuzzy
 msgctxt "templ:areasum:description"
 msgid "Description"
-msgstr "La description"
+msgstr "Description"
 
 #, fuzzy
 msgctxt "templ:areasum:count"
@@ -3990,7 +3991,7 @@ msgstr "Tableau de somme de superficie"
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:item"
 msgid "The image number. The number will only be filled into the row with the image title."
-msgstr "Le numéro de l'image. Le numéro ne sera rempli que dans la ligne avec le titre de l'image."
+msgstr "Numéro de l'image. Le numéro ne sera rempli que dans la ligne avec le titre de l'image."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:description"
@@ -4000,7 +4001,7 @@ msgstr "Nom descriptif de la zone. Il s'agit soit du nom par défaut de la balis
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:count"
 msgid "The count multiplier for this area."
-msgstr "Le multiplicateur de comptage pour cette surface."
+msgstr "Multiplicateur de comptage pour cette surface."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
@@ -4087,7 +4088,7 @@ msgstr "Étiquette"
 #, fuzzy
 msgctxt "templ:partslist:tag:name"
 msgid "Description"
-msgstr "La description"
+msgstr "Description"
 
 #, fuzzy
 msgctxt "templ:partslist:tag:count"
@@ -4147,7 +4148,7 @@ msgstr "(à partir des paramètres)"
 #, fuzzy
 msgctxt "table-operation:none"
 msgid "None"
-msgstr "Rien"
+msgstr "Aucun"
 
 #, fuzzy
 msgctxt "table-operation:none:keep"
@@ -4220,7 +4221,7 @@ msgstr "Cloud-sync est actuellement utilisé. Veuillez réessayer ultérieuremen
 #, fuzzy
 msgctxt "sync:error:no-cloud-sync-tasks-configured(pc)"
 msgid "There are no enabled cloud-sync tasks. Nothing to do. First configure some sync tasks in the preferences, section 'Storage/Cloud Storage'."
-msgstr "Il n'y a pas de tâches de synchronisation cloud activées. Rien à faire. Configurez d'abord certaines tâches de synchronisation dans les préférences, section 'Stockage/Cloud Storage'."
+msgstr "Il n'y a pas de tâches de synchronisation cloud activées. Rien à faire. Configurez d'abord certaines tâches de synchronisation dans les préférences, section 'Stockage/Cloud Stockage'."
 
 #, fuzzy
 msgctxt "sync:task:description:anno-image"
@@ -4367,7 +4368,7 @@ msgstr "Business"
 #, fuzzy
 msgctxt "entity-initialization:image-title:camera"
 msgid "image from {now}"
-msgstr "image de {now.d} {now.M} {now.yyyy}"
+msgstr "image du {now.d} {now.M} {now.yyyy}"
 
 #, fuzzy
 msgctxt "entity-initialization:image-title:pdf-page-with-name"
@@ -4733,7 +4734,7 @@ msgstr "Date à laquelle l'image a été capturée."
 #, fuzzy
 msgctxt "scriptobject:exif:member:make"
 msgid "Camera manufacturer."
-msgstr "Fabricant de caméras."
+msgstr "Fabricant de la caméra."
 
 #, fuzzy
 msgctxt "scriptobject:exif:member:model"
