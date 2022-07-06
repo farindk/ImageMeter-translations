@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2020-09-24 16:44+0200\n"
+"PO-Revision-Date: 2022-07-06 12:25+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(((n == 1)) ? 0 : 1)\n"
+"Plural-Forms: nplurals=2; plural=(((n == 1)) ? 0 : 1);\n"
 "Generated-By: Babel 2.9.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #, fuzzy
 msgctxt "error:InternalError"
@@ -145,9 +146,10 @@ msgctxt "error:Files_CannotGenerateUniqueFilename"
 msgid "Cannot generate unique filename: '{}'."
 msgstr "No se puede generar un nombre de archivo único: '{}'."
 
+#, fuzzy
 msgctxt "error:File_UnsupportedFileFormat"
 msgid "Format of file '{}' is not supported."
-msgstr ""
+msgstr "El formato de archivo '{}' no es compatible."
 
 msgctxt "error:ProjectFolder_CannotCreate"
 msgid "Cannot create folder '{}'."
@@ -254,8 +256,7 @@ msgstr "Error de análisis del archivo IFD."
 
 msgctxt "error:CannotLockPath-readLock"
 msgid "Cannot read file '{}' because it is currently being modified."
-msgstr ""
-"No se puede leer el archivo '{}' porque se está modificando actualmente."
+msgstr "No se puede leer el archivo '{}' porque se está modificando actualmente."
 
 #, fuzzy
 msgctxt "error:CannotLockPath-writeLock"
@@ -303,12 +304,8 @@ msgstr "Error de OpenGL: \"{}\"."
 
 #, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
-msgid ""
-"Not enough memory to render at output resolution {}. Please reduce the "
-"output resolution."
-msgstr ""
-"No hay suficiente memoria para renderizar a la resolución de salida {}. Por "
-"favor, reduzca la resolución de salida."
+msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
+msgstr "No hay suficiente memoria para renderizar a la resolución de salida {}. Por favor, reduzca la resolución de salida."
 
 msgctxt "error:CannotRenderImage"
 msgid "Cannot render image \"{}\"."
@@ -362,21 +359,25 @@ msgctxt "error:IMF_CorruptedFile"
 msgid "Corrupted IMF file."
 msgstr "Archivo IMF dañado."
 
+#, fuzzy
 msgctxt "error:CannotGenerateCsv"
 msgid "Cannot generate CSV file"
-msgstr ""
+msgstr "No se puede generar el archivo CSV"
 
+#, fuzzy
 msgctxt "error:CannotGenerateXlsx"
 msgid "Cannot generate XLSX file"
-msgstr ""
+msgstr "No se puede generar el archivo XLSX"
 
+#, fuzzy
 msgctxt "error:CannotCreateZIPFile"
 msgid "Cannot create ZIP file"
-msgstr ""
+msgstr "No se puede crear un archivo ZIP"
 
+#, fuzzy
 msgctxt "error:Export_NoImagesToWrite"
 msgid "Data to export does not contain any images"
-msgstr ""
+msgstr "Los datos para exportar no contienen ninguna imagen."
 
 #, fuzzy
 msgctxt "error:CannotGeneratePdf"
@@ -430,8 +431,7 @@ msgstr "No se puede iniciar sesión en su cuenta del servidor en la nube."
 #, fuzzy
 msgctxt "error:Cloud_CannotLogin:unauthorized"
 msgid "Not authorized to sign in to your cloud server account."
-msgstr ""
-"No está autorizado para iniciar sesión en su cuenta del servidor en la nube."
+msgstr "No está autorizado para iniciar sesión en su cuenta del servidor en la nube."
 
 #, fuzzy
 msgctxt "error:Cloud_CannotLogin:incorrect_password"
@@ -441,9 +441,7 @@ msgstr "Nombre de usuario o contraseña incorrectos."
 #, fuzzy
 msgctxt "error:Cloud_CannotLogin:interactive_login_required"
 msgid "Interactive sign in to your cloud server account is required."
-msgstr ""
-"Se requiere el inicio de sesión interactivo en su cuenta del servidor en la "
-"nube"
+msgstr "Se requiere el inicio de sesión interactivo en su cuenta del servidor en la nube"
 
 #, fuzzy
 msgctxt "error:Cloud_CannotLogin:cancelled_by_user"
@@ -498,17 +496,17 @@ msgstr "Error del Servidor: {}"
 #, fuzzy
 msgctxt "error:Cloud_FileLockedOnServer"
 msgid "File is locked on server. Please retry upload at a later time."
-msgstr ""
-"El archivo está bloqueado en el servidor. Vuelva a intentar cargar más tarde."
+msgstr "El archivo está bloqueado en el servidor. Vuelva a intentar cargar más tarde."
 
 #, fuzzy
 msgctxt "error:Cloud_ServerBlocked"
 msgid "Server blocked by another client. Please retry at a later time."
 msgstr "Servidor bloqueado por otro cliente. Vuelva a intentarlo más tarde."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLockLocalFiles"
 msgid "Cannot get exclusive access on local files"
-msgstr ""
+msgstr "No se puede obtener acceso exclusivo a los archivos locales"
 
 #, fuzzy
 msgctxt "error:Cloud_RemoteFileDoesNotExist"
@@ -630,17 +628,20 @@ msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
 msgstr "No se pudo restablecer el estado de sincronización."
 
+#, fuzzy
 msgctxt "error:CloudBackend_OneDrive_DirectoryNotSet"
 msgid "OneDrive server data directory is not set"
-msgstr ""
+msgstr "El directorio de datos del servidor OneDrive no está configurado"
 
+#, fuzzy
 msgctxt "error:CloudBackend_GoogleDrive_DirectoryNotSet"
 msgid "Google Drive server data directory is not set"
-msgstr ""
+msgstr "El directorio de datos del servidor de Google Drive no está configurado"
 
+#, fuzzy
 msgctxt "error:CloudBackend_Filesystem_DirectoryNotSet"
 msgid "Storage directory is not set"
-msgstr ""
+msgstr "El directorio de almacenamiento no está configurado"
 
 #, fuzzy
 msgctxt "error:HTTP-error-400"
@@ -657,9 +658,10 @@ msgctxt "error:HTTP-error-403"
 msgid "403 : Forbidden"
 msgstr "403: Prohibido"
 
+#, fuzzy
 msgctxt "error:HTTP-error-404"
 msgid "404 : Not Found"
-msgstr ""
+msgstr "404 No encontrado"
 
 #, fuzzy
 msgctxt "error:HTTP-error-405"
@@ -694,7 +696,7 @@ msgstr "410: ido"
 #, fuzzy
 msgctxt "error:HTTP-error-500"
 msgid "500 : Internal Server Error"
-msgstr "500: Error de servidor interno: {}."
+msgstr "500: Error de servidor interno"
 
 #, fuzzy
 msgctxt "error:HTTP-error-501"
@@ -751,29 +753,35 @@ msgctxt "error:BluetoothError:generic"
 msgid "Cannot set received Bluetooth value."
 msgstr "No se puede configurar el valor de Bluetooth recibido."
 
+#, fuzzy
 msgctxt "error:QKeychain:entry-not-found"
 msgid "No key found for '{}'."
-msgstr ""
+msgstr "No se encontró ninguna clave para '{}'."
 
+#, fuzzy
 msgctxt "error:QKeychain:cannot-delete-entry"
 msgid "Cannot delete key for '{}'."
-msgstr ""
+msgstr "No se puede eliminar la clave para '{}'."
 
+#, fuzzy
 msgctxt "error:QKeychain:access-denied"
 msgid "Access to key-chain denied."
-msgstr ""
+msgstr "Acceso al llavero denegado."
 
+#, fuzzy
 msgctxt "error:QKeychain:no-keychain-available"
 msgid "No key-chain available."
-msgstr ""
+msgstr "No hay llavero disponible."
 
+#, fuzzy
 msgctxt "error:AudioDecoder_avcodec"
 msgid "Cannot play audio file ({})."
-msgstr ""
+msgstr "No se puede reproducir el archivo de audio ({})."
 
+#, fuzzy
 msgctxt "error:AudioWriter_M4A"
 msgid "Cannot write audio file ({})."
-msgstr ""
+msgstr "No se puede escribir el archivo de audio ({})."
 
 msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
@@ -789,9 +797,10 @@ msgctxt "error:Android_Import_SecurityException"
 msgid "Security exception when accessing URI '{}'."
 msgstr "Excepción de seguridad al acceder al URI '{}'."
 
+#, fuzzy
 msgctxt "error:Android_Import_IllegalStateException"
 msgid "Illegal state exception when accessing URI '{}'"
-msgstr ""
+msgstr "Excepción de estado ilegal al acceder al URI '{}'"
 
 #, fuzzy
 msgctxt "error:Android_InsertImageIntoGallery"
@@ -808,90 +817,110 @@ msgctxt "error:Android_DeleteOldImageFromGallery"
 msgid "Cannot delete old image from gallery (url='{}')."
 msgstr "No se puede eliminar la imagen antigua de la galería (url='{}')."
 
+#, fuzzy
 msgctxt "error:QtCamera_NotFound"
 msgid "Camera with name '{}' is not connected."
-msgstr ""
+msgstr "La cámara con el nombre '{}' no está conectada."
 
+#, fuzzy
 msgctxt "error:CameraBackendMismatch"
 msgid "Camera '{}' was configured on a different system."
-msgstr ""
+msgstr "La cámara '{}' se configuró en un sistema diferente."
 
+#, fuzzy
 msgctxt "error:QtCamera_MultipleDifferentStreams"
-msgid ""
-"Cannot start video because another stream with different settings is active."
-msgstr ""
+msgid "Cannot start video because another stream with different settings is active."
+msgstr "No se puede iniciar el video porque hay otra secuencia activa con una configuración diferente."
 
+#, fuzzy
 msgctxt "error:NoCameraConfigured"
 msgid "No camera is configured in the preferences."
-msgstr ""
+msgstr "No hay ninguna cámara configurada en las preferencias."
 
+#, fuzzy
 msgctxt "error:UnknownCameraBackend"
 msgid "Unknown camera backend"
-msgstr ""
+msgstr "Backend de cámara desconocido"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera"
 msgid "Daheng camera error ({0}): '{1}'"
-msgstr ""
+msgstr "Error de la cámara Daheng ({0}): '{1}'"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:1"
 msgid "Unspecified internal error"
-msgstr ""
+msgstr "Error interno no especificado"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:2"
 msgid "Cannot find TL library"
-msgstr ""
+msgstr "No se puede encontrar la biblioteca TL"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:3"
 msgid "Camera device not found"
-msgstr ""
+msgstr "Dispositivo de cámara no encontrado"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:4"
 msgid "Device is offline"
-msgstr ""
+msgstr "El dispositivo está fuera de línea"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:5"
 msgid "Invalid parameter"
-msgstr ""
+msgstr "Parametro invalido"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:6"
 msgid "Invalid handle"
-msgstr ""
+msgstr "Identificador no válido"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:7"
 msgid "Invalid software interface"
-msgstr ""
+msgstr "Interfaz de software no válida"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:8"
 msgid "Function inaccessible or incorrect access mode"
-msgstr ""
+msgstr "Función inaccesible o modo de acceso incorrecto"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:9"
 msgid "Request buffer is too small"
-msgstr ""
+msgstr "El búfer de solicitud es demasiado pequeño"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:10"
 msgid "Invalid feature data-type"
-msgstr ""
+msgstr "Tipo de datos de entidad no válido"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:11"
 msgid "Value out of range"
-msgstr ""
+msgstr "Valor fuera de rango"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:12"
 msgid "Unimplemented function"
-msgstr ""
+msgstr "función no implementada"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:13"
 msgid "Interface uninitialized"
-msgstr ""
+msgstr "Interfaz no inicializada"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:14"
 msgid "Timeout error"
-msgstr ""
+msgstr "Error de tiempo de espera"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:unknown"
 msgid "Unknown error"
-msgstr ""
+msgstr "Error desconocido"
 
 msgctxt "unit:translated-name:meter"
 msgid "m"
@@ -1110,15 +1139,15 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "Unidades imperiales serán mostradas como ft/in"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
 msgid "Add dot after ambiguous numbers"
-msgstr ""
+msgstr "Agregar punto después de números ambiguos"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
-msgid ""
-"When enabled, a dot is placed after numbers that are ambiguous when read "
-"upside down, like this: 66."
-msgstr ""
+msgid "When enabled, a dot is placed after numbers that are ambiguous when read upside down, like this: 66."
+msgstr "Cuando está habilitado, se coloca un punto después de los números que son ambiguos cuando se leen al revés, como este: 66."
 
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
@@ -1135,11 +1164,10 @@ msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
 msgstr "Agregue un punto si es necesario"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:show-units:title:tooltip"
-msgid ""
-"When disabled, measures are shown without the unit. I.e. just the plain "
-"number '23' instead of '23 cm'."
-msgstr ""
+msgid "When disabled, measures are shown without the unit. I.e. just the plain number '23' instead of '23 cm'."
+msgstr "Cuando está deshabilitado, las medidas se muestran sin la unidad. Es decir. simplemente el número simple '23' en lugar de '23 cm'."
 
 #, fuzzy
 msgctxt "dimformat:options-ui:show-units:title"
@@ -1372,73 +1400,90 @@ msgctxt "character:dot"
 msgid "Dot"
 msgstr "Punto"
 
+#, fuzzy
 msgctxt "sorting:by-name:ascending"
 msgid "by name, ascending"
-msgstr ""
+msgstr "por nombre, ascendiendo"
 
+#, fuzzy
 msgctxt "sorting:by-name:descending"
 msgid "by name, descending"
-msgstr ""
+msgstr "por nombre, descendiente"
 
+#, fuzzy
 msgctxt "sorting:by-creation-date:ascending"
 msgid "by creation date, ascending"
-msgstr ""
+msgstr "por fecha de creación, ascendente"
 
+#, fuzzy
 msgctxt "sorting:by-creation-date:descending"
 msgid "by creation date, descending"
-msgstr ""
+msgstr "por fecha de creación, descendente"
 
+#, fuzzy
 msgctxt "sorting:by-modification-date:ascending"
 msgid "by modification date, ascending"
-msgstr ""
+msgstr "por fecha de modificación, ascendente"
 
+#, fuzzy
 msgctxt "sorting:by-modification-date:descending"
 msgid "by modification date, descending"
-msgstr ""
+msgstr "por fecha de modificación, decreciente"
 
+#, fuzzy
 msgctxt "sorting:by-number:ascending"
 msgid "by number, ascending"
-msgstr ""
+msgstr "por número, ascendente"
 
+#, fuzzy
 msgctxt "sorting:by-number:descending"
 msgid "by number, descending"
-msgstr ""
+msgstr "por número, descendente"
 
+#, fuzzy
 msgctxt "AudioDecoder_avcodec:no-audio-stream-found"
 msgid "No audio stream in file."
-msgstr ""
+msgstr "No hay transmisión de audio en el archivo."
 
+#, fuzzy
 msgctxt "AudioDecoder_avcodec:unsupported-audio-codec"
 msgid "Unsupported audio codec."
-msgstr ""
+msgstr "Códec de audio no compatible."
 
+#, fuzzy
 msgctxt "splash:initializing-application"
 msgid "Initializing application"
-msgstr ""
+msgstr "Inicializando aplicación"
 
+#, fuzzy
 msgctxt "splash:checking-for-updates"
 msgid "Checking for updates…"
-msgstr ""
+msgstr "Comprobando actualizaciones…"
 
+#, fuzzy
 msgctxt "splash:cleaning-up-old-images"
 msgid "Cleaning up old images…"
-msgstr ""
+msgstr "Limpiando imágenes antiguas…"
 
+#, fuzzy
 msgctxt "splash:item-status:waiting"
 msgid "Waiting"
-msgstr ""
+msgstr "Esperando"
 
+#, fuzzy
 msgctxt "splash:item-status:running"
 msgid "Running"
-msgstr ""
+msgstr "Correr"
 
+#, fuzzy
 msgctxt "splash:item-status:ok"
 msgid "Ok"
-msgstr ""
+msgstr "OK"
 
+#, fuzzy
 msgctxt "splash:item-status:error"
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
 #, fuzzy
 msgctxt "ui:list:add-entry"
@@ -1460,14 +1505,15 @@ msgctxt "ui:list:move-entry-down"
 msgid "Down"
 msgstr "Abajo"
 
+#, fuzzy
 msgctxt "ui:button:info"
 msgid "Info"
-msgstr ""
+msgstr "Información"
 
 #, fuzzy
 msgctxt "filename-copy-tag"
 msgid "copy"
-msgstr "Copiar"
+msgstr "copiar"
 
 #, fuzzy
 msgctxt "entities:cannot_delete_image:in_use"
@@ -1482,7 +1528,7 @@ msgstr "No se puede modificar el archivo '{}' porque está actualmente en uso."
 #, fuzzy
 msgctxt "entities:cannot_move_folder:into_itself"
 msgid "Cannot move folder '{}' into itself."
-msgstr "No se puede cambiar el nombre de la carpeta '{}' en el servidor"
+msgstr "No se puede cambiar el nombre de la carpeta '{}' en el servidor."
 
 #, fuzzy
 msgctxt "entities:cannot_rename_image:in_use"
@@ -1494,25 +1540,30 @@ msgctxt "image-library:breadcrumbs:root-folder"
 msgid "Root"
 msgstr "Raíz"
 
+#, fuzzy
 msgctxt "image-library:company-policy:may-not-add-folder-here"
 msgid "Your company policy does not allow to add a new folder at this place."
-msgstr ""
+msgstr "La política de su empresa no permite agregar una nueva carpeta en este lugar."
 
+#, fuzzy
 msgctxt "image-library:company-policy:may-not-add-image-here"
 msgid "Your company policy does not allow to add a new image at this place."
-msgstr ""
+msgstr "La política de su empresa no permite agregar una nueva imagen en este lugar."
 
+#, fuzzy
 msgctxt "image-library:company-policy:may-not-delete-here"
 msgid "Your company policy does not allow to delete items at this place."
-msgstr ""
+msgstr "La política de su empresa no permite eliminar elementos en este lugar."
 
+#, fuzzy
 msgctxt "image-library:move:target-folder:dialog-title"
 msgid "Move into folder"
-msgstr ""
+msgstr "Mover a la carpeta"
 
+#, fuzzy
 msgctxt "image-library:move:target-folder:description"
 msgid "Select the destination folder:"
-msgstr ""
+msgstr "Seleccione la carpeta de destino:"
 
 #, fuzzy
 msgctxt "imagebundle-settings:dialog-title"
@@ -1642,17 +1693,20 @@ msgctxt "clipboard-paste-dialog:option:center-on-image"
 msgid "Center on image"
 msgstr "Centrar en la imagen"
 
+#, fuzzy
 msgctxt "import:open-image:without-import:file-dialog:title"
 msgid "Open image"
-msgstr ""
+msgstr "Abrir imagen"
 
+#, fuzzy
 msgctxt "import:import-image:file-dialog:title"
 msgid "Import image to library"
-msgstr ""
+msgstr "Importar imagen a la biblioteca"
 
+#, fuzzy
 msgctxt "import:import-to-library:image-already-exists:make-copy-question"
 msgid "Image is already in the library. Do you want to make a copy?"
-msgstr ""
+msgstr "La imagen ya está en la biblioteca. ¿Quieres hacer una copia?"
 
 #, fuzzy
 msgctxt "rendering:watermark"
@@ -1666,56 +1720,60 @@ msgstr ""
 #, fuzzy
 msgctxt "export:resolution-too-small"
 msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
-msgstr ""
-"La resolución de salida es demasiado pequeña. El mínimo es {0}x{1} píxeles."
+msgstr "La resolución de salida es demasiado pequeña. El mínimo es {0}x{1} píxeles."
 
+#, fuzzy
 msgctxt "export:image-not-saved:dialog-title"
 msgid "Images with unsaved changes"
+msgstr "Imágenes con cambios no guardados"
+
+msgctxt "export:image-not-saved:exporting-images-with-unsaved-changes:description"
+msgid "You are trying to export images that are still opened with unsaved changes."
 msgstr ""
 
-msgctxt ""
-"export:image-not-saved:exporting-images-with-unsaved-changes:description"
-msgid ""
-"You are trying to export images that are still opened with unsaved changes."
-msgstr ""
-
+#, fuzzy
 msgctxt "export:image-not-saved:exporting-images-with-unsaved-changes:question"
 msgid "Do you want to save them before exporting?"
-msgstr ""
+msgstr "¿Quieres guardarlos antes de exportarlos?"
 
+#, fuzzy
 msgctxt "export:overwrite-plain-image:dialog-title"
 msgid "Destructive overwrite"
-msgstr ""
+msgstr "Sobrescritura destructiva"
 
+#, fuzzy
 msgctxt "export:overwrite-plain-image:message"
 msgid ""
-"If you overwrite the original image file '{}' with your annotations, you "
-"cannot change it later. The original image will be lost.\n"
-"It is recommended to save to a different file or save as an IMI file that "
-"can still be edited lated."
+"If you overwrite the original image file '{}' with your annotations, you cannot change it later. The original image will be lost.\n"
+"It is recommended to save to a different file or save as an IMI file that can still be edited lated."
 msgstr ""
+"Si sobrescribe el archivo de imagen original '{}' con sus anotaciones, no podrá cambiarlo más tarde. La imagen original se perderá.\n"
+"Se recomienda guardar en un archivo diferente o guardar como un archivo IMI que aún se puede editar más tarde."
 
+#, fuzzy
 msgctxt "export:overwrite-plain-image:button:save-as-image"
 msgid "&Save as image..."
-msgstr ""
+msgstr "&Guardar como imagen..."
 
+#, fuzzy
 msgctxt "export:overwrite-plain-image:button:save-as-imi"
 msgid "Save as &IMI..."
-msgstr ""
+msgstr "Guardar como &IMI..."
 
+#, fuzzy
 msgctxt "export:multiple-images:target-directory:dialog-title"
 msgid "Output images to directory"
-msgstr ""
+msgstr "Imágenes de salida al directorio"
 
+#, fuzzy
 msgctxt "export:image:invalid-filename-suffix"
-msgid ""
-"You specified an invalid file suffix (please use one of the supported "
-"formats)"
-msgstr ""
+msgid "You specified an invalid file suffix (please use one of the supported formats)"
+msgstr "Ha especificado un sufijo de archivo no válido (utilice uno de los formatos admitidos)"
 
+#, fuzzy
 msgctxt "export:specific-format:invalid-filename-suffix"
 msgid "You cannot change the file type (must have {} suffix)"
-msgstr ""
+msgstr "No puede cambiar el tipo de archivo (debe tener el sufijo {})"
 
 #, fuzzy
 msgctxt "image-export:size:group-title"
@@ -1787,9 +1845,10 @@ msgctxt "pdf-export:root-folder-title"
 msgid "ImageMeter export"
 msgstr "Exportación de ImageMeter"
 
+#, fuzzy
 msgctxt "export:pdf:dialog-title"
 msgid "PDF export options"
-msgstr ""
+msgstr "Opciones de exportación de PDF"
 
 msgctxt "export:pdf:section:paper"
 msgid "Paper"
@@ -1809,9 +1868,10 @@ msgctxt "export:pdf:paper-orientation(pdf)"
 msgid "PDF page orientation"
 msgstr "Orientación de la página PDF"
 
+#, fuzzy
 msgctxt "export:pdf:paper-orientation"
 msgid "Paper orientation"
-msgstr ""
+msgstr "Orientación del papel"
 
 msgctxt "export:pdf:paper-orientation:portrait"
 msgid "Portrait"
@@ -1829,9 +1889,10 @@ msgctxt "export:pdf:paper-size(pdf)"
 msgid "PDF page size"
 msgstr "Tamaño de página PDF"
 
+#, fuzzy
 msgctxt "export:pdf:paper-size"
 msgid "Paper size"
-msgstr ""
+msgstr "Tamaño de papel"
 
 msgctxt "export:pdf:paper-size:a4"
 msgid "A4"
@@ -1871,9 +1932,10 @@ msgctxt "export:pdf:may-rotate-images:description:off"
 msgid "Images will never be rotated"
 msgstr "Las imágenes nunca se rotarán"
 
+#, fuzzy
 msgctxt "export:pdf:images-per-page"
 msgid "Images per page"
-msgstr ""
+msgstr "Imágenes por página"
 
 msgctxt "export:pdf:images-per-page(pdf)"
 msgid "Images per PDF page"
@@ -1893,18 +1955,20 @@ msgctxt "export:pdf:image-notes-space"
 msgid "Space reserved for image notes"
 msgstr "Espacio reservado para notas de imagen"
 
+#, fuzzy
 msgctxt "export:pdf:image-notes-space(short)"
 msgid "Space for image notes"
-msgstr ""
+msgstr "Espacio para notas de imagen"
 
 #, fuzzy
 msgctxt "export:pdf:image-notes-space:do-not-print-notes"
 msgid "Do not print image notes"
 msgstr "No imprimir notas"
 
+#, fuzzy
 msgctxt "export:pdf:image-notes-space:reserve-X-space"
 msgid "Reserve {0}% space"
-msgstr ""
+msgstr "Reserva {0}% espacio"
 
 #, fuzzy
 msgctxt "export:pdf:print-folder-notes"
@@ -1981,31 +2045,35 @@ msgctxt "export:csv:include-table-footer-row"
 msgid "Include footer row"
 msgstr "Incluir fila de pie de página"
 
+#, fuzzy
 msgctxt "export:csv:error:cannot-export-csv"
 msgid "Cannot export CSV file"
-msgstr ""
+msgstr "No se puede exportar el archivo CSV"
 
+#, fuzzy
 msgctxt "export:csv:error:cannot-export-xlsx"
 msgid "Cannot export XLSX file"
-msgstr ""
+msgstr "No se puede exportar el archivo XLSX"
 
+#, fuzzy
 msgctxt "export:csv:entities-have-no-common-template"
 msgid "There are no common templates defined."
-msgstr ""
+msgstr "No hay plantillas comunes definidas."
 
+#, fuzzy
 msgctxt "export:csv:entities-have-no-common-template:details"
-msgid ""
-"You need to assign a template to each image and folder that you export. You "
-"have to use the same template for each image and folder."
-msgstr ""
+msgid "You need to assign a template to each image and folder that you export. You have to use the same template for each image and folder."
+msgstr "Debe asignar una plantilla a cada imagen y carpeta que exporte. Tienes que usar la misma plantilla para cada imagen y carpeta."
 
+#, fuzzy
 msgctxt "export:tablespec-to-export:dialog-title"
 msgid "Choose data table to export"
-msgstr ""
+msgstr "Elija la tabla de datos para exportar"
 
+#, fuzzy
 msgctxt "print:options:dialog-title"
 msgid "Print options"
-msgstr ""
+msgstr "Opciones de impresión"
 
 #, fuzzy
 msgctxt "zip-export:include-annotated-images"
@@ -2032,13 +2100,15 @@ msgctxt "zip-export:include-pdf-file"
 msgid "Include PDF file"
 msgstr "Incluir archivo PDF"
 
+#, fuzzy
 msgctxt "about-image:unknown-gps"
 msgid "no GPS coordinates"
-msgstr ""
+msgstr "sin coordenadas GPS"
 
+#, fuzzy
 msgctxt "about-image:dialog-title"
 msgid "Image Information"
-msgstr ""
+msgstr "Información de la imagen"
 
 msgctxt "about-image:image-name"
 msgid "Image Name"
@@ -2059,13 +2129,15 @@ msgctxt "about-image:original-image-resolution"
 msgid "Original Image Resolution"
 msgstr "Resolución de imagen original"
 
+#, fuzzy
 msgctxt "about-image:camera-configuration"
 msgid "Camera Configuration"
-msgstr ""
+msgstr "Configuración de la cámara"
 
+#, fuzzy
 msgctxt "about-image:camera-name-and-resolution"
 msgid "'{}' at {}x{}"
-msgstr ""
+msgstr "'{}' en {}x{}"
 
 #, fuzzy
 msgctxt "about-image:gps-coordinates"
@@ -2078,12 +2150,8 @@ msgid "Show on map"
 msgstr "Mostrar en el mapa"
 
 msgctxt "editor:attach:error_no_reference_to_attach_to"
-msgid ""
-"There is no reference in the image! You need to draw a reference in order to "
-"do automatic computations."
-msgstr ""
-"No hay ninguna referencia en la imagen! Es necesario establecer una "
-"referencia con el fin de hacer cálculos automáticos."
+msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
+msgstr "No hay ninguna referencia en la imagen! Es necesario establecer una referencia con el fin de hacer cálculos automáticos."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -2094,19 +2162,12 @@ msgid "Measure is computed based on the reference you provided."
 msgstr "La medida se calcula en base a la referencia que proporcionaste."
 
 msgctxt "editor:attach:hint_howto_attach_to_reference"
-msgid ""
-"Click on the measure you want to compute based on the selected reference."
-msgstr ""
-"Haga clic en la medida que desea calcular en base a la referencia "
-"seleccionada."
+msgid "Click on the measure you want to compute based on the selected reference."
+msgstr "Haga clic en la medida que desea calcular en base a la referencia seleccionada."
 
 msgctxt "editor:attach:hint_howto_attach_measure"
-msgid ""
-"Click on the reference based on which you want to calculate the selected "
-"measure."
-msgstr ""
-"Haga clic en la referencia en base a la cual se desea calcular la medida "
-"seleccionada."
+msgid "Click on the reference based on which you want to calculate the selected measure."
+msgstr "Haga clic en la referencia en base a la cual se desea calcular la medida seleccionada."
 
 #, fuzzy
 msgctxt "editor:attach:messagebox:title"
@@ -2142,35 +2203,35 @@ msgctxt "editor:image-modified-dialog:text"
 msgid "Image has been modified. Do you want to save it?"
 msgstr "La imagen ha sido modificada. ¿Quieres guardarlo?"
 
+#, fuzzy
 msgctxt "editor:loaded-image-has-more-recent-version:title"
 msgid "Trying to load unsupported file format"
-msgstr ""
+msgstr "Intentando cargar un formato de archivo no compatible"
 
+#, fuzzy
 msgctxt "editor:loaded-image-has-more-recent-version:warning"
-msgid ""
-"This image has been saved with a more recent version. You need at least "
-"version {} to load this image correctly. You can still try to open this "
-"file, but some parts of it might be missing."
-msgstr ""
+msgid "This image has been saved with a more recent version. You need at least version {} to load this image correctly. You can still try to open this file, but some parts of it might be missing."
+msgstr "Esta imagen se ha guardado con una versión más reciente. Necesita al menos la versión {} para cargar esta imagen correctamente. Todavía puede intentar abrir este archivo, pero es posible que falten algunas partes."
 
+#, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:title"
 msgid "Overwrite with incompletely loaded image"
-msgstr ""
+msgstr "Sobrescribir con imagen cargada de forma incompleta"
 
+#, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:warning"
-msgid ""
-"This image has only been loaded partially because it was written with a more "
-"recent software version. If you save this image now, parts of the "
-"information in the original file gets lost."
-msgstr ""
+msgid "This image has only been loaded partially because it was written with a more recent software version. If you save this image now, parts of the information in the original file gets lost."
+msgstr "Esta imagen solo se ha cargado parcialmente porque se escribió con una versión de software más reciente. Si guarda esta imagen ahora, parte de la información del archivo original se perderá."
 
+#, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:question"
 msgid "Do you still want to overwrite the file?"
-msgstr ""
+msgstr "¿Aún desea sobrescribir el archivo?"
 
+#, fuzzy
 msgctxt "editor:styling:line-caps"
 msgid "Line caps"
-msgstr ""
+msgstr "Tapas de línea"
 
 #, fuzzy
 msgctxt "editor:styling:line-caps-size"
@@ -2194,9 +2255,10 @@ msgctxt "editor:styling:font-size"
 msgid "Font size"
 msgstr "Tamaño de fuente"
 
+#, fuzzy
 msgctxt "editor:styling:color"
 msgid "Color"
-msgstr ""
+msgstr "Color"
 
 #, fuzzy
 msgctxt "editor:styling:fill-color"
@@ -2218,21 +2280,25 @@ msgctxt "editor:styling:set-as-default"
 msgid "Set as default"
 msgstr "Establecer como predeterminado"
 
+#, fuzzy
 msgctxt "editor:styling:color:transparent"
 msgid "Transparent"
-msgstr ""
+msgstr "Transparente"
 
+#, fuzzy
 msgctxt "editor:styling:color:automatic"
 msgid "Autormatic"
-msgstr ""
+msgstr "Automático"
 
+#, fuzzy
 msgctxt "editor:styling:color:master-color"
 msgid "Master color"
-msgstr ""
+msgstr "color maestro"
 
+#, fuzzy
 msgctxt "editor:styling:color:custom-color"
 msgid "Custom color"
-msgstr ""
+msgstr "Color personalizado"
 
 #, fuzzy
 msgctxt "editor:styling:label:apply-to"
@@ -2254,13 +2320,15 @@ msgctxt "editor:styling:label:apply-to:all-lengths"
 msgid "All lengths"
 msgstr "Todas las longitudes"
 
+#, fuzzy
 msgctxt "editor:styling:label:apply-to:all-angles"
 msgid "All angles"
-msgstr ""
+msgstr "Todos los ángulos"
 
+#, fuzzy
 msgctxt "editor:styling:label:apply-to:all-radii"
 msgid "All radii"
-msgstr ""
+msgstr "Todos los radios"
 
 #, fuzzy
 msgctxt "editor:styling:label:apply-to:whole-element"
@@ -2297,9 +2365,10 @@ msgctxt "editor:styling:measure:show-length"
 msgid "Show length"
 msgstr "Mostrar texto"
 
+#, fuzzy
 msgctxt "editor:measure:swap-endpoints"
 msgid "Swap endpoints"
-msgstr ""
+msgstr "Intercambiar puntos finales"
 
 #, fuzzy
 msgctxt "editor:measure:move-label"
@@ -2532,9 +2601,10 @@ msgctxt "editor:styling:measurement-point:marker-symbol"
 msgid "Marker"
 msgstr "Marcador"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:no-symbol"
 msgid "No symbol"
-msgstr ""
+msgstr "Sin símbolo"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:encircled-cross"
@@ -2566,29 +2636,35 @@ msgctxt "editor:styling:measurement-point:marker-symbol:elevation-bottom"
 msgid "Elevation bottom"
 msgstr "Fondo de elevación"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:tilt-left"
 msgid "Tilt left"
-msgstr ""
+msgstr "Inclina hacia la izquierda"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:tilt-right"
 msgid "Tilt right"
-msgstr ""
+msgstr "inclinar a la derecha"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-left"
 msgid "V-Tilt left"
-msgstr ""
+msgstr "Inclinación en V a la izquierda"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-right"
 msgid "V-Tilt right"
-msgstr ""
+msgstr "Inclinación en V a la derecha"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:left"
 msgid "L"
-msgstr ""
+msgstr "I"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:right"
 msgid "R"
-msgstr ""
+msgstr "D"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-size"
@@ -2670,9 +2746,10 @@ msgctxt "editor:rect-ref:assign-reference-object-size(short)"
 msgid "Choose size"
 msgstr "Elige talla"
 
+#, fuzzy
 msgctxt "editor:rect-ref:assign-reference-object-size"
 msgid "Assign reference object size"
-msgstr ""
+msgstr "Asignar tamaño de objeto de referencia"
 
 #, fuzzy
 msgctxt "editor:styling:textbox:text-h-alignment"
@@ -2707,147 +2784,179 @@ msgctxt "editor:textbox:action:delete-arrow"
 msgid "Delete arrow"
 msgstr "Eliminar flecha"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position"
 msgid "Length position"
-msgstr ""
+msgstr "Posición de longitud"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:radius-label-position"
 msgid "Radius position"
-msgstr ""
+msgstr "Posición del radio"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:angle-label-position"
 msgid "Angle position"
-msgstr ""
+msgstr "Posición de ángulo"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:none"
 msgid "Do not show"
-msgstr ""
+msgstr "No mostrar"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:outside-along"
 msgid "Along line"
-msgstr ""
+msgstr "Una larga linea"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:various"
 msgid "---"
-msgstr ""
+msgstr "---"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:none"
 msgid "Do not show"
-msgstr ""
+msgstr "No mostrar"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:inside"
 msgid "Inside"
-msgstr ""
+msgstr "En el interior"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-along"
 msgid "Outside (along)"
-msgstr ""
+msgstr "Afuera (a lo largo)"
 
-msgctxt ""
-"editor:styling:rounded-polyline:corner-label-position:outside-orthogonal"
+msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-orthogonal"
 msgid "Outside (orthogonal)"
 msgstr ""
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:various"
 msgid "---"
-msgstr ""
+msgstr "---"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode"
 msgid "Side length"
-msgstr ""
+msgstr "Largo de lado"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:tangent-length"
 msgid "Tangent length"
-msgstr ""
+msgstr "Longitud tangente"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:tangent-plus-radius"
 msgid "Tangent plus radius"
-msgstr ""
+msgstr "Tangente más radio"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:miter-joint"
 msgid "Miter joints"
-msgstr ""
+msgstr "Juntas de inglete"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:rebar"
 msgid "Rebar"
-msgstr ""
+msgstr "barra de refuerzo"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:mode:move-corner"
 msgid "Move corner"
-msgstr ""
+msgstr "Mover esquina"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:mode:adjust-corner-radius"
 msgid "Corner radius"
-msgstr ""
+msgstr "Radio de esquina"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:mode:add-corner"
 msgid "Add corner"
-msgstr ""
+msgstr "Añadir esquina"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:mode:delete-corner"
 msgid "Delete corner"
-msgstr ""
+msgstr "Eliminar esquina"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:action:open-contour"
 msgid "Open contour"
-msgstr ""
+msgstr "Contorno abierto"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:action:close-contour"
 msgid "Close contour"
-msgstr ""
+msgstr "Cerrar contorno"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:action:expand"
 msgid "Expand"
-msgstr ""
+msgstr "Expandir"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:action:expand:invalid-expansion-offset"
-msgid ""
-"Invalid expansion offset. This offset value would lead to an invalid shape."
-msgstr ""
+msgid "Invalid expansion offset. This offset value would lead to an invalid shape."
+msgstr "Compensación de expansión no válida. Este valor de compensación daría lugar a una forma no válida."
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:expand:dialog:window-title"
 msgid "Expand"
-msgstr ""
+msgstr "Expandir"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:expand:expand-by:prefix"
 msgid "Expand by"
-msgstr ""
+msgstr "Expandir por"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:expand:expand-by:hint"
 msgid "e.g. 10mm"
-msgstr ""
+msgstr "p.ej. 10 mm"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape"
 msgid "Shape"
-msgstr ""
+msgstr "Forma"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:circle"
 msgid "Circle"
-msgstr ""
+msgstr "Circulo"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:square"
 msgid "Square"
-msgstr ""
+msgstr "Cuadrado"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:triangle-up"
 msgid "Triangle (up)"
-msgstr ""
+msgstr "Triángulo (arriba)"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:triangle-down"
 msgid "Triangle (down)"
-msgstr ""
+msgstr "Triángulo (abajo)"
 
+#, fuzzy
 msgctxt "editor:styling:counter:filled-shape"
 msgid "Filled shape"
-msgstr ""
+msgstr "forma llena"
 
+#, fuzzy
 msgctxt "editor:results-list:generic-counter"
 msgid "count"
-msgstr ""
+msgstr "contar"
 
+#, fuzzy
 msgctxt "editor:styling:results-list:show-symbols"
 msgid "Show counter symbols"
-msgstr ""
+msgstr "Mostrar símbolos de contador"
 
 #, fuzzy
 msgctxt "image-settings:image:saturation"
@@ -2979,9 +3088,10 @@ msgctxt "image-settings:secondary-label:mode:off"
 msgid "Off"
 msgstr "Apagado"
 
+#, fuzzy
 msgctxt "image-settings:secondary-label:no-secondary-label"
 msgid "No secondary label"
-msgstr ""
+msgstr "Sin etiqueta secundaria"
 
 #, fuzzy
 msgctxt "image-settings:secondary-label:alternative-unit"
@@ -3003,57 +3113,69 @@ msgctxt "image-settings:secondary-label:model-scale:scale"
 msgid "Scale"
 msgstr "Escala"
 
+#, fuzzy
 msgctxt "editor:properties:dialog-title"
 msgid "Tag and Properties"
-msgstr ""
+msgstr "Etiqueta y propiedades"
 
+#, fuzzy
 msgctxt "editor:tag-chooser:dialog-title"
 msgid "Select Tag"
-msgstr ""
+msgstr "Seleccionar etiqueta"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:title"
 msgid "Specify counter"
-msgstr ""
+msgstr "Especificar contador"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:existing-counters"
 msgid "Existing counters"
-msgstr ""
+msgstr "Contadores existentes"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:new-counter"
 msgid "New counter"
-msgstr ""
+msgstr "Nuevo contador"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:new-counter:name"
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:new-counter:symbol"
 msgid "Symbol"
-msgstr ""
+msgstr "Símbolo"
 
+#, fuzzy
 msgctxt "prefs:measures:length-unit"
 msgid "Length unit"
-msgstr ""
+msgstr "Unidad de longitud"
 
+#, fuzzy
 msgctxt "prefs:measures:area-unit"
 msgid "Area unit"
-msgstr ""
+msgstr "Unidad de área"
 
 msgctxt "prefs:measures:angle-unit"
 msgid "Angle unit"
 msgstr "Unidad angular"
 
+#, fuzzy
 msgctxt "prefs:measures:group:display-options"
 msgid "Display options"
-msgstr ""
+msgstr "Opciones de pantalla"
 
+#, fuzzy
 msgctxt "prefs:image-library:set-directory:dialog-title"
 msgid "Set image library directory"
-msgstr ""
+msgstr "Establecer el directorio de la biblioteca de imágenes"
 
+#, fuzzy
 msgctxt "prefs:image-library:use-directory:info-text"
 msgid "Use {}"
-msgstr ""
+msgstr "Usar {}"
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
@@ -3123,18 +3245,12 @@ msgstr "1 ft"
 #, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:tooltip"
 msgid "Snap to multiples of this distance (only for rectangles and distance)."
-msgstr ""
-"Ajustar a múltiplos de esta distancia (solo para rectángulos y distancia)."
+msgstr "Ajustar a múltiplos de esta distancia (solo para rectángulos y distancia)."
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
-msgid ""
-"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
-"rectangle sides will be restricted to steps of this size."
-msgstr ""
-"Introduzca una distancia con la unidad (por ejemplo, 10cm, 1ft o 1'). Las "
-"dimensiones dibujadas y los lados de los rectángulos se limitarán a los "
-"escalones de este tamaño."
+msgid "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and rectangle sides will be restricted to steps of this size."
+msgstr "Introduzca una distancia con la unidad (por ejemplo, 10cm, 1ft o 1'). Las dimensiones dibujadas y los lados de los rectángulos se limitarán a los escalones de este tamaño."
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
@@ -3191,9 +3307,10 @@ msgctxt "prefs:editor:drawing-tools:prefix-text:circle-radius"
 msgid "r:"
 msgstr "r:"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:prefix-text:circle-diameter"
 msgid "d:"
-msgstr ""
+msgstr "d:"
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:prefix-text:circle-area"
@@ -3210,134 +3327,155 @@ msgctxt "prefs:editor:drawing-tools:prefix-text:circle-arc-length"
 msgid "s:"
 msgstr "s:"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:title"
 msgid "Open notes entry dialog"
-msgstr ""
+msgstr "Abrir cuadro de diálogo de entrada de notas"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:no"
 msgid "Do not open automatically"
-msgstr ""
+msgstr "No abrir automáticamente"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:if-multiple"
 msgid "Open when adding multiple notes"
-msgstr ""
+msgstr "Abrir al agregar múltiples notas"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:yes"
 msgid "Open when new note is added"
-msgstr ""
+msgstr "Abrir cuando se agrega una nueva nota"
 
 #, fuzzy
 msgctxt "prefs:template:add:general-description"
-msgid ""
-"Choose the template that best matches your needs. You can further customize "
-"it later."
-msgstr ""
-"Elija la plantilla que mejor se adapte a sus necesidades. Puede "
-"personalizarlo aún más más tarde."
+msgid "Choose the template that best matches your needs. You can further customize it later."
+msgstr "Elija la plantilla que mejor se adapte a sus necesidades. Puede personalizarlo aún más más tarde."
 
 #, fuzzy
 msgctxt "prefs:template:add:dialog-title"
 msgid "Template type"
 msgstr "Tipo de plantilla"
 
+#, fuzzy
 msgctxt "prefs:template:add-template(capital)"
 msgid "Add template"
-msgstr ""
+msgstr "Agregar plantilla"
 
+#, fuzzy
 msgctxt "prefs:template:remove-template(capital)"
 msgid "Remove template"
-msgstr ""
+msgstr "Quitar plantilla"
 
+#, fuzzy
 msgctxt "prefs:template:list-header:name(pc)"
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
+#, fuzzy
 msgctxt "prefs:template:list-header:type(pc)"
 msgid "Type"
-msgstr ""
+msgstr "Escribe"
 
+#, fuzzy
 msgctxt "prefs:template:list:group-title(pc)"
 msgid "Templates"
-msgstr ""
+msgstr "Plantillas"
 
+#, fuzzy
 msgctxt "prefs:template:config:group-title(pc)"
 msgid "Template configuration"
-msgstr ""
+msgstr "Configuración de plantillas"
 
+#, fuzzy
 msgctxt "prefs:template:tags:list-title"
 msgid "Tags"
-msgstr ""
+msgstr "Etiquetas"
 
+#, fuzzy
 msgctxt "prefs:template:table-layouts:list-title"
 msgid "Table layouts"
-msgstr ""
+msgstr "Diseños de mesa"
 
+#, fuzzy
 msgctxt "prefs:template:table-layouts:edit-button"
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
+#, fuzzy
 msgctxt "prefs:template:tags:list-header:name"
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
+#, fuzzy
 msgctxt "prefs:template:tags:list-header:name:tooltip"
 msgid "Name of the tag"
-msgstr ""
+msgstr "Nombre de la etiqueta"
 
+#, fuzzy
 msgctxt "prefs:template:custom:tag:list-header:content-type"
 msgid "Content type"
-msgstr ""
+msgstr "Tipo de contenido"
 
+#, fuzzy
 msgctxt "prefs:template:custom:tag:list-header:content-type:tooltip"
-msgid ""
-"The content type limits to which kind of elements the tag can be attached."
-msgstr ""
+msgid "The content type limits to which kind of elements the tag can be attached."
+msgstr "El tipo de contenido limita a qué tipo de elementos se puede adjuntar la etiqueta."
 
+#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:name"
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
+#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:name:tooltip"
 msgid "Name of the table layout"
-msgstr ""
+msgstr "Nombre del diseño de la mesa"
 
+#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:columns"
 msgid "Columns"
-msgstr ""
+msgstr "columnas"
 
+#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:columns:tooltip"
 msgid "Summary of the columns in this table"
-msgstr ""
+msgstr "Resumen de las columnas de esta tabla"
 
+#, fuzzy
 msgctxt "prefs:template:partlist:tags:list-header:column-title"
 msgid "Column title"
-msgstr ""
+msgstr "Título de la columna"
 
+#, fuzzy
 msgctxt "prefs:template:partlist:tags:list-header:column-title:tooltip"
-msgid ""
-"The column name for this tag in the table output. If left empty, the tag "
-"name will be used as column title."
-msgstr ""
+msgid "The column name for this tag in the table output. If left empty, the tag name will be used as column title."
+msgstr "El nombre de la columna para esta etiqueta en la salida de la tabla. Si se deja vacío, el nombre de la etiqueta se usará como título de columna."
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract"
 msgid "Subtract"
-msgstr ""
+msgstr "Sustraer"
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract:tooltip"
 msgid "Whether the value should be subtracted from the area sum."
-msgstr ""
+msgstr "Si el valor debe restarse de la suma del área."
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:factor"
 msgid "Factor"
-msgstr ""
+msgstr "Factor"
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:factor:tooltip"
 msgid "The factor by which this area contributes to the sum."
-msgstr ""
+msgstr "El factor por el cual esta área contribuye a la suma."
 
+#, fuzzy
 msgctxt "prefs:template:custom:tablespec:dialog-title"
 msgid "Edit custom template table layout"
-msgstr ""
+msgstr "Editar diseño de tabla de plantilla personalizada"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:dialog-title(short)"
@@ -3359,9 +3497,10 @@ msgctxt "prefs:template:custom:tablespec:columns-list:add-column-entry"
 msgid "+ add column"
 msgstr "+ agregar columna"
 
+#, fuzzy
 msgctxt "prefs:template:tag-list:add-tag-entry"
 msgid "+ add tag"
-msgstr ""
+msgstr "+ añadir etiqueta"
 
 #, fuzzy
 msgctxt "prefs:template:generic:tablespec:columns:list-header:column-header"
@@ -3405,14 +3544,8 @@ msgstr "Contenido de la columna"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:content:tooltip"
-msgid ""
-"Specify the cell content in this column. This can be either a measurement "
-"value that you annotated with a tag, or image metadata (e.g. image name, "
-"capture date)."
-msgstr ""
-"Especifique el contenido de la celda en esta columna. Puede ser un valor de "
-"medición que anotó con una etiqueta o metadatos de imagen (por ejemplo, "
-"nombre de la imagen, fecha de captura)."
+msgid "Specify the cell content in this column. This can be either a measurement value that you annotated with a tag, or image metadata (e.g. image name, capture date)."
+msgstr "Especifique el contenido de la celda en esta columna. Puede ser un valor de medición que anotó con una etiqueta o metadatos de imagen (por ejemplo, nombre de la imagen, fecha de captura)."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip-title"
@@ -3421,14 +3554,8 @@ msgstr "Selección de medida"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip"
-msgid ""
-"Here, you define which measurement of the tagged element to put into this "
-"column. E.g. for a circle you can choose between its area, radius, "
-"circumference, …"
-msgstr ""
-"Aquí, usted define qué medida del elemento etiquetado colocar en esta "
-"columna. P.ej. para un círculo puede elegir entre su área, radio, "
-"circunferencia,…"
+msgid "Here, you define which measurement of the tagged element to put into this column. E.g. for a circle you can choose between its area, radius, circumference, …"
+msgstr "Aquí, usted define qué medida del elemento etiquetado colocar en esta columna. P.ej. para un círculo puede elegir entre su área, radio, circunferencia,…"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip-title"
@@ -3437,14 +3564,8 @@ msgstr "Varios valores por celda"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip"
-msgid ""
-"When several elements are assigned the same tag, several values will be "
-"placed into one cell. Here you can choose to sum these values, take their "
-"average, or other options instead of keeping all in one cell."
-msgstr ""
-"Cuando a varios elementos se les asigna la misma etiqueta, se colocarán "
-"varios valores en una celda. Aquí puede optar por sumar estos valores, tomar "
-"su promedio u otras opciones en lugar de mantener todo en una celda."
+msgid "When several elements are assigned the same tag, several values will be placed into one cell. Here you can choose to sum these values, take their average, or other options instead of keeping all in one cell."
+msgstr "Cuando a varios elementos se les asigna la misma etiqueta, se colocarán varios valores en una celda. Aquí puede optar por sumar estos valores, tomar su promedio u otras opciones en lugar de mantener todo en una celda."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip-title"
@@ -3453,12 +3574,8 @@ msgstr "Número de columnas"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip"
-msgid ""
-"Creates this number of columns to fill in values with this tag. Use this "
-"when you have several measurements with the same tag in one image."
-msgstr ""
-"Crea este número de columnas para completar valores con esta etiqueta. Use "
-"esto cuando tenga varias medidas con la misma etiqueta en una imagen."
+msgid "Creates this number of columns to fill in values with this tag. Use this when you have several measurements with the same tag in one image."
+msgstr "Crea este número de columnas para completar valores con esta etiqueta. Use esto cuando tenga varias medidas con la misma etiqueta en una imagen."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip-title"
@@ -3467,21 +3584,18 @@ msgstr "Contenido de la fila del pie de página"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip"
-msgid ""
-"What to place in the footer row of the table. Options include the sum of all "
-"values in the column, the maximum, the average, and other options."
-msgstr ""
-"Qué colocar en la fila de pie de página de la tabla. Las opciones incluyen "
-"la suma de todos los valores de la columna, el máximo, el promedio y otras "
-"opciones."
+msgid "What to place in the footer row of the table. Options include the sum of all values in the column, the maximum, the average, and other options."
+msgstr "Qué colocar en la fila de pie de página de la tabla. Las opciones incluyen la suma de todos los valores de la columna, el máximo, el promedio y otras opciones."
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tablespec:dialog-title"
 msgid "Edit the table layout of the area template"
-msgstr ""
+msgstr "Edite el diseño de la tabla de la plantilla de área"
 
+#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:dialog-title"
 msgid "Edit table layout of the parts-list template"
-msgstr ""
+msgstr "Edite el diseño de la tabla de la plantilla de lista de piezas"
 
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number:none"
@@ -3494,14 +3608,12 @@ msgid "Only item numbers"
 msgstr "Solo números de artículo"
 
 #, fuzzy
-msgctxt ""
-"prefs:template:partslist:tablespec:item-number:only-image-in-image-row"
+msgctxt "prefs:template:partslist:tablespec:item-number:only-image-in-image-row"
 msgid "Only image numbers, only in image row"
 msgstr "Solo números de imagen, solo en la fila de imágenes"
 
 #, fuzzy
-msgctxt ""
-"prefs:template:partslist:tablespec:item-number:both-image-in-image-row"
+msgctxt "prefs:template:partslist:tablespec:item-number:both-image-in-image-row"
 msgid "Both, but image numbers only in image row"
 msgstr "Ambos, pero números de imagen solo en la fila de imágenes"
 
@@ -3576,8 +3688,7 @@ msgid "Show rows with image names"
 msgstr "Mostrar filas con nombres de imágenes"
 
 #, fuzzy
-msgctxt ""
-"prefs:template:partslist:tablespec:row-config:item-numbering-for-each-image"
+msgctxt "prefs:template:partslist:tablespec:row-config:item-numbering-for-each-image"
 msgid "Independent item numbering for each image"
 msgstr "Numeración de artículos independiente para cada imagen"
 
@@ -3586,18 +3697,19 @@ msgctxt "prefs:template:partslist:tablespec:row-config:show-footer"
 msgid "Show footer row"
 msgstr "Mostrar fila de pie de página"
 
-msgctxt ""
-"prefs:template:partslist:tablespec:row-config:combine-counters-into-one-row"
+msgctxt "prefs:template:partslist:tablespec:row-config:combine-counters-into-one-row"
 msgid "Combine counters into one row per tag"
 msgstr ""
 
+#, fuzzy
 msgctxt "prefs:ui:qt-scale-factor"
 msgid "UI scale factor"
-msgstr ""
+msgstr "Factor de escala de la interfaz de usuario"
 
+#, fuzzy
 msgctxt "prefs:ui:qt-scale-factor:auto"
 msgid "Automatic"
-msgstr ""
+msgstr "Automático"
 
 #, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing"
@@ -3654,42 +3766,50 @@ msgctxt "prefs:ui:maximum-texture-resolution:unlimited"
 msgid "unlimited"
 msgstr "ilimitado"
 
+#, fuzzy
 msgctxt "prefs:audio-input:dialog-title"
 msgid "Select audio input device"
-msgstr ""
+msgstr "Seleccionar dispositivo de entrada de audio"
 
+#, fuzzy
 msgctxt "prefs:audio-input:button:test"
 msgid "Test"
-msgstr ""
+msgstr "Prueba"
 
+#, fuzzy
 msgctxt "prefs:ui:audio-input-device"
 msgid "Audio input device"
-msgstr ""
+msgstr "Dispositivo de entrada de audio"
 
+#, fuzzy
 msgctxt "prefs:ui:audio-input-device:button:choose"
 msgid "Choose"
-msgstr ""
+msgstr "Elegir"
 
+#, fuzzy
 msgctxt "prefs:ui:enable-experimental-dxf-export"
 msgid "Enable DXF export (experimental)"
-msgstr ""
+msgstr "Habilitar exportación DXF (experimental)"
 
 #, fuzzy
 msgctxt "prefs:map-provider:title"
 msgid "Map provider"
 msgstr "Proveedor de mapas"
 
+#, fuzzy
 msgctxt "prefs:map-provider:google-maps"
 msgid "Google Maps"
-msgstr ""
+msgstr "Mapas de Google"
 
+#, fuzzy
 msgctxt "prefs:map-provider:bing-maps"
 msgid "Bing Maps"
-msgstr ""
+msgstr "Mapas de Bing"
 
+#, fuzzy
 msgctxt "prefs:map-provider:open-street-map"
 msgid "OpenStreetMap"
-msgstr ""
+msgstr "OpenStreetMap"
 
 #, fuzzy
 msgctxt "prefs:company:user-id"
@@ -3701,108 +3821,130 @@ msgctxt "prefs:company:user-full-name"
 msgid "Full name"
 msgstr "Nombre completo"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-name"
 msgid "Camera"
-msgstr ""
+msgstr "Cámara"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-resolution"
 msgid "Resolution"
-msgstr ""
+msgstr "Resolución"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-framerate"
 msgid "Frame rate"
-msgstr ""
+msgstr "Cuadros por segundo"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-exposure-time"
 msgid "Exposure time"
-msgstr ""
+msgstr "Tiempo de exposición"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-auto-exposure:target-grey-level"
 msgid "Exposure target grey level"
-msgstr ""
+msgstr "Nivel de gris objetivo de exposición"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-exposure-mode"
 msgid "Exposure mode"
-msgstr ""
+msgstr "Modo de exposición"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-exposure-mode:timed"
 msgid "Timed"
-msgstr ""
+msgstr "Cronometrado"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-exposure-mode:auto-grey-level"
 msgid "Automatic grey level"
-msgstr ""
+msgstr "Nivel de gris automático"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-left"
 msgid "ROI crop left"
-msgstr ""
+msgstr "Recortar ROI a la izquierda"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-right"
 msgid "ROI crop right"
-msgstr ""
+msgstr "Recortar ROI a la derecha"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-top"
 msgid "ROI crop top"
-msgstr ""
+msgstr "Recortar ROI a la superior"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-bottom"
 msgid "ROI crop bottom"
-msgstr ""
+msgstr "Recortar ROI a la inferior"
 
+#, fuzzy
 msgctxt "prefs:camera:calibration:title"
 msgid "Calibration"
-msgstr ""
+msgstr "Calibración"
 
+#, fuzzy
 msgctxt "prefs:camera:calibration:text(yes+date)"
 msgid "Yes, calibrated on {}"
-msgstr ""
+msgstr "Sí, calibrado en {}"
 
+#, fuzzy
 msgctxt "prefs:camera:calibration:text(no)"
 msgid "Not calibrated"
-msgstr ""
+msgstr "No calibrado"
 
+#, fuzzy
 msgctxt "prefs:camera:calibration:button:remove-calibration"
 msgid "Remove calibration"
-msgstr ""
+msgstr "Eliminar calibración"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-list:none"
 msgid "None"
-msgstr ""
+msgstr "Ninguna"
 
+#, fuzzy
 msgctxt "live-camera:editor-window:title"
 msgid "Live camera"
-msgstr ""
+msgstr "Cámara en vivo"
 
+#, fuzzy
 msgctxt "live-camera:save:live-or-capture:title"
 msgid "Save live video"
-msgstr ""
+msgstr "Guardar video en vivo"
 
+#, fuzzy
 msgctxt "live-camera:save:live-or-capture:text"
-msgid ""
-"Save a captured image of the live video or a live camera placeholder image?"
-msgstr ""
+msgid "Save a captured image of the live video or a live camera placeholder image?"
+msgstr "¿Guardar una imagen capturada del video en vivo o una imagen de marcador de posición de cámara en vivo?"
 
+#, fuzzy
 msgctxt "live-camera:save:live-or-capture:captured-image"
 msgid "Capture image"
-msgstr ""
+msgstr "Capturar imagen"
 
+#, fuzzy
 msgctxt "live-camera:save:live-or-capture:live-video"
 msgid "Live video"
-msgstr ""
+msgstr "Video en vivo"
 
+#, fuzzy
 msgctxt "camera-calibration:overwrite:title"
 msgid "Store camera calibration"
-msgstr ""
+msgstr "Almacenar la calibración de la cámara"
 
+#, fuzzy
 msgctxt "camera-calibration:overwrite-existing:ask-overwrite"
-msgid ""
-"There is already a calibration stored for this camera at this resolution. Do "
-"you want to overwrite the existing calibration?"
-msgstr ""
+msgid "There is already a calibration stored for this camera at this resolution. Do you want to overwrite the existing calibration?"
+msgstr "Ya hay una calibración almacenada para esta cámara con esta resolución. ¿Desea sobrescribir la calibración existente?"
 
+#, fuzzy
 msgctxt "camera-calibration:saved:confirmation-message"
 msgid "Camera calibration has been stored."
-msgstr ""
+msgstr "La calibración de la cámara se ha almacenado."
 
 #, fuzzy
 msgctxt "templ:template-name"
@@ -3826,13 +3968,8 @@ msgstr "Nueva plantilla personalizada"
 
 #, fuzzy
 msgctxt "templ:custom:long-description"
-msgid ""
-"Each image fills one row in the table. You may assign a tag to each "
-"measurement. Each table column contains the measurement for a specific tag."
-msgstr ""
-"Cada imagen llena una fila en la tabla. Puede asignar una etiqueta a cada "
-"medida. Cada columna de la tabla contiene la medida de una etiqueta "
-"específica."
+msgid "Each image fills one row in the table. You may assign a tag to each measurement. Each table column contains the measurement for a specific tag."
+msgstr "Cada imagen llena una fila en la tabla. Puede asignar una etiqueta a cada medida. Cada columna de la tabla contiene la medida de una etiqueta específica."
 
 #, fuzzy
 msgctxt "templ:custom:column-content:empty"
@@ -3877,7 +4014,7 @@ msgstr "Enlace de mapa GPS"
 #, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:url:text"
 msgid "link"
-msgstr "Enlace"
+msgstr "enlace"
 
 #, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:error:no-gps"
@@ -3894,9 +4031,10 @@ msgctxt "templ:custom:column-type:text"
 msgid "Text note"
 msgstr "Nota de texto"
 
+#, fuzzy
 msgctxt "templ:custom:column-type:counter"
 msgid "Counter"
-msgstr ""
+msgstr "Encimera"
 
 #, fuzzy
 msgctxt "templ:custom:new-tablespec-name"
@@ -3918,9 +4056,10 @@ msgctxt "templ:custom:tag:filter:circle"
 msgid "Circle"
 msgstr "Circulo"
 
+#, fuzzy
 msgctxt "templ:custom:tag:filter:counter"
 msgid "Counter"
-msgstr ""
+msgstr "Encimera"
 
 #, fuzzy
 msgctxt "templ:custom:tag:property-name"
@@ -3944,14 +4083,8 @@ msgstr "Superficie del piso"
 
 #, fuzzy
 msgctxt "templ:areasum:long-description:wallarea"
-msgid ""
-"This template is the basis for area computations. The area of some elements "
-"is added to the sum (e.g. walls), while other elements are subtracted (e.g. "
-"windows)."
-msgstr ""
-"Esta plantilla es la base para los cálculos de área. El área de algunos "
-"elementos se suma a la suma (por ejemplo, paredes), mientras que otros "
-"elementos se restan (por ejemplo, ventanas)."
+msgid "This template is the basis for area computations. The area of some elements is added to the sum (e.g. walls), while other elements are subtracted (e.g. windows)."
+msgstr "Esta plantilla es la base para los cálculos de área. El área de algunos elementos se suma a la suma (por ejemplo, paredes), mientras que otros elementos se restan (por ejemplo, ventanas)."
 
 #, fuzzy
 msgctxt "templ:areasum:tag:property-name"
@@ -4125,21 +4258,13 @@ msgstr "Tabla de suma de áreas"
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:item"
-msgid ""
-"The image number. The number will only be filled into the row with the image "
-"title."
-msgstr ""
-"El número de la imagen. El número solo se completará en la fila con el "
-"título de la imagen."
+msgid "The image number. The number will only be filled into the row with the image title."
+msgstr "El número de la imagen. El número solo se completará en la fila con el título de la imagen."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:description"
-msgid ""
-"Descriptive name of the area. This is either the default name of the tag, or "
-"a manually entered name for this area."
-msgstr ""
-"Nombre descriptivo de la zona. Este es el nombre predeterminado de la "
-"etiqueta o un nombre ingresado manualmente para esta área."
+msgid "Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this area."
+msgstr "Nombre descriptivo de la zona. Este es el nombre predeterminado de la etiqueta o un nombre ingresado manualmente para esta área."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:count"
@@ -4149,14 +4274,11 @@ msgstr "El multiplicador de conteo para esta área."
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
 msgid ""
-"Width and height are two columns that are filled with the side lengths if "
-"the area is a rectangle. For other shapes, the columns stay empty.\n"
+"Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n"
 "\n"
 "Enter the two column headers separated by a semicolon."
 msgstr ""
-"El ancho y el alto son dos columnas que se rellenan con las longitudes de "
-"los lados si el área es un rectángulo. Para otras formas, las columnas "
-"permanecen vacías.\n"
+"El ancho y el alto son dos columnas que se rellenan con las longitudes de los lados si el área es un rectángulo. Para otras formas, las columnas permanecen vacías.\n"
 "\n"
 "Ingrese los encabezados de dos columnas separados por un punto y coma."
 
@@ -4178,26 +4300,18 @@ msgstr "Área calculada que incluye el factor y el recuento."
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
 msgid ""
-"Generates two columns: a column including all areas that are added to the "
-"sum, and a column including all areas that are subtracted from the total "
-"sum.\n"
+"Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n"
 "\n"
 "Enter the two column headers separated by a semicolon."
 msgstr ""
-"Genera dos columnas: una columna que incluye todas las áreas que se suman a "
-"la suma y una columna que incluye todas las áreas que se restan de la suma "
-"total.\n"
+"Genera dos columnas: una columna que incluye todas las áreas que se suman a la suma y una columna que incluye todas las áreas que se restan de la suma total.\n"
 "\n"
 "Ingrese los encabezados de dos columnas separados por un punto y coma."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:image-area-sum"
-msgid ""
-"Each row holds the area sum of the image. The footer row holds the total "
-"over all images."
-msgstr ""
-"Cada fila contiene la suma del área de la imagen. La fila de pie de página "
-"contiene el total de todas las imágenes."
+msgid "Each row holds the area sum of the image. The footer row holds the total over all images."
+msgstr "Cada fila contiene la suma del área de la imagen. La fila de pie de página contiene el total de todas las imágenes."
 
 #, fuzzy
 msgctxt "templ:partslist:class-display-name"
@@ -4206,13 +4320,8 @@ msgstr "Plantilla de lista de piezas"
 
 #, fuzzy
 msgctxt "templ:partslist:long-description"
-msgid ""
-"This template lets you generate bills of material, counting different "
-"objects, or summing the length of products (e.g. electrical cables)."
-msgstr ""
-"Esta plantilla le permite generar listas de materiales, contar diferentes "
-"objetos o sumar la longitud de los productos (por ejemplo, cables "
-"eléctricos)."
+msgid "This template lets you generate bills of material, counting different objects, or summing the length of products (e.g. electrical cables)."
+msgstr "Esta plantilla le permite generar listas de materiales, contar diferentes objetos o sumar la longitud de los productos (por ejemplo, cables eléctricos)."
 
 #, fuzzy
 msgctxt "templ:partslist:tagtype:count"
@@ -4379,43 +4488,50 @@ msgctxt "SyncAction:DELETE_REMOTE"
 msgid "Delete on server"
 msgstr "Eliminar en el servidor"
 
+#, fuzzy
 msgctxt "sync:error:cloud-sync-currently-in-use:retry-later"
 msgid "Cloud-sync is currently in use. Please retry later."
-msgstr ""
+msgstr "La sincronización en la nube está actualmente en uso. Vuelva a intentarlo más tarde."
 
+#, fuzzy
 msgctxt "sync:error:no-cloud-sync-tasks-configured(pc)"
-msgid ""
-"There are no enabled cloud-sync tasks. Nothing to do. First configure some "
-"sync tasks in the preferences, section 'Storage/Cloud Storage'."
-msgstr ""
+msgid "There are no enabled cloud-sync tasks. Nothing to do. First configure some sync tasks in the preferences, section 'Storage/Cloud Storage'."
+msgstr "No hay tareas de sincronización en la nube habilitadas. Nada que hacer. Primero configure algunas tareas de sincronización en las preferencias, sección 'Almacenamiento/Almacenamiento en la nube'."
 
+#, fuzzy
 msgctxt "sync:task:description:anno-image"
 msgid "Image upload to {}"
-msgstr ""
+msgstr "Subir imagen a {}"
 
+#, fuzzy
 msgctxt "sync:task:description:two-way"
 msgid "Two-way sync with {}"
-msgstr ""
+msgstr "Sincronización bidireccional con {}"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:filesystem"
 msgid "directory '{0}'"
-msgstr ""
+msgstr "directorio '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:onedrive"
 msgid "OneDrive directory '{0}'"
-msgstr ""
+msgstr "Directorio de OneDrive '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:googledrive"
 msgid "Google Drive directory '{0}'"
-msgstr ""
+msgstr "Directorio de Google Drive '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:dropbox"
 msgid "Dropbox directory '{0}'"
-msgstr ""
+msgstr "Directorio de Dropbox '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
-msgstr ""
+msgstr "URL de WebDAV '{0}'"
 
 #, fuzzy
 msgctxt "sync:default-server-directory:two-way"
@@ -4434,20 +4550,8 @@ msgstr "Mantenimiento de almacenamiento en la nube"
 
 #, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-description"
-msgid ""
-"<b>Remove server lock</b> - In order to prevent simultaneous access to the "
-"data on the cloud server, it is locked during the sync process. In case of "
-"some errors, e.g. network failures, it may be that the server remains "
-"locked. The locks time-out automatically after a few minutes, but you can "
-"also manually remove them immediately if you know for sure that it is an "
-"error."
-msgstr ""
-"<b>Eliminar bloqueo del servidor</b>: para evitar el acceso simultáneo a los "
-"datos en el servidor de la nube, se bloquea durante el proceso de "
-"sincronización. En caso de algunos errores, p. fallas en la red, puede ser "
-"que el servidor permanezca bloqueado. Los bloqueos caducan automáticamente "
-"después de unos minutos, pero también puede eliminarlos manualmente de "
-"inmediato si sabe con certeza que se trata de un error."
+msgid "<b>Remove server lock</b> - In order to prevent simultaneous access to the data on the cloud server, it is locked during the sync process. In case of some errors, e.g. network failures, it may be that the server remains locked. The locks time-out automatically after a few minutes, but you can also manually remove them immediately if you know for sure that it is an error."
+msgstr "<b>Eliminar bloqueo del servidor</b>: para evitar el acceso simultáneo a los datos en el servidor de la nube, se bloquea durante el proceso de sincronización. En caso de algunos errores, p. fallas en la red, puede ser que el servidor permanezca bloqueado. Los bloqueos caducan automáticamente después de unos minutos, pero también puede eliminarlos manualmente de inmediato si sabe con certeza que se trata de un error."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-button"
@@ -4456,19 +4560,8 @@ msgstr "Eliminar bloqueo del servidor"
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-description"
-msgid ""
-"<b>Reset server cache</b> - The cloud server maintains a cache of images "
-"stored on them. If you delete or add files manually on the server, this is "
-"not seen by the cache. You may reset the server cache to run a full scan "
-"during the next sync. However, note that a full scan may take a long time if "
-"you have many images."
-msgstr ""
-"<b>Restablecer caché del servidor</b>: el servidor en la nube mantiene un "
-"caché de imágenes almacenadas en ellos. Si elimina o agrega archivos "
-"manualmente en el servidor, la caché no verá esto. Puede restablecer el "
-"caché del servidor para ejecutar un análisis completo durante la próxima "
-"sincronización. Sin embargo, tenga en cuenta que un escaneo completo puede "
-"llevar mucho tiempo si tiene muchas imágenes."
+msgid "<b>Reset server cache</b> - The cloud server maintains a cache of images stored on them. If you delete or add files manually on the server, this is not seen by the cache. You may reset the server cache to run a full scan during the next sync. However, note that a full scan may take a long time if you have many images."
+msgstr "<b>Restablecer caché del servidor</b>: el servidor en la nube mantiene un caché de imágenes almacenadas en ellos. Si elimina o agrega archivos manualmente en el servidor, la caché no verá esto. Puede restablecer el caché del servidor para ejecutar un análisis completo durante la próxima sincronización. Sin embargo, tenga en cuenta que un escaneo completo puede llevar mucho tiempo si tiene muchas imágenes."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-button"
@@ -4477,18 +4570,8 @@ msgstr "Restablecer caché del servidor"
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-description"
-msgid ""
-"<b>Reset sync state</b> - The next sync will start with no preknowledge "
-"about the data on each side. This means, e.g., that locally deleted images "
-"will be downloaded again from the server instead of being deleted on the "
-"server. There are few cases where resetting the stored sync state is needed."
-msgstr ""
-"<b>Restablecer estado de sincronización</b>: la próxima sincronización "
-"comenzará sin conocimiento previo sobre los datos en cada lado. Esto "
-"significa, por ejemplo, que las imágenes eliminadas localmente se "
-"descargarán nuevamente del servidor en lugar de eliminarse en el servidor. "
-"Hay pocos casos en los que se necesita restablecer el estado de "
-"sincronización almacenado."
+msgid "<b>Reset sync state</b> - The next sync will start with no preknowledge about the data on each side. This means, e.g., that locally deleted images will be downloaded again from the server instead of being deleted on the server. There are few cases where resetting the stored sync state is needed."
+msgstr "<b>Restablecer estado de sincronización</b>: la próxima sincronización comenzará sin conocimiento previo sobre los datos en cada lado. Esto significa, por ejemplo, que las imágenes eliminadas localmente se descargarán nuevamente del servidor en lugar de eliminarse en el servidor. Hay pocos casos en los que se necesita restablecer el estado de sincronización almacenado."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-button"
@@ -4530,30 +4613,25 @@ msgctxt "sync:server-maintenance:reset-sync-state:result:success"
 msgid "Successfully resetted sync state."
 msgstr "Se restableció correctamente el estado de sincronización."
 
+#, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:googledrive"
-msgid ""
-"You have successfully logged into GoogleDrive. You can close this tab and "
-"return to ImageMeter now."
-msgstr ""
+msgid "You have successfully logged into GoogleDrive. You can close this tab and return to ImageMeter now."
+msgstr "Has iniciado sesión correctamente en GoogleDrive. Puede cerrar esta pestaña y volver a ImageMeter ahora."
 
+#, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:onedrive"
-msgid ""
-"You have successfully logged into OneDrive. You can close this tab and "
-"return to ImageMeter now."
-msgstr ""
+msgid "You have successfully logged into OneDrive. You can close this tab and return to ImageMeter now."
+msgstr "Has iniciado sesión correctamente en OneDrive. Puede cerrar esta pestaña y volver a ImageMeter ahora."
 
+#, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:dropbox"
-msgid ""
-"You have successfully logged into Dropbox. You can close this tab and return "
-"to ImageMeter now."
-msgstr ""
+msgid "You have successfully logged into Dropbox. You can close this tab and return to ImageMeter now."
+msgstr "Has iniciado sesión correctamente en Dropbox. Puede cerrar esta pestaña y volver a ImageMeter ahora."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:image-upload:reset-sync-state-description"
-msgid ""
-"<b>Reset sync state</b> - The next sync will upload all images again. This "
-"may be useful is you deleted the images on the server and want to upload "
-"them again."
-msgstr ""
+msgid "<b>Reset sync state</b> - The next sync will upload all images again. This may be useful is you deleted the images on the server and want to upload them again."
+msgstr "<b>Restablecer estado de sincronización</b>: la próxima sincronización cargará todas las imágenes nuevamente. Esto puede ser útil si eliminó las imágenes en el servidor y desea cargarlas nuevamente."
 
 #, fuzzy
 msgctxt "license:source:android-in-app"
@@ -4634,11 +4712,9 @@ msgstr "Tres días"
 #, fuzzy
 msgctxt "stringscript:help:introtext"
 msgid ""
-"Enter the text that should appear here. You can add variables enclosed by "
-"{ } that will be substituted.\n"
+"Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n"
 "\n"
-"Here are some example variables, but see below for the list of variables "
-"that are actually allowed here:\n"
+"Here are some example variables, but see below for the list of variables that are actually allowed here:\n"
 "{image.title} - image title\n"
 "{image.number} - the number you assigned to the image\n"
 "{folder.title} - title of the current folder\n"
@@ -4647,11 +4723,9 @@ msgid ""
 "You can build complex expressions like this:\n"
 "{folder.title} / {image.number} - {image.title}"
 msgstr ""
-"Ingrese el texto que debería aparecer aquí. Puede agregar variables "
-"encerradas por {} que serán sustituidas.\n"
+"Ingrese el texto que debería aparecer aquí. Puede agregar variables encerradas por {} que serán sustituidas.\n"
 "\n"
-"Aquí hay algunas variables de ejemplo, pero vea a continuación la lista de "
-"variables que realmente están permitidas aquí:\n"
+"Aquí hay algunas variables de ejemplo, pero vea a continuación la lista de variables que realmente están permitidas aquí:\n"
 "{image.title}: título de la imagen\n"
 "{image.number}: el número que asignó a la imagen\n"
 "{folder.title}: título de la carpeta actual\n"
@@ -4667,12 +4741,8 @@ msgstr "Variables de nivel superior permitidas:"
 
 #, fuzzy
 msgctxt "stringscript:help:intro_subelements"
-msgid ""
-"Each type may have sub-elements. Here is the list of sub-elements for each "
-"data type:"
-msgstr ""
-"Cada tipo puede tener subelementos. Aquí está la lista de subelementos para "
-"cada tipo de datos:"
+msgid "Each type may have sub-elements. Here is the list of sub-elements for each data type:"
+msgstr "Cada tipo puede tener subelementos. Aquí está la lista de subelementos para cada tipo de datos:"
 
 #, fuzzy
 msgctxt "stringscript:root:member:image"
@@ -4767,7 +4837,7 @@ msgstr "colección"
 #, fuzzy
 msgctxt "scriptobject:keyvaluepairs:description"
 msgid "A collection of other objects"
-msgstr "Una colección de otros objetos."
+msgstr "Una colección de otros objetos"
 
 #, fuzzy
 msgctxt "scriptobject:databundle:type"
@@ -5069,9 +5139,10 @@ msgctxt "lock:set-library-root"
 msgid "setting image library root"
 msgstr "configuración de la raíz de la biblioteca de imágenes"
 
+#, fuzzy
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
-msgstr ""
+msgstr "entidad de recuperación"
 
 #~ msgctxt "editor:styling:line-caps"
 #~ msgid "Line style"
