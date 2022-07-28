@@ -615,6 +615,38 @@ msgctxt "error:NetworkError"
 msgid "Network error: {}"
 msgstr "服務器錯誤：{}"
 
+msgctxt "error:Licensing_Desktop_InvalidServerResponse"
+msgid "Invalid server response: {}"
+msgstr ""
+
+msgctxt "error:Licensing_Desktop_InvalidClientParameters"
+msgid "Invalid client parameters: {}"
+msgstr ""
+
+msgctxt "error:Licensing_Desktop_LicenseNotFound"
+msgid "Invalid license code"
+msgstr ""
+
+msgctxt "error:Licensing_Desktop_LicenseExpired"
+msgid "License has expired"
+msgstr ""
+
+msgctxt "error:Licensing_Desktop_LicenseQueryError"
+msgid "Error during license query: {}"
+msgstr ""
+
+msgctxt "error:Licensing_Desktop_InvalidPlatformForKey"
+msgid "License key is not for this platform"
+msgstr ""
+
+msgctxt "error:Licensing_Desktop_DeviceAssignmentsExhausted"
+msgid "Maximum number of device assignments reached"
+msgstr ""
+
+msgctxt "error:Licensing_Desktop_DeviceLimitReached"
+msgid "Maximum number of licensed devices reached."
+msgstr ""
+
 #, fuzzy
 msgctxt "error:BluetoothError:no_active_element"
 msgid "no active element"
@@ -1935,6 +1967,10 @@ msgstr ""
 msgctxt "editor:styling:fill-color"
 msgid "Fill color"
 msgstr "填色"
+
+msgctxt "editor:styling:fill-color-opacity"
+msgid "Fill opacity"
+msgstr ""
 
 msgctxt "editor:styling:text-color"
 msgid "Text color"
@@ -4001,6 +4037,21 @@ msgstr "专业版"
 msgctxt "license:business"
 msgid "Business"
 msgstr "企業版"
+
+msgctxt "licensing:revoke-device:dialog:title"
+msgid "Reassign Device License"
+msgstr ""
+
+msgctxt "licensing:revoke-device:dialog:description"
+msgid ""
+"This license is used by the maximum number of devices.\n"
+"However, you may still revoke the license of another device.\n"
+"Which device license do you want to replace with this device?"
+msgstr ""
+
+msgctxt "licensing:revoke-device:dialog:device-entry"
+msgid "{} ({})"
+msgstr ""
 
 #, fuzzy
 msgctxt "entity-initialization:image-title:camera"
