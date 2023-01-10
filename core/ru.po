@@ -678,6 +678,12 @@ msgctxt "error:Licensing_Desktop_DeviceLimitReached"
 msgid "Maximum number of licensed devices reached."
 msgstr ""
 
+msgctxt "error:Licensing_RevokesExhausted"
+msgid ""
+"You have already used all available {max_revokes} revokes during the past "
+"{period_days} days."
+msgstr ""
+
 #, fuzzy
 msgctxt "error:BluetoothError:no_active_element"
 msgid "no active element"
@@ -3028,6 +3034,66 @@ msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:yes"
 msgid "Open when new note is added"
 msgstr ""
 
+msgctxt "prefs:bluetooth:device-list:title"
+msgid "Discovered Bluetooth devices"
+msgstr ""
+
+msgctxt "prefs:bluetooth:device-list:header:name"
+msgid "Bluetooth name"
+msgstr ""
+
+msgctxt "prefs:bluetooth:device-list:header:mac-address"
+msgid "MAC address"
+msgstr ""
+
+msgctxt "prefs:bluetooth:device-list:header:uuid-address"
+msgid "UUID address"
+msgstr ""
+
+msgctxt "prefs:bluetooth:device-list:header:device-name"
+msgid "Device name"
+msgstr ""
+
+msgctxt "prefs:bluetooth:device-list:please-identify"
+msgid "please identify"
+msgstr ""
+
+msgctxt "prefs:bluetooth:scan-devices-button"
+msgid "Scan for devices"
+msgstr ""
+
+msgctxt "prefs:bluetooth:identify-device-button"
+msgid "Identify device"
+msgstr ""
+
+msgctxt "prefs:bluetooth:choose-device-button"
+msgid "Choose selected device"
+msgstr ""
+
+msgctxt "prefs:bluetooth:selected-device-group:title"
+msgid "Selected device"
+msgstr ""
+
+msgctxt "prefs:bluetooth:selected-device-group:device-name"
+msgid "Name"
+msgstr ""
+
+msgctxt "prefs:bluetooth:selected-device-group:device-model"
+msgid "Model"
+msgstr ""
+
+msgctxt "prefs:bluetooth:selected-device-group:device-address"
+msgid "Address"
+msgstr ""
+
+msgctxt "prefs:bluetooth:selected-device-group:test-device-button"
+msgid "Test device"
+msgstr ""
+
+msgctxt "prefs:bluetooth:selected-device-group:unset-device-button"
+msgid "Unset device"
+msgstr ""
+
 #, fuzzy
 msgctxt "prefs:template:add:general-description"
 msgid ""
@@ -3570,6 +3636,101 @@ msgstr ""
 
 msgctxt "prefs:camera:camera-list:none"
 msgid "None"
+msgstr ""
+
+msgctxt "bluetooth:device-test:title"
+msgid "Bluetooth Device Test"
+msgstr ""
+
+msgctxt "bluetooth:device-test:connection"
+msgid "Connection:"
+msgstr ""
+
+msgctxt "bluetooth:device-test:connection:connecting"
+msgid "connecting"
+msgstr ""
+
+msgctxt "bluetooth:device-test:connection:connected"
+msgid "connected"
+msgstr ""
+
+msgctxt "bluetooth:device-test:connection:disconnecting"
+msgid "disconnecting"
+msgstr ""
+
+msgctxt "bluetooth:device-test:connection:disconnected"
+msgid "disconnected"
+msgstr ""
+
+msgctxt "bluetooth:device-test:received-value"
+msgid "Received value:"
+msgstr ""
+
+msgctxt "bluetooth:device-test:connect-button"
+msgid "Connect"
+msgstr ""
+
+msgctxt "bluetooth:device-test:disconnect-button"
+msgid "Disconnect"
+msgstr ""
+
+msgctxt "bluetooth:device-test:trigger-button"
+msgid "Remote trigger"
+msgstr ""
+
+msgctxt "bluetooth:origin-position:front"
+msgid "front"
+msgstr ""
+
+msgctxt "bluetooth:origin-position:mount"
+msgid "mount"
+msgstr ""
+
+msgctxt "bluetooth:origin-position:back"
+msgid "back"
+msgstr ""
+
+msgctxt "bluetooth:origin-position:back-extension"
+msgid "back-extension"
+msgstr ""
+
+msgctxt "bluetooth:no-device-configured-dialog:title(pc)"
+msgid "No Bluetooth Device Configured"
+msgstr ""
+
+msgctxt "bluetooth:no-device-configured-dialog:text(pc)"
+msgid ""
+"You have not yet configured any Bluetooth laser distance meter.\n"
+"\n"
+"Please select your device in the settings."
+msgstr ""
+
+msgctxt "bluetooth:no-device-configured-dialog:open-prefs:button(pc)"
+msgid "Open settings"
+msgstr ""
+
+msgctxt "bluetooth:toolbar:connect:tooltip(disconnected)"
+msgid "Connect to Bluetooth device. (Disconnected)"
+msgstr ""
+
+msgctxt "bluetooth:toolbar:connect:tooltip(connected)"
+msgid "Connected. Click to disconnect."
+msgstr ""
+
+msgctxt "bluetooth:toolbar:connect:tooltip(connecting)"
+msgid "Trying to connect to device."
+msgstr ""
+
+msgctxt "bluetooth:toolbar:connect:tooltip(waiting-for-reconnect)"
+msgid "Will try to reconnect after a small pause."
+msgstr ""
+
+msgctxt "bluetooth:toolbar:trigger:tooltip"
+msgid "Trigger laser remotely"
+msgstr ""
+
+msgctxt "bluetooth:toolbar:trigger:not-available-tooltip"
+msgid "The device does not support remote triggering."
 msgstr ""
 
 msgctxt "live-camera:editor-window:title"
@@ -4361,13 +4522,43 @@ msgstr ""
 
 msgctxt "licensing:revoke-device:dialog:description"
 msgid ""
-"This license is used by the maximum number of devices.\n"
+"License cannot be activated for this device because the license is already "
+"used by the maximum number of devices.\n"
 "However, you may still revoke the license of another device.\n"
 "Which device license do you want to replace with this device?"
 msgstr ""
 
 msgctxt "licensing:revoke-device:dialog:device-entry"
-msgid "{} ({})"
+msgid "{devicename} (last use: {lastuse}, id: {id})"
+msgstr ""
+
+msgctxt "licensing:revoke-device:dialog:revoke-counter"
+msgid "You have {remaining} revokes left (out of {max} for {period})"
+msgstr ""
+
+msgctxt "licensing:revoke-device:dialog:revoke-period-days"
+msgid "{} days"
+msgstr ""
+
+msgctxt "licensing:revoke-device:revoke-counter-info-message:title"
+msgid "Really revoke this device's license ?"
+msgstr ""
+
+msgctxt "licensing:revoke-device:revoke-counter-info-message"
+msgid ""
+"Do you really want to revoke the license of this device?\n"
+"You can only do this {max_revokes} times in {period_days} days.\n"
+"You can still use {num_revokes} revokes during the current time period."
+msgstr ""
+
+msgctxt "licensing:revoke-device:success-message:title"
+msgid "Device license revokation"
+msgstr ""
+
+msgctxt "licensing:revoke-device:success-message"
+msgid ""
+"This device has been successfully revoked from the license. You may now use "
+"the license on another device."
 msgstr ""
 
 msgctxt "missing-addon:may-start-application"
@@ -4468,6 +4659,10 @@ msgstr ""
 
 msgctxt "license:name:desktop:business"
 msgid "Business"
+msgstr ""
+
+msgctxt "license:name:desktop:pro"
+msgid "Pro"
 msgstr ""
 
 #, fuzzy
