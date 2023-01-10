@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2022-10-03 20:18+0200\n"
+"PO-Revision-Date: 2023-01-10 21:02+0100\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -638,6 +638,12 @@ msgstr ""
 
 msgctxt "error:Licensing_Desktop_DeviceLimitReached"
 msgid "Maximum number of licensed devices reached."
+msgstr ""
+
+msgctxt "error:Licensing_RevokesExhausted"
+msgid ""
+"You have already used all available {max_revokes} revokes during the past "
+"{period_days} days."
 msgstr ""
 
 msgctxt "error:BluetoothError:no_active_element"
@@ -2794,11 +2800,6 @@ msgctxt "prefs:editor:snapping:snap-to-hv-orientation:use-nearest-reference"
 msgid "Use nearest reference"
 msgstr "Nächstgelegene Referenz benutzen"
 
-msgctxt ""
-"prefs:editor:snapping:snap-to-hv-orientation:when-there-is-a-reference"
-msgid "When there is a reference"
-msgstr "Falls es eine Referenz gibt"
-
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation:on"
 msgid "On"
 msgstr "An"
@@ -2916,6 +2917,66 @@ msgstr "Öffnen, wenn mehrere Notizen eingefügt werden"
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:yes"
 msgid "Open when new note is added"
 msgstr "Öffnen wenn Notiz hinzugefügt wird"
+
+msgctxt "prefs:bluetooth:device-list:title"
+msgid "Discovered Bluetooth devices"
+msgstr "Entdeckte Bluetoothgeräte"
+
+msgctxt "prefs:bluetooth:device-list:header:name"
+msgid "Bluetooth name"
+msgstr "Bluetooth-Name"
+
+msgctxt "prefs:bluetooth:device-list:header:mac-address"
+msgid "MAC address"
+msgstr "MAC-Adresse"
+
+msgctxt "prefs:bluetooth:device-list:header:uuid-address"
+msgid "UUID address"
+msgstr "UUID-Adresse"
+
+msgctxt "prefs:bluetooth:device-list:header:device-name"
+msgid "Device name"
+msgstr "Gerätename"
+
+msgctxt "prefs:bluetooth:device-list:please-identify"
+msgid "please identify"
+msgstr "bitte identifizieren"
+
+msgctxt "prefs:bluetooth:scan-devices-button"
+msgid "Scan for devices"
+msgstr "Geräte suche"
+
+msgctxt "prefs:bluetooth:identify-device-button"
+msgid "Identify device"
+msgstr "Gerät identifizieren"
+
+msgctxt "prefs:bluetooth:choose-device-button"
+msgid "Choose selected device"
+msgstr "Gerät auswählen"
+
+msgctxt "prefs:bluetooth:selected-device-group:title"
+msgid "Selected device"
+msgstr "Ausgewähltes Gerät"
+
+msgctxt "prefs:bluetooth:selected-device-group:device-name"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "prefs:bluetooth:selected-device-group:device-model"
+msgid "Model"
+msgstr "Modell"
+
+msgctxt "prefs:bluetooth:selected-device-group:device-address"
+msgid "Address"
+msgstr "Adresse"
+
+msgctxt "prefs:bluetooth:selected-device-group:test-device-button"
+msgid "Test device"
+msgstr "Gerät testen"
+
+msgctxt "prefs:bluetooth:selected-device-group:unset-device-button"
+msgid "Unset device"
+msgstr "Geräteauswahl löschen"
 
 msgctxt "prefs:template:add:general-description"
 msgid ""
@@ -3406,6 +3467,105 @@ msgstr "Kalibrierung entfernen"
 msgctxt "prefs:camera:camera-list:none"
 msgid "None"
 msgstr "Keine"
+
+msgctxt "bluetooth:device-test:title"
+msgid "Bluetooth Device Test"
+msgstr "Bluetooth-Gerätetest"
+
+msgctxt "bluetooth:device-test:connection"
+msgid "Connection:"
+msgstr "Verbindung:"
+
+msgctxt "bluetooth:device-test:connection:connecting"
+msgid "connecting"
+msgstr "verbinde"
+
+msgctxt "bluetooth:device-test:connection:connected"
+msgid "connected"
+msgstr "verbunden"
+
+msgctxt "bluetooth:device-test:connection:disconnecting"
+msgid "disconnecting"
+msgstr "trenne Verbindung"
+
+msgctxt "bluetooth:device-test:connection:disconnected"
+msgid "disconnected"
+msgstr "nicht verbunden"
+
+msgctxt "bluetooth:device-test:received-value"
+msgid "Received value:"
+msgstr "Empfangener Wert:"
+
+msgctxt "bluetooth:device-test:connect-button"
+msgid "Connect"
+msgstr "Verbinden"
+
+msgctxt "bluetooth:device-test:disconnect-button"
+msgid "Disconnect"
+msgstr "Verbindung trennen"
+
+msgctxt "bluetooth:device-test:trigger-button"
+msgid "Remote trigger"
+msgstr "Fernauslösung"
+
+msgctxt "bluetooth:origin-position:front"
+msgid "front"
+msgstr "vorne"
+
+msgctxt "bluetooth:origin-position:mount"
+msgid "mount"
+msgstr "Befestigung"
+
+msgctxt "bluetooth:origin-position:back"
+msgid "back"
+msgstr "hinten"
+
+msgctxt "bluetooth:origin-position:back-extension"
+msgid "back-extension"
+msgstr "hintere Erweiterung"
+
+msgctxt "bluetooth:no-device-configured-dialog:title(pc)"
+msgid "No Bluetooth Device Configured"
+msgstr "Kein Bluetooth-Gerät ausgewählt"
+
+msgctxt "bluetooth:no-device-configured-dialog:text(pc)"
+msgid ""
+"You have not yet configured any Bluetooth laser distance meter.\n"
+"\n"
+"Please select your device in the settings."
+msgstr ""
+"Sie haben noch kein Bluetooth-Entfernungsmesser ausgewählt.\n"
+"\n"
+"Bitte wählen Sie Ihr Gerät in den Einstellungen."
+
+msgctxt "bluetooth:no-device-configured-dialog:open-prefs:button(pc)"
+msgid "Open settings"
+msgstr "Einstellungen öffnen"
+
+msgctxt "bluetooth:toolbar:connect:tooltip(disconnected)"
+msgid "Connect to Bluetooth device. (Disconnected)"
+msgstr "Mit Bluetooth-Gerät verbinden. (Nicht verbunden)"
+
+msgctxt "bluetooth:toolbar:connect:tooltip(connected)"
+msgid "Connected. Click to disconnect."
+msgstr "Verbunden. Klicken um Verbindung zu trennen."
+
+msgctxt "bluetooth:toolbar:connect:tooltip(connecting)"
+msgid "Trying to connect to device."
+msgstr "Versuche mich mit dem Gerät zu verbinden."
+
+msgctxt "bluetooth:toolbar:connect:tooltip(waiting-for-reconnect)"
+msgid "Will try to reconnect after a small pause."
+msgstr ""
+"Werde nach einer kleinen Pause versuchen, die Verbindung wiederherzustellen."
+
+msgctxt "bluetooth:toolbar:trigger:tooltip"
+msgid "Trigger laser remotely"
+msgstr "Fernauslösung des Lasers."
+
+msgctxt "bluetooth:toolbar:trigger:not-available-tooltip"
+msgid "The device does not support remote triggering."
+msgstr "Das Gerät unterstützt keine Fernauslösung."
 
 msgctxt "live-camera:editor-window:title"
 msgid "Live camera"
@@ -4114,13 +4274,43 @@ msgstr ""
 
 msgctxt "licensing:revoke-device:dialog:description"
 msgid ""
-"This license is used by the maximum number of devices.\n"
+"License cannot be activated for this device because the license is already "
+"used by the maximum number of devices.\n"
 "However, you may still revoke the license of another device.\n"
 "Which device license do you want to replace with this device?"
 msgstr ""
 
 msgctxt "licensing:revoke-device:dialog:device-entry"
-msgid "{} ({})"
+msgid "{devicename} (last use: {lastuse}, id: {id})"
+msgstr ""
+
+msgctxt "licensing:revoke-device:dialog:revoke-counter"
+msgid "You have {remaining} revokes left (out of {max} for {period})"
+msgstr ""
+
+msgctxt "licensing:revoke-device:dialog:revoke-period-days"
+msgid "{} days"
+msgstr ""
+
+msgctxt "licensing:revoke-device:revoke-counter-info-message:title"
+msgid "Really revoke this device's license ?"
+msgstr ""
+
+msgctxt "licensing:revoke-device:revoke-counter-info-message"
+msgid ""
+"Do you really want to revoke the license of this device?\n"
+"You can only do this {max_revokes} times in {period_days} days.\n"
+"You can still use {num_revokes} revokes during the current time period."
+msgstr ""
+
+msgctxt "licensing:revoke-device:success-message:title"
+msgid "Device license revokation"
+msgstr ""
+
+msgctxt "licensing:revoke-device:success-message"
+msgid ""
+"This device has been successfully revoked from the license. You may now use "
+"the license on another device."
 msgstr ""
 
 msgctxt "missing-addon:may-start-application"
@@ -4221,6 +4411,10 @@ msgstr ""
 
 msgctxt "license:name:desktop:business"
 msgid "Business"
+msgstr ""
+
+msgctxt "license:name:desktop:pro"
+msgid "Pro"
 msgstr ""
 
 msgctxt "entity-initialization:image-title:camera"
@@ -4627,6 +4821,11 @@ msgstr "Wurzelverzeichnis der Bildbibliothek setzen"
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr "Datei wiederherstellen"
+
+#~ msgctxt ""
+#~ "prefs:editor:snapping:snap-to-hv-orientation:when-there-is-a-reference"
+#~ msgid "When there is a reference"
+#~ msgstr "Falls es eine Referenz gibt"
 
 #~ msgctxt "editor:styling:color:automatic"
 #~ msgid "Autormatic"
