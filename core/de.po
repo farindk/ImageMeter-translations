@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2023-01-10 21:05+0100\n"
+"PO-Revision-Date: 2023-02-27 13:03+0100\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -1659,11 +1659,11 @@ msgstr "A3"
 
 msgctxt "export:pdf:paper-size:a2"
 msgid "A2"
-msgstr ""
+msgstr "A2"
 
 msgctxt "export:pdf:paper-size:a1"
 msgid "A1"
-msgstr ""
+msgstr "A1"
 
 msgctxt "export:pdf:paper-size:letter"
 msgid "Letter"
@@ -1763,7 +1763,7 @@ msgstr "Standard"
 
 msgctxt "export:pdf:print-density:custom"
 msgid "Custom"
-msgstr ""
+msgstr "Eigene"
 
 msgctxt "export:pdf:print-density:dpi-formatstring"
 msgid "{} dpi"
@@ -2600,6 +2600,10 @@ msgctxt "editor:styling:counter:filled-shape"
 msgid "Filled shape"
 msgstr "Ausgefülltes Symbol"
 
+msgctxt "editor:styling:counter:rename"
+msgid "Rename"
+msgstr "Umbenennen"
+
 msgctxt "editor:results-list:generic-counter"
 msgid "count"
 msgstr "Anzahl"
@@ -2684,6 +2688,10 @@ msgctxt "image-settings:calibration:enable-to-image"
 msgid "Calibrate to image"
 msgstr "Zum Bild kalibrieren"
 
+msgctxt "image-settings:calibration:show-in-exported-image"
+msgid "Show in exported image"
+msgstr "Im exportierten Bild anzeigen"
+
 msgctxt "image-settings:calibration:image-resolution"
 msgid "Resolution"
 msgstr "Auflösung"
@@ -2759,6 +2767,30 @@ msgstr "Name"
 msgctxt "editor:new-counter:config-dialog:group:new-counter:symbol"
 msgid "Symbol"
 msgstr "Symbol"
+
+msgctxt "editor:rename-counter:dialog-title"
+msgid "Rename counter"
+msgstr "Zähler umbenennen"
+
+msgctxt "editor:rename-counter:title"
+msgid "New counter name"
+msgstr "Neuer Zählername"
+
+msgctxt "editor:rename-counter:existing-tag"
+msgid "Existing tag"
+msgstr "Vorhandenes Etikett"
+
+msgctxt "editor:rename-counter:existing-tag-custom"
+msgid "custom"
+msgstr "anderer Name"
+
+msgctxt "editor:rename-counter:new-name"
+msgid "New name"
+msgstr "Neuer Name"
+
+msgctxt "editor:rename-counter:rename-all-counters"
+msgid "Rename all counters"
+msgstr "Alle Zähler umbenennen"
 
 msgctxt "prefs:measures:length-unit"
 msgid "Length unit"
@@ -2930,6 +2962,10 @@ msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:yes"
 msgid "Open when new note is added"
 msgstr "Öffnen wenn Notiz hinzugefügt wird"
 
+msgctxt "prefs:editor:drawing-tools:implicitref:show-in-exported-image"
+msgid "Show calibration scale in exported image"
+msgstr "Kalibrierungsskala im exportierten Bild zeigen"
+
 msgctxt "prefs:bluetooth:device-list:title"
 msgid "Discovered Bluetooth devices"
 msgstr "Entdeckte Bluetoothgeräte"
@@ -2992,7 +3028,11 @@ msgstr "Geräteauswahl löschen"
 
 msgctxt "prefs:bluetooth:use-device-format"
 msgid "Use measurement unit from device"
-msgstr ""
+msgstr "Masseinheit vom Gerät benutzen"
+
+msgctxt "prefs:bluetooth:enable-acoustic-feedback"
+msgid "Acoustic feedback"
+msgstr "Akustisches Signal"
 
 msgctxt "prefs:template:add:general-description"
 msgid ""
@@ -3582,6 +3622,14 @@ msgstr "Fernauslösung des Lasers."
 msgctxt "bluetooth:toolbar:trigger:not-available-tooltip"
 msgid "The device does not support remote triggering."
 msgstr "Das Gerät unterstützt keine Fernauslösung."
+
+msgctxt "bluetooth:toolbar:measures-history:tooltip"
+msgid "Measures history"
+msgstr "Messhistorie"
+
+msgctxt "bluetooth:toolbar:measures-history:clear"
+msgid "Clear"
+msgstr "Löschen"
 
 msgctxt "live-camera:editor-window:title"
 msgid "Live camera"
