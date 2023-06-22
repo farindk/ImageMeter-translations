@@ -566,85 +566,74 @@ msgctxt "error:CloudBackend_Filesystem_DirectoryNotSet"
 msgid "Storage directory is not set"
 msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-400"
-msgid "400 : Bad Request"
-msgstr "400: неверный запрос"
+msgid "HTTP error 400 : Bad Request"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-401"
-msgid "401 : Unauthorized"
-msgstr "401: Неавторизованный"
+msgid "HTTP error 401 : Unauthorized"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-403"
-msgid "403 : Forbidden"
-msgstr "403: Запрещено"
+msgid "HTTP error 403 : Forbidden"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-404"
-msgid "404 : Not Found"
-msgstr "404: Не Найдено"
+msgid "HTTP error 404 : Not Found"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-405"
-msgid "405 : Method Not Allowed"
-msgstr "405: Метод запрещен"
+msgid "HTTP error 405 : Method Not Allowed"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-406"
-msgid "406 : Not Acceptable"
-msgstr "406: неприемлемо"
+msgid "HTTP error 406 : Not Acceptable"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-407"
-msgid "407 : Proxy Authentication Required"
-msgstr "407: Требуется проверка подлинности прокси"
+msgid "HTTP error 407 : Proxy Authentication Required"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-408"
-msgid "408 : Request Timeout"
-msgstr "408: Тайм-аут запроса"
+msgid "HTTP error 408 : Request Timeout"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-409"
-msgid "409 : Conflict"
-msgstr "409: Конфликт"
+msgid "HTTP error 409 : Conflict"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-410"
-msgid "410 : Gone"
-msgstr "410: Ушел"
+msgid "HTTP error 410 : Gone"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-500"
-msgid "500 : Internal Server Error"
-msgstr "Внутренняя ошибка: {}."
+msgid "HTTP error 500 : Internal Server Error"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-501"
-msgid "501 : Not Implemented"
-msgstr "501: Не реализовано"
+msgid "HTTP error 501 : Not Implemented"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-502"
-msgid "502 : Bad Gateway"
-msgstr "502: Неверный шлюз"
+msgid "HTTP error 502 : Bad Gateway"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-503"
-msgid "503 : Service Unavailable"
-msgstr "503: Магазин недоступен"
+msgid "HTTP error 503 : Service Unavailable"
+msgstr ""
 
-#, fuzzy
 msgctxt "error:HTTP-error-504"
-msgid "504 : Gateway Timeout"
-msgstr "504: Время ответа сервера истекло"
+msgid "HTTP error 504 : Gateway Timeout"
+msgstr ""
 
 #, fuzzy
 msgctxt "error:NetworkError"
 msgid "Network error: {}"
 msgstr "Ошибка сервера: {}"
+
+msgctxt "error:NetworkTimeout"
+msgid "Network timeout"
+msgstr ""
 
 msgctxt "error:Licensing_Desktop_InvalidServerResponse"
 msgid "Invalid server response: {}"
@@ -682,6 +671,14 @@ msgctxt "error:Licensing_RevokesExhausted"
 msgid ""
 "You have already used all available {max_revokes} revokes during the past "
 "{period_days} days."
+msgstr ""
+
+msgctxt "error:Licensing_DeviceNotActive"
+msgid "The chosen device has no active license assigned to it."
+msgstr ""
+
+msgctxt "error:Licensing_LicenseNotFound"
+msgid "Unknown license key."
 msgstr ""
 
 #, fuzzy
@@ -1430,6 +1427,30 @@ msgstr ""
 
 msgctxt "image-library:move:target-folder:description"
 msgid "Select the destination folder:"
+msgstr ""
+
+msgctxt "rename-images:user-note:various-values"
+msgid "(various)"
+msgstr ""
+
+msgctxt "rename-images:script-expr:add:button"
+msgid "+ Dynamic text"
+msgstr ""
+
+msgctxt "rename-images:script-expr:dialog-title"
+msgid "Choose a dynamic text"
+msgstr ""
+
+msgctxt "rename-images:script-expr:current-image-title:name"
+msgid "Current image title"
+msgstr ""
+
+msgctxt "rename-images:script-expr:capture date"
+msgid "Capture date"
+msgstr ""
+
+msgctxt "rename-images:script-expr:gps-coordinates"
+msgid "GPS coordinates"
 msgstr ""
 
 #, fuzzy
@@ -3539,6 +3560,18 @@ msgctxt "prefs:ui:language:automatic"
 msgid "Automatic"
 msgstr "Автоматический"
 
+msgctxt "prefs:ui:filename-deduplication:min-digits:title"
+msgid "Digits for filename deduplication"
+msgstr ""
+
+msgctxt "prefs:ui:filename-deduplication:min-digits:1"
+msgid "1"
+msgstr ""
+
+msgctxt "prefs:ui:filename-deduplication:min-digits-title"
+msgid "Digits for filename deduplication"
+msgstr ""
+
 #, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution"
 msgid "Maximum image resolution"
@@ -4620,6 +4653,18 @@ msgid ""
 "the license on another device."
 msgstr ""
 
+msgctxt "licensing:key-entry-dialog:title"
+msgid "License code"
+msgstr ""
+
+msgctxt "licensing:key-entry-dialog:description"
+msgid "Please enter your license code:"
+msgstr ""
+
+msgctxt "licensing:key-entry-dialog:send-button"
+msgid "Activate"
+msgstr ""
+
 msgctxt "missing-addon:may-start-application"
 msgid "Cannot start application."
 msgstr ""
@@ -4692,12 +4737,20 @@ msgctxt "missing-addon:custom-color-palette"
 msgid "Cannot use a custom color palette."
 msgstr ""
 
+msgctxt "missing-addon:export-dxf"
+msgid "Cannot export to DXF."
+msgstr ""
+
 msgctxt "unavailable-license-reason:expired"
 msgid "Your license has expired."
 msgstr ""
 
 msgctxt "unavailable-license-reason:upgrade-needed"
 msgid "This is not supported with your license."
+msgstr ""
+
+msgctxt "licensing-error:dialog:title"
+msgid "License error"
 msgstr ""
 
 msgctxt "licensing:subscription:renew-button"
@@ -4708,20 +4761,36 @@ msgctxt "licensing:select-upgrade-button"
 msgid "Upgrade"
 msgstr ""
 
-msgctxt "license:name:desktop:unlicensed"
-msgid "Unlicensed"
-msgstr ""
-
 msgctxt "license:name:desktop:trial"
 msgid "Trial"
 msgstr ""
 
-msgctxt "license:name:desktop:business"
+msgctxt "license:name:desktop:betatest"
+msgid "Beta test"
+msgstr ""
+
+msgctxt "license:name:business"
 msgid "Business"
 msgstr ""
 
-msgctxt "license:name:desktop:pro"
+msgctxt "license:name:pro"
 msgid "Pro"
+msgstr ""
+
+msgctxt "license:name:basic"
+msgid "Basic"
+msgstr ""
+
+msgctxt "license:name:android-free(long)"
+msgid "Free evaluation"
+msgstr ""
+
+msgctxt "license:name:android-advanced-annotation"
+msgid "Advanced-Annotation AddOn"
+msgstr ""
+
+msgctxt "license:name:android-advanced-annotation-with-pro"
+msgid "Advanced-Annotation AddOn (with Pro)"
 msgstr ""
 
 #, fuzzy
@@ -5205,6 +5274,81 @@ msgstr "установка корня библиотеки изображени�
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-400"
+#~ msgid "400 : Bad Request"
+#~ msgstr "400: неверный запрос"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-401"
+#~ msgid "401 : Unauthorized"
+#~ msgstr "401: Неавторизованный"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-403"
+#~ msgid "403 : Forbidden"
+#~ msgstr "403: Запрещено"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-404"
+#~ msgid "404 : Not Found"
+#~ msgstr "404: Не Найдено"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-405"
+#~ msgid "405 : Method Not Allowed"
+#~ msgstr "405: Метод запрещен"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-406"
+#~ msgid "406 : Not Acceptable"
+#~ msgstr "406: неприемлемо"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-407"
+#~ msgid "407 : Proxy Authentication Required"
+#~ msgstr "407: Требуется проверка подлинности прокси"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-408"
+#~ msgid "408 : Request Timeout"
+#~ msgstr "408: Тайм-аут запроса"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-409"
+#~ msgid "409 : Conflict"
+#~ msgstr "409: Конфликт"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-410"
+#~ msgid "410 : Gone"
+#~ msgstr "410: Ушел"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-500"
+#~ msgid "500 : Internal Server Error"
+#~ msgstr "Внутренняя ошибка: {}."
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-501"
+#~ msgid "501 : Not Implemented"
+#~ msgstr "501: Не реализовано"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-502"
+#~ msgid "502 : Bad Gateway"
+#~ msgstr "502: Неверный шлюз"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-503"
+#~ msgid "503 : Service Unavailable"
+#~ msgstr "503: Магазин недоступен"
+
+#, fuzzy
+#~ msgctxt "error:HTTP-error-504"
+#~ msgid "504 : Gateway Timeout"
+#~ msgstr "504: Время ответа сервера истекло"
 
 #~ msgctxt ""
 #~ "prefs:editor:snapping:snap-to-hv-orientation:when-there-is-a-reference"

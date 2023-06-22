@@ -537,68 +537,72 @@ msgid "Storage directory is not set"
 msgstr "Каталог зберігання не встановлено"
 
 msgctxt "error:HTTP-error-400"
-msgid "400 : Bad Request"
-msgstr "400 : Помилковий запит"
+msgid "HTTP error 400 : Bad Request"
+msgstr ""
 
 msgctxt "error:HTTP-error-401"
-msgid "401 : Unauthorized"
-msgstr "401 : Неавторизовано"
+msgid "HTTP error 401 : Unauthorized"
+msgstr ""
 
 msgctxt "error:HTTP-error-403"
-msgid "403 : Forbidden"
-msgstr "403 : Заборонено"
+msgid "HTTP error 403 : Forbidden"
+msgstr ""
 
 msgctxt "error:HTTP-error-404"
-msgid "404 : Not Found"
-msgstr "404 : Не знайдено"
+msgid "HTTP error 404 : Not Found"
+msgstr ""
 
 msgctxt "error:HTTP-error-405"
-msgid "405 : Method Not Allowed"
-msgstr "405 : Метод заборонений"
+msgid "HTTP error 405 : Method Not Allowed"
+msgstr ""
 
 msgctxt "error:HTTP-error-406"
-msgid "406 : Not Acceptable"
-msgstr "406 : Неприйнятно"
+msgid "HTTP error 406 : Not Acceptable"
+msgstr ""
 
 msgctxt "error:HTTP-error-407"
-msgid "407 : Proxy Authentication Required"
-msgstr "407 : Потрібна автентифікація проксі"
+msgid "HTTP error 407 : Proxy Authentication Required"
+msgstr ""
 
 msgctxt "error:HTTP-error-408"
-msgid "408 : Request Timeout"
-msgstr "408 : Час очікування запиту"
+msgid "HTTP error 408 : Request Timeout"
+msgstr ""
 
 msgctxt "error:HTTP-error-409"
-msgid "409 : Conflict"
-msgstr "409 : Конфлікт"
+msgid "HTTP error 409 : Conflict"
+msgstr ""
 
 msgctxt "error:HTTP-error-410"
-msgid "410 : Gone"
-msgstr "410 : Пішов"
+msgid "HTTP error 410 : Gone"
+msgstr ""
 
 msgctxt "error:HTTP-error-500"
-msgid "500 : Internal Server Error"
-msgstr "500 : Внутрішня помилка сервера"
+msgid "HTTP error 500 : Internal Server Error"
+msgstr ""
 
 msgctxt "error:HTTP-error-501"
-msgid "501 : Not Implemented"
-msgstr "501 : Не реалізовано"
+msgid "HTTP error 501 : Not Implemented"
+msgstr ""
 
 msgctxt "error:HTTP-error-502"
-msgid "502 : Bad Gateway"
-msgstr "502 : Поганий шлюз"
+msgid "HTTP error 502 : Bad Gateway"
+msgstr ""
 
 msgctxt "error:HTTP-error-503"
-msgid "503 : Service Unavailable"
-msgstr "503 : Послуга недоступна"
+msgid "HTTP error 503 : Service Unavailable"
+msgstr ""
 
 msgctxt "error:HTTP-error-504"
-msgid "504 : Gateway Timeout"
-msgstr "504 : Час очікування серверу вичерпано"
+msgid "HTTP error 504 : Gateway Timeout"
+msgstr ""
 
 msgctxt "error:NetworkError"
 msgid "Network error: {}"
 msgstr "Помилка сервера: {}"
+
+msgctxt "error:NetworkTimeout"
+msgid "Network timeout"
+msgstr ""
 
 msgctxt "error:Licensing_Desktop_InvalidServerResponse"
 msgid "Invalid server response: {}"
@@ -636,6 +640,14 @@ msgctxt "error:Licensing_RevokesExhausted"
 msgid ""
 "You have already used all available {max_revokes} revokes during the past "
 "{period_days} days."
+msgstr ""
+
+msgctxt "error:Licensing_DeviceNotActive"
+msgid "The chosen device has no active license assigned to it."
+msgstr ""
+
+msgctxt "error:Licensing_LicenseNotFound"
+msgid "Unknown license key."
 msgstr ""
 
 msgctxt "error:BluetoothError:no_active_element"
@@ -1349,6 +1361,30 @@ msgstr ""
 
 msgctxt "image-library:move:target-folder:description"
 msgid "Select the destination folder:"
+msgstr ""
+
+msgctxt "rename-images:user-note:various-values"
+msgid "(various)"
+msgstr ""
+
+msgctxt "rename-images:script-expr:add:button"
+msgid "+ Dynamic text"
+msgstr ""
+
+msgctxt "rename-images:script-expr:dialog-title"
+msgid "Choose a dynamic text"
+msgstr ""
+
+msgctxt "rename-images:script-expr:current-image-title:name"
+msgid "Current image title"
+msgstr ""
+
+msgctxt "rename-images:script-expr:capture date"
+msgid "Capture date"
+msgstr ""
+
+msgctxt "rename-images:script-expr:gps-coordinates"
+msgid "GPS coordinates"
 msgstr ""
 
 msgctxt "imagebundle-settings:dialog-title"
@@ -3393,6 +3429,18 @@ msgctxt "prefs:ui:language:automatic"
 msgid "Automatic"
 msgstr "Автоматичний"
 
+msgctxt "prefs:ui:filename-deduplication:min-digits:title"
+msgid "Digits for filename deduplication"
+msgstr ""
+
+msgctxt "prefs:ui:filename-deduplication:min-digits:1"
+msgid "1"
+msgstr ""
+
+msgctxt "prefs:ui:filename-deduplication:min-digits-title"
+msgid "Digits for filename deduplication"
+msgstr ""
+
 msgctxt "prefs:ui:maximum-texture-resolution"
 msgid "Maximum image resolution"
 msgstr "Максимальна роздільна здатність зображення"
@@ -4373,6 +4421,18 @@ msgid ""
 "the license on another device."
 msgstr ""
 
+msgctxt "licensing:key-entry-dialog:title"
+msgid "License code"
+msgstr ""
+
+msgctxt "licensing:key-entry-dialog:description"
+msgid "Please enter your license code:"
+msgstr ""
+
+msgctxt "licensing:key-entry-dialog:send-button"
+msgid "Activate"
+msgstr ""
+
 msgctxt "missing-addon:may-start-application"
 msgid "Cannot start application."
 msgstr ""
@@ -4445,12 +4505,20 @@ msgctxt "missing-addon:custom-color-palette"
 msgid "Cannot use a custom color palette."
 msgstr ""
 
+msgctxt "missing-addon:export-dxf"
+msgid "Cannot export to DXF."
+msgstr ""
+
 msgctxt "unavailable-license-reason:expired"
 msgid "Your license has expired."
 msgstr ""
 
 msgctxt "unavailable-license-reason:upgrade-needed"
 msgid "This is not supported with your license."
+msgstr ""
+
+msgctxt "licensing-error:dialog:title"
+msgid "License error"
 msgstr ""
 
 msgctxt "licensing:subscription:renew-button"
@@ -4461,20 +4529,36 @@ msgctxt "licensing:select-upgrade-button"
 msgid "Upgrade"
 msgstr ""
 
-msgctxt "license:name:desktop:unlicensed"
-msgid "Unlicensed"
-msgstr ""
-
 msgctxt "license:name:desktop:trial"
 msgid "Trial"
 msgstr ""
 
-msgctxt "license:name:desktop:business"
+msgctxt "license:name:desktop:betatest"
+msgid "Beta test"
+msgstr ""
+
+msgctxt "license:name:business"
 msgid "Business"
 msgstr ""
 
-msgctxt "license:name:desktop:pro"
+msgctxt "license:name:pro"
 msgid "Pro"
+msgstr ""
+
+msgctxt "license:name:basic"
+msgid "Basic"
+msgstr ""
+
+msgctxt "license:name:android-free(long)"
+msgid "Free evaluation"
+msgstr ""
+
+msgctxt "license:name:android-advanced-annotation"
+msgid "Advanced-Annotation AddOn"
+msgstr ""
+
+msgctxt "license:name:android-advanced-annotation-with-pro"
+msgid "Advanced-Annotation AddOn (with Pro)"
 msgstr ""
 
 msgctxt "entity-initialization:image-title:camera"
@@ -4882,6 +4966,66 @@ msgstr "налаштування кореневої бібліотеки зоб�
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr ""
+
+#~ msgctxt "error:HTTP-error-400"
+#~ msgid "400 : Bad Request"
+#~ msgstr "400 : Помилковий запит"
+
+#~ msgctxt "error:HTTP-error-401"
+#~ msgid "401 : Unauthorized"
+#~ msgstr "401 : Неавторизовано"
+
+#~ msgctxt "error:HTTP-error-403"
+#~ msgid "403 : Forbidden"
+#~ msgstr "403 : Заборонено"
+
+#~ msgctxt "error:HTTP-error-404"
+#~ msgid "404 : Not Found"
+#~ msgstr "404 : Не знайдено"
+
+#~ msgctxt "error:HTTP-error-405"
+#~ msgid "405 : Method Not Allowed"
+#~ msgstr "405 : Метод заборонений"
+
+#~ msgctxt "error:HTTP-error-406"
+#~ msgid "406 : Not Acceptable"
+#~ msgstr "406 : Неприйнятно"
+
+#~ msgctxt "error:HTTP-error-407"
+#~ msgid "407 : Proxy Authentication Required"
+#~ msgstr "407 : Потрібна автентифікація проксі"
+
+#~ msgctxt "error:HTTP-error-408"
+#~ msgid "408 : Request Timeout"
+#~ msgstr "408 : Час очікування запиту"
+
+#~ msgctxt "error:HTTP-error-409"
+#~ msgid "409 : Conflict"
+#~ msgstr "409 : Конфлікт"
+
+#~ msgctxt "error:HTTP-error-410"
+#~ msgid "410 : Gone"
+#~ msgstr "410 : Пішов"
+
+#~ msgctxt "error:HTTP-error-500"
+#~ msgid "500 : Internal Server Error"
+#~ msgstr "500 : Внутрішня помилка сервера"
+
+#~ msgctxt "error:HTTP-error-501"
+#~ msgid "501 : Not Implemented"
+#~ msgstr "501 : Не реалізовано"
+
+#~ msgctxt "error:HTTP-error-502"
+#~ msgid "502 : Bad Gateway"
+#~ msgstr "502 : Поганий шлюз"
+
+#~ msgctxt "error:HTTP-error-503"
+#~ msgid "503 : Service Unavailable"
+#~ msgstr "503 : Послуга недоступна"
+
+#~ msgctxt "error:HTTP-error-504"
+#~ msgid "504 : Gateway Timeout"
+#~ msgstr "504 : Час очікування серверу вичерпано"
 
 #~ msgctxt "editor:styling:line-caps"
 #~ msgid "Line style"

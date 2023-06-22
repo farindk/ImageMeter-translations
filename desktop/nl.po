@@ -6,15 +6,17 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: ImageMeter\n"
 
 #, fuzzy
 msgctxt "pc:error:cannot-find-windows-explorer"
 msgid "Cannot find 'explorer.exe' in path to launch Windows Explorer."
-msgstr "Kan 'explorer.exe' niet vinden in het pad om Windows Verkenner te starten."
+msgstr ""
+"Kan 'explorer.exe' niet vinden in het pad om Windows Verkenner te starten."
 
 #, fuzzy
 msgctxt "pc:setup-wizard:dialog-title"
@@ -88,8 +90,10 @@ msgstr "Afbeeldingen map"
 
 #, fuzzy
 msgctxt "pc:setup-wizard:library:subtitle"
-msgid "Set the directory where ImageMeter should store the images and measurements."
-msgstr "Stel de map in waar ImageMeter de afbeeldingen en metingen moet opslaan."
+msgid ""
+"Set the directory where ImageMeter should store the images and measurements."
+msgstr ""
+"Stel de map in waar ImageMeter de afbeeldingen en metingen moet opslaan."
 
 #, fuzzy
 msgctxt "pc:setup-wizard:library:label-image-directory"
@@ -438,8 +442,12 @@ msgstr "Kan map niet hernoemen. Het is momenteel in gebruik."
 
 #, fuzzy
 msgctxt "pc:error:cannot-quit-program:sync-in-progress"
-msgid "Cannot quit program now because cloud synchronization is currently in progress."
-msgstr "Kan het programma nu niet afsluiten omdat cloudsynchronisatie momenteel bezig is."
+msgid ""
+"Cannot quit program now because cloud synchronization is currently in "
+"progress."
+msgstr ""
+"Kan het programma nu niet afsluiten omdat cloudsynchronisatie momenteel "
+"bezig is."
 
 #, fuzzy
 msgctxt "pc:mainwindow:quit-program:unsaved-changed:dialog-title"
@@ -569,7 +577,7 @@ msgstr "ImageMeter-afbeelding (IMI)…"
 #, fuzzy
 msgctxt "pc:image-library:context-menu:export:imf"
 msgid "ImageMeter folder (IMF)…"
-msgstr "ImageMeter map (IMF)…""
+msgstr "ImageMeter map (IMF)…"
 
 #, fuzzy
 msgctxt "pc:image-library:context-menu:export:pdf"
@@ -612,14 +620,20 @@ msgid "Error"
 msgstr "Fout"
 
 #, fuzzy
-msgctxt "pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-title"
+msgctxt ""
+"pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-title"
 msgid "Use units from settings"
 msgstr "Gebruik eenheden uit instellingen"
 
 #, fuzzy
-msgctxt "pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-text"
-msgid "Also convert the units of the values that you entered manually or by Bluetooth?"
-msgstr "Ook de eenheden omrekenen van de waarden die u handmatig of via Bluetooth hebt ingevoerd?"
+msgctxt ""
+"pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-text"
+msgid ""
+"Also convert the units of the values that you entered manually or by "
+"Bluetooth?"
+msgstr ""
+"Ook de eenheden omrekenen van de waarden die u handmatig of via Bluetooth "
+"hebt ingevoerd?"
 
 #, fuzzy
 msgctxt "pc:import:pdf:render-resolution-dpi"
@@ -673,8 +687,13 @@ msgstr "IMI's uitvoeren naar directory"
 
 #, fuzzy
 msgctxt "pc:export:dxf:error:no-entities"
-msgid "There are no objects to write into the DXF. Note that currently only areas are written to the DXF and that they have to be assigned to a reference."
-msgstr "Er zijn geen objecten om in de DXF te schrijven. Merk op dat momenteel alleen gebieden naar de DXF worden geschreven en dat ze aan een referentie moeten worden toegewezen."
+msgid ""
+"There are no objects to write into the DXF. Note that currently only areas "
+"are written to the DXF and that they have to be assigned to a reference."
+msgstr ""
+"Er zijn geen objecten om in de DXF te schrijven. Merk op dat momenteel "
+"alleen gebieden naar de DXF worden geschreven en dat ze aan een referentie "
+"moeten worden toegewezen."
 
 #, fuzzy
 msgctxt "pc:export:zip:dialog-title"
@@ -688,13 +707,20 @@ msgstr "Opties voor het exporteren van afbeeldingen"
 
 #, fuzzy
 msgctxt "pc:databundle:settings:rename:warning:same-title-already-exists"
-msgid "An image with this name already exists. Do you really want to use the same name?"
-msgstr "Er bestaat al een afbeelding met deze naam. Wil je echt dezelfde naam gebruiken?"
+msgid ""
+"An image with this name already exists. Do you really want to use the same "
+"name?"
+msgstr ""
+"Er bestaat al een afbeelding met deze naam. Wil je echt dezelfde naam "
+"gebruiken?"
 
 #, fuzzy
 msgctxt "pc:folder:settings:rename:warning:same-title-already-exists"
-msgid "A folder with this name already exists. Do you really want to use the same name?"
-msgstr "Er bestaat al een map met deze naam. Wil je echt dezelfde naam gebruiken?"
+msgid ""
+"A folder with this name already exists. Do you really want to use the same "
+"name?"
+msgstr ""
+"Er bestaat al een map met deze naam. Wil je echt dezelfde naam gebruiken?"
 
 #, fuzzy
 msgctxt "pc:move-entities:adapt-permissions:dialog-title"
@@ -703,8 +729,12 @@ msgstr "Permissies aanpassen"
 
 #, fuzzy
 msgctxt "pc:move-entities:adapt-permissions:message"
-msgid "The permissions of the files differ from the target folder's permissions. Should the permissions of the files be adapted?"
-msgstr "De machtigingen van de bestanden verschillen van de machtigingen van de doelmap. Moeten de permissies van de bestanden aangepast worden?"
+msgid ""
+"The permissions of the files differ from the target folder's permissions. "
+"Should the permissions of the files be adapted?"
+msgstr ""
+"De machtigingen van de bestanden verschillen van de machtigingen van de "
+"doelmap. Moeten de permissies van de bestanden aangepast worden?"
 
 #, fuzzy
 msgctxt "pc:move-entities:adapt-permissions:choice:keep"
@@ -1118,13 +1148,21 @@ msgstr "Licenties"
 
 #, fuzzy
 msgctxt "pc:prefs:ui:language:changed-restart-program"
-msgid "The language setting has changed. Please restart the program for the changes to take effect."
-msgstr "De taalinstelling is gewijzigd. Start het programma opnieuw om de wijzigingen door te voeren."
+msgid ""
+"The language setting has changed. Please restart the program for the changes "
+"to take effect."
+msgstr ""
+"De taalinstelling is gewijzigd. Start het programma opnieuw om de "
+"wijzigingen door te voeren."
 
 #, fuzzy
 msgctxt "pc:prefs:ui:ui-scale-factor:changed-restart-program"
-msgid "The UI scale factor has changed. Please restart the program for the changes to take effect."
-msgstr "De UI-schaalfactor is gewijzigd. Start het programma opnieuw om de wijzigingen door te voeren."
+msgid ""
+"The UI scale factor has changed. Please restart the program for the changes "
+"to take effect."
+msgstr ""
+"De UI-schaalfactor is gewijzigd. Start het programma opnieuw om de "
+"wijzigingen door te voeren."
 
 #, fuzzy
 msgctxt "pc:image-numbering:dialog:title"
@@ -1216,6 +1254,10 @@ msgctxt "pc:about-dialog:version"
 msgid "Version:"
 msgstr "Versie:"
 
+msgctxt "pc:about-dialog:device-id"
+msgid "Device ID:"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:about-dialog:license"
 msgid "License:"
@@ -1303,8 +1345,12 @@ msgstr "Open"
 
 #, fuzzy
 msgctxt "pc:feedback-dialog:error:could-not-open-mailprogram"
-msgid "Could not open e-mail software. Please open it manually and use the email address shown here."
-msgstr "Kan e-mailsoftware niet openen. Open het handmatig en gebruik het e-mailadres dat hier wordt weergegeven."
+msgid ""
+"Could not open e-mail software. Please open it manually and use the email "
+"address shown here."
+msgstr ""
+"Kan e-mailsoftware niet openen. Open het handmatig en gebruik het e-"
+"mailadres dat hier wordt weergegeven."
 
 #, fuzzy
 msgctxt "pc:prefs:dialog:title"
@@ -1569,7 +1615,8 @@ msgstr "Gebruikersomgeving"
 #, fuzzy
 msgctxt "pc:prefs:sync-options:user-interface:auto-close-after-sync"
 msgid "Auto-close sync window after successful sync"
-msgstr "Synchronisatievenster automatisch sluiten na succesvolle synchronisatie"
+msgstr ""
+"Synchronisatievenster automatisch sluiten na succesvolle synchronisatie"
 
 #, fuzzy
 msgctxt "pc:prefs:sync-options:two-way:delete-remotely-when-deleted-locally"
@@ -1643,13 +1690,18 @@ msgstr "Succes"
 
 #, fuzzy
 msgctxt "pc:prefs:server-params:oauth:login-description"
-msgid "In order to process the login, you will be redirected to your web-browser."
+msgid ""
+"In order to process the login, you will be redirected to your web-browser."
 msgstr "Om de login te verwerken, wordt u doorgestuurd naar uw webbrowser."
 
 #, fuzzy
 msgctxt "pc:prefs:server-params:oauth:login-was-redirected"
-msgid "Please continue the login process on the page that was opened in your web-browser."
-msgstr "Ga verder met het aanmeldingsproces op de pagina die in uw webbrowser is geopend."
+msgid ""
+"Please continue the login process on the page that was opened in your web-"
+"browser."
+msgstr ""
+"Ga verder met het aanmeldingsproces op de pagina die in uw webbrowser is "
+"geopend."
 
 #, fuzzy
 msgctxt "pc:prefs:server-params:oauth:logged-in-as-user"
@@ -1709,7 +1761,8 @@ msgstr "Afbeelding uploaden"
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:webdav:description"
 msgid "Can be used with any WebDAV server, including Nextcloud/Owncloud."
-msgstr "Kan worden gebruikt met elke WebDAV-server, inclusief Nextcloud/Owncloud."
+msgstr ""
+"Kan worden gebruikt met elke WebDAV-server, inclusief Nextcloud/Owncloud."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:onedrive:description"
@@ -1728,18 +1781,32 @@ msgstr "Gebruik dit om te synchroniseren met je Dropbox-account."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:filesystem:description"
-msgid "Instead of a cloud server, the data is synced to a local directory on your PC."
-msgstr "In plaats van een cloudserver worden de gegevens gesynchroniseerd naar een lokale map op uw pc."
+msgid ""
+"Instead of a cloud server, the data is synced to a local directory on your "
+"PC."
+msgstr ""
+"In plaats van een cloudserver worden de gegevens gesynchroniseerd naar een "
+"lokale map op uw pc."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:sync-mode:two-way:description"
-msgid "Syncs editable images in both directions between devices. New images and changes will be forwarded to the other device."
-msgstr "Synchroniseert bewerkbare afbeeldingen in beide richtingen tussen apparaten. Nieuwe afbeeldingen en wijzigingen worden doorgestuurd naar het andere apparaat."
+msgid ""
+"Syncs editable images in both directions between devices. New images and "
+"changes will be forwarded to the other device."
+msgstr ""
+"Synchroniseert bewerkbare afbeeldingen in beide richtingen tussen apparaten. "
+"Nieuwe afbeeldingen en wijzigingen worden doorgestuurd naar het andere "
+"apparaat."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:sync-mode:image-upload:description"
-msgid "Uploads annotated JPEG images to the server. This is a one-way upload to the server. Thus, the uploaded images cannot be edited further on other devices."
-msgstr "Uploadt geannoteerde JPEG-afbeeldingen naar de server. Dit is een eenrichtings-upload naar de server. De geüploade afbeeldingen kunnen dus niet verder worden bewerkt op andere apparaten."
+msgid ""
+"Uploads annotated JPEG images to the server. This is a one-way upload to the "
+"server. Thus, the uploaded images cannot be edited further on other devices."
+msgstr ""
+"Uploadt geannoteerde JPEG-afbeeldingen naar de server. Dit is een "
+"eenrichtings-upload naar de server. De geüploade afbeeldingen kunnen dus "
+"niet verder worden bewerkt op andere apparaten."
 
 #, fuzzy
 msgctxt "pc:prefs:company:users-list-title"
@@ -1758,8 +1825,12 @@ msgstr "Directorygebruikers op het hoogste niveau"
 
 #, fuzzy
 msgctxt "pc:prefs:company:folder-permissions:top-level-folder-users:tooltip"
-msgid "Comma separated list of users that will have access rights for new top-level directories."
-msgstr "Door komma's gescheiden lijst van gebruikers die toegangsrechten hebben voor nieuwe directory's op het hoogste niveau."
+msgid ""
+"Comma separated list of users that will have access rights for new top-level "
+"directories."
+msgstr ""
+"Door komma's gescheiden lijst van gebruikers die toegangsrechten hebben voor "
+"nieuwe directory's op het hoogste niveau."
 
 #, fuzzy
 msgctxt "pc:prefs:company:folder-permissions:moving-between-folder"
@@ -1803,7 +1874,8 @@ msgstr "Dichtbij"
 
 #, fuzzy
 msgctxt "pc:sync:progress-dialog:warning:wait-until-finished"
-msgid "Synchronization is still in progress. Please wait until it has been stopped."
+msgid ""
+"Synchronization is still in progress. Please wait until it has been stopped."
 msgstr "De synchronisatie is nog bezig. Wacht tot het is gestopt."
 
 #, fuzzy
@@ -1819,7 +1891,8 @@ msgstr "Server scannen..."
 #, fuzzy
 msgctxt "pc:sync:progress:action:scanning-server:status"
 msgid "{0} images found, {1} folders found, {2} errors. {3} items left."
-msgstr "{0} afbeeldingen gevonden, {1} mappen gevonden, {2} fouten. {3} items over."
+msgstr ""
+"{0} afbeeldingen gevonden, {1} mappen gevonden, {2} fouten. {3} items over."
 
 #, fuzzy
 msgctxt "pc:sync:progress:action:sync:push-new"
@@ -1888,13 +1961,21 @@ msgstr "Aanmelden vereist"
 
 #, fuzzy
 msgctxt "pc:sync:oauth-login-dialog:message"
-msgid "Cannot access the {} server. You have to log in again.\nWhen you press 'log in', the login page will open in your web-browser."
-msgstr "Geen toegang tot de {}-server. U moet opnieuw inloggen.\nAls u op 'inloggen' drukt, wordt de inlogpagina geopend in uw webbrowser."
+msgid ""
+"Cannot access the {} server. You have to log in again.\n"
+"When you press 'log in', the login page will open in your web-browser."
+msgstr ""
+"Geen toegang tot de {}-server. U moet opnieuw inloggen.\n"
+"Als u op 'inloggen' drukt, wordt de inlogpagina geopend in uw webbrowser."
 
 #, fuzzy
 msgctxt "pc:sync:oauth-login-dialog:success-message"
-msgid "Successfully logged in.\nYou can restart the cloud sync now."
-msgstr "Succesvol ingelogd.\nU kunt de cloudsynchronisatie nu opnieuw starten."
+msgid ""
+"Successfully logged in.\n"
+"You can restart the cloud sync now."
+msgstr ""
+"Succesvol ingelogd.\n"
+"U kunt de cloudsynchronisatie nu opnieuw starten."
 
 #, fuzzy
 msgctxt "pc:sync:oauth-login-dialog:error"
@@ -1906,3 +1987,7 @@ msgctxt "pc:sync:oauth-login-dialog:login-button"
 msgid "Log in"
 msgstr "Log in"
 
+msgctxt "pc:sync:passwort-login:error"
+msgid ""
+"Cannot log in, please check your username and password in the sync settings."
+msgstr ""
