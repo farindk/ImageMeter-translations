@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-09-20 18:38+0200\n"
+"POT-Creation-Date: 2023-07-06 18:06+0200\n"
 "PO-Revision-Date: 2022-02-11 12:49+0100\n"
 "Last-Translator: \n"
 "Language: pl\n"
@@ -252,6 +252,11 @@ msgstr "Właściciel: %1$s"
 msgctxt "navigationDrawer_user"
 msgid "User: %1$s"
 msgstr "Użytkownik: %1$s"
+
+#, c-format
+msgctxt "navigationDrawer_email"
+msgid "EMail: %1$s"
+msgstr ""
 
 #, c-format
 msgctxt "navigationDrawer_version"
@@ -681,6 +686,10 @@ msgctxt "upgrade_item_cloud_backup"
 msgid "Backup on your cloud storage"
 msgstr "Utwórz kopię zapasową w chmurze"
 
+msgctxt "upgrade_item_company_logo"
+msgid "Put your company logo onto images"
+msgstr ""
+
 msgctxt "upgrade_item_data_tables"
 msgid ""
 "&lt;a "
@@ -706,6 +715,11 @@ msgstr "Zawiera wersję \"Pro\""
 msgctxt "needUpgradeDialog_titleTemplate"
 msgid "%1$s Add-On"
 msgstr "Dodatek: %1$s"
+
+#, c-format
+msgctxt "needUpgradeDialog_mayStartApplication"
+msgid "You can only use the app with the '%1$s' upgrade."
+msgstr ""
 
 #, c-format
 msgctxt "needUpgradeDialog_createSubfolders"
@@ -833,6 +847,21 @@ msgstr "Niewłaściwy klucz."
 msgctxt "licensing_company_key_success"
 msgid "Key activated"
 msgstr "Klucz aktywowany"
+
+msgctxt "licensing_revoke_device_title"
+msgid "Revoke device"
+msgstr ""
+
+msgctxt "licensing_revoke_device_descr"
+msgid ""
+"The license is already assigned to the maximum number of devices.\n"
+"\n"
+"Select the device for which the license should be revoked."
+msgstr ""
+
+msgctxt "licensing_revoke_device_button_revoke"
+msgid "Revoke"
+msgstr ""
 
 #. in-app payment
 msgctxt "inapp_error_billing_unavailable"
@@ -1661,6 +1690,14 @@ msgctxt "pref_bluetooth_device_protocol_cem_ildm150"
 msgid "CEM iLDM-150"
 msgstr "CEM iLDM-150"
 
+msgctxt "pref_bluetooth_device_protocol_cem_ildm80c"
+msgid "CEM iLDM-80C"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_cem_ildm25"
+msgid "CEM iLDM-25"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_etape16"
 msgid "eTape16"
 msgstr "eTape16"
@@ -1680,6 +1717,14 @@ msgstr "Stabila"
 msgctxt "pref_bluetooth_device_protocol_wuerth"
 msgid "Würth WDM 3–19"
 msgstr "Würth WDM 3–19"
+
+msgctxt "pref_bluetooth_device_protocol_wuerth_wdm814"
+msgid "Würth WDM 8–14"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_wuerth_wdm622"
+msgid "Würth WDM 6–22"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
 msgid "Leica Disto classic"
@@ -1713,6 +1758,10 @@ msgctxt "pref_bluetooth_device_protocol_stanley_tlm165si"
 msgid "Stanley TLM165si"
 msgstr ""
 
+msgctxt "pref_bluetooth_device_protocol_dewalt_de03050"
+msgid "DeWalt DW03050-XJ"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_suaoki"
 msgid "Suaoki"
 msgstr "Suaoki"
@@ -1721,6 +1770,10 @@ msgctxt "pref_bluetooth_device_protocol_mileseey_p7"
 msgid "Mileseey P7"
 msgstr "Mileseey P7"
 
+msgctxt "pref_bluetooth_device_protocol_mileseey_p9"
+msgid "Mileseey P9"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_mileseey_r2b"
 msgid "Mileseey R2B"
 msgstr "Mileseey R2B"
@@ -1728,6 +1781,14 @@ msgstr "Mileseey R2B"
 msgctxt "pref_bluetooth_device_protocol_mileseey_m120"
 msgid "Mileseey M120"
 msgstr "Mileseey M120"
+
+msgctxt "pref_bluetooth_device_protocol_mileseey_m130"
+msgid "Mileseey M130"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_mileseey_dt20"
+msgid "Mileseey DT20"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
 msgid "Sndway SW-S100"
@@ -1748,6 +1809,22 @@ msgstr "Precaster CX100"
 msgctxt "pref_bluetooth_device_protocol_ada_cosmo120"
 msgid "Ada Cosmo 120"
 msgstr "Ada Cosmo 120"
+
+msgctxt "pref_bluetooth_device_protocol_ada_cosmo150"
+msgid "Ada Cosmo 150"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_ada_cosmo60green"
+msgid "Ada Cosmo 60 Green"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_ada_micro25"
+msgid "Ada Micro 25"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_instrumax_sniper80plus"
+msgid "Instrumax Sniper 80 Plus"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_laserliner_compactpro"
 msgid "Laserliner Compact Pro"
@@ -1808,6 +1885,26 @@ msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_laserliner_laserrange_master_t4pro"
 msgid "Laserliner LaserRange-Master T4 Pro"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_geodist_80"
+msgid "GeoDist 80"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_geodist_100_touch"
+msgid "GeoDist 100 Touch"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_lomvum_e60"
+msgid "Lomvum E60"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_fnirsi_ir40"
+msgid "Fnirsi IR40"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_noyafa_nf273"
+msgid "Noyafa NF-273"
 msgstr ""
 
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
@@ -2743,6 +2840,11 @@ msgid "Memory: %1$d MB free, %2$d MB used, %3$d MB total"
 msgstr "Pamięć: %1$d MB wolne, %2$d MB używane, %3$d MB łącznie"
 
 #, c-format
+msgctxt "pref_storage_directory_memory_status_unknown_size"
+msgid "Memory: %1$d MB used"
+msgstr ""
+
+#, c-format
 msgctxt "pref_storage_directory_memory_status_unknown_used"
 msgid "Memory: %1$d MB free, used space unknown, %2$d MB total"
 msgstr "Pamięć: %1$d MB wolne, używana przestrzeń nieznana, %2$d MB łącznie"
@@ -2758,6 +2860,10 @@ msgstr "Dane pozostaną na urządzeniu po odinstalowaniu aplikacji."
 msgctxt "pref_storage_directory_deletion_behavior_unknown"
 msgid "Unknown whether data will be deleted during uninstall."
 msgstr "Nie wiadomo, czy dane zostaną usunięte podczas deinstalacji."
+
+msgctxt "pref_storage_directory_deletion_behavior_user_choice"
+msgid "Android will ask during uninstall whether to delete data."
+msgstr ""
 
 msgctxt "pref_storage_directory_not_enough_free_space_title"
 msgid "Insufficient space"
@@ -3258,6 +3364,39 @@ msgstr "Nie ustawiony"
 msgctxt "pref_company_user_id"
 msgid "User ID"
 msgstr "Identyfikator użytkownika"
+
+msgctxt "pref_company_set_logo"
+msgid "Set company logo"
+msgstr ""
+
+msgctxt "config_company_logo_options_title"
+msgid "Company Logo"
+msgstr ""
+
+msgctxt "config_company_logo_options_size"
+msgid "Size"
+msgstr ""
+
+msgctxt "config_company_logo_options_load_image"
+msgid "Load logo image"
+msgstr ""
+
+msgctxt "config_company_logo_options_logo_enabled"
+msgid "Logo enabled"
+msgstr ""
+
+msgctxt "config_company_logo_options_logo_position"
+msgid "Logo position"
+msgstr ""
+
+msgctxt "config_company_logo_description"
+msgid "The company logo will be shown on exported images."
+msgstr ""
+
+#, c-format
+msgctxt "config_company_logo_missing_feature_warning"
+msgid "Note: the company logo will only be shown in the %1$s version."
+msgstr ""
 
 #. ===== cloud synchronization =====
 msgctxt "cloud_storage_dialog_sync_action_title"
@@ -4235,6 +4374,10 @@ msgstr "Rozłączyć się"
 msgctxt "bluetooth_notification_stop_connecting_action"
 msgid "Stop"
 msgstr "Zatrzymać"
+
+msgctxt "bluetooth_notification_missing_permission"
+msgid "No permission to connect to Bluetooth device."
+msgstr ""
 
 msgctxt "bluetooth_message_device_connected"
 msgid "Connection to Bluetooth device established."

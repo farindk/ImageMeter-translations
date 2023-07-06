@@ -1,4 +1,4 @@
-# Translations template for PROJECT.
+# Dutch translations for PROJECT.
 # Copyright (C) 2022 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
@@ -7,19 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2022-09-20 18:38+0200\n"
+"POT-Creation-Date: 2023-07-06 18:06+0200\n"
 "PO-Revision-Date: 2023-05-12 15:40+0200\n"
 "Last-Translator: \n"
-"Language-Team: \n"
 "Language: nl\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
 
-#. generic strings, fuzzy
+#. generic strings
 msgctxt "generic_button_ok"
 msgid "OK"
 msgstr "OK"
@@ -68,7 +67,7 @@ msgctxt "generic_action_undo"
 msgid "Undo"
 msgstr "Ongedaan maken"
 
-#. image library, fuzzy
+#. image library
 msgctxt "imageLibrary_new_cameraCapture"
 msgid "Camera capture"
 msgstr "Camera-opname"
@@ -169,7 +168,7 @@ msgctxt "imageLibrary_menu_openSettings"
 msgid "Settings…"
 msgstr "Instellingen…"
 
-#. image-library misc, fuzzy
+#. image-library misc
 msgctxt "imageLibrary_snackbar_imageDeleted"
 msgid "Image deleted"
 msgstr "Afbeelding verwijderd"
@@ -210,7 +209,7 @@ msgctxt "imageLibrary_sortingOrder_number_descending"
 msgid "Number, descending"
 msgstr "Getal, aflopend"
 
-#. navigation drawer, fuzzy
+#. navigation drawer
 msgctxt "navigationDrawer_preferences"
 msgid "Settings"
 msgstr "Instellingen"
@@ -251,11 +250,16 @@ msgid "User: %1$s"
 msgstr "Gebruiker: %1$s"
 
 #, c-format
+msgctxt "navigationDrawer_email"
+msgid "EMail: %1$s"
+msgstr ""
+
+#, c-format
 msgctxt "navigationDrawer_version"
 msgid "Version: %1$s"
 msgstr "Versie: %1$s"
 
-#. dialog: numbering, fuzzy
+#. dialog: numbering
 msgctxt "imageLibrary_numberingDialog_title"
 msgid "Image numbers"
 msgstr "Afbeelding nummer"
@@ -288,7 +292,7 @@ msgctxt "imageLibrary_numberingDialog_renumbering_removeAllNumbers"
 msgid "Remove numbers"
 msgstr "Nummers verwijderen"
 
-#. dialog: display options, fuzzy
+#. dialog: display options
 msgctxt "imageLibrary_displayOptionsDialog_title"
 msgid "Display options"
 msgstr "Weergaveopties"
@@ -337,7 +341,7 @@ msgctxt "imageLibrary_displayOptionsDialog_showDeletedImages_summary_off"
 msgid "Deleted images are hidden"
 msgstr "Verwijderde afbeeldingen zijn verborgen"
 
-#. dialog: rename folder, fuzzy
+#. dialog: rename folder
 msgctxt "imageLibrary_folderNameDialog_name"
 msgid "Folder name"
 msgstr "Naam van de map"
@@ -358,7 +362,7 @@ msgctxt "imageLibrary_folderNameDialog_notes"
 msgid "Notes"
 msgstr "Notities"
 
-#. dialog: rename image, fuzzy
+#. dialog: rename image
 msgctxt "imageLibrary_imageNameDialog_name"
 msgid "Image name"
 msgstr "Afbeeldingsnaam"
@@ -379,12 +383,12 @@ msgctxt "imageLibrary_imageNameDialog_notes"
 msgid "Notes"
 msgstr "Notities"
 
-#. TODO: currently unused, but could be used again in the move-image dialog, fuzzy
+#. TODO: currently unused, but could be used again in the move-image dialog
 msgctxt "imageselect_dialog_move_image_to_folder_title"
 msgid "Choose target folder for the image"
 msgstr "Kies de doelmap voor de afbeelding"
 
-#. dialog: about app, fuzzy
+#. dialog: about app
 msgctxt "aboutApp_version"
 msgid "Version:"
 msgstr "Versie:"
@@ -399,7 +403,9 @@ msgstr "Bron:"
 
 msgctxt "aboutApp_tutorialLink"
 msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
-msgstr "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Instructievideo</a>"
+msgstr ""
+"<a "
+"href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Instructievideo</a>"
 
 msgctxt "aboutApp_documentationLink"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
@@ -414,14 +420,18 @@ msgid "<a href=\"mailto:info@imagemeter.com\">Contact email</a>"
 msgstr "<a href=\"mailto:info@imagemeter.com\">Contact e-mailadres</a>"
 
 msgctxt "aboutApp_privacyPolicyLink"
-msgid "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy policy</a>"
-msgstr "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacybeleid</a>"
+msgid ""
+"<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
+"policy</a>"
+msgstr ""
+"<a href=\"https://www.iubenda.com/privacy-"
+"policy/43586350\">Privacybeleid</a>"
 
 msgctxt "aboutApp_licenses"
 msgid "<a href=\"licenses\">Licenses</a>"
 msgstr "<a href=\"licenses\">Licenties</a>"
 
-#. upgrade dialog, fuzzy
+#. upgrade dialog
 #, c-format
 msgctxt "upgradeDialog_addonPrice_once"
 msgid "%1$s once"
@@ -492,20 +502,35 @@ msgid "Back"
 msgstr "Terug"
 
 msgctxt "upgradeDialog_download_playstore_invoice"
-msgid "You can download an invoice from the &lt;a href=\"http://pay.google.com/\"&gt;Google Pay&lt;/a&gt; website."
-msgstr "U kunt een factuur downloaden van de &lt;a href=\"http://pay.google.com/\"&gt;Google Pay&lt;/a&gt; website."
+msgid ""
+"You can download an invoice from the &lt;a "
+"href=\"http://pay.google.com/\"&gt;Google Pay&lt;/a&gt; website."
+msgstr ""
+"U kunt een factuur downloaden van de &lt;a "
+"href=\"http://pay.google.com/\"&gt;Google Pay&lt;/a&gt; website."
 
 msgctxt "upgradeDialog_moreInformationLink"
-msgid "For more information about these features, &lt;a href=\"https://www.imagemeter.com/manual/license/android-licenses\"&gt;visit the website&lt;/a&gt;."
-msgstr "Ga voor meer informatie over deze functies naar &lt;a href=\"https://www.imagemeter.com/manual/license/android-licenses\"&gt;naar de website&lt;/a&gt;."
+msgid ""
+"For more information about these features, &lt;a "
+"href=\"https://www.imagemeter.com/manual/license/android-"
+"licenses\"&gt;visit the website&lt;/a&gt;."
+msgstr ""
+"Ga voor meer informatie over deze functies naar &lt;a "
+"href=\"https://www.imagemeter.com/manual/license/android-"
+"licenses\"&gt;naar de website&lt;/a&gt;."
 
 msgctxt "upgradeDialog_addon_without_pro_title"
 msgid "Add-on without Pro upgrade?"
 msgstr "Add-on zonder Pro-upgrade?"
 
 msgctxt "upgradeDialog_addon_without_pro_message"
-msgid "You are trying to install the add-on without having the Pro upgrade. This is possible, but probably not what you want. Note that the add-on does not include the Pro upgrade."
-msgstr "U probeert de add-on te installeren zonder de Pro-upgrade. Dit is mogelijk, maar niet wenselijk. De add-on bevat géén Pro-upgrade."
+msgid ""
+"You are trying to install the add-on without having the Pro upgrade. This"
+" is possible, but probably not what you want. Note that the add-on does "
+"not include the Pro upgrade."
+msgstr ""
+"U probeert de add-on te installeren zonder de Pro-upgrade. Dit is "
+"mogelijk, maar niet wenselijk. De add-on bevat géén Pro-upgrade."
 
 msgctxt "upgradeDialog_addon_without_pro_confirm"
 msgid "Get the add-on"
@@ -524,14 +549,19 @@ msgid "Add-on without Basic upgrade?"
 msgstr "Add-on zonder Basic upgrade?"
 
 msgctxt "upgradeDialog_addon_without_basic_message"
-msgid "You are trying to install the add-on without having the Basic upgrade. This is possible, but probably not what you want. Note that the add-on does not include the Basic upgrade."
-msgstr "U probeert de add-on te installeren zonder de Basic-upgrade. Dit is mogelijk, maar niet wenselijk. De add-on bevat géén Basic-upgrade."
+msgid ""
+"You are trying to install the add-on without having the Basic upgrade. "
+"This is possible, but probably not what you want. Note that the add-on "
+"does not include the Basic upgrade."
+msgstr ""
+"U probeert de add-on te installeren zonder de Basic-upgrade. Dit is "
+"mogelijk, maar niet wenselijk. De add-on bevat géén Basic-upgrade."
 
 msgctxt "upgradeDialog_addon_without_basic_get_basic"
 msgid "Get Basic instead"
 msgstr "Neem in plaats daarvan Basic"
 
-#. specification of the add-ons and their feature items, fuzzy
+#. specification of the add-ons and their feature items
 msgctxt "upgrade_addon_advancedAnnotation_purchaseBoxTitle"
 msgid "Advanced Annotation Add-On"
 msgstr "Geavanceerde annotatie add-on"
@@ -617,8 +647,12 @@ msgid "PDF import"
 msgstr "PDF importeren"
 
 msgctxt "upgrade_item_counter"
-msgid "&lt;a href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\"&gt;Counting tool&lt;/a&gt;"
-msgstr "&lt;a href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\"&gt;Teltool&lt;/a&gt;"
+msgid ""
+"&lt;a href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\"&gt;Counting "
+"tool&lt;/a&gt;"
+msgstr ""
+"&lt;a "
+"href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\"&gt;Teltool&lt;/a&gt;"
 
 msgctxt "upgrade_item_cloud_access_from_office_pc"
 msgid "Access images from your office PC"
@@ -632,9 +666,19 @@ msgctxt "upgrade_item_cloud_backup"
 msgid "Backup on your cloud storage"
 msgstr "Back-up op uw cloudopslag"
 
+msgctxt "upgrade_item_company_logo"
+msgid "Put your company logo onto images"
+msgstr ""
+
 msgctxt "upgrade_item_data_tables"
-msgid "&lt;a href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Export measurements as data tables&lt;/a&gt;."
-msgstr "&lt;a href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Exporteer metingen als gegevenstabellen&lt;/a&gt;."
+msgid ""
+"&lt;a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Export "
+"measurements as data tables&lt;/a&gt;."
+msgstr ""
+"&lt;a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Exporteer"
+" metingen als gegevenstabellen&lt;/a&gt;."
 
 msgctxt "upgrade_item_includes_basic"
 msgid "Includes Basic version"
@@ -644,11 +688,16 @@ msgctxt "upgrade_item_all_addon_packs"
 msgid "Includes Pro version"
 msgstr "Inclusief Pro-versie"
 
-#. dialogs that explain why we need an upgrade, fuzzy
+#. dialogs that explain why we need an upgrade
 #, c-format
 msgctxt "needUpgradeDialog_titleTemplate"
 msgid "%1$s Add-On"
 msgstr "%1$s Add-On"
+
+#, c-format
+msgctxt "needUpgradeDialog_mayStartApplication"
+msgid "You can only use the app with the '%1$s' upgrade."
+msgstr ""
 
 #, c-format
 msgctxt "needUpgradeDialog_createSubfolders"
@@ -658,7 +707,9 @@ msgstr "Het maken van submappen is opgenomen in de add-on '%1$s'."
 #, c-format
 msgctxt "needUpgradeDialog_moveFolders"
 msgid "Moving folders into other folders is included in the '%1$s' add-on."
-msgstr "Het verplaatsen van mappen naar andere mappen is opgenomen in de add-on '%1$s'."
+msgstr ""
+"Het verplaatsen van mappen naar andere mappen is opgenomen in de add-on "
+"'%1$s'."
 
 #, c-format
 msgctxt "needUpgradeDialog_audioNotes"
@@ -682,8 +733,12 @@ msgstr "U kunt deze functie uitproberen met voorbeeldafbeeldingen (in map '%1$s'
 
 #, c-format
 msgctxt "needUpgradeDialog_text_createAndtryWithExamples"
-msgid "You can try this function with the example images (<a href=\"create\">create folder '%1$s'</a>)."
-msgstr "U kunt deze functie uitproberen met voorbeeldafbeeldingen (<a href=\"create\">maak map '%1$s'</a>)."
+msgid ""
+"You can try this function with the example images (<a "
+"href=\"create\">create folder '%1$s'</a>)."
+msgstr ""
+"U kunt deze functie uitproberen met voorbeeldafbeeldingen (<a "
+"href=\"create\">maak map '%1$s'</a>)."
 
 #, c-format
 msgctxt "needUpgradeDialog_editingTool"
@@ -694,11 +749,15 @@ msgctxt "needUpgradeDialog_exportDataTables"
 msgid "Exporting data tables is available in the Business version."
 msgstr "Het exporteren van gegevenstabellen is beschikbaar in de Business-versie."
 
-#. TODO: demo video, fuzzy
+#. TODO: demo video
 #, c-format
 msgctxt "needUpgradeDialog_counter"
-msgid "The counting tool is available in the '%1$s' add-on. Watch the <a href=\"%2$s\">tutorial video</a> to learn more about this tool."
-msgstr "De teltool is beschikbaar in de add-on '%1$s'. Bekijk de <a href=\"%2$s\">zelfstudievideo</a> voor meer informatie over deze tool."
+msgid ""
+"The counting tool is available in the '%1$s' add-on. Watch the <a "
+"href=\"%2$s\">tutorial video</a> to learn more about this tool."
+msgstr ""
+"De teltool is beschikbaar in de add-on '%1$s'. Bekijk de <a "
+"href=\"%2$s\">zelfstudievideo</a> voor meer informatie over deze tool."
 
 msgctxt "needUpgradeDialog_button_getBusinessVersion"
 msgid "Upgrade to Business version"
@@ -713,8 +772,16 @@ msgid "Activate Add-on Pack"
 msgstr "Activeer Add-on Pakket"
 
 msgctxt "dialog_migrate_for_addon_packs_text"
-msgid "Since this native Pro-version is going to be replaced by the free version with in-app upgrades, add-on packs are only available in the free version. Please migrate to the free version. Your Pro upgrade will stay active."
-msgstr "Aangezien deze oorspronkelijke Pro-versie vervangen gaat worden door de gratis versie met in-app upgrades, zijn add-on pakketten alleen beschikbaar in de gratis versie. Migreer naar de gratis versie. Uw Pro-upgrade blijft actief."
+msgid ""
+"Since this native Pro-version is going to be replaced by the free version"
+" with in-app upgrades, add-on packs are only available in the free "
+"version. Please migrate to the free version. Your Pro upgrade will stay "
+"active."
+msgstr ""
+"Aangezien deze oorspronkelijke Pro-versie vervangen gaat worden door de "
+"gratis versie met in-app upgrades, zijn add-on pakketten alleen "
+"beschikbaar in de gratis versie. Migreer naar de gratis versie. Uw Pro-"
+"upgrade blijft actief."
 
 msgctxt "dialog_migrate_for_addon_packs_download_text"
 msgid "Download the free version from here:"
@@ -724,14 +791,18 @@ msgctxt "dialog_migrate_for_addon_packs_open_instructions"
 msgid "Show migration instructions"
 msgstr "Migratie-instructies tonen"
 
-#. licensing: volume key dialog, fuzzy
+#. licensing: volume key dialog
 msgctxt "licensing_company_key_title"
 msgid "Company configuration key"
 msgstr "Bedrijfsconfiguratiesleutel"
 
 msgctxt "licensing_volume_key_note"
-msgid "Note: you don't need to enter any key when you purchased through the Google Play store."
-msgstr "Opmerking: u hoeft geen sleutel in te voeren wanneer u via de Google Play Store heeft gekocht."
+msgid ""
+"Note: you don't need to enter any key when you purchased through the "
+"Google Play store."
+msgstr ""
+"Opmerking: u hoeft geen sleutel in te voeren wanneer u via de Google Play"
+" Store heeft gekocht."
 
 msgctxt "licensing_company_key_description"
 msgid "Please enter your company key:"
@@ -753,7 +824,22 @@ msgctxt "licensing_company_key_success"
 msgid "Key activated"
 msgstr "Sleutel geactiveerd"
 
-#. in-app payment, fuzzy
+msgctxt "licensing_revoke_device_title"
+msgid "Revoke device"
+msgstr ""
+
+msgctxt "licensing_revoke_device_descr"
+msgid ""
+"The license is already assigned to the maximum number of devices.\n"
+"\n"
+"Select the device for which the license should be revoked."
+msgstr ""
+
+msgctxt "licensing_revoke_device_button_revoke"
+msgid "Revoke"
+msgstr ""
+
+#. in-app payment
 msgctxt "inapp_error_billing_unavailable"
 msgid "Billing is not available."
 msgstr "Facturering is niet beschikbaar."
@@ -815,7 +901,7 @@ msgctxt "inapp_error_cannot_query_owned_products"
 msgid "Cannot query for owned upgrades."
 msgstr "Kan geen query uitvoeren op eigen upgrades."
 
-#. TODO: these names should be a simple summary name for the "About App", fuzzy
+#. TODO: these names should be a simple summary name for the "About App"
 #. dialog. But this does not work well with the          add-ons. Replace it
 #. with a different system.
 msgctxt "upgrade_licenseName_basic"
@@ -850,14 +936,27 @@ msgctxt "cannot_open_web_link_browser"
 msgid "Cannot open web browser to show URL."
 msgstr "Kan webbrowser niet openen om de URL weer te geven."
 
-#. info messages, fuzzy
+#. info messages
 msgctxt "main_screen_info_message_pro_key_app_not_needed"
-msgid "You may deinstall the separate Pro app. It is not needed anymore as a key to enable the Pro features because you have add-ons that include the Pro upgrade. Make sure that you have copied all the images from the Pro app to here as deleting the app will also delete all the images stored in it."
-msgstr "U kunt de afzonderlijke Pro-app verwijderen. Het is niet meer nodig als sleutel om de Pro-functies in te schakelen, omdat u add-ons hebt die de Pro-upgrade bevatten. Zorg ervoor dat je alle afbeeldingen van de Pro-app hebt gekopieerd, want als je de app verwijdert, worden ook alle daarin opgeslagen afbeeldingen verwijderd."
+msgid ""
+"You may deinstall the separate Pro app. It is not needed anymore as a key"
+" to enable the Pro features because you have add-ons that include the Pro"
+" upgrade. Make sure that you have copied all the images from the Pro app "
+"to here as deleting the app will also delete all the images stored in it."
+msgstr ""
+"U kunt de afzonderlijke Pro-app verwijderen. Het is niet meer nodig als "
+"sleutel om de Pro-functies in te schakelen, omdat u add-ons hebt die de "
+"Pro-upgrade bevatten. Zorg ervoor dat je alle afbeeldingen van de Pro-app"
+" hebt gekopieerd, want als je de app verwijdert, worden ook alle daarin "
+"opgeslagen afbeeldingen verwijderd."
 
 msgctxt "main_screen_info_message_please_rate"
-msgid "If you like this app, would you mind taking a minute to rate it? Thank you for your support!"
-msgstr "Als je deze app leuk vindt, zou je dan even de tijd willen nemen om hem te beoordelen? Bedankt voor je ondersteuning!"
+msgid ""
+"If you like this app, would you mind taking a minute to rate it? Thank "
+"you for your support!"
+msgstr ""
+"Als je deze app leuk vindt, zou je dan even de tijd willen nemen om hem "
+"te beoordelen? Bedankt voor je ondersteuning!"
 
 msgctxt "main_screen_info_message_please_rate_rate_now"
 msgid "Rate now"
@@ -869,27 +968,38 @@ msgstr "Later"
 
 msgctxt "main_screen_info_message_no_backup"
 msgid ""
-"It looks like your images are currently not backed up. If your phone breaks or gets lost, the images may be lost too.\n"
+"It looks like your images are currently not backed up. If your phone "
+"breaks or gets lost, the images may be lost too.\n"
 "\n"
-"To prevent this, use the cloud-sync function of the Business version or do a manual backup of your data."
+"To prevent this, use the cloud-sync function of the Business version or "
+"do a manual backup of your data."
 msgstr ""
-"Het lijkt erop dat er momenteel geen back-up van je afbeeldingen is of wordt gemaakt. Als je telefoon kapot gaat of kwijtraakt, kunnen de afbeeldingen verloren gaan.\n"
+"Het lijkt erop dat er momenteel geen back-up van je afbeeldingen is of "
+"wordt gemaakt. Als je telefoon kapot gaat of kwijtraakt, kunnen de "
+"afbeeldingen verloren gaan.\n"
 "\n"
-"Gebruik om dit te voorkomen de cloud-sync-functie van de Business-versie of maak een handmatig een back-up van je gegevens."
+"Gebruik om dit te voorkomen de cloud-sync-functie van de Business-versie "
+"of maak een handmatig een back-up van je gegevens."
 
 msgctxt "main_screen_info_message_no_backup_do_not_warn_again"
 msgid "Don't warn again"
 msgstr "Waarschuw niet nog een keer"
 
 msgctxt "main_screen_info_message_deprecated_directory"
-msgid "Your images are stored in the public 'Documents' directory. Soon, Android will not allow apps to access this directory anymore. Please move your data into the app directory."
-msgstr "Uw afbeeldingen worden opgeslagen in de openbare map 'Documenten'. Binnenkort zal Android apps geen toegang meer geven tot deze map. Verplaats uw gegevens naar de app-directory."
+msgid ""
+"Your images are stored in the public 'Documents' directory. Soon, Android"
+" will not allow apps to access this directory anymore. Please move your "
+"data into the app directory."
+msgstr ""
+"Uw afbeeldingen worden opgeslagen in de openbare map 'Documenten'. "
+"Binnenkort zal Android apps geen toegang meer geven tot deze map. "
+"Verplaats uw gegevens naar de app-directory."
 
 msgctxt "main_screen_info_message_deprecated_directory_settings"
 msgid "Open settings"
 msgstr "Open instellingen"
 
-#. example images, fuzzy
+#. example images
 msgctxt "example_folder_name"
 msgid "Examples"
 msgstr "Voorbeelden"
@@ -910,7 +1020,7 @@ msgctxt "tutorial_images_4"
 msgid "Example 4: Perspective height measurement"
 msgstr "Voorbeeld 4: Perspectief hoogtemeting"
 
-#. image import from free app, fuzzy
+#. image import from free app
 msgctxt "snackbar_pro_to_free_migration"
 msgid "Pro-version app migration"
 msgstr "Pro-versie app-migratie"
@@ -928,12 +1038,23 @@ msgid "Import images from Pro app"
 msgstr "Importeer afbeeldingen uit de Pro-app"
 
 msgctxt "import_pro_app_data_started_text"
-msgid "Importing has started to run in the background. When it is finished, please check that the images were copied correctly and delete them in the Pro app to save memory space."
-msgstr "Het importeren draait op de achtergrond. Als het klaar is, controleer dan of de afbeeldingen correct zijn gekopieerd en verwijder deze in de Pro-app om geheugenruimte te besparen."
+msgid ""
+"Importing has started to run in the background. When it is finished, "
+"please check that the images were copied correctly and delete them in the"
+" Pro app to save memory space."
+msgstr ""
+"Het importeren draait op de achtergrond. Als het klaar is, controleer dan"
+" of de afbeeldingen correct zijn gekopieerd en verwijder deze in de Pro-"
+"app om geheugenruimte te besparen."
 
 msgctxt "import_pro_app_data_local_not_empty"
-msgid "Warning: there are images in this app. Importing the images from the Pro app may overwrite images with the same name."
-msgstr "Waarschuwing: er bevinden zich afbeeldingen in deze app. Het importeren van afbeeldingen uit de Pro-app kan afbeeldingen met dezelfde naam overschrijven."
+msgid ""
+"Warning: there are images in this app. Importing the images from the Pro "
+"app may overwrite images with the same name."
+msgstr ""
+"Waarschuwing: er bevinden zich afbeeldingen in deze app. Het importeren "
+"van afbeeldingen uit de Pro-app kan afbeeldingen met dezelfde naam "
+"overschrijven."
 
 msgctxt "import_pro_app_data_local_not_empty_anyway"
 msgid "Import anyway"
@@ -950,17 +1071,29 @@ msgstr "Een ogenblik geduld, zoeken naar afbeeldingen om te kopiëren."
 #, c-format
 msgctxt "import_pro_app_data_progress_text"
 msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
-msgstr "Een ogenblik geduld, %1$d afbeeldingen van %2$d zijn voltooid (%3$d fouten)."
+msgstr ""
+"Een ogenblik geduld, %1$d afbeeldingen van %2$d zijn voltooid (%3$d "
+"fouten)."
 
 msgctxt "import_pro_app_data_finished"
-msgid "Images from the Pro app are now imported. After checking that the images were imported correctly, you may want to delete the images in the Pro app to save memory space."
-msgstr "Afbeeldingen uit de Pro-app worden nu geïmporteerd. Nadat u heeft gecontroleerd of de afbeeldingen correct zijn geïmporteerd, kunt u de afbeeldingen in de Pro-app verwijderen om geheugenruimte te besparen."
+msgid ""
+"Images from the Pro app are now imported. After checking that the images "
+"were imported correctly, you may want to delete the images in the Pro app"
+" to save memory space."
+msgstr ""
+"Afbeeldingen uit de Pro-app worden nu geïmporteerd. Nadat u heeft "
+"gecontroleerd of de afbeeldingen correct zijn geïmporteerd, kunt u de "
+"afbeeldingen in de Pro-app verwijderen om geheugenruimte te besparen."
 
 msgctxt "import_pro_app_data_failed"
-msgid "Image import from Pro app has failed or is incomplete. Maybe your memory is full?"
-msgstr "Het importeren van afbeeldingen uit de Pro-app is mislukt of is onvolledig. Controleer of je geheugen vol is."
+msgid ""
+"Image import from Pro app has failed or is incomplete. Maybe your memory "
+"is full?"
+msgstr ""
+"Het importeren van afbeeldingen uit de Pro-app is mislukt of is "
+"onvolledig. Controleer of je geheugen vol is."
 
-#. PDF import dialog, fuzzy
+#. PDF import dialog
 msgctxt "pdf_import_page_selection_render_resolution"
 msgid "Resolution (dpi):"
 msgstr "Resolutie (dpi):"
@@ -982,7 +1115,7 @@ msgctxt "pdf_import_page_selection_importButton"
 msgid "Import"
 msgstr "Importeren"
 
-#. dialog: export format, fuzzy
+#. dialog: export format
 msgctxt "dialog_export_format_image"
 msgid "Image (JPEG/PNG)"
 msgstr "Afbeelding (JPEG/PNG)"
@@ -1011,7 +1144,7 @@ msgctxt "dialog_export_format_show_next_time"
 msgid "Show format selection next time"
 msgstr "Formaatselectie de volgende keer tonen"
 
-#. image export, fuzzy
+#. image export
 msgctxt "dialog_image_export_options_title"
 msgid "Default image export settings"
 msgstr "Standaardinstelling voor het exporteren van afbeeldingen"
@@ -1024,7 +1157,7 @@ msgctxt "dialog_image_export_options_show_dialog"
 msgid "Show export options next time"
 msgstr "Toon de volgende keer exportopties"
 
-#. PDF export, fuzzy
+#. PDF export
 #. <string name="dialog_pdf_export_paper">Paper</string>     <string
 #. name="dialog_pdf_export_layout">Layout</string>     <string
 #. name="dialog_pdf_export_metadata">Metadata</string>
@@ -1036,14 +1169,14 @@ msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
 msgstr "Mapnotities afdrukken"
 
-#. <string name="dialog_pdf_export_print_table_of_content">Print table of, fuzzy
+#. <string name="dialog_pdf_export_print_table_of_content">Print table of
 #. content</string>     <string name="dialog_pdf_export_image_title">Image
 #. title</string>
 msgctxt "dialog_pdf_export_data_table"
 msgid "Data Table"
 msgstr "Data tabel"
 
-#. <string name="dialog_pdf_export_data_table_layout">Table, fuzzy
+#. <string name="dialog_pdf_export_data_table_layout">Table
 #. layout</string>     <string
 #. name="dialog_pdf_export_data_table_title_vertical">Vertical column
 #. titles</string>
@@ -1051,52 +1184,52 @@ msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
 msgstr "Toon PDF-opties de volgende keer"
 
-#. TODO: replace this with "export:pdf:print-density:default" in the PO set, fuzzy
+#. TODO: replace this with "export:pdf:print-density:default" in the PO set
 msgctxt "pref_export_pdf_output_resolution_default"
 msgid "Default"
 msgstr "Standaard"
 
-#. <string name="pref_export_pdf_print_density">Resolution</string>, fuzzy
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 msgctxt "dialog_pdf_options_image_notes_space_choices:0"
 msgid "Do not print notes"
 msgstr "Druk geen notities af"
 
-#. <string name="pref_export_pdf_print_density">Resolution</string>, fuzzy
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:1"
 msgid "10%"
 msgstr "10%"
 
-#. <string name="pref_export_pdf_print_density">Resolution</string>, fuzzy
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:2"
 msgid "20%"
 msgstr "20%"
 
-#. <string name="pref_export_pdf_print_density">Resolution</string>, fuzzy
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:3"
 msgid "30%"
 msgstr "30%"
 
-#. <string name="pref_export_pdf_print_density">Resolution</string>, fuzzy
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:4"
 msgid "40%"
 msgstr "40%"
 
-#. <string name="pref_export_pdf_print_density">Resolution</string>, fuzzy
+#. <string name="pref_export_pdf_print_density">Resolution</string>
 #, c-format
 msgctxt "dialog_pdf_options_image_notes_space_choices:5"
 msgid "50%"
 msgstr "50%"
 
-#. export to gallery, fuzzy
+#. export to gallery
 msgctxt "image_export_to_gallery_in_background"
 msgid "Storing the images into your photo gallery..."
 msgstr "De afbeeldingen opslaan in galerij…"
 
-#. PDF export progress notification, fuzzy
+#. PDF export progress notification
 msgctxt "pdf_export_notification_generating_pdf"
 msgid "Generating PDF file"
 msgstr "PDF-bestand genereren"
@@ -1106,7 +1239,7 @@ msgctxt "pdf_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
 msgstr "Afbeelding %1$d van %2$d renderen."
 
-#. - ZIP export, fuzzy
+#. - ZIP export
 msgctxt "dialog_zip_export_title"
 msgid "ZIP export"
 msgstr "ZIP-export"
@@ -1115,7 +1248,7 @@ msgctxt "dialog_zip_options_show_dialog"
 msgid "Show ZIP options next time"
 msgstr "Toon ZIP-opties de volgende keer"
 
-#. ZIP export progress notification, fuzzy
+#. ZIP export progress notification
 msgctxt "zip_export_notification_generating_title"
 msgid "Generating ZIP file"
 msgstr "ZIP-bestand genereren"
@@ -1134,12 +1267,12 @@ msgctxt "zip_export_notification_progress_compressing_step"
 msgid "Compressing ZIP file…"
 msgstr "ZIP-bestand comprimeren…"
 
-#. CSV export, fuzzy
+#. CSV export
 msgctxt "dialog_csv_export_title"
 msgid "Data table export (CSV)"
 msgstr "Gegevenstabel exporteren (CSV)"
 
-#. export, fuzzy
+#. export
 #. notifications
 msgctxt "notification_generic_error_title"
 msgid "Error"
@@ -1221,7 +1354,9 @@ msgstr[1] ""
 
 msgctxt "notification_error_no_permission_to_save_to_gallery"
 msgid "Cannot save to gallery because ImageMeter has no storage write permission."
-msgstr "Kan niet opslaan in galerij omdat ImageMeter geen schrijfrechten voor opslag heeft."
+msgstr ""
+"Kan niet opslaan in galerij omdat ImageMeter geen schrijfrechten voor "
+"opslag heeft."
 
 msgctxt "notification_duplicate_title"
 msgid "Duplicate images"
@@ -1236,7 +1371,7 @@ msgctxt "notification_error_duplicating_image"
 msgid "Error while duplicating image"
 msgstr "Fout bij het dupliceren van de afbeelding"
 
-#. ========== preferences ==========, fuzzy
+#. ========== preferences ==========
 #. main screen
 msgctxt "pref_main_title"
 msgid "Settings"
@@ -1282,7 +1417,7 @@ msgctxt "pref_category_information"
 msgid "Information"
 msgstr "Informatie"
 
-#. measures, fuzzy
+#. measures
 msgctxt "pref_measures_default_template"
 msgid "Default measurement format"
 msgstr "Standaard meetformaat"
@@ -1443,7 +1578,7 @@ msgctxt "pref_unit_subsets_imperial_all"
 msgid "All"
 msgstr "Alle"
 
-#. Bluetooth, fuzzy
+#. Bluetooth
 msgctxt "pref_bluetooth_devices"
 msgid "Laser distance meter"
 msgstr "Laser afstandsmeter"
@@ -1472,7 +1607,7 @@ msgctxt "pref_bluetooth_device_protocol_dialog"
 msgid "Select your laser distance meter"
 msgstr "Selecteer uw laserafstandsmeter"
 
-#. TODO: move device names to editcore [untranslated], fuzzy
+#. TODO: move device names to editcore [untranslated]
 msgctxt "pref_bluetooth_device_protocol_auto"
 msgid "Automatic"
 msgstr "Automatisch"
@@ -1517,6 +1652,14 @@ msgctxt "pref_bluetooth_device_protocol_cem_ildm150"
 msgid "CEM iLDM-150"
 msgstr "CEM iLDM-150"
 
+msgctxt "pref_bluetooth_device_protocol_cem_ildm80c"
+msgid "CEM iLDM-80C"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_cem_ildm25"
+msgid "CEM iLDM-25"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_etape16"
 msgid "eTape16"
 msgstr "eTape16"
@@ -1536,6 +1679,14 @@ msgstr "Stabila"
 msgctxt "pref_bluetooth_device_protocol_wuerth"
 msgid "Würth WDM 3–19"
 msgstr "Würth WDM 3–19"
+
+msgctxt "pref_bluetooth_device_protocol_wuerth_wdm814"
+msgid "Würth WDM 8–14"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_wuerth_wdm622"
+msgid "Würth WDM 6–22"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
 msgid "Leica Disto classic"
@@ -1569,6 +1720,10 @@ msgctxt "pref_bluetooth_device_protocol_stanley_tlm165si"
 msgid "Stanley TLM165si"
 msgstr "Stanley TLM165si"
 
+msgctxt "pref_bluetooth_device_protocol_dewalt_de03050"
+msgid "DeWalt DW03050-XJ"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_suaoki"
 msgid "Suaoki"
 msgstr "Suaoki"
@@ -1577,6 +1732,10 @@ msgctxt "pref_bluetooth_device_protocol_mileseey_p7"
 msgid "Mileseey P7"
 msgstr "Mileseey P7"
 
+msgctxt "pref_bluetooth_device_protocol_mileseey_p9"
+msgid "Mileseey P9"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_mileseey_r2b"
 msgid "Mileseey R2B"
 msgstr "Mileseey R2B"
@@ -1584,6 +1743,14 @@ msgstr "Mileseey R2B"
 msgctxt "pref_bluetooth_device_protocol_mileseey_m120"
 msgid "Mileseey M120"
 msgstr "Mileseey M120"
+
+msgctxt "pref_bluetooth_device_protocol_mileseey_m130"
+msgid "Mileseey M130"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_mileseey_dt20"
+msgid "Mileseey DT20"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
 msgid "Sndway SW-S100"
@@ -1604,6 +1771,22 @@ msgstr "Precaster CX100"
 msgctxt "pref_bluetooth_device_protocol_ada_cosmo120"
 msgid "Ada Cosmo 120"
 msgstr "Ada Cosmo 120"
+
+msgctxt "pref_bluetooth_device_protocol_ada_cosmo150"
+msgid "Ada Cosmo 150"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_ada_cosmo60green"
+msgid "Ada Cosmo 60 Green"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_ada_micro25"
+msgid "Ada Micro 25"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_instrumax_sniper80plus"
+msgid "Instrumax Sniper 80 Plus"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_laserliner_compactpro"
 msgid "Laserliner Compact Pro"
@@ -1661,6 +1844,26 @@ msgctxt "pref_bluetooth_device_protocol_laserliner_laserrange_master_t4pro"
 msgid "Laserliner LaserRange-Master T4 Pro"
 msgstr "Laserliner LaserRange-Master T4 Pro"
 
+msgctxt "pref_bluetooth_device_protocol_geodist_80"
+msgid "GeoDist 80"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_geodist_100_touch"
+msgid "GeoDist 100 Touch"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_lomvum_e60"
+msgid "Lomvum E60"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_fnirsi_ir40"
+msgid "Fnirsi IR40"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_noyafa_nf273"
+msgid "Noyafa NF-273"
+msgstr ""
+
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
 msgid "LTI TruPulse distance mode"
 msgstr "LTI TruPulse-afstandsmodus"
@@ -1710,14 +1913,20 @@ msgid "Send remote trigger twice"
 msgstr "Stuur de externe trigger twee keer"
 
 msgctxt "pref_bluetooth_remote_trigger_twice_summaryon"
-msgid "The trigger command will be sent twice. For some laser devices that only switch on the laser at the first command and perform the measurement at the second command."
-msgstr "Het triggercommando wordt twee keer verzonden. dit is voor sommige laserapparaten die pas bij het eerste commando de laser inschakelen en bij het tweede commando de meting uitvoeren."
+msgid ""
+"The trigger command will be sent twice. For some laser devices that only "
+"switch on the laser at the first command and perform the measurement at "
+"the second command."
+msgstr ""
+"Het triggercommando wordt twee keer verzonden. dit is voor sommige "
+"laserapparaten die pas bij het eerste commando de laser inschakelen en "
+"bij het tweede commando de meting uitvoeren."
 
 msgctxt "pref_bluetooth_remote_trigger_twice_summaryoff"
 msgid "The trigger command will be sent only once."
 msgstr "Het triggercommando wordt slechts één keer verzonden."
 
-#. Editor, fuzzy
+#. Editor
 msgctxt "pref_category_editor_general"
 msgid "General"
 msgstr "Algemeen"
@@ -1957,7 +2166,7 @@ msgctxt "preset_text_10"
 msgid "exit"
 msgstr "uitgang"
 
-#. Image export, fuzzy
+#. Image export
 msgctxt "pref_category_export_format"
 msgid "Export format"
 msgstr "Formaat exporteren"
@@ -1982,37 +2191,37 @@ msgctxt "pref_export_single_image_format_dialog"
 msgid "Export images as"
 msgstr "Exporteer afbeeldingen als"
 
-#. TODO: instead of this string-array use the values from, fuzzy
+#. TODO: instead of this string-array use the values from
 #. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:0"
 msgid "Image"
 msgstr "Afbeelding"
 
-#. TODO: instead of this string-array use the values from, fuzzy
+#. TODO: instead of this string-array use the values from
 #. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:1"
 msgid "PDF"
 msgstr "PDF"
 
-#. TODO: instead of this string-array use the values from, fuzzy
+#. TODO: instead of this string-array use the values from
 #. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:2"
 msgid "Zip archive of images"
 msgstr "Zip-archief met afbeeldingen"
 
-#. TODO: instead of this string-array use the values from, fuzzy
+#. TODO: instead of this string-array use the values from
 #. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:3"
 msgid "ImageMeter image (IMI)"
 msgstr "ImageMeter-afbeelding (IMI)"
 
-#. TODO: instead of this string-array use the values from, fuzzy
+#. TODO: instead of this string-array use the values from
 #. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:4"
 msgid "ImageMeter folder (IMF)"
 msgstr "ImageMeter-map (IMF)"
 
-#. TODO: instead of this string-array use the values from, fuzzy
+#. TODO: instead of this string-array use the values from
 #. dialog_export_format_*
 msgctxt "pref_export_single_image_format_choices:5"
 msgid "Save to gallery"
@@ -2044,7 +2253,9 @@ msgstr "Hardwarematige anti-aliasing"
 
 msgctxt "pref_export_hardware_msaa_summaryon"
 msgid "Enabled (some buggy GPUs may draw black images only)"
-msgstr "Ingeschakeld (sommige buggy-GPU's kunnen alleen zwarte afbeeldingen tekenen)"
+msgstr ""
+"Ingeschakeld (sommige buggy-GPU's kunnen alleen zwarte afbeeldingen "
+"tekenen)"
 
 msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
@@ -2055,10 +2266,16 @@ msgid "Expression for output filename"
 msgstr "Expressie voor uitvoer bestandsnaam"
 
 msgctxt "pref_export_image_filename_expression_message"
-msgid "Please see the documentation at \"https://imagemeter.com/manual/workflow/variables\" to learn more about writing string expressions with variables."
-msgstr "Raadpleeg de documentatie op \"https://imagemeter.com/manual/workflow/variables\" voor meer informatie over het schrijven van tekenreeks expressies met variabelen."
+msgid ""
+"Please see the documentation at "
+"\"https://imagemeter.com/manual/workflow/variables\" to learn more about "
+"writing string expressions with variables."
+msgstr ""
+"Raadpleeg de documentatie op "
+"\"https://imagemeter.com/manual/workflow/variables\" voor meer informatie"
+" over het schrijven van tekenreeks expressies met variabelen."
 
-#. ZIP, fuzzy
+#. ZIP
 msgctxt "pref_category_export_zip"
 msgid "ZIP archive settings"
 msgstr "ZIP-archiefinstellingen"
@@ -2079,12 +2296,12 @@ msgctxt "pref_export_zip_include_csv"
 msgid "Include CSV file"
 msgstr "Inclusief CSV-bestand"
 
-#. CSV, fuzzy
+#. CSV
 msgctxt "pref_category_export_csv"
 msgid "CSV file settings"
 msgstr "Instellingen voor CSV-bestanden"
 
-#. PDF, fuzzy
+#. PDF
 msgctxt "pref_category_export_pdf"
 msgid "PDF settings"
 msgstr "PDF-instellingen"
@@ -2101,7 +2318,7 @@ msgctxt "pref_export_pdf_show_options_summary_off"
 msgid "Options dialog will be skipped"
 msgstr "Het dialoogvenster Opties wordt overgeslagen"
 
-#. <string name="pref_export_pdf_images_per_page">Images per PDF, fuzzy
+#. <string name="pref_export_pdf_images_per_page">Images per PDF
 #. page</string>     <string
 #. name="pref_export_pdf_images_per_page_dialog">Print how many images on each
 #. PDF page</string>
@@ -2148,7 +2365,7 @@ msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
 msgstr "Kaartlink gebruiken"
 
-#. User interface, fuzzy
+#. User interface
 msgctxt "pref_category_ui_general"
 msgid "General"
 msgstr "Algemeen"
@@ -2210,7 +2427,7 @@ msgctxt "pref_category_ui_limits"
 msgid "Limits"
 msgstr "Grenzen"
 
-#. <string name="pref_ui_max_image_resolution">Maximum image, fuzzy
+#. <string name="pref_ui_max_image_resolution">Maximum image
 #. resolution</string>      <string-array
 #. name="pref_ui_max_image_resolution_choices">         <item>1
 #. megapixel</item>         <item>4 megapixel</item>         <item>16
@@ -2280,7 +2497,7 @@ msgctxt "pref_ui_entity_init_new_folder_notes_expr"
 msgid "Notes for new folder"
 msgstr "Opmerkingen voor nieuwe map"
 
-#. numbering, fuzzy
+#. numbering
 msgctxt "pref_category_ui_numbering"
 msgid "Image numbering"
 msgstr "Afbeelding nummering"
@@ -2301,7 +2518,7 @@ msgctxt "pref_ui_image_auto_numbering_invalid_number"
 msgid "Invalid"
 msgstr "Ongeldig"
 
-#. Storage, fuzzy
+#. Storage
 msgctxt "pref_storage_data_directory"
 msgid "Data directory"
 msgstr "Gegevens directory"
@@ -2371,20 +2588,40 @@ msgid "Two-way sync mode"
 msgstr "Tweerichtings synchronisatiemodus"
 
 msgctxt "pref_storage_cloud_sync_twoway_mode_keep_remote_delete_local"
-msgid "<b>Pull</b>: locally deleted images are not deleted on the server, but images deleted on the server are also deleted locally."
-msgstr "<b>Pull</b>: lokaal verwijderde afbeeldingen worden niet op de server verwijderd, afbeeldingen die op de server zijn verwijderd worden ook lokaal verwijderd."
+msgid ""
+"<b>Pull</b>: locally deleted images are not deleted on the server, but "
+"images deleted on the server are also deleted locally."
+msgstr ""
+"<b>Pull</b>: lokaal verwijderde afbeeldingen worden niet op de server "
+"verwijderd, afbeeldingen die op de server zijn verwijderd worden ook "
+"lokaal verwijderd."
 
 msgctxt "pref_storage_cloud_sync_twoway_mode_safe_sync"
-msgid "<b>Push</b>: locally deleted images are also deleted on the server, but images deleted on the server are not deleted locally."
-msgstr "<b>Push</b>: lokaal verwijderde afbeeldingen worden ook op de server verwijderd, afbeeldingen die op de server zijn verwijderd worden niet lokaal verwijderd."
+msgid ""
+"<b>Push</b>: locally deleted images are also deleted on the server, but "
+"images deleted on the server are not deleted locally."
+msgstr ""
+"<b>Push</b>: lokaal verwijderde afbeeldingen worden ook op de server "
+"verwijderd, afbeeldingen die op de server zijn verwijderd worden niet "
+"lokaal verwijderd."
 
 msgctxt "pref_storage_cloud_sync_twoway_mode_full_sync"
-msgid "<b>Sync</b>: locally deleted images are also deleted on the server and images deleted on the server are deleted locally."
-msgstr "<b>Sync</b>: lokaal verwijderde afbeeldingen worden ook op de server verwijderd, afbeeldingen die op de server worden verwijderd worden lokaal verwijderd."
+msgid ""
+"<b>Sync</b>: locally deleted images are also deleted on the server and "
+"images deleted on the server are deleted locally."
+msgstr ""
+"<b>Sync</b>: lokaal verwijderde afbeeldingen worden ook op de server "
+"verwijderd, afbeeldingen die op de server worden verwijderd worden lokaal"
+" verwijderd."
 
 msgctxt "pref_storage_cloud_sync_twoway_mode_backup"
-msgid "<b>Backup</b>: locally deleted images not deleted on the server and images deleted on the server are not deleted locally."
-msgstr "<b>Backup</b>: lokaal verwijderde afbeeldingen worden niet verwijderd op de server, afbeeldingen verwijderd op de server worden niet lokaal verwijderd."
+msgid ""
+"<b>Backup</b>: locally deleted images not deleted on the server and "
+"images deleted on the server are not deleted locally."
+msgstr ""
+"<b>Backup</b>: lokaal verwijderde afbeeldingen worden niet verwijderd op "
+"de server, afbeeldingen verwijderd op de server worden niet lokaal "
+"verwijderd."
 
 msgctxt "pref_storage_cloud_sync_imageupload_mode"
 msgid "Image-upload sync mode"
@@ -2402,12 +2639,12 @@ msgctxt "pref_storage_cloud_advanced_maintenance"
 msgid "Advanced maintenance"
 msgstr ""
 
-#. FUNCTION WAS REMOVED, fuzzy
+#. FUNCTION WAS REMOVED
 msgctxt "pref_storage_cloud_send_error_log"
 msgid "Send error log by email"
 msgstr "Foutlogboek per e-mail verzenden"
 
-#. TODO, fuzzy
+#. TODO
 msgctxt "pref_storage_cloud_sync_mode"
 msgid "Synchronization mode"
 msgstr "Synchronisatie modus"
@@ -2420,27 +2657,27 @@ msgctxt "pref_storage_cloud_sync_mode_choices:1"
 msgid "Backup"
 msgstr "Backup"
 
-#. TODO, fuzzy
+#. TODO
 msgctxt "pref_cloud_storage_sync_cautiousness:0"
 msgid "Never ask"
 msgstr "Nooit vragen"
 
-#. TODO, fuzzy
+#. TODO
 msgctxt "pref_cloud_storage_sync_cautiousness:1"
 msgid "Confirm deletions"
 msgstr "Verwijder bevestigen"
 
-#. TODO, fuzzy
+#. TODO
 msgctxt "pref_cloud_storage_sync_cautiousness:2"
 msgid "Confirm conflicts and deletions"
 msgstr "Bevestig conflicten en verwijderen"
 
-#. TODO, fuzzy
+#. TODO
 msgctxt "pref_cloud_storage_sync_cautiousness:3"
 msgid "Confirm everything"
 msgstr "Bevestig alles"
 
-#. TODO, fuzzy
+#. TODO
 msgctxt "pref_cloud_storage_sync_mode:0"
 msgid "SYNC MODE"
 msgstr "SYNC-MODUS"
@@ -2481,7 +2718,7 @@ msgctxt "dialog_purge_images_finished"
 msgid "All deleted images have been purged from memory."
 msgstr "Alle verwijderde afbeeldingen zijn uit het geheugen gewist."
 
-#. Data directory, fuzzy
+#. Data directory
 msgctxt "pref_storage_directory_current_directory"
 msgid "Current storage directory:"
 msgstr "Huidige opslagmap:"
@@ -2526,7 +2763,7 @@ msgctxt "pref_storage_directory_error_nonexistent_directory"
 msgid "This directory is not present. Please choose a different directory."
 msgstr "Deze map is niet aanwezig, kies een andere map."
 
-#. Actually, we should use Unicode \u00A0 for non-breaking spaces, but a2po, fuzzy
+#. Actually, we should use Unicode \u00A0 for non-breaking spaces, but a2po
 #. crashes on them
 #. string name="pref_storage_directory_memory_status">Memory: %1$s\u00A0MB
 #. free, %2$s\u00A0MB used, %3$s\u00A0MB total</string
@@ -2536,6 +2773,11 @@ msgstr "Deze map is niet aanwezig, kies een andere map."
 msgctxt "pref_storage_directory_memory_status"
 msgid "Memory: %1$d MB free, %2$d MB used, %3$d MB total"
 msgstr "Geheugen: %1$d MB vrij, %2$d MB gebruikt, %3$d MB totaal"
+
+#, c-format
+msgctxt "pref_storage_directory_memory_status_unknown_size"
+msgid "Memory: %1$d MB used"
+msgstr ""
 
 #, c-format
 msgctxt "pref_storage_directory_memory_status_unknown_used"
@@ -2554,28 +2796,40 @@ msgctxt "pref_storage_directory_deletion_behavior_unknown"
 msgid "Unknown whether data will be deleted during uninstall."
 msgstr "Onbekend of gegevens worden verwijderd tijdens het verwijderen."
 
+msgctxt "pref_storage_directory_deletion_behavior_user_choice"
+msgid "Android will ask during uninstall whether to delete data."
+msgstr ""
+
 msgctxt "pref_storage_directory_not_enough_free_space_title"
 msgid "Insufficient space"
 msgstr "Onvoldoende ruimte"
 
 msgctxt "pref_storage_directory_not_enough_free_space_message"
 msgid "There is not enough free memory on the target volume to move all images."
-msgstr "Er is onvoldoende vrij geheugen op het doelvolume om alle afbeeldingen te verplaatsen."
+msgstr ""
+"Er is onvoldoende vrij geheugen op het doelvolume om alle afbeeldingen te"
+" verplaatsen."
 
 #, fuzzy
 msgctxt "pref_storage_directory_error_could_not_copy_all_images"
 msgid ""
-"Could not copy all images to target directory. Maybe your folder names are no valid filenames on the target filesystem. Please change them and then try to copy the remaining data.\n"
+"Could not copy all images to target directory. Maybe your folder names "
+"are no valid filenames on the target filesystem. Please change them and "
+"then try to copy the remaining data.\n"
 "\n"
 "The active storage directory has not been changed.\n"
 "\n"
-"Please note that the target directory now contains an incomplete copy of the source data!"
+"Please note that the target directory now contains an incomplete copy of "
+"the source data!"
 msgstr ""
-"Kon niet alle afbeeldingen naar de doelmap kopiëren. Misschien zijn uw mapnamen geen geldige bestandsnamen op het doelbestandssysteem. Wijzig ze alstublieft en probeer vervolgens de resterende gegevens te kopiëren.\n"
+"Kon niet alle afbeeldingen naar de doelmap kopiëren. Misschien zijn uw "
+"mapnamen geen geldige bestandsnamen op het doelbestandssysteem. Wijzig ze"
+" alstublieft en probeer vervolgens de resterende gegevens te kopiëren.\n"
 "\n"
 "De actieve opslagmap is niet gewijzigd.\n"
 "\n"
-"Houd er rekening mee dat de doelmap nu een onvolledige kopie van de brongegevens bevat!"
+"Houd er rekening mee dat de doelmap nu een onvolledige kopie van de "
+"brongegevens bevat!"
 
 msgctxt "pref_storage_directory_cannot_move_files"
 msgid "Cannot move files"
@@ -2589,10 +2843,16 @@ msgctxt "dialog_storage_directory_move_images_progress_text"
 msgid "Moving images …"
 msgstr "Bewegende beelden …"
 
-#. Cloud storage, fuzzy
+#. Cloud storage
 msgctxt "cloud_storage_notice_text"
-msgid "Before setting up cloud storage, you should read the <a href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a> to avoid pitfalls."
-msgstr "Voordat u cloudopslag instelt, moet u de <a href=\"https://www.imagemeter.com/manual/storage/cloud\">documentatie</a> lezen om valkuilen te voorkomen."
+msgid ""
+"Before setting up cloud storage, you should read the <a "
+"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>"
+" to avoid pitfalls."
+msgstr ""
+"Voordat u cloudopslag instelt, moet u de <a "
+"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentatie</a>"
+" lezen om valkuilen te voorkomen."
 
 msgctxt "cloud_storage_cloud_server"
 msgid "Cloud server:"
@@ -2643,26 +2903,60 @@ msgid "OneDrive"
 msgstr "OneDrive"
 
 msgctxt "cloud_storage_server_note_drive"
-msgid "<b>Note:</b> the Google Drive backend does not allow access to shared folders yet. Hence, you can share images between devices when they use the same Google account, but not between devices using different accounts."
-msgstr "<b>Opmerking:</b> Google Drive staat nog geen toegang tot gedeelde mappen toe. Daarom kunt u afbeeldingen delen tussen apparaten wanneer ze hetzelfde Google-account gebruiken, maar niet tussen apparaten die verschillende accounts gebruiken."
+msgid ""
+"<b>Note:</b> the Google Drive backend does not allow access to shared "
+"folders yet. Hence, you can share images between devices when they use "
+"the same Google account, but not between devices using different "
+"accounts."
+msgstr ""
+"<b>Opmerking:</b> Google Drive staat nog geen toegang tot gedeelde mappen"
+" toe. Daarom kunt u afbeeldingen delen tussen apparaten wanneer ze "
+"hetzelfde Google-account gebruiken, maar niet tussen apparaten die "
+"verschillende accounts gebruiken."
 
 msgctxt "cloud_storage_server_note_dropbox"
-msgid "The Dropbox backend also supports sharing your images with other Dropbox users. See the documentation at the link above how to set this up."
-msgstr "Dropbox ondersteunt ook het delen van je afbeeldingen met andere Dropbox-gebruikers. Zie de documentatie op de bovenstaande link hoe dit in te stellen."
+msgid ""
+"The Dropbox backend also supports sharing your images with other Dropbox "
+"users. See the documentation at the link above how to set this up."
+msgstr ""
+"Dropbox ondersteunt ook het delen van je afbeeldingen met andere Dropbox-"
+"gebruikers. Zie de documentatie op de bovenstaande link hoe dit in te "
+"stellen."
 
 #, fuzzy
 msgctxt "cloud_storage_server_note_nextcloud"
-msgid "This backend allows you to use your own, private cloud server to host the images. You can set-up your own users and shared folders. Information how to set-up a server can be found at the documentation link above."
-msgstr "Met deze backend kunt u uw eigen, privé cloud-server gebruiken om de afbeeldingen te hosten. U kunt uw eigen gebruikers en gedeelde mappen instellen. Informatie over het instellen van een server is te vinden via de documentatielink hierboven."
+msgid ""
+"This backend allows you to use your own, private cloud server to host the"
+" images. You can set-up your own users and shared folders. Information "
+"how to set-up a server can be found at the documentation link above."
+msgstr ""
+"Met deze backend kunt u uw eigen, privé cloud-server gebruiken om de "
+"afbeeldingen te hosten. U kunt uw eigen gebruikers en gedeelde mappen "
+"instellen. Informatie over het instellen van een server is te vinden via "
+"de documentatielink hierboven."
 
 msgctxt "cloud_storage_server_note_handwerkcloud"
-msgid "The Handwerkcloud service offers not only storage space for your images and documents, but also an online office suite and other applications. A Handwerkcloud subscription includes an ImageMeter Business license. For more information see the <a href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
-msgstr "De dienst Handwerkcloud biedt niet alleen opslagruimte voor uw afbeeldingen en documenten, maar ook een online kantoorpakket en andere applicaties. Bij een Handwerkcloud abonnement is een ImageMeter Business licentie inbegrepen. Zie voor meer informatie de <a href=\"https://handwerkcloud.de\">Handwerkcloud-website</a>."
+msgid ""
+"The Handwerkcloud service offers not only storage space for your images "
+"and documents, but also an online office suite and other applications. A "
+"Handwerkcloud subscription includes an ImageMeter Business license. For "
+"more information see the <a "
+"href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
+msgstr ""
+"De dienst Handwerkcloud biedt niet alleen opslagruimte voor uw "
+"afbeeldingen en documenten, maar ook een online kantoorpakket en andere "
+"applicaties. Bij een Handwerkcloud abonnement is een ImageMeter Business "
+"licentie inbegrepen. Zie voor meer informatie de <a "
+"href=\"https://handwerkcloud.de\">Handwerkcloud-website</a>."
 
 #, fuzzy
 msgctxt "cloud_storage_server_note_onedrive"
-msgid "The OneDrive backend might be suitable if you want easy access to your annotated images from your Windows PC."
-msgstr "De OneDrive-backend kan geschikt zijn als u eenvoudig toegang wilt tot uw geannoteerde afbeeldingen vanaf uw Windows-pc."
+msgid ""
+"The OneDrive backend might be suitable if you want easy access to your "
+"annotated images from your Windows PC."
+msgstr ""
+"De OneDrive-backend kan geschikt zijn als u eenvoudig toegang wilt tot uw"
+" geannoteerde afbeeldingen vanaf uw Windows-pc."
 
 msgctxt "cloud_storage_do_two_way_sync"
 msgid "Do two-way sync"
@@ -2677,8 +2971,15 @@ msgid "Two-way sync"
 msgstr "Synchronisatie in twee richtingen"
 
 msgctxt "cloud_storage_two_way_info_text"
-msgid "The two-way sync is for exchanging data between multiple devices. The data it stores on the cloud storage is for internal use only. Do not modify the data stored on the cloud server manually!"
-msgstr "De tweerichtingssynchronisatie is voor het uitwisselen van gegevens tussen meerdere apparaten. De gegevens die in de cloudopslag worden opgeslagen, zijn alleen voor intern gebruik. Wijzig de gegevens die op de Cloud server zijn opgeslagen niet handmatig!"
+msgid ""
+"The two-way sync is for exchanging data between multiple devices. The "
+"data it stores on the cloud storage is for internal use only. Do not "
+"modify the data stored on the cloud server manually!"
+msgstr ""
+"De tweerichtingssynchronisatie is voor het uitwisselen van gegevens "
+"tussen meerdere apparaten. De gegevens die in de cloudopslag worden "
+"opgeslagen, zijn alleen voor intern gebruik. Wijzig de gegevens die op de"
+" Cloud server zijn opgeslagen niet handmatig!"
 
 msgctxt "cloud_storage_do_image_upload_sync"
 msgid "Do image upload"
@@ -2694,11 +2995,19 @@ msgstr "Afbeelding uploaden"
 
 msgctxt "cloud_storage_image_upload_info_text"
 msgid ""
-"The image upload option stores the measured images on the cloud server. This is the right option if you want to access your images from your office PC.\n"
-"This option cannot be used to exchange data between mobile devices. In fact, you should not sync to the same cloud image directory from several devices."
+"The image upload option stores the measured images on the cloud server. "
+"This is the right option if you want to access your images from your "
+"office PC.\n"
+"This option cannot be used to exchange data between mobile devices. In "
+"fact, you should not sync to the same cloud image directory from several "
+"devices."
 msgstr ""
-"De optie voor het uploaden van afbeeldingen slaat de gemeten afbeeldingen op de Cloud server op. Dit is de juiste optie als u toegang wilt tot uw afbeeldingen vanaf uw pc op kantoor.\n"
-"Deze optie kan niet worden gebruikt om gegevens uit te wisselen tussen mobiele apparaten. In feite zou u niet vanaf verschillende apparaten naar dezelfde map met Cloud afbeeldingen moeten synchroniseren."
+"De optie voor het uploaden van afbeeldingen slaat de gemeten afbeeldingen"
+" op de Cloud server op. Dit is de juiste optie als u toegang wilt tot uw "
+"afbeeldingen vanaf uw pc op kantoor.\n"
+"Deze optie kan niet worden gebruikt om gegevens uit te wisselen tussen "
+"mobiele apparaten. In feite zou u niet vanaf verschillende apparaten naar"
+" dezelfde map met Cloud afbeeldingen moeten synchroniseren."
 
 msgctxt "cloud_storage_account"
 msgid "Account owner:"
@@ -2748,26 +3057,37 @@ msgctxt "cloud_storage_cautiousness"
 msgid "Cautiousness:"
 msgstr "Voorzichtig:"
 
-#. template config, fuzzy
+#. template config
 msgctxt "pref_template_title"
 msgid "Templates"
 msgstr "Sjablonen"
 
 msgctxt "pref_template_description"
 msgid ""
-"Templates let you define standard measurement tasks. You can structure your data collection by assigning tags to the measurements. You can also define the layout of tabular output of your measurements. \n"
+"Templates let you define standard measurement tasks. You can structure "
+"your data collection by assigning tags to the measurements. You can also "
+"define the layout of tabular output of your measurements. \n"
 "On this page, you find the list of templates for your measurement tasks.\n"
 " \n"
-"For more information, see the <a href=\"https://www.imagemeter.com/manual/templates/overview\">tutorials and manual</a>.\n"
+"For more information, see the <a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\">tutorials "
+"and manual</a>.\n"
 " \n"
-"Note: templates are part of the <a href=\"upgrade-dialog\">Business version</a>."
+"Note: templates are part of the <a href=\"upgrade-dialog\">Business "
+"version</a>."
 msgstr ""
-"Met sjablonen kunt u standaard meettaken definiëren. U kunt uw gegevensverzameling structureren door tags aan de metingen toe te wijzen. U kunt ook de lay-out van de uitvoer in tabelvorm van uw metingen definiëren.\n"
+"Met sjablonen kunt u standaard meettaken definiëren. U kunt uw "
+"gegevensverzameling structureren door tags aan de metingen toe te wijzen."
+" U kunt ook de lay-out van de uitvoer in tabelvorm van uw metingen "
+"definiëren.\n"
 "Op deze pagina vindt u de lijst met sjablonen voor uw meettaken.\n"
 " \n"
-"Zie voor meer informatie de <a href=\"https://www.imagemeter.com/manual/templates/overview\">zelfstudie en handleiding</a>.\n"
+"Zie voor meer informatie de <a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\">zelfstudie "
+"en handleiding</a>.\n"
 " \n"
-"Opmerking: sjablonen maken deel uit van de <a href=\"upgrade-dialog\">Business-versie</a>."
+"Opmerking: sjablonen maken deel uit van de <a href=\"upgrade-dialog"
+"\">Business-versie</a>."
 
 msgctxt "pref_template_list_title"
 msgid "List of templates"
@@ -2786,16 +3106,29 @@ msgid "Template description:"
 msgstr "Sjabloon omschrijving:"
 
 msgctxt "pref_template_config_custom_edit_tags_description"
-msgid "<b>Tags</b> are assigned to measurements to specify their purpose. For example, a tag may tell that the measured rectangle is a <em>window</em> or a <em>wall</em>. Further on, these tags can be used to sort these measurements into data tables."
-msgstr "<b>Etiketten/Tags</b> worden toegewezen aan metingen om hun doel te specificeren. Een etiket/tag kan bijvoorbeeld vertellen dat de gemeten rechthoek een <em>raam</em> of een <em>muur</em> is. Later kunnen deze etiketten/tags worden gebruikt om deze metingen in gegevenstabellen te sorteren."
+msgid ""
+"<b>Tags</b> are assigned to measurements to specify their purpose. For "
+"example, a tag may tell that the measured rectangle is a <em>window</em> "
+"or a <em>wall</em>. Further on, these tags can be used to sort these "
+"measurements into data tables."
+msgstr ""
+"<b>Etiketten/Tags</b> worden toegewezen aan metingen om hun doel te "
+"specificeren. Een etiket/tag kan bijvoorbeeld vertellen dat de gemeten "
+"rechthoek een <em>raam</em> of een <em>muur</em> is. Later kunnen deze "
+"etiketten/tags worden gebruikt om deze metingen in gegevenstabellen te "
+"sorteren."
 
 msgctxt "pref_template_config_custom_edit_tags"
 msgid "Edit element tags"
 msgstr "Element etiketten/tags bewerken"
 
 msgctxt "pref_template_config_custom_edit_tables_description"
-msgid "<b>Table layouts</b> define how to arrange your measurements into a data table."
-msgstr "<b>Tabellay-outs</b> bepalen hoe u de metingen in een gegevenstabel rangschikt."
+msgid ""
+"<b>Table layouts</b> define how to arrange your measurements into a data "
+"table."
+msgstr ""
+"<b>Tabellay-outs</b> bepalen hoe u de metingen in een gegevenstabel "
+"rangschikt."
 
 msgctxt "pref_template_config_custom_edit_tables"
 msgid "Edit table layouts"
@@ -2813,12 +3146,12 @@ msgctxt "pref_template_config_custom_add_tag"
 msgid "+ add tag"
 msgstr "+ etiket/tag toevoegen"
 
-#. deprecated, fuzzy
+#. deprecated
 msgctxt "pref_template_config_custom_label_type"
 msgid "Type:"
 msgstr "Type:"
 
-#. deprecated, fuzzy
+#. deprecated
 msgctxt "pref_template_config_custom_unit"
 msgid "Unit:"
 msgstr "Eenheid:"
@@ -2832,8 +3165,12 @@ msgid "+ add table layout"
 msgstr "+ tabelindeling toevoegen"
 
 msgctxt "pref_template_config_custom_table_description"
-msgid "You may define several different layouts how the measured data is arranged into data tables."
-msgstr "U kunt verschillende lay-outs definiëren hoe de gemeten gegevens in gegevenstabellen worden gerangschikt."
+msgid ""
+"You may define several different layouts how the measured data is "
+"arranged into data tables."
+msgstr ""
+"U kunt verschillende lay-outs definiëren hoe de gemeten gegevens in "
+"gegevenstabellen worden gerangschikt."
 
 msgctxt "pref_template_config_custom_tag_name"
 msgid "Tag name"
@@ -2852,8 +3189,12 @@ msgid "Element filter"
 msgstr "Elementen filter"
 
 msgctxt "pref_template_custom_tag_filter_info_description"
-msgid "This tag may only be assigned to elements that have the selected measurement type."
-msgstr "Dit etiket/tag mag alleen worden toegewezen aan elementen die het geselecteerde meettype hebben."
+msgid ""
+"This tag may only be assigned to elements that have the selected "
+"measurement type."
+msgstr ""
+"Dit etiket/tag mag alleen worden toegewezen aan elementen die het "
+"geselecteerde meettype hebben."
 
 msgctxt "pref_template_areasum_template_title"
 msgid "Area Sum Template Configuration"
@@ -2903,7 +3244,7 @@ msgctxt "pref_template_partslist_table_layout_title"
 msgid "Parts List Table Layout"
 msgstr "Onderdelenlijst tabelindeling"
 
-#. Preferences: Information, fuzzy
+#. Preferences: Information
 msgctxt "pref_category_information_debugging"
 msgid "Debugging"
 msgstr "Foutopsporing"
@@ -2942,7 +3283,7 @@ msgctxt "pref_information_translator"
 msgid "."
 msgstr "."
 
-#. Preferences: Company, fuzzy
+#. Preferences: Company
 msgctxt "pref_company_enter_config_key"
 msgid "Enter company key"
 msgstr "Voer de bedrijfssleutel in"
@@ -2959,7 +3300,40 @@ msgctxt "pref_company_user_id"
 msgid "User ID"
 msgstr "Gebruiker ID"
 
-#. ===== cloud synchronization =====, fuzzy
+msgctxt "pref_company_set_logo"
+msgid "Set company logo"
+msgstr ""
+
+msgctxt "config_company_logo_options_title"
+msgid "Company Logo"
+msgstr ""
+
+msgctxt "config_company_logo_options_size"
+msgid "Size"
+msgstr ""
+
+msgctxt "config_company_logo_options_load_image"
+msgid "Load logo image"
+msgstr ""
+
+msgctxt "config_company_logo_options_logo_enabled"
+msgid "Logo enabled"
+msgstr ""
+
+msgctxt "config_company_logo_options_logo_position"
+msgid "Logo position"
+msgstr ""
+
+msgctxt "config_company_logo_description"
+msgid "The company logo will be shown on exported images."
+msgstr ""
+
+#, c-format
+msgctxt "config_company_logo_missing_feature_warning"
+msgid "Note: the company logo will only be shown in the %1$s version."
+msgstr ""
+
+#. ===== cloud synchronization =====
 msgctxt "cloud_storage_dialog_sync_action_title"
 msgid "Synchronizing directory"
 msgstr "Directory synchroniseren"
@@ -3061,12 +3435,12 @@ msgctxt "sync_errors_close_notificatoin"
 msgid "Close notification"
 msgstr "Melding sluiten"
 
-#. cloud server maintenance, fuzzy
+#. cloud server maintenance
 msgctxt "cloud_storage_maintenance_notifcation_progress_title"
 msgid "Cloud server maintenance"
 msgstr "Onderhoud van de Cloud server"
 
-#. === editor ===, fuzzy
+#. === editor ===
 #. add
 msgctxt "editor_menu_section_calibration_tools"
 msgid "Calibration tools"
@@ -3148,7 +3522,7 @@ msgctxt "editor_menu_add_resultslist"
 msgid "Results list"
 msgstr "Resultaten lijst"
 
-#. menu / toolbar, fuzzy
+#. menu / toolbar
 msgctxt "editor_menu_edit_delete"
 msgid "Delete element"
 msgstr "Onderdeel verwijderen"
@@ -3226,7 +3600,7 @@ msgctxt "editor_menu_style"
 msgid "Style"
 msgstr "Stijl"
 
-#. hints (TODO: should we remove these and instead show an icon of the, fuzzy
+#. hints (TODO: should we remove these and instead show an icon of the
 #. currently active tool, like iOS)
 msgctxt "editor_hint_howto_draw_reference"
 msgid "Please point-and-drag one side of the reference."
@@ -3249,12 +3623,18 @@ msgid "Please draw the outline of the area in one stroke."
 msgstr "Teken de omtrek van het gebied in één keer."
 
 msgctxt "editor_hint_howto_draw_text"
-msgid "Please position the text area by pointing at the target location and then dragging the textbox to the end of the arrow."
-msgstr "Plaats het tekst gebied door naar de doel locatie te wijzen en vervolgens het tekstvak naar het einde van de pijl te slepen."
+msgid ""
+"Please position the text area by pointing at the target location and then"
+" dragging the textbox to the end of the arrow."
+msgstr ""
+"Plaats het tekst gebied door naar de doel locatie te wijzen en vervolgens"
+" het tekstvak naar het einde van de pijl te slepen."
 
 msgctxt "editor_hint_howto_draw_circle"
 msgid "Please point to the circle center and drag to specify the circle size."
-msgstr "Wijs naar het middelpunt van de cirkel en sleep om de grootte van de cirkel op te geven."
+msgstr ""
+"Wijs naar het middelpunt van de cirkel en sleep om de grootte van de "
+"cirkel op te geven."
 
 msgctxt "editor_hint_howto_draw_freehand"
 msgid "You are now drawing in freehand mode until you press the close button."
@@ -3277,44 +3657,72 @@ msgid "Please draw the rectangle diagonal."
 msgstr "Teken de rechthoek diagonaal."
 
 msgctxt "editor_hint_howto_draw_perspective_line"
-msgid "Tool for measuring an unknown distance along a perspectively distorted line. See the FAQ for an introduction."
-msgstr "Hulpmiddel voor het meten van een onbekende afstand langs een perspectieve vervormde lijn. Zie de veelgestelde vragen voor een introductie."
+msgid ""
+"Tool for measuring an unknown distance along a perspectively distorted "
+"line. See the FAQ for an introduction."
+msgstr ""
+"Hulpmiddel voor het meten van een onbekende afstand langs een "
+"perspectieve vervormde lijn. Zie de veelgestelde vragen voor een "
+"introductie."
 
 msgctxt "editor_hint_howto_draw_dimstring"
 msgid "Please draw the first dimension string. Use the top toolbar to modify it."
-msgstr "Teken de tekenreeks van de eerste dimensie. Gebruik de bovenste werkbalk om het te wijzigen."
+msgstr ""
+"Teken de tekenreeks van de eerste dimensie. Gebruik de bovenste werkbalk "
+"om het te wijzigen."
 
 msgctxt "editor_hint_howto_draw_dimstring_cumulative"
 msgid "Please draw the first dimension string. Use the top toolbar to modify it."
-msgstr "Teken de tekenreeks van de eerste dimensie. Gebruik de bovenste werkbalk om het te wijzigen."
+msgstr ""
+"Teken de tekenreeks van de eerste dimensie. Gebruik de bovenste werkbalk "
+"om het te wijzigen."
 
 msgctxt "editor_hint_howto_draw_counter"
-msgid "Click on the objects you want to count. Stop counting with the cancel button in the top toolbar."
-msgstr "Klik op de objecten die u wilt tellen. Stop met tellen met de annuleerknop in de bovenste werkbalk."
+msgid ""
+"Click on the objects you want to count. Stop counting with the cancel "
+"button in the top toolbar."
+msgstr ""
+"Klik op de objecten die u wilt tellen. Stop met tellen met de "
+"annuleerknop in de bovenste werkbalk."
 
 msgctxt "editor_hint_howto_draw_resultslist"
 msgid "Place the value list. It shows the total values of your counters."
 msgstr "Plaats de waardenlijst. Het toont de totale waarden van uw aantallen."
 
 msgctxt "editor_help_why_no_measured_value"
-msgid "The value cannot yet be computed because the image is not calibrated. Please add a 'reference scale' or a 'perspective reference'."
-msgstr "De waarde kan nog niet worden berekend omdat de afbeelding niet is gekalibreerd. Voeg een 'referentieschaal' of een 'perspectief referentie' toe."
+msgid ""
+"The value cannot yet be computed because the image is not calibrated. "
+"Please add a 'reference scale' or a 'perspective reference'."
+msgstr ""
+"De waarde kan nog niet worden berekend omdat de afbeelding niet is "
+"gekalibreerd. Voeg een 'referentieschaal' of een 'perspectief referentie'"
+" toe."
 
 msgctxt "editor_help_why_no_measured_value_manual_url"
 msgid "https://imagemeter.com/manual/measuring/basics"
 msgstr "https://imagemeter.com/manual/measuring/basics"
 
 msgctxt "editor_help_why_no_measured_value_because_two_references"
-msgid "The value is not computed because the image contains two references. Please select 'Compute value' from the menu and select which reference to use."
-msgstr "De waarde wordt niet berekend omdat de afbeelding twee referenties bevat. Selecteer 'Bereken waarde' in het menu en selecteer welke referentie u wilt gebruiken."
+msgid ""
+"The value is not computed because the image contains two references. "
+"Please select 'Compute value' from the menu and select which reference to"
+" use."
+msgstr ""
+"De waarde wordt niet berekend omdat de afbeelding twee referenties bevat."
+" Selecteer 'Bereken waarde' in het menu en selecteer welke referentie u "
+"wilt gebruiken."
 
 msgctxt "editor_help_counter_tutorial_video_url"
 msgid "https://www.youtube.com/watch?v=jBNa8TqToNY"
 msgstr "https://www.youtube.com/watch?v=jBNa8TqToNY"
 
 msgctxt "editor_help_counter_tutorial"
-msgid "If you would like to see a short tutorial video how to use the counting tool, use the link below."
-msgstr "Als u een korte instructievideo wilt zien over het gebruik van het telgereedschap, gebruikt u de onderstaande link."
+msgid ""
+"If you would like to see a short tutorial video how to use the counting "
+"tool, use the link below."
+msgstr ""
+"Als u een korte instructievideo wilt zien over het gebruik van het "
+"telgereedschap, gebruikt u de onderstaande link."
 
 msgctxt "editor_help_do_not_show_again"
 msgid "Don't show again"
@@ -3324,20 +3732,28 @@ msgctxt "editor_help_show_instructions"
 msgid "Show instructions"
 msgstr "Toon instructies"
 
-#. editor misc, fuzzy
+#. editor misc
 msgctxt "editor_dialog_tag_properties_title"
 msgid "Tags and properties"
 msgstr "Etiketten/tags en eigenschappen"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
 msgid ""
-"The image data could not be read successfully. ImageMeter has tried to load as much of the data as possible, but the image annotations may be incomplete or may have errors.\n"
+"The image data could not be read successfully. ImageMeter has tried to "
+"load as much of the data as possible, but the image annotations may be "
+"incomplete or may have errors.\n"
 "\n"
-"Do you want to keep the old data (new modifications will not be saved), or do you want to overwrite the data (you will lose the elements that could not be read successfully)?"
+"Do you want to keep the old data (new modifications will not be saved), "
+"or do you want to overwrite the data (you will lose the elements that "
+"could not be read successfully)?"
 msgstr ""
-"De afbeeldingsgegevens konden niet goed worden gelezen. ImageMeter heeft geprobeerd zoveel mogelijk gegevens te laden, maar de beeldannotaties kunnen onvolledig zijn of fouten bevatten.\n"
+"De afbeeldingsgegevens konden niet goed worden gelezen. ImageMeter heeft "
+"geprobeerd zoveel mogelijk gegevens te laden, maar de beeldannotaties "
+"kunnen onvolledig zijn of fouten bevatten.\n"
 "\n"
-"Wilt u de oude gegevens behouden (nieuwe wijzigingen worden niet opgeslagen), of wilt u de gegevens overschrijven (u verliest de elementen die niet goed gelezen konden worden)?"
+"Wilt u de oude gegevens behouden (nieuwe wijzigingen worden niet "
+"opgeslagen), of wilt u de gegevens overschrijven (u verliest de elementen"
+" die niet goed gelezen konden worden)?"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_overwrite_button"
 msgid "Overwrite"
@@ -3368,7 +3784,7 @@ msgctxt "color_dialog_special_use_main_color"
 msgid "Use main color"
 msgstr "Gebruik hoofdkleur"
 
-#. dialog: element locking, fuzzy
+#. dialog: element locking
 msgctxt "editor_locking_title"
 msgid "Modification lock"
 msgstr "Wijziging slot"
@@ -3385,17 +3801,17 @@ msgctxt "editor_locking_button_apply_to_all"
 msgid "Apply to all"
 msgstr "Gelden voor iedereen"
 
-#. === style dialogs ===, fuzzy
+#. === style dialogs ===
 msgctxt "editor_dialog_style_spinner_various_values"
 msgid "various"
 msgstr "verscheidene"
 
-#. GText (text box), fuzzy
+#. GText (text box)
 msgctxt "editor_dialog_style_textbox_title"
 msgid "Text box style"
 msgstr "Stijl van tekstvak"
 
-#. <string name="editor_textbox_add_arrow">Add arrow</string>     <string, fuzzy
+#. <string name="editor_textbox_add_arrow">Add arrow</string>     <string
 #. name="editor_textbox_delete_arrow">Delete arrow</string>
 #. GFreehand
 msgctxt "editor_dialog_style_freehand_title"
@@ -3406,19 +3822,19 @@ msgctxt "editor_dialog_style_freehand_line_width"
 msgid "Line width"
 msgstr "Lijnbreedte"
 
-#. <string name="editor_dialog_style_freehand_outline_width">Outline, fuzzy
+#. <string name="editor_dialog_style_freehand_outline_width">Outline
 #. width</string>
 #. "editor:styling:outline-width"
 msgctxt "editor_dialog_style_freehand_line_pattern"
 msgid "Line pattern"
 msgstr "Lijn patroon"
 
-#. GEllipse, fuzzy
+#. GEllipse
 msgctxt "editor_dialog_style_ellipse_title"
 msgid "Ellipse style"
 msgstr "Ellips stijl"
 
-#. GMeasure, fuzzy
+#. GMeasure
 msgctxt "editor_dialog_style_line_title"
 msgid "Line style"
 msgstr "Lijnstijl"
@@ -3427,13 +3843,13 @@ msgctxt "editor_dialog_style_measure_title"
 msgid "Dimension style"
 msgstr "Dimensie stijl"
 
-#. <string name="editor_measure_move_label">Move label</string>, fuzzy
+#. <string name="editor_measure_move_label">Move label</string>
 #. GAngle
 msgctxt "editor_dialog_style_angle_title"
 msgid "Angle style"
 msgstr "Hoekstijl"
 
-#. GRectRef (perspective reference), fuzzy
+#. GRectRef (perspective reference)
 msgctxt "editor_dialog_style_rect_title"
 msgid "Reference style"
 msgstr "Referentie stijl"
@@ -3447,8 +3863,16 @@ msgid "Default Reference Size"
 msgstr "Standaard referentiegrootte"
 
 msgctxt "editor_dialog_style_rect_info_set_default_reference_size_text"
-msgid "This button stores the currently entered reference dimensions as the default size. When creating a new reference, these dimensions are automatically set. You can set this to any reference that is suitable for your application, e.g. the size of a sheet of paper."
-msgstr "Deze knop slaat de momenteel ingevoerde referentieafmetingen op als de standaardmaat. Bij het aanmaken van een nieuwe referentie worden deze afmetingen automatisch ingesteld. U kunt dit instellen op elke referentie die geschikt is voor uw toepassing, b.v. ter grootte van een vel papier."
+msgid ""
+"This button stores the currently entered reference dimensions as the "
+"default size. When creating a new reference, these dimensions are "
+"automatically set. You can set this to any reference that is suitable for"
+" your application, e.g. the size of a sheet of paper."
+msgstr ""
+"Deze knop slaat de momenteel ingevoerde referentieafmetingen op als de "
+"standaardmaat. Bij het aanmaken van een nieuwe referentie worden deze "
+"afmetingen automatisch ingesteld. U kunt dit instellen op elke referentie"
+" die geschikt is voor uw toepassing, b.v. ter grootte van een vel papier."
 
 msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:0"
 msgid "none"
@@ -3495,35 +3919,35 @@ msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:10"
 msgid "10"
 msgstr "10"
 
-#. <string name="editor_rectref_choose_size">Choose size</string>, fuzzy
+#. <string name="editor_rectref_choose_size">Choose size</string>
 #. GFlatRef (reference scale)
 msgctxt "editor_dialog_style_flatref_title"
 msgid "Reference style"
 msgstr "Referentie stijl"
 
-#. GArea, fuzzy
+#. GArea
 msgctxt "editor_dialog_style_area_title"
 msgid "Area style"
 msgstr "Oppervlak stijl"
 
-#. <string name="editor_area_may_add_points">May add points</string>, fuzzy
+#. <string name="editor_area_may_add_points">May add points</string>
 #. <string name="editor_area_may_delete_points">May delete points</string>
 #. GCircle
 msgctxt "editor_dialog_style_circle_title"
 msgid "Circle style"
 msgstr "Cirkel stijl"
 
-#. GRectangle, fuzzy
+#. GRectangle
 msgctxt "editor_dialog_style_rectangle_title"
 msgid "Rectangle style"
 msgstr "Rechthoek stijl"
 
-#. GDimString, fuzzy
+#. GDimString
 msgctxt "editor_dialog_style_dimstring_title"
 msgid "Dimension string style"
 msgstr "Dimensie tekenreeksstijl"
 
-#. <string name="editor_dimstring_mode_add_markers">Add measures</string>, fuzzy
+#. <string name="editor_dimstring_mode_add_markers">Add measures</string>
 #. <string name="editor_dimstring_mode_move_markers">Move measures</string>
 #. <string name="editor_dimstring_mode_toggle_segments">Toggle
 #. segments</string>     <string name="editor_dimstring_mode_move_strings">Move
@@ -3541,17 +3965,17 @@ msgctxt "editor_dialog_style_measurementpoint_title"
 msgid "Point style"
 msgstr "Punt stijl"
 
-#. GCounter, fuzzy
+#. GCounter
 msgctxt "editor_dialog_style_counter_title"
 msgid "Counter style"
 msgstr "Hoekstijl"
 
-#. GPerspectiveLine, fuzzy
+#. GPerspectiveLine
 msgctxt "editor_dialog_style_perspective_line_title"
 msgid "Perspective line style"
 msgstr "Perspectief lijnstijl"
 
-#. <string name="editor_perspective_live_add_measure">Add measure</string>, fuzzy
+#. <string name="editor_perspective_live_add_measure">Add measure</string>
 #. <string name="editor_perspective_live_remove_measure">Remove
 #. measure</string>
 #. settings: standard rectangle reference object sizes
@@ -3595,7 +4019,7 @@ msgctxt "editor_rectref_standard_size_credit_card"
 msgid "Credit card"
 msgstr "Creditcard"
 
-#. still needed for string-array name="templ_custom_labeltype", fuzzy
+#. still needed for string-array name="templ_custom_labeltype"
 msgctxt "templ_labeltype_length"
 msgid "Length"
 msgstr "Lengte"
@@ -3618,30 +4042,36 @@ msgstr "Korte scripthandleiding"
 
 #, fuzzy
 msgctxt "stringscript_help_introlink"
-msgid "See <a href=\"https://imagemeter.com/manual/workflow/variables/\">here</a> for the full documentation."
-msgstr "Zie <a href=\"https://imagemeter.com/manual/workflow/variables/\">hier</a> voor de volledige documentatie."
+msgid ""
+"See <a "
+"href=\"https://imagemeter.com/manual/workflow/variables/\">here</a> for "
+"the full documentation."
+msgstr ""
+"Zie <a "
+"href=\"https://imagemeter.com/manual/workflow/variables/\">hier</a> voor "
+"de volledige documentatie."
 
-#. value entry dialog, fuzzy
+#. value entry dialog
 msgctxt "dimension_format_imperial_length_unit_choices:0"
 msgid "mil"
 msgstr "mil"
 
-#. value entry dialog, fuzzy
+#. value entry dialog
 msgctxt "dimension_format_imperial_length_unit_choices:1"
 msgid "inch"
 msgstr "inch"
 
-#. value entry dialog, fuzzy
+#. value entry dialog
 msgctxt "dimension_format_imperial_length_unit_choices:2"
 msgid "foot"
 msgstr "voet"
 
-#. value entry dialog, fuzzy
+#. value entry dialog
 msgctxt "dimension_format_imperial_length_unit_choices:3"
 msgid "yard"
 msgstr "yard"
 
-#. value entry dialog, fuzzy
+#. value entry dialog
 msgctxt "dimension_format_imperial_length_unit_choices:4"
 msgid "mile"
 msgstr "mijl"
@@ -3771,7 +4201,7 @@ msgctxt "value_entry_unit_unit"
 msgid "Unit"
 msgstr "Eenheid"
 
-#. text box entry dialog, fuzzy
+#. text box entry dialog
 msgctxt "textbox_dialog_label"
 msgid "Text note"
 msgstr "Opmerking"
@@ -3804,7 +4234,7 @@ msgctxt "textbox_detail_picture_load_error_zero_size"
 msgid "Image has zero size."
 msgstr "Afbeelding heeft geen waarde."
 
-#. ImageSettings, fuzzy
+#. ImageSettings
 msgctxt "imagesettings_dialog_base_sizes"
 msgid "Base sizes"
 msgstr "Basismaten"
@@ -3833,7 +4263,7 @@ msgctxt "imagesettings_dialog_calibration_title"
 msgid "Calibration"
 msgstr "Kalibreren"
 
-#. <string name="imagesettings_dialog_calibration_enable">Calibrate to, fuzzy
+#. <string name="imagesettings_dialog_calibration_enable">Calibrate to
 #. image</string>     <string
 #. name="imagesettings_dialog_calibration_image_resolution">Resolution</string>
 #. <string name="imagesettings_dialog_calibration_image_scale">Scale</string>
@@ -3866,6 +4296,10 @@ msgctxt "bluetooth_notification_stop_connecting_action"
 msgid "Stop"
 msgstr "Stop"
 
+msgctxt "bluetooth_notification_missing_permission"
+msgid "No permission to connect to Bluetooth device."
+msgstr ""
+
 msgctxt "bluetooth_message_device_connected"
 msgid "Connection to Bluetooth device established."
 msgstr "Verbinding met Bluetooth-apparaat tot stand gebracht."
@@ -3882,25 +4316,29 @@ msgctxt "bluetooth_error_bluetooth_not_configured"
 msgid ""
 "You have not yet configured any Bluetooth laser distance meter.\n"
 "\n"
-"First make sure that your device is listed in the system settings. If required, pair the device.\n"
+"First make sure that your device is listed in the system settings. If "
+"required, pair the device.\n"
 " <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n"
 "\n"
 "Afterwards, select your device in the ImageMeter settings:\n"
 " <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n"
 "\n"
-"For more help and a list of supported devices, see <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
+"For more help and a list of supported devices, see <a "
+"href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
 msgstr ""
 "U heeft nog geen Bluetooth-laserafstandsmeter geconfigureerd.\n"
 "\n"
-"Zorg er eerst voor dat uw apparaat wordt vermeld in de systeeminstellingen. Koppel het apparaat indien nodig.\n"
+"Zorg er eerst voor dat uw apparaat wordt vermeld in de "
+"systeeminstellingen. Koppel het apparaat indien nodig.\n"
 " <a href=\"android-bluetooth\">Open Android Bluetooth-instellingen</a>\n"
 "\n"
 "Selecteer daarna uw apparaat in de ImageMeter-instellingen:\n"
 " <a href=\"bluetooth-device\">Open Bluetooth-apparaatinstellingen</a>\n"
 "\n"
-"Voor meer hulp en een lijst met ondersteunde apparaten, zie <a href=\"https://imagemeter.com/manual/bluetooth/connect/\">hier</a>"
+"Voor meer hulp en een lijst met ondersteunde apparaten, zie <a "
+"href=\"https://imagemeter.com/manual/bluetooth/connect/\">hier</a>"
 
-#. 151209, fuzzy
+#. 151209
 #, c-format
 msgctxt "bluetooth_error_cannot_set_value"
 msgid "Cannot set received Bluetooth value: %1$s."
@@ -3935,16 +4373,28 @@ msgid "Scanning ..."
 msgstr "Scannen…"
 
 msgctxt "bluetooth_pref_no_bluetooth_scan_permission"
-msgid "Cannot list Bluetooth devices because you have denied the permission to scan for Bluetooth devices. You can reenable the permission in the system settings (Apps &gt; ImageMeter &gt; Permissions)."
-msgstr "Kan Bluetooth-apparaten niet weergeven omdat u toestemming hebt geweigerd om naar Bluetooth-apparaten te zoeken. U kunt de toestemming inschakelen in systeeminstellingen (Apps &gt; ImageMeter &gt; Toestemmingen)."
+msgid ""
+"Cannot list Bluetooth devices because you have denied the permission to "
+"scan for Bluetooth devices. You can reenable the permission in the system"
+" settings (Apps &gt; ImageMeter &gt; Permissions)."
+msgstr ""
+"Kan Bluetooth-apparaten niet weergeven omdat u toestemming hebt geweigerd"
+" om naar Bluetooth-apparaten te zoeken. U kunt de toestemming inschakelen"
+" in systeeminstellingen (Apps &gt; ImageMeter &gt; Toestemmingen)."
 
 msgctxt "bluetooth_dialog_scan_needs_location_permission_title"
 msgid "Bluetooth scan"
 msgstr "Bluetooth-scan"
 
 msgctxt "bluetooth_dialog_scan_needs_location_permission_text"
-msgid "Since Android 10, the fine location permission is required (previously coarse location) to scan for nearby Bluetooth devices. Please grant this permission when requested."
-msgstr "Sinds Android 10 is toestemming voor fijne locatie vereist (voorheen grove locatie) om te scannen naar Bluetooth-apparaten in de buurt. Geef deze toestemming desgevraagd."
+msgid ""
+"Since Android 10, the fine location permission is required (previously "
+"coarse location) to scan for nearby Bluetooth devices. Please grant this "
+"permission when requested."
+msgstr ""
+"Sinds Android 10 is toestemming voor fijne locatie vereist (voorheen "
+"grove locatie) om te scannen naar Bluetooth-apparaten in de buurt. Geef "
+"deze toestemming desgevraagd."
 
 msgctxt "bluetooth_le_scan_needs_location_title"
 msgid "Bluetooth LE Scan Error"
@@ -3952,13 +4402,15 @@ msgstr "Bluetooth LE-scanfout"
 
 msgctxt "bluetooth_le_scan_needs_location_message"
 msgid ""
-"Android requires that the location service is enabled to run a Bluetooth LE Scan.\n"
+"Android requires that the location service is enabled to run a Bluetooth "
+"LE Scan.\n"
 "\n"
 "Please turn on location services.\n"
 "\n"
 "After the Bluetooth LE scan, you can turn this off again."
 msgstr ""
-"Android vereist dat de locatieservice is ingeschakeld om een Bluetooth LE-scan uit te voeren.\n"
+"Android vereist dat de locatieservice is ingeschakeld om een Bluetooth "
+"LE-scan uit te voeren.\n"
 "\n"
 "Schakel locatieservices in.\n"
 "\n"
@@ -4032,7 +4484,7 @@ msgctxt "bluetooth_error_ambient_light_too_strong"
 msgid "Ambient light too strong"
 msgstr "Omgevingslicht te sterk"
 
-#. ============================================== EDITCORE, fuzzy
+#. ============================================== EDITCORE
 #. ====================================================
 #. ===== templates =====
 msgctxt "templ_selection_none"
@@ -4043,7 +4495,7 @@ msgctxt "spinner_selection_various"
 msgid "(various)"
 msgstr "(verscheidene)"
 
-#. === errors ===, fuzzy
+#. === errors ===
 #, c-format
 msgctxt "imagelibrary_cannot_delete_image_in_use"
 msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
@@ -4066,12 +4518,18 @@ msgstr "Afbeeldingen verplaatsen naar app-directory (%1$d van %2$d)."
 
 #, c-format
 msgctxt "editor_error_nonpro_gelement_limit_message"
-msgid "Please upgrade to the %1$s version of ImageMeter to use more than five annotations."
-msgstr "Upgrade naar de %1$s-versie van ImageMeter om meer dan vijf annotaties te gebruiken."
+msgid ""
+"Please upgrade to the %1$s version of ImageMeter to use more than five "
+"annotations."
+msgstr ""
+"Upgrade naar de %1$s-versie van ImageMeter om meer dan vijf annotaties te"
+" gebruiken."
 
 #, c-format
 msgctxt "editor_error_nonpro_bluetooth_limit_message"
-msgid "For Bluetooth measurements with more than 3 meters, please upgrade to the %1$s version."
+msgid ""
+"For Bluetooth measurements with more than 3 meters, please upgrade to the"
+" %1$s version."
 msgstr "Upgrade voor Bluetooth-metingen met meer dan 3 meter naar de %1$s-versie."
 
 #, c-format
@@ -4088,16 +4546,30 @@ msgid "Imported file is not an image"
 msgstr "Het geïmporteerde bestand is geen afbeelding"
 
 msgctxt "imageselect_error_cannot_capture_with_camera"
-msgid "Cannot start external app to capture camera image. Either the device does not have a camera or your camera app does not respond to a capture request. You can still import images from the gallery or you can try to install an alternative camera app."
-msgstr "Kan externe app niet starten om foto vast te leggen. Het apparaat heeft geen camera of uw camera-app reageert niet op een opnameverzoek. U kunt nog steeds afbeeldingen uit de galerij importeren of u kunt proberen een alternatieve camera-app te installeren."
+msgid ""
+"Cannot start external app to capture camera image. Either the device does"
+" not have a camera or your camera app does not respond to a capture "
+"request. You can still import images from the gallery or you can try to "
+"install an alternative camera app."
+msgstr ""
+"Kan externe app niet starten om foto vast te leggen. Het apparaat heeft "
+"geen camera of uw camera-app reageert niet op een opnameverzoek. U kunt "
+"nog steeds afbeeldingen uit de galerij importeren of u kunt proberen een "
+"alternatieve camera-app te installeren."
 
 msgctxt "imageselect_error_internal_toast"
-msgid "An internal error happened. Please take a screenshot of the notification above and send this to me. Thank you!"
-msgstr "Er is een interne fout opgetreden. Maak een screenshot van de bovenstaande melding en stuur deze naar mij. Bedankt!"
+msgid ""
+"An internal error happened. Please take a screenshot of the notification "
+"above and send this to me. Thank you!"
+msgstr ""
+"Er is een interne fout opgetreden. Maak een screenshot van de "
+"bovenstaande melding en stuur deze naar mij. Bedankt!"
 
 msgctxt "imageselect_error_no_image_import_activity"
 msgid "There is no app on the device from which we can import images."
-msgstr "Er staat geen app op het apparaat waarvan we afbeeldingen kunnen importeren."
+msgstr ""
+"Er staat geen app op het apparaat waarvan we afbeeldingen kunnen "
+"importeren."
 
 msgctxt "imagelibrary_error_cannot_import_current_directory_is_not_valid"
 msgid "Cannot import image because the current directory is not valid."
@@ -4120,18 +4592,18 @@ msgctxt "error_cannot_open_browser_url"
 msgid "Cannot open web browser to show web page '%1$s'"
 msgstr "Kan webbrowser niet openen om webpagina '%1$s' weer te geven"
 
-#. filesystem errors, fuzzy
+#. filesystem errors
 msgctxt "error_files_locked"
 msgid "Files are currently in use."
 msgstr "Bestanden zijn momenteel in gebruik."
 
-#. used in PrefsStorageDirectory, fuzzy
+#. used in PrefsStorageDirectory
 #. import/export errors
 msgctxt "imerror_cannot_export_image"
 msgid "Cannot export image '{}'."
 msgstr "Kan afbeelding '{}' niet exporteren."
 
-#. other errors, fuzzy
+#. other errors
 msgctxt "imerror_string_template_unknown_field"
 msgid "Unknown field '{}' in string template."
 msgstr "Onbekend veld '{}' in tekenreekssjabloon."
@@ -4147,24 +4619,49 @@ msgstr "Cloud opslag"
 msgctxt "cloud_storage_not_configured"
 msgid ""
 "You have not yet configured cloud storage. \n"
-"Cloud storage can be used to sync your images automatically between multiple devices or for backup. More detailed documentation on this can be found in the <a href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \n"
-"The settings for cloud storage can be found in the 'Storage' section of the app settings (<a href=\"cloud-settings\">open settings</a>)."
+"Cloud storage can be used to sync your images automatically between "
+"multiple devices or for backup. More detailed documentation on this can "
+"be found in the <a "
+"href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \n"
+"The settings for cloud storage can be found in the 'Storage' section of "
+"the app settings (<a href=\"cloud-settings\">open settings</a>)."
 msgstr ""
 "U heeft cloudopslag nog niet geconfigureerd.\n"
-"Cloudopslag kan worden gebruikt om uw afbeeldingen automatisch te synchroniseren tussen meerdere apparaten of voor back-up. Meer gedetailleerde documentatie hierover is te vinden in de <a href=\"https://imagemeter.com/manual/storage/cloud/\">handleiding.</a>\n"
-"De instellingen voor cloudopslag zijn te vinden in het gedeelte 'Opslag' van de app-instellingen (<a href=\"cloud-settings\">open instellingen</a>)."
+"Cloudopslag kan worden gebruikt om uw afbeeldingen automatisch te "
+"synchroniseren tussen meerdere apparaten of voor back-up. Meer "
+"gedetailleerde documentatie hierover is te vinden in de <a "
+"href=\"https://imagemeter.com/manual/storage/cloud/\">handleiding.</a>\n"
+"De instellingen voor cloudopslag zijn te vinden in het gedeelte 'Opslag' "
+"van de app-instellingen (<a href=\"cloud-settings\">open "
+"instellingen</a>)."
 
 msgctxt "cloud_storage_not_configured_syncing_inbox_in_bkg"
 msgid "Your <i>inbox</i> folder is being synced."
 msgstr "Je map <i>inbox</i> wordt gesynchroniseerd."
 
 msgctxt "cloud_storage_not_configured_business_upgrade"
-msgid "Cloud storage is only available in the <b>Business</b> version of ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-business-features\">here</a> for all benefits of the Business version."
-msgstr "Cloudopslag is alleen beschikbaar in de <b>Business</b>-versie van ImageMeter. Zie <a href=\"https://imagemeter.com/manual/license/android-business-features\">hier</a> voor alle voordelen van de Business-versie."
+msgid ""
+"Cloud storage is only available in the <b>Business</b> version of "
+"ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-"
+"business-features\">here</a> for all benefits of the Business version."
+msgstr ""
+"Cloudopslag is alleen beschikbaar in de <b>Business</b>-versie van "
+"ImageMeter. Zie <a href=\"https://imagemeter.com/manual/license/android-"
+"business-features\">hier</a> voor alle voordelen van de Business-versie."
 
 msgctxt "cloud_storage_not_configured_inbox_only"
-msgid "Full cloud storage is only available in the <b>Business</b> version of ImageMeter. Without Business upgrade, cloud storage is limited to the <i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license/android-business-features\">here</a> for all benefits of the Business version."
-msgstr "Volledige cloudopslag is alleen beschikbaar in de <b>Business</b>-versie van ImageMeter. Zonder Business-upgrade is cloudopslag beperkt tot de map <i>inbox</i>. Zie <a href=\"https://imagemeter.com/manual/license/android-business-features\">hier</a> voor alle voordelen van de Business-versie."
+msgid ""
+"Full cloud storage is only available in the <b>Business</b> version of "
+"ImageMeter. Without Business upgrade, cloud storage is limited to the "
+"<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license"
+"/android-business-features\">here</a> for all benefits of the Business "
+"version."
+msgstr ""
+"Volledige cloudopslag is alleen beschikbaar in de <b>Business</b>-versie "
+"van ImageMeter. Zonder Business-upgrade is cloudopslag beperkt tot de map"
+" <i>inbox</i>. Zie <a href=\"https://imagemeter.com/manual/license"
+"/android-business-features\">hier</a> voor alle voordelen van de "
+"Business-versie."
 
 #, c-format
 msgctxt "error_cloud_cannot_create_remote_file_already_exists"
@@ -4282,9 +4779,11 @@ msgstr ""
 
 msgctxt "error_cloud_server_blocked"
 msgid "Server blocked by another client. Please retry at a later time."
-msgstr "Server geblokkeerd door een andere cliënt. Probeer het op een later tijdstip."
+msgstr ""
+"Server geblokkeerd door een andere cliënt. Probeer het op een later "
+"tijdstip."
 
-#. links, fuzzy
+#. links
 msgctxt "release_notes_filename"
 msgid "en.html"
 msgstr "en.html"
@@ -4293,52 +4792,88 @@ msgctxt "manual_website_link"
 msgid "http://www.imagemeter.com/manual"
 msgstr "http://www.imagemeter.com/manual"
 
-#. ============ unused strings that we keep in case we need the translations, fuzzy
+#. ============ unused strings that we keep in case we need the translations
 #. later on ==========
 #. errors
 msgctxt "UNUSED_imageselect_error_cannot_edit_corrupted_image"
 msgid "The .imm file for this image is corrupted. You cannot edit the image."
-msgstr "Het .imm-bestand voor deze afbeelding is beschadigd. U kunt de afbeelding niet bewerken."
+msgstr ""
+"Het .imm-bestand voor deze afbeelding is beschadigd. U kunt de afbeelding"
+" niet bewerken."
 
 msgctxt "UNUSED_imageselect_error_cannot_rename_corrupted_image"
 msgid "The .imm file for this image is corrupted. You cannot rename the image."
-msgstr "Het .imm-bestand voor deze afbeelding is beschadigd. U kunt de afbeelding niet hernoemen."
+msgstr ""
+"Het .imm-bestand voor deze afbeelding is beschadigd. U kunt de afbeelding"
+" niet hernoemen."
 
 msgctxt "UNUSED_imageselect_error_cannot_export_corrupted_image"
 msgid "The images with the corrupted .imm files will not be exported."
-msgstr "De afbeeldingen met de beschadigde .imm-bestanden worden niet geëxporteerd."
+msgstr ""
+"De afbeeldingen met de beschadigde .imm-bestanden worden niet "
+"geëxporteerd."
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_image_version_more_recent_open_editor_anyways"
 msgid ""
-"The file version of this image (%1$d) is more recent than the maximum version supported by the ImageMeter version installed (%2$d). Opening the file may result in lost data or wrong annotations. You should use a recent version of ImageMeter to open this file.\n"
+"The file version of this image (%1$d) is more recent than the maximum "
+"version supported by the ImageMeter version installed (%2$d). Opening the"
+" file may result in lost data or wrong annotations. You should use a "
+"recent version of ImageMeter to open this file.\n"
 "\n"
 "Do you still want to open it?"
 msgstr ""
-"De bestandsversie van deze afbeelding (%1$d) is recenter dan de maximale versie die wordt ondersteund door de geïnstalleerde ImageMeter-versie (%2$d). Het openen van het bestand kan resulteren in verloren gegevens of verkeerde annotaties. U moet een recente versie van ImageMeter gebruiken om dit bestand te openen.\n"
+"De bestandsversie van deze afbeelding (%1$d) is recenter dan de maximale "
+"versie die wordt ondersteund door de geïnstalleerde ImageMeter-versie "
+"(%2$d). Het openen van het bestand kan resulteren in verloren gegevens of"
+" verkeerde annotaties. U moet een recente versie van ImageMeter gebruiken"
+" om dit bestand te openen.\n"
 "\n"
 "Wil je het nog steeds openen?"
 
 msgctxt "UNUSED_imageselect_error_metadata_format_unknown"
 msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
-msgstr "Metadatabestand van afbeelding (.imm) kan niet worden gelezen, omdat het formaat onbekend is."
+msgstr ""
+"Metadatabestand van afbeelding (.imm) kan niet worden gelezen, omdat het "
+"formaat onbekend is."
 
 msgctxt "UNUSED_imageselect_error_cannot_modify_readonly_folder"
 msgid "This is an essential system folder, you cannot remove or rename it."
-msgstr "Dit is een essentiële systeemmap, u kunt deze niet verwijderen of hernoemen."
+msgstr ""
+"Dit is een essentiële systeemmap, u kunt deze niet verwijderen of "
+"hernoemen."
 
 msgctxt "UNUSED_imageselect_error_cannot_move_bundle_to_folder"
-msgid "Cannot move image to new folder (maybe an image with the same name already exists)."
-msgstr "Kan afbeelding niet verplaatsen naar nieuwe map (misschien bestaat er al een afbeelding met dezelfde naam)."
+msgid ""
+"Cannot move image to new folder (maybe an image with the same name "
+"already exists)."
+msgstr ""
+"Kan afbeelding niet verplaatsen naar nieuwe map (misschien bestaat er al "
+"een afbeelding met dezelfde naam)."
 
 msgctxt "UNUSED_imageselect_error_external_memory_unavailable"
-msgid "External memory (where your app-data is stored) is not available. Most probably, your device stores this data on an external SD card which is currently not available. If this is not the problem in your case, you may contact info@imagemeter.com."
-msgstr "Extern geheugen (waar uw app-gegevens worden opgeslagen) is niet beschikbaar. Hoogstwaarschijnlijk slaat uw apparaat deze gegevens op een externe SD-kaart op die momenteel niet beschikbaar is. Als dit in uw geval niet het probleem is, kunt u contact opnemen met info@imagemeter.com."
+msgid ""
+"External memory (where your app-data is stored) is not available. Most "
+"probably, your device stores this data on an external SD card which is "
+"currently not available. If this is not the problem in your case, you may"
+" contact info@imagemeter.com."
+msgstr ""
+"Extern geheugen (waar uw app-gegevens worden opgeslagen) is niet "
+"beschikbaar. Hoogstwaarschijnlijk slaat uw apparaat deze gegevens op een "
+"externe SD-kaart op die momenteel niet beschikbaar is. Als dit in uw "
+"geval niet het probleem is, kunt u contact opnemen met "
+"info@imagemeter.com."
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_folder_cannot_create"
-msgid "Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure the media (e.g. SD-card) is mounted, this directory exists and is writable."
-msgstr "Kan map '%1$s' niet maken in deze map: '%2$s'. Zorg ervoor dat de media (bijv. SD-kaart) is geplaatst en dat deze map bestaat en beschrijfbaar is."
+msgid ""
+"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
+"the media (e.g. SD-card) is mounted, this directory exists and is "
+"writable."
+msgstr ""
+"Kan map '%1$s' niet maken in deze map: '%2$s'. Zorg ervoor dat de media "
+"(bijv. SD-kaart) is geplaatst en dat deze map bestaat en beschrijfbaar "
+"is."
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_cannot_access_external_data"
@@ -4408,8 +4943,12 @@ msgid "Could not write file to external memory."
 msgstr "Kan bestand niet naar extern geheugen schrijven."
 
 msgctxt "UNUSED_storage_error_external_storage_could_not_get_permission_to_write_images"
-msgid "Could not get permission to write to external storage. No files have been written."
-msgstr "Geen toestemming om naar externe opslag te schrijven. Er zijn geen bestanden geschreven."
+msgid ""
+"Could not get permission to write to external storage. No files have been"
+" written."
+msgstr ""
+"Geen toestemming om naar externe opslag te schrijven. Er zijn geen "
+"bestanden geschreven."
 
 #, c-format
 msgctxt "UNUSED_storage_error_cannot_create_directory_on_external_storage"
@@ -4426,8 +4965,12 @@ msgid "Data in image directory '%1$s' is corrupted."
 msgstr "Gegevens in afbeeldingsdirectory %1$s zijn beschadigd."
 
 msgctxt "UNUSED_storage_error_no_permission_to_read_image_to_be_imported"
-msgid "Cannot import image because the permission to read external storage has not been granted."
-msgstr "Kan afbeelding niet importeren omdat de toestemming om externe opslag te lezen niet is verleend."
+msgid ""
+"Cannot import image because the permission to read external storage has "
+"not been granted."
+msgstr ""
+"Kan afbeelding niet importeren omdat de toestemming om externe opslag te "
+"lezen niet is verleend."
 
 #, c-format
 msgctxt "UNUSED_storage_error_cannot_read_ifd_file"
@@ -4457,7 +5000,7 @@ msgctxt "UNUSED_storage_note_pulling_image_file_from_remote"
 msgid "Downloading image file from cloud storage."
 msgstr "Afbeeldingsbestand downloaden van cloudopslag."
 
-#. old gallery export, fuzzy
+#. old gallery export
 msgctxt "UNUSED_export_dialog_saving_images_to_external_storage"
 msgid "Saving images to external storage…"
 msgstr "Afbeeldingen opslaan op externe opslag…"
@@ -4518,7 +5061,7 @@ msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_cancel"
 msgid "Cancel"
 msgstr "Annuleren"
 
-#. Dialog: duplicate image import, fuzzy
+#. Dialog: duplicate image import
 msgctxt "UNUSED_dialog_duplicate_image_import_title"
 msgid "Image Import"
 msgstr "Afbeelding importeren"
@@ -4546,13 +5089,19 @@ msgstr "Map importeren"
 
 #, c-format
 msgctxt "UNUSED_dialog_duplicate_folder_import_message"
-msgid "Imported folder '%1$s' already exists. %3$d images should be imported, out of which %2$d already exist locally."
-msgstr "De geïmporteerde map %1$s bestaat al. %3$d afbeeldingen moeten worden geïmporteerd, waarvan %2$d al lokaal bestaat."
+msgid ""
+"Imported folder '%1$s' already exists. %3$d images should be imported, "
+"out of which %2$d already exist locally."
+msgstr ""
+"De geïmporteerde map %1$s bestaat al. %3$d afbeeldingen moeten worden "
+"geïmporteerd, waarvan %2$d al lokaal bestaat."
 
 #, c-format
 msgctxt "UNUSED_dialog_duplicate_folder_no_duplicate_images_import_message"
 msgid "Imported folder '%1$s' already exists, but there are no duplicate images."
-msgstr "De geïmporteerde map %1$s bestaat al, maar er zijn geen dubbele afbeeldingen."
+msgstr ""
+"De geïmporteerde map %1$s bestaat al, maar er zijn geen dubbele "
+"afbeeldingen."
 
 msgctxt "UNUSED_dialog_duplicate_folder_import_merge"
 msgid "Merge"
@@ -4577,3 +5126,4 @@ msgstr "item 1"
 msgctxt "dummy:1"
 msgid "item 2"
 msgstr "item 2"
+
