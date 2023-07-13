@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2023-07-06 18:23+0200\n"
+"PO-Revision-Date: 2023-07-13 12:54+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -1327,6 +1327,10 @@ msgctxt "ui:button:info"
 msgid "Info"
 msgstr "Info"
 
+msgctxt "ui:dialog:dont-ask-again"
+msgid "Don't ask again"
+msgstr "In Zukunft nicht mehr fragen"
+
 msgctxt "filename-copy-tag"
 msgid "copy"
 msgstr "Kopie"
@@ -1627,6 +1631,10 @@ msgctxt "image-export:overlays:text"
 msgid "Text"
 msgstr "Text"
 
+msgctxt "image-export:company-logo:open-logo-image"
+msgid "Open logo image"
+msgstr "Firmenlogo laden"
+
 msgctxt "image-export:filename-expression"
 msgid "{image.title}"
 msgstr "{image.title}"
@@ -1634,6 +1642,50 @@ msgstr "{image.title}"
 msgctxt "image-export:use-default-options"
 msgid "Use default export options"
 msgstr "Standardoptionen benutzen"
+
+msgctxt "image-export:logo-placement:enable-logo"
+msgid "Enable logo"
+msgstr "Logo aktivieren"
+
+msgctxt "image-export:logo-placement:group-title"
+msgid "Company logo"
+msgstr "Firmenlogo"
+
+msgctxt "image-export:logo-placement:placement"
+msgid "Placement"
+msgstr "Platzierung"
+
+msgctxt "image-export:logo-placement:size"
+msgid "Size"
+msgstr "Größe"
+
+msgctxt "image-export:logo-placement:opacity"
+msgid "Opacity"
+msgstr "Deckkraft"
+
+msgctxt "image-export:show-company-logo"
+msgid "Show company logo"
+msgstr "Firmenlogo anzeigen"
+
+msgctxt "image-export:company-logo:auto-remove-background"
+msgid "Automatic background removal"
+msgstr "Hintergrundfarbe automatisch entfernen"
+
+msgctxt "image-export:company-logo:auto-border-size"
+msgid "Automatic border size"
+msgstr "Rand hinzufügen"
+
+msgctxt "image-export:company-logo:border-color"
+msgid "Border color"
+msgstr "Randfarbe"
+
+msgctxt "image-export:company-logo:border-color:white"
+msgid "White"
+msgstr "Weiß"
+
+msgctxt "image-export:company-logo:border-color:black"
+msgid "Black"
+msgstr "Schwarz"
 
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
@@ -2830,6 +2882,10 @@ msgctxt "editor:rename-counter:rename-all-counters"
 msgid "Rename all counters"
 msgstr "Alle Zähler umbenennen"
 
+msgctxt "editor:textbox-entry:open-detail-image"
+msgid "Open detail image"
+msgstr "Detailbild öffnen"
+
 msgctxt "prefs:measures:length-unit"
 msgid "Length unit"
 msgstr "Längeneinheit"
@@ -3421,6 +3477,22 @@ msgstr "Sprache"
 msgctxt "prefs:ui:language:automatic"
 msgid "Automatic"
 msgstr "Automatisch"
+
+msgctxt "prefs:ui:closing-unsaved-changes-action"
+msgid "When closing image with unsaved changes"
+msgstr "Wenn ungespeichertes Bild geschlossen wird"
+
+msgctxt "prefs:ui:closing-unsaved-changes-action:ask"
+msgid "Ask what to do"
+msgstr "Nachfragen, was getan werden soll"
+
+msgctxt "prefs:ui:closing-unsaved-changes-action:discard-changes"
+msgid "Discard changes"
+msgstr "Änderungen verwerfen"
+
+msgctxt "prefs:ui:closing-unsaved-changes-action:save-changes"
+msgid "Save changes"
+msgstr "Änderungen speichern"
 
 msgctxt "prefs:ui:filename-deduplication:min-digits:title"
 msgid "Digits for filename deduplication"
@@ -4526,6 +4598,10 @@ msgctxt "missing-addon:export-dxf"
 msgid "Cannot export to DXF."
 msgstr ""
 
+msgctxt "missing-addon:company-logo"
+msgid "Cannot export with company logo"
+msgstr ""
+
 msgctxt "unavailable-license-reason:expired"
 msgid "Your license has expired."
 msgstr ""
@@ -4577,6 +4653,10 @@ msgstr ""
 msgctxt "license:name:android-advanced-annotation-with-pro"
 msgid "Advanced-Annotation AddOn (with Pro)"
 msgstr ""
+
+msgctxt "license:feature-requires-higher-license"
+msgid "This function is included in the '{}' license."
+msgstr "Diese Funktion ist in der '{}'-Lizenz enthalten."
 
 msgctxt "entity-initialization:image-title:camera"
 msgid "image from {now}"
