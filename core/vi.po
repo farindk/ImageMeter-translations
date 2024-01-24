@@ -58,6 +58,14 @@ msgctxt "error:CommaSeparatedList_EmptyString"
 msgid "Empty item in list."
 msgstr ""
 
+msgctxt "error:JsonParseError"
+msgid "JSON parse error"
+msgstr ""
+
+msgctxt "error:JsonParseError_Detail"
+msgid "JSON error: {}"
+msgstr ""
+
 msgctxt "error:Files_FileDoesNotExist"
 msgid "File does not exist: \"{}\"."
 msgstr ""
@@ -1309,8 +1317,16 @@ msgctxt "splash:item-status:ok"
 msgid "Ok"
 msgstr ""
 
+msgctxt "splash:item-status:warning"
+msgid "Warning"
+msgstr ""
+
 msgctxt "splash:item-status:error"
 msgid "Error"
+msgstr ""
+
+msgctxt "splash:item-status:show-error"
+msgid "Details…"
 msgstr ""
 
 msgctxt "ui:list:add-entry"
@@ -1382,6 +1398,18 @@ msgstr ""
 
 msgctxt "image-library:move:target-folder:description"
 msgid "Select the destination folder:"
+msgstr ""
+
+msgctxt "image-library:open-image:error:bundle-already-opened"
+msgid "This image is already open in another editor window."
+msgstr ""
+
+msgctxt "image-library:dialog:duplicate-entities:window-title"
+msgid "Duplicate images"
+msgstr ""
+
+msgctxt "image-library:dialog:duplicate-entities:message"
+msgid "Duplicating images (copied {} of {} images found)."
 msgstr ""
 
 msgctxt "rename-images:user-note:various-values"
@@ -1693,6 +1721,14 @@ msgctxt "image-export:company-logo:border-color:black"
 msgid "Black"
 msgstr ""
 
+msgctxt "image-export:advanced-options:group-title"
+msgid "Advanced Options"
+msgstr ""
+
+msgctxt "image-export:hide-measurement-values"
+msgid "Hide all measurement values"
+msgstr ""
+
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
 msgstr ""
@@ -1930,6 +1966,10 @@ msgstr ""
 msgctxt "zip-export:include-pdf-file"
 msgid "Include PDF file"
 msgstr "Bao gồm tệp PDF"
+
+msgctxt "zip-export:include-imf-file"
+msgid "Include IMF file"
+msgstr ""
 
 msgctxt "about-image:unknown-gps"
 msgid "no GPS coordinates"
@@ -2671,6 +2711,14 @@ msgctxt "editor:styling:counter:shape:square"
 msgid "Square"
 msgstr ""
 
+msgctxt "editor:styling:counter:shape:pentagon"
+msgid "Pentagon"
+msgstr ""
+
+msgctxt "editor:styling:counter:shape:star5"
+msgid "Star"
+msgstr ""
+
 msgctxt "editor:styling:counter:shape:triangle-up"
 msgid "Triangle (up)"
 msgstr ""
@@ -2679,12 +2727,20 @@ msgctxt "editor:styling:counter:shape:triangle-down"
 msgid "Triangle (down)"
 msgstr ""
 
+msgctxt "editor:styling:counter:shape:dot"
+msgid "Dot"
+msgstr ""
+
 msgctxt "editor:styling:counter:filled-shape"
 msgid "Filled shape"
 msgstr ""
 
 msgctxt "editor:styling:counter:rename"
 msgid "Rename"
+msgstr ""
+
+msgctxt "editor:styling:counter:start-value"
+msgid "Start value"
 msgstr ""
 
 msgctxt "editor:results-list:generic-counter"
@@ -2995,6 +3051,18 @@ msgstr ""
 
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:long"
 msgid "Long"
+msgstr ""
+
+msgctxt "prefs:editor:drawing-tools:dimstring:group-title"
+msgid "Dimension String"
+msgstr ""
+
+msgctxt "prefs:editor:drawing-tools:dimstring:markerline-length-long"
+msgid "Marker line length (long)"
+msgstr ""
+
+msgctxt "prefs:editor:drawing-tools:dimstring:markerline-length-short"
+msgid "Marker line length (short)"
 msgstr ""
 
 msgctxt "prefs:editor:drawing-tools:textbox:group-title"
@@ -4949,6 +5017,26 @@ msgstr ""
 
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
+msgstr ""
+
+msgctxt "android:permission-request:post-notifications:rationale"
+msgid ""
+"<h2>Notification Permission Request</h2>\n"
+"    <p>\n"
+"      ImageMeter will ask you for the permission to show notifications.\n"
+"      These will be used to show the:\n"
+"    </p>\n"
+"    <ul>\n"
+"      <li>progress of the background cloud sync and let you cancel it,</li>\n"
+"      <li>status of the Bluetooth connection to lasers,</li>\n"
+"      <li>progress of long export or import operations that run in the "
+"background,</li>\n"
+"      <li>background processing errors.</li>\n"
+"    </ul>\n"
+"    <p>\n"
+"      You can disable any of the notification channels independently in the "
+"Android app settings.\n"
+"    </p>"
 msgstr ""
 
 #~ msgctxt "editor:styling:line-caps"

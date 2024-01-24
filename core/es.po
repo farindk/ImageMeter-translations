@@ -69,6 +69,14 @@ msgctxt "error:CommaSeparatedList_EmptyString"
 msgid "Empty item in list."
 msgstr "Elemento vacío en la lista."
 
+msgctxt "error:JsonParseError"
+msgid "JSON parse error"
+msgstr ""
+
+msgctxt "error:JsonParseError_Detail"
+msgid "JSON error: {}"
+msgstr ""
+
 #, fuzzy
 msgctxt "error:Files_FileDoesNotExist"
 msgid "File does not exist: \"{}\"."
@@ -1565,10 +1573,18 @@ msgctxt "splash:item-status:ok"
 msgid "Ok"
 msgstr "OK"
 
+msgctxt "splash:item-status:warning"
+msgid "Warning"
+msgstr ""
+
 #, fuzzy
 msgctxt "splash:item-status:error"
 msgid "Error"
 msgstr "Error"
+
+msgctxt "splash:item-status:show-error"
+msgid "Details…"
+msgstr ""
 
 #, fuzzy
 msgctxt "ui:list:add-entry"
@@ -1655,6 +1671,18 @@ msgstr "Mover a la carpeta"
 msgctxt "image-library:move:target-folder:description"
 msgid "Select the destination folder:"
 msgstr "Seleccione la carpeta de destino:"
+
+msgctxt "image-library:open-image:error:bundle-already-opened"
+msgid "This image is already open in another editor window."
+msgstr ""
+
+msgctxt "image-library:dialog:duplicate-entities:window-title"
+msgid "Duplicate images"
+msgstr ""
+
+msgctxt "image-library:dialog:duplicate-entities:message"
+msgid "Duplicating images (copied {} of {} images found)."
+msgstr ""
 
 #, fuzzy
 msgctxt "rename-images:user-note:various-values"
@@ -2032,6 +2060,14 @@ msgctxt "image-export:company-logo:border-color:black"
 msgid "Black"
 msgstr ""
 
+msgctxt "image-export:advanced-options:group-title"
+msgid "Advanced Options"
+msgstr ""
+
+msgctxt "image-export:hide-measurement-values"
+msgid "Hide all measurement values"
+msgstr ""
+
 #, fuzzy
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of contents"
@@ -2317,6 +2353,10 @@ msgstr "Incluir notas de audio"
 msgctxt "zip-export:include-pdf-file"
 msgid "Include PDF file"
 msgstr "Incluir archivo PDF"
+
+msgctxt "zip-export:include-imf-file"
+msgid "Include IMF file"
+msgstr ""
 
 #, fuzzy
 msgctxt "about-image:unknown-gps"
@@ -3228,6 +3268,14 @@ msgctxt "editor:styling:counter:shape:square"
 msgid "Square"
 msgstr "Cuadrado"
 
+msgctxt "editor:styling:counter:shape:pentagon"
+msgid "Pentagon"
+msgstr ""
+
+msgctxt "editor:styling:counter:shape:star5"
+msgid "Star"
+msgstr ""
+
 #, fuzzy
 msgctxt "editor:styling:counter:shape:triangle-up"
 msgid "Triangle (up)"
@@ -3238,6 +3286,10 @@ msgctxt "editor:styling:counter:shape:triangle-down"
 msgid "Triangle (down)"
 msgstr "Triángulo (abajo)"
 
+msgctxt "editor:styling:counter:shape:dot"
+msgid "Dot"
+msgstr ""
+
 #, fuzzy
 msgctxt "editor:styling:counter:filled-shape"
 msgid "Filled shape"
@@ -3247,6 +3299,10 @@ msgstr "forma llena"
 msgctxt "editor:styling:counter:rename"
 msgid "Rename"
 msgstr "Rebautizar"
+
+msgctxt "editor:styling:counter:start-value"
+msgid "Start value"
+msgstr ""
 
 #, fuzzy
 msgctxt "editor:results-list:generic-counter"
@@ -3634,6 +3690,18 @@ msgstr "Normal"
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:long"
 msgid "Long"
 msgstr "Largo"
+
+msgctxt "prefs:editor:drawing-tools:dimstring:group-title"
+msgid "Dimension String"
+msgstr ""
+
+msgctxt "prefs:editor:drawing-tools:dimstring:markerline-length-long"
+msgid "Marker line length (long)"
+msgstr ""
+
+msgctxt "prefs:editor:drawing-tools:dimstring:markerline-length-short"
+msgid "Marker line length (short)"
+msgstr ""
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:group-title"
@@ -6142,6 +6210,26 @@ msgstr "configuración de la raíz de la biblioteca de imágenes"
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr "entidad de recuperación"
+
+msgctxt "android:permission-request:post-notifications:rationale"
+msgid ""
+"<h2>Notification Permission Request</h2>\n"
+"    <p>\n"
+"      ImageMeter will ask you for the permission to show notifications.\n"
+"      These will be used to show the:\n"
+"    </p>\n"
+"    <ul>\n"
+"      <li>progress of the background cloud sync and let you cancel it,</li>\n"
+"      <li>status of the Bluetooth connection to lasers,</li>\n"
+"      <li>progress of long export or import operations that run in the "
+"background,</li>\n"
+"      <li>background processing errors.</li>\n"
+"    </ul>\n"
+"    <p>\n"
+"      You can disable any of the notification channels independently in the "
+"Android app settings.\n"
+"    </p>"
+msgstr ""
 
 #, fuzzy
 #~ msgctxt "editor:styling:color:automatic"
