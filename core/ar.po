@@ -3,13 +3,15 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2024-02-29 10:19+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: ImageMeter\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #, fuzzy
 msgctxt "error:InternalError"
@@ -323,7 +325,9 @@ msgstr "خطأ OpenGL: \"{}\"."
 
 #, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
-msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
+msgid ""
+"Not enough memory to render at output resolution {}. Please reduce the output "
+"resolution."
 msgstr "لا توجد ذاكرة كافية للعرض عند دقة الإخراج {}. يرجى تقليل دقة الإخراج."
 
 #, fuzzy
@@ -793,8 +797,12 @@ msgstr "تم الوصول إلى الحد الأقصى لعدد الأجهزة �
 
 #, fuzzy
 msgctxt "error:Licensing_RevokesExhausted"
-msgid "You have already used all available {max_revokes} revokes during the past {period_days} days."
-msgstr "لقد استخدمت بالفعل جميع عمليات الإلغاء المتاحة البالغ عددها {max_revoces} خلال الأيام الـ {period_days} الماضية."
+msgid ""
+"You have already used all available {max_revokes} revokes during the past "
+"{period_days} days."
+msgstr ""
+"لقد استخدمت بالفعل جميع عمليات الإلغاء المتاحة البالغ عددها {max_revoces} خلال "
+"الأيام الـ {period_days} الماضية."
 
 #, fuzzy
 msgctxt "error:Licensing_DeviceNotActive"
@@ -918,7 +926,8 @@ msgstr "تم تكوين الكاميرا '{}' على نظام مختلف."
 
 #, fuzzy
 msgctxt "error:QtCamera_MultipleDifferentStreams"
-msgid "Cannot start video because another stream with different settings is active."
+msgid ""
+"Cannot start video because another stream with different settings is active."
 msgstr "لا يمكن بدء الفيديو لأن هناك بثًا آخر نشطًا بإعدادات مختلفة."
 
 #, fuzzy
@@ -1258,8 +1267,12 @@ msgstr "أضف نقطة بعد الأرقام الغامضة"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
-msgid "When enabled, a dot is placed after numbers that are ambiguous when read upside down, like this: 66."
-msgstr "عند التفعيل، يتم وضع نقطة بعد الأرقام التي تكون غامضة عند قراءتها مقلوبة، مثل هذا: 66."
+msgid ""
+"When enabled, a dot is placed after numbers that are ambiguous when read "
+"upside down, like this: 66."
+msgstr ""
+"عند التفعيل، يتم وضع نقطة بعد الأرقام التي تكون غامضة عند قراءتها مقلوبة، مثل "
+"هذا: 66."
 
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
@@ -1278,8 +1291,12 @@ msgstr "أضف نقطة إذا لزم الأمر"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:show-units:title:tooltip"
-msgid "When disabled, measures are shown without the unit. I.e. just the plain number '23' instead of '23 cm'."
-msgstr "عند التعطيل، تظهر القياسات بدون الوحدة. أي. فقط الرقم العادي \"23\" بدلاً من \"23 سم\"."
+msgid ""
+"When disabled, measures are shown without the unit. I.e. just the plain number "
+"'23' instead of '23 cm'."
+msgstr ""
+"عند التعطيل، تظهر القياسات بدون الوحدة. أي. فقط الرقم العادي \"23\" بدلاً من "
+"\"23 سم\"."
 
 #, fuzzy
 msgctxt "dimformat:options-ui:show-units:title"
@@ -1908,8 +1925,12 @@ msgstr "الصورة موجودة بالفعل في المكتبة. هل تري�
 
 #, fuzzy
 msgctxt "rendering:watermark"
-msgid "Evaluation copy\nPlease upgrade to remove watermark"
-msgstr "نسخة تقييم\nيرجى الترقية لإزالة العلامة المائية"
+msgid ""
+"Evaluation copy\n"
+"Please upgrade to remove watermark"
+msgstr ""
+"نسخة تقييم\n"
+"يرجى الترقية لإزالة العلامة المائية"
 
 #, fuzzy
 msgctxt "export:resolution-too-small"
@@ -1922,8 +1943,10 @@ msgid "Images with unsaved changes"
 msgstr "الصور ذات التغييرات غير المحفوظة"
 
 #, fuzzy
-msgctxt "export:image-not-saved:exporting-images-with-unsaved-changes:description"
-msgid "You are trying to export images that are still opened with unsaved changes."
+msgctxt ""
+"export:image-not-saved:exporting-images-with-unsaved-changes:description"
+msgid ""
+"You are trying to export images that are still opened with unsaved changes."
 msgstr "أنت تحاول تصدير الصور التي لا تزال مفتوحة مع التغييرات غير المحفوظة."
 
 #, fuzzy
@@ -1938,8 +1961,15 @@ msgstr "الكتابة المدمرة"
 
 #, fuzzy
 msgctxt "export:overwrite-plain-image:message"
-msgid "If you overwrite the original image file '{}' with your annotations, you cannot change it later. The original image will be lost.\nIt is recommended to save to a different file or save as an IMI file that can still be edited lated."
-msgstr "إذا قمت بالكتابة فوق ملف الصورة الأصلي '{}' بالتعليقات التوضيحية، فلن تتمكن من تغييره لاحقًا. سيتم فقدان الصورة الأصلية.\nيوصى بالحفظ في ملف مختلف أو الحفظ كملف IMI الذي لا يزال من الممكن تحريره مؤخرًا."
+msgid ""
+"If you overwrite the original image file '{}' with your annotations, you "
+"cannot change it later. The original image will be lost.\n"
+"It is recommended to save to a different file or save as an IMI file that can "
+"still be edited lated."
+msgstr ""
+"إذا قمت بالكتابة فوق ملف الصورة الأصلي '{}' بالتعليقات التوضيحية، فلن تتمكن من "
+"تغييره لاحقًا. سيتم فقدان الصورة الأصلية.\n"
+"يوصى بالحفظ في ملف مختلف أو الحفظ كملف IMI الذي لا يزال من الممكن تحريره مؤخرًا."
 
 #, fuzzy
 msgctxt "export:overwrite-plain-image:button:save-as-image"
@@ -1958,7 +1988,8 @@ msgstr "إخراج الصور إلى الدليل"
 
 #, fuzzy
 msgctxt "export:image:invalid-filename-suffix"
-msgid "You specified an invalid file suffix (please use one of the supported formats)"
+msgid ""
+"You specified an invalid file suffix (please use one of the supported formats)"
 msgstr "لقد حددت لاحقة ملف غير صالحة (يُرجى استخدام أحد التنسيقات المدعومة)"
 
 #, fuzzy
@@ -2073,8 +2104,15 @@ msgstr "الإزالة التلقائية للخلفية"
 
 #, fuzzy
 msgctxt "image-export:company-logo:auto-remove-background:info:description"
-msgid "Removes a solid background color from your logo image. For this to work, the logo must have a consistent background color (no gradient) and the image should preferably be a PNG image (not a JPEG), as the JPEG's compression artifacts can introduce color distortions that cannot be removed."
-msgstr "يزيل لون الخلفية الصلب من صورة الشعار الخاص بك. لكي ينجح هذا الأمر، يجب أن يكون للشعار لون خلفية ثابت (بدون تدرج) ويفضل أن تكون الصورة صورة PNG (وليست JPEG)، حيث يمكن أن تؤدي تأثيرات ضغط JPEG إلى تشوهات لونية لا يمكن إزالتها."
+msgid ""
+"Removes a solid background color from your logo image. For this to work, the "
+"logo must have a consistent background color (no gradient) and the image "
+"should preferably be a PNG image (not a JPEG), as the JPEG's compression "
+"artifacts can introduce color distortions that cannot be removed."
+msgstr ""
+"يزيل لون الخلفية الصلب من صورة الشعار الخاص بك. لكي ينجح هذا الأمر، يجب أن "
+"يكون للشعار لون خلفية ثابت (بدون تدرج) ويفضل أن تكون الصورة صورة PNG (وليست "
+"JPEG)، حيث يمكن أن تؤدي تأثيرات ضغط JPEG إلى تشوهات لونية لا يمكن إزالتها."
 
 #, fuzzy
 msgctxt "image-export:company-logo:auto-border-size"
@@ -2363,8 +2401,12 @@ msgstr "لا توجد قوالب مشتركة محددة."
 
 #, fuzzy
 msgctxt "export:csv:entities-have-no-common-template:details"
-msgid "You need to assign a template to each image and folder that you export. You have to use the same template for each image and folder."
-msgstr "تحتاج إلى تعيين قالب لكل صورة ومجلد تقوم بتصديره. يجب عليك استخدام نفس القالب لكل صورة ومجلد."
+msgid ""
+"You need to assign a template to each image and folder that you export. You "
+"have to use the same template for each image and folder."
+msgstr ""
+"تحتاج إلى تعيين قالب لكل صورة ومجلد تقوم بتصديره. يجب عليك استخدام نفس القالب "
+"لكل صورة ومجلد."
 
 #, fuzzy
 msgctxt "export:tablespec-to-export:dialog-title"
@@ -2458,7 +2500,9 @@ msgstr "عرض على الخريطة"
 
 #, fuzzy
 msgctxt "editor:attach:error_no_reference_to_attach_to"
-msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
+msgid ""
+"There is no reference in the image! You need to draw a reference in order to "
+"do automatic computations."
 msgstr "ليس هناك إشارة في الصورة! تحتاج إلى رسم مرجع لإجراء الحسابات التلقائية."
 
 #, fuzzy
@@ -2478,7 +2522,9 @@ msgstr "انقر على المقياس الذي تريد حسابه بناءً �
 
 #, fuzzy
 msgctxt "editor:attach:hint_howto_attach_measure"
-msgid "Click on the reference based on which you want to calculate the selected measure."
+msgid ""
+"Click on the reference based on which you want to calculate the selected "
+"measure."
 msgstr "انقر على المرجع الذي تريد حساب المقياس المحدد بناءً عليه."
 
 #, fuzzy
@@ -2523,8 +2569,14 @@ msgstr "محاولة تحميل تنسيق ملف غير مدعوم"
 
 #, fuzzy
 msgctxt "editor:loaded-image-has-more-recent-version:warning"
-msgid "This image has been saved with a more recent version. You need at least version {} to load this image correctly. You can still try to open this file, but some parts of it might be missing."
-msgstr "تم حفظ هذه الصورة بإصدار أحدث. تحتاج إلى الإصدار {} على الأقل لتحميل هذه الصورة بشكل صحيح. لا يزال بإمكانك محاولة فتح هذا الملف، ولكن قد تكون بعض أجزاء منه مفقودة."
+msgid ""
+"This image has been saved with a more recent version. You need at least "
+"version {} to load this image correctly. You can still try to open this file, "
+"but some parts of it might be missing."
+msgstr ""
+"تم حفظ هذه الصورة بإصدار أحدث. تحتاج إلى الإصدار {} على الأقل لتحميل هذه "
+"الصورة بشكل صحيح. لا يزال بإمكانك محاولة فتح هذا الملف، ولكن قد تكون بعض أجزاء "
+"منه مفقودة."
 
 #, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:title"
@@ -2533,13 +2585,31 @@ msgstr "الكتابة فوق الصورة المحملة بشكل غير كام
 
 #, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:warning"
-msgid "This image has only been loaded partially because it was written with a more recent software version. If you save this image now, parts of the information in the original file gets lost."
-msgstr "تم تحميل هذه الصورة جزئيًا فقط لأنها تمت كتابتها باستخدام إصدار برنامج أحدث. إذا قمت بحفظ هذه الصورة الآن، فسيتم فقدان أجزاء من المعلومات الموجودة في الملف الأصلي."
+msgid ""
+"This image has only been loaded partially because it was written with a more "
+"recent software version. If you save this image now, parts of the information "
+"in the original file gets lost."
+msgstr ""
+"تم تحميل هذه الصورة جزئيًا فقط لأنها تمت كتابتها باستخدام إصدار برنامج أحدث. "
+"إذا قمت بحفظ هذه الصورة الآن، فسيتم فقدان أجزاء من المعلومات الموجودة في الملف "
+"الأصلي."
 
 #, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:question"
 msgid "Do you still want to overwrite the file?"
 msgstr "هل مازلت تريد الكتابة فوق الملف؟"
+
+msgctxt "editor:zoom:standard"
+msgid "Reset"
+msgstr ""
+
+msgctxt "editor:zoom:fit"
+msgid "Fit"
+msgstr ""
+
+msgctxt "editor:zoom:fill"
+msgid "Fill"
+msgstr ""
 
 #, fuzzy
 msgctxt "editor:styling:line-caps"
@@ -3207,7 +3277,8 @@ msgid "Outside (along)"
 msgstr "خارج (على طول)"
 
 #, fuzzy
-msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-orthogonal"
+msgctxt ""
+"editor:styling:rounded-polyline:corner-label-position:outside-orthogonal"
 msgid "Outside (orthogonal)"
 msgstr "خارج (متعامد)"
 
@@ -3278,7 +3349,8 @@ msgstr "يوسع"
 
 #, fuzzy
 msgctxt "editor:rounded-polyline:action:expand:invalid-expansion-offset"
-msgid "Invalid expansion offset. This offset value would lead to an invalid shape."
+msgid ""
+"Invalid expansion offset. This offset value would lead to an invalid shape."
 msgstr "إزاحة التوسيع غير صالحة. قد تؤدي قيمة الإزاحة هذه إلى شكل غير صالح."
 
 #, fuzzy
@@ -3708,8 +3780,12 @@ msgstr "التقط مضاعفات هذه المسافة (فقط للمستطيل
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
-msgid "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and rectangle sides will be restricted to steps of this size."
-msgstr "أدخل مسافة بالوحدة (على سبيل المثال، 10 سم أو 1 قدم أو 1 بوصة). سيتم تقييد الأبعاد المرسومة والجوانب المستطيلة بخطوات بهذا الحجم."
+msgid ""
+"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
+"rectangle sides will be restricted to steps of this size."
+msgstr ""
+"أدخل مسافة بالوحدة (على سبيل المثال، 10 سم أو 1 قدم أو 1 بوصة). سيتم تقييد "
+"الأبعاد المرسومة والجوانب المستطيلة بخطوات بهذا الحجم."
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
@@ -3913,7 +3989,9 @@ msgstr "ردود الفعل الصوتية"
 
 #, fuzzy
 msgctxt "prefs:template:add:general-description"
-msgid "Choose the template that best matches your needs. You can further customize it later."
+msgid ""
+"Choose the template that best matches your needs. You can further customize it "
+"later."
 msgstr "اختر القالب الذي يناسب احتياجاتك بشكل أفضل. ويمكنك تخصيصه لاحقًا."
 
 #, fuzzy
@@ -3983,7 +4061,8 @@ msgstr "نوع المحتوى"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tag:list-header:content-type:tooltip"
-msgid "The content type limits to which kind of elements the tag can be attached."
+msgid ""
+"The content type limits to which kind of elements the tag can be attached."
 msgstr "يحدد نوع المحتوى نوع العناصر التي يمكن إرفاق العلامة بها."
 
 #, fuzzy
@@ -4013,8 +4092,12 @@ msgstr "عنوان العمود"
 
 #, fuzzy
 msgctxt "prefs:template:partlist:tags:list-header:column-title:tooltip"
-msgid "The column name for this tag in the table output. If left empty, the tag name will be used as column title."
-msgstr "اسم العمود لهذه العلامة في إخراج الجدول. إذا تركت فارغة، سيتم استخدام اسم العلامة كعنوان العمود."
+msgid ""
+"The column name for this tag in the table output. If left empty, the tag name "
+"will be used as column title."
+msgstr ""
+"اسم العمود لهذه العلامة في إخراج الجدول. إذا تركت فارغة، سيتم استخدام اسم "
+"العلامة كعنوان العمود."
 
 #, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract"
@@ -4108,8 +4191,14 @@ msgstr "محتوى العمود"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:content:tooltip"
-msgid "Specify the cell content in this column. This can be either a measurement value that you annotated with a tag, or image metadata (e.g. image name, capture date)."
-msgstr "حدد محتوى الخلية في هذا العمود. يمكن أن تكون هذه إما قيمة قياس قمت بتعليقها باستخدام علامة، أو بيانات تعريف الصورة (على سبيل المثال، اسم الصورة، تاريخ الالتقاط)."
+msgid ""
+"Specify the cell content in this column. This can be either a measurement "
+"value that you annotated with a tag, or image metadata (e.g. image name, "
+"capture date)."
+msgstr ""
+"حدد محتوى الخلية في هذا العمود. يمكن أن تكون هذه إما قيمة قياس قمت بتعليقها "
+"باستخدام علامة، أو بيانات تعريف الصورة (على سبيل المثال، اسم الصورة، تاريخ "
+"الالتقاط)."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip-title"
@@ -4118,8 +4207,13 @@ msgstr "قياس الاختيار"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip"
-msgid "Here, you define which measurement of the tagged element to put into this column. E.g. for a circle you can choose between its area, radius, circumference, …"
-msgstr "هنا، يمكنك تحديد قياس العنصر الذي تم وضع علامة عليه في هذا العمود. على سبيل المثال بالنسبة للدائرة، يمكنك الاختيار بين مساحتها، ونصف قطرها، ومحيطها، ..."
+msgid ""
+"Here, you define which measurement of the tagged element to put into this "
+"column. E.g. for a circle you can choose between its area, radius, "
+"circumference, …"
+msgstr ""
+"هنا، يمكنك تحديد قياس العنصر الذي تم وضع علامة عليه في هذا العمود. على سبيل "
+"المثال بالنسبة للدائرة، يمكنك الاختيار بين مساحتها، ونصف قطرها، ومحيطها، ..."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip-title"
@@ -4128,8 +4222,14 @@ msgstr "قيم متعددة لكل خلية"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip"
-msgid "When several elements are assigned the same tag, several values will be placed into one cell. Here you can choose to sum these values, take their average, or other options instead of keeping all in one cell."
-msgstr "عندما يتم تعيين نفس العلامة لعدة عناصر، سيتم وضع عدة قيم في خلية واحدة. هنا يمكنك اختيار جمع هذه القيم، أو الحصول على متوسطها، أو خيارات أخرى بدلاً من الاحتفاظ بها كلها في خلية واحدة."
+msgid ""
+"When several elements are assigned the same tag, several values will be placed "
+"into one cell. Here you can choose to sum these values, take their average, or "
+"other options instead of keeping all in one cell."
+msgstr ""
+"عندما يتم تعيين نفس العلامة لعدة عناصر، سيتم وضع عدة قيم في خلية واحدة. هنا "
+"يمكنك اختيار جمع هذه القيم، أو الحصول على متوسطها، أو خيارات أخرى بدلاً من "
+"الاحتفاظ بها كلها في خلية واحدة."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip-title"
@@ -4138,8 +4238,12 @@ msgstr "عدد الأعمدة"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip"
-msgid "Creates this number of columns to fill in values with this tag. Use this when you have several measurements with the same tag in one image."
-msgstr "ينشئ هذا العدد من الأعمدة لملء القيم بهذه العلامة. استخدم هذا عندما يكون لديك عدة قياسات بنفس العلامة في صورة واحدة."
+msgid ""
+"Creates this number of columns to fill in values with this tag. Use this when "
+"you have several measurements with the same tag in one image."
+msgstr ""
+"ينشئ هذا العدد من الأعمدة لملء القيم بهذه العلامة. استخدم هذا عندما يكون لديك "
+"عدة قياسات بنفس العلامة في صورة واحدة."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip-title"
@@ -4148,8 +4252,12 @@ msgstr "محتوى صف التذييل"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip"
-msgid "What to place in the footer row of the table. Options include the sum of all values in the column, the maximum, the average, and other options."
-msgstr "ما يجب وضعه في صف تذييل الجدول. تتضمن الخيارات مجموع كل القيم في العمود، والحد الأقصى، والمتوسط، والخيارات الأخرى."
+msgid ""
+"What to place in the footer row of the table. Options include the sum of all "
+"values in the column, the maximum, the average, and other options."
+msgstr ""
+"ما يجب وضعه في صف تذييل الجدول. تتضمن الخيارات مجموع كل القيم في العمود، والحد "
+"الأقصى، والمتوسط، والخيارات الأخرى."
 
 #, fuzzy
 msgctxt "prefs:template:areasum:tablespec:dialog-title"
@@ -4252,7 +4360,8 @@ msgid "Show rows with image names"
 msgstr "إظهار الصفوف بأسماء الصور"
 
 #, fuzzy
-msgctxt "prefs:template:partslist:tablespec:row-config:item-numbering-for-each-image"
+msgctxt ""
+"prefs:template:partslist:tablespec:row-config:item-numbering-for-each-image"
 msgid "Independent item numbering for each image"
 msgstr "ترقيم عنصر مستقل لكل صورة"
 
@@ -4262,7 +4371,8 @@ msgid "Show footer row"
 msgstr "إظهار صف التذييل"
 
 #, fuzzy
-msgctxt "prefs:template:partslist:tablespec:row-config:combine-counters-into-one-row"
+msgctxt ""
+"prefs:template:partslist:tablespec:row-config:combine-counters-into-one-row"
 msgid "Combine counters into one row per tag"
 msgstr "دمج العدادات في صف واحد لكل علامة"
 
@@ -4315,6 +4425,18 @@ msgstr "تجاهل التغييرات"
 msgctxt "prefs:ui:closing-unsaved-changes-action:save-changes"
 msgid "Save changes"
 msgstr "حفظ التغييرات"
+
+msgctxt "prefs:ui:open-image-in"
+msgid "Open image in"
+msgstr ""
+
+msgctxt "prefs:ui:open-image-in:new-window"
+msgid "new window"
+msgstr ""
+
+msgctxt "prefs:ui:open-image-in:active-window"
+msgid "active window"
+msgstr ""
 
 #, fuzzy
 msgctxt "prefs:ui:dont-ask-again:duplicate-entities-dialog"
@@ -4603,8 +4725,14 @@ msgstr "لم يتم تكوين جهاز Bluetooth"
 
 #, fuzzy
 msgctxt "bluetooth:no-device-configured-dialog:text(pc)"
-msgid "You have not yet configured any Bluetooth laser distance meter.\n\nPlease select your device in the settings."
-msgstr "لم تقم بعد بتكوين أي جهاز قياس مسافة ليزر يعمل بتقنية Bluetooth.\n\nالرجاء تحديد جهازك في الإعدادات."
+msgid ""
+"You have not yet configured any Bluetooth laser distance meter.\n"
+"\n"
+"Please select your device in the settings."
+msgstr ""
+"لم تقم بعد بتكوين أي جهاز قياس مسافة ليزر يعمل بتقنية Bluetooth.\n"
+"\n"
+"الرجاء تحديد جهازك في الإعدادات."
 
 #, fuzzy
 msgctxt "bluetooth:no-device-configured-dialog:open-prefs:button(pc)"
@@ -4663,8 +4791,11 @@ msgstr "حفظ الفيديو المباشر"
 
 #, fuzzy
 msgctxt "live-camera:save:live-or-capture:text"
-msgid "Save a captured image of the live video or a live camera placeholder image?"
-msgstr "هل تريد حفظ الصورة الملتقطة للفيديو المباشر أو صورة العنصر النائب للكاميرا الحية؟"
+msgid ""
+"Save a captured image of the live video or a live camera placeholder image?"
+msgstr ""
+"هل تريد حفظ الصورة الملتقطة للفيديو المباشر أو صورة العنصر النائب للكاميرا "
+"الحية؟"
 
 #, fuzzy
 msgctxt "live-camera:save:live-or-capture:captured-image"
@@ -4683,8 +4814,12 @@ msgstr "تخزين معايرة الكاميرا"
 
 #, fuzzy
 msgctxt "camera-calibration:overwrite-existing:ask-overwrite"
-msgid "There is already a calibration stored for this camera at this resolution. Do you want to overwrite the existing calibration?"
-msgstr "توجد بالفعل معايرة مخزنة لهذه الكاميرا بهذه الدقة. هل تريد الكتابة فوق المعايرة الموجودة؟"
+msgid ""
+"There is already a calibration stored for this camera at this resolution. Do "
+"you want to overwrite the existing calibration?"
+msgstr ""
+"توجد بالفعل معايرة مخزنة لهذه الكاميرا بهذه الدقة. هل تريد الكتابة فوق "
+"المعايرة الموجودة؟"
 
 #, fuzzy
 msgctxt "camera-calibration:saved:confirmation-message"
@@ -4713,8 +4848,12 @@ msgstr "قالب مخصص جديد"
 
 #, fuzzy
 msgctxt "templ:custom:long-description"
-msgid "Each image fills one row in the table. You may assign a tag to each measurement. Each table column contains the measurement for a specific tag."
-msgstr "تملأ كل صورة صفًا واحدًا في الجدول. يمكنك تعيين علامة لكل قياس. يحتوي كل عمود في الجدول على قياس علامة معينة."
+msgid ""
+"Each image fills one row in the table. You may assign a tag to each "
+"measurement. Each table column contains the measurement for a specific tag."
+msgstr ""
+"تملأ كل صورة صفًا واحدًا في الجدول. يمكنك تعيين علامة لكل قياس. يحتوي كل عمود في "
+"الجدول على قياس علامة معينة."
 
 #, fuzzy
 msgctxt "templ:custom:column-content:empty"
@@ -4828,8 +4967,13 @@ msgstr "المساحة الأرضية"
 
 #, fuzzy
 msgctxt "templ:areasum:long-description:wallarea"
-msgid "This template is the basis for area computations. The area of some elements is added to the sum (e.g. walls), while other elements are subtracted (e.g. windows)."
-msgstr "هذا القالب هو الأساس لحسابات المنطقة. تتم إضافة مساحة بعض العناصر إلى المجموع (مثل الجدران)، بينما يتم طرح عناصر أخرى (مثل النوافذ)."
+msgid ""
+"This template is the basis for area computations. The area of some elements is "
+"added to the sum (e.g. walls), while other elements are subtracted (e.g. "
+"windows)."
+msgstr ""
+"هذا القالب هو الأساس لحسابات المنطقة. تتم إضافة مساحة بعض العناصر إلى المجموع "
+"(مثل الجدران)، بينما يتم طرح عناصر أخرى (مثل النوافذ)."
 
 #, fuzzy
 msgctxt "templ:areasum:tag:property-name"
@@ -5003,13 +5147,19 @@ msgstr "جدول مجموع المساحة"
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:item"
-msgid "The image number. The number will only be filled into the row with the image title."
+msgid ""
+"The image number. The number will only be filled into the row with the image "
+"title."
 msgstr "رقم الصورة. سيتم ملء الرقم فقط في الصف الذي يحمل عنوان الصورة."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:description"
-msgid "Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this area."
-msgstr "الاسم الوصفي للمنطقة. وهذا إما هو الاسم الافتراضي للعلامة، أو اسم تم إدخاله يدويًا لهذه المنطقة."
+msgid ""
+"Descriptive name of the area. This is either the default name of the tag, or a "
+"manually entered name for this area."
+msgstr ""
+"الاسم الوصفي للمنطقة. وهذا إما هو الاسم الافتراضي للعلامة، أو اسم تم إدخاله "
+"يدويًا لهذه المنطقة."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:count"
@@ -5018,8 +5168,16 @@ msgstr "مضاعف العد لهذه المنطقة."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
-msgid "Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n\nEnter the two column headers separated by a semicolon."
-msgstr "العرض والارتفاع عبارة عن عمودين مملوءين بأطوال الجوانب إذا كانت المساحة مستطيلة. بالنسبة للأشكال الأخرى، تظل الأعمدة فارغة.\n\nأدخل رأسي العمودين مفصولين بفاصلة منقوطة."
+msgid ""
+"Width and height are two columns that are filled with the side lengths if the "
+"area is a rectangle. For other shapes, the columns stay empty.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+"العرض والارتفاع عبارة عن عمودين مملوءين بأطوال الجوانب إذا كانت المساحة "
+"مستطيلة. بالنسبة للأشكال الأخرى، تظل الأعمدة فارغة.\n"
+"\n"
+"أدخل رأسي العمودين مفصولين بفاصلة منقوطة."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:measured-area"
@@ -5038,13 +5196,24 @@ msgstr "المساحة المحسوبة بما في ذلك العامل والع
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
-msgid "Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n\nEnter the two column headers separated by a semicolon."
-msgstr "يُنشئ عمودين: عمود يتضمن جميع المناطق التي تمت إضافتها إلى المجموع، وعمودًا يتضمن جميع المناطق التي تم طرحها من المجموع الإجمالي.\n\nأدخل رأسي العمودين مفصولين بفاصلة منقوطة."
+msgid ""
+"Generates two columns: a column including all areas that are added to the sum, "
+"and a column including all areas that are subtracted from the total sum.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+"يُنشئ عمودين: عمود يتضمن جميع المناطق التي تمت إضافتها إلى المجموع، وعمودًا "
+"يتضمن جميع المناطق التي تم طرحها من المجموع الإجمالي.\n"
+"\n"
+"أدخل رأسي العمودين مفصولين بفاصلة منقوطة."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:image-area-sum"
-msgid "Each row holds the area sum of the image. The footer row holds the total over all images."
-msgstr "يحمل كل صف مجموع مساحة الصورة. يحتوي صف التذييل على الإجمالي لجميع الصور."
+msgid ""
+"Each row holds the area sum of the image. The footer row holds the total over "
+"all images."
+msgstr ""
+"يحمل كل صف مجموع مساحة الصورة. يحتوي صف التذييل على الإجمالي لجميع الصور."
 
 #, fuzzy
 msgctxt "templ:partslist:class-display-name"
@@ -5053,8 +5222,12 @@ msgstr "قالب قائمة الأجزاء"
 
 #, fuzzy
 msgctxt "templ:partslist:long-description"
-msgid "This template lets you generate bills of material, counting different objects, or summing the length of products (e.g. electrical cables)."
-msgstr "يتيح لك هذا القالب إنشاء فواتير المواد، أو عد الأشياء المختلفة، أو جمع أطوال المنتجات (مثل الكابلات الكهربائية)."
+msgid ""
+"This template lets you generate bills of material, counting different objects, "
+"or summing the length of products (e.g. electrical cables)."
+msgstr ""
+"يتيح لك هذا القالب إنشاء فواتير المواد، أو عد الأشياء المختلفة، أو جمع أطوال "
+"المنتجات (مثل الكابلات الكهربائية)."
 
 #, fuzzy
 msgctxt "templ:partslist:tagtype:count"
@@ -5228,8 +5401,12 @@ msgstr "المزامنة السحابية قيد الاستخدام حاليًا
 
 #, fuzzy
 msgctxt "sync:error:no-cloud-sync-tasks-configured(pc)"
-msgid "There are no enabled cloud-sync tasks. Nothing to do. First configure some sync tasks in the preferences, section 'Storage/Cloud Storage'."
-msgstr "لا توجد مهام مزامنة سحابية ممكّنة. لا شيء لأفعله. قم أولاً بتكوين بعض مهام المزامنة في التفضيلات، قسم \"التخزين/التخزين السحابي\"."
+msgid ""
+"There are no enabled cloud-sync tasks. Nothing to do. First configure some "
+"sync tasks in the preferences, section 'Storage/Cloud Storage'."
+msgstr ""
+"لا توجد مهام مزامنة سحابية ممكّنة. لا شيء لأفعله. قم أولاً بتكوين بعض مهام "
+"المزامنة في التفضيلات، قسم \"التخزين/التخزين السحابي\"."
 
 #, fuzzy
 msgctxt "sync:task:description:anno-image"
@@ -5283,8 +5460,18 @@ msgstr "صيانة التخزين السحابي"
 
 #, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-description"
-msgid "<b>Remove server lock</b> - In order to prevent simultaneous access to the data on the cloud server, it is locked during the sync process. In case of some errors, e.g. network failures, it may be that the server remains locked. The locks time-out automatically after a few minutes, but you can also manually remove them immediately if you know for sure that it is an error."
-msgstr "<b>إزالة قفل الخادم</b> - لمنع الوصول المتزامن إلى البيانات الموجودة على خادم السحابة، يتم قفله أثناء عملية المزامنة. في حالة وجود بعض الأخطاء، على سبيل المثال. فشل الشبكة، فمن الممكن أن يظل الخادم مغلقًا. تنتهي مهلة الأقفال تلقائيًا بعد بضع دقائق، ولكن يمكنك أيضًا إزالتها يدويًا على الفور إذا كنت متأكدًا من أن هذا خطأ."
+msgid ""
+"<b>Remove server lock</b> - In order to prevent simultaneous access to the "
+"data on the cloud server, it is locked during the sync process. In case of "
+"some errors, e.g. network failures, it may be that the server remains locked. "
+"The locks time-out automatically after a few minutes, but you can also "
+"manually remove them immediately if you know for sure that it is an error."
+msgstr ""
+"<b>إزالة قفل الخادم</b> - لمنع الوصول المتزامن إلى البيانات الموجودة على خادم "
+"السحابة، يتم قفله أثناء عملية المزامنة. في حالة وجود بعض الأخطاء، على سبيل "
+"المثال. فشل الشبكة، فمن الممكن أن يظل الخادم مغلقًا. تنتهي مهلة الأقفال تلقائيًا "
+"بعد بضع دقائق، ولكن يمكنك أيضًا إزالتها يدويًا على الفور إذا كنت متأكدًا من أن "
+"هذا خطأ."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-button"
@@ -5293,8 +5480,18 @@ msgstr "إزالة قفل الخادم"
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-description"
-msgid "<b>Reset server cache</b> - The cloud server maintains a cache of images stored on them. If you delete or add files manually on the server, this is not seen by the cache. You may reset the server cache to run a full scan during the next sync. However, note that a full scan may take a long time if you have many images."
-msgstr "<b>إعادة تعيين ذاكرة التخزين المؤقت للخادم</b> - يحتفظ الخادم السحابي بذاكرة تخزين مؤقت للصور المخزنة عليه. إذا قمت بحذف الملفات أو إضافتها يدويًا على الخادم، فلن تتمكن ذاكرة التخزين المؤقت من رؤية ذلك. يمكنك إعادة تعيين ذاكرة التخزين المؤقت للخادم لإجراء فحص كامل أثناء المزامنة التالية. ومع ذلك، لاحظ أن الفحص الكامل قد يستغرق وقتًا طويلاً إذا كان لديك العديد من الصور."
+msgid ""
+"<b>Reset server cache</b> - The cloud server maintains a cache of images "
+"stored on them. If you delete or add files manually on the server, this is not "
+"seen by the cache. You may reset the server cache to run a full scan during "
+"the next sync. However, note that a full scan may take a long time if you have "
+"many images."
+msgstr ""
+"<b>إعادة تعيين ذاكرة التخزين المؤقت للخادم</b> - يحتفظ الخادم السحابي بذاكرة "
+"تخزين مؤقت للصور المخزنة عليه. إذا قمت بحذف الملفات أو إضافتها يدويًا على "
+"الخادم، فلن تتمكن ذاكرة التخزين المؤقت من رؤية ذلك. يمكنك إعادة تعيين ذاكرة "
+"التخزين المؤقت للخادم لإجراء فحص كامل أثناء المزامنة التالية. ومع ذلك، لاحظ أن "
+"الفحص الكامل قد يستغرق وقتًا طويلاً إذا كان لديك العديد من الصور."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-button"
@@ -5303,8 +5500,16 @@ msgstr "إعادة تعيين ذاكرة التخزين المؤقت للخاد�
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-description"
-msgid "<b>Reset sync state</b> - The next sync will start with no preknowledge about the data on each side. This means, e.g., that locally deleted images will be downloaded again from the server instead of being deleted on the server. There are few cases where resetting the stored sync state is needed."
-msgstr "<b>إعادة تعيين حالة المزامنة</b> - ستبدأ المزامنة التالية دون معرفة مسبقة بالبيانات الموجودة على كل جانب. وهذا يعني، على سبيل المثال، أنه سيتم تنزيل الصور المحذوفة محليًا مرة أخرى من الخادم بدلاً من حذفها على الخادم. هناك حالات قليلة تتطلب إعادة تعيين حالة المزامنة المخزنة."
+msgid ""
+"<b>Reset sync state</b> - The next sync will start with no preknowledge about "
+"the data on each side. This means, e.g., that locally deleted images will be "
+"downloaded again from the server instead of being deleted on the server. There "
+"are few cases where resetting the stored sync state is needed."
+msgstr ""
+"<b>إعادة تعيين حالة المزامنة</b> - ستبدأ المزامنة التالية دون معرفة مسبقة "
+"بالبيانات الموجودة على كل جانب. وهذا يعني، على سبيل المثال، أنه سيتم تنزيل "
+"الصور المحذوفة محليًا مرة أخرى من الخادم بدلاً من حذفها على الخادم. هناك حالات "
+"قليلة تتطلب إعادة تعيين حالة المزامنة المخزنة."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-button"
@@ -5348,23 +5553,41 @@ msgstr "تمت إعادة تعيين حالة المزامنة بنجاح."
 
 #, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:googledrive"
-msgid "You have successfully logged into GoogleDrive. You can close this tab and return to ImageMeter now."
-msgstr "لقد قمت بتسجيل الدخول بنجاح إلى GoogleDrive. يمكنك إغلاق علامة التبويب هذه والعودة إلى ImageMeter الآن."
+msgid ""
+"You have successfully logged into GoogleDrive. You can close this tab and "
+"return to ImageMeter now."
+msgstr ""
+"لقد قمت بتسجيل الدخول بنجاح إلى GoogleDrive. يمكنك إغلاق علامة التبويب هذه "
+"والعودة إلى ImageMeter الآن."
 
 #, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:onedrive"
-msgid "You have successfully logged into OneDrive. You can close this tab and return to ImageMeter now."
-msgstr "لقد قمت بتسجيل الدخول بنجاح إلى OneDrive. يمكنك إغلاق علامة التبويب هذه والعودة إلى ImageMeter الآن."
+msgid ""
+"You have successfully logged into OneDrive. You can close this tab and return "
+"to ImageMeter now."
+msgstr ""
+"لقد قمت بتسجيل الدخول بنجاح إلى OneDrive. يمكنك إغلاق علامة التبويب هذه "
+"والعودة إلى ImageMeter الآن."
 
 #, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:dropbox"
-msgid "You have successfully logged into Dropbox. You can close this tab and return to ImageMeter now."
-msgstr "لقد قمت بتسجيل الدخول بنجاح إلى Dropbox. يمكنك إغلاق علامة التبويب هذه والعودة إلى ImageMeter الآن."
+msgid ""
+"You have successfully logged into Dropbox. You can close this tab and return "
+"to ImageMeter now."
+msgstr ""
+"لقد قمت بتسجيل الدخول بنجاح إلى Dropbox. يمكنك إغلاق علامة التبويب هذه والعودة "
+"إلى ImageMeter الآن."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:image-upload:reset-sync-state-description"
-msgid "<b>Reset sync state</b> - The next sync will upload all images again. This may be useful is you deleted the images on the server and want to upload them again."
-msgstr "<b>إعادة تعيين حالة المزامنة</b> - ستقوم المزامنة التالية بتحميل جميع الصور مرة أخرى. قد يكون هذا مفيدًا إذا قمت بحذف الصور الموجودة على الخادم وتريد تحميلها مرة أخرى."
+msgid ""
+"<b>Reset sync state</b> - The next sync will upload all images again. This may "
+"be useful is you deleted the images on the server and want to upload them "
+"again."
+msgstr ""
+"<b>إعادة تعيين حالة المزامنة</b> - ستقوم المزامنة التالية بتحميل جميع الصور "
+"مرة أخرى. قد يكون هذا مفيدًا إذا قمت بحذف الصور الموجودة على الخادم وتريد "
+"تحميلها مرة أخرى."
 
 #, fuzzy
 msgctxt "license:source:android-in-app"
@@ -5398,8 +5621,16 @@ msgstr "إعادة تعيين ترخيص الجهاز"
 
 #, fuzzy
 msgctxt "licensing:revoke-device:dialog:description"
-msgid "License cannot be activated for this device because the license is already used by the maximum number of devices.\nHowever, you may still revoke the license of another device.\nWhich device license do you want to replace with this device?"
-msgstr "لا يمكن تنشيط الترخيص لهذا الجهاز لأن الترخيص مستخدم بالفعل بواسطة الحد الأقصى لعدد الأجهزة.\nومع ذلك، لا يزال بإمكانك إلغاء ترخيص جهاز آخر.\nما هو ترخيص الجهاز الذي تريد استبداله بهذا الجهاز؟"
+msgid ""
+"License cannot be activated for this device because the license is already "
+"used by the maximum number of devices.\n"
+"However, you may still revoke the license of another device.\n"
+"Which device license do you want to replace with this device?"
+msgstr ""
+"لا يمكن تنشيط الترخيص لهذا الجهاز لأن الترخيص مستخدم بالفعل بواسطة الحد الأقصى "
+"لعدد الأجهزة.\n"
+"ومع ذلك، لا يزال بإمكانك إلغاء ترخيص جهاز آخر.\n"
+"ما هو ترخيص الجهاز الذي تريد استبداله بهذا الجهاز؟"
 
 #, fuzzy
 msgctxt "licensing:revoke-device:dialog:device-entry"
@@ -5423,8 +5654,15 @@ msgstr "هل ترغب حقًا في إلغاء ترخيص هذا الجهاز؟"
 
 #, fuzzy
 msgctxt "licensing:revoke-device:revoke-counter-info-message"
-msgid "Do you really want to revoke the license of this device?\nYou can only do this {max_revokes} times in {period_days} days.\nYou can still use {num_revokes} revokes during the current time period."
-msgstr "هل تريد حقًا إلغاء ترخيص هذا الجهاز؟\nيمكنك إجراء هذا {max_revoces} مرة فقط خلال {period_days} من الأيام.\nلا يزال بإمكانك استخدام {num_revoces} من عمليات الإلغاء خلال الفترة الزمنية الحالية."
+msgid ""
+"Do you really want to revoke the license of this device?\n"
+"You can only do this {max_revokes} times in {period_days} days.\n"
+"You can still use {num_revokes} revokes during the current time period."
+msgstr ""
+"هل تريد حقًا إلغاء ترخيص هذا الجهاز؟\n"
+"يمكنك إجراء هذا {max_revoces} مرة فقط خلال {period_days} من الأيام.\n"
+"لا يزال بإمكانك استخدام {num_revoces} من عمليات الإلغاء خلال الفترة الزمنية "
+"الحالية."
 
 #, fuzzy
 msgctxt "licensing:revoke-device:success-message:title"
@@ -5433,8 +5671,12 @@ msgstr "إبطال ترخيص الجهاز"
 
 #, fuzzy
 msgctxt "licensing:revoke-device:success-message"
-msgid "This device has been successfully revoked from the license. You may now use the license on another device."
-msgstr "لقد تم إلغاء هذا الجهاز بنجاح من الترخيص. يمكنك الآن استخدام الترخيص على جهاز آخر."
+msgid ""
+"This device has been successfully revoked from the license. You may now use "
+"the license on another device."
+msgstr ""
+"لقد تم إلغاء هذا الجهاز بنجاح من الترخيص. يمكنك الآن استخدام الترخيص على جهاز "
+"آخر."
 
 #, fuzzy
 msgctxt "licensing:key-entry-dialog:title"
@@ -5678,8 +5920,32 @@ msgstr "ثلاثة ايام"
 
 #, fuzzy
 msgctxt "stringscript:help:introtext"
-msgid "Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n\nHere are some example variables, but see below for the list of variables that are actually allowed here:\n{image.title} - image title\n{image.number} - the number you assigned to the image\n{folder.title} - title of the current folder\n{folder.parent.title} - title of the parent folder\n\nYou can build complex expressions like this:\n{folder.title} / {image.number} - {image.title}"
-msgstr "أدخل النص الذي يجب أن يظهر هنا. يمكنك إضافة متغيرات محاطة بـ { } والتي سيتم استبدالها.\n\nفيما يلي بعض الأمثلة على المتغيرات، ولكن انظر أدناه للحصول على قائمة المتغيرات المسموح بها فعليًا هنا:\n{image.title} - عنوان الصورة\n{image.number} - الرقم الذي قمت بتعيينه للصورة\n{folder.title} - عنوان المجلد الحالي\n{folder.parent.title} - عنوان المجلد الأصلي\n\nيمكنك بناء تعبيرات معقدة مثل هذا:\n{folder.title} / {image.number} - {image.title}"
+msgid ""
+"Enter the text that should appear here. You can add variables enclosed by { } "
+"that will be substituted.\n"
+"\n"
+"Here are some example variables, but see below for the list of variables that "
+"are actually allowed here:\n"
+"{image.title} - image title\n"
+"{image.number} - the number you assigned to the image\n"
+"{folder.title} - title of the current folder\n"
+"{folder.parent.title} - title of the parent folder\n"
+"\n"
+"You can build complex expressions like this:\n"
+"{folder.title} / {image.number} - {image.title}"
+msgstr ""
+"أدخل النص الذي يجب أن يظهر هنا. يمكنك إضافة متغيرات محاطة بـ { } والتي سيتم "
+"استبدالها.\n"
+"\n"
+"فيما يلي بعض الأمثلة على المتغيرات، ولكن انظر أدناه للحصول على قائمة المتغيرات "
+"المسموح بها فعليًا هنا:\n"
+"{image.title} - عنوان الصورة\n"
+"{image.number} - الرقم الذي قمت بتعيينه للصورة\n"
+"{folder.title} - عنوان المجلد الحالي\n"
+"{folder.parent.title} - عنوان المجلد الأصلي\n"
+"\n"
+"يمكنك بناء تعبيرات معقدة مثل هذا:\n"
+"{folder.title} / {image.number} - {image.title}"
 
 #, fuzzy
 msgctxt "stringscript:help:intro_toplevel_variables"
@@ -5688,8 +5954,11 @@ msgstr "متغيرات المستوى الأعلى المسموح بها:"
 
 #, fuzzy
 msgctxt "stringscript:help:intro_subelements"
-msgid "Each type may have sub-elements. Here is the list of sub-elements for each data type:"
-msgstr "قد يحتوي كل نوع على عناصر فرعية. فيما يلي قائمة العناصر الفرعية لكل نوع بيانات:"
+msgid ""
+"Each type may have sub-elements. Here is the list of sub-elements for each "
+"data type:"
+msgstr ""
+"قد يحتوي كل نوع على عناصر فرعية. فيما يلي قائمة العناصر الفرعية لكل نوع بيانات:"
 
 #, fuzzy
 msgctxt "stringscript:root:member:image"
@@ -6091,3 +6360,22 @@ msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr "كيان غير قابل للحذف"
 
+msgctxt "android:permission-request:post-notifications:rationale"
+msgid ""
+"<h2>Notification Permission Request</h2>\n"
+"    <p>\n"
+"      ImageMeter will ask you for the permission to show notifications.\n"
+"      These will be used to show the:\n"
+"    </p>\n"
+"    <ul>\n"
+"      <li>progress of the background cloud sync and let you cancel it,</li>\n"
+"      <li>status of the Bluetooth connection to lasers,</li>\n"
+"      <li>progress of long export or import operations that run in the "
+"background,</li>\n"
+"      <li>background processing errors.</li>\n"
+"    </ul>\n"
+"    <p>\n"
+"      You can disable any of the notification channels independently in the "
+"Android app settings.\n"
+"    </p>"
+msgstr ""
