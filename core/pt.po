@@ -5607,14 +5607,17 @@ msgctxt "licensing:revoke-device:success-message:title"
 msgid "Device license revokation"
 msgstr "Revogação da licença do dispositivo"
 
-#, fuzzy
-msgctxt "licensing:revoke-device:success-message"
+msgctxt "licensing:revoke-device:success-message:other-device"
 msgid ""
-"This device has been successfully revoked from the license. You may now use "
-"the license on another device."
+"The license has been removed from this device. You may now use the license "
+"on another device."
 msgstr ""
-"A licença deste dispositivo foi revogada com sucesso. Agora você pode usar a "
-"licença em outro dispositivo."
+
+msgctxt "licensing:revoke-device:success-message:this-device"
+msgid ""
+"The license has been removed from that device. You may now use the license "
+"on this device."
+msgstr ""
 
 #, fuzzy
 msgctxt "licensing:key-entry-dialog:title"
@@ -5879,6 +5882,14 @@ msgctxt "license:info:billing-period:undefined"
 msgid "custom"
 msgstr ""
 
+msgctxt "license:info:num-assigned-licenses"
+msgid "Assigned licenses:"
+msgstr ""
+
+msgctxt "license:info:num-assigned-licenses:num-of-total"
+msgid "{num} of {total}"
+msgstr ""
+
 msgctxt "license-dialog:title"
 msgid "License"
 msgstr ""
@@ -5905,6 +5916,18 @@ msgstr ""
 
 msgctxt "license-dialog:revoke-license"
 msgid "Revoke"
+msgstr ""
+
+msgctxt "license:check-key-server-response:window-title"
+msgid "Licence activation"
+msgstr ""
+
+msgctxt "license:check-key-server-response:license-has-been-activated"
+msgid "License has been successfully activated on this device."
+msgstr ""
+
+msgctxt "license:check-key-server-response:error:invalid-key-entered"
+msgid "Invalid key, please check for typing mistakes."
 msgstr ""
 
 #, fuzzy
@@ -6441,6 +6464,15 @@ msgstr ""
 "      Você pode desativar qualquer um dos canais de notificação de forma "
 "independente nas configurações do aplicativo Android.\n"
 "    </p>"
+
+#, fuzzy
+#~ msgctxt "licensing:revoke-device:success-message"
+#~ msgid ""
+#~ "This device has been successfully revoked from the license. You may now "
+#~ "use the license on another device."
+#~ msgstr ""
+#~ "A licença deste dispositivo foi revogada com sucesso. Agora você pode "
+#~ "usar a licença em outro dispositivo."
 
 #, fuzzy
 #~ msgctxt "editor:styling:color:automatic"
