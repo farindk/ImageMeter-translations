@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2022-07-06 11:26+0200\n"
+"PO-Revision-Date: 2024-05-11 19:13+0200\n"
 "Last-Translator: \n"
 "Language-Team: fr <LL@li.org>\n"
 "Language: fr\n"
@@ -2170,25 +2170,30 @@ msgctxt "export:pdf:print-density:dpi-formatstring"
 msgid "{} dpi"
 msgstr "{} ppp"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style"
 msgid "Page numbers"
-msgstr ""
+msgstr "Numéros de page"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:none"
 msgid "None"
-msgstr ""
+msgstr "Aucun"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:continuous"
 msgid "Continuous decimal"
-msgstr ""
+msgstr "Décimale continue"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:roman-frontmatter"
 msgid "Roman front matter"
-msgstr ""
+msgstr "Chiffres romains au préliminaires"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:no-frontmatter"
 msgid "No front matter"
-msgstr ""
+msgstr "Pas de préliminaires"
 
 #
 msgctxt "export:csv:field-separator"
@@ -2798,6 +2803,18 @@ msgctxt "editor:styling:flatref:label-position:alternating-last-below"
 msgid "Alternating, last one below"
 msgstr "Le dernier en dessous en alternant"
 
+msgctxt "editor:styling:flatref:show-border"
+msgid "Show border"
+msgstr "Afficher la bordure"
+
+msgctxt "editor:styling:flatref:main-color"
+msgid "Main color"
+msgstr "Couleur principale"
+
+msgctxt "editor:styling:flatref:secondary-color"
+msgid "Secondary color"
+msgstr "Couleur secondaire"
+
 msgctxt "editor:styling:measurement-point:show-label"
 msgid "Show text"
 msgstr "Afficher le texte"
@@ -2957,6 +2974,7 @@ msgctxt "editor:styling:textbox:show-arrows"
 msgid "Show arrows"
 msgstr "Afficher la flèche"
 
+#, fuzzy
 msgctxt "editor:styling:textbox:show-box-border"
 msgid "Show box border"
 msgstr "Afficher la bordure"
@@ -2964,6 +2982,11 @@ msgstr "Afficher la bordure"
 msgctxt "editor:styling:textbox:box-background-color"
 msgid "Background color"
 msgstr "Couleur de l'arrière plan"
+
+#, fuzzy
+msgctxt "editor:styling:textbox:box-background-opacity"
+msgid "Background opacity"
+msgstr "Opacité de l'arrière-plan"
 
 #
 msgctxt "editor:textbox:action:add-arrow"
@@ -5631,137 +5654,180 @@ msgctxt "license:feature-requires-higher-license"
 msgid "This function is included in the '{}' license."
 msgstr "Cette fonction est incluse dans la licence '{}'."
 
+#, fuzzy
 msgctxt "license:info:license"
 msgid "License:"
-msgstr ""
+msgstr "Licence:"
 
+#, fuzzy
 msgctxt "license:info:purchase-type"
 msgid "Purchase type:"
-msgstr ""
+msgstr "Type d'achat:"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:one-time-purchase"
 msgid "one-time purchase"
-msgstr ""
+msgstr "achat ponctuel"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:subscription"
 msgid "subscription"
-msgstr ""
+msgstr "abonnement"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:manual"
 msgid "manual activation"
-msgstr ""
+msgstr "activation manuelle"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:trial"
 msgid "trial"
-msgstr ""
+msgstr "essai"
 
+#, fuzzy
 msgctxt "license:info:status"
 msgid "Status:"
-msgstr ""
+msgstr "Statut:"
 
+#, fuzzy
 msgctxt "license:info:status:active"
 msgid "active"
-msgstr ""
+msgstr "actif"
 
+#, fuzzy
 msgctxt "license:info:status:trial-expired"
 msgid "trial has expired"
-msgstr ""
+msgstr "l'essai a expiré"
 
+#, fuzzy
 msgctxt "license:info:status:product-expired"
 msgid "license has expired"
-msgstr ""
+msgstr "la licence a expiré"
 
+#, fuzzy
 msgctxt "license:info:status:incompatible"
 msgid "software version is incompatible"
-msgstr ""
+msgstr "la version du logiciel est incompatible"
 
+#, fuzzy
 msgctxt "license:info:status:deactivated"
 msgid "product was deactivated"
-msgstr ""
+msgstr "le produit a été désactivé"
 
+#, fuzzy
 msgctxt "license:info:purchase-date"
 msgid "Purchase date:"
-msgstr ""
+msgstr "Date d'achat:"
 
+#, fuzzy
 msgctxt "license:info:trial-activation-date"
 msgid "Activation date:"
-msgstr ""
+msgstr "Date d'activation:"
 
+#, fuzzy
 msgctxt "license:info:expiration-date"
 msgid "Expiration date:"
-msgstr ""
+msgstr "Date d'expiration:"
 
+#, fuzzy
 msgctxt "license:info:next-billing-date"
 msgid "Next billing date:"
-msgstr ""
+msgstr "Date de facturation suivante:"
 
+#, fuzzy
 msgctxt "license:info:billing-period"
 msgid "Billing period:"
-msgstr ""
+msgstr "Période de facturation:"
 
+#, fuzzy
 msgctxt "license:info:billing-period:monthly"
 msgid "monthly"
-msgstr ""
+msgstr "mensuel"
 
+#, fuzzy
 msgctxt "license:info:billing-period:annual"
 msgid "annual"
-msgstr ""
+msgstr "annuel"
 
+#, fuzzy
 msgctxt "license:info:billing-period:undefined"
 msgid "custom"
-msgstr ""
+msgstr "personnalisé"
 
+#, fuzzy
 msgctxt "license:info:num-assigned-licenses"
 msgid "Assigned licenses:"
-msgstr ""
+msgstr "Licences attribuées:"
 
+#, fuzzy
 msgctxt "license:info:num-assigned-licenses:num-of-total"
 msgid "{num} of {total}"
-msgstr ""
+msgstr "{num} sur {total}"
 
+#, fuzzy
 msgctxt "license:info:last-compatible-version"
 msgid "Last compatible version:"
-msgstr ""
+msgstr "Dernière version compatible:"
 
+#, fuzzy
+msgctxt "license:info:license-user"
+msgid "User name:"
+msgstr "Nom:"
+
+#, fuzzy
+msgctxt "license:info:license-email"
+msgid "User email:"
+msgstr "E-mail:"
+
+#, fuzzy
 msgctxt "license-dialog:title"
 msgid "License"
-msgstr ""
+msgstr "Licence"
 
+#, fuzzy
 msgctxt "license-dialog:enter-key"
 msgid "Enter key:"
-msgstr ""
+msgstr "Entrer la clé:"
 
+#, fuzzy
 msgctxt "license-dialog:send-key"
 msgid "Send"
-msgstr ""
+msgstr "Envoyer"
 
+#, fuzzy
 msgctxt "license-dialog:start-trial"
 msgid "Start free trial"
-msgstr ""
+msgstr "Démarrer l'essai gratuit"
 
+#, fuzzy
 msgctxt "license-dialog:error"
 msgid "Error:"
-msgstr ""
+msgstr "Erreur:"
 
+#, fuzzy
 msgctxt "license-dialog:active-license"
 msgid "Active license"
-msgstr ""
+msgstr "Licence active"
 
+#, fuzzy
 msgctxt "license-dialog:revoke-license"
 msgid "Revoke"
-msgstr ""
+msgstr "Révoquer"
 
+#, fuzzy
 msgctxt "license:check-key-server-response:window-title"
 msgid "Licence activation"
-msgstr ""
+msgstr "Activation de la licence"
 
+#, fuzzy
 msgctxt "license:check-key-server-response:license-has-been-activated"
 msgid "License has been successfully activated on this device."
-msgstr ""
+msgstr "La licence a été activée avec succès sur cet appareil."
 
+#, fuzzy
 msgctxt "license:check-key-server-response:error:invalid-key-entered"
 msgid "Invalid key, please check for typing mistakes."
-msgstr ""
+msgstr "Clé invalide, veuillez vérifier les fautes de frappe."
 
 #
 msgctxt "entity-initialization:image-title:camera"
