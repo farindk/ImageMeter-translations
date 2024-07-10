@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2024-05-22 16:33+0200\n"
+"PO-Revision-Date: 2024-07-10 19:54+0200\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -405,6 +405,10 @@ msgctxt "error:Cloud_CannotLogin:cannot_access_base_folder"
 msgid "Cannot access data directory on cloud server."
 msgstr "Fehler beim Zugriff auf das Datenverzeichnis des Cloudserver."
 
+msgctxt "error:Cloud_CannotLogin:backend_not_initialized"
+msgid "Backend not initialized."
+msgstr "Servermodul nicht initialisiert."
+
 msgctxt "error:Cloud_SyncError"
 msgid "Cannot sync with server."
 msgstr "Kann nicht mit dem Server synchronisieren."
@@ -539,6 +543,18 @@ msgstr "Konnte die Servercache-Datei '{}' nicht entfernen."
 msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
 msgstr "Konnte den Sync-State nicht zurücksetzen."
+
+msgctxt "error:Cloud_CannotFindUniqueName"
+msgid "Cannot find unique name for '{}'"
+msgstr "Kann keinen eindeutigen Namen für '{}' finden."
+
+msgctxt "error:Cloud_BackendInitializationFailed"
+msgid "Cloud backend initialization failed: '{}'"
+msgstr "Initialisierung des Cloud-Moduls fehlgeschlagen: '{}'"
+
+msgctxt "error:Cloud_CannotLoadUnsupportedBackend"
+msgid "Cannot load unsupported backend '{}'"
+msgstr "Kann das nicht unterstützte Backend '{}' nicht laden"
 
 msgctxt "error:CloudBackend_OneDrive_DirectoryNotSet"
 msgid "OneDrive server data directory is not set"
@@ -835,6 +851,62 @@ msgctxt "error:Daheng_Camera:unknown"
 msgid "Unknown error"
 msgstr "Unbekannter Fehler"
 
+msgctxt "error:LibSSH2_NoText"
+msgid "LibSSH2 error code: {0}"
+msgstr "LibSSH2 Fehler: {0}"
+
+msgctxt "error:LibSSH2_WithText"
+msgid "LibSSH2 error {0}: '{1}'"
+msgstr "LibSSH2 Fehler {0}: '{1}'"
+
+msgctxt "error:LibSSH2_SFTP_WithText"
+msgid "LibSSH2 error {0}: '{1}', SFTP error {2}"
+msgstr "LibSSH2 Fehler {0}: '{1}', SFTP Fehler {2}"
+
+msgctxt "error:LibSSH2_SFTP_FileDoesNotExist"
+msgid "SFTP error: file '{0}' does not exist"
+msgstr "SFTP Fehler: Datei '{0}' existiert nicht"
+
+msgctxt "error:LibSSH2_SFTP_PermissionDenied"
+msgid "SFTP error: permission denied to access '{0}'"
+msgstr "SFTP Fehler: Zugriff auf '{0}' verweigert."
+
+msgctxt "error:getaddrinfo"
+msgid "Cannot get internet address. Error {0}: {1}"
+msgstr "Kann die Internetadresse nicht auflösen. Fehler {0}: {1}"
+
+msgctxt "error:Network_CouldNotGetIPV4_Address"
+msgid "Could not get an IPV4 network address"
+msgstr "Kann keine IPV4 Netzwerkadresse bekommen."
+
+msgctxt "error:Network_CouldNotCreateSocket"
+msgid "Could not create socket"
+msgstr "Kann keinen Netzwerksocket erstellen."
+
+msgctxt "error:Network_CouldNotConnectSocket"
+msgid "Could not connect socket"
+msgstr "Kann Verbindung zu Netzwerksocket nicht herstellen."
+
+msgctxt "error:SFTP_ServerDoesNotAcceptPasswordAuthentication"
+msgid "SFTP server does not accept password authentication method."
+msgstr "SFTP Server akzeptiert keine Passwort-Authentifizierungsmethode."
+
+msgctxt "error:SFTP_PasswordAuthenticationFailed"
+msgid "Invalid password"
+msgstr "Ungültiges Passwort."
+
+msgctxt "error:LibSSH2_SFTP_InitFailed"
+msgid "SFTP protocol initialization failed"
+msgstr "SFTP Protokoll-Initialisierung fehlgeschlagen."
+
+msgctxt "error:LibSSH2_SFTP_CannotOpenDir"
+msgid "Cannot open SFTP directory '{0}'"
+msgstr "Kann das SFTP-Verzeichnis '{0}' nicht öffnen."
+
+msgctxt "error:LibSSH2_SFTP_CannotReadDir"
+msgid "Cannot read SFTP directory '{0}'"
+msgstr "Kann das SFTP-Verzeichnis '{0}' nicht lesen."
+
 msgctxt "unit:translated-name:meter"
 msgid "m"
 msgstr "m"
@@ -1027,6 +1099,10 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "Britische Maße als ft/in zeigen"
 
+msgctxt "dimformat:options-ui:imperial-uses-text-units(pc)"
+msgid "Textual units"
+msgstr "Texteinheiten"
+
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
 msgid "Add dot after ambiguous numbers"
 msgstr "Hinter mehrdeutigen Zahlen einen Punkt setzen"
@@ -1083,9 +1159,49 @@ msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "Kürzen (4/8 wird zu 1/2)"
 
+msgctxt "dimformat:options-ui:space-between-value-and-unit"
+msgid "Space between value and unit"
+msgstr "Leerzeichen zwischen Wert und Einheit"
+
+msgctxt "dimformat:options-ui:comma-as-decimal-dot"
+msgid "Use comma as decimal dot"
+msgstr "Komma als Dezimalpunkt benutzen."
+
+msgctxt "dimformat:options-ui:imperial-feet-and-inches"
+msgid "Feet and inches"
+msgstr "Fuß und Zoll"
+
 msgctxt "dimformat:options-ui:decimal-digits(short)"
 msgid "Decimal digits"
 msgstr "Dezimalstellen"
+
+msgctxt "dimformat:options-ui:format:decimal"
+msgid "Decimal (1.00 m)"
+msgstr "Dezimal (1.00 m)"
+
+msgctxt "dimformat:options-ui:format:imperial"
+msgid "Imperial (1' 5 3/32\")"
+msgstr "Imperial (1' 5 3/32\")"
+
+msgctxt "dimformat:options-ui:example"
+msgid "Example:"
+msgstr "Beispiel:"
+
+msgctxt "dimformat:options-ui:format-group:length"
+msgid "Length format"
+msgstr "Längenformat"
+
+msgctxt "dimformat:options-ui:format-group:area"
+msgid "Area format"
+msgstr "Flächenformat"
+
+msgctxt "dimformat:options-ui:format-group:angle"
+msgid "Angle format"
+msgstr "Winkelformat"
+
+msgctxt "dimformat:options-ui:format-group:common-options"
+msgid "Decimal values options"
+msgstr "Dezimalwert-Darstellung"
 
 msgctxt "month-names-short-1"
 msgid "Jan"
@@ -1230,6 +1346,34 @@ msgstr "Rechtsbündig"
 msgctxt "text-h-alignment:block"
 msgid "Block"
 msgstr "Blocksatz"
+
+msgctxt "virtual-keyboard:special-key:none"
+msgid "None"
+msgstr "Keine"
+
+msgctxt "virtual-keyboard:special-key:return"
+msgid "Return"
+msgstr "Return"
+
+msgctxt "virtual-keyboard:special-key:tab"
+msgid "Tab"
+msgstr "Tab"
+
+msgctxt "virtual-keyboard:special-key:cursor-down"
+msgid "Cursor down"
+msgstr "Cursor nach unten"
+
+msgctxt "virtual-keyboard:special-key:cursor-up"
+msgid "Cursor up"
+msgstr "Cursor nach oben"
+
+msgctxt "virtual-keyboard:special-key:cursor-left"
+msgid "Cursor left"
+msgstr "Cursor nach links"
+
+msgctxt "virtual-keyboard:special-key:cursor-right"
+msgid "Cursor right"
+msgstr "Cursor nach rechts"
 
 msgctxt "character:comma"
 msgid "Comma"
@@ -1635,6 +1779,18 @@ msgctxt "export:specific-format:invalid-filename-suffix"
 msgid "You cannot change the file type (must have {} suffix)"
 msgstr "Sie können den Dateityp nicht ändern, es muß ein '{}' Suffix sein."
 
+msgctxt "export:save-original-images:some-nonphotos:title"
+msgid "Saving original images"
+msgstr "Speichern der Originalbilder"
+
+msgctxt "export:save-original-images:some-nonphotos:description"
+msgid ""
+"Some of the images you have saved were no photos. No original photo has been "
+"saved for those images."
+msgstr ""
+"Einige der Bilder, die Sie gespeichert haben, waren keine Fotos. Für diese "
+"Bilder wurden keine Originalfotos gespeichert."
+
 msgctxt "image-export:size:group-title"
 msgid "Image size"
 msgstr "Bildgröße"
@@ -1899,6 +2055,10 @@ msgstr "Inhaltsverzeichnis drucken"
 msgctxt "export:pdf:image-title"
 msgid "Image title"
 msgstr "Bildtitel"
+
+msgctxt "export:pdf:image-title:hint"
+msgid "for example: {image.title}"
+msgstr "Zum Beispiel: {image.title}"
 
 msgctxt "export:pdf:section:data-table"
 msgid "Data Table"
@@ -3330,6 +3490,10 @@ msgctxt "prefs:bluetooth:clipboard:when-not-in-editor"
 msgid "When editor is closed"
 msgstr "Wenn Editor geschlossen ist"
 
+msgctxt "prefs:bluetooth:clipboard:when-minimized"
+msgid "When window is minimized"
+msgstr "Wenn das Fenster minimiert ist"
+
 msgctxt "prefs:bluetooth:clipboard:always"
 msgid "Always"
 msgstr "Immer"
@@ -3341,6 +3505,18 @@ msgstr "Wert mit Maßeinheit kopieren"
 msgctxt "prefs:bluetooth:clipboard:with-decimal-dot"
 msgid "Use decimal dot"
 msgstr "Dezimalpunkt verwenden"
+
+msgctxt "prefs:bluetooth:clipboard:copy-to-clipboard(pc)"
+msgid "Copy Bluetooth measurement to clipboard"
+msgstr "Bluetooth-Messung in die Zwischenablage kopieren"
+
+msgctxt "prefs:bluetooth:clipboard:enter-as-keyboard"
+msgid "Enter measurement as keyboard input"
+msgstr "Tastatureingabe von der Messung generieren"
+
+msgctxt "prefs:bluetooth:clipboard:keyboard-suffix-key"
+msgid "Key to press after measurement"
+msgstr "Taste, welche nach der Messung gedrückt werden soll"
 
 msgctxt "prefs:template:add:general-description"
 msgid ""
@@ -4572,6 +4748,18 @@ msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
 msgstr "WebDAV Verzeichnis '{0}'"
 
+msgctxt "sync:task:backend-options:descr:sftp"
+msgid "SFTP URL '{0}'"
+msgstr "SFTP URL '{0}'"
+
+msgctxt "sync:server-type:none"
+msgid "None"
+msgstr "Keins"
+
+msgctxt "sync:server-type:filesystem"
+msgid "Filesystem"
+msgstr "Dateisystem"
+
 msgctxt "sync:default-server-directory:two-way"
 msgid "ImageMeter"
 msgstr "ImageMeter"
@@ -4928,11 +5116,11 @@ msgstr "Kostenlose Testversion"
 
 msgctxt "license:name:android-advanced-annotation"
 msgid "Advanced-Annotation AddOn"
-msgstr ""
+msgstr "Advanced-Annotation AddOn"
 
 msgctxt "license:name:android-advanced-annotation-with-pro"
 msgid "Advanced-Annotation AddOn (with Pro)"
-msgstr ""
+msgstr "Advanced-Annotation AddOn (mit Pro)"
 
 msgctxt "license:feature-requires-higher-license"
 msgid "This function is included in the '{}' license."
@@ -5530,6 +5718,10 @@ msgstr ""
 "      Die Benachrichtigungskanäle können unabhängig in den Android-"
 "Einstellungen deaktiviert werden.\n"
 "    </p>"
+
+#~ msgctxt "error:Cloud_CannotFindUniqueName"
+#~ msgid "Cannot find unique name for '{}'}"
+#~ msgstr "Kann keinen eindeutigen Namen für '{}' finden."
 
 #~ msgctxt "license:info:license-has-been-activated"
 #~ msgid "License has been successfully activated on this device."

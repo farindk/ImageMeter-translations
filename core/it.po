@@ -487,6 +487,10 @@ msgctxt "error:Cloud_CannotLogin:cannot_access_base_folder"
 msgid "Cannot access data directory on cloud server."
 msgstr "Impossibile accedere alla directory dei dati sul server cloud."
 
+msgctxt "error:Cloud_CannotLogin:backend_not_initialized"
+msgid "Backend not initialized."
+msgstr ""
+
 #, fuzzy
 msgctxt "error:Cloud_SyncError"
 msgid "Cannot sync with server."
@@ -652,6 +656,18 @@ msgstr "Impossibile rimuovere il file della cache del server '{}'."
 msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
 msgstr "Impossibile ripristinare lo stato di sincronizzazione."
+
+msgctxt "error:Cloud_CannotFindUniqueName"
+msgid "Cannot find unique name for '{}'"
+msgstr ""
+
+msgctxt "error:Cloud_BackendInitializationFailed"
+msgid "Cloud backend initialization failed: '{}'"
+msgstr ""
+
+msgctxt "error:Cloud_CannotLoadUnsupportedBackend"
+msgid "Cannot load unsupported backend '{}'"
+msgstr ""
 
 #, fuzzy
 msgctxt "error:CloudBackend_OneDrive_DirectoryNotSet"
@@ -1020,6 +1036,62 @@ msgctxt "error:Daheng_Camera:unknown"
 msgid "Unknown error"
 msgstr "Errore sconosciuto"
 
+msgctxt "error:LibSSH2_NoText"
+msgid "LibSSH2 error code: {0}"
+msgstr ""
+
+msgctxt "error:LibSSH2_WithText"
+msgid "LibSSH2 error {0}: '{1}'"
+msgstr ""
+
+msgctxt "error:LibSSH2_SFTP_WithText"
+msgid "LibSSH2 error {0}: '{1}', SFTP error {2}"
+msgstr ""
+
+msgctxt "error:LibSSH2_SFTP_FileDoesNotExist"
+msgid "SFTP error: file '{0}' does not exist"
+msgstr ""
+
+msgctxt "error:LibSSH2_SFTP_PermissionDenied"
+msgid "SFTP error: permission denied to access '{0}'"
+msgstr ""
+
+msgctxt "error:getaddrinfo"
+msgid "Cannot get internet address. Error {0}: {1}"
+msgstr ""
+
+msgctxt "error:Network_CouldNotGetIPV4_Address"
+msgid "Could not get an IPV4 network address"
+msgstr ""
+
+msgctxt "error:Network_CouldNotCreateSocket"
+msgid "Could not create socket"
+msgstr ""
+
+msgctxt "error:Network_CouldNotConnectSocket"
+msgid "Could not connect socket"
+msgstr ""
+
+msgctxt "error:SFTP_ServerDoesNotAcceptPasswordAuthentication"
+msgid "SFTP server does not accept password authentication method."
+msgstr ""
+
+msgctxt "error:SFTP_PasswordAuthenticationFailed"
+msgid "Invalid password"
+msgstr ""
+
+msgctxt "error:LibSSH2_SFTP_InitFailed"
+msgid "SFTP protocol initialization failed"
+msgstr ""
+
+msgctxt "error:LibSSH2_SFTP_CannotOpenDir"
+msgid "Cannot open SFTP directory '{0}'"
+msgstr ""
+
+msgctxt "error:LibSSH2_SFTP_CannotReadDir"
+msgid "Cannot read SFTP directory '{0}'"
+msgstr ""
+
 msgctxt "unit:translated-name:meter"
 msgid "m"
 msgstr "m"
@@ -1231,6 +1303,10 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "Unità imperiali saranno mostrate come ft/in"
 
+msgctxt "dimformat:options-ui:imperial-uses-text-units(pc)"
+msgid "Textual units"
+msgstr ""
+
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
 msgid "Add dot after ambiguous numbers"
@@ -1293,9 +1369,49 @@ msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "Le frazioni saranno ridotte (4/8 diventa 1/2)"
 
+msgctxt "dimformat:options-ui:space-between-value-and-unit"
+msgid "Space between value and unit"
+msgstr ""
+
+msgctxt "dimformat:options-ui:comma-as-decimal-dot"
+msgid "Use comma as decimal dot"
+msgstr ""
+
+msgctxt "dimformat:options-ui:imperial-feet-and-inches"
+msgid "Feet and inches"
+msgstr ""
+
 msgctxt "dimformat:options-ui:decimal-digits(short)"
 msgid "Decimal digits"
 msgstr "Cifre decimali"
+
+msgctxt "dimformat:options-ui:format:decimal"
+msgid "Decimal (1.00 m)"
+msgstr ""
+
+msgctxt "dimformat:options-ui:format:imperial"
+msgid "Imperial (1' 5 3/32\")"
+msgstr ""
+
+msgctxt "dimformat:options-ui:example"
+msgid "Example:"
+msgstr ""
+
+msgctxt "dimformat:options-ui:format-group:length"
+msgid "Length format"
+msgstr ""
+
+msgctxt "dimformat:options-ui:format-group:area"
+msgid "Area format"
+msgstr ""
+
+msgctxt "dimformat:options-ui:format-group:angle"
+msgid "Angle format"
+msgstr ""
+
+msgctxt "dimformat:options-ui:format-group:common-options"
+msgid "Decimal values options"
+msgstr ""
 
 msgctxt "month-names-short-1"
 msgid "Jan"
@@ -1444,6 +1560,34 @@ msgstr "Destra"
 msgctxt "text-h-alignment:block"
 msgid "Block"
 msgstr "Bloccare"
+
+msgctxt "virtual-keyboard:special-key:none"
+msgid "None"
+msgstr ""
+
+msgctxt "virtual-keyboard:special-key:return"
+msgid "Return"
+msgstr ""
+
+msgctxt "virtual-keyboard:special-key:tab"
+msgid "Tab"
+msgstr ""
+
+msgctxt "virtual-keyboard:special-key:cursor-down"
+msgid "Cursor down"
+msgstr ""
+
+msgctxt "virtual-keyboard:special-key:cursor-up"
+msgid "Cursor up"
+msgstr ""
+
+msgctxt "virtual-keyboard:special-key:cursor-left"
+msgid "Cursor left"
+msgstr ""
+
+msgctxt "virtual-keyboard:special-key:cursor-right"
+msgid "Cursor right"
+msgstr ""
 
 #, fuzzy
 msgctxt "character:comma"
@@ -1934,6 +2078,16 @@ msgctxt "export:specific-format:invalid-filename-suffix"
 msgid "You cannot change the file type (must have {} suffix)"
 msgstr "Non è possibile modificare il tipo di file (deve avere il suffisso {})"
 
+msgctxt "export:save-original-images:some-nonphotos:title"
+msgid "Saving original images"
+msgstr ""
+
+msgctxt "export:save-original-images:some-nonphotos:description"
+msgid ""
+"Some of the images you have saved were no photos. No original photo has been "
+"saved for those images."
+msgstr ""
+
 #, fuzzy
 msgctxt "image-export:size:group-title"
 msgid "Image size"
@@ -2235,6 +2389,10 @@ msgstr "Stampa il sommario"
 msgctxt "export:pdf:image-title"
 msgid "Image title"
 msgstr "Titolo dell'immagine"
+
+msgctxt "export:pdf:image-title:hint"
+msgid "for example: {image.title}"
+msgstr ""
 
 #, fuzzy
 msgctxt "export:pdf:section:data-table"
@@ -3877,6 +4035,10 @@ msgctxt "prefs:bluetooth:clipboard:when-not-in-editor"
 msgid "When editor is closed"
 msgstr ""
 
+msgctxt "prefs:bluetooth:clipboard:when-minimized"
+msgid "When window is minimized"
+msgstr ""
+
 msgctxt "prefs:bluetooth:clipboard:always"
 msgid "Always"
 msgstr ""
@@ -3887,6 +4049,18 @@ msgstr ""
 
 msgctxt "prefs:bluetooth:clipboard:with-decimal-dot"
 msgid "Use decimal dot"
+msgstr ""
+
+msgctxt "prefs:bluetooth:clipboard:copy-to-clipboard(pc)"
+msgid "Copy Bluetooth measurement to clipboard"
+msgstr ""
+
+msgctxt "prefs:bluetooth:clipboard:enter-as-keyboard"
+msgid "Enter measurement as keyboard input"
+msgstr ""
+
+msgctxt "prefs:bluetooth:clipboard:keyboard-suffix-key"
+msgid "Key to press after measurement"
 msgstr ""
 
 #, fuzzy
@@ -5387,6 +5561,18 @@ msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
 msgstr "URL WebDAV '{0}'"
 
+msgctxt "sync:task:backend-options:descr:sftp"
+msgid "SFTP URL '{0}'"
+msgstr ""
+
+msgctxt "sync:server-type:none"
+msgid "None"
+msgstr ""
+
+msgctxt "sync:server-type:filesystem"
+msgid "Filesystem"
+msgstr ""
+
 #, fuzzy
 msgctxt "sync:default-server-directory:two-way"
 msgid "ImageMeter"
@@ -5952,7 +6138,10 @@ msgid ""
 "If you don't have a license key yet, you can get a license from the "
 "ImageMeter web page: <a href=\"https://imagemeter.com/\">https://imagemeter."
 "com</a>."
-msgstr "Se non disponi ancora di una chiave di licenza, puoi ottenere una licenza dalla pagina web di ImageMeter: <a href=\"https://imagemeter.com/\">https://imagemeter.com</a>."
+msgstr ""
+"Se non disponi ancora di una chiave di licenza, puoi ottenere una licenza "
+"dalla pagina web di ImageMeter: <a href=\"https://imagemeter.com/\">https://"
+"imagemeter.com</a>."
 
 msgctxt "license:check-key-server-response:window-title"
 msgid "Licence activation"
