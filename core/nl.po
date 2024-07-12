@@ -62,13 +62,15 @@ msgctxt "error:CommaSeparatedList_EmptyString"
 msgid "Empty item in list."
 msgstr "Leeg item in lijst."
 
+#, fuzzy
 msgctxt "error:JsonParseError"
 msgid "JSON parse error"
-msgstr ""
+msgstr "JSON-parseerfout"
 
+#, fuzzy
 msgctxt "error:JsonParseError_Detail"
 msgid "JSON error: {}"
-msgstr ""
+msgstr "JSON-fout: {}"
 
 #, fuzzy
 msgctxt "error:Files_FileDoesNotExist"
@@ -322,12 +324,8 @@ msgstr "OpenGL-fout: \"{}\"."
 
 #, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
-msgid ""
-"Not enough memory to render at output resolution {}. Please reduce the "
-"output resolution."
-msgstr ""
-"Onvoldoende geheugen om te renderen met uitvoerresolutie {}. Verlaag de "
-"uitvoerresolutie."
+msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
+msgstr "Onvoldoende geheugen om te renderen met uitvoerresolutie {}. Verlaag de uitvoerresolutie."
 
 #, fuzzy
 msgctxt "error:CannotRenderImage"
@@ -489,9 +487,10 @@ msgctxt "error:Cloud_CannotLogin:cannot_access_base_folder"
 msgid "Cannot access data directory on cloud server."
 msgstr "Geen toegang tot gegevensdirectory op cloudserver."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLogin:backend_not_initialized"
 msgid "Backend not initialized."
-msgstr ""
+msgstr "Backend niet geïnitialiseerd."
 
 #, fuzzy
 msgctxt "error:Cloud_SyncError"
@@ -526,16 +525,12 @@ msgstr "Serverfout: {}"
 #, fuzzy
 msgctxt "error:Cloud_FileLockedOnServer"
 msgid "File is locked on server. Please retry upload at a later time."
-msgstr ""
-"Bestand is vergrendeld op de server. Probeer het uploaden op een later "
-"tijdstip opnieuw."
+msgstr "Bestand is vergrendeld op de server. Probeer het uploaden op een later tijdstip opnieuw."
 
 #, fuzzy
 msgctxt "error:Cloud_ServerBlocked"
 msgid "Server blocked by another client. Please retry at a later time."
-msgstr ""
-"Server geblokkeerd door een andere client. Probeer het op een later tijdstip "
-"opnieuw."
+msgstr "Server geblokkeerd door een andere client. Probeer het op een later tijdstip opnieuw."
 
 #, fuzzy
 msgctxt "error:Cloud_CannotLockLocalFiles"
@@ -662,17 +657,20 @@ msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
 msgstr "Kan de synchronisatiestatus niet resetten."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotFindUniqueName"
 msgid "Cannot find unique name for '{}'"
-msgstr ""
+msgstr "Kan geen unieke naam vinden voor '{}'"
 
+#, fuzzy
 msgctxt "error:Cloud_BackendInitializationFailed"
 msgid "Cloud backend initialization failed: '{}'"
-msgstr ""
+msgstr "Initialisatie van cloud-backend mislukt: '{}'"
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLoadUnsupportedBackend"
 msgid "Cannot load unsupported backend '{}'"
-msgstr ""
+msgstr "Kan niet-ondersteunde backend '{}' niet laden"
 
 #, fuzzy
 msgctxt "error:CloudBackend_OneDrive_DirectoryNotSet"
@@ -769,9 +767,10 @@ msgctxt "error:NetworkError"
 msgid "Network error: {}"
 msgstr "Netwerkfout: {}"
 
+#, fuzzy
 msgctxt "error:NetworkTimeout"
 msgid "Network timeout"
-msgstr ""
+msgstr "Time-out van netwerk"
 
 #, fuzzy
 msgctxt "error:Licensing_Desktop_InvalidServerResponse"
@@ -815,20 +814,18 @@ msgstr "Maximum aantal gelicentieerde apparaten bereikt."
 
 #, fuzzy
 msgctxt "error:Licensing_RevokesExhausted"
-msgid ""
-"You have already used all available {max_revokes} revokes during the past "
-"{period_days} days."
-msgstr ""
-"Je hebt de afgelopen {period_days} dagen al alle beschikbare {max_revokes} "
-"intrekkingen gebruikt."
+msgid "You have already used all available {max_revokes} revokes during the past {period_days} days."
+msgstr "Je hebt de afgelopen {period_days} dagen al alle beschikbare {max_revokes} intrekkingen gebruikt."
 
+#, fuzzy
 msgctxt "error:Licensing_DeviceNotActive"
 msgid "The chosen device has no active license assigned to it."
-msgstr ""
+msgstr "Aan het gekozen apparaat is geen actieve licentie toegewezen."
 
+#, fuzzy
 msgctxt "error:Licensing_LicenseNotFound"
 msgid "Unknown license key."
-msgstr ""
+msgstr "Onbekende licentiesleutel."
 
 #, fuzzy
 msgctxt "error:BluetoothError:no_active_element"
@@ -942,11 +939,8 @@ msgstr "Camera '{}' is geconfigureerd op een ander systeem."
 
 #, fuzzy
 msgctxt "error:QtCamera_MultipleDifferentStreams"
-msgid ""
-"Cannot start video because another stream with different settings is active."
-msgstr ""
-"Kan video niet starten omdat een andere stream met andere instellingen "
-"actief is."
+msgid "Cannot start video because another stream with different settings is active."
+msgstr "Kan video niet starten omdat een andere stream met andere instellingen actief is."
 
 #, fuzzy
 msgctxt "error:NoCameraConfigured"
@@ -1038,61 +1032,75 @@ msgctxt "error:Daheng_Camera:unknown"
 msgid "Unknown error"
 msgstr "Onbekende fout"
 
+#, fuzzy
 msgctxt "error:LibSSH2_NoText"
 msgid "LibSSH2 error code: {0}"
-msgstr ""
+msgstr "LibSSH2-foutcode: {0}"
 
+#, fuzzy
 msgctxt "error:LibSSH2_WithText"
 msgid "LibSSH2 error {0}: '{1}'"
-msgstr ""
+msgstr "LibSSH2-fout {0}: '{1}'"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_WithText"
 msgid "LibSSH2 error {0}: '{1}', SFTP error {2}"
-msgstr ""
+msgstr "LibSSH2-fout {0}: '{1}', SFTP-fout {2}"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_FileDoesNotExist"
 msgid "SFTP error: file '{0}' does not exist"
-msgstr ""
+msgstr "SFTP-fout: bestand '{0}' bestaat niet"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_PermissionDenied"
 msgid "SFTP error: permission denied to access '{0}'"
-msgstr ""
+msgstr "SFTP-fout: toestemming geweigerd voor toegang tot '{0}'"
 
+#, fuzzy
 msgctxt "error:getaddrinfo"
 msgid "Cannot get internet address. Error {0}: {1}"
-msgstr ""
+msgstr "Kan internetadres niet verkrijgen. Fout {0}: {1}"
 
+#, fuzzy
 msgctxt "error:Network_CouldNotGetIPV4_Address"
 msgid "Could not get an IPV4 network address"
-msgstr ""
+msgstr "Kan geen IPV4-netwerkadres verkrijgen"
 
+#, fuzzy
 msgctxt "error:Network_CouldNotCreateSocket"
 msgid "Could not create socket"
-msgstr ""
+msgstr "Kan socket niet maken"
 
+#, fuzzy
 msgctxt "error:Network_CouldNotConnectSocket"
 msgid "Could not connect socket"
-msgstr ""
+msgstr "Kon het stopcontact niet aansluiten"
 
+#, fuzzy
 msgctxt "error:SFTP_ServerDoesNotAcceptPasswordAuthentication"
 msgid "SFTP server does not accept password authentication method."
-msgstr ""
+msgstr "De SFTP-server accepteert geen wachtwoordverificatiemethode."
 
+#, fuzzy
 msgctxt "error:SFTP_PasswordAuthenticationFailed"
 msgid "Invalid password"
-msgstr ""
+msgstr "Ongeldig wachtwoord"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_InitFailed"
 msgid "SFTP protocol initialization failed"
-msgstr ""
+msgstr "Initialisatie van het SFTP-protocol is mislukt"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_CannotOpenDir"
 msgid "Cannot open SFTP directory '{0}'"
-msgstr ""
+msgstr "Kan SFTP-map '{0}' niet openen"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_CannotReadDir"
 msgid "Cannot read SFTP directory '{0}'"
-msgstr ""
+msgstr "Kan SFTP-map '{0}' niet lezen"
 
 #, fuzzy
 msgctxt "unit:translated-name:meter"
@@ -1334,9 +1342,10 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "Weergeven als ft/in"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:imperial-uses-text-units(pc)"
 msgid "Textual units"
-msgstr ""
+msgstr "Tekstuele eenheden"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
@@ -1345,12 +1354,8 @@ msgstr "Voeg een punt toe na dubbelzinnige getallen"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
-msgid ""
-"When enabled, a dot is placed after numbers that are ambiguous when read "
-"upside down, like this: 66."
-msgstr ""
-"Indien ingeschakeld, wordt een punt geplaatst na getallen die dubbelzinnig "
-"zijn als ze ondersteboven worden gelezen, zoals dit: 66."
+msgid "When enabled, a dot is placed after numbers that are ambiguous when read upside down, like this: 66."
+msgstr "Indien ingeschakeld, wordt een punt geplaatst na getallen die dubbelzinnig zijn als ze ondersteboven worden gelezen, zoals dit: 66."
 
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
@@ -1369,12 +1374,8 @@ msgstr "Voeg indien nodig een punt toe"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:show-units:title:tooltip"
-msgid ""
-"When disabled, measures are shown without the unit. I.e. just the plain "
-"number '23' instead of '23 cm'."
-msgstr ""
-"Indien uitgeschakeld, worden metingen weergegeven zonder de eenheid. D.w.z. "
-"gewoon het gewone nummer '23' in plaats van '23 cm'."
+msgid "When disabled, measures are shown without the unit. I.e. just the plain number '23' instead of '23 cm'."
+msgstr "Indien uitgeschakeld, worden metingen weergegeven zonder de eenheid. D.w.z. gewoon het gewone nummer '23' in plaats van '23 cm'."
 
 #, fuzzy
 msgctxt "dimformat:options-ui:show-units:title"
@@ -1406,50 +1407,60 @@ msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "Verkleinen (4/8 wordt 1/2)"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:space-between-value-and-unit"
 msgid "Space between value and unit"
-msgstr ""
+msgstr "Ruimte tussen waarde en eenheid"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:comma-as-decimal-dot"
 msgid "Use comma as decimal dot"
-msgstr ""
+msgstr "Gebruik een komma als decimale punt"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:imperial-feet-and-inches"
 msgid "Feet and inches"
-msgstr ""
+msgstr "Voeten en inches"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:decimal-digits(short)"
 msgid "Decimal digits"
 msgstr "Decimale cijfers"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format:decimal"
 msgid "Decimal (1.00 m)"
-msgstr ""
+msgstr "Decimaal (1,00 m)"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format:imperial"
 msgid "Imperial (1' 5 3/32\")"
-msgstr ""
+msgstr "Imperiaal (1' 5 3/32\")"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:example"
 msgid "Example:"
-msgstr ""
+msgstr "Voorbeeld:"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format-group:length"
 msgid "Length format"
-msgstr ""
+msgstr "Lengte formaat"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format-group:area"
 msgid "Area format"
-msgstr ""
+msgstr "Gebiedsformaat"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format-group:angle"
 msgid "Angle format"
-msgstr ""
+msgstr "Hoekformaat"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format-group:common-options"
 msgid "Decimal values options"
-msgstr ""
+msgstr "Opties voor decimale waarden"
 
 #, fuzzy
 msgctxt "month-names-short-1"
@@ -1631,33 +1642,38 @@ msgctxt "text-h-alignment:block"
 msgid "Block"
 msgstr "Blok"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:none"
 msgid "None"
-msgstr ""
+msgstr "Geen"
 
-msgctxt "virtual-keyboard:special-key:return"
-msgid "Return"
-msgstr ""
+msgctxt "virtual-keyboard:special-key:enter"
+msgid "Enter"
+msgstr "Enter"
 
 msgctxt "virtual-keyboard:special-key:tab"
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:cursor-down"
 msgid "Cursor down"
-msgstr ""
+msgstr "Cursor omlaag"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:cursor-up"
 msgid "Cursor up"
-msgstr ""
+msgstr "Cursor omhoog"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:cursor-left"
 msgid "Cursor left"
-msgstr ""
+msgstr "Cursor links"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:cursor-right"
 msgid "Cursor right"
-msgstr ""
+msgstr "Cursor naar rechts"
 
 #, fuzzy
 msgctxt "character:comma"
@@ -1759,18 +1775,20 @@ msgctxt "splash:item-status:ok"
 msgid "Ok"
 msgstr "Ok"
 
+#, fuzzy
 msgctxt "splash:item-status:warning"
 msgid "Warning"
-msgstr ""
+msgstr "Waarschuwing"
 
 #, fuzzy
 msgctxt "splash:item-status:error"
 msgid "Error"
 msgstr "Fout"
 
+#, fuzzy
 msgctxt "splash:item-status:show-error"
 msgid "Details…"
-msgstr ""
+msgstr "Details…"
 
 #, fuzzy
 msgctxt "ui:list:add-entry"
@@ -1797,17 +1815,20 @@ msgctxt "ui:button:info"
 msgid "Info"
 msgstr "Info"
 
+#, fuzzy
 msgctxt "ui:window-title:warning"
 msgid "Warning"
-msgstr ""
+msgstr "Waarschuwing"
 
+#, fuzzy
 msgctxt "ui:window-title:error"
 msgid "Error"
-msgstr ""
+msgstr "Fout"
 
+#, fuzzy
 msgctxt "ui:dialog:dont-ask-again"
 msgid "Don't ask again"
-msgstr ""
+msgstr "Vraag het niet opnieuw"
 
 #, fuzzy
 msgctxt "filename-copy-tag"
@@ -1817,8 +1838,7 @@ msgstr "kopiëren"
 #, fuzzy
 msgctxt "entities:cannot_delete_image:in_use"
 msgid "Cannot delete image '{0}' because it is in use by '{1}'."
-msgstr ""
-"Kan afbeelding '{0}' niet verwijderen omdat deze in gebruik is door '{1}'."
+msgstr "Kan afbeelding '{0}' niet verwijderen omdat deze in gebruik is door '{1}'."
 
 #, fuzzy
 msgctxt "entities:cannot_delete_folder:in_use"
@@ -1833,9 +1853,7 @@ msgstr "Kan map '{}' niet naar zichzelf verplaatsen."
 #, fuzzy
 msgctxt "entities:cannot_rename_image:in_use"
 msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
-msgstr ""
-"Kan afbeelding '{0} niet hernoemen omdat deze momenteel in gebruik is door "
-"'{1}'."
+msgstr "Kan afbeelding '{0} niet hernoemen omdat deze momenteel in gebruik is door '{1}'."
 
 #, fuzzy
 msgctxt "image-library:breadcrumbs:root-folder"
@@ -1845,22 +1863,17 @@ msgstr "Wortel"
 #, fuzzy
 msgctxt "image-library:company-policy:may-not-add-folder-here"
 msgid "Your company policy does not allow to add a new folder at this place."
-msgstr ""
-"Uw bedrijfsbeleid staat niet toe om op deze plek een nieuwe map toe te "
-"voegen."
+msgstr "Uw bedrijfsbeleid staat niet toe om op deze plek een nieuwe map toe te voegen."
 
 #, fuzzy
 msgctxt "image-library:company-policy:may-not-add-image-here"
 msgid "Your company policy does not allow to add a new image at this place."
-msgstr ""
-"Uw bedrijfsbeleid staat niet toe om op deze plaats een nieuwe afbeelding toe "
-"te voegen."
+msgstr "Uw bedrijfsbeleid staat niet toe om op deze plaats een nieuwe afbeelding toe te voegen."
 
 #, fuzzy
 msgctxt "image-library:company-policy:may-not-delete-here"
 msgid "Your company policy does not allow to delete items at this place."
-msgstr ""
-"Uw bedrijfsbeleid staat niet toe om items op deze plaats te verwijderen."
+msgstr "Uw bedrijfsbeleid staat niet toe om items op deze plaats te verwijderen."
 
 #, fuzzy
 msgctxt "image-library:move:target-folder:dialog-title"
@@ -1872,49 +1885,60 @@ msgctxt "image-library:move:target-folder:description"
 msgid "Select the destination folder:"
 msgstr "Selecteer de doelmap:"
 
+#, fuzzy
 msgctxt "image-library:open-image:error:bundle-already-opened"
 msgid "This image is already open in another editor window."
-msgstr ""
+msgstr "Deze afbeelding is al geopend in een ander editorvenster."
 
+#, fuzzy
 msgctxt "image-library:dialog:duplicate-entities:window-title"
 msgid "Duplicate images"
-msgstr ""
+msgstr "Dubbele afbeeldingen"
 
+#, fuzzy
 msgctxt "image-library:dialog:duplicate-entities:message"
 msgid "Duplicating images (copied {} of {} images found)."
-msgstr ""
+msgstr "Afbeeldingen dupliceren (gekopieerd {} van {} gevonden afbeeldingen)."
 
+#, fuzzy
 msgctxt "image-library:dialog:duplicate-entities:options:group"
 msgid "Duplicate options"
-msgstr ""
+msgstr "Dubbele opties"
 
+#, fuzzy
 msgctxt "image-library:dialog:duplicate-entities:options:copy-annotations"
 msgid "Copy annotations"
-msgstr ""
+msgstr "Kopieer annotaties"
 
+#, fuzzy
 msgctxt "rename-images:user-note:various-values"
 msgid "(various)"
-msgstr ""
+msgstr "(verscheidene)"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:add:button"
 msgid "+ Dynamic text"
-msgstr ""
+msgstr "+ Dynamische tekst"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:dialog-title"
 msgid "Choose a dynamic text"
-msgstr ""
+msgstr "Kies een dynamische tekst"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:current-image-title:name"
 msgid "Current image title"
-msgstr ""
+msgstr "Huidige afbeeldingstitel"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:capture date"
 msgid "Capture date"
-msgstr ""
+msgstr "Datum van opname"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:gps-coordinates"
 msgid "GPS coordinates"
-msgstr ""
+msgstr "GPS coördinaten"
 
 #, fuzzy
 msgctxt "imagebundle-settings:dialog-title"
@@ -2063,12 +2087,8 @@ msgstr "Afbeelding staat al in de bibliotheek. Wil je een kopie maken?"
 
 #, fuzzy
 msgctxt "rendering:watermark"
-msgid ""
-"Evaluation copy\n"
-"Please upgrade to remove watermark"
-msgstr ""
-"Evaluatie kopie\n"
-"Voer een upgrade uit om het watermerk te verwijderen"
+msgid "Evaluation copy\nPlease upgrade to remove watermark"
+msgstr "Evaluatie kopie\nVoer een upgrade uit om het watermerk te verwijderen"
 
 #, fuzzy
 msgctxt "export:resolution-too-small"
@@ -2101,17 +2121,8 @@ msgstr "Destructief overschrijven"
 
 #, fuzzy
 msgctxt "export:overwrite-plain-image:message"
-msgid ""
-"If you overwrite the original image file '{}' with your annotations, you "
-"cannot change it later. The original image will be lost.\n"
-"It is recommended to save to a different file or save as an IMI file that "
-"can still be edited lated."
-msgstr ""
-"Als u het oorspronkelijke afbeeldingsbestand '{}' overschrijft met uw "
-"annotaties, kunt u dit later niet meer wijzigen. De originele afbeelding "
-"gaat verloren.\n"
-"Het wordt aanbevolen om op te slaan in een ander bestand of op te slaan als "
-"een IMI-bestand dat later nog kan worden bewerkt."
+msgid "If you overwrite the original image file '{}' with your annotations, you cannot change it later. The original image will be lost.\nIt is recommended to save to a different file or save as an IMI file that can still be edited lated."
+msgstr "Als u het oorspronkelijke afbeeldingsbestand '{}' overschrijft met uw annotaties, kunt u dit later niet meer wijzigen. De originele afbeelding gaat verloren.\nHet wordt aanbevolen om op te slaan in een ander bestand of op te slaan als een IMI-bestand dat later nog kan worden bewerkt."
 
 #, fuzzy
 msgctxt "export:overwrite-plain-image:button:save-as-image"
@@ -2130,28 +2141,23 @@ msgstr "Voer afbeeldingen uit naar de map"
 
 #, fuzzy
 msgctxt "export:image:invalid-filename-suffix"
-msgid ""
-"You specified an invalid file suffix (please use one of the supported "
-"formats)"
-msgstr ""
-"U heeft een ongeldig bestandsachtervoegsel opgegeven (gebruik een van de "
-"ondersteunde indelingen)"
+msgid "You specified an invalid file suffix (please use one of the supported formats)"
+msgstr "U heeft een ongeldig bestandsachtervoegsel opgegeven (gebruik een van de ondersteunde indelingen)"
 
 #, fuzzy
 msgctxt "export:specific-format:invalid-filename-suffix"
 msgid "You cannot change the file type (must have {} suffix)"
-msgstr ""
-"U kunt het bestandstype niet wijzigen (moet het achtervoegsel {} hebben)"
+msgstr "U kunt het bestandstype niet wijzigen (moet het achtervoegsel {} hebben)"
 
+#, fuzzy
 msgctxt "export:save-original-images:some-nonphotos:title"
 msgid "Saving original images"
-msgstr ""
+msgstr "Originele afbeeldingen opslaan"
 
+#, fuzzy
 msgctxt "export:save-original-images:some-nonphotos:description"
-msgid ""
-"Some of the images you have saved were no photos. No original photo has been "
-"saved for those images."
-msgstr ""
+msgid "Some of the images you have saved were no photos. No original photo has been saved for those images."
+msgstr "Sommige van de afbeeldingen die u hebt opgeslagen, waren geen foto's. Voor deze afbeeldingen is geen originele foto opgeslagen."
 
 #, fuzzy
 msgctxt "image-export:size:group-title"
@@ -2203,9 +2209,10 @@ msgctxt "image-export:overlays:text"
 msgid "Text"
 msgstr "Tekst"
 
+#, fuzzy
 msgctxt "image-export:company-logo:open-logo-image"
 msgid "Open logo image"
-msgstr ""
+msgstr "Logoafbeelding openen"
 
 #, fuzzy
 msgctxt "image-export:filename-expression"
@@ -2217,29 +2224,35 @@ msgctxt "image-export:use-default-options"
 msgid "Use default export options"
 msgstr "Gebruik standaard exportopties"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:enable-logo"
 msgid "Enable logo"
-msgstr ""
+msgstr "Logo inschakelen"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:group-title"
 msgid "Company logo"
-msgstr ""
+msgstr "Bedrijfslogo"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:placement"
 msgid "Placement"
-msgstr ""
+msgstr "Plaatsing"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:size"
 msgid "Size"
-msgstr ""
+msgstr "Maat"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:opacity"
 msgid "Opacity"
-msgstr ""
+msgstr "Dekking"
 
+#, fuzzy
 msgctxt "image-export:show-company-logo"
 msgid "Show company logo"
-msgstr ""
+msgstr "Bedrijfslogo tonen"
 
 msgctxt "image-export:company-logo:auto-remove-background"
 msgid "Automatic background removal"
@@ -2250,41 +2263,38 @@ msgid "Automatic background removal"
 msgstr "Automatische achtergrondverwijdering"
 
 msgctxt "image-export:company-logo:auto-remove-background:info:description"
-msgid ""
-"Removes a solid background color from your logo image. For this to work, the "
-"logo must have a consistent background color (no gradient) and the image "
-"should preferably be a PNG image (not a JPEG), as the JPEG's compression "
-"artifacts can introduce color distortions that cannot be removed."
-msgstr ""
-"Verwijdert een effen achtergrondkleur uit uw logo-afbeelding. Om dit te "
-"laten werken, moet het logo een consistente achtergrondkleur hebben (geen "
-"verloop) en moet de afbeelding bij voorkeur een PNG-afbeelding zijn (geen "
-"JPEG), aangezien de JPEG-compressieartefacten kleurvervormingen kunnen "
-"veroorzaken die niet kunnen worden verwijderd."
+msgid "Removes a solid background color from your logo image. For this to work, the logo must have a consistent background color (no gradient) and the image should preferably be a PNG image (not a JPEG), as the JPEG's compression artifacts can introduce color distortions that cannot be removed."
+msgstr "Verwijdert een effen achtergrondkleur uit uw logo-afbeelding. Om dit te laten werken, moet het logo een consistente achtergrondkleur hebben (geen verloop) en moet de afbeelding bij voorkeur een PNG-afbeelding zijn (geen JPEG), aangezien de JPEG-compressieartefacten kleurvervormingen kunnen veroorzaken die niet kunnen worden verwijderd."
 
+#, fuzzy
 msgctxt "image-export:company-logo:auto-border-size"
 msgid "Border size"
-msgstr ""
+msgstr "Randgrootte"
 
+#, fuzzy
 msgctxt "image-export:company-logo:border-color"
 msgid "Border color"
-msgstr ""
+msgstr "Rand kleur"
 
+#, fuzzy
 msgctxt "image-export:company-logo:border-color:white"
 msgid "White"
-msgstr ""
+msgstr "Wit"
 
+#, fuzzy
 msgctxt "image-export:company-logo:border-color:black"
 msgid "Black"
-msgstr ""
+msgstr "Zwart"
 
+#, fuzzy
 msgctxt "image-export:advanced-options:group-title"
 msgid "Advanced Options"
-msgstr ""
+msgstr "Geavanceerde mogelijkheden"
 
+#, fuzzy
 msgctxt "image-export:hide-measurement-values"
 msgid "Hide all measurement values"
-msgstr ""
+msgstr "Verberg alle meetwaarden"
 
 #, fuzzy
 msgctxt "pdf-export:table-of-contents"
@@ -2466,9 +2476,10 @@ msgctxt "export:pdf:image-title"
 msgid "Image title"
 msgstr "Titel afbeelding"
 
+#, fuzzy
 msgctxt "export:pdf:image-title:hint"
 msgid "for example: {image.title}"
-msgstr ""
+msgstr "bijvoorbeeld: {image.title}"
 
 #, fuzzy
 msgctxt "export:pdf:section:data-table"
@@ -2505,25 +2516,30 @@ msgctxt "export:pdf:print-density:dpi-formatstring"
 msgid "{} dpi"
 msgstr "{} dpi"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style"
 msgid "Page numbers"
-msgstr ""
+msgstr "Paginanummers"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:none"
 msgid "None"
-msgstr ""
+msgstr "Geen"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:continuous"
 msgid "Continuous decimal"
-msgstr ""
+msgstr "Continu decimaal"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:roman-frontmatter"
 msgid "Roman front matter"
-msgstr ""
+msgstr "Romeinse frontzaak"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:no-frontmatter"
 msgid "No front matter"
-msgstr ""
+msgstr "Geen frontkwestie"
 
 #, fuzzy
 msgctxt "export:csv:field-separator"
@@ -2567,12 +2583,8 @@ msgstr "Er zijn geen gemeenschappelijke sjablonen gedefinieerd."
 
 #, fuzzy
 msgctxt "export:csv:entities-have-no-common-template:details"
-msgid ""
-"You need to assign a template to each image and folder that you export. You "
-"have to use the same template for each image and folder."
-msgstr ""
-"U moet een sjabloon toewijzen aan elke afbeelding en map die u exporteert. U "
-"moet voor elke afbeelding en map dezelfde sjabloon gebruiken."
+msgid "You need to assign a template to each image and folder that you export. You have to use the same template for each image and folder."
+msgstr "U moet een sjabloon toewijzen aan elke afbeelding en map die u exporteert. U moet voor elke afbeelding en map dezelfde sjabloon gebruiken."
 
 #, fuzzy
 msgctxt "export:tablespec-to-export:dialog-title"
@@ -2609,9 +2621,10 @@ msgctxt "zip-export:include-pdf-file"
 msgid "Include PDF file"
 msgstr "Inclusief PDF-bestand"
 
+#, fuzzy
 msgctxt "zip-export:include-imf-file"
 msgid "Include IMF file"
-msgstr ""
+msgstr "Inclusief IMF-bestand"
 
 #, fuzzy
 msgctxt "about-image:unknown-gps"
@@ -2665,12 +2678,8 @@ msgstr "Toon op kaart"
 
 #, fuzzy
 msgctxt "editor:attach:error_no_reference_to_attach_to"
-msgid ""
-"There is no reference in the image! You need to draw a reference in order to "
-"do automatic computations."
-msgstr ""
-"Er is geen referentie in de afbeelding! U moet een referentie tekenen om "
-"automatische berekeningen uit te voeren."
+msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
+msgstr "Er is geen referentie in de afbeelding! U moet een referentie tekenen om automatische berekeningen uit te voeren."
 
 #, fuzzy
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
@@ -2684,20 +2693,13 @@ msgstr "De maat wordt berekend op basis van de door u verstrekte referentie."
 
 #, fuzzy
 msgctxt "editor:attach:hint_howto_attach_to_reference"
-msgid ""
-"Click on the measure you want to compute based on the selected reference."
-msgstr ""
-"Klik op de maat die u wilt berekenen op basis van de geselecteerde "
-"referentie."
+msgid "Click on the measure you want to compute based on the selected reference."
+msgstr "Klik op de maat die u wilt berekenen op basis van de geselecteerde referentie."
 
 #, fuzzy
 msgctxt "editor:attach:hint_howto_attach_measure"
-msgid ""
-"Click on the reference based on which you want to calculate the selected "
-"measure."
-msgstr ""
-"Klik op de referentie op basis waarvan u de geselecteerde maat wilt "
-"berekenen."
+msgid "Click on the reference based on which you want to calculate the selected measure."
+msgstr "Klik op de referentie op basis waarvan u de geselecteerde maat wilt berekenen."
 
 #, fuzzy
 msgctxt "editor:attach:messagebox:title"
@@ -2741,14 +2743,8 @@ msgstr "Proberen niet-ondersteunde bestandsindeling te laden"
 
 #, fuzzy
 msgctxt "editor:loaded-image-has-more-recent-version:warning"
-msgid ""
-"This image has been saved with a more recent version. You need at least "
-"version {} to load this image correctly. You can still try to open this "
-"file, but some parts of it might be missing."
-msgstr ""
-"Deze afbeelding is opgeslagen met een recentere versie. Je hebt minimaal "
-"versie {} nodig om deze afbeelding correct te laden. U kunt nog steeds "
-"proberen dit bestand te openen, maar sommige delen ervan kunnen ontbreken."
+msgid "This image has been saved with a more recent version. You need at least version {} to load this image correctly. You can still try to open this file, but some parts of it might be missing."
+msgstr "Deze afbeelding is opgeslagen met een recentere versie. Je hebt minimaal versie {} nodig om deze afbeelding correct te laden. U kunt nog steeds proberen dit bestand te openen, maar sommige delen ervan kunnen ontbreken."
 
 #, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:title"
@@ -2757,31 +2753,28 @@ msgstr "Overschrijven met onvolledig geladen afbeelding"
 
 #, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:warning"
-msgid ""
-"This image has only been loaded partially because it was written with a more "
-"recent software version. If you save this image now, parts of the "
-"information in the original file gets lost."
-msgstr ""
-"Deze afbeelding is slechts gedeeltelijk geladen omdat deze is geschreven met "
-"een recentere softwareversie. Als u deze afbeelding nu opslaat, gaan delen "
-"van de informatie in het originele bestand verloren."
+msgid "This image has only been loaded partially because it was written with a more recent software version. If you save this image now, parts of the information in the original file gets lost."
+msgstr "Deze afbeelding is slechts gedeeltelijk geladen omdat deze is geschreven met een recentere softwareversie. Als u deze afbeelding nu opslaat, gaan delen van de informatie in het originele bestand verloren."
 
 #, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:question"
 msgid "Do you still want to overwrite the file?"
 msgstr "Wil je het bestand toch overschrijven?"
 
+#, fuzzy
 msgctxt "editor:zoom:standard"
 msgid "Reset"
-msgstr ""
+msgstr "Opnieuw instellen"
 
+#, fuzzy
 msgctxt "editor:zoom:fit"
 msgid "Fit"
-msgstr ""
+msgstr "Fit"
 
+#, fuzzy
 msgctxt "editor:zoom:fill"
 msgid "Fill"
-msgstr ""
+msgstr "Vullen"
 
 #, fuzzy
 msgctxt "editor:styling:line-caps"
@@ -3003,9 +2996,10 @@ msgctxt "editor:styling:label-display-mode:horizontal"
 msgid "Horizontal"
 msgstr "Horizontaal"
 
+#, fuzzy
 msgctxt "editor:styling:label-display-mode:below-line"
 msgid "Below line"
-msgstr ""
+msgstr "Onder de lijn"
 
 #, fuzzy
 msgctxt "editor:styling:angle:show-angle"
@@ -3202,17 +3196,20 @@ msgctxt "editor:styling:flatref:label-position:alternating-last-below"
 msgid "Alternating, last one below"
 msgstr "Afwisselend, laatste hieronder"
 
+#, fuzzy
 msgctxt "editor:styling:flatref:show-border"
 msgid "Show border"
-msgstr ""
+msgstr "Rand tonen"
 
+#, fuzzy
 msgctxt "editor:styling:flatref:main-color"
 msgid "Main color"
-msgstr ""
+msgstr "Hoofdkleur"
 
+#, fuzzy
 msgctxt "editor:styling:flatref:secondary-color"
 msgid "Secondary color"
-msgstr ""
+msgstr "Secundaire kleur"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:show-label"
@@ -3409,9 +3406,10 @@ msgctxt "editor:styling:textbox:box-background-color"
 msgid "Background color"
 msgstr "Achtergrond kleur"
 
+#, fuzzy
 msgctxt "editor:styling:textbox:box-background-opacity"
 msgid "Background opacity"
-msgstr ""
+msgstr "Achtergronddekking"
 
 #, fuzzy
 msgctxt "editor:textbox:action:add-arrow"
@@ -3541,11 +3539,8 @@ msgstr "Uitbreiden"
 
 #, fuzzy
 msgctxt "editor:rounded-polyline:action:expand:invalid-expansion-offset"
-msgid ""
-"Invalid expansion offset. This offset value would lead to an invalid shape."
-msgstr ""
-"Ongeldige uitbreidingsoffset. Deze offsetwaarde zou leiden tot een ongeldige "
-"vorm."
+msgid "Invalid expansion offset. This offset value would lead to an invalid shape."
+msgstr "Ongeldige uitbreidingsoffset. Deze offsetwaarde zou leiden tot een ongeldige vorm."
 
 #, fuzzy
 msgctxt "editor:rounded-polyline:expand:dialog:window-title"
@@ -3577,13 +3572,15 @@ msgctxt "editor:styling:counter:shape:square"
 msgid "Square"
 msgstr "Vierkant"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:pentagon"
 msgid "Pentagon"
-msgstr ""
+msgstr "Pentagon"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:star5"
 msgid "Star"
-msgstr ""
+msgstr "Ster"
 
 #, fuzzy
 msgctxt "editor:styling:counter:shape:triangle-up"
@@ -3595,9 +3592,10 @@ msgctxt "editor:styling:counter:shape:triangle-down"
 msgid "Triangle (down)"
 msgstr "Driehoek (omlaag)"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:dot"
 msgid "Dot"
-msgstr ""
+msgstr "Punt"
 
 #, fuzzy
 msgctxt "editor:styling:counter:filled-shape"
@@ -3609,9 +3607,10 @@ msgctxt "editor:styling:counter:rename"
 msgid "Rename"
 msgstr "Hernoemen"
 
+#, fuzzy
 msgctxt "editor:styling:counter:start-value"
 msgid "Start value"
-msgstr ""
+msgstr "Beginwaarde"
 
 #, fuzzy
 msgctxt "editor:results-list:generic-counter"
@@ -3698,9 +3697,10 @@ msgctxt "image-settings:canvas:fine-grid-color"
 msgid "Fine grid color"
 msgstr "Fijne rasterkleur"
 
+#, fuzzy
 msgctxt "image-settings:canvas:enable-grid"
 msgid "Enable grid"
-msgstr ""
+msgstr "Schakel raster in"
 
 #, fuzzy
 msgctxt "image-settings:canvas:grid-subdivisions"
@@ -3822,9 +3822,10 @@ msgctxt "editor:new-counter:config-dialog:group:new-counter:symbol"
 msgid "Symbol"
 msgstr "Symbool"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:new-counter:start-value"
 msgid "Start value"
-msgstr ""
+msgstr "Beginwaarde"
 
 #, fuzzy
 msgctxt "editor:rename-counter:dialog-title"
@@ -3856,9 +3857,10 @@ msgctxt "editor:rename-counter:rename-all-counters"
 msgid "Rename all counters"
 msgstr "Hernoem alle tellers"
 
+#, fuzzy
 msgctxt "editor:textbox-entry:open-detail-image"
 msgid "Open detail image"
-msgstr ""
+msgstr "Detailafbeelding openen"
 
 #, fuzzy
 msgctxt "prefs:measures:length-unit"
@@ -3890,23 +3892,25 @@ msgctxt "prefs:image-library:use-directory:info-text"
 msgid "Use {}"
 msgstr "Gebruik {}"
 
+#, fuzzy
 msgctxt "prefs:editor:ui:mouse-behavior"
 msgid "Mouse behavior"
-msgstr ""
+msgstr "Muis gedrag"
 
+#, fuzzy
 msgctxt "prefs:editor:ui:point-dragging-slowdown"
 msgid "Reduced dragging speed"
-msgstr ""
+msgstr "Verminderde sleepsnelheid"
 
+#, fuzzy
 msgctxt "prefs:editor:ui:point-dragging-slowdown:info:title"
 msgid "Reduced dragging speed"
-msgstr ""
+msgstr "Verminderde sleepsnelheid"
 
+#, fuzzy
 msgctxt "prefs:editor:ui:point-dragging-slowdown:info"
-msgid ""
-"When you press the 'Alt' key while dragging a point, the dragging speed is "
-"reduced by this factor to that it is easier to accurately set the position."
-msgstr ""
+msgid "When you press the 'Alt' key while dragging a point, the dragging speed is reduced by this factor to that it is easier to accurately set the position."
+msgstr "Wanneer u tijdens het slepen van een punt de 'Alt'-toets indrukt, wordt de sleepsnelheid met deze factor verlaagd, waardoor het gemakkelijker wordt om de positie nauwkeurig in te stellen."
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
@@ -3981,17 +3985,12 @@ msgstr "1 ft"
 #, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:tooltip"
 msgid "Snap to multiples of this distance (only for rectangles and distance)."
-msgstr ""
-"Snap naar veelvouden van deze afstand (alleen voor rechthoeken en afstand)."
+msgstr "Snap naar veelvouden van deze afstand (alleen voor rechthoeken en afstand)."
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
-msgid ""
-"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
-"rectangle sides will be restricted to steps of this size."
-msgstr ""
-"Voer een afstand in met een eenheid (bijv. 10cm, 1ft of 1'). De getekende "
-"afmetingen en rechthoekzijden zijn beperkt tot stappen van deze grootte."
+msgid "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and rectangle sides will be restricted to steps of this size."
+msgstr "Voer een afstand in met een eenheid (bijv. 10cm, 1ft of 1'). De getekende afmetingen en rechthoekzijden zijn beperkt tot stappen van deze grootte."
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
@@ -4023,17 +4022,20 @@ msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:long"
 msgid "Long"
 msgstr "Lang"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:dimstring:group-title"
 msgid "Dimension String"
-msgstr ""
+msgstr "Dimensiereeks"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:dimstring:markerline-length-long"
 msgid "Marker line length (long)"
-msgstr ""
+msgstr "Lengte markeringslijn (lang)"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:dimstring:markerline-length-short"
 msgid "Marker line length (short)"
-msgstr ""
+msgstr "Lengte markeringslijn (kort)"
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:group-title"
@@ -4190,62 +4192,70 @@ msgctxt "prefs:bluetooth:enable-acoustic-feedback"
 msgid "Acoustic feedback"
 msgstr "Akoestische feedback"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:enable-double-trigger"
 msgid "Double trigger"
-msgstr ""
+msgstr "Dubbele trigger"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:category:clipboard"
 msgid "Clipboard"
-msgstr ""
+msgstr "Klembord"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:enable"
 msgid "Copy value to clipboard"
-msgstr ""
+msgstr "Kopieer waarde naar klembord"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:never"
 msgid "Never"
-msgstr ""
+msgstr "Nooit"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:when-not-in-editor"
 msgid "When editor is closed"
-msgstr ""
+msgstr "Wanneer de editor gesloten is"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:when-minimized"
 msgid "When window is minimized"
-msgstr ""
+msgstr "Wanneer het venster is geminimaliseerd"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:always"
 msgid "Always"
-msgstr ""
+msgstr "Altijd"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:with-unit"
 msgid "Copy value with unit"
-msgstr ""
+msgstr "Kopieer waarde met eenheid"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:with-decimal-dot"
 msgid "Use decimal dot"
-msgstr ""
+msgstr "Gebruik decimale punt"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:copy-to-clipboard(pc)"
 msgid "Copy Bluetooth measurement to clipboard"
-msgstr ""
+msgstr "Kopieer Bluetooth-meting naar klembord"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:enter-as-keyboard"
 msgid "Enter measurement as keyboard input"
-msgstr ""
+msgstr "Voer de meting in als toetsenbordinvoer"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:keyboard-suffix-key"
 msgid "Key to press after measurement"
-msgstr ""
+msgstr "Toets om na de meting in te drukken"
 
 #, fuzzy
 msgctxt "prefs:template:add:general-description"
-msgid ""
-"Choose the template that best matches your needs. You can further customize "
-"it later."
-msgstr ""
-"Kies de sjabloon die het beste bij uw behoeften past. U kunt het later "
-"verder aanpassen."
+msgid "Choose the template that best matches your needs. You can further customize it later."
+msgstr "Kies de sjabloon die het beste bij uw behoeften past. U kunt het later verder aanpassen."
 
 #, fuzzy
 msgctxt "prefs:template:add:dialog-title"
@@ -4314,10 +4324,8 @@ msgstr "Inhoudstype"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tag:list-header:content-type:tooltip"
-msgid ""
-"The content type limits to which kind of elements the tag can be attached."
-msgstr ""
-"Het inhoudstype beperkt aan welk soort elementen de tag kan worden gekoppeld."
+msgid "The content type limits to which kind of elements the tag can be attached."
+msgstr "Het inhoudstype beperkt aan welk soort elementen de tag kan worden gekoppeld."
 
 #, fuzzy
 msgctxt "prefs:template:tablespec:list-header:name"
@@ -4346,12 +4354,8 @@ msgstr "Kolom titel"
 
 #, fuzzy
 msgctxt "prefs:template:partlist:tags:list-header:column-title:tooltip"
-msgid ""
-"The column name for this tag in the table output. If left empty, the tag "
-"name will be used as column title."
-msgstr ""
-"De kolomnaam voor deze tag in de tabeluitvoer. Indien leeg gelaten, wordt de "
-"tagnaam gebruikt als kolomtitel."
+msgid "The column name for this tag in the table output. If left empty, the tag name will be used as column title."
+msgstr "De kolomnaam voor deze tag in de tabeluitvoer. Indien leeg gelaten, wordt de tagnaam gebruikt als kolomtitel."
 
 #, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract"
@@ -4445,14 +4449,8 @@ msgstr "Kolom inhoud"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:content:tooltip"
-msgid ""
-"Specify the cell content in this column. This can be either a measurement "
-"value that you annotated with a tag, or image metadata (e.g. image name, "
-"capture date)."
-msgstr ""
-"Specificeer de celinhoud in deze kolom. Dit kan een meetwaarde zijn die u "
-"hebt geannoteerd met een tag, of metadata van een afbeelding (bijv. "
-"afbeeldingsnaam, opnamedatum)."
+msgid "Specify the cell content in this column. This can be either a measurement value that you annotated with a tag, or image metadata (e.g. image name, capture date)."
+msgstr "Specificeer de celinhoud in deze kolom. Dit kan een meetwaarde zijn die u hebt geannoteerd met een tag, of metadata van een afbeelding (bijv. afbeeldingsnaam, opnamedatum)."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip-title"
@@ -4461,14 +4459,8 @@ msgstr "Meet selectie"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip"
-msgid ""
-"Here, you define which measurement of the tagged element to put into this "
-"column. E.g. for a circle you can choose between its area, radius, "
-"circumference, …"
-msgstr ""
-"Hier definieert u welke afmeting van het getagde element u in deze kolom "
-"wilt plaatsen. Bijv. voor een cirkel kan je kiezen tussen oppervlakte, "
-"straal, omtrek, …"
+msgid "Here, you define which measurement of the tagged element to put into this column. E.g. for a circle you can choose between its area, radius, circumference, …"
+msgstr "Hier definieert u welke afmeting van het getagde element u in deze kolom wilt plaatsen. Bijv. voor een cirkel kan je kiezen tussen oppervlakte, straal, omtrek, …"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip-title"
@@ -4477,15 +4469,8 @@ msgstr "Meerdere waarden per cel"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip"
-msgid ""
-"When several elements are assigned the same tag, several values will be "
-"placed into one cell. Here you can choose to sum these values, take their "
-"average, or other options instead of keeping all in one cell."
-msgstr ""
-"Wanneer meerdere elementen dezelfde tag krijgen, worden er meerdere waarden "
-"in één cel geplaatst. Hier kunt u ervoor kiezen om deze waarden op te "
-"tellen, hun gemiddelde te nemen of andere opties in plaats van alles in één "
-"cel te houden."
+msgid "When several elements are assigned the same tag, several values will be placed into one cell. Here you can choose to sum these values, take their average, or other options instead of keeping all in one cell."
+msgstr "Wanneer meerdere elementen dezelfde tag krijgen, worden er meerdere waarden in één cel geplaatst. Hier kunt u ervoor kiezen om deze waarden op te tellen, hun gemiddelde te nemen of andere opties in plaats van alles in één cel te houden."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip-title"
@@ -4494,12 +4479,8 @@ msgstr "Aantal columns"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip"
-msgid ""
-"Creates this number of columns to fill in values with this tag. Use this "
-"when you have several measurements with the same tag in one image."
-msgstr ""
-"Maakt dit aantal kolommen om waarden met deze tag in te vullen. Gebruik dit "
-"wanneer u meerdere metingen met dezelfde tag in één afbeelding hebt."
+msgid "Creates this number of columns to fill in values with this tag. Use this when you have several measurements with the same tag in one image."
+msgstr "Maakt dit aantal kolommen om waarden met deze tag in te vullen. Gebruik dit wanneer u meerdere metingen met dezelfde tag in één afbeelding hebt."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip-title"
@@ -4508,12 +4489,8 @@ msgstr "Inhoud voettekstrij"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip"
-msgid ""
-"What to place in the footer row of the table. Options include the sum of all "
-"values in the column, the maximum, the average, and other options."
-msgstr ""
-"Wat te plaatsen in de voettekstrij van de tabel. Opties omvatten de som van "
-"alle waarden in de kolom, het maximum, het gemiddelde en andere opties."
+msgid "What to place in the footer row of the table. Options include the sum of all values in the column, the maximum, the average, and other options."
+msgstr "Wat te plaatsen in de voettekstrij van de tabel. Opties omvatten de som van alle waarden in de kolom, het maximum, het gemiddelde en andere opties."
 
 #, fuzzy
 msgctxt "prefs:template:areasum:tablespec:dialog-title"
@@ -4664,57 +4641,70 @@ msgctxt "prefs:ui:language:automatic"
 msgid "Automatic"
 msgstr "Automatisch"
 
+#, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action"
 msgid "When closing image with unsaved changes"
-msgstr ""
+msgstr "Bij het sluiten van een afbeelding met niet-opgeslagen wijzigingen"
 
+#, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action:ask"
 msgid "Ask what to do"
-msgstr ""
+msgstr "Vraag wat je moet doen"
 
+#, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action:discard-changes"
 msgid "Discard changes"
-msgstr ""
+msgstr "Veranderingen ongedaan maken"
 
+#, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action:save-changes"
 msgid "Save changes"
-msgstr ""
+msgstr "Wijzigingen opslaan"
 
+#, fuzzy
 msgctxt "prefs:ui:open-image-in"
 msgid "Open image in"
-msgstr ""
+msgstr "Afbeelding openen"
 
+#, fuzzy
 msgctxt "prefs:ui:open-image-in:new-window"
 msgid "new window"
-msgstr ""
+msgstr "nieuw raam"
 
+#, fuzzy
 msgctxt "prefs:ui:open-image-in:active-window"
 msgid "active window"
-msgstr ""
+msgstr "actief venster"
 
+#, fuzzy
 msgctxt "prefs:ui:dont-ask-again:duplicate-entities-dialog"
 msgid "Show options dialog when duplicating images"
-msgstr ""
+msgstr "Dialoogvenster Opties tonen bij het dupliceren van afbeeldingen"
 
+#, fuzzy
 msgctxt "prefs:ui:category:dont-ask-again-option-dialogs"
 msgid "Show option dialogs"
-msgstr ""
+msgstr "Optiedialogen tonen"
 
+#, fuzzy
 msgctxt "prefs:ui:category:dont-ask-again-option-dialogs:duplicate-entities"
 msgid "Duplicate images and folders"
-msgstr ""
+msgstr "Dubbele afbeeldingen en mappen"
 
+#, fuzzy
 msgctxt "prefs:ui:filename-deduplication:min-digits:title"
 msgid "Digits for filename deduplication"
-msgstr ""
+msgstr "Cijfers voor deduplicatie van bestandsnamen"
 
+#, fuzzy
 msgctxt "prefs:ui:filename-deduplication:min-digits:1"
 msgid "1"
-msgstr ""
+msgstr "1"
 
+#, fuzzy
 msgctxt "prefs:ui:filename-deduplication:min-digits-title"
 msgid "Digits for filename deduplication"
-msgstr ""
+msgstr "Cijfers voor deduplicatie van bestandsnamen"
 
 #, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution"
@@ -4891,9 +4881,10 @@ msgctxt "prefs:camera:camera-list:none"
 msgid "None"
 msgstr "Geen"
 
+#, fuzzy
 msgctxt "prefs:sync:twoway-and-anno-directories-must-be-different:msg"
 msgid "You have to use different paths for two-way sync and image upload."
-msgstr ""
+msgstr "U moet verschillende paden gebruiken voor tweerichtingssynchronisatie en het uploaden van afbeeldingen."
 
 #, fuzzy
 msgctxt "bluetooth:device-test:title"
@@ -4972,14 +4963,8 @@ msgstr "Geen Bluetooth-apparaat geconfigureerd"
 
 #, fuzzy
 msgctxt "bluetooth:no-device-configured-dialog:text(pc)"
-msgid ""
-"You have not yet configured any Bluetooth laser distance meter.\n"
-"\n"
-"Please select your device in the settings."
-msgstr ""
-"U heeft nog geen Bluetooth-laserafstandsmeter geconfigureerd.\n"
-"\n"
-"Selecteer uw apparaat in de instellingen."
+msgid "You have not yet configured any Bluetooth laser distance meter.\n\nPlease select your device in the settings."
+msgstr "U heeft nog geen Bluetooth-laserafstandsmeter geconfigureerd.\n\nSelecteer uw apparaat in de instellingen."
 
 #, fuzzy
 msgctxt "bluetooth:no-device-configured-dialog:open-prefs:button(pc)"
@@ -5026,29 +5011,35 @@ msgctxt "bluetooth:toolbar:measures-history:clear"
 msgid "Clear"
 msgstr "Duidelijk"
 
+#, fuzzy
 msgctxt "bluetooth:clipboard:feature-not-licensed:value"
 msgid "Bluetooth transmission requires ImageMeter Pro version"
-msgstr ""
+msgstr "Voor Bluetooth-transmissie is de ImageMeter Pro-versie vereist"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:tooltip"
 msgid "Calibrate with scale"
-msgstr ""
+msgstr "Kalibreer met schaal"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:set-to-scaleratio"
 msgid "Calibration set to {}"
-msgstr ""
+msgstr "Kalibratie ingesteld op {}"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:not-calibrated"
 msgid "Not calibrated"
-msgstr ""
+msgstr "Niet gekalibreerd"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:no-calibration-possible"
 msgid "Cannot be calibrated"
-msgstr ""
+msgstr "Kan niet worden gekalibreerd"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:canvas-unit-calibration"
 msgid "One unit: {}"
-msgstr ""
+msgstr "Een eenheid: {}"
 
 #, fuzzy
 msgctxt "live-camera:editor-window:title"
@@ -5062,11 +5053,8 @@ msgstr "Sla livevideo op"
 
 #, fuzzy
 msgctxt "live-camera:save:live-or-capture:text"
-msgid ""
-"Save a captured image of the live video or a live camera placeholder image?"
-msgstr ""
-"Een vastgelegd beeld van de live video of een plaatsaanduiding voor een live "
-"camera opslaan?"
+msgid "Save a captured image of the live video or a live camera placeholder image?"
+msgstr "Een vastgelegd beeld van de live video of een plaatsaanduiding voor een live camera opslaan?"
 
 #, fuzzy
 msgctxt "live-camera:save:live-or-capture:captured-image"
@@ -5085,12 +5073,8 @@ msgstr "Sla camerakalibratie op"
 
 #, fuzzy
 msgctxt "camera-calibration:overwrite-existing:ask-overwrite"
-msgid ""
-"There is already a calibration stored for this camera at this resolution. Do "
-"you want to overwrite the existing calibration?"
-msgstr ""
-"Er is al een kalibratie opgeslagen voor deze camera bij deze resolutie. Wilt "
-"u de bestaande kalibratie overschrijven?"
+msgid "There is already a calibration stored for this camera at this resolution. Do you want to overwrite the existing calibration?"
+msgstr "Er is al een kalibratie opgeslagen voor deze camera bij deze resolutie. Wilt u de bestaande kalibratie overschrijven?"
 
 #, fuzzy
 msgctxt "camera-calibration:saved:confirmation-message"
@@ -5119,12 +5103,8 @@ msgstr "Nieuw aangepast sjabloon"
 
 #, fuzzy
 msgctxt "templ:custom:long-description"
-msgid ""
-"Each image fills one row in the table. You may assign a tag to each "
-"measurement. Each table column contains the measurement for a specific tag."
-msgstr ""
-"Elke afbeelding vult één rij in de tabel. U kunt aan elke meting een etiket "
-"toewijzen. Elke tabelkolom bevat de meting voor een specifieke tag."
+msgid "Each image fills one row in the table. You may assign a tag to each measurement. Each table column contains the measurement for a specific tag."
+msgstr "Elke afbeelding vult één rij in de tabel. U kunt aan elke meting een etiket toewijzen. Elke tabelkolom bevat de meting voor een specifieke tag."
 
 #, fuzzy
 msgctxt "templ:custom:column-content:empty"
@@ -5238,14 +5218,8 @@ msgstr "Begane grond"
 
 #, fuzzy
 msgctxt "templ:areasum:long-description:wallarea"
-msgid ""
-"This template is the basis for area computations. The area of some elements "
-"is added to the sum (e.g. walls), while other elements are subtracted (e.g. "
-"windows)."
-msgstr ""
-"Dit sjabloon is de basis voor oppervlakteberekeningen. De oppervlakte van "
-"sommige elementen wordt opgeteld bij de som (bijv. muren), terwijl andere "
-"elementen worden afgetrokken (bijv. ramen)."
+msgid "This template is the basis for area computations. The area of some elements is added to the sum (e.g. walls), while other elements are subtracted (e.g. windows)."
+msgstr "Dit sjabloon is de basis voor oppervlakteberekeningen. De oppervlakte van sommige elementen wordt opgeteld bij de som (bijv. muren), terwijl andere elementen worden afgetrokken (bijv. ramen)."
 
 #, fuzzy
 msgctxt "templ:areasum:tag:property-name"
@@ -5419,21 +5393,13 @@ msgstr "Oppervlakte som tabel"
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:item"
-msgid ""
-"The image number. The number will only be filled into the row with the image "
-"title."
-msgstr ""
-"Het afbeeldingsnummer. Het nummer wordt alleen ingevuld in de rij met de "
-"titel van de afbeelding."
+msgid "The image number. The number will only be filled into the row with the image title."
+msgstr "Het afbeeldingsnummer. Het nummer wordt alleen ingevuld in de rij met de titel van de afbeelding."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:description"
-msgid ""
-"Descriptive name of the area. This is either the default name of the tag, or "
-"a manually entered name for this area."
-msgstr ""
-"Beschrijvende naam van het gebied. Dit is de standaardnaam van de tag of een "
-"handmatig ingevoerde naam voor dit gebied."
+msgid "Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this area."
+msgstr "Beschrijvende naam van het gebied. Dit is de standaardnaam van de tag of een handmatig ingevoerde naam voor dit gebied."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:count"
@@ -5442,17 +5408,8 @@ msgstr "De vermenigvuldigingsfactor voor dit gebied."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
-msgid ""
-"Width and height are two columns that are filled with the side lengths if "
-"the area is a rectangle. For other shapes, the columns stay empty.\n"
-"\n"
-"Enter the two column headers separated by a semicolon."
-msgstr ""
-"Breedte en hoogte zijn twee kolommen die worden gevuld met de lengtes van de "
-"zijden als het gebied een rechthoek is. Voor andere vormen blijven de "
-"kolommen leeg.\n"
-"\n"
-"Voer de twee kolomkoppen in, gescheiden door een puntkomma."
+msgid "Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n\nEnter the two column headers separated by a semicolon."
+msgstr "Breedte en hoogte zijn twee kolommen die worden gevuld met de lengtes van de zijden als het gebied een rechthoek is. Voor andere vormen blijven de kolommen leeg.\n\nVoer de twee kolomkoppen in, gescheiden door een puntkomma."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:measured-area"
@@ -5462,9 +5419,7 @@ msgstr "Het onbewerkte, gemeten gebied zonder de toegepaste factor of telling."
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:factor"
 msgid "The area factor applied when calculating the final area sum."
-msgstr ""
-"De toegepaste oppervlaktefactor bij het berekenen van de uiteindelijke "
-"oppervlaktesom."
+msgstr "De toegepaste oppervlaktefactor bij het berekenen van de uiteindelijke oppervlaktesom."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:calculated-area"
@@ -5473,27 +5428,13 @@ msgstr "Berekend gebied inclusief de factor en het aantal."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
-msgid ""
-"Generates two columns: a column including all areas that are added to the "
-"sum, and a column including all areas that are subtracted from the total "
-"sum.\n"
-"\n"
-"Enter the two column headers separated by a semicolon."
-msgstr ""
-"Genereert twee kolommen: een kolom met alle gebieden die bij de som worden "
-"opgeteld, en een kolom met alle gebieden die van de totale som worden "
-"afgetrokken.\n"
-"\n"
-"Voer de twee kolomkoppen in, gescheiden door een puntkomma."
+msgid "Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n\nEnter the two column headers separated by a semicolon."
+msgstr "Genereert twee kolommen: een kolom met alle gebieden die bij de som worden opgeteld, en een kolom met alle gebieden die van de totale som worden afgetrokken.\n\nVoer de twee kolomkoppen in, gescheiden door een puntkomma."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:image-area-sum"
-msgid ""
-"Each row holds the area sum of the image. The footer row holds the total "
-"over all images."
-msgstr ""
-"Elke rij bevat de oppervlaktesom van de afbeelding. De voettekstrij bevat "
-"het totaal van alle afbeeldingen."
+msgid "Each row holds the area sum of the image. The footer row holds the total over all images."
+msgstr "Elke rij bevat de oppervlaktesom van de afbeelding. De voettekstrij bevat het totaal van alle afbeeldingen."
 
 #, fuzzy
 msgctxt "templ:partslist:class-display-name"
@@ -5502,13 +5443,8 @@ msgstr "Onderdelenlijst sjabloon"
 
 #, fuzzy
 msgctxt "templ:partslist:long-description"
-msgid ""
-"This template lets you generate bills of material, counting different "
-"objects, or summing the length of products (e.g. electrical cables)."
-msgstr ""
-"Met deze sjabloon kunt u stuklijsten genereren, verschillende objecten "
-"tellen of de lengte van producten optellen (bijvoorbeeld "
-"elektriciteitskabels)."
+msgid "This template lets you generate bills of material, counting different objects, or summing the length of products (e.g. electrical cables)."
+msgstr "Met deze sjabloon kunt u stuklijsten genereren, verschillende objecten tellen of de lengte van producten optellen (bijvoorbeeld elektriciteitskabels)."
 
 #, fuzzy
 msgctxt "templ:partslist:tagtype:count"
@@ -5682,13 +5618,8 @@ msgstr "Cloud-sync wordt momenteel gebruikt. Probeer het later opnieuw."
 
 #, fuzzy
 msgctxt "sync:error:no-cloud-sync-tasks-configured(pc)"
-msgid ""
-"There are no enabled cloud-sync tasks. Nothing to do. First configure some "
-"sync tasks in the preferences, section 'Storage/Cloud Storage'."
-msgstr ""
-"Er zijn geen ingeschakelde cloudsynchronisatietaken. Niets te doen. "
-"Configureer eerst enkele synchronisatietaken in de voorkeuren, sectie "
-"'Opslag/Cloudopslag'."
+msgid "There are no enabled cloud-sync tasks. Nothing to do. First configure some sync tasks in the preferences, section 'Storage/Cloud Storage'."
+msgstr "Er zijn geen ingeschakelde cloudsynchronisatietaken. Niets te doen. Configureer eerst enkele synchronisatietaken in de voorkeuren, sectie 'Opslag/Cloudopslag'."
 
 #, fuzzy
 msgctxt "sync:task:description:anno-image"
@@ -5725,17 +5656,20 @@ msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
 msgstr "WebDAV URL '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:sftp"
 msgid "SFTP URL '{0}'"
-msgstr ""
+msgstr "SFTP-URL '{0}'"
 
+#, fuzzy
 msgctxt "sync:server-type:none"
 msgid "None"
-msgstr ""
+msgstr "Geen"
 
+#, fuzzy
 msgctxt "sync:server-type:filesystem"
 msgid "Filesystem"
-msgstr ""
+msgstr "Bestandssysteem"
 
 #, fuzzy
 msgctxt "sync:default-server-directory:two-way"
@@ -5754,20 +5688,8 @@ msgstr "Onderhoud aan cloudopslag"
 
 #, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-description"
-msgid ""
-"<b>Remove server lock</b> - In order to prevent simultaneous access to the "
-"data on the cloud server, it is locked during the sync process. In case of "
-"some errors, e.g. network failures, it may be that the server remains "
-"locked. The locks time-out automatically after a few minutes, but you can "
-"also manually remove them immediately if you know for sure that it is an "
-"error."
-msgstr ""
-"<b>Verwijder serververgrendeling</b> - Om gelijktijdige toegang tot de "
-"gegevens op de cloudserver te voorkomen, wordt deze vergrendeld tijdens het "
-"synchronisatieproces. In het geval van enkele fouten, b.v. netwerkstoringen "
-"kan het zijn dat de server vergrendeld blijft. De sloten worden na enkele "
-"minuten automatisch uitgeschakeld, maar u kunt ze ook direct handmatig "
-"verwijderen als u zeker weet dat het om een fout gaat."
+msgid "<b>Remove server lock</b> - In order to prevent simultaneous access to the data on the cloud server, it is locked during the sync process. In case of some errors, e.g. network failures, it may be that the server remains locked. The locks time-out automatically after a few minutes, but you can also manually remove them immediately if you know for sure that it is an error."
+msgstr "<b>Verwijder serververgrendeling</b> - Om gelijktijdige toegang tot de gegevens op de cloudserver te voorkomen, wordt deze vergrendeld tijdens het synchronisatieproces. In het geval van enkele fouten, b.v. netwerkstoringen kan het zijn dat de server vergrendeld blijft. De sloten worden na enkele minuten automatisch uitgeschakeld, maar u kunt ze ook direct handmatig verwijderen als u zeker weet dat het om een fout gaat."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock-button"
@@ -5776,19 +5698,8 @@ msgstr "Serververgrendeling verwijderen"
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-description"
-msgid ""
-"<b>Reset server cache</b> - The cloud server maintains a cache of images "
-"stored on them. If you delete or add files manually on the server, this is "
-"not seen by the cache. You may reset the server cache to run a full scan "
-"during the next sync. However, note that a full scan may take a long time if "
-"you have many images."
-msgstr ""
-"<b>Servercache opnieuw instellen</b> - De cloudserver houdt een cache bij "
-"met afbeeldingen die erop zijn opgeslagen. Als je handmatig bestanden "
-"verwijdert of toevoegt op de server, wordt dit niet gezien door de cache. U "
-"kunt de servercache resetten om een volledige scan uit te voeren tijdens de "
-"volgende synchronisatie. Houd er echter rekening mee dat een volledige scan "
-"lang kan duren als u veel afbeeldingen hebt."
+msgid "<b>Reset server cache</b> - The cloud server maintains a cache of images stored on them. If you delete or add files manually on the server, this is not seen by the cache. You may reset the server cache to run a full scan during the next sync. However, note that a full scan may take a long time if you have many images."
+msgstr "<b>Servercache opnieuw instellen</b> - De cloudserver houdt een cache bij met afbeeldingen die erop zijn opgeslagen. Als je handmatig bestanden verwijdert of toevoegt op de server, wordt dit niet gezien door de cache. U kunt de servercache resetten om een volledige scan uit te voeren tijdens de volgende synchronisatie. Houd er echter rekening mee dat een volledige scan lang kan duren als u veel afbeeldingen hebt."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-server-cache-button"
@@ -5797,17 +5708,8 @@ msgstr "Servercache resetten"
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-description"
-msgid ""
-"<b>Reset sync state</b> - The next sync will start with no preknowledge "
-"about the data on each side. This means, e.g., that locally deleted images "
-"will be downloaded again from the server instead of being deleted on the "
-"server. There are few cases where resetting the stored sync state is needed."
-msgstr ""
-"<b>Synchronisatiestatus resetten</b> - De volgende synchronisatie begint "
-"zonder voorkennis over de gegevens aan elke kant. Dit betekent bijvoorbeeld "
-"dat lokaal verwijderde afbeeldingen opnieuw van de server worden gedownload "
-"in plaats van op de server te worden verwijderd. Er zijn weinig gevallen "
-"waarin het resetten van de opgeslagen synchronisatiestatus nodig is."
+msgid "<b>Reset sync state</b> - The next sync will start with no preknowledge about the data on each side. This means, e.g., that locally deleted images will be downloaded again from the server instead of being deleted on the server. There are few cases where resetting the stored sync state is needed."
+msgstr "<b>Synchronisatiestatus resetten</b> - De volgende synchronisatie begint zonder voorkennis over de gegevens aan elke kant. Dit betekent bijvoorbeeld dat lokaal verwijderde afbeeldingen opnieuw van de server worden gedownload in plaats van op de server te worden verwijderd. Er zijn weinig gevallen waarin het resetten van de opgeslagen synchronisatiestatus nodig is."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:reset-sync-state-button"
@@ -5851,41 +5753,23 @@ msgstr "De synchronisatiestatus is opnieuw ingesteld."
 
 #, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:googledrive"
-msgid ""
-"You have successfully logged into GoogleDrive. You can close this tab and "
-"return to ImageMeter now."
-msgstr ""
-"U bent succesvol ingelogd op GoogleDrive. U kunt dit tabblad sluiten en nu "
-"terugkeren naar ImageMeter."
+msgid "You have successfully logged into GoogleDrive. You can close this tab and return to ImageMeter now."
+msgstr "U bent succesvol ingelogd op GoogleDrive. U kunt dit tabblad sluiten en nu terugkeren naar ImageMeter."
 
 #, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:onedrive"
-msgid ""
-"You have successfully logged into OneDrive. You can close this tab and "
-"return to ImageMeter now."
-msgstr ""
-"U bent succesvol aangemeld bij OneDrive. U kunt dit tabblad sluiten en nu "
-"terugkeren naar ImageMeter."
+msgid "You have successfully logged into OneDrive. You can close this tab and return to ImageMeter now."
+msgstr "U bent succesvol aangemeld bij OneDrive. U kunt dit tabblad sluiten en nu terugkeren naar ImageMeter."
 
 #, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:dropbox"
-msgid ""
-"You have successfully logged into Dropbox. You can close this tab and return "
-"to ImageMeter now."
-msgstr ""
-"Je bent succesvol ingelogd bij Dropbox. U kunt dit tabblad sluiten en nu "
-"terugkeren naar ImageMeter."
+msgid "You have successfully logged into Dropbox. You can close this tab and return to ImageMeter now."
+msgstr "Je bent succesvol ingelogd bij Dropbox. U kunt dit tabblad sluiten en nu terugkeren naar ImageMeter."
 
 #, fuzzy
 msgctxt "sync:server-maintenance:image-upload:reset-sync-state-description"
-msgid ""
-"<b>Reset sync state</b> - The next sync will upload all images again. This "
-"may be useful is you deleted the images on the server and want to upload "
-"them again."
-msgstr ""
-"<b>Synchronisatiestatus resetten</b> - Bij de volgende synchronisatie worden "
-"alle afbeeldingen opnieuw geüpload. Dit kan handig zijn als je de "
-"afbeeldingen op de server hebt verwijderd en ze opnieuw wilt uploaden."
+msgid "<b>Reset sync state</b> - The next sync will upload all images again. This may be useful is you deleted the images on the server and want to upload them again."
+msgstr "<b>Synchronisatiestatus resetten</b> - Bij de volgende synchronisatie worden alle afbeeldingen opnieuw geüpload. Dit kan handig zijn als je de afbeeldingen op de server hebt verwijderd en ze opnieuw wilt uploaden."
 
 #, fuzzy
 msgctxt "license:source:android-in-app"
@@ -5907,7 +5791,6 @@ msgctxt "license:pro"
 msgid "Pro"
 msgstr "Pro"
 
-#, fuzzy
 msgctxt "license:business"
 msgid "Business"
 msgstr "Business"
@@ -5919,16 +5802,8 @@ msgstr "Apparaatlicentie opnieuw toewijzen"
 
 #, fuzzy
 msgctxt "licensing:revoke-device:dialog:description"
-msgid ""
-"License cannot be activated for this device because the license is already "
-"used by the maximum number of devices.\n"
-"However, you may still revoke the license of another device.\n"
-"Which device license do you want to replace with this device?"
-msgstr ""
-"Licentie kan niet worden geactiveerd voor dit apparaat omdat de licentie al "
-"door het maximale aantal apparaten is gebruikt.\n"
-"U kunt echter nog steeds de licentie van een ander apparaat intrekken.\n"
-"Welke apparaatlicentie wil je vervangen door dit apparaat?"
+msgid "License cannot be activated for this device because the license is already used by the maximum number of devices.\nHowever, you may still revoke the license of another device.\nWhich device license do you want to replace with this device?"
+msgstr "Licentie kan niet worden geactiveerd voor dit apparaat omdat de licentie al door het maximale aantal apparaten is gebruikt.\nU kunt echter nog steeds de licentie van een ander apparaat intrekken.\nWelke apparaatlicentie wil je vervangen door dit apparaat?"
 
 #, fuzzy
 msgctxt "licensing:revoke-device:dialog:device-entry"
@@ -5950,42 +5825,40 @@ msgctxt "licensing:revoke-device:revoke-counter-info-message:title"
 msgid "Really revoke this device's license ?"
 msgstr "De licentie van dit apparaat echt intrekken?"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:revoke-counter-info-message"
-msgid ""
-"Do you really want to revoke the license (ending with '…{code_end}') from "
-"this device?\n"
-"You can only do this {max_revokes} times in {period_days} days.\n"
-"You can still use {num_revokes} revokes during the current time period."
-msgstr ""
+msgid "Do you really want to revoke the license (ending with '…{code_end}') from this device?\nYou can only do this {max_revokes} times in {period_days} days.\nYou can still use {num_revokes} revokes during the current time period."
+msgstr "Wilt u echt de licentie (eindigend op '…{code_end}') van dit apparaat intrekken?\nJe kunt dit slechts {max_revokes} keer doen in {period_days} dagen.\nJe kunt nog steeds {num_revokes} intrekkingen gebruiken tijdens de huidige periode."
 
 #, fuzzy
 msgctxt "licensing:revoke-device:success-message:title"
 msgid "Device license revokation"
 msgstr "Apparaatlicentie intrekken"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:success-message:other-device"
-msgid ""
-"The license has been removed from this device. You may now use the license "
-"on another device."
-msgstr ""
+msgid "The license has been removed from this device. You may now use the license on another device."
+msgstr "De licentie is van dit apparaat verwijderd. U kunt de licentie nu op een ander apparaat gebruiken."
 
+#, fuzzy
 msgctxt "licensing:revoke-device:success-message:this-device"
-msgid ""
-"The license has been removed from that device. You may now use the license "
-"on this device."
-msgstr ""
+msgid "The license has been removed from that device. You may now use the license on this device."
+msgstr "De licentie is van dat apparaat verwijderd. U kunt de licentie nu op dit apparaat gebruiken."
 
+#, fuzzy
 msgctxt "licensing:key-entry-dialog:title"
 msgid "License code"
-msgstr ""
+msgstr "Licentiecode"
 
+#, fuzzy
 msgctxt "licensing:key-entry-dialog:description"
 msgid "Please enter your license code:"
-msgstr ""
+msgstr "Voer uw licentiecode in:"
 
+#, fuzzy
 msgctxt "licensing:key-entry-dialog:send-button"
 msgid "Activate"
-msgstr ""
+msgstr "Activeren"
 
 #, fuzzy
 msgctxt "missing-addon:may-start-application"
@@ -6002,9 +5875,10 @@ msgctxt "missing-addon:unlimited-bluetooth-range"
 msgid "Maximum Bluetooth distance exceeded."
 msgstr "Maximale Bluetooth-afstand overschreden."
 
+#, fuzzy
 msgctxt "missing-addon:copy-bluetooth-to-clipboard"
 msgid "Cannot copy Bluetooth measurement to clipboard."
-msgstr ""
+msgstr "Kan Bluetooth-meting niet naar klembord kopiëren."
 
 #, fuzzy
 msgctxt "missing-addon:subfolders"
@@ -6069,8 +5943,7 @@ msgstr "Kan cloudsynchronisatie (afbeelding uploaden) niet gebruiken."
 #, fuzzy
 msgctxt "missing-addon:cloud-sync-twoway"
 msgid "Cannot use cloud sync (twoway sync)."
-msgstr ""
-"Kan cloudsynchronisatie (synchronisatie in twee richtingen) niet gebruiken."
+msgstr "Kan cloudsynchronisatie (synchronisatie in twee richtingen) niet gebruiken."
 
 #, fuzzy
 msgctxt "missing-addon:clipboard"
@@ -6082,13 +5955,15 @@ msgctxt "missing-addon:custom-color-palette"
 msgid "Cannot use a custom color palette."
 msgstr "Kan geen aangepast kleurenpalet gebruiken."
 
+#, fuzzy
 msgctxt "missing-addon:export-dxf"
 msgid "Cannot export to DXF."
-msgstr ""
+msgstr "Kan niet exporteren naar DXF."
 
+#, fuzzy
 msgctxt "missing-addon:company-logo"
 msgid "Cannot export with company logo"
-msgstr ""
+msgstr "Kan niet exporteren met bedrijfslogo"
 
 #, fuzzy
 msgctxt "unavailable-license-reason:expired"
@@ -6100,9 +5975,10 @@ msgctxt "unavailable-license-reason:upgrade-needed"
 msgid "This is not supported with your license."
 msgstr "Dit wordt niet ondersteund door uw licentie."
 
+#, fuzzy
 msgctxt "licensing-error:dialog:title"
 msgid "License error"
-msgstr ""
+msgstr "Licentiefout"
 
 #, fuzzy
 msgctxt "licensing:subscription:renew-button"
@@ -6119,188 +5995,222 @@ msgctxt "license:name:desktop:trial"
 msgid "Trial"
 msgstr "Probeer"
 
+#, fuzzy
 msgctxt "license:name:desktop:betatest"
 msgid "Beta test"
-msgstr ""
+msgstr "Bètatest"
 
 msgctxt "license:name:business"
 msgid "Business"
-msgstr ""
+msgstr "Business"
 
 msgctxt "license:name:pro"
 msgid "Pro"
-msgstr ""
+msgstr "Pro"
 
 msgctxt "license:name:basic"
 msgid "Basic"
-msgstr ""
+msgstr "Basic"
 
+#, fuzzy
 msgctxt "license:name:android-free(long)"
 msgid "Free evaluation"
-msgstr ""
+msgstr "Gratis evaluatie"
 
+#, fuzzy
 msgctxt "license:name:android-advanced-annotation"
 msgid "Advanced-Annotation AddOn"
-msgstr ""
+msgstr "Add-on voor geavanceerde annotaties"
 
+#, fuzzy
 msgctxt "license:name:android-advanced-annotation-with-pro"
 msgid "Advanced-Annotation AddOn (with Pro)"
-msgstr ""
+msgstr "Add-on voor geavanceerde annotaties (met Pro)"
 
+#, fuzzy
 msgctxt "license:feature-requires-higher-license"
 msgid "This function is included in the '{}' license."
-msgstr ""
+msgstr "Deze functie is opgenomen in de licentie '{}'."
 
+#, fuzzy
 msgctxt "license:info:license"
 msgid "License:"
-msgstr ""
+msgstr "Licentie:"
 
+#, fuzzy
 msgctxt "license:info:purchase-type"
 msgid "Purchase type:"
-msgstr ""
+msgstr "Aankoop type:"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:one-time-purchase"
 msgid "one-time purchase"
-msgstr ""
+msgstr "eenmalige aankoop"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:subscription"
 msgid "subscription"
-msgstr ""
+msgstr "abonnement"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:manual"
 msgid "manual activation"
-msgstr ""
+msgstr "handmatige activering"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:trial"
 msgid "trial"
-msgstr ""
+msgstr "proefversie"
 
+#, fuzzy
 msgctxt "license:info:status"
 msgid "Status:"
-msgstr ""
+msgstr "Toestand:"
 
+#, fuzzy
 msgctxt "license:info:status:active"
 msgid "active"
-msgstr ""
+msgstr "actief"
 
+#, fuzzy
 msgctxt "license:info:status:trial-expired"
 msgid "trial has expired"
-msgstr ""
+msgstr "proefperiode is verlopen"
 
+#, fuzzy
 msgctxt "license:info:status:product-expired"
 msgid "license has expired"
-msgstr ""
+msgstr "vergunning is verlopen"
 
+#, fuzzy
 msgctxt "license:info:status:incompatible"
 msgid "software version is incompatible"
-msgstr ""
+msgstr "softwareversie is niet compatibel"
 
+#, fuzzy
 msgctxt "license:info:status:deactivated"
 msgid "product was deactivated"
-msgstr ""
+msgstr "product is gedeactiveerd"
 
+#, fuzzy
 msgctxt "license:info:purchase-date"
 msgid "Purchase date:"
-msgstr ""
+msgstr "Aankoopdatum:"
 
+#, fuzzy
 msgctxt "license:info:trial-activation-date"
 msgid "Activation date:"
-msgstr ""
+msgstr "Activeer datum:"
 
+#, fuzzy
 msgctxt "license:info:expiration-date"
 msgid "Expiration date:"
-msgstr ""
+msgstr "Uiterste houdbaarheidsdatum:"
 
+#, fuzzy
 msgctxt "license:info:next-billing-date"
 msgid "Next billing date:"
-msgstr ""
+msgstr "Volgende factuurdatum:"
 
+#, fuzzy
 msgctxt "license:info:billing-period"
 msgid "Billing period:"
-msgstr ""
+msgstr "Factureringsperiode:"
 
+#, fuzzy
 msgctxt "license:info:billing-period:monthly"
 msgid "monthly"
-msgstr ""
+msgstr "maandelijks"
 
+#, fuzzy
 msgctxt "license:info:billing-period:annual"
 msgid "annual"
-msgstr ""
+msgstr "jaarlijks"
 
+#, fuzzy
 msgctxt "license:info:billing-period:undefined"
 msgid "custom"
-msgstr ""
+msgstr "aangepast"
 
+#, fuzzy
 msgctxt "license:info:num-assigned-licenses"
 msgid "Assigned licenses:"
-msgstr ""
+msgstr "Toegewezen licenties:"
 
+#, fuzzy
 msgctxt "license:info:num-assigned-licenses:num-of-total"
 msgid "{num} of {total}"
-msgstr ""
+msgstr "{num} van {totaal}"
 
+#, fuzzy
 msgctxt "license:info:last-compatible-version"
 msgid "Last compatible version:"
-msgstr ""
+msgstr "Laatste compatibele versie:"
 
+#, fuzzy
 msgctxt "license:info:license-user"
 msgid "User name:"
-msgstr ""
+msgstr "Gebruikersnaam:"
 
+#, fuzzy
 msgctxt "license:info:license-email"
 msgid "User email:"
-msgstr ""
+msgstr "E-mailadres van gebruiker:"
 
+#, fuzzy
 msgctxt "license-dialog:title"
 msgid "License"
-msgstr ""
+msgstr "Licentie"
 
+#, fuzzy
 msgctxt "license-dialog:enter-key"
 msgid "Enter key:"
-msgstr ""
+msgstr "Voer de sleutel in:"
 
+#, fuzzy
 msgctxt "license-dialog:send-key"
 msgid "Send"
-msgstr ""
+msgstr "Versturen"
 
+#, fuzzy
 msgctxt "license-dialog:start-trial"
 msgid "Start free trial"
-msgstr ""
+msgstr "Gratis proefperiode starten"
 
+#, fuzzy
 msgctxt "license-dialog:error"
 msgid "Error:"
-msgstr ""
+msgstr "Fout:"
 
+#, fuzzy
 msgctxt "license-dialog:active-license"
 msgid "Active license"
-msgstr ""
+msgstr "Actieve licentie"
 
+#, fuzzy
 msgctxt "license-dialog:revoke-license"
 msgid "Revoke"
-msgstr ""
+msgstr "Herroepen"
 
 #, fuzzy
 msgctxt "license-dialog:get-license-url"
-msgid ""
-"If you don't have a license key yet, you can get a license from the "
-"ImageMeter web page: <a href=\"https://imagemeter.com/\">https://imagemeter."
-"com</a>."
-msgstr ""
-"Als u nog geen licentiesleutel heeft, kunt u een licentie verkrijgen via de "
-"ImageMeter-webpagina: <a href=\"https://imagemeter.com/\">https://imagemeter."
-"com</a>."
+msgid "If you don't have a license key yet, you can get a license from the ImageMeter web page: <a href=\"https://imagemeter.com/\">https://imagemeter.com</a>."
+msgstr "Als u nog geen licentiesleutel heeft, kunt u een licentie verkrijgen via de ImageMeter-webpagina: <a href=\"https://imagemeter.com/\">https://imagemeter.com</a>."
 
+#, fuzzy
 msgctxt "license:check-key-server-response:window-title"
 msgid "Licence activation"
-msgstr ""
+msgstr "Licentie activatie"
 
+#, fuzzy
 msgctxt "license:check-key-server-response:license-has-been-activated"
 msgid "License has been successfully activated on this device."
-msgstr ""
+msgstr "De licentie is succesvol geactiveerd op dit apparaat."
 
+#, fuzzy
 msgctxt "license:check-key-server-response:error:invalid-key-entered"
 msgid "Invalid key, please check for typing mistakes."
-msgstr ""
+msgstr "Ongeldige sleutel. Controleer op typefouten."
 
 #, fuzzy
 msgctxt "entity-initialization:image-title:camera"
@@ -6359,32 +6269,8 @@ msgstr "Drie dagen"
 
 #, fuzzy
 msgctxt "stringscript:help:introtext"
-msgid ""
-"Enter the text that should appear here. You can add variables enclosed by "
-"{ } that will be substituted.\n"
-"\n"
-"Here are some example variables, but see below for the list of variables "
-"that are actually allowed here:\n"
-"{image.title} - image title\n"
-"{image.number} - the number you assigned to the image\n"
-"{folder.title} - title of the current folder\n"
-"{folder.parent.title} - title of the parent folder\n"
-"\n"
-"You can build complex expressions like this:\n"
-"{folder.title} / {image.number} - {image.title}"
-msgstr ""
-"Voer de tekst in die hier moet verschijnen. U kunt variabelen tussen { } "
-"toevoegen die worden vervangen.\n"
-"\n"
-"Hier zijn enkele voorbeeldvariabelen, maar zie hieronder voor de lijst met "
-"variabelen die hier daadwerkelijk zijn toegestaan:\n"
-"{image.title} - afbeeldingstitel\n"
-"{image.number} - het nummer dat je aan de afbeelding hebt toegewezen\n"
-"{folder.title} - titel van de huidige map\n"
-"{folder.parent.title} - titel van de bovenliggende map\n"
-"\n"
-"U kunt complexe uitdrukkingen als volgt bouwen:\n"
-"{folder.title} / {image.number} - {image.title}"
+msgid "Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n\nHere are some example variables, but see below for the list of variables that are actually allowed here:\n{image.title} - image title\n{image.number} - the number you assigned to the image\n{folder.title} - title of the current folder\n{folder.parent.title} - title of the parent folder\n\nYou can build complex expressions like this:\n{folder.title} / {image.number} - {image.title}"
+msgstr "Voer de tekst in die hier moet verschijnen. U kunt variabelen tussen { } toevoegen die worden vervangen.\n\nHier zijn enkele voorbeeldvariabelen, maar zie hieronder voor de lijst met variabelen die hier daadwerkelijk zijn toegestaan:\n{image.title} - afbeeldingstitel\n{image.number} - het nummer dat je aan de afbeelding hebt toegewezen\n{folder.title} - titel van de huidige map\n{folder.parent.title} - titel van de bovenliggende map\n\nU kunt complexe uitdrukkingen als volgt bouwen:\n{folder.title} / {image.number} - {image.title}"
 
 #, fuzzy
 msgctxt "stringscript:help:intro_toplevel_variables"
@@ -6393,12 +6279,8 @@ msgstr "Toegestane variabelen op het hoogste niveau:"
 
 #, fuzzy
 msgctxt "stringscript:help:intro_subelements"
-msgid ""
-"Each type may have sub-elements. Here is the list of sub-elements for each "
-"data type:"
-msgstr ""
-"Elk type kan subelementen hebben. Hier is de lijst met subelementen voor elk "
-"gegevenstype:"
+msgid "Each type may have sub-elements. Here is the list of sub-elements for each data type:"
+msgstr "Elk type kan subelementen hebben. Hier is de lijst met subelementen voor elk gegevenstype:"
 
 #, fuzzy
 msgctxt "stringscript:root:member:image"
@@ -6799,25 +6681,10 @@ msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
 msgstr "entiteit ongedaan maken"
 
+#, fuzzy
 msgctxt "android:permission-request:post-notifications:rationale"
-msgid ""
-"<h2>Notification Permission Request</h2>\n"
-"    <p>\n"
-"      ImageMeter will ask you for the permission to show notifications.\n"
-"      These will be used to show the:\n"
-"    </p>\n"
-"    <ul>\n"
-"      <li>progress of the background cloud sync and let you cancel it,</li>\n"
-"      <li>status of the Bluetooth connection to lasers,</li>\n"
-"      <li>progress of long export or import operations that run in the "
-"background,</li>\n"
-"      <li>background processing errors.</li>\n"
-"    </ul>\n"
-"    <p>\n"
-"      You can disable any of the notification channels independently in the "
-"Android app settings.\n"
-"    </p>"
-msgstr ""
+msgid "<h2>Notification Permission Request</h2>\n    <p>\n      ImageMeter will ask you for the permission to show notifications.\n      These will be used to show the:\n    </p>\n    <ul>\n      <li>progress of the background cloud sync and let you cancel it,</li>\n      <li>status of the Bluetooth connection to lasers,</li>\n      <li>progress of long export or import operations that run in the background,</li>\n      <li>background processing errors.</li>\n    </ul>\n    <p>\n      You can disable any of the notification channels independently in the Android app settings.\n    </p>"
+msgstr "<h2>Meldingstoestemmingsverzoek</h2>\n    <p>\n      ImageMeter zal u om toestemming vragen om meldingen te tonen.\n      Deze worden gebruikt om het volgende weer te geven:\n    </p>\n    <ul>\n      <li>de voortgang van de synchronisatie van de achtergrondwolk en laat u deze annuleren,</li>\n      <li>status van de Bluetooth-verbinding met lasers,</li>\n      <li>voortgang van langdurige export- of importbewerkingen die op de achtergrond worden uitgevoerd,</li>\n      <li>achtergrondverwerkingsfouten.</li>\n    </ul>\n    <p>\n      U kunt elk van de meldingskanalen afzonderlijk uitschakelen in de instellingen van de Android-app.\n    </p>"
 
 #, fuzzy
 #~ msgctxt "licensing:revoke-device:revoke-counter-info-message"
@@ -6854,3 +6721,4 @@ msgstr ""
 #~ msgctxt "license:name:desktop:pro"
 #~ msgid "Pro"
 #~ msgstr "Pro"
+
