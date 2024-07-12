@@ -5656,18 +5656,13 @@ msgctxt "licensing:revoke-device:revoke-counter-info-message:title"
 msgid "Really revoke this device's license ?"
 msgstr "Vraiment révoquer la licence de cet appareil ?"
 
-#, fuzzy
 msgctxt "licensing:revoke-device:revoke-counter-info-message"
 msgid ""
-"Do you really want to revoke the license of this device?\n"
+"Do you really want to revoke the license (ending with '…{code_end}') from "
+"this device?\n"
 "You can only do this {max_revokes} times in {period_days} days.\n"
 "You can still use {num_revokes} revokes during the current time period."
 msgstr ""
-"Voulez-vous vraiment révoquer la licence de cet appareil ?\n"
-"Vous ne pouvez effectuer cette opération que {max_revokes} fois en "
-"{period_days} jours.\n"
-"Vous pouvez toujours utiliser {num_revokes} révocations pendant la période "
-"actuelle."
 
 #, fuzzy
 msgctxt "licensing:revoke-device:success-message:title"
@@ -6592,6 +6587,19 @@ msgstr ""
 "      Vous pouvez désactiver n'importe lequel des canaux de notification "
 "indépendamment dans les paramètres de l'application Android.\n"
 "    </p>"
+
+#, fuzzy
+#~ msgctxt "licensing:revoke-device:revoke-counter-info-message"
+#~ msgid ""
+#~ "Do you really want to revoke the license of this device?\n"
+#~ "You can only do this {max_revokes} times in {period_days} days.\n"
+#~ "You can still use {num_revokes} revokes during the current time period."
+#~ msgstr ""
+#~ "Voulez-vous vraiment révoquer la licence de cet appareil ?\n"
+#~ "Vous ne pouvez effectuer cette opération que {max_revokes} fois en "
+#~ "{period_days} jours.\n"
+#~ "Vous pouvez toujours utiliser {num_revokes} révocations pendant la "
+#~ "période actuelle."
 
 #, fuzzy
 #~ msgctxt "licensing:revoke-device:success-message"

@@ -5950,17 +5950,13 @@ msgctxt "licensing:revoke-device:revoke-counter-info-message:title"
 msgid "Really revoke this device's license ?"
 msgstr "De licentie van dit apparaat echt intrekken?"
 
-#, fuzzy
 msgctxt "licensing:revoke-device:revoke-counter-info-message"
 msgid ""
-"Do you really want to revoke the license of this device?\n"
+"Do you really want to revoke the license (ending with '…{code_end}') from "
+"this device?\n"
 "You can only do this {max_revokes} times in {period_days} days.\n"
 "You can still use {num_revokes} revokes during the current time period."
 msgstr ""
-"Wil je echt de licentie van dit apparaat intrekken?\n"
-"U kunt dit slechts {max_revokes} keer doen in {period_days} dagen.\n"
-"Je kunt nog steeds {num_revokes} intrekkingen gebruiken tijdens de huidige "
-"periode."
 
 #, fuzzy
 msgctxt "licensing:revoke-device:success-message:title"
@@ -6822,6 +6818,18 @@ msgid ""
 "Android app settings.\n"
 "    </p>"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "licensing:revoke-device:revoke-counter-info-message"
+#~ msgid ""
+#~ "Do you really want to revoke the license of this device?\n"
+#~ "You can only do this {max_revokes} times in {period_days} days.\n"
+#~ "You can still use {num_revokes} revokes during the current time period."
+#~ msgstr ""
+#~ "Wil je echt de licentie van dit apparaat intrekken?\n"
+#~ "U kunt dit slechts {max_revokes} keer doen in {period_days} dagen.\n"
+#~ "Je kunt nog steeds {num_revokes} intrekkingen gebruiken tijdens de "
+#~ "huidige periode."
 
 #, fuzzy
 #~ msgctxt "licensing:revoke-device:success-message"

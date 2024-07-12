@@ -5961,17 +5961,13 @@ msgctxt "licensing:revoke-device:revoke-counter-info-message:title"
 msgid "Really revoke this device's license ?"
 msgstr "هل ترغب حقًا في إلغاء ترخيص هذا الجهاز؟"
 
-#, fuzzy
 msgctxt "licensing:revoke-device:revoke-counter-info-message"
 msgid ""
-"Do you really want to revoke the license of this device?\n"
+"Do you really want to revoke the license (ending with '…{code_end}') from "
+"this device?\n"
 "You can only do this {max_revokes} times in {period_days} days.\n"
 "You can still use {num_revokes} revokes during the current time period."
 msgstr ""
-"هل تريد حقًا إلغاء ترخيص هذا الجهاز؟\n"
-"يمكنك إجراء هذا {max_revoces} مرة فقط خلال {period_days} من الأيام.\n"
-"لا يزال بإمكانك استخدام {num_revoces} من عمليات الإلغاء خلال الفترة الزمنية "
-"الحالية."
 
 #, fuzzy
 msgctxt "licensing:revoke-device:success-message:title"
@@ -6846,6 +6842,18 @@ msgid ""
 "Android app settings.\n"
 "    </p>"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "licensing:revoke-device:revoke-counter-info-message"
+#~ msgid ""
+#~ "Do you really want to revoke the license of this device?\n"
+#~ "You can only do this {max_revokes} times in {period_days} days.\n"
+#~ "You can still use {num_revokes} revokes during the current time period."
+#~ msgstr ""
+#~ "هل تريد حقًا إلغاء ترخيص هذا الجهاز؟\n"
+#~ "يمكنك إجراء هذا {max_revoces} مرة فقط خلال {period_days} من الأيام.\n"
+#~ "لا يزال بإمكانك استخدام {num_revoces} من عمليات الإلغاء خلال الفترة "
+#~ "الزمنية الحالية."
 
 #, fuzzy
 #~ msgctxt "licensing:revoke-device:success-message"
