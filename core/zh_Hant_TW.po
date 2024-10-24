@@ -564,6 +564,10 @@ msgctxt "error:Cloud_BackendInitializationFailed"
 msgid "Cloud backend initialization failed: '{}'"
 msgstr ""
 
+msgctxt "error:Cloud_ServerPortNumberInvalid"
+msgid "Server port {} invalid"
+msgstr ""
+
 msgctxt "error:Cloud_CannotLoadUnsupportedBackend"
 msgid "Cannot load unsupported backend '{}'"
 msgstr ""
@@ -920,6 +924,14 @@ msgstr ""
 
 msgctxt "error:LibSSH2_SFTP_CannotReadDir"
 msgid "Cannot read SFTP directory '{0}'"
+msgstr ""
+
+msgctxt "error:CouldNotInitializeSSHSession"
+msgid "Could not initialize SSH session"
+msgstr ""
+
+msgctxt "error:CouldNotEstablishSSHSession"
+msgid "Could not establish SSH session"
 msgstr ""
 
 msgctxt "unit:translated-name:meter"
@@ -3496,6 +3508,12 @@ msgctxt "prefs:bluetooth:clipboard:keyboard-suffix-key"
 msgid "Key to press after measurement"
 msgstr ""
 
+msgctxt "android:prefs:bluetooth:device-selection:scan-instructions"
+msgid ""
+"Use the LE scan for modern devices. For older Bluetooth classic devices, use "
+"the classic scan."
+msgstr ""
+
 msgctxt "prefs:template:add:general-description"
 msgid ""
 "Choose the template that best matches your needs. You can further customize "
@@ -4857,7 +4875,7 @@ msgid ""
 msgstr ""
 
 msgctxt "licensing:revoke-device:dialog:device-entry"
-msgid "{devicename} (last use: {lastuse}, id: {id})"
+msgid "{devicename} (last use: {lastuse}, id: {id}, license: …{key})"
 msgstr ""
 
 msgctxt "licensing:revoke-device:dialog:revoke-counter"

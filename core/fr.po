@@ -245,11 +245,13 @@ msgstr "Erreur d'analyse du fichier IFD."
 
 msgctxt "error:CannotLockPath-readLock"
 msgid "Cannot read file '{}' because it is currently being modified."
-msgstr "Impossible de lire le fichier '{}' car il est en cours de modification."
+msgstr ""
+"Impossible de lire le fichier '{}' car il est en cours de modification."
 
 msgctxt "error:CannotLockPath-writeLock"
 msgid "Cannot modify file '{}' because it is currently in use."
-msgstr "Impossible de modifier le fichier '{}' car il est en cours d'utilisation."
+msgstr ""
+"Impossible de modifier le fichier '{}' car il est en cours d'utilisation."
 
 msgctxt "error:UnknownFileFormat"
 msgid "File '{}' has unknown format."
@@ -286,8 +288,12 @@ msgstr "Erreur OpenGL: \"{}\"."
 
 #
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
-msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
-msgstr "Pas assez de mémoire pour effectuer le rendu à la résolution de sortie {}. Veuillez réduire la résolution de sortie."
+msgid ""
+"Not enough memory to render at output resolution {}. Please reduce the "
+"output resolution."
+msgstr ""
+"Pas assez de mémoire pour effectuer le rendu à la résolution de sortie {}. "
+"Veuillez réduire la résolution de sortie."
 
 msgctxt "error:CannotRenderImage"
 msgid "Cannot render image \"{}\"."
@@ -303,7 +309,8 @@ msgstr "Impossible de charger les données auxiliaires."
 
 msgctxt "error:EditCore_CannotPurgeUnusedAuxiliaryFiles"
 msgid "Cannot delete unused auxiliary data files."
-msgstr "Impossible de supprimer les fichiers de données auxiliaires inutilisés."
+msgstr ""
+"Impossible de supprimer les fichiers de données auxiliaires inutilisés."
 
 msgctxt "error:GText_CannotAddDetailImage"
 msgid "Cannot add the detail image \"{}\"."
@@ -456,7 +463,9 @@ msgstr "Erreur du serveur: {}"
 #
 msgctxt "error:Cloud_FileLockedOnServer"
 msgid "File is locked on server. Please retry upload at a later time."
-msgstr "Le fichier est verrouillé sur le serveur. Veuillez réessayer l'importation ultérieurement."
+msgstr ""
+"Le fichier est verrouillé sur le serveur. Veuillez réessayer l'importation "
+"ultérieurement."
 
 #
 msgctxt "error:Cloud_ServerBlocked"
@@ -585,6 +594,10 @@ msgstr "Impossible de trouver un nom unique pour '{}'"
 msgctxt "error:Cloud_BackendInitializationFailed"
 msgid "Cloud backend initialization failed: '{}'"
 msgstr "Échec de l'initialisation du backend cloud : '{}'"
+
+msgctxt "error:Cloud_ServerPortNumberInvalid"
+msgid "Server port {} invalid"
+msgstr ""
 
 #, fuzzy
 msgctxt "error:Cloud_CannotLoadUnsupportedBackend"
@@ -718,8 +731,12 @@ msgstr "Nombre maximum d'appareils sous licence atteint."
 
 #, fuzzy
 msgctxt "error:Licensing_RevokesExhausted"
-msgid "You have already used all available {max_revokes} revokes during the past {period_days} days."
-msgstr "Vous avez déjà utilisé toutes les révocations de {max_revokes} disponibles au cours des {period_days} derniers jours."
+msgid ""
+"You have already used all available {max_revokes} revokes during the past "
+"{period_days} days."
+msgstr ""
+"Vous avez déjà utilisé toutes les révocations de {max_revokes} disponibles "
+"au cours des {period_days} derniers jours."
 
 #, fuzzy
 msgctxt "error:Licensing_DeviceNotActive"
@@ -840,8 +857,11 @@ msgstr "La caméra '{}' a été configurée sur un système différent."
 
 #
 msgctxt "error:QtCamera_MultipleDifferentStreams"
-msgid "Cannot start video because another stream with different settings is active."
-msgstr "Impossible de démarrer la vidéo car un autre flux avec des paramètres différents est actif."
+msgid ""
+"Cannot start video because another stream with different settings is active."
+msgstr ""
+"Impossible de démarrer la vidéo car un autre flux avec des paramètres "
+"différents est actif."
 
 #
 msgctxt "error:NoCameraConfigured"
@@ -981,7 +1001,8 @@ msgstr "Impossible de connecter la prise"
 #, fuzzy
 msgctxt "error:SFTP_ServerDoesNotAcceptPasswordAuthentication"
 msgid "SFTP server does not accept password authentication method."
-msgstr "Le serveur SFTP n'accepte pas la méthode d'authentification par mot de passe."
+msgstr ""
+"Le serveur SFTP n'accepte pas la méthode d'authentification par mot de passe."
 
 #, fuzzy
 msgctxt "error:SFTP_PasswordAuthenticationFailed"
@@ -1002,6 +1023,14 @@ msgstr "Impossible d'ouvrir le répertoire SFTP '{0}'"
 msgctxt "error:LibSSH2_SFTP_CannotReadDir"
 msgid "Cannot read SFTP directory '{0}'"
 msgstr "Impossible de lire le répertoire SFTP '{0}'"
+
+msgctxt "error:CouldNotInitializeSSHSession"
+msgid "Could not initialize SSH session"
+msgstr ""
+
+msgctxt "error:CouldNotEstablishSSHSession"
+msgid "Could not establish SSH session"
+msgstr ""
 
 msgctxt "unit:translated-name:meter"
 msgid "m"
@@ -1219,8 +1248,12 @@ msgstr "Ajouter un point après les nombres ambigus"
 
 #
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
-msgid "When enabled, a dot is placed after numbers that are ambiguous when read upside down, like this: 66."
-msgstr "Lorsqu'il est activé, un point est placé après les nombres qui sont ambigus lorsqu'ils sont lus à l'envers, comme ceci : 66."
+msgid ""
+"When enabled, a dot is placed after numbers that are ambiguous when read "
+"upside down, like this: 66."
+msgstr ""
+"Lorsqu'il est activé, un point est placé après les nombres qui sont ambigus "
+"lorsqu'ils sont lus à l'envers, comme ceci : 66."
 
 #
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
@@ -1239,8 +1272,12 @@ msgstr "Ajouter un point si nécessaire"
 
 #
 msgctxt "dimformat:options-ui:show-units:title:tooltip"
-msgid "When disabled, measures are shown without the unit. I.e. just the plain number '23' instead of '23 cm'."
-msgstr "Lorsqu'elle est désactivée, les mesures sont affichées sans l'unité. C'est à dire. juste le nombre '23' au lieu de '23 cm'."
+msgid ""
+"When disabled, measures are shown without the unit. I.e. just the plain "
+"number '23' instead of '23 cm'."
+msgstr ""
+"Lorsqu'elle est désactivée, les mesures sont affichées sans l'unité. C'est à "
+"dire. juste le nombre '23' au lieu de '23 cm'."
 
 msgctxt "dimformat:options-ui:show-units:title"
 msgid "Show units"
@@ -1661,12 +1698,14 @@ msgstr "copie"
 #
 msgctxt "entities:cannot_delete_image:in_use"
 msgid "Cannot delete image '{0}' because it is in use by '{1}'."
-msgstr "Impossible de modifier le fichier '{}' car il est en cours d'utilisation."
+msgstr ""
+"Impossible de modifier le fichier '{}' car il est en cours d'utilisation."
 
 #
 msgctxt "entities:cannot_delete_folder:in_use"
 msgid "Cannot delete folder '{0}' because it is in use by '{1}'."
-msgstr "Impossible de modifier le fichier '{}' car il est en cours d'utilisation."
+msgstr ""
+"Impossible de modifier le fichier '{}' car il est en cours d'utilisation."
 
 #
 msgctxt "entities:cannot_move_folder:into_itself"
@@ -1676,7 +1715,8 @@ msgstr "Impossible de renommer le dossier '{}' sur le serveur"
 #
 msgctxt "entities:cannot_rename_image:in_use"
 msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
-msgstr "Impossible de modifier le fichier '{}' car il est en cours d'utilisation."
+msgstr ""
+"Impossible de modifier le fichier '{}' car il est en cours d'utilisation."
 
 #
 msgctxt "image-library:breadcrumbs:root-folder"
@@ -1686,17 +1726,23 @@ msgstr "Racine"
 #
 msgctxt "image-library:company-policy:may-not-add-folder-here"
 msgid "Your company policy does not allow to add a new folder at this place."
-msgstr "La politique de votre entreprise ne permet pas d'ajouter un nouveau dossier à cet endroit."
+msgstr ""
+"La politique de votre entreprise ne permet pas d'ajouter un nouveau dossier "
+"à cet endroit."
 
 #
 msgctxt "image-library:company-policy:may-not-add-image-here"
 msgid "Your company policy does not allow to add a new image at this place."
-msgstr "La politique de votre entreprise ne permet pas d'ajouter une nouvelle image à cet endroit."
+msgstr ""
+"La politique de votre entreprise ne permet pas d'ajouter une nouvelle image "
+"à cet endroit."
 
 #
 msgctxt "image-library:company-policy:may-not-delete-here"
 msgid "Your company policy does not allow to delete items at this place."
-msgstr "La politique de votre entreprise ne permet pas de supprimer des éléments à cet endroit."
+msgstr ""
+"La politique de votre entreprise ne permet pas de supprimer des éléments à "
+"cet endroit."
 
 #
 msgctxt "image-library:move:target-folder:dialog-title"
@@ -1907,13 +1953,19 @@ msgstr "L'image est déjà dans la bibliothèque. Voulez-vous faire une copie ?
 
 #
 msgctxt "rendering:watermark"
-msgid "Evaluation copy\nPlease upgrade to remove watermark"
-msgstr "Copie d'évaluation\nVeuillez mettre à niveau pour supprimer le filigrane"
+msgid ""
+"Evaluation copy\n"
+"Please upgrade to remove watermark"
+msgstr ""
+"Copie d'évaluation\n"
+"Veuillez mettre à niveau pour supprimer le filigrane"
 
 #
 msgctxt "export:resolution-too-small"
 msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
-msgstr "La résolution de sortie est trop petite. La valeur minimale est de {0}x{1} pixels."
+msgstr ""
+"La résolution de sortie est trop petite. La valeur minimale est de {0}x{1} "
+"pixels."
 
 #
 msgctxt "export:image-not-saved:dialog-title"
@@ -1941,8 +1993,16 @@ msgstr "Écrasement destructif"
 
 #
 msgctxt "export:overwrite-plain-image:message"
-msgid "If you overwrite the original image file '{}' with your annotations, you cannot change it later. The original image will be lost.\nIt is recommended to save to a different file or save as an IMI file that can still be edited lated."
-msgstr "Si vous écrasez le fichier image d'origine '{}' avec vos annotations, vous ne pourrez pas le modifier ultérieurement. L'image d'origine sera perdue.\nIl est recommandé d'enregistrer dans un fichier différent ou d'enregistrer en tant que fichier IMI qui peut encore être modifié ultérieurement."
+msgid ""
+"If you overwrite the original image file '{}' with your annotations, you "
+"cannot change it later. The original image will be lost.\n"
+"It is recommended to save to a different file or save as an IMI file that "
+"can still be edited lated."
+msgstr ""
+"Si vous écrasez le fichier image d'origine '{}' avec vos annotations, vous "
+"ne pourrez pas le modifier ultérieurement. L'image d'origine sera perdue.\n"
+"Il est recommandé d'enregistrer dans un fichier différent ou d'enregistrer "
+"en tant que fichier IMI qui peut encore être modifié ultérieurement."
 
 #
 msgctxt "export:overwrite-plain-image:button:save-as-image"
@@ -1961,13 +2021,18 @@ msgstr "Sortie des images dans le répertoire"
 
 #
 msgctxt "export:image:invalid-filename-suffix"
-msgid "You specified an invalid file suffix (please use one of the supported formats)"
-msgstr "Vous avez spécifié un suffixe de fichier non valide (veuillez utiliser l'un des formats pris en charge)"
+msgid ""
+"You specified an invalid file suffix (please use one of the supported "
+"formats)"
+msgstr ""
+"Vous avez spécifié un suffixe de fichier non valide (veuillez utiliser l'un "
+"des formats pris en charge)"
 
 #
 msgctxt "export:specific-format:invalid-filename-suffix"
 msgid "You cannot change the file type (must have {} suffix)"
-msgstr "Vous ne pouvez pas modifier le type de fichier (doit avoir le suffixe {})"
+msgstr ""
+"Vous ne pouvez pas modifier le type de fichier (doit avoir le suffixe {})"
 
 #, fuzzy
 msgctxt "export:save-original-images:some-nonphotos:title"
@@ -1976,8 +2041,12 @@ msgstr "Sauvegarde des images originales"
 
 #, fuzzy
 msgctxt "export:save-original-images:some-nonphotos:description"
-msgid "Some of the images you have saved were no photos. No original photo has been saved for those images."
-msgstr "Certaines des images que vous avez enregistrées n'étaient pas des photos. Aucune photo originale n'a été enregistrée pour ces images."
+msgid ""
+"Some of the images you have saved were no photos. No original photo has been "
+"saved for those images."
+msgstr ""
+"Certaines des images que vous avez enregistrées n'étaient pas des photos. "
+"Aucune photo originale n'a été enregistrée pour ces images."
 
 msgctxt "image-export:size:group-title"
 msgid "Image size"
@@ -2075,8 +2144,17 @@ msgid "Automatic background removal"
 msgstr "Suppression automatique de l'arrière-plan"
 
 msgctxt "image-export:company-logo:auto-remove-background:info:description"
-msgid "Removes a solid background color from your logo image. For this to work, the logo must have a consistent background color (no gradient) and the image should preferably be a PNG image (not a JPEG), as the JPEG's compression artifacts can introduce color distortions that cannot be removed."
-msgstr "Supprime une couleur d'arrière-plan unie de l'image de votre logo. Pour que cela fonctionne, le logo doit avoir une couleur de fond cohérente (pas de dégradé) et l'image doit de préférence être une image PNG (pas un JPEG), car les artefacts de compression du JPEG peuvent introduire des distorsions de couleur qui ne peuvent pas être supprimées."
+msgid ""
+"Removes a solid background color from your logo image. For this to work, the "
+"logo must have a consistent background color (no gradient) and the image "
+"should preferably be a PNG image (not a JPEG), as the JPEG's compression "
+"artifacts can introduce color distortions that cannot be removed."
+msgstr ""
+"Supprime une couleur d'arrière-plan unie de l'image de votre logo. Pour que "
+"cela fonctionne, le logo doit avoir une couleur de fond cohérente (pas de "
+"dégradé) et l'image doit de préférence être une image PNG (pas un JPEG), car "
+"les artefacts de compression du JPEG peuvent introduire des distorsions de "
+"couleur qui ne peuvent pas être supprimées."
 
 #, fuzzy
 msgctxt "image-export:company-logo:auto-border-size"
@@ -2248,7 +2326,8 @@ msgstr "Imprimer les notes du dossier"
 
 msgctxt "export:pdf:print-folder-notes:description:on"
 msgid "Page with folder notes and TOC will be printed"
-msgstr "La page avec les notes de dossier et la table des matières seront imprimés"
+msgstr ""
+"La page avec les notes de dossier et la table des matières seront imprimés"
 
 msgctxt "export:pdf:print-folder-notes:description:off"
 msgid "No folder notes will be printed"
@@ -2368,8 +2447,12 @@ msgstr "Aucun modèle commun n'est défini."
 
 #
 msgctxt "export:csv:entities-have-no-common-template:details"
-msgid "You need to assign a template to each image and folder that you export. You have to use the same template for each image and folder."
-msgstr "Vous devez attribuer un modèle à chaque image et dossier que vous exportez. Vous devez utiliser le même modèle pour chaque image et dossier."
+msgid ""
+"You need to assign a template to each image and folder that you export. You "
+"have to use the same template for each image and folder."
+msgstr ""
+"Vous devez attribuer un modèle à chaque image et dossier que vous exportez. "
+"Vous devez utiliser le même modèle pour chaque image et dossier."
 
 #
 msgctxt "export:tablespec-to-export:dialog-title"
@@ -2453,8 +2536,12 @@ msgid "Show on map"
 msgstr "Afficher sur la carte"
 
 msgctxt "editor:attach:error_no_reference_to_attach_to"
-msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
-msgstr "Il n'y a pas de référence dans l'image! Vous devez dessiner une référence pour effectuer des calculs automatiques."
+msgid ""
+"There is no reference in the image! You need to draw a reference in order to "
+"do automatic computations."
+msgstr ""
+"Il n'y a pas de référence dans l'image! Vous devez dessiner une référence "
+"pour effectuer des calculs automatiques."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -2462,15 +2549,23 @@ msgstr "Il n'y a aucune mesure qui puissent être calculée."
 
 msgctxt "editor:attach:info_element_has_been_attached_to_single_reference"
 msgid "Measure is computed based on the reference you provided."
-msgstr "La mesure est calculée en fonction de la référence que vous avez fournie."
+msgstr ""
+"La mesure est calculée en fonction de la référence que vous avez fournie."
 
 msgctxt "editor:attach:hint_howto_attach_to_reference"
-msgid "Click on the measure you want to compute based on the selected reference."
-msgstr "Cliquez sur la mesure que vous voulez estimer par rapport à la référence sélectionnée."
+msgid ""
+"Click on the measure you want to compute based on the selected reference."
+msgstr ""
+"Cliquez sur la mesure que vous voulez estimer par rapport à la référence "
+"sélectionnée."
 
 msgctxt "editor:attach:hint_howto_attach_measure"
-msgid "Click on the reference based on which you want to calculate the selected measure."
-msgstr "Cliquez sur la référence que vous désirez utiliser pour calculer la mesure sélectionnée."
+msgid ""
+"Click on the reference based on which you want to calculate the selected "
+"measure."
+msgstr ""
+"Cliquez sur la référence que vous désirez utiliser pour calculer la mesure "
+"sélectionnée."
 
 #
 msgctxt "editor:attach:messagebox:title"
@@ -2513,8 +2608,15 @@ msgstr "Tentative de chargement d'un format de fichier non pris en charge"
 
 #
 msgctxt "editor:loaded-image-has-more-recent-version:warning"
-msgid "This image has been saved with a more recent version. You need at least version {} to load this image correctly. You can still try to open this file, but some parts of it might be missing."
-msgstr "Cette image a été enregistrée avec une version plus récente. Vous avez besoin d'au moins la version {} pour charger correctement cette image. Vous pouvez toujours essayer d'ouvrir ce fichier, mais certaines parties peuvent être manquantes."
+msgid ""
+"This image has been saved with a more recent version. You need at least "
+"version {} to load this image correctly. You can still try to open this "
+"file, but some parts of it might be missing."
+msgstr ""
+"Cette image a été enregistrée avec une version plus récente. Vous avez "
+"besoin d'au moins la version {} pour charger correctement cette image. Vous "
+"pouvez toujours essayer d'ouvrir ce fichier, mais certaines parties peuvent "
+"être manquantes."
 
 #
 msgctxt "editor:overwrite-image-with-more-recent-version:title"
@@ -2523,8 +2625,14 @@ msgstr "Remplacer par une image incomplètement chargée"
 
 #
 msgctxt "editor:overwrite-image-with-more-recent-version:warning"
-msgid "This image has only been loaded partially because it was written with a more recent software version. If you save this image now, parts of the information in the original file gets lost."
-msgstr "Cette image n'a été chargée que partiellement car elle a été écrite avec une version logicielle plus récente. Si vous enregistrez cette image maintenant, une partie des informations du fichier d'origine sera perdue."
+msgid ""
+"This image has only been loaded partially because it was written with a more "
+"recent software version. If you save this image now, parts of the "
+"information in the original file gets lost."
+msgstr ""
+"Cette image n'a été chargée que partiellement car elle a été écrite avec une "
+"version logicielle plus récente. Si vous enregistrez cette image maintenant, "
+"une partie des informations du fichier d'origine sera perdue."
 
 #
 msgctxt "editor:overwrite-image-with-more-recent-version:question"
@@ -3219,8 +3327,11 @@ msgstr "Développer"
 
 #
 msgctxt "editor:rounded-polyline:action:expand:invalid-expansion-offset"
-msgid "Invalid expansion offset. This offset value would lead to an invalid shape."
-msgstr "Décalage d'expansion non valide. Cette valeur de décalage conduirait à une forme invalide."
+msgid ""
+"Invalid expansion offset. This offset value would lead to an invalid shape."
+msgstr ""
+"Décalage d'expansion non valide. Cette valeur de décalage conduirait à une "
+"forme invalide."
 
 #
 msgctxt "editor:rounded-polyline:expand:dialog:window-title"
@@ -3572,8 +3683,13 @@ msgstr "Vitesse de déplacement réduite"
 
 #, fuzzy
 msgctxt "prefs:editor:ui:point-dragging-slowdown:info"
-msgid "When you press the 'Alt' key while dragging a point, the dragging speed is reduced by this factor to that it is easier to accurately set the position."
-msgstr "Lorsque vous appuyez sur la touche « Alt » tout en faisant glisser un point, la vitesse de déplacement est réduite de ce facteur, de sorte qu'il est plus facile de définir la position avec précision."
+msgid ""
+"When you press the 'Alt' key while dragging a point, the dragging speed is "
+"reduced by this factor to that it is easier to accurately set the position."
+msgstr ""
+"Lorsque vous appuyez sur la touche « Alt » tout en faisant glisser un point, "
+"la vitesse de déplacement est réduite de ce facteur, de sorte qu'il est plus "
+"facile de définir la position avec précision."
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
 msgid "Snap to object corners"
@@ -3637,12 +3753,19 @@ msgstr "1 ft"
 #
 msgctxt "prefs:editor:snapping:distance-step-size:tooltip"
 msgid "Snap to multiples of this distance (only for rectangles and distance)."
-msgstr "Accrochez-vous à des multiples de cette distance (uniquement pour les rectangles et la distance)."
+msgstr ""
+"Accrochez-vous à des multiples de cette distance (uniquement pour les "
+"rectangles et la distance)."
 
 #
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
-msgid "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and rectangle sides will be restricted to steps of this size."
-msgstr "Entrez une distance avec l'unité (par exemple, 10cm, 1ft ou 1'). Les dimensions dessinées et les côtés du rectangle seront limités aux étapes de cette taille."
+msgid ""
+"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
+"rectangle sides will be restricted to steps of this size."
+msgstr ""
+"Entrez une distance avec l'unité (par exemple, 10cm, 1ft ou 1'). Les "
+"dimensions dessinées et les côtés du rectangle seront limités aux étapes de "
+"cette taille."
 
 #
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
@@ -3893,10 +4016,20 @@ msgctxt "prefs:bluetooth:clipboard:keyboard-suffix-key"
 msgid "Key to press after measurement"
 msgstr "Touche à appuyer après la mesure"
 
+msgctxt "android:prefs:bluetooth:device-selection:scan-instructions"
+msgid ""
+"Use the LE scan for modern devices. For older Bluetooth classic devices, use "
+"the classic scan."
+msgstr ""
+
 #
 msgctxt "prefs:template:add:general-description"
-msgid "Choose the template that best matches your needs. You can further customize it later."
-msgstr "Choisissez le modèle qui correspond le mieux à vos besoins. Vous pouvez le personnaliser davantage plus tard."
+msgid ""
+"Choose the template that best matches your needs. You can further customize "
+"it later."
+msgstr ""
+"Choisissez le modèle qui correspond le mieux à vos besoins. Vous pouvez le "
+"personnaliser davantage plus tard."
 
 #
 msgctxt "prefs:template:add:dialog-title"
@@ -3965,8 +4098,11 @@ msgstr "Type de contenu"
 
 #
 msgctxt "prefs:template:custom:tag:list-header:content-type:tooltip"
-msgid "The content type limits to which kind of elements the tag can be attached."
-msgstr "Le type de contenu limite les types d'éléments auxquels la balise peut être attachée."
+msgid ""
+"The content type limits to which kind of elements the tag can be attached."
+msgstr ""
+"Le type de contenu limite les types d'éléments auxquels la balise peut être "
+"attachée."
 
 #
 msgctxt "prefs:template:tablespec:list-header:name"
@@ -3995,8 +4131,12 @@ msgstr "Titre de la colonne"
 
 #
 msgctxt "prefs:template:partlist:tags:list-header:column-title:tooltip"
-msgid "The column name for this tag in the table output. If left empty, the tag name will be used as column title."
-msgstr "Nom de la colonne pour cette balise dans la sortie du tableau. Si laissé vide, le nom de la balise sera utilisé comme titre de colonne."
+msgid ""
+"The column name for this tag in the table output. If left empty, the tag "
+"name will be used as column title."
+msgstr ""
+"Nom de la colonne pour cette balise dans la sortie du tableau. Si laissé "
+"vide, le nom de la balise sera utilisé comme titre de colonne."
 
 #
 msgctxt "prefs:template:areasum:tags:list-header:subtract"
@@ -4090,8 +4230,14 @@ msgstr "Contenu de la colonne"
 
 #
 msgctxt "prefs:template:custom:tablespec:columns:content:tooltip"
-msgid "Specify the cell content in this column. This can be either a measurement value that you annotated with a tag, or image metadata (e.g. image name, capture date)."
-msgstr "Spécifiez le contenu de la cellule dans cette colonne. Cela peut être soit une valeur de mesure que vous avez annotée avec une balise, soit des métadonnées d'image (par exemple, le nom de l'image, la date de capture)."
+msgid ""
+"Specify the cell content in this column. This can be either a measurement "
+"value that you annotated with a tag, or image metadata (e.g. image name, "
+"capture date)."
+msgstr ""
+"Spécifiez le contenu de la cellule dans cette colonne. Cela peut être soit "
+"une valeur de mesure que vous avez annotée avec une balise, soit des "
+"métadonnées d'image (par exemple, le nom de l'image, la date de capture)."
 
 #
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip-title"
@@ -4100,8 +4246,14 @@ msgstr "Sélection de mesure"
 
 #
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip"
-msgid "Here, you define which measurement of the tagged element to put into this column. E.g. for a circle you can choose between its area, radius, circumference, …"
-msgstr "Ici, vous définissez quelle mesure de l'élément étiqueté à mettre dans cette colonne. Par exemple. pour un cercle vous pouvez choisir entre son aire, son rayon, sa circonférence, …"
+msgid ""
+"Here, you define which measurement of the tagged element to put into this "
+"column. E.g. for a circle you can choose between its area, radius, "
+"circumference, …"
+msgstr ""
+"Ici, vous définissez quelle mesure de l'élément étiqueté à mettre dans cette "
+"colonne. Par exemple. pour un cercle vous pouvez choisir entre son aire, son "
+"rayon, sa circonférence, …"
 
 #
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip-title"
@@ -4110,8 +4262,15 @@ msgstr "Plusieurs valeurs par cellule"
 
 #
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip"
-msgid "When several elements are assigned the same tag, several values will be placed into one cell. Here you can choose to sum these values, take their average, or other options instead of keeping all in one cell."
-msgstr "Lorsque plusieurs éléments sont affectés à la même balise, plusieurs valeurs seront placées dans une cellule. Ici, vous pouvez choisir de faire la somme de ces valeurs, de prendre leur moyenne ou d'autres options au lieu de tout conserver dans une seule cellule."
+msgid ""
+"When several elements are assigned the same tag, several values will be "
+"placed into one cell. Here you can choose to sum these values, take their "
+"average, or other options instead of keeping all in one cell."
+msgstr ""
+"Lorsque plusieurs éléments sont affectés à la même balise, plusieurs valeurs "
+"seront placées dans une cellule. Ici, vous pouvez choisir de faire la somme "
+"de ces valeurs, de prendre leur moyenne ou d'autres options au lieu de tout "
+"conserver dans une seule cellule."
 
 #
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip-title"
@@ -4120,8 +4279,13 @@ msgstr "Le nombre de colonnes"
 
 #
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip"
-msgid "Creates this number of columns to fill in values with this tag. Use this when you have several measurements with the same tag in one image."
-msgstr "Crée ce nombre de colonnes pour remplir les valeurs avec cette balise. Utilisez-le lorsque vous avez plusieurs mesures avec la meme étiquette dans une image."
+msgid ""
+"Creates this number of columns to fill in values with this tag. Use this "
+"when you have several measurements with the same tag in one image."
+msgstr ""
+"Crée ce nombre de colonnes pour remplir les valeurs avec cette balise. "
+"Utilisez-le lorsque vous avez plusieurs mesures avec la meme étiquette dans "
+"une image."
 
 #
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip-title"
@@ -4130,8 +4294,13 @@ msgstr "Contenu de la ligne de pied de page"
 
 #
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip"
-msgid "What to place in the footer row of the table. Options include the sum of all values in the column, the maximum, the average, and other options."
-msgstr "Que placer dans la ligne de pied de page du tableau. Les options incluent la somme de toutes les valeurs de la colonne, le maximum, la moyenne et d'autres options."
+msgid ""
+"What to place in the footer row of the table. Options include the sum of all "
+"values in the column, the maximum, the average, and other options."
+msgstr ""
+"Que placer dans la ligne de pied de page du tableau. Les options incluent la "
+"somme de toutes les valeurs de la colonne, le maximum, la moyenne et "
+"d'autres options."
 
 #
 msgctxt "prefs:template:areasum:tablespec:dialog-title"
@@ -4285,7 +4454,8 @@ msgstr "Automatique"
 #, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action"
 msgid "When closing image with unsaved changes"
-msgstr "Lors de la fermeture d'une image avec des modifications non enregistrées"
+msgstr ""
+"Lors de la fermeture d'une image avec des modifications non enregistrées"
 
 #, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action:ask"
@@ -4320,7 +4490,8 @@ msgstr "fenêtre active"
 #, fuzzy
 msgctxt "prefs:ui:dont-ask-again:duplicate-entities-dialog"
 msgid "Show options dialog when duplicating images"
-msgstr "Afficher la boîte de dialogue d'options lors de la duplication d'images"
+msgstr ""
+"Afficher la boîte de dialogue d'options lors de la duplication d'images"
 
 #, fuzzy
 msgctxt "prefs:ui:category:dont-ask-again-option-dialogs"
@@ -4525,7 +4696,9 @@ msgstr "Aucun"
 #, fuzzy
 msgctxt "prefs:sync:twoway-and-anno-directories-must-be-different:msg"
 msgid "You have to use different paths for two-way sync and image upload."
-msgstr "Vous devez utiliser des chemins différents pour la synchronisation bidirectionnelle et le téléchargement d'images."
+msgstr ""
+"Vous devez utiliser des chemins différents pour la synchronisation "
+"bidirectionnelle et le téléchargement d'images."
 
 #, fuzzy
 msgctxt "bluetooth:device-test:title"
@@ -4604,8 +4777,14 @@ msgstr "Aucun périphérique Bluetooth configuré"
 
 #, fuzzy
 msgctxt "bluetooth:no-device-configured-dialog:text(pc)"
-msgid "You have not yet configured any Bluetooth laser distance meter.\n\nPlease select your device in the settings."
-msgstr "Vous n'avez encore configuré aucun télémètre laser Bluetooth.\n\nVeuillez sélectionner votre appareil dans les paramètres."
+msgid ""
+"You have not yet configured any Bluetooth laser distance meter.\n"
+"\n"
+"Please select your device in the settings."
+msgstr ""
+"Vous n'avez encore configuré aucun télémètre laser Bluetooth.\n"
+"\n"
+"Veuillez sélectionner votre appareil dans les paramètres."
 
 #, fuzzy
 msgctxt "bluetooth:no-device-configured-dialog:open-prefs:button(pc)"
@@ -4694,8 +4873,11 @@ msgstr "Enregistrer la vidéo en direct"
 
 #
 msgctxt "live-camera:save:live-or-capture:text"
-msgid "Save a captured image of the live video or a live camera placeholder image?"
-msgstr "Enregistrer une image capturée de la vidéo en direct ou une image d'espace réservé de caméra en direct ?"
+msgid ""
+"Save a captured image of the live video or a live camera placeholder image?"
+msgstr ""
+"Enregistrer une image capturée de la vidéo en direct ou une image d'espace "
+"réservé de caméra en direct ?"
 
 #
 msgctxt "live-camera:save:live-or-capture:captured-image"
@@ -4714,8 +4896,12 @@ msgstr "Mémoriser l'étalonnage de la caméra"
 
 #
 msgctxt "camera-calibration:overwrite-existing:ask-overwrite"
-msgid "There is already a calibration stored for this camera at this resolution. Do you want to overwrite the existing calibration?"
-msgstr "Il y a déjà un calibrage enregistré pour cette caméra à cette résolution. Voulez-vous écraser l'étalonnage existant ?"
+msgid ""
+"There is already a calibration stored for this camera at this resolution. Do "
+"you want to overwrite the existing calibration?"
+msgstr ""
+"Il y a déjà un calibrage enregistré pour cette caméra à cette résolution. "
+"Voulez-vous écraser l'étalonnage existant ?"
 
 #
 msgctxt "camera-calibration:saved:confirmation-message"
@@ -4744,8 +4930,13 @@ msgstr "Nouveau modèle personnalisé"
 
 #
 msgctxt "templ:custom:long-description"
-msgid "Each image fills one row in the table. You may assign a tag to each measurement. Each table column contains the measurement for a specific tag."
-msgstr "Chaque image remplit une ligne du tableau. Vous pouvez attribuer une étiquette à chaque mesure. Chaque colonne du tableau contient la mesure d'une étiquette spécifique."
+msgid ""
+"Each image fills one row in the table. You may assign a tag to each "
+"measurement. Each table column contains the measurement for a specific tag."
+msgstr ""
+"Chaque image remplit une ligne du tableau. Vous pouvez attribuer une "
+"étiquette à chaque mesure. Chaque colonne du tableau contient la mesure "
+"d'une étiquette spécifique."
 
 #
 msgctxt "templ:custom:column-content:empty"
@@ -4859,8 +5050,14 @@ msgstr "Surface de plancher"
 
 #
 msgctxt "templ:areasum:long-description:wallarea"
-msgid "This template is the basis for area computations. The area of some elements is added to the sum (e.g. walls), while other elements are subtracted (e.g. windows)."
-msgstr "Ce modèle est la base des calculs de surface. La surface de certains éléments est ajoutée à la somme (par exemple les murs), tandis que d'autres éléments sont soustraits (par exemple les fenêtres)."
+msgid ""
+"This template is the basis for area computations. The area of some elements "
+"is added to the sum (e.g. walls), while other elements are subtracted (e.g. "
+"windows)."
+msgstr ""
+"Ce modèle est la base des calculs de surface. La surface de certains "
+"éléments est ajoutée à la somme (par exemple les murs), tandis que d'autres "
+"éléments sont soustraits (par exemple les fenêtres)."
 
 #
 msgctxt "templ:areasum:tag:property-name"
@@ -5034,13 +5231,21 @@ msgstr "Tableau de somme de superficie"
 
 #
 msgctxt "templ:areasum:table-column-description:item"
-msgid "The image number. The number will only be filled into the row with the image title."
-msgstr "Numéro de l'image. Le numéro ne sera rempli que dans la ligne avec le titre de l'image."
+msgid ""
+"The image number. The number will only be filled into the row with the image "
+"title."
+msgstr ""
+"Numéro de l'image. Le numéro ne sera rempli que dans la ligne avec le titre "
+"de l'image."
 
 #
 msgctxt "templ:areasum:table-column-description:description"
-msgid "Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this area."
-msgstr "Nom descriptif de la zone. Il s'agit soit du nom par défaut de la balise, soit d'un nom saisi manuellement pour cette surface."
+msgid ""
+"Descriptive name of the area. This is either the default name of the tag, or "
+"a manually entered name for this area."
+msgstr ""
+"Nom descriptif de la zone. Il s'agit soit du nom par défaut de la balise, "
+"soit d'un nom saisi manuellement pour cette surface."
 
 #
 msgctxt "templ:areasum:table-column-description:count"
@@ -5049,8 +5254,17 @@ msgstr "Multiplicateur de comptage pour cette surface."
 
 #
 msgctxt "templ:areasum:table-column-description:width-height"
-msgid "Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n\nEnter the two column headers separated by a semicolon."
-msgstr "La largeur et la hauteur sont deux colonnes qui sont remplies avec les longueurs des côtés si la zone est un rectangle. Pour les autres formes, les colonnes restent vides.\n\nSaisissez les deux en-têtes de colonne séparés par un point-virgule."
+msgid ""
+"Width and height are two columns that are filled with the side lengths if "
+"the area is a rectangle. For other shapes, the columns stay empty.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+"La largeur et la hauteur sont deux colonnes qui sont remplies avec les "
+"longueurs des côtés si la zone est un rectangle. Pour les autres formes, les "
+"colonnes restent vides.\n"
+"\n"
+"Saisissez les deux en-têtes de colonne séparés par un point-virgule."
 
 #
 msgctxt "templ:areasum:table-column-description:measured-area"
@@ -5060,7 +5274,8 @@ msgstr "La superficie brute mesurée sans le facteur ou le compte appliqué."
 #
 msgctxt "templ:areasum:table-column-description:factor"
 msgid "The area factor applied when calculating the final area sum."
-msgstr "Le facteur de surface appliqué lors du calcul de la somme de surface finale."
+msgstr ""
+"Le facteur de surface appliqué lors du calcul de la somme de surface finale."
 
 #
 msgctxt "templ:areasum:table-column-description:calculated-area"
@@ -5069,13 +5284,27 @@ msgstr "Aire calculée incluant le facteur et le nombre."
 
 #
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
-msgid "Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n\nEnter the two column headers separated by a semicolon."
-msgstr "Génère deux colonnes : une colonne comprenant toutes les zones qui sont ajoutées à la somme et une colonne comprenant toutes les zones qui sont soustraites de la somme totale.\n\nSaisissez les deux en-têtes de colonne séparés par un point-virgule."
+msgid ""
+"Generates two columns: a column including all areas that are added to the "
+"sum, and a column including all areas that are subtracted from the total "
+"sum.\n"
+"\n"
+"Enter the two column headers separated by a semicolon."
+msgstr ""
+"Génère deux colonnes : une colonne comprenant toutes les zones qui sont "
+"ajoutées à la somme et une colonne comprenant toutes les zones qui sont "
+"soustraites de la somme totale.\n"
+"\n"
+"Saisissez les deux en-têtes de colonne séparés par un point-virgule."
 
 #
 msgctxt "templ:areasum:table-column-description:image-area-sum"
-msgid "Each row holds the area sum of the image. The footer row holds the total over all images."
-msgstr "Chaque ligne contient la somme des aires de l'image. La ligne de pied de page contient le total sur toutes les images."
+msgid ""
+"Each row holds the area sum of the image. The footer row holds the total "
+"over all images."
+msgstr ""
+"Chaque ligne contient la somme des aires de l'image. La ligne de pied de "
+"page contient le total sur toutes les images."
 
 #
 msgctxt "templ:partslist:class-display-name"
@@ -5084,8 +5313,13 @@ msgstr "Modèle de liste de pièces"
 
 #
 msgctxt "templ:partslist:long-description"
-msgid "This template lets you generate bills of material, counting different objects, or summing the length of products (e.g. electrical cables)."
-msgstr "Ce modèle vous permet de générer des nomenclatures, de compter différents objets ou d'additionner la longueur de produits (par exemple des câbles électriques)."
+msgid ""
+"This template lets you generate bills of material, counting different "
+"objects, or summing the length of products (e.g. electrical cables)."
+msgstr ""
+"Ce modèle vous permet de générer des nomenclatures, de compter différents "
+"objets ou d'additionner la longueur de produits (par exemple des câbles "
+"électriques)."
 
 #
 msgctxt "templ:partslist:tagtype:count"
@@ -5248,12 +5482,18 @@ msgstr "Supprimer sur le serveur"
 #
 msgctxt "sync:error:cloud-sync-currently-in-use:retry-later"
 msgid "Cloud-sync is currently in use. Please retry later."
-msgstr "Cloud-sync est actuellement utilisé. Veuillez réessayer ultérieurement."
+msgstr ""
+"Cloud-sync est actuellement utilisé. Veuillez réessayer ultérieurement."
 
 #
 msgctxt "sync:error:no-cloud-sync-tasks-configured(pc)"
-msgid "There are no enabled cloud-sync tasks. Nothing to do. First configure some sync tasks in the preferences, section 'Storage/Cloud Storage'."
-msgstr "Il n'y a pas de tâches de synchronisation cloud activées. Rien à faire. Configurez d'abord certaines tâches de synchronisation dans les préférences, section 'Stockage/Cloud Stockage'."
+msgid ""
+"There are no enabled cloud-sync tasks. Nothing to do. First configure some "
+"sync tasks in the preferences, section 'Storage/Cloud Storage'."
+msgstr ""
+"Il n'y a pas de tâches de synchronisation cloud activées. Rien à faire. "
+"Configurez d'abord certaines tâches de synchronisation dans les préférences, "
+"section 'Stockage/Cloud Stockage'."
 
 #
 msgctxt "sync:task:description:anno-image"
@@ -5318,24 +5558,58 @@ msgid "Cloud storage maintenance"
 msgstr "Maintenance du stockage cloud"
 
 msgctxt "sync:server-maintenance:remove-server-lock-description"
-msgid "<b>Remove server lock</b> - In order to prevent simultaneous access to the data on the cloud server, it is locked during the sync process. In case of some errors, e.g. network failures, it may be that the server remains locked. The locks time-out automatically after a few minutes, but you can also manually remove them immediately if you know for sure that it is an error."
-msgstr "<b>Supprimer le verrouillage du serveur</b> - Afin d'empêcher l'accès simultané aux données sur le serveur cloud, il est verrouillé pendant le processus de synchronisation. En cas d'erreurs, par ex. pannes de réseau, il se peut que le serveur reste verrouillé. Les verrous expirent automatiquement après quelques minutes, mais vous pouvez également les supprimer manuellement immédiatement si vous savez avec certitude qu'il s'agit d'une erreur."
+msgid ""
+"<b>Remove server lock</b> - In order to prevent simultaneous access to the "
+"data on the cloud server, it is locked during the sync process. In case of "
+"some errors, e.g. network failures, it may be that the server remains "
+"locked. The locks time-out automatically after a few minutes, but you can "
+"also manually remove them immediately if you know for sure that it is an "
+"error."
+msgstr ""
+"<b>Supprimer le verrouillage du serveur</b> - Afin d'empêcher l'accès "
+"simultané aux données sur le serveur cloud, il est verrouillé pendant le "
+"processus de synchronisation. En cas d'erreurs, par ex. pannes de réseau, il "
+"se peut que le serveur reste verrouillé. Les verrous expirent "
+"automatiquement après quelques minutes, mais vous pouvez également les "
+"supprimer manuellement immédiatement si vous savez avec certitude qu'il "
+"s'agit d'une erreur."
 
 msgctxt "sync:server-maintenance:remove-server-lock-button"
 msgid "Remove server lock"
 msgstr "Supprimer le verrouillage du serveur"
 
 msgctxt "sync:server-maintenance:reset-server-cache-description"
-msgid "<b>Reset server cache</b> - The cloud server maintains a cache of images stored on them. If you delete or add files manually on the server, this is not seen by the cache. You may reset the server cache to run a full scan during the next sync. However, note that a full scan may take a long time if you have many images."
-msgstr "<b>Réinitialiser le cache du serveur</b> - Le serveur cloud gère un cache d'images stockées sur eux. Si vous supprimez ou ajoutez des fichiers manuellement sur le serveur, cela n'est pas vu par le cache. Vous pouvez réinitialiser le cache du serveur pour exécuter une analyse complète lors de la prochaine synchronisation. Cependant, notez qu'une analyse complète peut prendre beaucoup de temps si vous avez plusieurs images."
+msgid ""
+"<b>Reset server cache</b> - The cloud server maintains a cache of images "
+"stored on them. If you delete or add files manually on the server, this is "
+"not seen by the cache. You may reset the server cache to run a full scan "
+"during the next sync. However, note that a full scan may take a long time if "
+"you have many images."
+msgstr ""
+"<b>Réinitialiser le cache du serveur</b> - Le serveur cloud gère un cache "
+"d'images stockées sur eux. Si vous supprimez ou ajoutez des fichiers "
+"manuellement sur le serveur, cela n'est pas vu par le cache. Vous pouvez "
+"réinitialiser le cache du serveur pour exécuter une analyse complète lors de "
+"la prochaine synchronisation. Cependant, notez qu'une analyse complète peut "
+"prendre beaucoup de temps si vous avez plusieurs images."
 
 msgctxt "sync:server-maintenance:reset-server-cache-button"
 msgid "Reset server cache"
 msgstr "Réinitialiser le cache du serveur"
 
 msgctxt "sync:server-maintenance:reset-sync-state-description"
-msgid "<b>Reset sync state</b> - The next sync will start with no preknowledge about the data on each side. This means, e.g., that locally deleted images will be downloaded again from the server instead of being deleted on the server. There are few cases where resetting the stored sync state is needed."
-msgstr "<b>Réinitialiser l'état de synchronisation</b> - La prochaine synchronisation commencera sans aucune connaissance préalable des données de chaque côté. Cela signifie, par exemple, que les images supprimées localement seront téléchargées à nouveau depuis le serveur au lieu d'être supprimées sur le serveur. Il existe peu de cas où la réinitialisation de l'état de synchronisation stocké est nécessaire."
+msgid ""
+"<b>Reset sync state</b> - The next sync will start with no preknowledge "
+"about the data on each side. This means, e.g., that locally deleted images "
+"will be downloaded again from the server instead of being deleted on the "
+"server. There are few cases where resetting the stored sync state is needed."
+msgstr ""
+"<b>Réinitialiser l'état de synchronisation</b> - La prochaine "
+"synchronisation commencera sans aucune connaissance préalable des données de "
+"chaque côté. Cela signifie, par exemple, que les images supprimées "
+"localement seront téléchargées à nouveau depuis le serveur au lieu d'être "
+"supprimées sur le serveur. Il existe peu de cas où la réinitialisation de "
+"l'état de synchronisation stocké est nécessaire."
 
 msgctxt "sync:server-maintenance:reset-sync-state-button"
 msgid "Reset sync state"
@@ -5372,23 +5646,42 @@ msgstr "État de synchronisation réinitialisé avec succès."
 
 #
 msgctxt "sync:oauth2:browser-message:successful-login:googledrive"
-msgid "You have successfully logged into GoogleDrive. You can close this tab and return to ImageMeter now."
-msgstr "Vous vous êtes connecté avec succès à GoogleDrive. Vous pouvez fermer cet onglet et revenir à ImageMeter maintenant."
+msgid ""
+"You have successfully logged into GoogleDrive. You can close this tab and "
+"return to ImageMeter now."
+msgstr ""
+"Vous vous êtes connecté avec succès à GoogleDrive. Vous pouvez fermer cet "
+"onglet et revenir à ImageMeter maintenant."
 
 #
 msgctxt "sync:oauth2:browser-message:successful-login:onedrive"
-msgid "You have successfully logged into OneDrive. You can close this tab and return to ImageMeter now."
-msgstr "Vous vous êtes connecté avec succès à OneDrive. Vous pouvez fermer cet onglet et revenir à ImageMeter maintenant."
+msgid ""
+"You have successfully logged into OneDrive. You can close this tab and "
+"return to ImageMeter now."
+msgstr ""
+"Vous vous êtes connecté avec succès à OneDrive. Vous pouvez fermer cet "
+"onglet et revenir à ImageMeter maintenant."
 
 #
 msgctxt "sync:oauth2:browser-message:successful-login:dropbox"
-msgid "You have successfully logged into Dropbox. You can close this tab and return to ImageMeter now."
-msgstr "Vous vous êtes connecté avec succès à Dropbox. Vous pouvez fermer cet onglet et revenir à ImageMeter maintenant."
+msgid ""
+"You have successfully logged into Dropbox. You can close this tab and return "
+"to ImageMeter now."
+msgstr ""
+"Vous vous êtes connecté avec succès à Dropbox. Vous pouvez fermer cet onglet "
+"et revenir à ImageMeter maintenant."
 
 #
 msgctxt "sync:server-maintenance:image-upload:reset-sync-state-description"
-msgid "<b>Reset sync state</b> - The next sync will upload all images again. This may be useful is you deleted the images on the server and want to upload them again."
-msgstr "<b>Réinitialiser l'état de synchronisation</b> : la prochaine synchronisation téléchargera à nouveau toutes les images. Cela peut être utile si vous avez supprimé les images sur le serveur et souhaitez les télécharger à nouveau."
+msgid ""
+"<b>Reset sync state</b> - The next sync will upload all images again. This "
+"may be useful is you deleted the images on the server and want to upload "
+"them again."
+msgstr ""
+"<b>Réinitialiser l'état de synchronisation</b> : la prochaine "
+"synchronisation téléchargera à nouveau toutes les images. Cela peut être "
+"utile si vous avez supprimé les images sur le serveur et souhaitez les "
+"télécharger à nouveau."
 
 msgctxt "license:source:android-in-app"
 msgid "In-app"
@@ -5418,13 +5711,20 @@ msgstr "Réattribuer la licence de l'appareil"
 
 #, fuzzy
 msgctxt "licensing:revoke-device:dialog:description"
-msgid "License cannot be activated for this device because the license is already used by the maximum number of devices.\nHowever, you may still revoke the license of another device.\nWhich device license do you want to replace with this device?"
-msgstr "La licence ne peut pas être activée pour cet appareil car la licence est déjà utilisée par le nombre maximum d'appareils.\nCependant, vous pouvez toujours révoquer la licence d'un autre appareil.\nQuelle licence d'appareil souhaitez-vous remplacer par cet appareil ?"
+msgid ""
+"License cannot be activated for this device because the license is already "
+"used by the maximum number of devices.\n"
+"However, you may still revoke the license of another device.\n"
+"Which device license do you want to replace with this device?"
+msgstr ""
+"La licence ne peut pas être activée pour cet appareil car la licence est "
+"déjà utilisée par le nombre maximum d'appareils.\n"
+"Cependant, vous pouvez toujours révoquer la licence d'un autre appareil.\n"
+"Quelle licence d'appareil souhaitez-vous remplacer par cet appareil ?"
 
-#, fuzzy
 msgctxt "licensing:revoke-device:dialog:device-entry"
-msgid "{devicename} (last use: {lastuse}, id: {id})"
-msgstr "{devicename} (dernière utilisation : {lastuse}, identifiant : {id})"
+msgid "{devicename} (last use: {lastuse}, id: {id}, license: …{key})"
+msgstr ""
 
 #, fuzzy
 msgctxt "licensing:revoke-device:dialog:revoke-counter"
@@ -5443,8 +5743,18 @@ msgstr "Vraiment révoquer la licence de cet appareil ?"
 
 #, fuzzy
 msgctxt "licensing:revoke-device:revoke-counter-info-message"
-msgid "Do you really want to revoke the license (ending with '…{code_end}') from this device?\nYou can only do this {max_revokes} times in {period_days} days.\nYou can still use {num_revokes} revokes during the current time period."
-msgstr "Voulez-vous vraiment révoquer la licence (se terminant par «…{code_end}») de cet appareil ?\nVous ne pouvez effectuer cette opération que {max_revokes} fois en {period_days} jours.\nVous pouvez toujours utiliser {num_revokes} révocations pendant la période actuelle."
+msgid ""
+"Do you really want to revoke the license (ending with '…{code_end}') from "
+"this device?\n"
+"You can only do this {max_revokes} times in {period_days} days.\n"
+"You can still use {num_revokes} revokes during the current time period."
+msgstr ""
+"Voulez-vous vraiment révoquer la licence (se terminant par «…{code_end}») de "
+"cet appareil ?\n"
+"Vous ne pouvez effectuer cette opération que {max_revokes} fois en "
+"{period_days} jours.\n"
+"Vous pouvez toujours utiliser {num_revokes} révocations pendant la période "
+"actuelle."
 
 #, fuzzy
 msgctxt "licensing:revoke-device:success-message:title"
@@ -5453,13 +5763,21 @@ msgstr "Révocation de la licence de l'appareil"
 
 #, fuzzy
 msgctxt "licensing:revoke-device:success-message:other-device"
-msgid "The license has been removed from this device. You may now use the license on another device."
-msgstr "La licence a été supprimée de cet appareil. Vous pouvez désormais utiliser la licence sur un autre appareil."
+msgid ""
+"The license has been removed from this device. You may now use the license "
+"on another device."
+msgstr ""
+"La licence a été supprimée de cet appareil. Vous pouvez désormais utiliser "
+"la licence sur un autre appareil."
 
 #, fuzzy
 msgctxt "licensing:revoke-device:success-message:this-device"
-msgid "The license has been removed from that device. You may now use the license on this device."
-msgstr "La licence a été supprimée de cet appareil. Vous pouvez maintenant utiliser la licence sur cet appareil."
+msgid ""
+"The license has been removed from that device. You may now use the license "
+"on this device."
+msgstr ""
+"La licence a été supprimée de cet appareil. Vous pouvez maintenant utiliser "
+"la licence sur cet appareil."
 
 #, fuzzy
 msgctxt "licensing:key-entry-dialog:title"
@@ -5554,12 +5872,15 @@ msgstr "Impossible d'utiliser des tables de données."
 #, fuzzy
 msgctxt "missing-addon:cloud-sync-annoimage"
 msgid "Cannot use cloud sync (image upload)."
-msgstr "Impossible d'utiliser la synchronisation cloud (téléchargement d'images)."
+msgstr ""
+"Impossible d'utiliser la synchronisation cloud (téléchargement d'images)."
 
 #, fuzzy
 msgctxt "missing-addon:cloud-sync-twoway"
 msgid "Cannot use cloud sync (twoway sync)."
-msgstr "Impossible d'utiliser la synchronisation cloud (synchronisation bidirectionnelle)."
+msgstr ""
+"Impossible d'utiliser la synchronisation cloud (synchronisation "
+"bidirectionnelle)."
 
 #, fuzzy
 msgctxt "missing-addon:clipboard"
@@ -5813,8 +6134,14 @@ msgstr "Révoquer"
 
 #, fuzzy
 msgctxt "license-dialog:get-license-url"
-msgid "If you don't have a license key yet, you can get a license from the ImageMeter web page: <a href=\"https://imagemeter.com/\">https://imagemeter.com</a>."
-msgstr "Si vous n'avez pas encore de clé de licence, vous pouvez en obtenir une sur la page web d'ImageMeter: <a href=\"https://imagemeter.com/\">https://imagemeter.com</a>."
+msgid ""
+"If you don't have a license key yet, you can get a license from the "
+"ImageMeter web page: <a href=\"https://imagemeter.com/\">https://imagemeter."
+"com</a>."
+msgstr ""
+"Si vous n'avez pas encore de clé de licence, vous pouvez en obtenir une sur "
+"la page web d'ImageMeter: <a href=\"https://imagemeter.com/\">https://"
+"imagemeter.com</a>."
 
 #, fuzzy
 msgctxt "license:check-key-server-response:window-title"
@@ -5884,8 +6211,32 @@ msgstr "Trois jours"
 
 #
 msgctxt "stringscript:help:introtext"
-msgid "Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n\nHere are some example variables, but see below for the list of variables that are actually allowed here:\n{image.title} - image title\n{image.number} - the number you assigned to the image\n{folder.title} - title of the current folder\n{folder.parent.title} - title of the parent folder\n\nYou can build complex expressions like this:\n{folder.title} / {image.number} - {image.title}"
-msgstr "Entrez le texte qui doit apparaître ici. Vous pouvez ajouter des variables entourées de { } qui seront substituées.\n\nVoici quelques exemples de variables, mais voyez ci-dessous la liste des variables réellement autorisées ici:\n{image.title} - titre de l'image\n{image.number} - le numéro que vous avez attribué à l'image\n{folder.title} - titre du dossier actuel\n{folder.parent.title} - titre du dossier parent\n\nVous pouvez créer des expressions complexes comme celle-ci:\n{folder.title} / {image.number} - {image.title}"
+msgid ""
+"Enter the text that should appear here. You can add variables enclosed by "
+"{ } that will be substituted.\n"
+"\n"
+"Here are some example variables, but see below for the list of variables "
+"that are actually allowed here:\n"
+"{image.title} - image title\n"
+"{image.number} - the number you assigned to the image\n"
+"{folder.title} - title of the current folder\n"
+"{folder.parent.title} - title of the parent folder\n"
+"\n"
+"You can build complex expressions like this:\n"
+"{folder.title} / {image.number} - {image.title}"
+msgstr ""
+"Entrez le texte qui doit apparaître ici. Vous pouvez ajouter des variables "
+"entourées de { } qui seront substituées.\n"
+"\n"
+"Voici quelques exemples de variables, mais voyez ci-dessous la liste des "
+"variables réellement autorisées ici:\n"
+"{image.title} - titre de l'image\n"
+"{image.number} - le numéro que vous avez attribué à l'image\n"
+"{folder.title} - titre du dossier actuel\n"
+"{folder.parent.title} - titre du dossier parent\n"
+"\n"
+"Vous pouvez créer des expressions complexes comme celle-ci:\n"
+"{folder.title} / {image.number} - {image.title}"
 
 #
 msgctxt "stringscript:help:intro_toplevel_variables"
@@ -5894,8 +6245,12 @@ msgstr "Variables de niveau supérieur autorisées :"
 
 #
 msgctxt "stringscript:help:intro_subelements"
-msgid "Each type may have sub-elements. Here is the list of sub-elements for each data type:"
-msgstr "Chaque type peut avoir des sous-éléments. Voici la liste des sous-éléments pour chaque type de données :"
+msgid ""
+"Each type may have sub-elements. Here is the list of sub-elements for each "
+"data type:"
+msgstr ""
+"Chaque type peut avoir des sous-éléments. Voici la liste des sous-éléments "
+"pour chaque type de données :"
 
 #
 msgctxt "stringscript:root:member:image"
@@ -6296,8 +6651,46 @@ msgstr "restauration d'une entité"
 
 #, fuzzy
 msgctxt "android:permission-request:post-notifications:rationale"
-msgid "<h2>Notification Permission Request</h2>\n    <p>\n      ImageMeter will ask you for the permission to show notifications.\n      These will be used to show the:\n    </p>\n    <ul>\n      <li>progress of the background cloud sync and let you cancel it,</li>\n      <li>status of the Bluetooth connection to lasers,</li>\n      <li>progress of long export or import operations that run in the background,</li>\n      <li>background processing errors.</li>\n    </ul>\n    <p>\n      You can disable any of the notification channels independently in the Android app settings.\n    </p>"
-msgstr "<h2>Demande d'autorisation de notification</h2>\n    <p>\n      ImageMeter vous demandera la permission d'afficher les notifications.\n      Ceux-ci seront utilisés pour montrer :\n    </p>\n    <ul>\n      <li>progression de la synchronisation du cloud en arrière-plan et vous permet de l'annuler,</li>\n      <li>état de la connexion Bluetooth aux lasers,</li>\n      <li>progression des opérations d'exportation ou d'importation longues exécutées en arrière-plan,</li>\n      <li>Erreurs de traitement en arrière-plan.</li>\n    </ul>\n    <p>\n      Vous pouvez désactiver n'importe lequel des canaux de notification indépendamment dans les paramètres de l'application Android.\n    </p>"
+msgid ""
+"<h2>Notification Permission Request</h2>\n"
+"    <p>\n"
+"      ImageMeter will ask you for the permission to show notifications.\n"
+"      These will be used to show the:\n"
+"    </p>\n"
+"    <ul>\n"
+"      <li>progress of the background cloud sync and let you cancel it,</li>\n"
+"      <li>status of the Bluetooth connection to lasers,</li>\n"
+"      <li>progress of long export or import operations that run in the "
+"background,</li>\n"
+"      <li>background processing errors.</li>\n"
+"    </ul>\n"
+"    <p>\n"
+"      You can disable any of the notification channels independently in the "
+"Android app settings.\n"
+"    </p>"
+msgstr ""
+"<h2>Demande d'autorisation de notification</h2>\n"
+"    <p>\n"
+"      ImageMeter vous demandera la permission d'afficher les notifications.\n"
+"      Ceux-ci seront utilisés pour montrer :\n"
+"    </p>\n"
+"    <ul>\n"
+"      <li>progression de la synchronisation du cloud en arrière-plan et vous "
+"permet de l'annuler,</li>\n"
+"      <li>état de la connexion Bluetooth aux lasers,</li>\n"
+"      <li>progression des opérations d'exportation ou d'importation longues "
+"exécutées en arrière-plan,</li>\n"
+"      <li>Erreurs de traitement en arrière-plan.</li>\n"
+"    </ul>\n"
+"    <p>\n"
+"      Vous pouvez désactiver n'importe lequel des canaux de notification "
+"indépendamment dans les paramètres de l'application Android.\n"
+"    </p>"
+
+#, fuzzy
+#~ msgctxt "licensing:revoke-device:dialog:device-entry"
+#~ msgid "{devicename} (last use: {lastuse}, id: {id})"
+#~ msgstr "{devicename} (dernière utilisation : {lastuse}, identifiant : {id})"
 
 #, fuzzy
 #~ msgctxt "licensing:revoke-device:revoke-counter-info-message"
@@ -6341,4 +6734,3 @@ msgstr "<h2>Demande d'autorisation de notification</h2>\n    <p>\n      ImageMet
 #~ msgctxt "export:pdf:may-rotate-images(short)"
 #~ msgid "Images in PDF may be rotated"
 #~ msgstr "Les images en PDF peuvent être pivotées"
-

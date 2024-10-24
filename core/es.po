@@ -672,6 +672,10 @@ msgctxt "error:Cloud_BackendInitializationFailed"
 msgid "Cloud backend initialization failed: '{}'"
 msgstr "Error al inicializar el backend de la nube: '{}'"
 
+msgctxt "error:Cloud_ServerPortNumberInvalid"
+msgid "Server port {} invalid"
+msgstr ""
+
 #, fuzzy
 msgctxt "error:Cloud_CannotLoadUnsupportedBackend"
 msgid "Cannot load unsupported backend '{}'"
@@ -1098,6 +1102,14 @@ msgstr "No se puede abrir el directorio SFTP '{0}'"
 msgctxt "error:LibSSH2_SFTP_CannotReadDir"
 msgid "Cannot read SFTP directory '{0}'"
 msgstr "No se puede leer el directorio SFTP '{0}'"
+
+msgctxt "error:CouldNotInitializeSSHSession"
+msgid "Could not initialize SSH session"
+msgstr ""
+
+msgctxt "error:CouldNotEstablishSSHSession"
+msgid "Could not establish SSH session"
+msgstr ""
 
 msgctxt "unit:translated-name:meter"
 msgid "m"
@@ -4250,6 +4262,12 @@ msgctxt "prefs:bluetooth:clipboard:keyboard-suffix-key"
 msgid "Key to press after measurement"
 msgstr "Tecla para presionar después de la medición"
 
+msgctxt "android:prefs:bluetooth:device-selection:scan-instructions"
+msgid ""
+"Use the LE scan for modern devices. For older Bluetooth classic devices, use "
+"the classic scan."
+msgstr ""
+
 #, fuzzy
 msgctxt "prefs:template:add:general-description"
 msgid ""
@@ -5963,10 +5981,9 @@ msgstr ""
 "Sin embargo, aún puede revocar la licencia de otro dispositivo.\n"
 "¿Qué licencia de dispositivo desea reemplazar con este dispositivo?"
 
-#, fuzzy
 msgctxt "licensing:revoke-device:dialog:device-entry"
-msgid "{devicename} (last use: {lastuse}, id: {id})"
-msgstr "{devicename} (último uso: {lastuse}, id: {id})"
+msgid "{devicename} (last use: {lastuse}, id: {id}, license: …{key})"
+msgstr ""
 
 #, fuzzy
 msgctxt "licensing:revoke-device:dialog:revoke-counter"
@@ -6924,6 +6941,11 @@ msgstr ""
 "      Puede desactivar cualquiera de los canales de notificación de forma "
 "independiente en la configuración de la aplicación de Android.\n"
 "    </p>"
+
+#, fuzzy
+#~ msgctxt "licensing:revoke-device:dialog:device-entry"
+#~ msgid "{devicename} (last use: {lastuse}, id: {id})"
+#~ msgstr "{devicename} (último uso: {lastuse}, id: {id})"
 
 #, fuzzy
 #~ msgctxt "licensing:revoke-device:revoke-counter-info-message"
