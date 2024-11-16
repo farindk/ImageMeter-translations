@@ -63,13 +63,15 @@ msgctxt "error:CommaSeparatedList_EmptyString"
 msgid "Empty item in list."
 msgstr "Пустой элемент в списке."
 
+#, fuzzy
 msgctxt "error:JsonParseError"
 msgid "JSON parse error"
-msgstr ""
+msgstr "Ошибка анализа JSON"
 
+#, fuzzy
 msgctxt "error:JsonParseError_Detail"
 msgid "JSON error: {}"
-msgstr ""
+msgstr "Ошибка JSON: {}"
 
 msgctxt "error:Files_FileDoesNotExist"
 msgid "File does not exist: \"{}\"."
@@ -137,17 +139,20 @@ msgctxt "error:Files_CannotGenerateUniqueFilename"
 msgid "Cannot generate unique filename: '{}'."
 msgstr "Невозможно создать уникальное имя файла: '{}'."
 
+#, fuzzy
 msgctxt "error:File_UnsupportedFileFormat"
 msgid "Format of file '{}' is not supported."
-msgstr ""
+msgstr "Формат файла «{}» не поддерживается."
 
+#, fuzzy
 msgctxt "error:CannotCreateTemporaryDirectory"
 msgid "Cannot create temporary directory."
-msgstr ""
+msgstr "Невозможно создать временный каталог."
 
+#, fuzzy
 msgctxt "error:CannotCreateTemporaryFile"
 msgid "Cannot create temporary file."
-msgstr ""
+msgstr "Невозможно создать временный файл."
 
 msgctxt "error:ProjectFolder_CannotCreate"
 msgid "Cannot create folder '{}'."
@@ -237,13 +242,11 @@ msgstr "Ошибка синтаксического анализа файла IF
 
 msgctxt "error:CannotLockPath-readLock"
 msgid "Cannot read file '{}' because it is currently being modified."
-msgstr ""
-"Невозможно прочитать файл '{}', потому что он в настоящее время изменяется."
+msgstr "Невозможно прочитать файл '{}', потому что он в настоящее время изменяется."
 
 msgctxt "error:CannotLockPath-writeLock"
 msgid "Cannot modify file '{}' because it is currently in use."
-msgstr ""
-"Невозможно изменить файл '{}', потому что он в настоящее время используется."
+msgstr "Невозможно изменить файл '{}', потому что он в настоящее время используется."
 
 msgctxt "error:UnknownFileFormat"
 msgid "File '{}' has unknown format."
@@ -280,12 +283,8 @@ msgstr "Ошибка OpenGL: \"{}\"."
 
 #, fuzzy
 msgctxt "error:OpenGL_CannotAllocateRenderingSurface"
-msgid ""
-"Not enough memory to render at output resolution {}. Please reduce the "
-"output resolution."
-msgstr ""
-"Недостаточно памяти для рендеринга с выходным разрешением {}. Уменьшите "
-"разрешение вывода."
+msgid "Not enough memory to render at output resolution {}. Please reduce the output resolution."
+msgstr "Недостаточно памяти для рендеринга с выходным разрешением {}. Уменьшите разрешение вывода."
 
 msgctxt "error:CannotRenderImage"
 msgid "Cannot render image \"{}\"."
@@ -331,21 +330,25 @@ msgctxt "error:IMF_CorruptedFile"
 msgid "Corrupted IMF file."
 msgstr "Поврежденный файл IMF."
 
+#, fuzzy
 msgctxt "error:CannotGenerateCsv"
 msgid "Cannot generate CSV file"
-msgstr ""
+msgstr "Невозможно создать CSV-файл"
 
+#, fuzzy
 msgctxt "error:CannotGenerateXlsx"
 msgid "Cannot generate XLSX file"
-msgstr ""
+msgstr "Невозможно создать файл XLSX"
 
+#, fuzzy
 msgctxt "error:CannotCreateZIPFile"
 msgid "Cannot create ZIP file"
-msgstr ""
+msgstr "Невозможно создать ZIP-файл"
 
+#, fuzzy
 msgctxt "error:Export_NoImagesToWrite"
 msgid "Data to export does not contain any images"
-msgstr ""
+msgstr "Данные для экспорта не содержат изображений."
 
 msgctxt "error:CannotGeneratePdf"
 msgid "Cannot generate PDF"
@@ -415,9 +418,10 @@ msgctxt "error:Cloud_CannotLogin:cannot_access_base_folder"
 msgid "Cannot access data directory on cloud server."
 msgstr "Нет доступа к каталогу данных на облачном сервере."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLogin:backend_not_initialized"
 msgid "Backend not initialized."
-msgstr ""
+msgstr "Бэкэнд не инициализирован."
 
 msgctxt "error:Cloud_SyncError"
 msgid "Cannot sync with server."
@@ -454,9 +458,10 @@ msgctxt "error:Cloud_ServerBlocked"
 msgid "Server blocked by another client. Please retry at a later time."
 msgstr "Сервер заблокирован другим клиентом. Повторите попытку позже."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLockLocalFiles"
 msgid "Cannot get exclusive access on local files"
-msgstr ""
+msgstr "Невозможно получить эксклюзивный доступ к локальным файлам"
 
 msgctxt "error:Cloud_RemoteFileDoesNotExist"
 msgid "File '{}' does not exist on server"
@@ -566,33 +571,40 @@ msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
 msgstr "Не удалось сбросить состояние синхронизации."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotFindUniqueName"
 msgid "Cannot find unique name for '{}'"
-msgstr ""
+msgstr "Невозможно найти уникальное имя для '{}'"
 
+#, fuzzy
 msgctxt "error:Cloud_BackendInitializationFailed"
 msgid "Cloud backend initialization failed: '{}'"
-msgstr ""
+msgstr "Инициализация облачного бэкэнда не удалась: '{}'"
 
+#, fuzzy
 msgctxt "error:Cloud_ServerPortNumberInvalid"
 msgid "Server port {} invalid"
-msgstr ""
+msgstr "Порт сервера {} недействителен"
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLoadUnsupportedBackend"
 msgid "Cannot load unsupported backend '{}'"
-msgstr ""
+msgstr "Невозможно загрузить неподдерживаемый бэкэнд '{}'"
 
+#, fuzzy
 msgctxt "error:CloudBackend_OneDrive_DirectoryNotSet"
 msgid "OneDrive server data directory is not set"
-msgstr ""
+msgstr "Каталог данных сервера OneDrive не установлен"
 
+#, fuzzy
 msgctxt "error:CloudBackend_GoogleDrive_DirectoryNotSet"
 msgid "Google Drive server data directory is not set"
-msgstr ""
+msgstr "Каталог данных сервера Google Drive не установлен"
 
+#, fuzzy
 msgctxt "error:CloudBackend_Filesystem_DirectoryNotSet"
 msgid "Storage directory is not set"
-msgstr ""
+msgstr "Каталог хранения не установлен"
 
 #, fuzzy
 msgctxt "error:HTTP-error-400"
@@ -674,55 +686,65 @@ msgctxt "error:NetworkError"
 msgid "Network error: {}"
 msgstr "Ошибка сервера: {}"
 
+#, fuzzy
 msgctxt "error:NetworkTimeout"
 msgid "Network timeout"
-msgstr ""
+msgstr "Тайм-аут сети"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_InvalidServerResponse"
 msgid "Invalid server response: {}"
-msgstr ""
+msgstr "Неверный ответ сервера: {}"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_InvalidClientParameters"
 msgid "Invalid client parameters: {}"
-msgstr ""
+msgstr "Неверные параметры клиента: {}"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_LicenseNotFound"
 msgid "Invalid license code"
-msgstr ""
+msgstr "Недействительный код лицензии"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_LicenseExpired"
 msgid "License has expired"
-msgstr ""
+msgstr "Срок действия лицензии истек"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_LicenseQueryError"
 msgid "Error during license query: {}"
-msgstr ""
+msgstr "Ошибка при запросе лицензии: {}"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_InvalidPlatformForKey"
 msgid "License key is not for this platform"
-msgstr ""
+msgstr "Лицензионный ключ не для этой платформы"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_DeviceAssignmentsExhausted"
 msgid "Maximum number of device assignments reached"
-msgstr ""
+msgstr "Достигнуто максимальное количество назначений устройств"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_DeviceLimitReached"
 msgid "Maximum number of licensed devices reached."
-msgstr ""
+msgstr "Достигнуто максимальное количество лицензированных устройств."
 
+#, fuzzy
 msgctxt "error:Licensing_RevokesExhausted"
-msgid ""
-"You have already used all available {max_revokes} revokes during the past "
-"{period_days} days."
-msgstr ""
+msgid "You have already used all available {max_revokes} revokes during the past {period_days} days."
+msgstr "Вы уже использовали все доступные {max_revokes} отзыва за последние {period_days} дней."
 
+#, fuzzy
 msgctxt "error:Licensing_DeviceNotActive"
 msgid "The chosen device has no active license assigned to it."
-msgstr ""
+msgstr "Выбранному устройству не назначена активная лицензия."
 
+#, fuzzy
 msgctxt "error:Licensing_LicenseNotFound"
 msgid "Unknown license key."
-msgstr ""
+msgstr "Неизвестный лицензионный ключ."
 
 #, fuzzy
 msgctxt "error:BluetoothError:no_active_element"
@@ -754,33 +776,40 @@ msgctxt "error:BluetoothError:generic"
 msgid "Cannot set received Bluetooth value."
 msgstr "Невозможно установить полученное по Bluetooth значение."
 
+#, fuzzy
 msgctxt "error:QKeychain:entry-not-found"
 msgid "No key found for '{}'."
-msgstr ""
+msgstr "Ключ для '{}' не найден."
 
+#, fuzzy
 msgctxt "error:QKeychain:cannot-delete-entry"
 msgid "Cannot delete key for '{}'."
-msgstr ""
+msgstr "Невозможно удалить ключ для '{}'."
 
+#, fuzzy
 msgctxt "error:QKeychain:access-denied"
 msgid "Access to key-chain denied."
-msgstr ""
+msgstr "Доступ к связке ключей запрещен."
 
+#, fuzzy
 msgctxt "error:QKeychain:no-keychain-available"
 msgid "No key-chain available."
-msgstr ""
+msgstr "Брелока для ключей нет."
 
+#, fuzzy
 msgctxt "error:QKeychain:other-error"
 msgid "Key-chain error: {}."
-msgstr ""
+msgstr "Ошибка цепочки ключей: {}."
 
+#, fuzzy
 msgctxt "error:AudioDecoder_avcodec"
 msgid "Cannot play audio file ({})."
-msgstr ""
+msgstr "Невозможно воспроизвести аудиофайл ({})."
 
+#, fuzzy
 msgctxt "error:AudioWriter_M4A"
 msgid "Cannot write audio file ({})."
-msgstr ""
+msgstr "Невозможно записать аудиофайл ({})."
 
 msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
@@ -794,9 +823,10 @@ msgctxt "error:Android_Import_SecurityException"
 msgid "Security exception when accessing URI '{}'."
 msgstr "Исключение безопасности при доступе к URI '{}'."
 
+#, fuzzy
 msgctxt "error:Android_Import_IllegalStateException"
 msgid "Illegal state exception when accessing URI '{}'"
-msgstr ""
+msgstr "Исключение недопустимого состояния при доступе к URI '{}'"
 
 #, fuzzy
 msgctxt "error:Android_InsertImageIntoGallery"
@@ -813,154 +843,190 @@ msgctxt "error:Android_DeleteOldImageFromGallery"
 msgid "Cannot delete old image from gallery (url='{}')."
 msgstr "Невозможно удалить старое изображение из галереи (url='{}')."
 
+#, fuzzy
 msgctxt "error:QtCamera_NotFound"
 msgid "Camera with name '{}' is not connected."
-msgstr ""
+msgstr "Камера с именем «{}» не подключена."
 
+#, fuzzy
 msgctxt "error:CameraBackendMismatch"
 msgid "Camera '{}' was configured on a different system."
-msgstr ""
+msgstr "Камера «{}» была настроена в другой системе."
 
+#, fuzzy
 msgctxt "error:QtCamera_MultipleDifferentStreams"
-msgid ""
-"Cannot start video because another stream with different settings is active."
-msgstr ""
+msgid "Cannot start video because another stream with different settings is active."
+msgstr "Невозможно запустить видео, так как активен другой поток с другими настройками."
 
+#, fuzzy
 msgctxt "error:NoCameraConfigured"
 msgid "No camera is configured in the preferences."
-msgstr ""
+msgstr "В настройках не настроена ни одна камера."
 
+#, fuzzy
 msgctxt "error:UnknownCameraBackend"
 msgid "Unknown camera backend"
-msgstr ""
+msgstr "Неизвестный бэкэнд камеры"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera"
 msgid "Daheng camera error ({0}): '{1}'"
-msgstr ""
+msgstr "Ошибка камеры Дахэн ({0}): '{1}'"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:1"
 msgid "Unspecified internal error"
-msgstr ""
+msgstr "Неизвестная внутренняя ошибка"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:2"
 msgid "Cannot find TL library"
-msgstr ""
+msgstr "Не удалось найти библиотеку TL."
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:3"
 msgid "Camera device not found"
-msgstr ""
+msgstr "Устройство камеры не найдено"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:4"
 msgid "Device is offline"
-msgstr ""
+msgstr "Устройство находится в автономном режиме"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:5"
 msgid "Invalid parameter"
-msgstr ""
+msgstr "Неверный параметр"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:6"
 msgid "Invalid handle"
-msgstr ""
+msgstr "Неверный дескриптор"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:7"
 msgid "Invalid software interface"
-msgstr ""
+msgstr "Неверный программный интерфейс"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:8"
 msgid "Function inaccessible or incorrect access mode"
-msgstr ""
+msgstr "Функция недоступна или неправильный режим доступа"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:9"
 msgid "Request buffer is too small"
-msgstr ""
+msgstr "Буфер запроса слишком мал"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:10"
 msgid "Invalid feature data-type"
-msgstr ""
+msgstr "Неверный тип данных объекта"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:11"
 msgid "Value out of range"
-msgstr ""
+msgstr "Значение вне диапазона"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:12"
 msgid "Unimplemented function"
-msgstr ""
+msgstr "Нереализованная функция"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:13"
 msgid "Interface uninitialized"
-msgstr ""
+msgstr "Интерфейс неинициализирован"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:14"
 msgid "Timeout error"
-msgstr ""
+msgstr "Ошибка тайм-аута"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:unknown"
 msgid "Unknown error"
-msgstr ""
+msgstr "Неизвестная ошибка"
 
+#, fuzzy
 msgctxt "error:LibSSH2_NoText"
 msgid "LibSSH2 error code: {0}"
-msgstr ""
+msgstr "Код ошибки LibSSH2: {0}"
 
+#, fuzzy
 msgctxt "error:LibSSH2_WithText"
 msgid "LibSSH2 error {0}: '{1}'"
-msgstr ""
+msgstr "Ошибка LibSSH2 {0}: '{1}'"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_WithText"
 msgid "LibSSH2 error {0}: '{1}', SFTP error {2}"
-msgstr ""
+msgstr "Ошибка LibSSH2 {0}: '{1}', ошибка SFTP {2}"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_FileDoesNotExist"
 msgid "SFTP error: file '{0}' does not exist"
-msgstr ""
+msgstr "Ошибка SFTP: файл '{0}' не существует"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_PermissionDenied"
 msgid "SFTP error: permission denied to access '{0}'"
-msgstr ""
+msgstr "Ошибка SFTP: отказано в доступе к '{0}'"
 
+#, fuzzy
 msgctxt "error:getaddrinfo"
 msgid "Cannot get internet address. Error {0}: {1}"
-msgstr ""
+msgstr "Невозможно получить интернет-адрес. Ошибка {0}: {1}"
 
+#, fuzzy
 msgctxt "error:Network_CouldNotGetIPV4_Address"
 msgid "Could not get an IPV4 network address"
-msgstr ""
+msgstr "Не удалось получить сетевой адрес IPV4"
 
+#, fuzzy
 msgctxt "error:Network_CouldNotCreateSocket"
 msgid "Could not create socket"
-msgstr ""
+msgstr "Не удалось создать сокет"
 
+#, fuzzy
 msgctxt "error:Network_CouldNotConnectSocket"
 msgid "Could not connect socket"
-msgstr ""
+msgstr "Не удалось подключить сокет"
 
+#, fuzzy
 msgctxt "error:SFTP_ServerDoesNotAcceptPasswordAuthentication"
 msgid "SFTP server does not accept password authentication method."
-msgstr ""
+msgstr "Сервер SFTP не принимает метод аутентификации по паролю."
 
+#, fuzzy
 msgctxt "error:SFTP_PasswordAuthenticationFailed"
 msgid "Invalid password"
-msgstr ""
+msgstr "Неверный пароль"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_InitFailed"
 msgid "SFTP protocol initialization failed"
-msgstr ""
+msgstr "Инициализация протокола SFTP не удалась"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_CannotOpenDir"
 msgid "Cannot open SFTP directory '{0}'"
-msgstr ""
+msgstr "Невозможно открыть каталог SFTP '{0}'"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_CannotReadDir"
 msgid "Cannot read SFTP directory '{0}'"
-msgstr ""
+msgstr "Невозможно прочитать каталог SFTP '{0}'"
 
+#, fuzzy
 msgctxt "error:CouldNotInitializeSSHSession"
 msgid "Could not initialize SSH session"
-msgstr ""
+msgstr "Не удалось инициализировать сеанс SSH"
 
+#, fuzzy
 msgctxt "error:CouldNotEstablishSSHSession"
 msgid "Could not establish SSH session"
-msgstr ""
+msgstr "Не удалось установить сеанс SSH"
 
 msgctxt "unit:translated-name:meter"
 msgid "m"
@@ -1168,19 +1234,20 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "Англ. единицы измерения будут выглядеть как ft/in"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:imperial-uses-text-units(pc)"
 msgid "Textual units"
-msgstr ""
+msgstr "Текстовые единицы"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
 msgid "Add dot after ambiguous numbers"
-msgstr ""
+msgstr "Добавляйте точку после неоднозначных чисел."
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
-msgid ""
-"When enabled, a dot is placed after numbers that are ambiguous when read "
-"upside down, like this: 66."
-msgstr ""
+msgid "When enabled, a dot is placed after numbers that are ambiguous when read upside down, like this: 66."
+msgstr "Если эта функция включена, после цифр, которые являются неоднозначными при прочтении в перевернутом виде, ставится точка, например: 66."
 
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
@@ -1197,11 +1264,10 @@ msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
 msgstr "При необходимости добавьте точку"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:show-units:title:tooltip"
-msgid ""
-"When disabled, measures are shown without the unit. I.e. just the plain "
-"number '23' instead of '23 cm'."
-msgstr ""
+msgid "When disabled, measures are shown without the unit. I.e. just the plain number '23' instead of '23 cm'."
+msgstr "Если эта функция отключена, измерения отображаются без единиц измерения. То есть просто число «23» вместо «23 см»."
 
 msgctxt "dimformat:options-ui:show-units:title"
 msgid "Show units"
@@ -1227,49 +1293,59 @@ msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "Дроби будут сокращены (4/8 станет 1/2)"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:space-between-value-and-unit"
 msgid "Space between value and unit"
-msgstr ""
+msgstr "Пробел между значением и единицей измерения"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:comma-as-decimal-dot"
 msgid "Use comma as decimal dot"
-msgstr ""
+msgstr "Используйте запятую в качестве десятичной точки"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:imperial-feet-and-inches"
 msgid "Feet and inches"
-msgstr ""
+msgstr "Футы и дюймы"
 
 msgctxt "dimformat:options-ui:decimal-digits(short)"
 msgid "Decimal digits"
 msgstr "Десятичные знаки"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format:decimal"
 msgid "Decimal (1.00 m)"
-msgstr ""
+msgstr "Десятичная дробь (1,00 м)"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format:imperial"
 msgid "Imperial (1' 5 3/32\")"
-msgstr ""
+msgstr "Империал (1' 5 3/32\")"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:example"
 msgid "Example:"
-msgstr ""
+msgstr "Пример:"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format-group:length"
 msgid "Length format"
-msgstr ""
+msgstr "Формат длины"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format-group:area"
 msgid "Area format"
-msgstr ""
+msgstr "Формат площади"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format-group:angle"
 msgid "Angle format"
-msgstr ""
+msgstr "Формат угла"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format-group:common-options"
 msgid "Decimal values options"
-msgstr ""
+msgstr "Параметры десятичных значений"
 
 msgctxt "month-names-short-1"
 msgid "Jan"
@@ -1416,33 +1492,40 @@ msgctxt "text-h-alignment:block"
 msgid "Block"
 msgstr "Блокировать"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:none"
 msgid "None"
-msgstr ""
+msgstr "Никто"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:enter"
 msgid "Enter"
-msgstr ""
+msgstr "Входить"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:tab"
 msgid "Tab"
-msgstr ""
+msgstr "Вкладка"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:cursor-down"
 msgid "Cursor down"
-msgstr ""
+msgstr "Курсор вниз"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:cursor-up"
 msgid "Cursor up"
-msgstr ""
+msgstr "Курсор вверх"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:cursor-left"
 msgid "Cursor left"
-msgstr ""
+msgstr "Курсор влево"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:cursor-right"
 msgid "Cursor right"
-msgstr ""
+msgstr "Курсор вправо"
 
 #, fuzzy
 msgctxt "character:comma"
@@ -1464,81 +1547,100 @@ msgctxt "character:dot"
 msgid "Dot"
 msgstr "Точка"
 
+#, fuzzy
 msgctxt "sorting:by-name:ascending"
 msgid "by name, ascending"
-msgstr ""
+msgstr "по имени, по возрастанию"
 
+#, fuzzy
 msgctxt "sorting:by-name:descending"
 msgid "by name, descending"
-msgstr ""
+msgstr "по имени, по убыванию"
 
+#, fuzzy
 msgctxt "sorting:by-creation-date:ascending"
 msgid "by creation date, ascending"
-msgstr ""
+msgstr "по дате создания, по возрастанию"
 
+#, fuzzy
 msgctxt "sorting:by-creation-date:descending"
 msgid "by creation date, descending"
-msgstr ""
+msgstr "по дате создания, по убыванию"
 
+#, fuzzy
 msgctxt "sorting:by-modification-date:ascending"
 msgid "by modification date, ascending"
-msgstr ""
+msgstr "по дате изменения, по возрастанию"
 
+#, fuzzy
 msgctxt "sorting:by-modification-date:descending"
 msgid "by modification date, descending"
-msgstr ""
+msgstr "по дате изменения, по убыванию"
 
+#, fuzzy
 msgctxt "sorting:by-number:ascending"
 msgid "by number, ascending"
-msgstr ""
+msgstr "по номеру, по возрастанию"
 
+#, fuzzy
 msgctxt "sorting:by-number:descending"
 msgid "by number, descending"
-msgstr ""
+msgstr "по номеру, по убыванию"
 
+#, fuzzy
 msgctxt "AudioDecoder_avcodec:no-audio-stream-found"
 msgid "No audio stream in file."
-msgstr ""
+msgstr "В файле нет аудиопотока."
 
+#, fuzzy
 msgctxt "AudioDecoder_avcodec:unsupported-audio-codec"
 msgid "Unsupported audio codec."
-msgstr ""
+msgstr "Неподдерживаемый аудиокодек."
 
+#, fuzzy
 msgctxt "splash:initializing-application"
 msgid "Initializing application"
-msgstr ""
+msgstr "Инициализация приложения"
 
+#, fuzzy
 msgctxt "splash:checking-for-updates"
 msgid "Checking for updates…"
-msgstr ""
+msgstr "Проверка обновлений…"
 
+#, fuzzy
 msgctxt "splash:cleaning-up-old-images"
 msgid "Cleaning up old images…"
-msgstr ""
+msgstr "Очистка старых изображений…"
 
+#, fuzzy
 msgctxt "splash:item-status:waiting"
 msgid "Waiting"
-msgstr ""
+msgstr "Ожидающий"
 
+#, fuzzy
 msgctxt "splash:item-status:running"
 msgid "Running"
-msgstr ""
+msgstr "Бег"
 
+#, fuzzy
 msgctxt "splash:item-status:ok"
 msgid "Ok"
-msgstr ""
+msgstr "Хорошо"
 
+#, fuzzy
 msgctxt "splash:item-status:warning"
 msgid "Warning"
-msgstr ""
+msgstr "Предупреждение"
 
+#, fuzzy
 msgctxt "splash:item-status:error"
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
+#, fuzzy
 msgctxt "splash:item-status:show-error"
 msgid "Details…"
-msgstr ""
+msgstr "Подробности…"
 
 #, fuzzy
 msgctxt "ui:list:add-entry"
@@ -1560,21 +1662,25 @@ msgctxt "ui:list:move-entry-down"
 msgid "Down"
 msgstr "Вниз"
 
+#, fuzzy
 msgctxt "ui:button:info"
 msgid "Info"
-msgstr ""
+msgstr "Информация"
 
+#, fuzzy
 msgctxt "ui:window-title:warning"
 msgid "Warning"
-msgstr ""
+msgstr "Предупреждение"
 
+#, fuzzy
 msgctxt "ui:window-title:error"
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
+#, fuzzy
 msgctxt "ui:dialog:dont-ask-again"
 msgid "Don't ask again"
-msgstr ""
+msgstr "Больше не спрашивать"
 
 msgctxt "filename-copy-tag"
 msgid "copy"
@@ -1583,14 +1689,12 @@ msgstr "Копировать"
 #, fuzzy
 msgctxt "entities:cannot_delete_image:in_use"
 msgid "Cannot delete image '{0}' because it is in use by '{1}'."
-msgstr ""
-"Невозможно изменить файл '{}', потому что он в настоящее время используется."
+msgstr "Невозможно изменить файл '{}', потому что он в настоящее время используется."
 
 #, fuzzy
 msgctxt "entities:cannot_delete_folder:in_use"
 msgid "Cannot delete folder '{0}' because it is in use by '{1}'."
-msgstr ""
-"Невозможно изменить файл '{}', потому что он в настоящее время используется."
+msgstr "Невозможно изменить файл '{}', потому что он в настоящее время используется."
 
 #, fuzzy
 msgctxt "entities:cannot_move_folder:into_itself"
@@ -1600,77 +1704,92 @@ msgstr "Невозможно переименовать папку \"{}\" на �
 #, fuzzy
 msgctxt "entities:cannot_rename_image:in_use"
 msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
-msgstr ""
-"Невозможно изменить файл '{}', потому что он в настоящее время используется."
+msgstr "Невозможно изменить файл '{}', потому что он в настоящее время используется."
 
 #, fuzzy
 msgctxt "image-library:breadcrumbs:root-folder"
 msgid "Root"
 msgstr "Корень"
 
+#, fuzzy
 msgctxt "image-library:company-policy:may-not-add-folder-here"
 msgid "Your company policy does not allow to add a new folder at this place."
-msgstr ""
+msgstr "Политика вашей компании не позволяет добавлять новую папку в этом месте."
 
+#, fuzzy
 msgctxt "image-library:company-policy:may-not-add-image-here"
 msgid "Your company policy does not allow to add a new image at this place."
-msgstr ""
+msgstr "Политика вашей компании не позволяет добавлять новое изображение в этом месте."
 
+#, fuzzy
 msgctxt "image-library:company-policy:may-not-delete-here"
 msgid "Your company policy does not allow to delete items at this place."
-msgstr ""
+msgstr "Политика вашей компании не позволяет удалять элементы в этом месте."
 
+#, fuzzy
 msgctxt "image-library:move:target-folder:dialog-title"
 msgid "Move into folder"
-msgstr ""
+msgstr "Переместить в папку"
 
+#, fuzzy
 msgctxt "image-library:move:target-folder:description"
 msgid "Select the destination folder:"
-msgstr ""
+msgstr "Выберите папку назначения:"
 
+#, fuzzy
 msgctxt "image-library:open-image:error:bundle-already-opened"
 msgid "This image is already open in another editor window."
-msgstr ""
+msgstr "Это изображение уже открыто в другом окне редактора."
 
+#, fuzzy
 msgctxt "image-library:dialog:duplicate-entities:window-title"
 msgid "Duplicate images"
-msgstr ""
+msgstr "Дублирующие изображения"
 
+#, fuzzy
 msgctxt "image-library:dialog:duplicate-entities:message"
 msgid "Duplicating images (copied {} of {} images found)."
-msgstr ""
+msgstr "Дублирование изображений (скопировано {} из {} найденных изображений)."
 
+#, fuzzy
 msgctxt "image-library:dialog:duplicate-entities:options:group"
 msgid "Duplicate options"
-msgstr ""
+msgstr "Дублирующиеся параметры"
 
+#, fuzzy
 msgctxt "image-library:dialog:duplicate-entities:options:copy-annotations"
 msgid "Copy annotations"
-msgstr ""
+msgstr "Копировать аннотации"
 
+#, fuzzy
 msgctxt "rename-images:user-note:various-values"
 msgid "(various)"
-msgstr ""
+msgstr "(различный)"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:add:button"
 msgid "+ Dynamic text"
-msgstr ""
+msgstr "+ Динамический текст"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:dialog-title"
 msgid "Choose a dynamic text"
-msgstr ""
+msgstr "Выберите динамический текст"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:current-image-title:name"
 msgid "Current image title"
-msgstr ""
+msgstr "Название текущего изображения"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:capture date"
 msgid "Capture date"
-msgstr ""
+msgstr "Дата захвата"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:gps-coordinates"
 msgid "GPS coordinates"
-msgstr ""
+msgstr "GPS-координаты"
 
 #, fuzzy
 msgctxt "imagebundle-settings:dialog-title"
@@ -1800,35 +1919,35 @@ msgctxt "clipboard-paste-dialog:option:center-on-image"
 msgid "Center on image"
 msgstr "Центрировать на изображении"
 
+#, fuzzy
 msgctxt "import:open-image:without-import:file-dialog:title"
 msgid "Open image"
-msgstr ""
+msgstr "Открыть изображение"
 
+#, fuzzy
 msgctxt "import:import-image:file-dialog:title"
 msgid "Import image to library"
-msgstr ""
+msgstr "Импортировать изображение в библиотеку"
 
+#, fuzzy
 msgctxt "import:import-to-library:image-already-exists:make-copy-question"
 msgid "Image is already in the library. Do you want to make a copy?"
-msgstr ""
+msgstr "Изображение уже есть в библиотеке. Хотите сделать копию?"
 
 #, fuzzy
 msgctxt "rendering:watermark"
-msgid ""
-"Evaluation copy\n"
-"Please upgrade to remove watermark"
-msgstr ""
-"Пробная версия\n"
-"Пожалуйста, обновите, чтобы удалить водяной знак"
+msgid "Evaluation copy\nPlease upgrade to remove watermark"
+msgstr "Пробная версия\nПожалуйста, обновите, чтобы удалить водяной знак"
 
 #, fuzzy
 msgctxt "export:resolution-too-small"
 msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
 msgstr "Выходное разрешение слишком мало. Минимум: {0}x{1} пикселей."
 
+#, fuzzy
 msgctxt "export:image-not-saved:dialog-title"
 msgid "Images with unsaved changes"
-msgstr ""
+msgstr "Изображения с несохраненными изменениями"
 
 msgctxt ""
 "export:image-not-saved:exporting-images-with-unsaved-changes:description"
@@ -1836,53 +1955,55 @@ msgid ""
 "You are trying to export images that are still opened with unsaved changes."
 msgstr ""
 
+#, fuzzy
 msgctxt "export:image-not-saved:exporting-images-with-unsaved-changes:question"
 msgid "Do you want to save them before exporting?"
-msgstr ""
+msgstr "Хотите сохранить их перед экспортом?"
 
+#, fuzzy
 msgctxt "export:overwrite-plain-image:dialog-title"
 msgid "Destructive overwrite"
-msgstr ""
+msgstr "Деструктивная перезапись"
 
+#, fuzzy
 msgctxt "export:overwrite-plain-image:message"
-msgid ""
-"If you overwrite the original image file '{}' with your annotations, you "
-"cannot change it later. The original image will be lost.\n"
-"It is recommended to save to a different file or save as an IMI file that "
-"can still be edited lated."
-msgstr ""
+msgid "If you overwrite the original image file '{}' with your annotations, you cannot change it later. The original image will be lost.\nIt is recommended to save to a different file or save as an IMI file that can still be edited lated."
+msgstr "Если вы перезапишете исходный файл изображения '{}' своими аннотациями, вы не сможете изменить его позже. Исходное изображение будет потеряно.\nРекомендуется сохранить в другой файл или сохранить как файл IMI, который все еще можно редактировать позже."
 
+#, fuzzy
 msgctxt "export:overwrite-plain-image:button:save-as-image"
 msgid "&Save as image..."
-msgstr ""
+msgstr "&Сохранить как изображение..."
 
+#, fuzzy
 msgctxt "export:overwrite-plain-image:button:save-as-imi"
 msgid "Save as &IMI..."
-msgstr ""
+msgstr "Сохранить как &IMI..."
 
+#, fuzzy
 msgctxt "export:multiple-images:target-directory:dialog-title"
 msgid "Output images to directory"
-msgstr ""
+msgstr "Вывод изображений в каталог"
 
+#, fuzzy
 msgctxt "export:image:invalid-filename-suffix"
-msgid ""
-"You specified an invalid file suffix (please use one of the supported "
-"formats)"
-msgstr ""
+msgid "You specified an invalid file suffix (please use one of the supported formats)"
+msgstr "Вы указали недопустимый суффикс файла (используйте один из поддерживаемых форматов)"
 
+#, fuzzy
 msgctxt "export:specific-format:invalid-filename-suffix"
 msgid "You cannot change the file type (must have {} suffix)"
-msgstr ""
+msgstr "Вы не можете изменить тип файла (должен иметь суффикс {})"
 
+#, fuzzy
 msgctxt "export:save-original-images:some-nonphotos:title"
 msgid "Saving original images"
-msgstr ""
+msgstr "Сохранение исходных изображений"
 
+#, fuzzy
 msgctxt "export:save-original-images:some-nonphotos:description"
-msgid ""
-"Some of the images you have saved were no photos. No original photo has been "
-"saved for those images."
-msgstr ""
+msgid "Some of the images you have saved were no photos. No original photo has been saved for those images."
+msgstr "Некоторые из сохраненных вами изображений не были фотографиями. Для этих изображений не было сохранено оригинального фото."
 
 msgctxt "image-export:size:group-title"
 msgid "Image size"
@@ -1927,9 +2048,10 @@ msgctxt "image-export:overlays:text"
 msgid "Text"
 msgstr "Текст"
 
+#, fuzzy
 msgctxt "image-export:company-logo:open-logo-image"
 msgid "Open logo image"
-msgstr ""
+msgstr "Открыть изображение логотипа"
 
 #, fuzzy
 msgctxt "image-export:filename-expression"
@@ -1940,29 +2062,35 @@ msgctxt "image-export:use-default-options"
 msgid "Use default export options"
 msgstr "Использовать параметры экспорта по умолчанию"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:enable-logo"
 msgid "Enable logo"
-msgstr ""
+msgstr "Включить логотип"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:group-title"
 msgid "Company logo"
-msgstr ""
+msgstr "Логотип компании"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:placement"
 msgid "Placement"
-msgstr ""
+msgstr "Размещение"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:size"
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:opacity"
 msgid "Opacity"
-msgstr ""
+msgstr "Непрозрачность"
 
+#, fuzzy
 msgctxt "image-export:show-company-logo"
 msgid "Show company logo"
-msgstr ""
+msgstr "Показать логотип компании"
 
 msgctxt "image-export:company-logo:auto-remove-background"
 msgid "Automatic background removal"
@@ -1973,41 +2101,38 @@ msgid "Automatic background removal"
 msgstr "Автоматическое удаление фона"
 
 msgctxt "image-export:company-logo:auto-remove-background:info:description"
-msgid ""
-"Removes a solid background color from your logo image. For this to work, the "
-"logo must have a consistent background color (no gradient) and the image "
-"should preferably be a PNG image (not a JPEG), as the JPEG's compression "
-"artifacts can introduce color distortions that cannot be removed."
-msgstr ""
-"Удаляет сплошной цвет фона с вашего логотипа. Чтобы это работало, логотип "
-"должен иметь постоянный цвет фона (без градиента), а изображение "
-"предпочтительно должно быть в формате PNG (а не в формате JPEG), так как "
-"артефакты сжатия JPEG могут привести к цветовым искажениям, которые "
-"невозможно удалить."
+msgid "Removes a solid background color from your logo image. For this to work, the logo must have a consistent background color (no gradient) and the image should preferably be a PNG image (not a JPEG), as the JPEG's compression artifacts can introduce color distortions that cannot be removed."
+msgstr "Удаляет сплошной цвет фона с вашего логотипа. Чтобы это работало, логотип должен иметь постоянный цвет фона (без градиента), а изображение предпочтительно должно быть в формате PNG (а не в формате JPEG), так как артефакты сжатия JPEG могут привести к цветовым искажениям, которые невозможно удалить."
 
+#, fuzzy
 msgctxt "image-export:company-logo:auto-border-size"
 msgid "Border size"
-msgstr ""
+msgstr "Размер границы"
 
+#, fuzzy
 msgctxt "image-export:company-logo:border-color"
 msgid "Border color"
-msgstr ""
+msgstr "Цвет границы"
 
+#, fuzzy
 msgctxt "image-export:company-logo:border-color:white"
 msgid "White"
-msgstr ""
+msgstr "Белый"
 
+#, fuzzy
 msgctxt "image-export:company-logo:border-color:black"
 msgid "Black"
-msgstr ""
+msgstr "Черный"
 
+#, fuzzy
 msgctxt "image-export:advanced-options:group-title"
 msgid "Advanced Options"
-msgstr ""
+msgstr "Расширенные параметры"
 
+#, fuzzy
 msgctxt "image-export:hide-measurement-values"
 msgid "Hide all measurement values"
-msgstr ""
+msgstr "Скрыть все значения измерений"
 
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of Contents"
@@ -2017,9 +2142,10 @@ msgctxt "pdf-export:root-folder-title"
 msgid "ImageMeter export"
 msgstr "ImageMeter экспорт"
 
+#, fuzzy
 msgctxt "export:pdf:dialog-title"
 msgid "PDF export options"
-msgstr ""
+msgstr "Параметры экспорта в PDF"
 
 msgctxt "export:pdf:section:paper"
 msgid "Paper"
@@ -2037,9 +2163,10 @@ msgctxt "export:pdf:paper-orientation(pdf)"
 msgid "PDF page orientation"
 msgstr "Ориентация PDF страницы"
 
+#, fuzzy
 msgctxt "export:pdf:paper-orientation"
 msgid "Paper orientation"
-msgstr ""
+msgstr "Ориентация бумаги"
 
 msgctxt "export:pdf:paper-orientation:portrait"
 msgid "Portrait"
@@ -2057,9 +2184,10 @@ msgctxt "export:pdf:paper-size(pdf)"
 msgid "PDF page size"
 msgstr "Размер PDF страницы"
 
+#, fuzzy
 msgctxt "export:pdf:paper-size"
 msgid "Paper size"
-msgstr ""
+msgstr "Размер бумаги"
 
 msgctxt "export:pdf:paper-size:a4"
 msgid "A4"
@@ -2069,13 +2197,15 @@ msgctxt "export:pdf:paper-size:a3"
 msgid "A3"
 msgstr "A3"
 
+#, fuzzy
 msgctxt "export:pdf:paper-size:a2"
 msgid "A2"
-msgstr ""
+msgstr "А2"
 
+#, fuzzy
 msgctxt "export:pdf:paper-size:a1"
 msgid "A1"
-msgstr ""
+msgstr "А1"
 
 msgctxt "export:pdf:paper-size:letter"
 msgid "Letter"
@@ -2101,9 +2231,10 @@ msgctxt "export:pdf:may-rotate-images:description:off"
 msgid "Images will never be rotated"
 msgstr "Не поворачивать картинки"
 
+#, fuzzy
 msgctxt "export:pdf:images-per-page"
 msgid "Images per page"
-msgstr ""
+msgstr "Изображений на странице"
 
 msgctxt "export:pdf:images-per-page(pdf)"
 msgid "Images per PDF page"
@@ -2121,17 +2252,19 @@ msgctxt "export:pdf:image-notes-space"
 msgid "Space reserved for image notes"
 msgstr "Лимит размера аннотаций"
 
+#, fuzzy
 msgctxt "export:pdf:image-notes-space(short)"
 msgid "Space for image notes"
-msgstr ""
+msgstr "Место для заметок к изображениям"
 
 msgctxt "export:pdf:image-notes-space:do-not-print-notes"
 msgid "Do not print image notes"
 msgstr "Не печатать заметки"
 
+#, fuzzy
 msgctxt "export:pdf:image-notes-space:reserve-X-space"
 msgid "Reserve {0}% space"
-msgstr ""
+msgstr "Зарезервировать {0}% места"
 
 msgctxt "export:pdf:print-folder-notes"
 msgid "Print folder notes"
@@ -2154,9 +2287,10 @@ msgctxt "export:pdf:image-title"
 msgid "Image title"
 msgstr "Название изображения"
 
+#, fuzzy
 msgctxt "export:pdf:image-title:hint"
 msgid "for example: {image.title}"
-msgstr ""
+msgstr "например: {image.title}"
 
 #, fuzzy
 msgctxt "export:pdf:section:data-table"
@@ -2181,33 +2315,40 @@ msgctxt "export:pdf:print-density:default"
 msgid "Default"
 msgstr "По умолчанию"
 
+#, fuzzy
 msgctxt "export:pdf:print-density:custom"
 msgid "Custom"
-msgstr ""
+msgstr "Обычай"
 
+#, fuzzy
 msgctxt "export:pdf:print-density:dpi-formatstring"
 msgid "{} dpi"
-msgstr ""
+msgstr "{} точек на дюйм"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style"
 msgid "Page numbers"
-msgstr ""
+msgstr "Номера страниц"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:none"
 msgid "None"
-msgstr ""
+msgstr "Никто"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:continuous"
 msgid "Continuous decimal"
-msgstr ""
+msgstr "Непрерывная десятичная дробь"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:roman-frontmatter"
 msgid "Roman front matter"
-msgstr ""
+msgstr "Римский фронт"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:no-frontmatter"
 msgid "No front matter"
-msgstr ""
+msgstr "Нет вступительного слова"
 
 #, fuzzy
 msgctxt "export:csv:field-separator"
@@ -2234,31 +2375,35 @@ msgctxt "export:csv:include-table-footer-row"
 msgid "Include footer row"
 msgstr "Включить строку нижнего колонтитула"
 
+#, fuzzy
 msgctxt "export:csv:error:cannot-export-csv"
 msgid "Cannot export CSV file"
-msgstr ""
+msgstr "Невозможно экспортировать CSV-файл"
 
+#, fuzzy
 msgctxt "export:csv:error:cannot-export-xlsx"
 msgid "Cannot export XLSX file"
-msgstr ""
+msgstr "Невозможно экспортировать файл XLSX"
 
+#, fuzzy
 msgctxt "export:csv:entities-have-no-common-template"
 msgid "There are no common templates defined."
-msgstr ""
+msgstr "Определенных общих шаблонов не существует."
 
+#, fuzzy
 msgctxt "export:csv:entities-have-no-common-template:details"
-msgid ""
-"You need to assign a template to each image and folder that you export. You "
-"have to use the same template for each image and folder."
-msgstr ""
+msgid "You need to assign a template to each image and folder that you export. You have to use the same template for each image and folder."
+msgstr "Вам необходимо назначить шаблон для каждого экспортируемого изображения и папки. Вам необходимо использовать один и тот же шаблон для каждого изображения и папки."
 
+#, fuzzy
 msgctxt "export:tablespec-to-export:dialog-title"
 msgid "Choose data table to export"
-msgstr ""
+msgstr "Выберите таблицу данных для экспорта"
 
+#, fuzzy
 msgctxt "print:options:dialog-title"
 msgid "Print options"
-msgstr ""
+msgstr "Параметры печати"
 
 msgctxt "zip-export:include-annotated-images"
 msgid "Include annotated images"
@@ -2282,17 +2427,20 @@ msgctxt "zip-export:include-pdf-file"
 msgid "Include PDF file"
 msgstr "PDF файл"
 
+#, fuzzy
 msgctxt "zip-export:include-imf-file"
 msgid "Include IMF file"
-msgstr ""
+msgstr "Включить файл IMF"
 
+#, fuzzy
 msgctxt "about-image:unknown-gps"
 msgid "no GPS coordinates"
-msgstr ""
+msgstr "нет координат GPS"
 
+#, fuzzy
 msgctxt "about-image:dialog-title"
 msgid "Image Information"
-msgstr ""
+msgstr "Информация об изображении"
 
 msgctxt "about-image:image-name"
 msgid "Image Name"
@@ -2310,13 +2458,15 @@ msgctxt "about-image:original-image-resolution"
 msgid "Original Image Resolution"
 msgstr "Разрешение ориганала"
 
+#, fuzzy
 msgctxt "about-image:camera-configuration"
 msgid "Camera Configuration"
-msgstr ""
+msgstr "Конфигурация камеры"
 
+#, fuzzy
 msgctxt "about-image:camera-name-and-resolution"
 msgid "'{}' at {}x{}"
-msgstr ""
+msgstr "'{}' в {}x{}"
 
 msgctxt "about-image:gps-coordinates"
 msgid "GPS Coordinates"
@@ -2327,12 +2477,8 @@ msgid "Show on map"
 msgstr "Показать на карте"
 
 msgctxt "editor:attach:error_no_reference_to_attach_to"
-msgid ""
-"There is no reference in the image! You need to draw a reference in order to "
-"do automatic computations."
-msgstr ""
-"Нет связи на изображении! Вам необходимо задать связь для того, чтобы "
-"сделать автоматическое вычисление."
+msgid "There is no reference in the image! You need to draw a reference in order to do automatic computations."
+msgstr "Нет связи на изображении! Вам необходимо задать связь для того, чтобы сделать автоматическое вычисление."
 
 msgctxt "editor:attach:error_no_element_to_attach_to_reference"
 msgid "There is no measure that could be computed."
@@ -2343,14 +2489,11 @@ msgid "Measure is computed based on the reference you provided."
 msgstr "Замер вычисляется при помощи заданной Вами связи."
 
 msgctxt "editor:attach:hint_howto_attach_to_reference"
-msgid ""
-"Click on the measure you want to compute based on the selected reference."
+msgid "Click on the measure you want to compute based on the selected reference."
 msgstr "Нажмите на замер, который Вы хотите добавить к выбранной связи."
 
 msgctxt "editor:attach:hint_howto_attach_measure"
-msgid ""
-"Click on the reference based on which you want to calculate the selected "
-"measure."
+msgid "Click on the reference based on which you want to calculate the selected measure."
 msgstr "Нажмите на связь, которую Вы хотите добавить к выбранному замеру."
 
 #, fuzzy
@@ -2387,47 +2530,50 @@ msgctxt "editor:image-modified-dialog:text"
 msgid "Image has been modified. Do you want to save it?"
 msgstr "Изображение было изменено. Вы хотите его сохранить?"
 
+#, fuzzy
 msgctxt "editor:loaded-image-has-more-recent-version:title"
 msgid "Trying to load unsupported file format"
-msgstr ""
+msgstr "Попытка загрузить неподдерживаемый формат файла"
 
+#, fuzzy
 msgctxt "editor:loaded-image-has-more-recent-version:warning"
-msgid ""
-"This image has been saved with a more recent version. You need at least "
-"version {} to load this image correctly. You can still try to open this "
-"file, but some parts of it might be missing."
-msgstr ""
+msgid "This image has been saved with a more recent version. You need at least version {} to load this image correctly. You can still try to open this file, but some parts of it might be missing."
+msgstr "Это изображение было сохранено в более поздней версии. Вам нужна версия {} как минимум для корректной загрузки этого изображения. Вы все еще можете попытаться открыть этот файл, но некоторые его части могут отсутствовать."
 
+#, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:title"
 msgid "Overwrite with incompletely loaded image"
-msgstr ""
+msgstr "Перезаписать не полностью загруженным изображением"
 
+#, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:warning"
-msgid ""
-"This image has only been loaded partially because it was written with a more "
-"recent software version. If you save this image now, parts of the "
-"information in the original file gets lost."
-msgstr ""
+msgid "This image has only been loaded partially because it was written with a more recent software version. If you save this image now, parts of the information in the original file gets lost."
+msgstr "Это изображение было загружено только частично, поскольку оно было написано с помощью более новой версии программного обеспечения. Если вы сохраните это изображение сейчас, части информации в исходном файле будут утеряны."
 
+#, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:question"
 msgid "Do you still want to overwrite the file?"
-msgstr ""
+msgstr "Вы все еще хотите перезаписать файл?"
 
+#, fuzzy
 msgctxt "editor:zoom:standard"
 msgid "Reset"
-msgstr ""
+msgstr "Перезагрузить"
 
+#, fuzzy
 msgctxt "editor:zoom:fit"
 msgid "Fit"
-msgstr ""
+msgstr "Соответствовать"
 
+#, fuzzy
 msgctxt "editor:zoom:fill"
 msgid "Fill"
-msgstr ""
+msgstr "Наполнять"
 
+#, fuzzy
 msgctxt "editor:styling:line-caps"
 msgid "Line caps"
-msgstr ""
+msgstr "Линейные колпачки"
 
 msgctxt "editor:styling:line-caps-size"
 msgid "Line cap size"
@@ -2449,9 +2595,10 @@ msgctxt "editor:styling:font-size"
 msgid "Font size"
 msgstr "Размер шрифта"
 
+#, fuzzy
 msgctxt "editor:styling:color"
 msgid "Color"
-msgstr ""
+msgstr "Цвет"
 
 #, fuzzy
 msgctxt "editor:styling:fill-color"
@@ -2480,53 +2627,65 @@ msgctxt "editor:styling:set-as-default"
 msgid "Set as default"
 msgstr "Установить по умолчанию"
 
+#, fuzzy
 msgctxt "editor:styling:color:transparent"
 msgid "Transparent"
-msgstr ""
+msgstr "Прозрачный"
 
+#, fuzzy
 msgctxt "editor:styling:color:automatic"
 msgid "Automatic"
-msgstr ""
+msgstr "Автоматический"
 
+#, fuzzy
 msgctxt "editor:styling:color:master-color"
 msgid "Master color"
-msgstr ""
+msgstr "Мастер цвета"
 
+#, fuzzy
 msgctxt "editor:styling:color:custom-color"
 msgid "Custom color"
-msgstr ""
+msgstr "Цвет по индивидуальному заказу"
 
+#, fuzzy
 msgctxt "editor:styling:color-palette:standard:name"
 msgid "Standard"
-msgstr ""
+msgstr "Стандарт"
 
+#, fuzzy
 msgctxt "editor:styling:color-palette:custom:name"
 msgid "Custom"
-msgstr ""
+msgstr "Обычай"
 
+#, fuzzy
 msgctxt "prefs:color-palette:group-title"
 msgid "Color palette"
-msgstr ""
+msgstr "Цветовая палитра"
 
+#, fuzzy
 msgctxt "prefs:color-palette:active-palette"
 msgid "Active color palette"
-msgstr ""
+msgstr "Активная цветовая палитра"
 
+#, fuzzy
 msgctxt "prefs:color-palette:show-custom-colors"
 msgid "Allow adding custom colors"
-msgstr ""
+msgstr "Разрешить добавление пользовательских цветов"
 
+#, fuzzy
 msgctxt "prefs:color-palette:custom-palette-configuration:button"
 msgid "Customize color palette…"
-msgstr ""
+msgstr "Настройте цветовую палитру…"
 
+#, fuzzy
 msgctxt "prefs:color-palette:custom-palette-configuration:title"
 msgid "Custom color palette"
-msgstr ""
+msgstr "Индивидуальная цветовая палитра"
 
+#, fuzzy
 msgctxt "prefs:color-palette:custom-palette-configuration:number-of-rows"
 msgid "Number of rows"
-msgstr ""
+msgstr "Количество рядов"
 
 msgctxt "editor:styling:label:apply-to"
 msgid "Apply to …"
@@ -2544,13 +2703,15 @@ msgctxt "editor:styling:label:apply-to:all-lengths"
 msgid "All lengths"
 msgstr "Все длины"
 
+#, fuzzy
 msgctxt "editor:styling:label:apply-to:all-angles"
 msgid "All angles"
-msgstr ""
+msgstr "Все углы"
 
+#, fuzzy
 msgctxt "editor:styling:label:apply-to:all-radii"
 msgid "All radii"
-msgstr ""
+msgstr "Все радиусы"
 
 msgctxt "editor:styling:label:apply-to:whole-element"
 msgid "Whole element"
@@ -2580,9 +2741,10 @@ msgctxt "editor:styling:measure:show-length"
 msgid "Show length"
 msgstr "Показать длину"
 
+#, fuzzy
 msgctxt "editor:measure:swap-endpoints"
 msgid "Swap endpoints"
-msgstr ""
+msgstr "Поменять конечные точки"
 
 msgctxt "editor:measure:move-label"
 msgid "Move label"
@@ -2604,9 +2766,10 @@ msgctxt "editor:styling:label-display-mode:horizontal"
 msgid "Horizontal"
 msgstr "По горизонтали"
 
+#, fuzzy
 msgctxt "editor:styling:label-display-mode:below-line"
 msgid "Below line"
-msgstr ""
+msgstr "Ниже линии"
 
 #, fuzzy
 msgctxt "editor:styling:angle:show-angle"
@@ -2766,17 +2929,20 @@ msgctxt "editor:styling:flatref:label-position:alternating-last-below"
 msgid "Alternating, last one below"
 msgstr "Общая сумма внищу"
 
+#, fuzzy
 msgctxt "editor:styling:flatref:show-border"
 msgid "Show border"
-msgstr ""
+msgstr "Показать границу"
 
+#, fuzzy
 msgctxt "editor:styling:flatref:main-color"
 msgid "Main color"
-msgstr ""
+msgstr "Основной цвет"
 
+#, fuzzy
 msgctxt "editor:styling:flatref:secondary-color"
 msgid "Secondary color"
-msgstr ""
+msgstr "Вторичный цвет"
 
 msgctxt "editor:styling:measurement-point:show-label"
 msgid "Show text"
@@ -2790,9 +2956,10 @@ msgctxt "editor:styling:measurement-point:marker-symbol"
 msgid "Marker"
 msgstr "Маркер"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:no-symbol"
 msgid "No symbol"
-msgstr ""
+msgstr "Нет символа"
 
 msgctxt "editor:styling:measurement-point:marker-symbol:encircled-cross"
 msgid "Encircled cross"
@@ -2818,29 +2985,35 @@ msgctxt "editor:styling:measurement-point:marker-symbol:elevation-bottom"
 msgid "Elevation bottom"
 msgstr "Указатель вниз"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:tilt-left"
 msgid "Tilt left"
-msgstr ""
+msgstr "Наклон влево"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:tilt-right"
 msgid "Tilt right"
-msgstr ""
+msgstr "Наклон вправо"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-left"
 msgid "V-Tilt left"
-msgstr ""
+msgstr "V-наклон влево"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-right"
 msgid "V-Tilt right"
-msgstr ""
+msgstr "V-Наклон вправо"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:left"
 msgid "L"
-msgstr ""
+msgstr "Л"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:right"
 msgid "R"
-msgstr ""
+msgstr "Р"
 
 msgctxt "editor:styling:measurement-point:marker-symbol-size"
 msgid "Marker size"
@@ -2910,9 +3083,10 @@ msgctxt "editor:rect-ref:assign-reference-object-size(short)"
 msgid "Choose size"
 msgstr "Выбор размера"
 
+#, fuzzy
 msgctxt "editor:rect-ref:assign-reference-object-size"
 msgid "Assign reference object size"
-msgstr ""
+msgstr "Назначить размер эталонного объекта"
 
 msgctxt "editor:styling:textbox:text-h-alignment"
 msgid "Text alignment"
@@ -2934,9 +3108,10 @@ msgctxt "editor:styling:textbox:box-background-color"
 msgid "Background color"
 msgstr "Фоновый цвет"
 
+#, fuzzy
 msgctxt "editor:styling:textbox:box-background-opacity"
 msgid "Background opacity"
-msgstr ""
+msgstr "Непрозрачность фона"
 
 msgctxt "editor:textbox:action:add-arrow"
 msgid "Add arrow"
@@ -2946,167 +3121,205 @@ msgctxt "editor:textbox:action:delete-arrow"
 msgid "Delete arrow"
 msgstr "Удалить стрелку"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position"
 msgid "Length position"
-msgstr ""
+msgstr "Положение длины"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:radius-label-position"
 msgid "Radius position"
-msgstr ""
+msgstr "Радиус положения"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:angle-label-position"
 msgid "Angle position"
-msgstr ""
+msgstr "Угловое положение"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:none"
 msgid "Do not show"
-msgstr ""
+msgstr "Не показывать"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:outside-along"
 msgid "Along line"
-msgstr ""
+msgstr "Вдоль линии"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:various"
 msgid "---"
-msgstr ""
+msgstr "---"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:none"
 msgid "Do not show"
-msgstr ""
+msgstr "Не показывать"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:inside"
 msgid "Inside"
-msgstr ""
+msgstr "Внутри"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-along"
 msgid "Outside (along)"
-msgstr ""
+msgstr "Снаружи (вдоль)"
 
 msgctxt ""
 "editor:styling:rounded-polyline:corner-label-position:outside-orthogonal"
 msgid "Outside (orthogonal)"
 msgstr ""
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:various"
 msgid "---"
-msgstr ""
+msgstr "---"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode"
 msgid "Side length"
-msgstr ""
+msgstr "Длина стороны"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:tangent-length"
 msgid "Tangent length"
-msgstr ""
+msgstr "Длина касательной"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:tangent-plus-radius"
 msgid "Tangent plus radius"
-msgstr ""
+msgstr "Касательная плюс радиус"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:miter-joint"
 msgid "Miter joints"
-msgstr ""
+msgstr "Соединения под углом"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:rebar"
 msgid "Rebar"
-msgstr ""
+msgstr "Арматура"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:mode:move-corner"
 msgid "Move corner"
-msgstr ""
+msgstr "Переместить угол"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:mode:adjust-corner-radius"
 msgid "Corner radius"
-msgstr ""
+msgstr "Радиус угла"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:mode:add-corner"
 msgid "Add corner"
-msgstr ""
+msgstr "Добавить угол"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:mode:delete-corner"
 msgid "Delete corner"
-msgstr ""
+msgstr "Удалить угол"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:action:open-contour"
 msgid "Open contour"
-msgstr ""
+msgstr "Открытый контур"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:action:close-contour"
 msgid "Close contour"
-msgstr ""
+msgstr "Закрытый контур"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:action:expand"
 msgid "Expand"
-msgstr ""
+msgstr "Расширять"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:action:expand:invalid-expansion-offset"
-msgid ""
-"Invalid expansion offset. This offset value would lead to an invalid shape."
-msgstr ""
+msgid "Invalid expansion offset. This offset value would lead to an invalid shape."
+msgstr "Недопустимое смещение расширения. Это значение смещения приведет к недопустимой форме."
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:expand:dialog:window-title"
 msgid "Expand"
-msgstr ""
+msgstr "Расширять"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:expand:expand-by:prefix"
 msgid "Expand by"
-msgstr ""
+msgstr "Расширить на"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:expand:expand-by:hint"
 msgid "e.g. 10mm"
-msgstr ""
+msgstr "например 10мм"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape"
 msgid "Shape"
-msgstr ""
+msgstr "Форма"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:circle"
 msgid "Circle"
-msgstr ""
+msgstr "Круг"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:square"
 msgid "Square"
-msgstr ""
+msgstr "Квадрат"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:pentagon"
 msgid "Pentagon"
-msgstr ""
+msgstr "Пентагон"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:star5"
 msgid "Star"
-msgstr ""
+msgstr "Звезда"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:triangle-up"
 msgid "Triangle (up)"
-msgstr ""
+msgstr "Треугольник (вверх)"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:triangle-down"
 msgid "Triangle (down)"
-msgstr ""
+msgstr "Треугольник (вниз)"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:dot"
 msgid "Dot"
-msgstr ""
+msgstr "точка"
 
+#, fuzzy
 msgctxt "editor:styling:counter:filled-shape"
 msgid "Filled shape"
-msgstr ""
+msgstr "Заполненная форма"
 
+#, fuzzy
 msgctxt "editor:styling:counter:rename"
 msgid "Rename"
-msgstr ""
+msgstr "Переименовать"
 
+#, fuzzy
 msgctxt "editor:styling:counter:start-value"
 msgid "Start value"
-msgstr ""
+msgstr "Начальное значение"
 
+#, fuzzy
 msgctxt "editor:results-list:generic-counter"
 msgid "count"
-msgstr ""
+msgstr "считать"
 
+#, fuzzy
 msgctxt "editor:styling:results-list:show-symbols"
 msgid "Show counter symbols"
-msgstr ""
+msgstr "Показать символы счетчика"
 
 msgctxt "image-settings:image:saturation"
 msgid "Saturation"
@@ -3174,9 +3387,10 @@ msgctxt "image-settings:canvas:fine-grid-color"
 msgid "Fine grid color"
 msgstr "Цвет мелкой сетки"
 
+#, fuzzy
 msgctxt "image-settings:canvas:enable-grid"
 msgid "Enable grid"
-msgstr ""
+msgstr "Включить сетку"
 
 msgctxt "image-settings:canvas:grid-subdivisions"
 msgid "Subdivisions"
@@ -3196,9 +3410,10 @@ msgctxt "image-settings:calibration:enable-to-image"
 msgid "Calibrate to image"
 msgstr "Калибровка по изображению"
 
+#, fuzzy
 msgctxt "image-settings:calibration:show-in-exported-image"
 msgid "Show in exported image"
-msgstr ""
+msgstr "Показать в экспортированном изображении"
 
 msgctxt "image-settings:calibration:image-resolution"
 msgid "Resolution"
@@ -3228,9 +3443,10 @@ msgctxt "image-settings:secondary-label:mode:off"
 msgid "Off"
 msgstr "Выключено"
 
+#, fuzzy
 msgctxt "image-settings:secondary-label:no-secondary-label"
 msgid "No secondary label"
-msgstr ""
+msgstr "Нет вторичной этикетки"
 
 msgctxt "image-settings:secondary-label:alternative-unit"
 msgid "Alternative unit"
@@ -3248,107 +3464,129 @@ msgctxt "image-settings:secondary-label:model-scale:scale"
 msgid "Scale"
 msgstr "Масштаб"
 
+#, fuzzy
 msgctxt "editor:properties:dialog-title"
 msgid "Tag and Properties"
-msgstr ""
+msgstr "Тег и свойства"
 
+#, fuzzy
 msgctxt "editor:tag-chooser:dialog-title"
 msgid "Select Tag"
-msgstr ""
+msgstr "Выберите тег"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:title"
 msgid "Specify counter"
-msgstr ""
+msgstr "Укажите счетчик"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:existing-counters"
 msgid "Existing counters"
-msgstr ""
+msgstr "Существующие счетчики"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:new-counter"
 msgid "New counter"
-msgstr ""
+msgstr "Новый счетчик"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:new-counter:name"
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:new-counter:symbol"
 msgid "Symbol"
-msgstr ""
+msgstr "Символ"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:new-counter:start-value"
 msgid "Start value"
-msgstr ""
+msgstr "Начальное значение"
 
+#, fuzzy
 msgctxt "editor:rename-counter:dialog-title"
 msgid "Rename counter"
-msgstr ""
+msgstr "Переименовать счетчик"
 
+#, fuzzy
 msgctxt "editor:rename-counter:title"
 msgid "New counter name"
-msgstr ""
+msgstr "Новое имя счетчика"
 
+#, fuzzy
 msgctxt "editor:rename-counter:existing-tag"
 msgid "Existing tag"
-msgstr ""
+msgstr "Существующий тег"
 
+#, fuzzy
 msgctxt "editor:rename-counter:existing-tag-custom"
 msgid "custom"
-msgstr ""
+msgstr "обычай"
 
+#, fuzzy
 msgctxt "editor:rename-counter:new-name"
 msgid "New name"
-msgstr ""
+msgstr "Новое имя"
 
+#, fuzzy
 msgctxt "editor:rename-counter:rename-all-counters"
 msgid "Rename all counters"
-msgstr ""
+msgstr "Переименовать все счетчики"
 
+#, fuzzy
 msgctxt "editor:textbox-entry:open-detail-image"
 msgid "Open detail image"
-msgstr ""
+msgstr "Открыть детальное изображение"
 
+#, fuzzy
 msgctxt "prefs:measures:length-unit"
 msgid "Length unit"
-msgstr ""
+msgstr "Единица длины"
 
+#, fuzzy
 msgctxt "prefs:measures:area-unit"
 msgid "Area unit"
-msgstr ""
+msgstr "Единица площади"
 
 msgctxt "prefs:measures:angle-unit"
 msgid "Angle unit"
 msgstr "Единицы измерения углов"
 
+#, fuzzy
 msgctxt "prefs:measures:group:display-options"
 msgid "Display options"
-msgstr ""
+msgstr "Параметры отображения"
 
+#, fuzzy
 msgctxt "prefs:image-library:set-directory:dialog-title"
 msgid "Set image library directory"
-msgstr ""
+msgstr "Установить каталог библиотеки изображений"
 
+#, fuzzy
 msgctxt "prefs:image-library:use-directory:info-text"
 msgid "Use {}"
-msgstr ""
+msgstr "Использовать {}"
 
+#, fuzzy
 msgctxt "prefs:editor:ui:mouse-behavior"
 msgid "Mouse behavior"
-msgstr ""
+msgstr "Поведение мыши"
 
+#, fuzzy
 msgctxt "prefs:editor:ui:point-dragging-slowdown"
 msgid "Reduced dragging speed"
-msgstr ""
+msgstr "Уменьшена скорость перетаскивания"
 
+#, fuzzy
 msgctxt "prefs:editor:ui:point-dragging-slowdown:info:title"
 msgid "Reduced dragging speed"
-msgstr ""
+msgstr "Уменьшена скорость перетаскивания"
 
+#, fuzzy
 msgctxt "prefs:editor:ui:point-dragging-slowdown:info"
-msgid ""
-"When you press the 'Alt' key while dragging a point, the dragging speed is "
-"reduced by this factor to that it is easier to accurately set the position."
-msgstr ""
+msgid "When you press the 'Alt' key while dragging a point, the dragging speed is reduced by this factor to that it is easier to accurately set the position."
+msgstr "При нажатии клавиши «Alt» во время перетаскивания точки скорость перетаскивания уменьшается на этот коэффициент, что упрощает точную установку положения."
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
 msgid "Snap to object corners"
@@ -3374,9 +3612,10 @@ msgctxt "prefs:editor:snapping:snap-to-hv-orientation:only-when-attached"
 msgid "Only when attached to reference"
 msgstr "Если есть связь"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation:use-nearest-reference"
 msgid "Use nearest reference"
-msgstr ""
+msgstr "Использовать ближайшую ссылку"
 
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation:on"
 msgid "On"
@@ -3410,19 +3649,12 @@ msgstr "1 ft"
 #, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:tooltip"
 msgid "Snap to multiples of this distance (only for rectangles and distance)."
-msgstr ""
-"Привязка к кратному этому расстоянию (только для прямоугольников и "
-"расстояния)."
+msgstr "Привязка к кратному этому расстоянию (только для прямоугольников и расстояния)."
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
-msgid ""
-"Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
-"rectangle sides will be restricted to steps of this size."
-msgstr ""
-"Введите расстояние в единицах измерения (например, 10cm, 1ft или 1'). "
-"Нарисованные размеры и стороны прямоугольника будут ограничены шагами этого "
-"размера."
+msgid "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and rectangle sides will be restricted to steps of this size."
+msgstr "Введите расстояние в единицах измерения (например, 10cm, 1ft или 1'). Нарисованные размеры и стороны прямоугольника будут ограничены шагами этого размера."
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
@@ -3449,17 +3681,20 @@ msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:long"
 msgid "Long"
 msgstr "Длинная"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:dimstring:group-title"
 msgid "Dimension String"
-msgstr ""
+msgstr "Строка измерения"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:dimstring:markerline-length-long"
 msgid "Marker line length (long)"
-msgstr ""
+msgstr "Длина линии маркера (длинная)"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:dimstring:markerline-length-short"
 msgid "Marker line length (short)"
-msgstr ""
+msgstr "Длина линии маркера (короткая)"
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:group-title"
@@ -3482,9 +3717,10 @@ msgctxt "prefs:editor:drawing-tools:prefix-text:circle-radius"
 msgid "r:"
 msgstr "R:"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:prefix-text:circle-diameter"
 msgid "d:"
-msgstr ""
+msgstr "г:"
 
 msgctxt "prefs:editor:drawing-tools:prefix-text:circle-area"
 msgid "A:"
@@ -3498,260 +3734,310 @@ msgctxt "prefs:editor:drawing-tools:prefix-text:circle-arc-length"
 msgid "s:"
 msgstr "L:"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:title"
 msgid "Open notes entry dialog"
-msgstr ""
+msgstr "Открыть диалоговое окно ввода заметок"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:no"
 msgid "Do not open automatically"
-msgstr ""
+msgstr "Не открывать автоматически"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:if-multiple"
 msgid "Open when adding multiple notes"
-msgstr ""
+msgstr "Открыть при добавлении нескольких заметок"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:yes"
 msgid "Open when new note is added"
-msgstr ""
+msgstr "Открывать при добавлении новой заметки"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:implicitref:show-in-exported-image"
 msgid "Show calibration scale in exported image"
-msgstr ""
+msgstr "Показать калибровочную шкалу в экспортированном изображении"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:device-list:title"
 msgid "Discovered Bluetooth devices"
-msgstr ""
+msgstr "Обнаруженные устройства Bluetooth"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:device-list:header:name"
 msgid "Bluetooth name"
-msgstr ""
+msgstr "Имя Bluetooth"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:device-list:header:mac-address"
 msgid "MAC address"
-msgstr ""
+msgstr "MAC-адрес"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:device-list:header:uuid-address"
 msgid "UUID address"
-msgstr ""
+msgstr "UUID-адрес"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:device-list:header:device-name"
 msgid "Device name"
-msgstr ""
+msgstr "Имя устройства"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:device-list:please-identify"
 msgid "please identify"
-msgstr ""
+msgstr "пожалуйста, идентифицируйте"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:scan-devices-button"
 msgid "Scan for devices"
-msgstr ""
+msgstr "Сканировать устройства"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:identify-device-button"
 msgid "Identify device"
-msgstr ""
+msgstr "Определить устройство"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:choose-device-button"
 msgid "Choose selected device"
-msgstr ""
+msgstr "Выберите выбранное устройство"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:selected-device-group:title"
 msgid "Selected device"
-msgstr ""
+msgstr "Выбранное устройство"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:selected-device-group:device-name"
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:selected-device-group:device-model"
 msgid "Model"
-msgstr ""
+msgstr "Модель"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:selected-device-group:device-address"
 msgid "Address"
-msgstr ""
+msgstr "Адрес"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:selected-device-group:test-device-button"
 msgid "Test device"
-msgstr ""
+msgstr "Тестовое устройство"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:selected-device-group:unset-device-button"
 msgid "Unset device"
-msgstr ""
+msgstr "Сбросить настройки устройства"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:use-device-format"
 msgid "Use measurement unit from device"
-msgstr ""
+msgstr "Использовать единицу измерения устройства"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:enable-acoustic-feedback"
 msgid "Acoustic feedback"
-msgstr ""
+msgstr "Акустическая обратная связь"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:enable-double-trigger"
 msgid "Double trigger"
-msgstr ""
+msgstr "Двойной спусковой крючок"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:category:clipboard"
 msgid "Clipboard"
-msgstr ""
+msgstr "Буфер обмена"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:enable"
 msgid "Copy value to clipboard"
-msgstr ""
+msgstr "Копировать значение в буфер обмена"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:never"
 msgid "Never"
-msgstr ""
+msgstr "Никогда"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:when-not-in-editor"
 msgid "When editor is closed"
-msgstr ""
+msgstr "Когда редактор закрыт"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:when-minimized"
 msgid "When window is minimized"
-msgstr ""
+msgstr "Когда окно свернуто"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:always"
 msgid "Always"
-msgstr ""
+msgstr "Всегда"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:with-unit"
 msgid "Copy value with unit"
-msgstr ""
+msgstr "Копировать значение с единицей измерения"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:with-decimal-dot"
 msgid "Use decimal dot"
-msgstr ""
+msgstr "Использовать десятичную точку"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:copy-to-clipboard(pc)"
 msgid "Copy Bluetooth measurement to clipboard"
-msgstr ""
+msgstr "Копировать измерение Bluetooth в буфер обмена"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:enter-as-keyboard"
 msgid "Enter measurement as keyboard input"
-msgstr ""
+msgstr "Введите измерение с клавиатуры"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:keyboard-suffix-key"
 msgid "Key to press after measurement"
-msgstr ""
+msgstr "Клавиша, которую следует нажать после измерения"
 
+#, fuzzy
 msgctxt "android:prefs:bluetooth:device-selection:scan-instructions"
-msgid ""
-"Use the LE scan for modern devices. For older Bluetooth classic devices, use "
-"the classic scan."
-msgstr ""
+msgid "Use the LE scan for modern devices. For older Bluetooth classic devices, use the classic scan."
+msgstr "Используйте сканирование LE для современных устройств. Для старых классических устройств Bluetooth используйте классическое сканирование."
 
 #, fuzzy
 msgctxt "prefs:template:add:general-description"
-msgid ""
-"Choose the template that best matches your needs. You can further customize "
-"it later."
-msgstr ""
-"Выберите шаблон, который лучше всего соответствует вашим потребностям. Вы "
-"можете настроить его позже."
+msgid "Choose the template that best matches your needs. You can further customize it later."
+msgstr "Выберите шаблон, который лучше всего соответствует вашим потребностям. Вы можете настроить его позже."
 
 #, fuzzy
 msgctxt "prefs:template:add:dialog-title"
 msgid "Template type"
 msgstr "Тип шаблона"
 
+#, fuzzy
 msgctxt "prefs:template:add-template(capital)"
 msgid "Add template"
-msgstr ""
+msgstr "Добавить шаблон"
 
+#, fuzzy
 msgctxt "prefs:template:remove-template(capital)"
 msgid "Remove template"
-msgstr ""
+msgstr "Удалить шаблон"
 
+#, fuzzy
 msgctxt "prefs:template:list-header:name(pc)"
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
+#, fuzzy
 msgctxt "prefs:template:list-header:type(pc)"
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
+#, fuzzy
 msgctxt "prefs:template:list:group-title(pc)"
 msgid "Templates"
-msgstr ""
+msgstr "Шаблоны"
 
+#, fuzzy
 msgctxt "prefs:template:config:group-title(pc)"
 msgid "Template configuration"
-msgstr ""
+msgstr "Конфигурация шаблона"
 
+#, fuzzy
 msgctxt "prefs:template:tags:list-title"
 msgid "Tags"
-msgstr ""
+msgstr "Теги"
 
+#, fuzzy
 msgctxt "prefs:template:table-layouts:list-title"
 msgid "Table layouts"
-msgstr ""
+msgstr "Расстановка столов"
 
+#, fuzzy
 msgctxt "prefs:template:table-layouts:edit-button"
 msgid "Edit"
-msgstr ""
+msgstr "Редактировать"
 
+#, fuzzy
 msgctxt "prefs:template:tags:list-header:name"
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
+#, fuzzy
 msgctxt "prefs:template:tags:list-header:name:tooltip"
 msgid "Name of the tag"
-msgstr ""
+msgstr "Имя тега"
 
+#, fuzzy
 msgctxt "prefs:template:custom:tag:list-header:content-type"
 msgid "Content type"
-msgstr ""
+msgstr "Тип контента"
 
+#, fuzzy
 msgctxt "prefs:template:custom:tag:list-header:content-type:tooltip"
-msgid ""
-"The content type limits to which kind of elements the tag can be attached."
-msgstr ""
+msgid "The content type limits to which kind of elements the tag can be attached."
+msgstr "Тип контента ограничивает, к какому типу элементов может быть прикреплен тег."
 
+#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:name"
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
+#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:name:tooltip"
 msgid "Name of the table layout"
-msgstr ""
+msgstr "Название макета таблицы"
 
+#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:columns"
 msgid "Columns"
-msgstr ""
+msgstr "Колонны"
 
+#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:columns:tooltip"
 msgid "Summary of the columns in this table"
-msgstr ""
+msgstr "Сводка столбцов в этой таблице"
 
+#, fuzzy
 msgctxt "prefs:template:partlist:tags:list-header:column-title"
 msgid "Column title"
-msgstr ""
+msgstr "Название столбца"
 
+#, fuzzy
 msgctxt "prefs:template:partlist:tags:list-header:column-title:tooltip"
-msgid ""
-"The column name for this tag in the table output. If left empty, the tag "
-"name will be used as column title."
-msgstr ""
+msgid "The column name for this tag in the table output. If left empty, the tag name will be used as column title."
+msgstr "Имя столбца для этого тега в выходных данных таблицы. Если оставить пустым, имя тега будет использоваться как заголовок столбца."
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract"
 msgid "Subtract"
-msgstr ""
+msgstr "Вычитать"
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract:tooltip"
 msgid "Whether the value should be subtracted from the area sum."
-msgstr ""
+msgstr "Следует ли вычитать значение из суммы площадей."
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:factor"
 msgid "Factor"
-msgstr ""
+msgstr "Фактор"
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:factor:tooltip"
 msgid "The factor by which this area contributes to the sum."
-msgstr ""
+msgstr "Коэффициент, с которым эта площадь вносит вклад в сумму."
 
+#, fuzzy
 msgctxt "prefs:template:custom:tablespec:dialog-title"
 msgid "Edit custom template table layout"
-msgstr ""
+msgstr "Изменить макет таблицы шаблонов"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:dialog-title(short)"
@@ -3773,9 +4059,10 @@ msgctxt "prefs:template:custom:tablespec:columns-list:add-column-entry"
 msgid "+ add column"
 msgstr "+ добавить столбец"
 
+#, fuzzy
 msgctxt "prefs:template:tag-list:add-tag-entry"
 msgid "+ add tag"
-msgstr ""
+msgstr "+ добавить тег"
 
 #, fuzzy
 msgctxt "prefs:template:generic:tablespec:columns:list-header:column-header"
@@ -3819,14 +4106,8 @@ msgstr "Содержание столбца"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:content:tooltip"
-msgid ""
-"Specify the cell content in this column. This can be either a measurement "
-"value that you annotated with a tag, or image metadata (e.g. image name, "
-"capture date)."
-msgstr ""
-"В этом столбце укажите содержимое ячейки. Это может быть либо значение "
-"измерения, которое вы аннотировали тегом, либо метаданные изображения "
-"(например, имя изображения, дата захвата)."
+msgid "Specify the cell content in this column. This can be either a measurement value that you annotated with a tag, or image metadata (e.g. image name, capture date)."
+msgstr "В этом столбце укажите содержимое ячейки. Это может быть либо значение измерения, которое вы аннотировали тегом, либо метаданные изображения (например, имя изображения, дата захвата)."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip-title"
@@ -3835,14 +4116,8 @@ msgstr "Выбор меры"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:measure-info:tooltip"
-msgid ""
-"Here, you define which measurement of the tagged element to put into this "
-"column. E.g. for a circle you can choose between its area, radius, "
-"circumference, …"
-msgstr ""
-"Здесь вы определяете, какое измерение помеченного элемента поместить в этот "
-"столбец. Например. для круга вы можете выбрать его площадь, радиус, длину "
-"окружности и т. д."
+msgid "Here, you define which measurement of the tagged element to put into this column. E.g. for a circle you can choose between its area, radius, circumference, …"
+msgstr "Здесь вы определяете, какое измерение помеченного элемента поместить в этот столбец. Например. для круга вы можете выбрать его площадь, радиус, длину окружности и т. д."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip-title"
@@ -3851,15 +4126,8 @@ msgstr "Несколько значений на ячейку"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:multiple-values:tooltip"
-msgid ""
-"When several elements are assigned the same tag, several values will be "
-"placed into one cell. Here you can choose to sum these values, take their "
-"average, or other options instead of keeping all in one cell."
-msgstr ""
-"Если нескольким элементам назначен один и тот же тег, несколько значений "
-"будут помещены в одну ячейку. Здесь вы можете суммировать эти значения, "
-"брать их среднее значение или другие параметры вместо того, чтобы хранить "
-"все в одной ячейке."
+msgid "When several elements are assigned the same tag, several values will be placed into one cell. Here you can choose to sum these values, take their average, or other options instead of keeping all in one cell."
+msgstr "Если нескольким элементам назначен один и тот же тег, несколько значений будут помещены в одну ячейку. Здесь вы можете суммировать эти значения, брать их среднее значение или другие параметры вместо того, чтобы хранить все в одной ячейке."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip-title"
@@ -3868,13 +4136,8 @@ msgstr "Число столбцов"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:num-columns:tooltip"
-msgid ""
-"Creates this number of columns to fill in values with this tag. Use this "
-"when you have several measurements with the same tag in one image."
-msgstr ""
-"Создает это количество столбцов для заполнения значений с помощью этого "
-"тега. Используйте это, когда у вас есть несколько измерений с одним и тем же "
-"тегом на одном изображении."
+msgid "Creates this number of columns to fill in values with this tag. Use this when you have several measurements with the same tag in one image."
+msgstr "Создает это количество столбцов для заполнения значений с помощью этого тега. Используйте это, когда у вас есть несколько измерений с одним и тем же тегом на одном изображении."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip-title"
@@ -3883,20 +4146,18 @@ msgstr "Содержимое строки нижнего колонтитула"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip"
-msgid ""
-"What to place in the footer row of the table. Options include the sum of all "
-"values in the column, the maximum, the average, and other options."
-msgstr ""
-"Что разместить в нижнем колонтитуле таблицы. Параметры включают сумму всех "
-"значений в столбце, максимальное, среднее и другие параметры."
+msgid "What to place in the footer row of the table. Options include the sum of all values in the column, the maximum, the average, and other options."
+msgstr "Что разместить в нижнем колонтитуле таблицы. Параметры включают сумму всех значений в столбце, максимальное, среднее и другие параметры."
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tablespec:dialog-title"
 msgid "Edit the table layout of the area template"
-msgstr ""
+msgstr "Редактировать макет таблицы шаблона области"
 
+#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:dialog-title"
 msgid "Edit table layout of the parts-list template"
-msgstr ""
+msgstr "Редактировать макет таблицы шаблона списка деталей"
 
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number:none"
@@ -4006,13 +4267,15 @@ msgctxt ""
 msgid "Combine counters into one row per tag"
 msgstr ""
 
+#, fuzzy
 msgctxt "prefs:ui:qt-scale-factor"
 msgid "UI scale factor"
-msgstr ""
+msgstr "Коэффициент масштабирования пользовательского интерфейса"
 
+#, fuzzy
 msgctxt "prefs:ui:qt-scale-factor:auto"
 msgid "Automatic"
-msgstr ""
+msgstr "Автоматический"
 
 #, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing"
@@ -4034,57 +4297,70 @@ msgctxt "prefs:ui:language:automatic"
 msgid "Automatic"
 msgstr "Автоматический"
 
+#, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action"
 msgid "When closing image with unsaved changes"
-msgstr ""
+msgstr "При закрытии изображения с несохраненными изменениями"
 
+#, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action:ask"
 msgid "Ask what to do"
-msgstr ""
+msgstr "Спросите, что делать"
 
+#, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action:discard-changes"
 msgid "Discard changes"
-msgstr ""
+msgstr "Отменить изменения"
 
+#, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action:save-changes"
 msgid "Save changes"
-msgstr ""
+msgstr "Сохранить изменения"
 
+#, fuzzy
 msgctxt "prefs:ui:open-image-in"
 msgid "Open image in"
-msgstr ""
+msgstr "Открыть изображение в"
 
+#, fuzzy
 msgctxt "prefs:ui:open-image-in:new-window"
 msgid "new window"
-msgstr ""
+msgstr "новое окно"
 
+#, fuzzy
 msgctxt "prefs:ui:open-image-in:active-window"
 msgid "active window"
-msgstr ""
+msgstr "активное окно"
 
+#, fuzzy
 msgctxt "prefs:ui:dont-ask-again:duplicate-entities-dialog"
 msgid "Show options dialog when duplicating images"
-msgstr ""
+msgstr "Показывать диалоговое окно параметров при дублировании изображений"
 
+#, fuzzy
 msgctxt "prefs:ui:category:dont-ask-again-option-dialogs"
 msgid "Show option dialogs"
-msgstr ""
+msgstr "Показать диалоговые окна опций"
 
+#, fuzzy
 msgctxt "prefs:ui:category:dont-ask-again-option-dialogs:duplicate-entities"
 msgid "Duplicate images and folders"
-msgstr ""
+msgstr "Дублирующиеся изображения и папки"
 
+#, fuzzy
 msgctxt "prefs:ui:filename-deduplication:min-digits:title"
 msgid "Digits for filename deduplication"
-msgstr ""
+msgstr "Цифры для дедупликации имени файла"
 
+#, fuzzy
 msgctxt "prefs:ui:filename-deduplication:min-digits:1"
 msgid "1"
-msgstr ""
+msgstr "1"
 
+#, fuzzy
 msgctxt "prefs:ui:filename-deduplication:min-digits-title"
 msgid "Digits for filename deduplication"
-msgstr ""
+msgstr "Цифры для дедупликации имени файла"
 
 #, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution"
@@ -4121,42 +4397,50 @@ msgctxt "prefs:ui:maximum-texture-resolution:unlimited"
 msgid "unlimited"
 msgstr "неограниченный"
 
+#, fuzzy
 msgctxt "prefs:audio-input:dialog-title"
 msgid "Select audio input device"
-msgstr ""
+msgstr "Выберите устройство аудиовхода"
 
+#, fuzzy
 msgctxt "prefs:audio-input:button:test"
 msgid "Test"
-msgstr ""
+msgstr "Тест"
 
+#, fuzzy
 msgctxt "prefs:ui:audio-input-device"
 msgid "Audio input device"
-msgstr ""
+msgstr "Устройство аудиовхода"
 
+#, fuzzy
 msgctxt "prefs:ui:audio-input-device:button:choose"
 msgid "Choose"
-msgstr ""
+msgstr "Выбирать"
 
+#, fuzzy
 msgctxt "prefs:ui:enable-experimental-dxf-export"
 msgid "Enable DXF export (experimental)"
-msgstr ""
+msgstr "Включить экспорт DXF (экспериментально)"
 
 #, fuzzy
 msgctxt "prefs:map-provider:title"
 msgid "Map provider"
 msgstr "Поставщик карт"
 
+#, fuzzy
 msgctxt "prefs:map-provider:google-maps"
 msgid "Google Maps"
-msgstr ""
+msgstr "Карты Google"
 
+#, fuzzy
 msgctxt "prefs:map-provider:bing-maps"
 msgid "Bing Maps"
-msgstr ""
+msgstr "Карты Bing"
 
+#, fuzzy
 msgctxt "prefs:map-provider:open-street-map"
 msgid "OpenStreetMap"
-msgstr ""
+msgstr "OpenStreetMap"
 
 #, fuzzy
 msgctxt "prefs:company:user-id"
@@ -4168,239 +4452,290 @@ msgctxt "prefs:company:user-full-name"
 msgid "Full name"
 msgstr "Полное имя"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-name"
 msgid "Camera"
-msgstr ""
+msgstr "Камера"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-resolution"
 msgid "Resolution"
-msgstr ""
+msgstr "Разрешение"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-framerate"
 msgid "Frame rate"
-msgstr ""
+msgstr "Частота кадров"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-exposure-time"
 msgid "Exposure time"
-msgstr ""
+msgstr "Время контакта"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-auto-exposure:target-grey-level"
 msgid "Exposure target grey level"
-msgstr ""
+msgstr "Уровень серого целевого значения экспозиции"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-exposure-mode"
 msgid "Exposure mode"
-msgstr ""
+msgstr "Режим экспозиции"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-exposure-mode:timed"
 msgid "Timed"
-msgstr ""
+msgstr "Рассчитано по времени"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-exposure-mode:auto-grey-level"
 msgid "Automatic grey level"
-msgstr ""
+msgstr "Автоматический уровень серого"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-left"
 msgid "ROI crop left"
-msgstr ""
+msgstr "ROI обрезка слева"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-right"
 msgid "ROI crop right"
-msgstr ""
+msgstr "ROI кадрирование справа"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-top"
 msgid "ROI crop top"
-msgstr ""
+msgstr "ROI укороченный топ"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-bottom"
 msgid "ROI crop bottom"
-msgstr ""
+msgstr "ROI обрезка дна"
 
+#, fuzzy
 msgctxt "prefs:camera:calibration:title"
 msgid "Calibration"
-msgstr ""
+msgstr "Калибровка"
 
+#, fuzzy
 msgctxt "prefs:camera:calibration:text(yes+date)"
 msgid "Yes, calibrated on {}"
-msgstr ""
+msgstr "Да, откалибровано на {}"
 
+#, fuzzy
 msgctxt "prefs:camera:calibration:text(no)"
 msgid "Not calibrated"
-msgstr ""
+msgstr "Не откалибровано"
 
+#, fuzzy
 msgctxt "prefs:camera:calibration:button:remove-calibration"
 msgid "Remove calibration"
-msgstr ""
+msgstr "Удалить калибровку"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-list:none"
 msgid "None"
-msgstr ""
+msgstr "Никто"
 
+#, fuzzy
 msgctxt "prefs:sync:twoway-and-anno-directories-must-be-different:msg"
 msgid "You have to use different paths for two-way sync and image upload."
-msgstr ""
+msgstr "Вам придется использовать разные пути для двусторонней синхронизации и загрузки изображений."
 
+#, fuzzy
 msgctxt "bluetooth:device-test:title"
 msgid "Bluetooth Device Test"
-msgstr ""
+msgstr "Тест Bluetooth-устройства"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:connection"
 msgid "Connection:"
-msgstr ""
+msgstr "Связь:"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:connection:connecting"
 msgid "connecting"
-msgstr ""
+msgstr "подключение"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:connection:connected"
 msgid "connected"
-msgstr ""
+msgstr "подключен"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:connection:disconnecting"
 msgid "disconnecting"
-msgstr ""
+msgstr "отключение"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:connection:disconnected"
 msgid "disconnected"
-msgstr ""
+msgstr "отключен"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:received-value"
 msgid "Received value:"
-msgstr ""
+msgstr "Полученное значение:"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:connect-button"
 msgid "Connect"
-msgstr ""
+msgstr "Соединять"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:disconnect-button"
 msgid "Disconnect"
-msgstr ""
+msgstr "Отключить"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:trigger-button"
 msgid "Remote trigger"
-msgstr ""
+msgstr "Дистанционный триггер"
 
+#, fuzzy
 msgctxt "bluetooth:origin-position:front"
 msgid "front"
-msgstr ""
+msgstr "передний"
 
+#, fuzzy
 msgctxt "bluetooth:origin-position:mount"
 msgid "mount"
-msgstr ""
+msgstr "устанавливать"
 
+#, fuzzy
 msgctxt "bluetooth:origin-position:back"
 msgid "back"
-msgstr ""
+msgstr "назад"
 
+#, fuzzy
 msgctxt "bluetooth:origin-position:back-extension"
 msgid "back-extension"
-msgstr ""
+msgstr "растяжка спины"
 
+#, fuzzy
 msgctxt "bluetooth:no-device-configured-dialog:title(pc)"
 msgid "No Bluetooth Device Configured"
-msgstr ""
+msgstr "Устройство Bluetooth не настроено"
 
+#, fuzzy
 msgctxt "bluetooth:no-device-configured-dialog:text(pc)"
-msgid ""
-"You have not yet configured any Bluetooth laser distance meter.\n"
-"\n"
-"Please select your device in the settings."
-msgstr ""
+msgid "You have not yet configured any Bluetooth laser distance meter.\n\nPlease select your device in the settings."
+msgstr "Вы еще не настроили ни один лазерный дальномер Bluetooth.\n\nВыберите свое устройство в настройках."
 
+#, fuzzy
 msgctxt "bluetooth:no-device-configured-dialog:open-prefs:button(pc)"
 msgid "Open settings"
-msgstr ""
+msgstr "Открыть настройки"
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:connect:tooltip(disconnected)"
 msgid "Connect to Bluetooth device. (Disconnected)"
-msgstr ""
+msgstr "Подключитесь к устройству Bluetooth. (Отключено)"
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:connect:tooltip(connected)"
 msgid "Connected. Click to disconnect."
-msgstr ""
+msgstr "Подключено. Нажмите, чтобы отключиться."
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:connect:tooltip(connecting)"
 msgid "Trying to connect to device."
-msgstr ""
+msgstr "Попытка подключения к устройству."
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:connect:tooltip(waiting-for-reconnect)"
 msgid "Will try to reconnect after a small pause."
-msgstr ""
+msgstr "Попробую подключиться снова после небольшой паузы."
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:trigger:tooltip"
 msgid "Trigger laser remotely"
-msgstr ""
+msgstr "Удаленное включение лазера"
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:trigger:not-available-tooltip"
 msgid "The device does not support remote triggering."
-msgstr ""
+msgstr "Устройство не поддерживает удаленный запуск."
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:measures-history:tooltip"
 msgid "Measures history"
-msgstr ""
+msgstr "История мер"
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:measures-history:clear"
 msgid "Clear"
-msgstr ""
+msgstr "Прозрачный"
 
+#, fuzzy
 msgctxt "bluetooth:clipboard:feature-not-licensed:value"
 msgid "Bluetooth transmission requires ImageMeter Pro version"
-msgstr ""
+msgstr "Для передачи по Bluetooth требуется версия ImageMeter Pro"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:tooltip"
 msgid "Calibrate with scale"
-msgstr ""
+msgstr "Калибровать по шкале"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:set-to-scaleratio"
 msgid "Calibration set to {}"
-msgstr ""
+msgstr "Калибровка установлена на {}"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:not-calibrated"
 msgid "Not calibrated"
-msgstr ""
+msgstr "Не откалибровано"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:no-calibration-possible"
 msgid "Cannot be calibrated"
-msgstr ""
+msgstr "Невозможно откалибровать"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:canvas-unit-calibration"
 msgid "One unit: {}"
-msgstr ""
+msgstr "Одна единица: {}"
 
+#, fuzzy
 msgctxt "live-camera:editor-window:title"
 msgid "Live camera"
-msgstr ""
+msgstr "Камера в реальном времени"
 
+#, fuzzy
 msgctxt "live-camera:save:live-or-capture:title"
 msgid "Save live video"
-msgstr ""
+msgstr "Сохранить живое видео"
 
+#, fuzzy
 msgctxt "live-camera:save:live-or-capture:text"
-msgid ""
-"Save a captured image of the live video or a live camera placeholder image?"
-msgstr ""
+msgid "Save a captured image of the live video or a live camera placeholder image?"
+msgstr "Сохранить захваченное изображение живого видео или замещающее изображение с камеры в реальном времени?"
 
+#, fuzzy
 msgctxt "live-camera:save:live-or-capture:captured-image"
 msgid "Capture image"
-msgstr ""
+msgstr "Захватить изображение"
 
+#, fuzzy
 msgctxt "live-camera:save:live-or-capture:live-video"
 msgid "Live video"
-msgstr ""
+msgstr "Видео в реальном времени"
 
+#, fuzzy
 msgctxt "camera-calibration:overwrite:title"
 msgid "Store camera calibration"
-msgstr ""
+msgstr "Сохранить калибровку камеры"
 
+#, fuzzy
 msgctxt "camera-calibration:overwrite-existing:ask-overwrite"
-msgid ""
-"There is already a calibration stored for this camera at this resolution. Do "
-"you want to overwrite the existing calibration?"
-msgstr ""
+msgid "There is already a calibration stored for this camera at this resolution. Do you want to overwrite the existing calibration?"
+msgstr "Для этой камеры уже сохранена калибровка с таким разрешением. Хотите перезаписать существующую калибровку?"
 
+#, fuzzy
 msgctxt "camera-calibration:saved:confirmation-message"
 msgid "Camera calibration has been stored."
-msgstr ""
+msgstr "Калибровка камеры сохранена."
 
 #, fuzzy
 msgctxt "templ:template-name"
@@ -4424,13 +4759,8 @@ msgstr "Новый настраиваемый шаблон"
 
 #, fuzzy
 msgctxt "templ:custom:long-description"
-msgid ""
-"Each image fills one row in the table. You may assign a tag to each "
-"measurement. Each table column contains the measurement for a specific tag."
-msgstr ""
-"Каждое изображение заполняет одну строку в таблице. Вы можете присвоить "
-"метку каждому измерению. Каждый столбец таблицы содержит измерение для "
-"определенного тега."
+msgid "Each image fills one row in the table. You may assign a tag to each measurement. Each table column contains the measurement for a specific tag."
+msgstr "Каждое изображение заполняет одну строку в таблице. Вы можете присвоить метку каждому измерению. Каждый столбец таблицы содержит измерение для определенного тега."
 
 #, fuzzy
 msgctxt "templ:custom:column-content:empty"
@@ -4492,9 +4822,10 @@ msgctxt "templ:custom:column-type:text"
 msgid "Text note"
 msgstr "Текстовая заметка"
 
+#, fuzzy
 msgctxt "templ:custom:column-type:counter"
 msgid "Counter"
-msgstr ""
+msgstr "Прилавок"
 
 #, fuzzy
 msgctxt "templ:custom:new-tablespec-name"
@@ -4516,9 +4847,10 @@ msgctxt "templ:custom:tag:filter:circle"
 msgid "Circle"
 msgstr "Круг"
 
+#, fuzzy
 msgctxt "templ:custom:tag:filter:counter"
 msgid "Counter"
-msgstr ""
+msgstr "Прилавок"
 
 #, fuzzy
 msgctxt "templ:custom:tag:property-name"
@@ -4542,14 +4874,8 @@ msgstr "Площадь пола"
 
 #, fuzzy
 msgctxt "templ:areasum:long-description:wallarea"
-msgid ""
-"This template is the basis for area computations. The area of some elements "
-"is added to the sum (e.g. walls), while other elements are subtracted (e.g. "
-"windows)."
-msgstr ""
-"Этот шаблон является основой для расчета площади. Площадь некоторых "
-"элементов добавляется к сумме (например, стен), а площадь других элементов "
-"(например, окон) вычитается."
+msgid "This template is the basis for area computations. The area of some elements is added to the sum (e.g. walls), while other elements are subtracted (e.g. windows)."
+msgstr "Этот шаблон является основой для расчета площади. Площадь некоторых элементов добавляется к сумме (например, стен), а площадь других элементов (например, окон) вычитается."
 
 #, fuzzy
 msgctxt "templ:areasum:tag:property-name"
@@ -4723,21 +5049,13 @@ msgstr "Таблица суммы площадей"
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:item"
-msgid ""
-"The image number. The number will only be filled into the row with the image "
-"title."
-msgstr ""
-"Номер изображения. Номер будет заполнен только в строке с названием "
-"изображения."
+msgid "The image number. The number will only be filled into the row with the image title."
+msgstr "Номер изображения. Номер будет заполнен только в строке с названием изображения."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:description"
-msgid ""
-"Descriptive name of the area. This is either the default name of the tag, or "
-"a manually entered name for this area."
-msgstr ""
-"Описательное название местности. Это либо имя тега по умолчанию, либо имя, "
-"введенное вручную для этой области."
+msgid "Descriptive name of the area. This is either the default name of the tag, or a manually entered name for this area."
+msgstr "Описательное название местности. Это либо имя тега по умолчанию, либо имя, введенное вручную для этой области."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:count"
@@ -4746,29 +5064,18 @@ msgstr "Множитель счета для этой области."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:width-height"
-msgid ""
-"Width and height are two columns that are filled with the side lengths if "
-"the area is a rectangle. For other shapes, the columns stay empty.\n"
-"\n"
-"Enter the two column headers separated by a semicolon."
-msgstr ""
-"Ширина и высота - это два столбца, которые заполняются длинами сторон, если "
-"область представляет собой прямоугольник. Для других фигур столбцы остаются "
-"пустыми.\n"
-"\n"
-"Введите два заголовка столбца, разделенные точкой с запятой."
+msgid "Width and height are two columns that are filled with the side lengths if the area is a rectangle. For other shapes, the columns stay empty.\n\nEnter the two column headers separated by a semicolon."
+msgstr "Ширина и высота - это два столбца, которые заполняются длинами сторон, если область представляет собой прямоугольник. Для других фигур столбцы остаются пустыми.\n\nВведите два заголовка столбца, разделенные точкой с запятой."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:measured-area"
 msgid "The raw, measured area without the factor or count applied."
-msgstr ""
-"Необработанная измеренная площадь без применения коэффициента или подсчета."
+msgstr "Необработанная измеренная площадь без применения коэффициента или подсчета."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:factor"
 msgid "The area factor applied when calculating the final area sum."
-msgstr ""
-"Коэффициент площади, применяемый при вычислении окончательной суммы площадей."
+msgstr "Коэффициент площади, применяемый при вычислении окончательной суммы площадей."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:calculated-area"
@@ -4777,27 +5084,13 @@ msgstr "Расчетная площадь, включая коэффициент
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:plus-minus-area"
-msgid ""
-"Generates two columns: a column including all areas that are added to the "
-"sum, and a column including all areas that are subtracted from the total "
-"sum.\n"
-"\n"
-"Enter the two column headers separated by a semicolon."
-msgstr ""
-"Создает два столбца: столбец, включающий все области, которые добавляются к "
-"сумме, и столбец, включающий все области, которые вычитаются из общей "
-"суммы.\n"
-"\n"
-"Введите два заголовка столбца, разделенные точкой с запятой."
+msgid "Generates two columns: a column including all areas that are added to the sum, and a column including all areas that are subtracted from the total sum.\n\nEnter the two column headers separated by a semicolon."
+msgstr "Создает два столбца: столбец, включающий все области, которые добавляются к сумме, и столбец, включающий все области, которые вычитаются из общей суммы.\n\nВведите два заголовка столбца, разделенные точкой с запятой."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-description:image-area-sum"
-msgid ""
-"Each row holds the area sum of the image. The footer row holds the total "
-"over all images."
-msgstr ""
-"Каждая строка содержит сумму площадей изображения. Строка нижнего "
-"колонтитула содержит общую сумму по всем изображениям."
+msgid "Each row holds the area sum of the image. The footer row holds the total over all images."
+msgstr "Каждая строка содержит сумму площадей изображения. Строка нижнего колонтитула содержит общую сумму по всем изображениям."
 
 #, fuzzy
 msgctxt "templ:partslist:class-display-name"
@@ -4806,12 +5099,8 @@ msgstr "Шаблон списка запчастей"
 
 #, fuzzy
 msgctxt "templ:partslist:long-description"
-msgid ""
-"This template lets you generate bills of material, counting different "
-"objects, or summing the length of products (e.g. electrical cables)."
-msgstr ""
-"Этот шаблон позволяет создавать ведомости материалов, подсчитывая различные "
-"объекты или суммируя длину продуктов (например, электрических кабелей)."
+msgid "This template lets you generate bills of material, counting different objects, or summing the length of products (e.g. electrical cables)."
+msgstr "Этот шаблон позволяет создавать ведомости материалов, подсчитывая различные объекты или суммируя длину продуктов (например, электрических кабелей)."
 
 #, fuzzy
 msgctxt "templ:partslist:tagtype:count"
@@ -4971,55 +5260,65 @@ msgctxt "SyncAction:DELETE_REMOTE"
 msgid "Delete on server"
 msgstr "Удалить с сервера"
 
+#, fuzzy
 msgctxt "sync:error:cloud-sync-currently-in-use:retry-later"
 msgid "Cloud-sync is currently in use. Please retry later."
-msgstr ""
+msgstr "Cloud-sync в настоящее время используется. Повторите попытку позже."
 
+#, fuzzy
 msgctxt "sync:error:no-cloud-sync-tasks-configured(pc)"
-msgid ""
-"There are no enabled cloud-sync tasks. Nothing to do. First configure some "
-"sync tasks in the preferences, section 'Storage/Cloud Storage'."
-msgstr ""
+msgid "There are no enabled cloud-sync tasks. Nothing to do. First configure some sync tasks in the preferences, section 'Storage/Cloud Storage'."
+msgstr "Нет включенных задач синхронизации с облаком. Ничего не нужно делать. Сначала настройте некоторые задачи синхронизации в настройках, раздел «Хранилище/Облачное хранилище»."
 
+#, fuzzy
 msgctxt "sync:task:description:anno-image"
 msgid "Image upload to {}"
-msgstr ""
+msgstr "Загрузка изображения в {}"
 
+#, fuzzy
 msgctxt "sync:task:description:two-way"
 msgid "Two-way sync with {}"
-msgstr ""
+msgstr "Двусторонняя синхронизация с {}"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:filesystem"
 msgid "directory '{0}'"
-msgstr ""
+msgstr "каталог '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:onedrive"
 msgid "OneDrive directory '{0}'"
-msgstr ""
+msgstr "Каталог OneDrive '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:googledrive"
 msgid "Google Drive directory '{0}'"
-msgstr ""
+msgstr "Каталог Google Диска '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:dropbox"
 msgid "Dropbox directory '{0}'"
-msgstr ""
+msgstr "Каталог Dropbox '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
-msgstr ""
+msgstr "URL-адрес WebDAV '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:sftp"
 msgid "SFTP URL '{0}'"
-msgstr ""
+msgstr "URL-адрес SFTP '{0}'"
 
+#, fuzzy
 msgctxt "sync:server-type:none"
 msgid "None"
-msgstr ""
+msgstr "Никто"
 
+#, fuzzy
 msgctxt "sync:server-type:filesystem"
 msgid "Filesystem"
-msgstr ""
+msgstr "Файловая система"
 
 msgctxt "sync:default-server-directory:two-way"
 msgid "ImageMeter"
@@ -5034,55 +5333,24 @@ msgid "Cloud storage maintenance"
 msgstr "Обслуживание облачного хранилища"
 
 msgctxt "sync:server-maintenance:remove-server-lock-description"
-msgid ""
-"<b>Remove server lock</b> - In order to prevent simultaneous access to the "
-"data on the cloud server, it is locked during the sync process. In case of "
-"some errors, e.g. network failures, it may be that the server remains "
-"locked. The locks time-out automatically after a few minutes, but you can "
-"also manually remove them immediately if you know for sure that it is an "
-"error."
-msgstr ""
-"<b>Снять блокировку сервера</b> - чтобы предотвратить одновременный доступ к "
-"данным на облачном сервере, он блокируется во время процесса синхронизации. "
-"В случае некоторых ошибок, например сбои сети, возможно, сервер остается "
-"заблокированным. Тайм-аут блокировок автоматически истекает через несколько "
-"минут, но вы также можете немедленно удалить их вручную, если вы точно "
-"знаете, что это ошибка."
+msgid "<b>Remove server lock</b> - In order to prevent simultaneous access to the data on the cloud server, it is locked during the sync process. In case of some errors, e.g. network failures, it may be that the server remains locked. The locks time-out automatically after a few minutes, but you can also manually remove them immediately if you know for sure that it is an error."
+msgstr "<b>Снять блокировку сервера</b> - чтобы предотвратить одновременный доступ к данным на облачном сервере, он блокируется во время процесса синхронизации. В случае некоторых ошибок, например сбои сети, возможно, сервер остается заблокированным. Тайм-аут блокировок автоматически истекает через несколько минут, но вы также можете немедленно удалить их вручную, если вы точно знаете, что это ошибка."
 
 msgctxt "sync:server-maintenance:remove-server-lock-button"
 msgid "Remove server lock"
 msgstr "Снять блокировку сервера"
 
 msgctxt "sync:server-maintenance:reset-server-cache-description"
-msgid ""
-"<b>Reset server cache</b> - The cloud server maintains a cache of images "
-"stored on them. If you delete or add files manually on the server, this is "
-"not seen by the cache. You may reset the server cache to run a full scan "
-"during the next sync. However, note that a full scan may take a long time if "
-"you have many images."
-msgstr ""
-"<b>Сброс кеша сервера</b> - облачный сервер поддерживает кеш хранимых на нем "
-"изображений. Если вы вручную удаляете или добавляете файлы на сервере, кеш "
-"этого не видит. Вы можете сбросить кэш сервера, чтобы запустить полное "
-"сканирование во время следующей синхронизации. Однако учтите, что полное "
-"сканирование может занять много времени, если у вас много изображений."
+msgid "<b>Reset server cache</b> - The cloud server maintains a cache of images stored on them. If you delete or add files manually on the server, this is not seen by the cache. You may reset the server cache to run a full scan during the next sync. However, note that a full scan may take a long time if you have many images."
+msgstr "<b>Сброс кеша сервера</b> - облачный сервер поддерживает кеш хранимых на нем изображений. Если вы вручную удаляете или добавляете файлы на сервере, кеш этого не видит. Вы можете сбросить кэш сервера, чтобы запустить полное сканирование во время следующей синхронизации. Однако учтите, что полное сканирование может занять много времени, если у вас много изображений."
 
 msgctxt "sync:server-maintenance:reset-server-cache-button"
 msgid "Reset server cache"
 msgstr "Сбросить кеш сервера"
 
 msgctxt "sync:server-maintenance:reset-sync-state-description"
-msgid ""
-"<b>Reset sync state</b> - The next sync will start with no preknowledge "
-"about the data on each side. This means, e.g., that locally deleted images "
-"will be downloaded again from the server instead of being deleted on the "
-"server. There are few cases where resetting the stored sync state is needed."
-msgstr ""
-"<b>Сбросить состояние синхронизации</b> - следующая синхронизация начнется "
-"без предварительных сведений о данных на каждой стороне. Это означает, "
-"например, что локально удаленные изображения будут снова загружены с "
-"сервера, а не удалены на сервере. В некоторых случаях требуется сброс "
-"статистики синхронизации."
+msgid "<b>Reset sync state</b> - The next sync will start with no preknowledge about the data on each side. This means, e.g., that locally deleted images will be downloaded again from the server instead of being deleted on the server. There are few cases where resetting the stored sync state is needed."
+msgstr "<b>Сбросить состояние синхронизации</b> - следующая синхронизация начнется без предварительных сведений о данных на каждой стороне. Это означает, например, что локально удаленные изображения будут снова загружены с сервера, а не удалены на сервере. В некоторых случаях требуется сброс статистики синхронизации."
 
 msgctxt "sync:server-maintenance:reset-sync-state-button"
 msgid "Reset sync state"
@@ -5117,30 +5385,25 @@ msgctxt "sync:server-maintenance:reset-sync-state:result:success"
 msgid "Successfully resetted sync state."
 msgstr "Состояние синхронизации сброшено."
 
+#, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:googledrive"
-msgid ""
-"You have successfully logged into GoogleDrive. You can close this tab and "
-"return to ImageMeter now."
-msgstr ""
+msgid "You have successfully logged into GoogleDrive. You can close this tab and return to ImageMeter now."
+msgstr "Вы успешно вошли в GoogleDrive. Вы можете закрыть эту вкладку и вернуться в ImageMeter прямо сейчас."
 
+#, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:onedrive"
-msgid ""
-"You have successfully logged into OneDrive. You can close this tab and "
-"return to ImageMeter now."
-msgstr ""
+msgid "You have successfully logged into OneDrive. You can close this tab and return to ImageMeter now."
+msgstr "Вы успешно вошли в OneDrive. Вы можете закрыть эту вкладку и вернуться в ImageMeter прямо сейчас."
 
+#, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:dropbox"
-msgid ""
-"You have successfully logged into Dropbox. You can close this tab and return "
-"to ImageMeter now."
-msgstr ""
+msgid "You have successfully logged into Dropbox. You can close this tab and return to ImageMeter now."
+msgstr "Вы успешно вошли в Dropbox. Вы можете закрыть эту вкладку и вернуться в ImageMeter."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:image-upload:reset-sync-state-description"
-msgid ""
-"<b>Reset sync state</b> - The next sync will upload all images again. This "
-"may be useful is you deleted the images on the server and want to upload "
-"them again."
-msgstr ""
+msgid "<b>Reset sync state</b> - The next sync will upload all images again. This may be useful is you deleted the images on the server and want to upload them again."
+msgstr "<b>Сбросить состояние синхронизации</b> - Следующая синхронизация снова загрузит все изображения. Это может быть полезно, если вы удалили изображения на сервере и хотите загрузить их снова."
 
 msgctxt "license:source:android-in-app"
 msgid "In-app"
@@ -5162,360 +5425,425 @@ msgctxt "license:business"
 msgid "Business"
 msgstr "Бизнес"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:dialog:title"
 msgid "Reassign Device License"
-msgstr ""
+msgstr "Переназначить лицензию устройства"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:dialog:description"
-msgid ""
-"License cannot be activated for this device because the license is already "
-"used by the maximum number of devices.\n"
-"However, you may still revoke the license of another device.\n"
-"Which device license do you want to replace with this device?"
-msgstr ""
+msgid "License cannot be activated for this device because the license is already used by the maximum number of devices.\nHowever, you may still revoke the license of another device.\nWhich device license do you want to replace with this device?"
+msgstr "Лицензия не может быть активирована для этого устройства, поскольку лицензия уже используется максимальным количеством устройств.\nОднако вы все равно можете отозвать лицензию другого устройства.\nКакую лицензию устройства вы хотите заменить этим устройством?"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:dialog:device-entry"
 msgid "{devicename} (last use: {lastuse}, id: {id}, license: …{key})"
-msgstr ""
+msgstr "{devicename} (последнее использование: {lastuse}, идентификатор: {id}, лицензия: …{key})"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:dialog:revoke-counter"
 msgid "You have {remaining} revokes left (out of {max} for {period})"
-msgstr ""
+msgstr "У вас осталось {remaining} отзыва (из {max} за {period})"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:dialog:revoke-period-days"
 msgid "{} days"
-msgstr ""
+msgstr "{} дней"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:revoke-counter-info-message:title"
 msgid "Really revoke this device's license ?"
-msgstr ""
+msgstr "Действительно ли отозвать лицензию этого устройства?"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:revoke-counter-info-message"
-msgid ""
-"Do you really want to revoke the license (ending with '…{code_end}') from "
-"this device?\n"
-"You can only do this {max_revokes} times in {period_days} days.\n"
-"You can still use {num_revokes} revokes during the current time period."
-msgstr ""
+msgid "Do you really want to revoke the license (ending with '…{code_end}') from this device?\nYou can only do this {max_revokes} times in {period_days} days.\nYou can still use {num_revokes} revokes during the current time period."
+msgstr "Вы действительно хотите отозвать лицензию (заканчивающуюся на '…{code_end}') с этого устройства?\nВы можете сделать это только {max_revokes} раз за {period_days} дней.\nВы по-прежнему можете использовать {num_revokes} отзыва в течение текущего периода времени."
 
+#, fuzzy
 msgctxt "licensing:revoke-device:success-message:title"
 msgid "Device license revokation"
-msgstr ""
+msgstr "Отзыв лицензии на устройство"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:success-message:other-device"
-msgid ""
-"The license has been removed from this device. You may now use the license "
-"on another device."
-msgstr ""
+msgid "The license has been removed from this device. You may now use the license on another device."
+msgstr "Лицензия была удалена с этого устройства. Теперь вы можете использовать лицензию на другом устройстве."
 
+#, fuzzy
 msgctxt "licensing:revoke-device:success-message:this-device"
-msgid ""
-"The license has been removed from that device. You may now use the license "
-"on this device."
-msgstr ""
+msgid "The license has been removed from that device. You may now use the license on this device."
+msgstr "Лицензия была удалена с этого устройства. Теперь вы можете использовать лицензию на этом устройстве."
 
+#, fuzzy
 msgctxt "licensing:key-entry-dialog:title"
 msgid "License code"
-msgstr ""
+msgstr "Лицензионный код"
 
+#, fuzzy
 msgctxt "licensing:key-entry-dialog:description"
 msgid "Please enter your license code:"
-msgstr ""
+msgstr "Введите ваш код лицензии:"
 
+#, fuzzy
 msgctxt "licensing:key-entry-dialog:send-button"
 msgid "Activate"
-msgstr ""
+msgstr "Активировать"
 
+#, fuzzy
 msgctxt "missing-addon:may-start-application"
 msgid "Cannot start application."
-msgstr ""
+msgstr "Невозможно запустить приложение."
 
+#, fuzzy
 msgctxt "missing-addon:unlimited-gelements"
 msgid "Maximum number of drawing elements exceeded."
-msgstr ""
+msgstr "Превышено максимальное количество элементов чертежа."
 
+#, fuzzy
 msgctxt "missing-addon:unlimited-bluetooth-range"
 msgid "Maximum Bluetooth distance exceeded."
-msgstr ""
+msgstr "Превышено максимальное расстояние Bluetooth."
 
+#, fuzzy
 msgctxt "missing-addon:copy-bluetooth-to-clipboard"
 msgid "Cannot copy Bluetooth measurement to clipboard."
-msgstr ""
+msgstr "Невозможно скопировать измерение Bluetooth в буфер обмена."
 
+#, fuzzy
 msgctxt "missing-addon:subfolders"
 msgid "Cannot create subfolder."
-msgstr ""
+msgstr "Невозможно создать подпапку."
 
+#, fuzzy
 msgctxt "missing-addon:audio-notes"
 msgid "Cannot create audio note."
-msgstr ""
+msgstr "Невозможно создать аудиозаметку."
 
+#, fuzzy
 msgctxt "missing-addon:detail-pictures"
 msgid "Cannot add detail picture."
-msgstr ""
+msgstr "Невозможно добавить детальное изображение."
 
+#, fuzzy
 msgctxt "missing-addon:perspective-line"
 msgid "Cannot add perspective line measurement."
-msgstr ""
+msgstr "Невозможно добавить измерение линии перспективы."
 
+#, fuzzy
 msgctxt "missing-addon:rectangle"
 msgid "Cannot add rectangle."
-msgstr ""
+msgstr "Невозможно добавить прямоугольник."
 
+#, fuzzy
 msgctxt "missing-addon:circle"
 msgid "Cannot add circle."
-msgstr ""
+msgstr "Невозможно добавить круг."
 
+#, fuzzy
 msgctxt "missing-addon:measurement-point"
 msgid "Cannot add measurement point."
-msgstr ""
+msgstr "Невозможно добавить точку измерения."
 
+#, fuzzy
 msgctxt "missing-addon:dimstring"
 msgid "Cannot add dimension string."
-msgstr ""
+msgstr "Невозможно добавить строку измерения."
 
+#, fuzzy
 msgctxt "missing-addon:counter"
 msgid "Cannot add counter."
-msgstr ""
+msgstr "Невозможно добавить счетчик."
 
+#, fuzzy
 msgctxt "missing-addon:pdf-import"
 msgid "Cannot import PDF"
-msgstr ""
+msgstr "Невозможно импортировать PDF"
 
+#, fuzzy
 msgctxt "missing-addon:data-table-export"
 msgid "Cannot use data tables."
-msgstr ""
+msgstr "Невозможно использовать таблицы данных."
 
+#, fuzzy
 msgctxt "missing-addon:cloud-sync-annoimage"
 msgid "Cannot use cloud sync (image upload)."
-msgstr ""
+msgstr "Невозможно использовать облачную синхронизацию (загрузку изображений)."
 
+#, fuzzy
 msgctxt "missing-addon:cloud-sync-twoway"
 msgid "Cannot use cloud sync (twoway sync)."
-msgstr ""
+msgstr "Невозможно использовать облачную синхронизацию (двустороннюю синхронизацию)."
 
+#, fuzzy
 msgctxt "missing-addon:clipboard"
 msgid "Cannot use the clipboard."
-msgstr ""
+msgstr "Невозможно использовать буфер обмена."
 
+#, fuzzy
 msgctxt "missing-addon:custom-color-palette"
 msgid "Cannot use a custom color palette."
-msgstr ""
+msgstr "Невозможно использовать пользовательскую цветовую палитру."
 
+#, fuzzy
 msgctxt "missing-addon:export-dxf"
 msgid "Cannot export to DXF."
-msgstr ""
+msgstr "Невозможно экспортировать в DXF."
 
+#, fuzzy
 msgctxt "missing-addon:company-logo"
 msgid "Cannot export with company logo"
-msgstr ""
+msgstr "Невозможно экспортировать с логотипом компании"
 
+#, fuzzy
 msgctxt "unavailable-license-reason:expired"
 msgid "Your license has expired."
-msgstr ""
+msgstr "Срок действия вашей лицензии истек."
 
+#, fuzzy
 msgctxt "unavailable-license-reason:upgrade-needed"
 msgid "This is not supported with your license."
-msgstr ""
+msgstr "Ваша лицензия не поддерживает эту функцию."
 
+#, fuzzy
 msgctxt "licensing-error:dialog:title"
 msgid "License error"
-msgstr ""
+msgstr "Ошибка лицензии"
 
+#, fuzzy
 msgctxt "licensing:subscription:renew-button"
 msgid "Renew"
-msgstr ""
+msgstr "Возобновить"
 
+#, fuzzy
 msgctxt "licensing:select-upgrade-button"
 msgid "Upgrade"
-msgstr ""
+msgstr "Обновление"
 
+#, fuzzy
 msgctxt "license:name:desktop:trial"
 msgid "Trial"
-msgstr ""
+msgstr "Пробный"
 
+#, fuzzy
 msgctxt "license:name:desktop:betatest"
 msgid "Beta test"
-msgstr ""
+msgstr "Бета-тест"
 
+#, fuzzy
 msgctxt "license:name:business"
 msgid "Business"
-msgstr ""
+msgstr "Бизнес"
 
+#, fuzzy
 msgctxt "license:name:pro"
 msgid "Pro"
-msgstr ""
+msgstr "Профи"
 
+#, fuzzy
 msgctxt "license:name:basic"
 msgid "Basic"
-msgstr ""
+msgstr "Базовый"
 
+#, fuzzy
 msgctxt "license:name:android-free(long)"
 msgid "Free evaluation"
-msgstr ""
+msgstr "Бесплатная оценка"
 
+#, fuzzy
 msgctxt "license:name:android-advanced-annotation"
 msgid "Advanced-Annotation AddOn"
-msgstr ""
+msgstr "Расширенный модуль аннотаций"
 
+#, fuzzy
 msgctxt "license:name:android-advanced-annotation-with-pro"
 msgid "Advanced-Annotation AddOn (with Pro)"
-msgstr ""
+msgstr "Расширенный модуль аннотаций (с Pro)"
 
+#, fuzzy
 msgctxt "license:feature-requires-higher-license"
 msgid "This function is included in the '{}' license."
-msgstr ""
+msgstr "Эта функция включена в лицензию «{}»."
 
+#, fuzzy
 msgctxt "license:info:license"
 msgid "License:"
-msgstr ""
+msgstr "Лицензия:"
 
+#, fuzzy
 msgctxt "license:info:purchase-type"
 msgid "Purchase type:"
-msgstr ""
+msgstr "Тип покупки:"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:one-time-purchase"
 msgid "one-time purchase"
-msgstr ""
+msgstr "разовая покупка"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:subscription"
 msgid "subscription"
-msgstr ""
+msgstr "подписка"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:manual"
 msgid "manual activation"
-msgstr ""
+msgstr "ручная активация"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:trial"
 msgid "trial"
-msgstr ""
+msgstr "пробный"
 
+#, fuzzy
 msgctxt "license:info:status"
 msgid "Status:"
-msgstr ""
+msgstr "Статус:"
 
+#, fuzzy
 msgctxt "license:info:status:active"
 msgid "active"
-msgstr ""
+msgstr "активный"
 
+#, fuzzy
 msgctxt "license:info:status:trial-expired"
 msgid "trial has expired"
-msgstr ""
+msgstr "срок действия истек"
 
+#, fuzzy
 msgctxt "license:info:status:product-expired"
 msgid "license has expired"
-msgstr ""
+msgstr "срок действия лицензии истек"
 
+#, fuzzy
 msgctxt "license:info:status:incompatible"
 msgid "software version is incompatible"
-msgstr ""
+msgstr "версия программного обеспечения несовместима"
 
+#, fuzzy
 msgctxt "license:info:status:deactivated"
 msgid "product was deactivated"
-msgstr ""
+msgstr "продукт был деактивирован"
 
+#, fuzzy
 msgctxt "license:info:purchase-date"
 msgid "Purchase date:"
-msgstr ""
+msgstr "Дата покупки:"
 
+#, fuzzy
 msgctxt "license:info:trial-activation-date"
 msgid "Activation date:"
-msgstr ""
+msgstr "Дата активации:"
 
+#, fuzzy
 msgctxt "license:info:expiration-date"
 msgid "Expiration date:"
-msgstr ""
+msgstr "Дата окончания срока:"
 
+#, fuzzy
 msgctxt "license:info:next-billing-date"
 msgid "Next billing date:"
-msgstr ""
+msgstr "Следующая дата выставления счета:"
 
+#, fuzzy
 msgctxt "license:info:billing-period"
 msgid "Billing period:"
-msgstr ""
+msgstr "Расчетный период:"
 
+#, fuzzy
 msgctxt "license:info:billing-period:monthly"
 msgid "monthly"
-msgstr ""
+msgstr "ежемесячно"
 
+#, fuzzy
 msgctxt "license:info:billing-period:annual"
 msgid "annual"
-msgstr ""
+msgstr "ежегодный"
 
+#, fuzzy
 msgctxt "license:info:billing-period:undefined"
 msgid "custom"
-msgstr ""
+msgstr "обычай"
 
+#, fuzzy
 msgctxt "license:info:num-assigned-licenses"
 msgid "Assigned licenses:"
-msgstr ""
+msgstr "Назначенные лицензии:"
 
+#, fuzzy
 msgctxt "license:info:num-assigned-licenses:num-of-total"
 msgid "{num} of {total}"
-msgstr ""
+msgstr "{число} из {всего}"
 
+#, fuzzy
 msgctxt "license:info:last-compatible-version"
 msgid "Last compatible version:"
-msgstr ""
+msgstr "Последняя совместимая версия:"
 
+#, fuzzy
 msgctxt "license:info:license-user"
 msgid "User name:"
-msgstr ""
+msgstr "Имя пользователя:"
 
+#, fuzzy
 msgctxt "license:info:license-email"
 msgid "User email:"
-msgstr ""
+msgstr "Электронная почта пользователя:"
 
+#, fuzzy
 msgctxt "license-dialog:title"
 msgid "License"
-msgstr ""
+msgstr "Лицензия"
 
+#, fuzzy
 msgctxt "license-dialog:enter-key"
 msgid "Enter key:"
-msgstr ""
+msgstr "Введите ключ:"
 
+#, fuzzy
 msgctxt "license-dialog:send-key"
 msgid "Send"
-msgstr ""
+msgstr "Отправлять"
 
+#, fuzzy
 msgctxt "license-dialog:start-trial"
 msgid "Start free trial"
-msgstr ""
+msgstr "Начать бесплатную пробную версию"
 
+#, fuzzy
 msgctxt "license-dialog:error"
 msgid "Error:"
-msgstr ""
+msgstr "Ошибка:"
 
+#, fuzzy
 msgctxt "license-dialog:active-license"
 msgid "Active license"
-msgstr ""
+msgstr "Действующая лицензия"
 
+#, fuzzy
 msgctxt "license-dialog:revoke-license"
 msgid "Revoke"
-msgstr ""
+msgstr "Отозвать"
 
 #, fuzzy
 msgctxt "license-dialog:get-license-url"
-msgid ""
-"If you don't have a license key yet, you can get a license from the "
-"ImageMeter web page: <a href=\"https://imagemeter.com/\">https://imagemeter."
-"com</a>."
-msgstr ""
-"Если у вас еще нет лицензионного ключа, вы можете получить лицензию на веб-"
-"странице ImageMeter: <a href=\"https://imagemeter.com/\">https://imagemeter."
-"com</a>."
+msgid "If you don't have a license key yet, you can get a license from the ImageMeter web page: <a href=\"https://imagemeter.com/\">https://imagemeter.com</a>."
+msgstr "Если у вас еще нет лицензионного ключа, вы можете получить лицензию на веб-странице ImageMeter: <a href=\"https://imagemeter.com/\">https://imagemeter.com</a>."
 
+#, fuzzy
 msgctxt "license:check-key-server-response:window-title"
 msgid "Licence activation"
-msgstr ""
+msgstr "Активация лицензии"
 
+#, fuzzy
 msgctxt "license:check-key-server-response:license-has-been-activated"
 msgid "License has been successfully activated on this device."
-msgstr ""
+msgstr "Лицензия успешно активирована на этом устройстве."
 
+#, fuzzy
 msgctxt "license:check-key-server-response:error:invalid-key-entered"
 msgid "Invalid key, please check for typing mistakes."
-msgstr ""
+msgstr "Неверный ключ, проверьте наличие опечаток."
 
 #, fuzzy
 msgctxt "entity-initialization:image-title:camera"
@@ -5572,32 +5900,8 @@ msgstr "Три дня"
 
 #, fuzzy
 msgctxt "stringscript:help:introtext"
-msgid ""
-"Enter the text that should appear here. You can add variables enclosed by "
-"{ } that will be substituted.\n"
-"\n"
-"Here are some example variables, but see below for the list of variables "
-"that are actually allowed here:\n"
-"{image.title} - image title\n"
-"{image.number} - the number you assigned to the image\n"
-"{folder.title} - title of the current folder\n"
-"{folder.parent.title} - title of the parent folder\n"
-"\n"
-"You can build complex expressions like this:\n"
-"{folder.title} / {image.number} - {image.title}"
-msgstr ""
-"Введите текст, который должен появиться здесь. Вы можете добавить "
-"переменные, заключенные в { }, которые будут заменены.\n"
-"\n"
-"Вот несколько примеров переменных, но см. Ниже список переменных, которые "
-"здесь действительно разрешены:\n"
-"{image.title} - название изображения\n"
-"{image.number} - номер, который вы присвоили изображению\n"
-"{folder.title} - заголовок текущей папки\n"
-"{folder.parent.title} - заголовок родительской папки\n"
-"\n"
-"Вы можете построить такие сложные выражения:\n"
-"{folder.title} / {image.number} - {image.title}"
+msgid "Enter the text that should appear here. You can add variables enclosed by { } that will be substituted.\n\nHere are some example variables, but see below for the list of variables that are actually allowed here:\n{image.title} - image title\n{image.number} - the number you assigned to the image\n{folder.title} - title of the current folder\n{folder.parent.title} - title of the parent folder\n\nYou can build complex expressions like this:\n{folder.title} / {image.number} - {image.title}"
+msgstr "Введите текст, который должен появиться здесь. Вы можете добавить переменные, заключенные в { }, которые будут заменены.\n\nВот несколько примеров переменных, но см. Ниже список переменных, которые здесь действительно разрешены:\n{image.title} - название изображения\n{image.number} - номер, который вы присвоили изображению\n{folder.title} - заголовок текущей папки\n{folder.parent.title} - заголовок родительской папки\n\nВы можете построить такие сложные выражения:\n{folder.title} / {image.number} - {image.title}"
 
 #, fuzzy
 msgctxt "stringscript:help:intro_toplevel_variables"
@@ -5606,12 +5910,8 @@ msgstr "Допустимые переменные верхнего уровня:
 
 #, fuzzy
 msgctxt "stringscript:help:intro_subelements"
-msgid ""
-"Each type may have sub-elements. Here is the list of sub-elements for each "
-"data type:"
-msgstr ""
-"У каждого типа могут быть подэлементы. Вот список подэлементов для каждого "
-"типа данных:"
+msgid "Each type may have sub-elements. Here is the list of sub-elements for each data type:"
+msgstr "У каждого типа могут быть подэлементы. Вот список подэлементов для каждого типа данных:"
 
 #, fuzzy
 msgctxt "stringscript:root:member:image"
@@ -5995,29 +6295,15 @@ msgctxt "lock:set-library-root"
 msgid "setting image library root"
 msgstr "установка корня библиотеки изображений"
 
+#, fuzzy
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
-msgstr ""
+msgstr "восстановление удаленной сущности"
 
+#, fuzzy
 msgctxt "android:permission-request:post-notifications:rationale"
-msgid ""
-"<h2>Notification Permission Request</h2>\n"
-"    <p>\n"
-"      ImageMeter will ask you for the permission to show notifications.\n"
-"      These will be used to show the:\n"
-"    </p>\n"
-"    <ul>\n"
-"      <li>progress of the background cloud sync and let you cancel it,</li>\n"
-"      <li>status of the Bluetooth connection to lasers,</li>\n"
-"      <li>progress of long export or import operations that run in the "
-"background,</li>\n"
-"      <li>background processing errors.</li>\n"
-"    </ul>\n"
-"    <p>\n"
-"      You can disable any of the notification channels independently in the "
-"Android app settings.\n"
-"    </p>"
-msgstr ""
+msgid "<h2>Notification Permission Request</h2>\n    <p>\n      ImageMeter will ask you for the permission to show notifications.\n      These will be used to show the:\n    </p>\n    <ul>\n      <li>progress of the background cloud sync and let you cancel it,</li>\n      <li>status of the Bluetooth connection to lasers,</li>\n      <li>progress of long export or import operations that run in the background,</li>\n      <li>background processing errors.</li>\n    </ul>\n    <p>\n      You can disable any of the notification channels independently in the Android app settings.\n    </p>"
+msgstr "<h2>Запрос на разрешение на уведомление</h2>\n<p>\nImageMeter запросит у вас разрешение на показ уведомлений.\nОни будут использоваться для отображения:\n</p>\n<ul>\n<li>прогресса фоновой синхронизации облака и позволят вам отменить ее,</li>\n<li>состояния подключения Bluetooth к лазерам,</li>\n<li>прогресса длительных операций экспорта или импорта, которые выполняются в фоновом режиме,</li>\n<li>ошибок фоновой обработки.</li>\n</ul>\n<p>\nВы можете отключить любой из каналов уведомлений независимо в настройках приложения Android.\n</p>"
 
 #~ msgctxt ""
 #~ "prefs:editor:snapping:snap-to-hv-orientation:when-there-is-a-reference"
@@ -6039,3 +6325,4 @@ msgstr ""
 #~ msgctxt "export:pdf:may-rotate-images(short)"
 #~ msgid "Images in PDF may be rotated"
 #~ msgstr "Поворот картинок в PDF"
+
