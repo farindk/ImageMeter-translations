@@ -17,6 +17,18 @@ msgctxt "pc:error:cannot-find-windows-explorer"
 msgid "Cannot find 'explorer.exe' in path to launch Windows Explorer."
 msgstr "لا يمكن العثور على 'explorer.exe' في المسار لتشغيل Windows Explorer."
 
+msgctxt "pc:save-as-default:confirmation-dialog:title"
+msgid "Confirm Saving as Default"
+msgstr ""
+
+msgctxt "pc:save-as-default:confirmation-dialog:text:company-logo"
+msgid "Are you sure to save these company logo settings as the default?"
+msgstr ""
+
+msgctxt "pc:save-as-default:confirmation-dialog:text:overlay-text"
+msgid "Are you sure to save these overlay text settings as the default?"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:setup-wizard:dialog-title"
 msgid "ImageMeter Setup"
@@ -168,6 +180,14 @@ msgctxt "pc:mainwindow:menu:file:open-image-from-system-clipboard"
 msgid "Open image from system clipboard"
 msgstr "فتح الصورة من حافظة النظام"
 
+msgctxt "pc:mainwindow:menu:file:store-image-in-system-clipboard"
+msgid "Store image in system clipboard"
+msgstr ""
+
+msgctxt "pc:clipboard:store-needs-saved-image"
+msgid "Please save the image before storing it in the clipboard"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:menu:file:import-to-library"
 msgid "Import to &library"
@@ -262,6 +282,14 @@ msgstr "عنصر القفل"
 msgctxt "pc:mainwindow:menu:edit:unlock-element"
 msgid "Unlock element"
 msgstr "فتح العنصر"
+
+msgctxt "pc:mainwindow:menu:edit:raise-element"
+msgid "Raise element"
+msgstr ""
+
+msgctxt "pc:mainwindow:menu:edit:lower-element"
+msgid "Lower element"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:mainwindow:menu:edit:element-to-front"
@@ -358,6 +386,10 @@ msgctxt "pc:mainwindow:menu:image:image-settings"
 msgid "Image &settings..."
 msgstr "إعدادات الصورة..."
 
+msgctxt "pc:mainwindow:menu:image:overlay-settings"
+msgid "&Overlay settings..."
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:menu:image:element-locking"
 msgid "Element locking..."
@@ -378,15 +410,18 @@ msgctxt "pc:mainwindow:menu:image:capture-video-frame"
 msgid "Capture image"
 msgstr "التقاط الصورة"
 
-#, fuzzy
 msgctxt "pc:mainwindow:menu:image:use-dimformat-from-settings"
-msgid "Use units from settings for all elements"
-msgstr "استخدم الوحدات من الإعدادات لجميع العناصر"
+msgid "Use default units for all elements"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:mainwindow:menu:image:calibrate-camera-from-image"
 msgid "Calibrate camera from image"
 msgstr "معايرة الكاميرا من الصورة"
+
+msgctxt "pc:mainwindow:menu:image:insert-new-image-layer"
+msgid "Insert image layer"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:mainwindow:menu:windows"
@@ -418,6 +453,10 @@ msgctxt "pc:mainwindow:menu:help:about"
 msgid "&About..."
 msgstr "&عن..."
 
+msgctxt "pc:mainwindow:menu:help:whats-new"
+msgid "Whats &New..."
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:menu:help:feedback"
 msgid "&Feedback..."
@@ -443,6 +482,57 @@ msgctxt "pc:mainwindow:dock:label-style:title"
 msgid "Label Style"
 msgstr "نمط التسمية"
 
+msgctxt "pc:mainwindow:dock:layers:title"
+msgid "Layers"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:header:name"
+msgid "Name"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:header:visible:tooltip"
+msgid "Layer is visible"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:header:opacity:tooltip"
+msgid "Layer opacity"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:header:master:tooltip"
+msgid "Master/original image"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:add-image-layer"
+msgid "Add image layer"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:add-annotation-layer"
+msgid "Add annotation layer"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:move-layer-up"
+msgid "Move layer up in stack"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:move-layer-down"
+msgid "Move layer down in stack"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:delete-layer"
+msgid "Delete layer"
+msgstr ""
+
+msgctxt ""
+"pc:mainwindow:layers:delete-layer:annotation:confirmation-dialog:title"
+msgid "Delete layer containing elements"
+msgstr ""
+
+msgctxt "pc:mainwindow:layers:delete-layer:annotation:confirmation-dialog:text"
+msgid ""
+"This layer contains annotation elements. Do you want to delete the layer "
+"with all elements?"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:title"
 msgid "Basic editing"
@@ -450,13 +540,13 @@ msgstr "التحرير الأساسي"
 
 #, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:line-width"
-msgid "Line width:"
-msgstr "عرض الخط:"
+msgid "Line width"
+msgstr "عرض الخط"
 
 #, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:font-size"
-msgid "Font size:"
-msgstr "حجم الخط:"
+msgid "Font size"
+msgstr "حجم الخط"
 
 #, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:toggle-display:image"
@@ -488,6 +578,10 @@ msgctxt "pc:mainwindow:toolbar:drawing-tools:title"
 msgid "Drawing tools"
 msgstr "ادوات الرسم"
 
+msgctxt "pc:mainwindow:toolbar:bluetooth-control:title"
+msgid "Bluetooth control toolbar"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:error:cannot-rename-folder:in-use"
 msgid "Cannot rename folder. It is currently in use."
@@ -514,6 +608,18 @@ msgstr "الصور ذات التغييرات غير المحفوظة لا تزا
 msgctxt "pc:mainwindow:quit-program:unsaved-changed:question"
 msgid "Do you want to save all changes?"
 msgstr "هل تريد حفظ كافة التغييرات؟"
+
+msgctxt "pc:layers:assign-to-element:dialog:title"
+msgid "Assign layer"
+msgstr ""
+
+msgctxt "pc:layers:assign-to-element:dialog:text"
+msgid "Move element to layer:"
+msgstr ""
+
+msgctxt "pc:layers:assign-to-element:tooltip"
+msgid "Move element to layer"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:image-library:button:new-folder:tooltip"
@@ -727,6 +833,10 @@ msgstr "استيراد صفحات PDF"
 msgctxt "pc:import:pdf:progress-dialog-message"
 msgid "Importing PDF pages ..."
 msgstr "جارٍ استيراد صفحات PDF..."
+
+msgctxt "pc:import:pdf:page-number"
+msgid "page {page}"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:import:edit-images-after-opening:ask:dialog-title"
@@ -1426,6 +1536,14 @@ msgctxt "pc:prefs:section:bluetooth"
 msgid "Bluetooth"
 msgstr "بلوتوث"
 
+msgctxt "pc:prefs:section:bluetooth:device"
+msgid "Device"
+msgstr ""
+
+msgctxt "pc:prefs:section:bluetooth:keyboard-device"
+msgid "Keyboard device"
+msgstr ""
+
 msgctxt "pc:prefs:section:bluetooth:clipboard"
 msgid "Clipboard"
 msgstr ""
@@ -1444,6 +1562,10 @@ msgstr "التصميم"
 msgctxt "pc:prefs:section:editor:snapping"
 msgid "Snapping"
 msgstr "العض"
+
+msgctxt "pc:prefs:section:editor:behavior"
+msgid "Behavior"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:prefs:section:editor:drawing-tools"
@@ -1495,10 +1617,18 @@ msgctxt "pc:prefs:section:user-interface"
 msgid "User interface"
 msgstr "واجهة المستخدم"
 
+msgctxt "pc:prefs:section:user-interface:shortcuts"
+msgid "Keyboard shortcuts"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:prefs:section:user-interface:initial-texts"
 msgid "Initial titles and notes"
 msgstr "العناوين والملاحظات الأولية"
+
+msgctxt "pc:prefs:section:user-interface:miscellaneous"
+msgid "Miscellaneous"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:prefs:section:storage"

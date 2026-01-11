@@ -76,6 +76,14 @@ msgctxt "error:JsonParseError_Detail"
 msgid "JSON error: {}"
 msgstr "Erreur JSON : {}"
 
+msgctxt "error:Android_IOException"
+msgid "IO error: {}"
+msgstr ""
+
+msgctxt "error:Android_SecurityException"
+msgid "Security error: {}"
+msgstr ""
+
 msgctxt "error:Files_FileDoesNotExist"
 msgid "File does not exist: \"{}\"."
 msgstr "Fichier ne existe pas: \"{}\"."
@@ -215,6 +223,10 @@ msgctxt "error:DataBundle_CannotReadIMMFile"
 msgid "Cannot read IMM file."
 msgstr "Impossible de lire le fichier IMM."
 
+msgctxt "error:DataBundle_InvalidReferenceID"
+msgid "Invalid reference ID."
+msgstr ""
+
 msgctxt "error:DataBundle_CannotGetContentArea"
 msgid "Unknown content area."
 msgstr "Zone de contenu inconnue."
@@ -282,6 +294,14 @@ msgctxt "error:CannotReadTexture"
 msgid "Cannot read texture '{}'."
 msgstr "Impossible de lire la texture '{}'."
 
+msgctxt "error:CannotLoadIMIFile"
+msgid "Cannot load IMI file '{}'"
+msgstr ""
+
+msgctxt "error:Exif_ParseError"
+msgid "EXIF parse error: {}"
+msgstr ""
+
 msgctxt "error:OpenGL"
 msgid "OpenGL error: \"{}\"."
 msgstr "Erreur OpenGL: \"{}\"."
@@ -327,6 +347,14 @@ msgstr "Impossible de lire la photo."
 msgctxt "error:ImageReader_CannotReadImage"
 msgid "Cannot read image file."
 msgstr "Impossible de lire le fichier image."
+
+msgctxt "error:Skia_CannotCreateContext"
+msgid "Cannot create Skia context"
+msgstr ""
+
+msgctxt "error:Skia_CannotCreateSurface:with_size"
+msgid "Cannot create Skia rendering surface of size {0}x{1}"
+msgstr ""
 
 msgctxt "error:IMI_CannotOpen"
 msgid "Cannot open IMI file '{}'."
@@ -477,6 +505,42 @@ msgctxt "error:Cloud_CannotLockLocalFiles"
 msgid "Cannot get exclusive access on local files"
 msgstr "Impossible d'obtenir un accès exclusif sur les fichiers locaux"
 
+msgctxt "error:Cloud_CannotScanLocalDirectoryTree"
+msgid "Cannot scan local directory tree '{}'."
+msgstr ""
+
+msgctxt "error:Cloud_CannotScanRemoteDirectoryTree"
+msgid "Cannot scan remote directory tree '{}'."
+msgstr ""
+
+msgctxt "error:Cloud_MultipleIMMFilesInDirectory"
+msgid "There are multiple '.imm' files in directory '{}'."
+msgstr ""
+
+msgctxt "error:Cloud_MultipleIFDFilesInDirectory"
+msgid "There are multiple '.ifd' files in directory '{}'."
+msgstr ""
+
+msgctxt "error:Cloud_BothIFDAndIMMInDirectory"
+msgid "There is an '.ifd' and an '.imm' file in directory '{}'."
+msgstr ""
+
+msgctxt "error:Cloud_CannotParseServerCache"
+msgid "Cannot parse server cache file 'server-dir.cache'."
+msgstr ""
+
+msgctxt "error:Cloud_CannotSaveServerCache"
+msgid "Cannot save server cache file."
+msgstr ""
+
+msgctxt "error:Cloud_CannotLoadServerCache"
+msgid "Cannot load server cache file 'server-dir.cache'."
+msgstr ""
+
+msgctxt "error:Cloud_CannotSaveServerSyncTime"
+msgid "Cannot save server sync time file."
+msgstr ""
+
 msgctxt "error:Cloud_RemoteFileDoesNotExist"
 msgid "File '{}' does not exist on server"
 msgstr "Le fichier '{}' n'existe pas sur le serveur"
@@ -589,6 +653,10 @@ msgstr "Impossible de réinitialiser l'état de synchronisation."
 msgctxt "error:Cloud_CannotFindUniqueName"
 msgid "Cannot find unique name for '{}'"
 msgstr "Impossible de trouver un nom unique pour '{}'"
+
+msgctxt "error:Cloud_CannotCheckIfFileExists"
+msgid "Cannot check if file '{}' exists"
+msgstr ""
 
 #, fuzzy
 msgctxt "error:Cloud_BackendInitializationFailed"
@@ -778,6 +846,34 @@ msgctxt "error:BluetoothError:generic"
 msgid "Cannot set received Bluetooth value."
 msgstr "Impossible de définir la valeur Bluetooth reçue."
 
+msgctxt "error:BluetoothDeviceError:unknown"
+msgid "Unknown error"
+msgstr ""
+
+msgctxt "error:BluetoothDeviceError:battery-too-low"
+msgid "Battery too low"
+msgstr ""
+
+msgctxt "error:BluetoothDeviceError:out-of-range"
+msgid "Out of range"
+msgstr ""
+
+msgctxt "error:BluetoothDeviceError:signal-too-weak"
+msgid "Signal too weak"
+msgstr ""
+
+msgctxt "error:BluetoothDeviceError:ambient-brightness-too-high"
+msgid "Ambient brightness too high"
+msgstr ""
+
+msgctxt "error:BluetoothDeviceError:pythagorean-calculation-error"
+msgid "Pythagorean calculation error"
+msgstr ""
+
+msgctxt "error:BluetoothDeviceError:out-of-working-temperature"
+msgid "Out of working temperature"
+msgstr ""
+
 #
 msgctxt "error:QKeychain:entry-not-found"
 msgid "No key found for '{}'."
@@ -844,6 +940,14 @@ msgstr "Impossible de copier les données d'image dans la galerie (url='{}')."
 msgctxt "error:Android_DeleteOldImageFromGallery"
 msgid "Cannot delete old image from gallery (url='{}')."
 msgstr "Impossible de supprimer l'ancienne image de la galerie (url='{}')."
+
+msgctxt "error:Android_CapturePhoto"
+msgid "Cannot capture photo: {}"
+msgstr ""
+
+msgctxt "error:Android_ReverseGeocoder"
+msgid "Cannot query location address: {}"
+msgstr ""
 
 #
 msgctxt "error:QtCamera_NotFound"
@@ -977,6 +1081,10 @@ msgstr "Erreur SFTP : le fichier '{0}' n'existe pas"
 msgctxt "error:LibSSH2_SFTP_PermissionDenied"
 msgid "SFTP error: permission denied to access '{0}'"
 msgstr "Erreur SFTP : autorisation refusée pour accéder à « {0} »"
+
+msgctxt "error:LibSSH2_Session_WithText"
+msgid "LibSSH2 session error {0}: '{1}'"
+msgstr ""
 
 #, fuzzy
 msgctxt "error:getaddrinfo"
@@ -1135,6 +1243,14 @@ msgstr "Métrique (1,00 m)"
 msgctxt "dimtemplate:length:decimal-imperial"
 msgid "Imperial (1.00 ft)"
 msgstr "Impérial (1,00 ft)"
+
+msgctxt "dimtemplate:length:decimal-metric:no-example"
+msgid "Metric"
+msgstr ""
+
+msgctxt "dimtemplate:length:decimal-imperial:no-example"
+msgid "Imperial"
+msgstr ""
 
 msgctxt "dimtemplate:length:imperial-interleaved"
 msgid "Imperial (1' 10 1/32\")"
@@ -1498,9 +1614,9 @@ msgid "Right"
 msgstr "Droite"
 
 #
-msgctxt "text-h-alignment:block"
-msgid "Block"
-msgstr "Bloquer"
+msgctxt "text-h-alignment:justify"
+msgid "Justify"
+msgstr ""
 
 #, fuzzy
 msgctxt "virtual-keyboard:special-key:none"
@@ -1690,6 +1806,46 @@ msgctxt "ui:dialog:dont-ask-again"
 msgid "Don't ask again"
 msgstr "Ne demande plus"
 
+msgctxt "ui:combobox:select-a-recent-name"
+msgid "Select a recent name..."
+msgstr ""
+
+msgctxt "ui:combobox:selection:various"
+msgid "(various)"
+msgstr ""
+
+msgctxt "ui:save-as-default"
+msgid "Save as default"
+msgstr ""
+
+msgctxt "ui:dialog:ok"
+msgid "Ok"
+msgstr ""
+
+msgctxt "ui:dialog:cancel"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "whats-new:dialog:title"
+msgid "What is New"
+msgstr ""
+
+msgctxt "whats-new:unknown-version"
+msgid "unknown"
+msgstr ""
+
+msgctxt "whats-new:version-title"
+msgid "Version: {}"
+msgstr ""
+
+msgctxt "whats-new:current-version"
+msgid "Current version: {}"
+msgstr ""
+
+msgctxt "whats-new:changes"
+msgid "Changes:"
+msgstr ""
+
 #
 msgctxt "filename-copy-tag"
 msgid "copy"
@@ -1799,10 +1955,13 @@ msgctxt "rename-images:script-expr:current-image-title:name"
 msgid "Current image title"
 msgstr "Titre de l'image actuelle"
 
-#, fuzzy
-msgctxt "rename-images:script-expr:capture date"
+msgctxt "rename-images:script-expr:capture-date"
 msgid "Capture date"
-msgstr "Date de capture"
+msgstr ""
+
+msgctxt "rename-images:script-expr:capture-time"
+msgid "Capture time"
+msgstr ""
 
 #, fuzzy
 msgctxt "rename-images:script-expr:gps-coordinates"
@@ -1839,6 +1998,26 @@ msgctxt "template-selection-mixin:copy-local-template-to-prefs"
 msgid "Copy template to preferences"
 msgstr "Copier le modèle dans les préférences"
 
+msgctxt "layer:add-image-layer:file-dialog:title"
+msgid "Add layer with image or PDF"
+msgstr ""
+
+msgctxt "layer:type:image:image"
+msgid "image"
+msgstr ""
+
+msgctxt "layer:type:image:canvas"
+msgid "canvas"
+msgstr ""
+
+msgctxt "layer:type:image:live-camera"
+msgid "live camera"
+msgstr ""
+
+msgctxt "layer:type:annotation"
+msgid "annotation"
+msgstr ""
+
 #
 msgctxt "folder-settings:dialog-title"
 msgid "Folder settings"
@@ -1849,10 +2028,33 @@ msgctxt "folder-settings:folder-title"
 msgid "Folder name"
 msgstr "Nom de dossier"
 
+msgctxt "folder-settings:group:data-table"
+msgid "Data table"
+msgstr ""
+
 #
 msgctxt "folder-settings:template"
 msgid "Data scheme"
 msgstr "Schéma de données"
+
+msgctxt "folder-settings:auto-gen-table"
+msgid "Output table"
+msgstr ""
+
+msgctxt "folder-settings:auto-gen-table:none"
+msgid "No table output"
+msgstr ""
+
+msgctxt "folder-settings:auto-gen-table:info:title"
+msgid "Automatic table generation"
+msgstr ""
+
+msgctxt "folder-settings:auto-gen-table:info"
+msgid ""
+"When an output table is selected, a data-table file (spreadsheet) will be "
+"automatically generated for the images in the folder during the 'image-"
+"upload' sync and in a ZIP export."
+msgstr ""
 
 #
 msgctxt "folder-settings:folder-color"
@@ -2096,6 +2298,24 @@ msgctxt "image-export:company-logo:open-logo-image"
 msgid "Open logo image"
 msgstr "Image du logo ouvert"
 
+msgctxt "image-export:company-logo:delete-logo-image"
+msgid "Delete logo"
+msgstr ""
+
+msgctxt "image-export:company-logo:delete-logo-image:tooltip"
+msgid ""
+"If you delete the logo image, you cannot reenable it unless you reload the "
+"image."
+msgstr ""
+
+msgctxt "overlay-text:script-expr:address-block"
+msgid "Address (multiple lines)"
+msgstr ""
+
+msgctxt "overlay-text:script-expr:address-line"
+msgid "Address (single line)"
+msgstr ""
+
 #
 msgctxt "image-export:filename-expression"
 msgid "{image.title}"
@@ -2136,8 +2356,8 @@ msgid "Show company logo"
 msgstr "Afficher le logo de l'entreprise"
 
 msgctxt "image-export:company-logo:auto-remove-background"
-msgid "Automatic background removal"
-msgstr "Suppression automatique de l'arrière-plan"
+msgid "Remove background"
+msgstr ""
 
 msgctxt "image-export:company-logo:auto-remove-background:info:title"
 msgid "Automatic background removal"
@@ -2176,6 +2396,22 @@ msgctxt "image-export:company-logo:border-color:black"
 msgid "Black"
 msgstr "Noir"
 
+msgctxt "image-export:show-overlay-text"
+msgid "Show overlay text"
+msgstr ""
+
+msgctxt "image-export:overlay:bool-override:no"
+msgid "No"
+msgstr ""
+
+msgctxt "image-export:overlay:bool-override:keep"
+msgid "If set in image"
+msgstr ""
+
+msgctxt "image-export:overlay:bool-override:yes"
+msgid "Yes"
+msgstr ""
+
 #, fuzzy
 msgctxt "image-export:advanced-options:group-title"
 msgid "Advanced Options"
@@ -2185,6 +2421,10 @@ msgstr "Options avancées"
 msgctxt "image-export:hide-measurement-values"
 msgid "Hide all measurement values"
 msgstr "Masquer toutes les valeurs de mesure"
+
+msgctxt "image-export:export-original-image"
+msgid "Export original image (no annotations)"
+msgstr ""
 
 #
 msgctxt "pdf-export:table-of-contents"
@@ -2212,6 +2452,10 @@ msgstr "Disposition"
 msgctxt "export:pdf:section:metadata"
 msgid "Metadata"
 msgstr "Métadonnées"
+
+msgctxt "export:pdf:section:report-content"
+msgid "Report Content"
+msgstr ""
 
 msgctxt "export:pdf:paper-orientation(pdf)"
 msgid "PDF page orientation"
@@ -2298,6 +2542,10 @@ msgctxt "export:pdf:images-per-page(pdf,long)"
 msgid "Print how many images on each PDF page"
 msgstr "Imprimer combien d'images sur chaque page PDF"
 
+msgctxt "export:pdf:recurse-subdirectories"
+msgid "Include contents of subfolders"
+msgstr ""
+
 msgctxt "export:pdf:print-image-notes"
 msgid "Print image notes"
 msgstr "Imprimer les notes d'image"
@@ -2361,6 +2609,10 @@ msgstr "Disposition des tableaux"
 msgctxt "export:pdf:table-layout:vertical-column-titles"
 msgid "Vertical column titles"
 msgstr "Titres des colonnes verticales"
+
+msgctxt "export:pdf:table-orientation"
+msgid "Table orientation"
+msgstr ""
 
 msgctxt "export:pdf:print-density"
 msgid "Resolution"
@@ -2429,6 +2681,18 @@ msgstr "Inclure la ligne d'en-tête"
 msgctxt "export:csv:include-table-footer-row"
 msgid "Include footer row"
 msgstr "Inclure la ligne de pied de page"
+
+msgctxt "export:csv:file-format"
+msgid "File format"
+msgstr ""
+
+msgctxt "export:csv:file-format:CSV"
+msgid "CSV"
+msgstr ""
+
+msgctxt "export:csv:file-format:XSLX"
+msgid "XLSX (Excel)"
+msgstr ""
 
 #
 msgctxt "export:csv:error:cannot-export-csv"
@@ -2535,6 +2799,14 @@ msgctxt "about-image:gps:show-on-map"
 msgid "Show on map"
 msgstr "Afficher sur la carte"
 
+msgctxt "about-image:location-address"
+msgid "Address"
+msgstr ""
+
+msgctxt "about-image:location-address:is-coarse"
+msgid "coarse location"
+msgstr ""
+
 msgctxt "editor:attach:error_no_reference_to_attach_to"
 msgid ""
 "There is no reference in the image! You need to draw a reference in order to "
@@ -2571,6 +2843,10 @@ msgstr ""
 msgctxt "editor:attach:messagebox:title"
 msgid "Compute Measure"
 msgstr "Calculer la mesure"
+
+msgctxt "editor:element-computed:tooltip"
+msgid "Indicates whether value is computed or entered manually."
+msgstr ""
 
 #
 msgctxt "editor:rectref:standard-size:legal"
@@ -3199,6 +3475,38 @@ msgctxt "editor:styling:textbox:box-background-opacity"
 msgid "Background opacity"
 msgstr "Opacité de l'arrière-plan"
 
+msgctxt "editor:styling:textbox:group:box-and-arrows"
+msgid "Box and arrows"
+msgstr ""
+
+msgctxt "editor:styling:textbox:group:text"
+msgid "Text"
+msgstr ""
+
+msgctxt "editor:styling:textbox:group:detailimage"
+msgid "Detail image"
+msgstr ""
+
+msgctxt "editor:styling:textbox:detailimage:opacity"
+msgid "Opacity"
+msgstr ""
+
+msgctxt "editor:styling:textbox:detailimage:saturation"
+msgid "Saturation"
+msgstr ""
+
+msgctxt "editor:styling:textbox:detailimage:brightness"
+msgid "Brightness"
+msgstr ""
+
+msgctxt "editor:styling:textbox:detailimage:contrast"
+msgid "Contrast"
+msgstr ""
+
+msgctxt "editor:styling:textbox:detailimage:reset-colortransform"
+msgid "Reset"
+msgstr ""
+
 #
 msgctxt "editor:textbox:action:add-arrow"
 msgid "Add arrow"
@@ -3562,6 +3870,66 @@ msgctxt "image-settings:secondary-label:model-scale:scale"
 msgid "Scale"
 msgstr "Échelle"
 
+msgctxt "image-settings:secondary-label:set-unit-from-settings"
+msgid "Set unit from settings"
+msgstr ""
+
+msgctxt "editor-menu:overlay-settings"
+msgid "Image overlays…"
+msgstr ""
+
+msgctxt "overlay-settings:company-logo:section"
+msgid "Company logo"
+msgstr ""
+
+msgctxt "overlay-settings:overlay-text:section"
+msgid "Overlay text"
+msgstr ""
+
+msgctxt "overlay-settings:overlay-text:show-text"
+msgid "Show overlay text"
+msgstr ""
+
+msgctxt "overlay-settings:overlay-text:position"
+msgid "Position"
+msgstr ""
+
+msgctxt "overlay-settings:overlay-text:border-offset"
+msgid "Border offset"
+msgstr ""
+
+msgctxt "overlay-settings:overlay-text:text"
+msgid "Text"
+msgstr ""
+
+msgctxt "overlay-settings:export-only-with-license"
+msgid "Note: image overlays will only be exported with the {} version."
+msgstr ""
+
+msgctxt "overlay-settings:save-as-default-dialog:title"
+msgid "What should be saved as defaults?"
+msgstr ""
+
+msgctxt "overlay-settings:save-as-default-dialog:option:company-logo"
+msgid "Company logo"
+msgstr ""
+
+msgctxt "overlay-settings:save-as-default-dialog:option:overlay-text"
+msgid "Overlay text"
+msgstr ""
+
+msgctxt "overlay-settings:save-as-default-dialog:button:ok"
+msgid "Save as default"
+msgstr ""
+
+msgctxt "editor-menu:add-data-table-elements"
+msgid "Add elements for data-table"
+msgstr ""
+
+msgctxt "editor:add-data-table-elements:elements-already-exist"
+msgid "Elements for the data-table already exist."
+msgstr ""
+
 #
 msgctxt "editor:properties:dialog-title"
 msgid "Tag and Properties"
@@ -3685,7 +4053,7 @@ msgstr "Vitesse de déplacement réduite"
 msgctxt "prefs:editor:ui:point-dragging-slowdown:info"
 msgid ""
 "When you press the 'Alt' key while dragging a point, the dragging speed is "
-"reduced by this factor to that it is easier to accurately set the position."
+"reduced by this factor so that it is easier to accurately set the position."
 msgstr ""
 "Lorsque vous appuyez sur la touche « Alt » tout en faisant glisser un point, "
 "la vitesse de déplacement est réduite de ce facteur, de sorte qu'il est plus "
@@ -3871,6 +4239,62 @@ msgctxt "prefs:editor:drawing-tools:implicitref:show-in-exported-image"
 msgid "Show calibration scale in exported image"
 msgstr "Afficher l'échelle d'étalonnage dans l'image exportée"
 
+msgctxt "prefs:shortcuts:shortcut-table-header:action"
+msgid "Action"
+msgstr ""
+
+msgctxt "prefs:shortcuts:shortcut-table-header:shortcut"
+msgid "Shortcut"
+msgstr ""
+
+msgctxt "prefs:shortcuts:shortcut-table-header:edit"
+msgid "Edit"
+msgstr ""
+
+msgctxt "prefs:shortcuts:shortcut-dialog:title"
+msgid "Set shortcut key"
+msgstr ""
+
+msgctxt "prefs:shortcuts:shortcut-dialog:title-text"
+msgid "Press shortcut key for action"
+msgstr ""
+
+msgctxt "prefs:shortcuts:shortcut-dialog:description-text"
+msgid "Press '{}' to remove shortcut."
+msgstr ""
+
+msgctxt "prefs:shortcuts:shortcut-conflict:title"
+msgid "Shortcut conflict"
+msgstr ""
+
+msgctxt "prefs:shortcuts:shortcut-conflict:title-text"
+msgid "This shortcut {shortcut} is already used by '{action}'"
+msgstr ""
+
+msgctxt "prefs:shortcuts:shortcut-conflict:choices"
+msgid ""
+"Do you want to assign the shortcut to the new action instead or keep the old "
+"shortcut action?"
+msgstr ""
+
+msgctxt "prefs:shortcuts:shortcut-conflict:button:assign-to-new"
+msgid "Assign to new"
+msgstr ""
+
+msgctxt "prefs:shortcuts:shortcut-conflict:button:keep-old"
+msgid "Keep old"
+msgstr ""
+
+msgctxt "prefs:shortcuts:shortcut-conflict:cannot-reassign-shortcut"
+msgid ""
+"Cannot assign shortcut {shortcut} since it is used by {action} and cannot be "
+"removed."
+msgstr ""
+
+msgctxt "prefs:shortcuts:reset-to-defaults"
+msgid "Reset to defaults"
+msgstr ""
+
 #, fuzzy
 msgctxt "prefs:bluetooth:device-list:title"
 msgid "Discovered Bluetooth devices"
@@ -4015,6 +4439,66 @@ msgstr "Saisir la mesure au clavier"
 msgctxt "prefs:bluetooth:clipboard:keyboard-suffix-key"
 msgid "Key to press after measurement"
 msgstr "Touche à appuyer après la mesure"
+
+msgctxt "prefs:bluetooth:category:keyboard"
+msgid "Bluetooth Keyboard Input"
+msgstr ""
+
+msgctxt "prefs:bluetooth:subpage:active-devices"
+msgid "Active Keyboard Input Devices"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:devices"
+msgid "Paired Bluetooth Keyboard Devices"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:device:Vogel-202420-caliper"
+msgid "Vogel caliper (no units)"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:device:Nedo-mEsstronic2-HID1"
+msgid "Nedo mEsstronic2 - HID1 (with units)"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:device:Nedo-mEsstronic2-HID1to3"
+msgid "Nedo mEsstronic2 - HID1-3 (with units)"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:device:Nedo-mEsstronic2-HID4"
+msgid "Nedo mEsstronic2 - HID4 (without units)"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:device:Nedo-mEsstronic2-HID4to6"
+msgid "Nedo mEsstronic2 - HID4-6 (without units)"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:device:Disto-D810-TXTmode"
+msgid "Leica Disto D810 - TXT mode (with units)"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:device:Disto-D810-123mode"
+msgid "Leica Disto D810 - 123 mode (without units)"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:device:Disto-X-with-units"
+msgid "Leica Disto X series (with units)"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:device:Disto-X-without-units"
+msgid "Leica Disto X series (without units)"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:device:Reekon-T1-Tomahawk"
+msgid "Reekon T1-Tomahawk"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:device:keyboard"
+msgid "Manual keyboard entry"
+msgstr ""
+
+msgctxt "prefs:bluetooth:keyboard:decimal-unit-when-not-transmitted"
+msgid "Decimal unit when none is transmitted"
+msgstr ""
 
 msgctxt "android:prefs:bluetooth:device-selection:scan-instructions"
 msgid ""
@@ -4431,6 +4915,10 @@ msgctxt "prefs:ui:qt-scale-factor:auto"
 msgid "Automatic"
 msgstr "Automatique"
 
+msgctxt "prefs:ui:group:editor-graphics-settings"
+msgid "Editor Graphics Settings"
+msgstr ""
+
 #
 msgctxt "prefs:ui:editor:anti-aliasing"
 msgid "Anti-aliasing in editor"
@@ -4440,6 +4928,38 @@ msgstr "Anti-aliasing dans l'éditeur"
 msgctxt "prefs:ui:editor:anti-aliasing:off"
 msgid "Off"
 msgstr "Désactivé"
+
+msgctxt "prefs:ui:editor:graphics-backend"
+msgid "Graphics rendering mode"
+msgstr ""
+
+msgctxt "prefs:ui:editor:graphics-backend:software"
+msgid "Software"
+msgstr ""
+
+msgctxt "prefs:ui:editor:graphics-backend:opengl"
+msgid "OpenGL (accelerated)"
+msgstr ""
+
+msgctxt "prefs:ui:editor:graphics-backend:vulkan"
+msgid "Vulkan (accelerated)"
+msgstr ""
+
+msgctxt "prefs:ui:editor:graphics-backend:metal"
+msgid "Metal (accelerated)"
+msgstr ""
+
+msgctxt "prefs:ui:editor:graphics-quality"
+msgid "Rendering quality"
+msgstr ""
+
+msgctxt "prefs:ui:editor:graphics-quality:reduced"
+msgid "Reduced quality (faster)"
+msgstr ""
+
+msgctxt "prefs:ui:editor:graphics-quality:best"
+msgid "Best quality (slower)"
+msgstr ""
 
 #
 msgctxt "prefs:ui:language"
@@ -4518,6 +5038,14 @@ msgctxt "prefs:ui:filename-deduplication:min-digits-title"
 msgid "Digits for filename deduplication"
 msgstr "Chiffres pour la déduplication du nom de fichier"
 
+msgctxt "prefs:ui:group:editor-display-settings"
+msgid "Editor display settings"
+msgstr ""
+
+msgctxt "prefs:ui:screen-dpi-override"
+msgid "Screen DPI override"
+msgstr ""
+
 #
 msgctxt "prefs:ui:maximum-texture-resolution"
 msgid "Maximum image resolution"
@@ -4577,6 +5105,10 @@ msgstr "Choisir"
 msgctxt "prefs:ui:enable-experimental-dxf-export"
 msgid "Enable DXF export (experimental)"
 msgstr "Activer l'exportation DXF (expérimental)"
+
+msgctxt "prefs:ui:disable-overlays-in-thumbnails"
+msgid "Disable overlay text and logo in thumbnails"
+msgstr ""
 
 #
 msgctxt "prefs:map-provider:title"
@@ -4692,6 +5224,110 @@ msgstr "Supprimer l'étalonnage"
 msgctxt "prefs:camera:camera-list:none"
 msgid "None"
 msgstr "Aucun"
+
+msgctxt "android-exif-reader:error"
+msgid "Failed to read Exif data from image"
+msgstr ""
+
+msgctxt "android-exif-writer:error"
+msgid "Failed to write Exif data to image"
+msgstr ""
+
+msgctxt "geocoder:error:not-present"
+msgid "Address lookup not supported by your device"
+msgstr ""
+
+msgctxt "geocoder:error:invalid-gps-location"
+msgid "Cannot find address for invalid GPS location: {}"
+msgstr ""
+
+msgctxt "geocoder:error:general-error"
+msgid "Error while trying to find location: {}"
+msgstr ""
+
+msgctxt "geocoder:error:no-address-found"
+msgid "Could not find address for location"
+msgstr ""
+
+msgctxt "camera-capture:cannot-create-capture-file"
+msgid "Cannot create file for photo capture"
+msgstr ""
+
+msgctxt "camera-capture:null-capture-file"
+msgid "Photo capture file does not exist"
+msgstr ""
+
+msgctxt "camera-capture:choose-camera-app"
+msgid "Choose Camera App"
+msgstr ""
+
+msgctxt "camera-capture:add-gps:ask-user-dialog:title"
+msgid "Add Location?"
+msgstr ""
+
+msgctxt "camera-capture:add-gps:ask-user-dialog:text"
+msgid ""
+"This image does not contain GPS data. Would you like to add the current "
+"location? This requires location permission."
+msgstr ""
+
+msgctxt "camera-capture:add-gps:ask-user-dialog:checkbox"
+msgid "Save choice to settings."
+msgstr ""
+
+msgctxt "camera-capture:add-gps:ask-user-dialog:yes"
+msgid "Add GPS"
+msgstr ""
+
+msgctxt "camera-capture:add-gps:ask-user-dialog:no"
+msgid "No Thanks"
+msgstr ""
+
+msgctxt "camera-capture:add-gps:location-permission:rationale:title"
+msgid "Need Location Permission"
+msgstr ""
+
+msgctxt "camera-capture:add-gps:location-permission:rationale:text"
+msgid ""
+"This app is set to add GPS location to photos. Please grant location "
+"permission, as it's required to add GPS data to your photos."
+msgstr ""
+
+msgctxt "camera-capture:add-gps:location-permission:rationale:button"
+msgid "Continue"
+msgstr ""
+
+msgctxt "camera-capture:add-gps:result:user-declined"
+msgid "Photo captured without GPS location."
+msgstr ""
+
+msgctxt "camera-capture:add-gps:result:no-location"
+msgid "Could not get a GPS location for the photo"
+msgstr ""
+
+msgctxt "prefs:image-metadata:category:title"
+msgid "Image Metadata"
+msgstr ""
+
+msgctxt "prefs:image-metadata:add-gps:title"
+msgid "Add GPS location to photos"
+msgstr ""
+
+msgctxt "prefs:image-metadata:add-gps:always"
+msgid "Yes"
+msgstr ""
+
+msgctxt "prefs:image-metadata:add-gps:never"
+msgid "No"
+msgstr ""
+
+msgctxt "prefs:image-metadata:add-gps:ask-user"
+msgid "Ask after capture"
+msgstr ""
+
+msgctxt "prefs:image-metadata:lookup-address-from-gps"
+msgid "Lookup location address from GPS"
+msgstr ""
 
 #, fuzzy
 msgctxt "prefs:sync:twoway-and-anno-directories-must-be-different:msg"
@@ -4835,6 +5471,102 @@ msgstr "Clair"
 msgctxt "bluetooth:clipboard:feature-not-licensed:value"
 msgid "Bluetooth transmission requires ImageMeter Pro version"
 msgstr "La transmission Bluetooth nécessite la version ImageMeter Pro"
+
+msgctxt "shortcuts:description:editor:enter-value"
+msgid "Enter dimension value"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:delete-element"
+msgid "Delete element"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:lock-element"
+msgid "Lock drawing element"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:unlock-element"
+msgid "Unlock drawing element"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:toggle-lock-element"
+msgid "Toggle element locking"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:activate-next-element"
+msgid "Activate next element"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:activate-previous-element"
+msgid "Activate previous element"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:flatref"
+msgid "Activate tool 'Reference Scale'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:rectref"
+msgid "Activate tool 'Perspective Reference'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:perspective-line"
+msgid "Activate tool 'Perspective Line'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:measure"
+msgid "Activate tool 'Measure'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:angle"
+msgid "Activate tool 'Angle'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:dimstring-distance"
+msgid "Activate tool 'Dimension String'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:dimstring-cumulative"
+msgid "Activate tool 'Cumulative String'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:area"
+msgid "Activate tool 'Area'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:circle"
+msgid "Activate tool 'Circle'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:rectangle"
+msgid "Activate tool 'Rectangle'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:measurement-point"
+msgid "Activate tool 'Measurement Point'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:text"
+msgid "Activate tool 'Note'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:freehand"
+msgid "Activate tool 'Freehand'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:line"
+msgid "Activate tool 'Line'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:ellipse"
+msgid "Activate tool 'Ellipse'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:counter"
+msgid "Activate tool 'Counter'"
+msgstr ""
+
+msgctxt "shortcuts:description:editor:start-tool:results-list"
+msgid "Activate tool 'Results list'"
+msgstr ""
 
 #, fuzzy
 msgctxt "toolbar:editing:calibration:tooltip"
@@ -5002,6 +5734,14 @@ msgstr "Note de texte"
 msgctxt "templ:custom:column-type:counter"
 msgid "Counter"
 msgstr "Compteur"
+
+msgctxt "templ:custom:rectangle:tagged-element-suffix:width"
+msgid "width"
+msgstr ""
+
+msgctxt "templ:custom:rectangle:tagged-element-suffix:height"
+msgid "height"
+msgstr ""
 
 #
 msgctxt "templ:custom:new-tablespec-name"
@@ -5330,6 +6070,10 @@ msgstr "Compter"
 msgctxt "templ:partslist:tagtype:length"
 msgid "Length"
 msgstr "Longueur"
+
+msgctxt "templ:partslist:tagtype:rectangle"
+msgid "Rectangle"
+msgstr ""
 
 #
 msgctxt "templ:partslist:tagtype:area"
@@ -5729,7 +6473,7 @@ msgstr ""
 #, fuzzy
 msgctxt "licensing:revoke-device:dialog:revoke-counter"
 msgid "You have {remaining} revokes left (out of {max} for {period})"
-msgstr "Il vous reste {restant} révocations (sur {max} pour {période})"
+msgstr "Il vous reste {remaining} révocations (sur {max} pour {period})"
 
 #, fuzzy
 msgctxt "licensing:revoke-device:dialog:revoke-period-days"
@@ -5859,10 +6603,9 @@ msgctxt "missing-addon:counter"
 msgid "Cannot add counter."
 msgstr "Impossible d'ajouter un compteur."
 
-#, fuzzy
 msgctxt "missing-addon:pdf-import"
-msgid "Cannot import PDF"
-msgstr "Impossible d'importer le PDF"
+msgid "Cannot import PDF."
+msgstr ""
 
 #, fuzzy
 msgctxt "missing-addon:data-table-export"
@@ -5897,10 +6640,13 @@ msgctxt "missing-addon:export-dxf"
 msgid "Cannot export to DXF."
 msgstr "Impossible d'exporter au format DXF."
 
-#, fuzzy
 msgctxt "missing-addon:company-logo"
-msgid "Cannot export with company logo"
-msgstr "Impossible d'exporter avec le logo de l'entreprise"
+msgid "Cannot export with company logo."
+msgstr ""
+
+msgctxt "missing-addon:layers"
+msgid "Cannot add layers."
+msgstr ""
 
 #, fuzzy
 msgctxt "unavailable-license-reason:expired"
@@ -6382,6 +7128,10 @@ msgctxt "scriptobject:databundle:member:exif"
 msgid "EXIF data of this image."
 msgstr "Données EXIF de cette image."
 
+msgctxt "scriptobject:databundle:member:address"
+msgid "Address where this image was captured."
+msgstr ""
+
 #
 msgctxt "scriptobject:folder:type"
 msgid "folder"
@@ -6567,6 +7317,78 @@ msgctxt "scriptobject:gps:member:altitude"
 msgid "Altitude."
 msgstr "Altitude."
 
+msgctxt "scriptobject:gps:member:decimal"
+msgid "Coordinates as decimal angles."
+msgstr ""
+
+msgctxt "scriptobject:gps-angle:type"
+msgid "gps-angle"
+msgstr ""
+
+msgctxt "scriptobject:gps-angle:description"
+msgid "GPS location angle"
+msgstr ""
+
+msgctxt "scriptobject:gps-angle:member:decimal"
+msgid "Angle formatted as decimal value."
+msgstr ""
+
+msgctxt "scriptobject:address:type"
+msgid "address"
+msgstr ""
+
+msgctxt "scriptobject:address:description"
+msgid "Location address"
+msgstr ""
+
+msgctxt "scriptobject:address:member:line"
+msgid "Address in a single line."
+msgstr ""
+
+msgctxt "scriptobject:address:member:block"
+msgid "Address as multiple lines."
+msgstr ""
+
+msgctxt "scriptobject:address:member:country"
+msgid "Country."
+msgstr ""
+
+msgctxt "scriptobject:address:member:country_code"
+msgid "Country abbreviation."
+msgstr ""
+
+msgctxt "scriptobject:address:member:admin_area"
+msgid "Administrative area name."
+msgstr ""
+
+msgctxt "scriptobject:address:member:sub_admin_area"
+msgid "Sub-administrative area name."
+msgstr ""
+
+msgctxt "scriptobject:address:member:feature_name"
+msgid "Feature name of the address, for example, \"Golden Gate Bridge\"."
+msgstr ""
+
+msgctxt "scriptobject:address:member:locality"
+msgid "Locality of the address, often the city name."
+msgstr ""
+
+msgctxt "scriptobject:address:member:postal_code"
+msgid "Postal code."
+msgstr ""
+
+msgctxt "scriptobject:address:member:premises"
+msgid "Premises."
+msgstr ""
+
+msgctxt "scriptobject:address:member:thoroughfare"
+msgid "Usually the street name."
+msgstr ""
+
+msgctxt "scriptobject:address:member:sub_thoroughfare"
+msgid "Usually the street number."
+msgstr ""
+
 msgctxt "editor:warning:element:value-is-locked"
 msgid "Value is locked. You have to unlock it first."
 msgstr "Valeur verrouillée. Vous devez d'abord déverrouiller."
@@ -6686,6 +7508,25 @@ msgstr ""
 "      Vous pouvez désactiver n'importe lequel des canaux de notification "
 "indépendamment dans les paramètres de l'application Android.\n"
 "    </p>"
+
+#, fuzzy
+#~ msgctxt "missing-addon:pdf-import"
+#~ msgid "Cannot import PDF"
+#~ msgstr "Impossible d'importer le PDF"
+
+#, fuzzy
+#~ msgctxt "missing-addon:company-logo"
+#~ msgid "Cannot export with company logo"
+#~ msgstr "Impossible d'exporter avec le logo de l'entreprise"
+
+#, fuzzy
+#~ msgctxt "rename-images:script-expr:capture date"
+#~ msgid "Capture date"
+#~ msgstr "Date de capture"
+
+#~ msgctxt "image-export:company-logo:auto-remove-background"
+#~ msgid "Automatic background removal"
+#~ msgstr "Suppression automatique de l'arrière-plan"
 
 #, fuzzy
 #~ msgctxt "licensing:revoke-device:dialog:device-entry"

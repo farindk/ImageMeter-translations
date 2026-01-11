@@ -7,32 +7,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-08 20:29+0200\n"
+"POT-Creation-Date: 2025-10-29 17:45+0100\n"
 "PO-Revision-Date: 2025-01-23 12:24+0100\n"
 "Last-Translator: \n"
-"Language-Team: it <LL@li.org>\n"
 "Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(((((((e == 0)) && (!((n == 0)))) && "
+"(((n % 1000000) == 0))) && ((0 == 0))) || (!((e >= 0 && e <= 5)))) ? 1 : "
+"(((n == 1)) && ((0 == 0))) ? 0 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : 1);\n"
-"Generated-By: Babel 2.9.1\n"
-"X-Generator: Poedit 3.0.1\n"
+"Generated-By: Babel 2.17.0\n"
 
 #. generic strings
 msgctxt "generic_button_ok"
 msgid "OK"
-msgstr "ok"
+msgstr "OK"
 
-#, fuzzy
 msgctxt "generic_button_cancel"
 msgid "Cancel"
 msgstr "Annulla"
 
-#, fuzzy
 msgctxt "generic_button_dismiss"
 msgid "Dismiss"
-msgstr "Scartare"
+msgstr "Dismetti"
 
 msgctxt "generic_dialog_title_error"
 msgid "Error"
@@ -42,14 +41,13 @@ msgctxt "generic_dialog_title_warning"
 msgid "Warning"
 msgstr "Avvertenza"
 
-#, fuzzy
 msgctxt "generic_dialog_title_note"
 msgid "Note"
 msgstr "Nota"
 
 msgctxt "generic_lowercase_yes"
 msgid "yes"
-msgstr "si"
+msgstr "sì"
 
 msgctxt "generic_lowercase_no"
 msgid "no"
@@ -59,32 +57,27 @@ msgctxt "generic_lowercase_unknown"
 msgid "unknown"
 msgstr "sconosciuto"
 
-#, fuzzy
 msgctxt "generic_confirm_delete"
 msgid "Really delete"
 msgstr "Elimina davvero"
 
-#, fuzzy
 msgctxt "generic_cancel_delete"
 msgid "Cancel"
 msgstr "Annulla"
 
-#, fuzzy
 msgctxt "generic_action_undo"
 msgid "Undo"
-msgstr "Disfare"
+msgstr "Disfa"
 
 #. image library
 msgctxt "imageLibrary_new_cameraCapture"
 msgid "Camera capture"
 msgstr "Cattura immagine"
 
-#, fuzzy
 msgctxt "imageLibrary_new_importImage"
 msgid "Import image/PDF"
 msgstr "Importa immagine/PDF"
 
-#, fuzzy
 msgctxt "imageLibrary_new_canvas"
 msgid "New canvas"
 msgstr "Nuova tela"
@@ -105,24 +98,21 @@ msgctxt "imageLibrary_folder_contextMenu_move"
 msgid "Move to folder"
 msgstr "Sposta nella cartella"
 
-#, fuzzy
 msgctxt "imageLibrary_folder_contextMenu_duplicate"
 msgid "Duplicate"
-msgstr "Duplicare"
+msgstr "Duplica"
 
 msgctxt "imageLibrary_folder_contextMenu_delete"
 msgid "Delete folder"
-msgstr "Eliminare cartella"
+msgstr "Elimina cartella"
 
-#, fuzzy
 msgctxt "imageLibrary_folder_contextMenu_undelete"
 msgid "Undelete"
-msgstr "Annulla cancellazione"
+msgstr "Deelimina"
 
-#, fuzzy
 msgctxt "imageLibrary_folder_contextMenu_purge"
 msgid "Purge"
-msgstr "Epurazione"
+msgstr "Epura"
 
 msgctxt "imageLibrary_folder_contextMenu_print"
 msgid "Print folder"
@@ -136,29 +126,25 @@ msgctxt "imageLibrary_image_contextMenu_rename"
 msgid "Rename"
 msgstr "Rinomina"
 
-#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_move"
 msgid "Move to folder"
 msgstr "Sposta nella cartella"
 
-#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_duplicate"
 msgid "Duplicate"
-msgstr "Duplicare"
+msgstr "Duplica"
 
 msgctxt "imageLibrary_image_contextMenu_delete"
 msgid "Delete"
-msgstr "Eliminare"
+msgstr "Elimina"
 
-#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_undelete"
 msgid "Undelete"
-msgstr "Annulla eliminazione"
+msgstr "Deelimina"
 
-#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_purge"
 msgid "Purge"
-msgstr "Epurazione"
+msgstr "Epura"
 
 msgctxt "imageLibrary_image_contextMenu_print"
 msgid "Print"
@@ -166,94 +152,81 @@ msgstr "Stampa"
 
 msgctxt "imageLibrary_image_contextMenu_imageInfo"
 msgid "Image info…"
-msgstr "Informazioni sull'immagine ..."
+msgstr "Info sull'immagine..."
 
-#, fuzzy
 msgctxt "imageLibrary_image_contextMenu_forcedCloudUpload"
 msgid "Force cloud upload"
 msgstr "Forza caricamento su cloud"
 
-#, fuzzy
 msgctxt "imageLibrary_menu_openDisplayOptions"
 msgid "Display options…"
-msgstr "Opzioni di visualizzazione…"
+msgstr "Opzioni visive..."
 
-#, fuzzy
 msgctxt "imageLibrary_menu_openImageNumberingOptions"
 msgid "Image numbering…"
-msgstr "Numerazione delle immagini ..."
+msgstr "Numerazione immagini..."
 
 msgctxt "imageLibrary_menu_openSettings"
 msgid "Settings…"
-msgstr "Impostazioni…"
+msgstr "Impostazioni..."
 
 #. image-library misc
 msgctxt "imageLibrary_snackbar_imageDeleted"
 msgid "Image deleted"
 msgstr "Immagine eliminata"
 
-#, fuzzy
 msgctxt "imageLibrary_snackbar_folderDeleted"
 msgid "Folder deleted"
 msgstr "Cartella eliminata"
 
-#, fuzzy
 msgctxt "imageLibrary_breadcrumb_rootFolder"
 msgid "Root"
 msgstr "Radice"
 
-#, fuzzy
 msgctxt "imageLibrary_search_hint"
 msgid "Search images"
 msgstr "Cerca immagini"
 
-#, fuzzy
 msgctxt "imageLibrary_sortingOrder_alpha_ascending"
 msgid "Alphabetical"
 msgstr "Alfabetico"
 
-#, fuzzy
 msgctxt "imageLibrary_sortingOrder_alpha_descending"
 msgid "Alphabetical, reverse"
 msgstr "Alfabetico, inverso"
 
-#, fuzzy
 msgctxt "imageLibrary_sortingOrder_time_ascending"
 msgid "Time, earliest on top"
-msgstr "Tempo, prima in cima"
+msgstr "Tempo, primo in cima"
 
-#, fuzzy
 msgctxt "imageLibrary_sortingOrder_time_descending"
 msgid "Time, latest on top"
-msgstr "Tempo, ultimo in alto"
+msgstr "Tempo, ultimo in cima"
 
-#, fuzzy
 msgctxt "imageLibrary_sortingOrder_number_ascending"
 msgid "Number, ascending"
 msgstr "Numero, crescente"
 
-#, fuzzy
 msgctxt "imageLibrary_sortingOrder_number_descending"
 msgid "Number, descending"
-msgstr "Numero, discendente"
+msgstr "Numero, decrescente"
 
 #. navigation drawer
 msgctxt "navigationDrawer_preferences"
 msgid "Settings"
 msgstr "Impostazioni"
 
-#, fuzzy
 msgctxt "navigationDrawer_documentation"
 msgid "Documentation"
 msgstr "Documentazione"
 
 msgctxt "navigationDrawer_upgrade"
 msgid "Upgrade"
-msgstr "Aggiornamento"
+msgstr "Promuovi"
 
 msgctxt "navigationDrawer_importImagesFromFreeApp"
 msgid "Import images from free app"
-msgstr "Importa immagini dal´app gratuita"
+msgstr "Importa immagini dall'app gratuita"
 
 msgctxt "navigationDrawer_aboutApp"
 msgid "About app"
@@ -263,27 +236,27 @@ msgctxt "navigationDrawer_contact"
 msgid "Contact us"
 msgstr "Contattaci"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "navigationDrawer_license"
 msgid "License: %1$s"
 msgstr "Licenza: %1$s"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "navigationDrawer_owner"
 msgid "Owner: %1$s"
 msgstr "Proprietario: %1$s"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "navigationDrawer_user"
 msgid "User: %1$s"
 msgstr "Utente: %1$s"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "navigationDrawer_email"
 msgid "EMail: %1$s"
 msgstr "EMail: %1$s"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "navigationDrawer_version"
 msgid "Version: %1$s"
 msgstr "Versione: %1$s"
@@ -291,39 +264,32 @@ msgstr "Versione: %1$s"
 #. dialog: numbering
 msgctxt "imageLibrary_numberingDialog_title"
 msgid "Image numbers"
-msgstr "Numeri di immagine"
+msgstr "Numeri delle immagini"
 
-#, fuzzy
 msgctxt "imageLibrary_numberingDialog_enableAutoNumbering"
 msgid "Enable auto-numbering"
-msgstr "Abilita numerazione automatica"
+msgstr "Abilita auto numerazione"
 
-#, fuzzy
 msgctxt "imageLibrary_numberingDialog_startNumber"
 msgid "Start"
 msgstr "Inizio"
 
-#, fuzzy
 msgctxt "imageLibrary_numberingDialog_numberIncrement"
 msgid "Increment"
 msgstr "Incremento"
 
-#, fuzzy
 msgctxt "imageLibrary_numberingDialog_renumbering_sectionTitle"
 msgid "Renumber existing images"
 msgstr "Rinumera le immagini esistenti"
 
-#, fuzzy
 msgctxt "imageLibrary_numberingDialog_renumbering_keepOldNumberOrder"
 msgid "Keep order of old numbers"
 msgstr "Mantieni l'ordine dei vecchi numeri"
 
-#, fuzzy
 msgctxt "imageLibrary_numberingDialog_renumbering_doRenumber"
 msgid "Renumber"
 msgstr "Rinumera"
 
-#, fuzzy
 msgctxt "imageLibrary_numberingDialog_renumbering_removeAllNumbers"
 msgid "Remove numbers"
 msgstr "Rimuovi i numeri"
@@ -331,59 +297,48 @@ msgstr "Rimuovi i numeri"
 #. dialog: display options
 msgctxt "imageLibrary_displayOptionsDialog_title"
 msgid "Display options"
-msgstr "Opzioni di visualizzazione"
+msgstr "Opzioni visive"
 
-#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_showDeletedImages"
 msgid "Show deleted images"
 msgstr "Mostra le immagini eliminate"
 
-#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_showImageNumbers"
 msgid "Show image numbers"
-msgstr "Mostra i numeri delle immagini"
+msgstr "Mostra numeri delle immagini"
 
-#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_title"
 msgid "Show images as"
 msgstr "Mostra immagini come"
 
-#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_large"
 msgid "Large list"
 msgstr "Elenco ampio"
 
-#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_medium"
 msgid "Medium list"
 msgstr "Elenco medio"
 
-#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_list_small"
 msgid "Small list"
-msgstr "Piccolo elenco"
+msgstr "Elenco piccolo"
 
-#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_large"
 msgid "Large grid"
-msgstr "Grande griglia"
+msgstr "Griglia grande"
 
-#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_medium"
 msgid "Medium grid"
 msgstr "Griglia media"
 
-#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_small"
 msgid "Small grid"
 msgstr "Griglia piccola"
 
-#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_showDeletedImages_summary_on"
 msgid "Deleted images are shown greyed out"
-msgstr "Le immagini eliminate vengono visualizzate in grigio"
+msgstr "Le immagini eliminate vengono mostrate in grigio"
 
-#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_showDeletedImages_summary_off"
 msgid "Deleted images are hidden"
 msgstr "Le immagini eliminate sono nascoste"
@@ -393,41 +348,35 @@ msgctxt "imageLibrary_folderNameDialog_name"
 msgid "Folder name"
 msgstr "Nome cartella"
 
-#, fuzzy
 msgctxt "imageLibrary_folderNameDialog_name_hint"
 msgid "Enter folder name"
-msgstr "Immettere il nome della cartella"
+msgstr "Immetti nome della cartella"
 
-#, fuzzy
 msgctxt "imageLibrary_folderNameDialog_iconColor"
 msgid "Folder color"
 msgstr "Colore cartella"
 
-#, fuzzy
 msgctxt "imageLibrary_folderNameDialog_template"
 msgid "Template"
 msgstr "Modello"
 
 msgctxt "imageLibrary_folderNameDialog_notes"
 msgid "Notes"
-msgstr "Appunti"
+msgstr "Osservazioni"
 
 #. dialog: rename image
 msgctxt "imageLibrary_imageNameDialog_name"
 msgid "Image name"
 msgstr "Nome immagine"
 
-#, fuzzy
 msgctxt "imageLibrary_imageNameDialog_name_hint"
 msgid "Enter image name"
-msgstr "Inserisci il nome dell'immagine"
+msgstr "Immetti nome dell'immagine"
 
-#, fuzzy
 msgctxt "imageLibrary_imageNameDialog_template"
 msgid "Template"
 msgstr "Modello"
 
-#, fuzzy
 msgctxt "imageLibrary_imageNameDialog_number"
 msgid "Number"
 msgstr "Numero"
@@ -450,20 +399,20 @@ msgctxt "aboutApp_license"
 msgid "License:"
 msgstr "Licenza:"
 
-#, fuzzy
 msgctxt "aboutApp_downloadSource"
 msgid "Source:"
-msgstr "Fonte:"
+msgstr "Sorgente:"
 
 msgctxt "aboutApp_tutorialLink"
 msgid "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Tutorial video</a>"
-msgstr "<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Video di tutorial</a>"
+msgstr ""
+"<a href=\"https://www.youtube.com/watch?v=shnUMTBbMSE\">Video "
+"dimostrativo</a>"
 
 msgctxt "aboutApp_documentationLink"
 msgid "<a href=\"https://www.imagemeter.com/manual\">Documentation</a>"
 msgstr "<a href=\"https://www.imagemeter.com/manual\">Documentazione</a>"
 
-#, fuzzy
 msgctxt "aboutApp_releaseNotes"
 msgid "<a href=\"release-notes\">Release notes</a>"
 msgstr "<a href=\"release-notes\">Note sulla versione</a>"
@@ -472,501 +421,455 @@ msgctxt "aboutApp_contactLink"
 msgid "<a href=\"mailto:info@imagemeter.com\">Contact email</a>"
 msgstr "<a href=\"mailto:info@imagemeter.com\">Contatto email</a>"
 
-#, fuzzy
 msgctxt "aboutApp_privacyPolicyLink"
-msgid "<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy policy</a>"
+msgid ""
+"<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Privacy "
+"policy</a>"
 msgstr ""
-"<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Norme sulla privacy</a>"
+"<a href=\"https://www.iubenda.com/privacy-policy/43586350\">Norme sulla "
+"privacy</a>"
 
-#, fuzzy
 msgctxt "aboutApp_licenses"
 msgid "<a href=\"licenses\">Licenses</a>"
 msgstr "<a href=\"licenses\">Licenze</a>"
 
 #. upgrade dialog
-#, fuzzy, c-format
+#, c-format
 msgctxt "upgradeDialog_addonPrice_once"
 msgid "%1$s once"
 msgstr "%1$s una volta"
 
 msgctxt "upgradeDialog_addonPrice_once_terms"
 msgid ""
-"This upgrade is a one time payment. The upgrade stays active for your Google Play "
-"account indefinitely."
+"This upgrade is a one time payment. The upgrade stays active for your "
+"Google Play account indefinitely."
 msgstr ""
-"Questo aggiornamento è un pagamento una tantum. L'aggiornamento rimane attivo per il "
-"tuo account Google Play a tempo indeterminato."
+"Questo aggiornamento è un pagamento una tantum. L'aggiornamento rimane "
+"attivo per il tuo account Google Play a tempo indeterminato."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "upgradeDialog_addonPrice_monthly"
 msgid "%1$s/month"
 msgstr "%1$s/mese"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "upgradeDialog_addonPrice_monthly_and_yearly"
 msgid "%1$s/month or %2$s/year"
 msgstr "%1$s/mese o %2$s/anno"
 
-#, fuzzy
 msgctxt "upgradeDialog_addonPrice_firstMonthFree"
 msgid "First month free"
 msgstr "Primo mese gratuito"
 
-#, fuzzy
 msgctxt "upgradeDialog_addonPrice_subscription_terms"
 msgid ""
-"You won't be charged until your 31-day trial has ended. Your subscription then "
-"automatically renews for another billing period. Your Google Play account will be "
-"charged for renewal within 24 hours before the end of each billing period. To cancel, "
-"you must turn off auto-renew at least 24 hours before your billing period ends. You "
-"can manage and cancel subscriptions any time in your Google Play account settings."
+"You won't be charged until your 31-day trial has ended. Your subscription"
+" then automatically renews for another billing period. Your Google Play "
+"account will be charged for renewal within 24 hours before the end of "
+"each billing period. To cancel, you must turn off auto-renew at least 24 "
+"hours before your billing period ends. You can manage and cancel "
+"subscriptions any time in your Google Play account settings."
 msgstr ""
-"Non ti verrà addebitato alcun importo fino al termine del periodo di prova di 31 "
-"giorni. Il tuo abbonamento si rinnoverà automaticamente per un altro periodo di "
-"fatturazione. Il rinnovo verrà addebitato sul tuo account Google Play entro 24 ore "
-"prima della fine di ciascun periodo di fatturazione. Per annullare, è necessario "
-"disattivare il rinnovo automatico almeno 24 ore prima della fine del periodo di "
-"fatturazione. Puoi gestire e annullare gli abbonamenti in qualsiasi momento nelle "
+"Non ti verrà addebitato alcun importo fino al termine del periodo di "
+"prova di 31 giorni. Il tuo abbonamento si rinnoverà automaticamente per "
+"un'altro periodo di fatturazione. Il rinnovo verrà addebitato sul tuo "
+"account Google Play entro 24 ore prima della fine di ciascun periodo di "
+"fatturazione. Per annullare, è necessario disattivare il rinnovo "
+"automatico almeno 24 ore prima della fine del periodo di fatturazione. "
+"Puoi gestire e annullare gli abbonamenti in qualsiasi momento nelle "
 "impostazioni del tuo account Google Play."
 
-#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_pro"
 msgid "Upgrade to Pro"
-msgstr "L'aggiornamento a Pro"
+msgstr "Aggiorna a Pro"
 
-#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_addon"
 msgid "Activate Addon"
-msgstr "Attiva il componente aggiuntivo"
+msgstr "Attiva il componente"
 
-#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_basic"
 msgid "Get Basic upgrade"
-msgstr "Ottieni l'aggiornamento di base"
+msgstr "Ottieni aggiornamento Basic"
 
-#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_business"
 msgid "Upgrade to Business"
 msgstr "Passa a Business"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "upgradeDialog_purchaseButton_business_monthly"
 msgid "Upgrade (%1$s/month)"
 msgstr "Aggiornamento (%1$s/mese)"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "upgradeDialog_purchaseButton_business_yearly"
 msgid "Upgrade (%1$s/year)"
 msgstr "Aggiornamento (%1$s/anno)"
 
-#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_disabled_addonIsActive"
 msgid "Add-on is active"
-msgstr "Il componente aggiuntivo è attivo"
+msgstr "Il componente è attivo"
 
-#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable_playStore"
 msgid "PlayStore unavailable"
 msgstr "PlayStore non disponibile"
 
-#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable_appGallery"
 msgid "AppGallery unavailable"
-msgstr "Negozio non disponibile"
+msgstr "AppGallery non disponibile"
 
-#, fuzzy
 msgctxt "upgradeDialog_volumeLicenseButton"
 msgid "Enter volume license code"
-msgstr "Immettere il codice della licenza a volume"
+msgstr "Immetti codice di licenza a volume"
 
-#, fuzzy
 msgctxt "upgradeDialog_unsubscribe_button"
 msgid "Unsubscribe"
-msgstr "Annulla l'iscrizione"
+msgstr "Deiscriviti"
 
-#, fuzzy
 msgctxt "upgradeDialog_backButton"
 msgid "Back"
 msgstr "Indietro"
 
-#, fuzzy
 msgctxt "upgradeDialog_download_playstore_invoice"
 msgid ""
-"You can download an invoice from the &lt;a href=\"http://pay.google.com/\"&gt;Google "
-"Pay&lt;/a&gt; website."
+"You can download an invoice from the &lt;a "
+"href=\"http://pay.google.com/\"&gt;Google Pay&lt;/a&gt; website."
 msgstr ""
-"Puoi scaricare una fattura da &lt;a href=\"http://pay.google.com/\"&gt;Google Pay&lt;/"
-"a&gt; sito web."
+"Puoi scaricare una fattura da questo &lt;a "
+"href=\"http://pay.google.com/\"&gt;Google Pay&lt;/a&gt; sito web."
 
-#, fuzzy
 msgctxt "upgradeDialog_moreInformationLink"
 msgid ""
-"For more information about these features, &lt;a href=\"https://www.imagemeter.com/"
-"manual/license/android-licenses\"&gt;visit the website&lt;/a&gt;."
+"For more information about these features, &lt;a "
+"href=\"https://www.imagemeter.com/manual/license/android-"
+"licenses\"&gt;visit the website&lt;/a&gt;."
 msgstr ""
-"Per ulteriori informazioni su queste funzioni, &lt;a href=\"https://www.imagemeter."
-"com/manual/license/android-licenses\"&gt;visita il sito web&lt;/a&gt;."
+"Per altre informazioni su queste funzioni, visita questo &lt;a "
+"href=\"https://www.imagemeter.com/manual/license/android-licenses\"&gt; "
+"sito web.&lt;/a&gt;."
 
 #, fuzzy
+msgctxt "upgradeDialog_noteUpgradesAreForAndroid"
+msgid ""
+"Note: These upgrades are valid on all Android devices that use your "
+"current Google account. However, the upgrades do not include the license "
+"for the Windows version of ImageMeter."
+msgstr ""
+"Nota: questi aggiornamenti sono validi su tutti i dispositivi Android che"
+" utilizzano il tuo account Google attuale. Tuttavia, gli aggiornamenti "
+"non includono la licenza per la versione Windows di ImageMeter."
+
 msgctxt "upgradeDialog_addon_without_pro_title"
 msgid "Add-on without Pro upgrade?"
-msgstr "Componente aggiuntivo senza aggiornamento Pro?"
+msgstr "Componente senza aggiornamento Pro?"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_message"
 msgid ""
-"You are trying to install the add-on without having the Pro upgrade. This is "
-"possible, but probably not what you want. Note that the add-on does not include the "
-"Pro upgrade."
+"You are trying to install the add-on without having the Pro upgrade. This"
+" is possible, but probably not what you want. Note that the add-on does "
+"not include the Pro upgrade."
 msgstr ""
-"Stai tentando di installare il componente aggiuntivo senza avere l'aggiornamento Pro. "
-"Questo è possibile, ma probabilmente non è quello che vuoi. Nota che il componente "
-"aggiuntivo non include l'aggiornamento Pro."
+"Stai tentando di installare il componente aggiuntivo senza avere "
+"l'aggiornamento Pro. Questo è possibile, ma probabilmente non è quello "
+"che vuoi. Nota che il componente non include l'aggiornamento Pro."
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_confirm"
 msgid "Get the add-on"
-msgstr "Ottieni il componente aggiuntivo"
+msgstr "Ottieni il componente"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_cancel"
 msgid "Cancel"
 msgstr "Annulla"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_pro_get_pro"
 msgid "Get Pro instead"
 msgstr "Ottieni invece Pro"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_basic_title"
 msgid "Add-on without Basic upgrade?"
-msgstr "Componente aggiuntivo senza aggiornamento di base?"
+msgstr "Componente senza aggiornamento Basic?"
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_basic_message"
 msgid ""
-"You are trying to install the add-on without having the Basic upgrade. This is "
-"possible, but probably not what you want. Note that the add-on does not include the "
-"Basic upgrade."
+"You are trying to install the add-on without having the Basic upgrade. "
+"This is possible, but probably not what you want. Note that the add-on "
+"does not include the Basic upgrade."
 msgstr ""
-"Stai tentando di installare il componente aggiuntivo senza avere l'aggiornamento di "
-"base. Questo è possibile, ma probabilmente non è quello che vuoi. Si noti che il "
-"componente aggiuntivo non include l'aggiornamento di base."
+"Stai tentando di installare il componente aggiuntivo senza avere "
+"l'aggiornamento Basic. Questo è possibile, ma probabilmente non è quello "
+"che vuoi. Nota che il componente non include l'aggiornamento Basic."
 
-#, fuzzy
 msgctxt "upgradeDialog_addon_without_basic_get_basic"
 msgid "Get Basic instead"
-msgstr "Ottieni invece Basic"
+msgstr "Ottieni Basic invece"
 
 #. specification of the add-ons and their feature items
-#, fuzzy
 msgctxt "upgrade_addon_advancedAnnotation_purchaseBoxTitle"
 msgid "Advanced Annotation Add-On"
-msgstr "Add-On per annotazioni avanzate"
+msgstr "Componente per annotazioni avanzate"
 
-#, fuzzy
 msgctxt "upgrade_addon_advancedAnnotation_addonName"
 msgid "Advanced Annotation"
 msgstr "Annotazione avanzata"
 
-#, fuzzy
 msgctxt "upgrade_addon_basic_to_pro_upgrade"
 msgid "Upgrade to Pro"
-msgstr "Aggiornamento a Pro"
+msgstr "Promuovi a Pro"
 
-#, fuzzy
 msgctxt "upgrade_addon_basic_to_pro_BoxTitle"
 msgid "Upgrade to Pro"
-msgstr "Aggiornamento a Pro"
+msgstr "Promuovi a Pro"
 
-#, fuzzy
 msgctxt "upgrade_addon_pro_purchaseBoxTitle"
 msgid "Pro"
 msgstr "Pro"
 
-#, fuzzy
 msgctxt "upgrade_addon_pro_addonName"
 msgid "Pro"
 msgstr "Pro"
 
-#, fuzzy
 msgctxt "upgrade_addon_basic_purchaseBoxTitle"
 msgid "Basic"
-msgstr "Di base"
+msgstr "Basic"
 
-#, fuzzy
 msgctxt "upgrade_addon_basic_addonName"
 msgid "Basic"
-msgstr "Di base"
+msgstr "Basic"
 
-#, fuzzy
 msgctxt "upgrade_addon_business_purchaseBoxTitle"
 msgid "Business"
-msgstr "Attività commerciale"
+msgstr "Business"
 
-#, fuzzy
 msgctxt "upgrade_addon_business_addonName"
 msgid "Business"
-msgstr "Attività commerciale"
+msgstr "Business"
 
-#, fuzzy
 msgctxt "upgrade_item_no_watermarks"
 msgid "No watermarks"
 msgstr "Nessuna filigrana"
 
-#, fuzzy
 msgctxt "upgrade_item_unlimited_measures"
 msgid "Unlimited measures"
 msgstr "Misure illimitate"
 
-#, fuzzy
 msgctxt "upgrade_item_unlimited_bluetooth"
 msgid "Full Bluetooth laser support"
 msgstr "Supporto laser Bluetooth completo"
 
-#, fuzzy
 msgctxt "upgrade_item_draw_circles_etc"
 msgid "Draw and measure circles, rectangles, points"
 msgstr "Disegna e misura cerchi, rettangoli, punti"
 
-#, fuzzy
 msgctxt "upgrade_item_perspective_length"
 msgid "Perspective length measurement tool"
-msgstr "Strumento di misurazione della lunghezza in prospettiva"
+msgstr "Strumento misurazione della lunghezza prospettica"
 
-#, fuzzy
 msgctxt "upgrade_item_subfolders"
 msgid "Subfolders"
 msgstr "Sottocartelle"
 
-#, fuzzy
 msgctxt "upgrade_item_audio_notes"
 msgid "Audio notes"
 msgstr "Note audio"
 
-#, fuzzy
 msgctxt "upgrade_item_detail_pictures"
 msgid "Detail pictures"
-msgstr "Foto di dettaglio"
+msgstr "Dettagli immagini"
 
-#, fuzzy
 msgctxt "upgrade_item_measurement_string"
 msgid "Measurement strings"
-msgstr "Stringhe di misura"
+msgstr "Stringhe di misurazione"
 
-#, fuzzy
 msgctxt "upgrade_item_custom_color_palette"
 msgid "Custom color palette"
 msgstr "Tavolozza dei colori personalizzata"
 
-#, fuzzy
 msgctxt "upgrade_item_pdf_import"
 msgid "PDF import"
 msgstr "Importazione PDF"
 
-#, fuzzy
 msgctxt "upgrade_item_counter"
 msgid ""
-"&lt;a href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\"&gt;Counting tool&lt;/a&gt;"
+"&lt;a href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\"&gt;Counting "
+"tool&lt;/a&gt;"
 msgstr ""
-"&lt;a href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\"&gt;Contatore&lt;/a&gt;"
+"&lt;a "
+"href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\"&gt;Contatore&lt;/a&gt;"
 
-#, fuzzy
-msgctxt "upgrade_item_cloud_access_from_office_pc"
-msgid "Access images from your office PC"
-msgstr "Accedi alle immagini dal tuo PC dell'ufficio"
-
-#, fuzzy
 msgctxt "upgrade_item_cloud_device_sync"
 msgid "Sync images between devices"
-msgstr "Sincronizza le immagini tra i dispositivi"
+msgstr "Sinc le immagini tra i dispositivi"
 
-#, fuzzy
 msgctxt "upgrade_item_cloud_backup"
 msgid "Backup on your cloud storage"
-msgstr "Esegui il backup sul tuo archivio cloud"
+msgstr "Esegui il backup nel tuo archivio cloud"
 
-#, fuzzy
 msgctxt "upgrade_item_company_logo"
 msgid "Put your company logo onto images"
-msgstr "Metti il logo della tua azienda sulle immagini"
+msgstr "Poni il marchio della tua azienda sulle immagini"
 
-#, fuzzy
 msgctxt "upgrade_item_data_tables"
 msgid ""
-"&lt;a href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Export "
+"&lt;a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Export "
 "measurements as data tables&lt;/a&gt;."
 msgstr ""
-"&lt;a href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Esporta "
-"misurazioni come tabelle di dati&lt;/a&gt;."
+"&lt;a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Esporta "
+"misurazioni come tabella dati&lt;/a&gt;."
 
-#, fuzzy
 msgctxt "upgrade_item_includes_basic"
 msgid "Includes Basic version"
-msgstr "Include l'aggiornamento \"Basic\""
+msgstr "Include l'aggiornamento Basic"
 
-#, fuzzy
 msgctxt "upgrade_item_all_addon_packs"
 msgid "Includes Pro version"
-msgstr "Include l'aggiornamento \"Pro\""
+msgstr "Include l'aggiornamento Pro"
 
 #. dialogs that explain why we need an upgrade
-#, fuzzy, c-format
+#, c-format
 msgctxt "needUpgradeDialog_titleTemplate"
 msgid "%1$s Add-On"
-msgstr "%1$s componente aggiuntivo"
+msgstr "%1$s componente"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "needUpgradeDialog_mayStartApplication"
 msgid "You can only use the app with the '%1$s' upgrade."
 msgstr "Puoi utilizzare l'app solo con l'aggiornamento '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "needUpgradeDialog_createSubfolders"
 msgid "Creating subfolders is included in the '%1$s' add-on."
-msgstr "La creazione di sottocartelle è inclusa nel componente aggiuntivo \"%1$s\"."
+msgstr "La creazione di sottocartelle è inclusa nel componente aggiuntivo '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "needUpgradeDialog_moveFolders"
 msgid "Moving folders into other folders is included in the '%1$s' add-on."
 msgstr ""
-"Lo spostamento di cartelle in altre cartelle è incluso nel componente aggiuntivo "
-"\"%1$s\"."
+"Lo spostamento di cartelle in altre cartelle è incluso nel componente "
+"aggiuntivo '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "needUpgradeDialog_audioNotes"
 msgid "Recording audio notes is included in the '%1$s' add-on."
-msgstr "La registrazione di note audio è inclusa nel componente aggiuntivo \"%1$s\"."
+msgstr "La registrazione di note audio è inclusa nel componente aggiuntivo '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "needUpgradeDialog_detailImages"
 msgid "Adding detail images is included in the '%1$s' add-on."
 msgstr ""
-"L'aggiunta di immagini di dettaglio è inclusa nel componente aggiuntivo \"%1$s\"."
+"L'aggiunta di immagini di dettaglio è inclusa nel componente aggiuntivo "
+"'%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "needUpgradeDialog_pdfImport"
 msgid "PDF import is included in the '%1$s' add-on."
-msgstr "L'importazione di PDF è inclusa nel componente aggiuntivo \"%1$s\"."
+msgstr "L'importazione di PDF è inclusa nel componente aggiuntivo '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "needUpgradeDialog_text_tryWithExamples"
 msgid "You can try this function with the example images (in folder '%1$s')."
 msgstr ""
-"Puoi provare questa funzione con le immagini di esempio (nella cartella '%1$s')."
+"Puoi provare questa funzione con le immagini di esempio (nella cartella "
+"'%1$s')."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "needUpgradeDialog_text_createAndtryWithExamples"
 msgid ""
-"You can try this function with the example images (<a href=\"create\">create folder "
-"'%1$s'</a>)."
+"You can try this function with the example images (<a "
+"href=\"create\">create folder '%1$s'</a>)."
 msgstr ""
-"Puoi provare questa funzione con le immagini di esempio (<a href=\"create\">crea la "
-"cartella '%1$s'</a>)."
+"Puoi provare questa funzione con le immagini di esempio (<a "
+"href=\"create\">crea la cartella '%1$s'</a>)."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "needUpgradeDialog_editingTool"
 msgid "This tool is available in the '%1$s' add-on."
-msgstr "Questo strumento è disponibile nel componente aggiuntivo \"%1$s\"."
+msgstr "Questo strumento è disponibile nel componente aggiuntivo '%1$s'."
 
-#, fuzzy
 msgctxt "needUpgradeDialog_exportDataTables"
 msgid "Exporting data tables is available in the Business version."
 msgstr "L'esportazione delle tabelle dati è disponibile nella versione Business."
 
 #. TODO: demo video
-#, fuzzy, c-format
+#, c-format
 msgctxt "needUpgradeDialog_counter"
 msgid ""
 "The counting tool is available in the '%1$s' add-on. Watch the <a "
 "href=\"%2$s\">tutorial video</a> to learn more about this tool."
 msgstr ""
-"Lo strumento di conteggio è incluso nell'addon '%1$s'. Il <a href=\"%2$s\">Video "
-"esplicativo</a> mostra come funziona lo strumento di conteggio."
+"Lo strumento di conteggio è incluso nel componente '%1$s'. Il <a "
+"href=\"%2$s\">Il video esplicativo</a> mostra come funziona lo strumento "
+"di conteggio."
 
-#, fuzzy
 msgctxt "needUpgradeDialog_button_getBusinessVersion"
 msgid "Upgrade to Business version"
 msgstr "Passa alla versione Business"
 
-#, fuzzy
 msgctxt "needUpgradeDialog_button_getUpgrade"
 msgid "Upgrade"
-msgstr "Upgrade"
+msgstr "Promuovi"
 
-#, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_title"
 msgid "Activate Add-on Pack"
 msgstr "Attiva il pacchetto aggiuntivo"
 
-#, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_text"
 msgid ""
-"Since this native Pro-version is going to be replaced by the free version with in-app "
-"upgrades, add-on packs are only available in the free version. Please migrate to the "
-"free version. Your Pro upgrade will stay active."
+"Since this native Pro-version is going to be replaced by the free version"
+" with in-app upgrades, add-on packs are only available in the free "
+"version. Please migrate to the free version. Your Pro upgrade will stay "
+"active."
 msgstr ""
-"Poiché questa versione Pro nativa verrà sostituita dalla versione gratuita con "
-"aggiornamenti in-app, i pacchetti aggiuntivi sono disponibili solo nella versione "
-"gratuita. Effettua la migrazione alla versione gratuita. Il tuo aggiornamento Pro "
-"rimarrà attivo."
+"Poiché questa versione Pro nativa verrà sostituita dalla versione "
+"gratuita con aggiornamenti in-app, i pacchetti aggiuntivi sono "
+"disponibili solo nella versione gratuita. Migra alla versione gratuita. "
+"Il tuo aggiornamento Pro rimarrà attivo."
 
-#, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_download_text"
 msgid "Download the free version from here:"
 msgstr "Scarica la versione gratuita da qui:"
 
-#, fuzzy
 msgctxt "dialog_migrate_for_addon_packs_open_instructions"
 msgid "Show migration instructions"
-msgstr "Mostra le istruzioni per la migrazione"
+msgstr "Mostra istruzioni per la migrazione"
 
 #. licensing: volume key dialog
 msgctxt "licensing_company_key_title"
 msgid "Company configuration key"
 msgstr "Chiave di configurazione aziendale"
 
-#, fuzzy
 msgctxt "licensing_volume_key_note"
 msgid ""
-"Note: you don't need to enter any key when you purchased through the Google Play "
-"store."
+"Note: you don't need to enter any key when you purchased through the "
+"Google Play store."
 msgstr ""
-"Nota: non è necessario inserire alcuna chiave quando hai acquistato tramite Google "
-"Play Store."
+"Nota: non è necessario inserire alcuna chiave se hai acquistato tramite "
+"Google Play Store."
 
-#, fuzzy
 msgctxt "licensing_company_key_description"
 msgid "Please enter your company key:"
-msgstr "Inserisci la tua chiave aziendale:"
+msgstr "Inserire la tua chiave aziendale:"
 
-#, fuzzy
 msgctxt "licensing_volume_key_send_button"
 msgid "Send"
-msgstr "Spedire"
+msgstr "Invia"
 
-#, fuzzy
 msgctxt "licensing_company_key_error_parse_server_response"
 msgid "Error parsing server response."
 msgstr "Errore durante l'analisi della risposta del server."
 
-#, fuzzy
 msgctxt "licensing_company_key_error_invalid_license_code"
 msgid "Invalid key."
 msgstr "Chiave non valida."
 
-#, fuzzy
 msgctxt "licensing_company_key_success"
 msgid "Key activated"
 msgstr "Chiave attivata"
 
-#, fuzzy
 msgctxt "licensing_revoke_device_title"
 msgid "Revoke device"
 msgstr "Revoca dispositivo"
 
-#, fuzzy
 msgctxt "licensing_revoke_device_descr"
 msgid ""
 "The license is already assigned to the maximum number of devices.\n"
@@ -977,194 +880,166 @@ msgstr ""
 "\n"
 "Seleziona il dispositivo per il quale la licenza deve essere revocata."
 
-#, fuzzy
 msgctxt "licensing_revoke_device_button_revoke"
 msgid "Revoke"
-msgstr "Revocare"
+msgstr "Revoca"
 
 #. in-app payment
-#, fuzzy
 msgctxt "inapp_error_billing_unavailable"
 msgid "Billing is not available."
 msgstr "Fatturazione non disponibile."
 
-#, fuzzy
 msgctxt "inapp_error_feature_not_supported"
 msgid "Feature is not supported."
 msgstr "La funzione non è supportata."
 
-#, fuzzy
 msgctxt "inapp_error_item_already_owned"
 msgid "Item is already owned."
-msgstr "Articolo già di proprietà."
+msgstr "Oggetto già posseduto."
 
-#, fuzzy
 msgctxt "inapp_error_item_unavailable"
 msgid "Item is unavailable."
-msgstr "Articolo non disponibile."
+msgstr "Oggetto non disponibile."
 
-#, fuzzy
 msgctxt "inapp_error_service_disconnected"
 msgid "PlayStore temporarily disconnected, try again later."
 msgstr "PlayStore temporaneamente disconnesso, riprova più tardi."
 
-#, fuzzy
 msgctxt "inapp_error_service_unavailable"
 msgid "Network down, cannot reach PlayStore."
-msgstr "Rete giù, impossibile raggiungere PlayStore."
+msgstr "Rete caduta, impossibile raggiungere il PlayStore."
 
-#, fuzzy
 msgctxt "inapp_error_user_canceled"
 msgid "Purchase canceled by user."
 msgstr "Acquisto annullato dall'utente."
 
-#, fuzzy
 msgctxt "inapp_error_signature_check_failed"
 msgid "Signature check failed."
-msgstr "Controllo della firma non riuscito."
+msgstr "Controllo della firma fallito."
 
 #, c-format
 msgctxt "inapp_error_unknown"
 msgid "Unknown error, result code: '%1$d', response '%2$s'."
-msgstr "Errore sconosciuto, codice risultato: ' %1$d ' (%2$s)."
+msgstr "Errore sconosciuto, codice risultato: '%1$d', responso '%2$s'."
 
-#, fuzzy
 msgctxt "inapp_error_developer_error"
 msgid "Developer error."
 msgstr "Errore dello sviluppatore."
 
-#, fuzzy
 msgctxt "inapp_error_generic_error"
 msgid "Generic error."
 msgstr "Errore generico."
 
-#, fuzzy
 msgctxt "inapp_error_item_not_owned"
 msgid "Item is not owned."
-msgstr "L'articolo non è di proprietà."
+msgstr "L'oggetto non è posseduto."
 
-#, fuzzy
 msgctxt "inapp_error_service_timeout"
 msgid "Service timeout."
-msgstr "Timeout del servizio."
+msgstr "Servizio scaduto."
 
-#, fuzzy
 msgctxt "inapp_error_payment_failed"
 msgid "Payment failed."
 msgstr "Pagamento fallito."
 
-#, fuzzy
 msgctxt "inapp_error_cannot_query_owned_products"
 msgid "Cannot query for owned upgrades."
-msgstr "Impossibile eseguire query per gli aggiornamenti di proprietà."
+msgstr "Impossibile eseguire richieste per aggiornamenti di proprietà."
 
 #. TODO: these names should be a simple summary name for the "About App"
 #. dialog. But this does not work well with the          add-ons. Replace it
 #. with a different system.
 msgctxt "upgrade_licenseName_basic"
 msgid "Basic"
-msgstr "Di base"
+msgstr "Basic"
 
-#, fuzzy
 msgctxt "upgrade_licenseName_addon_without_base_license"
 msgid "Add-on without base license"
-msgstr "Componente aggiuntivo senza licenza di base"
+msgstr "Componente senza licenza di base"
 
-#, fuzzy
 msgctxt "upgrade_licenseName_freeEvaluation"
 msgid "Free Evaluation"
 msgstr "Valutazione gratuita"
 
-#, fuzzy
 msgctxt "upgrade_licenseName_business"
 msgid "Business"
-msgstr "Attività commerciale"
+msgstr "Business"
 
-#, fuzzy
 msgctxt "upgrade_licenseName_pro"
 msgid "Pro"
 msgstr "Pro"
 
-#, fuzzy
 msgctxt "license_source_pro_key_app"
 msgid "Pro-key app"
-msgstr "App Pro-key"
+msgstr "Chiave app Pro"
 
-#, fuzzy
 msgctxt "license_source_volume_key"
 msgid "Volume key"
-msgstr "Tasto del volume"
+msgstr "Chiave a volume"
 
-#, fuzzy
 msgctxt "cannot_open_web_link_browser"
 msgid "Cannot open web browser to show URL."
-msgstr "Impossibile aprire il browser Web per visualizzare l'URL."
+msgstr "Impossibile aprire il browser web per mostrare l'URL."
 
 #. info messages
-#, fuzzy
 msgctxt "main_screen_info_message_pro_key_app_not_needed"
 msgid ""
-"You may deinstall the separate Pro app. It is not needed anymore as a key to enable "
-"the Pro features because you have add-ons that include the Pro upgrade. Make sure "
-"that you have copied all the images from the Pro app to here as deleting the app will "
-"also delete all the images stored in it."
+"You may deinstall the separate Pro app. It is not needed anymore as a key"
+" to enable the Pro features because you have add-ons that include the Pro"
+" upgrade. Make sure that you have copied all the images from the Pro app "
+"to here as deleting the app will also delete all the images stored in it."
 msgstr ""
-"Puoi disinstallare l'app Pro separata. Non è più necessario come chiave per abilitare "
-"le funzionalità Pro perché hai componenti aggiuntivi che includono l'aggiornamento "
-"Pro. Assicurati di aver copiato tutte le immagini dall'app Pro qui poiché "
-"l'eliminazione dell'app eliminerà anche tutte le immagini in essa memorizzate."
+"Puoi disinstallare l'app Pro separata. Non è più necessario come chiave "
+"per abilitare le funzionalità, perché hai componenti aggiuntivi che "
+"includono l'aggiornamento Pro. Assicurati di aver copiato tutte le "
+"immagini dall'app Pro qui poiché l'eliminazione dell'app eliminerà anche "
+"tutte le immagini in essa memorizzate."
 
-#, fuzzy
 msgctxt "main_screen_info_message_please_rate"
 msgid ""
-"If you like this app, would you mind taking a minute to rate it? Thank you for your "
-"support!"
+"If you like this app, would you mind taking a minute to rate it? Thank "
+"you for your support!"
 msgstr ""
-"Se ti piace questa app, ti dispiacerebbe dedicare un minuto a valutarla? Grazie per "
-"il vostro sostegno!"
+"Se ti piace questa app, ti potresti dedicare un minuto a valutarla? "
+"Grazie per il sostegno!"
 
-#, fuzzy
 msgctxt "main_screen_info_message_please_rate_rate_now"
 msgid "Rate now"
 msgstr "Vota adesso"
 
-#, fuzzy
 msgctxt "main_screen_info_message_please_rate_later"
 msgid "Later"
 msgstr "Dopo"
 
-#, fuzzy
 msgctxt "main_screen_info_message_no_backup"
 msgid ""
-"It looks like your images are currently not backed up. If your phone breaks or gets "
-"lost, the images may be lost too.\n"
+"It looks like your images are currently not backed up. If your phone "
+"breaks or gets lost, the images may be lost too.\n"
 "\n"
-"To prevent this, use the cloud-sync function of the Business version or do a manual "
-"backup of your data."
+"To prevent this, use the cloud-sync function of the Business version or "
+"do a manual backup of your data."
 msgstr ""
-"Sembra che le tue immagini non siano attualmente sottoposte a backup. Se il telefono "
-"si rompe o si perde, anche le immagini potrebbero andare perse.\n"
+"Sembra che le tue immagini non siano attualmente sottoposte a backup. Se "
+"il telefono si rompe o si perde, anche le immagini potrebbero andare "
+"perse.\n"
 "\n"
-"Per evitare ciò, utilizzare la funzione di sincronizzazione cloud della versione "
-"Business o eseguire un backup manuale dei dati."
+"Per evitare ciò, utilizzare la funzione di sincronizzazione cloud della "
+"versione Business o eseguire un backup manuale dei dati."
 
-#, fuzzy
 msgctxt "main_screen_info_message_no_backup_do_not_warn_again"
 msgid "Don't warn again"
 msgstr "Non avvisare di nuovo"
 
-#, fuzzy
 msgctxt "main_screen_info_message_deprecated_directory"
 msgid ""
-"Your images are stored in the public 'Documents' directory. Soon, Android will not "
-"allow apps to access this directory anymore. Please move your data into the app "
-"directory."
+"Your images are stored in the public 'Documents' directory. Soon, Android"
+" will not allow apps to access this directory anymore. Please move your "
+"data into the app directory."
 msgstr ""
-"Le tue immagini sono archiviate nella directory pubblica \"Documenti\". Presto "
-"Android non consentirà più alle app di accedere a questa directory. Si prega di "
-"spostare i dati nella directory dell'app."
+"Le tue immagini sono archiviate nella directory pubblica 'Documenti'. "
+"Presto Android non consentirà più alle app di accedere a questa "
+"directory. Si prega di spostare i dati nella directory dell'app."
 
-#, fuzzy
 msgctxt "main_screen_info_message_deprecated_directory_settings"
 msgid "Open settings"
 msgstr "Apri le impostazioni"
@@ -1176,11 +1051,11 @@ msgstr "Esempi"
 
 msgctxt "tutorial_images_1"
 msgid "Example 1: Measure on a 2D floor plan"
-msgstr "Esempio 1: Misurare su una pianta 2D"
+msgstr "Esempio 1: Misurare un pianterreno 2D"
 
 msgctxt "tutorial_images_2"
 msgid "Example 2: Measure a flat object"
-msgstr "Esempio 2: Misurare un oggetto piatto"
+msgstr "Esempio 2: Misurare un'oggetto piatto"
 
 msgctxt "tutorial_images_3"
 msgid "Example 3: Perspectively distorted wall"
@@ -1191,76 +1066,68 @@ msgid "Example 4: Perspective height measurement"
 msgstr "Esempio 4: Misurazione dell'altezza prospettica"
 
 #. image import from free app
-#, fuzzy
 msgctxt "import_pro_app_data"
 msgid "Import images from Pro app"
 msgstr "Importa immagini dall'app Pro"
 
-#, fuzzy
 msgctxt "import_pro_app_data_started_text"
 msgid ""
-"Importing has started to run in the background. When it is finished, please check "
-"that the images were copied correctly and delete them in the Pro app to save memory "
-"space."
+"Importing has started to run in the background. When it is finished, "
+"please check that the images were copied correctly and delete them in the"
+" Pro app to save memory space."
 msgstr ""
-"L'importazione è iniziata in background. Al termine, controlla che le immagini siano "
-"state copiate correttamente ed eliminale nell'app Pro per risparmiare spazio in "
-"memoria."
+"L'importazione è iniziata in sottofondo. Al termine, controlla che le "
+"immagini siano state copiate correttamente ed eliminale nell'app Pro per "
+"risparmiare spazio in memoria."
 
-#, fuzzy
 msgctxt "import_pro_app_data_local_not_empty"
 msgid ""
-"Warning: there are images in this app. Importing the images from the Pro app may "
-"overwrite images with the same name."
+"Warning: there are images in this app. Importing the images from the Pro "
+"app may overwrite images with the same name."
 msgstr ""
-"Attenzione: ci sono immagini in questa app. L'importazione delle immagini dall'app "
-"Pro potrebbe sovrascrivere le immagini con lo stesso nome."
+"Attenzione: ci sono immagini in questa app. L'importazione di immagini "
+"dall'app Pro potrebbe sovrascrivere quelle con lo stesso nome."
 
-#, fuzzy
 msgctxt "import_pro_app_data_local_not_empty_anyway"
 msgid "Import anyway"
 msgstr "Importa comunque"
 
-#, fuzzy
 msgctxt "import_pro_app_data_title"
 msgid "Importing images from Pro app"
 msgstr "Importazione di immagini dall'app Pro"
 
-#, fuzzy
 msgctxt "import_pro_app_data_scan_progress_text"
 msgid "Please wait, searching for images to copy."
 msgstr "Attendere, ricerca di immagini da copiare."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "import_pro_app_data_progress_text"
 msgid "Please wait, %1$d images of %2$d done (%3$d errors)."
 msgstr "Attendi, %1$d immagini di %2$d completate (%3$d errori)."
 
-#, fuzzy
 msgctxt "import_pro_app_data_finished"
 msgid ""
-"Images from the Pro app are now imported. After checking that the images were "
-"imported correctly, you may want to delete the images in the Pro app to save memory "
-"space."
+"Images from the Pro app are now imported. After checking that the images "
+"were imported correctly, you may want to delete the images in the Pro app"
+" to save memory space."
 msgstr ""
-"Le immagini dall'app Pro vengono ora importate. Dopo aver verificato che le immagini "
-"siano state importate correttamente, potresti voler eliminare le immagini nell'app "
+"Le immagini dall'app Pro vengono ora importate. Dopo aver verificato "
+"l'esito dell'operazione, potresti voler eliminare le immagini nell'app "
 "Pro per risparmiare spazio in memoria."
 
-#, fuzzy
 msgctxt "import_pro_app_data_failed"
 msgid ""
-"Image import from Pro app has failed or is incomplete. Maybe your memory is full?"
+"Image import from Pro app has failed or is incomplete. Maybe your memory "
+"is full?"
 msgstr ""
-"L'importazione delle immagini dall'app Pro non è riuscita o è incompleta. Forse la "
-"tua memoria è piena?"
+"L'importazione delle immagini dall'app Pro non è riuscita o è incompleta."
+" Forse la tua memoria è piena?"
 
 #. PDF import dialog
 msgctxt "pdf_import_page_selection_render_resolution"
 msgid "Resolution (dpi):"
 msgstr "Risoluzione (dpi):"
 
-#, fuzzy
 msgctxt "pdf_import_page_selection_output_image_resolution"
 msgid "Output resolution:"
 msgstr "Risoluzione di uscita:"
@@ -1270,78 +1137,64 @@ msgctxt "pdf_import_page_selection_output_image_resolution_value"
 msgid "%1$.1f MP"
 msgstr "%1$.1f MP"
 
-#, fuzzy
 msgctxt "pdf_import_page_selection_calibrate_to_page_size"
 msgid "Calibrate to page size"
-msgstr "Calibra in base alle dimensioni della pagina"
+msgstr "Calibra in base alle dimensioni pagina"
 
-#, fuzzy
 msgctxt "pdf_import_page_selection_importButton"
 msgid "Import"
-msgstr "Importare"
+msgstr "Importa"
 
 #. dialog: export format
-#, fuzzy
 msgctxt "dialog_export_format_image"
 msgid "Image (JPEG/PNG)"
 msgstr "Immagine (JPEG/PNG)"
 
-#, fuzzy
 msgctxt "dialog_export_format_pdf"
 msgid "PDF document"
 msgstr "Documento PDF"
 
-#, fuzzy
 msgctxt "dialog_export_format_zip"
 msgid "ZIP archive"
 msgstr "Archivio ZIP"
 
-#, fuzzy
 msgctxt "dialog_export_format_imi"
 msgid "Editable ImageMeter Image (IMI)"
 msgstr "Immagine ImageMeter modificabile (IMI)"
 
-#, fuzzy
 msgctxt "dialog_export_format_imf"
 msgid "ImageMeter folder (IMF)"
 msgstr "Cartella ImageMeter (IMF)"
 
-#, fuzzy
 msgctxt "dialog_export_format_gallery"
 msgid "Save to gallery"
 msgstr "Salva nella galleria"
 
-#, fuzzy
 msgctxt "dialog_export_format_show_next_time"
 msgid "Show format selection next time"
-msgstr "Mostra la selezione del formato la prossima volta"
+msgstr "Mostra selezione del formato la prossima volta"
 
 #. image export
-#, fuzzy
 msgctxt "dialog_image_export_options_title"
 msgid "Default image export settings"
-msgstr "Impostazioni di esportazione delle immagini predefinite"
+msgstr "Opzioni di esportazione immagine predefinite"
 
-#, fuzzy
 msgctxt "dialog_image_export_low_jpeg_image_quality"
 msgid "A quality of at least 80 is recommended."
 msgstr "Si consiglia una qualità di almeno 80."
 
-#, fuzzy
 msgctxt "dialog_image_export_options_show_dialog"
 msgid "Show export options next time"
-msgstr "Mostra le opzioni di esportazione la prossima volta"
+msgstr "Mostra opzioni di esportazione la prossima volta"
 
 #. PDF export
 #. <string name="dialog_pdf_export_paper">Paper</string>     <string
 #. name="dialog_pdf_export_layout">Layout</string>     <string
 #. name="dialog_pdf_export_metadata">Metadata</string>
-#, fuzzy
 msgctxt "dialog_pdf_export_space_for_notes"
 msgid "Space for image notes"
-msgstr "Spazio per note di immagini"
+msgstr "Spazio per note delle immagini"
 
-#, fuzzy
 msgctxt "dialog_pdf_export_print_folder_notes"
 msgid "Print folder notes"
 msgstr "Stampa le note della cartella"
@@ -1349,7 +1202,6 @@ msgstr "Stampa le note della cartella"
 #. <string name="dialog_pdf_export_print_table_of_content">Print table of
 #. content</string>     <string name="dialog_pdf_export_image_title">Image
 #. title</string>
-#, fuzzy
 msgctxt "dialog_pdf_export_data_table"
 msgid "Data Table"
 msgstr "Tabella dati"
@@ -1358,19 +1210,16 @@ msgstr "Tabella dati"
 #. layout</string>     <string
 #. name="dialog_pdf_export_data_table_title_vertical">Vertical column
 #. titles</string>
-#, fuzzy
 msgctxt "dialog_pdf_options_show_dialog"
 msgid "Show PDF options next time"
-msgstr "Mostra le opzioni PDF la prossima volta"
+msgstr "Mostra opzioni PDF la prossima volta"
 
 #. TODO: replace this with "export:pdf:print-density:default" in the PO set
-#, fuzzy
 msgctxt "pref_export_pdf_output_resolution_default"
 msgid "Default"
 msgstr "Predefinito"
 
 #. <string name="pref_export_pdf_print_density">Resolution</string>
-#, fuzzy
 msgctxt "dialog_pdf_options_image_notes_space_choices:0"
 msgid "Do not print notes"
 msgstr "Non stampare note"
@@ -1408,140 +1257,122 @@ msgstr "50%"
 #. export to gallery
 msgctxt "image_export_to_gallery_in_background"
 msgid "Storing the images into your photo gallery..."
-msgstr "Memorizzazione delle immagini nella tua galleria fotografica..."
+msgstr "Memorizzazione immagini nella tua galleria fotografica..."
 
 #. PDF export progress notification
-#, fuzzy
 msgctxt "pdf_export_notification_generating_pdf"
 msgid "Generating PDF file"
-msgstr "Generazione di file PDF"
+msgstr "Generazione file PDF"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "pdf_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
-msgstr "Rendering immagine %1$d di %2$d."
+msgstr "Rappresentazione immagine %1$d di %2$d."
 
 #. - ZIP export
 msgctxt "dialog_zip_export_title"
 msgid "ZIP export"
 msgstr "Esportazione ZIP"
 
-#, fuzzy
 msgctxt "dialog_zip_options_show_dialog"
 msgid "Show ZIP options next time"
-msgstr "Mostra le opzioni ZIP la prossima volta"
+msgstr "Mostra opzioni ZIP la prossima volta"
 
 #. ZIP export progress notification
-#, fuzzy
 msgctxt "zip_export_notification_generating_title"
 msgid "Generating ZIP file"
-msgstr "Generazione di file ZIP"
+msgstr "Generazione file ZIP"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "zip_export_notification_progress"
 msgid "Rendering image %1$d of %2$d."
-msgstr "Rendering immagine %1$d di %2$d."
+msgstr "Rappresentazione immagine %1$d di %2$d."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "zip_export_notification_progress_pdf_step"
 msgid "PDF image %1$d of %2$d."
 msgstr "Immagine PDF %1$d di %2$d."
 
-#, fuzzy
 msgctxt "zip_export_notification_progress_compressing_step"
 msgid "Compressing ZIP file…"
-msgstr "Compressione del file ZIP in corso ..."
+msgstr "Compressione del file ZIP..."
 
 #. CSV export
+#, fuzzy
 msgctxt "dialog_csv_export_title"
-msgid "Data table export (CSV)"
-msgstr "Esportazione tabella dati (CSV)"
+msgid "Data table export (XLSX / CSV)"
+msgstr "Esportazione tabella dati (XLSX / CSV)"
 
 #. export
 #. notifications
-#, fuzzy
 msgctxt "notification_generic_error_title"
 msgid "Error"
 msgstr "Errore"
 
-#, fuzzy
 msgctxt "notification_bkg_rendering_title"
 msgid "Image rendering in progress…"
-msgstr "Rendering immagine in corso ..."
+msgstr "Rappresentazione immagine in corso..."
 
-#, fuzzy
 msgctxt "notification_bkg_rendering_channel_title"
 msgid "Image rendering"
-msgstr "Rendering delle immagini"
+msgstr "Rappresentazione immagine"
 
-#, fuzzy
 msgctxt "notification_syncer_channel_title"
 msgid "Cloud synchronization"
 msgstr "Sincronizzazione cloud"
 
-#, fuzzy
 msgctxt "notification_import_title"
 msgid "Image import"
-msgstr "Importazione di immagini"
+msgstr "Importazione immagini"
 
 #, c-format
 msgctxt "notification_import_content"
 msgid "%1d image left …"
 msgid_plural "%1d images left …"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1d immagine rimanente..."
+msgstr[1] "%1d immagini rimanenti..."
+msgstr[2] ""
 
-#, fuzzy
 msgctxt "notification_channel_background_processing_title"
 msgid "Background processing"
-msgstr "Elaborazione in background"
+msgstr "Elaborazione in sottofondo"
 
-#, fuzzy
 msgctxt "notification_channel_offscreen_rendering_title"
 msgid "Image rendering"
-msgstr "Rendering delle immagini"
+msgstr "Rappresentazione immagine"
 
-#, fuzzy
 msgctxt "notification_channel_error_messages_title"
 msgid "Error messages"
-msgstr "Messaggio di errore"
+msgstr "Messaggi di errore"
 
-#, fuzzy
 msgctxt "notification_channel_bluetooth_title"
 msgid "Bluetooth connection"
 msgstr "Connessione Bluetooth"
 
-#, fuzzy
 msgctxt "notification_error_importing_IMI_title"
 msgid "Error importing IMI file"
 msgstr "Errore durante l'importazione del file IMI"
 
-#, fuzzy
 msgctxt "notification_error_importing_IMF_title"
 msgid "Error importing IMF file"
 msgstr "Errore durante l'importazione del file IMF"
 
-#, fuzzy
 msgctxt "notification_error_importing_image_title"
 msgid "Error importing image"
 msgstr "Errore durante l'importazione dell'immagine"
 
-#, fuzzy
 msgctxt "notification_error_importing_file_title"
 msgid "Error importing file"
 msgstr "Errore durante l'importazione del file"
 
-#, fuzzy
 msgctxt "notification_rendering_precomputed_image_title"
 msgid "Rendering image"
-msgstr "Immagine di rendering"
+msgstr "Rappresentazione immagine"
 
-#, fuzzy
 msgctxt "notification_save_to_gallery_title"
 msgid "Saving to gallery"
 msgstr "Salvataggio nella galleria"
 
-#, fuzzy
 msgctxt "notification_error_saving_to_gallery"
 msgid "Error while saving to gallery"
 msgstr "Errore durante il salvataggio nella galleria"
@@ -1550,27 +1381,25 @@ msgstr "Errore durante il salvataggio nella galleria"
 msgctxt "notification_save_to_gallery_content"
 msgid "%1d image left …"
 msgid_plural "%1d images left …"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1d immagine rimanente..."
+msgstr[1] "%1d immagini rimanenti..."
+msgstr[2] ""
 
-#, fuzzy
 msgctxt "notification_error_no_permission_to_save_to_gallery"
 msgid "Cannot save to gallery because ImageMeter has no storage write permission."
 msgstr ""
-"Impossibile salvare nella galleria perché ImageMeter non dispone dell'autorizzazione "
-"di scrittura per l'archiviazione."
+"Impossibile salvare nella galleria perché ImageMeter non dispone "
+"dell'autorizzazione di scrittura per l'archiviazione."
 
-#, fuzzy
 msgctxt "notification_duplicate_title"
 msgid "Duplicate images"
-msgstr "Immagini duplicate"
+msgstr "Duplica immagini"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "notification_duplicate_content"
 msgid "%1$d of %2$d images copied"
 msgstr "%1$d di %2$d immagini copiate"
 
-#, fuzzy
 msgctxt "notification_error_duplicating_image"
 msgid "Error while duplicating image"
 msgstr "Errore durante la duplicazione dell'immagine"
@@ -1595,27 +1424,24 @@ msgstr "Editor"
 
 msgctxt "pref_category_export"
 msgid "Image export"
-msgstr "Esportazione dell'immagine"
+msgstr "Esportazione immagine"
 
 msgctxt "pref_category_user_interface"
 msgid "User interface"
 msgstr "Interfaccia utente"
 
-#, fuzzy
 msgctxt "pref_category_workflow"
 msgid "Workflow"
 msgstr "Flusso di lavoro"
 
 msgctxt "pref_category_storage"
 msgid "Storage"
-msgstr "Memoria"
+msgstr "Stoccaggio"
 
-#, fuzzy
 msgctxt "pref_category_templates"
 msgid "Templates and data tables"
 msgstr "Modelli e tabelle dati"
 
-#, fuzzy
 msgctxt "pref_category_company"
 msgid "Company"
 msgstr "Società"
@@ -1635,7 +1461,7 @@ msgstr "Formato di misurazione predefinito"
 
 msgctxt "pref_measure_metric_length_unit"
 msgid "Metric length unit"
-msgstr "Unità metrica di lunghezza"
+msgstr "Unità di lunghezza metrica"
 
 msgctxt "pref_measure_metric_area_unit"
 msgid "Metric area unit"
@@ -1659,11 +1485,11 @@ msgstr "km²"
 
 msgctxt "pref_measure_metric_area_unit_choices:4"
 msgid "are"
-msgstr "ac²"
+msgstr "ara"
 
 msgctxt "pref_measure_metric_area_unit_choices:5"
 msgid "hectare"
-msgstr "ha²"
+msgstr "ettaro"
 
 msgctxt "pref_measure_metric_area_unit_choices:6"
 msgid "µm²"
@@ -1683,50 +1509,44 @@ msgstr "Unità di area imperiale"
 
 msgctxt "pref_measure_imperial_area_unit_choices:0"
 msgid "sq in"
-msgstr "pollici quadrati"
+msgstr "pollice qd"
 
 msgctxt "pref_measure_imperial_area_unit_choices:1"
 msgid "sq ft"
-msgstr "piedi quadrati"
+msgstr "piede qd"
 
 msgctxt "pref_measure_imperial_area_unit_choices:2"
 msgid "sq yd"
-msgstr "larda quadrata"
+msgstr "iarda qd"
 
 msgctxt "pref_measure_imperial_area_unit_choices:3"
 msgid "sq mi"
-msgstr "miglio quadrato"
+msgstr "miglio qd"
 
 msgctxt "pref_measure_imperial_area_unit_choices:4"
 msgid "acre"
-msgstr "acri quadrati"
+msgstr "acro"
 
-#, fuzzy
 msgctxt "pref_measure_decimal_digits_category"
 msgid "Decimal digits for computed values"
 msgstr "Cifre decimali per i valori calcolati"
 
-#, fuzzy
 msgctxt "pref_measure_decimal_digits_metric_length"
 msgid "Decimal digits for metric lengths"
-msgstr "Cifre decimali"
+msgstr "Cifre decimali per lunghezze metriche"
 
-#, fuzzy
 msgctxt "pref_measure_decimal_digits_metric_areas"
 msgid "Decimal digits for metric areas"
 msgstr "Cifre decimali per aree metriche"
 
-#, fuzzy
 msgctxt "pref_measure_decimal_digits_angles"
 msgid "Decimal digits for angles"
-msgstr "Cifre decimali per gli angoli"
+msgstr "Cifre decimali per angoli"
 
-#, fuzzy
 msgctxt "pref_measure_decimal_digits_imperial_lengths"
 msgid "Decimal digits for imperial lengths"
 msgstr "Cifre decimali per lunghezze imperiali"
 
-#, fuzzy
 msgctxt "pref_measure_decimal_digits_imperial_areas"
 msgid "Decimal digits for imperial areas"
 msgstr "Cifre decimali per aree imperiali"
@@ -1759,37 +1579,30 @@ msgctxt "pref_measure_decimal_digits_metric_length_choices:5"
 msgid "5 digits"
 msgstr "5 cifre"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_category"
 msgid "Enabled units"
 msgstr "Unità abilitate"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_metric"
 msgid "Enabled metric units"
 msgstr "Unità metriche abilitate"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_metric_all"
 msgid "All"
 msgstr "Tutto"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_imperial"
 msgid "Enabled imperial units"
 msgstr "Unità imperiali abilitate"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_imperial_inch_to_mile"
 msgid "inch, foot, yard, mile"
-msgstr "pollice, piede, cortile, miglio"
+msgstr "pollice, piede, iarda, miglio"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_imperial_mil_to_foot"
 msgid "mil, inch, foot"
-msgstr "mil, pollice, piede"
+msgstr "millesimo, pollice, piede"
 
-#, fuzzy
 msgctxt "pref_unit_subsets_imperial_all"
 msgid "All"
 msgstr "Tutto"
@@ -1797,11 +1610,11 @@ msgstr "Tutto"
 #. Bluetooth
 msgctxt "pref_bluetooth_devices"
 msgid "Laser distance meter"
-msgstr "Misuratore di distanza laser"
+msgstr "Distanziometro laser"
 
 msgctxt "pref_bluetooth_devices_summary"
 msgid "Active device"
-msgstr "Dispositivo attivo"
+msgstr "Attiva dispositivo"
 
 msgctxt "pref_bluetooth_devices_dialog"
 msgid "Select laser distance meter"
@@ -1819,10 +1632,9 @@ msgctxt "pref_bluetooth_device_protocol"
 msgid "Bluetooth protocol"
 msgstr "Protocollo Bluetooth"
 
-#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_dialog"
 msgid "Select your laser distance meter"
-msgstr "Selezionare il protocollo utilizzato dal misuratore di distanza del laser"
+msgstr "Seleziona il tuo distanziometro laser"
 
 #. TODO: move device names to editcore [untranslated]
 msgctxt "pref_bluetooth_device_protocol_auto"
@@ -1832,6 +1644,10 @@ msgstr "Automatico"
 msgctxt "pref_bluetooth_device_protocol_bosch_plr"
 msgid "Bosch PLR"
 msgstr "Bosch PLR"
+
+msgctxt "pref_bluetooth_device_protocol_bosch_advdist_50c"
+msgid "Bosch AdvancedDistance 50C"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_bosch_dle150c"
 msgid "Bosch DLE150c"
@@ -1875,7 +1691,7 @@ msgstr "Bosch GLM150-27c"
 
 msgctxt "pref_bluetooth_device_protocol_cem_ildm150_old"
 msgid "CEM iLDM-150 (BT classic)"
-msgstr "CEM iLDM-150 (BT classic)"
+msgstr "CEM iLDM-150 (BT classico)"
 
 msgctxt "pref_bluetooth_device_protocol_cem_ildm150_new"
 msgid "CEM iLDM-150 (BT 4.0)"
@@ -1901,9 +1717,13 @@ msgctxt "pref_bluetooth_device_protocol_hilti_pd"
 msgid "Hilti PD Bluetooth LE"
 msgstr "Hilti PD Bluetooth LE"
 
-msgctxt "pref_bluetooth_device_protocol_stabila"
-msgid "Stabila"
-msgstr "Stabila"
+msgctxt "pref_bluetooth_device_protocol_stabila_ld250bt"
+msgid "Stabila LD250BT"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_stabila_ld520"
+msgid "Stabila LD520"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_wuerth"
 msgid "Würth WDM 3–19"
@@ -1917,21 +1737,69 @@ msgctxt "pref_bluetooth_device_protocol_wuerth_wdm622"
 msgid "Würth WDM 6–22"
 msgstr "Würth WDM 6–22"
 
-msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
-msgid "Leica Disto classic"
-msgstr "Leica Disto classic"
+msgctxt "pref_bluetooth_device_protocol_wuerth_wdm924"
+msgid "Würth WDM 9–24"
+msgstr ""
 
-msgctxt "pref_bluetooth_device_protocol_leica_disto_bt4"
-msgid "Leica Disto Bluetooth LE"
-msgstr "Leica Disto Bluetooth LE"
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d3a_bt"
+msgid "Leica Disto D3a-BT"
+msgstr ""
 
-msgctxt "pref_bluetooth_device_protocol_leica_disto_x"
-msgid "Leica Disto X3/X4"
-msgstr "Leica Disto X3/X4"
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d330i"
+msgid "Leica Disto D330i"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_plus"
+msgid "Leica Disto Plus"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_a6"
+msgid "Leica Disto A6"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_laserproducts_lt44xl"
+msgid "LaserProducts LT44XL"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d110"
+msgid "Leica Disto D110"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d510"
+msgid "Leica Disto D510"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d810"
+msgid "Leica Disto D810"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x3"
+msgid "Leica Disto X3"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x4"
+msgid "Leica Disto X4"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x6"
+msgid "Leica Disto X6"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d5"
+msgid "Leica Disto D5"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_d1"
 msgid "Leica Disto D1"
 msgstr "Leica Disto D1"
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d2"
+msgid "Leica Disto D2"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d8"
+msgid "Leica Disto D8"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_lti_trupulse"
 msgid "LTI TruPulse"
@@ -1984,6 +1852,18 @@ msgstr "Mileseey DT20"
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
 msgid "Sndway SW-S100"
 msgstr "Sndway SW-S100"
+
+msgctxt "pref_bluetooth_device_protocol_sndway_sw_80gq"
+msgid "Sndway SW-80GQ"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_sndway_sw_120gq"
+msgid "Sndway SW-120GQ"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_sndway_sw_150gq"
+msgid "Sndway SW-150GQ"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_uni_t_lm40b"
 msgid "UNI-T LM40B"
@@ -2077,6 +1957,10 @@ msgctxt "pref_bluetooth_device_protocol_sola_cito"
 msgid "Sola Cito"
 msgstr "Sola Cito"
 
+msgctxt "pref_bluetooth_device_protocol_solaflex_rx5"
+msgid "Solaflex RX5"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_einhell_te_ld60"
 msgid "Einhell TE-LD60"
 msgstr "Einhell TE-LD60"
@@ -2093,10 +1977,9 @@ msgctxt "pref_bluetooth_device_protocol_meethk_ms_bldm440"
 msgid "Meet HK MS-BLDM440"
 msgstr "Meet HK MS-BLDM440"
 
-#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_renpho_tape_measure"
 msgid "Renpho tape measure"
-msgstr "Renpho metro a nastro"
+msgstr "Renpho tape measure"
 
 msgctxt "pref_bluetooth_device_protocol_magpie_vh80"
 msgid "Magpie VH-80"
@@ -2138,6 +2021,14 @@ msgctxt "pref_bluetooth_device_protocol_thinrad_t100c"
 msgid "Thinrad T100C"
 msgstr "Thinrad T100C"
 
+msgctxt "pref_bluetooth_device_protocol_hozo_neorulergo"
+msgid "Hozo NeoRulerGO"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_reekon_t1"
+msgid "Reekon T1"
+msgstr ""
+
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
 msgid "LTI TruPulse distance mode"
 msgstr "LTI TruPulse modalità distanza"
@@ -2160,7 +2051,7 @@ msgstr "Distanza verticale (VD)"
 
 msgctxt "pref_bluetooth_autoconnect"
 msgid "Auto-connect in editor"
-msgstr "Connessione automatica nell'editor"
+msgstr "Connetti automaticamente nell'editor"
 
 msgctxt "pref_bluetooth_autoconnect_summaryon"
 msgid "Auto-connect Bluetooth in editor"
@@ -2172,78 +2063,86 @@ msgstr "Non connettere automaticamente Bluetooth"
 
 msgctxt "pref_bluetooth_use_device_format"
 msgid "Use device value format"
-msgstr "Usa il formato del valore del dispositivo"
+msgstr "Usa formato valore del dispositivo"
 
+msgctxt "pref_bluetooth_use_keyboard_device_format"
+msgid "Use keyboard device value format"
+msgstr ""
+
+#, fuzzy
 msgctxt "pref_bluetooth_use_device_format_summaryon"
-msgid "Same value format (not available for all devices)"
-msgstr "Stesso formato di valore (non disponibile per tutti i dispositivi)"
+msgid "Device format (not available for all devices)"
+msgstr "Stesso formato di valore (non per tutti i dispositivi)"
 
 msgctxt "pref_bluetooth_use_device_format_summaryoff"
 msgid "Use format set in app preferences"
-msgstr "Usa il formato impostato nelle preferenze dell'app"
+msgstr "Usa formato impostato nelle preferenze dell'app"
 
-#, fuzzy
 msgctxt "pref_bluetooth_remote_trigger_twice"
 msgid "Send remote trigger twice"
-msgstr "Invia due volte il trigger remoto"
+msgstr "Invia due volte l'innesco remoto"
 
-#, fuzzy
 msgctxt "pref_bluetooth_remote_trigger_twice_summaryon"
 msgid ""
-"The trigger command will be sent twice. For some laser devices that only switch on "
-"the laser at the first command and perform the measurement at the second command."
+"The trigger command will be sent twice. For some laser devices that only "
+"switch on the laser at the first command and perform the measurement at "
+"the second command."
 msgstr ""
-"Il comando trigger verrà inviato due volte. Per alcuni dispositivi laser che "
-"accendono il laser solo al primo comando ed eseguono la misura al secondo comando."
+"Il comando innesco verrà inviato due volte. Per alcuni dispositivi laser "
+"che accendono il laser solo al primo comando ed eseguono la misurazione "
+"al secondo."
 
-#, fuzzy
 msgctxt "pref_bluetooth_remote_trigger_twice_summaryoff"
 msgid "The trigger command will be sent only once."
-msgstr "Il comando trigger verrà inviato una sola volta."
+msgstr "Il comando di innesco verrà inviato una sola volta."
 
 #. Editor
-#, fuzzy
 msgctxt "pref_category_editor_general"
 msgid "General"
 msgstr "Generali"
 
+#, fuzzy
 msgctxt "pref_ui_editor_fullscreen_mode_title"
-msgid "Editor fullscreen mode"
-msgstr "Editor modalità a schermo intero"
+msgid "Hide system toolbar"
+msgstr ""
 
+#, fuzzy
 msgctxt "pref_ui_editor_fullscreen_mode_dialog"
-msgid "Editor fullscreen mode"
-msgstr "Editor modalità a schermo intero"
+msgid "Hide system toolbar"
+msgstr ""
 
 msgctxt "pref_ui_editor_fullscreen_mode_choices:0"
 msgid "Never"
 msgstr "Mai"
 
+#, fuzzy
 msgctxt "pref_ui_editor_fullscreen_mode_choices:1"
-msgid "Only landscape"
-msgstr "Solo paesaggio"
+msgid "Only in landscape orientation"
+msgstr "Solo orizzontale"
 
 msgctxt "pref_ui_editor_fullscreen_mode_choices:2"
 msgid "Always"
 msgstr "Sempre"
 
-#, fuzzy
 msgctxt "pref_editor_zoom_slider"
 msgid "Show zoom slider"
-msgstr "Mostra cursore dello zoom"
+msgstr "Mostra cursore dell'ingrandimento"
 
-#, fuzzy
 msgctxt "pref_editor_keep_screen_on"
 msgid "Keep screen on while editing"
 msgstr "Tieni lo schermo acceso durante la modifica"
 
+msgctxt "pref_editor_show_image_title"
+msgid "Show image title"
+msgstr ""
+
 msgctxt "pref_ui_editor_dragging_speed"
 msgid "Dragging slowdown"
-msgstr "Trascinando in modo rallentamento"
+msgstr "Trascinamento rallentato"
 
 msgctxt "pref_ui_editor_dragging_speed_dialog"
 msgid "Dragging slowdown"
-msgstr "Trascinando in modo rallentamento"
+msgstr "Trascinamento rallentato"
 
 #, c-format
 msgctxt "pref_ui_editor_dragging_speed_choices:0"
@@ -2265,55 +2164,45 @@ msgctxt "pref_ui_editor_dragging_speed_choices:3"
 msgid "25%"
 msgstr "25%"
 
-#, fuzzy
 msgctxt "pref_ui_editor_tool_long_press_action"
 msgid "Long-press on tool selection"
 msgstr "Premi a lungo sulla selezione dello strumento"
 
-#, fuzzy
 msgctxt "pref_ui_editor_tool_long_press_dialog"
 msgid "Long-press on tool selection"
 msgstr "Premi a lungo sulla selezione dello strumento"
 
-#, fuzzy
 msgctxt "pref_ui_editor_tool_long_press_choices:0"
 msgid "No action"
 msgstr "Nessuna azione"
 
-#, fuzzy
 msgctxt "pref_ui_editor_tool_long_press_choices:1"
 msgid "Keep tool selected"
 msgstr "Mantieni lo strumento selezionato"
 
-#, fuzzy
 msgctxt "pref_ui_editor_tool_long_press_vibrate"
 msgid "Vibrate on long-press on tool"
-msgstr "Vibrazione premendo a lungo sullo strumento"
+msgstr "Vibra premendo a lungo sullo strumento"
 
-#, fuzzy
 msgctxt "pref_ui_editor_rotation"
 msgid "Interactive rotation"
 msgstr "Rotazione interattiva"
 
-#, fuzzy
 msgctxt "pref_ui_editor_rotation_dialog"
 msgid "Interactive rotation"
 msgstr "Rotazione interattiva"
 
-#, fuzzy
 msgctxt "pref_ui_editor_rotation_choices:0"
 msgid "Disable rotation"
 msgstr "Disabilita rotazione"
 
-#, fuzzy
 msgctxt "pref_ui_editor_rotation_choices:1"
 msgid "Enabled, snap at original orientation"
 msgstr "Abilitato, aggancia all'orientamento originale"
 
-#, fuzzy
 msgctxt "pref_ui_editor_rotation_choices:2"
 msgid "Enabled, snap at 90° degree angles"
-msgstr "Abilitato, snap ad angoli di 90 gradi"
+msgstr "Abilitato, aggancia agli angoli di 90 gradi"
 
 msgctxt "pref_ui_helpbar_mode"
 msgid "Help messages"
@@ -2321,11 +2210,11 @@ msgstr "Messaggi di aiuto"
 
 msgctxt "pref_ui_helpbar_mode_dialog"
 msgid "Show which help messages?"
-msgstr "Mostra quali messaggi di aiuto?"
+msgstr "Quali messaggi di aiuto mostrare?"
 
 msgctxt "pref_ui_helpbar_mode_choices:0"
 msgid "Show for all messages"
-msgstr "Mostra per tutti i messaggi"
+msgstr "Mostra tutti i messaggi"
 
 msgctxt "pref_ui_helpbar_mode_choices:1"
 msgid "Only show important messages"
@@ -2337,15 +2226,15 @@ msgstr "Stile"
 
 msgctxt "pref_editor_line_width"
 msgid "Line width"
-msgstr "Larghezza della linea"
+msgstr "Larghezza linea"
 
 msgctxt "pref_editor_line_width_dialog"
 msgid "Choose line width"
-msgstr "Scegli la larghezza della linea"
+msgstr "Scegli larghezza della linea"
 
 msgctxt "pref_editor_font_size"
 msgid "Font size"
-msgstr "Dimensione carattere"
+msgstr "Dimensione font"
 
 #, c-format
 msgctxt "pref_editor_font_size_summary"
@@ -2354,7 +2243,7 @@ msgstr "%s"
 
 msgctxt "pref_editor_font_size_dialog"
 msgid "Font size for all annotations"
-msgstr "Dimensione carattere per tutte le annotazioni"
+msgstr "Dimensione font per tutte le annotazioni"
 
 msgctxt "pref_category_editor_snapping"
 msgid "Snapping"
@@ -2362,9 +2251,8 @@ msgstr "Agganciamento"
 
 msgctxt "pref_editor_snapping_hv_orientation_dialog"
 msgid "Snap to horizontal / vertical orientation"
-msgstr "Aggancia all'orientamento orizzontale / verticale"
+msgstr "Aggancia all'orientamento orizzontale/verticale"
 
-#, fuzzy
 msgctxt "pref_category_editor_magnifier"
 msgid "Magnifier"
 msgstr "Lente d'ingrandimento"
@@ -2401,7 +2289,6 @@ msgctxt "pref_ui_magnifier_mode_choices:2"
 msgid "Show normal"
 msgstr "Mostra normale"
 
-#, fuzzy
 msgctxt "pref_category_editor_drawing_tools"
 msgid "Drawing Tools"
 msgstr "Strumenti di disegno"
@@ -2409,12 +2296,12 @@ msgstr "Strumenti di disegno"
 #, c-format
 msgctxt "pref_preset_text"
 msgid "Preset text %1$d"
-msgstr "Testo preimpostato %1$d"
+msgstr "Testo %1$d preimpostato"
 
 #, c-format
 msgctxt "pref_preset_text_dialog"
 msgid "Enter preset text %1$d"
-msgstr "Inserisci il testo preimpostato %1$d"
+msgstr "Immetti il testo %1$d preimpostato"
 
 msgctxt "preset_text_1"
 msgid "front door"
@@ -2457,25 +2344,21 @@ msgid "exit"
 msgstr "uscita"
 
 #. Image export
-#, fuzzy
 msgctxt "pref_category_export_format"
 msgid "Export format"
 msgstr "Formato di esportazione"
 
-#, fuzzy
 msgctxt "pref_export_show_format_selection"
 msgid "Choose format when exporting"
 msgstr "Scegli il formato durante l'esportazione"
 
-#, fuzzy
 msgctxt "pref_export_show_format_selection_summary_on"
 msgid "Format selection will be shown each time"
 msgstr "La selezione del formato verrà mostrata ogni volta"
 
-#, fuzzy
 msgctxt "pref_export_show_format_selection_summary_off"
 msgid "Selected format will be used always"
-msgstr "Il formato selezionato verrà utilizzato sempre"
+msgstr "Il formato selezionato verrà usato sempre"
 
 msgctxt "pref_export_single_image_format"
 msgid "Export images as"
@@ -2521,34 +2404,29 @@ msgctxt "pref_export_single_image_format_choices:5"
 msgid "Save to gallery"
 msgstr "Salva nella galleria"
 
-#, fuzzy
 msgctxt "pref_category_export_image"
 msgid "Image settings"
 msgstr "Impostazioni immagine"
 
-#, fuzzy
 msgctxt "pref_export_image_show_options"
 msgid "Set options at export"
 msgstr "Imposta le opzioni durante l'esportazione"
 
-#, fuzzy
 msgctxt "pref_export_image_show_options_summary_on"
 msgid "Image options can be set at export"
 msgstr "Le opzioni dell'immagine possono essere impostate durante l'esportazione"
 
-#, fuzzy
 msgctxt "pref_export_image_show_options_summary_off"
 msgid "Options dialog will be skipped"
-msgstr "La finestra di dialogo delle opzioni verrà ignorata"
+msgstr "Il dialogo delle opzioni verrà ignorato"
 
-#, fuzzy
 msgctxt "pref_export_default_image_export_options"
 msgid "Default image export options…"
-msgstr "Opzioni di esportazione dell'immagine predefinite ..."
+msgstr "Opzioni di esportazione dell'immagine predefinite..."
 
 msgctxt "pref_export_hardware_msaa"
 msgid "Hardware anti-aliasing"
-msgstr "Anti-aliasing hardware"
+msgstr "Anti scalettatura hardware"
 
 msgctxt "pref_export_hardware_msaa_summaryon"
 msgid "Enabled (some buggy GPUs may draw black images only)"
@@ -2556,41 +2434,38 @@ msgstr "Abilitato (alcune buggy GPU possono disegnare solo immagini nere)"
 
 msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
-msgstr "Disabilitato (qualità di output inferiore)"
+msgstr "Disabilitato (qualità di uscita inferiore)"
 
-#, fuzzy
 msgctxt "pref_export_image_filename_expression"
 msgid "Expression for output filename"
-msgstr "Espressione per il nome del file di output"
+msgstr "Espressione per il nome file di uscita"
 
-#, fuzzy
 msgctxt "pref_export_image_filename_expression_message"
 msgid ""
-"Please see the documentation at \"https://imagemeter.com/manual/workflow/variables\" "
-"to learn more about writing string expressions with variables."
+"Please see the documentation at "
+"\"https://imagemeter.com/manual/workflow/variables\" to learn more about "
+"writing string expressions with variables."
 msgstr ""
-"Consultare la documentazione su \"https://imagemeter.com/manual/workflow/variables\" "
-"per ulteriori informazioni sulla scrittura di espressioni stringa con variabili."
+"Consultare la documentazione su "
+"\"https://imagemeter.com/manual/workflow/variables\" per ulteriori "
+"informazioni sulla scrittura di espressioni stringa con variabili."
 
 #. ZIP
 msgctxt "pref_category_export_zip"
 msgid "ZIP archive settings"
 msgstr "Impostazioni archivio ZIP"
 
-#, fuzzy
 msgctxt "pref_export_zip_show_options"
 msgid "Set ZIP options at export"
 msgstr "Imposta le opzioni ZIP durante l'esportazione"
 
-#, fuzzy
 msgctxt "pref_export_zip_show_options_summary_on"
 msgid "ZIP options can be set at export"
 msgstr "Le opzioni ZIP possono essere impostate durante l'esportazione"
 
-#, fuzzy
 msgctxt "pref_export_zip_show_options_summary_off"
 msgid "ZIP options dialog will be skipped"
-msgstr "La finestra di dialogo delle opzioni ZIP verrà saltata"
+msgstr "Il dialogo delle opzioni ZIP verrà saltato"
 
 msgctxt "pref_export_zip_include_csv"
 msgid "Include CSV file"
@@ -2606,24 +2481,21 @@ msgctxt "pref_category_export_pdf"
 msgid "PDF settings"
 msgstr "Impostazioni PDF"
 
-#, fuzzy
 msgctxt "pref_export_pdf_show_options"
 msgid "Set options at export"
 msgstr "Imposta le opzioni durante l'esportazione"
 
-#, fuzzy
 msgctxt "pref_export_pdf_show_options_summary_on"
 msgid "PDF options can be set at export"
 msgstr "Le opzioni PDF possono essere impostate durante l'esportazione"
 
-#, fuzzy
 msgctxt "pref_export_pdf_show_options_summary_off"
 msgid "Options dialog will be skipped"
-msgstr "La finestra di dialogo delle opzioni verrà ignorata"
+msgstr "Il dialogo delle opzioni verrà ignorata"
 
 msgctxt "pref_export_pdf_filename_expression_from_folder"
 msgid "Expression for output filename"
-msgstr "Espressione per il nome del file di output"
+msgstr "Espressione per il nome file di uscita"
 
 #. <string name="pref_export_pdf_images_per_page">Images per PDF
 #. page</string>     <string
@@ -2664,20 +2536,18 @@ msgstr "Espressione per il nome del file di output"
 #. printed</string>     <string
 #. name="pref_export_pdf_print_folder_notes_summaryon">Page with folder notes
 #. and TOC will be printed</string>
-#, fuzzy
 msgctxt "pref_category_export_general"
 msgid "General"
 msgstr "Generale"
 
-#, fuzzy
 msgctxt "pref_export_general_map_link_provider"
 msgid "Map links use"
-msgstr "I collegamenti alle mappe utilizzano"
+msgstr "I link alle mappe usano"
 
 #. User interface
 msgctxt "pref_category_ui_general"
 msgid "General"
-msgstr "Generali"
+msgstr "Generale"
 
 msgctxt "pref_ui_image_order_criterium"
 msgid "Image sorting order"
@@ -2687,60 +2557,53 @@ msgctxt "pref_ui_image_order_criterium_dialog"
 msgid "Image sorting order"
 msgstr "Ordinamento delle immagini"
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:0"
 msgid "Image name (ascending)"
 msgstr "Nome immagine (crescente)"
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:1"
 msgid "Image name (descending)"
-msgstr "Nome immagine (discendente)"
+msgstr "Nome immagine (decrescente)"
 
 msgctxt "pref_ui_image_order_criterium_choices:2"
 msgid "Capture date (oldest first)"
-msgstr "Data di cattura (ordine crescente)"
+msgstr "Data di cattura (vecchio prima)"
 
 msgctxt "pref_ui_image_order_criterium_choices:3"
 msgid "Capture date (latest first)"
-msgstr "Data di cattura (ordine decrescente)"
+msgstr "Data di cattura (recente prima)"
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:4"
 msgid "Number (ascending)"
 msgstr "Numero (crescente)"
 
-#, fuzzy
 msgctxt "pref_ui_image_order_criterium_choices:5"
 msgid "Number (descending)"
-msgstr "Numero (discendente)"
+msgstr "Numero (decrescente)"
 
-#, fuzzy
 msgctxt "pref_ui_ok_cancel_buttons_on_top"
 msgid "Ok/Cancel buttons on top"
-msgstr "Pulsanti Ok/Annulla in alto"
+msgstr "Pulsanti OK/Annulla in alto"
 
 msgctxt "pref_ui_faq_button_enabled"
 msgid "Enable FAQ button"
 msgstr "Attiva il pulsante FAQ"
 
-#, fuzzy
 msgctxt "pref_category_ui_workflow"
 msgid "Workflow"
 msgstr "Flusso di lavoro"
 
 msgctxt "pref_ui_rename_image_after_capture_enabled"
 msgid "Rename image after capture"
-msgstr "Rinominare l'immagine dopo la cattura"
+msgstr "Rinomina immagine dopo la cattura"
 
 msgctxt "pref_ui_edit_image_after_capture_enabled"
 msgid "Edit image after capture"
-msgstr "Modifica l'immagine dopo la cattura"
+msgstr "Modifica immagine dopo la cattura"
 
-#, fuzzy
 msgctxt "pref_category_ui_limits"
 msgid "Limits"
-msgstr "limiti"
+msgstr "Limiti"
 
 #. <string name="pref_ui_max_image_resolution">Maximum image
 #. resolution</string>      <string-array
@@ -2756,98 +2619,79 @@ msgctxt "pref_category_ui_initial_titles"
 msgid "Initial titles"
 msgstr "Titoli iniziali"
 
-#, fuzzy
 msgctxt "pref_category_ui_initial_notes"
 msgid "Initial notes"
 msgstr "Note iniziali"
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_info"
 msgid "Show scripting overview…"
 msgstr "Mostra panoramica degli script..."
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_camera"
 msgid "Title for camera images"
 msgstr "Titolo per le immagini della fotocamera"
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_notes_expr_camera"
 msgid "Notes for camera images"
 msgstr "Note per le immagini della fotocamera"
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_import_image_with_filename"
 msgid "Imported image with filename"
 msgstr "Immagine importata con nome file"
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_import_image_no_filename"
 msgid "Imported image without filename"
 msgstr "Immagine importata senza nome file"
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_notes_expr_import_image"
 msgid "Notes for imported image"
 msgstr "Note per l'immagine importata"
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_import_pdf_with_filename"
 msgid "Imported PDF with filename"
 msgstr "PDF importato con nome file"
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_import_pdf_no_filename"
 msgid "imported PDF without filename"
 msgstr "PDF importato senza nome file"
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_notes_expr_import_pdf"
 msgid "Notes for imported PDF"
 msgstr "Note per PDF importati"
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_canvas"
 msgid "Title for new canvas"
 msgstr "Titolo per nuova tela"
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_notes_expr_canvas"
 msgid "Notes for new canvas"
 msgstr "Note per la nuova tela"
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_new_folder_title_expr"
 msgid "Title for new folder"
 msgstr "Titolo per nuova cartella"
 
-#, fuzzy
 msgctxt "pref_ui_entity_init_new_folder_notes_expr"
 msgid "Notes for new folder"
 msgstr "Note per la nuova cartella"
 
 #. numbering
-#, fuzzy
 msgctxt "pref_category_ui_numbering"
 msgid "Image numbering"
 msgstr "Numerazione delle immagini"
 
-#, fuzzy
 msgctxt "pref_ui_image_auto_numbering_active"
 msgid "Enable auto-numbering"
-msgstr "Abilita numerazione automatica"
+msgstr "Abilita auto numerazione"
 
-#, fuzzy
 msgctxt "pref_ui_image_auto_numbering_start"
 msgid "Start number"
-msgstr "Numero di partenza"
+msgstr "Numero iniziale"
 
-#, fuzzy
 msgctxt "pref_ui_image_auto_numbering_increment"
 msgid "Increment"
 msgstr "Incremento"
 
-#, fuzzy
 msgctxt "pref_ui_image_auto_numbering_invalid_number"
 msgid "Invalid"
 msgstr "Non valido"
@@ -2859,235 +2703,197 @@ msgstr "Directory dei dati"
 
 msgctxt "pref_storage_show_images_in_gallery"
 msgid "Show images in gallery"
-msgstr "Mostra le immagini nella galleria"
+msgstr "Mostra immagini nella galleria"
 
-#, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_on"
 msgid "Edited images will show up in gallery"
-msgstr "Tutte le immagini verranno visualizzate in galleria"
+msgstr "Le immagini modificate verranno mostrate nella galleria"
 
-#, fuzzy
 msgctxt "pref_storage_show_images_in_gallery_off"
 msgid "Images will not show in the gallery automatically"
-msgstr "Le immagini non verranno visualizzate nella galleria"
+msgstr "Le immagini non verranno mostrate nella galleria"
 
-#, fuzzy
 msgctxt "pref_category_storage_cloud"
 msgid "Cloud storage"
-msgstr "Archiviazione nel cloud"
+msgstr "Archiviazione cloud"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_set_account"
 msgid "Set server and account"
 msgstr "Imposta server e account"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval"
 msgid "Auto-sync interval"
-msgstr "Intervallo di sincronizzazione automatica"
+msgstr "Intervallo di auto sincronizzazione"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:0"
 msgid "No auto-sync"
-msgstr "Nessuna sincronizzazione automatica"
+msgstr "Nessuna auto sinc"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:1"
 msgid "15 minutes"
 msgstr "15 minuti"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:2"
 msgid "1 hour"
 msgstr "1 ora"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:3"
 msgid "2 hours"
 msgstr "2 ore"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:4"
 msgid "6 hours"
 msgstr "6 ore"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_interval_choices:5"
 msgid "1 day"
 msgstr "1 giorno"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_wifi_only"
 msgid "Auto-sync only on Wifi"
-msgstr "Sincronizzazione automatica solo su Wi-Fi"
+msgstr "Auto sincronizzazione solo su Wi-Fi"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_wifi_only_on"
 msgid "Sync only when on free Wifi networks"
 msgstr "Sincronizza solo su reti Wi-Fi gratuite"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_wifi_only_off"
 msgid "Sync on any network"
 msgstr "Sincronizza su qualsiasi rete"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode"
 msgid "Two-way sync mode"
-msgstr "Modalità di sincronizzazione bidirezionale"
+msgstr "Modalità sinc bidirezionale"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_keep_remote_delete_local"
 msgid ""
-"<b>Pull</b>: locally deleted images are not deleted on the server, but images deleted "
-"on the server are also deleted locally."
+"<b>Pull</b>: locally deleted images are not deleted on the server, but "
+"images deleted on the server are also deleted locally."
 msgstr ""
-"<b>Pull</b>: le immagini eliminate localmente non vengono eliminate sul server, ma "
-"anche le immagini eliminate sul server vengono eliminate localmente."
+"<b>Tira</b>: le immagini eliminate localmente non vengono eliminate sul "
+"server, ma le immagini eliminate sul server vengono eliminate anche "
+"localmente."
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_safe_sync"
 msgid ""
-"<b>Push</b>: locally deleted images are also deleted on the server, but images "
-"deleted on the server are not deleted locally."
+"<b>Push</b>: locally deleted images are also deleted on the server, but "
+"images deleted on the server are not deleted locally."
 msgstr ""
-"Rimuovi le immagini eliminate dal server, ma conserva le immagini locali quando sono "
-"state eliminate altrove."
+"<b>Spingi</b>: le immagini eliminate localmente vengono eliminate anche "
+"sul server, ma le immagini eliminate sul server non vengono eliminate "
+"localmente."
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_full_sync"
 msgid ""
-"<b>Sync</b>: locally deleted images are also deleted on the server and images deleted "
-"on the server are deleted locally."
+"<b>Sync</b>: locally deleted images are also deleted on the server and "
+"images deleted on the server are deleted locally."
 msgstr ""
-"Elimina le immagini locali quando sono state eliminate su qualsiasi altro dispositivo "
-"(ATTENZIONE)."
+"<b>Sinc</b>: le immagini eliminate localmente vengono eliminate anche sul"
+" server e le immagini eliminate sul server vengono eliminate localmente."
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_backup"
 msgid ""
-"<b>Backup</b>: locally deleted images not deleted on the server and images deleted on "
-"the server are not deleted locally."
+"<b>Backup</b>: locally deleted images not deleted on the server and "
+"images deleted on the server are not deleted locally."
 msgstr ""
-"Non eliminare mai le immagini dal server. Potresti ottenere duplicati quando sposti "
-"le immagini."
+"<b>Backup</b>: le immagini eliminate localmente non vengono eliminate sul"
+" server e le immagini eliminate sul server non vengono eliminate "
+"localmente\""
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_imageupload_mode"
 msgid "Image-upload sync mode"
-msgstr "Modalità di sincronizzazione del caricamento dell'immagine"
+msgstr "Modo sincronizzazione caricamento dell'immagine"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_imageupload_mode_all"
 msgid "Upload folders even if they are empty."
-msgstr "Carica le cartelle anche se sono vuote."
+msgstr "Carica cartelle anche se sono vuote."
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_imageupload_mode_no_empty_folders"
 msgid "Only upload folders that contain images."
 msgstr "Carica solo cartelle che contengono immagini."
 
-#, fuzzy
 msgctxt "pref_storage_cloud_advanced_maintenance"
 msgid "Advanced maintenance"
 msgstr "Manutenzione avanzata"
 
 #. FUNCTION WAS REMOVED
-#, fuzzy
 msgctxt "pref_storage_cloud_send_error_log"
 msgid "Send error log by email"
-msgstr "Invia il registro degli errori tramite e-mail"
+msgstr "Invia rapporto errori per e-mail"
 
 #. TODO
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_mode"
 msgid "Synchronization mode"
 msgstr "Modalità di sincronizzazione"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_mode_choices:0"
 msgid "Share data"
 msgstr "Condividi dati"
 
-#, fuzzy
 msgctxt "pref_storage_cloud_sync_mode_choices:1"
 msgid "Backup"
 msgstr "Backup"
 
 #. TODO
-#, fuzzy
 msgctxt "pref_cloud_storage_sync_cautiousness:0"
 msgid "Never ask"
 msgstr "Non chiedere mai"
 
 #. TODO
-#, fuzzy
 msgctxt "pref_cloud_storage_sync_cautiousness:1"
 msgid "Confirm deletions"
 msgstr "Conferma le eliminazioni"
 
 #. TODO
-#, fuzzy
 msgctxt "pref_cloud_storage_sync_cautiousness:2"
 msgid "Confirm conflicts and deletions"
 msgstr "Conferma conflitti ed eliminazioni"
 
 #. TODO
-#, fuzzy
 msgctxt "pref_cloud_storage_sync_cautiousness:3"
 msgid "Confirm everything"
 msgstr "Conferma tutto"
 
 #. TODO
-#, fuzzy
 msgctxt "pref_cloud_storage_sync_mode:0"
 msgid "SYNC MODE"
-msgstr "MODALITÀ SYNC"
+msgstr "MODALITÀ SINC"
 
-#, fuzzy
 msgctxt "pref_category_storage_deleted_files"
 msgid "Deleted files"
 msgstr "File eliminati"
 
-#, fuzzy
 msgctxt "pref_storage_deleted_files_purge_now"
 msgid "Purge all deleted images now!"
-msgstr "Elimina tutte le immagini eliminate ora!"
+msgstr "Epura tutte le immagini eliminate ora!"
 
-#, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay"
 msgid "Purge interval"
 msgstr "Intervallo di spurgo"
 
-#, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_dialog"
 msgid "Purge interval"
 msgstr "Intervallo di spurgo"
 
-#, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_choices:0"
 msgid "1 day"
 msgstr "1 giorno"
 
-#, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_choices:1"
 msgid "1 week"
 msgstr "1 settimana"
 
-#, fuzzy
 msgctxt "pref_storage_deleted_files_purge_delay_choices:2"
 msgid "1 month"
 msgstr "1 mese"
 
-#, fuzzy
 msgctxt "dialog_purge_images_title"
 msgid "Purging deleted images"
-msgstr "Eliminazione delle immagini eliminate"
+msgstr "Epurazione delle immagini eliminate"
 
-#, fuzzy
 msgctxt "dialog_purge_images_finished"
 msgid "All deleted images have been purged from memory."
-msgstr "Tutte le immagini eliminate sono state eliminate dalla memoria."
+msgstr "Tutte le immagini eliminate sono state epurate dalla memoria."
 
 #. Data directory
 msgctxt "pref_storage_directory_current_directory"
@@ -3108,7 +2914,7 @@ msgstr "Annulla"
 
 msgctxt "pref_storage_directory_activity_change_directory"
 msgid "Change data directory"
-msgstr "Cambiare la directory dei dati"
+msgstr "Cambia la directory dei dati"
 
 msgctxt "pref_storage_directory_primary_app_data"
 msgid "Primary application data directory"
@@ -3116,11 +2922,11 @@ msgstr "Directory dei dati delle applicazioni primarie"
 
 msgctxt "pref_storage_directory_supplementary_app_data"
 msgid "Supplementary application data directory"
-msgstr "Directory dati applicativi supplementari"
+msgstr "Directory dati applicazioni supplementari"
 
 msgctxt "pref_storage_directory_public_pictures"
 msgid "Public Pictures directory"
-msgstr "Directory di immagini pubbliche"
+msgstr "Directory immagini pubbliche"
 
 msgctxt "pref_storage_directory_public_documents"
 msgid "Public Documents directory"
@@ -3128,12 +2934,11 @@ msgstr "Directory documenti pubblici"
 
 msgctxt "pref_storage_directory_removable"
 msgid "Removable:"
-msgstr "Removibile:"
+msgstr "Rimovibile:"
 
-#, fuzzy
 msgctxt "pref_storage_directory_error_nonexistent_directory"
 msgid "This directory is not present. Please choose a different directory."
-msgstr "Questa directory non è presente. Scegli una directory diversa."
+msgstr "Questa directory non c'è. Sceglierne una diversa."
 
 #. Actually, we should use Unicode \u00A0 for non-breaking spaces, but a2po
 #. crashes on them
@@ -3144,17 +2949,17 @@ msgstr "Questa directory non è presente. Scegli una directory diversa."
 #, c-format
 msgctxt "pref_storage_directory_memory_status"
 msgid "Memory: %1$d MB free, %2$d MB used, %3$d MB total"
-msgstr "Memoria: %1$d MB libero, %2$d MB utilizzato, %3$d MB totale"
+msgstr "Memoria: %1$d MB libera, %2$d MB usata, %3$d MB totale"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "pref_storage_directory_memory_status_unknown_size"
 msgid "Memory: %1$d MB used"
-msgstr "Memoria: %1$d MB utilizzati"
+msgstr "Memoria: %1$d MB usata"
 
 #, c-format
 msgctxt "pref_storage_directory_memory_status_unknown_used"
 msgid "Memory: %1$d MB free, used space unknown, %2$d MB total"
-msgstr "Memoria: %1$d MB libero, spazio utilizzato sconosciuto,%2$d MB totale"
+msgstr "Memoria: %1$d MB libera, spazio usato sconosciuto, %2$d MB totale"
 
 msgctxt "pref_storage_directory_deletion_behavior_will_delete"
 msgid "Data will be deleted when app is uninstalled."
@@ -3162,13 +2967,12 @@ msgstr "I dati saranno cancellati quando l'app viene disinstallata."
 
 msgctxt "pref_storage_directory_deletion_behavior_wont_delete"
 msgid "Data will stay on device when app is uninstalled."
-msgstr "I dati rimarranno sul dispositivo quando viene disinstallata l'app."
+msgstr "I dati rimarranno sul dispositivo quando l'app viene disinstallata."
 
 msgctxt "pref_storage_directory_deletion_behavior_unknown"
 msgid "Unknown whether data will be deleted during uninstall."
 msgstr "Sconosciuto se i dati verranno eliminati durante la disinstallazione."
 
-#, fuzzy
 msgctxt "pref_storage_directory_deletion_behavior_user_choice"
 msgid "Android will ask during uninstall whether to delete the data."
 msgstr "Android chiederà durante la disinstallazione se eliminare i dati."
@@ -3180,62 +2984,60 @@ msgstr "Spazio insufficiente"
 msgctxt "pref_storage_directory_not_enough_free_space_message"
 msgid "There is not enough free memory on the target volume to move all images."
 msgstr ""
-"Non c'è abbastanza memoria libera sul volume di destinazione per spostare tutte le "
-"immagini."
+"Non c'è abbastanza memoria libera sul volume di destinazione per spostare"
+" tutte le immagini."
 
 msgctxt "pref_storage_directory_error_could_not_copy_all_images"
 msgid ""
-"Could not copy all images to target directory. Maybe your folder names are no valid "
-"filenames on the target filesystem. Please change them and then try to copy the "
-"remaining data.\n"
+"Could not copy all images to target directory. Maybe your folder names "
+"are no valid filenames on the target filesystem. Please change them and "
+"then try to copy the remaining data.\n"
 "\n"
 "The active storage directory has not been changed.\n"
 "\n"
-"Please note that the target directory now contains an incomplete copy of the source "
-"data!"
+"Please note that the target directory now contains an incomplete copy of "
+"the source data!"
 msgstr ""
-"Non è stato possibile copiare tutte le immagini nella directory di destinazione. I "
-"nomi delle cartelle potrebbero non essere nomi di file validi sul file system di "
-"destinazione. Si prega di cambiarli e provare a copiare i dati rimanenti.\n"
+"Non è stato possibile copiare tutte le immagini nella directory di "
+"destinazione. I nomi delle cartelle potrebbero non essere nomi di file "
+"validi sul sistema file di destinazione. Si prega di cambiarli e provare "
+"a copiare i dati rimanenti.\n"
 "\n"
 "La directory di archiviazione attiva non è stata modificata.\n"
 "\n"
-"Si noti che la directory di destinazione ora contiene una copia incompleta dei dati "
-"di origine!"
+"Nota che la directory di destinazione ora contiene una copia incompleta "
+"dei dati di origine!"
 
-#, fuzzy
 msgctxt "pref_storage_directory_cannot_move_files"
 msgid "Cannot move files"
 msgstr "Impossibile spostare i file"
 
-#, fuzzy
 msgctxt "dialog_storage_move_annotated_images_progress_text"
 msgid "Moving images …"
-msgstr "Spostare immagini ..."
+msgstr "Spostamento immagini..."
 
-#, fuzzy
 msgctxt "dialog_storage_directory_move_images_progress_text"
 msgid "Moving images …"
-msgstr "Spostare immagini ..."
+msgstr "Spostamento immagini..."
 
 #. Cloud storage
-#, fuzzy
 msgctxt "cloud_storage_notice_text"
 msgid ""
-"Before setting up cloud storage, you should read the <a href=\"https://www.imagemeter."
-"com/manual/storage/cloud\">documentation</a> to avoid pitfalls."
+"Before setting up cloud storage, you should read the <a "
+"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentation</a>"
+" to avoid pitfalls."
 msgstr ""
-"Prima di configurare l'archiviazione cloud, dovresti leggere la <a href=\"https://www."
-"imagemeter.com/manual/storage/cloud\"> documentazione </a> per evitare insidie."
+"Prima di configurare l'archiviazione cloud, dovresti leggere la <a "
+"href=\"https://www.imagemeter.com/manual/storage/cloud\">documentazione</a>"
+" per evitare insidie."
 
-#, fuzzy
 msgctxt "cloud_storage_cloud_server"
 msgid "Cloud server:"
 msgstr "Server cloud:"
 
 msgctxt "pref_cloud_storage_server_none"
 msgid "None"
-msgstr "Nessuna"
+msgstr "Nessuno"
 
 msgctxt "pref_cloud_storage_server_drive"
 msgid "Google Drive"
@@ -3257,6 +3059,10 @@ msgctxt "pref_cloud_storage_server_handwerkcloud"
 msgid "Handwerkcloud"
 msgstr "Handwerkcloud"
 
+msgctxt "pref_cloud_storage_server_sftp"
+msgid "SFTP"
+msgstr ""
+
 msgctxt "pref_cloud_storage_server_imagemeter_predefined"
 msgid "ImageMeter"
 msgstr "ImageMeter"
@@ -3277,171 +3083,174 @@ msgctxt "cloud_storage_provider_onedrive"
 msgid "OneDrive"
 msgstr "OneDrive"
 
-#, fuzzy
+msgctxt "cloud_storage_provider_sftp"
+msgid "SFTP"
+msgstr ""
+
 msgctxt "cloud_storage_server_note_drive"
 msgid ""
-"<b>Note:</b> the Google Drive backend does not allow access to shared folders yet. "
-"Hence, you can share images between devices when they use the same Google account, "
-"but not between devices using different accounts."
+"<b>Note:</b> the Google Drive backend does not allow access to shared "
+"folders yet. Hence, you can share images between devices when they use "
+"the same Google account, but not between devices using different "
+"accounts."
 msgstr ""
-"<b>Nota:</b> il backend di Google Drive non consente ancora l'accesso alle cartelle "
-"condivise. Pertanto, puoi condividere immagini tra dispositivi quando utilizzano lo "
-"stesso account Google, ma non tra dispositivi che utilizzano account diversi."
+"<b>Nota:</b> il backend di Google Drive non consente ancora l'accesso "
+"alle cartelle condivise. Pertanto, puoi condividere immagini tra "
+"dispositivi quando utilizzano lo stesso account Google, ma non tra "
+"dispositivi che utilizzano account diversi."
 
-#, fuzzy
 msgctxt "cloud_storage_server_note_dropbox"
 msgid ""
-"The Dropbox backend also supports sharing your images with other Dropbox users. See "
-"the documentation at the link above how to set this up."
+"The Dropbox backend also supports sharing your images with other Dropbox "
+"users. See the documentation at the link above how to set this up."
 msgstr ""
-"Il backend di Dropbox supporta anche la condivisione delle tue immagini con altri "
-"utenti Dropbox. Vedere la documentazione al collegamento sopra come impostare questo."
+"Il backend di Dropbox supporta anche la condivisione delle tue immagini "
+"con altri utenti Dropbox. Vedere la documentazione al collegamento sopra "
+"come impostare questo."
 
-#, fuzzy
 msgctxt "cloud_storage_server_note_nextcloud"
 msgid ""
-"This backend allows you to use your own, private cloud server to host the images. You "
-"can set-up your own users and shared folders. Information how to set-up a server can "
-"be found at the documentation link above."
+"This backend allows you to use your own, private cloud server to host the"
+" images. You can set-up your own users and shared folders. Information "
+"how to set-up a server can be found at the documentation link above."
 msgstr ""
-"Questo backend ti consente di utilizzare il tuo server cloud privato per ospitare le "
-"immagini. Puoi impostare i tuoi utenti e le cartelle condivise. Informazioni su come "
-"configurare un server possono essere trovate al collegamento della documentazione "
-"sopra."
+"Questo backend ti consente di utilizzare il tuo server cloud privato per "
+"ospitare le immagini. Puoi impostare i tuoi utenti e le cartelle "
+"condivise. Informazioni su come configurare un server possono essere "
+"trovate al collegamento della documentazione sopra."
 
-#, fuzzy
 msgctxt "cloud_storage_server_note_handwerkcloud"
 msgid ""
-"The Handwerkcloud service offers not only storage space for your images and "
-"documents, but also an online office suite and other applications. A Handwerkcloud "
-"subscription includes an ImageMeter Business license. For more information see the <a "
+"The Handwerkcloud service offers not only storage space for your images "
+"and documents, but also an online office suite and other applications. A "
+"Handwerkcloud subscription includes an ImageMeter Business license. For "
+"more information see the <a "
 "href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
 msgstr ""
-"Il servizio Handwerkcloud offre non solo spazio di archiviazione per immagini e "
-"documenti, ma anche una suite per ufficio online e altre applicazioni. Un abbonamento "
-"Handwerkcloud include una licenza ImageMeter Business. Per ulteriori informazioni, "
-"vedere il <a href=\"https://handwerkcloud.de\"> sito Web di Handwerkcloud </a>."
+"Il servizio Handwerkcloud offre non solo spazio di archiviazione per "
+"immagini e documenti, ma anche una suite per ufficio online e altre "
+"applicazioni. Un abbonamento Handwerkcloud include una licenza ImageMeter"
+" Business. Per ulteriori informazioni, vedere il <a "
+"href=\"https://handwerkcloud.de\">sito web di Handwerkcloud</a>."
 
-#, fuzzy
 msgctxt "cloud_storage_server_note_onedrive"
 msgid ""
-"The OneDrive backend might be suitable if you want easy access to your annotated "
-"images from your Windows PC."
+"The OneDrive backend might be suitable if you want easy access to your "
+"annotated images from your Windows PC."
 msgstr ""
-"Il back-end di OneDrive potrebbe essere adatto se desideri un facile accesso alle tue "
-"immagini annotate dal tuo PC Windows."
+"Il back-end di OneDrive potrebbe essere adatto se desideri un facile "
+"accesso alle tue immagini annotate dal tuo PC Windows."
 
-#, fuzzy
+msgctxt "cloud_storage_server_note_sftp"
+msgid "This backend allows you to use an SFTP server to store the data."
+msgstr ""
+
 msgctxt "cloud_storage_do_two_way_sync"
 msgid "Do two-way sync"
-msgstr "Effettua la sincronizzazione bidirezionale"
+msgstr "Effettua sinc bidirezionale"
 
 msgctxt "cloud_storage_base_directory"
 msgid "Data directory:"
 msgstr "Directory dati:"
 
-#, fuzzy
 msgctxt "cloud_storage_two_way_info_title"
 msgid "Two-way sync"
-msgstr "Sincronizzazione a due vie"
+msgstr "Sinc bidirezionale"
 
-#, fuzzy
 msgctxt "cloud_storage_two_way_info_text"
 msgid ""
-"The two-way sync is for exchanging data between multiple devices. The data it stores "
-"on the cloud storage is for internal use only. Do not modify the data stored on the "
-"cloud server manually!"
+"The two-way sync is for exchanging data between multiple devices. The "
+"data it stores on the cloud storage is for internal use only. Do not "
+"modify the data stored on the cloud server manually!"
 msgstr ""
-"La sincronizzazione bidirezionale serve per lo scambio di dati tra più dispositivi. I "
-"dati archiviati nell'archivio cloud sono solo per uso interno. Non modificare "
-"manualmente i dati archiviati sul server cloud!"
+"La sincronizzazione bidirezionale serve per lo scambio di dati tra più "
+"dispositivi. I dati stoccati nell'archivio cloud sono solo per uso "
+"interno. Non modificare manualmente i dati archiviati sul server cloud!"
 
-#, fuzzy
 msgctxt "cloud_storage_do_image_upload_sync"
 msgid "Do image upload"
-msgstr "Effettua il caricamento delle immagini"
+msgstr "Effettua caricamento delle immagini"
 
-#, fuzzy
 msgctxt "cloud_storage_anno_base_directory"
 msgid "Image directory:"
 msgstr "Directory immagini:"
 
-#, fuzzy
 msgctxt "cloud_storage_image_upload_info_title"
 msgid "Image upload"
-msgstr "Caricamento di immagini"
+msgstr "Caricamento immagini"
 
-#, fuzzy
 msgctxt "cloud_storage_image_upload_info_text"
 msgid ""
-"The image upload option stores the measured images on the cloud server. This is the "
-"right option if you want to access your images from your office PC.\n"
-"This option cannot be used to exchange data between mobile devices. In fact, you "
-"should not sync to the same cloud image directory from several devices."
+"The image upload option stores the measured images on the cloud server. "
+"This is the right option if you want to access your images from your "
+"office PC.\n"
+"This option cannot be used to exchange data between mobile devices. In "
+"fact, you should not sync to the same cloud image directory from several "
+"devices."
 msgstr ""
-"L'opzione di caricamento delle immagini memorizza le immagini misurate sul server "
-"cloud. Questa è l'opzione giusta se desideri accedere alle tue immagini dal PC "
-"dell'ufficio.\n"
-"Questa opzione non può essere utilizzata per scambiare dati tra dispositivi mobili. "
-"In effetti, non dovresti sincronizzare la stessa directory di immagini cloud da più "
-"dispositivi."
+"L'opzione di caricamento delle immagini memorizza le immagini misurate "
+"sul server cloud. Questa è l'opzione giusta se desideri accedere alle tue"
+" immagini dal PC dell'ufficio.\n"
+"Questa opzione non può essere utilizzata per scambiare dati tra "
+"dispositivi mobili. In effetti, non dovresti sincronizzare la stessa "
+"directory di immagini cloud da più dispositivi."
 
-#, fuzzy
 msgctxt "cloud_storage_account"
 msgid "Account owner:"
-msgstr "Titolare dell'account:"
+msgstr "Titolare account:"
 
-#, fuzzy
 msgctxt "cloud_storage_nextcloud_check_sign_in"
 msgid "Check sign in"
 msgstr "Controlla l'accesso"
 
-#, fuzzy
 msgctxt "cloud_storage_nextcloud_sign_in_successful"
 msgid "Signed in successfully."
 msgstr "Accesso eseguito con successo."
 
-#, fuzzy
 msgctxt "cloud_storage_handwerkcloud_manual_login_checkbox"
 msgid "Manual login"
 msgstr "Accesso manuale"
 
-#, fuzzy
 msgctxt "cloud_storage_handwerkcloud_login_button"
 msgid "Log in"
 msgstr "Accesso"
 
-#, fuzzy
+msgctxt "cloud_storage_sftp_fingerprint"
+msgid "Server fingerprint:"
+msgstr ""
+
+msgctxt "cloud_storage_sftp_check_sign_in"
+msgid "Check sign in"
+msgstr ""
+
+msgctxt "cloud_storage_sftp_sign_in_successful"
+msgid "Signed in successfully."
+msgstr ""
+
 msgctxt "cloud_storage_server_url"
 msgid "Server URL:"
 msgstr "URL del server:"
 
-#, fuzzy
 msgctxt "cloud_storage_user_name"
 msgid "User name:"
 msgstr "Nome utente:"
 
-#, fuzzy
 msgctxt "cloud_storage_password"
 msgid "Password:"
 msgstr "Parola d'ordine:"
 
-#, fuzzy
 msgctxt "cloud_storage_sign_in"
 msgid "Sign in"
 msgstr "Registrati"
 
-#, fuzzy
 msgctxt "cloud_storage_sign_out"
 msgid "Sign out"
 msgstr "Disconnessione"
 
-#, fuzzy
 msgctxt "cloud_storage_revoke_access"
 msgid "Revoke access"
-msgstr "Revocare l'accesso"
+msgstr "Revoca accesso"
 
-#, fuzzy
 msgctxt "cloud_storage_cautiousness"
 msgid "Cautiousness:"
 msgstr "Cautela:"
@@ -3451,91 +3260,89 @@ msgctxt "pref_template_title"
 msgid "Templates"
 msgstr "Modelli"
 
-#, fuzzy
 msgctxt "pref_template_description"
 msgid ""
-"Templates let you define standard measurement tasks. You can structure your data "
-"collection by assigning tags to the measurements. You can also define the layout of "
-"tabular output of your measurements. \n"
+"Templates let you define standard measurement tasks. You can structure "
+"your data collection by assigning tags to the measurements. You can also "
+"define the layout of tabular output of your measurements. \n"
 "On this page, you find the list of templates for your measurement tasks.\n"
 " \n"
-"For more information, see the <a href=\"https://www.imagemeter.com/manual/templates/"
-"overview\">tutorials and manual</a>.\n"
+"For more information, see the <a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\">tutorials "
+"and manual</a>.\n"
 " \n"
-"Note: templates are part of the <a href=\"upgrade-dialog\">Business version</a>."
+"Note: templates are part of the <a href=\"upgrade-dialog\">Business "
+"version</a>."
 msgstr ""
-"I modelli consentono di definire attività di misurazione standard. Puoi strutturare "
-"la tua raccolta dati assegnando tag alle misurazioni. Puoi anche definire il layout "
-"dell'output tabulare delle tue misurazioni.\n"
-"In questa pagina trovi l'elenco dei modelli per le tue attività di misurazione.\n"
+"I modelli consentono di definire attività di misurazione standard. Puoi "
+"strutturare la tua raccolta dati assegnando bollini alle misurazioni. "
+"Puoi anche definire lo schema dell'uscita tabellare delle tue "
+"misurazioni.\n"
+"In questa pagina trovi l'elenco dei modelli per le tue attività di "
+"misurazione.\n"
 " \n"
-"Per ulteriori informazioni, vedere i <a href=\"https://www.imagemeter.com/manual/"
-"templates/overview\">tutorial e manuali</a>.\n"
+"Per ulteriori informazioni, vedere i <a "
+"href=\"https://www.imagemeter.com/manual/templates/overview\">dimostrazione"
+" e manuale</a>.\n"
 " \n"
-"Nota: i modelli fanno parte della <a href=\"upgrade-dialog\">versione aziendale</a>."
+"Nota: i modelli fanno parte della <a href=\"upgrade-dialog\">versione "
+"business</a>."
 
-#, fuzzy
 msgctxt "pref_template_list_title"
 msgid "List of templates"
 msgstr "Elenco dei modelli"
 
-#, fuzzy
 msgctxt "pref_template_add_template"
 msgid "+ add template"
 msgstr "+ aggiungi modello"
 
-#, fuzzy
 msgctxt "pref_template_template_name"
 msgid "Template name:"
 msgstr "Nome modello:"
 
-#, fuzzy
 msgctxt "pref_dialog_template_add_description_title"
 msgid "Template description:"
 msgstr "Descrizione del modello:"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_edit_tags_description"
 msgid ""
-"<b>Tags</b> are assigned to measurements to specify their purpose. For example, a tag "
-"may tell that the measured rectangle is a <em>window</em> or a <em>wall</em>. Further "
-"on, these tags can be used to sort these measurements into data tables."
+"<b>Tags</b> are assigned to measurements to specify their purpose. For "
+"example, a tag may tell that the measured rectangle is a <em>window</em> "
+"or a <em>wall</em>. Further on, these tags can be used to sort these "
+"measurements into data tables."
 msgstr ""
-"I <b>tag</b> vengono assegnati alle misurazioni per specificarne lo scopo. Ad "
-"esempio, un tag può indicare che il rettangolo misurato è una <em>finestra</em> o un "
-"<em>muro</em>. Inoltre, questi tag possono essere utilizzati per ordinare queste "
-"misurazioni in tabelle di dati."
+"I <b>bollini</b> vengono assegnati alle misurazioni per specificarne lo "
+"scopo. Ad esempio, un tag può indicare che il rettangolo misurato è una "
+"<em>finestra</em> o una <em>parete</em>. Inoltre, questi bollini possono "
+"essere adoperati per ordinare queste misurazioni in tabelle di dati."
 
-#, fuzzy
 msgctxt "pref_template_config_custom_edit_tags"
 msgid "Edit element tags"
-msgstr "Modifica i tag degli elementi"
+msgstr "Modifica bollini degli elementi"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_edit_tables_description"
-msgid "<b>Table layouts</b> define how to arrange your measurements into a data table."
+msgid ""
+"<b>Table layouts</b> define how to arrange your measurements into a data "
+"table."
 msgstr ""
-"<b>Layout tabella</b> definisce come organizzare le misurazioni in una tabella dati."
+"<b>Schema tabella</b> definisce come organizzare le misurazioni in una "
+"tabella dati."
 
-#, fuzzy
 msgctxt "pref_template_config_custom_edit_tables"
 msgid "Edit table layouts"
-msgstr "Modifica layout tabella"
+msgstr "Modifica schema tabella"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_title"
 msgid "Custom Template"
 msgstr "Modello personalizzato"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_section_tags"
 msgid "Tags"
-msgstr "tag"
+msgstr "Bollini"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_add_tag"
 msgid "+ add tag"
-msgstr "+ aggiungi tag"
+msgstr "+ aggiungi bollino"
 
 #. deprecated
 msgctxt "pref_template_config_custom_label_type"
@@ -3547,155 +3354,131 @@ msgctxt "pref_template_config_custom_unit"
 msgid "Unit:"
 msgstr "Unità:"
 
-#, fuzzy
+msgctxt "pref_template_config_custom_table_list_title"
+msgid "Custom Template Table Layouts"
+msgstr ""
+
 msgctxt "pref_template_config_custom_section_table_layouts"
 msgid "Table layouts"
-msgstr "Layout della tabella"
+msgstr "Schema della tabella"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_add_table_layout"
 msgid "+ add table layout"
-msgstr "+ aggiungi layout tabella"
+msgstr "+ aggiungi schema tabella"
 
-#, fuzzy
 msgctxt "pref_template_config_custom_table_description"
 msgid ""
-"You may define several different layouts how the measured data is arranged into data "
-"tables."
+"You may define several different layouts how the measured data is "
+"arranged into data tables."
 msgstr ""
-"È possibile definire diversi layout come i dati misurati sono organizzati in tabelle "
-"di dati."
+"È possibile definire diversi schemi su come i dati misurati vengono "
+"organizzati in tabelle di dati."
 
-#, fuzzy
 msgctxt "pref_template_config_custom_tag_name"
 msgid "Tag name"
-msgstr "Nome dell'etichetta"
+msgstr "Nome del bollino"
 
-#, fuzzy
 msgctxt "pref_template_custom_tag_filter"
 msgid "Filter"
 msgstr "Filtro"
 
-#, fuzzy
 msgctxt "templ_filter_text"
 msgid "Text"
 msgstr "Testo"
 
-#, fuzzy
 msgctxt "pref_template_custom_tag_filter_info_title"
 msgid "Element filter"
 msgstr "Filtro elemento"
 
-#, fuzzy
 msgctxt "pref_template_custom_tag_filter_info_description"
 msgid ""
-"This tag may only be assigned to elements that have the selected measurement type."
+"This tag may only be assigned to elements that have the selected "
+"measurement type."
 msgstr ""
-"Questo tag può essere assegnato solo agli elementi che hanno il tipo di misurazione "
-"selezionato."
+"Questo bollino può essere assegnato solo agli elementi che hanno il tipo "
+"di misurazione selezionato."
 
-#, fuzzy
 msgctxt "pref_template_areasum_template_title"
 msgid "Area Sum Template Configuration"
-msgstr "Configurazione del modello di somma dell'area"
+msgstr "Configurazione modello somma dell'area"
 
-#, fuzzy
 msgctxt "pref_template_areasum_tags_title"
 msgid "Area Sum Template Tags"
-msgstr "Tag modello somma area"
+msgstr "Modello bollino somma dell'area"
 
-#, fuzzy
 msgctxt "pref_template_areasum_table_title"
 msgid "Area Sum Table Configuration"
-msgstr "Configurazione tabella somma area"
+msgstr "Configurazione tabella somma dell'area"
 
-#, fuzzy
 msgctxt "pref_template_areasum_tag_subtract"
 msgid "Subtract from sum"
 msgstr "Sottrai dalla somma"
 
-#, fuzzy
 msgctxt "pref_template_areasum_tag_factor"
 msgid "Factor"
 msgstr "Fattore"
 
-#, fuzzy
 msgctxt "pref_template_areasum_edit_tables"
 msgid "Edit table layout"
-msgstr "Modifica layout tabella"
+msgstr "Modifica schema tabella"
 
-#, fuzzy
 msgctxt "pref_template_partslist_template_title"
 msgid "Parts List Template Configuration"
-msgstr "Configurazione del modello dell'elenco delle parti"
+msgstr "Configurazione modello elenco delle parti"
 
-#, fuzzy
 msgctxt "pref_template_partslist_tags_title"
 msgid "Parts List Template Tags"
-msgstr "Etichette modello elenco parti"
+msgstr "Modello bollino elenco delle parti"
 
-#, fuzzy
 msgctxt "pref_template_partslist_table_title"
 msgid "Parts List Table Configuration"
-msgstr "Configurazione della tabella dell'elenco delle parti"
+msgstr "Configurazione tabella elenco delle parti"
 
-#, fuzzy
 msgctxt "pref_template_partslist_tag_table_column_header"
 msgid "Column header"
 msgstr "Intestazione di colonna"
 
-#, fuzzy
 msgctxt "pref_template_partslist_table_list_title"
 msgid "Parts List Table Layouts"
-msgstr "Layout della tabella dell'elenco delle parti"
+msgstr "Schema tabella elenchi delle parti"
 
-#, fuzzy
 msgctxt "pref_template_partslist_table_layout_title"
 msgid "Parts List Table Layout"
-msgstr "Layout della tabella dell'elenco delle parti"
+msgstr "Schema tabella elenco delle parti"
 
 #. Preferences: Information
-#, fuzzy
 msgctxt "pref_category_information_debugging"
 msgid "Debugging"
 msgstr "Debug"
 
-#, fuzzy
 msgctxt "pref_information_error_log_timespan"
 msgid "Past days included in log"
-msgstr "Giorni passati inclusi nel registro"
+msgstr "Giorni passati inclusi nel rapporto"
 
-#, fuzzy
 msgctxt "pref_information_send_error_log"
 msgid "Send error log by email"
-msgstr "Invia il registro degli errori tramite e-mail"
+msgstr "Invia rapporto errori per e-mail"
 
-#, fuzzy
 msgctxt "pref_information_googleplay_purchases"
 msgid "Store purchases"
 msgstr "Acquisti GooglePlay"
 
-#, fuzzy
 msgctxt "pref_information_googleplay_purchases_query_failed"
 msgid "no query result received from PlayStore"
-msgstr "nessun risultato di query ricevuto da PlayStore"
+msgstr "Nessun risultato della richiesta ricevuto da PlayStore"
 
-#, fuzzy
 msgctxt "pref_information_googleplay_purchases_no_purchases"
 msgid "PlayStore reports: no purchases for active account"
-msgstr "Rapporti PlayStore: nessun acquisto per account attivo"
+msgstr "Rapporti PlayStore: nessun acquisto per l'account attivo"
 
-#, fuzzy
 msgctxt "pref_information_appgallery_purchases_no_purchases"
 msgid "AppGallery reports: no purchases for active account"
-msgstr "Rapporti AppGallery: nessun acquisto per account attivo"
+msgstr "Rapporti AppGallery: nessun acquisto per l'account attivo"
 
-#, fuzzy
 msgctxt "pref_category_information_credits"
 msgid "Credits"
-msgstr "Titoli di coda"
+msgstr "Crediti"
 
-#, fuzzy
 msgctxt "pref_information_translator"
 msgid "."
 msgstr "."
@@ -3703,186 +3486,156 @@ msgstr "."
 #. Preferences: Company
 msgctxt "pref_company_enter_config_key"
 msgid "Enter company key"
-msgstr "Inserisci la chiave dell'azienda"
+msgstr "Immetti chiave dell'azienda"
 
-#, fuzzy
 msgctxt "pref_company_enter_config_key_summary_set"
 msgid "Key set"
-msgstr "Mazzo di chiavi"
+msgstr "Chiave impostata"
 
-#, fuzzy
 msgctxt "pref_company_enter_config_key_summary_unset"
 msgid "Not set"
-msgstr "Non impostato"
+msgstr "Non impostata"
 
-#, fuzzy
 msgctxt "pref_company_user_id"
 msgid "User ID"
-msgstr "ID utente"
+msgstr "Id utente"
 
-#, fuzzy
 msgctxt "pref_company_set_logo"
 msgid "Set company logo"
-msgstr "Impostare il logo dell'azienda"
+msgstr "Imposta marchio dell'azienda"
 
-#, fuzzy
 msgctxt "config_company_logo_options_title"
 msgid "Company Logo"
-msgstr "Logo della compagnia"
+msgstr "Marchio della compagnia"
 
-#, fuzzy
 msgctxt "config_company_logo_options_size"
 msgid "Size"
-msgstr "Misurare"
+msgstr "Dimensione"
 
-#, fuzzy
 msgctxt "config_company_logo_options_load_image"
 msgid "Load logo image"
-msgstr "Carica l'immagine del logo"
+msgstr "Carica immagine del marchio"
 
-#, fuzzy
 msgctxt "config_company_logo_options_logo_enabled"
 msgid "Logo enabled"
-msgstr "Logo abilitato"
+msgstr "Marchio abilitato"
 
-#, fuzzy
 msgctxt "config_company_logo_options_logo_position"
 msgid "Logo position"
-msgstr "Posizione del logo"
+msgstr "Posizione del marchio"
 
-#, fuzzy
 msgctxt "config_company_logo_description"
 msgid "The company logo will be shown on exported images."
-msgstr "Il logo dell'azienda verrà mostrato sulle immagini esportate."
+msgstr "Il marchio dell'azienda verrà mostrato sulle immagini esportate."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "config_company_logo_missing_feature_warning"
 msgid "Note: the company logo will only be shown in the %1$s version."
-msgstr "Nota: il logo dell'azienda verrà mostrato solo nella versione %1$s."
+msgstr "Nota: il marchio dell'azienda verrà mostrato solo nella versione %1$s."
 
 #. ===== cloud synchronization =====
-#, fuzzy
 msgctxt "cloud_storage_dialog_sync_action_title"
 msgid "Synchronizing directory"
-msgstr "Sincronizzazione della directory"
+msgstr "Sincronizzazione directory"
 
-#, fuzzy
 msgctxt "cloud_storage_sync_action_download"
 msgid "Download"
 msgstr "Scarica"
 
-#, fuzzy
 msgctxt "cloud_storage_sync_action_download_changes"
 msgid "Download changes"
 msgstr "Scarica le modifiche"
 
-#, fuzzy
 msgctxt "cloud_storage_sync_action_upload"
 msgid "Upload"
-msgstr "Caricare"
+msgstr "Carica"
 
-#, fuzzy
 msgctxt "cloud_storage_sync_action_upload_changes"
 msgid "Upload changes"
 msgstr "Carica le modifiche"
 
-#, fuzzy
 msgctxt "cloud_storage_sync_action_delete_on_device"
 msgid "Delete on device"
 msgstr "Elimina sul dispositivo"
 
-#, fuzzy
 msgctxt "cloud_storage_sync_action_delete_on_server"
 msgid "Delete on server"
 msgstr "Elimina sul server"
 
-#, fuzzy
 msgctxt "cloud_storage_sync_action_skip"
 msgid "Skip"
 msgstr "Salta"
 
-#, fuzzy
 msgctxt "cloud_sync_notification_title"
 msgid "Cloud synchronization in progress…"
 msgstr "Sincronizzazione cloud in corso..."
 
-#, fuzzy
 msgctxt "cloud_scan_notification_title"
 msgid "Scanning cloud server content"
-msgstr "Scansione del contenuto del server cloud"
+msgstr "Scansione contenuto del server cloud"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "cloud_scan_notification_content_no_error"
 msgid "%1$d images, %2$d folders found. %3$d items left."
 msgstr "%1$d immagini, %2$d cartelle trovate. %3$d elementi rimasti."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "cloud_scan_notification_content_with_error"
 msgid "%1$d images, %2$d folders found. %3$d items left, %4$d errors."
 msgstr "%1$d immagini, %2$d cartelle trovate. %3$d elementi rimasti, %4$d errori."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "cloud_sync_notification_content_no_error"
 msgid "%1$d items synced, %2$d items left."
 msgstr "%1$d elementi sincronizzati, %2$d elementi rimasti."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "cloud_sync_notification_content_with_error"
 msgid "%1$d items synced, %2$d items left. %3$d errors."
 msgstr "%1$d elementi sincronizzati, %2$d elementi rimasti. %3$d errori."
 
-#, fuzzy
 msgctxt "cloud_progress_check_server"
 msgid "Checking server content."
-msgstr "Controllo del contenuto del server."
+msgstr "Controllo contenuto del server."
 
-#, fuzzy
 msgctxt "cloud_progress_cleanup_server"
 msgid "Cleaning up server."
 msgstr "Pulizia del server."
 
-#, fuzzy
 msgctxt "cloud_progress_will_cancel"
 msgid "Syncing will be cancelled…"
-msgstr "La sincronizzazione verrà annullata ..."
+msgstr "La sincronizzazione verrà annullata..."
 
-#, fuzzy
 msgctxt "notification_cloud_sync_errors_title"
 msgid "Cloud synchronization errors"
-msgstr "Errori di sincronizzazione del cloud"
+msgstr "Errori di sincronizzazione cloud"
 
-#, fuzzy
 msgctxt "notification_cloud_sync_errors_detailed_action"
 msgid "Show detailed errors"
 msgstr "Mostra errori dettagliati"
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "notification_cloud_sync_errors_short_text"
 msgid "%1$d synchronization errors"
 msgstr "%1$d errori di sincronizzazione"
 
-#, fuzzy
 msgctxt "notification_cloud_sync_progress_cancel_action"
 msgid "Cancel sync"
-msgstr "Annulla sincronizzazione"
+msgstr "Annulla sinc"
 
-#, fuzzy
 msgctxt "notification_cloud_cannot_remove_incomplete_upload_title"
 msgid "Cannot remove incomplete upload"
 msgstr "Impossibile rimuovere il caricamento incompleto"
 
-#, fuzzy
 msgctxt "sync_errors_activity_title"
 msgid "Cloud Synchronization Errors"
 msgstr "Errori di sincronizzazione cloud"
 
-#, fuzzy
 msgctxt "sync_errors_close_notificatoin"
 msgid "Close notification"
 msgstr "Chiudi notifica"
 
 #. cloud server maintenance
-#, fuzzy
 msgctxt "cloud_storage_maintenance_notifcation_progress_title"
 msgid "Cloud server maintenance"
 msgstr "Manutenzione del server cloud"
@@ -3903,7 +3656,7 @@ msgstr "Strumenti di disegno"
 
 msgctxt "editor_menu_add_reference"
 msgid "Perspective reference"
-msgstr "Riferimento prospettiva"
+msgstr "Riferimento prospettico"
 
 msgctxt "editor_menu_add_flatreference"
 msgid "Reference scale"
@@ -3915,18 +3668,16 @@ msgstr "Lunghezza prospettica"
 
 msgctxt "editor_menu_add_measure"
 msgid "Dimension"
-msgstr "Dimensioni"
+msgstr "Quota"
 
 msgctxt "editor_menu_add_angle"
 msgid "Angle"
 msgstr "Angolo"
 
-#, fuzzy
 msgctxt "editor_menu_add_area"
 msgid "Area"
-msgstr "La zona"
+msgstr "Area"
 
-#, fuzzy
 msgctxt "editor_menu_add_text"
 msgid "Note"
 msgstr "Nota"
@@ -3955,22 +3706,18 @@ msgctxt "editor_menu_add_ellipse"
 msgid "Ellipse"
 msgstr "Ellisse"
 
-#, fuzzy
 msgctxt "editor_menu_add_dimstring"
 msgid "Dimension string"
-msgstr "Stringa di dimensione"
+msgstr "Stringa dimensionale"
 
-#, fuzzy
 msgctxt "editor_menu_add_cumulative_dimstring"
 msgid "Cumulative string"
 msgstr "Stringa cumulativa"
 
-#, fuzzy
 msgctxt "editor_menu_add_counter"
 msgid "Counter"
 msgstr "Contatore"
 
-#, fuzzy
 msgctxt "editor_menu_add_resultslist"
 msgid "Results list"
 msgstr "Elenco dei risultati"
@@ -3982,48 +3729,43 @@ msgstr "Elimina elemento"
 
 msgctxt "editor_menu_edit_attach"
 msgid "Compute value"
-msgstr "Calcolare il valore"
+msgstr "Calcola il valore"
 
 msgctxt "editor_menu_edit_element_to_front"
 msgid "Element to front"
-msgstr "Elemento in primo piano"
+msgstr "Elemento davanti"
 
 msgctxt "editor_menu_edit_element_to_back"
 msgid "Element to back"
-msgstr "Elemento indietro"
+msgstr "Elemento dietro"
 
 msgctxt "editor_menu_edit_detach"
 msgid "Enter value manually"
-msgstr "Immettere il valore manualmente"
+msgstr "Immetti il valore manualmente"
 
-#, fuzzy
 msgctxt "editor_menu_edit_undo"
 msgid "Undo"
-msgstr "Disfare"
+msgstr "Disfa"
 
 msgctxt "editor_menu_edit_redo"
 msgid "Redo"
-msgstr "Rifare"
+msgstr "Rifai"
 
-#, fuzzy
 msgctxt "editor_menu_edit_rotate"
 msgid "Rotate image (CW)"
 msgstr "Ruota immagine (CW)"
 
-#, fuzzy
 msgctxt "editor_menu_edit_rotate_ccw"
 msgid "Rotate image (CCW)"
 msgstr "Ruota immagine (CCW)"
 
-#, fuzzy
 msgctxt "editor_menu_edit_transfer_style"
 msgid "Transfer style"
-msgstr "Stile di trasferimento"
+msgstr "Trasferisci stile"
 
-#, fuzzy
 msgctxt "editor_menu_edit_copy_element"
 msgid "Duplicate element"
-msgstr "Copia elemento"
+msgstr "Duplica elemento"
 
 msgctxt "editor_menu_edit_lock_element"
 msgid "Lock element"
@@ -4033,35 +3775,29 @@ msgctxt "editor_menu_edit_unlock_element"
 msgid "Unlock element"
 msgstr "Sblocca elemento"
 
-#, fuzzy
 msgctxt "editor_menu_edit_lock_all_elements"
 msgid "Lock all elements"
 msgstr "Blocca tutti gli elementi"
 
-#, fuzzy
 msgctxt "editor_menu_edit_unlock_all_elements"
 msgid "Unlock all elements"
 msgstr "Sblocca tutti gli elementi"
 
-#, fuzzy
 msgctxt "editor_menu_edit_imagesettings"
 msgid "Image settings"
 msgstr "Impostazioni immagine"
 
-#, fuzzy
 msgctxt "editor_menu_edit_bluetooth_trigger"
 msgid "Trigger Laser"
-msgstr "Trigger Laser"
+msgstr "Innesco laser"
 
-#, fuzzy
 msgctxt "editor_menu_edit_tag"
 msgid "Tag and properties"
-msgstr "Tag e proprietà"
+msgstr "Bollino e proprietà"
 
-#, fuzzy
 msgctxt "editor_menu_edit_show_company_logo"
 msgid "Show company logo"
-msgstr "Mostra il logo dell'azienda"
+msgstr "Mostra marchio dell'azienda"
 
 msgctxt "editor_menu_style"
 msgid "Style"
@@ -4075,7 +3811,9 @@ msgstr "Si prega di puntare e trascinare un lato del riferimento."
 
 msgctxt "editor_hint_howto_draw_flatref"
 msgid "Please point-and-drag the length of the reference distance."
-msgstr "Si prega di puntare e trascinare la lunghezza della distanza di riferimento."
+msgstr ""
+"Si prega di puntare e trascinare la lunghezza della distanza di "
+"riferimento."
 
 msgctxt "editor_hint_howto_draw_measure"
 msgid "Please point-and-drag the new measure."
@@ -4091,22 +3829,24 @@ msgstr "Si prega di puntare e trascinare un lato dell'area."
 
 msgctxt "editor_hint_howto_draw_text"
 msgid ""
-"Please position the text area by pointing at the target location and then dragging "
-"the textbox to the end of the arrow."
+"Please position the text area by pointing at the target location and then"
+" dragging the textbox to the end of the arrow."
 msgstr ""
-"Posizionare l'area di testo puntando sulla posizione di destinazione e trascinando la "
-"casella di testo fino alla fine della freccia."
+"Si prega di posizionare l'area di testo puntando sulla posizione di "
+"destinazione e trascinando la casella di testo fino alla fine della "
+"freccia."
 
 msgctxt "editor_hint_howto_draw_circle"
 msgid "Please point to the circle center and drag to specify the circle size."
 msgstr ""
-"Si prega di indicare il centro del cerchio e trascinare per specificare la dimensione."
+"Si prega di indicare il centro del cerchio e trascinare per specificare "
+"la dimensione."
 
 msgctxt "editor_hint_howto_draw_freehand"
 msgid "You are now drawing in freehand mode until you press the close button."
 msgstr ""
-"Ora stai disegnando in modalità a mano libera finché non premi il pulsante di "
-"chiasura."
+"Ora stai disegnando in modalità a mano libera finché non premi il "
+"pulsante di chiasura."
 
 msgctxt "editor_hint_howto_draw_point"
 msgid "Place the point with a simple click."
@@ -4114,12 +3854,13 @@ msgstr "Posiziona il punto con un semplice clic."
 
 msgctxt "editor_hint_howto_draw_line"
 msgid "Please point-and-drag the new line."
-msgstr "Per favore puntare e trascinare la nuova linea."
+msgstr "Per favore, punta e trascina la nuova linea."
 
 msgctxt "editor_hint_howto_draw_ellipse"
 msgid "Please point to the ellipse center and drag to specify the radius."
 msgstr ""
-"Si prega di puntare al centro dell'ellisse e trascinare per specificare il raggio."
+"Si prega di puntare al centro dell'ellisse e trascinare per specificare "
+"il raggio."
 
 msgctxt "editor_hint_howto_draw_rectangle"
 msgid "Please draw the rectangle diagonal."
@@ -4127,83 +3868,77 @@ msgstr "Si prega di disegnare il rettangolo diagonale."
 
 msgctxt "editor_hint_howto_draw_perspective_line"
 msgid ""
-"Tool for measuring an unknown distance along a perspectively distorted line. See the "
-"FAQ for an introduction."
+"Tool for measuring an unknown distance along a perspectively distorted "
+"line. See the FAQ for an introduction."
 msgstr ""
-"Strumento per misurare in prospettiva una distanza sconosciuta da una linea distorta. "
-"Vedi le domande frequenti (FAQ) per un'introduzione."
+"Strumento per misurare in prospettiva una distanza sconosciuta da una "
+"linea distorta. Vedi le domande frequenti (FAQ) per un'introduzione."
 
-#, fuzzy
 msgctxt "editor_hint_howto_draw_dimstring"
 msgid "Please draw the first dimension string. Use the top toolbar to modify it."
 msgstr ""
-"Si prega di disegnare la prima stringa di dimensione. Usa la barra degli strumenti in "
-"alto per modificarlo."
+"Si prega di disegnare la prima stringa dimensionale. Usa la barra degli "
+"strumenti in alto per modificarla."
 
-#, fuzzy
 msgctxt "editor_hint_howto_draw_dimstring_cumulative"
 msgid "Please draw the first dimension string. Use the top toolbar to modify it."
 msgstr ""
-"Si prega di disegnare la prima stringa di dimensione. Usa la barra degli strumenti in "
-"alto per modificarlo."
+"Si prega di disegnare la prima stringa dimensionale. Usa la barra degli "
+"strumenti in alto per modificarla."
 
-#, fuzzy
 msgctxt "editor_hint_howto_draw_counter"
 msgid ""
-"Click on the objects you want to count. Stop counting with the cancel button in the "
-"top toolbar."
+"Click on the objects you want to count. Stop counting with the cancel "
+"button in the top toolbar."
 msgstr ""
-"Clicca sugli oggetti che vuoi contare. Smetti di contare con il pulsante annulla "
-"nella barra degli strumenti in alto."
+"Clicca sugli oggetti che vuoi contare. Smetti di contare con il pulsante "
+"annulla nella barra degli strumenti in alto."
 
-#, fuzzy
 msgctxt "editor_hint_howto_draw_resultslist"
 msgid "Place the value list. It shows the total values of your counters."
-msgstr "Posiziona l'elenco dei risultati. Mostra i valori totali di tutti i contatori."
+msgstr ""
+"Posiziona l'elenco dei risultati. Mostra i valori totali di tutti i "
+"contatori."
 
-#, fuzzy
 msgctxt "editor_help_why_no_measured_value"
 msgid ""
-"The value cannot yet be computed because the image is not calibrated. Please add a "
-"'reference scale' or a 'perspective reference'."
+"The value cannot yet be computed because the image is not calibrated. "
+"Please add a 'reference scale' or a 'perspective reference'."
 msgstr ""
-"Il valore non può ancora essere calcolato perché l'immagine non è calibrata. Aggiungi "
-"una \"scala di riferimento\" o un \"riferimento prospettico\"."
+"Il valore non può ancora essere calcolato perché l'immagine non è "
+"calibrata. Aggiungi una 'scala di riferimento' o un 'riferimento "
+"prospettico'."
 
-#, fuzzy
 msgctxt "editor_help_why_no_measured_value_manual_url"
 msgid "https://imagemeter.com/manual/measuring/basics"
 msgstr "https://imagemeter.com/manual/measuring/basics"
 
-#, fuzzy
 msgctxt "editor_help_why_no_measured_value_because_two_references"
 msgid ""
-"The value is not computed because the image contains two references. Please select "
-"'Compute value' from the menu and select which reference to use."
+"The value is not computed because the image contains two references. "
+"Please select 'Compute value' from the menu and select which reference to"
+" use."
 msgstr ""
-"Il valore non viene calcolato perché l'immagine contiene due riferimenti. Seleziona "
-"\"Calcola valore\" dal menu e seleziona quale riferimento utilizzare."
+"Il valore non viene calcolato perché l'immagine contiene due riferimenti."
+" Seleziona 'Calcola valore' dal menu e seleziona quale riferimento "
+"utilizzare."
 
-#, fuzzy
 msgctxt "editor_help_counter_tutorial_video_url"
 msgid "https://www.youtube.com/watch?v=jBNa8TqToNY"
 msgstr "https://www.youtube.com/watch?v=jBNa8TqToNY"
 
-#, fuzzy
 msgctxt "editor_help_counter_tutorial"
 msgid ""
-"If you would like to see a short tutorial video how to use the counting tool, use the "
-"link below."
+"If you would like to see a short tutorial video how to use the counting "
+"tool, use the link below."
 msgstr ""
-"C'è un video tutorial che spiega come utilizzare lo strumento di conteggio. Se vuoi "
-"vederlo, usa il link qui sotto."
+"C'è un video dimostrativo che spiega come utilizzare lo strumento di "
+"conteggio. Se vuoi vederlo, usa il collegamento qui sotto."
 
-#, fuzzy
 msgctxt "editor_help_do_not_show_again"
 msgid "Don't show again"
 msgstr "Non mostrare più"
 
-#, fuzzy
 msgctxt "editor_help_show_instructions"
 msgid "Show instructions"
 msgstr "Mostra le istruzioni"
@@ -4211,55 +3946,51 @@ msgstr "Mostra le istruzioni"
 #. editor misc
 msgctxt "editor_dialog_tag_properties_title"
 msgid "Tags and properties"
-msgstr "Tag e proprietà"
+msgstr "Bollino e proprietà"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_message"
 msgid ""
-"The image data could not be read successfully. ImageMeter has tried to load as much "
-"of the data as possible, but the image annotations may be incomplete or may have "
-"errors.\n"
+"The image data could not be read successfully. ImageMeter has tried to "
+"load as much of the data as possible, but the image annotations may be "
+"incomplete or may have errors.\n"
 "\n"
-"Do you want to keep the old data (new modifications will not be saved), or do you "
-"want to overwrite the data (you will lose the elements that could not be read "
-"successfully)?"
+"Do you want to keep the old data (new modifications will not be saved), "
+"or do you want to overwrite the data (you will lose the elements that "
+"could not be read successfully)?"
 msgstr ""
-"I dati dell'immagine non possono essere letti correttamente. ImageMeter ha provato a "
-"caricare il maggior numero di dati possibile, ma le annotazioni dell'immagine "
-"potrebbero essere incomplete o presentare errori.\n"
+"I dati dell'immagine non possono essere letti correttamente. ImageMeter "
+"ha provato a caricare il maggior numero di dati possibile, ma le "
+"annotazioni dell'immagine potrebbero essere incomplete o presentare "
+"errori.\n"
 "\n"
-"Vuoi mantenere i vecchi dati (le nuove modifiche non saranno salvate), o vuoi "
-"sovrascrivere i dati (perderai gli elementi che non possono essere letti con "
-"successo)?"
+"Vuoi mantenere i vecchi dati (le nuove modifiche non saranno salvate), o "
+"vuoi sovrascrivere i dati (perderai gli elementi che non possono essere "
+"letti con successo)?"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_overwrite_button"
 msgid "Overwrite"
-msgstr "Sovrascrivere"
+msgstr "Sovrascrivi"
 
 msgctxt "editor_dialog_save_corrupted_imm_file_keep_old_button"
 msgid "Keep old data"
-msgstr "Mantieni dati obsoleti"
+msgstr "Mantieni i vecchi dati"
 
-#, fuzzy
 msgctxt "editor_dialog_new_counter_title"
 msgid "New counter"
 msgstr "Nuovo contatore"
 
-#, fuzzy
 msgctxt "editor_dialog_existing_counters_title"
 msgid "Existing counters"
 msgstr "Contatori esistenti"
 
-#, fuzzy
 msgctxt "color_dialog_special_transparent"
 msgid "Transparent"
 msgstr "Trasparente"
 
-#, fuzzy
 msgctxt "color_dialog_special_automatic"
 msgid "Automatic"
 msgstr "Automatico"
 
-#, fuzzy
 msgctxt "color_dialog_special_use_main_color"
 msgid "Use main color"
 msgstr "Usa il colore principale"
@@ -4269,23 +4000,19 @@ msgctxt "editor_locking_title"
 msgid "Modification lock"
 msgstr "Blocco modifiche"
 
-#, fuzzy
 msgctxt "editor_locking_lock_position"
 msgid "Lock position"
-msgstr "Posizione di blocco"
+msgstr "Blocca posizione"
 
-#, fuzzy
 msgctxt "editor_locking_lock_measurement"
 msgid "Lock measurements"
-msgstr "Misure di blocco"
+msgstr "Blocca misurazioni"
 
-#, fuzzy
 msgctxt "editor_locking_button_apply_to_all"
 msgid "Apply to all"
-msgstr "Applicare a tutto"
+msgstr "Applica a tutto"
 
 #. === style dialogs ===
-#, fuzzy
 msgctxt "editor_dialog_style_spinner_various_values"
 msgid "various"
 msgstr "vari"
@@ -4300,23 +4027,28 @@ msgstr "Stile casella di testo"
 #. GFreehand
 msgctxt "editor_dialog_style_freehand_title"
 msgid "Freehand style"
-msgstr "Stile libero"
+msgstr "Stile a mano libera"
 
 msgctxt "editor_dialog_style_freehand_line_width"
 msgid "Line width"
-msgstr "Larghezza della linea"
+msgstr "Larghezza linea"
 
 #. <string name="editor_dialog_style_freehand_outline_width">Outline
 #. width</string>
 #. "editor:styling:outline-width"
 msgctxt "editor_dialog_style_freehand_line_pattern"
 msgid "Line pattern"
-msgstr "Stile linea"
+msgstr "Matrice linea"
 
 #. GEllipse
 msgctxt "editor_dialog_style_ellipse_title"
 msgid "Ellipse style"
 msgstr "Stile ellisse"
+
+#. GResultsList
+msgctxt "editor_dialog_style_resultslist_title"
+msgid "Results list style"
+msgstr ""
 
 #. GMeasure
 msgctxt "editor_dialog_style_line_title"
@@ -4331,7 +4063,7 @@ msgstr "Stile dimensione"
 #. GAngle
 msgctxt "editor_dialog_style_angle_title"
 msgid "Angle style"
-msgstr "Stile de l'angolo"
+msgstr "Stile angolare"
 
 #. GRectRef (perspective reference)
 msgctxt "editor_dialog_style_rect_title"
@@ -4340,7 +4072,7 @@ msgstr "Stile di riferimento"
 
 msgctxt "editor_dialog_style_rect_set_default_reference_size"
 msgid "Store reference size as default"
-msgstr "Memorizza le dimensioni di riferimento come predefinite"
+msgstr "Memorizza dimensioni di riferimento come predefinite"
 
 msgctxt "editor_dialog_style_rect_info_set_default_reference_size_title"
 msgid "Default Reference Size"
@@ -4348,15 +4080,16 @@ msgstr "Dimensione di riferimento predefinita"
 
 msgctxt "editor_dialog_style_rect_info_set_default_reference_size_text"
 msgid ""
-"This button stores the currently entered reference dimensions as the default size. "
-"When creating a new reference, these dimensions are automatically set. You can set "
-"this to any reference that is suitable for your application, e.g. the size of a sheet "
-"of paper."
+"This button stores the currently entered reference dimensions as the "
+"default size. When creating a new reference, these dimensions are "
+"automatically set. You can set this to any reference that is suitable for"
+" your application, e.g. the size of a sheet of paper."
 msgstr ""
-"Questo pulsante memorizza le dimensioni di riferimento attualmente inserite come "
-"dimensione predefinita. Quando crei un nuovo riferimento, tali dimensioni vengono "
-"reimpostate automaticamente. È possibile impostarlo su qualsiasi riferimento adatto "
-"alla propria applicazione, ad esempio la dimensione di un foglio di carta."
+"Questo pulsante memorizza le dimensioni di riferimento attualmente "
+"inserite come dimensione predefinita. Quando crei un nuovo riferimento, "
+"tali dimensioni vengono reimpostate automaticamente. È possibile "
+"impostarlo su qualsiasi riferimento adatto alla propria applicazione, ad "
+"esempio la dimensione di un foglio di carta."
 
 msgctxt "editor_dialog_style_rect_grid_subdivisions_choices:0"
 msgid "none"
@@ -4411,14 +4144,14 @@ msgstr "Stile di riferimento"
 #. GArea
 msgctxt "editor_dialog_style_area_title"
 msgid "Area style"
-msgstr "Stile de l'area"
+msgstr "Stile area"
 
 #. <string name="editor_area_may_add_points">May add points</string>
 #. <string name="editor_area_may_delete_points">May delete points</string>
 #. GCircle
 msgctxt "editor_dialog_style_circle_title"
 msgid "Circle style"
-msgstr "Stile del cerchio"
+msgstr "Stile cerchio"
 
 #. GRectangle
 msgctxt "editor_dialog_style_rectangle_title"
@@ -4426,10 +4159,9 @@ msgid "Rectangle style"
 msgstr "Stile rettangolo"
 
 #. GDimString
-#, fuzzy
 msgctxt "editor_dialog_style_dimstring_title"
 msgid "Dimension string style"
-msgstr "Stile stringa quota"
+msgstr "Stile stringa dimensionale"
 
 #. <string name="editor_dimstring_mode_add_markers">Add measures</string>
 #. <string name="editor_dimstring_mode_move_markers">Move measures</string>
@@ -4450,7 +4182,6 @@ msgid "Point style"
 msgstr "Stile del punto"
 
 #. GCounter
-#, fuzzy
 msgctxt "editor_dialog_style_counter_title"
 msgid "Counter style"
 msgstr "Stile contatore"
@@ -4466,49 +4197,40 @@ msgstr "Stile della linea prospettica"
 #. settings: standard rectangle reference object sizes
 msgctxt "settings_rectref_sizes_title"
 msgid "Reference object sizes"
-msgstr "Dimensioni degli oggetti di riferimento"
+msgstr "Dimensione oggetti di riferimento"
 
-#, fuzzy
 msgctxt "settings_rectref_sizes_name"
 msgid "Name:"
 msgstr "Nome:"
 
-#, fuzzy
 msgctxt "settings_rectref_sizes_width"
 msgid "Width:"
 msgstr "Larghezza:"
 
-#, fuzzy
 msgctxt "settings_rectref_sizes_height"
 msgid "Height:"
 msgstr "Altezza:"
 
-#, fuzzy
 msgctxt "settings_rectref_sizes_add_object_size"
 msgid "+ add object size"
-msgstr "+ aggiungi la dimensione dell'oggetto"
+msgstr "+ aggiungi dimensione dell'oggetto"
 
-#, fuzzy
 msgctxt "settings_rectref_sizes_new_object_name"
 msgid "custom object"
 msgstr "oggetto personalizzato"
 
-#, fuzzy
 msgctxt "settings_rectref_sizes_menu_open"
 msgid "Edit objects…"
-msgstr "Modifica oggetti ..."
+msgstr "Modifica oggetti..."
 
-#, fuzzy
 msgctxt "editor_rectref_standard_size_letter"
 msgid "Letter"
 msgstr "Lettera"
 
-#, fuzzy
 msgctxt "editor_rectref_standard_size_legal"
 msgid "Legal"
 msgstr "Legale"
 
-#, fuzzy
 msgctxt "editor_rectref_standard_size_credit_card"
 msgid "Credit card"
 msgstr "Carta di credito"
@@ -4518,39 +4240,36 @@ msgctxt "templ_labeltype_length"
 msgid "Length"
 msgstr "Lunghezza"
 
-#, fuzzy
 msgctxt "templ_labeltype_area"
 msgid "Area"
-msgstr "La zona"
+msgstr "Area"
 
-#, fuzzy
 msgctxt "templ_labeltype_angle"
 msgid "Angle"
 msgstr "Angolo"
 
-#, fuzzy
 msgctxt "templ_labeltype_any"
 msgid "Any"
 msgstr "Qualunque"
 
-#, fuzzy
 msgctxt "stringscript_help_dialog_title"
 msgid "Brief Scripting Manual"
 msgstr "Breve manuale di script"
 
-#, fuzzy
 msgctxt "stringscript_help_introlink"
 msgid ""
-"See <a href=\"https://imagemeter.com/manual/workflow/variables/\">here</a> for the "
-"full documentation."
+"See <a "
+"href=\"https://imagemeter.com/manual/workflow/variables/\">here</a> for "
+"the full documentation."
 msgstr ""
-"Vedi <a href=\"https://imagemeter.com/manual/workflow/variables/\">qui</a> per la "
-"documentazione completa."
+"Vedi <a "
+"href=\"https://imagemeter.com/manual/workflow/variables/\">qui</a> per la"
+" documentazione completa."
 
 #. value entry dialog
 msgctxt "dimension_format_imperial_length_unit_choices:0"
 msgid "mil"
-msgstr "miglio"
+msgstr "millesimo"
 
 #. value entry dialog
 msgctxt "dimension_format_imperial_length_unit_choices:1"
@@ -4565,7 +4284,7 @@ msgstr "piede"
 #. value entry dialog
 msgctxt "dimension_format_imperial_length_unit_choices:3"
 msgid "yard"
-msgstr "larda"
+msgstr "iarda"
 
 #. value entry dialog
 msgctxt "dimension_format_imperial_length_unit_choices:4"
@@ -4587,19 +4306,19 @@ msgstr "radianti"
 
 msgctxt "dimension_format_area_imperial_choices:0"
 msgid "sq in"
-msgstr "sq in"
+msgstr "pollice qd"
 
 msgctxt "dimension_format_area_imperial_choices:1"
 msgid "sq ft"
-msgstr "sq ft"
+msgstr "piede qd"
 
 msgctxt "dimension_format_area_imperial_choices:2"
 msgid "sq yd"
-msgstr "sq yd"
+msgstr "iarda qd"
 
 msgctxt "dimension_format_area_imperial_choices:3"
 msgid "sq mi"
-msgstr "sq mi"
+msgstr "Miglio qd"
 
 msgctxt "dimension_format_area_imperial_choices:4"
 msgid "acre"
@@ -4607,11 +4326,11 @@ msgstr "acro"
 
 msgctxt "dimension_format_area_imperial_choices:5"
 msgid "square mil"
-msgstr "miglio quadrato"
+msgstr "millesimo quadrato"
 
 msgctxt "dimension_format_area_imperial_choices:6"
 msgid "circular mil"
-msgstr "miglio circolare"
+msgstr "millesimo circolare"
 
 msgctxt "dimension_format_area_metric_prefix_choices:0"
 msgid "mm²"
@@ -4631,18 +4350,16 @@ msgstr "km²"
 
 msgctxt "dimension_format_area_metric_prefix_choices:4"
 msgid "are"
-msgstr "are"
+msgstr "ara"
 
 msgctxt "dimension_format_area_metric_prefix_choices:5"
 msgid "hectare"
 msgstr "ettaro"
 
-#, fuzzy
 msgctxt "dimension_format_area_metric_prefix_choices:6"
 msgid "µm²"
 msgstr "µm²"
 
-#, fuzzy
 msgctxt "dimension_format_area_metric_prefix_choices:7"
 msgid "nm²"
 msgstr "nm²"
@@ -4659,7 +4376,6 @@ msgctxt "value_entry_tab_title_unit"
 msgid "Unit"
 msgstr "Unità"
 
-#, fuzzy
 msgctxt "value_entry_tab_title_style"
 msgid "Style"
 msgstr "Stile"
@@ -4682,11 +4398,11 @@ msgstr "Piede"
 
 msgctxt "value_entry_key_yard"
 msgid "Yard"
-msgstr "Larda"
+msgstr "Iarda"
 
 msgctxt "value_entry_unit_section_automatic_measurement_options"
 msgid "Automatic measurement options"
-msgstr "Opzioni di misurazione automatica"
+msgstr "Opzioni di auto misurazione"
 
 msgctxt "value_entry_metadata_prefix"
 msgid "Prefix"
@@ -4703,38 +4419,32 @@ msgstr "Unità"
 #. text box entry dialog
 msgctxt "textbox_dialog_label"
 msgid "Text note"
-msgstr "Inserisci il testo"
+msgstr "Nota di testo"
 
 msgctxt "textbox_text_hint"
 msgid "No text"
 msgstr "Nessun testo"
 
-#, fuzzy
 msgctxt "textbox_text_preset_button"
 msgid "Preset…"
-msgstr "Preset ..."
+msgstr "Preselezione..."
 
-#, fuzzy
 msgctxt "textbox_text_preset_open_prefs"
 msgid "(Define presets …)"
-msgstr "(Definisci preset ...)"
+msgstr "(Definisci preselezione...)"
 
-#, fuzzy
 msgctxt "textbox_audio_notes_title"
 msgid "Audio note"
 msgstr "Nota audio"
 
-#, fuzzy
 msgctxt "textbox_detail_picture_title"
 msgid "Detail picture"
 msgstr "Foto di dettaglio"
 
-#, fuzzy
 msgctxt "textbox_detail_picture_cannot_load"
 msgid "Cannot load detail image"
-msgstr "Impossibile caricare l'immagine dettagliata"
+msgstr "Impossibile caricare l'immagine di dettaglio"
 
-#, fuzzy
 msgctxt "textbox_detail_picture_load_error_zero_size"
 msgid "Image has zero size."
 msgstr "L'immagine ha dimensione zero."
@@ -4744,12 +4454,10 @@ msgctxt "imagesettings_dialog_base_sizes"
 msgid "Base sizes"
 msgstr "Dimensioni della base"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_canvas_title"
 msgid "Canvas"
 msgstr "Tela"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_canvas_unit_distance"
 msgid "Unit distance"
 msgstr "Unità di distanza"
@@ -4758,17 +4466,14 @@ msgctxt "imagesettings_dialog_canvas_unit_distance_hint"
 msgid "100 cm"
 msgstr "100 cm"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_bkgimage_title"
 msgid "Image"
 msgstr "Immagine"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_bkgimage_reset"
 msgid "Reset"
-msgstr "Ripristina"
+msgstr "Resetta"
 
-#, fuzzy
 msgctxt "imagesettings_dialog_calibration_title"
 msgid "Calibration"
 msgstr "Calibrazione"
@@ -4786,32 +4491,26 @@ msgctxt "bluetooth_notification_title"
 msgid "Bluetooth device connection"
 msgstr "Connessione del dispositivo Bluetooth"
 
-#, fuzzy
 msgctxt "bluetooth_notification_state_text_connected"
 msgid "Connected to device"
 msgstr "Collegato al dispositivo"
 
-#, fuzzy
 msgctxt "bluetooth_notification_state_text_connecting"
 msgid "Connecting to device…"
 msgstr "Connessione al dispositivo..."
 
-#, fuzzy
 msgctxt "bluetooth_notification_state_text_reconnecting"
 msgid "Trying to reconnect to device…"
-msgstr "Tentativo di riconnettersi al dispositivo..."
+msgstr "Tentativo riconnessione al dispositivo..."
 
-#, fuzzy
 msgctxt "bluetooth_notification_disconnect_action"
 msgid "Disconnect"
 msgstr "Disconnetti"
 
-#, fuzzy
 msgctxt "bluetooth_notification_stop_connecting_action"
 msgid "Stop"
-msgstr "Fermare"
+msgstr "Ferma"
 
-#, fuzzy
 msgctxt "bluetooth_notification_missing_permission"
 msgid "No permission to connect to Bluetooth device."
 msgstr "Nessuna autorizzazione per connettersi al dispositivo Bluetooth."
@@ -4828,32 +4527,34 @@ msgctxt "bluetooth_message_device_connect_failed"
 msgid "Bluetooth connection failed."
 msgstr "Connessione Bluetooth fallita."
 
-#, fuzzy
 msgctxt "bluetooth_error_bluetooth_not_configured"
 msgid ""
 "You have not yet configured any Bluetooth laser distance meter.\n"
 "\n"
-"First make sure that your device is listed in the system settings. If required, pair "
-"the device.\n"
+"First make sure that your device is listed in the system settings. If "
+"required, pair the device.\n"
 " <a href=\"android-bluetooth\">Open Android Bluetooth settings</a>\n"
 "\n"
 "Afterwards, select your device in the ImageMeter settings:\n"
 " <a href=\"bluetooth-device\">Open Bluetooth device settings</a>\n"
 "\n"
-"For more help and a list of supported devices, see <a href=\"https://imagemeter.com/"
-"manual/bluetooth/connect/\">here</a>"
+"For more help and a list of supported devices, see <a "
+"href=\"https://imagemeter.com/manual/bluetooth/connect/\">here</a>"
 msgstr ""
-"Non hai ancora configurato alcun misuratore di distanza laser Bluetooth.\n"
+"Non hai ancora configurato alcun distanziometro laser Bluetooth.\n"
 "\n"
-"Per prima cosa assicurati che il tuo dispositivo sia elencato nelle impostazioni di "
-"sistema. Se necessario, associare il dispositivo.\n"
-"<a href=\"android-bluetooth\">Apri le impostazioni Bluetooth di Android</a>\n"
+"Per prima cosa assicurati che il tuo dispositivo sia elencato nelle "
+"impostazioni di sistema. Se necessario, associare il dispositivo.\n"
+"<a href=\"android-bluetooth\">Apri le impostazioni Bluetooth di "
+"Android</a>\n"
 "\n"
-"Successivamente, seleziona il tuo dispositivo nelle impostazioni di ImageMeter:\n"
-"<a href=\"bluetooth-device\">Apri le impostazioni del dispositivo Bluetooth</a>\n"
+"Successivamente, seleziona il tuo dispositivo nelle impostazioni di "
+"ImageMeter:\n"
+"<a href=\"bluetooth-device\">Apri le impostazioni del dispositivo "
+"Bluetooth</a>\n"
 "\n"
-"Per ulteriore assistenza e un elenco dei dispositivi supportati, vedere <a "
-"href=\"https://imagemeter.com/manual/bluetooth/connect/\">qui</a>"
+"Per ulteriore assistenza e un'elenco dei dispositivi supportati, vedere "
+"<a href=\"https://imagemeter.com/manual/bluetooth/connect/\">qui</a>"
 
 #. 151209
 #, c-format
@@ -4861,79 +4562,79 @@ msgctxt "bluetooth_error_cannot_set_value"
 msgid "Cannot set received Bluetooth value: %1$s."
 msgstr "Impossibile impostare il valore Bluetooth ricevuto: %1$s."
 
-#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_no_active_element"
 msgid "no active element"
 msgstr "nessun elemento attivo"
 
-#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_element_has_no_dimension"
 msgid "element does not support measurements"
 msgstr "l'elemento non supporta le misurazioni"
 
-#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_dimension_is_read_only"
 msgid "element value is read-only"
 msgstr "il valore dell'elemento è di sola lettura"
 
-#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_wrong_dimension_unit"
 msgid "wrong measurement unit"
-msgstr "unità di misura errata"
+msgstr "unità di misurazione errata"
 
-#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_element_is_locked"
 msgid "element is locked"
 msgstr "l'elemento è bloccato"
 
+#, fuzzy
 msgctxt "bluetooth_pref_button_start_bluetooth_scan"
-msgid "Start Bluetooth device scan"
-msgstr "Avvia la scansione del dispositivo Bluetooth"
+msgid "Scan (LE)"
+msgstr "Avvia scansione del dispositivo Bluetooth"
+
+msgctxt "bluetooth_pref_button_start_bluetooth_classic_scan"
+msgid "Scan (classic)"
+msgstr ""
 
 msgctxt "bluetooth_pref_scanning_in_progress"
 msgid "Scanning ..."
 msgstr "Scansione ..."
 
-#, fuzzy
 msgctxt "bluetooth_pref_no_bluetooth_scan_permission"
 msgid ""
-"Cannot list Bluetooth devices because you have denied the permission to scan for "
-"Bluetooth devices. You can reenable the permission in the system settings (Apps &gt; "
-"ImageMeter &gt; Permissions)."
+"Cannot list Bluetooth devices because you have denied the permission to "
+"scan for Bluetooth devices. You can reenable the permission in the system"
+" settings (Apps &gt; ImageMeter &gt; Permissions)."
 msgstr ""
-"Impossibile elencare i dispositivi Bluetooth perché hai negato l'autorizzazione alla "
-"ricerca di dispositivi Bluetooth. È possibile riattivare l'autorizzazione nelle "
-"impostazioni di sistema (App &gt; ImageMeter &gt; Autorizzazioni)."
+"Impossibile elencare i dispositivi Bluetooth perché hai negato "
+"l'autorizzazione alla ricerca di dispositivi. È possibile riattivare "
+"l'autorizzazione nelle impostazioni di sistema (App &gt; ImageMeter &gt; "
+"Autorizzazioni)."
 
 msgctxt "bluetooth_dialog_scan_needs_location_permission_title"
 msgid "Bluetooth scan"
 msgstr "Scansione Bluetooth"
 
-#, fuzzy
 msgctxt "bluetooth_dialog_scan_needs_location_permission_text"
 msgid ""
-"Since Android 10, the fine location permission is required (previously coarse "
-"location) to scan for nearby Bluetooth devices. Please grant this permission when "
-"requested."
+"Since Android 10, the fine location permission is required (previously "
+"coarse location) to scan for nearby Bluetooth devices. Please grant this "
+"permission when requested."
 msgstr ""
-"Dall'apparecchio Android 10 è necessaria l'autorizzazione di copertura per la "
-"scansione dei dispositivi Bluetooth vicini. Devi concedere questa autorizzazione "
-"quando richiesto."
+"Sin dalla versione Android 10 è necessaria l'autorizzazione di copertura "
+"per la scansione dei dispositivi Bluetooth vicini. Devi concedere questa "
+"autorizzazione quando richiesto."
 
 msgctxt "bluetooth_le_scan_needs_location_title"
 msgid "Bluetooth LE Scan Error"
-msgstr "Errore di scansione Bluetooth LE"
+msgstr "Errore scansione Bluetooth LE"
 
 msgctxt "bluetooth_le_scan_needs_location_message"
 msgid ""
-"Android requires that the location service is enabled to run a Bluetooth LE Scan.\n"
+"Android requires that the location service is enabled to run a Bluetooth "
+"LE Scan.\n"
 "\n"
 "Please turn on location services.\n"
 "\n"
 "After the Bluetooth LE scan, you can turn this off again."
 msgstr ""
-"Android richiede che il servizio di localizzazione sia abilitato per eseguire una "
-"scansione Bluetooth LE.\n"
+"Android richiede che il servizio di localizzazione sia abilitato per "
+"eseguire una scansione Bluetooth LE.\n"
 "\n"
 "Si prega di attivare i servizi di localizzazione.\n"
 "\n"
@@ -4943,51 +4644,45 @@ msgctxt "bluetooth_error_unknown"
 msgid "Unknown error"
 msgstr "Errore sconosciuto"
 
-#, fuzzy
 msgctxt "bluetooth_error_ci_E101"
 msgid "E101: Replace the batteries"
-msgstr "E101: la tensione della batteria è troppo bassa"
+msgstr "E101: Sostituire le batterie"
 
-#, fuzzy
 msgctxt "bluetooth_error_ci_E104"
 msgid "E104: Calculation error"
-msgstr "E104: misura non valida"
+msgstr "E104: Errore di calcolo"
 
 msgctxt "bluetooth_error_ci_E152"
 msgid "E152: Temperature is too high: &gt; 40°C"
-msgstr "E152: Temperatura eccessivah: &gt; 40°C"
+msgstr "E152: Temperatura eccessiva: &gt; 40°C"
 
 msgctxt "bluetooth_error_ci_E153"
 msgid "E153: Temperature is too low: &lt; 0°C"
 msgstr "E153: Temperatura insufficiente: &lt; 0°C"
 
-#, fuzzy
 msgctxt "bluetooth_error_ci_E154"
 msgid "E154: Outside the measuring range"
-msgstr "E154: fuori dal limite"
+msgstr "E154: Oltre il limite misurabile"
 
-#, fuzzy
 msgctxt "bluetooth_error_ci_E155"
 msgid "E155: Received signal too weak"
-msgstr "E155: segnale troppo basso"
+msgstr "E155: Segnale troppo debole"
 
 msgctxt "bluetooth_error_ci_E156"
 msgid "E156: Received signal too strong"
-msgstr "E156: Segnale ricevuto troppo forte"
+msgstr "E156: Segnale troppo forte"
 
-#, fuzzy
 msgctxt "bluetooth_error_ci_E157"
 msgid "E157: Incorrect measurement or background is too bright"
-msgstr "E157: troppa luce di fondo"
+msgstr "E157: Misurazione errata o sfondo troppo luminoso"
 
-#, fuzzy
 msgctxt "bluetooth_error_ci_E160"
 msgid "E160: The device is moving too much to measure"
-msgstr "E160: troppo tremolante"
+msgstr "E160: Il dispositivo vibra troppo per essere misurato"
 
 msgctxt "bluetooth_error_out_of_measuring_range"
 msgid "Out of measuring range"
-msgstr "Fuori dal campo di misura"
+msgstr "Oltre il limite misurabile"
 
 msgctxt "bluetooth_error_signal_too_weak"
 msgid "Signal too weak"
@@ -4995,7 +4690,7 @@ msgstr "Segnale troppo debole"
 
 msgctxt "bluetooth_error_display_out_of_range"
 msgid "Display out of range"
-msgstr "Mostra fuori portata"
+msgstr "Visore fuori intervallo"
 
 msgctxt "bluetooth_error_pythagorean_calculation_error"
 msgid "Pythagorean calculation error"
@@ -5007,7 +4702,7 @@ msgstr "Batteria scarica"
 
 msgctxt "bluetooth_error_out_of_working_temperatur"
 msgid "Out of working temperature"
-msgstr "Fuori dalla temperatura di lavoro"
+msgstr "Oltre la temperatura di lavoro"
 
 msgctxt "bluetooth_error_ambient_light_too_strong"
 msgid "Ambient light too strong"
@@ -5020,18 +4715,16 @@ msgctxt "templ_selection_none"
 msgid "None"
 msgstr "Nessuno"
 
-#, fuzzy
 msgctxt "spinner_selection_various"
 msgid "(various)"
 msgstr "(vari)"
 
 #. === errors ===
-#, fuzzy, c-format
+#, c-format
 msgctxt "imagelibrary_cannot_delete_image_in_use"
 msgid "Cannot delete image '%1$s' because it is in use by the %2$s."
-msgstr "Impossibile eliminare l'immagine «%1$s» perché è utilizzata da %2$s."
+msgstr "Impossibile eliminare l'immagine '%1$s' perché è utilizzata da %2$s."
 
-#, fuzzy
 msgctxt "imagelibrary_cannot_load_current_folder"
 msgid ""
 "Cannot load current folder.\n"
@@ -5042,32 +4735,33 @@ msgstr ""
 "\n"
 "Apri le impostazioni e imposta una directory di archiviazione diversa."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "imagelibrary_moving_images_to_app_directory"
 msgid "Moving images to app directory (%1$d of %2$d)."
-msgstr "Spostamento delle immagini nella directory dell'app (%1$d di %2$d)."
+msgstr "Spostamento immagini nella directory dell'app (%1$d di %2$d)."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "editor_error_nonpro_gelement_limit_message"
 msgid ""
-"Please upgrade to the %1$s version of ImageMeter to use more than five annotations."
+"Please upgrade to the %1$s version of ImageMeter to use more than five "
+"annotations."
 msgstr ""
-"Si prega di effettuare l'aggiornamento alla versione %1$s di ImageMeter per "
-"utilizzare più di cinque annotazioni."
+"Si prega di effettuare l'aggiornamento alla versione %1$s di ImageMeter "
+"per usare più di cinque annotazioni."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "editor_error_nonpro_bluetooth_limit_message"
 msgid ""
-"For Bluetooth measurements with more than 3 meters, please upgrade to the %1$s "
-"version."
+"For Bluetooth measurements with more than 3 meters, please upgrade to the"
+" %1$s version."
 msgstr ""
-"Con misurazioni Bluetooth che sono più 3 metri, si prega di effettuare "
+"Con misurazioni Bluetooth superiori a 3 metri, si prega di effettuare "
 "l'aggiornamento alla versione %1$s."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "editor_error_nonpro_clipboard_message"
 msgid "For using the clipboard, please upgrade to the %1$s version."
-msgstr "Per utilizzare gli appunti, aggiorna alla versione %1$s."
+msgstr "Per utilizzare gli appunti, aggiornare alla versione %1$s, prego."
 
 msgctxt "editor_dialog_upgrade_button_cancel"
 msgid "Later"
@@ -5079,252 +4773,250 @@ msgstr "Il file importato non è un'immagine"
 
 msgctxt "imageselect_error_cannot_capture_with_camera"
 msgid ""
-"Cannot start external app to capture camera image. Either the device does not have a "
-"camera or your camera app does not respond to a capture request. You can still import "
-"images from the gallery or you can try to install an alternative camera app."
+"Cannot start external app to capture camera image. Either the device does"
+" not have a camera or your camera app does not respond to a capture "
+"request. You can still import images from the gallery or you can try to "
+"install an alternative camera app."
 msgstr ""
-"Impossibile avviare l'app esterna per catturare l'immagine della telecamera. Il "
-"dispositivo non dispone di una fotocamera o l'app della fotocamera non risponde a una "
-"richiesta di cattura. Puoi comunque importare immagini dalla galleria o provare a "
-"installare un'app alternativa per la camera."
+"Impossibile avviare l'app esterna per catturare l'immagine della "
+"fotocamera. Il dispositivo non dispone di fotocamera o l'app della "
+"fotocamera non risponde a una richiesta di cattura. Puoi comunque "
+"importare immagini dalla galleria o provare a installare un'app "
+"alternativa."
 
 msgctxt "imageselect_error_internal_toast"
 msgid ""
-"An internal error happened. Please take a screenshot of the notification above and "
-"send this to me. Thank you!"
+"An internal error happened. Please take a screenshot of the notification "
+"above and send this to me. Thank you!"
 msgstr ""
-"Si è verificato un errore interno. Si prega di prendere uno screenshot della notifica "
-"di cui sopra e inviarlo a me. Grazie!"
+"Si è verificato un'errore interno. Si prega di scattare un'istantanea "
+"della notifica di cui sopra e inviarla a me. Grazie!"
 
-#, fuzzy
 msgctxt "imageselect_error_no_image_import_activity"
 msgid "There is no app on the device from which we can import images."
 msgstr "Sul dispositivo non è presente alcuna app da cui importare le immagini."
 
-#, fuzzy
 msgctxt "imagelibrary_error_cannot_import_current_directory_is_not_valid"
 msgid "Cannot import image because the current directory is not valid."
-msgstr "Impossibile importare l'immagine perché la directory corrente non è valida."
+msgstr ""
+"Impossibile importare l'immagine perché la directory corrente non è "
+"valida."
 
-#, fuzzy
 msgctxt "error_cannot_open_pdf"
 msgid "Cannot open link to PDF file"
 msgstr "Impossibile aprire il collegamento al file PDF"
 
-#, fuzzy
 msgctxt "error_cause_section_title"
 msgid "Cause:"
 msgstr "Causa:"
 
 msgctxt "storage_error_external_storage_unavailable"
 msgid "External storage (SD card?) not present."
-msgstr "Memoria esterna (SD card?) non presente."
+msgstr "Memoria esterna (scheda SD?) non presente."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cannot_open_browser_url"
 msgid "Cannot open web browser to show web page '%1$s'"
-msgstr "Impossibile aprire il browser web per mostrare la pagina web '%1$s'"
+msgstr "Impossibile aprire il browser web per mostrare la pagina '%1$s'"
 
 #. filesystem errors
-#, fuzzy
 msgctxt "error_files_locked"
 msgid "Files are currently in use."
 msgstr "I file sono attualmente in uso."
 
 #. used in PrefsStorageDirectory
 #. import/export errors
-#, fuzzy
+#, python-brace-format
 msgctxt "imerror_cannot_export_image"
 msgid "Cannot export image '{}'."
-msgstr "Impossibile esportare l'immagine \"{}\"."
+msgstr "Impossibile esportare l'immagine '{}'."
 
 #. other errors
-#, fuzzy
+#, python-brace-format
 msgctxt "imerror_string_template_unknown_field"
 msgid "Unknown field '{}' in string template."
-msgstr "Campo sconosciuto \"{}\" nel modello di stringa."
+msgstr "Campo sconosciuto '{}' nel modello di stringa."
 
-#, fuzzy
+#, python-brace-format
 msgctxt "imerror_string_template_syntax_error"
 msgid "Syntax error in string template '{}'."
-msgstr "Errore di sintassi nel modello di stringa \"{}\"."
+msgstr "Errore di sintassi nel modello di stringa '{}'."
 
-#, fuzzy
 msgctxt "cloud_storage_not_configured_title"
 msgid "Cloud storage"
-msgstr "Archiviazione nel cloud"
+msgstr "Archiviazione cloud"
 
-#, fuzzy
 msgctxt "cloud_storage_not_configured"
 msgid ""
 "You have not yet configured cloud storage. \n"
-"Cloud storage can be used to sync your images automatically between multiple devices "
-"or for backup. More detailed documentation on this can be found in the <a "
+"Cloud storage can be used to sync your images automatically between "
+"multiple devices or for backup. More detailed documentation on this can "
+"be found in the <a "
 "href=\"https://imagemeter.com/manual/storage/cloud/\">manual.</a> \n"
-"The settings for cloud storage can be found in the 'Storage' section of the app "
-"settings (<a href=\"cloud-settings\">open settings</a>)."
+"The settings for cloud storage can be found in the 'Storage' section of "
+"the app settings (<a href=\"cloud-settings\">open settings</a>)."
 msgstr ""
 "Non hai ancora configurato l'archiviazione cloud.\n"
-"L'archiviazione cloud può essere utilizzata per sincronizzare automaticamente le "
-"immagini tra più dispositivi o per il backup. Una documentazione più dettagliata su "
-"questo può essere trovata nel <a href=\"https://imagemeter.com/manual/storage/cloud/"
-"\">manuale.</a>\n"
+"L'archiviazione cloud può essere adoperata per sincronizzare "
+"automaticamente le immagini tra più dispositivi o per il backup. Una "
+"documentazione più dettagliata su questo può essere trovata nel <a "
+"href=\"https://imagemeter.com/manual/storage/cloud/\">manuale.</a>\n"
 "Le impostazioni per l'archiviazione su cloud si trovano nella sezione "
-"\"Archiviazione\" delle impostazioni dell'app (<a href=\"cloud-settings\">apri le "
-"impostazioni</a>)."
+"'Archiviazione' delle impostazioni dell'app (<a href=\"cloud-"
+"settings\">apri le impostazioni</a>)."
 
-#, fuzzy
 msgctxt "cloud_storage_not_configured_syncing_inbox_in_bkg"
 msgid "Your <i>inbox</i> folder is being synced."
 msgstr "La tua cartella <i>inbox</i> è in fase di sincronizzazione."
 
-#, fuzzy
 msgctxt "cloud_storage_not_configured_business_upgrade"
 msgid ""
-"Cloud storage is only available in the <b>Business</b> version of ImageMeter. See <a "
-"href=\"https://imagemeter.com/manual/license/android-business-features\">here</a> for "
-"all benefits of the Business version."
+"Cloud storage is only available in the <b>Business</b> version of "
+"ImageMeter. See <a href=\"https://imagemeter.com/manual/license/android-"
+"business-features\">here</a> for all benefits of the Business version."
 msgstr ""
-"L'archiviazione su cloud è disponibile solo nella versione <b>Business</b> di "
-"ImageMeter. Vedi <a href=\"https://imagemeter.com/manual/license/android-business-"
-"features\">qui</a> per tutti i vantaggi della versione Business."
+"L'archiviazione cloud è disponibile solo nella versione <b>Business</b> "
+"di ImageMeter. Vedi <a href=\"https://imagemeter.com/manual/license"
+"/android-business-features\">qui</a> per tutti i vantaggi della versione "
+"Business."
 
-#, fuzzy
 msgctxt "cloud_storage_not_configured_inbox_only"
 msgid ""
-"Full cloud storage is only available in the <b>Business</b> version of ImageMeter. "
-"Without Business upgrade, cloud storage is limited to the <i>inbox</i> folder. See <a "
-"href=\"https://imagemeter.com/manual/license/android-business-features\">here</a> for "
-"all benefits of the Business version."
+"Full cloud storage is only available in the <b>Business</b> version of "
+"ImageMeter. Without Business upgrade, cloud storage is limited to the "
+"<i>inbox</i> folder. See <a href=\"https://imagemeter.com/manual/license"
+"/android-business-features\">here</a> for all benefits of the Business "
+"version."
 msgstr ""
-"L'archiviazione cloud completa è disponibile solo nella versione <b>Business</b> di "
-"ImageMeter. Senza l'aggiornamento Business, l'archiviazione nel cloud è limitata alla "
-"cartella <i>inbox</i>. Vedi <a href=\"https://imagemeter.com/manual/license/android-"
-"business-features\">qui</a> per tutti i vantaggi della versione Business."
+"L'archiviazione cloud completa è disponibile solo nella versione "
+"<b>Business</b> di ImageMeter. Senza l'aggiornamento Business, "
+"l'archiviazione nel cloud è limitata alla cartella <i>inbox</i>. Vedi <a "
+"href=\"https://imagemeter.com/manual/license/android-business-"
+"features\">qui</a> per tutti i vantaggi della versione Business."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_create_remote_file_already_exists"
 msgid "Cannot create file '%1$s' because it already exists."
-msgstr "Impossibile creare il file «%1$s» perché esiste già."
+msgstr "Impossibile creare il file '%1$s' perché esiste già."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_create_remote_file_folder_exists"
 msgid "Cannot create file '%1$s' because there is a folder with this name."
-msgstr "Impossibile creare il file '%1$s' perché esiste una cartella con questo nome."
+msgstr ""
+"Impossibile creare il file '%1$s' perché esiste una cartella con questo "
+"nome."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_create_remote_file_server_error"
 msgid "Cannot create file '%1$s' because of a server error."
-msgstr "Impossibile creare il file '%1$s' a causa di un errore del server."
+msgstr "Impossibile creare il file '%1$s' a causa di un'errore del server."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_create_remote_folder"
 msgid "Cannot create folder '%1$s'."
-msgstr "Impossibile creare la cartella «%1$s»."
+msgstr "Impossibile creare la cartella '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_create_remote_folder_already_exists"
 msgid "Cannot create folder '%1$s' because it already exists."
-msgstr "Impossibile creare la cartella «%1$s» perché esiste già."
+msgstr "Impossibile creare la cartella '%1$s' perché esiste già."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_create_remote_folder_file_exists"
 msgid "Cannot create folder '%1$s' because there is a file with this name."
-msgstr ""
-"Impossibile creare la cartella '%1$s' perché è presente un file con questo nome."
+msgstr "Impossibile creare la cartella '%1$s' perché c'è un file con questo nome."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_download_file_download_error"
 msgid "Cannot download file '%1$s' from server."
 msgstr "Impossibile scaricare il file '%1$s' dal server."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_download_file_local_write_error"
 msgid "Cannot write downloaded file '%1$s' to device."
 msgstr "Impossibile scrivere il file scaricato '%1$s' sul dispositivo."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_get_remote_metadata"
 msgid "Cannot get metadata of file '%1$s' from server."
-msgstr "Impossibile ottenere i metadati del file \"%1$s\" dal server."
+msgstr "Impossibile ottenere i metadati del file '%1$s' dal server."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_open_remote_file_does_not_exist"
 msgid "Cannot open file '%1$s' on server because it does not exist."
-msgstr "Impossibile aprire il file «%1$s» sul server perché non esiste."
+msgstr "Impossibile aprire il file '%1$s' sul server perché non esiste."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_open_remote_file_is_folder"
 msgid "Cannot open file '%1$s' on server because it is a folder."
-msgstr "Impossibile aprire il file «%1$s» sul server perché è una cartella."
+msgstr "Impossibile aprire il file '%1$s' sul server perché è una cartella."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_open_remote_folder_does_not_exist"
 msgid "Cannot open folder '%1$s' on server because it does not exist."
-msgstr "Impossibile aprire la cartella \"%1$s\" sul server perché non esiste."
+msgstr "Impossibile aprire la cartella '%1$s' sul server perché non esiste."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_open_remote_folder_is_no_folder"
 msgid "Cannot open folder '%1$s' on server because it is not a folder."
-msgstr "Impossibile aprire la cartella '%1$s' sul server perché non è una cartella."
+msgstr ""
+"Impossibile aprire la cartella '%1$s' sul server perché non è una "
+"cartella."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_rename_remote_file"
 msgid "Cannot rename remote file '%1$s' to new name '%2$s'."
 msgstr "Impossibile rinominare il file remoto '%1$s' con il nuovo nome '%2$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_rename_remote_folder"
 msgid "Cannot rename remote folder '%1$s' to new name '%2$s'."
 msgstr "Impossibile rinominare la cartella remota '%1$s' con il nuovo nome '%2$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_remote_databundle_incomplete"
 msgid "Cannot load image '%1$s' because remote file '%2$s' is missing."
 msgstr "Impossibile caricare l'immagine '%1$s' perché manca il file remoto '%2$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_sync_databundle"
 msgid "Cannot sync image '%1$s'."
 msgstr "Impossibile sincronizzare l'immagine '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_sync_folder"
 msgid "Cannot sync folder '%1$s'."
 msgstr "Impossibile sincronizzare la cartella '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_delete_remote_file"
 msgid "Cannot delete remote file '%1$s'."
 msgstr "Impossibile eliminare il file remoto '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_delete_remote_folder"
 msgid "Cannot delete remote folder '%1$s'."
 msgstr "Impossibile eliminare la cartella remota '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_download_sync_server_cache_file"
 msgid "Cannot download server cache file '%1$s'."
-msgstr "Impossibile scaricare il file di cache del server '%1$s'."
+msgstr "Impossibile scaricare il file cache del server '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "error_cloud_cannot_upload_sync_server_cache_file"
 msgid "Cannot upload server cache file '%1$s'."
-msgstr "Impossibile caricare il file della cache del server '%1$s'."
+msgstr "Impossibile caricare il file cache del server '%1$s'."
 
-#, fuzzy
 msgctxt "error_cloud_cannot_scan_server_content"
 msgid "Cannot scan server content."
 msgstr "Impossibile eseguire la scansione del contenuto del server."
 
-#, fuzzy
 msgctxt "error_cloud_server_blocked"
 msgid "Server blocked by another client. Please retry at a later time."
-msgstr "Server bloccato da un altro client. Riprova più tardi."
+msgstr "Server bloccato da un'altro cliente. Riprovare più tardi."
 
 #. links
-#, fuzzy
 msgctxt "release_notes_filename"
 msgid "en.html"
 msgstr "it.html"
@@ -5339,39 +5031,41 @@ msgstr "http://www.imagemeter.com/manual"
 msgctxt "UNUSED_imageselect_error_cannot_edit_corrupted_image"
 msgid "The .imm file for this image is corrupted. You cannot edit the image."
 msgstr ""
-"Il file .imm per questa immagine è danneggiato. Non è possibile modificare l'immagine."
+"Il file .imm per questa immagine è danneggiato. Non è possibile "
+"modificare l'immagine."
 
 msgctxt "UNUSED_imageselect_error_cannot_rename_corrupted_image"
 msgid "The .imm file for this image is corrupted. You cannot rename the image."
 msgstr ""
-"Il file .imm per questa immagine è danneggiato. Non è possibile rinominare l'immagine."
+"Il file .imm per questa immagine è danneggiato. Non è possibile "
+"rinominare l'immagine."
 
 msgctxt "UNUSED_imageselect_error_cannot_export_corrupted_image"
 msgid "The images with the corrupted .imm files will not be exported."
-msgstr "Le immagini con i file .imm danneggiati non verranno esportati."
+msgstr "Le immagini con i file .imm danneggiati non verranno esportate."
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_image_version_more_recent_open_editor_anyways"
 msgid ""
-"The file version of this image (%1$d) is more recent than the maximum version "
-"supported by the ImageMeter version installed (%2$d). Opening the file may result in "
-"lost data or wrong annotations. You should use a recent version of ImageMeter to open "
-"this file.\n"
+"The file version of this image (%1$d) is more recent than the maximum "
+"version supported by the ImageMeter version installed (%2$d). Opening the"
+" file may result in lost data or wrong annotations. You should use a "
+"recent version of ImageMeter to open this file.\n"
 "\n"
 "Do you still want to open it?"
 msgstr ""
-"La versione del file di questa immagine (%1$d) è più recente rispetto all'ultima "
-"versione installata di ImageMeter (%2$d). All'apertura del file i dati potrebbero "
-"andare persi o incoerenti. È necessario utilizzare una versione recente di ImageMeter "
-"per aprire questo file.\n"
+"La versione del file di questa immagine (%1$d) è più recente rispetto "
+"all'ultima versione installata di ImageMeter (%2$d). All'apertura del "
+"file i dati potrebbero andare persi o incoerenti. Bisogna utilizzare una "
+"versione recente di ImageMeter per aprire questo file.\n"
 "\n"
 "Vuoi ancora aprirlo?"
 
 msgctxt "UNUSED_imageselect_error_metadata_format_unknown"
 msgid "Image metadata file (.imm) cannot be read, because it's format is unknown."
 msgstr ""
-"Impossibile leggere il file di metadati immagine (.imm), perché il formato è "
-"sconosciuto."
+"Impossibile leggere il file metadati dell'immagine (.imm), perché il "
+"formato è sconosciuto."
 
 msgctxt "UNUSED_imageselect_error_cannot_modify_readonly_folder"
 msgid "This is an essential system folder, you cannot remove or rename it."
@@ -5379,32 +5073,34 @@ msgstr "Questa è una cartella di sistema, non può essere cancellata o rinomina
 
 msgctxt "UNUSED_imageselect_error_cannot_move_bundle_to_folder"
 msgid ""
-"Cannot move image to new folder (maybe an image with the same name already exists)."
+"Cannot move image to new folder (maybe an image with the same name "
+"already exists)."
 msgstr ""
-"Impossibile spostare l'immagine in una nuova cartella (forse un'immagine con lo "
-"stesso nome già esiste)."
+"Impossibile spostare l'immagine in una nuova cartella (forse ne esiste "
+"già una con lo stesso nome)."
 
-#, fuzzy
 msgctxt "UNUSED_imageselect_error_external_memory_unavailable"
 msgid ""
-"External memory (where your app-data is stored) is not available. Most probably, your "
-"device stores this data on an external SD card which is currently not available. If "
-"this is not the problem in your case, you may contact info@imagemeter.com."
+"External memory (where your app-data is stored) is not available. Most "
+"probably, your device stores this data on an external SD card which is "
+"currently not available. If this is not the problem in your case, you may"
+" contact info@imagemeter.com."
 msgstr ""
-"La memoria esterna (dove i dati app sono memorizzati) non è disponibile. Molto "
-"probabilmente, il tuo dispositivo memorizza i dati su una scheda SD esterna che non è "
-"attualmente disponibile. Se questo non è il problema nel tuo caso, puoi contattare "
-"info@imagemeter.com."
+"La memoria esterna (dove sono memorizzati i dati app) non è disponibile. "
+"Molto probabilmente, il tuo dispositivo memorizza i dati su una scheda SD"
+" esterna che non è attualmente disponibile. Se nel tuo caso non è questo "
+"il problema, puoi contattare info@imagemeter.com."
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_folder_cannot_create"
 msgid ""
-"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure the media (e."
-"g. SD-card) is mounted, this directory exists and is writable."
+"Cannot create the folder '%1$s' within this directory: '%2$s'. Make sure "
+"the media (e.g. SD-card) is mounted, this directory exists and is "
+"writable."
 msgstr ""
-"Impossibile creare la cartella '%1$s' all'interno di questa directory: '%2$s'. "
-"Assicurarsi che il supporto (ad esempio, SD-card) sia disponibile, questa directory "
-"esiste e ed è scrivibile."
+"Impossibile creare la cartella '%1$s' all'interno di questa directory: "
+"'%2$s'. Assicurarsi che il supporto (ad esempio, scheda SD) sia "
+"disponibile, questa directory esiste e sia è scrivibile."
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_cannot_access_external_data"
@@ -5414,17 +5110,17 @@ msgstr "Impossibile accedere ai dati esterni alla posizione '%1$s'."
 #, c-format
 msgctxt "UNUSED_imageselect_error_cannot_create_existing_folder"
 msgid "Cannot create folder '%1$s' because it already exists."
-msgstr "Impossibile creare la cartella '%1$s' perché già esiste."
+msgstr "Impossibile creare la cartella '%1$s' perché esiste già."
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_folder_rename_target_exists"
 msgid "Cannot rename folder to '%1$s' because that already exists."
-msgstr "Impossibile rinominare la cartella a '%1$s' perché già esiste."
+msgstr "Impossibile rinominare la cartella in '%1$s' perché esiste già."
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_folder_does_not_exist_detailed"
 msgid "Folder '%1$s' does not exist anymore (expected location '%2$s')."
-msgstr "La cartella '%1$s' non esiste più (posizione prevista ' %2$s ')."
+msgstr "La cartella '%1$s' non esiste più (posizione prevista '%2$s')."
 
 #, c-format
 msgctxt "UNUSED_imageselect_error_cannot_write_data_bundle"
@@ -5443,28 +5139,29 @@ msgstr "Impossibile eliminare l'immagine '%1$s'."
 
 msgctxt "UNUSED_imageselect_error_url_of_imported_file_not_found"
 msgid "Image to be imported cannot be found."
-msgstr "L'immagine da importare non può essere trovata."
+msgstr "L'immagine da importare non è stata trovata."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "UNUSED_error_cannot_save_annotated_image"
 msgid "Cannot save annotated image because: '%1$s'."
 msgstr "Impossibile salvare l'immagine annotata perché: '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "UNUSED_error_cannot_save_thumbnail_image"
 msgid "Cannot save thumbnail image because: '%1$s'."
 msgstr "Impossibile salvare l'immagine in miniatura perché: '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "UNUSED_error_cannot_access_files_in_folder"
 msgid "Cannot access files in folder '%1$s'."
-msgstr "Impossibile accedere ai file nella cartella \"%1$s\"."
+msgstr "Impossibile accedere ai file nella cartella '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "UNUSED_error_target_folder_contains_bundle_with_same_id"
 msgid "Folder '%1$s' contains image '%2$s' with the same ID as image '%3$s'."
 msgstr ""
-"La cartella '%1$s' contiene l'immagine '%2$s' con lo stesso ID dell'immagine '%3$s'."
+"La cartella '%1$s' contiene l'immagine '%2$s' con lo stesso Id "
+"dell'immagine '%3$s'."
 
 msgctxt "UNUSED_storage_error_external_storage_read_only"
 msgid "External storage is read-only."
@@ -5476,15 +5173,16 @@ msgstr "Non è possibile scrivere il file nella memoria esterna."
 
 msgctxt "UNUSED_storage_error_external_storage_could_not_get_permission_to_write_images"
 msgid ""
-"Could not get permission to write to external storage. No files have been written."
+"Could not get permission to write to external storage. No files have been"
+" written."
 msgstr ""
-"Impossibile ottenere il permesso di scrivere su un archivio esterno. Nessun file è "
-"stato scritto."
+"Impossibile ottenere il permesso di scrivere su un'archivio esterno. "
+"Nessun file è stato scritto."
 
 #, c-format
 msgctxt "UNUSED_storage_error_cannot_create_directory_on_external_storage"
 msgid "Could not create directory '%1$s' on external storage."
-msgstr "Impossibile creare la directory (%1$s) sulla memoria esterna."
+msgstr "Impossibile creare la directory '%1$s' sulla memoria esterna."
 
 msgctxt "UNUSED_storage_error_external_storage_destination_is_no_directory"
 msgid "External storage destination is not a directory."
@@ -5493,61 +5191,57 @@ msgstr "La destinazione nella memoria esterna non è una cartella."
 #, c-format
 msgctxt "UNUSED_storage_error_data_bundle_corrupted"
 msgid "Data in image directory '%1$s' is corrupted."
-msgstr "I dati nella directory di immagine '%1$s' sono danneggiati."
+msgstr "I dati nella directory delle immagini '%1$s' sono danneggiati."
 
 msgctxt "UNUSED_storage_error_no_permission_to_read_image_to_be_imported"
 msgid ""
-"Cannot import image because the permission to read external storage has not been "
-"granted."
+"Cannot import image because the permission to read external storage has "
+"not been granted."
 msgstr ""
-"Impossibile importare l'immagine perché l'autorizzazione per la lettura di "
-"archiviazione esterna non è stata concessa."
+"Impossibile importare l'immagine perché l'autorizzazione per la lettura "
+"di archiviazioni esterne non è stata concessa."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "UNUSED_storage_error_cannot_read_ifd_file"
 msgid "Cannot read IFD file in folder '%1$s'."
-msgstr "Impossibile leggere il file IFD nella cartella \"%1$s\"."
+msgstr "Impossibile leggere il file IFD nella cartella '%1$s'."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "UNUSED_error_cannot_open_file_does_not_exist"
 msgid "Cannot open file '%1$s' because it does not exist."
-msgstr "Impossibile aprire il file «%1$s» perché non esiste."
+msgstr "Impossibile aprire il file '%1$s' perché non esiste."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "UNUSED_error_cannot_open_file_is_folder"
 msgid "Cannot open file '%1$s' because it is a folder."
-msgstr "Impossibile aprire il file «%1$s» perché è una cartella."
+msgstr "Impossibile aprire il file '%1$s' perché è una cartella."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "UNUSED_error_cannot_write_file"
 msgid "Cannot write to file '%1$s'."
-msgstr "Impossibile scrivere nel file «%1$s»."
+msgstr "Impossibile scrivere nel file '%1$s'."
 
-#, fuzzy
 msgctxt "UNUSED_storage_error_cannot_load_image_file_from_remote"
 msgid "Cannot load the image file from cloud storage."
-msgstr "Impossibile caricare il file immagine dal cloud storage."
+msgstr "Impossibile caricare il file immagine dall'archivio cloud."
 
-#, fuzzy
 msgctxt "UNUSED_storage_note_pulling_image_file_from_remote"
 msgid "Downloading image file from cloud storage."
-msgstr "Download del file immagine dall'archivio cloud."
+msgstr "Scaricamento file immagine dall'archivio cloud."
 
 #. old gallery export
-#, fuzzy
 msgctxt "UNUSED_export_dialog_saving_images_to_external_storage"
 msgid "Saving images to external storage…"
 msgstr "Salvataggio immagini nella memoria esterna..."
 
-#, fuzzy
 msgctxt "UNUSED_export_dialog_image_saved_to_external_storage"
 msgid "Saved image to external storage…"
 msgstr "Immagini salvate nella memoria esterna..."
 
-#, fuzzy, c-format
+#, c-format
 msgctxt "UNUSED_export_dialog_images_saved_to_external_storage"
 msgid "Saved %1$d images to external storage…"
-msgstr "Salvate %1$d immagini nella memoria esterna..."
+msgstr "%1$d immagini salvate nella memoria esterna..."
 
 msgctxt "UNUSED_export_dialog_saving_images_success_title"
 msgid "Export finished"
@@ -5562,23 +5256,25 @@ msgid ""
 msgstr ""
 "Le immagini sono state salvate nella cartella '%1$s'.\n"
 "\n"
-"Forse puoi anche trovarli più facilmente sotto /sdcard/Pictures."
+"Forse puoi trovarle anche più facilmente in /sdcard/Pictures."
 
 msgctxt "UNUSED_export_dialog_overwrite_extpics_images_message"
 msgid "Images with the same name exist in the target directory."
-msgstr "Le immagini con lo stesso nome sono presenti nella directory di destinazione."
+msgstr ""
+"Le immagini con lo stesso nome sono presenti nella directory di "
+"destinazione."
 
 msgctxt "UNUSED_export_dialog_overwrite_extpics_images_overwrite"
 msgid "Overwrite"
-msgstr "Sovrascrivere"
+msgstr "Sovrascrivi"
 
 msgctxt "UNUSED_export_dialog_overwrite_extpics_images_keep_both"
 msgid "Rename"
-msgstr "Rinominare"
+msgstr "Rinomina"
 
 msgctxt "UNUSED_export_dialog_overwrite_extpics_images_cancel"
 msgid "Cancel"
-msgstr "Cancellare"
+msgstr "Annulla"
 
 msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_message"
 msgid "A folder with the same name already exists."
@@ -5590,34 +5286,33 @@ msgstr "Sostituire"
 
 msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_merge"
 msgid "Merge"
-msgstr "Fondere"
+msgstr "Fondi"
 
 msgctxt "UNUSED_export_dialog_overwrite_extpics_folder_cancel"
 msgid "Cancel"
-msgstr "Cancellare"
+msgstr "Annulla"
 
 #. Dialog: duplicate image import
 msgctxt "UNUSED_dialog_duplicate_image_import_title"
 msgid "Image Import"
-msgstr "Importazione immagini"
+msgstr "Importazione immagine"
 
 #, c-format
 msgctxt "UNUSED_dialog_duplicate_image_import_message"
 msgid "Imported image '%1$s' already exists."
-msgstr "L'immagine '%1$s' da importare già esiste."
+msgstr "L'immagine '%1$s' da importare esiste già."
 
 msgctxt "UNUSED_dialog_duplicate_image_import_overwrite"
 msgid "Overwrite"
-msgstr "Sovrascrivere"
+msgstr "Sovrascrivi"
 
-#, fuzzy
 msgctxt "UNUSED_dialog_duplicate_image_import_keep_both"
 msgid "Keep both"
 msgstr "Tieni entrambi"
 
 msgctxt "UNUSED_dialog_duplicate_image_import_skip"
 msgid "Skip"
-msgstr "Ignora"
+msgstr "Salta"
 
 msgctxt "UNUSED_dialog_duplicate_folder_import_title"
 msgid "Folder Import"
@@ -5626,24 +5321,24 @@ msgstr "Importazione cartella"
 #, c-format
 msgctxt "UNUSED_dialog_duplicate_folder_import_message"
 msgid ""
-"Imported folder '%1$s' already exists. %3$d images should be imported, out of which "
-"%2$d already exist locally."
+"Imported folder '%1$s' already exists. %3$d images should be imported, "
+"out of which %2$d already exist locally."
 msgstr ""
-"La cartella importata '%1$s' esiste già. Dovrebbero essere importate %3$d immagini, "
-"di cui %2$d esistono già localmente."
+"La cartella importata '%1$s' esiste già. Dovrebbero essere importate %3$d"
+" immagini, di cui %2$d già presenti localmente."
 
 #, c-format
 msgctxt "UNUSED_dialog_duplicate_folder_no_duplicate_images_import_message"
 msgid "Imported folder '%1$s' already exists, but there are no duplicate images."
-msgstr "La cartella '%1$s' già esiste, ma non esistono immagini doppie."
+msgstr "La cartella '%1$s' esiste già, ma non ci sono immagini duplicate."
 
 msgctxt "UNUSED_dialog_duplicate_folder_import_merge"
 msgid "Merge"
-msgstr "Fondere"
+msgstr "Fondi"
 
 msgctxt "UNUSED_dialog_duplicate_folder_import_overwrite"
 msgid "Overwrite"
-msgstr "Sovrascrivere"
+msgstr "Sovrascrivi"
 
 msgctxt "UNUSED_dialog_duplicate_folder_import_keep_both"
 msgid "Keep both"
@@ -5651,14 +5346,13 @@ msgstr "Tieni entrambi"
 
 msgctxt "UNUSED_dialog_duplicate_folder_import_skip"
 msgid "Skip"
-msgstr "Ignora"
+msgstr "Salta"
 
-#, fuzzy
 msgctxt "dummy:0"
 msgid "item 1"
-msgstr "articolo 1"
+msgstr "oggetto 1"
 
-#, fuzzy
 msgctxt "dummy:1"
 msgid "item 2"
-msgstr "articolo 2"
+msgstr "oggetto 2"
+

@@ -7,16 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-08 20:29+0200\n"
+"POT-Creation-Date: 2025-10-29 17:45+0100\n"
 "PO-Revision-Date: 2022-07-06 11:01+0200\n"
 "Last-Translator: \n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(((n == 0) || (n == 1)) ? 0 : 1)\n"
+"Plural-Forms: nplurals=3; plural=(((((((e == 0)) && (!((n == 0)))) && "
+"(((n % 1000000) == 0))) && ((0 == 0))) || (!((e >= 0 && e <= 5)))) ? 1 : "
+"((n == 0) || (n == 1)) ? 0 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.17.0\n"
 
 #. generic strings
 msgctxt "generic_button_ok"
@@ -548,6 +550,17 @@ msgstr ""
 "href=\"https://www.imagemeter.com/manual/license/android-"
 "licenses\"&gt;visitez le site Web&lt;/a&gt;."
 
+#, fuzzy
+msgctxt "upgradeDialog_noteUpgradesAreForAndroid"
+msgid ""
+"Note: These upgrades are valid on all Android devices that use your "
+"current Google account. However, the upgrades do not include the license "
+"for the Windows version of ImageMeter."
+msgstr ""
+"Remarque: Ces mises à niveau sont valables sur tous les appareils Android"
+" utilisant votre compte Google actuel. Cependant, les mises à niveau "
+"n'incluent pas la licence pour la version Windows d'ImageMeter."
+
 msgctxt "upgradeDialog_addon_without_pro_title"
 msgid "Add-on without Pro upgrade?"
 msgstr "Module complémentaire sans mise à niveau Pro?"
@@ -688,10 +701,6 @@ msgid ""
 msgstr ""
 "&lt;a "
 "href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\"&gt;Compteur&lt;/a&gt;"
-
-msgctxt "upgrade_item_cloud_access_from_office_pc"
-msgid "Access images from your office PC"
-msgstr "Accédez aux images depuis votre ordinateur de bureau"
 
 msgctxt "upgrade_item_cloud_device_sync"
 msgid "Sync images between devices"
@@ -1307,9 +1316,10 @@ msgid "Compressing ZIP file…"
 msgstr "Compression du fichier ZIP ..."
 
 #. CSV export
+#, fuzzy
 msgctxt "dialog_csv_export_title"
-msgid "Data table export (CSV)"
-msgstr "Exportation de table de données (CSV)"
+msgid "Data table export (XLSX / CSV)"
+msgstr "Exportation de table de données (XLSX / CSV)"
 
 #. export
 #. notifications
@@ -1339,6 +1349,7 @@ msgid "%1d image left …"
 msgid_plural "%1d images left …"
 msgstr[0] "%1d image restante …"
 msgstr[1] "%1d images restantes …"
+msgstr[2] ""
 
 msgctxt "notification_channel_background_processing_title"
 msgid "Background processing"
@@ -1390,6 +1401,7 @@ msgid "%1d image left …"
 msgid_plural "%1d images left …"
 msgstr[0] "%1d image restante …"
 msgstr[1] "%1d images restantes …"
+msgstr[2] ""
 
 msgctxt "notification_error_no_permission_to_save_to_gallery"
 msgid "Cannot save to gallery because ImageMeter has no storage write permission."
@@ -1651,6 +1663,10 @@ msgctxt "pref_bluetooth_device_protocol_bosch_plr"
 msgid "Bosch PLR"
 msgstr "Bosch PLR"
 
+msgctxt "pref_bluetooth_device_protocol_bosch_advdist_50c"
+msgid "Bosch AdvancedDistance 50C"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_bosch_dle150c"
 msgid "Bosch DLE150c"
 msgstr "Bosch DLE150c"
@@ -1721,9 +1737,13 @@ msgctxt "pref_bluetooth_device_protocol_hilti_pd"
 msgid "Hilti PD Bluetooth LE"
 msgstr "Hilti PD Bluetooth LE"
 
-msgctxt "pref_bluetooth_device_protocol_stabila"
-msgid "Stabila"
-msgstr "Stabila"
+msgctxt "pref_bluetooth_device_protocol_stabila_ld250bt"
+msgid "Stabila LD250BT"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_stabila_ld520"
+msgid "Stabila LD520"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_wuerth"
 msgid "Würth WDM 3–19"
@@ -1739,21 +1759,69 @@ msgctxt "pref_bluetooth_device_protocol_wuerth_wdm622"
 msgid "Würth WDM 6–22"
 msgstr "Würth WDM 6–22"
 
-msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
-msgid "Leica Disto classic"
-msgstr "Leica Disto classic"
+msgctxt "pref_bluetooth_device_protocol_wuerth_wdm924"
+msgid "Würth WDM 9–24"
+msgstr ""
 
-msgctxt "pref_bluetooth_device_protocol_leica_disto_bt4"
-msgid "Leica Disto Bluetooth LE"
-msgstr "Leica Disto Bluetooth LE"
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d3a_bt"
+msgid "Leica Disto D3a-BT"
+msgstr ""
 
-msgctxt "pref_bluetooth_device_protocol_leica_disto_x"
-msgid "Leica Disto X3/X4"
-msgstr "Leica Disto X3/X4"
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d330i"
+msgid "Leica Disto D330i"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_plus"
+msgid "Leica Disto Plus"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_a6"
+msgid "Leica Disto A6"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_laserproducts_lt44xl"
+msgid "LaserProducts LT44XL"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d110"
+msgid "Leica Disto D110"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d510"
+msgid "Leica Disto D510"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d810"
+msgid "Leica Disto D810"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x3"
+msgid "Leica Disto X3"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x4"
+msgid "Leica Disto X4"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x6"
+msgid "Leica Disto X6"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d5"
+msgid "Leica Disto D5"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_d1"
 msgid "Leica Disto D1"
 msgstr "Leica Disto D1"
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d2"
+msgid "Leica Disto D2"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d8"
+msgid "Leica Disto D8"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_lti_trupulse"
 msgid "LTI TruPulse"
@@ -1810,6 +1878,18 @@ msgstr "Mileseey DT20"
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
 msgid "Sndway SW-S100"
 msgstr "Sndway SW-S100"
+
+msgctxt "pref_bluetooth_device_protocol_sndway_sw_80gq"
+msgid "Sndway SW-80GQ"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_sndway_sw_120gq"
+msgid "Sndway SW-120GQ"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_sndway_sw_150gq"
+msgid "Sndway SW-150GQ"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_uni_t_lm40b"
 msgid "UNI-T LM40B"
@@ -1907,6 +1987,10 @@ msgctxt "pref_bluetooth_device_protocol_sola_cito"
 msgid "Sola Cito"
 msgstr ""
 
+msgctxt "pref_bluetooth_device_protocol_solaflex_rx5"
+msgid "Solaflex RX5"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_einhell_te_ld60"
 msgid "Einhell TE-LD60"
 msgstr "Einhell TE-LD60"
@@ -1973,6 +2057,14 @@ msgctxt "pref_bluetooth_device_protocol_thinrad_t100c"
 msgid "Thinrad T100C"
 msgstr ""
 
+msgctxt "pref_bluetooth_device_protocol_hozo_neorulergo"
+msgid "Hozo NeoRulerGO"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_reekon_t1"
+msgid "Reekon T1"
+msgstr ""
+
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
 msgid "LTI TruPulse distance mode"
 msgstr "Mode de distance LTI TruPulse"
@@ -2011,8 +2103,13 @@ msgctxt "pref_bluetooth_use_device_format"
 msgid "Use device value format"
 msgstr "Utiliser le format de valeur du périphérique"
 
+msgctxt "pref_bluetooth_use_keyboard_device_format"
+msgid "Use keyboard device value format"
+msgstr ""
+
+#, fuzzy
 msgctxt "pref_bluetooth_use_device_format_summaryon"
-msgid "Same value format (not available for all devices)"
+msgid "Device format (not available for all devices)"
 msgstr "Format identique (non disponible pour tous les appareils)"
 
 msgctxt "pref_bluetooth_use_device_format_summaryoff"
@@ -2042,20 +2139,23 @@ msgctxt "pref_category_editor_general"
 msgid "General"
 msgstr "Général"
 
+#, fuzzy
 msgctxt "pref_ui_editor_fullscreen_mode_title"
-msgid "Editor fullscreen mode"
-msgstr "Mode plein écran de l'éditeur"
+msgid "Hide system toolbar"
+msgstr ""
 
+#, fuzzy
 msgctxt "pref_ui_editor_fullscreen_mode_dialog"
-msgid "Editor fullscreen mode"
-msgstr "Mode plein écran de l'éditeur"
+msgid "Hide system toolbar"
+msgstr ""
 
 msgctxt "pref_ui_editor_fullscreen_mode_choices:0"
 msgid "Never"
 msgstr "Jamais"
 
+#, fuzzy
 msgctxt "pref_ui_editor_fullscreen_mode_choices:1"
-msgid "Only landscape"
+msgid "Only in landscape orientation"
 msgstr "Seulement en paysage"
 
 msgctxt "pref_ui_editor_fullscreen_mode_choices:2"
@@ -2069,6 +2169,10 @@ msgstr "Afficher le curseur de zoom"
 msgctxt "pref_editor_keep_screen_on"
 msgid "Keep screen on while editing"
 msgstr "Gardez l'écran allumé pendant l'édition"
+
+msgctxt "pref_editor_show_image_title"
+msgid "Show image title"
+msgstr ""
 
 msgctxt "pref_ui_editor_dragging_speed"
 msgid "Dragging slowdown"
@@ -2704,8 +2808,8 @@ msgid ""
 "<b>Pull</b>: locally deleted images are not deleted on the server, but "
 "images deleted on the server are also deleted locally."
 msgstr ""
-"<b>Pull</b> : les images supprimées localement ne sont pas supprimées sur"
-" le serveur, mais les images supprimées sur le serveur sont également "
+"<b>Pull</b>: les images supprimées localement ne sont pas supprimées sur "
+"le serveur, mais les images supprimées sur le serveur sont également "
 "supprimées localement."
 
 msgctxt "pref_storage_cloud_sync_twoway_mode_safe_sync"
@@ -2713,24 +2817,27 @@ msgid ""
 "<b>Push</b>: locally deleted images are also deleted on the server, but "
 "images deleted on the server are not deleted locally."
 msgstr ""
-"Supprimez les images supprimées du serveur, mais conservez les images "
-"locales lorsqu'elles ont été supprimées ailleurs."
+"<b>Push</b>: les images supprimées localement sont également supprimées "
+"sur le serveur, mais les images supprimées sur le serveur ne sont pas "
+"supprimées localement."
 
 msgctxt "pref_storage_cloud_sync_twoway_mode_full_sync"
 msgid ""
 "<b>Sync</b>: locally deleted images are also deleted on the server and "
 "images deleted on the server are deleted locally."
 msgstr ""
-"Supprimez les images locales lorsqu'elles ont été supprimées sur un autre"
-" appareil (SOYEZ PRUDENT)."
+"<b>Sync</b>: les images supprimées localement sont également supprimées "
+"sur le serveur et les images supprimées sur le serveur sont supprimées "
+"localement."
 
 msgctxt "pref_storage_cloud_sync_twoway_mode_backup"
 msgid ""
 "<b>Backup</b>: locally deleted images not deleted on the server and "
 "images deleted on the server are not deleted locally."
 msgstr ""
-"Ne supprimez jamais les images du serveur. Vous pouvez obtenir des "
-"doublons lorsque vous déplacez des images."
+"<b>Backup</b>: les images supprimées localement ne sont pas supprimées "
+"sur le serveur et les images supprimées sur le serveur ne sont pas "
+"supprimées localement."
 
 msgctxt "pref_storage_cloud_sync_imageupload_mode"
 msgid "Image-upload sync mode"
@@ -2933,10 +3040,10 @@ msgid ""
 "Please note that the target directory now contains an incomplete copy of "
 "the source data!"
 msgstr ""
-"Impossible de copier toutes les images dans le répertoire cible. "
-"Peut-être que vos noms de dossier ne sont pas des noms de fichiers "
-"valides sur le système de fichiers cible. Renommez-les et essayez de "
-"copier les données restantes.\n"
+"Impossible de copier toutes les images dans le répertoire cible. Peut-"
+"être que vos noms de dossier ne sont pas des noms de fichiers valides sur"
+" le système de fichiers cible. Renommez-les et essayez de copier les "
+"données restantes.\n"
 "\n"
 "Le répertoire de stockage actif n'a pas été changé.\n"
 "\n"
@@ -2994,6 +3101,10 @@ msgctxt "pref_cloud_storage_server_handwerkcloud"
 msgid "Handwerkcloud"
 msgstr "Handwerkcloud"
 
+msgctxt "pref_cloud_storage_server_sftp"
+msgid "SFTP"
+msgstr ""
+
 msgctxt "pref_cloud_storage_server_imagemeter_predefined"
 msgid "ImageMeter"
 msgstr "ImageMeter"
@@ -3013,6 +3124,10 @@ msgstr "Nextcloud / Owncloud"
 msgctxt "cloud_storage_provider_onedrive"
 msgid "OneDrive"
 msgstr "OneDrive"
+
+msgctxt "cloud_storage_provider_sftp"
+msgid "SFTP"
+msgstr ""
 
 msgctxt "cloud_storage_server_note_drive"
 msgid ""
@@ -3067,6 +3182,10 @@ msgid ""
 msgstr ""
 "Le backend OneDrive peut convenir si vous souhaitez accéder facilement à "
 "vos images annotées depuis votre PC Windows."
+
+msgctxt "cloud_storage_server_note_sftp"
+msgid "This backend allows you to use an SFTP server to store the data."
+msgstr ""
 
 msgctxt "cloud_storage_do_two_way_sync"
 msgid "Do two-way sync"
@@ -3138,6 +3257,18 @@ msgstr "Connexion manuelle"
 msgctxt "cloud_storage_handwerkcloud_login_button"
 msgid "Log in"
 msgstr "S'identifier"
+
+msgctxt "cloud_storage_sftp_fingerprint"
+msgid "Server fingerprint:"
+msgstr ""
+
+msgctxt "cloud_storage_sftp_check_sign_in"
+msgid "Check sign in"
+msgstr ""
+
+msgctxt "cloud_storage_sftp_sign_in_successful"
+msgid "Signed in successfully."
+msgstr ""
 
 msgctxt "cloud_storage_server_url"
 msgid "Server URL:"
@@ -3266,6 +3397,10 @@ msgstr "Type:"
 msgctxt "pref_template_config_custom_unit"
 msgid "Unit:"
 msgstr "Unité:"
+
+msgctxt "pref_template_config_custom_table_list_title"
+msgid "Custom Template Table Layouts"
+msgstr ""
 
 msgctxt "pref_template_config_custom_section_table_layouts"
 msgid "Table layouts"
@@ -3962,6 +4097,11 @@ msgctxt "editor_dialog_style_ellipse_title"
 msgid "Ellipse style"
 msgstr "Style Ellipse"
 
+#. GResultsList
+msgctxt "editor_dialog_style_resultslist_title"
+msgid "Results list style"
+msgstr ""
+
 #. GMeasure
 msgctxt "editor_dialog_style_line_title"
 msgid "Line style"
@@ -4494,9 +4634,14 @@ msgctxt "bluetooth_error_cannot_set_value_element_is_locked"
 msgid "element is locked"
 msgstr "l'élément est verrouillé"
 
+#, fuzzy
 msgctxt "bluetooth_pref_button_start_bluetooth_scan"
-msgid "Start Bluetooth device scan"
+msgid "Scan (LE)"
 msgstr "Démarrer la recherche du périphérique Bluetooth"
+
+msgctxt "bluetooth_pref_button_start_bluetooth_classic_scan"
+msgid "Scan (classic)"
+msgstr ""
 
 msgctxt "bluetooth_pref_scanning_in_progress"
 msgid "Scanning ..."
@@ -4740,15 +4885,18 @@ msgstr "Les fichiers sont actuellement utilisés."
 
 #. used in PrefsStorageDirectory
 #. import/export errors
+#, python-brace-format
 msgctxt "imerror_cannot_export_image"
 msgid "Cannot export image '{}'."
 msgstr "Impossible d'exporter l'image '{}'."
 
 #. other errors
+#, python-brace-format
 msgctxt "imerror_string_template_unknown_field"
 msgid "Unknown field '{}' in string template."
 msgstr "Champ inconnu '{}' dans le modèle de chaîne."
 
+#, python-brace-format
 msgctxt "imerror_string_template_syntax_error"
 msgid "Syntax error in string template '{}'."
 msgstr "Erreur de syntaxe dans le modèle de chaîne '{}'."

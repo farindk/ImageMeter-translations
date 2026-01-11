@@ -18,6 +18,18 @@ msgctxt "pc:error:cannot-find-windows-explorer"
 msgid "Cannot find 'explorer.exe' in path to launch Windows Explorer."
 msgstr "Невозможно найти «explorer.exe» в пути для запуска проводника Windows."
 
+msgctxt "pc:save-as-default:confirmation-dialog:title"
+msgid "Confirm Saving as Default"
+msgstr ""
+
+msgctxt "pc:save-as-default:confirmation-dialog:text:company-logo"
+msgid "Are you sure to save these company logo settings as the default?"
+msgstr ""
+
+msgctxt "pc:save-as-default:confirmation-dialog:text:overlay-text"
+msgid "Are you sure to save these overlay text settings as the default?"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:setup-wizard:dialog-title"
 msgid "ImageMeter Setup"
@@ -90,13 +102,22 @@ msgstr "Каталог изображений"
 
 #, fuzzy
 msgctxt "pc:setup-wizard:library:subtitle"
-msgid "Set the directory where ImageMeter should store the images and measurements."
-msgstr "Укажите каталог, в котором ImageMeter будет хранить изображения и измерения."
+msgid ""
+"Set the directory where ImageMeter should store the images and measurements."
+msgstr ""
+"Укажите каталог, в котором ImageMeter будет хранить изображения и измерения."
 
 #, fuzzy
 msgctxt "pc:setup-wizard:library:description"
-msgid "Note: this is the directory where ImageMeter will store its local data. This is NOT related to cloud sync. Thus, do not set it to the cloud sync directory. If unsure, leave it at the default."
-msgstr "Примечание: это каталог, в котором ImageMeter будет хранить свои локальные данные. Это НЕ связано с облачной синхронизацией. Таким образом, не устанавливайте его в каталог облачной синхронизации. Если не уверены, оставьте значение по умолчанию."
+msgid ""
+"Note: this is the directory where ImageMeter will store its local data. This "
+"is NOT related to cloud sync. Thus, do not set it to the cloud sync "
+"directory. If unsure, leave it at the default."
+msgstr ""
+"Примечание: это каталог, в котором ImageMeter будет хранить свои локальные "
+"данные. Это НЕ связано с облачной синхронизацией. Таким образом, не "
+"устанавливайте его в каталог облачной синхронизации. Если не уверены, "
+"оставьте значение по умолчанию."
 
 #, fuzzy
 msgctxt "pc:setup-wizard:library:label-image-directory"
@@ -172,6 +193,14 @@ msgstr "Открыть и импортировать изображение..."
 msgctxt "pc:mainwindow:menu:file:open-image-from-system-clipboard"
 msgid "Open image from system clipboard"
 msgstr "Открыть изображение из системного буфера обмена"
+
+msgctxt "pc:mainwindow:menu:file:store-image-in-system-clipboard"
+msgid "Store image in system clipboard"
+msgstr ""
+
+msgctxt "pc:clipboard:store-needs-saved-image"
+msgid "Please save the image before storing it in the clipboard"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:mainwindow:menu:file:import-to-library"
@@ -268,6 +297,14 @@ msgctxt "pc:mainwindow:menu:edit:unlock-element"
 msgid "Unlock element"
 msgstr "Разблокировать элемент"
 
+msgctxt "pc:mainwindow:menu:edit:raise-element"
+msgid "Raise element"
+msgstr ""
+
+msgctxt "pc:mainwindow:menu:edit:lower-element"
+msgid "Lower element"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:menu:edit:element-to-front"
 msgid "Element to front"
@@ -363,6 +400,10 @@ msgctxt "pc:mainwindow:menu:image:image-settings"
 msgid "Image &settings..."
 msgstr "Изображение и настройки..."
 
+msgctxt "pc:mainwindow:menu:image:overlay-settings"
+msgid "&Overlay settings..."
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:menu:image:element-locking"
 msgid "Element locking..."
@@ -383,15 +424,18 @@ msgctxt "pc:mainwindow:menu:image:capture-video-frame"
 msgid "Capture image"
 msgstr "Захватить изображение"
 
-#, fuzzy
 msgctxt "pc:mainwindow:menu:image:use-dimformat-from-settings"
-msgid "Use units from settings for all elements"
-msgstr "Использовать единицы из настроек для всех элементов"
+msgid "Use default units for all elements"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:mainwindow:menu:image:calibrate-camera-from-image"
 msgid "Calibrate camera from image"
 msgstr "Калибровка камеры по изображению"
+
+msgctxt "pc:mainwindow:menu:image:insert-new-image-layer"
+msgid "Insert image layer"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:mainwindow:menu:windows"
@@ -422,6 +466,10 @@ msgctxt "pc:mainwindow:menu:help:about"
 msgid "&About..."
 msgstr ""
 
+msgctxt "pc:mainwindow:menu:help:whats-new"
+msgid "Whats &New..."
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:menu:help:feedback"
 msgid "&Feedback..."
@@ -447,6 +495,57 @@ msgctxt "pc:mainwindow:dock:label-style:title"
 msgid "Label Style"
 msgstr "Стиль этикетки"
 
+msgctxt "pc:mainwindow:dock:layers:title"
+msgid "Layers"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:header:name"
+msgid "Name"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:header:visible:tooltip"
+msgid "Layer is visible"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:header:opacity:tooltip"
+msgid "Layer opacity"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:header:master:tooltip"
+msgid "Master/original image"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:add-image-layer"
+msgid "Add image layer"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:add-annotation-layer"
+msgid "Add annotation layer"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:move-layer-up"
+msgid "Move layer up in stack"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:move-layer-down"
+msgid "Move layer down in stack"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:delete-layer"
+msgid "Delete layer"
+msgstr ""
+
+msgctxt ""
+"pc:mainwindow:layers:delete-layer:annotation:confirmation-dialog:title"
+msgid "Delete layer containing elements"
+msgstr ""
+
+msgctxt "pc:mainwindow:layers:delete-layer:annotation:confirmation-dialog:text"
+msgid ""
+"This layer contains annotation elements. Do you want to delete the layer "
+"with all elements?"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:title"
 msgid "Basic editing"
@@ -454,13 +553,13 @@ msgstr "Базовое редактирование"
 
 #, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:line-width"
-msgid "Line width:"
-msgstr "Ширина линии:"
+msgid "Line width"
+msgstr "Ширина линии"
 
 #, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:font-size"
-msgid "Font size:"
-msgstr "Размер шрифта:"
+msgid "Font size"
+msgstr "Размер шрифта"
 
 #, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:toggle-display:image"
@@ -492,6 +591,10 @@ msgctxt "pc:mainwindow:toolbar:drawing-tools:title"
 msgid "Drawing tools"
 msgstr "Инструменты для рисования"
 
+msgctxt "pc:mainwindow:toolbar:bluetooth-control:title"
+msgid "Bluetooth control toolbar"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:error:cannot-rename-folder:in-use"
 msgid "Cannot rename folder. It is currently in use."
@@ -499,8 +602,12 @@ msgstr "Невозможно переименовать папку. Она в д
 
 #, fuzzy
 msgctxt "pc:error:cannot-quit-program:sync-in-progress"
-msgid "Cannot quit program now because cloud synchronization is currently in progress."
-msgstr "Невозможно выйти из программы, так как в данный момент выполняется синхронизация с облаком."
+msgid ""
+"Cannot quit program now because cloud synchronization is currently in "
+"progress."
+msgstr ""
+"Невозможно выйти из программы, так как в данный момент выполняется "
+"синхронизация с облаком."
 
 #, fuzzy
 msgctxt "pc:mainwindow:quit-program:unsaved-changed:dialog-title"
@@ -516,6 +623,18 @@ msgstr "Изображения с несохраненными изменени�
 msgctxt "pc:mainwindow:quit-program:unsaved-changed:question"
 msgid "Do you want to save all changes?"
 msgstr "Хотите сохранить все изменения?"
+
+msgctxt "pc:layers:assign-to-element:dialog:title"
+msgid "Assign layer"
+msgstr ""
+
+msgctxt "pc:layers:assign-to-element:dialog:text"
+msgid "Move element to layer:"
+msgstr ""
+
+msgctxt "pc:layers:assign-to-element:tooltip"
+msgid "Move element to layer"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:image-library:button:new-folder:tooltip"
@@ -677,12 +796,16 @@ msgctxt "pc:error-dialog:window-title:error"
 msgid "Error"
 msgstr "Ошибка"
 
-msgctxt "pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-title"
+msgctxt ""
+"pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-title"
 msgid "Use units from settings"
 msgstr ""
 
-msgctxt "pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-text"
-msgid "Also convert the units of the values that you entered manually or by Bluetooth?"
+msgctxt ""
+"pc:edit-image:use-dimformat-from-settings:also-user-entered:dialog-text"
+msgid ""
+"Also convert the units of the values that you entered manually or by "
+"Bluetooth?"
 msgstr ""
 
 #, fuzzy
@@ -725,6 +848,10 @@ msgctxt "pc:import:pdf:progress-dialog-message"
 msgid "Importing PDF pages ..."
 msgstr "Импорт страниц PDF..."
 
+msgctxt "pc:import:pdf:page-number"
+msgid "page {page}"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:import:edit-images-after-opening:ask:dialog-title"
 msgid "Edit images"
@@ -742,8 +869,12 @@ msgstr "Вывод IMI в каталог"
 
 #, fuzzy
 msgctxt "pc:export:dxf:error:no-entities"
-msgid "There are no objects to write into the DXF. Note that currently only areas are written to the DXF and that they have to be assigned to a reference."
-msgstr "Нет объектов для записи в DXF. Обратите внимание, что в настоящее время в DXF записываются только области, и их необходимо назначить ссылке."
+msgid ""
+"There are no objects to write into the DXF. Note that currently only areas "
+"are written to the DXF and that they have to be assigned to a reference."
+msgstr ""
+"Нет объектов для записи в DXF. Обратите внимание, что в настоящее время в "
+"DXF записываются только области, и их необходимо назначить ссылке."
 
 #, fuzzy
 msgctxt "pc:export:zip:dialog-title"
@@ -757,13 +888,21 @@ msgstr "Параметры экспорта изображений"
 
 #, fuzzy
 msgctxt "pc:databundle:settings:rename:warning:same-title-already-exists"
-msgid "An image with this name already exists. Do you really want to use the same name?"
-msgstr "Изображение с таким именем уже существует. Вы действительно хотите использовать то же имя?"
+msgid ""
+"An image with this name already exists. Do you really want to use the same "
+"name?"
+msgstr ""
+"Изображение с таким именем уже существует. Вы действительно хотите "
+"использовать то же имя?"
 
 #, fuzzy
 msgctxt "pc:folder:settings:rename:warning:same-title-already-exists"
-msgid "A folder with this name already exists. Do you really want to use the same name?"
-msgstr "Папка с таким именем уже существует. Вы действительно хотите использовать то же имя?"
+msgid ""
+"A folder with this name already exists. Do you really want to use the same "
+"name?"
+msgstr ""
+"Папка с таким именем уже существует. Вы действительно хотите использовать то "
+"же имя?"
 
 #, fuzzy
 msgctxt "pc:move-entities:adapt-permissions:dialog-title"
@@ -772,8 +911,12 @@ msgstr "Адаптировать разрешения"
 
 #, fuzzy
 msgctxt "pc:move-entities:adapt-permissions:message"
-msgid "The permissions of the files differ from the target folder's permissions. Should the permissions of the files be adapted?"
-msgstr "Разрешения файлов отличаются от разрешений целевой папки. Следует ли адаптировать разрешения файлов?"
+msgid ""
+"The permissions of the files differ from the target folder's permissions. "
+"Should the permissions of the files be adapted?"
+msgstr ""
+"Разрешения файлов отличаются от разрешений целевой папки. Следует ли "
+"адаптировать разрешения файлов?"
 
 #, fuzzy
 msgctxt "pc:move-entities:adapt-permissions:choice:keep"
@@ -1187,13 +1330,21 @@ msgstr "Лицензии"
 
 #, fuzzy
 msgctxt "pc:prefs:ui:language:changed-restart-program"
-msgid "The language setting has changed. Please restart the program for the changes to take effect."
-msgstr "Изменились настройки языка. Пожалуйста, перезапустите программу, чтобы изменения вступили в силу."
+msgid ""
+"The language setting has changed. Please restart the program for the changes "
+"to take effect."
+msgstr ""
+"Изменились настройки языка. Пожалуйста, перезапустите программу, чтобы "
+"изменения вступили в силу."
 
 #, fuzzy
 msgctxt "pc:prefs:ui:ui-scale-factor:changed-restart-program"
-msgid "The UI scale factor has changed. Please restart the program for the changes to take effect."
-msgstr "Коэффициент масштабирования пользовательского интерфейса изменился. Пожалуйста, перезапустите программу, чтобы изменения вступили в силу."
+msgid ""
+"The UI scale factor has changed. Please restart the program for the changes "
+"to take effect."
+msgstr ""
+"Коэффициент масштабирования пользовательского интерфейса изменился. "
+"Пожалуйста, перезапустите программу, чтобы изменения вступили в силу."
 
 #, fuzzy
 msgctxt "pc:image-numbering:dialog:title"
@@ -1376,8 +1527,12 @@ msgstr "Открыть"
 
 #, fuzzy
 msgctxt "pc:feedback-dialog:error:could-not-open-mailprogram"
-msgid "Could not open e-mail software. Please open it manually and use the email address shown here."
-msgstr "Не удалось открыть программное обеспечение электронной почты. Откройте его вручную и используйте указанный здесь адрес электронной почты."
+msgid ""
+"Could not open e-mail software. Please open it manually and use the email "
+"address shown here."
+msgstr ""
+"Не удалось открыть программное обеспечение электронной почты. Откройте его "
+"вручную и используйте указанный здесь адрес электронной почты."
 
 #, fuzzy
 msgctxt "pc:prefs:dialog:title"
@@ -1399,6 +1554,14 @@ msgctxt "pc:prefs:section:bluetooth"
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
+msgctxt "pc:prefs:section:bluetooth:device"
+msgid "Device"
+msgstr ""
+
+msgctxt "pc:prefs:section:bluetooth:keyboard-device"
+msgid "Keyboard device"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:prefs:section:bluetooth:clipboard"
 msgid "Clipboard"
@@ -1418,6 +1581,10 @@ msgstr "Стайлинг"
 msgctxt "pc:prefs:section:editor:snapping"
 msgid "Snapping"
 msgstr "Щелчок"
+
+msgctxt "pc:prefs:section:editor:behavior"
+msgid "Behavior"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:prefs:section:editor:drawing-tools"
@@ -1469,10 +1636,18 @@ msgctxt "pc:prefs:section:user-interface"
 msgid "User interface"
 msgstr "Пользовательский интерфейс"
 
+msgctxt "pc:prefs:section:user-interface:shortcuts"
+msgid "Keyboard shortcuts"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:prefs:section:user-interface:initial-texts"
 msgid "Initial titles and notes"
 msgstr "Первоначальные заголовки и примечания"
+
+msgctxt "pc:prefs:section:user-interface:miscellaneous"
+msgid "Miscellaneous"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:prefs:section:storage"
@@ -1652,7 +1827,8 @@ msgstr "Пользовательский интерфейс"
 #, fuzzy
 msgctxt "pc:prefs:sync-options:user-interface:auto-close-after-sync"
 msgid "Auto-close sync window after successful sync"
-msgstr "Автоматически закрывать окно синхронизации после успешной синхронизации"
+msgstr ""
+"Автоматически закрывать окно синхронизации после успешной синхронизации"
 
 #, fuzzy
 msgctxt "pc:prefs:sync-options:two-way:delete-remotely-when-deleted-locally"
@@ -1667,7 +1843,8 @@ msgstr "Удалять файлы локально при удалении на 
 #, fuzzy
 msgctxt "pc:prefs:sync-options:two-way:sync-when-edit-conflict"
 msgid "Sync changes even when there is an edit conflict"
-msgstr "Синхронизируйте изменения даже при возникновении конфликта редактирования"
+msgstr ""
+"Синхронизируйте изменения даже при возникновении конфликта редактирования"
 
 #, fuzzy
 msgctxt "pc:prefs:sync-options:image-upload:upload-folders-without-images"
@@ -1736,13 +1913,18 @@ msgstr "Успех. Отпечаток хоста: {}"
 
 #, fuzzy
 msgctxt "pc:prefs:server-params:oauth:login-description"
-msgid "In order to process the login, you will be redirected to your web-browser."
+msgid ""
+"In order to process the login, you will be redirected to your web-browser."
 msgstr "Для обработки входа вы будете перенаправлены в ваш веб-браузер."
 
 #, fuzzy
 msgctxt "pc:prefs:server-params:oauth:login-was-redirected"
-msgid "Please continue the login process on the page that was opened in your web-browser."
-msgstr "Пожалуйста, продолжите процесс входа на странице, открытой в вашем веб-браузере."
+msgid ""
+"Please continue the login process on the page that was opened in your web-"
+"browser."
+msgstr ""
+"Пожалуйста, продолжите процесс входа на странице, открытой в вашем веб-"
+"браузере."
 
 #, fuzzy
 msgctxt "pc:prefs:server-params:oauth:logged-in-as-user"
@@ -1802,7 +1984,8 @@ msgstr "Загрузка изображения"
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:webdav:description"
 msgid "Can be used with any WebDAV server, including Nextcloud/Owncloud."
-msgstr "Может использоваться с любым сервером WebDAV, включая Nextcloud/Owncloud."
+msgstr ""
+"Может использоваться с любым сервером WebDAV, включая Nextcloud/Owncloud."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:sftp:description"
@@ -1812,12 +1995,14 @@ msgstr "Может использоваться с любым SFTP-сервер�
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:onedrive:description"
 msgid "Use this to sync with your Microsoft OneDrive account."
-msgstr "Используйте это для синхронизации с вашей учетной записью Microsoft OneDrive."
+msgstr ""
+"Используйте это для синхронизации с вашей учетной записью Microsoft OneDrive."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:googledrive:description"
 msgid "Use this to sync with your Google Drive account."
-msgstr "Используйте это для синхронизации с вашей учетной записью Google Диска."
+msgstr ""
+"Используйте это для синхронизации с вашей учетной записью Google Диска."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:dropbox:description"
@@ -1826,18 +2011,32 @@ msgstr "Используйте это для синхронизации с ва�
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:cloud-backend:filesystem:description"
-msgid "Instead of a cloud server, the data is synced to a local directory on your PC."
-msgstr "Вместо облачного сервера данные синхронизируются с локальным каталогом на вашем ПК."
+msgid ""
+"Instead of a cloud server, the data is synced to a local directory on your "
+"PC."
+msgstr ""
+"Вместо облачного сервера данные синхронизируются с локальным каталогом на "
+"вашем ПК."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:sync-mode:two-way:description"
-msgid "Syncs editable images in both directions between devices. New images and changes will be forwarded to the other device."
-msgstr "Синхронизирует редактируемые изображения в обоих направлениях между устройствами. Новые изображения и изменения будут пересылаться на другое устройство."
+msgid ""
+"Syncs editable images in both directions between devices. New images and "
+"changes will be forwarded to the other device."
+msgstr ""
+"Синхронизирует редактируемые изображения в обоих направлениях между "
+"устройствами. Новые изображения и изменения будут пересылаться на другое "
+"устройство."
 
 #, fuzzy
 msgctxt "pc:prefs:new-sync-dialog:sync-mode:image-upload:description"
-msgid "Uploads annotated JPEG images to the server. This is a one-way upload to the server. Thus, the uploaded images cannot be edited further on other devices."
-msgstr "Загружает аннотированные изображения JPEG на сервер. Это односторонняя загрузка на сервер. Таким образом, загруженные изображения не могут быть отредактированы далее на других устройствах."
+msgid ""
+"Uploads annotated JPEG images to the server. This is a one-way upload to the "
+"server. Thus, the uploaded images cannot be edited further on other devices."
+msgstr ""
+"Загружает аннотированные изображения JPEG на сервер. Это односторонняя "
+"загрузка на сервер. Таким образом, загруженные изображения не могут быть "
+"отредактированы далее на других устройствах."
 
 #, fuzzy
 msgctxt "pc:prefs:company:users-list-title"
@@ -1856,8 +2055,12 @@ msgstr "Пользователи каталога верхнего уровня"
 
 #, fuzzy
 msgctxt "pc:prefs:company:folder-permissions:top-level-folder-users:tooltip"
-msgid "Comma separated list of users that will have access rights for new top-level directories."
-msgstr "Список пользователей, разделенных запятыми, которые будут иметь права доступа к новым каталогам верхнего уровня."
+msgid ""
+"Comma separated list of users that will have access rights for new top-level "
+"directories."
+msgstr ""
+"Список пользователей, разделенных запятыми, которые будут иметь права "
+"доступа к новым каталогам верхнего уровня."
 
 #, fuzzy
 msgctxt "pc:prefs:company:folder-permissions:moving-between-folder"
@@ -1901,8 +2104,11 @@ msgstr "Закрывать"
 
 #, fuzzy
 msgctxt "pc:sync:progress-dialog:warning:wait-until-finished"
-msgid "Synchronization is still in progress. Please wait until it has been stopped."
-msgstr "Синхронизация все еще выполняется. Пожалуйста, подождите, пока она не будет остановлена."
+msgid ""
+"Synchronization is still in progress. Please wait until it has been stopped."
+msgstr ""
+"Синхронизация все еще выполняется. Пожалуйста, подождите, пока она не будет "
+"остановлена."
 
 #, fuzzy
 msgctxt "pc:sync:progress:action:preparing"
@@ -1917,7 +2123,9 @@ msgstr "Сканирование сервера..."
 #, fuzzy
 msgctxt "pc:sync:progress:action:scanning-server:status"
 msgid "{0} images found, {1} folders found, {2} errors. {3} items left."
-msgstr "Найдено {0} изображений, найдено {1} папок, {2} ошибок. Осталось {3} элементов."
+msgstr ""
+"Найдено {0} изображений, найдено {1} папок, {2} ошибок. Осталось {3} "
+"элементов."
 
 #, fuzzy
 msgctxt "pc:sync:progress:action:sync:push-new"
@@ -2011,3 +2219,8 @@ msgstr "Ошибка входа"
 msgctxt "pc:sync:oauth-login-dialog:login-button"
 msgid "Log in"
 msgstr "Авторизоваться"
+
+msgctxt "pc:sync:passwort-login:error"
+msgid ""
+"Cannot log in, please check your username and password in the sync settings."
+msgstr ""

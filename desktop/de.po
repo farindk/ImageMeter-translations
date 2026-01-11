@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-04 18:10+0200\n"
-"PO-Revision-Date: 2024-07-10 19:38+0200\n"
+"PO-Revision-Date: 2025-11-05 21:17+0100\n"
 "Last-Translator: \n"
 "Language-Team: de <LL@li.org>\n"
 "Language: de\n"
@@ -17,13 +17,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : 1);\n"
 "Generated-By: Babel 2.9.0\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 msgctxt "pc:error:cannot-find-windows-explorer"
 msgid "Cannot find 'explorer.exe' in path to launch Windows Explorer."
 msgstr ""
 "Kann 'explorer.exe' nicht im Pfad finden und kann deshalb Windows Explorer "
 "nicht starten."
+
+msgctxt "pc:save-as-default:confirmation-dialog:title"
+msgid "Confirm Saving as Default"
+msgstr "Bestätigung die Einstellungen als Standard zu speichern"
+
+msgctxt "pc:save-as-default:confirmation-dialog:text:company-logo"
+msgid "Are you sure to save these company logo settings as the default?"
+msgstr ""
+"Sind Sie sicher, dass Sie die Firmenlogo-Einstellungen als Standard "
+"speichern wollen?"
+
+msgctxt "pc:save-as-default:confirmation-dialog:text:overlay-text"
+msgid "Are you sure to save these overlay text settings as the default?"
+msgstr ""
+"Sind Sie sicher, dass Sie die Texteinblendung als Standard speichern wollen?"
 
 msgctxt "pc:setup-wizard:dialog-title"
 msgid "ImageMeter Setup"
@@ -153,11 +168,20 @@ msgstr "Bild öffnen (ohne Import)..."
 
 msgctxt "pc:mainwindow:menu:file:import-image"
 msgid "&Open and import image..."
-msgstr "Bild öffnen und imporieren..."
+msgstr "Bild öffnen und importieren..."
 
 msgctxt "pc:mainwindow:menu:file:open-image-from-system-clipboard"
 msgid "Open image from system clipboard"
 msgstr "Bild aus der System-Zwischenablage öffnen"
+
+msgctxt "pc:mainwindow:menu:file:store-image-in-system-clipboard"
+msgid "Store image in system clipboard"
+msgstr "Bild in System-Zwischenablage speichern"
+
+msgctxt "pc:clipboard:store-needs-saved-image"
+msgid "Please save the image before storing it in the clipboard"
+msgstr ""
+"Bitte speichern Sie das Bild bevor Sie es in die Zwischenablage speichern"
 
 msgctxt "pc:mainwindow:menu:file:import-to-library"
 msgid "Import to &library"
@@ -235,6 +259,14 @@ msgctxt "pc:mainwindow:menu:edit:unlock-element"
 msgid "Unlock element"
 msgstr "Element entsperren"
 
+msgctxt "pc:mainwindow:menu:edit:raise-element"
+msgid "Raise element"
+msgstr "Element anheben"
+
+msgctxt "pc:mainwindow:menu:edit:lower-element"
+msgid "Lower element"
+msgstr "Element absenken"
+
 msgctxt "pc:mainwindow:menu:edit:element-to-front"
 msgid "Element to front"
 msgstr "In den Vordergrund"
@@ -311,6 +343,10 @@ msgctxt "pc:mainwindow:menu:image:image-settings"
 msgid "Image &settings..."
 msgstr "Bild&einstellungen..."
 
+msgctxt "pc:mainwindow:menu:image:overlay-settings"
+msgid "&Overlay settings..."
+msgstr "&Texteinblendung..."
+
 msgctxt "pc:mainwindow:menu:image:element-locking"
 msgid "Element locking..."
 msgstr "Elemente sperren..."
@@ -328,12 +364,16 @@ msgid "Capture image"
 msgstr "Bild aufnehmen"
 
 msgctxt "pc:mainwindow:menu:image:use-dimformat-from-settings"
-msgid "Use units from settings for all elements"
-msgstr "Maßeinheiten aus den Einstellungen für alle Elemente übernehmen"
+msgid "Use default units for all elements"
+msgstr "Standard-Maßeinheiten für alle Elemente übernehmen"
 
 msgctxt "pc:mainwindow:menu:image:calibrate-camera-from-image"
 msgid "Calibrate camera from image"
 msgstr "Kamerakalibrierung aus dem Bild abspeichern"
+
+msgctxt "pc:mainwindow:menu:image:insert-new-image-layer"
+msgid "Insert image layer"
+msgstr "Bildebene einfügen"
 
 msgctxt "pc:mainwindow:menu:windows"
 msgid "&Windows"
@@ -359,6 +399,10 @@ msgctxt "pc:mainwindow:menu:help:about"
 msgid "&About..."
 msgstr "&Informationen..."
 
+msgctxt "pc:mainwindow:menu:help:whats-new"
+msgid "Whats &New..."
+msgstr "&Neuheiten..."
+
 msgctxt "pc:mainwindow:menu:help:feedback"
 msgid "&Feedback..."
 msgstr "&Feedback..."
@@ -379,17 +423,70 @@ msgctxt "pc:mainwindow:dock:label-style:title"
 msgid "Label Style"
 msgstr "Textstil"
 
+msgctxt "pc:mainwindow:dock:layers:title"
+msgid "Layers"
+msgstr "Ebenen"
+
+msgctxt "pc:mainwindow:dock:layers:header:name"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "pc:mainwindow:dock:layers:header:visible:tooltip"
+msgid "Layer is visible"
+msgstr "Ebene ist sichtbar"
+
+msgctxt "pc:mainwindow:dock:layers:header:opacity:tooltip"
+msgid "Layer opacity"
+msgstr "Deckkraft der Ebene"
+
+msgctxt "pc:mainwindow:dock:layers:header:master:tooltip"
+msgid "Master/original image"
+msgstr "Haupt/Original-Bild"
+
+msgctxt "pc:mainwindow:dock:layers:button:add-image-layer"
+msgid "Add image layer"
+msgstr "Bildebene hinzufügen"
+
+msgctxt "pc:mainwindow:dock:layers:button:add-annotation-layer"
+msgid "Add annotation layer"
+msgstr "Zeichenebene hinzufügen"
+
+msgctxt "pc:mainwindow:dock:layers:button:move-layer-up"
+msgid "Move layer up in stack"
+msgstr "Ebene im Stapel nach oben verschieben"
+
+msgctxt "pc:mainwindow:dock:layers:button:move-layer-down"
+msgid "Move layer down in stack"
+msgstr "Ebene im Stapel nach unten verschieben"
+
+msgctxt "pc:mainwindow:dock:layers:button:delete-layer"
+msgid "Delete layer"
+msgstr "Ebene löschen"
+
+msgctxt ""
+"pc:mainwindow:layers:delete-layer:annotation:confirmation-dialog:title"
+msgid "Delete layer containing elements"
+msgstr "Ebene mit Elementen löschen"
+
+msgctxt "pc:mainwindow:layers:delete-layer:annotation:confirmation-dialog:text"
+msgid ""
+"This layer contains annotation elements. Do you want to delete the layer "
+"with all elements?"
+msgstr ""
+"Diese Ebene enthält Zeichenelemente. Wollen Sie die Ebene mit allen "
+"Elementen löschen?"
+
 msgctxt "pc:mainwindow:toolbar:basic-editing:title"
 msgid "Basic editing"
 msgstr "Grundlegende Editierfunktionen"
 
 msgctxt "pc:mainwindow:toolbar:basic-editing:line-width"
-msgid "Line width:"
-msgstr "Linienbreite:"
+msgid "Line width"
+msgstr "Linienbreite"
 
 msgctxt "pc:mainwindow:toolbar:basic-editing:font-size"
-msgid "Font size:"
-msgstr "Schriftgröße:"
+msgid "Font size"
+msgstr "Schriftgröße"
 
 msgctxt "pc:mainwindow:toolbar:basic-editing:toggle-display:image"
 msgid "Toggle displaying the image."
@@ -415,6 +512,10 @@ msgctxt "pc:mainwindow:toolbar:drawing-tools:title"
 msgid "Drawing tools"
 msgstr "Zeichenwerkzeuge"
 
+msgctxt "pc:mainwindow:toolbar:bluetooth-control:title"
+msgid "Bluetooth control toolbar"
+msgstr "Bluetooth Kontrollleiste"
+
 msgctxt "pc:error:cannot-rename-folder:in-use"
 msgid "Cannot rename folder. It is currently in use."
 msgstr "Kann den Ordner nicht umbenennen. Er wird momentan benutzt."
@@ -438,6 +539,18 @@ msgstr "Es sind noch Bilder mit ungespeicherten Änderungen geöffnet."
 msgctxt "pc:mainwindow:quit-program:unsaved-changed:question"
 msgid "Do you want to save all changes?"
 msgstr "Wollen Sie alle Änderungen speichern?"
+
+msgctxt "pc:layers:assign-to-element:dialog:title"
+msgid "Assign layer"
+msgstr "Ebene zuweisen"
+
+msgctxt "pc:layers:assign-to-element:dialog:text"
+msgid "Move element to layer:"
+msgstr "Element in Ebene verschieben:"
+
+msgctxt "pc:layers:assign-to-element:tooltip"
+msgid "Move element to layer"
+msgstr "Element in Ebene verschieben"
 
 msgctxt "pc:image-library:button:new-folder:tooltip"
 msgid "New folder"
@@ -612,6 +725,10 @@ msgstr "PDF Seiten importieren"
 msgctxt "pc:import:pdf:progress-dialog-message"
 msgid "Importing PDF pages ..."
 msgstr "PDF Seiten werden importiert ..."
+
+msgctxt "pc:import:pdf:page-number"
+msgid "page {page}"
+msgstr "Seite {page}"
 
 msgctxt "pc:import:edit-images-after-opening:ask:dialog-title"
 msgid "Edit images"
@@ -1186,6 +1303,14 @@ msgctxt "pc:prefs:section:bluetooth"
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
+msgctxt "pc:prefs:section:bluetooth:device"
+msgid "Device"
+msgstr "Gerät"
+
+msgctxt "pc:prefs:section:bluetooth:keyboard-device"
+msgid "Keyboard device"
+msgstr "Tastaturgerät"
+
 msgctxt "pc:prefs:section:bluetooth:clipboard"
 msgid "Clipboard"
 msgstr "Zwischenablage"
@@ -1201,6 +1326,10 @@ msgstr "Stil"
 msgctxt "pc:prefs:section:editor:snapping"
 msgid "Snapping"
 msgstr "Einrasten"
+
+msgctxt "pc:prefs:section:editor:behavior"
+msgid "Behavior"
+msgstr "Verhalten"
 
 msgctxt "pc:prefs:section:editor:drawing-tools"
 msgid "Drawing tools"
@@ -1242,9 +1371,17 @@ msgctxt "pc:prefs:section:user-interface"
 msgid "User interface"
 msgstr "Benutzerinterface"
 
+msgctxt "pc:prefs:section:user-interface:shortcuts"
+msgid "Keyboard shortcuts"
+msgstr "Tastenkombinationen"
+
 msgctxt "pc:prefs:section:user-interface:initial-texts"
 msgid "Initial titles and notes"
 msgstr "Initiale Titel und Notizen"
+
+msgctxt "pc:prefs:section:user-interface:miscellaneous"
+msgid "Miscellaneous"
+msgstr "Verschiedenes"
 
 msgctxt "pc:prefs:section:storage"
 msgid "Storage"
@@ -1713,88 +1850,3 @@ msgid ""
 msgstr ""
 "Einloggen ist fehlgeschlagen. Bitte überprüfen Sie Ihren Benutzernamen und "
 "das Passwort in den Sync-Einstellungen."
-
-#~ msgctxt "pc:image-library:context-menu:export:original-image"
-#~ msgid "Unannotated image…"
-#~ msgstr "Originalbild…"
-
-#~ msgctxt "pc:setup-wizard:license:enter-key"
-#~ msgid "Enter key:"
-#~ msgstr "Lizenzcode eingeben."
-
-#~ msgctxt "pc:setup-wizard:license:send-button"
-#~ msgid "Send"
-#~ msgstr "Aktivieren"
-
-#~ msgctxt "pc:editor:toolbar-tools:tool-button:value-list:tooltip"
-#~ msgid "Value list"
-#~ msgstr "Wertliste"
-
-#~ msgctxt "pc:sync:oauth-login-dialog:title"
-#~ msgid "User login required"
-#~ msgstr "Benutzer-Login wird benötigt"
-
-#~ msgctxt "pc:export:pdf:dialog-title"
-#~ msgid "PDF export options"
-#~ msgstr "PDF Exportoptionen"
-
-#~ msgctxt "pc:prefs:new-sync-dialog:cloud-backend:filesystem"
-#~ msgid "Filesystem"
-#~ msgstr "Lokales Dateisystem"
-
-#~ msgctxt "pc:prefs:new-sync-dialog:sync-mode:image-upload:description"
-#~ msgid ""
-#~ "Stores annotated JPEGs to the server. These images cannot be edited later "
-#~ "on. It is a one-way upload to the server. No data is exchanged."
-#~ msgstr ""
-#~ "Speichert annotierte JPEG-Bilder auf den Server. Dies ist ein Upload nur "
-#~ "in einer Richtung, d.h. diese Bilder können nicht auf anderen Geräten "
-#~ "weiter editiert werden."
-
-#~ msgctxt "pc:mainwindow:menu:file:open-image"
-#~ msgid "&Open image..."
-#~ msgstr "Bild öffnen..."
-
-#~ msgctxt "pc:mainwindow:menu:file:import-image"
-#~ msgid "&Import image..."
-#~ msgstr "Bild &Importieren..."
-
-#~ msgctxt "pc:mainwindow:menu:file:import-image:shortcut"
-#~ msgid "Ctrl+I"
-#~ msgstr "Ctrl+I"
-
-#~ msgctxt "pc:prefs:company:defaults:title"
-#~ msgid "Defaults"
-#~ msgstr "Standardwerte"
-
-#~ msgctxt "pc:prefs:company:defaults:top-level-directory-users"
-#~ msgid "Top-level directory users"
-#~ msgstr "Benutzer für Verzeichnisse in höchster Ebene"
-
-#~ msgctxt "pc:prefs:company:defaults:top-level-directory-users:tooltip"
-#~ msgid ""
-#~ "Comma separated list of users that will have access rights for new top-"
-#~ "level directories."
-#~ msgstr ""
-#~ "Durch Komma getrennte Liste von Benutzern, welche auf Ordner Zugriff "
-#~ "haben, die im Wurzelverzeichnis neu erstellt werden."
-
-#~ msgctxt "pc:value-entry:unit:imperial-format"
-#~ msgid "Imperial format"
-#~ msgstr "britisch"
-
-#~ msgctxt "pc:value-entry:unit:show-units"
-#~ msgid "Show units"
-#~ msgstr "Maßeinheit anzeigen"
-
-#~ msgctxt "pc:value-entry:unit:ambiguous-numbers"
-#~ msgid "Ambiguous numbers"
-#~ msgstr "Mehrdeutige Zahlen"
-
-#~ msgctxt "pc:value-entry:unit:smallest-fraction"
-#~ msgid "Smallest fraction"
-#~ msgstr "Kleinster Bruch"
-
-#~ msgctxt "pc:value-entry:unit:reduce-fractions"
-#~ msgid "Reduce fractions"
-#~ msgstr "Brüche kürzen"

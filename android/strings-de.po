@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-08 20:29+0200\n"
-"PO-Revision-Date: 2023-07-06 20:38+0200\n"
+"POT-Creation-Date: 2025-10-29 17:45+0100\n"
+"PO-Revision-Date: 2025-05-28 22:41+0200\n"
 "Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : 1)\n"
+"Plural-Forms: nplurals=2; plural=((((n == 1)) && ((0 == 0))) ? 0 : 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.17.0\n"
 
 #. generic strings
 msgctxt "generic_button_ok"
@@ -527,6 +527,7 @@ msgctxt "upgradeDialog_backButton"
 msgid "Back"
 msgstr "Zurück"
 
+#, fuzzy
 msgctxt "upgradeDialog_download_playstore_invoice"
 msgid ""
 "You can download an invoice from the &lt;a "
@@ -536,6 +537,7 @@ msgstr ""
 "href=\"http://pay.google.com/\"&gt;Google Pay&lt;/a&gt; Webseite "
 "herunterladen."
 
+#, fuzzy
 msgctxt "upgradeDialog_moreInformationLink"
 msgid ""
 "For more information about these features, &lt;a "
@@ -545,6 +547,17 @@ msgstr ""
 "Für weitere Informationen zu diesen Funktionen &lt;a "
 "href=\"https://www.imagemeter.com/de/manual/license/android-"
 "licenses\"&gt;besuchen Sie die Website&lt;/a&gt;."
+
+#, fuzzy
+msgctxt "upgradeDialog_noteUpgradesAreForAndroid"
+msgid ""
+"Note: These upgrades are valid on all Android devices that use your "
+"current Google account. However, the upgrades do not include the license "
+"for the Windows version of ImageMeter."
+msgstr ""
+"Hinweis: diese Upgrades sind auf allen Android-Geräten gültig, die Ihren "
+"aktuellen Google-Account benutzen. Die Upgrades beinhalten aber nicht die"
+" Lizenz für die Windows-Version von ImageMeter."
 
 msgctxt "upgradeDialog_addon_without_pro_title"
 msgid "Add-on without Pro upgrade?"
@@ -675,6 +688,7 @@ msgctxt "upgrade_item_pdf_import"
 msgid "PDF import"
 msgstr "PDF Import"
 
+#, fuzzy
 msgctxt "upgrade_item_counter"
 msgid ""
 "&lt;a href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\"&gt;Counting "
@@ -682,10 +696,6 @@ msgid ""
 msgstr ""
 "&lt;a "
 "href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\"&gt;Zählwerkzeug&lt;/a&gt;"
-
-msgctxt "upgrade_item_cloud_access_from_office_pc"
-msgid "Access images from your office PC"
-msgstr "Zugriff auf Ihre Bilder vom Büro-PC"
 
 msgctxt "upgrade_item_cloud_device_sync"
 msgid "Sync images between devices"
@@ -699,6 +709,7 @@ msgctxt "upgrade_item_company_logo"
 msgid "Put your company logo onto images"
 msgstr "Ihr Firmenlogo auf den Bildern"
 
+#, fuzzy
 msgctxt "upgrade_item_data_tables"
 msgid ""
 "&lt;a "
@@ -1291,8 +1302,8 @@ msgstr "Komprimiere die ZIP Datei…"
 
 #. CSV export
 msgctxt "dialog_csv_export_title"
-msgid "Data table export (CSV)"
-msgstr "Tabellenexport (CSV)"
+msgid "Data table export (XLSX / CSV)"
+msgstr "Tabellenexport (XLSX / CSV)"
 
 #. export
 #. notifications
@@ -1634,6 +1645,10 @@ msgctxt "pref_bluetooth_device_protocol_bosch_plr"
 msgid "Bosch PLR"
 msgstr "Bosch PLR"
 
+msgctxt "pref_bluetooth_device_protocol_bosch_advdist_50c"
+msgid "Bosch AdvancedDistance 50C"
+msgstr "Bosch AdvancedDistance 50C"
+
 msgctxt "pref_bluetooth_device_protocol_bosch_dle150c"
 msgid "Bosch DLE150c"
 msgstr "Bosch DLE150c"
@@ -1668,19 +1683,19 @@ msgstr "Bosch GLM165-27c"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm100_25c"
 msgid "Bosch GLM100-25c"
-msgstr ""
+msgstr "Bosch GLM100-25c"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm150_27c"
 msgid "Bosch GLM150-27c"
-msgstr ""
+msgstr "Bosch GLM150-27c"
 
 msgctxt "pref_bluetooth_device_protocol_cem_ildm150_old"
 msgid "CEM iLDM-150 (BT classic)"
-msgstr ""
+msgstr "CEM iLDM-150 (BT-Classic)"
 
 msgctxt "pref_bluetooth_device_protocol_cem_ildm150_new"
 msgid "CEM iLDM-150 (BT 4.0)"
-msgstr ""
+msgstr "CEM iLDM-150 (BT 4.0)"
 
 msgctxt "pref_bluetooth_device_protocol_cem_ildm80c"
 msgid "CEM iLDM-80C"
@@ -1702,9 +1717,13 @@ msgctxt "pref_bluetooth_device_protocol_hilti_pd"
 msgid "Hilti PD Bluetooth LE"
 msgstr "Hilti PD Bluetooth LE"
 
-msgctxt "pref_bluetooth_device_protocol_stabila"
-msgid "Stabila"
-msgstr "Stabila"
+msgctxt "pref_bluetooth_device_protocol_stabila_ld250bt"
+msgid "Stabila LD250BT"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_stabila_ld520"
+msgid "Stabila LD520"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_wuerth"
 msgid "Würth WDM 3–19"
@@ -1718,21 +1737,69 @@ msgctxt "pref_bluetooth_device_protocol_wuerth_wdm622"
 msgid "Würth WDM 6–22"
 msgstr "Würth WDM 6–22"
 
-msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
-msgid "Leica Disto classic"
-msgstr "Leica Disto classic"
+msgctxt "pref_bluetooth_device_protocol_wuerth_wdm924"
+msgid "Würth WDM 9–24"
+msgstr "Würth WDM 9–24"
 
-msgctxt "pref_bluetooth_device_protocol_leica_disto_bt4"
-msgid "Leica Disto Bluetooth LE"
-msgstr "Leica Disto Bluetooth LE"
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d3a_bt"
+msgid "Leica Disto D3a-BT"
+msgstr ""
 
-msgctxt "pref_bluetooth_device_protocol_leica_disto_x"
-msgid "Leica Disto X3/X4"
-msgstr "Leica Disto X3/X4"
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d330i"
+msgid "Leica Disto D330i"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_plus"
+msgid "Leica Disto Plus"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_a6"
+msgid "Leica Disto A6"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_laserproducts_lt44xl"
+msgid "LaserProducts LT44XL"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d110"
+msgid "Leica Disto D110"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d510"
+msgid "Leica Disto D510"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d810"
+msgid "Leica Disto D810"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x3"
+msgid "Leica Disto X3"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x4"
+msgid "Leica Disto X4"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x6"
+msgid "Leica Disto X6"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d5"
+msgid "Leica Disto D5"
+msgstr ""
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_d1"
 msgid "Leica Disto D1"
 msgstr "Leica Disto D1"
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d2"
+msgid "Leica Disto D2"
+msgstr "Leica Disto D2"
+
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d8"
+msgid "Leica Disto D8"
+msgstr "Leica Disto D8"
 
 msgctxt "pref_bluetooth_device_protocol_lti_trupulse"
 msgid "LTI TruPulse"
@@ -1786,6 +1853,18 @@ msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
 msgid "Sndway SW-S100"
 msgstr "Sndway SW-S100"
 
+msgctxt "pref_bluetooth_device_protocol_sndway_sw_80gq"
+msgid "Sndway SW-80GQ"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_sndway_sw_120gq"
+msgid "Sndway SW-120GQ"
+msgstr ""
+
+msgctxt "pref_bluetooth_device_protocol_sndway_sw_150gq"
+msgid "Sndway SW-150GQ"
+msgstr ""
+
 msgctxt "pref_bluetooth_device_protocol_uni_t_lm40b"
 msgid "UNI-T LM40B"
 msgstr "UNI-T LM40B"
@@ -1828,7 +1907,7 @@ msgstr "Laserliner Compact Plus"
 
 msgctxt "pref_bluetooth_device_protocol_laserliner_gi7pro"
 msgid "Laserliner Gi7 Pro"
-msgstr ""
+msgstr "Laserliner Gi7 Pro"
 
 msgctxt "pref_bluetooth_device_protocol_toolsmart_anglefinder"
 msgid "ToolSmart-AngleFinder"
@@ -1844,11 +1923,11 @@ msgstr "Condtrol Vector 60"
 
 msgctxt "pref_bluetooth_device_protocol_condtrol_vector80"
 msgid "Condtrol Vector 80"
-msgstr ""
+msgstr "Condtrol Vector 80"
 
 msgctxt "pref_bluetooth_device_protocol_condtrol_vector100"
 msgid "Condtrol Vector 100"
-msgstr ""
+msgstr "Condtrol Vector 100"
 
 msgctxt "pref_bluetooth_device_protocol_stier_sle120"
 msgid "Stier SLE-120"
@@ -1860,23 +1939,27 @@ msgstr "Sola Vector 100 Pro"
 
 msgctxt "pref_bluetooth_device_protocol_sola_metron_30"
 msgid "Sola Metron 30 BT"
-msgstr ""
+msgstr "Sola Metron 30 BT"
 
 msgctxt "pref_bluetooth_device_protocol_sola_metron_60"
 msgid "Sola Metron 60 BT"
-msgstr ""
+msgstr "Sola Metron 60 BT"
 
 msgctxt "pref_bluetooth_device_protocol_sola_metron_80"
 msgid "Sola Metron 80 BTC"
-msgstr ""
+msgstr "Sola Metron 80 BTC"
 
 msgctxt "pref_bluetooth_device_protocol_sola_go_smart"
 msgid "Sola GO! smart"
-msgstr ""
+msgstr "Sola GO! smart"
 
 msgctxt "pref_bluetooth_device_protocol_sola_cito"
 msgid "Sola Cito"
-msgstr ""
+msgstr "Sola Cito"
+
+msgctxt "pref_bluetooth_device_protocol_solaflex_rx5"
+msgid "Solaflex RX5"
+msgstr "Solaflex RX5"
 
 msgctxt "pref_bluetooth_device_protocol_einhell_te_ld60"
 msgid "Einhell TE-LD60"
@@ -1928,14 +2011,22 @@ msgstr "Noyafa NF-273"
 
 msgctxt "pref_bluetooth_device_protocol_hersch_lem50"
 msgid "Hersch LEM-50"
-msgstr ""
+msgstr "Hersch LEM-50"
 
 msgctxt "pref_bluetooth_device_protocol_hersch_lem150"
 msgid "Hersch LEM-150"
-msgstr ""
+msgstr "Hersch LEM-150"
 
 msgctxt "pref_bluetooth_device_protocol_thinrad_t100c"
 msgid "Thinrad T100C"
+msgstr "Thinrad T100C"
+
+msgctxt "pref_bluetooth_device_protocol_hozo_neorulergo"
+msgid "Hozo NeoRulerGO"
+msgstr "Hozo NeoRulerGO"
+
+msgctxt "pref_bluetooth_device_protocol_reekon_t1"
+msgid "Reekon T1"
 msgstr ""
 
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
@@ -1974,9 +2065,13 @@ msgctxt "pref_bluetooth_use_device_format"
 msgid "Use device value format"
 msgstr "Bemaßungsformat vom Gerät benutzen"
 
+msgctxt "pref_bluetooth_use_keyboard_device_format"
+msgid "Use keyboard device value format"
+msgstr "Maßeinheiten wie beim Tastatureingabegerät"
+
 msgctxt "pref_bluetooth_use_device_format_summaryon"
-msgid "Same value format (not available for all devices)"
-msgstr "Gleiches Bemaßungsformat wie das Gerät (nicht für alle Geräte möglich)"
+msgid "Device format (not available for all devices)"
+msgstr "Bemaßungsformat vom Gerät (nicht für alle Geräte möglich)"
 
 msgctxt "pref_bluetooth_use_device_format_summaryoff"
 msgid "Use format set in app preferences"
@@ -2006,19 +2101,19 @@ msgid "General"
 msgstr "Allgemein"
 
 msgctxt "pref_ui_editor_fullscreen_mode_title"
-msgid "Editor fullscreen mode"
-msgstr "Vollbildmodus für Editor"
+msgid "Hide system toolbar"
+msgstr "System-Symbolleiste ausblenden"
 
 msgctxt "pref_ui_editor_fullscreen_mode_dialog"
-msgid "Editor fullscreen mode"
-msgstr "Vollbildmodus für Editor"
+msgid "Hide system toolbar"
+msgstr "System-Symbolleiste ausblenden"
 
 msgctxt "pref_ui_editor_fullscreen_mode_choices:0"
 msgid "Never"
 msgstr "Nie"
 
 msgctxt "pref_ui_editor_fullscreen_mode_choices:1"
-msgid "Only landscape"
+msgid "Only in landscape orientation"
 msgstr "Nur im Querformat"
 
 msgctxt "pref_ui_editor_fullscreen_mode_choices:2"
@@ -2032,6 +2127,10 @@ msgstr "Vergrößerungsregler anzeigen"
 msgctxt "pref_editor_keep_screen_on"
 msgid "Keep screen on while editing"
 msgstr "Bildschirm beim Editieren anlassen"
+
+msgctxt "pref_editor_show_image_title"
+msgid "Show image title"
+msgstr "Bildtitel anzeigen"
 
 msgctxt "pref_ui_editor_dragging_speed"
 msgid "Dragging slowdown"
@@ -2959,6 +3058,10 @@ msgctxt "pref_cloud_storage_server_handwerkcloud"
 msgid "Handwerkcloud"
 msgstr "Handwerkcloud"
 
+msgctxt "pref_cloud_storage_server_sftp"
+msgid "SFTP"
+msgstr "SFTP"
+
 msgctxt "pref_cloud_storage_server_imagemeter_predefined"
 msgid "ImageMeter"
 msgstr "ImageMeter"
@@ -2978,6 +3081,10 @@ msgstr "Nextcloud / Owncloud"
 msgctxt "cloud_storage_provider_onedrive"
 msgid "OneDrive"
 msgstr "OneDrive"
+
+msgctxt "cloud_storage_provider_sftp"
+msgid "SFTP"
+msgstr "SFTP"
 
 msgctxt "cloud_storage_server_note_drive"
 msgid ""
@@ -3032,6 +3139,10 @@ msgstr ""
 "Die Speicherung in Ihrem OneDrive-Account bietet sich an, falls Sie "
 "einfachen Zugang zu Ihren bemaßten Bildern von einem Windows PC haben "
 "wollen."
+
+msgctxt "cloud_storage_server_note_sftp"
+msgid "This backend allows you to use an SFTP server to store the data."
+msgstr "Mit dieser Methode können Sie die Daten auf einem SFTP-Server speichern."
 
 msgctxt "cloud_storage_do_two_way_sync"
 msgid "Do two-way sync"
@@ -3103,6 +3214,18 @@ msgstr "Manueller Login"
 msgctxt "cloud_storage_handwerkcloud_login_button"
 msgid "Log in"
 msgstr "Einloggen"
+
+msgctxt "cloud_storage_sftp_fingerprint"
+msgid "Server fingerprint:"
+msgstr "Server Fingerabdruck:"
+
+msgctxt "cloud_storage_sftp_check_sign_in"
+msgid "Check sign in"
+msgstr "Login prüfen"
+
+msgctxt "cloud_storage_sftp_sign_in_successful"
+msgid "Signed in successfully."
+msgstr "Erfolgreich eingeloggt."
 
 msgctxt "cloud_storage_server_url"
 msgid "Server URL:"
@@ -3230,6 +3353,10 @@ msgstr "Typ:"
 msgctxt "pref_template_config_custom_unit"
 msgid "Unit:"
 msgstr "Einheit:"
+
+msgctxt "pref_template_config_custom_table_list_title"
+msgid "Custom Template Table Layouts"
+msgstr ""
 
 msgctxt "pref_template_config_custom_section_table_layouts"
 msgid "Table layouts"
@@ -3909,6 +4036,11 @@ msgctxt "editor_dialog_style_ellipse_title"
 msgid "Ellipse style"
 msgstr "Ellipsenstil"
 
+#. GResultsList
+msgctxt "editor_dialog_style_resultslist_title"
+msgid "Results list style"
+msgstr "Stil der Ergebnisliste"
+
 #. GMeasure
 msgctxt "editor_dialog_style_line_title"
 msgid "Line style"
@@ -4438,13 +4570,18 @@ msgid "element is locked"
 msgstr "Element ist gesperrt"
 
 msgctxt "bluetooth_pref_button_start_bluetooth_scan"
-msgid "Start Bluetooth device scan"
-msgstr "Bluetooth Geräte scannen"
+msgid "Scan (LE)"
+msgstr "Scannen (LE)"
+
+msgctxt "bluetooth_pref_button_start_bluetooth_classic_scan"
+msgid "Scan (classic)"
+msgstr "Scannen (classic)"
 
 msgctxt "bluetooth_pref_scanning_in_progress"
 msgid "Scanning ..."
 msgstr "Scanne nach Geräten ..."
 
+#, fuzzy
 msgctxt "bluetooth_pref_no_bluetooth_scan_permission"
 msgid ""
 "Cannot list Bluetooth devices because you have denied the permission to "
@@ -4673,15 +4810,18 @@ msgstr "Dateien werden momentan benutzt."
 
 #. used in PrefsStorageDirectory
 #. import/export errors
+#, python-brace-format
 msgctxt "imerror_cannot_export_image"
 msgid "Cannot export image '{}'."
 msgstr "Kann das Bild '{}' nicht exportieren."
 
 #. other errors
+#, python-brace-format
 msgctxt "imerror_string_template_unknown_field"
 msgid "Unknown field '{}' in string template."
 msgstr "Unbekanntes Feld '{}' in Namensschema."
 
+#, python-brace-format
 msgctxt "imerror_string_template_syntax_error"
 msgid "Syntax error in string template '{}'."
 msgstr "Syntaxfehler im Namensschema '{}'."

@@ -57,17 +57,30 @@ msgctxt "error:LibJPEG_Error"
 msgid "LibJPEG error: \"{}\"."
 msgstr "خطای LibJPE: \"{}\"."
 
+#, fuzzy
 msgctxt "error:CommaSeparatedList_EmptyString"
 msgid "Empty item in list."
-msgstr ""
+msgstr "موردی خالی در لیست."
 
+#, fuzzy
 msgctxt "error:JsonParseError"
 msgid "JSON parse error"
-msgstr ""
+msgstr "خطای تجزیه JSON"
 
+#, fuzzy
 msgctxt "error:JsonParseError_Detail"
 msgid "JSON error: {}"
-msgstr ""
+msgstr "خطای JSON: {}"
+
+#, fuzzy
+msgctxt "error:Android_IOException"
+msgid "IO error: {}"
+msgstr "خطای ورودی/خروجی: {}"
+
+#, fuzzy
+msgctxt "error:Android_SecurityException"
+msgid "Security error: {}"
+msgstr "خطای امنیتی: {}"
 
 msgctxt "error:Files_FileDoesNotExist"
 msgid "File does not exist: \"{}\"."
@@ -134,17 +147,20 @@ msgctxt "error:Files_CannotGenerateUniqueFilename"
 msgid "Cannot generate unique filename: '{}'."
 msgstr "نام فایل منحصر به فرد ایجاد نمی شود: '{}'."
 
+#, fuzzy
 msgctxt "error:File_UnsupportedFileFormat"
 msgid "Format of file '{}' is not supported."
-msgstr ""
+msgstr "فرمت فایل '{}' پشتیبانی نمی‌شود."
 
+#, fuzzy
 msgctxt "error:CannotCreateTemporaryDirectory"
 msgid "Cannot create temporary directory."
-msgstr ""
+msgstr "دایرکتوری موقت ایجاد نمی‌شود."
 
+#, fuzzy
 msgctxt "error:CannotCreateTemporaryFile"
 msgid "Cannot create temporary file."
-msgstr ""
+msgstr "فایل موقت ایجاد نمی‌شود."
 
 msgctxt "error:ProjectFolder_CannotCreate"
 msgid "Cannot create folder '{}'."
@@ -203,6 +219,10 @@ msgstr "بیش از یک فایل IMM ییدا شده است."
 msgctxt "error:DataBundle_CannotReadIMMFile"
 msgid "Cannot read IMM file."
 msgstr "فایل IMM قابل خواندن نیست."
+
+msgctxt "error:DataBundle_InvalidReferenceID"
+msgid "Invalid reference ID."
+msgstr ""
 
 msgctxt "error:DataBundle_CannotGetContentArea"
 msgid "Unknown content area."
@@ -269,6 +289,15 @@ msgctxt "error:CannotReadTexture"
 msgid "Cannot read texture '{}'."
 msgstr "نمی تواند بافت '{}' را بخواند."
 
+#, fuzzy
+msgctxt "error:CannotLoadIMIFile"
+msgid "Cannot load IMI file '{}'"
+msgstr "فایل IMI '{}' بارگیری نمی‌شود."
+
+msgctxt "error:Exif_ParseError"
+msgid "EXIF parse error: {}"
+msgstr ""
+
 msgctxt "error:OpenGL"
 msgid "OpenGL error: \"{}\"."
 msgstr "خطای OpenGL: \"{}\"."
@@ -314,6 +343,14 @@ msgctxt "error:ImageReader_CannotReadImage"
 msgid "Cannot read image file."
 msgstr "فایل عکس را نمی توان خواند"
 
+msgctxt "error:Skia_CannotCreateContext"
+msgid "Cannot create Skia context"
+msgstr ""
+
+msgctxt "error:Skia_CannotCreateSurface:with_size"
+msgid "Cannot create Skia rendering surface of size {0}x{1}"
+msgstr ""
+
 msgctxt "error:IMI_CannotOpen"
 msgid "Cannot open IMI file '{}'."
 msgstr "فایل IMI '{}' باز نمی شود."
@@ -326,21 +363,25 @@ msgctxt "error:IMF_CorruptedFile"
 msgid "Corrupted IMF file."
 msgstr "فایل IMF خراب شده است."
 
+#, fuzzy
 msgctxt "error:CannotGenerateCsv"
 msgid "Cannot generate CSV file"
-msgstr ""
+msgstr "فایل CSV ایجاد نمی‌شود."
 
+#, fuzzy
 msgctxt "error:CannotGenerateXlsx"
 msgid "Cannot generate XLSX file"
-msgstr ""
+msgstr "فایل XLSX ایجاد نمی‌شود."
 
+#, fuzzy
 msgctxt "error:CannotCreateZIPFile"
 msgid "Cannot create ZIP file"
-msgstr ""
+msgstr "فایل ZIP ایجاد نمی‌شود."
 
+#, fuzzy
 msgctxt "error:Export_NoImagesToWrite"
 msgid "Data to export does not contain any images"
-msgstr ""
+msgstr "داده برای صدور حاوی هیچ عکسی نیست."
 
 msgctxt "error:CannotGeneratePdf"
 msgid "Cannot generate PDF"
@@ -410,9 +451,10 @@ msgctxt "error:Cloud_CannotLogin:cannot_access_base_folder"
 msgid "Cannot access data directory on cloud server."
 msgstr "دسترسی به دایرکتوری داده ها در سرور ابری امکان پذیر نیست."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLogin:backend_not_initialized"
 msgid "Backend not initialized."
-msgstr ""
+msgstr "پشتیبان مقداردهی اولیه نشده است."
 
 msgctxt "error:Cloud_SyncError"
 msgid "Cannot sync with server."
@@ -449,8 +491,45 @@ msgctxt "error:Cloud_ServerBlocked"
 msgid "Server blocked by another client. Please retry at a later time."
 msgstr "سرور توسط یک مشتری دیگر مسدود شده است. لطفاً بعداً دوباره امتحان کنید."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLockLocalFiles"
 msgid "Cannot get exclusive access on local files"
+msgstr "دسترسی انحصاری به فایل‌های محلی امکان‌پذیر نیست."
+
+msgctxt "error:Cloud_CannotScanLocalDirectoryTree"
+msgid "Cannot scan local directory tree '{}'."
+msgstr ""
+
+msgctxt "error:Cloud_CannotScanRemoteDirectoryTree"
+msgid "Cannot scan remote directory tree '{}'."
+msgstr ""
+
+msgctxt "error:Cloud_MultipleIMMFilesInDirectory"
+msgid "There are multiple '.imm' files in directory '{}'."
+msgstr ""
+
+msgctxt "error:Cloud_MultipleIFDFilesInDirectory"
+msgid "There are multiple '.ifd' files in directory '{}'."
+msgstr ""
+
+msgctxt "error:Cloud_BothIFDAndIMMInDirectory"
+msgid "There is an '.ifd' and an '.imm' file in directory '{}'."
+msgstr ""
+
+msgctxt "error:Cloud_CannotParseServerCache"
+msgid "Cannot parse server cache file 'server-dir.cache'."
+msgstr ""
+
+msgctxt "error:Cloud_CannotSaveServerCache"
+msgid "Cannot save server cache file."
+msgstr ""
+
+msgctxt "error:Cloud_CannotLoadServerCache"
+msgid "Cannot load server cache file 'server-dir.cache'."
+msgstr ""
+
+msgctxt "error:Cloud_CannotSaveServerSyncTime"
+msgid "Cannot save server sync time file."
 msgstr ""
 
 msgctxt "error:Cloud_RemoteFileDoesNotExist"
@@ -546,160 +625,204 @@ msgctxt "error:Cloud_IsNotAFolder"
 msgid "File '{}' is not a folder."
 msgstr "فایل '{}' در پوشه نیست."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotRemoveServerLock"
 msgid "Could not remove server lock file '{}'."
-msgstr ""
+msgstr "فایل قفل سرور '{}' حذف نمی‌شود."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotResetServerCache"
 msgid "Could not remove server cache file '{}'."
-msgstr ""
+msgstr "فایل کش سرور '{}' حذف نمی‌شود."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotResetSyncState"
 msgid "Could not reset sync state."
-msgstr ""
+msgstr "وضعیت همگام‌سازی بازنشانی نمی‌شود."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotFindUniqueName"
 msgid "Cannot find unique name for '{}'"
-msgstr ""
+msgstr "نام منحصر به فردی برای '{}' یافت نشد."
 
+#, fuzzy
+msgctxt "error:Cloud_CannotCheckIfFileExists"
+msgid "Cannot check if file '{}' exists"
+msgstr "بررسی وجود فایل '{}' امکان‌پذیر نیست."
+
+#, fuzzy
 msgctxt "error:Cloud_BackendInitializationFailed"
 msgid "Cloud backend initialization failed: '{}'"
-msgstr ""
+msgstr "راه‌اندازی پشتیبان ابری ناموفق بود: '{}'"
 
+#, fuzzy
 msgctxt "error:Cloud_ServerPortNumberInvalid"
 msgid "Server port {} invalid"
-msgstr ""
+msgstr "پورت سرور {} نامعتبر است."
 
+#, fuzzy
 msgctxt "error:Cloud_CannotLoadUnsupportedBackend"
 msgid "Cannot load unsupported backend '{}'"
-msgstr ""
+msgstr "پشتیبان پشتیبانی‌نشده '{}' بارگیری نمی‌شود."
 
+#, fuzzy
 msgctxt "error:CloudBackend_OneDrive_DirectoryNotSet"
 msgid "OneDrive server data directory is not set"
-msgstr ""
+msgstr "دایرکتوری داده سرور OneDrive تنظیم نشده است."
 
+#, fuzzy
 msgctxt "error:CloudBackend_GoogleDrive_DirectoryNotSet"
 msgid "Google Drive server data directory is not set"
-msgstr ""
+msgstr "دایرکتوری داده سرور Google Drive تنظیم نشده است."
 
+#, fuzzy
 msgctxt "error:CloudBackend_Filesystem_DirectoryNotSet"
 msgid "Storage directory is not set"
-msgstr ""
+msgstr "دایرکتوری ذخیره‌سازی تنظیم نشده است."
 
+#, fuzzy
 msgctxt "error:HTTP-error-400"
 msgid "HTTP error 400 : Bad Request"
-msgstr ""
+msgstr "خطای HTTP 400: درخواست نادرست"
 
+#, fuzzy
 msgctxt "error:HTTP-error-401"
 msgid "HTTP error 401 : Unauthorized"
-msgstr ""
+msgstr "خطای HTTP 401: غیرمجاز"
 
+#, fuzzy
 msgctxt "error:HTTP-error-403"
 msgid "HTTP error 403 : Forbidden"
-msgstr ""
+msgstr "خطای HTTP 403: ممنوع"
 
+#, fuzzy
 msgctxt "error:HTTP-error-404"
 msgid "HTTP error 404 : Not Found"
-msgstr ""
+msgstr "خطای HTTP 404: یافت نشد"
 
+#, fuzzy
 msgctxt "error:HTTP-error-405"
 msgid "HTTP error 405 : Method Not Allowed"
-msgstr ""
+msgstr "خطای HTTP 405: متد مجاز نیست"
 
+#, fuzzy
 msgctxt "error:HTTP-error-406"
 msgid "HTTP error 406 : Not Acceptable"
-msgstr ""
+msgstr "خطای HTTP 406: غیرقابل قبول"
 
+#, fuzzy
 msgctxt "error:HTTP-error-407"
 msgid "HTTP error 407 : Proxy Authentication Required"
-msgstr ""
+msgstr "خطای HTTP 407: نیاز به احراز هویت پراکسی"
 
+#, fuzzy
 msgctxt "error:HTTP-error-408"
 msgid "HTTP error 408 : Request Timeout"
-msgstr ""
+msgstr "خطای HTTP 408: پایان زمان درخواست"
 
+#, fuzzy
 msgctxt "error:HTTP-error-409"
 msgid "HTTP error 409 : Conflict"
-msgstr ""
+msgstr "خطای HTTP 409: تضاد"
 
+#, fuzzy
 msgctxt "error:HTTP-error-410"
 msgid "HTTP error 410 : Gone"
-msgstr ""
+msgstr "خطای HTTP 410: از بین رفته"
 
+#, fuzzy
 msgctxt "error:HTTP-error-500"
 msgid "HTTP error 500 : Internal Server Error"
-msgstr ""
+msgstr "خطای HTTP 500: خطای داخلی سرور"
 
+#, fuzzy
 msgctxt "error:HTTP-error-501"
 msgid "HTTP error 501 : Not Implemented"
-msgstr ""
+msgstr "خطای HTTP 501: پیاده‌سازی نشده"
 
+#, fuzzy
 msgctxt "error:HTTP-error-502"
 msgid "HTTP error 502 : Bad Gateway"
-msgstr ""
+msgstr "خطای HTTP 502: دروازه بد"
 
+#, fuzzy
 msgctxt "error:HTTP-error-503"
 msgid "HTTP error 503 : Service Unavailable"
-msgstr ""
+msgstr "خطای HTTP 503: سرویس در دسترس نیست"
 
+#, fuzzy
 msgctxt "error:HTTP-error-504"
 msgid "HTTP error 504 : Gateway Timeout"
-msgstr ""
+msgstr "خطای HTTP 504: پایان زمان دروازه"
 
 #, fuzzy
 msgctxt "error:NetworkError"
 msgid "Network error: {}"
 msgstr "خطای سرور: {}"
 
+#, fuzzy
 msgctxt "error:NetworkTimeout"
 msgid "Network timeout"
-msgstr ""
+msgstr "پایان زمان شبکه"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_InvalidServerResponse"
 msgid "Invalid server response: {}"
-msgstr ""
+msgstr "پاسخ سرور نامعتبر است: {}"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_InvalidClientParameters"
 msgid "Invalid client parameters: {}"
-msgstr ""
+msgstr "پارامترهای کلاینت نامعتبر است: {}"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_LicenseNotFound"
 msgid "Invalid license code"
-msgstr ""
+msgstr "کد مجوز نامعتبر است"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_LicenseExpired"
 msgid "License has expired"
-msgstr ""
+msgstr "مجوز منقضی شده است"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_LicenseQueryError"
 msgid "Error during license query: {}"
-msgstr ""
+msgstr "خطا در هنگام استعلام مجوز: {}"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_InvalidPlatformForKey"
 msgid "License key is not for this platform"
-msgstr ""
+msgstr "کلید مجوز برای این پلتفرم نیست"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_DeviceAssignmentsExhausted"
 msgid "Maximum number of device assignments reached"
-msgstr ""
+msgstr "به حداکثر تعداد تخصیص دستگاه رسیده است"
 
+#, fuzzy
 msgctxt "error:Licensing_Desktop_DeviceLimitReached"
 msgid "Maximum number of licensed devices reached."
-msgstr ""
+msgstr "به حداکثر تعداد دستگاه‌های مجاز رسیده است."
 
+#, fuzzy
 msgctxt "error:Licensing_RevokesExhausted"
 msgid ""
 "You have already used all available {max_revokes} revokes during the past "
 "{period_days} days."
 msgstr ""
+"شما قبلاً از تمام {max_revokes} ابطال موجود در {period_days} روز گذشته "
+"استفاده کرده‌اید."
 
+#, fuzzy
 msgctxt "error:Licensing_DeviceNotActive"
 msgid "The chosen device has no active license assigned to it."
-msgstr ""
+msgstr "دستگاه انتخاب شده هیچ مجوز فعالی به آن اختصاص داده نشده است."
 
+#, fuzzy
 msgctxt "error:Licensing_LicenseNotFound"
 msgid "Unknown license key."
-msgstr ""
+msgstr "کلید مجوز ناشناخته است."
 
 #, fuzzy
 msgctxt "error:BluetoothError:no_active_element"
@@ -731,33 +854,68 @@ msgctxt "error:BluetoothError:generic"
 msgid "Cannot set received Bluetooth value."
 msgstr "نمی توان مقدار دریافتی بلوتوث را قرار داد."
 
+msgctxt "error:BluetoothDeviceError:unknown"
+msgid "Unknown error"
+msgstr ""
+
+msgctxt "error:BluetoothDeviceError:battery-too-low"
+msgid "Battery too low"
+msgstr ""
+
+msgctxt "error:BluetoothDeviceError:out-of-range"
+msgid "Out of range"
+msgstr ""
+
+msgctxt "error:BluetoothDeviceError:signal-too-weak"
+msgid "Signal too weak"
+msgstr ""
+
+msgctxt "error:BluetoothDeviceError:ambient-brightness-too-high"
+msgid "Ambient brightness too high"
+msgstr ""
+
+msgctxt "error:BluetoothDeviceError:pythagorean-calculation-error"
+msgid "Pythagorean calculation error"
+msgstr ""
+
+msgctxt "error:BluetoothDeviceError:out-of-working-temperature"
+msgid "Out of working temperature"
+msgstr ""
+
+#, fuzzy
 msgctxt "error:QKeychain:entry-not-found"
 msgid "No key found for '{}'."
-msgstr ""
+msgstr "هیچ کلیدی برای '{}' یافت نشد."
 
+#, fuzzy
 msgctxt "error:QKeychain:cannot-delete-entry"
 msgid "Cannot delete key for '{}'."
-msgstr ""
+msgstr "کلید برای '{}' حذف نمی‌شود."
 
+#, fuzzy
 msgctxt "error:QKeychain:access-denied"
 msgid "Access to key-chain denied."
-msgstr ""
+msgstr "دسترسی به زنجیره کلید رد شد."
 
+#, fuzzy
 msgctxt "error:QKeychain:no-keychain-available"
 msgid "No key-chain available."
-msgstr ""
+msgstr "هیچ زنجیره کلیدی موجود نیست."
 
+#, fuzzy
 msgctxt "error:QKeychain:other-error"
 msgid "Key-chain error: {}."
-msgstr ""
+msgstr "خطای زنجیره کلید: {}."
 
+#, fuzzy
 msgctxt "error:AudioDecoder_avcodec"
 msgid "Cannot play audio file ({})."
-msgstr ""
+msgstr "فایل صوتی ({}) پخش نمی‌شود."
 
+#, fuzzy
 msgctxt "error:AudioWriter_M4A"
 msgid "Cannot write audio file ({})."
-msgstr ""
+msgstr "فایل صوتی ({}) نوشته نمی‌شود."
 
 msgctxt "error:Android_ExternalDirectoryNotMounted"
 msgid "External directory is not mounted."
@@ -771,9 +929,10 @@ msgctxt "error:Android_Import_SecurityException"
 msgid "Security exception when accessing URI '{}'."
 msgstr "استثناء امنیتی هنگام دسترسی به URL '{}'."
 
+#, fuzzy
 msgctxt "error:Android_Import_IllegalStateException"
 msgid "Illegal state exception when accessing URI '{}'"
-msgstr ""
+msgstr "استثناء وضعیت غیرقانونی هنگام دسترسی به URI '{}'"
 
 msgctxt "error:Android_InsertImageIntoGallery"
 msgid "Cannot insert image into gallery ({})."
@@ -787,154 +946,204 @@ msgctxt "error:Android_DeleteOldImageFromGallery"
 msgid "Cannot delete old image from gallery (url='{}')."
 msgstr "حذف عکس قدیمی از گالری امکان پذیر نیست (url='{}')."
 
+msgctxt "error:Android_CapturePhoto"
+msgid "Cannot capture photo: {}"
+msgstr ""
+
+#, fuzzy
+msgctxt "error:Android_ReverseGeocoder"
+msgid "Cannot query location address: {}"
+msgstr "استعلام آدرس مکان امکان‌پذیر نیست: {}"
+
+#, fuzzy
 msgctxt "error:QtCamera_NotFound"
 msgid "Camera with name '{}' is not connected."
-msgstr ""
+msgstr "دوربینی با نام '{}' متصل نیست."
 
+#, fuzzy
 msgctxt "error:CameraBackendMismatch"
 msgid "Camera '{}' was configured on a different system."
-msgstr ""
+msgstr "دوربین '{}' روی سیستم دیگری پیکربندی شده بود."
 
+#, fuzzy
 msgctxt "error:QtCamera_MultipleDifferentStreams"
 msgid ""
 "Cannot start video because another stream with different settings is active."
-msgstr ""
+msgstr "ویدیو شروع نمی‌شود زیرا جریان دیگری با تنظیمات متفاوت فعال است."
 
+#, fuzzy
 msgctxt "error:NoCameraConfigured"
 msgid "No camera is configured in the preferences."
-msgstr ""
+msgstr "هیچ دوربینی در تنظیمات برگزیده پیکربندی نشده است."
 
+#, fuzzy
 msgctxt "error:UnknownCameraBackend"
 msgid "Unknown camera backend"
-msgstr ""
+msgstr "پشتیبان دوربین ناشناخته"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera"
 msgid "Daheng camera error ({0}): '{1}'"
-msgstr ""
+msgstr "خطای دوربین Daheng ({0}): '{1}'"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:1"
 msgid "Unspecified internal error"
-msgstr ""
+msgstr "خطای داخلی نامشخص"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:2"
 msgid "Cannot find TL library"
-msgstr ""
+msgstr "کتابخانه TL یافت نشد"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:3"
 msgid "Camera device not found"
-msgstr ""
+msgstr "دستگاه دوربین یافت نشد"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:4"
 msgid "Device is offline"
-msgstr ""
+msgstr "دستگاه آفلاین است"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:5"
 msgid "Invalid parameter"
-msgstr ""
+msgstr "پارامتر نامعتبر"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:6"
 msgid "Invalid handle"
-msgstr ""
+msgstr "دستگیره نامعتبر"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:7"
 msgid "Invalid software interface"
-msgstr ""
+msgstr "رابط نرم‌افزاری نامعتبر"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:8"
 msgid "Function inaccessible or incorrect access mode"
-msgstr ""
+msgstr "تابع غیرقابل دسترس یا حالت دسترسی نادرست"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:9"
 msgid "Request buffer is too small"
-msgstr ""
+msgstr "بافر درخواست بسیار کوچک است"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:10"
 msgid "Invalid feature data-type"
-msgstr ""
+msgstr "نوع داده ویژگی نامعتبر"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:11"
 msgid "Value out of range"
-msgstr ""
+msgstr "مقدار خارج از محدوده"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:12"
 msgid "Unimplemented function"
-msgstr ""
+msgstr "تابع پیاده‌سازی نشده"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:13"
 msgid "Interface uninitialized"
-msgstr ""
+msgstr "رابط مقداردهی اولیه نشده"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:14"
 msgid "Timeout error"
-msgstr ""
+msgstr "خطای پایان زمان"
 
+#, fuzzy
 msgctxt "error:Daheng_Camera:unknown"
 msgid "Unknown error"
-msgstr ""
+msgstr "خطای ناشناخته"
 
+#, fuzzy
 msgctxt "error:LibSSH2_NoText"
 msgid "LibSSH2 error code: {0}"
-msgstr ""
+msgstr "کد خطای LibSSH2: {0}"
 
+#, fuzzy
 msgctxt "error:LibSSH2_WithText"
 msgid "LibSSH2 error {0}: '{1}'"
-msgstr ""
+msgstr "خطای LibSSH2 {0}: '{1}'"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_WithText"
 msgid "LibSSH2 error {0}: '{1}', SFTP error {2}"
-msgstr ""
+msgstr "خطای LibSSH2 {0}: '{1}'، خطای SFTP {2}"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_FileDoesNotExist"
 msgid "SFTP error: file '{0}' does not exist"
-msgstr ""
+msgstr "خطای SFTP: فایل '{0}' وجود ندارد"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_PermissionDenied"
 msgid "SFTP error: permission denied to access '{0}'"
+msgstr "خطای SFTP: اجازه دسترسی به '{0}' رد شد"
+
+msgctxt "error:LibSSH2_Session_WithText"
+msgid "LibSSH2 session error {0}: '{1}'"
 msgstr ""
 
+#, fuzzy
 msgctxt "error:getaddrinfo"
 msgid "Cannot get internet address. Error {0}: {1}"
-msgstr ""
+msgstr "آدرس اینترنتی دریافت نمی‌شود. خطا {0}: {1}"
 
+#, fuzzy
 msgctxt "error:Network_CouldNotGetIPV4_Address"
 msgid "Could not get an IPV4 network address"
-msgstr ""
+msgstr "آدرس شبکه IPV4 دریافت نشد"
 
+#, fuzzy
 msgctxt "error:Network_CouldNotCreateSocket"
 msgid "Could not create socket"
-msgstr ""
+msgstr "سوکت ایجاد نشد"
 
+#, fuzzy
 msgctxt "error:Network_CouldNotConnectSocket"
 msgid "Could not connect socket"
-msgstr ""
+msgstr "سوکت متصل نشد"
 
+#, fuzzy
 msgctxt "error:SFTP_ServerDoesNotAcceptPasswordAuthentication"
 msgid "SFTP server does not accept password authentication method."
-msgstr ""
+msgstr "سرور SFTP روش احراز هویت با رمز عبور را قبول نمی‌کند."
 
+#, fuzzy
 msgctxt "error:SFTP_PasswordAuthenticationFailed"
 msgid "Invalid password"
-msgstr ""
+msgstr "رمز عبور نامعتبر"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_InitFailed"
 msgid "SFTP protocol initialization failed"
-msgstr ""
+msgstr "راه‌اندازی پروتکل SFTP ناموفق بود"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_CannotOpenDir"
 msgid "Cannot open SFTP directory '{0}'"
-msgstr ""
+msgstr "دایرکتوری SFTP '{0}' باز نمی‌شود"
 
+#, fuzzy
 msgctxt "error:LibSSH2_SFTP_CannotReadDir"
 msgid "Cannot read SFTP directory '{0}'"
-msgstr ""
+msgstr "دایرکتوری SFTP '{0}' خوانده نمی‌شود"
 
+#, fuzzy
 msgctxt "error:CouldNotInitializeSSHSession"
 msgid "Could not initialize SSH session"
-msgstr ""
+msgstr "جلسه SSH راه‌اندازی نشد"
 
+#, fuzzy
 msgctxt "error:CouldNotEstablishSSHSession"
 msgid "Could not establish SSH session"
-msgstr ""
+msgstr "جلسه SSH برقرار نشد"
 
 msgctxt "unit:translated-name:meter"
 msgid "m"
@@ -1040,6 +1249,14 @@ msgctxt "dimtemplate:length:decimal-imperial"
 msgid "Imperial (1.00 ft)"
 msgstr "امپریال (1.00 ft)"
 
+msgctxt "dimtemplate:length:decimal-metric:no-example"
+msgid "Metric"
+msgstr ""
+
+msgctxt "dimtemplate:length:decimal-imperial:no-example"
+msgid "Imperial"
+msgstr ""
+
 msgctxt "dimtemplate:length:imperial-interleaved"
 msgid "Imperial (1' 10 1/32\")"
 msgstr "امپریال (1' 10 1/32\")"
@@ -1131,19 +1348,24 @@ msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
 msgid "Show as ft/in"
 msgstr "واحدهای امپریال به صورت ft/in نمایش داده خواهند شد"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:imperial-uses-text-units(pc)"
 msgid "Textual units"
-msgstr ""
+msgstr "واحدهای متنی"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox"
 msgid "Add dot after ambiguous numbers"
-msgstr ""
+msgstr "افزودن نقطه پس از اعداد مبهم"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:checkbox:tooltip"
 msgid ""
 "When enabled, a dot is placed after numbers that are ambiguous when read "
 "upside down, like this: 66."
 msgstr ""
+"هنگامی که فعال باشد، نقطه‌ای بعد از اعدادی که هنگام خواندن به صورت وارونه "
+"مبهم هستند، قرار می‌گیرد، مانند این: ۶۶."
 
 msgctxt "dimformat:options-ui:ambiguous-numbers:title"
 msgid "Ambiguous numbers"
@@ -1157,11 +1379,14 @@ msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
 msgid "Add dot if necessary"
 msgstr "بله، در صورت لزوم"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:show-units:title:tooltip"
 msgid ""
 "When disabled, measures are shown without the unit. I.e. just the plain "
 "number '23' instead of '23 cm'."
 msgstr ""
+"در صورت غیرفعال بودن، اندازه‌ها بدون واحد نمایش داده می‌شوند. یعنی فقط عدد "
+"ساده '۲۳' به جای '۲۳ سانتی‌متر'."
 
 msgctxt "dimformat:options-ui:show-units:title"
 msgid "Show units"
@@ -1187,49 +1412,59 @@ msgctxt "dimformat:options-ui:reduce-fractions:yes"
 msgid "Reduce (4/8 becomes 1/2)"
 msgstr "کسرها ساده خواهند شد (4/8 می شود 1/2)"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:space-between-value-and-unit"
 msgid "Space between value and unit"
-msgstr ""
+msgstr "فاصله بین مقدار و واحد"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:comma-as-decimal-dot"
 msgid "Use comma as decimal dot"
-msgstr ""
+msgstr "استفاده از کاما به عنوان نقطه اعشار"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:imperial-feet-and-inches"
 msgid "Feet and inches"
-msgstr ""
+msgstr "فوت و اینچ"
 
 msgctxt "dimformat:options-ui:decimal-digits(short)"
 msgid "Decimal digits"
 msgstr "ارقام اعشاری"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format:decimal"
 msgid "Decimal (1.00 m)"
-msgstr ""
+msgstr "اعشاری (1.00 m)"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format:imperial"
 msgid "Imperial (1' 5 3/32\")"
-msgstr ""
+msgstr "امپریال (1' 5 3/32\")"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:example"
 msgid "Example:"
-msgstr ""
+msgstr "مثال:"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format-group:length"
 msgid "Length format"
-msgstr ""
+msgstr "فرمت طول"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format-group:area"
 msgid "Area format"
-msgstr ""
+msgstr "فرمت مساحت"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format-group:angle"
 msgid "Angle format"
-msgstr ""
+msgstr "فرمت زاویه"
 
+#, fuzzy
 msgctxt "dimformat:options-ui:format-group:common-options"
 msgid "Decimal values options"
-msgstr ""
+msgstr "گزینه‌های مقادیر اعشاری"
 
 msgctxt "month-names-short-1"
 msgid "Jan"
@@ -1371,37 +1606,45 @@ msgctxt "text-h-alignment:right"
 msgid "Right"
 msgstr "راست"
 
-msgctxt "text-h-alignment:block"
-msgid "Block"
-msgstr ""
+#, fuzzy
+msgctxt "text-h-alignment:justify"
+msgid "Justify"
+msgstr "تراز کردن"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:none"
 msgid "None"
-msgstr ""
+msgstr "هیچ‌کدام"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:enter"
 msgid "Enter"
-msgstr ""
+msgstr "ورود"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:tab"
 msgid "Tab"
-msgstr ""
+msgstr "تب"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:cursor-down"
 msgid "Cursor down"
-msgstr ""
+msgstr "مکان‌نما پایین"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:cursor-up"
 msgid "Cursor up"
-msgstr ""
+msgstr "مکان‌نما بالا"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:cursor-left"
 msgid "Cursor left"
-msgstr ""
+msgstr "مکان‌نما چپ"
 
+#, fuzzy
 msgctxt "virtual-keyboard:special-key:cursor-right"
 msgid "Cursor right"
-msgstr ""
+msgstr "مکان‌نما راست"
 
 msgctxt "character:comma"
 msgid "Comma"
@@ -1419,113 +1662,189 @@ msgctxt "character:dot"
 msgid "Dot"
 msgstr "نقطه"
 
+#, fuzzy
 msgctxt "sorting:by-name:ascending"
 msgid "by name, ascending"
-msgstr ""
+msgstr "بر اساس نام، صعودی"
 
+#, fuzzy
 msgctxt "sorting:by-name:descending"
 msgid "by name, descending"
-msgstr ""
+msgstr "بر اساس نام، نزولی"
 
+#, fuzzy
 msgctxt "sorting:by-creation-date:ascending"
 msgid "by creation date, ascending"
-msgstr ""
+msgstr "بر اساس تاریخ ایجاد، صعودی"
 
+#, fuzzy
 msgctxt "sorting:by-creation-date:descending"
 msgid "by creation date, descending"
-msgstr ""
+msgstr "بر اساس تاریخ ایجاد، نزولی"
 
+#, fuzzy
 msgctxt "sorting:by-modification-date:ascending"
 msgid "by modification date, ascending"
-msgstr ""
+msgstr "بر اساس تاریخ تغییر، صعودی"
 
+#, fuzzy
 msgctxt "sorting:by-modification-date:descending"
 msgid "by modification date, descending"
-msgstr ""
+msgstr "بر اساس تاریخ تغییر، نزولی"
 
+#, fuzzy
 msgctxt "sorting:by-number:ascending"
 msgid "by number, ascending"
-msgstr ""
+msgstr "بر اساس شماره، صعودی"
 
+#, fuzzy
 msgctxt "sorting:by-number:descending"
 msgid "by number, descending"
-msgstr ""
+msgstr "بر اساس شماره، نزولی"
 
+#, fuzzy
 msgctxt "AudioDecoder_avcodec:no-audio-stream-found"
 msgid "No audio stream in file."
-msgstr ""
+msgstr "هیچ جریان صوتی در فایل یافت نشد."
 
+#, fuzzy
 msgctxt "AudioDecoder_avcodec:unsupported-audio-codec"
 msgid "Unsupported audio codec."
-msgstr ""
+msgstr "کدک صوتی پشتیبانی نشده."
 
+#, fuzzy
 msgctxt "splash:initializing-application"
 msgid "Initializing application"
-msgstr ""
+msgstr "در حال راه‌اندازی برنامه"
 
+#, fuzzy
 msgctxt "splash:checking-for-updates"
 msgid "Checking for updates…"
-msgstr ""
+msgstr "در حال بررسی برای به‌روزرسانی‌ها..."
 
+#, fuzzy
 msgctxt "splash:cleaning-up-old-images"
 msgid "Cleaning up old images…"
-msgstr ""
+msgstr "در حال پاک‌سازی تصاویر قدیمی..."
 
+#, fuzzy
 msgctxt "splash:item-status:waiting"
 msgid "Waiting"
-msgstr ""
+msgstr "در حال انتظار"
 
+#, fuzzy
 msgctxt "splash:item-status:running"
 msgid "Running"
-msgstr ""
+msgstr "در حال اجرا"
 
+#, fuzzy
 msgctxt "splash:item-status:ok"
 msgid "Ok"
-msgstr ""
+msgstr "تایید"
 
+#, fuzzy
 msgctxt "splash:item-status:warning"
 msgid "Warning"
-msgstr ""
+msgstr "هشدار"
 
+#, fuzzy
 msgctxt "splash:item-status:error"
 msgid "Error"
-msgstr ""
+msgstr "خطا"
 
+#, fuzzy
 msgctxt "splash:item-status:show-error"
 msgid "Details…"
-msgstr ""
+msgstr "جزئیات..."
 
+#, fuzzy
 msgctxt "ui:list:add-entry"
 msgid "Add"
-msgstr ""
+msgstr "افزودن"
 
+#, fuzzy
 msgctxt "ui:list:remove-entry"
 msgid "Remove"
-msgstr ""
+msgstr "حذف"
 
+#, fuzzy
 msgctxt "ui:list:move-entry-up"
 msgid "Up"
-msgstr ""
+msgstr "بالا"
 
+#, fuzzy
 msgctxt "ui:list:move-entry-down"
 msgid "Down"
-msgstr ""
+msgstr "پایین"
 
+#, fuzzy
 msgctxt "ui:button:info"
 msgid "Info"
-msgstr ""
+msgstr "اطلاعات"
 
+#, fuzzy
 msgctxt "ui:window-title:warning"
 msgid "Warning"
-msgstr ""
+msgstr "هشدار"
 
+#, fuzzy
 msgctxt "ui:window-title:error"
 msgid "Error"
-msgstr ""
+msgstr "خطا"
 
+#, fuzzy
 msgctxt "ui:dialog:dont-ask-again"
 msgid "Don't ask again"
+msgstr "دیگر نپرس"
+
+#, fuzzy
+msgctxt "ui:combobox:select-a-recent-name"
+msgid "Select a recent name..."
+msgstr "یک نام اخیر را انتخاب کنید..."
+
+msgctxt "ui:combobox:selection:various"
+msgid "(various)"
 msgstr ""
+
+#, fuzzy
+msgctxt "ui:save-as-default"
+msgid "Save as default"
+msgstr "ذخیره به عنوان پیش‌فرض"
+
+#, fuzzy
+msgctxt "ui:dialog:ok"
+msgid "Ok"
+msgstr "تایید"
+
+#, fuzzy
+msgctxt "ui:dialog:cancel"
+msgid "Cancel"
+msgstr "لغو"
+
+#, fuzzy
+msgctxt "whats-new:dialog:title"
+msgid "What is New"
+msgstr "چه چیزی جدید است"
+
+#, fuzzy
+msgctxt "whats-new:unknown-version"
+msgid "unknown"
+msgstr "ناشناخته"
+
+#, fuzzy
+msgctxt "whats-new:version-title"
+msgid "Version: {}"
+msgstr "نسخه: {}"
+
+#, fuzzy
+msgctxt "whats-new:current-version"
+msgid "Current version: {}"
+msgstr "نسخه فعلی: {}"
+
+#, fuzzy
+msgctxt "whats-new:changes"
+msgid "Changes:"
+msgstr "تغییرات:"
 
 msgctxt "filename-copy-tag"
 msgid "copy"
@@ -1551,149 +1870,233 @@ msgctxt "entities:cannot_rename_image:in_use"
 msgid "Cannot rename image '{0} because it is currently in use by '{1}'."
 msgstr "فایل '{}' قابل تغییر نیست زیرا هم اکنون در حال استفاده است."
 
+#, fuzzy
 msgctxt "image-library:breadcrumbs:root-folder"
 msgid "Root"
-msgstr ""
+msgstr "ریشه"
 
+#, fuzzy
 msgctxt "image-library:company-policy:may-not-add-folder-here"
 msgid "Your company policy does not allow to add a new folder at this place."
-msgstr ""
+msgstr "سیاست شرکت شما اجازه افزودن پوشه جدید در این مکان را نمی‌دهد."
 
+#, fuzzy
 msgctxt "image-library:company-policy:may-not-add-image-here"
 msgid "Your company policy does not allow to add a new image at this place."
-msgstr ""
+msgstr "سیاست شرکت شما اجازه افزودن تصویر جدید در این مکان را نمی‌دهد."
 
+#, fuzzy
 msgctxt "image-library:company-policy:may-not-delete-here"
 msgid "Your company policy does not allow to delete items at this place."
-msgstr ""
+msgstr "سیاست شرکت شما اجازه حذف موارد در این مکان را نمی‌دهد."
 
+#, fuzzy
 msgctxt "image-library:move:target-folder:dialog-title"
 msgid "Move into folder"
-msgstr ""
+msgstr "انتقال به پوشه"
 
+#, fuzzy
 msgctxt "image-library:move:target-folder:description"
 msgid "Select the destination folder:"
-msgstr ""
+msgstr "پوشه مقصد را انتخاب کنید:"
 
+#, fuzzy
 msgctxt "image-library:open-image:error:bundle-already-opened"
 msgid "This image is already open in another editor window."
-msgstr ""
+msgstr "این تصویر قبلاً در پنجره ویرایشگر دیگری باز شده است."
 
+#, fuzzy
 msgctxt "image-library:dialog:duplicate-entities:window-title"
 msgid "Duplicate images"
-msgstr ""
+msgstr "تصاویر تکراری"
 
+#, fuzzy
 msgctxt "image-library:dialog:duplicate-entities:message"
 msgid "Duplicating images (copied {} of {} images found)."
-msgstr ""
+msgstr "در حال تکثیر تصاویر (کپی شده {} از {} تصویر یافت شده)."
 
+#, fuzzy
 msgctxt "image-library:dialog:duplicate-entities:options:group"
 msgid "Duplicate options"
-msgstr ""
+msgstr "گزینه‌های تکثیر"
 
+#, fuzzy
 msgctxt "image-library:dialog:duplicate-entities:options:copy-annotations"
 msgid "Copy annotations"
-msgstr ""
+msgstr "کپی حاشیه‌نویسی‌ها"
 
+#, fuzzy
 msgctxt "rename-images:user-note:various-values"
 msgid "(various)"
-msgstr ""
+msgstr "(گوناگون)"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:add:button"
 msgid "+ Dynamic text"
-msgstr ""
+msgstr "+ متن پویا"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:dialog-title"
 msgid "Choose a dynamic text"
-msgstr ""
+msgstr "یک متن پویا انتخاب کنید"
 
+#, fuzzy
 msgctxt "rename-images:script-expr:current-image-title:name"
 msgid "Current image title"
-msgstr ""
+msgstr "عنوان تصویر فعلی"
 
-msgctxt "rename-images:script-expr:capture date"
+#, fuzzy
+msgctxt "rename-images:script-expr:capture-date"
 msgid "Capture date"
-msgstr ""
+msgstr "تاریخ ثبت"
 
+#, fuzzy
+msgctxt "rename-images:script-expr:capture-time"
+msgid "Capture time"
+msgstr "زمان ثبت"
+
+#, fuzzy
 msgctxt "rename-images:script-expr:gps-coordinates"
 msgid "GPS coordinates"
-msgstr ""
+msgstr "مختصات GPS"
 
+#, fuzzy
 msgctxt "imagebundle-settings:dialog-title"
 msgid "Image settings"
-msgstr ""
+msgstr "تنظیمات تصویر"
 
+#, fuzzy
 msgctxt "imagebundle-settings:image-title"
 msgid "Image name"
-msgstr ""
+msgstr "نام تصویر"
 
+#, fuzzy
 msgctxt "imagebundle-settings:image-number"
 msgid "Number"
-msgstr ""
+msgstr "شماره"
 
+#, fuzzy
 msgctxt "imagebundle-settings:template"
 msgid "Data scheme"
-msgstr ""
+msgstr "طرح داده"
 
+#, fuzzy
 msgctxt "imagebundle-settings:image-notes"
 msgid "Image notes"
-msgstr ""
+msgstr "یادداشت‌های تصویر"
 
+#, fuzzy
 msgctxt "template-selection-mixin:copy-local-template-to-prefs"
 msgid "Copy template to preferences"
+msgstr "کپی الگو در تنظیمات برگزیده"
+
+msgctxt "layer:add-image-layer:file-dialog:title"
+msgid "Add layer with image or PDF"
 msgstr ""
 
+msgctxt "layer:type:image:image"
+msgid "image"
+msgstr ""
+
+msgctxt "layer:type:image:canvas"
+msgid "canvas"
+msgstr ""
+
+msgctxt "layer:type:image:live-camera"
+msgid "live camera"
+msgstr ""
+
+msgctxt "layer:type:annotation"
+msgid "annotation"
+msgstr ""
+
+#, fuzzy
 msgctxt "folder-settings:dialog-title"
 msgid "Folder settings"
-msgstr ""
+msgstr "تنظیمات پوشه"
 
+#, fuzzy
 msgctxt "folder-settings:folder-title"
 msgid "Folder name"
+msgstr "نام پوشه"
+
+msgctxt "folder-settings:group:data-table"
+msgid "Data table"
 msgstr ""
 
+#, fuzzy
 msgctxt "folder-settings:template"
 msgid "Data scheme"
+msgstr "طرح داده"
+
+msgctxt "folder-settings:auto-gen-table"
+msgid "Output table"
 msgstr ""
 
+msgctxt "folder-settings:auto-gen-table:none"
+msgid "No table output"
+msgstr ""
+
+msgctxt "folder-settings:auto-gen-table:info:title"
+msgid "Automatic table generation"
+msgstr ""
+
+msgctxt "folder-settings:auto-gen-table:info"
+msgid ""
+"When an output table is selected, a data-table file (spreadsheet) will be "
+"automatically generated for the images in the folder during the 'image-"
+"upload' sync and in a ZIP export."
+msgstr ""
+
+#, fuzzy
 msgctxt "folder-settings:folder-color"
 msgid "Folder color"
-msgstr ""
+msgstr "رنگ پوشه"
 
+#, fuzzy
 msgctxt "folder-settings:folder-notes"
 msgid "Folder notes"
-msgstr ""
+msgstr "یادداشت‌های پوشه"
 
+#, fuzzy
 msgctxt "access-control:users-with-access:list-title"
 msgid "Users with access"
-msgstr ""
+msgstr "کاربران با دسترسی"
 
+#, fuzzy
 msgctxt "access-control:admin:full-name"
 msgid "Administrator"
-msgstr ""
+msgstr "مدیر"
 
+#, fuzzy
 msgctxt "access-control:nobody:full-name"
 msgid "No user"
-msgstr ""
+msgstr "هیچ کاربری"
 
+#, fuzzy
 msgctxt "access-control:anybody:full-name"
 msgid "Anybody"
-msgstr ""
+msgstr "هر کسی"
 
+#, fuzzy
 msgctxt "image-numbering:start-number"
 msgid "Start"
-msgstr ""
+msgstr "شروع"
 
+#, fuzzy
 msgctxt "image-numbering:increment"
 msgid "Increment"
-msgstr ""
+msgstr "افزایش"
 
+#, fuzzy
 msgctxt "image-numbering:section:renumber-existing-images"
 msgid "Renumber existing images"
-msgstr ""
+msgstr "شماره‌گذاری مجدد تصاویر موجود"
 
+#, fuzzy
 msgctxt "image-numbering:keep-old-numbering-order"
 msgid "Keep old numbering order"
-msgstr ""
+msgstr "حفظ ترتیب شماره‌گذاری قدیمی"
 
 msgctxt "clipboard:action:copy"
 msgid "Copy to clipboard"
@@ -1723,17 +2126,20 @@ msgctxt "clipboard-paste-dialog:option:center-on-image"
 msgid "Center on image"
 msgstr "مرکز عکس"
 
+#, fuzzy
 msgctxt "import:open-image:without-import:file-dialog:title"
 msgid "Open image"
-msgstr ""
+msgstr "باز کردن تصویر"
 
+#, fuzzy
 msgctxt "import:import-image:file-dialog:title"
 msgid "Import image to library"
-msgstr ""
+msgstr "وارد کردن تصویر به کتابخانه"
 
+#, fuzzy
 msgctxt "import:import-to-library:image-already-exists:make-copy-question"
 msgid "Image is already in the library. Do you want to make a copy?"
-msgstr ""
+msgstr "تصویر از قبل در کتابخانه موجود است. آیا می‌خواهید یک کپی ایجاد کنید؟"
 
 #, fuzzy
 msgctxt "rendering:watermark"
@@ -1744,28 +2150,36 @@ msgstr ""
 "کپی ارزیابی\n"
 "لطفاً برای حذف علامت Watermark ارتقاء دهید"
 
+#, fuzzy
 msgctxt "export:resolution-too-small"
 msgid "Output resolution is too small. Minimum is {0}x{1} pixels."
-msgstr ""
+msgstr "وضوح خروجی بسیار کوچک است. حداقل {0}x{1} پیکسل است."
 
+#, fuzzy
 msgctxt "export:image-not-saved:dialog-title"
 msgid "Images with unsaved changes"
-msgstr ""
+msgstr "تصاویر با تغییرات ذخیره نشده"
 
+#, fuzzy
 msgctxt ""
 "export:image-not-saved:exporting-images-with-unsaved-changes:description"
 msgid ""
 "You are trying to export images that are still opened with unsaved changes."
 msgstr ""
+"شما در حال تلاش برای صدور تصاویری هستید که هنوز با تغییرات ذخیره نشده باز "
+"هستند."
 
+#, fuzzy
 msgctxt "export:image-not-saved:exporting-images-with-unsaved-changes:question"
 msgid "Do you want to save them before exporting?"
-msgstr ""
+msgstr "آیا می‌خواهید آنها را قبل از صدور ذخیره کنید؟"
 
+#, fuzzy
 msgctxt "export:overwrite-plain-image:dialog-title"
 msgid "Destructive overwrite"
-msgstr ""
+msgstr "بازنویسی مخرب"
 
+#, fuzzy
 msgctxt "export:overwrite-plain-image:message"
 msgid ""
 "If you overwrite the original image file '{}' with your annotations, you "
@@ -1773,46 +2187,62 @@ msgid ""
 "It is recommended to save to a different file or save as an IMI file that "
 "can still be edited lated."
 msgstr ""
+"اگر فایل تصویر اصلی '{}' را با حاشیه‌نویسی‌های خود بازنویسی کنید، بعداً "
+"نمی‌توانید آن را تغییر دهید. تصویر اصلی از بین خواهد رفت.\n"
+"توصیه می‌شود در یک فایل دیگر ذخیره کنید یا به عنوان یک فایل IMI ذخیره کنید که "
+"همچنان قابل ویرایش باشد."
 
+#, fuzzy
 msgctxt "export:overwrite-plain-image:button:save-as-image"
 msgid "&Save as image..."
-msgstr ""
+msgstr "&ذخیره به عنوان تصویر..."
 
+#, fuzzy
 msgctxt "export:overwrite-plain-image:button:save-as-imi"
 msgid "Save as &IMI..."
-msgstr ""
+msgstr "ذخیره به عنوان &IMI..."
 
+#, fuzzy
 msgctxt "export:multiple-images:target-directory:dialog-title"
 msgid "Output images to directory"
-msgstr ""
+msgstr "خروجی تصاویر به دایرکتوری"
 
+#, fuzzy
 msgctxt "export:image:invalid-filename-suffix"
 msgid ""
 "You specified an invalid file suffix (please use one of the supported "
 "formats)"
 msgstr ""
+"شما پسوند فایل نامعتبر مشخص کرده‌اید (لطفاً از یکی از فرمت‌های پشتیبانی شده "
+"استفاده کنید)"
 
+#, fuzzy
 msgctxt "export:specific-format:invalid-filename-suffix"
 msgid "You cannot change the file type (must have {} suffix)"
-msgstr ""
+msgstr "شما نمی‌توانید نوع فایل را تغییر دهید (باید پسوند {} داشته باشد)"
 
+#, fuzzy
 msgctxt "export:save-original-images:some-nonphotos:title"
 msgid "Saving original images"
-msgstr ""
+msgstr "در حال ذخیره تصاویر اصلی"
 
+#, fuzzy
 msgctxt "export:save-original-images:some-nonphotos:description"
 msgid ""
 "Some of the images you have saved were no photos. No original photo has been "
 "saved for those images."
 msgstr ""
+"برخی از تصاویری که ذخیره کرده‌اید، عکس نبودند. هیچ عکس اصلی برای آن تصاویر "
+"ذخیره نشده است."
 
 msgctxt "image-export:size:group-title"
 msgid "Image size"
 msgstr "اندازه عکس"
 
+#, fuzzy
 msgctxt "image-export:size:suggested-size"
 msgid "Suggested size"
-msgstr ""
+msgstr "اندازه پیشنهادی"
 
 msgctxt "image-export:size:original-size"
 msgid "Original image size"
@@ -1838,58 +2268,95 @@ msgctxt "image-export:overlays:group-title"
 msgid "Overlays"
 msgstr "پوشش ها"
 
+#, fuzzy
 msgctxt "image-export:overlays:show-text"
 msgid "Show text overlay"
-msgstr ""
+msgstr "نمایش روکش متن"
 
+#, fuzzy
 msgctxt "image-export:overlays:text"
 msgid "Text"
-msgstr ""
+msgstr "متن"
 
+#, fuzzy
 msgctxt "image-export:company-logo:open-logo-image"
 msgid "Open logo image"
-msgstr ""
+msgstr "باز کردن تصویر لوگو"
 
+#, fuzzy
+msgctxt "image-export:company-logo:delete-logo-image"
+msgid "Delete logo"
+msgstr "حذف لوگو"
+
+#, fuzzy
+msgctxt "image-export:company-logo:delete-logo-image:tooltip"
+msgid ""
+"If you delete the logo image, you cannot reenable it unless you reload the "
+"image."
+msgstr ""
+"اگر تصویر لوگو را حذف کنید، نمی‌توانید آن را دوباره فعال کنید مگر اینکه تصویر "
+"را دوباره بارگیری کنید."
+
+#, fuzzy
+msgctxt "overlay-text:script-expr:address-block"
+msgid "Address (multiple lines)"
+msgstr "آدرس (چند خطی)"
+
+#, fuzzy
+msgctxt "overlay-text:script-expr:address-line"
+msgid "Address (single line)"
+msgstr "آدرس (تک خطی)"
+
+#, fuzzy
 msgctxt "image-export:filename-expression"
 msgid "{image.title}"
-msgstr ""
+msgstr "{image.title}"
 
 msgctxt "image-export:use-default-options"
 msgid "Use default export options"
 msgstr "استفاده از گزینه های پیش فرض صادر کردن"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:enable-logo"
 msgid "Enable logo"
-msgstr ""
+msgstr "فعال کردن لوگو"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:group-title"
 msgid "Company logo"
-msgstr ""
+msgstr "لوگوی شرکت"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:placement"
 msgid "Placement"
-msgstr ""
+msgstr "محل قرارگیری"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:size"
 msgid "Size"
-msgstr ""
+msgstr "اندازه"
 
+#, fuzzy
 msgctxt "image-export:logo-placement:opacity"
 msgid "Opacity"
-msgstr ""
+msgstr "شفافیت"
 
+#, fuzzy
 msgctxt "image-export:show-company-logo"
 msgid "Show company logo"
-msgstr ""
+msgstr "نمایش لوگوی شرکت"
 
+#, fuzzy
 msgctxt "image-export:company-logo:auto-remove-background"
-msgid "Automatic background removal"
-msgstr ""
+msgid "Remove background"
+msgstr "حذف پس‌زمینه"
 
+#, fuzzy
 msgctxt "image-export:company-logo:auto-remove-background:info:title"
 msgid "Automatic background removal"
-msgstr ""
+msgstr "حذف خودکار پس‌زمینه"
 
+#, fuzzy
 msgctxt "image-export:company-logo:auto-remove-background:info:description"
 msgid ""
 "Removes a solid background color from your logo image. For this to work, the "
@@ -1897,30 +2364,65 @@ msgid ""
 "should preferably be a PNG image (not a JPEG), as the JPEG's compression "
 "artifacts can introduce color distortions that cannot be removed."
 msgstr ""
+"یک رنگ پس‌زمینه یکدست را از تصویر لوگوی شما حذف می‌کند. برای اینکه این کار "
+"کند، لوگو باید یک رنگ پس‌زمینه ثابت داشته باشد (بدون گرادیان) و تصویر ترجیحاً "
+"باید یک تصویر PNG باشد (نه JPEG)، زیرا آرتیفکت‌های فشرده‌سازی JPEG می‌توانند "
+"اعوجاج رنگی ایجاد کنند که قابل حذف نیست."
 
+#, fuzzy
 msgctxt "image-export:company-logo:auto-border-size"
 msgid "Border size"
-msgstr ""
+msgstr "اندازه حاشیه"
 
+#, fuzzy
 msgctxt "image-export:company-logo:border-color"
 msgid "Border color"
-msgstr ""
+msgstr "رنگ حاشیه"
 
+#, fuzzy
 msgctxt "image-export:company-logo:border-color:white"
 msgid "White"
-msgstr ""
+msgstr "سفید"
 
+#, fuzzy
 msgctxt "image-export:company-logo:border-color:black"
 msgid "Black"
-msgstr ""
+msgstr "سیاه"
 
+#, fuzzy
+msgctxt "image-export:show-overlay-text"
+msgid "Show overlay text"
+msgstr "نمایش متن روکش"
+
+#, fuzzy
+msgctxt "image-export:overlay:bool-override:no"
+msgid "No"
+msgstr "خیر"
+
+#, fuzzy
+msgctxt "image-export:overlay:bool-override:keep"
+msgid "If set in image"
+msgstr "اگر در تصویر تنظیم شده باشد"
+
+#, fuzzy
+msgctxt "image-export:overlay:bool-override:yes"
+msgid "Yes"
+msgstr "بله"
+
+#, fuzzy
 msgctxt "image-export:advanced-options:group-title"
 msgid "Advanced Options"
-msgstr ""
+msgstr "گزینه‌های پیشرفته"
 
+#, fuzzy
 msgctxt "image-export:hide-measurement-values"
 msgid "Hide all measurement values"
-msgstr ""
+msgstr "پنهان کردن همه مقادیر اندازه‌گیری"
+
+#, fuzzy
+msgctxt "image-export:export-original-image"
+msgid "Export original image (no annotations)"
+msgstr "صدور تصویر اصلی (بدون حاشیه‌نویسی)"
 
 msgctxt "pdf-export:table-of-contents"
 msgid "Table of Contents"
@@ -1930,9 +2432,10 @@ msgctxt "pdf-export:root-folder-title"
 msgid "ImageMeter export"
 msgstr "ImageMeter صادر کردن"
 
+#, fuzzy
 msgctxt "export:pdf:dialog-title"
 msgid "PDF export options"
-msgstr ""
+msgstr "گزینه‌های صدور PDF"
 
 msgctxt "export:pdf:section:paper"
 msgid "Paper"
@@ -1946,13 +2449,19 @@ msgctxt "export:pdf:section:metadata"
 msgid "Metadata"
 msgstr "فراداده"
 
+#, fuzzy
+msgctxt "export:pdf:section:report-content"
+msgid "Report Content"
+msgstr "محتوای گزارش"
+
 msgctxt "export:pdf:paper-orientation(pdf)"
 msgid "PDF page orientation"
 msgstr "جهت صفحۀ PDF"
 
+#, fuzzy
 msgctxt "export:pdf:paper-orientation"
 msgid "Paper orientation"
-msgstr ""
+msgstr "جهت کاغذ"
 
 msgctxt "export:pdf:paper-orientation:portrait"
 msgid "Portrait"
@@ -1970,9 +2479,10 @@ msgctxt "export:pdf:paper-size(pdf)"
 msgid "PDF page size"
 msgstr "اندازۀ صفحۀ PDF"
 
+#, fuzzy
 msgctxt "export:pdf:paper-size"
 msgid "Paper size"
-msgstr ""
+msgstr "اندازه کاغذ"
 
 msgctxt "export:pdf:paper-size:a4"
 msgid "A4"
@@ -1982,13 +2492,15 @@ msgctxt "export:pdf:paper-size:a3"
 msgid "A3"
 msgstr "A3"
 
+#, fuzzy
 msgctxt "export:pdf:paper-size:a2"
 msgid "A2"
-msgstr ""
+msgstr "A2"
 
+#, fuzzy
 msgctxt "export:pdf:paper-size:a1"
 msgid "A1"
-msgstr ""
+msgstr "A1"
 
 msgctxt "export:pdf:paper-size:letter"
 msgid "Letter"
@@ -2014,9 +2526,10 @@ msgctxt "export:pdf:may-rotate-images:description:off"
 msgid "Images will never be rotated"
 msgstr "عکس ها هرگز چرخانده نخواهند شد"
 
+#, fuzzy
 msgctxt "export:pdf:images-per-page"
 msgid "Images per page"
-msgstr ""
+msgstr "تعداد تصاویر در هر صفحه"
 
 msgctxt "export:pdf:images-per-page(pdf)"
 msgid "Images per PDF page"
@@ -2026,6 +2539,11 @@ msgctxt "export:pdf:images-per-page(pdf,long)"
 msgid "Print how many images on each PDF page"
 msgstr "چاپ تعداد عکس ها در هر صفحۀ PDF"
 
+#, fuzzy
+msgctxt "export:pdf:recurse-subdirectories"
+msgid "Include contents of subfolders"
+msgstr "شامل محتویات زیرپوشه‌ها"
+
 msgctxt "export:pdf:print-image-notes"
 msgid "Print image notes"
 msgstr "چاپ یادداشت های عکس"
@@ -2034,17 +2552,19 @@ msgctxt "export:pdf:image-notes-space"
 msgid "Space reserved for image notes"
 msgstr "فضای ذخیره شده برای یادداشت های عکس"
 
+#, fuzzy
 msgctxt "export:pdf:image-notes-space(short)"
 msgid "Space for image notes"
-msgstr ""
+msgstr "فضا برای یادداشت‌های تصویر"
 
 msgctxt "export:pdf:image-notes-space:do-not-print-notes"
 msgid "Do not print image notes"
 msgstr "یادداشت ها را چاپ نکنید"
 
+#, fuzzy
 msgctxt "export:pdf:image-notes-space:reserve-X-space"
 msgid "Reserve {0}% space"
-msgstr ""
+msgstr "رزرو {0}٪ فضا"
 
 msgctxt "export:pdf:print-folder-notes"
 msgid "Print folder notes"
@@ -2062,13 +2582,15 @@ msgctxt "export:pdf:print-table-of-content"
 msgid "Print table of content"
 msgstr "چاپ جدول مطالب"
 
+#, fuzzy
 msgctxt "export:pdf:image-title"
 msgid "Image title"
-msgstr ""
+msgstr "عنوان تصویر"
 
+#, fuzzy
 msgctxt "export:pdf:image-title:hint"
 msgid "for example: {image.title}"
-msgstr ""
+msgstr "مثال: {image.title}"
 
 msgctxt "export:pdf:section:data-table"
 msgid "Data Table"
@@ -2082,6 +2604,11 @@ msgctxt "export:pdf:table-layout:vertical-column-titles"
 msgid "Vertical column titles"
 msgstr "عناوین ستون عمودی"
 
+#, fuzzy
+msgctxt "export:pdf:table-orientation"
+msgid "Table orientation"
+msgstr "جهت‌گیری جدول"
+
 msgctxt "export:pdf:print-density"
 msgid "Resolution"
 msgstr "وضوح"
@@ -2090,33 +2617,40 @@ msgctxt "export:pdf:print-density:default"
 msgid "Default"
 msgstr "پیش فرض"
 
+#, fuzzy
 msgctxt "export:pdf:print-density:custom"
 msgid "Custom"
-msgstr ""
+msgstr "سفارشی"
 
+#, fuzzy
 msgctxt "export:pdf:print-density:dpi-formatstring"
 msgid "{} dpi"
-msgstr ""
+msgstr "{} dpi"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style"
 msgid "Page numbers"
-msgstr ""
+msgstr "شماره‌گذاری صفحات"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:none"
 msgid "None"
-msgstr ""
+msgstr "هیچ‌کدام"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:continuous"
 msgid "Continuous decimal"
-msgstr ""
+msgstr "اعشاری پیوسته"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:roman-frontmatter"
 msgid "Roman front matter"
-msgstr ""
+msgstr "بخش مقدماتی با شماره‌گذاری رومی"
 
+#, fuzzy
 msgctxt "export:pdf:page-numbering-style:no-frontmatter"
 msgid "No front matter"
-msgstr ""
+msgstr "بدون بخش مقدماتی"
 
 msgctxt "export:csv:field-separator"
 msgid "Field separator character"
@@ -2138,31 +2672,51 @@ msgctxt "export:csv:include-table-footer-row"
 msgid "Include footer row"
 msgstr "قرار دادن ردیف پاورقی"
 
+msgctxt "export:csv:file-format"
+msgid "File format"
+msgstr ""
+
+msgctxt "export:csv:file-format:CSV"
+msgid "CSV"
+msgstr ""
+
+msgctxt "export:csv:file-format:XSLX"
+msgid "XLSX (Excel)"
+msgstr ""
+
+#, fuzzy
 msgctxt "export:csv:error:cannot-export-csv"
 msgid "Cannot export CSV file"
-msgstr ""
+msgstr "فایل CSV صادر نمی‌شود"
 
+#, fuzzy
 msgctxt "export:csv:error:cannot-export-xlsx"
 msgid "Cannot export XLSX file"
-msgstr ""
+msgstr "فایل XLSX صادر نمی‌شود"
 
+#, fuzzy
 msgctxt "export:csv:entities-have-no-common-template"
 msgid "There are no common templates defined."
-msgstr ""
+msgstr "هیچ الگوی مشترکی تعریف نشده است."
 
+#, fuzzy
 msgctxt "export:csv:entities-have-no-common-template:details"
 msgid ""
 "You need to assign a template to each image and folder that you export. You "
 "have to use the same template for each image and folder."
 msgstr ""
+"شما باید به هر تصویر و پوشه‌ای که صادر می‌کنید یک الگو اختصاص دهید. شما باید "
+"از الگوی یکسان برای هر تصویر و پوشه استفاده کنید."
 
+#, fuzzy
 msgctxt "export:tablespec-to-export:dialog-title"
 msgid "Choose data table to export"
-msgstr ""
+msgstr "جدول داده برای صدور را انتخاب کنید"
 
+#, fuzzy
 msgctxt "print:options:dialog-title"
 msgid "Print options"
-msgstr ""
+msgstr "گزینه‌های چاپ"
 
 msgctxt "zip-export:include-annotated-images"
 msgid "Include annotated images"
@@ -2172,29 +2726,34 @@ msgctxt "zip-export:include-original-images"
 msgid "Include original images"
 msgstr "شامل عکس های اصلی"
 
+#, fuzzy
 msgctxt "zip-export:include-detail-images"
 msgid "Include detail images"
-msgstr ""
+msgstr "شامل تصاویر جزئیات"
 
+#, fuzzy
 msgctxt "zip-export:include-audio-notes"
 msgid "Include audio notes"
-msgstr ""
+msgstr "شامل یادداشت‌های صوتی"
 
 msgctxt "zip-export:include-pdf-file"
 msgid "Include PDF file"
 msgstr "شامل فایل PDF"
 
+#, fuzzy
 msgctxt "zip-export:include-imf-file"
 msgid "Include IMF file"
-msgstr ""
+msgstr "شامل فایل IMF"
 
+#, fuzzy
 msgctxt "about-image:unknown-gps"
 msgid "no GPS coordinates"
-msgstr ""
+msgstr "بدون مختصات GPS"
 
+#, fuzzy
 msgctxt "about-image:dialog-title"
 msgid "Image Information"
-msgstr ""
+msgstr "اطلاعات تصویر"
 
 msgctxt "about-image:image-name"
 msgid "Image Name"
@@ -2212,13 +2771,15 @@ msgctxt "about-image:original-image-resolution"
 msgid "Original Image Resolution"
 msgstr "وضوح عکس اصلی"
 
+#, fuzzy
 msgctxt "about-image:camera-configuration"
 msgid "Camera Configuration"
-msgstr ""
+msgstr "پیکربندی دوربین"
 
+#, fuzzy
 msgctxt "about-image:camera-name-and-resolution"
 msgid "'{}' at {}x{}"
-msgstr ""
+msgstr "'{}' در {}x{}"
 
 msgctxt "about-image:gps-coordinates"
 msgid "GPS Coordinates"
@@ -2227,6 +2788,16 @@ msgstr "مختصات GPS"
 msgctxt "about-image:gps:show-on-map"
 msgid "Show on map"
 msgstr "نمایش بر روی نقشه"
+
+#, fuzzy
+msgctxt "about-image:location-address"
+msgid "Address"
+msgstr "آدرس"
+
+#, fuzzy
+msgctxt "about-image:location-address:is-coarse"
+msgid "coarse location"
+msgstr "مکان تقریبی"
 
 msgctxt "editor:attach:error_no_reference_to_attach_to"
 msgid ""
@@ -2259,75 +2830,100 @@ msgstr ""
 "بر روی مرجع بر اساس آنچه که می خواهید اندازه گیری انتخابی را محاسبه نمایید "
 "کلیک کنید."
 
+#, fuzzy
 msgctxt "editor:attach:messagebox:title"
 msgid "Compute Measure"
+msgstr "محاسبه اندازه"
+
+msgctxt "editor:element-computed:tooltip"
+msgid "Indicates whether value is computed or entered manually."
 msgstr ""
 
+#, fuzzy
 msgctxt "editor:rectref:standard-size:legal"
 msgid "Legal"
-msgstr ""
+msgstr "قانونی"
 
+#, fuzzy
 msgctxt "editor:rectref:standard-size:letter"
 msgid "Letter"
-msgstr ""
+msgstr "نامه"
 
+#, fuzzy
 msgctxt "editor:rectref:standard-size:credit-card"
 msgid "Credit card"
-msgstr ""
+msgstr "کارت اعتباری"
 
 msgctxt "editor:text:undefined-text-placeholder"
 msgid "click to enter text"
 msgstr "برای وارد کردن متن کلیک کنید"
 
+#, fuzzy
 msgctxt "editor:image-modified-dialog:title"
 msgid "Image has been modified"
-msgstr ""
+msgstr "تصویر تغییر کرده است"
 
+#, fuzzy
 msgctxt "editor:image-modified-dialog:text"
 msgid "Image has been modified. Do you want to save it?"
-msgstr ""
+msgstr "تصویر تغییر کرده است. آیا می‌خواهید آن را ذخیره کنید؟"
 
+#, fuzzy
 msgctxt "editor:loaded-image-has-more-recent-version:title"
 msgid "Trying to load unsupported file format"
-msgstr ""
+msgstr "در حال تلاش برای بارگیری فرمت فایل پشتیبانی نشده"
 
+#, fuzzy
 msgctxt "editor:loaded-image-has-more-recent-version:warning"
 msgid ""
 "This image has been saved with a more recent version. You need at least "
 "version {} to load this image correctly. You can still try to open this "
 "file, but some parts of it might be missing."
 msgstr ""
+"این تصویر با نسخه جدیدتری ذخیره شده است. برای بارگیری صحیح این تصویر حداقل "
+"به نسخه {} نیاز دارید. هنوز می‌توانید سعی کنید این فایل را باز کنید، اما ممکن "
+"است برخی از قسمت‌های آن وجود نداشته باشد."
 
+#, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:title"
 msgid "Overwrite with incompletely loaded image"
-msgstr ""
+msgstr "بازنویسی با تصویر ناقص بارگیری شده"
 
+#, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:warning"
 msgid ""
 "This image has only been loaded partially because it was written with a more "
 "recent software version. If you save this image now, parts of the "
 "information in the original file gets lost."
 msgstr ""
+"این تصویر فقط به صورت جزئی بارگیری شده است زیرا با نسخه نرم‌افزار جدیدتری "
+"نوشته شده است. اگر اکنون این تصویر را ذخیره کنید، بخش‌هایی از اطلاعات فایل "
+"اصلی از بین می‌رود."
 
+#, fuzzy
 msgctxt "editor:overwrite-image-with-more-recent-version:question"
 msgid "Do you still want to overwrite the file?"
-msgstr ""
+msgstr "آیا هنوز می‌خواهید فایل را بازنویسی کنید؟"
 
+#, fuzzy
 msgctxt "editor:zoom:standard"
 msgid "Reset"
-msgstr ""
+msgstr "بازنشانی"
 
+#, fuzzy
 msgctxt "editor:zoom:fit"
 msgid "Fit"
-msgstr ""
+msgstr "متناسب"
 
+#, fuzzy
 msgctxt "editor:zoom:fill"
 msgid "Fill"
-msgstr ""
+msgstr "پر کردن"
 
+#, fuzzy
 msgctxt "editor:styling:line-caps"
 msgid "Line caps"
-msgstr ""
+msgstr "سر خطوط"
 
 msgctxt "editor:styling:line-caps-size"
 msgid "Line cap size"
@@ -2349,21 +2945,24 @@ msgctxt "editor:styling:font-size"
 msgid "Font size"
 msgstr "اندازۀ فونت"
 
+#, fuzzy
 msgctxt "editor:styling:color"
 msgid "Color"
-msgstr ""
+msgstr "رنگ"
 
 msgctxt "editor:styling:fill-color"
 msgid "Fill color"
 msgstr "پر کردن رنگ"
 
+#, fuzzy
 msgctxt "editor:styling:fill-color-opacity"
 msgid "Fill opacity"
-msgstr ""
+msgstr "شفافیت پر کردن"
 
+#, fuzzy
 msgctxt "editor:styling:opacity(fill-color)"
 msgid "Opacity"
-msgstr ""
+msgstr "شفافیت"
 
 msgctxt "editor:styling:text-color"
 msgid "Text color"
@@ -2377,53 +2976,65 @@ msgctxt "editor:styling:set-as-default"
 msgid "Set as default"
 msgstr "قرار دادن به صورت پیش فرض"
 
+#, fuzzy
 msgctxt "editor:styling:color:transparent"
 msgid "Transparent"
-msgstr ""
+msgstr "شفاف"
 
+#, fuzzy
 msgctxt "editor:styling:color:automatic"
 msgid "Automatic"
-msgstr ""
+msgstr "خودکار"
 
+#, fuzzy
 msgctxt "editor:styling:color:master-color"
 msgid "Master color"
-msgstr ""
+msgstr "رنگ اصلی"
 
+#, fuzzy
 msgctxt "editor:styling:color:custom-color"
 msgid "Custom color"
-msgstr ""
+msgstr "رنگ سفارشی"
 
+#, fuzzy
 msgctxt "editor:styling:color-palette:standard:name"
 msgid "Standard"
-msgstr ""
+msgstr "استاندارد"
 
+#, fuzzy
 msgctxt "editor:styling:color-palette:custom:name"
 msgid "Custom"
-msgstr ""
+msgstr "سفارشی"
 
+#, fuzzy
 msgctxt "prefs:color-palette:group-title"
 msgid "Color palette"
-msgstr ""
+msgstr "پالت رنگ"
 
+#, fuzzy
 msgctxt "prefs:color-palette:active-palette"
 msgid "Active color palette"
-msgstr ""
+msgstr "پالت رنگ فعال"
 
+#, fuzzy
 msgctxt "prefs:color-palette:show-custom-colors"
 msgid "Allow adding custom colors"
-msgstr ""
+msgstr "اجازه افزودن رنگ‌های سفارشی"
 
+#, fuzzy
 msgctxt "prefs:color-palette:custom-palette-configuration:button"
 msgid "Customize color palette…"
-msgstr ""
+msgstr "سفارشی‌سازی پالت رنگ..."
 
+#, fuzzy
 msgctxt "prefs:color-palette:custom-palette-configuration:title"
 msgid "Custom color palette"
-msgstr ""
+msgstr "پالت رنگ سفارشی"
 
+#, fuzzy
 msgctxt "prefs:color-palette:custom-palette-configuration:number-of-rows"
 msgid "Number of rows"
-msgstr ""
+msgstr "تعداد ردیف‌ها"
 
 msgctxt "editor:styling:label:apply-to"
 msgid "Apply to …"
@@ -2441,13 +3052,15 @@ msgctxt "editor:styling:label:apply-to:all-lengths"
 msgid "All lengths"
 msgstr "تمام طول ها"
 
+#, fuzzy
 msgctxt "editor:styling:label:apply-to:all-angles"
 msgid "All angles"
-msgstr ""
+msgstr "تمام زوایا"
 
+#, fuzzy
 msgctxt "editor:styling:label:apply-to:all-radii"
 msgid "All radii"
-msgstr ""
+msgstr "تمام شعاع‌ها"
 
 msgctxt "editor:styling:label:apply-to:whole-element"
 msgid "Whole element"
@@ -2478,9 +3091,10 @@ msgctxt "editor:styling:measure:show-length"
 msgid "Show length"
 msgstr "نمایش متن"
 
+#, fuzzy
 msgctxt "editor:measure:swap-endpoints"
 msgid "Swap endpoints"
-msgstr ""
+msgstr "تعویض نقاط پایانی"
 
 msgctxt "editor:measure:move-label"
 msgid "Move label"
@@ -2502,9 +3116,10 @@ msgctxt "editor:styling:label-display-mode:horizontal"
 msgid "Horizontal"
 msgstr "افقی"
 
+#, fuzzy
 msgctxt "editor:styling:label-display-mode:below-line"
 msgid "Below line"
-msgstr ""
+msgstr "زیر خط"
 
 #, fuzzy
 msgctxt "editor:styling:angle:show-angle"
@@ -2664,17 +3279,20 @@ msgctxt "editor:styling:flatref:label-position:alternating-last-below"
 msgid "Alternating, last one below"
 msgstr "متناوب ، یکی از آخرین زیر"
 
+#, fuzzy
 msgctxt "editor:styling:flatref:show-border"
 msgid "Show border"
-msgstr ""
+msgstr "نمایش حاشیه"
 
+#, fuzzy
 msgctxt "editor:styling:flatref:main-color"
 msgid "Main color"
-msgstr ""
+msgstr "رنگ اصلی"
 
+#, fuzzy
 msgctxt "editor:styling:flatref:secondary-color"
 msgid "Secondary color"
-msgstr ""
+msgstr "رنگ ثانویه"
 
 msgctxt "editor:styling:measurement-point:show-label"
 msgid "Show text"
@@ -2688,9 +3306,10 @@ msgctxt "editor:styling:measurement-point:marker-symbol"
 msgid "Marker"
 msgstr "نشانگر"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:no-symbol"
 msgid "No symbol"
-msgstr ""
+msgstr "بدون نماد"
 
 msgctxt "editor:styling:measurement-point:marker-symbol:encircled-cross"
 msgid "Encircled cross"
@@ -2716,29 +3335,35 @@ msgctxt "editor:styling:measurement-point:marker-symbol:elevation-bottom"
 msgid "Elevation bottom"
 msgstr "پایین ارتفاع"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:tilt-left"
 msgid "Tilt left"
-msgstr ""
+msgstr "کج به چپ"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:tilt-right"
 msgid "Tilt right"
-msgstr ""
+msgstr "کج به راست"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-left"
 msgid "V-Tilt left"
-msgstr ""
+msgstr "کج عمودی به چپ"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-right"
 msgid "V-Tilt right"
-msgstr ""
+msgstr "کج عمودی به راست"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:left"
 msgid "L"
-msgstr ""
+msgstr "چ"
 
+#, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:right"
 msgid "R"
-msgstr ""
+msgstr "ر"
 
 msgctxt "editor:styling:measurement-point:marker-symbol-size"
 msgid "Marker size"
@@ -2809,9 +3434,10 @@ msgctxt "editor:rect-ref:assign-reference-object-size(short)"
 msgid "Choose size"
 msgstr "انتخاب اندازه"
 
+#, fuzzy
 msgctxt "editor:rect-ref:assign-reference-object-size"
 msgid "Assign reference object size"
-msgstr ""
+msgstr "تخصیص اندازه شی مرجع"
 
 msgctxt "editor:styling:textbox:text-h-alignment"
 msgid "Text alignment"
@@ -2833,8 +3459,41 @@ msgctxt "editor:styling:textbox:box-background-color"
 msgid "Background color"
 msgstr "رنگ پس زمینه"
 
+#, fuzzy
 msgctxt "editor:styling:textbox:box-background-opacity"
 msgid "Background opacity"
+msgstr "شفافیت پس‌زمینه"
+
+msgctxt "editor:styling:textbox:group:box-and-arrows"
+msgid "Box and arrows"
+msgstr ""
+
+msgctxt "editor:styling:textbox:group:text"
+msgid "Text"
+msgstr ""
+
+msgctxt "editor:styling:textbox:group:detailimage"
+msgid "Detail image"
+msgstr ""
+
+msgctxt "editor:styling:textbox:detailimage:opacity"
+msgid "Opacity"
+msgstr ""
+
+msgctxt "editor:styling:textbox:detailimage:saturation"
+msgid "Saturation"
+msgstr ""
+
+msgctxt "editor:styling:textbox:detailimage:brightness"
+msgid "Brightness"
+msgstr ""
+
+msgctxt "editor:styling:textbox:detailimage:contrast"
+msgid "Contrast"
+msgstr ""
+
+msgctxt "editor:styling:textbox:detailimage:reset-colortransform"
+msgid "Reset"
 msgstr ""
 
 msgctxt "editor:textbox:action:add-arrow"
@@ -2845,167 +3504,207 @@ msgctxt "editor:textbox:action:delete-arrow"
 msgid "Delete arrow"
 msgstr "حذف فلش"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position"
 msgid "Length position"
-msgstr ""
+msgstr "موقعیت طول"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:radius-label-position"
 msgid "Radius position"
-msgstr ""
+msgstr "موقعیت شعاع"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:angle-label-position"
 msgid "Angle position"
-msgstr ""
+msgstr "موقعیت زاویه"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:none"
 msgid "Do not show"
-msgstr ""
+msgstr "نمایش نده"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:outside-along"
 msgid "Along line"
-msgstr ""
+msgstr "در امتداد خط"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:various"
 msgid "---"
-msgstr ""
+msgstr "---"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:none"
 msgid "Do not show"
-msgstr ""
+msgstr "نمایش نده"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:inside"
 msgid "Inside"
-msgstr ""
+msgstr "داخل"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-along"
 msgid "Outside (along)"
-msgstr ""
+msgstr "خارج (در امتداد)"
 
+#, fuzzy
 msgctxt ""
 "editor:styling:rounded-polyline:corner-label-position:outside-orthogonal"
 msgid "Outside (orthogonal)"
-msgstr ""
+msgstr "خارج (عمود)"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:various"
 msgid "---"
-msgstr ""
+msgstr "---"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode"
 msgid "Side length"
-msgstr ""
+msgstr "طول ضلع"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:tangent-length"
 msgid "Tangent length"
-msgstr ""
+msgstr "طول مماس"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:tangent-plus-radius"
 msgid "Tangent plus radius"
-msgstr ""
+msgstr "مماس بعلاوه شعاع"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:miter-joint"
 msgid "Miter joints"
-msgstr ""
+msgstr "اتصالات میتر"
 
+#, fuzzy
 msgctxt "editor:styling:rounded-polyline:side-length-mode:rebar"
 msgid "Rebar"
-msgstr ""
+msgstr "میلگرد"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:mode:move-corner"
 msgid "Move corner"
-msgstr ""
+msgstr "انتقال گوشه"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:mode:adjust-corner-radius"
 msgid "Corner radius"
-msgstr ""
+msgstr "شعاع گوشه"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:mode:add-corner"
 msgid "Add corner"
-msgstr ""
+msgstr "افزودن گوشه"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:mode:delete-corner"
 msgid "Delete corner"
-msgstr ""
+msgstr "حذف گوشه"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:action:open-contour"
 msgid "Open contour"
-msgstr ""
+msgstr "باز کردن کانتور"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:action:close-contour"
 msgid "Close contour"
-msgstr ""
+msgstr "بستن کانتور"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:action:expand"
 msgid "Expand"
-msgstr ""
+msgstr "گسترش"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:action:expand:invalid-expansion-offset"
 msgid ""
 "Invalid expansion offset. This offset value would lead to an invalid shape."
-msgstr ""
+msgstr "آفست گسترش نامعتبر است. این مقدار آفست به یک شکل نامعتبر منجر می‌شود."
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:expand:dialog:window-title"
 msgid "Expand"
-msgstr ""
+msgstr "گسترش"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:expand:expand-by:prefix"
 msgid "Expand by"
-msgstr ""
+msgstr "گسترش به اندازه"
 
+#, fuzzy
 msgctxt "editor:rounded-polyline:expand:expand-by:hint"
 msgid "e.g. 10mm"
-msgstr ""
+msgstr "مثلا ۱۰ میلی‌متر"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape"
 msgid "Shape"
-msgstr ""
+msgstr "شکل"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:circle"
 msgid "Circle"
-msgstr ""
+msgstr "دایره"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:square"
 msgid "Square"
-msgstr ""
+msgstr "مربع"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:pentagon"
 msgid "Pentagon"
-msgstr ""
+msgstr "پنج‌ضلعی"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:star5"
 msgid "Star"
-msgstr ""
+msgstr "ستاره"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:triangle-up"
 msgid "Triangle (up)"
-msgstr ""
+msgstr "مثلث (رو به بالا)"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:triangle-down"
 msgid "Triangle (down)"
-msgstr ""
+msgstr "مثلث (رو به پایین)"
 
+#, fuzzy
 msgctxt "editor:styling:counter:shape:dot"
 msgid "Dot"
-msgstr ""
+msgstr "نقطه"
 
+#, fuzzy
 msgctxt "editor:styling:counter:filled-shape"
 msgid "Filled shape"
-msgstr ""
+msgstr "شکل پر شده"
 
+#, fuzzy
 msgctxt "editor:styling:counter:rename"
 msgid "Rename"
-msgstr ""
+msgstr "تغییر نام"
 
+#, fuzzy
 msgctxt "editor:styling:counter:start-value"
 msgid "Start value"
-msgstr ""
+msgstr "مقدار شروع"
 
+#, fuzzy
 msgctxt "editor:results-list:generic-counter"
 msgid "count"
-msgstr ""
+msgstr "شمارش"
 
+#, fuzzy
 msgctxt "editor:styling:results-list:show-symbols"
 msgid "Show counter symbols"
-msgstr ""
+msgstr "نمایش نمادهای شمارنده"
 
 msgctxt "image-settings:image:saturation"
 msgid "Saturation"
@@ -3019,17 +3718,20 @@ msgctxt "image-settings:image:contrast"
 msgid "Contrast"
 msgstr "تضاد"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:greyscale"
 msgid "Greyscale"
-msgstr ""
+msgstr "مقیاس خاکستری"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:bright"
 msgid "Bright"
-msgstr ""
+msgstr "روشن"
 
+#, fuzzy
 msgctxt "image-settings:image:color-preset:dark"
 msgid "Dark"
-msgstr ""
+msgstr "تیره"
 
 msgctxt "image-settings:image:color-preset:original"
 msgid "Reset"
@@ -3055,41 +3757,48 @@ msgctxt "image-settings:canvas:color-scheme:custom"
 msgid "Custom"
 msgstr "سفارشی"
 
+#, fuzzy
 msgctxt "image-settings:canvas:background-color"
 msgid "Background color"
-msgstr ""
+msgstr "رنگ پس زمینه"
 
+#, fuzzy
 msgctxt "image-settings:canvas:coarse-grid-color"
 msgid "Coarse grid color"
-msgstr ""
+msgstr "رنگ شبکه درشت"
 
+#, fuzzy
 msgctxt "image-settings:canvas:fine-grid-color"
 msgid "Fine grid color"
-msgstr ""
+msgstr "رنگ شبکه ریز"
 
+#, fuzzy
 msgctxt "image-settings:canvas:enable-grid"
 msgid "Enable grid"
-msgstr ""
+msgstr "فعال کردن شبکه"
 
 msgctxt "image-settings:canvas:grid-subdivisions"
 msgid "Subdivisions"
 msgstr "زیرمجموعه"
 
+#, fuzzy
 msgctxt "image-settings:canvas:unit-distance"
 msgid "Unit distance"
-msgstr ""
+msgstr "فاصله واحد"
 
+#, fuzzy
 msgctxt "image-settings:canvas:unit-distance-hint"
 msgid "100 cm"
-msgstr ""
+msgstr "۱۰۰ سانتی‌متر"
 
 msgctxt "image-settings:calibration:enable-to-image"
 msgid "Calibrate to image"
 msgstr "کالیبراسیون به عکس"
 
+#, fuzzy
 msgctxt "image-settings:calibration:show-in-exported-image"
 msgid "Show in exported image"
-msgstr ""
+msgstr "نمایش در تصویر صادر شده"
 
 msgctxt "image-settings:calibration:image-resolution"
 msgid "Resolution"
@@ -3119,9 +3828,10 @@ msgctxt "image-settings:secondary-label:mode:off"
 msgid "Off"
 msgstr "خاموش"
 
+#, fuzzy
 msgctxt "image-settings:secondary-label:no-secondary-label"
 msgid "No secondary label"
-msgstr ""
+msgstr "بدون برچسب ثانویه"
 
 msgctxt "image-settings:secondary-label:alternative-unit"
 msgid "Alternative unit"
@@ -3139,107 +3849,205 @@ msgctxt "image-settings:secondary-label:model-scale:scale"
 msgid "Scale"
 msgstr "مقیاس"
 
+msgctxt "image-settings:secondary-label:set-unit-from-settings"
+msgid "Set unit from settings"
+msgstr ""
+
+#, fuzzy
+msgctxt "editor-menu:overlay-settings"
+msgid "Image overlays…"
+msgstr "روکش‌های تصویر..."
+
+#, fuzzy
+msgctxt "overlay-settings:company-logo:section"
+msgid "Company logo"
+msgstr "لوگوی شرکت"
+
+#, fuzzy
+msgctxt "overlay-settings:overlay-text:section"
+msgid "Overlay text"
+msgstr "متن روکش"
+
+#, fuzzy
+msgctxt "overlay-settings:overlay-text:show-text"
+msgid "Show overlay text"
+msgstr "نمایش متن روکش"
+
+#, fuzzy
+msgctxt "overlay-settings:overlay-text:position"
+msgid "Position"
+msgstr "موقعیت"
+
+#, fuzzy
+msgctxt "overlay-settings:overlay-text:border-offset"
+msgid "Border offset"
+msgstr "آفست حاشیه"
+
+#, fuzzy
+msgctxt "overlay-settings:overlay-text:text"
+msgid "Text"
+msgstr "متن"
+
+#, fuzzy
+msgctxt "overlay-settings:export-only-with-license"
+msgid "Note: image overlays will only be exported with the {} version."
+msgstr "توجه: روکش‌های تصویر فقط با نسخه {} صادر خواهند شد."
+
+#, fuzzy
+msgctxt "overlay-settings:save-as-default-dialog:title"
+msgid "What should be saved as defaults?"
+msgstr "چه چیزی باید به عنوان پیش‌فرض ذخیره شود؟"
+
+#, fuzzy
+msgctxt "overlay-settings:save-as-default-dialog:option:company-logo"
+msgid "Company logo"
+msgstr "لوگوی شرکت"
+
+#, fuzzy
+msgctxt "overlay-settings:save-as-default-dialog:option:overlay-text"
+msgid "Overlay text"
+msgstr "متن روکش"
+
+#, fuzzy
+msgctxt "overlay-settings:save-as-default-dialog:button:ok"
+msgid "Save as default"
+msgstr "ذخیره به عنوان پیش‌فرض"
+
+msgctxt "editor-menu:add-data-table-elements"
+msgid "Add elements for data-table"
+msgstr ""
+
+msgctxt "editor:add-data-table-elements:elements-already-exist"
+msgid "Elements for the data-table already exist."
+msgstr ""
+
+#, fuzzy
 msgctxt "editor:properties:dialog-title"
 msgid "Tag and Properties"
-msgstr ""
+msgstr "برچسب و ویژگی‌ها"
 
+#, fuzzy
 msgctxt "editor:tag-chooser:dialog-title"
 msgid "Select Tag"
-msgstr ""
+msgstr "انتخاب برچسب"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:title"
 msgid "Specify counter"
-msgstr ""
+msgstr "شمارنده را مشخص کنید"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:existing-counters"
 msgid "Existing counters"
-msgstr ""
+msgstr "شمارنده‌های موجود"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:new-counter"
 msgid "New counter"
-msgstr ""
+msgstr "شمارنده جدید"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:new-counter:name"
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:new-counter:symbol"
 msgid "Symbol"
-msgstr ""
+msgstr "نماد"
 
+#, fuzzy
 msgctxt "editor:new-counter:config-dialog:group:new-counter:start-value"
 msgid "Start value"
-msgstr ""
+msgstr "مقدار شروع"
 
+#, fuzzy
 msgctxt "editor:rename-counter:dialog-title"
 msgid "Rename counter"
-msgstr ""
+msgstr "تغییر نام شمارنده"
 
+#, fuzzy
 msgctxt "editor:rename-counter:title"
 msgid "New counter name"
-msgstr ""
+msgstr "نام شمارنده جدید"
 
+#, fuzzy
 msgctxt "editor:rename-counter:existing-tag"
 msgid "Existing tag"
-msgstr ""
+msgstr "برچسب موجود"
 
+#, fuzzy
 msgctxt "editor:rename-counter:existing-tag-custom"
 msgid "custom"
-msgstr ""
+msgstr "سفارشی"
 
+#, fuzzy
 msgctxt "editor:rename-counter:new-name"
 msgid "New name"
-msgstr ""
+msgstr "نام جدید"
 
+#, fuzzy
 msgctxt "editor:rename-counter:rename-all-counters"
 msgid "Rename all counters"
-msgstr ""
+msgstr "تغییر نام همه شمارنده‌ها"
 
+#, fuzzy
 msgctxt "editor:textbox-entry:open-detail-image"
 msgid "Open detail image"
-msgstr ""
+msgstr "باز کردن تصویر جزئیات"
 
+#, fuzzy
 msgctxt "prefs:measures:length-unit"
 msgid "Length unit"
-msgstr ""
+msgstr "واحد طول"
 
+#, fuzzy
 msgctxt "prefs:measures:area-unit"
 msgid "Area unit"
-msgstr ""
+msgstr "واحد مساحت"
 
 msgctxt "prefs:measures:angle-unit"
 msgid "Angle unit"
 msgstr "واحد زاویه"
 
+#, fuzzy
 msgctxt "prefs:measures:group:display-options"
 msgid "Display options"
-msgstr ""
+msgstr "گزینه‌های نمایش"
 
+#, fuzzy
 msgctxt "prefs:image-library:set-directory:dialog-title"
 msgid "Set image library directory"
-msgstr ""
+msgstr "تنظیم دایرکتوری کتابخانه تصویر"
 
+#, fuzzy
 msgctxt "prefs:image-library:use-directory:info-text"
 msgid "Use {}"
-msgstr ""
+msgstr "استفاده از {}"
 
+#, fuzzy
 msgctxt "prefs:editor:ui:mouse-behavior"
 msgid "Mouse behavior"
-msgstr ""
+msgstr "رفتار ماوس"
 
+#, fuzzy
 msgctxt "prefs:editor:ui:point-dragging-slowdown"
 msgid "Reduced dragging speed"
-msgstr ""
+msgstr "کاهش سرعت کشیدن"
 
+#, fuzzy
 msgctxt "prefs:editor:ui:point-dragging-slowdown:info:title"
 msgid "Reduced dragging speed"
-msgstr ""
+msgstr "کاهش سرعت کشیدن"
 
+#, fuzzy
 msgctxt "prefs:editor:ui:point-dragging-slowdown:info"
 msgid ""
 "When you press the 'Alt' key while dragging a point, the dragging speed is "
-"reduced by this factor to that it is easier to accurately set the position."
+"reduced by this factor so that it is easier to accurately set the position."
 msgstr ""
+"هنگامی که کلید 'Alt' را هنگام کشیدن یک نقطه فشار می‌دهید، سرعت کشیدن با این "
+"فاکتور کاهش می‌یابد تا تنظیم دقیق موقعیت آسان‌تر شود."
 
 msgctxt "prefs:editor:snapping:snap-to-object-corners"
 msgid "Snap to object corners"
@@ -3265,9 +4073,10 @@ msgctxt "prefs:editor:snapping:snap-to-hv-orientation:only-when-attached"
 msgid "Only when attached to reference"
 msgstr "فقط زمانی که به مرجع متصل است"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation:use-nearest-reference"
 msgid "Use nearest reference"
-msgstr ""
+msgstr "استفاده از نزدیکترین مرجع"
 
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation:on"
 msgid "On"
@@ -3289,27 +4098,34 @@ msgctxt "prefs:editor:snapping:snapping-strength:high"
 msgid "High"
 msgstr "زیاد"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size"
 msgid "Distance step size"
-msgstr ""
+msgstr "اندازه گام فاصله"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:hint"
 msgid "1 ft"
-msgstr ""
+msgstr "۱ فوت"
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:tooltip"
 msgid "Snap to multiples of this distance (only for rectangles and distance)."
-msgstr ""
+msgstr "به مضربی از این فاصله بچسبید (فقط برای مستطیل‌ها و فاصله)."
 
+#, fuzzy
 msgctxt "prefs:editor:snapping:distance-step-size:long-description"
 msgid ""
 "Enter a distance with unit (e.g. 10cm, 1ft, or 1'). Drawn dimensions and "
 "rectangle sides will be restricted to steps of this size."
 msgstr ""
+"یک فاصله با واحد وارد کنید (مثلا ۱۰ سانتی‌متر، ۱ فوت یا ۱'). ابعاد ترسیم شده "
+"و اضلاع مستطیل به گام‌هایی با این اندازه محدود می‌شوند."
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
 msgid "Freehand"
-msgstr ""
+msgstr "دست آزاد"
 
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay"
 msgid "End freehand drawing delay"
@@ -3331,21 +4147,25 @@ msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:long"
 msgid "Long"
 msgstr "طولانی"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:dimstring:group-title"
 msgid "Dimension String"
-msgstr ""
+msgstr "رشته ابعاد"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:dimstring:markerline-length-long"
 msgid "Marker line length (long)"
-msgstr ""
+msgstr "طول خط نشانگر (بلند)"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:dimstring:markerline-length-short"
 msgid "Marker line length (short)"
-msgstr ""
+msgstr "طول خط نشانگر (کوتاه)"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:group-title"
 msgid "Text note"
-msgstr ""
+msgstr "یادداشت متنی"
 
 msgctxt "prefs:editor:drawing-tools:textbox:preset-texts:title"
 msgid "Preset texts"
@@ -3363,9 +4183,10 @@ msgctxt "prefs:editor:drawing-tools:prefix-text:circle-radius"
 msgid "r:"
 msgstr "r:"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:prefix-text:circle-diameter"
 msgid "d:"
-msgstr ""
+msgstr "ق:"
 
 msgctxt "prefs:editor:drawing-tools:prefix-text:circle-area"
 msgid "A:"
@@ -3379,147 +4200,332 @@ msgctxt "prefs:editor:drawing-tools:prefix-text:circle-arc-length"
 msgid "s:"
 msgstr "s:"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:title"
 msgid "Open notes entry dialog"
-msgstr ""
+msgstr "باز کردن کادر محاوره‌ای ورود یادداشت‌ها"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:no"
 msgid "Do not open automatically"
-msgstr ""
+msgstr "به طور خودکار باز نشود"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:if-multiple"
 msgid "Open when adding multiple notes"
-msgstr ""
+msgstr "هنگام افزودن چندین یادداشت باز شود"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:textbox:auto-open-entry:yes"
 msgid "Open when new note is added"
-msgstr ""
+msgstr "هنگام افزودن یادداشت جدید باز شود"
 
+#, fuzzy
 msgctxt "prefs:editor:drawing-tools:implicitref:show-in-exported-image"
 msgid "Show calibration scale in exported image"
-msgstr ""
+msgstr "نمایش مقیاس کالیبراسیون در تصویر صادر شده"
 
+#, fuzzy
+msgctxt "prefs:shortcuts:shortcut-table-header:action"
+msgid "Action"
+msgstr "عمل"
+
+#, fuzzy
+msgctxt "prefs:shortcuts:shortcut-table-header:shortcut"
+msgid "Shortcut"
+msgstr "میانبر"
+
+#, fuzzy
+msgctxt "prefs:shortcuts:shortcut-table-header:edit"
+msgid "Edit"
+msgstr "ویرایش"
+
+#, fuzzy
+msgctxt "prefs:shortcuts:shortcut-dialog:title"
+msgid "Set shortcut key"
+msgstr "تنظیم کلید میانبر"
+
+#, fuzzy
+msgctxt "prefs:shortcuts:shortcut-dialog:title-text"
+msgid "Press shortcut key for action"
+msgstr "کلید میانبر را برای عمل فشار دهید"
+
+#, fuzzy
+msgctxt "prefs:shortcuts:shortcut-dialog:description-text"
+msgid "Press '{}' to remove shortcut."
+msgstr "برای حذف میانبر '{}' را فشار دهید."
+
+#, fuzzy
+msgctxt "prefs:shortcuts:shortcut-conflict:title"
+msgid "Shortcut conflict"
+msgstr "تداخل میانبر"
+
+#, fuzzy
+msgctxt "prefs:shortcuts:shortcut-conflict:title-text"
+msgid "This shortcut {shortcut} is already used by '{action}'"
+msgstr "این میانبر {shortcut} قبلاً توسط '{action}' استفاده شده است"
+
+#, fuzzy
+msgctxt "prefs:shortcuts:shortcut-conflict:choices"
+msgid ""
+"Do you want to assign the shortcut to the new action instead or keep the old "
+"shortcut action?"
+msgstr ""
+"آیا می‌خواهید میانبر را به عمل جدید اختصاص دهید یا عمل میانبر قدیمی را حفظ "
+"کنید؟"
+
+#, fuzzy
+msgctxt "prefs:shortcuts:shortcut-conflict:button:assign-to-new"
+msgid "Assign to new"
+msgstr "اختصاص به جدید"
+
+#, fuzzy
+msgctxt "prefs:shortcuts:shortcut-conflict:button:keep-old"
+msgid "Keep old"
+msgstr "حفظ قدیمی"
+
+#, fuzzy
+msgctxt "prefs:shortcuts:shortcut-conflict:cannot-reassign-shortcut"
+msgid ""
+"Cannot assign shortcut {shortcut} since it is used by {action} and cannot be "
+"removed."
+msgstr ""
+"میانبر {shortcut} قابل اختصاص نیست زیرا توسط {action} استفاده می‌شود و قابل "
+"حذف نیست."
+
+#, fuzzy
+msgctxt "prefs:shortcuts:reset-to-defaults"
+msgid "Reset to defaults"
+msgstr "بازنشانی به پیش‌فرض‌ها"
+
+#, fuzzy
 msgctxt "prefs:bluetooth:device-list:title"
 msgid "Discovered Bluetooth devices"
-msgstr ""
+msgstr "دستگاه‌های بلوتوث کشف شده"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:device-list:header:name"
 msgid "Bluetooth name"
-msgstr ""
+msgstr "نام بلوتوث"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:device-list:header:mac-address"
 msgid "MAC address"
-msgstr ""
+msgstr "آدرس MAC"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:device-list:header:uuid-address"
 msgid "UUID address"
-msgstr ""
+msgstr "آدرس UUID"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:device-list:header:device-name"
 msgid "Device name"
-msgstr ""
+msgstr "نام دستگاه"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:device-list:please-identify"
 msgid "please identify"
-msgstr ""
+msgstr "لطفا شناسایی کنید"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:scan-devices-button"
 msgid "Scan for devices"
-msgstr ""
+msgstr "اسکن برای دستگاه‌ها"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:identify-device-button"
 msgid "Identify device"
-msgstr ""
+msgstr "شناسایی دستگاه"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:choose-device-button"
 msgid "Choose selected device"
-msgstr ""
+msgstr "انتخاب دستگاه انتخاب شده"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:selected-device-group:title"
 msgid "Selected device"
-msgstr ""
+msgstr "دستگاه انتخاب شده"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:selected-device-group:device-name"
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:selected-device-group:device-model"
 msgid "Model"
-msgstr ""
+msgstr "مدل"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:selected-device-group:device-address"
 msgid "Address"
-msgstr ""
+msgstr "آدرس"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:selected-device-group:test-device-button"
 msgid "Test device"
-msgstr ""
+msgstr "تست دستگاه"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:selected-device-group:unset-device-button"
 msgid "Unset device"
-msgstr ""
+msgstr "لغو انتخاب دستگاه"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:use-device-format"
 msgid "Use measurement unit from device"
-msgstr ""
+msgstr "استفاده از واحد اندازه‌گیری از دستگاه"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:enable-acoustic-feedback"
 msgid "Acoustic feedback"
-msgstr ""
+msgstr "بازخورد صوتی"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:enable-double-trigger"
 msgid "Double trigger"
-msgstr ""
+msgstr "ماشه دوگانه"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:category:clipboard"
 msgid "Clipboard"
-msgstr ""
+msgstr "کلیپ‌بورد"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:enable"
 msgid "Copy value to clipboard"
-msgstr ""
+msgstr "کپی مقدار در کلیپ‌بورد"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:never"
 msgid "Never"
-msgstr ""
+msgstr "هرگز"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:when-not-in-editor"
 msgid "When editor is closed"
-msgstr ""
+msgstr "وقتی ویرایشگر بسته است"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:when-minimized"
 msgid "When window is minimized"
-msgstr ""
+msgstr "وقتی پنجره کوچک شده است"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:always"
 msgid "Always"
-msgstr ""
+msgstr "همیشه"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:with-unit"
 msgid "Copy value with unit"
-msgstr ""
+msgstr "کپی مقدار با واحد"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:with-decimal-dot"
 msgid "Use decimal dot"
-msgstr ""
+msgstr "استفاده از نقطه اعشار"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:copy-to-clipboard(pc)"
 msgid "Copy Bluetooth measurement to clipboard"
-msgstr ""
+msgstr "کپی اندازه‌گیری بلوتوث در کلیپ‌بورد"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:enter-as-keyboard"
 msgid "Enter measurement as keyboard input"
-msgstr ""
+msgstr "وارد کردن اندازه‌گیری به عنوان ورودی صفحه‌کلید"
 
+#, fuzzy
 msgctxt "prefs:bluetooth:clipboard:keyboard-suffix-key"
 msgid "Key to press after measurement"
-msgstr ""
+msgstr "کلیدی که بعد از اندازه‌گیری فشرده شود"
 
+#, fuzzy
+msgctxt "prefs:bluetooth:category:keyboard"
+msgid "Bluetooth Keyboard Input"
+msgstr "ورودی صفحه‌کلید بلوتوث"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:subpage:active-devices"
+msgid "Active Keyboard Input Devices"
+msgstr "دستگاه‌های ورودی صفحه‌کلید فعال"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:devices"
+msgid "Paired Bluetooth Keyboard Devices"
+msgstr "دستگاه‌های صفحه‌کلید بلوتوث جفت‌شده"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:device:Vogel-202420-caliper"
+msgid "Vogel caliper (no units)"
+msgstr "کولیس Vogel (بدون واحد)"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:device:Nedo-mEsstronic2-HID1"
+msgid "Nedo mEsstronic2 - HID1 (with units)"
+msgstr "Nedo mEsstronic2 - HID1 (با واحد)"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:device:Nedo-mEsstronic2-HID1to3"
+msgid "Nedo mEsstronic2 - HID1-3 (with units)"
+msgstr "Nedo mEsstronic2 - HID1-3 (با واحد)"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:device:Nedo-mEsstronic2-HID4"
+msgid "Nedo mEsstronic2 - HID4 (without units)"
+msgstr "Nedo mEsstronic2 - HID4 (بدون واحد)"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:device:Nedo-mEsstronic2-HID4to6"
+msgid "Nedo mEsstronic2 - HID4-6 (without units)"
+msgstr "Nedo mEsstronic2 - HID4-6 (بدون واحد)"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:device:Disto-D810-TXTmode"
+msgid "Leica Disto D810 - TXT mode (with units)"
+msgstr "Leica Disto D810 - حالت TXT (با واحد)"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:device:Disto-D810-123mode"
+msgid "Leica Disto D810 - 123 mode (without units)"
+msgstr "Leica Disto D810 - حالت ۱۲۳ (بدون واحد)"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:device:Disto-X-with-units"
+msgid "Leica Disto X series (with units)"
+msgstr "سری Leica Disto X (با واحد)"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:device:Disto-X-without-units"
+msgid "Leica Disto X series (without units)"
+msgstr "سری Leica Disto X (بدون واحد)"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:device:Reekon-T1-Tomahawk"
+msgid "Reekon T1-Tomahawk"
+msgstr "Reekon T1-Tomahawk"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:device:keyboard"
+msgid "Manual keyboard entry"
+msgstr "ورودی دستی صفحه‌کلید"
+
+#, fuzzy
+msgctxt "prefs:bluetooth:keyboard:decimal-unit-when-not-transmitted"
+msgid "Decimal unit when none is transmitted"
+msgstr "واحد اعشاری وقتی هیچکدام منتقل نمی‌شود"
+
+#, fuzzy
 msgctxt "android:prefs:bluetooth:device-selection:scan-instructions"
 msgid ""
 "Use the LE scan for modern devices. For older Bluetooth classic devices, use "
 "the classic scan."
 msgstr ""
+"برای دستگاه‌های مدرن از اسکن LE استفاده کنید. برای دستگاه‌های کلاسیک بلوتوث "
+"قدیمی‌تر، از اسکن کلاسیک استفاده کنید."
 
 msgctxt "prefs:template:add:general-description"
 msgid ""
@@ -3533,104 +4539,130 @@ msgctxt "prefs:template:add:dialog-title"
 msgid "Template type"
 msgstr "نوع الگو"
 
+#, fuzzy
 msgctxt "prefs:template:add-template(capital)"
 msgid "Add template"
-msgstr ""
+msgstr "افزودن الگو"
 
+#, fuzzy
 msgctxt "prefs:template:remove-template(capital)"
 msgid "Remove template"
-msgstr ""
+msgstr "حذف الگو"
 
+#, fuzzy
 msgctxt "prefs:template:list-header:name(pc)"
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
+#, fuzzy
 msgctxt "prefs:template:list-header:type(pc)"
 msgid "Type"
-msgstr ""
+msgstr "نوع"
 
+#, fuzzy
 msgctxt "prefs:template:list:group-title(pc)"
 msgid "Templates"
-msgstr ""
+msgstr "الگوها"
 
+#, fuzzy
 msgctxt "prefs:template:config:group-title(pc)"
 msgid "Template configuration"
-msgstr ""
+msgstr "پیکربندی الگو"
 
+#, fuzzy
 msgctxt "prefs:template:tags:list-title"
 msgid "Tags"
-msgstr ""
+msgstr "برچسب‌ها"
 
+#, fuzzy
 msgctxt "prefs:template:table-layouts:list-title"
 msgid "Table layouts"
-msgstr ""
+msgstr "طرح‌بندی‌های جدول"
 
+#, fuzzy
 msgctxt "prefs:template:table-layouts:edit-button"
 msgid "Edit"
-msgstr ""
+msgstr "ویرایش"
 
+#, fuzzy
 msgctxt "prefs:template:tags:list-header:name"
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
+#, fuzzy
 msgctxt "prefs:template:tags:list-header:name:tooltip"
 msgid "Name of the tag"
-msgstr ""
+msgstr "نام برچسب"
 
+#, fuzzy
 msgctxt "prefs:template:custom:tag:list-header:content-type"
 msgid "Content type"
-msgstr ""
+msgstr "نوع محتوا"
 
+#, fuzzy
 msgctxt "prefs:template:custom:tag:list-header:content-type:tooltip"
 msgid ""
 "The content type limits to which kind of elements the tag can be attached."
-msgstr ""
+msgstr "نوع محتوا محدود می‌کند که برچسب به چه نوع عناصری می‌تواند متصل شود."
 
+#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:name"
 msgid "Name"
-msgstr ""
+msgstr "نام"
 
+#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:name:tooltip"
 msgid "Name of the table layout"
-msgstr ""
+msgstr "نام طرح‌بندی جدول"
 
+#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:columns"
 msgid "Columns"
-msgstr ""
+msgstr "ستون‌ها"
 
+#, fuzzy
 msgctxt "prefs:template:tablespec:list-header:columns:tooltip"
 msgid "Summary of the columns in this table"
-msgstr ""
+msgstr "خلاصه ستون‌های این جدول"
 
+#, fuzzy
 msgctxt "prefs:template:partlist:tags:list-header:column-title"
 msgid "Column title"
-msgstr ""
+msgstr "عنوان ستون"
 
+#, fuzzy
 msgctxt "prefs:template:partlist:tags:list-header:column-title:tooltip"
 msgid ""
 "The column name for this tag in the table output. If left empty, the tag "
 "name will be used as column title."
 msgstr ""
+"نام ستون برای این برچسب در خروجی جدول. اگر خالی بماند، نام برچسب به عنوان "
+"عنوان ستون استفاده خواهد شد."
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract"
 msgid "Subtract"
-msgstr ""
+msgstr "تفریق"
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract:tooltip"
 msgid "Whether the value should be subtracted from the area sum."
-msgstr ""
+msgstr "اینکه آیا مقدار باید از مجموع مساحت کم شود."
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:factor"
 msgid "Factor"
-msgstr ""
+msgstr "ضریب"
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:factor:tooltip"
 msgid "The factor by which this area contributes to the sum."
-msgstr ""
+msgstr "ضریبی که این مساحت به مجموع کمک می‌کند."
 
+#, fuzzy
 msgctxt "prefs:template:custom:tablespec:dialog-title"
 msgid "Edit custom template table layout"
-msgstr ""
+msgstr "ویرایش طرح‌بندی جدول الگوی سفارشی"
 
 msgctxt "prefs:template:custom:tablespec:dialog-title(short)"
 msgid "Custom Table Configuration"
@@ -3649,9 +4681,10 @@ msgctxt "prefs:template:custom:tablespec:columns-list:add-column-entry"
 msgid "+ add column"
 msgstr "+ افزودن ستون"
 
+#, fuzzy
 msgctxt "prefs:template:tag-list:add-tag-entry"
 msgid "+ add tag"
-msgstr ""
+msgstr "+ افزودن برچسب"
 
 #, fuzzy
 msgctxt "prefs:template:generic:tablespec:columns:list-header:column-header"
@@ -3750,13 +4783,15 @@ msgstr ""
 "چه چیزی را باید در ردیف پایین جدول قرار دهید. گزینه ها شامل مجموع مقادیر "
 "موجود در ستون ، حداکثر ، میانگین و سایر گزینه ها می  باشد."
 
+#, fuzzy
 msgctxt "prefs:template:areasum:tablespec:dialog-title"
 msgid "Edit the table layout of the area template"
-msgstr ""
+msgstr "ویرایش طرح‌بندی جدول الگوی مساحت"
 
+#, fuzzy
 msgctxt "prefs:template:partslist:tablespec:dialog-title"
 msgid "Edit table layout of the parts-list template"
-msgstr ""
+msgstr "ویرایش طرح‌بندی جدول الگوی لیست قطعات"
 
 msgctxt "prefs:template:partslist:tablespec:item-number:none"
 msgid "None"
@@ -3841,392 +4876,807 @@ msgctxt "prefs:template:partslist:tablespec:row-config:show-footer"
 msgid "Show footer row"
 msgstr "نمایش ردیف پاورقی"
 
+#, fuzzy
 msgctxt ""
 "prefs:template:partslist:tablespec:row-config:combine-counters-into-one-row"
 msgid "Combine counters into one row per tag"
-msgstr ""
+msgstr "ترکیب شمارنده‌ها در یک ردیف برای هر برچسب"
 
+#, fuzzy
 msgctxt "prefs:ui:qt-scale-factor"
 msgid "UI scale factor"
-msgstr ""
+msgstr "ضریب مقیاس رابط کاربری"
 
+#, fuzzy
 msgctxt "prefs:ui:qt-scale-factor:auto"
 msgid "Automatic"
-msgstr ""
+msgstr "خودکار"
 
+#, fuzzy
+msgctxt "prefs:ui:group:editor-graphics-settings"
+msgid "Editor Graphics Settings"
+msgstr "تنظیمات گرافیکی ویرایشگر"
+
+#, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing"
 msgid "Anti-aliasing in editor"
-msgstr ""
+msgstr "ضد پلگی در ویرایشگر"
 
+#, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing:off"
 msgid "Off"
-msgstr ""
+msgstr "خاموش"
 
+#, fuzzy
+msgctxt "prefs:ui:editor:graphics-backend"
+msgid "Graphics rendering mode"
+msgstr "حالت رندر گرافیکی"
+
+#, fuzzy
+msgctxt "prefs:ui:editor:graphics-backend:software"
+msgid "Software"
+msgstr "نرم‌افزار"
+
+#, fuzzy
+msgctxt "prefs:ui:editor:graphics-backend:opengl"
+msgid "OpenGL (accelerated)"
+msgstr "OpenGL (شتاب‌یافته)"
+
+#, fuzzy
+msgctxt "prefs:ui:editor:graphics-backend:vulkan"
+msgid "Vulkan (accelerated)"
+msgstr "Vulkan (شتاب‌یافته)"
+
+#, fuzzy
+msgctxt "prefs:ui:editor:graphics-backend:metal"
+msgid "Metal (accelerated)"
+msgstr "Metal (شتاب‌یافته)"
+
+#, fuzzy
+msgctxt "prefs:ui:editor:graphics-quality"
+msgid "Rendering quality"
+msgstr "کیفیت رندر"
+
+#, fuzzy
+msgctxt "prefs:ui:editor:graphics-quality:reduced"
+msgid "Reduced quality (faster)"
+msgstr "کیفیت کاهش‌یافته (سریع‌تر)"
+
+#, fuzzy
+msgctxt "prefs:ui:editor:graphics-quality:best"
+msgid "Best quality (slower)"
+msgstr "بهترین کیفیت (کندتر)"
+
+#, fuzzy
 msgctxt "prefs:ui:language"
 msgid "Language"
-msgstr ""
+msgstr "زبان"
 
+#, fuzzy
 msgctxt "prefs:ui:language:automatic"
 msgid "Automatic"
-msgstr ""
+msgstr "خودکار"
 
+#, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action"
 msgid "When closing image with unsaved changes"
-msgstr ""
+msgstr "هنگام بستن تصویر با تغییرات ذخیره نشده"
 
+#, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action:ask"
 msgid "Ask what to do"
-msgstr ""
+msgstr "بپرسید چه باید کرد"
 
+#, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action:discard-changes"
 msgid "Discard changes"
-msgstr ""
+msgstr "نادیده گرفتن تغییرات"
 
+#, fuzzy
 msgctxt "prefs:ui:closing-unsaved-changes-action:save-changes"
 msgid "Save changes"
-msgstr ""
+msgstr "ذخیره تغییرات"
 
+#, fuzzy
 msgctxt "prefs:ui:open-image-in"
 msgid "Open image in"
-msgstr ""
+msgstr "باز کردن تصویر در"
 
+#, fuzzy
 msgctxt "prefs:ui:open-image-in:new-window"
 msgid "new window"
-msgstr ""
+msgstr "پنجره جدید"
 
+#, fuzzy
 msgctxt "prefs:ui:open-image-in:active-window"
 msgid "active window"
-msgstr ""
+msgstr "پنجره فعال"
 
+#, fuzzy
 msgctxt "prefs:ui:dont-ask-again:duplicate-entities-dialog"
 msgid "Show options dialog when duplicating images"
-msgstr ""
+msgstr "نمایش کادر محاوره‌ای گزینه‌ها هنگام تکثیر تصاویر"
 
+#, fuzzy
 msgctxt "prefs:ui:category:dont-ask-again-option-dialogs"
 msgid "Show option dialogs"
-msgstr ""
+msgstr "نمایش کادر محاوره‌ای گزینه‌ها"
 
+#, fuzzy
 msgctxt "prefs:ui:category:dont-ask-again-option-dialogs:duplicate-entities"
 msgid "Duplicate images and folders"
-msgstr ""
+msgstr "تکثیر تصاویر و پوشه‌ها"
 
+#, fuzzy
 msgctxt "prefs:ui:filename-deduplication:min-digits:title"
 msgid "Digits for filename deduplication"
-msgstr ""
+msgstr "ارقام برای رفع تکرار نام فایل"
 
+#, fuzzy
 msgctxt "prefs:ui:filename-deduplication:min-digits:1"
 msgid "1"
-msgstr ""
+msgstr "۱"
 
+#, fuzzy
 msgctxt "prefs:ui:filename-deduplication:min-digits-title"
 msgid "Digits for filename deduplication"
-msgstr ""
+msgstr "ارقام برای رفع تکرار نام فایل"
 
+#, fuzzy
+msgctxt "prefs:ui:group:editor-display-settings"
+msgid "Editor display settings"
+msgstr "تنظیمات نمایش ویرایشگر"
+
+#, fuzzy
+msgctxt "prefs:ui:screen-dpi-override"
+msgid "Screen DPI override"
+msgstr "نادیده گرفتن DPI صفحه"
+
+#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution"
 msgid "Maximum image resolution"
-msgstr ""
+msgstr "حداکثر وضوح تصویر"
 
+#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution:1mp"
 msgid "1 megapixel"
-msgstr ""
+msgstr "۱ مگاپیکسل"
 
+#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution:4mp"
 msgid "4 megapixel"
-msgstr ""
+msgstr "۴ مگاپیکسل"
 
+#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution:16mp"
 msgid "16 megapixel"
-msgstr ""
+msgstr "۱۶ مگاپیکسل"
 
+#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution:64mp"
 msgid "64 megapixel"
-msgstr ""
+msgstr "۶۴ مگاپیکسل"
 
+#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution:256mp"
 msgid "256 megapixel"
-msgstr ""
+msgstr "۲۵۶ مگاپیکسل"
 
+#, fuzzy
 msgctxt "prefs:ui:maximum-texture-resolution:unlimited"
 msgid "unlimited"
-msgstr ""
+msgstr "نامحدود"
 
+#, fuzzy
 msgctxt "prefs:audio-input:dialog-title"
 msgid "Select audio input device"
-msgstr ""
+msgstr "انتخاب دستگاه ورودی صوتی"
 
+#, fuzzy
 msgctxt "prefs:audio-input:button:test"
 msgid "Test"
-msgstr ""
+msgstr "تست"
 
+#, fuzzy
 msgctxt "prefs:ui:audio-input-device"
 msgid "Audio input device"
-msgstr ""
+msgstr "دستگاه ورودی صوتی"
 
+#, fuzzy
 msgctxt "prefs:ui:audio-input-device:button:choose"
 msgid "Choose"
-msgstr ""
+msgstr "انتخاب"
 
+#, fuzzy
 msgctxt "prefs:ui:enable-experimental-dxf-export"
 msgid "Enable DXF export (experimental)"
-msgstr ""
+msgstr "فعال کردن صدور DXF (آزمایشی)"
+
+#, fuzzy
+msgctxt "prefs:ui:disable-overlays-in-thumbnails"
+msgid "Disable overlay text and logo in thumbnails"
+msgstr "غیرفعال کردن متن روکش و لوگو در تصاویر بندانگشتی"
 
 msgctxt "prefs:map-provider:title"
 msgid "Map provider"
 msgstr "ارائه دهنده نقشه"
 
+#, fuzzy
 msgctxt "prefs:map-provider:google-maps"
 msgid "Google Maps"
-msgstr ""
+msgstr "نقشه‌های گوگل"
 
+#, fuzzy
 msgctxt "prefs:map-provider:bing-maps"
 msgid "Bing Maps"
-msgstr ""
+msgstr "نقشه‌های بینگ"
 
+#, fuzzy
 msgctxt "prefs:map-provider:open-street-map"
 msgid "OpenStreetMap"
-msgstr ""
+msgstr "OpenStreetMap"
 
+#, fuzzy
 msgctxt "prefs:company:user-id"
 msgid "User ID"
-msgstr ""
+msgstr "شناسه کاربری"
 
+#, fuzzy
 msgctxt "prefs:company:user-full-name"
 msgid "Full name"
-msgstr ""
+msgstr "نام کامل"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-name"
 msgid "Camera"
-msgstr ""
+msgstr "دوربین"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-resolution"
 msgid "Resolution"
-msgstr ""
+msgstr "وضوح"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-framerate"
 msgid "Frame rate"
-msgstr ""
+msgstr "نرخ فریم"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-exposure-time"
 msgid "Exposure time"
-msgstr ""
+msgstr "زمان نوردهی"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-auto-exposure:target-grey-level"
 msgid "Exposure target grey level"
-msgstr ""
+msgstr "سطح خاکستری هدف نوردهی"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-exposure-mode"
 msgid "Exposure mode"
-msgstr ""
+msgstr "حالت نوردهی"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-exposure-mode:timed"
 msgid "Timed"
-msgstr ""
+msgstr "زمان‌بندی شده"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-exposure-mode:auto-grey-level"
 msgid "Automatic grey level"
-msgstr ""
+msgstr "سطح خاکستری خودکار"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-left"
 msgid "ROI crop left"
-msgstr ""
+msgstr "برش ROI از چپ"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-right"
 msgid "ROI crop right"
-msgstr ""
+msgstr "برش ROI از راست"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-top"
 msgid "ROI crop top"
-msgstr ""
+msgstr "برش ROI از بالا"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-bottom"
 msgid "ROI crop bottom"
-msgstr ""
+msgstr "برش ROI از پایین"
 
+#, fuzzy
 msgctxt "prefs:camera:calibration:title"
 msgid "Calibration"
-msgstr ""
+msgstr "کالیبراسیون"
 
+#, fuzzy
 msgctxt "prefs:camera:calibration:text(yes+date)"
 msgid "Yes, calibrated on {}"
-msgstr ""
+msgstr "بله، در {} کالیبره شده است"
 
+#, fuzzy
 msgctxt "prefs:camera:calibration:text(no)"
 msgid "Not calibrated"
-msgstr ""
+msgstr "کالیبره نشده"
 
+#, fuzzy
 msgctxt "prefs:camera:calibration:button:remove-calibration"
 msgid "Remove calibration"
-msgstr ""
+msgstr "حذف کالیبراسیون"
 
+#, fuzzy
 msgctxt "prefs:camera:camera-list:none"
 msgid "None"
-msgstr ""
+msgstr "هیچ‌کدام"
 
+#, fuzzy
+msgctxt "android-exif-reader:error"
+msgid "Failed to read Exif data from image"
+msgstr "خواندن داده Exif از تصویر ناموفق بود"
+
+#, fuzzy
+msgctxt "android-exif-writer:error"
+msgid "Failed to write Exif data to image"
+msgstr "نوشتن داده Exif در تصویر ناموفق بود"
+
+#, fuzzy
+msgctxt "geocoder:error:not-present"
+msgid "Address lookup not supported by your device"
+msgstr "جستجوی آدرس توسط دستگاه شما پشتیبانی نمی‌شود"
+
+#, fuzzy
+msgctxt "geocoder:error:invalid-gps-location"
+msgid "Cannot find address for invalid GPS location: {}"
+msgstr "آدرسی برای مکان GPS نامعتبر یافت نشد: {}"
+
+#, fuzzy
+msgctxt "geocoder:error:general-error"
+msgid "Error while trying to find location: {}"
+msgstr "خطا هنگام تلاش برای یافتن مکان: {}"
+
+#, fuzzy
+msgctxt "geocoder:error:no-address-found"
+msgid "Could not find address for location"
+msgstr "آدرسی برای مکان یافت نشد"
+
+#, fuzzy
+msgctxt "camera-capture:cannot-create-capture-file"
+msgid "Cannot create file for photo capture"
+msgstr "فایلی برای ثبت عکس ایجاد نمی‌شود"
+
+#, fuzzy
+msgctxt "camera-capture:null-capture-file"
+msgid "Photo capture file does not exist"
+msgstr "فایل ثبت عکس وجود ندارد"
+
+#, fuzzy
+msgctxt "camera-capture:choose-camera-app"
+msgid "Choose Camera App"
+msgstr "انتخاب برنامه دوربین"
+
+#, fuzzy
+msgctxt "camera-capture:add-gps:ask-user-dialog:title"
+msgid "Add Location?"
+msgstr "افزودن مکان؟"
+
+#, fuzzy
+msgctxt "camera-capture:add-gps:ask-user-dialog:text"
+msgid ""
+"This image does not contain GPS data. Would you like to add the current "
+"location? This requires location permission."
+msgstr ""
+"این تصویر حاوی داده GPS نیست. آیا مایلید مکان فعلی را اضافه کنید؟ این نیاز "
+"به اجازه دسترسی به مکان دارد."
+
+#, fuzzy
+msgctxt "camera-capture:add-gps:ask-user-dialog:checkbox"
+msgid "Save choice to settings."
+msgstr "انتخاب را در تنظیمات ذخیره کنید."
+
+#, fuzzy
+msgctxt "camera-capture:add-gps:ask-user-dialog:yes"
+msgid "Add GPS"
+msgstr "افزودن GPS"
+
+#, fuzzy
+msgctxt "camera-capture:add-gps:ask-user-dialog:no"
+msgid "No Thanks"
+msgstr "نه، متشکرم"
+
+#, fuzzy
+msgctxt "camera-capture:add-gps:location-permission:rationale:title"
+msgid "Need Location Permission"
+msgstr "نیاز به اجازه دسترسی به مکان"
+
+#, fuzzy
+msgctxt "camera-capture:add-gps:location-permission:rationale:text"
+msgid ""
+"This app is set to add GPS location to photos. Please grant location "
+"permission, as it's required to add GPS data to your photos."
+msgstr ""
+"این برنامه برای افزودن مکان GPS به عکس‌ها تنظیم شده است. لطفاً اجازه دسترسی به "
+"مکان را بدهید، زیرا برای افزودن داده GPS به عکس‌های شما لازم است."
+
+#, fuzzy
+msgctxt "camera-capture:add-gps:location-permission:rationale:button"
+msgid "Continue"
+msgstr "ادامه"
+
+#, fuzzy
+msgctxt "camera-capture:add-gps:result:user-declined"
+msgid "Photo captured without GPS location."
+msgstr "عکس بدون مکان GPS ثبت شد."
+
+#, fuzzy
+msgctxt "camera-capture:add-gps:result:no-location"
+msgid "Could not get a GPS location for the photo"
+msgstr "مکان GPS برای عکس دریافت نشد"
+
+#, fuzzy
+msgctxt "prefs:image-metadata:category:title"
+msgid "Image Metadata"
+msgstr "فراداده تصویر"
+
+#, fuzzy
+msgctxt "prefs:image-metadata:add-gps:title"
+msgid "Add GPS location to photos"
+msgstr "افزودن مکان GPS به عکس‌ها"
+
+#, fuzzy
+msgctxt "prefs:image-metadata:add-gps:always"
+msgid "Yes"
+msgstr "بله"
+
+#, fuzzy
+msgctxt "prefs:image-metadata:add-gps:never"
+msgid "No"
+msgstr "خیر"
+
+#, fuzzy
+msgctxt "prefs:image-metadata:add-gps:ask-user"
+msgid "Ask after capture"
+msgstr "بعد از ثبت بپرس"
+
+#, fuzzy
+msgctxt "prefs:image-metadata:lookup-address-from-gps"
+msgid "Lookup location address from GPS"
+msgstr "جستجوی آدرس مکان از GPS"
+
+#, fuzzy
 msgctxt "prefs:sync:twoway-and-anno-directories-must-be-different:msg"
 msgid "You have to use different paths for two-way sync and image upload."
 msgstr ""
+"شما باید از مسیرهای متفاوتی برای همگام‌سازی دوطرفه و بارگذاری تصویر استفاده "
+"کنید."
 
+#, fuzzy
 msgctxt "bluetooth:device-test:title"
 msgid "Bluetooth Device Test"
-msgstr ""
+msgstr "تست دستگاه بلوتوث"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:connection"
 msgid "Connection:"
-msgstr ""
+msgstr "اتصال:"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:connection:connecting"
 msgid "connecting"
-msgstr ""
+msgstr "در حال اتصال"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:connection:connected"
 msgid "connected"
-msgstr ""
+msgstr "متصل"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:connection:disconnecting"
 msgid "disconnecting"
-msgstr ""
+msgstr "در حال قطع اتصال"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:connection:disconnected"
 msgid "disconnected"
-msgstr ""
+msgstr "قطع شده"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:received-value"
 msgid "Received value:"
-msgstr ""
+msgstr "مقدار دریافت شده:"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:connect-button"
 msgid "Connect"
-msgstr ""
+msgstr "اتصال"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:disconnect-button"
 msgid "Disconnect"
-msgstr ""
+msgstr "قطع اتصال"
 
+#, fuzzy
 msgctxt "bluetooth:device-test:trigger-button"
 msgid "Remote trigger"
-msgstr ""
+msgstr "ماشه از راه دور"
 
+#, fuzzy
 msgctxt "bluetooth:origin-position:front"
 msgid "front"
-msgstr ""
+msgstr "جلو"
 
+#, fuzzy
 msgctxt "bluetooth:origin-position:mount"
 msgid "mount"
-msgstr ""
+msgstr "پایه"
 
+#, fuzzy
 msgctxt "bluetooth:origin-position:back"
 msgid "back"
-msgstr ""
+msgstr "عقب"
 
+#, fuzzy
 msgctxt "bluetooth:origin-position:back-extension"
 msgid "back-extension"
-msgstr ""
+msgstr "افزونه عقب"
 
+#, fuzzy
 msgctxt "bluetooth:no-device-configured-dialog:title(pc)"
 msgid "No Bluetooth Device Configured"
-msgstr ""
+msgstr "هیچ دستگاه بلوتوثی پیکربندی نشده است"
 
+#, fuzzy
 msgctxt "bluetooth:no-device-configured-dialog:text(pc)"
 msgid ""
 "You have not yet configured any Bluetooth laser distance meter.\n"
 "\n"
 "Please select your device in the settings."
 msgstr ""
+"شما هنوز هیچ مسافت‌سنج لیزری بلوتوثی را پیکربندی نکرده‌اید.\n"
+"\n"
+"لطفاً دستگاه خود را در تنظیمات انتخاب کنید."
 
+#, fuzzy
 msgctxt "bluetooth:no-device-configured-dialog:open-prefs:button(pc)"
 msgid "Open settings"
-msgstr ""
+msgstr "باز کردن تنظیمات"
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:connect:tooltip(disconnected)"
 msgid "Connect to Bluetooth device. (Disconnected)"
-msgstr ""
+msgstr "اتصال به دستگاه بلوتوث. (قطع شده)"
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:connect:tooltip(connected)"
 msgid "Connected. Click to disconnect."
-msgstr ""
+msgstr "متصل. برای قطع اتصال کلیک کنید."
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:connect:tooltip(connecting)"
 msgid "Trying to connect to device."
-msgstr ""
+msgstr "در حال تلاش برای اتصال به دستگاه."
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:connect:tooltip(waiting-for-reconnect)"
 msgid "Will try to reconnect after a small pause."
-msgstr ""
+msgstr "پس از یک مکث کوتاه دوباره تلاش برای اتصال خواهد کرد."
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:trigger:tooltip"
 msgid "Trigger laser remotely"
-msgstr ""
+msgstr "فعال کردن لیزر از راه دور"
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:trigger:not-available-tooltip"
 msgid "The device does not support remote triggering."
-msgstr ""
+msgstr "دستگاه از فعال‌سازی از راه دور پشتیبانی نمی‌کند."
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:measures-history:tooltip"
 msgid "Measures history"
-msgstr ""
+msgstr "تاریخچه اندازه‌گیری‌ها"
 
+#, fuzzy
 msgctxt "bluetooth:toolbar:measures-history:clear"
 msgid "Clear"
-msgstr ""
+msgstr "پاک کردن"
 
+#, fuzzy
 msgctxt "bluetooth:clipboard:feature-not-licensed:value"
 msgid "Bluetooth transmission requires ImageMeter Pro version"
-msgstr ""
+msgstr "انتقال بلوتوث به نسخه ImageMeter Pro نیاز دارد"
 
+#, fuzzy
+msgctxt "shortcuts:description:editor:enter-value"
+msgid "Enter dimension value"
+msgstr "وارد کردن مقدار ابعاد"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:delete-element"
+msgid "Delete element"
+msgstr "حذف عنصر"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:lock-element"
+msgid "Lock drawing element"
+msgstr "قفل کردن عنصر ترسیم"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:unlock-element"
+msgid "Unlock drawing element"
+msgstr "باز کردن قفل عنصر ترسیم"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:toggle-lock-element"
+msgid "Toggle element locking"
+msgstr "تغییر وضعیت قفل عنصر"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:activate-next-element"
+msgid "Activate next element"
+msgstr "فعال کردن عنصر بعدی"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:activate-previous-element"
+msgid "Activate previous element"
+msgstr "فعال کردن عنصر قبلی"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:flatref"
+msgid "Activate tool 'Reference Scale'"
+msgstr "فعال کردن ابزار 'مقیاس مرجع'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:rectref"
+msgid "Activate tool 'Perspective Reference'"
+msgstr "فعال کردن ابزار 'مرجع پرسپکتیو'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:perspective-line"
+msgid "Activate tool 'Perspective Line'"
+msgstr "فعال کردن ابزار 'خط پرسپکتیو'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:measure"
+msgid "Activate tool 'Measure'"
+msgstr "فعال کردن ابزار 'اندازه‌گیری'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:angle"
+msgid "Activate tool 'Angle'"
+msgstr "فعال کردن ابزار 'زاویه'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:dimstring-distance"
+msgid "Activate tool 'Dimension String'"
+msgstr "فعال کردن ابزار 'رشته ابعاد'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:dimstring-cumulative"
+msgid "Activate tool 'Cumulative String'"
+msgstr "فعال کردن ابزار 'رشته تجمعی'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:area"
+msgid "Activate tool 'Area'"
+msgstr "فعال کردن ابزار 'مساحت'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:circle"
+msgid "Activate tool 'Circle'"
+msgstr "فعال کردن ابزار 'دایره'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:rectangle"
+msgid "Activate tool 'Rectangle'"
+msgstr "فعال کردن ابزار 'مستطیل'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:measurement-point"
+msgid "Activate tool 'Measurement Point'"
+msgstr "فعال کردن ابزار 'نقطه اندازه‌گیری'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:text"
+msgid "Activate tool 'Note'"
+msgstr "فعال کردن ابزار 'یادداشت'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:freehand"
+msgid "Activate tool 'Freehand'"
+msgstr "فعال کردن ابزار 'دست آزاد'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:line"
+msgid "Activate tool 'Line'"
+msgstr "فعال کردن ابزار 'خط'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:ellipse"
+msgid "Activate tool 'Ellipse'"
+msgstr "فعال کردن ابزار 'بیضی'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:counter"
+msgid "Activate tool 'Counter'"
+msgstr "فعال کردن ابزار 'شمارنده'"
+
+#, fuzzy
+msgctxt "shortcuts:description:editor:start-tool:results-list"
+msgid "Activate tool 'Results list'"
+msgstr "فعال کردن ابزار 'لیست نتایج'"
+
+#, fuzzy
 msgctxt "toolbar:editing:calibration:tooltip"
 msgid "Calibrate with scale"
-msgstr ""
+msgstr "کالیبره کردن با مقیاس"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:set-to-scaleratio"
 msgid "Calibration set to {}"
-msgstr ""
+msgstr "کالیبراسیون روی {} تنظیم شد"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:not-calibrated"
 msgid "Not calibrated"
-msgstr ""
+msgstr "کالیبره نشده"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:no-calibration-possible"
 msgid "Cannot be calibrated"
-msgstr ""
+msgstr "قابل کالیبره شدن نیست"
 
+#, fuzzy
 msgctxt "toolbar:editing:calibration:canvas-unit-calibration"
 msgid "One unit: {}"
-msgstr ""
+msgstr "یک واحد: {}"
 
+#, fuzzy
 msgctxt "live-camera:editor-window:title"
 msgid "Live camera"
-msgstr ""
+msgstr "دوربین زنده"
 
+#, fuzzy
 msgctxt "live-camera:save:live-or-capture:title"
 msgid "Save live video"
-msgstr ""
+msgstr "ذخیره ویدیوی زنده"
 
+#, fuzzy
 msgctxt "live-camera:save:live-or-capture:text"
 msgid ""
 "Save a captured image of the live video or a live camera placeholder image?"
 msgstr ""
+"یک تصویر ثبت شده از ویدیوی زنده یا یک تصویر جایگزین دوربین زنده ذخیره شود؟"
 
+#, fuzzy
 msgctxt "live-camera:save:live-or-capture:captured-image"
 msgid "Capture image"
-msgstr ""
+msgstr "ثبت تصویر"
 
+#, fuzzy
 msgctxt "live-camera:save:live-or-capture:live-video"
 msgid "Live video"
-msgstr ""
+msgstr "ویدیوی زنده"
 
+#, fuzzy
 msgctxt "camera-calibration:overwrite:title"
 msgid "Store camera calibration"
-msgstr ""
+msgstr "ذخیره کالیبراسیون دوربین"
 
+#, fuzzy
 msgctxt "camera-calibration:overwrite-existing:ask-overwrite"
 msgid ""
 "There is already a calibration stored for this camera at this resolution. Do "
 "you want to overwrite the existing calibration?"
 msgstr ""
+"یک کالیبراسیون برای این دوربین در این وضوح از قبل ذخیره شده است. آیا "
+"می‌خواهید کالیبراسیون موجود را بازنویسی کنید؟"
 
+#, fuzzy
 msgctxt "camera-calibration:saved:confirmation-message"
 msgid "Camera calibration has been stored."
-msgstr ""
+msgstr "کالیبراسیون دوربین ذخیره شد."
 
 msgctxt "templ:template-name"
 msgid "Template name"
@@ -4304,8 +5754,17 @@ msgctxt "templ:custom:column-type:text"
 msgid "Text note"
 msgstr "یادداشت متن"
 
+#, fuzzy
 msgctxt "templ:custom:column-type:counter"
 msgid "Counter"
+msgstr "شمارنده"
+
+msgctxt "templ:custom:rectangle:tagged-element-suffix:width"
+msgid "width"
+msgstr ""
+
+msgctxt "templ:custom:rectangle:tagged-element-suffix:height"
+msgid "height"
 msgstr ""
 
 msgctxt "templ:custom:new-tablespec-name"
@@ -4324,9 +5783,10 @@ msgctxt "templ:custom:tag:filter:circle"
 msgid "Circle"
 msgstr "دایره"
 
+#, fuzzy
 msgctxt "templ:custom:tag:filter:counter"
 msgid "Counter"
-msgstr ""
+msgstr "شمارنده"
 
 msgctxt "templ:custom:tag:property-name"
 msgid "Tag"
@@ -4576,6 +6036,10 @@ msgctxt "templ:partslist:tagtype:length"
 msgid "Length"
 msgstr "طول"
 
+msgctxt "templ:partslist:tagtype:rectangle"
+msgid "Rectangle"
+msgstr ""
+
 #, fuzzy
 msgctxt "templ:partslist:tagtype:area"
 msgid "Area"
@@ -4705,55 +6169,71 @@ msgctxt "SyncAction:DELETE_REMOTE"
 msgid "Delete on server"
 msgstr "حذف از سرور"
 
+#, fuzzy
 msgctxt "sync:error:cloud-sync-currently-in-use:retry-later"
 msgid "Cloud-sync is currently in use. Please retry later."
 msgstr ""
+"همگام‌سازی ابری در حال حاضر در حال استفاده است. لطفاً بعداً دوباره امتحان کنید."
 
+#, fuzzy
 msgctxt "sync:error:no-cloud-sync-tasks-configured(pc)"
 msgid ""
 "There are no enabled cloud-sync tasks. Nothing to do. First configure some "
 "sync tasks in the preferences, section 'Storage/Cloud Storage'."
 msgstr ""
+"هیچ کار همگام‌سازی ابری فعالی وجود ندارد. کاری برای انجام دادن نیست. ابتدا "
+"چند کار همگام‌سازی را در تنظیمات برگزیده، بخش 'ذخیره‌سازی/ذخیره‌سازی ابری' "
+"پیکربندی کنید."
 
+#, fuzzy
 msgctxt "sync:task:description:anno-image"
 msgid "Image upload to {}"
-msgstr ""
+msgstr "بارگذاری تصویر در {}"
 
+#, fuzzy
 msgctxt "sync:task:description:two-way"
 msgid "Two-way sync with {}"
-msgstr ""
+msgstr "همگام‌سازی دوطرفه با {}"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:filesystem"
 msgid "directory '{0}'"
-msgstr ""
+msgstr "دایرکتوری '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:onedrive"
 msgid "OneDrive directory '{0}'"
-msgstr ""
+msgstr "دایرکتوری OneDrive '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:googledrive"
 msgid "Google Drive directory '{0}'"
-msgstr ""
+msgstr "دایرکتوری Google Drive '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:dropbox"
 msgid "Dropbox directory '{0}'"
-msgstr ""
+msgstr "دایرکتوری Dropbox '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:webdav"
 msgid "WebDAV URL '{0}'"
-msgstr ""
+msgstr "آدرس WebDAV '{0}'"
 
+#, fuzzy
 msgctxt "sync:task:backend-options:descr:sftp"
 msgid "SFTP URL '{0}'"
-msgstr ""
+msgstr "آدرس SFTP '{0}'"
 
+#, fuzzy
 msgctxt "sync:server-type:none"
 msgid "None"
-msgstr ""
+msgstr "هیچ‌کدام"
 
+#, fuzzy
 msgctxt "sync:server-type:filesystem"
 msgid "Filesystem"
-msgstr ""
+msgstr "سیستم فایل"
 
 msgctxt "sync:default-server-directory:two-way"
 msgid "ImageMeter"
@@ -4830,9 +6310,10 @@ msgctxt "sync:server-maintenance:remove-server-lock:result:success"
 msgid "Successfully removed server lock."
 msgstr "قفل سرور با موفقیت حذف شد."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:remove-server-lock:result:error:no-lock"
 msgid "There was no server lock."
-msgstr ""
+msgstr "هیچ قفل سروری وجود نداشت."
 
 msgctxt "sync:server-maintenance:remove-server-cache:action-title"
 msgid "Resetting cloud server cache"
@@ -4850,30 +6331,43 @@ msgctxt "sync:server-maintenance:reset-sync-state:result:success"
 msgid "Successfully resetted sync state."
 msgstr "حالت همگام سازی با موفقیت تنظیم شد."
 
+#, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:googledrive"
 msgid ""
 "You have successfully logged into GoogleDrive. You can close this tab and "
 "return to ImageMeter now."
 msgstr ""
+"شما با موفقیت به GoogleDrive وارد شدید. اکنون می‌توانید این برگه را ببندید و "
+"به ImageMeter بازگردید."
 
+#, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:onedrive"
 msgid ""
 "You have successfully logged into OneDrive. You can close this tab and "
 "return to ImageMeter now."
 msgstr ""
+"شما با موفقیت به OneDrive وارد شدید. اکنون می‌توانید این برگه را ببندید و به "
+"ImageMeter بازگردید."
 
+#, fuzzy
 msgctxt "sync:oauth2:browser-message:successful-login:dropbox"
 msgid ""
 "You have successfully logged into Dropbox. You can close this tab and return "
 "to ImageMeter now."
 msgstr ""
+"شما با موفقیت به Dropbox وارد شدید. اکنون می‌توانید این برگه را ببندید و به "
+"ImageMeter بازگردید."
 
+#, fuzzy
 msgctxt "sync:server-maintenance:image-upload:reset-sync-state-description"
 msgid ""
 "<b>Reset sync state</b> - The next sync will upload all images again. This "
 "may be useful is you deleted the images on the server and want to upload "
 "them again."
 msgstr ""
+"<b>بازنشانی حالت همگام‌سازی</b> - همگام‌سازی بعدی همه تصاویر را دوباره "
+"بارگذاری خواهد کرد. این ممکن است زمانی مفید باشد که تصاویر را در سرور حذف "
+"کرده‌اید و می‌خواهید دوباره آنها را بارگذاری کنید."
 
 msgctxt "license:source:android-in-app"
 msgid "In-app"
@@ -4897,10 +6391,12 @@ msgctxt "license:business"
 msgid "Business"
 msgstr "تجارت"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:dialog:title"
 msgid "Reassign Device License"
-msgstr ""
+msgstr "تخصیص مجدد مجوز دستگاه"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:dialog:description"
 msgid ""
 "License cannot be activated for this device because the license is already "
@@ -4908,23 +6404,32 @@ msgid ""
 "However, you may still revoke the license of another device.\n"
 "Which device license do you want to replace with this device?"
 msgstr ""
+"مجوز برای این دستگاه قابل فعال‌سازی نیست زیرا مجوز قبلاً توسط حداکثر تعداد "
+"دستگاه‌ها استفاده شده است.\n"
+"با این حال، شما هنوز می‌توانید مجوز دستگاه دیگری را باطل کنید.\n"
+"کدام مجوز دستگاه را می‌خواهید با این دستگاه جایگزین کنید؟"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:dialog:device-entry"
 msgid "{devicename} (last use: {lastuse}, id: {id}, license: …{key})"
-msgstr ""
+msgstr "{devicename} (آخرین استفاده: {lastuse}، شناسه: {id}، مجوز: ...{key})"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:dialog:revoke-counter"
 msgid "You have {remaining} revokes left (out of {max} for {period})"
-msgstr ""
+msgstr "شما {remaining} ابطال باقی‌مانده دارید (از {max} برای {period})"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:dialog:revoke-period-days"
 msgid "{} days"
-msgstr ""
+msgstr "{} روز"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:revoke-counter-info-message:title"
 msgid "Really revoke this device's license ?"
-msgstr ""
+msgstr "واقعاً مجوز این دستگاه را باطل می‌کنید؟"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:revoke-counter-info-message"
 msgid ""
 "Do you really want to revoke the license (ending with '…{code_end}') from "
@@ -4932,321 +6437,411 @@ msgid ""
 "You can only do this {max_revokes} times in {period_days} days.\n"
 "You can still use {num_revokes} revokes during the current time period."
 msgstr ""
+"آیا واقعاً می‌خواهید مجوز (که با '...{code_end}' ختم می‌شود) را از این دستگاه "
+"باطل کنید؟\n"
+"شما فقط می‌توانید این کار را {max_revokes} بار در {period_days} روز انجام "
+"دهید.\n"
+"شما هنوز می‌توانید از {num_revokes} ابطال در دوره زمانی فعلی استفاده کنید."
 
+#, fuzzy
 msgctxt "licensing:revoke-device:success-message:title"
 msgid "Device license revokation"
-msgstr ""
+msgstr "ابطال مجوز دستگاه"
 
+#, fuzzy
 msgctxt "licensing:revoke-device:success-message:other-device"
 msgid ""
 "The license has been removed from this device. You may now use the license "
 "on another device."
 msgstr ""
+"مجوز از این دستگاه حذف شده است. اکنون می‌توانید از مجوز در دستگاه دیگری "
+"استفاده کنید."
 
+#, fuzzy
 msgctxt "licensing:revoke-device:success-message:this-device"
 msgid ""
 "The license has been removed from that device. You may now use the license "
 "on this device."
 msgstr ""
+"مجوز از آن دستگاه حذف شده است. اکنون می‌توانید از مجوز در این دستگاه استفاده "
+"کنید."
 
+#, fuzzy
 msgctxt "licensing:key-entry-dialog:title"
 msgid "License code"
-msgstr ""
+msgstr "کد مجوز"
 
+#, fuzzy
 msgctxt "licensing:key-entry-dialog:description"
 msgid "Please enter your license code:"
-msgstr ""
+msgstr "لطفاً کد مجوز خود را وارد کنید:"
 
+#, fuzzy
 msgctxt "licensing:key-entry-dialog:send-button"
 msgid "Activate"
-msgstr ""
+msgstr "فعال‌سازی"
 
+#, fuzzy
 msgctxt "missing-addon:may-start-application"
 msgid "Cannot start application."
-msgstr ""
+msgstr "برنامه شروع نمی‌شود."
 
+#, fuzzy
 msgctxt "missing-addon:unlimited-gelements"
 msgid "Maximum number of drawing elements exceeded."
-msgstr ""
+msgstr "از حداکثر تعداد عناصر ترسیم فراتر رفته است."
 
+#, fuzzy
 msgctxt "missing-addon:unlimited-bluetooth-range"
 msgid "Maximum Bluetooth distance exceeded."
-msgstr ""
+msgstr "از حداکثر فاصله بلوتوث فراتر رفته است."
 
+#, fuzzy
 msgctxt "missing-addon:copy-bluetooth-to-clipboard"
 msgid "Cannot copy Bluetooth measurement to clipboard."
-msgstr ""
+msgstr "اندازه‌گیری بلوتوث در کلیپ‌بورد کپی نمی‌شود."
 
+#, fuzzy
 msgctxt "missing-addon:subfolders"
 msgid "Cannot create subfolder."
-msgstr ""
+msgstr "زیرپوشه ایجاد نمی‌شود."
 
+#, fuzzy
 msgctxt "missing-addon:audio-notes"
 msgid "Cannot create audio note."
-msgstr ""
+msgstr "یادداشت صوتی ایجاد نمی‌شود."
 
+#, fuzzy
 msgctxt "missing-addon:detail-pictures"
 msgid "Cannot add detail picture."
-msgstr ""
+msgstr "تصویر جزئیات اضافه نمی‌شود."
 
+#, fuzzy
 msgctxt "missing-addon:perspective-line"
 msgid "Cannot add perspective line measurement."
-msgstr ""
+msgstr "اندازه‌گیری خط پرسپکتیو اضافه نمی‌شود."
 
+#, fuzzy
 msgctxt "missing-addon:rectangle"
 msgid "Cannot add rectangle."
-msgstr ""
+msgstr "مستطیل اضافه نمی‌شود."
 
+#, fuzzy
 msgctxt "missing-addon:circle"
 msgid "Cannot add circle."
-msgstr ""
+msgstr "دایره اضافه نمی‌شود."
 
+#, fuzzy
 msgctxt "missing-addon:measurement-point"
 msgid "Cannot add measurement point."
-msgstr ""
+msgstr "نقطه اندازه‌گیری اضافه نمی‌شود."
 
+#, fuzzy
 msgctxt "missing-addon:dimstring"
 msgid "Cannot add dimension string."
-msgstr ""
+msgstr "رشته ابعاد اضافه نمی‌شود."
 
+#, fuzzy
 msgctxt "missing-addon:counter"
 msgid "Cannot add counter."
-msgstr ""
+msgstr "شمارنده اضافه نمی‌شود."
 
 msgctxt "missing-addon:pdf-import"
-msgid "Cannot import PDF"
+msgid "Cannot import PDF."
 msgstr ""
 
+#, fuzzy
 msgctxt "missing-addon:data-table-export"
 msgid "Cannot use data tables."
-msgstr ""
+msgstr "نمی‌توان از جداول داده استفاده کرد."
 
+#, fuzzy
 msgctxt "missing-addon:cloud-sync-annoimage"
 msgid "Cannot use cloud sync (image upload)."
-msgstr ""
+msgstr "نمی‌توان از همگام‌سازی ابری (بارگذاری تصویر) استفاده کرد."
 
+#, fuzzy
 msgctxt "missing-addon:cloud-sync-twoway"
 msgid "Cannot use cloud sync (twoway sync)."
-msgstr ""
+msgstr "نمی‌توان از همگام‌سازی ابری (همگام‌سازی دوطرفه) استفاده کرد."
 
+#, fuzzy
 msgctxt "missing-addon:clipboard"
 msgid "Cannot use the clipboard."
-msgstr ""
+msgstr "نمی‌توان از کلیپ‌بورد استفاده کرد."
 
+#, fuzzy
 msgctxt "missing-addon:custom-color-palette"
 msgid "Cannot use a custom color palette."
-msgstr ""
+msgstr "نمی‌توان از پالت رنگ سفارشی استفاده کرد."
 
+#, fuzzy
 msgctxt "missing-addon:export-dxf"
 msgid "Cannot export to DXF."
-msgstr ""
+msgstr "به DXF صادر نمی‌شود."
 
 msgctxt "missing-addon:company-logo"
-msgid "Cannot export with company logo"
+msgid "Cannot export with company logo."
 msgstr ""
 
+msgctxt "missing-addon:layers"
+msgid "Cannot add layers."
+msgstr ""
+
+#, fuzzy
 msgctxt "unavailable-license-reason:expired"
 msgid "Your license has expired."
-msgstr ""
+msgstr "مجوز شما منقضی شده است."
 
+#, fuzzy
 msgctxt "unavailable-license-reason:upgrade-needed"
 msgid "This is not supported with your license."
-msgstr ""
+msgstr "این با مجوز شما پشتیبانی نمی‌شود."
 
+#, fuzzy
 msgctxt "licensing-error:dialog:title"
 msgid "License error"
-msgstr ""
+msgstr "خطای مجوز"
 
+#, fuzzy
 msgctxt "licensing:subscription:renew-button"
 msgid "Renew"
-msgstr ""
+msgstr "تمدید"
 
+#, fuzzy
 msgctxt "licensing:select-upgrade-button"
 msgid "Upgrade"
-msgstr ""
+msgstr "ارتقا"
 
+#, fuzzy
 msgctxt "license:name:desktop:trial"
 msgid "Trial"
-msgstr ""
+msgstr "آزمایشی"
 
+#, fuzzy
 msgctxt "license:name:desktop:betatest"
 msgid "Beta test"
-msgstr ""
+msgstr "تست بتا"
 
+#, fuzzy
 msgctxt "license:name:business"
 msgid "Business"
-msgstr ""
+msgstr "تجاری"
 
+#, fuzzy
 msgctxt "license:name:pro"
 msgid "Pro"
-msgstr ""
+msgstr "حرفه‌ای"
 
+#, fuzzy
 msgctxt "license:name:basic"
 msgid "Basic"
-msgstr ""
+msgstr "پایه"
 
+#, fuzzy
 msgctxt "license:name:android-free(long)"
 msgid "Free evaluation"
-msgstr ""
+msgstr "ارزیابی رایگان"
 
+#, fuzzy
 msgctxt "license:name:android-advanced-annotation"
 msgid "Advanced-Annotation AddOn"
-msgstr ""
+msgstr "افزونه حاشیه‌نویسی پیشرفته"
 
+#, fuzzy
 msgctxt "license:name:android-advanced-annotation-with-pro"
 msgid "Advanced-Annotation AddOn (with Pro)"
-msgstr ""
+msgstr "افزونه حاشیه‌نویسی پیشرفته (با Pro)"
 
+#, fuzzy
 msgctxt "license:feature-requires-higher-license"
 msgid "This function is included in the '{}' license."
-msgstr ""
+msgstr "این عملکرد در مجوز '{}' گنجانده شده است."
 
+#, fuzzy
 msgctxt "license:info:license"
 msgid "License:"
-msgstr ""
+msgstr "مجوز:"
 
+#, fuzzy
 msgctxt "license:info:purchase-type"
 msgid "Purchase type:"
-msgstr ""
+msgstr "نوع خرید:"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:one-time-purchase"
 msgid "one-time purchase"
-msgstr ""
+msgstr "خرید یک‌باره"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:subscription"
 msgid "subscription"
-msgstr ""
+msgstr "اشتراک"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:manual"
 msgid "manual activation"
-msgstr ""
+msgstr "فعال‌سازی دستی"
 
+#, fuzzy
 msgctxt "license:info:purchase-type:trial"
 msgid "trial"
-msgstr ""
+msgstr "آزمایشی"
 
+#, fuzzy
 msgctxt "license:info:status"
 msgid "Status:"
-msgstr ""
+msgstr "وضعیت:"
 
+#, fuzzy
 msgctxt "license:info:status:active"
 msgid "active"
-msgstr ""
+msgstr "فعال"
 
+#, fuzzy
 msgctxt "license:info:status:trial-expired"
 msgid "trial has expired"
-msgstr ""
+msgstr "آزمایشی منقضی شده است"
 
+#, fuzzy
 msgctxt "license:info:status:product-expired"
 msgid "license has expired"
-msgstr ""
+msgstr "مجوز منقضی شده است"
 
+#, fuzzy
 msgctxt "license:info:status:incompatible"
 msgid "software version is incompatible"
-msgstr ""
+msgstr "نسخه نرم‌افزار ناسازگار است"
 
+#, fuzzy
 msgctxt "license:info:status:deactivated"
 msgid "product was deactivated"
-msgstr ""
+msgstr "محصول غیرفعال شد"
 
+#, fuzzy
 msgctxt "license:info:purchase-date"
 msgid "Purchase date:"
-msgstr ""
+msgstr "تاریخ خرید:"
 
+#, fuzzy
 msgctxt "license:info:trial-activation-date"
 msgid "Activation date:"
-msgstr ""
+msgstr "تاریخ فعال‌سازی:"
 
+#, fuzzy
 msgctxt "license:info:expiration-date"
 msgid "Expiration date:"
-msgstr ""
+msgstr "تاریخ انقضا:"
 
+#, fuzzy
 msgctxt "license:info:next-billing-date"
 msgid "Next billing date:"
-msgstr ""
+msgstr "تاریخ صورت‌حساب بعدی:"
 
+#, fuzzy
 msgctxt "license:info:billing-period"
 msgid "Billing period:"
-msgstr ""
+msgstr "دوره صورت‌حساب:"
 
+#, fuzzy
 msgctxt "license:info:billing-period:monthly"
 msgid "monthly"
-msgstr ""
+msgstr "ماهانه"
 
+#, fuzzy
 msgctxt "license:info:billing-period:annual"
 msgid "annual"
-msgstr ""
+msgstr "سالانه"
 
+#, fuzzy
 msgctxt "license:info:billing-period:undefined"
 msgid "custom"
-msgstr ""
+msgstr "سفارشی"
 
+#, fuzzy
 msgctxt "license:info:num-assigned-licenses"
 msgid "Assigned licenses:"
-msgstr ""
+msgstr "مجوزهای تخصیص‌یافته:"
 
+#, fuzzy
 msgctxt "license:info:num-assigned-licenses:num-of-total"
 msgid "{num} of {total}"
-msgstr ""
+msgstr "{num} از {total}"
 
+#, fuzzy
 msgctxt "license:info:last-compatible-version"
 msgid "Last compatible version:"
-msgstr ""
+msgstr "آخرین نسخه سازگار:"
 
+#, fuzzy
 msgctxt "license:info:license-user"
 msgid "User name:"
-msgstr ""
+msgstr "نام کاربری:"
 
+#, fuzzy
 msgctxt "license:info:license-email"
 msgid "User email:"
-msgstr ""
+msgstr "ایمیل کاربر:"
 
+#, fuzzy
 msgctxt "license-dialog:title"
 msgid "License"
-msgstr ""
+msgstr "مجوز"
 
+#, fuzzy
 msgctxt "license-dialog:enter-key"
 msgid "Enter key:"
-msgstr ""
+msgstr "وارد کردن کلید:"
 
+#, fuzzy
 msgctxt "license-dialog:send-key"
 msgid "Send"
-msgstr ""
+msgstr "ارسال"
 
+#, fuzzy
 msgctxt "license-dialog:start-trial"
 msgid "Start free trial"
-msgstr ""
+msgstr "شروع دوره آزمایشی رایگان"
 
+#, fuzzy
 msgctxt "license-dialog:error"
 msgid "Error:"
-msgstr ""
+msgstr "خطا:"
 
+#, fuzzy
 msgctxt "license-dialog:active-license"
 msgid "Active license"
-msgstr ""
+msgstr "مجوز فعال"
 
+#, fuzzy
 msgctxt "license-dialog:revoke-license"
 msgid "Revoke"
-msgstr ""
+msgstr "ابطال"
 
+#, fuzzy
 msgctxt "license-dialog:get-license-url"
 msgid ""
 "If you don't have a license key yet, you can get a license from the "
 "ImageMeter web page: <a href=\"https://imagemeter.com/\">https://imagemeter."
 "com</a>."
 msgstr ""
+"اگر هنوز کلید مجوز ندارید، می‌توانید از صفحه وب ImageMeter مجوز دریافت کنید: "
+"<a href=\"https://imagemeter.com/\">https://imagemeter.com</a>."
 
+#, fuzzy
 msgctxt "license:check-key-server-response:window-title"
 msgid "Licence activation"
-msgstr ""
+msgstr "فعال‌سازی مجوز"
 
+#, fuzzy
 msgctxt "license:check-key-server-response:license-has-been-activated"
 msgid "License has been successfully activated on this device."
-msgstr ""
+msgstr "مجوز با موفقیت در این دستگاه فعال شد."
 
+#, fuzzy
 msgctxt "license:check-key-server-response:error:invalid-key-entered"
 msgid "Invalid key, please check for typing mistakes."
-msgstr ""
+msgstr "کلید نامعتبر است، لطفاً اشتباهات تایپی را بررسی کنید."
 
 #, fuzzy
 msgctxt "entity-initialization:image-title:camera"
@@ -5262,38 +6857,46 @@ msgctxt "entity-initialization:image-title:pdf-page-without-name"
 msgid "PDF import, page {page}"
 msgstr "وارد کردن PDF ، صفحه {page}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:import-with-name"
 msgid "{filename.stem}"
-msgstr ""
+msgstr "{filename.stem}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:import-without-name"
 msgid "imported {now}"
-msgstr ""
+msgstr "وارد شده در {now}"
 
+#, fuzzy
 msgctxt "entity-initialization:image-title:canvas"
 msgid "new canvas"
-msgstr ""
+msgstr "بوم جدید"
 
+#, fuzzy
 msgctxt "entity-initialization:folder-title"
 msgid "new folder"
-msgstr ""
+msgstr "پوشه جدید"
 
 msgctxt "feedback-email"
 msgid "info@imagemeter.com"
 msgstr "info@imagemeter.com"
 
+#, fuzzy
 msgctxt "log-archive:duration:1-day"
 msgid "One day"
-msgstr ""
+msgstr "یک روز"
 
+#, fuzzy
 msgctxt "log-archive:duration:2-days"
 msgid "Two days"
-msgstr ""
+msgstr "دو روز"
 
+#, fuzzy
 msgctxt "log-archive:duration:3-days"
 msgid "Three days"
-msgstr ""
+msgstr "سه روز"
 
+#, fuzzy
 msgctxt "stringscript:help:introtext"
 msgid ""
 "Enter the text that should appear here. You can add variables enclosed by "
@@ -5309,268 +6912,442 @@ msgid ""
 "You can build complex expressions like this:\n"
 "{folder.title} / {image.number} - {image.title}"
 msgstr ""
+"متنی را که باید اینجا نمایش داده شود وارد کنید. می‌توانید متغیرهایی را که با "
+"{} محصور شده‌اند اضافه کنید که جایگزین خواهند شد.\n"
+"\n"
+"در اینجا چند متغیر نمونه آورده شده است، اما برای لیست متغیرهایی که واقعاً در "
+"اینجا مجاز هستند، به زیر مراجعه کنید:\n"
+"{image.title} - عنوان تصویر\n"
+"{image.number} - شماره‌ای که به تصویر اختصاص داده‌اید\n"
+"{folder.title} - عنوان پوشه فعلی\n"
+"{folder.parent.title} - عنوان پوشه والد\n"
+"\n"
+"می‌توانید عبارات پیچیده‌ای مانند این بسازید:\n"
+"{folder.title} / {image.number} - {image.title}"
 
+#, fuzzy
 msgctxt "stringscript:help:intro_toplevel_variables"
 msgid "Allowed top level variables:"
-msgstr ""
+msgstr "متغیرهای سطح بالای مجاز:"
 
+#, fuzzy
 msgctxt "stringscript:help:intro_subelements"
 msgid ""
 "Each type may have sub-elements. Here is the list of sub-elements for each "
 "data type:"
 msgstr ""
+"هر نوع ممکن است دارای عناصر فرعی باشد. در اینجا لیست عناصر فرعی برای هر نوع "
+"داده آمده است:"
 
+#, fuzzy
 msgctxt "stringscript:root:member:image"
 msgid "This image."
-msgstr ""
+msgstr "این تصویر."
 
+#, fuzzy
 msgctxt "stringscript:root:member:folder"
 msgid "Current folder."
-msgstr ""
+msgstr "پوشه فعلی."
 
+#, fuzzy
 msgctxt "stringscript:root:member:date"
 msgid "The current date and time"
-msgstr ""
+msgstr "تاریخ و زمان فعلی"
 
+#, fuzzy
 msgctxt "stringscript:root:member:import_image_filename"
 msgid "Filename of the imported image."
-msgstr ""
+msgstr "نام فایل تصویر وارد شده."
 
+#, fuzzy
 msgctxt "stringscript:root:member:import_image_exif"
 msgid "EXIF metdata of the imported image."
-msgstr ""
+msgstr "فراداده EXIF تصویر وارد شده."
 
+#, fuzzy
 msgctxt "stringscript:root:member:import_pdf_filename"
 msgid "Filename of the imported PDF."
-msgstr ""
+msgstr "نام فایل PDF وارد شده."
 
+#, fuzzy
 msgctxt "stringscript:root:member:imported_pdf_page"
 msgid "Imported PDF page."
-msgstr ""
+msgstr "صفحه PDF وارد شده."
 
+#, fuzzy
 msgctxt "stringscript:root:member:pdf-image-folder"
 msgid "Folder of each image."
-msgstr ""
+msgstr "پوشه هر تصویر."
 
+#, fuzzy
 msgctxt "scriptobject:undefined:value"
 msgid "undefined"
-msgstr ""
+msgstr "تعریف نشده"
 
+#, fuzzy
 msgctxt "scriptobject:undefined:type"
 msgid "undefined"
-msgstr ""
+msgstr "تعریف نشده"
 
+#, fuzzy
 msgctxt "scriptobject:string:type"
 msgid "string"
-msgstr ""
+msgstr "رشته"
 
+#, fuzzy
 msgctxt "scriptobject:float:type"
 msgid "number"
-msgstr ""
+msgstr "عدد"
 
+#, fuzzy
 msgctxt "scriptobject:integer:type"
 msgid "integer number"
-msgstr ""
+msgstr "عدد صحیح"
 
+#, fuzzy
 msgctxt "scriptobject:integer:description"
 msgid "An integer number"
-msgstr ""
+msgstr "یک عدد صحیح"
 
+#, fuzzy
 msgctxt "scriptobject:integer:member:2"
 msgid "Format as 2-digit number"
-msgstr ""
+msgstr "فرمت به عنوان عدد ۲ رقمی"
 
+#, fuzzy
 msgctxt "scriptobject:integer:member:3"
 msgid "Format as 3-digit number"
-msgstr ""
+msgstr "فرمت به عنوان عدد ۳ رقمی"
 
+#, fuzzy
 msgctxt "scriptobject:integer:member:4"
 msgid "Format as 4-digit number"
-msgstr ""
+msgstr "فرمت به عنوان عدد ۴ رقمی"
 
+#, fuzzy
 msgctxt "scriptobject:keyvaluepairs:type"
 msgid "collection"
-msgstr ""
+msgstr "مجموعه"
 
+#, fuzzy
 msgctxt "scriptobject:keyvaluepairs:description"
 msgid "A collection of other objects"
-msgstr ""
+msgstr "مجموعه‌ای از اشیاء دیگر"
 
+#, fuzzy
 msgctxt "scriptobject:databundle:type"
 msgid "image"
-msgstr ""
+msgstr "تصویر"
 
+#, fuzzy
 msgctxt "scriptobject:databundle:description"
 msgid "Information about an image"
-msgstr ""
+msgstr "اطلاعات درباره یک تصویر"
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:title"
 msgid "The image title."
-msgstr ""
+msgstr "عنوان تصویر."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:parent"
 msgid "The folder this image is located in."
-msgstr ""
+msgstr "پوشه‌ای که این تصویر در آن قرار دارد."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:number"
 msgid "The user-assigned number."
-msgstr ""
+msgstr "شماره تخصیص داده شده توسط کاربر."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:capture_date"
 msgid "The date at which this image was captured."
-msgstr ""
+msgstr "تاریخی که این تصویر ثبت شده است."
 
+#, fuzzy
 msgctxt "scriptobject:databundle:member:exif"
 msgid "EXIF data of this image."
-msgstr ""
+msgstr "داده EXIF این تصویر."
 
+#, fuzzy
+msgctxt "scriptobject:databundle:member:address"
+msgid "Address where this image was captured."
+msgstr "آدرسی که این تصویر در آن ثبت شده است."
+
+#, fuzzy
 msgctxt "scriptobject:folder:type"
 msgid "folder"
-msgstr ""
+msgstr "پوشه"
 
+#, fuzzy
 msgctxt "scriptobject:folder:description"
 msgid "Information about a folder"
-msgstr ""
+msgstr "اطلاعات درباره یک پوشه"
 
+#, fuzzy
 msgctxt "scriptobject:folder:member:title"
 msgid "Folder title."
-msgstr ""
+msgstr "عنوان پوشه."
 
+#, fuzzy
 msgctxt "scriptobject:folder:member:parent"
 msgid "The folder above this one."
-msgstr ""
+msgstr "پوشه بالای این یکی."
 
+#, fuzzy
 msgctxt "scriptobject:folder:member:number"
 msgid "The user-assigned number."
-msgstr ""
+msgstr "شماره تخصیص داده شده توسط کاربر."
 
+#, fuzzy
 msgctxt "scriptobject:date:type"
 msgid "date"
-msgstr ""
+msgstr "تاریخ"
 
+#, fuzzy
 msgctxt "scriptobject:date:description"
 msgid "Date and time"
-msgstr ""
+msgstr "تاریخ و زمان"
 
+#, fuzzy
 msgctxt "scriptobject:date:member:yyyy"
 msgid "Year (4 digits)."
-msgstr ""
+msgstr "سال (۴ رقم)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:yy"
 msgid "Year (last 2 digits)."
-msgstr ""
+msgstr "سال (۲ رقم آخر)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:m"
 msgid "Month number."
-msgstr ""
+msgstr "شماره ماه."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:mm"
 msgid "Month number (2 digits)."
-msgstr ""
+msgstr "شماره ماه (۲ رقم)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:M"
 msgid "Month (name abbreviation)."
-msgstr ""
+msgstr "ماه (مخفف نام)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:MM"
 msgid "Month (full name)."
-msgstr ""
+msgstr "ماه (نام کامل)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:d"
 msgid "Day of month."
-msgstr ""
+msgstr "روز ماه."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:dd"
 msgid "Day of month (2 digits)."
-msgstr ""
+msgstr "روز ماه (۲ رقم)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:h"
 msgid "Hour."
-msgstr ""
+msgstr "ساعت."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:hh"
 msgid "Hour (2 digits)."
-msgstr ""
+msgstr "ساعت (۲ رقم)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:h12"
 msgid "Hour (12 hours + am/pm)."
-msgstr ""
+msgstr "ساعت (۱۲ ساعته + ق.ظ/ب.ظ)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:min"
 msgid "Minutes (2 digits)."
-msgstr ""
+msgstr "دقیقه (۲ رقم)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:sec"
 msgid "Seconds (2 digits)."
-msgstr ""
+msgstr "ثانیه (۲ رقم)."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:time"
 msgid "Full time in HH:MM:SS format."
-msgstr ""
+msgstr "زمان کامل در فرمت HH:MM:SS."
 
+#, fuzzy
 msgctxt "scriptobject:date:member:hhmm"
 msgid "Time in HH:MM format."
-msgstr ""
+msgstr "زمان در فرمت HH:MM."
 
+#, fuzzy
 msgctxt "scriptobject:filename:type"
 msgid "filename"
-msgstr ""
+msgstr "نام فایل"
 
+#, fuzzy
 msgctxt "scriptobject:filename:description"
 msgid "A filename"
-msgstr ""
+msgstr "یک نام فایل"
 
+#, fuzzy
 msgctxt "scriptobject:filename:member:stem"
 msgid "The filename without suffix."
-msgstr ""
+msgstr "نام فایل بدون پسوند."
 
+#, fuzzy
 msgctxt "scriptobject:filename:member:suffix"
 msgid "The filanme suffix."
-msgstr ""
+msgstr "پسوند فایل."
 
+#, fuzzy
 msgctxt "scriptobject:exif:type"
 msgid "exif"
-msgstr ""
+msgstr "exif"
 
+#, fuzzy
 msgctxt "scriptobject:exif:description"
 msgid "EXIF metadata from the image"
-msgstr ""
+msgstr "فراداده EXIF از تصویر"
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:gps"
 msgid "GPS location."
-msgstr ""
+msgstr "مکان GPS."
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:date"
 msgid "Date the image was captured."
-msgstr ""
+msgstr "تاریخی که تصویر ثبت شده است."
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:make"
 msgid "Camera manufacturer."
-msgstr ""
+msgstr "سازنده دوربین."
 
+#, fuzzy
 msgctxt "scriptobject:exif:member:model"
 msgid "Camera model."
-msgstr ""
+msgstr "مدل دوربین."
 
+#, fuzzy
 msgctxt "scriptobject:gps:type"
 msgid "gps"
-msgstr ""
+msgstr "gps"
 
+#, fuzzy
 msgctxt "scriptobject:gps:description"
 msgid "GPS location"
-msgstr ""
+msgstr "مکان GPS"
 
+#, fuzzy
 msgctxt "scriptobject:gps:member:latitude"
 msgid "Latitude (N/S)."
-msgstr ""
+msgstr "عرض جغرافیایی (شمالی/جنوبی)."
 
+#, fuzzy
 msgctxt "scriptobject:gps:member:longitude"
 msgid "Longitude (E/W)."
-msgstr ""
+msgstr "طول جغرافیایی (شرقی/غربی)."
 
+#, fuzzy
 msgctxt "scriptobject:gps:member:altitude"
 msgid "Altitude."
-msgstr ""
+msgstr "ارتفاع."
+
+#, fuzzy
+msgctxt "scriptobject:gps:member:decimal"
+msgid "Coordinates as decimal angles."
+msgstr "مختصات به عنوان زوایای اعشاری."
+
+#, fuzzy
+msgctxt "scriptobject:gps-angle:type"
+msgid "gps-angle"
+msgstr "زاویه-gps"
+
+#, fuzzy
+msgctxt "scriptobject:gps-angle:description"
+msgid "GPS location angle"
+msgstr "زاویه مکان GPS"
+
+#, fuzzy
+msgctxt "scriptobject:gps-angle:member:decimal"
+msgid "Angle formatted as decimal value."
+msgstr "زاویه با فرمت مقدار اعشاری."
+
+#, fuzzy
+msgctxt "scriptobject:address:type"
+msgid "address"
+msgstr "آدرس"
+
+#, fuzzy
+msgctxt "scriptobject:address:description"
+msgid "Location address"
+msgstr "آدرس مکان"
+
+#, fuzzy
+msgctxt "scriptobject:address:member:line"
+msgid "Address in a single line."
+msgstr "آدرس در یک خط."
+
+#, fuzzy
+msgctxt "scriptobject:address:member:block"
+msgid "Address as multiple lines."
+msgstr "آدرس به صورت چند خطی."
+
+#, fuzzy
+msgctxt "scriptobject:address:member:country"
+msgid "Country."
+msgstr "کشور."
+
+#, fuzzy
+msgctxt "scriptobject:address:member:country_code"
+msgid "Country abbreviation."
+msgstr "مخفف کشور."
+
+#, fuzzy
+msgctxt "scriptobject:address:member:admin_area"
+msgid "Administrative area name."
+msgstr "نام منطقه اداری."
+
+#, fuzzy
+msgctxt "scriptobject:address:member:sub_admin_area"
+msgid "Sub-administrative area name."
+msgstr "نام منطقه زیراداری."
+
+#, fuzzy
+msgctxt "scriptobject:address:member:feature_name"
+msgid "Feature name of the address, for example, \"Golden Gate Bridge\"."
+msgstr "نام ویژگی آدرس، به عنوان مثال، \"پل گلدن گیت\"."
+
+#, fuzzy
+msgctxt "scriptobject:address:member:locality"
+msgid "Locality of the address, often the city name."
+msgstr "محل آدرس، اغلب نام شهر."
+
+#, fuzzy
+msgctxt "scriptobject:address:member:postal_code"
+msgid "Postal code."
+msgstr "کد پستی."
+
+#, fuzzy
+msgctxt "scriptobject:address:member:premises"
+msgid "Premises."
+msgstr "محل."
+
+#, fuzzy
+msgctxt "scriptobject:address:member:thoroughfare"
+msgid "Usually the street name."
+msgstr "معمولاً نام خیابان."
+
+#, fuzzy
+msgctxt "scriptobject:address:member:sub_thoroughfare"
+msgid "Usually the street number."
+msgstr "معمولاً شماره خیابان."
 
 msgctxt "editor:warning:element:value-is-locked"
 msgid "Value is locked. You have to unlock it first."
@@ -5620,9 +7397,10 @@ msgctxt "lock:delete-image"
 msgid "deleting image"
 msgstr "حذف کردن عکس"
 
+#, fuzzy
 msgctxt "lock:delete-entity"
 msgid "deleting entity"
-msgstr ""
+msgstr "حذف موجودیت"
 
 msgctxt "lock:dialog-image-name"
 msgid "image renaming dialog"
@@ -5636,10 +7414,12 @@ msgctxt "lock:set-library-root"
 msgid "setting image library root"
 msgstr "تنظیم ریشه کتابخانه عکس"
 
+#, fuzzy
 msgctxt "lock:undelete-entity"
 msgid "undeleting entity"
-msgstr ""
+msgstr "بازگردانی موجودیت"
 
+#, fuzzy
 msgctxt "android:permission-request:post-notifications:rationale"
 msgid ""
 "<h2>Notification Permission Request</h2>\n"
@@ -5659,6 +7439,32 @@ msgid ""
 "Android app settings.\n"
 "    </p>"
 msgstr ""
+"<h2>درخواست مجوز اعلان</h2>\n"
+"    <p>\n"
+"      ImageMeter از شما برای نمایش اعلان‌ها اجازه خواهد خواست.\n"
+"      این‌ها برای نمایش موارد زیر استفاده خواهند شد:\n"
+"    </p>\n"
+"    <ul>\n"
+"      <li>پیشرفت همگام‌سازی ابری در پس‌زمینه و امکان لغو آن،</li>\n"
+"      <li>وضعیت اتصال بلوتوث به لیزرها،</li>\n"
+"      <li>پیشرفت عملیات طولانی صدور یا وارد کردن که در پس‌زمینه اجرا می‌شوند،</"
+"li>\n"
+"      <li>خطاهای پردازش در پس‌زمینه.</li>\n"
+"    </ul>\n"
+"    <p>\n"
+"      شما می‌توانید هر یک از کانال‌های اعلان را به طور مستقل در تنظیمات برنامه "
+"اندروید غیرفعال کنید.\n"
+"    </p>"
+
+#, fuzzy
+#~ msgctxt "missing-addon:pdf-import"
+#~ msgid "Cannot import PDF"
+#~ msgstr "PDF وارد نمی‌شود"
+
+#, fuzzy
+#~ msgctxt "missing-addon:company-logo"
+#~ msgid "Cannot export with company logo"
+#~ msgstr "با لوگوی شرکت صادر نمی‌شود"
 
 #, fuzzy
 #~ msgctxt "error:HTTP-error-500"

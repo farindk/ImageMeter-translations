@@ -18,6 +18,18 @@ msgid "Cannot find 'explorer.exe' in path to launch Windows Explorer."
 msgstr ""
 "Kan 'explorer.exe' niet vinden in het pad om Windows Verkenner te starten."
 
+msgctxt "pc:save-as-default:confirmation-dialog:title"
+msgid "Confirm Saving as Default"
+msgstr ""
+
+msgctxt "pc:save-as-default:confirmation-dialog:text:company-logo"
+msgid "Are you sure to save these company logo settings as the default?"
+msgstr ""
+
+msgctxt "pc:save-as-default:confirmation-dialog:text:overlay-text"
+msgid "Are you sure to save these overlay text settings as the default?"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:setup-wizard:dialog-title"
 msgid "ImageMeter Setup"
@@ -169,15 +181,22 @@ msgctxt "pc:mainwindow:menu:file:open-image-from-system-clipboard"
 msgid "Open image from system clipboard"
 msgstr "Open de afbeelding van het systeemklembord"
 
+msgctxt "pc:mainwindow:menu:file:store-image-in-system-clipboard"
+msgid "Store image in system clipboard"
+msgstr "Afbeelding naar klembord"
+
+msgctxt "pc:clipboard:store-needs-saved-image"
+msgid "Please save the image before storing it in the clipboard"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:menu:file:import-to-library"
 msgid "Import to &library"
 msgstr "Importeren naar &bibliotheek"
 
-#, fuzzy
 msgctxt "pc:mainwindow:menu:file:save"
 msgid "&Save"
-msgstr "&Redden"
+msgstr "Op&slaan"
 
 #, fuzzy
 msgctxt "pc:mainwindow:menu:file:close-image-editor"
@@ -249,10 +268,9 @@ msgctxt "pc:mainwindow:menu:edit:paste"
 msgid "Paste"
 msgstr "Plakken"
 
-#, fuzzy
 msgctxt "pc:mainwindow:menu:edit:cut"
 msgid "Cut"
-msgstr "Snee"
+msgstr "Knippen"
 
 #, fuzzy
 msgctxt "pc:mainwindow:menu:edit:lock-element"
@@ -263,6 +281,14 @@ msgstr "Vergrendelingselement"
 msgctxt "pc:mainwindow:menu:edit:unlock-element"
 msgid "Unlock element"
 msgstr "Element ontgrendelen"
+
+msgctxt "pc:mainwindow:menu:edit:raise-element"
+msgid "Raise element"
+msgstr "Element omhoog"
+
+msgctxt "pc:mainwindow:menu:edit:lower-element"
+msgid "Lower element"
+msgstr "Element omlaag"
 
 #, fuzzy
 msgctxt "pc:mainwindow:menu:edit:element-to-front"
@@ -359,6 +385,10 @@ msgctxt "pc:mainwindow:menu:image:image-settings"
 msgid "Image &settings..."
 msgstr "Afbeelding &instellingen..."
 
+msgctxt "pc:mainwindow:menu:image:overlay-settings"
+msgid "&Overlay settings..."
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:menu:image:element-locking"
 msgid "Element locking..."
@@ -379,20 +409,22 @@ msgctxt "pc:mainwindow:menu:image:capture-video-frame"
 msgid "Capture image"
 msgstr "Afbeelding vastleggen"
 
-#, fuzzy
 msgctxt "pc:mainwindow:menu:image:use-dimformat-from-settings"
-msgid "Use units from settings for all elements"
-msgstr "Gebruik eenheden uit instellingen voor alle elementen"
+msgid "Use default units for all elements"
+msgstr "Voorkeurs eenheid elementen"
 
 #, fuzzy
 msgctxt "pc:mainwindow:menu:image:calibrate-camera-from-image"
 msgid "Calibrate camera from image"
 msgstr "Kalibreer de camera van het beeld"
 
-#, fuzzy
+msgctxt "pc:mainwindow:menu:image:insert-new-image-layer"
+msgid "Insert image layer"
+msgstr ""
+
 msgctxt "pc:mainwindow:menu:windows"
 msgid "&Windows"
-msgstr "&Ramen"
+msgstr "&Venster"
 
 #, fuzzy
 msgctxt "pc:mainwindow:menu:windows:mdi-arrange-tiled"
@@ -419,6 +451,10 @@ msgctxt "pc:mainwindow:menu:help:about"
 msgid "&About..."
 msgstr "&Over..."
 
+msgctxt "pc:mainwindow:menu:help:whats-new"
+msgid "Whats &New..."
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:menu:help:feedback"
 msgid "&Feedback..."
@@ -429,10 +465,9 @@ msgctxt "pc:mainwindow:menu:help:run-setup-wizard"
 msgid "Run setup wizard..."
 msgstr "Installatiewizard uitvoeren..."
 
-#, fuzzy
 msgctxt "pc:mainwindow:dock:image-library:title"
 msgid "Image Library"
-msgstr "Beeldbank"
+msgstr "Beeldbibliotheek"
 
 #, fuzzy
 msgctxt "pc:mainwindow:dock:style:title"
@@ -444,6 +479,57 @@ msgctxt "pc:mainwindow:dock:label-style:title"
 msgid "Label Style"
 msgstr "Labelstijl"
 
+msgctxt "pc:mainwindow:dock:layers:title"
+msgid "Layers"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:header:name"
+msgid "Name"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:header:visible:tooltip"
+msgid "Layer is visible"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:header:opacity:tooltip"
+msgid "Layer opacity"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:header:master:tooltip"
+msgid "Master/original image"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:add-image-layer"
+msgid "Add image layer"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:add-annotation-layer"
+msgid "Add annotation layer"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:move-layer-up"
+msgid "Move layer up in stack"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:move-layer-down"
+msgid "Move layer down in stack"
+msgstr ""
+
+msgctxt "pc:mainwindow:dock:layers:button:delete-layer"
+msgid "Delete layer"
+msgstr ""
+
+msgctxt ""
+"pc:mainwindow:layers:delete-layer:annotation:confirmation-dialog:title"
+msgid "Delete layer containing elements"
+msgstr ""
+
+msgctxt "pc:mainwindow:layers:delete-layer:annotation:confirmation-dialog:text"
+msgid ""
+"This layer contains annotation elements. Do you want to delete the layer "
+"with all elements?"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:title"
 msgid "Basic editing"
@@ -451,25 +537,28 @@ msgstr "Basisbewerking"
 
 #, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:line-width"
-msgid "Line width:"
-msgstr "Lijnbreedte:"
+msgid "Line width"
+msgstr "Lijnbreedte"
 
 #, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:font-size"
-msgid "Font size:"
-msgstr "Lettertypegrootte:"
+msgid "Font size"
+msgstr "Lettertypegrootte"
 
+#, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:toggle-display:image"
 msgid "Toggle displaying the image."
-msgstr ""
+msgstr "De afbeelding weergeven of niet."
 
+#, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:toggle-display:references"
 msgid "Toggle displaying the references."
-msgstr ""
+msgstr "Het weergeven van de referenties in- of uitschakelen."
 
+#, fuzzy
 msgctxt "pc:mainwindow:toolbar:basic-editing:toggle-display:company-logo"
 msgid "Toggle displaying the company logo."
-msgstr ""
+msgstr "Het bedrijfslogo weergeven of niet."
 
 #, fuzzy
 msgctxt "pc:mainwindow:toolbar:image-editing:title"
@@ -485,6 +574,10 @@ msgstr "Contextuele bewerking"
 msgctxt "pc:mainwindow:toolbar:drawing-tools:title"
 msgid "Drawing tools"
 msgstr "Teken hulpmiddelen"
+
+msgctxt "pc:mainwindow:toolbar:bluetooth-control:title"
+msgid "Bluetooth control toolbar"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:error:cannot-rename-folder:in-use"
@@ -514,6 +607,18 @@ msgstr "Afbeeldingen met niet-opgeslagen wijzigingen zijn nog open."
 msgctxt "pc:mainwindow:quit-program:unsaved-changed:question"
 msgid "Do you want to save all changes?"
 msgstr "Wil je alle wijzigingen opslaan?"
+
+msgctxt "pc:layers:assign-to-element:dialog:title"
+msgid "Assign layer"
+msgstr ""
+
+msgctxt "pc:layers:assign-to-element:dialog:text"
+msgid "Move element to layer:"
+msgstr ""
+
+msgctxt "pc:layers:assign-to-element:tooltip"
+msgid "Move element to layer"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:image-library:button:new-folder:tooltip"
@@ -728,6 +833,10 @@ msgstr "PDF-pagina's importeren"
 msgctxt "pc:import:pdf:progress-dialog-message"
 msgid "Importing PDF pages ..."
 msgstr "PDF-pagina's importeren..."
+
+msgctxt "pc:import:pdf:page-number"
+msgid "page {page}"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:import:edit-images-after-opening:ask:dialog-title"
@@ -1431,6 +1540,14 @@ msgctxt "pc:prefs:section:bluetooth"
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
+msgctxt "pc:prefs:section:bluetooth:device"
+msgid "Device"
+msgstr ""
+
+msgctxt "pc:prefs:section:bluetooth:keyboard-device"
+msgid "Keyboard device"
+msgstr ""
+
 msgctxt "pc:prefs:section:bluetooth:clipboard"
 msgid "Clipboard"
 msgstr ""
@@ -1449,6 +1566,10 @@ msgstr "Styling"
 msgctxt "pc:prefs:section:editor:snapping"
 msgid "Snapping"
 msgstr "Snappen"
+
+msgctxt "pc:prefs:section:editor:behavior"
+msgid "Behavior"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:prefs:section:editor:drawing-tools"
@@ -1500,10 +1621,18 @@ msgctxt "pc:prefs:section:user-interface"
 msgid "User interface"
 msgstr "Gebruikersomgeving"
 
+msgctxt "pc:prefs:section:user-interface:shortcuts"
+msgid "Keyboard shortcuts"
+msgstr ""
+
 #, fuzzy
 msgctxt "pc:prefs:section:user-interface:initial-texts"
 msgid "Initial titles and notes"
 msgstr "Eerste titels en notities"
+
+msgctxt "pc:prefs:section:user-interface:miscellaneous"
+msgid "Miscellaneous"
+msgstr ""
 
 #, fuzzy
 msgctxt "pc:prefs:section:storage"

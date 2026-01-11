@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-05-08 20:29+0200\n"
+"POT-Creation-Date: 2025-10-29 17:45+0100\n"
 "PO-Revision-Date: 2022-02-11 12:49+0100\n"
 "Last-Translator: \n"
 "Language: fa\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=((((n == 0)) || ((n == 1))) ? 0 : 1)\n"
+"Plural-Forms: nplurals=2; plural=((((n == 0)) || ((n == 1))) ? 0 : 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.17.0\n"
 
 #. generic strings
 msgctxt "generic_button_ok"
@@ -256,10 +256,10 @@ msgctxt "navigationDrawer_user"
 msgid "User: %1$s"
 msgstr "کاربر: %1$s"
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "navigationDrawer_email"
 msgid "EMail: %1$s"
-msgstr ""
+msgstr "ایمیل: %1$s"
 
 #, c-format
 msgctxt "navigationDrawer_version"
@@ -340,13 +340,15 @@ msgctxt "imageLibrary_displayOptionsDialog_imageListStyle_grid_small"
 msgid "Small grid"
 msgstr "شبکه کوچک"
 
+#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_showDeletedImages_summary_on"
 msgid "Deleted images are shown greyed out"
-msgstr ""
+msgstr "تصاویر حذف شده به صورت کم‌رنگ نمایش داده می‌شوند"
 
+#, fuzzy
 msgctxt "imageLibrary_displayOptionsDialog_showDeletedImages_summary_off"
 msgid "Deleted images are hidden"
-msgstr ""
+msgstr "تصاویر حذف شده مخفی هستند"
 
 #. dialog: rename folder
 msgctxt "imageLibrary_folderNameDialog_name"
@@ -446,11 +448,14 @@ msgctxt "upgradeDialog_addonPrice_once"
 msgid "%1$s once"
 msgstr "%1$s یک بار"
 
+#, fuzzy
 msgctxt "upgradeDialog_addonPrice_once_terms"
 msgid ""
 "This upgrade is a one time payment. The upgrade stays active for your "
 "Google Play account indefinitely."
 msgstr ""
+"این ارتقاء یک پرداخت یک‌باره است. ارتقاء برای حساب Google Play شما برای "
+"همیشه فعال باقی می‌ماند."
 
 #, c-format
 msgctxt "upgradeDialog_addonPrice_monthly"
@@ -476,6 +481,12 @@ msgid ""
 "hours before your billing period ends. You can manage and cancel "
 "subscriptions any time in your Google Play account settings."
 msgstr ""
+"تا پایان دوره آزمایشی ۳۱ روزه شما، هزینه‌ای از شما کسر نخواهد شد. سپس "
+"اشتراک شما به طور خودکار برای یک دوره صورتحساب دیگر تمدید می‌شود. حساب "
+"Google Play شما برای تمدید ظرف ۲۴ ساعت قبل از پایان هر دوره صورتحساب شارژ"
+" خواهد شد. برای لغو، باید تمدید خودکار را حداقل ۲۴ ساعت قبل از پایان دوره"
+" صورتحساب خود خاموش کنید. شما می‌توانید هر زمان که بخواهید اشتراک‌ها را "
+"در تنظیمات حساب Google Play خود مدیریت و لغو کنید."
 
 msgctxt "upgradeDialog_purchaseButton_pro"
 msgid "Upgrade to Pro"
@@ -507,9 +518,10 @@ msgctxt "upgradeDialog_purchaseButton_disabled_addonIsActive"
 msgid "Add-on is active"
 msgstr "افزونه فعال است"
 
+#, fuzzy
 msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable_playStore"
 msgid "PlayStore unavailable"
-msgstr ""
+msgstr "فروشگاه Play در دسترس نیست"
 
 msgctxt "upgradeDialog_purchaseButton_disabled_storeUnavailable_appGallery"
 msgid "AppGallery unavailable"
@@ -519,29 +531,45 @@ msgctxt "upgradeDialog_volumeLicenseButton"
 msgid "Enter volume license code"
 msgstr "کد مجوز حجم را وارد کنید"
 
+#, fuzzy
 msgctxt "upgradeDialog_unsubscribe_button"
 msgid "Unsubscribe"
-msgstr ""
+msgstr "لغو اشتراک"
 
 msgctxt "upgradeDialog_backButton"
 msgid "Back"
 msgstr "بازگشت"
 
+#, fuzzy
 msgctxt "upgradeDialog_download_playstore_invoice"
 msgid ""
 "You can download an invoice from the &lt;a "
 "href=\"http://pay.google.com/\"&gt;Google Pay&lt;/a&gt; website."
 msgstr ""
+"شما می‌توانید فاکتور را از وب‌سایت <a "
+"href=\"http://pay.google.com/\">Google Pay</a> دانلود کنید."
 
+#, fuzzy
 msgctxt "upgradeDialog_moreInformationLink"
 msgid ""
 "For more information about these features, &lt;a "
 "href=\"https://www.imagemeter.com/manual/license/android-"
 "licenses\"&gt;visit the website&lt;/a&gt;."
 msgstr ""
-"برای کسب اطلاعات بیشتر در مورد این ویژگی ها ، &lt;a "
-"href=\"https://www.imagemeter.com/manual/license/android-licenses\"&gt;به"
-" وب سایت مراجعه کنید&lt;/a&gt;."
+"برای کسب اطلاعات بیشتر در مورد این ویژگی ها ، <a "
+"href=\"https://www.imagemeter.com/manual/license/android-licenses\">به وب"
+" سایت مراجعه کنید</a>."
+
+#, fuzzy
+msgctxt "upgradeDialog_noteUpgradesAreForAndroid"
+msgid ""
+"Note: These upgrades are valid on all Android devices that use your "
+"current Google account. However, the upgrades do not include the license "
+"for the Windows version of ImageMeter."
+msgstr ""
+"توجه: این ارتقاءها بر روی تمام دستگاه‌های اندرویدی که از حساب Google فعلی"
+" شما استفاده می‌کنند معتبر هستند. با این حال، ارتقاءها شامل مجوز نسخه "
+"ویندوز ImageMeter نمی‌شوند."
 
 msgctxt "upgradeDialog_addon_without_pro_title"
 msgid "Add-on without Pro upgrade?"
@@ -597,13 +625,15 @@ msgctxt "upgrade_addon_advancedAnnotation_addonName"
 msgid "Advanced Annotation"
 msgstr "حاشیه نویسی پیشرفته"
 
+#, fuzzy
 msgctxt "upgrade_addon_basic_to_pro_upgrade"
 msgid "Upgrade to Pro"
-msgstr ""
+msgstr "ارتقاء به حرفه ای"
 
+#, fuzzy
 msgctxt "upgrade_addon_basic_to_pro_BoxTitle"
 msgid "Upgrade to Pro"
-msgstr ""
+msgstr "ارتقاء به حرفه ای"
 
 msgctxt "upgrade_addon_pro_purchaseBoxTitle"
 msgid "Pro"
@@ -666,9 +696,10 @@ msgctxt "upgrade_item_measurement_string"
 msgid "Measurement strings"
 msgstr "رشته های اندازه گیری"
 
+#, fuzzy
 msgctxt "upgrade_item_custom_color_palette"
 msgid "Custom color palette"
-msgstr ""
+msgstr "پالت رنگ سفارشی"
 
 msgctxt "upgrade_item_pdf_import"
 msgid "PDF import"
@@ -679,11 +710,7 @@ msgctxt "upgrade_item_counter"
 msgid ""
 "&lt;a href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\"&gt;Counting "
 "tool&lt;/a&gt;"
-msgstr ""
-
-msgctxt "upgrade_item_cloud_access_from_office_pc"
-msgid "Access images from your office PC"
-msgstr "دسترسی به عکس ها از آفیس کامپیوتر شما"
+msgstr "<a href=\"https://www.youtube.com/watch?v=jBNa8TqToNY\">ابزار شمارش</a>"
 
 msgctxt "upgrade_item_cloud_device_sync"
 msgid "Sync images between devices"
@@ -693,9 +720,10 @@ msgctxt "upgrade_item_cloud_backup"
 msgid "Backup on your cloud storage"
 msgstr "از فضای ذخیره سازی ابری خود پشتیبان تهیه کنید"
 
+#, fuzzy
 msgctxt "upgrade_item_company_logo"
 msgid "Put your company logo onto images"
-msgstr ""
+msgstr "لوگوی شرکت خود را روی تصاویر قرار دهید"
 
 #, fuzzy
 msgctxt "upgrade_item_data_tables"
@@ -704,18 +732,18 @@ msgid ""
 "href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;Export "
 "measurements as data tables&lt;/a&gt;."
 msgstr ""
-"&lt;a "
-"href=\"https://www.imagemeter.com/manual/templates/overview\"&gt;اندازه "
-"گیری ها را به عنوان جداول داده صادر کنید&lt;/a&gt;."
+"<a href=\"https://www.imagemeter.com/manual/templates/overview\">اندازه "
+"گیری ها را به عنوان جداول داده صادر کنید</a>."
 
+#, fuzzy
 msgctxt "upgrade_item_includes_basic"
 msgid "Includes Basic version"
-msgstr ""
+msgstr "شامل نسخه پایه"
 
 #, fuzzy
 msgctxt "upgrade_item_all_addon_packs"
 msgid "Includes Pro version"
-msgstr ""
+msgstr "شامل نسخه حرفه‌ای"
 
 #. dialogs that explain why we need an upgrade
 #, c-format
@@ -723,10 +751,10 @@ msgctxt "needUpgradeDialog_titleTemplate"
 msgid "%1$s Add-On"
 msgstr "%1$s افزونه"
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "needUpgradeDialog_mayStartApplication"
 msgid "You can only use the app with the '%1$s' upgrade."
-msgstr ""
+msgstr "شما فقط می‌توانید از برنامه با ارتقاء '%1$s' استفاده کنید."
 
 #, c-format
 msgctxt "needUpgradeDialog_createSubfolders"
@@ -779,12 +807,14 @@ msgid "Exporting data tables is available in the Business version."
 msgstr "صادر کردن جداول داده در نسخه تجاری موجود است."
 
 #. TODO: demo video
-#, c-format
+#, c-format, fuzzy
 msgctxt "needUpgradeDialog_counter"
 msgid ""
 "The counting tool is available in the '%1$s' add-on. Watch the <a "
 "href=\"%2$s\">tutorial video</a> to learn more about this tool."
 msgstr ""
+"ابزار شمارش در افزونه '%1$s' موجود است. برای کسب اطلاعات بیشتر در مورد "
+"این ابزار، <a href=\"%2$s\">ویدیوی آموزشی</a> را تماشا کنید."
 
 #, fuzzy
 msgctxt "needUpgradeDialog_button_getBusinessVersion"
@@ -820,10 +850,12 @@ msgid "Show migration instructions"
 msgstr "دستورالعمل های مهاجرت را نشان دهید"
 
 #. licensing: volume key dialog
+#, fuzzy
 msgctxt "licensing_company_key_title"
 msgid "Company configuration key"
-msgstr ""
+msgstr "کلید پیکربندی شرکت"
 
+#, fuzzy
 msgctxt "licensing_volume_key_note"
 msgid ""
 "Note: you don't need to enter any key when you purchased through the "
@@ -832,49 +864,60 @@ msgstr ""
 "توجه: هنگام خرید از طریق فروشگاه گوگل پلی نیازی به وارد کردن هیچ کلیدی "
 "نیست."
 
+#, fuzzy
 msgctxt "licensing_company_key_description"
 msgid "Please enter your company key:"
-msgstr ""
+msgstr "لطفا کلید شرکت خود را وارد کنید:"
 
 msgctxt "licensing_volume_key_send_button"
 msgid "Send"
 msgstr "ارسال"
 
+#, fuzzy
 msgctxt "licensing_company_key_error_parse_server_response"
 msgid "Error parsing server response."
-msgstr ""
+msgstr "خطا در تجزیه پاسخ سرور."
 
+#, fuzzy
 msgctxt "licensing_company_key_error_invalid_license_code"
 msgid "Invalid key."
-msgstr ""
+msgstr "کلید نامعتبر است."
 
+#, fuzzy
 msgctxt "licensing_company_key_success"
 msgid "Key activated"
-msgstr ""
+msgstr "کلید فعال شد"
 
+#, fuzzy
 msgctxt "licensing_revoke_device_title"
 msgid "Revoke device"
-msgstr ""
+msgstr "لغو دستگاه"
 
+#, fuzzy
 msgctxt "licensing_revoke_device_descr"
 msgid ""
 "The license is already assigned to the maximum number of devices.\n"
 "\n"
 "Select the device for which the license should be revoked."
 msgstr ""
+"این مجوز قبلاً به حداکثر تعداد دستگاه‌ها اختصاص داده شده است.\n"
+"\n"
+"دستگاهی را که مجوز آن باید لغو شود، انتخاب کنید."
 
+#, fuzzy
 msgctxt "licensing_revoke_device_button_revoke"
 msgid "Revoke"
-msgstr ""
+msgstr "لغو کردن"
 
 #. in-app payment
 msgctxt "inapp_error_billing_unavailable"
 msgid "Billing is not available."
 msgstr "صورتحساب در دسترس نیست."
 
+#, fuzzy
 msgctxt "inapp_error_feature_not_supported"
 msgid "Feature is not supported."
-msgstr ""
+msgstr "ویژگی پشتیبانی نمی‌شود."
 
 msgctxt "inapp_error_item_already_owned"
 msgid "Item is already owned."
@@ -940,17 +983,20 @@ msgctxt "upgrade_licenseName_addon_without_base_license"
 msgid "Add-on without base license"
 msgstr "افزونه بدون مجوز پایه"
 
+#, fuzzy
 msgctxt "upgrade_licenseName_freeEvaluation"
 msgid "Free Evaluation"
-msgstr ""
+msgstr "ارزیابی رایگان"
 
+#, fuzzy
 msgctxt "upgrade_licenseName_business"
 msgid "Business"
-msgstr ""
+msgstr "تجارت"
 
+#, fuzzy
 msgctxt "upgrade_licenseName_pro"
 msgid "Pro"
-msgstr ""
+msgstr "حرفه ای"
 
 msgctxt "license_source_pro_key_app"
 msgid "Pro-key app"
@@ -960,9 +1006,10 @@ msgctxt "license_source_volume_key"
 msgid "Volume key"
 msgstr "کلید حجم"
 
+#, fuzzy
 msgctxt "cannot_open_web_link_browser"
 msgid "Cannot open web browser to show URL."
-msgstr ""
+msgstr "مرورگر وب برای نمایش URL باز نمی‌شود."
 
 #. info messages
 #, fuzzy
@@ -1120,9 +1167,10 @@ msgctxt "pdf_import_page_selection_output_image_resolution_value"
 msgid "%1$.1f MP"
 msgstr "%1$.1f MP"
 
+#, fuzzy
 msgctxt "pdf_import_page_selection_calibrate_to_page_size"
 msgid "Calibrate to page size"
-msgstr ""
+msgstr "کالیبره کردن با اندازه صفحه"
 
 msgctxt "pdf_import_page_selection_importButton"
 msgid "Import"
@@ -1283,9 +1331,10 @@ msgid "Compressing ZIP file…"
 msgstr "فشرده سازی فایل ZIP..."
 
 #. CSV export
+#, fuzzy
 msgctxt "dialog_csv_export_title"
-msgid "Data table export (CSV)"
-msgstr "صادر کردن جدول داده (CSV)"
+msgid "Data table export (XLSX / CSV)"
+msgstr "صادر کردن جدول داده (XLSX / CSV)"
 
 #. export
 #. notifications
@@ -1328,9 +1377,10 @@ msgctxt "notification_channel_error_messages_title"
 msgid "Error messages"
 msgstr "پیغام خطا"
 
+#, fuzzy
 msgctxt "notification_channel_bluetooth_title"
 msgid "Bluetooth connection"
-msgstr ""
+msgstr "اتصال بلوتوث"
 
 msgctxt "notification_error_importing_IMI_title"
 msgid "Error importing IMI file"
@@ -1412,9 +1462,10 @@ msgctxt "pref_category_user_interface"
 msgid "User interface"
 msgstr "استفاده از واسط"
 
+#, fuzzy
 msgctxt "pref_category_workflow"
 msgid "Workflow"
-msgstr ""
+msgstr "جریان کار"
 
 msgctxt "pref_category_storage"
 msgid "Storage"
@@ -1424,9 +1475,10 @@ msgctxt "pref_category_templates"
 msgid "Templates and data tables"
 msgstr "قالب ها و جداول داده ها"
 
+#, fuzzy
 msgctxt "pref_category_company"
 msgid "Company"
-msgstr ""
+msgstr "شرکت"
 
 msgctxt "pref_category_information"
 msgid "Information"
@@ -1629,9 +1681,15 @@ msgctxt "pref_bluetooth_device_protocol_bosch_plr"
 msgid "Bosch PLR"
 msgstr "Bosch PLR"
 
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_bosch_advdist_50c"
+msgid "Bosch AdvancedDistance 50C"
+msgstr "Bosch AdvancedDistance 50C"
+
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_bosch_dle150c"
 msgid "Bosch DLE150c"
-msgstr ""
+msgstr "Bosch DLE150c"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm50c"
 msgid "Bosch GLM50c"
@@ -1645,9 +1703,10 @@ msgctxt "pref_bluetooth_device_protocol_bosch_glm120c"
 msgid "Bosch GLM120c"
 msgstr "Bosch GLM120c"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_bosch_glm150c"
 msgid "Bosch GLM150c"
-msgstr ""
+msgstr "Bosch GLM150c"
 
 msgctxt "pref_bluetooth_device_protocol_bosch_glm400c"
 msgid "Bosch GLM400c"
@@ -1657,33 +1716,40 @@ msgctxt "pref_bluetooth_device_protocol_bosch_glm50_27c"
 msgid "Bosch GLM50-27c"
 msgstr "Bosch GLM50-27c"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_bosch_glm165_27c"
 msgid "Bosch GLM165-27c"
-msgstr ""
+msgstr "Bosch GLM165-27c"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_bosch_glm100_25c"
 msgid "Bosch GLM100-25c"
-msgstr ""
+msgstr "Bosch GLM100-25c"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_bosch_glm150_27c"
 msgid "Bosch GLM150-27c"
-msgstr ""
+msgstr "Bosch GLM150-27c"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_cem_ildm150_old"
 msgid "CEM iLDM-150 (BT classic)"
-msgstr ""
+msgstr "CEM iLDM-150 (کلاسیک BT)"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_cem_ildm150_new"
 msgid "CEM iLDM-150 (BT 4.0)"
-msgstr ""
+msgstr "CEM iLDM-150 (BT 4.0)"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_cem_ildm80c"
 msgid "CEM iLDM-80C"
-msgstr ""
+msgstr "CEM iLDM-80C"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_cem_ildm25"
 msgid "CEM iLDM-25"
-msgstr ""
+msgstr "CEM iLDM-25"
 
 msgctxt "pref_bluetooth_device_protocol_etape16"
 msgid "eTape16"
@@ -1697,37 +1763,108 @@ msgctxt "pref_bluetooth_device_protocol_hilti_pd"
 msgid "Hilti PD Bluetooth LE"
 msgstr "Hilti PD Bluetooth LE"
 
-msgctxt "pref_bluetooth_device_protocol_stabila"
-msgid "Stabila"
-msgstr "پایدار"
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_stabila_ld250bt"
+msgid "Stabila LD250BT"
+msgstr "Stabila LD250BT"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_stabila_ld520"
+msgid "Stabila LD520"
+msgstr "Stabila LD520"
 
 msgctxt "pref_bluetooth_device_protocol_wuerth"
 msgid "Würth WDM 3–19"
 msgstr "Würth WDM 3–19"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_wuerth_wdm814"
 msgid "Würth WDM 8–14"
-msgstr ""
+msgstr "Würth WDM 8–14"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_wuerth_wdm622"
 msgid "Würth WDM 6–22"
-msgstr ""
+msgstr "Würth WDM 6–22"
 
-msgctxt "pref_bluetooth_device_protocol_leica_disto_classic"
-msgid "Leica Disto classic"
-msgstr "Leica Disto classic"
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_wuerth_wdm924"
+msgid "Würth WDM 9–24"
+msgstr "Würth WDM 9–24"
 
-msgctxt "pref_bluetooth_device_protocol_leica_disto_bt4"
-msgid "Leica Disto Bluetooth LE"
-msgstr "Leica Disto Bluetooth LE"
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d3a_bt"
+msgid "Leica Disto D3a-BT"
+msgstr "Leica Disto D3a-BT"
 
-msgctxt "pref_bluetooth_device_protocol_leica_disto_x"
-msgid "Leica Disto X3/X4"
-msgstr "Leica Disto X3/X4"
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d330i"
+msgid "Leica Disto D330i"
+msgstr "Leica Disto D330i"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_plus"
+msgid "Leica Disto Plus"
+msgstr "Leica Disto Plus"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_a6"
+msgid "Leica Disto A6"
+msgstr "Leica Disto A6"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_laserproducts_lt44xl"
+msgid "LaserProducts LT44XL"
+msgstr "LaserProducts LT44XL"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d110"
+msgid "Leica Disto D110"
+msgstr "Leica Disto D110"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d510"
+msgid "Leica Disto D510"
+msgstr "Leica Disto D510"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d810"
+msgid "Leica Disto D810"
+msgstr "Leica Disto D810"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x3"
+msgid "Leica Disto X3"
+msgstr "Leica Disto X3"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x4"
+msgid "Leica Disto X4"
+msgstr "Leica Disto X4"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_x6"
+msgid "Leica Disto X6"
+msgstr "Leica Disto X6"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d5"
+msgid "Leica Disto D5"
+msgstr "Leica Disto D5"
 
 msgctxt "pref_bluetooth_device_protocol_leica_disto_d1"
 msgid "Leica Disto D1"
 msgstr "Leica Disto D1"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d2"
+msgid "Leica Disto D2"
+msgstr "Leica Disto D2"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_leica_disto_d8"
+msgid "Leica Disto D8"
+msgstr "Leica Disto D8"
 
 msgctxt "pref_bluetooth_device_protocol_lti_trupulse"
 msgid "LTI TruPulse"
@@ -1741,13 +1878,15 @@ msgctxt "pref_bluetooth_device_protocol_stanley_tlm99si"
 msgid "Stanley TLM99si"
 msgstr "Stanley TLM99si"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_stanley_tlm165si"
 msgid "Stanley TLM165si"
-msgstr ""
+msgstr "Stanley TLM165si"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_dewalt_de03050"
 msgid "DeWalt DW03050-XJ"
-msgstr ""
+msgstr "DeWalt DW03050-XJ"
 
 msgctxt "pref_bluetooth_device_protocol_suaoki"
 msgid "Suaoki"
@@ -1757,9 +1896,10 @@ msgctxt "pref_bluetooth_device_protocol_mileseey_p7"
 msgid "Mileseey P7"
 msgstr "Mileseey P7"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_mileseey_p9"
 msgid "Mileseey P9"
-msgstr ""
+msgstr "Mileseey P9"
 
 msgctxt "pref_bluetooth_device_protocol_mileseey_r2b"
 msgid "Mileseey R2B"
@@ -1769,25 +1909,44 @@ msgctxt "pref_bluetooth_device_protocol_mileseey_m120"
 msgid "Mileseey M120"
 msgstr "Mileseey M120"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_mileseey_m130"
 msgid "Mileseey M130"
-msgstr ""
+msgstr "Mileseey M130"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_mileseey_dt20"
 msgid "Mileseey DT20"
-msgstr ""
+msgstr "Mileseey DT20"
 
 msgctxt "pref_bluetooth_device_protocol_sndway_sw_s100"
 msgid "Sndway SW-S100"
 msgstr "ndway SW-S100"
 
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_sndway_sw_80gq"
+msgid "Sndway SW-80GQ"
+msgstr "Sndway SW-80GQ"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_sndway_sw_120gq"
+msgid "Sndway SW-120GQ"
+msgstr "Sndway SW-120GQ"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_sndway_sw_150gq"
+msgid "Sndway SW-150GQ"
+msgstr "Sndway SW-150GQ"
+
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_uni_t_lm40b"
 msgid "UNI-T LM40B"
-msgstr ""
+msgstr "UNI-T LM40B"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_uni_t_lm120d"
 msgid "UNI-T LM120D"
-msgstr ""
+msgstr "UNI-T LM120D"
 
 msgctxt "pref_bluetooth_device_protocol_precaster_cx100"
 msgid "Precaster CX100"
@@ -1797,33 +1956,39 @@ msgctxt "pref_bluetooth_device_protocol_ada_cosmo120"
 msgid "Ada Cosmo 120"
 msgstr "Ada Cosmo 120"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_ada_cosmo150"
 msgid "Ada Cosmo 150"
-msgstr ""
+msgstr "Ada Cosmo 150"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_ada_cosmo60green"
 msgid "Ada Cosmo 60 Green"
-msgstr ""
+msgstr "Ada Cosmo 60 Green"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_ada_micro25"
 msgid "Ada Micro 25"
-msgstr ""
+msgstr "Ada Micro 25"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_instrumax_sniper80plus"
 msgid "Instrumax Sniper 80 Plus"
-msgstr ""
+msgstr "Instrumax Sniper 80 Plus"
 
 msgctxt "pref_bluetooth_device_protocol_laserliner_compactpro"
 msgid "Laserliner Compact Pro"
 msgstr "لیزرلینر جمع و جور حرفه ای "
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_laserliner_compactplus"
 msgid "Laserliner Compact Plus"
-msgstr ""
+msgstr "لیزرلینر کامپکت پلاس"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_laserliner_gi7pro"
 msgid "Laserliner Gi7 Pro"
-msgstr ""
+msgstr "Laserliner Gi7 Pro"
 
 msgctxt "pref_bluetooth_device_protocol_toolsmart_anglefinder"
 msgid "ToolSmart-AngleFinder"
@@ -1833,105 +1998,143 @@ msgctxt "pref_bluetooth_device_protocol_condtrol_xp3"
 msgid "Condtrol XP3/XP4 Pro"
 msgstr "Condtrol XP3/XP4 Pro"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_condtrol_vector60"
 msgid "Condtrol Vector 60"
-msgstr ""
+msgstr "Condtrol Vector 60"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_condtrol_vector80"
 msgid "Condtrol Vector 80"
-msgstr ""
+msgstr "Condtrol Vector 80"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_condtrol_vector100"
 msgid "Condtrol Vector 100"
-msgstr ""
+msgstr "Condtrol Vector 100"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_stier_sle120"
 msgid "Stier SLE-120"
-msgstr ""
+msgstr "Stier SLE-120"
 
 msgctxt "pref_bluetooth_device_protocol_sola_vector_100"
 msgid "Sola Vector 100 Pro"
 msgstr "Sola Vector 100 Pro"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_sola_metron_30"
 msgid "Sola Metron 30 BT"
-msgstr ""
+msgstr "Sola Metron 30 BT"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_sola_metron_60"
 msgid "Sola Metron 60 BT"
-msgstr ""
+msgstr "Sola Metron 60 BT"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_sola_metron_80"
 msgid "Sola Metron 80 BTC"
-msgstr ""
+msgstr "Sola Metron 80 BTC"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_sola_go_smart"
 msgid "Sola GO! smart"
-msgstr ""
+msgstr "Sola GO! smart"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_sola_cito"
 msgid "Sola Cito"
-msgstr ""
+msgstr "Sola Cito"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_solaflex_rx5"
+msgid "Solaflex RX5"
+msgstr "Solaflex RX5"
 
 msgctxt "pref_bluetooth_device_protocol_einhell_te_ld60"
 msgid "Einhell TE-LD60"
 msgstr "Einhell TE-LD60"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_optex_btl40"
 msgid "OPTEX BTL-40"
-msgstr ""
+msgstr "OPTEX BTL-40"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_popoman_lmbt60"
 msgid "Popoman LMBT60"
-msgstr ""
+msgstr "Popoman LMBT60"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_meethk_ms_bldm440"
 msgid "Meet HK MS-BLDM440"
-msgstr ""
+msgstr "Meet HK MS-BLDM440"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_renpho_tape_measure"
 msgid "Renpho tape measure"
-msgstr ""
+msgstr "متر نواری Renpho"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_magpie_vh80"
 msgid "Magpie VH-80"
-msgstr ""
+msgstr "Magpie VH-80"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_laserliner_laserrange_master_t4pro"
 msgid "Laserliner LaserRange-Master T4 Pro"
-msgstr ""
+msgstr "Laserliner LaserRange-Master T4 Pro"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_geodist_80"
 msgid "GeoDist 80"
-msgstr ""
+msgstr "GeoDist 80"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_geodist_100_touch"
 msgid "GeoDist 100 Touch"
-msgstr ""
+msgstr "GeoDist 100 Touch"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_lomvum_e60"
 msgid "Lomvum E60"
-msgstr ""
+msgstr "Lomvum E60"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_fnirsi_ir40"
 msgid "Fnirsi IR40"
-msgstr ""
+msgstr "Fnirsi IR40"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_noyafa_nf273"
 msgid "Noyafa NF-273"
-msgstr ""
+msgstr "Noyafa NF-273"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_hersch_lem50"
 msgid "Hersch LEM-50"
-msgstr ""
+msgstr "Hersch LEM-50"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_hersch_lem150"
 msgid "Hersch LEM-150"
-msgstr ""
+msgstr "Hersch LEM-150"
 
+#, fuzzy
 msgctxt "pref_bluetooth_device_protocol_thinrad_t100c"
 msgid "Thinrad T100C"
-msgstr ""
+msgstr "Thinrad T100C"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_hozo_neorulergo"
+msgid "Hozo NeoRulerGO"
+msgstr "Hozo NeoRulerGO"
+
+#, fuzzy
+msgctxt "pref_bluetooth_device_protocol_reekon_t1"
+msgid "Reekon T1"
+msgstr "Reekon T1"
 
 msgctxt "pref_bluetooth_lti_trupulse_distance_mode_title"
 msgid "LTI TruPulse distance mode"
@@ -1969,8 +2172,14 @@ msgctxt "pref_bluetooth_use_device_format"
 msgid "Use device value format"
 msgstr "استفاده از فرمت مقادیر دستگاه"
 
+#, fuzzy
+msgctxt "pref_bluetooth_use_keyboard_device_format"
+msgid "Use keyboard device value format"
+msgstr "استفاده از فرمت مقدار دستگاه صفحه‌کلید"
+
+#, fuzzy
 msgctxt "pref_bluetooth_use_device_format_summaryon"
-msgid "Same value format (not available for all devices)"
+msgid "Device format (not available for all devices)"
 msgstr "فرمت مقادیر مشابه (برای همۀ دستگاه ها وجود ندارد)"
 
 msgctxt "pref_bluetooth_use_device_format_summaryoff"
@@ -2001,20 +2210,23 @@ msgctxt "pref_category_editor_general"
 msgid "General"
 msgstr "عمومی"
 
+#, fuzzy
 msgctxt "pref_ui_editor_fullscreen_mode_title"
-msgid "Editor fullscreen mode"
-msgstr "حالت تمام صفحه ویرایشگر"
+msgid "Hide system toolbar"
+msgstr "پنهان کردن نوار ابزار سیستم"
 
+#, fuzzy
 msgctxt "pref_ui_editor_fullscreen_mode_dialog"
-msgid "Editor fullscreen mode"
-msgstr "حالت تمام صفحه ویرایشگر"
+msgid "Hide system toolbar"
+msgstr "پنهان کردن نوار ابزار سیستم"
 
 msgctxt "pref_ui_editor_fullscreen_mode_choices:0"
 msgid "Never"
 msgstr "هرگز"
 
+#, fuzzy
 msgctxt "pref_ui_editor_fullscreen_mode_choices:1"
-msgid "Only landscape"
+msgid "Only in landscape orientation"
 msgstr "فقط عمودی"
 
 msgctxt "pref_ui_editor_fullscreen_mode_choices:2"
@@ -2028,6 +2240,11 @@ msgstr "نمایش کشویی زوم"
 msgctxt "pref_editor_keep_screen_on"
 msgid "Keep screen on while editing"
 msgstr "هنگام ویرایش صفحه را روشن نگه دارید"
+
+#, fuzzy
+msgctxt "pref_editor_show_image_title"
+msgid "Show image title"
+msgstr "نمایش عنوان تصویر"
 
 msgctxt "pref_ui_editor_dragging_speed"
 msgid "Dragging slowdown"
@@ -2057,25 +2274,30 @@ msgctxt "pref_ui_editor_dragging_speed_choices:3"
 msgid "25%"
 msgstr "25%"
 
+#, fuzzy
 msgctxt "pref_ui_editor_tool_long_press_action"
 msgid "Long-press on tool selection"
-msgstr ""
+msgstr "فشار طولانی روی انتخاب ابزار"
 
+#, fuzzy
 msgctxt "pref_ui_editor_tool_long_press_dialog"
 msgid "Long-press on tool selection"
-msgstr ""
+msgstr "فشار طولانی روی انتخاب ابزار"
 
+#, fuzzy
 msgctxt "pref_ui_editor_tool_long_press_choices:0"
 msgid "No action"
-msgstr ""
+msgstr "هیچ اقدامی"
 
+#, fuzzy
 msgctxt "pref_ui_editor_tool_long_press_choices:1"
 msgid "Keep tool selected"
-msgstr ""
+msgstr "ابزار را انتخاب شده نگه دار"
 
+#, fuzzy
 msgctxt "pref_ui_editor_tool_long_press_vibrate"
 msgid "Vibrate on long-press on tool"
-msgstr ""
+msgstr "لرزش در فشار طولانی روی ابزار"
 
 msgctxt "pref_ui_editor_rotation"
 msgid "Interactive rotation"
@@ -2331,16 +2553,21 @@ msgctxt "pref_export_hardware_msaa_summaryoff"
 msgid "Disabled (lower output quality)"
 msgstr "غیرفعال (کیفیت خروجی کمتر)."
 
+#, fuzzy
 msgctxt "pref_export_image_filename_expression"
 msgid "Expression for output filename"
-msgstr ""
+msgstr "عبارت برای نام فایل خروجی"
 
+#, fuzzy
 msgctxt "pref_export_image_filename_expression_message"
 msgid ""
 "Please see the documentation at "
 "\"https://imagemeter.com/manual/workflow/variables\" to learn more about "
 "writing string expressions with variables."
 msgstr ""
+"لطفاً برای کسب اطلاعات بیشتر در مورد نوشتن عبارات رشته‌ای با متغیرها، به "
+"مستندات در \"https://imagemeter.com/manual/workflow/variables\" مراجعه "
+"کنید."
 
 #. ZIP
 msgctxt "pref_category_export_zip"
@@ -2385,9 +2612,10 @@ msgctxt "pref_export_pdf_show_options_summary_off"
 msgid "Options dialog will be skipped"
 msgstr "گزینه ها گفتگوی چشم پوشی خواهد شد"
 
+#, fuzzy
 msgctxt "pref_export_pdf_filename_expression_from_folder"
 msgid "Expression for output filename"
-msgstr ""
+msgstr "عبارت برای نام فایل خروجی"
 
 #. <string name="pref_export_pdf_images_per_page">Images per PDF
 #. page</string>     <string
@@ -2493,9 +2721,10 @@ msgctxt "pref_ui_edit_image_after_capture_enabled"
 msgid "Edit image after capture"
 msgstr "ویرایش عکس بعد از گرفته شدن"
 
+#, fuzzy
 msgctxt "pref_category_ui_limits"
 msgid "Limits"
-msgstr ""
+msgstr "محدودیت‌ها"
 
 #. <string name="pref_ui_max_image_resolution">Maximum image
 #. resolution</string>      <string-array
@@ -2507,65 +2736,80 @@ msgstr ""
 #. name="pref_ui_pdf_import_calibrate_to_page_size">PDF import: calibrate to
 #. page size</string>
 #. initial texts
+#, fuzzy
 msgctxt "pref_category_ui_initial_titles"
 msgid "Initial titles"
-msgstr ""
+msgstr "عناوین اولیه"
 
+#, fuzzy
 msgctxt "pref_category_ui_initial_notes"
 msgid "Initial notes"
-msgstr ""
+msgstr "یادداشت‌های اولیه"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_info"
 msgid "Show scripting overview…"
-msgstr ""
+msgstr "نمایش کلی اسکریپت‌نویسی..."
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_camera"
 msgid "Title for camera images"
-msgstr ""
+msgstr "عنوان برای تصاویر دوربین"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_notes_expr_camera"
 msgid "Notes for camera images"
-msgstr ""
+msgstr "یادداشت برای تصاویر دوربین"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_import_image_with_filename"
 msgid "Imported image with filename"
-msgstr ""
+msgstr "تصویر وارد شده با نام فایل"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_import_image_no_filename"
 msgid "Imported image without filename"
-msgstr ""
+msgstr "تصویر وارد شده بدون نام فایل"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_notes_expr_import_image"
 msgid "Notes for imported image"
-msgstr ""
+msgstr "یادداشت برای تصویر وارد شده"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_import_pdf_with_filename"
 msgid "Imported PDF with filename"
-msgstr ""
+msgstr "PDF وارد شده با نام فایل"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_import_pdf_no_filename"
 msgid "imported PDF without filename"
-msgstr ""
+msgstr "PDF وارد شده بدون نام فایل"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_notes_expr_import_pdf"
 msgid "Notes for imported PDF"
-msgstr ""
+msgstr "یادداشت برای PDF وارد شده"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_title_expr_canvas"
 msgid "Title for new canvas"
-msgstr ""
+msgstr "عنوان برای بوم جدید"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_image_notes_expr_canvas"
 msgid "Notes for new canvas"
-msgstr ""
+msgstr "یادداشت برای بوم جدید"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_folder_title_expr"
 msgid "Title for new folder"
-msgstr ""
+msgstr "عنوان برای پوشه جدید"
 
+#, fuzzy
 msgctxt "pref_ui_entity_init_new_folder_notes_expr"
 msgid "Notes for new folder"
-msgstr ""
+msgstr "یادداشت برای پوشه جدید"
 
 #. numbering
 msgctxt "pref_category_ui_numbering"
@@ -2657,11 +2901,13 @@ msgctxt "pref_storage_cloud_sync_twoway_mode"
 msgid "Two-way sync mode"
 msgstr "حالت همگام سازی دو طرفه"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_keep_remote_delete_local"
 msgid ""
 "<b>Pull</b>: locally deleted images are not deleted on the server, but "
 "images deleted on the server are also deleted locally."
 msgstr ""
+"<b>Pull</b>: تصاویر حذف‌شده به‌صورت محلی از سرور حذف نمی‌شوند، اما تصاویری که از سرور حذف شده‌اند، به‌صورت محلی نیز حذف می‌شوند."
 
 #, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_safe_sync"
@@ -2669,8 +2915,7 @@ msgid ""
 "<b>Push</b>: locally deleted images are also deleted on the server, but "
 "images deleted on the server are not deleted locally."
 msgstr ""
-"عکس های حذف شده را از سرور حذف کنید ، اما وقتی عکس های محلی در جای دیگر "
-"حذف شدند ، آن ها را حفظ کنید."
+"<b>Push</b>: تصاویر حذف‌شده به‌صورت محلی از سرور نیز حذف می‌شوند، اما تصاویری که از سرور حذف شده‌اند به‌صورت محلی حذف نمی‌شوند."
 
 #, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_full_sync"
@@ -2678,8 +2923,7 @@ msgid ""
 "<b>Sync</b>: locally deleted images are also deleted on the server and "
 "images deleted on the server are deleted locally."
 msgstr ""
-"عکس های محلی را هنگامی که در هر دستگاه دیگری حذف شده اند حذف کنید (مراقب "
-"باشید)."
+"<b>Sync</b>: تصاویر حذف‌شده به‌صورت محلی از سرور نیز حذف می‌شوند و تصاویری که از سرور حذف شده‌اند، به‌صورت محلی حذف می‌شوند."
 
 #, fuzzy
 msgctxt "pref_storage_cloud_sync_twoway_mode_backup"
@@ -2687,20 +2931,22 @@ msgid ""
 "<b>Backup</b>: locally deleted images not deleted on the server and "
 "images deleted on the server are not deleted locally."
 msgstr ""
-"هرگز تصاویر را از سرور حذف نکنید.  هنگام جابجایی تصاویر ممکن است کپی "
-"بگیرید."
+"<b>Backup</b>: تصاویر حذف‌شده به‌صورت محلی از سرور حذف نمی‌شوند و تصاویری که از سرور حذف شده‌اند، به‌صورت محلی نیز حذف نمی‌شوند."
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_imageupload_mode"
 msgid "Image-upload sync mode"
-msgstr ""
+msgstr "حالت همگام‌سازی آپلود تصویر"
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_imageupload_mode_all"
 msgid "Upload folders even if they are empty."
-msgstr ""
+msgstr "پوشه‌ها را حتی اگر خالی باشند آپلود کنید."
 
+#, fuzzy
 msgctxt "pref_storage_cloud_sync_imageupload_mode_no_empty_folders"
 msgid "Only upload folders that contain images."
-msgstr ""
+msgstr "فقط پوشه‌هایی را که حاوی تصویر هستند آپلود کنید."
 
 msgctxt "pref_storage_cloud_advanced_maintenance"
 msgid "Advanced maintenance"
@@ -2841,10 +3087,10 @@ msgctxt "pref_storage_directory_memory_status"
 msgid "Memory: %1$d MB free, %2$d MB used, %3$d MB total"
 msgstr "حافظه:%1$d مگابایت رایگان ، %2$d مگابایت استفاده شده ، %3$d مگابایت در کل"
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "pref_storage_directory_memory_status_unknown_size"
 msgid "Memory: %1$d MB used"
-msgstr ""
+msgstr "حافظه: %1$d مگابایت استفاده شده"
 
 #, c-format
 msgctxt "pref_storage_directory_memory_status_unknown_used"
@@ -2865,9 +3111,10 @@ msgctxt "pref_storage_directory_deletion_behavior_unknown"
 msgid "Unknown whether data will be deleted during uninstall."
 msgstr "مشخص نیست که آیا داده ها هنگام حذف نصب حذف می شوند یا خیر."
 
+#, fuzzy
 msgctxt "pref_storage_directory_deletion_behavior_user_choice"
 msgid "Android will ask during uninstall whether to delete the data."
-msgstr ""
+msgstr "اندروید هنگام حذف نصب خواهد پرسید که آیا داده‌ها حذف شوند یا خیر."
 
 msgctxt "pref_storage_directory_not_enough_free_space_title"
 msgid "Insufficient space"
@@ -2950,6 +3197,11 @@ msgctxt "pref_cloud_storage_server_handwerkcloud"
 msgid "Handwerkcloud"
 msgstr "Handwerkcloud"
 
+#, fuzzy
+msgctxt "pref_cloud_storage_server_sftp"
+msgid "SFTP"
+msgstr "SFTP"
+
 msgctxt "pref_cloud_storage_server_imagemeter_predefined"
 msgid "ImageMeter"
 msgstr "تصویر سنج"
@@ -2969,6 +3221,11 @@ msgstr "Nextcloud / Owncloud"
 msgctxt "cloud_storage_provider_onedrive"
 msgid "OneDrive"
 msgstr "وان درایو"
+
+#, fuzzy
+msgctxt "cloud_storage_provider_sftp"
+msgid "SFTP"
+msgstr "SFTP"
 
 msgctxt "cloud_storage_server_note_drive"
 msgid ""
@@ -3001,6 +3258,7 @@ msgstr ""
 "خود را تنظیم کنید. اطلاعات مربوط به راه اندازی سرور را می توانید در پیوند"
 " مستندات بالا پیدا کنید."
 
+#, fuzzy
 msgctxt "cloud_storage_server_note_handwerkcloud"
 msgid ""
 "The Handwerkcloud service offers not only storage space for your images "
@@ -3009,11 +3267,11 @@ msgid ""
 "more information see the <a "
 "href=\"https://handwerkcloud.de\">Handwerkcloud website</a>."
 msgstr ""
-"سرویس HandwerkCloud نه تنها فضای ذخیره سازی برای عکس ها و اسناد شما را "
-"ارائه می دهد، بلکه یک مجموعه آفیس آنلاین و سایر برنامه های کاربردی را نیز"
-" در اختیار شما قرار می دهد. اشتراک HandwerkCloud شامل مجوز تجارت "
-"ImageMeter است. برای اطلاعات بیشتر، به <a "
-"href=\"https://handwerkcloud.de\"> وب سایت handwerkcloud مراجعه کنید."
+"سرویس Handwerkcloud نه تنها فضای ذخیره‌سازی برای تصاویر و اسناد شما ارائه"
+" می‌دهد، بلکه یک مجموعه اداری آنلاین و سایر برنامه‌ها را نیز ارائه "
+"می‌دهد. اشتراک Handwerkcloud شامل مجوز ImageMeter Business است. برای "
+"اطلاعات بیشتر به <a href=\"https://handwerkcloud.de\">وب‌سایت "
+"Handwerkcloud</a> مراجعه کنید."
 
 #, fuzzy
 msgctxt "cloud_storage_server_note_onedrive"
@@ -3023,6 +3281,13 @@ msgid ""
 msgstr ""
 "اگر بخواهید به راحتی از طریق ویندوز رایانه به عکس ها حاشیه نویسی خود "
 "دسترسی پیدا کنید ، باطن وان درایو مناسب خواهد بود."
+
+#, fuzzy
+msgctxt "cloud_storage_server_note_sftp"
+msgid "This backend allows you to use an SFTP server to store the data."
+msgstr ""
+"این بک‌اند به شما امکان می‌دهد از یک سرور SFTP برای ذخیره داده‌ها استفاده"
+" کنید."
 
 msgctxt "cloud_storage_do_two_way_sync"
 msgid "Do two-way sync"
@@ -3093,6 +3358,21 @@ msgstr "ورود به سیستم دستی"
 msgctxt "cloud_storage_handwerkcloud_login_button"
 msgid "Log in"
 msgstr "وارد شدن"
+
+#, fuzzy
+msgctxt "cloud_storage_sftp_fingerprint"
+msgid "Server fingerprint:"
+msgstr "اثر انگشت سرور:"
+
+#, fuzzy
+msgctxt "cloud_storage_sftp_check_sign_in"
+msgid "Check sign in"
+msgstr "بررسی ورود"
+
+#, fuzzy
+msgctxt "cloud_storage_sftp_sign_in_successful"
+msgid "Signed in successfully."
+msgstr "با موفقیت وارد شدید."
 
 msgctxt "cloud_storage_server_url"
 msgid "Server URL:"
@@ -3224,6 +3504,11 @@ msgctxt "pref_template_config_custom_unit"
 msgid "Unit:"
 msgstr "واحد:"
 
+#, fuzzy
+msgctxt "pref_template_config_custom_table_list_title"
+msgid "Custom Template Table Layouts"
+msgstr "چیدمان‌های جدول الگوی سفارشی"
+
 msgctxt "pref_template_config_custom_section_table_layouts"
 msgid "Table layouts"
 msgstr "چیدمان جدول"
@@ -3319,9 +3604,10 @@ msgctxt "pref_category_information_debugging"
 msgid "Debugging"
 msgstr "اشکال زدایی"
 
+#, fuzzy
 msgctxt "pref_information_error_log_timespan"
 msgid "Past days included in log"
-msgstr ""
+msgstr "روزهای گذشته‌ی شامل شده در گزارش"
 
 msgctxt "pref_information_send_error_log"
 msgid "Send error log by email"
@@ -3344,9 +3630,10 @@ msgctxt "pref_information_appgallery_purchases_no_purchases"
 msgid "AppGallery reports: no purchases for active account"
 msgstr "گزارش AppGallery: هیچ خریدی برای حساب فعال ندارید"
 
+#, fuzzy
 msgctxt "pref_category_information_credits"
 msgid "Credits"
-msgstr ""
+msgstr "سازندگان"
 
 msgctxt "pref_information_translator"
 msgid "."
@@ -3355,54 +3642,65 @@ msgstr ""
 "Instagram.com/_u/meysam.6335"
 
 #. Preferences: Company
+#, fuzzy
 msgctxt "pref_company_enter_config_key"
 msgid "Enter company key"
-msgstr ""
+msgstr "کلید شرکت را وارد کنید"
 
+#, fuzzy
 msgctxt "pref_company_enter_config_key_summary_set"
 msgid "Key set"
-msgstr ""
+msgstr "کلید تنظیم شد"
 
+#, fuzzy
 msgctxt "pref_company_enter_config_key_summary_unset"
 msgid "Not set"
-msgstr ""
+msgstr "تنظیم نشده است"
 
+#, fuzzy
 msgctxt "pref_company_user_id"
 msgid "User ID"
-msgstr ""
+msgstr "شناسه کاربری"
 
+#, fuzzy
 msgctxt "pref_company_set_logo"
 msgid "Set company logo"
-msgstr ""
+msgstr "تنظیم لوگوی شرکت"
 
+#, fuzzy
 msgctxt "config_company_logo_options_title"
 msgid "Company Logo"
-msgstr ""
+msgstr "لوگوی شرکت"
 
+#, fuzzy
 msgctxt "config_company_logo_options_size"
 msgid "Size"
-msgstr ""
+msgstr "اندازه"
 
+#, fuzzy
 msgctxt "config_company_logo_options_load_image"
 msgid "Load logo image"
-msgstr ""
+msgstr "بارگذاری تصویر لوگو"
 
+#, fuzzy
 msgctxt "config_company_logo_options_logo_enabled"
 msgid "Logo enabled"
-msgstr ""
+msgstr "لوگو فعال شد"
 
+#, fuzzy
 msgctxt "config_company_logo_options_logo_position"
 msgid "Logo position"
-msgstr ""
+msgstr "موقعیت لوگو"
 
+#, fuzzy
 msgctxt "config_company_logo_description"
 msgid "The company logo will be shown on exported images."
-msgstr ""
+msgstr "لوگوی شرکت در تصاویر خروجی گرفته شده نمایش داده خواهد شد."
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "config_company_logo_missing_feature_warning"
 msgid "Note: the company logo will only be shown in the %1$s version."
-msgstr ""
+msgstr "توجه: لوگوی شرکت فقط در نسخه %1$s نمایش داده می‌شود."
 
 #. ===== cloud synchronization =====
 msgctxt "cloud_storage_dialog_sync_action_title"
@@ -3588,13 +3886,15 @@ msgctxt "editor_menu_add_cumulative_dimstring"
 msgid "Cumulative string"
 msgstr "رشته تجمعی"
 
+#, fuzzy
 msgctxt "editor_menu_add_counter"
 msgid "Counter"
-msgstr ""
+msgstr "شمارنده"
 
+#, fuzzy
 msgctxt "editor_menu_add_resultslist"
 msgid "Results list"
-msgstr ""
+msgstr "لیست نتایج"
 
 #. menu / toolbar
 msgctxt "editor_menu_edit_delete"
@@ -3671,9 +3971,10 @@ msgctxt "editor_menu_edit_tag"
 msgid "Tag and properties"
 msgstr "برچسب و خواص"
 
+#, fuzzy
 msgctxt "editor_menu_edit_show_company_logo"
 msgid "Show company logo"
-msgstr ""
+msgstr "نمایش لوگوی شرکت"
 
 msgctxt "editor_menu_style"
 msgid "Style"
@@ -3759,10 +4060,15 @@ msgid ""
 "Click on the objects you want to count. Stop counting with the cancel "
 "button in the top toolbar."
 msgstr ""
+"روی اشیایی که می خواهید بشمارید کلیک کنید. شمارش را با دکمه لغو در نوار "
+"ابزار بالا متوقف کنید."
 
+#, fuzzy
 msgctxt "editor_hint_howto_draw_resultslist"
 msgid "Place the value list. It shows the total values of your counters."
 msgstr ""
+"لیست مقادیر را قرار دهید. این لیست مقادیر کل شمارنده‌های شما را نشان "
+"می‌دهد."
 
 msgctxt "editor_help_why_no_measured_value"
 msgid ""
@@ -3785,15 +4091,19 @@ msgstr ""
 "این مقدار محاسبه نمی شود ، زیرا عکس شامل دو مرجع است. لطفاً 'مقدار "
 "محاسبه' را از منو انتخاب کرده و انتخاب کنید که از کدام مرجع استفاده شود."
 
+#, fuzzy
 msgctxt "editor_help_counter_tutorial_video_url"
 msgid "https://www.youtube.com/watch?v=jBNa8TqToNY"
-msgstr ""
+msgstr "https://www.youtube.com/watch?v=jBNa8TqToNY"
 
+#, fuzzy
 msgctxt "editor_help_counter_tutorial"
 msgid ""
 "If you would like to see a short tutorial video how to use the counting "
 "tool, use the link below."
 msgstr ""
+"اگر مایل به دیدن یک ویدیوی آموزشی کوتاه در مورد نحوه استفاده از ابزار "
+"شمارش هستید، از لینک زیر استفاده کنید."
 
 msgctxt "editor_help_do_not_show_again"
 msgid "Don't show again"
@@ -3834,13 +4144,15 @@ msgctxt "editor_dialog_save_corrupted_imm_file_keep_old_button"
 msgid "Keep old data"
 msgstr "نگه داشتن اطلاعات قدیمی"
 
+#, fuzzy
 msgctxt "editor_dialog_new_counter_title"
 msgid "New counter"
-msgstr ""
+msgstr "شمارنده جدید"
 
+#, fuzzy
 msgctxt "editor_dialog_existing_counters_title"
 msgid "Existing counters"
-msgstr ""
+msgstr "شمارنده‌های موجود"
 
 msgctxt "color_dialog_special_transparent"
 msgid "Transparent"
@@ -3904,6 +4216,12 @@ msgstr "الگوی خط"
 msgctxt "editor_dialog_style_ellipse_title"
 msgid "Ellipse style"
 msgstr "سبک بیضی"
+
+#. GResultsList
+#, fuzzy
+msgctxt "editor_dialog_style_resultslist_title"
+msgid "Results list style"
+msgstr "سبک لیست نتایج"
 
 #. GMeasure
 msgctxt "editor_dialog_style_line_title"
@@ -4036,9 +4354,10 @@ msgid "Point style"
 msgstr "سبک نقطه"
 
 #. GCounter
+#, fuzzy
 msgctxt "editor_dialog_style_counter_title"
 msgid "Counter style"
-msgstr ""
+msgstr "سبک شمارنده"
 
 #. GPerspectiveLine
 msgctxt "editor_dialog_style_perspective_line_title"
@@ -4090,32 +4409,41 @@ msgid "Credit card"
 msgstr "کارت اعتباری"
 
 #. still needed for string-array name="templ_custom_labeltype"
+#, fuzzy
 msgctxt "templ_labeltype_length"
 msgid "Length"
-msgstr ""
+msgstr "طول"
 
+#, fuzzy
 msgctxt "templ_labeltype_area"
 msgid "Area"
-msgstr ""
+msgstr "مساحت"
 
+#, fuzzy
 msgctxt "templ_labeltype_angle"
 msgid "Angle"
-msgstr ""
+msgstr "زاویه"
 
+#, fuzzy
 msgctxt "templ_labeltype_any"
 msgid "Any"
-msgstr ""
+msgstr "هر"
 
+#, fuzzy
 msgctxt "stringscript_help_dialog_title"
 msgid "Brief Scripting Manual"
-msgstr ""
+msgstr "راهنمای مختصر اسکریپت‌نویسی"
 
+#, fuzzy
 msgctxt "stringscript_help_introlink"
 msgid ""
 "See <a "
 "href=\"https://imagemeter.com/manual/workflow/variables/\">here</a> for "
 "the full documentation."
 msgstr ""
+"برای مستندات کامل <a "
+"href=\"https://imagemeter.com/manual/workflow/variables/\">اینجا</a> را "
+"ببینید."
 
 #. value entry dialog
 msgctxt "dimension_format_imperial_length_unit_choices:0"
@@ -4339,33 +4667,40 @@ msgstr "کالیبراسیون"
 #. <string
 #. name="imagesettings_dialog_calibration_image_scale_image">image</string>
 #. bluetooth
+#, fuzzy
 msgctxt "bluetooth_notification_title"
 msgid "Bluetooth device connection"
-msgstr ""
+msgstr "اتصال دستگاه بلوتوث"
 
+#, fuzzy
 msgctxt "bluetooth_notification_state_text_connected"
 msgid "Connected to device"
-msgstr ""
+msgstr "متصل به دستگاه"
 
+#, fuzzy
 msgctxt "bluetooth_notification_state_text_connecting"
 msgid "Connecting to device…"
-msgstr ""
+msgstr "در حال اتصال به دستگاه..."
 
+#, fuzzy
 msgctxt "bluetooth_notification_state_text_reconnecting"
 msgid "Trying to reconnect to device…"
-msgstr ""
+msgstr "در حال تلاش برای اتصال مجدد به دستگاه..."
 
+#, fuzzy
 msgctxt "bluetooth_notification_disconnect_action"
 msgid "Disconnect"
-msgstr ""
+msgstr "قطع اتصال"
 
+#, fuzzy
 msgctxt "bluetooth_notification_stop_connecting_action"
 msgid "Stop"
-msgstr ""
+msgstr "توقف"
 
+#, fuzzy
 msgctxt "bluetooth_notification_missing_permission"
 msgid "No permission to connect to Bluetooth device."
-msgstr ""
+msgstr "مجوزی برای اتصال به دستگاه بلوتوث وجود ندارد."
 
 msgctxt "bluetooth_message_device_connected"
 msgid "Connection to Bluetooth device established."
@@ -4408,45 +4743,60 @@ msgstr ""
 "href=\"https://imagemeter.com/manual/bluetooth/connect/\">ببینید</a>"
 
 #. 151209
-#, c-format
+#, c-format, fuzzy
 msgctxt "bluetooth_error_cannot_set_value"
 msgid "Cannot set received Bluetooth value: %1$s."
-msgstr ""
+msgstr "نمی‌توان مقدار بلوتوث دریافتی را تنظیم کرد: %1$s."
 
+#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_no_active_element"
 msgid "no active element"
-msgstr ""
+msgstr "هیچ عنصر فعالی وجود ندارد"
 
+#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_element_has_no_dimension"
 msgid "element does not support measurements"
-msgstr ""
+msgstr "عنصر از اندازه‌گیری‌ها پشتیبانی نمی‌کند"
 
+#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_dimension_is_read_only"
 msgid "element value is read-only"
-msgstr ""
+msgstr "مقدار عنصر فقط خواندنی است"
 
+#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_wrong_dimension_unit"
 msgid "wrong measurement unit"
-msgstr ""
+msgstr "واحد اندازه‌گیری اشتباه است"
 
+#, fuzzy
 msgctxt "bluetooth_error_cannot_set_value_element_is_locked"
 msgid "element is locked"
-msgstr ""
+msgstr "عنصر قفل شده است"
 
+#, fuzzy
 msgctxt "bluetooth_pref_button_start_bluetooth_scan"
-msgid "Start Bluetooth device scan"
+msgid "Scan (LE)"
 msgstr "شروع اسکن دستگاه بلوتوث"
+
+#, fuzzy
+msgctxt "bluetooth_pref_button_start_bluetooth_classic_scan"
+msgid "Scan (classic)"
+msgstr "اسکن (کلاسیک)"
 
 msgctxt "bluetooth_pref_scanning_in_progress"
 msgid "Scanning ..."
 msgstr "در حال اسکن..."
 
+#, fuzzy
 msgctxt "bluetooth_pref_no_bluetooth_scan_permission"
 msgid ""
 "Cannot list Bluetooth devices because you have denied the permission to "
 "scan for Bluetooth devices. You can reenable the permission in the system"
 " settings (Apps &gt; ImageMeter &gt; Permissions)."
 msgstr ""
+"نمی‌توان دستگاه‌های بلوتوث را لیست کرد زیرا شما مجوز اسکن برای دستگاه‌های"
+" بلوتوث را رد کرده‌اید. می‌توانید این مجوز را در تنظیمات سیستم دوباره "
+"فعال کنید (برنامه‌ها > ImageMeter > مجوزها)."
 
 msgctxt "bluetooth_dialog_scan_needs_location_permission_title"
 msgid "Bluetooth scan"
@@ -4459,8 +4809,9 @@ msgid ""
 "coarse location) to scan for nearby Bluetooth devices. Please grant this "
 "permission when requested."
 msgstr ""
-"از اندروید 6، مجوز موقعیت سفت و سختی برای اسکن دستگاه های بلوتوث نزدیک "
-"لازم است. لطفاً این مجوز را هر زمان که درخواست شد تأیید نمایید."
+"از اندروید ۱۰، برای اسکن دستگاه‌های بلوتوث نزدیک، مجوز موقعیت مکانی دقیق "
+"(قبلاً موقعیت مکانی تقریبی) مورد نیاز است. لطفاً در صورت درخواست، این "
+"مجوز را اعطا کنید."
 
 msgctxt "bluetooth_le_scan_needs_location_title"
 msgid "Bluetooth LE Scan Error"
@@ -4496,13 +4847,15 @@ msgctxt "bluetooth_error_ci_E104"
 msgid "E104: Calculation error"
 msgstr "E104: خطای محاسبه"
 
+#, fuzzy
 msgctxt "bluetooth_error_ci_E152"
 msgid "E152: Temperature is too high: &gt; 40°C"
-msgstr "E152: دما خیلی زیاد است: &gt; 40°C"
+msgstr "E152: دما خیلی زیاد است: > 40°C"
 
+#, fuzzy
 msgctxt "bluetooth_error_ci_E153"
 msgid "E153: Temperature is too low: &lt; 0°C"
-msgstr "E153: دما خیلی کم است: &lt; 0°C"
+msgstr "E153: دما خیلی کم است: < 0°C"
 
 #, fuzzy
 msgctxt "bluetooth_error_ci_E154"
@@ -4671,15 +5024,18 @@ msgstr "فایل ها در حال حاضر در حال استفاده هستند
 
 #. used in PrefsStorageDirectory
 #. import/export errors
+#, python-brace-format
 msgctxt "imerror_cannot_export_image"
 msgid "Cannot export image '{}'."
 msgstr "صادر کردن عکس '{}' امکان پذیر نیست."
 
 #. other errors
+#, python-brace-format
 msgctxt "imerror_string_template_unknown_field"
 msgid "Unknown field '{}' in string template."
 msgstr "فیلد ناشناخته '{}' در الگوی رشته."
 
+#, python-brace-format
 msgctxt "imerror_string_template_syntax_error"
 msgid "Syntax error in string template '{}'."
 msgstr "خطای نوشتاری در الگوی رشته '{}'"
@@ -4767,15 +5123,15 @@ msgctxt "error_cloud_cannot_create_remote_folder_file_exists"
 msgid "Cannot create folder '%1$s' because there is a file with this name."
 msgstr "پوشه '%1$s' ایجاد نمی شود زیرا یک فایل با این نام وجود دارد."
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "error_cloud_cannot_download_file_download_error"
 msgid "Cannot download file '%1$s' from server."
-msgstr ""
+msgstr "فایل '%1$s' از سرور قابل دانلود نیست."
 
-#, c-format
+#, c-format, fuzzy
 msgctxt "error_cloud_cannot_download_file_local_write_error"
 msgid "Cannot write downloaded file '%1$s' to device."
-msgstr ""
+msgstr "فایل دانلود شده '%1$s' در دستگاه قابل نوشتن نیست."
 
 #, c-format
 msgctxt "error_cloud_cannot_get_remote_metadata"
@@ -5179,11 +5535,13 @@ msgctxt "UNUSED_dialog_duplicate_folder_import_skip"
 msgid "Skip"
 msgstr "چشم پوشی"
 
+#, fuzzy
 msgctxt "dummy:0"
 msgid "item 1"
-msgstr ""
+msgstr "آیتم ۱"
 
+#, fuzzy
 msgctxt "dummy:1"
 msgid "item 2"
-msgstr ""
+msgstr "آیتم ۲"
 
